@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Anatomy of an Autonomous Trading Agent",
+    "content": "Unlike a simple script that follows 'if-then' rules, an AI Agent uses an LLM to 'reason' through a goal. It can check multiple tools—such as a news scraper, a technical indicator library, and a brokerage API—and decide on its own the best sequence of actions to achieve a target return within risk limits.",
+    "description": "You task an agent with 'Hedging the portfolio against a sudden drop in the Euro.' The agent first checks the current EUR/USD price, then reads the latest ECB meeting minutes, and finally decides to buy put options. Why is this considered 'Agentic' behavior?",
+    "options": [
+      "Because it used a high-speed internet connection.",
+      "Because it autonomously selected which tools to use and in what order to solve a high-level objective.",
+      "Because it was programmed with a 1,000-line 'if-else' statement.",
+      "Because it made a profit on the trade."
+    ],
+    "answer": "Because it autonomously selected which tools to use and in what order to solve a high-level objective.",
+    "explanation": "Agency is defined by the ability to use tools and reasoning to solve complex goals without every single intermediate step being hard-coded by the developer."
+  },
+  {
+    "question": "Safety Protocols and 'Kill Switches'",
+    "content": "A 'Kill Switch' is a manual or automated override that instantly flattens all positions (sells everything) and halts the bot. In automated trading, this is the ultimate safety net for when an AI agent begins to behave irrationally due to 'hallucinations' or extreme market conditions.",
+    "description": "An AI bot is caught in a 'loop' where it buys and sells the same stock every second, losing money on transaction fees. What is the most immediate action the administrator should take?",
+    "options": [
+      "Wait for the AI to realize the mistake and stop.",
+      "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
+      "Try to edit the bot's prompt while it is still trading.",
+      "Lower the transaction fees at the brokerage."
+    ],
+    "answer": "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
+    "explanation": "When an autonomous system fails, you must remove its power to trade immediately. Kill switches prevent 'algorithmic meltdowns' from draining an account in minutes."
+  },
+  {
+    "question": "Execution Algorithms: VWAP and TWAP",
+    "content": "AI bots don't just 'hit buy'; they use execution algorithms to hide their activity from other traders. VWAP (Volume Weighted Average Price) and TWAP (Time Weighted Average Price) are methods that break a large order into small pieces to ensure the bot gets a fair price without moving the market.",
+    "description": "Your AI agent needs to buy 1 million shares of a stock. If it buys them all at once, the price will skyrocket, and the bot will get a bad 'fill.' How should the agent execute this?",
+    "options": [
+      "Buy everything at the 'Market' price immediately.",
+      "Use a VWAP algorithm to spread the buying throughout the day based on historical volume patterns.",
+      "Post about the trade on social media first to get others to buy.",
+      "Wait for the price to drop to zero before buying."
+    ],
+    "answer": "Use a VWAP algorithm to spread the buying throughout the day based on historical volume patterns.",
+    "explanation": "Execution algorithms minimize 'Market Impact.' By following volume (VWAP), the bot blends in with the rest of the market and achieves a better average price."
+  },
+  {
+    "question": "Monitoring and Logging Bot Performance",
+    "content": "An automated bot needs a 'Heartbeat Monitor'—a system that checks if the bot is still 'alive' and connected to the exchange. Monitoring also involves tracking 'Slippage' (the difference between the price the AI expected and the price it actually got).",
+    "description": "You notice your bot's expected returns are 5%, but the actual returns are 2% due to high slippage. What does this indicate about your bot's development?",
+    "options": [
+      "The AI is getting worse at math.",
+      "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
+      "The stock market is trying to steal the bot's money.",
+      "The bot needs a faster CPU."
+    ],
+    "answer": "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
+    "explanation": "Slippage is a sign of 'execution friction.' Monitoring this allows developers to refine how the bot places orders, such as switching from 'Market' orders to 'Limit' orders."
+  },
+  {
+    "question": "Handling 'API Disconnects' Gracefully",
+    "content": "In live trading, internet outages or brokerage maintenance are inevitable. A robust AI bot must have 'Reconnection Logic'—the ability to detect a lost connection, pause its 'brain,' and resume only after verifying the current state of its open positions.",
+    "description": "The internet goes out for 10 minutes. When it returns, what is the first thing the AI agent should do before it starts trading again?",
+    "options": [
+      "Immediately place the trades it missed while it was offline.",
+      "Synchronize its internal 'State' with the broker to see which orders were filled or canceled during the outage.",
+      "Assume nothing changed and continue as normal.",
+      "Start a new trading day from scratch."
+    ],
+    "answer": "Synchronize its internal 'State' with the broker to see which orders were filled or canceled during the outage.",
+    "explanation": "Synchronization is vital. The bot must know exactly what it currently owns (its 'State') before making new decisions to avoid accidental over-exposure or double-trading."
+  },
+  {
+    "question": "Multi-Agent Systems (MAS) in Trading",
+    "content": "A Multi-Agent System uses different AI 'personalities' to work together. For example, one agent might be a 'Bull' (looking for reasons to buy), another a 'Bear' (looking for risks), and a third a 'Moderator' who makes the final decision based on their debate.",
+    "description": "Why would a developer use three small AI agents instead of one large one to manage a portfolio?",
+    "options": [
+      "To save on API costs.",
+      "To simulate a 'Digital Investment Committee,' reducing individual bias and catching errors through internal debate.",
+      "Because smaller agents are always smarter than large ones.",
+      "To make the software more complicated and impressive."
+    ],
+    "answer": "To simulate a 'Digital Investment Committee,' reducing individual bias and catching errors through internal debate.",
+    "explanation": "MAS architectures provide 'Cognitive Diversity.' By forcing different agents to argue different sides of a trade, the system is less likely to fall for a single 'hallucination' or biased news source."
+  },
+  {
+    "question": "Rate Limiting and 'Backoff' Strategies",
+    "content": "Brokers and AI providers limit how many requests you can send per second. A 'Backoff' strategy means if the bot gets a 'Too Many Requests' error, it waits for a few seconds (and increases that wait time if errors continue) to avoid being permanently banned.",
+    "description": "Your bot is hitting the OpenAI rate limit during a period of high market volatility. What is the best programmatic solution?",
+    "options": [
+      "Spam the API even harder until it lets you through.",
+      "Implement an 'Exponential Backoff' where the bot waits 1s, then 2s, then 4s, until the server responds.",
+      "Stop trading for the rest of the year.",
+      "Buy a second computer to send more requests."
+    ],
+    "answer": "Implement an 'Exponential Backoff' where the bot waits 1s, then 2s, then 4s, until the server responds.",
+    "explanation": "Exponential backoff is a standard networking practice. it allows the system to recover gracefully without overwhelming the service provider or triggering a security block."
+  },
+  {
+    "question": "The 'Shadow Mode' Deployment",
+    "content": "Before giving an agent full autonomy, it is often run in 'Shadow Mode.' The agent makes decisions and records them as if it were trading, but it doesn't actually send orders to the broker. This allows humans to verify the agent's 'logic' in a live market without risk.",
+    "description": "What is the primary difference between 'Backtesting' and 'Shadow Mode'?",
+    "options": [
+      "Backtesting uses historical data; Shadow Mode uses real-time, live market data without spending real money.",
+      "Backtesting is for humans; Shadow Mode is for AI.",
+      "Shadow Mode is much faster than Backtesting.",
+      "There is no difference."
+    ],
+    "answer": "Backtesting uses historical data; Shadow Mode uses real-time, live market data without spending real money.",
+    "explanation": "Shadow Mode is the 'Final Exam.' It tests how the agent handles the 'messiness' of live data (delays, news spikes, API errors) before it is trusted with capital."
+  },
+  {
+    "question": "Agentic Memory: Short-term vs. Long-term",
+    "content": "AI agents use 'Short-term memory' (the current conversation context) to handle immediate tasks and 'Long-term memory' (a database of past trades and mistakes) to avoid repeating errors. This allows a bot to 'learn' that it shouldn't trust a specific news source that was wrong in the past.",
+    "description": "A bot loses money on a trade because it trusted a fake tweet. How can 'Long-term memory' help the bot in the future?",
+    "options": [
+      "It can delete the history of the loss so the developer doesn't see it.",
+      "It can store the source's metadata in a 'Blacklist' and refer to it before making the next trade.",
+      "It can remember to be sad about the loss.",
+      "It doesn't help; AI cannot learn from its own mistakes."
+    ],
+    "answer": "It can store the source's metadata in a 'Blacklist' and refer to it before making the next trade.",
+    "explanation": "By utilizing persistent storage (like a Vector Database), an agent can build a 'knowledge base' of its own performance, becoming more refined and risk-averse over time."
+  },
+  {
+    "question": "Defining the 'Reward Function'",
+    "content": "In Reinforcement Learning (a type of AI used in bots), the 'Reward Function' tells the AI what 'success' looks like. If you only reward 'Total Profit,' the AI might take extreme risks. A good reward function balances 'Profit' with 'Low Volatility' and 'Minimal Drawdown.'",
+    "description": "You program an AI bot with a reward function that only cares about 'Highest Possible Return.' What is the most likely dangerous outcome?",
+    "options": [
+      "The bot will become too bored to trade.",
+      "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",
+      "The bot will only trade on Mondays.",
+      "The bot will refuse to make any trades at all."
+    ],
+    "answer": "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",
+    "explanation": "AI will 'optimize' exactly what you tell it to. Without 'Risk' penalties in the reward function, the agent will choose the most aggressive path to maximize the single metric of profit, regardless of the danger."
+  }
+]
