@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Law of Large Numbers",
+    "content": "The Law of Large Numbers is a mathematical principle stating that as the number of independent exposure units increases, the actual loss experience will more closely develop toward the expected loss. This predictability is what allows insurance companies to set stable premiums.",
+    "description": "An insurance startup is deciding whether to cover 100 people or 100,000 people for health insurance. Why is the larger group statistically safer for the company's financial stability?",
+    "options": [
+      "Because larger groups pay higher individual premiums",
+      "Because the average outcome becomes more predictable and less volatile",
+      "Because it is impossible for 100,000 people to get sick at once",
+      "Because the government only regulates groups over 10,000"
+    ],
+    "answer": "Because the average outcome becomes more predictable and less volatile",
+    "explanation": "With a large sample size, individual variations (outliers) cancel each other out, making the total cost of claims highly predictable according to the Law of Large Numbers."
+  },
+  {
+    "question": "Moral Hazard",
+    "content": "Moral hazard occurs when a party insulated from risk behaves differently than they would if they were fully exposed to that risk. In insurance, this often manifests as a policyholder taking fewer precautions to prevent a loss because they know they are covered.",
+    "description": "After purchasing a 'zero-deductible' full-coverage auto insurance policy, a driver stops locking their car doors when parking in high-crime areas. This change in behavior is an example of:",
+    "options": [
+      "Adverse Selection",
+      "Systemic Risk",
+      "Moral Hazard",
+      "Risk Aversion"
+    ],
+    "answer": "Moral Hazard",
+    "explanation": "Because the driver no longer faces the financial consequence of theft, their behavior changes for the worse. This is why most policies include deductibles—to keep the 'skin in the game'."
+  },
+  {
+    "question": "Adverse Selection",
+    "content": "Adverse selection happens when there is an imbalance of information (asymmetric information) between the buyer and the seller. In insurance, this typically means that people with the highest risk of loss are the ones most likely to buy insurance, while healthy people opt out.",
+    "description": "If a life insurance company offers a policy with no medical exam and a flat rate, who is most likely to rush to sign up, potentially causing the company to lose money?",
+    "options": [
+      "Professional athletes in peak condition",
+      "Young individuals with no history of illness",
+      "Individuals with chronic, high-risk health conditions",
+      "Financial advisors looking for tax breaks"
+    ],
+    "answer": "Individuals with chronic, high-risk health conditions",
+    "explanation": "Those who know they are high-risk have a greater incentive to buy insurance at a flat rate. If the company cannot distinguish between high and low risk, they will suffer from adverse selection."
+  },
+  {
+    "question": "Pooling and Independent Risks",
+    "content": "For insurance to work effectively, the risks being pooled should ideally be independent. If one person's loss is likely to happen at the same time as everyone else's (correlated risk), the insurance pool can be overwhelmed.",
+    "description": "Why is it much easier for a company to provide 'Bicycle Theft Insurance' than 'War and Civil Unrest Insurance'?",
+    "options": [
+      "War insurance is illegal in most countries",
+      "Bicycle thefts are independent events, while war affects everyone simultaneously",
+      "Bicycles are more expensive than the costs of war",
+      "There are more bicycles in the world than soldiers"
+    ],
+    "answer": "Bicycle thefts are independent events, while war affects everyone simultaneously",
+    "explanation": "Insurance relies on the fact that only a small percentage of people claim at once. A war is a 'correlated risk' where everyone claims simultaneously, which breaks the pooling model."
+  },
+  {
+    "question": "The Role of Deductibles",
+    "content": "A deductible is the amount an insured person must pay out-of-pocket before the insurance company pays a claim. It serves as a tool to reduce premiums and mitigate moral hazard by ensuring the policyholder shares in the loss.",
+    "description": "You are choosing between two plans: Plan A has a $500 deductible, and Plan B has a $5,000 deductible. Which statement is true regarding your monthly costs?",
+    "options": [
+      "Plan A will have a lower monthly premium",
+      "Plan B will have a lower monthly premium",
+      "Both plans will cost the same monthly",
+      "The deductible has no impact on the monthly premium"
+    ],
+    "answer": "Plan B will have a lower monthly premium",
+    "explanation": "By accepting a higher deductible (Plan B), you are taking on more of the risk yourself. In exchange, the insurance company charges you a lower monthly premium."
+  },
+  {
+    "question": "Risk Aversion",
+    "content": "Risk aversion is a psychological preference for a certain, smaller loss (like an insurance premium) over an uncertain, potentially larger loss. Most people are risk-averse, which is why the insurance industry exists.",
+    "description": "A person is offered a 50/50 bet: win $100 or lose $100. They refuse to play, even though the 'expected value' is zero. What does this reveal about their financial personality?",
+    "options": [
+      "They are a 'Risk Seeker'",
+      "They are 'Risk Neutral'",
+      "They are 'Risk Averse'",
+      "They are 'Risk Indifferent'"
+    ],
+    "answer": "They are 'Risk Averse'",
+    "explanation": "A risk-averse person values the pain of losing $100 more than the joy of winning $100. This preference drives people to pay for insurance to avoid volatility."
+  },
+  {
+    "question": "Social Security as Insurance",
+    "content": "Social Security is often viewed as a government pension, but it is fundamentally a form of 'Social Insurance.' It protects individuals against the risk of outliving their savings or becoming disabled and unable to work.",
+    "description": "In a private savings account, your money is yours alone. In a Social Insurance system like Social Security, what happens to the funds?",
+    "options": [
+      "They are kept in a vault with your name on it",
+      "They are pooled to provide benefits based on collective societal needs",
+      "They are invested exclusively in the stock market",
+      "They are destroyed to prevent inflation"
+    ],
+    "answer": "They are pooled to provide benefits based on collective societal needs",
+    "explanation": "Social insurance functions by pooling contributions from the working population to support those currently in need (the retired or disabled), spreading the risk of poverty across the entire population."
+  },
+  {
+    "question": "Actuarial Science",
+    "content": "Actuaries use math, statistics, and financial theory to assess the risk of potential events. Their work allows companies to put a 'price tag' on uncertainty by calculating the probability of death, sickness, or accident.",
+    "description": "An insurance company notices that drivers under 25 have 40% more accidents than those over 30. Who is responsible for using this data to adjust the pricing for young drivers?",
+    "options": [
+      "The Marketing Department",
+      "The CEO",
+      "The Actuary",
+      "The Sales Agent"
+    ],
+    "answer": "The Actuary",
+    "explanation": "Actuaries are the statistical architects of finance. They analyze data trends to determine the appropriate premiums that cover future claims while keeping the company solvent."
+  },
+  {
+    "question": "Reinsurance",
+    "content": "Reinsurance is 'insurance for insurance companies.' When an insurance company takes on too much risk (like many homes in a hurricane zone), they buy a policy from a reinsurer to protect themselves from a massive, single-event payout.",
+    "description": "A local Florida insurance company is worried that a single massive hurricane could wipe out all their cash reserves. What is their best strategy to stay in business?",
+    "options": [
+      "Stop selling insurance entirely",
+      "Increase their own insurance by purchasing reinsurance",
+      "Tell policyholders they won't pay if a hurricane hits",
+      "Lower their premiums to get more customers"
+    ],
+    "answer": "Increase their own insurance by purchasing reinsurance",
+    "explanation": "Reinsurance allows local companies to pass on some of their 'peak risks' to global markets, ensuring that even in a catastrophe, the local company can honor its claims."
+  },
+  {
+    "question": "Underwriting",
+    "content": "Underwriting is the process of evaluating a specific person or business to decide if they are eligible for insurance and at what price. It is the 'gatekeeper' function that prevents the company from taking on too much bad risk.",
+    "description": "You apply for life insurance, and the company asks for your medical records and smoking history. What is the company currently doing?",
+    "options": [
+      "Liquidating",
+      "Underwriting",
+      "Arbitrage",
+      "Securitization"
+    ],
+    "answer": "Underwriting",
+    "explanation": "The company is performing underwriting. They are assessing your individual risk level based on your health and habits to determine if they should offer you a policy and how much to charge."
+  }
+]
