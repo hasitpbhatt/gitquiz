@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Detecting 'Tail Risk' via Linguistic Cues",
+    "content": "Tail risk refers to extreme, rare market events that occur at the far ends of a probability distribution. GenAI monitors for 'semantic clusters' of distress—where terms like 'liquidity freeze,' 'default contagion,' or 'emergency intervention' appear across multiple unrelated sectors—acting as an early warning system before price volatility spikes.",
+    "description": "Your AI monitors global banking transcripts. It notices a 400% increase in 'counterparty risk' mentions, even though bank stock prices are currently stable. What is the most prudent risk management action?",
+    "options": [
+      "Ignore the signal until the stock prices actually start to fall.",
+      "Increase leverage to take advantage of the market's current calmness.",
+      "Reduce position sizes or buy out-of-the-money put options to hedge against a potential systemic shock.",
+      "Ask the AI to stop monitoring banking news to reduce 'false alarms'."
+    ],
+    "answer": "Reduce position sizes or buy out-of-the-money put options to hedge against a potential systemic shock.",
+    "explanation": "Linguistic shifts often precede price action. Identifying a surge in 'distress' language allows you to protect your capital before the market prices in the crisis and hedges become expensive."
+  },
+  {
+    "question": "Market Stress Indicators and GenAI",
+    "content": "Traditional stress indicators like the VIX are reactive. GenAI creates a 'Proactive Stress Index' by analyzing the sentiment of central bank speeches and economic policy uncertainty. This helps traders understand if the 'market mood' is fragile enough to break on minor bad news.",
+    "description": "The VIX is low, but your GenAI Stress Index is 'High' due to aggressive hawkishness in Fed minutes. How does this impact your trading logic?",
+    "options": [
+      "It suggests a 'coiled spring' effect where the market is vulnerable to a sharp, unexpected downturn.",
+      "It means the VIX is broken and should be ignored forever.",
+      "It indicates that the market is perfectly safe because prices aren't moving.",
+      "It suggests you should buy more speculative growth stocks."
+    ],
+    "answer": "It suggests a 'coiled spring' effect where the market is vulnerable to a sharp, unexpected downturn.",
+    "explanation": "When sentiment is poor but volatility is low, the market is often 'complacent.' GenAI helps you see the underlying fragility that traditional volatility metrics might miss."
+  },
+  {
+    "question": "Stop-Loss and Drawdown Protection",
+    "content": "A standard stop-loss is triggered by price. An 'AI-Enhanced Stop-Loss' can be triggered by 'Narrative Failure'—if the original reason you bought a stock (e.g., a specific product launch) is reported as a failure by news outlets, the AI can exit the position before the price hits your hard stop.",
+    "description": "You bought a stock because of a rumored merger. An LLM detects a verified report that the merger has been called off. The price hasn't moved yet. What should your AI-driven risk protocol do?",
+    "options": [
+      "Wait for the price to drop 5% to hit the mechanical stop-loss.",
+      "Exit the position immediately based on 'Narrative Failure' because the thesis for the trade is no longer valid.",
+      "Buy more shares because the price is still high.",
+      "Ask the AI to find a new reason to stay in the trade."
+    ],
+    "answer": "Exit the position immediately based on 'Narrative Failure' because the thesis for the trade is no longer valid.",
+    "explanation": "Narrative-based exits allow you to leave a trade the moment the fundamental logic breaks, often saving you from the 'slippage' and panic selling that occurs when the rest of the market catches up."
+  },
+  {
+    "question": "Detecting 'Greenwashing' and ESG Risk",
+    "content": "Environmental, Social, and Governance (ESG) risks can lead to sudden regulatory fines or brand damage. GenAI can compare a company's 'Sustainability Report' with actual news and social media complaints to detect 'Greenwashing' (false environmental claims), which represents a hidden legal risk.",
+    "description": "An LLM finds that a company's 'Net Zero' claims are contradicted by several investigative reports about their supply chain. How should a risk manager classify this stock?",
+    "options": [
+      "As a high-risk asset due to potential regulatory 'crackdown' and reputational damage.",
+      "As a safe asset because the company's official reports are positive.",
+      "As a 'Neutral' asset because environmental issues don't affect profits.",
+      "As a 'Buy' because the company is good at marketing."
+    ],
+    "answer": "As a high-risk asset due to potential regulatory 'crackdown' and reputational damage.",
+    "explanation": "Inconsistencies between corporate 'narrative' and 'reality' are a major red flag. GenAI is uniquely capable of cross-referencing thousands of sources to find these hidden risks."
+  },
+  {
+    "question": "Adversarial Attacks on AI Trading",
+    "content": "Adversarial risk involves bad actors trying to trick your AI—for example, bots spreading fake news to trigger your sentiment-based sell algorithm. Risk management requires 'Source Verification' to ensure your AI isn't trading based on a sophisticated hallucination or a fake tweet.",
+    "description": "Your sentiment engine sees a massive spike in 'CEO Resignation' news from an unverified social media account. What is the safest programmed response?",
+    "options": [
+      "Trust the AI's sentiment score and sell immediately.",
+      "Cross-verify the news against a 'whitelist' of trusted sources (Bloomberg, Reuters, SEC filings) before allowing the trade.",
+      "Wait for the stock to hit zero to confirm the news was true.",
+      "Ignore the news and buy more to fight the 'fake news'."
+    ],
+    "answer": "Cross-verify the news against a 'whitelist' of trusted sources (Bloomberg, Reuters, SEC filings) before allowing the trade.",
+    "explanation": "Source verification is a critical layer of defense. Without it, your AI-driven strategy is vulnerable to 'market manipulation' from automated bots spreading misinformation."
+  },
+  {
+    "question": "Ethical Considerations: 'Flash Crashes'",
+    "content": "If many AI bots use similar 'Sentiment-Sell' triggers, they can create a feedback loop that causes a 'Flash Crash.' Ethical risk management involves building 'de-correlation' into your model so it doesn't just copy the herd during a panic.",
+    "description": "The market is falling rapidly, and your AI is screaming 'Sell' because everyone else is selling. Why might you program a 'Contrarian Filter' during extreme volatility?",
+    "options": [
+      "To save the world from a crash.",
+      "To prevent your bot from selling at the absolute bottom of a 'liquidity vacuum' created by other AI bots.",
+      "Because your bot needs to be different to be 'cool'.",
+      "Because the AI is likely to be happier if it doesn't sell."
+    ],
+    "answer": "To prevent your bot from selling at the absolute bottom of a 'liquidity vacuum' created by other AI bots.",
+    "explanation": "During flash crashes, 'uninformed' selling by thousands of bots creates temporary price distortions. A risk-managed bot recognizes 'over-crowded' signals and avoids selling into a panic."
+  },
+  {
+    "question": "Model Interpretability for Compliance",
+    "content": "Regulators (like the SEC or FINRA) may require you to explain why your AI made a specific trade. Compliance risk is managed by keeping 'inference logs'—a record of the specific text snippets and logic the AI used to reach a decision.",
+    "description": "A regulator asks why your AI sold a stock five minutes before a major scandal broke. How do you prove you weren't 'insider trading'?",
+    "options": [
+      "Tell them the AI is a 'black box' and you don't know.",
+      "Produce the AI's logs showing it identified 'unusual executive behavior' from public earnings call transcripts two weeks prior.",
+      "Delete the logs so there is no evidence.",
+      "Argue that the AI is its own legal entity."
+    ],
+    "answer": "Produce the AI's logs showing it identified 'unusual executive behavior' from public earnings call transcripts two weeks prior.",
+    "explanation": "Transparency is your best defense. Being able to show a logical, data-driven 'audit trail' proves that the trade was based on public data and AI analysis rather than illegal information."
+  },
+  {
+    "question": "The 'Hallucination' Risk in Risk Management",
+    "content": "If a risk-management AI hallucinates a threat (e.g., 'thinking' a company filed for bankruptcy when it didn't), it could force you out of a winning position. This is 'False Positive' risk.",
+    "description": "Your AI alerts you that 'The US Dollar has been abolished.' This would be a massive risk, but it is clearly false. How do you prevent your bot from liquidating your portfolio based on this?",
+    "options": [
+      "By using an ensemble of multiple LLMs and requiring a 'consensus' before taking extreme actions.",
+      "By giving the AI full control over all your money.",
+      "By assuming every alert is true and checking later.",
+      "By only trading in small amounts of cash."
+    ],
+    "answer": "By using an ensemble of multiple LLMs and requiring a 'consensus' before taking extreme actions.",
+    "explanation": "Consensus-based systems reduce the 'Single Point of Failure.' If one model hallucinates a bizarre risk, the other models act as a 'sanity check' to prevent irrational trades."
+  },
+  {
+    "question": "Dynamic Position Sizing",
+    "content": "Risk management isn't just 'Buy' or 'Sell'; it's 'How much?' GenAI can adjust position sizes based on the 'Clarity' of the market—if news is conflicting and sentiment is mixed, the AI reduces the bet size to stay safe.",
+    "description": "The market is currently flooded with conflicting reports about a new stimulus bill. Your GenAI 'Certainty Score' drops from 0.9 to 0.4. What should happen to your position size?",
+    "options": [
+      "Increase it to make up for the uncertainty.",
+      "Keep it the same to show confidence in your strategy.",
+      "Automatically scale down the position size to reflect the higher 'information risk' in the market.",
+      "Stop trading and wait for the AI to become 1.0 certain."
+    ],
+    "answer": "Automatically scale down the position size to reflect the higher 'information risk' in the market.",
+    "explanation": "Risk is a function of uncertainty. When the AI signals that the data is 'noisy' or 'contradictory,' the most logical risk-management move is to lower your exposure until clarity returns."
+  },
+  {
+    "question": "Operational Risk: API Failures",
+    "content": "Operational risk includes technical failures. If your LLM provider (like OpenAI or Anthropic) goes down, your bot might become 'blind.' A robust system needs a 'Fail-Safe'—a traditional code-based strategy that takes over when the AI is unavailable.",
+    "description": "The AI sentiment service is offline. Your bot is currently holding 10 volatile positions. What is the safest 'Fail-Safe' protocol?",
+    "options": [
+      "Do nothing and hope for the best.",
+      "Immediately switch to a hard-coded 'Trailing Stop-Loss' or move to cash to ensure the positions aren't left unmonitored.",
+      "Keep sending requests until the service comes back up.",
+      "Delete the positions and the bot."
+    ],
+    "answer": "Immediately switch to a hard-coded 'Trailing Stop-Loss' or move to cash to ensure the positions aren't left unmonitored.",
+    "explanation": "A 'Fail-Safe' ensures that you are never 'flying blind.' If the high-tech AI brain fails, the 'primitive' but reliable code brain takes over to protect the portfolio."
+  }
+]
