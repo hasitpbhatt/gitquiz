@@ -1,0 +1,132 @@
+[
+  {
+    "question": "AI-Driven Efficient Frontier",
+    "content": "The 'Efficient Frontier' is a set of optimal portfolios that offer the highest expected return for a defined level of risk. GenAI improves this by analyzing non-traditional data (like geopolitical stability) to adjust the 'expected return' and 'risk' inputs more accurately than historical price data alone.",
+    "description": "You are rebalancing a portfolio of 10 stocks. Your GenAI model flags that 3 of these companies have 'declining sentiment' due to aging product lines. How should this affect your Efficient Frontier calculation?",
+    "options": [
+      "Ignore the sentiment as the Efficient Frontier only uses historical volatility.",
+      "Lower the 'Expected Return' for those 3 stocks, which will likely shift the AI-optimized portfolio toward the other 7 stocks.",
+      "Sell all 10 stocks and buy Gold.",
+      "Increase the weight of the 3 stocks to 'buy the dip' regardless of the risk."
+    ],
+    "answer": "Lower the 'Expected Return' for those 3 stocks, which will likely shift the AI-optimized portfolio toward the other 7 stocks.",
+    "explanation": "GenAI provides 'forward-looking' adjustments. By lowering the expected return based on negative qualitative analysis, the optimization math naturally tilts the portfolio toward healthier assets."
+  },
+  {
+    "question": "Automated Rebalancing Logic",
+    "content": "Portfolio rebalancing is the process of realigning the weightings of assets. GenAI can automate this by monitoring news 24/7; if a sector's risk profile changes (e.g., new tech regulations), the AI can trigger a rebalance before the next scheduled quarterly review.",
+    "description": "Your portfolio is heavily weighted in Tech. An LLM detects a sudden shift in government policy toward 'Strict AI Regulation.' What is the most 'proactive' automated rebalancing action?",
+    "options": [
+      "Wait for the end of the quarter to see the official price impact.",
+      "Trigger an immediate automated reduction in Tech exposure and rotate into 'Regulatory-Safe' sectors like Utilities.",
+      "Ask the AI to write a letter to the government to stop the regulation.",
+      "Buy more Tech because the AI is likely hallucinating the risk."
+    ],
+    "answer": "Trigger an immediate automated reduction in Tech exposure and rotate into 'Regulatory-Safe' sectors like Utilities.",
+    "explanation": "The value of GenAI in portfolio management is 'velocity.' It allows for event-driven rebalancing, protecting the portfolio from sector-wide downturns caused by qualitative shifts."
+  },
+  {
+    "question": "Asset Allocation via Macro-Sentiment",
+    "content": "Macro-sentiment refers to the overall 'vibe' of the global economy (e.g., recession fears vs. growth optimism). GenAI can ingest thousands of global headlines to determine if the portfolio should be in 'Risk-On' (buying stocks) or 'Risk-Off' (buying bonds/cash) mode.",
+    "description": "The AI aggregate score for 'Global Conflict' and 'Inflation' has hit an all-time high. Based on this macro-sentiment, how should a portfolio's asset allocation change?",
+    "options": [
+      "Increase allocation to high-growth, high-debt startups.",
+      "Shift the allocation toward 'Defensive' assets like Treasury bonds, Cash, or Defensive Commodities (Gold/Oil).",
+      "Do nothing; macro-sentiment is too vague to be useful.",
+      "Invest 100% in the most volatile asset available."
+    ],
+    "answer": "Shift the allocation toward 'Defensive' assets like Treasury bonds, Cash, or Defensive Commodities (Gold/Oil).",
+    "explanation": "High scores in 'Conflict' and 'Inflation' sentiment indicate a high-risk environment. Shifting to defensive assets is the standard risk-aversion move in institutional portfolio management."
+  },
+  {
+    "question": "Dynamic Diversification Strategies",
+    "content": "Diversification isn't just about owning different stocks; it's about owning assets that don't move together. GenAI can identify 'Hidden Correlations'—for example, it might realize that a Tech company and an Energy company are both dependent on the same rare-earth mineral supplier.",
+    "description": "You think your portfolio is diversified because you own Tech and EV stocks. Your GenAI tool points out that both sectors are currently tied to the 'Lithium Price' narrative. Why is this a risk?",
+    "options": [
+      "It isn't a risk as long as Lithium prices go up.",
+      "It reveals a 'concentration risk' where a single supply chain event could crash both sectors simultaneously.",
+      "Lithium is a metal, so it doesn't affect stock prices.",
+      "The AI is trying to confuse you with technical details."
+    ],
+    "answer": "It reveals a 'concentration risk' where a single supply chain event could crash both sectors simultaneously.",
+    "explanation": "GenAI can 'see' the interconnectedness of the global supply chain through text. Recognizing that seemingly different sectors share a common risk allows for truer diversification."
+  },
+  {
+    "question": "AI-Enhanced Sharpe Ratio",
+    "content": "The Sharpe Ratio measures the performance of an investment compared to a risk-free asset, after adjusting for its risk. GenAI helps by providing a more accurate 'Volatility' estimate, considering upcoming high-risk news events that haven't happened yet.",
+    "description": "You have two portfolios with the same historical Sharpe Ratio. Portfolio A has a GenAI 'Stability' score of 0.9, while Portfolio B has a score of 0.3 due to upcoming legal trials. Which should you prefer?",
+    "options": [
+      "Portfolio B, because high risk means high reward.",
+      "Portfolio A, because the GenAI score suggests lower future uncertainty and a more reliable risk-adjusted return.",
+      "It doesn't matter; historical data is the only truth.",
+      "Average the two portfolios together."
+    ],
+    "answer": "Portfolio A, because the GenAI score suggests lower future uncertainty and a more reliable risk-adjusted return.",
+    "explanation": "A high GenAI 'Stability' score suggests that the textual environment (news/legal/filings) is calm, making the historical Sharpe Ratio a more reliable indicator for the future."
+  },
+  {
+    "question": "Automated Tax-Loss Harvesting",
+    "content": "Tax-loss harvesting involves selling a losing investment to offset taxes on gains. GenAI can optimize this by identifying which 'losing' stocks are fundamentally broken (sell now) versus which are likely to recover (keep), making the tax strategy smarter.",
+    "description": "Your portfolio has two stocks that are down 20%. Stock A has a 'positive sentiment' outlook; Stock B has a 'negative' outlook with news of an accounting probe. Which is the better candidate for tax-loss harvesting?",
+    "options": [
+      "Stock A, because you want to get rid of winners.",
+      "Stock B, because you can harvest the tax loss on a stock that the AI suggests is fundamentally failing anyway.",
+      "Both, to maximize the tax benefit.",
+      "Neither; you should never sell at a loss."
+    ],
+    "answer": "Stock B, because you can harvest the tax loss on a stock that the AI suggests is fundamentally failing anyway.",
+    "explanation": "GenAI helps you decide *what* to harvest. Selling the 'fundamentally weak' stock allows you to take the tax benefit while keeping the 'temporarily weak' stock that still has potential."
+  },
+  {
+    "question": "Scenario-Based Portfolio Stress Testing",
+    "content": "Stress testing involves simulating how a portfolio would react to a crisis (e.g., 'Oil hits $150'). GenAI can generate complex 'what-if' stories—like a specific trade war scenario—and estimate how every stock in your portfolio is connected to that story.",
+    "description": "You want to test how your portfolio would handle a 'Global Semiconductor Shortage.' How does GenAI help beyond a simple spreadsheet?",
+    "options": [
+      "By looking at price charts from the 1920s.",
+      "By identifying which of your companies (even non-tech ones) mention 'chips' or 'semiconductors' as a critical risk in their 10-K filings.",
+      "By predicting exactly what day the shortage will start.",
+      "By telling you that shortages are always good for business."
+    ],
+    "answer": "By identifying which of your companies (even non-tech ones) mention 'chips' or 'semiconductors' as a critical risk in their 10-K filings.",
+    "explanation": "GenAI connects the 'crisis narrative' to your specific holdings by searching for semantic links that a purely numerical model would miss."
+  },
+  {
+    "question": "Tail Risk Hedging with Sentiment",
+    "content": "'Tail risk' is the chance of an extreme, rare event occurring. GenAI can serve as an early warning system by detecting a rise in 'extreme' language (e.g., 'unprecedented,' 'contagion,' 'systemic') across financial media before the market actually crashes.",
+    "description": "Your 'Tail Risk' agent flags a 300% increase in the word 'liquidity crisis' across banking news. What is the most appropriate portfolio management response?",
+    "options": [
+      "Ignore it until the VIX (volatility index) actually moves.",
+      "Purchase 'protective puts' (insurance) or reduce leverage across the portfolio as a precautionary hedge.",
+      "Tell the AI to stop being so dramatic.",
+      "Double down on the most profitable stocks to make up for the potential risk."
+    ],
+    "answer": "Purchase 'protective puts' (insurance) or reduce leverage across the portfolio as a precautionary hedge.",
+    "explanation": "GenAI can be a 'leading indicator' for volatility. Hedging when the *language* of risk increases allows you to protect the portfolio before the *price* of insurance (options) becomes too expensive."
+  },
+  {
+    "question": "Sentiment-Weighted Indexing",
+    "content": "Traditional indexes (like the S&P 500) weight companies by size. A sentiment-weighted index gives more weight to companies with the highest positive news and research 'momentum,' theoretically outperforming a simple market-cap index.",
+    "description": "You are building a 'Green Energy' index. Company A is the largest, but has poor sentiment due to labor strikes. Company B is smaller but has glowing sentiment. How does an AI-weighted index behave?",
+    "options": [
+      "It gives Company A more weight because it is bigger.",
+      "It tilts the weighting toward Company B because its high 'Sentiment Momentum' suggests future price outperformance.",
+      "It gives both companies zero weight.",
+      "It changes the weightings every 5 seconds based on Twitter likes."
+    ],
+    "answer": "It tilts the weighting toward Company B because its high 'Sentiment Momentum' suggests future price outperformance.",
+    "explanation": "Sentiment-weighted indexing attempts to capture 'quality' over 'size.' It uses AI to identify which companies are currently in a 'virtuous cycle' of positive news and growth."
+  },
+  {
+    "question": "The 'Human-in-the-Loop' Portfolio Review",
+    "content": "Even with GenAI, final portfolio decisions are often made by humans. The AI's job is to present the 'evidence'—summarizing why it recommends a change—so the manager can provide a sanity check against 'AI-specific' errors.",
+    "description": "The AI suggests a 50% allocation to a tiny, unknown stock because its 'Sentiment' is off the charts. Upon review, the human sees the 'sentiment' is actually just a viral meme, not fundamental news. What should the human do?",
+    "options": [
+      "Follow the AI; it knows more about memes than humans.",
+      "Override the AI recommendation, as meme-driven sentiment is often a 'pump and dump' rather than a portfolio-grade investment.",
+      "Ask the AI to explain why memes are bad.",
+      "Delete the AI and go back to using paper charts."
+    ],
+    "answer": "Override the AI recommendation, as meme-driven sentiment is often a 'pump and dump' rather than a portfolio-grade investment.",
+    "explanation": "This is the 'Human-in-the-Loop' model. Humans excel at distinguishing between 'noise' (memes) and 'substance' (business growth), serving as the ultimate filter for AI-generated ideas."
+  }
+]
