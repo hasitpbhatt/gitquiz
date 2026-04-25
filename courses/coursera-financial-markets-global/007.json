@@ -1,0 +1,107 @@
+[
+  {
+    "question": "The Definition of a Derivative",
+    "content": "A derivative is a financial contract whose value is 'derived' from the performance of an underlying asset, such as a stock, a bond, or a commodity like gold. They are primarily used to either hedge against risk or to speculate on the direction of price changes.",
+    "description": "If you buy a contract that gains value only when the price of oil goes up, but you do not actually own any physical barrels of oil, what type of instrument are you holding?",
+    "options": ["An Equity Share", "A Derivative", "A Fixed-Income Bond", "A Commodity Warehouse Receipt"],
+    "answer": "A Derivative",
+    "explanation": "Because your contract's value is linked to the price of oil rather than being the oil itself, it is a derivative. You are betting on the price movement of the underlying asset."
+  },
+  {
+    "question": "Futures Contracts and Hedging",
+    "content": "A futures contract is an agreement to buy or sell an asset at a predetermined price at a specified time in the future. For producers, like farmers, these are essential tools to lock in a price today and protect against a price drop before harvest.",
+    "description": "A corn farmer is worried that a record-breaking harvest will cause corn prices to crash by October. How can they use the futures market to protect their income today?",
+    "options": [
+      "By buying corn futures to get more corn later",
+      "By selling corn futures to lock in a high price now for their October delivery",
+      "By quitting farming and investing in tech stocks",
+      "By waiting until October to see what the market price is"
+    ],
+    "answer": "By selling corn futures to lock in a high price now for their October delivery",
+    "explanation": "By 'selling' the future, the farmer locks in a guaranteed price. If the market price crashes, the buyer of the contract must still pay the farmer the higher, agreed-upon price."
+  },
+  {
+    "question": "Call Options: The Right to Buy",
+    "content": "A Call Option gives the buyer the right, but not the obligation, to buy an asset at a specific price (the strike price) within a specific timeframe. Investors use call options when they believe the price of a stock will rise significantly.",
+    "description": "You pay $5 for a 'Call Option' to buy a stock at $100. By next month, the stock price has risen to $150. What is the most logical action to take?",
+    "options": [
+      "Let the option expire worthless",
+      "Exercise the option to buy the stock at $100 and immediately sell it for $150",
+      "Sell the option back for $0",
+      "Wait for the price to drop back to $100 before buying"
+    ],
+    "answer": "Exercise the option to buy the stock at $100 and immediately sell it for $150",
+    "explanation": "Since the market price ($150) is higher than your strike price ($100), the option is 'in the money.' You can buy the stock at a discount and pocket the $50 difference (minus the cost of the option)."
+  },
+  {
+    "question": "Put Options: The Right to Sell",
+    "content": "A Put Option gives the buyer the right, but not the obligation, to sell an asset at a specific price. This acts like an insurance policy for investors; if the stock price crashes, they can still sell it at the higher, locked-in strike price.",
+    "description": "An investor owns 1,000 shares of a stock and is afraid of a market crash. They buy a 'Put Option' with a strike price of $50. If the stock crashes to $10, how does the Put Option help them?",
+    "options": [
+      "It allows them to buy more shares at $10",
+      "It allows them to sell their shares at $50, regardless of the current $10 price",
+      "It forces them to lose $50 per share",
+      "It doubles the number of shares they own"
+    ],
+    "answer": "It allows them to sell their shares at $50, regardless of the current $10 price",
+    "explanation": "The Put Option protects the 'downside.' Even though the market says the stock is worth $10, the contract holder has the right to sell it for $50, effectively capping their losses."
+  },
+  {
+    "question": "The Concept of Leverage in Derivatives",
+    "content": "Derivatives often require only a small upfront payment (the premium) to control a much larger amount of an asset. This is called leverage. While leverage can lead to massive gains, it also means that a small move in the wrong direction can wipe out the entire investment.",
+    "description": "Using $1,000, an investor can either buy 10 shares of a stock OR options that control 1,000 shares. Why is the options strategy considered much riskier?",
+    "options": [
+      "Because the options are illegal for retail investors",
+      "Because a small percentage drop in the stock price could result in a 100% loss of the $1,000 investment",
+      "Because options never gain value",
+      "Because owning 1,000 shares is safer than owning 10"
+    ],
+    "answer": "Because a small percentage drop in the stock price could result in a 100% loss of the $1,000 investment",
+    "explanation": "Options have expiration dates. If the stock doesn't reach the target price by that date, the option becomes worthless. While the 10 shares might lose some value, the options can easily lose 100% of their value."
+  },
+  {
+    "question": "Speculation vs. Hedging",
+    "content": "Hedging is a strategy used to reduce or eliminate existing risk, while speculation is the act of taking on new risk in the hope of making a profit from market fluctuations. The same derivative can be used for either purpose.",
+    "description": "An airline buys fuel futures to ensure their costs stay the same regardless of oil prices. At the same time, a hedge fund buys the same futures because they think they can sell them for a profit later. Who is the 'hedger'?",
+    "options": ["The Hedge Fund", "The Airline", "Both", "Neither"],
+    "answer": "The Airline",
+    "explanation": "The airline is 'hedging' because they have a real-world need for fuel and want to remove the risk of price spikes. The hedge fund is 'speculating' because they are just trying to profit from the price change."
+  },
+  {
+    "question": "The Strike Price and Expiration",
+    "content": "Every option has a 'Strike Price' (the set price for buying/selling) and an 'Expiration Date' (the deadline). Unlike stocks, which you can hold forever, options are 'wasting assets'—they lose value as they get closer to their expiration date.",
+    "description": "You hold a Call Option with a strike price of $100 that expires today at 4:00 PM. The stock is currently trading at $95. What is the value of your option at 4:01 PM?",
+    "options": ["$5", "$100", "$0 (It is worthless)", "$95"],
+    "answer": "$0 (It is worthless)",
+    "explanation": "Since the stock price is below the strike price at expiration, there is no benefit to exercising the option (why buy for $100 when the market price is $95?). The option expires worthless."
+  },
+  {
+    "question": "Credit Default Swaps (CDS)",
+    "content": "A Credit Default Swap is essentially an insurance policy on a bond. If a company defaults on its debt, the seller of the CDS pays the buyer the lost value. These played a major role in the 2008 financial crisis when they were used to bet on the failure of mortgage-backed securities.",
+    "description": "An investor believes a specific bank is about to go bankrupt. Which derivative would allow them to profit from that bank's failure to pay its debts?",
+    "options": ["A Call Option", "A Credit Default Swap", "A Treasury Bond", "A Diversified Mutual Fund"],
+    "answer": "A Credit Default Swap",
+    "explanation": "A CDS pays out when a credit event (like a default) occurs. By 'buying protection' via a CDS, an investor can profit if a company or bank fails to meet its financial obligations."
+  },
+  {
+    "question": "Arbitrage in Derivatives",
+    "content": "Arbitrage is the practice of taking advantage of a price difference between two or more markets. In derivatives, traders look for situations where the contract price is slightly out of sync with the underlying asset's price to make a 'risk-free' profit.",
+    "description": "A stock is trading for $100 in New York and $101 in London. A trader simultaneously buys in New York and sells in London to pocket the $1 difference. What is this called?",
+    "options": ["Speculation", "Diversification", "Arbitrage", "Hedging"],
+    "answer": "Arbitrage",
+    "explanation": "Arbitrageurs help make markets efficient by quickly closing price gaps. Their constant trading ensures that the same asset or derivative is priced correctly across different platforms."
+  },
+  {
+    "question": "The Social Function of Derivatives",
+    "content": "While often criticized for their complexity, derivatives provide a vital social function by allowing risks to be transferred to those most willing to bear them. This price discovery and risk-shifting allow for more stable planning in the global economy.",
+    "description": "How do derivatives actually help a local grocery store keep the price of bread stable for consumers?",
+    "options": [
+      "By allowing wheat farmers and bread factories to lock in costs and avoid sudden price spikes",
+      "By making sure the stock market always goes up",
+      "By eliminating the need for banks",
+      "By forcing people to buy more bread"
+    ],
+    "answer": "By allowing wheat farmers and bread factories to lock in costs and avoid sudden price spikes",
+    "explanation": "When a factory can hedge the cost of flour using derivatives, they don't have to raise bread prices every time there is a bad harvest. This leads to more stable prices for everyone in the grocery store."
+  }
+]
