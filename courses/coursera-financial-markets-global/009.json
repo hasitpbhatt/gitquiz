@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Mechanics of Exchange Rates",
+    "content": "An exchange rate is the price of one currency in terms of another. These rates are determined by the supply and demand for currencies in the foreign exchange (Forex) market, influenced by trade, investment flows, and interest rate differences between countries.",
+    "description": "If the U.S. dollar becomes 'stronger' compared to the Euro, what is the most likely immediate effect for an American tourist traveling to Paris?",
+    "options": [
+      "Their vacation will become more expensive",
+      "Their dollars will buy more Euros, making the trip cheaper",
+      "They will be unable to use their credit cards",
+      "The price of flights will automatically double"
+    ],
+    "answer": "Their dollars will buy more Euros, making the trip cheaper",
+    "explanation": "A 'strong' currency means its purchasing power has increased relative to another. When the dollar is strong against the Euro, each dollar converts into more Euros, lowering the cost of goods and services for the traveler."
+  },
+  {
+    "question": "Purchasing Power Parity (PPP)",
+    "content": "Purchasing Power Parity is an economic theory that suggests that in the long run, exchange rates should move towards the rate that would equalize the prices of an identical basket of goods and services in any two countries.",
+    "description": "The 'Big Mac Index' shows that a burger costs $6.00 in the U.S. but only the equivalent of $3.00 in another country. According to PPP, what does this suggest about that country's currency?",
+    "options": [
+      "The currency is correctly valued",
+      "The currency is undervalued",
+      "The currency is overvalued",
+      "The country has no inflation"
+    ],
+    "answer": "The currency is undervalued",
+    "explanation": "If the same burger is cheaper in another country after currency conversion, it suggests their currency is 'undervalued' relative to the dollar. Over time, PPP theory suggests the currency should strengthen to close that gap."
+  },
+  {
+    "question": "Fixed vs. Floating Exchange Rates",
+    "content": "A floating exchange rate is determined by the private market through supply and demand. A fixed (or 'pegged') exchange rate is when a government or central bank ties its currency's value to another major currency, like the U.S. dollar, to ensure stability.",
+    "description": "A small nation that relies heavily on exports to the United States decides to peg its currency to the USD. What is the primary risk they face by doing this?",
+    "options": [
+      "They lose control over their own domestic monetary policy",
+      "Their currency will become worthless immediately",
+      "They will be banned from international trade",
+      "Inflation will drop to zero forever"
+    ],
+    "answer": "They lose control over their own domestic monetary policy",
+    "explanation": "To maintain a peg, the country must mirror the interest rate changes of the U.S. Fed. If the U.S. raises rates to fight inflation, the small nation must do the same, even if their own economy is in a recession and needs lower rates."
+  },
+  {
+    "question": "The Balance of Trade",
+    "content": "The balance of trade is the difference between the value of a country's exports and its imports. A trade surplus occurs when a country exports more than it imports, while a trade deficit occurs when imports exceed exports.",
+    "description": "If a country consistently runs a massive trade deficit, how must they fundamentally finance the extra goods they are buying from the rest of the world?",
+    "options": [
+      "By printing an infinite amount of money",
+      "By selling assets (like land or stocks) or borrowing from foreign investors",
+      "By stopping all international travel",
+      "By increasing the minimum wage"
+    ],
+    "answer": "By selling assets (like land or stocks) or borrowing from foreign investors",
+    "explanation": "A trade deficit in goods must be balanced by a surplus in the capital account. Effectively, the country is 'paying' for its extra imports by sending currency or ownership of assets back to the exporting nations."
+  },
+  {
+    "question": "Capital Flight",
+    "content": "Capital flight occurs when assets or money rapidly flow out of a country due to an event of economic consequence, such as political instability, a sudden increase in taxes, or a fear of currency devaluation.",
+    "description": "A country announces it may default on its national debt. Suddenly, local investors start moving their savings into Swiss bank accounts. What is the likely result for the local currency's value?",
+    "options": [
+      "It will strengthen because there is less of it in the country",
+      "It will stay the same",
+      "It will crash as everyone sells the local currency to buy foreign ones",
+      "The government will give everyone free gold"
+    ],
+    "answer": "It will crash as everyone sells the local currency to buy foreign ones",
+    "explanation": "Capital flight creates a massive 'supply' of the local currency on the market with very little 'demand.' This imbalance causes the currency's value to plummet, often leading to a financial crisis."
+  },
+  {
+    "question": "The Role of the IMF",
+    "content": "The International Monetary Fund (IMF) acts as a global 'firefighter' for financial crises. It provides emergency loans to countries facing balance-of-payments problems, usually in exchange for the country agreeing to implement economic reforms.",
+    "description": "A developing nation can no longer afford to pay for its essential imports or its foreign debt. Which international organization is most likely to step in with an emergency rescue package?",
+    "options": [
+      "The World Health Organization (WHO)",
+      "The International Monetary Fund (IMF)",
+      "The New York Stock Exchange",
+      "The Federal Reserve"
+    ],
+    "answer": "The International Monetary Fund (IMF)",
+    "explanation": "The IMF's mandate is specifically to ensure global monetary stability and provide a safety net for countries in deep financial distress to prevent the crisis from spreading."
+  },
+  {
+    "question": "Foreign Direct Investment (FDI)",
+    "content": "FDI is an investment made by a firm or individual in one country into business interests located in another country, usually by establishing business operations or acquiring business assets. It represents a long-term commitment to a foreign economy.",
+    "description": "An American car manufacturer spends $2 billion to build a state-of-the-art factory in Vietnam. This transaction is classified as:",
+    "options": [
+      "Portfolio Investment",
+      "Foreign Direct Investment (FDI)",
+      "A Currency Swap",
+      "An Import of Services"
+    ],
+    "answer": "Foreign Direct Investment (FDI)",
+    "explanation": "Unlike buying a few shares of a foreign stock (portfolio investment), building a physical factory is FDI because it involves direct management and a long-term physical presence in the host country."
+  },
+  {
+    "question": "The World Bank's Function",
+    "content": "While the IMF focuses on short-term financial stability, the World Bank focuses on long-term economic development and poverty reduction. It provides low-interest loans and grants to developing countries for infrastructure, education, and health projects.",
+    "description": "A low-income country needs a 20-year loan to build a clean water irrigation system for its farmers. Which institution is the most appropriate source for this type of funding?",
+    "options": [
+      "A Wall Street Hedge Fund",
+      "The World Bank",
+      "The local lottery",
+      "A central bank's printing press"
+    ],
+    "answer": "The World Bank",
+    "explanation": "The World Bank is designed for long-term development projects that might not attract private investors but are essential for a country’s economic growth and social welfare."
+  },
+  {
+    "question": "Global Supply Chains and Finance",
+    "content": "Modern finance enables complex global supply chains. Through trade finance (letters of credit and guarantees), banks ensure that a manufacturer in China can trust they will be paid by a buyer in Brazil, even if they have never met.",
+    "description": "A small electronics brand in Germany wants to order parts from a new supplier in Malaysia. The supplier is afraid the German brand won't pay. What financial tool solves this 'trust' problem?",
+    "options": [
+      "A Letter of Credit issued by a bank",
+      "A verbal promise over the phone",
+      "A high-interest credit card",
+      "A government tax credit"
+    ],
+    "answer": "A Letter of Credit issued by a bank",
+    "explanation": "A Letter of Credit is a bank's guarantee that the seller will receive payment as long as the shipping documents are in order. This reduces the risk for the seller and facilitates international trade."
+  },
+  {
+    "question": "Tariffs and Trade Wars",
+    "content": "A tariff is a tax imposed by a government on imported goods. While intended to protect domestic industries from foreign competition, tariffs often lead to higher prices for consumers and retaliatory 'trade wars' that can disrupt global markets.",
+    "description": "Country A places a 25% tariff on steel from Country B. In response, Country B places a 25% tariff on agricultural products from Country A. Who ultimately pays the cost of these taxes?",
+    "options": [
+      "Only the governments of the two countries",
+      "The consumers and businesses in both countries who buy those products",
+      "No one; the money is simply deleted",
+      "Only the shipping companies"
+    ],
+    "answer": "The consumers and businesses in both countries who buy those products",
+    "explanation": "Tariffs are almost always passed on to the buyer. The local construction company will pay more for steel, and the local grocery shopper will pay more for food, as businesses raise prices to cover the tax."
+  }
+]
