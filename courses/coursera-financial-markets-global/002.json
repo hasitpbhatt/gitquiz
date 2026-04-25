@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Concept of Equity and Ownership",
+    "content": "A share of stock represents a claim on a portion of a corporation's assets and earnings. When you buy equity, you are becoming a partial owner of the business, meaning you share in both its successes through price appreciation and its failures through potential loss of capital.",
+    "description": "A growing technology company decides to 'go public' via an Initial Public Offering (IPO). If you purchase 100 shares during this event, what have you fundamentally acquired?",
+    "options": [
+      "A guaranteed monthly repayment with interest",
+      "A legal right to manage the company's daily operations",
+      "A residual claim on the company's profits and voting rights",
+      "A short-term loan agreement with the company's founders"
+    ],
+    "answer": "A residual claim on the company's profits and voting rights",
+    "explanation": "Equity holders have a 'residual' claim, meaning they get paid after employees, suppliers, and bondholders. In exchange for this risk, they gain voting rights and unlimited upside potential if the company thrives."
+  },
+  {
+    "question": "Dividends and Retained Earnings",
+    "content": "When a company makes a profit, it has two main choices: pay a portion out to shareholders as 'dividends' or reinvest the money back into the business as 'retained earnings.' Mature companies often pay high dividends, while growth companies usually reinvest to expand.",
+    "description": "You are looking for a steady source of passive income to pay for your monthly utilities. Which type of stock would likely be the most appropriate fit for your portfolio?",
+    "options": [
+      "A high-growth startup that reinvests all profits",
+      "A 'Penny Stock' with high price volatility",
+      "A mature utility company with a high dividend yield",
+      "A company that has never turned a profit"
+    ],
+    "answer": "A mature utility company with a high dividend yield",
+    "explanation": "Mature companies in stable industries (like utilities) often distribute a significant portion of their earnings as dividends, providing the steady cash flow required for income-focused investors."
+  },
+  {
+    "question": "Market Capitalization",
+    "content": "Market capitalization (Market Cap) is the total dollar market value of a company's outstanding shares. It is calculated by multiplying the current stock price by the total number of shares available. It helps investors understand the relative size of a company compared to others.",
+    "description": "Company A has 1 million shares priced at $100 each. Company B has 10 million shares priced at $10 each. Which statement about their size is true?",
+    "options": [
+      "Company A is ten times larger than Company B",
+      "Company B is ten times larger than Company A",
+      "Both companies have the exact same Market Cap",
+      "Company A is more valuable because its individual share price is higher"
+    ],
+    "answer": "Both companies have the exact same Market Cap",
+    "explanation": "Market Cap = Price × Shares. Both companies have a Market Cap of $100 million. Individual share price alone does not determine a company's total value."
+  },
+  {
+    "question": "The Bid-Ask Spread",
+    "content": "In a liquid market, the 'Bid' is the highest price a buyer is willing to pay, and the 'Ask' is the lowest price a seller is willing to accept. The difference between the two is the 'spread,' which represents a transaction cost for the investor and profit for market makers.",
+    "description": "You want to buy a stock immediately. The current Bid is $50.00 and the Ask is $50.05. If you place a 'market order' to buy right now, what price will you likely pay per share?",
+    "options": [
+      "$50.00",
+      "$50.05",
+      "$50.025",
+      "$50.10"
+    ],
+    "answer": "$50.05",
+    "explanation": "When you buy immediately using a market order, you pay the 'Ask' price (the price sellers are asking for). To sell immediately, you would receive the 'Bid' price."
+  },
+  {
+    "question": "Price-to-Earnings (P/E) Ratio",
+    "content": "The P/E ratio relates a company's share price to its earnings per share (EPS). It is a valuation tool used to determine if a stock is overvalued or undervalued. A high P/E might suggest high future growth expectations or that the stock is currently expensive.",
+    "description": "An investor notices that Stock X has a P/E of 50, while the industry average is 15. What is the most likely reason for this discrepancy?",
+    "options": [
+      "The company is currently going bankrupt",
+      "Investors expect the company's earnings to grow very rapidly in the future",
+      "The company has too many shares outstanding",
+      "The company is paying out all of its earnings as dividends"
+    ],
+    "answer": "Investors expect the company's earnings to grow very rapidly in the future",
+    "explanation": "A high P/E ratio usually indicates that investors are willing to pay a premium today because they anticipate significantly higher earnings in the years to come."
+  },
+  {
+    "question": "Stock Splits",
+    "content": "A stock split increases the number of shares in a company while lowering the price per share proportionally. This does not change the total value of the company or an individual's investment; it is usually done to make the stock price seem more 'affordable' to retail investors.",
+    "description": "You own 10 shares of a company worth $1,000 each ($10,000 total). The company announces a 10-for-1 stock split. What do you own after the split occurs?",
+    "options": [
+      "100 shares worth $1,000 each",
+      "10 shares worth $100 each",
+      "100 shares worth $100 each",
+      "1 share worth $10,000 each"
+    ],
+    "answer": "100 shares worth $100 each",
+    "explanation": "In a 10-for-1 split, your share count increases by 10x, and the price drops to 1/10th. Your total value remains $10,000 ($100 × 100), but you now hold more pieces of the same 'pie'."
+  },
+  {
+    "question": "Short Selling",
+    "content": "Short selling is a strategy where an investor borrows shares they do not own, sells them at the current price, and hopes to buy them back later at a lower price to return to the lender. This allows investors to profit from a decline in a stock's price.",
+    "description": "You believe a specific electric vehicle company is massively overvalued and its price will drop soon. Which action would allow you to profit if your prediction is correct?",
+    "options": [
+      "Buying the stock and holding it (Going Long)",
+      "Selling the stock short",
+      "Buying a Diversified Index Fund",
+      "Reinvesting your dividends"
+    ],
+    "answer": "Selling the stock short",
+    "explanation": "Short selling is the primary way to bet against a stock. You sell high now (with borrowed shares) and aim to 'cover' the position by buying low later."
+  },
+  {
+    "question": "Limited Liability",
+    "content": "Limited liability is a legal protection for shareholders. It ensures that if a corporation goes bankrupt or is sued, the shareholders can only lose the amount they invested in the stock; their personal assets (house, car, savings) are protected.",
+    "description": "You invest $5,000 in a shipping company. The company’s ship causes a billion-dollar environmental disaster and the company goes bankrupt. What is the maximum amount of money you can lose?",
+    "options": [
+      "The entire $5,000 investment",
+      "The $5,000 plus a portion of the billion-dollar fine",
+      "Nothing, because you are just a shareholder",
+      "Your $5,000 and your personal home"
+    ],
+    "answer": "The entire $5,000 investment",
+    "explanation": "Because of limited liability, your risk is capped at your initial investment. You are not personally responsible for the corporation's debts or legal liabilities."
+  },
+  {
+    "question": "Stock Market Indices",
+    "content": "An index, like the S&P 500 or the Dow Jones, tracks the performance of a specific group of stocks to represent the overall market or a specific sector. Indices help investors benchmark their own performance against the 'average.'",
+    "description": "If the 'S&P 500' is reported to be 'up 2%' for the day, what does this actually mean for the average person?",
+    "options": [
+      "Every single stock in the world increased by 2%",
+      "The 500 largest companies in the U.S. market increased in value by 2% on average",
+      "Interest rates in the bank increased by 2%",
+      "The cost of living decreased by 2%"
+    ],
+    "answer": "The 500 largest companies in the U.S. market increased in value by 2% on average",
+    "explanation": "The S&P 500 acts as a barometer for the large-cap U.S. stock market. Its movement reflects the weighted average performance of the 500 companies within it."
+  },
+  {
+    "question": "The Role of Investment Banks",
+    "content": "Investment banks act as intermediaries between companies that need capital and investors who have capital. Their primary role is 'underwriting' new stock or bond issues, helping companies navigate the complex legal and financial process of selling securities to the public.",
+    "description": "A private company wants to raise $500 million to build new factories. They hire an investment bank to help them. What is the primary service the bank provides in this scenario?",
+    "options": [
+      "Providing a safe savings account for the company's employees",
+      "Managing the company's daily payroll",
+      "Underwriting the stock and finding buyers for the new shares",
+      "Providing insurance against factory fires"
+    ],
+    "answer": "Underwriting the stock and finding buyers for the new shares",
+    "explanation": "Investment banks facilitate the 'primary market' by helping companies issue new securities to the public, ensuring the company gets the cash it needs and investors get the shares."
+  }
+]
