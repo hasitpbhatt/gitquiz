@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Systematic vs. Unsystematic Risk",
+    "content": "Total risk is composed of two parts: Unsystematic risk (specific to a single company) and Systematic risk (market-wide risks like inflation or war). While you can 'diversify away' company-specific risk, you cannot escape the risk of the overall market moving.",
+    "description": "An investor owns 50 different stocks across various industries. A sudden global oil shortage causes the entire stock market to drop by 10%. Why didn't the investor's large number of stocks protect them from this loss?",
+    "options": [
+      "Because they didn't own enough stocks",
+      "Because the oil shortage is a Systematic Risk that affects the entire economy",
+      "Because they forgot to buy insurance on their portfolio",
+      "Because diversification only works in a bull market"
+    ],
+    "answer": "Because the oil shortage is a Systematic Risk that affects the entire economy",
+    "explanation": "Diversification eliminates 'idiosyncratic' risk (like a single CEO resigning), but it cannot protect against 'market' risk (Systematic risk) that impacts all sectors simultaneously."
+  },
+  {
+    "question": "The Meaning of Beta (β)",
+    "content": "Beta measures a stock's volatility in relation to the overall market. A Beta of 1.0 means the stock moves exactly with the market. A Beta higher than 1.0 is more volatile (aggressive), and a Beta lower than 1.0 is less volatile (defensive).",
+    "description": "If the S&P 500 rises by 10%, and a specific 'High-Beta' stock with a Beta of 2.0 moves as expected, how much should that stock's price increase?",
+    "options": ["5%", "10%", "20%", "2%"],
+    "answer": "20%",
+    "explanation": "A Beta of 2.0 means the stock is twice as sensitive to market movements. If the market goes up 10%, the stock is expected to move 20% (10% × 2.0)."
+  },
+  {
+    "question": "The Capital Asset Pricing Model (CAPM)",
+    "content": "CAPM is a formula used to determine the 'required' return on an investment. It suggests that investors should be compensated in two ways: for the time value of money (Risk-Free Rate) and for taking on market risk (Beta multiplied by the Market Risk Premium).",
+    "description": "According to the CAPM formula, if an investment has a Beta of 0 (meaning it has no market risk), what should its expected return be?",
+    "options": [
+      "Zero percent",
+      "The Risk-Free Rate (e.g., the return on a Treasury Bond)",
+      "The same as the Stock Market return",
+      "An infinite return"
+    ],
+    "answer": "The Risk-Free Rate (e.g., the return on a Treasury Bond)",
+    "explanation": "If there is no market risk (Beta = 0), the formula calculates that the investor should only earn the 'Risk-Free Rate'—the bare minimum return for locking up their money without taking a gamble."
+  },
+  {
+    "question": "The Efficient Frontier",
+    "content": "The Efficient Frontier is a set of optimal portfolios that offer the highest expected return for a defined level of risk. Portfolios that fall below the frontier are sub-optimal because they do not provide enough return for the risk taken.",
+    "description": "You are comparing two portfolios. Both have a risk level (standard deviation) of 15%. Portfolio A returns 8%, and Portfolio B returns 12%. Which one sits on the Efficient Frontier?",
+    "options": ["Portfolio A", "Portfolio B", "Both", "Neither"],
+    "answer": "Portfolio B",
+    "explanation": "On the Efficient Frontier, you always choose the maximum return for a specific level of risk. Portfolio B is 'more efficient' because it yields 4% more than Portfolio A for the exact same amount of volatility."
+  },
+  {
+    "question": "The Sharpe Ratio",
+    "content": "The Sharpe Ratio measures the performance of an investment compared to a risk-free asset, after adjusting for its risk. It helps investors understand if their 'excess returns' are due to smart decisions or simply taking on too much dangerous risk.",
+    "description": "Portfolio X and Portfolio Y both earned 10% last year. However, Portfolio X was very steady, while Portfolio Y swung wildly up and down. Which portfolio has a higher Sharpe Ratio?",
+    "options": ["Portfolio X", "Portfolio Y", "They are equal", "The Sharpe Ratio cannot be calculated"],
+    "answer": "Portfolio X",
+    "explanation": "The Sharpe Ratio rewards 'smooth' returns. Since Portfolio X achieved the same 10% with less volatility (risk), its risk-adjusted return is superior."
+  },
+  {
+    "question": "Passive vs. Active Management",
+    "content": "Active managers try to 'beat the market' by picking individual stocks, while Passive managers simply track an index (like the S&P 500). Because active management involves higher fees and it is difficult to consistently outpredict the market, many investors prefer passive index funds.",
+    "description": "A fund manager charges a 2% fee to try and beat the market, but over 10 years, they underperform the 'boring' market index which has a 0.05% fee. What is the primary lesson here?",
+    "options": [
+      "High fees always guarantee better results",
+      "Active management is always illegal",
+      "Fees and market efficiency make it very difficult for active managers to provide value over the long term",
+      "The manager should have traded more frequently"
+    ],
+    "answer": "Fees and market efficiency make it very difficult for active managers to provide value over the long term",
+    "explanation": "In an efficient market, it is hard to consistently find 'mispriced' stocks. When you add high management fees, the hurdle for an active manager to beat a simple index fund becomes very high."
+  },
+  {
+    "question": "Rebalancing a Portfolio",
+    "content": "Over time, some assets grow faster than others, changing your original risk profile. Rebalancing is the process of selling high-performing assets and buying under-performing ones to bring your portfolio back to its original intended 'mix' (e.g., 60% stocks, 40% bonds).",
+    "description": "You started with 50% Stocks and 50% Bonds. After a massive stock market rally, your portfolio is now 80% Stocks and 20% Bonds. Why is it important to rebalance back to 50/50?",
+    "options": [
+      "To pay more in taxes",
+      "To prevent your portfolio from becoming much riskier than you originally intended",
+      "Because you are required to by law",
+      "To make sure you never make a profit"
+    ],
+    "answer": "To prevent your portfolio from becoming much riskier than you originally intended",
+    "explanation": "If you don't rebalance, the 'risky' part of your portfolio (stocks) will keep growing as a percentage of your wealth. A market crash would then hit you much harder than you originally planned for."
+  },
+  {
+    "question": "The Equity Risk Premium",
+    "content": "The Equity Risk Premium is the extra return that investors demand for shifting their money from 'safe' government bonds to 'risky' stocks. This premium is the compensation for enduring the volatility and uncertainty of the business world.",
+    "description": "If a safe government bond pays 3% and the stock market is expected to return 8%, what is the Equity Risk Premium?",
+    "options": ["11%", "8%", "5%", "3%"],
+    "answer": "5%",
+    "explanation": "The premium is the difference between the risky return and the risk-free return ($8\% - 3\% = 5\%$). It represents the 'bonus' you get for taking a risk."
+  },
+  {
+    "question": "The Role of Asset Allocation",
+    "content": "Asset allocation is the strategy of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash. Most financial experts agree that this 'mix' is the single most important factor in determining your long-term returns and risk level.",
+    "description": "Which of the following decisions will have the greatest impact on whether a 20-year-old student becomes a millionaire by age 60?",
+    "options": [
+      "Picking the perfect single tech stock to buy tomorrow",
+      "The overall percentage of their savings they keep in stocks versus a savings account",
+      "The specific day of the week they choose to invest",
+      "Which bank they use for their checking account"
+    ],
+    "answer": "The overall percentage of their savings they keep in stocks versus a savings account",
+    "explanation": "While individual stock picks are exciting, 'Asset Allocation'—the broad decision of how much risk to take—drives about 90% of a portfolio's return variability over long periods."
+  },
+  {
+    "question": "Market Timing vs. Time in the Market",
+    "content": "Market timing is the attempt to predict future market price movements to buy low and sell high. 'Time in the market' refers to staying invested long-term to benefit from compounding. Data shows that missing even a few of the market's 'best days' can significantly ruin long-term returns.",
+    "description": "An investor gets scared and pulls their money out of the market for the three best days of the year. What is the likely result compared to an investor who stayed 'buy and hold'?",
+    "options": [
+      "They will have much more money because they avoided the bad days",
+      "They will likely have significantly less money because the best days often happen right after the worst days",
+      "Their returns will be exactly the same",
+      "The bank will give them a bonus for being cautious"
+    ],
+    "answer": "They will likely have significantly less money because the best days often happen right after the worst days",
+    "explanation": "Market timing is notoriously difficult. By missing just a few top-performing days, an investor can lose out on a huge portion of the total annual gains, making 'staying the course' a statistically superior strategy for most."
+  }
+]
