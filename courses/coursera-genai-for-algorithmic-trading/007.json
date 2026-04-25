@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Handling Live Streaming Data",
+    "content": "Unlike backtesting, where data is static, live trading involves a 'Data Stream'—a continuous flow of prices and news. A GenAI pipeline must be 'event-driven,' meaning it triggers an analysis immediately when a new piece of information (like a tweet or a price tick) enters the system.",
+    "description": "You are building a bot to trade on breaking news. Why should you use a 'WebSocket' connection instead of a standard 'REST API' poll every 60 seconds?",
+    "options": [
+      "WebSockets are more expensive to maintain.",
+      "REST APIs are more secure for financial transactions.",
+      "WebSockets provide a real-time, persistent connection that pushes news to your AI the millisecond it's published.",
+      "REST APIs allow the AI more time to 'think' about the data."
+    ],
+    "answer": "WebSockets provide a real-time, persistent connection that pushes news to your AI the millisecond it's published.",
+    "explanation": "In live markets, 60 seconds is an eternity. WebSockets 'push' data instantly, ensuring your GenAI model isn't processing 'old news' while the market has already moved."
+  },
+  {
+    "question": "Preventing Model Drift and Staleness",
+    "content": "Model drift occurs when the market's behavior changes, but your AI's internal logic remains the same. A model trained during a period of low interest rates might become 'stale' and perform poorly when rates suddenly rise, requiring regular monitoring and retraining.",
+    "description": "Your live GenAI bot has been profitable for six months but has started losing money consistently this week. What is the first thing a developer should check?",
+    "options": [
+      "If the internet connection is slow.",
+      "If the market 'regime' has shifted, causing model drift where the AI's training data no longer matches reality.",
+      "If the AI needs a vacation or a software update.",
+      "If the exchange has changed its logo."
+    ],
+    "answer": "If the market 'regime' has shifted, causing model drift where the AI's training data no longer matches reality.",
+    "explanation": "Markets evolve. If the underlying correlations the AI learned (like 'Tech stocks go up when rates are low') are no longer true, the model is 'drifting' from reality and needs adjustment."
+  },
+  {
+    "question": "Concept of 'Online Learning'",
+    "content": "Online learning is a technique where a model updates itself incrementally as new data arrives, rather than being retrained from scratch on a huge dataset. This allows the trading bot to adapt to small, day-to-day market shifts in real-time.",
+    "description": "A trader wants their LSTM model to learn from today's price action without spending 10 hours retraining the entire 10-year history. Which method should they use?",
+    "options": [
+      "Batch Processing",
+      "Online Learning (Incremental Updates)",
+      "Zero-Shot Prompting",
+      "Manual Data Entry"
+    ],
+    "answer": "Online Learning (Incremental Updates)",
+    "explanation": "Online learning allows for 'continuous' improvement. By updating the model's weights with just the newest data points, the bot stays current without the computational cost of a full retrain."
+  },
+  {
+    "question": "Latency and GenAI Processing",
+    "content": "Large LLMs are slow to respond (high latency). In live trading, you must balance 'intelligence' with 'speed.' Using a smaller, faster model (like a distilled 7B parameter model) is often better for execution than using a massive, slow model (like a 175B parameter model).",
+    "description": "You are choosing an LLM for a live sentiment-tracking bot. Model A is 98% accurate but takes 5 seconds to respond. Model B is 90% accurate but takes 0.1 seconds. Which is better for a scalp-trading bot?",
+    "options": [
+      "Model A, because accuracy is everything in trading.",
+      "Model B, because the 5-second delay in Model A would mean the trade opportunity has already passed.",
+      "Neither; you should wait for a model that is 100% accurate and 0 latency.",
+      "Model A, but only if you use it on a faster computer."
+    ],
+    "answer": "Model B, because the 5-second delay in Model A would mean the trade opportunity has already passed.",
+    "explanation": "In trading, 'Good and Fast' beats 'Perfect and Slow.' High latency is a 'strategy-killer' for bots that need to react to rapid price fluctuations."
+  },
+  {
+    "question": "The 'Cold Start' Problem in Live Trading",
+    "content": "When you launch a live bot, it has no 'live history.' The 'Cold Start' problem refers to the period where the bot hasn't seen enough real-time data to fill its technical indicators (like a 20-day moving average).",
+    "description": "How do you prevent your GenAI bot from making random trades immediately after you turn it on for the first time?",
+    "options": [
+      "Feed it the last 30 days of historical data (warm-up) before enabling live trading.",
+      "Let it trade with small amounts of money until it learns on its own.",
+      "Wait 30 days before looking at the bot's dashboard.",
+      "Tell the AI to be patient in the system prompt."
+    ],
+    "answer": "Feed it the last 30 days of historical data (warm-up) before enabling live trading.",
+    "explanation": "A 'Warm-up' period ensures the bot's indicators and memory are populated with relevant context before it begins risking real capital."
+  },
+  {
+    "question": "Implementing 'Circuit Breakers' for AI",
+    "content": "An AI circuit breaker is a piece of code that automatically stops the bot if it behaves erratically—such as placing 100 trades in a minute or losing a certain percentage of the account in a single hour.",
+    "description": "Your GenAI sentiment engine suddenly reports 'Extreme Bearishness' for every single stock in the market simultaneously. What is the safest programmed response?",
+    "options": [
+      "Sell everything immediately to follow the AI.",
+      "Trigger a circuit breaker to pause trading and alert a human to check for a potential data feed error.",
+      "Assume the AI has predicted a global collapse and buy gold.",
+      "Restart the AI and let it keep trading."
+    ],
+    "answer": "Trigger a circuit breaker to pause trading and alert a human to check for a potential data feed error.",
+    "explanation": "If a model gives an 'extreme' or unusual output, it's often a data error or a hallucination. A circuit breaker prevents these digital errors from turning into financial disasters."
+  },
+  {
+    "question": "Data Pre-Processing in Production",
+    "content": "In a live environment, incoming data is often 'dirty' (missing values, weird formatting, or duplicate news). Pre-processing layers must clean this data in milliseconds before it reaches the GenAI model to ensure the output is reliable.",
+    "description": "A news API sends a headline with broken HTML characters like '&amp;'. If your LLM is sensitive to formatting, what should your pipeline do?",
+    "options": [
+      "Let the LLM figure it out.",
+      "Use a 'Cleaner' function to sanitize and normalize the text before the LLM sees it.",
+      "Reject the headline and wait for a better one.",
+      "Ask the LLM to fix the HTML before it analyzes the sentiment."
+    ],
+    "answer": "Use a 'Cleaner' function to sanitize and normalize the text before the LLM sees it.",
+    "explanation": "Raw data is messy. Sanitizing data ensures your LLM stays focused on the *meaning* of the news rather than being confused by technical 'noise' or formatting errors."
+  },
+  {
+    "question": "Rate Limiting and API Quotas",
+    "content": "Most LLM and data providers have 'Rate Limits' (e.g., only 60 requests per minute). A live bot must be programmed to 'throttle' its requests so it doesn't get blocked by the provider exactly when a big trade opportunity arises.",
+    "description": "The market enters a period of extreme news volume. Your bot starts hitting its API limit and getting '429 Too Many Requests' errors. What is the risk?",
+    "options": [
+      "The bot will get smarter by trying to work around the limit.",
+      "The bot will go 'blind' and miss critical news events while it is being blocked.",
+      "The API provider will give you a discount for being a frequent user.",
+      "There is no risk; the bot will just wait."
+    ],
+    "answer": "The bot will go 'blind' and miss critical news events while it is being blocked.",
+    "explanation": "Missing a signal because you are 'rate-limited' is a major operational risk. Live bots must prioritize which news to analyze or use higher-tier API limits to stay 'sighted' during busy periods."
+  },
+  {
+    "question": "Asynchronous Processing",
+    "content": "Asynchronous processing allows a bot to do multiple things at once—like reading the news, updating prices, and checking for exit signals—without one task waiting for the other to finish.",
+    "description": "Why is 'Async' code crucial for a GenAI bot that uses multiple LLM agents?",
+    "options": [
+      "It allows the bot to trade in different time zones.",
+      "It allows Agent A to analyze news while Agent B is simultaneously checking for stop-losses, preventing the system from freezing.",
+      "It makes the code look more professional.",
+      "It allows the bot to work without a battery."
+    ],
+    "answer": "It allows Agent A to analyze news while Agent B is simultaneously checking for stop-losses, preventing the system from freezing.",
+    "explanation": "In a 'synchronous' system, if an LLM takes 3 seconds to respond, the bot's risk management system is 'frozen' for those 3 seconds. Async processing keeps the safety checks running at all times."
+  },
+  {
+    "question": "Logging and Audit Trails",
+    "content": "In live trading, you must log every decision the AI makes, including the data it saw and the 'reasoning' it used. This 'Audit Trail' is essential for debugging losses and satisfying legal/regulatory requirements.",
+    "description": "The SEC asks why your bot sold a large block of shares at 2:00 PM. What is your best resource to answer them?",
+    "options": [
+      "Ask the AI to remember what it did.",
+      "Check your persistent logs that recorded the specific news headlines and confidence scores the AI had at exactly 2:00 PM.",
+      "Look at the stock chart and guess.",
+      "Show them the AI's training data from three years ago."
+    ],
+    "answer": "Check your persistent logs that recorded the specific news headlines and confidence scores the AI had at exactly 2:00 PM.",
+    "explanation": "Accountability is vital. A detailed log provides a 'black box' recording of the bot's brain at the moment of the trade, proving that the decision was based on logic rather than random error."
+  }
+]
