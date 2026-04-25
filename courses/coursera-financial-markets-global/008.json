@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Social Purpose of Finance",
+    "content": "Finance is fundamentally a tool for achieving social goals. While often associated with profit, financial structures also enable the creation of non-profits, the funding of public infrastructure, and the distribution of resources to those in need during crises.",
+    "description": "A city wants to build a new public library but doesn't have the cash available today. They decide to issue 'Municipal Bonds.' What is the social function of finance in this scenario?",
+    "options": [
+      "To maximize profit for the city council",
+      "To allow the community to enjoy a public good now by paying for it over time with future tax revenue",
+      "To privatize the library and charge entrance fees",
+      "To decrease the value of nearby homes"
+    ],
+    "answer": "To allow the community to enjoy a public good now by paying for it over time with future tax revenue",
+    "explanation": "This is the essence of social finance: using borrowing mechanisms to fund projects that provide long-term value to society, spreading the cost over the generations that will actually use the facility."
+  },
+  {
+    "question": "Non-Profit Organizations and Endowments",
+    "content": "Non-profits use financial markets to manage 'endowments'—large pools of donated money that are invested. The goal is to spend only the investment returns while keeping the principal intact, ensuring the organization can fund its mission forever.",
+    "description": "A university receives a $100 million gift. Instead of spending it all on one building, they put it in an endowment and spend 5% each year. Why is this strategy used?",
+    "options": [
+      "Because the government forbids spending more than 5%",
+      "To ensure the university has a permanent source of funding for centuries to come",
+      "Because they don't have anything else to spend money on",
+      "To hide the money from tax authorities"
+    ],
+    "answer": "To ensure the university has a permanent source of funding for centuries to come",
+    "explanation": "An endowment turns a one-time gift into a 'perpetuity.' By only spending the growth/interest, the non-profit protects itself against future economic downturns and ensures long-term stability."
+  },
+  {
+    "question": "Impact Investing",
+    "content": "Impact investing refers to investments made with the intention to generate a measurable social or environmental benefit alongside a financial return. It challenges the idea that social good and profit are mutually exclusive.",
+    "description": "An investor puts money into a company that develops low-cost solar panels for off-grid villages. They expect to get their money back with a small profit, but their main goal is reducing carbon emissions. This is an example of:",
+    "options": [
+      "Day Trading",
+      "Impact Investing",
+      "Short Selling",
+      "Arbitrage"
+    ],
+    "answer": "Impact Investing",
+    "explanation": "Unlike traditional charity (where you expect 0% return) or traditional investing (where you only want max profit), impact investing seeks a 'double bottom line' of both profit and social purpose."
+  },
+  {
+    "question": "Democratization of Finance",
+    "content": "The democratization of finance is the process of making financial tools and markets accessible to everyone, not just large institutions or wealthy individuals. This is driven by technology, lower fees, and new regulations.",
+    "description": "In the past, you needed a stockbroker and high commissions to buy a single share of stock. Today, apps allow you to buy $1 worth of a 'fractional share' with no fees. This trend is known as:",
+    "options": [
+      "Financial Exclusion",
+      "The Democratization of Finance",
+      "Monetary Contraction",
+      "Market Consolidation"
+    ],
+    "answer": "The Democratization of Finance",
+    "explanation": "Technology has lowered the barriers to entry, allowing people with very small amounts of capital to participate in the wealth-building potential of the global stock market."
+  },
+  {
+    "question": "Philanthropy and the Gift Economy",
+    "content": "Philanthropy is a voluntary action for the public good. While it operates outside of traditional market exchanges (where you expect something in return), it often uses market principles to evaluate the 'efficiency' and 'scale' of the help being provided.",
+    "description": "A billionaire signs 'The Giving Pledge,' promising to give away the majority of their wealth to solve global diseases. How does this interact with the financial system?",
+    "options": [
+      "It removes money from the economy forever",
+      "It redistributes capital from private wealth to social problem-solving, often through foundations",
+      "It increases inflation by giving away free money",
+      "It is a form of insider trading"
+    ],
+    "answer": "It redistributes capital from private wealth to social problem-solving, often through foundations",
+    "explanation": "Philanthropy acts as a specialized sector of the economy that allocates capital to areas where traditional markets might fail, such as curing rare diseases or providing disaster relief."
+  },
+  {
+    "question": "Microfinance",
+    "content": "Microfinance involves providing small loans (microloans) to entrepreneurs and small business owners in developing countries who lack access to traditional banking. These loans are often used to buy equipment or inventory to escape poverty.",
+    "description": "A woman in a rural village borrows $50 to buy a sewing machine to start a tailoring business. She pays the loan back with a small amount of interest. This financial innovation is called:",
+    "options": [
+      "Subprime Lending",
+      "Microfinance",
+      "A Ponzi Scheme",
+      "Securitization"
+    ],
+    "answer": "Microfinance",
+    "explanation": "Microfinance proves that even very small amounts of capital, when provided as a loan rather than a hand-out, can stimulate local economies and create self-sustaining businesses."
+  },
+  {
+    "question": "Crowdfunding",
+    "content": "Crowdfunding is the practice of funding a project or venture by raising small amounts of money from a large number of people, typically via the Internet. It bypasses traditional gatekeepers like banks or venture capitalists.",
+    "description": "An inventor has a new idea for a sustainable water filter but was rejected by a bank. They post the project online and 5,000 people contribute $20 each to fund the first production run. This is:",
+    "options": [
+      "A Federal Grant",
+      "Crowdfunding",
+      "An Initial Public Offering (IPO)",
+      "A Leveraged Buyout"
+    ],
+    "answer": "Crowdfunding",
+    "explanation": "Crowdfunding allows the 'wisdom of the crowd' to decide which projects are worth funding, decentralizing the power of capital allocation."
+  },
+  {
+    "question": "ESG Criteria",
+    "content": "ESG stands for Environmental, Social, and Governance. These are standards for a company’s operations that socially conscious investors use to screen potential investments, looking at things like carbon footprint, board diversity, and labor practices.",
+    "description": "An investment fund refuses to buy shares in any company that uses child labor or pollutes local rivers, even if those companies are very profitable. This fund is using:",
+    "options": [
+      "Technical Analysis",
+      "ESG Criteria",
+      "Fundamental Valuation",
+      "Market Timing"
+    ],
+    "answer": "ESG Criteria",
+    "explanation": "ESG investing integrates ethical considerations into the investment process, pressuring corporations to improve their social and environmental behavior to attract capital."
+  },
+  {
+    "question": "The Future: Fintech and Blockchain",
+    "content": "Fintech (Financial Technology) uses software and modern tech to provide financial services. Blockchain technology, specifically, offers a decentralized way to record transactions without the need for a traditional middleman like a bank.",
+    "description": "You send money directly to a friend across the world in seconds using a digital ledger that no single government or bank controls. Which technology are you likely using?",
+    "options": [
+      "A Standard Wire Transfer",
+      "Blockchain/Cryptocurrency",
+      "A Physical Check",
+      "A Central Bank Reserve"
+    ],
+    "answer": "Blockchain/Cryptocurrency",
+    "explanation": "Blockchain aims to reduce transaction costs and increase transparency by creating a peer-to-peer financial system that doesn't rely on centralized institutions."
+  },
+  {
+    "question": "Financial Literacy as a Social Tool",
+    "content": "Financial literacy is the ability to understand and effectively use various financial skills, including personal financial management, budgeting, and investing. It is considered a critical tool for reducing wealth inequality.",
+    "description": "Why is teaching high school students about compound interest and credit scores considered a social good?",
+    "options": [
+      "It helps them become bank employees",
+      "It empowers them to make decisions that prevent debt traps and build long-term wealth",
+      "It ensures they will all become millionaires",
+      "It is required by the Federal Reserve to keep inflation low"
+    ],
+    "answer": "It empowers them to make decisions that prevent debt traps and build long-term wealth",
+    "explanation": "Knowledge is the ultimate financial asset. Understanding how the 'rules of money' work allows individuals to navigate the system effectively, regardless of their starting point in life."
+  }
+]
