@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Mechanics of a Bond",
+    "content": "A bond is essentially a 'IOU' issued by a borrower (like a government or corporation) to a lender (the investor). The borrower promises to pay back the principal at a set date and usually makes fixed interest payments, known as 'coupons,' along the way.",
+    "description": "If you buy a 10-year Treasury Bond from the government for $1,000 with a 3% coupon rate, what can you expect to receive annually for the next decade?",
+    "options": [
+      "$3.00 in interest",
+      "$30.00 in interest",
+      "$300.00 in interest",
+      "A variable amount based on stock market performance"
+    ],
+    "answer": "$30.00 in interest",
+    "explanation": "The coupon payment is calculated as the interest rate times the face value ($1,000 × 0.03 = $30). This payment is typically fixed regardless of market conditions."
+  },
+  {
+    "question": "Interest Rates and Bond Prices",
+    "content": "There is an inverse relationship between interest rates and bond prices. When market interest rates rise, existing bonds with lower rates become less attractive, causing their market price to fall so that their yield matches current market levels.",
+    "description": "You hold a bond paying 2% interest. Suddenly, the central bank raises interest rates, and new bonds are now paying 5%. If you try to sell your 2% bond on the open market, what will happen to its price?",
+    "options": [
+      "The price will increase",
+      "The price will decrease",
+      "The price will stay exactly the same",
+      "The price will drop to zero"
+    ],
+    "answer": "The price will decrease",
+    "explanation": "No one will pay full price for a 2% bond when they can buy a new one at 5%. To find a buyer, you must lower your price until the effective return for the buyer matches the new 5% market rate."
+  },
+  {
+    "question": "The Concept of Present Value",
+    "content": "Present Value (PV) is the idea that money available now is worth more than the same amount in the future due to its potential earning capacity. To find the PV, we 'discount' future cash flows using an interest rate.",
+    "description": "You are offered a choice between receiving $1,000 today or $1,000 five years from now. Why is the $1,000 today considered more valuable to a rational investor?",
+    "options": [
+      "Because of the possibility of inflation only",
+      "Because the $1,000 today can be invested to grow into a larger sum over those 5 years",
+      "Because the government taxes future money at a higher rate",
+      "There is no difference in value"
+    ],
+    "answer": "Because the $1,000 today can be invested to grow into a larger sum over those 5 years",
+    "explanation": "This is the core of the Time Value of Money. By taking the money today and earning interest, you will end up with more than $1,000 in five years."
+  },
+  {
+    "question": "Credit Risk and Default",
+    "content": "Credit risk is the possibility that a borrower will fail to make the required payments on their debt. Investors demand a higher interest rate (a 'risk premium') to lend to borrowers with lower credit scores or unstable finances.",
+    "description": "Why does a small startup company usually have to pay a much higher interest rate on its bonds than the U.S. Federal Government?",
+    "options": [
+      "The startup has a higher risk of going bankrupt and defaulting on the loan",
+      "The government has a legal monopoly on low interest rates",
+      "Startups are not allowed to issue low-interest debt",
+      "The government uses its own bank to set its own rates"
+    ],
+    "answer": "The startup has a higher risk of going bankrupt and defaulting on the loan",
+    "explanation": "Lenders require a 'risk premium' to compensate for the chance that the startup might fail. The U.S. government is considered to have the lowest default risk, hence it pays lower rates."
+  },
+  {
+    "question": "Compound Interest",
+    "content": "Compound interest is interest calculated on the initial principal and also on the accumulated interest of previous periods. It is often described as 'interest on interest,' and it allows wealth to grow exponentially over long periods.",
+    "description": "If you invest $100 and earn 10% interest, you have $110 after year one. In year two, you earn 10% again. Why do you end up with $121 instead of $120?",
+    "options": [
+      "Because of a calculation error by the bank",
+      "Because in year two, you earned $10 on your original $100 plus $1 on the interest from year one",
+      "Because the government adds a bonus for long-term saving",
+      "Because inflation increased the value of the dollar"
+    ],
+    "answer": "Because in year two, you earned $10 on your original $100 plus $1 on the interest from year one",
+    "explanation": "This is compounding in action. Each year, your interest is calculated based on the new, higher balance, causing your wealth to accelerate over time."
+  },
+  {
+    "question": "Inflation and Real vs. Nominal Returns",
+    "content": "The 'Nominal' return is the percentage increase in money you earn, while the 'Real' return is that increase adjusted for inflation. Inflation erodes the purchasing power of money, so the real return tells you how much more 'stuff' you can actually buy.",
+    "description": "Your savings account pays 5% interest (Nominal), but inflation for the year is 6%. At the end of the year, what has happened to your actual purchasing power?",
+    "options": [
+      "It increased by 5%",
+      "It increased by 11%",
+      "It decreased by 1%",
+      "It stayed exactly the same"
+    ],
+    "answer": "It decreased by 1%",
+    "explanation": "Even though you have 5% more money, prices went up by 6%. Your 'Real' return is approximately -1%, meaning you can actually buy less than you could at the start of the year."
+  },
+  {
+    "question": "The Yield Curve",
+    "content": "The yield curve is a graph that plots the interest rates of bonds with equal credit quality but different maturity dates. Usually, the curve slopes upward because investors demand higher rates to lock their money away for longer periods.",
+    "description": "Under normal economic conditions, why would a 30-year bond pay a higher interest rate than a 2-year bond?",
+    "options": [
+      "Because 30-year bonds are rarer",
+      "To compensate investors for the increased risk of inflation and uncertainty over a longer time horizon",
+      "Because shorter-term bonds are more expensive to print",
+      "To encourage people to retire earlier"
+    ],
+    "answer": "To compensate investors for the increased risk of inflation and uncertainty over a longer time horizon",
+    "explanation": "More can go wrong in 30 years than in 2 years. Investors require a 'term premium' to offset the risks of inflation and interest rate changes over three decades."
+  },
+  {
+    "question": "Zero-Coupon Bonds",
+    "content": "A zero-coupon bond does not make periodic interest payments. Instead, it is sold at a deep discount to its face value. The investor's return comes from the difference between the purchase price and the full face value paid at maturity.",
+    "description": "You buy a bond for $800 that promises to pay you exactly $1,000 in five years with no payments in between. What is this type of security called?",
+    "options": [
+      "A Dividend Stock",
+      "A Zero-Coupon Bond",
+      "A Perpetuity",
+      "An Amortizing Loan"
+    ],
+    "answer": "A Zero-Coupon Bond",
+    "explanation": "Zero-coupon bonds 'roll up' all the interest into a single payment at the end. Your 'interest' is the $200 profit you make when the bond matures."
+  },
+  {
+    "question": "Callable Bonds",
+    "content": "A 'callable' bond gives the issuer (the company) the right to pay off the bond early, before its maturity date. Companies usually do this if market interest rates drop, allowing them to refinance their debt at a cheaper rate.",
+    "description": "A company issued bonds at 8% interest. Two years later, market rates drop to 4%. If the bonds are 'callable,' what is the company likely to do?",
+    "options": [
+      "Double the interest payments to shareholders",
+      "Call the bonds (pay them back early) and issue new debt at 4%",
+      "Nothing, because they are legally obligated to wait until the maturity date",
+      "Increase the face value of the bonds"
+    ],
+    "answer": "Call the bonds (pay them back early) and issue new debt at 4%",
+    "explanation": "Just like a homeowner refinances a mortgage when rates drop, a company uses the 'call' feature to reduce its interest expenses."
+  },
+  {
+    "question": "The Role of Credit Rating Agencies",
+    "content": "Agencies like Moody’s and Standard & Poor’s assign grades (like AAA or BB) to bonds based on the issuer's ability to pay back debt. These ratings help investors quickly assess the risk level of a bond without doing all the research themselves.",
+    "description": "A bond's rating is suddenly downgraded from 'Investment Grade' to 'Junk' (Speculative). What is the most likely immediate effect on that bond in the marketplace?",
+    "options": [
+      "Its price will rise because it is now more exciting",
+      "Its price will fall as investors demand a much higher yield to hold the riskier debt",
+      "The company will be forced to shut down immediately",
+      "The interest rate the company pays will automatically decrease"
+    ],
+    "answer": "Its price will fall as investors demand a much higher yield to hold the riskier debt",
+    "explanation": "A downgrade signals higher risk. Investors will sell the bond, driving the price down until the yield is high enough to compensate for the increased danger of default."
+  }
+]
