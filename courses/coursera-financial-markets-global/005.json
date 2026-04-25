@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Nature of a Mortgage",
+    "content": "A mortgage is a loan specifically used to purchase real estate, where the property itself serves as collateral. This means if the borrower fails to make payments, the lender has the legal right to seize the property through a process called foreclosure to recover the loan amount.",
+    "description": "A family buys a $300,000 home with a $60,000 down payment and a mortgage for the remainder. If the value of the home suddenly drops to $200,000 and they cannot make payments, why is the bank still at risk of a loss?",
+    "options": [
+      "Because the home is no longer a physical asset",
+      "Because the value of the collateral is now less than the outstanding loan balance",
+      "Because down payments are illegal in most states",
+      "Because banks are not allowed to sell seized homes"
+    ],
+    "answer": "Because the value of the collateral is now less than the outstanding loan balance",
+    "explanation": "This is known as being 'underwater.' Since the loan ($240,000) is higher than the home's current value ($200,000), selling the house won't cover the full debt, leaving the bank with a shortfall."
+  },
+  {
+    "question": "Fixed-Rate vs. Adjustable-Rate Mortgages (ARMs)",
+    "content": "A fixed-rate mortgage locks in an interest rate for the entire life of the loan (e.g., 30 years), providing stability. An Adjustable-Rate Mortgage (ARM) typically starts with a lower rate that changes over time based on market conditions, shifting interest rate risk from the lender to the borrower.",
+    "description": "An individual expects interest rates to rise significantly over the next decade. Which mortgage type would provide them the most protection against increasing monthly payments?",
+    "options": [
+      "A 5-year Adjustable-Rate Mortgage",
+      "A 30-year Fixed-Rate Mortgage",
+      "An Interest-Only Loan",
+      "A Balloon Payment Mortgage"
+    ],
+    "answer": "A 30-year Fixed-Rate Mortgage",
+    "explanation": "A fixed-rate mortgage ensures the interest rate never changes. Even if global market rates double, the borrower's payment remains the same for the full 30 years."
+  },
+  {
+    "question": "The Process of Securitization",
+    "content": "Securitization is the process of pooling various types of contractual debt—such as thousands of individual home mortgages—and selling their related cash flows to third-party investors as securities. This provides banks with immediate cash to issue even more loans.",
+    "description": "How does securitization affect a local bank's ability to lend money to new homebuyers in its community?",
+    "options": [
+      "It limits lending because the bank must keep all loans on its books",
+      "It increases lending capacity by moving old loans off the books and bringing in new capital",
+      "It has no effect on lending",
+      "It forces the bank to only lend to the government"
+    ],
+    "answer": "It increases lending capacity by moving old loans off the books and bringing in new capital",
+    "explanation": "By selling 'bundles' of mortgages to investors, the bank recovers its cash immediately rather than waiting 30 years for homeowners to pay them back, allowing them to turn around and lend to new borrowers."
+  },
+  {
+    "question": "Mortgage-Backed Securities (MBS)",
+    "content": "A Mortgage-Backed Security (MBS) is an investment similar to a bond that is made up of a bundle of home loans bought from the banks that issued them. Investors in an MBS receive periodic payments similar to bond coupons, funded by the principal and interest paid by homeowners.",
+    "description": "If you buy a Mortgage-Backed Security, what is the primary source of the 'interest' payments you receive every month?",
+    "options": [
+      "Government tax revenue",
+      "The profits of the investment bank",
+      "The monthly mortgage payments made by thousands of homeowners",
+      "Stock market dividends"
+    ],
+    "answer": "The monthly mortgage payments made by thousands of homeowners",
+    "explanation": "An MBS passes the payments from borrowers through to investors. If homeowners pay their mortgages, the MBS investor gets paid; if homeowners default, the investor's return drops."
+  },
+  {
+    "question": "Prepayment Risk",
+    "content": "Prepayment risk is the risk that borrowers will pay off their loans sooner than expected, usually by refinancing when interest rates drop. While getting money back early sounds good, it forces the investor to reinvest that money at a lower, less profitable interest rate.",
+    "description": "Interest rates just dropped from 7% to 3%. A massive wave of homeowners refinances their mortgages. Why is this bad news for an investor holding an MBS that was paying 7%?",
+    "options": [
+      "The homeowners will stop living in their houses",
+      "The investor will lose their principal entirely",
+      "The investor receives their cash back early and must now reinvest it at the new, lower 3% rate",
+      "The bank will go out of business"
+    ],
+    "answer": "The investor receives their cash back early and must now reinvest it at the new, lower 3% rate",
+    "explanation": "This is a key risk in real estate finance. When rates drop, 'good' high-interest loans disappear because borrowers pay them off early to get cheaper ones elsewhere."
+  },
+  {
+    "question": "Subprime Mortgages",
+    "content": "Subprime mortgages are loans granted to borrowers with lower credit scores or higher risk profiles. Because these borrowers are more likely to default, lenders charge them higher interest rates to compensate for the increased risk.",
+    "description": "During the lead-up to the 2008 financial crisis, there was a massive increase in subprime lending. Why did investors keep buying these risky loans in the form of securities?",
+    "options": [
+      "They were guaranteed by the government to never fail",
+      "They offered higher yields (returns) than 'prime' loans and were incorrectly rated as safe",
+      "Subprime borrowers are statistically safer than wealthy borrowers",
+      "The investors were forced to buy them by law"
+    ],
+    "answer": "They offered higher yields (returns) than 'prime' loans and were incorrectly rated as safe",
+    "explanation": "Investors were attracted to the higher interest rates of subprime loans. Many believed that because the loans were 'pooled' together, the risk of everyone failing at once was nearly zero—an assumption that proved wrong."
+  },
+  {
+    "question": "The Role of Home Equity",
+    "content": "Home equity is the difference between the current market value of a property and the amount still owed on the mortgage. As the loan is paid down or the property value increases, the owner's equity grows, representing their actual 'ownership' stake.",
+    "description": "A homeowner has a house worth $500,000 and a mortgage balance of $300,000. They decide to take out a 'Home Equity Loan' for $50,000. What is their new equity position?",
+    "options": [
+      "$500,000",
+      "$200,000",
+      "$150,000",
+      "$250,000"
+    ],
+    "answer": "$150,000",
+    "explanation": "Initial equity was $200,000 ($500k - $300k). By borrowing an additional $50k against the house, their debt increases to $350k, leaving them with $150,000 in equity."
+  },
+  {
+    "question": "Real Estate Investment Trusts (REITs)",
+    "content": "REITs are companies that own, operate, or finance income-producing real estate across a range of property sectors. They allow individual investors to buy shares in commercial real estate portfolios—like shopping malls or apartment buildings—just like buying a stock.",
+    "description": "An investor wants to profit from the rising rents of office buildings in New York but only has $1,000 to invest. What is the most practical way for them to achieve this?",
+    "options": [
+      "Buying an office building with a small loan",
+      "Buying shares in an Office-focused REIT",
+      "Opening a high-yield savings account",
+      "Buying physical gold"
+    ],
+    "answer": "Buying shares in an Office-focused REIT",
+    "explanation": "REITs 'democratize' real estate by allowing small investors to own a piece of large, professional-grade properties with high liquidity and low entry costs."
+  },
+  {
+    "question": "The 'Housing Bubble' Concept",
+    "content": "A housing bubble occurs when real estate prices rise rapidly to unsustainable levels, driven by speculation and easy credit rather than fundamental demand. When the bubble 'bursts,' prices collapse, often leading to widespread foreclosures and economic recession.",
+    "description": "In 2006, people were buying multiple homes with no money down, expecting to flip them for a profit in months. This behavior is a classic indicator of:",
+    "options": [
+      "A healthy, stable market",
+      "A Speculative Bubble",
+      "Efficient Market Theory",
+      "Systemic Risk Regulation"
+    ],
+    "answer": "A Speculative Bubble",
+    "explanation": "When prices are driven by the expectation that they will always go up—rather than the actual utility of the asset—a bubble forms. This decouples the price from reality."
+  },
+  {
+    "question": "Appraisals and Valuation",
+    "content": "An appraisal is a professional estimate of a property's market value. Lenders require appraisals to ensure that the loan amount they are providing is supported by the actual value of the collateral (the house).",
+    "description": "You agree to buy a house for $400,000, but the bank's appraiser says it is only worth $350,000. Why will the bank likely refuse to give you the full $400,000 loan?",
+    "options": [
+      "The bank wants to prevent you from moving in",
+      "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",
+      "Appraisers are not allowed to use round numbers",
+      "The bank is legally required to always lend $50,000 less than the price"
+    ],
+    "answer": "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",
+    "explanation": "The bank uses the appraisal to manage its risk. If they lend more than the house is worth, they are 'unsecured' for the difference, which is too risky for a standard mortgage lender."
+  }
+]
