@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Role of Sentiment Scores in Quantitative Models",
+    "content": "A 'Sentiment Score' is a numerical representation of the mood of a text, typically ranging from -1 (extremely negative) to +1 (extremely positive). By adding this score as a 'feature' alongside traditional indicators like the Relative Strength Index (RSI), traders can filter out 'fake' technical breakouts that aren't supported by market news.",
+    "description": "A stock's RSI indicates it is 'Oversold' (a traditional buy signal), but your GenAI sentiment score for the company is -0.8 due to an ongoing lawsuit. How should a combined strategy react?",
+    "options": [
+      "Ignore the sentiment and buy because RSI is a 'hard' mathematical fact.",
+      "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
+      "Sell the stock immediately because lawsuits are always fatal for companies.",
+      "Average the RSI and the sentiment score to create a new price target."
+    ],
+    "answer": "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
+    "explanation": "Combining indicators acts as a 'confirmation' mechanism. If the technicals say 'buy' but the fundamentals (sentiment) are toxic, the technical signal is high-risk and likely a 'falling knife'."
+  },
+  {
+    "question": "Multi-Factor Model Weighting",
+    "content": "Multi-factor models combine different signals—like Momentum, Value, and Sentiment—to decide which stocks to buy. The key is 'Weighting': deciding how much importance to give each factor based on its historical accuracy and current market conditions.",
+    "description": "During a high-volatility earnings season, you notice your 'Momentum' factor is failing, but your 'GenAI Earnings Sentiment' factor is highly accurate. What is the most logical adjustment?",
+    "options": [
+      "Keep all weights equal to maintain a balanced perspective.",
+      "Dynamically increase the weight of the Sentiment factor and decrease the weight of the Momentum factor.",
+      "Turn off the model until the volatility passes.",
+      "Delete the Momentum factor entirely from your code."
+    ],
+    "answer": "Dynamically increase the weight of the Sentiment factor and decrease the weight of the Momentum factor.",
+    "explanation": "Adaptive weighting allows a strategy to lean on what is currently working. In earnings season, qualitative news often overrides technical momentum, making sentiment a more reliable driver."
+  },
+  {
+    "question": "Blending Mean Reversion with AI Signals",
+    "content": "Mean reversion is the theory that prices eventually return to their long-term average. GenAI can help determine if a price drop is an 'overreaction' (good for mean reversion) or a 'fundamental shift' (bad for mean reversion).",
+    "description": "A stock price drops 10% instantly. Your GenAI tool analyzes 1,000 social media posts and news wires but finds no specific bad news. What does this suggest for a mean reversion trader?",
+    "options": [
+      "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
+      "The price will never return to its average because the AI found nothing.",
+      "You should wait for the AI to make up a reason for the drop.",
+      "The stock is now a 'Value' play for the next 10 years."
+    ],
+    "answer": "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
+    "explanation": "If the price moves significantly without a clear 'narrative' catalyst identified by the AI, it is more likely to be a temporary imbalance rather than a permanent change in value."
+  },
+  {
+    "question": "Signal Blending and Correlation",
+    "content": "When integrating GenAI, it is important to ensure the new AI signal isn't just repeating what your existing indicators already say. If two signals are highly correlated, adding the second one doesn't add value—it just doubles your risk on the same bet.",
+    "description": "You add a 'News Sentiment' signal to your model, but you find it is 95% correlated with your 'Price Momentum' indicator. Why is this a problem?",
+    "options": [
+      "The model will run too slowly.",
+      "It provides no 'diversification' of insight; the news is just reflecting the price action that has already happened.",
+      "The correlation is too high for the computer to calculate.",
+      "It means you have found the 'Holy Grail' of trading."
+    ],
+    "answer": "It provides no 'diversification' of insight; the news is just reflecting the price action that has already happened.",
+    "explanation": "Effective signal blending requires 'orthogonal' (independent) data. If your AI signal just follows the price, it isn't giving you a 'lead'—it's just a 'lagging' confirmation."
+  },
+  {
+    "question": "Using LLMs for Regime Detection",
+    "content": "Market 'Regimes' are distinct periods like 'Bull Markets,' 'Bear Markets,' or 'Sideways Volatility.' GenAI can process macro-economic news (Fed speeches, inflation reports) to classify the current regime, helping you decide which technical strategy to use.",
+    "description": "Your GenAI model classifies the market regime as 'High Inflation / Hawkish Fed.' Which traditional quantitative strategy should you prioritize?",
+    "options": [
+      "Aggressive growth-stock buying.",
+      "Defensive strategies focusing on short-term yields and value commodities.",
+      "Long-term 30-year Treasury bonds.",
+      "Penny stock speculation."
+    ],
+    "answer": "Defensive strategies focusing on short-term yields and value commodities.",
+    "explanation": "Regime detection informs the 'style' of trading. In a hawkish/inflationary environment, growth stocks typically struggle, so the AI signal helps you pivot to factors that historically perform better."
+  },
+  {
+    "question": "Alpha Decay in GenAI Strategies",
+    "content": "Alpha decay occurs when a trading edge disappears because too many people are using the same strategy. As GenAI becomes standard, simply 'buying on good news' will stop working as the market prices in that news faster and faster.",
+    "description": "You notice your sentiment-based strategy is becoming less profitable even though the AI is still accurate. What is the likely cause?",
+    "options": [
+      "The AI has become 'too smart' for the market.",
+      "Alpha decay: other traders are likely using similar AI models, causing the market to react instantly to sentiment.",
+      "The stock market has decided to stop reacting to news.",
+      "You are using the wrong font in your trading dashboard."
+    ],
+    "answer": "Alpha decay: other traders are likely using similar AI models, causing the market to react instantly to sentiment.",
+    "explanation": "As technology spreads, the 'speed' of information integration increases. To maintain an edge, you must find more unique data sources or more complex ways to blend signals than your competitors."
+  },
+  {
+    "question": "Filtering Technical Indicators with GenAI",
+    "content": "Technical indicators like the 'MACD' often produce 'whipsaws'—signals that quickly reverse and cause losses. GenAI can act as a filter, allowing a trade only if the technical 'cross' is accompanied by a positive trend in the company's public narrative.",
+    "description": "Your MACD shows a 'Golden Cross' (bullish signal), but your GenAI summary of the company's recent 'Product Launch' is 'Disappointing and Lacking Innovation.' What should you do?",
+    "options": [
+      "Trust the MACD; the price knows more than the people.",
+      "Skip the trade or reduce position size, as the technical signal lacks fundamental 'fuel'.",
+      "Buy twice as much to prove the critics wrong.",
+      "Wait for the MACD to turn red before buying."
+    ],
+    "answer": "Skip the trade or reduce position size, as the technical signal lacks fundamental 'fuel'.",
+    "explanation": "GenAI provides the 'context' for a move. A technical breakout without a strong fundamental story is often a 'bull trap'—a brief rise before a sharp fall."
+  },
+  {
+    "question": "Sentiment Lag in Trend Following",
+    "content": "Trend-following strategies buy when prices go up and sell when they go down. GenAI can identify the *start* of a trend before the price fully reflects it by detecting a 'groundswell' of positive sentiment in niche industry forums or technical papers.",
+    "description": "An LLM finds a surge in positive mentions of 'Solid State Batteries' in patent filings and research journals. The stock prices of battery companies haven't moved yet. How is this integrated into a trend-following model?",
+    "options": [
+      "It acts as a 'Leading Indicator,' suggesting a trend is likely to form soon.",
+      "It is a 'Lagging Indicator' because the patents were filed months ago.",
+      "It is 'Noise' because research papers don't affect stock prices.",
+      "It should be used to sell the stocks before the research becomes common knowledge."
+    ],
+    "answer": "It acts as a 'Leading Indicator,' suggesting a trend is likely to form soon.",
+    "explanation": "Information flow usually starts in specialized circles (patents/research) before hitting mainstream news and finally the price. GenAI helps you capture this 'Early Alpha'."
+  },
+  {
+    "question": "The 'Crowdedness' Factor",
+    "content": "If an AI sentiment score is extremely high (e.g., 0.99), it often means a trade is 'crowded'—everyone is already long. In quantitative trading, an 'over-crowded' sentiment signal can actually be a 'Contrarian' signal to sell.",
+    "description": "Your GenAI sentiment engine reports the highest 'Bullishness' score for Nvidia in 5 years. What risk should a quantitative manager consider?",
+    "options": [
+      "That there are no more buyers left to push the price higher.",
+      "That the AI has reached its maximum capacity for happiness.",
+      "That the stock will go up forever.",
+      "That the news sentiment is finally accurate."
+    ],
+    "answer": "That there are no more buyers left to push the price higher.",
+    "explanation": "When sentiment is at its maximum, it often indicates a 'blow-off top.' In quant models, extreme sentiment is frequently treated as a warning that a reversal is imminent."
+  },
+  {
+    "question": "Handling Contradictory Signals",
+    "content": "In a multi-factor model, you will often get contradictory signals (e.g., Price is 'Sell,' Sentiment is 'Buy'). Integration requires a 'Tie-Breaking' rule or a 'Confidence-Weighted' average to determine the final action.",
+    "description": "Factor A (Technical) says SELL. Factor B (GenAI Sentiment) says BUY. Factor B has a 90% confidence score, while Factor A has a 51% confidence score. What is the most common quantitative decision?",
+    "options": [
+      "Always follow the Technical signal as it is based on price.",
+      "Follow the Sentiment signal because its confidence score is significantly higher.",
+      "Flip a coin to remain unbiased.",
+      "Don't trade at all; only trade when all factors agree."
+    ],
+    "answer": "Follow the Sentiment signal because its confidence score is significantly higher.",
+    "explanation": "Confidence-weighting is the standard way to resolve conflict. You prioritize the signal that the model is most 'certain' about based on its underlying data quality and historical performance."
+  }
+]
