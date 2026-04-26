@@ -1,0 +1,82 @@
+[
+  {
+    "question": "The Goal of Financial Decisions",
+    "content": "The purpose of managing your money isn't just to maximize a number on a screen, but to minimize future regret and maximize your control over your life. Financial success is a soft skill rather than a hard science.",
+    "description": "When faced with two investment options—one with slightly higher returns but much more volatility, and one with lower returns but total peace of mind—how does Housel suggest you choose?",
+    "options": ["Always pick the higher return to maximize compounding.", "Pick the one that allows you to sleep best at night and stay the course.", "Split the money 50/50 regardless of your goals.", "Avoid both and keep all your money in cash."],
+    "answer": "Pick the one that allows you to sleep best at night and stay the course.",
+    "explanation": "Consistency is the key to compounding. A mathematically 'perfect' strategy that causes you to panic and sell during a dip is inferior to a 'reasonable' strategy you can stick with for decades."
+  },
+  {
+    "question": "The Relative Nature of Wealth",
+    "content": "Wealth is relative to your own desires. You can increase your wealth in two ways: you can earn more money, or you can control your ego to want less. The latter is entirely within your control.",
+    "description": "If your income doubles but your lifestyle expenses also double to keep up with your peers, what has happened to your actual wealth according to this chapter?",
+    "options": ["You have become wealthier because your assets increased.", "You have remained stagnant because your 'savings gap' hasn't grown.", "You are better off because you are enjoying life more.", "You are less wealthy because you are paying more in taxes."],
+    "answer": "You have remained stagnant because your 'savings gap' hasn't grown.",
+    "explanation": "Wealth is the gap between what you earn and what you spend. If your ego grows as fast as your income, you are simply running on a treadmill without gaining any financial freedom."
+  },
+  {
+    "question": "The Role of Humility",
+    "content": "Humility is a financial tool. It helps you recognize the role of luck in your success and the role of risk in your failures, preventing you from becoming overconfident when times are good.",
+    "description": "How should a humble investor react to a massive, unexpected windfall in the stock market?",
+    "options": ["Assume they have mastered the market and increase their bets.", "Acknowledge that luck played a role and stick to their original long-term plan.", "Tell everyone they meet about their brilliant strategy.", "Sell everything because they assume their luck has run out."],
+    "answer": "Acknowledge that luck played a role and stick to their original long-term plan.",
+    "explanation": "Humility prevents 'ego-driven' investing. Recognizing that luck exists helps you stay disciplined instead of taking unnecessary risks following a win."
+  },
+  {
+    "question": "Time: The Ultimate Lever",
+    "content": "Time is the most powerful force in investing. It makes little things grow big and big mistakes fade away. The best thing money can buy is more time to let compounding work.",
+    "description": "What is the most effective way to 'buy' more time for your investments to grow?",
+    "options": ["By checking your account balance every single day.", "By starting as early as possible and refusing to interrupt the growth curve.", "By picking stocks that are guaranteed to double every year.", "By working until you are 80 years old."],
+    "answer": "By starting as early as possible and refusing to interrupt the growth curve.",
+    "explanation": "Compounding is like a snowball; it requires a long hill. The longer you let it roll without stopping it, the more massive it becomes."
+  },
+  {
+    "question": "Managing Your Own Psychology",
+    "content": "You are your own biggest risk. Your emotions, your ego, and your tendency to compare yourself to others are more likely to ruin your finances than the stock market is.",
+    "description": "According to the summary of the book, what should be an investor's primary focus for improvement?",
+    "options": ["Learning how to read complex financial charts.", "Mastering their own behavior and emotional responses to money.", "Finding the 'secret' stocks that billionaires are buying.", "Predicting the exact date of the next economic recession."],
+    "answer": "Mastering their own behavior and emotional responses to money.",
+    "explanation": "Finance is 10% math and 90% behavior. If you can control your fear and greed, you have already won most of the battle."
+  },
+  {
+    "question": "The Price of Success",
+    "content": "Success has a price, and that price is volatility, uncertainty, and fear. You cannot get the reward of the market without being willing to pay this psychological fee.",
+    "description": "How should an investor view a 10% market correction?",
+    "options": ["As a sign to move all their money into gold.", "As a routine bill or 'admission fee' for long-term gains.", "As a punishment for not being more careful.", "As a failure of the global financial system."],
+    "answer": "As a routine bill or 'admission fee' for long-term gains.",
+    "explanation": "Viewing volatility as a 'fee' rather than a 'fine' helps you accept it as a normal part of the process instead of a reason to flee."
+  },
+  {
+    "question": "Defining 'Enough'",
+    "content": "Contentment is the ability to say 'this is enough.' Without a defined finish line, you will continue to take risks you don't need to take, eventually losing what you do need.",
+    "description": "What is the danger of having 'moving goalposts' for your financial success?",
+    "options": ["You will pay more in management fees.", "You will never reach a point of satisfaction and will eventually take a risk that wipes you out.", "People will be jealous of your continued growth.", "Your bank will stop giving you loans."],
+    "answer": "You will never reach a point of satisfaction and will eventually take a risk that wipes you out.",
+    "explanation": "If you don't know when to stop, you will eventually risk something invaluable (like your health or freedom) for something you don't actually need."
+  },
+  {
+    "question": "The Value of Savings",
+    "content": "Savings isn't just for a house or retirement; it's a hedge against an unpredictable world. Savings buys you the 'optionality' to wait for a better life.",
+    "description": "What is the 'invisible' return on a high savings rate?",
+    "options": ["A higher interest rate from your bank.", "The ability to say 'no' to a bad boss and wait for a career you actually enjoy.", "More respect from your neighbors.", "A lower chance of being audited by the IRS."],
+    "answer": "The ability to say 'no' to a bad boss and wait for a career you actually enjoy.",
+    "explanation": "Savings is stored freedom. It allows you to make decisions based on what you want, rather than what you are forced to do by your bank balance."
+  },
+  {
+    "question": "Accepting Surprise",
+    "content": "History is a series of things that have never happened before. A good plan doesn't try to predict the surprise; it builds enough 'room for error' to survive the surprise.",
+    "description": "How do you 'plan' for a black swan event like a global pandemic or a financial collapse?",
+    "options": ["By reading as much news as possible to see it coming.", "By having a diversified portfolio, low debt, and a cash cushion.", "By only investing in things that have been around for 100 years.", "By assuming that surprises only happen to other people."],
+    "answer": "By having a diversified portfolio, low debt, and a cash cushion.",
+    "explanation": "You can't predict the specific event, but you can be prepared for the *existence* of unpredictable events by staying financially flexible."
+  },
+  {
+    "question": "Final Synthesis: Soft Skills",
+    "content": "The overarching theme of the book is that doing well with money has more to do with your soft skills (how you behave) than your technical skills (what you know).",
+    "description": "Which of these traits is most valuable for a long-term investor according to Morgan Housel?",
+    "options": ["High mathematical IQ.", "Deep knowledge of corporate tax law.", "Patience, humility, and emotional endurance.", "Aggressiveness and competitive drive."],
+    "answer": "Patience, humility, and emotional endurance.",
+    "explanation": "Financial history is full of geniuses who went broke and ordinary people who became wealthy through simple, disciplined behavior over a long period of time."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "The Problem with History as a Map",
+    "content": "History is the study of change, ironically often used as a map for the future. While we use past data to predict what will happen next, the most important events in history are the 'outliers'—the things that have never happened before and therefore couldn't be predicted.",
+    "description": "An analyst predicts the next stock market crash will look exactly like the 2008 financial crisis. Why does Housel suggest this kind of thinking is dangerous?",
+    "options": ["Because 2008 was a small event that doesn't matter anymore.", "Because the biggest future risks are the ones we aren't talking about because they have no past precedent.", "Because history always repeats itself perfectly and we already know the solution.", "Because analysts are always paid to be pessimistic."],
+    "answer": "Because the biggest future risks are the ones we aren't talking about because they have no past precedent.",
+    "explanation": "Housel argues that 'unprecedented' events are the ones that move the needle the most. If you only prepare for what has happened before, you are blind to the biggest risks."
+  },
+  {
+    "question": "The 'Tail' of History",
+    "content": "A small number of 'outlier' events—like the Great Depression, World War II, or the invention of the internet—account for the majority of the world's economic and social changes. These events were essentially 'surprises' to the people living through them.",
+    "description": "How should an investor account for these massive, unpredictable 'tail events' in their financial plan?",
+    "options": ["By trying to guess which specific disaster will happen next.", "By building a plan that is robust enough to survive a wide range of unknown outcomes.", "By ignoring them since they are too rare to worry about.", "By only investing in gold and physical land."],
+    "answer": "By building a plan that is robust enough to survive a wide range of unknown outcomes.",
+    "explanation": "Since you cannot predict the surprise, the only logical response is to have enough flexibility (cash and low debt) to survive whatever the surprise turns out to be."
+  },
+  {
+    "question": "The Illusion of Certainty",
+    "content": "The more we study the past, the more we feel we understand how the world works. This can lead to a false sense of certainty, making us believe we can forecast the future with high precision.",
+    "description": "What is the 'Psychology of Money' perspective on financial forecasting and 'expert' predictions?",
+    "options": ["Experts are usually right because they have more data.", "Forecasting creates an illusion of control over a world that is fundamentally governed by surprises.", "You should follow the expert who has the most confident personality.", "Data-driven forecasting is the only way to avoid losing money."],
+    "answer": "Forecasting creates an illusion of control over a world that is fundamentally governed by surprises.",
+    "explanation": "Confidence is often mistaken for accuracy. The more certain someone sounds about the future, the more they are likely ignoring the reality of 'surprises'."
+  },
+  {
+    "question": "The 'End of History' Illusion",
+    "content": "People are prone to believing that while the world has changed a lot in the past, it won't change much in the future. We think we are at the 'end' of development, but history shows we are always in the middle of a transition.",
+    "description": "If you assume the investment winners of the last 10 years will be the winners of the next 10 years, which fallacy are you committing?",
+    "options": ["The compounding fallacy.", "The 'End of History' illusion.", "The survival bias.", "The dollar-cost averaging error."],
+    "answer": "The 'End of History' illusion.",
+    "explanation": "This illusion makes us believe that the current state of the world is permanent, even though history is a constant record of one 'permanent' era being replaced by a surprise."
+  },
+  {
+    "question": "Structural Changes",
+    "content": "The rules of the game change over time. For example, 401(k)s didn't exist until 1978, and the venture capital industry is relatively young. Using data from 1920 to predict 2026 ignores how much the 'machinery' of finance has evolved.",
+    "description": "Why is 'long-term' data sometimes misleading when looking at the stock market?",
+    "options": ["Because old data is usually miscalculated.", "Because the structural incentives and participants in the market today are different than they were 50 years ago.", "Because the stock market didn't exist 50 years ago.", "Because technology makes the market 100% predictable now."],
+    "answer": "Because the structural incentives and participants in the market today are different than they were 50 years ago.",
+    "explanation": "Housel points out that the more recent the history, the more relevant it likely is, because the fundamental structures of how we invest are constantly shifting."
+  },
+  {
+    "question": "Preparing for the Unknown",
+    "content": "The most important part of a plan is having a plan for when the plan isn't going according to plan. This is the only way to deal with the 'Surprise' factor of history.",
+    "description": "If your financial plan is 100% dependent on the stock market returning 10% every single year, what is missing?",
+    "options": ["A higher-growth stock selection.", "A room for error (margin of safety) to account for years of 0% or negative returns.", "A more expensive financial advisor.", "A commitment to work more hours."],
+    "answer": "A room for error (margin of safety) to account for years of 0% or negative returns.",
+    "explanation": "The 'surprise' is that the average return almost never happens in a single year. You must be able to survive the 'non-average' years."
+  },
+  {
+    "question": "The Irony of Experience",
+    "content": "Experience can sometimes be a disadvantage because it makes you think you've seen everything. The most dangerous risks are the ones that haven't happened in your lifetime yet.",
+    "description": "Why did many experienced investors fail to see the impact of the 2020 pandemic?",
+    "options": ["Because they weren't looking at the charts correctly.", "Because nothing like it had happened in their professional careers, so it wasn't in their 'mental map' of possibilities.", "Because they were too focused on the 2008 crash.", "Because they didn't have enough diversifcation."],
+    "answer": "Because nothing like it had happened in their professional careers, so it wasn't in their 'mental map' of possibilities.",
+    "explanation": "We are biased toward our own experiences. If we haven't seen a 'Black Swan' event, we tend to act as if they are impossible."
+  },
+  {
+    "question": "Black Swans",
+    "content": "A 'Black Swan' is an event that is an outlier, has an extreme impact, and is often explained away after the fact as if it were predictable.",
+    "description": "What is the best way to handle 'Black Swan' events in your personal life?",
+    "options": ["Read more news to stay informed of every possible threat.", "Maintain a high level of liquidity (cash) and low fixed costs to stay flexible.", "Avoid all risks and keep your money under a mattress.", "Follow the advice of the most pessimistic person you know."],
+    "answer": "Maintain a high level of liquidity (cash) and low fixed costs to stay flexible.",
+    "explanation": "Flexibility is the only defense against the unpredictable. If you are 'lean' and have cash, you can adapt to a surprise much faster than someone who is over-leveraged."
+  },
+  {
+    "question": "The Narrative of the Past",
+    "content": "History looks like a clean, logical progression when we look back at it. But when it was happening, it felt like a chaotic series of surprises.",
+    "description": "Why does Housel warn against over-analyzing 'why' things happened in the past to predict the future?",
+    "options": ["Because the 'why' is usually a story we made up to make ourselves feel better about the chaos.", "Because history is written by the winners.", "Because the 'why' is irrelevant to the math of compounding.", "Because we should only focus on the future."],
+    "answer": "Because the 'why' is usually a story we made up to make ourselves feel better about the chaos.",
+    "explanation": "Hindsight bias makes us think the past was predictable, which gives us false confidence that we can predict the future. In reality, the future will be just as surprising as the past was."
+  },
+  {
+    "question": "The Definition of 'Normal'",
+    "content": "In finance, 'normal' is actually a series of abnormal events. The only thing that is truly normal is being surprised by something you didn't expect.",
+    "description": "Which of these mindsets is most aligned with Chapter 12?",
+    "options": ["'I have a plan that covers every possible scenario.'", "'I have a plan that expects to be surprised and can survive it.'", "'The world is so random that there is no point in planning at all.'", "'I will only invest in things that have been successful for 100 years.'"],
+    "answer": "'I have a plan that expects to be surprised and can survive it.'",
+    "explanation": "This chapter encourages humility. You don't know what's coming, so your plan must prioritize survival over precision."
+  }
+]
