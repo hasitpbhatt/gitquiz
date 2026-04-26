@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Deep Work Recap: The 4 Disciplines of Execution (4DX)",
+    "content": "To implement deep work in a professional setting, Newport suggests the 4DX framework: 1. Focus on the Wildly Important, 2. Act on Lead Measures, 3. Keep a Compelling Scoreboard, and 4. Create a Cadence of Accountability. This system ensures that deep work isn't just an idea, but a measurable part of your business strategy.",
+    "description": "Your team decides to implement 4DX. They set a goal to 'increase revenue' (a lag measure). What should be the corresponding 'Lead Measure' for a team of software engineers?",
+    "options": [
+      "The total revenue earned at the end of the quarter.",
+      "The number of hours spent in deep work sessions building new features.",
+      "The number of meetings attended regarding revenue strategy.",
+      "The employee satisfaction score regarding the office snacks."
+    ],
+    "answer": "The number of hours spent in deep work sessions building new features.",
+    "explanation": "Lead measures must be predictive of the goal and influenceable by the team. You can't directly 'influence' revenue today, but you can control how many deep work hours you dedicate to building the product that generates revenue."
+  },
+  {
+    "question": "The Principle of Least Resistance",
+    "content": "In an organizational setting, in the absence of clear feedback on the impact of various behaviors to the bottom line, we will tend toward behaviors that are easiest in the moment. This explains why 'culture-of-connectivity' habits like instant messaging persist even when they destroy focus.",
+    "description": "Why do many employees prefer staying on Slack all day rather than closing it to do deep work?",
+    "options": [
+      "It is the most cognitively demanding way to work.",
+      "It is 'easier' in the moment to respond to pings than to grapple with a difficult, complex problem.",
+      "Slack has been proven to increase long-term creative output by 80%.",
+      "They are following the 'Monastic' philosophy of productivity."
+    ],
+    "answer": "It is 'easier' in the moment to respond to pings than to grapple with a difficult, complex problem.",
+    "explanation": "Deep work is hard and produces 'mental strain.' Shallow work like messaging is easy and provides a sense of 'pseudo-productivity' with very little effort, following the Principle of Least Resistance."
+  },
+  {
+    "question": "Productivity as a Proxy",
+    "content": "In the industrial age, productivity was easy to measure (e.g., widgets per hour). In the knowledge age, it's harder. This leads to 'Knowledge Worker Productivity' being measured by how 'busy' someone looks. Deep work challenges this by prioritizing 'value' over 'visibility.'",
+    "description": "An employee finishes a brilliant strategy in 3 hours of deep work and then goes for a walk. Their coworker spends 8 hours looking stressed and answering emails. Who is technically more 'Deep Work' productive?",
+    "options": [
+      "The coworker, because they were visible for more hours.",
+      "The first employee, because they produced a high-value, rare result.",
+      "Both are equal because they both worked on company time.",
+      "Neither, as walking is never productive."
+    ],
+    "answer": "The first employee, because they produced a high-value, rare result.",
+    "explanation": "Deep work defines productivity by the value and rarity of the output, not the number of hours spent appearing busy. A high-value strategy is worth more than a day of routine emails."
+  },
+  {
+    "question": "The Impact of Open Offices",
+    "content": "The 'Open Office' trend was designed to foster collaboration, but Newport argues it is often a 'Deep Work' killer. The constant visual and auditory distractions prevent the brain from reaching the high-intensity state required for 'Elite Production.'",
+    "description": "If you are forced to work in an open office, what is a 'Deep Work' approved strategy to mitigate the distraction?",
+    "options": [
+      "Try to multitask so the noise doesn't bother you.",
+      "Wear noise-canceling headphones and use a signal (like a red flag) to show you are in a deep block.",
+      "Join in on every conversation so you aren't the only one distracted.",
+      "Complain to HR every time someone speaks."
+    ],
+    "answer": "Wear noise-canceling headphones and use a signal (like a red flag) to show you are in a deep block.",
+    "explanation": "Since you can't change the architecture, you must create a 'virtual spoke' or a private ritual that signals to both your brain and your colleagues that you are unavailable for shallow interaction."
+  },
+  {
+    "question": "The Eudaimonia Machine",
+    "content": "Architect David Dewane proposed a building called the 'Eudaimonia Machine,' designed solely to facilitate deep work. It consists of a series of rooms that get progressively deeper and more private, leading to the 'deep work chambers' at the end.",
+    "description": "What is the psychological principle behind the 'Eudaimonia Machine' layout?",
+    "options": [
+      "To make people feel trapped so they have to work.",
+      "To create a transition that slowly sheds distractions as you move toward the 'deep' area.",
+      "To provide enough space for a high-intensity gym in the office.",
+      "To ensure that managers can see every employee at all times."
+    ],
+    "answer": "To create a transition that slowly sheds distractions as you move toward the 'deep' area.",
+    "explanation": "The machine uses physical movement to facilitate a mental shift. By moving through 'gallery' and 'office' spaces into the 'chamber,' your mind is prepared for the highest level of focus."
+  },
+  {
+    "question": "Shallow Work is Non-Exportable",
+    "content": "Newport notes that if you spend your career doing only shallow work, your skills become 'non-exportable.' This means you aren't building a 'capital' of rare skills that would make you valuable to another employer or in a different market.",
+    "description": "A project coordinator spends 10 years only scheduling meetings and formatting spreadsheets. What is their primary risk in the modern economy?",
+    "options": [
+      "They will be promoted too quickly.",
+      "Their skills are easily automated or replaced because they didn't develop 'deep' expertise.",
+      "They will have too much free time.",
+      "They will become a 'Star' in their field too early."
+    ],
+    "answer": "Their skills are easily replaced because they didn't develop 'deep' expertise.",
+    "explanation": "Shallow work doesn't build a 'moat' around your career. Because it is easily replicable, it provides very little job security compared to the specialized skills developed through deep work."
+  },
+  {
+    "question": "Visualizing the Work: The Deep Work Tally",
+    "content": "One simple way to keep a scoreboard is the 'Deep Work Tally.' You simply put a mark on a piece of paper for every hour of deep work completed. This provides a visual representation of your 'lead measure' and keeps the goal top-of-mind.",
+    "description": "Why does seeing a row of five checkmarks on your desk help you stay focused on the sixth hour?",
+    "options": [
+      "It reminds you that you've already worked enough and can stop.",
+      "It creates a 'streak' effect where you don't want to break the visual chain of success.",
+      "It is a requirement for tax purposes.",
+      "It helps you remember what day of the week it is."
+    ],
+    "answer": "It creates a 'streak' effect where you don't want to break the visual chain of success.",
+    "explanation": "Human psychology is motivated by visual progress. Seeing your successful deep work 'tally' builds momentum and makes it mentally harder to give in to a shallow distraction."
+  },
+  {
+    "question": "The 'Any-Benefit' Mindset Trap",
+    "content": "The 'Any-Benefit' mindset is the belief that if a tool or activity offers *any* value, it is worth doing. Newport argues this is a fallacy because it ignores the 'opportunity cost'—the high-value deep work you *could* have done with that same time.",
+    "description": "You are offered a chance to speak for 5 minutes at a local networking event, but it requires 4 hours of travel and prep. You think, 'Well, I might meet one useful person.' What would Newport call this?",
+    "options": [
+      "The Craftsman Approach.",
+      "The Law of the Vital Few.",
+      "The Any-Benefit Mindset.",
+      "A Grand Gesture."
+    ],
+    "answer": "The Any-Benefit Mindset.",
+    "explanation": "While there is 'any' benefit (meeting one person), the 'cost' (4 hours of deep work time) is likely far higher. The Craftsman Approach would likely reject this task to protect the vital writing or thinking time."
+  },
+  {
+    "question": "The Shutdown Ritual: The 'Capture' Phase",
+    "content": "The most critical part of a shutdown ritual is the 'capture.' You must ensure every task, idea, or worry is written down in a trusted system so your brain doesn't have to keep 'rehearsing' it during your off-hours.",
+    "description": "You are trying to sleep, but you keep remembering a document you forgot to save. Which part of the 'Deep Work' system did you fail to execute?",
+    "options": [
+      "The Roosevelt Dash.",
+      "The Shutdown Ritual.",
+      "Productive Meditation.",
+      "The Monastic Philosophy."
+    ],
+    "answer": "The Shutdown Ritual.",
+    "explanation": "The shutdown ritual is designed specifically to move tasks from 'active memory' to a 'trusted system.' Without it, your brain stays in 'work mode,' leading to stress and poor recovery."
+  },
+  {
+    "question": "Deep Work as the 21st Century Superpower",
+    "content": "Newport concludes that the ability to focus is the 'superpower' of the 21st century. As society becomes increasingly distracted, those who can remain 'deep' will be the ones who solve the biggest problems and earn the highest rewards.",
+    "description": "If you want to be 'hard to replace' in any future industry, what should your primary focus be?",
+    "options": [
+      "Learning how to use every new social media app as it launches.",
+      "Mastering the ability to focus intensely on difficult, high-value problems.",
+      "Being the first person to reply to every group chat notification.",
+      "Increasing your typing speed to 120 words per minute."
+    ],
+    "answer": "Mastering the ability to focus intensely on difficult, high-value problems.",
+    "explanation": "Technical skills change, but the ability to learn and apply them deeply is a universal skill. In an age of distraction, focus is the ultimate competitive advantage."
+  }
+]

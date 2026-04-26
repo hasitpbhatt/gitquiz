@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Deep Work Chapter 2: The Deep Work Lifestyle",
+    "content": "Deep work is not a natural habit for most humans; our brains are wired to be distracted by novel stimuli. To succeed, you must choose a specific 'philosophy' for scheduling deep work—whether it's the Monastic (total isolation), Bimodal (splitting weeks), Rhythmic (daily habits), or Journalistic (fitting it in whenever possible). Without a ritual, your willpower will eventually fail.",
+    "description": "You are a busy parent with a full-time job. You want to write a novel but only have 90 minutes each morning before the kids wake up. Which scheduling philosophy are you adopting?",
+    "options": [
+      "The Monastic Philosophy",
+      "The Rhythmic Philosophy",
+      "The Journalistic Philosophy",
+      "The Bimodal Philosophy"
+    ],
+    "answer": "The Rhythmic Philosophy",
+    "explanation": "The Rhythmic philosophy relies on creating a consistent habit or 'rhythm' (e.g., the same time every day). This is ideal for people with fixed schedules who cannot retreat into total isolation for weeks at a time."
+  },
+  {
+    "question": "The Role of Rituals",
+    "content": "To enter a state of deep work, you need a ritual that minimizes the friction of starting. This includes defining *where* you will work, *how long* you will work, and *how* you will support your brain (e.g., coffee, a specific playlist, or turning off the Wi-Fi). A ritual signals to your mind that it is time to shift from shallow to deep.",
+    "description": "Before starting a difficult coding session, Mark clears his desk, puts on noise-canceling headphones, and sets a timer for 90 minutes. What is the primary purpose of this routine?",
+    "options": [
+      "To show his coworkers he is busy and shouldn't be disturbed.",
+      "To preserve his limited willpower by automating the transition into focus.",
+      "To ensure he doesn't work too long and burn out.",
+      "To follow company policy regarding workstation cleanliness."
+    ],
+    "answer": "To preserve his limited willpower by automating the transition into focus.",
+    "explanation": "Willpower is a finite resource. By having a set ritual, you don't have to 'decide' to focus; the routine carries you into the work, saving your mental energy for the task itself."
+  },
+  {
+    "question": "The Grand Gesture",
+    "content": "Sometimes, changing your environment radically can provide a mental boost. This is the 'Grand Gesture'—investing significant effort or money to support a deep work task (e.g., booking a hotel room just to finish a report). The investment increases the perceived importance of the task, helping you overcome procrastination.",
+    "description": "J.K. Rowling famously finished the final Harry Potter book by checking into a high-end hotel in Edinburgh. Why was this effective according to the Deep Work theory?",
+    "options": [
+      "The luxury of the hotel made the writing process more fun.",
+      "The cost and change of scenery signaled to her brain that this work was a top priority.",
+      "Hotels generally have faster internet than homes.",
+      "She needed to hide from her fans to avoid distractions."
+    ],
+    "answer": "The cost and change of scenery signaled to her brain that this work was a top priority.",
+    "explanation": "A 'Grand Gesture' creates a mental commitment. When you invest resources into a task, your brain treats it with more gravity, making it easier to maintain deep focus."
+  },
+  {
+    "question": "Collaborating for Depth",
+    "content": "While deep work is often seen as a solo activity, Newport suggests 'The Hub-and-Spoke' model. This involves 'hubs' (common areas for serendipitous ideas) and 'spokes' (private offices for deep work). The key is that collaboration should spark ideas, but the actual execution must happen in isolation.",
+    "description": "A research lab provides a shared coffee lounge but requires all scientists to have private, soundproof offices. How does this layout support deep work?",
+    "options": [
+      "It encourages people to never leave their desks.",
+      "It assumes that all important work happens during coffee breaks.",
+      "It balances the need for new ideas with the need for deep execution.",
+      "It is designed to minimize the cost of office furniture."
+    ],
+    "answer": "It balances the need for new ideas with the need for deep execution.",
+    "explanation": "Innovation requires two stages: the 'hub' stage where ideas are exchanged and the 'spoke' stage where those ideas are deeply processed and developed without interruption."
+  },
+  {
+    "question": "Executing Like a Business",
+    "content": "Newport applies the '4 Disciplines of Execution' (4DX) to deep work. The first discipline is to 'Focus on the Wildly Important.' Instead of trying to do everything, you must identify a small number of ambitious goals that can only be achieved through deep work.",
+    "description": "A freelancer has 15 different small projects. To apply the first discipline of 4DX, what should they do?",
+    "options": [
+      "Try to spend 30 minutes on each project every day.",
+      "Identify the one or two projects that offer the most significant long-term value and prioritize them for deep work.",
+      "Work on the easiest tasks first to build momentum.",
+      "Wait for clients to tell them which project is the most urgent."
+    ],
+    "answer": "Identify the one or two projects that offer the most significant long-term value and prioritize them for deep work.",
+    "explanation": "Deep work is a scarce resource. If you spread it across too many shallow goals, you won't achieve 'wildly important' results in any of them."
+  },
+  {
+    "question": "Lead Measures vs. Lag Measures",
+    "content": "In deep work, a 'Lag Measure' is the final result (e.g., a finished paper). A 'Lead Measure' is a behavior you can control that predicts success. Newport suggests the best lead measure for deep work is simply 'time spent in a state of deep work.'",
+    "description": "You are tracking your progress on a new software build. Which of these is a 'Lead Measure'?",
+    "options": [
+      "The number of bugs found in the final code.",
+      "The number of hours logged in 'distraction-free' sessions.",
+      "The date the software is officially released.",
+      "The positive reviews from the first 100 users."
+    ],
+    "answer": "The number of hours logged in 'distraction-free' sessions.",
+    "explanation": "You can't control the final outcome (lag measure) directly, but you can control how many hours you spend focusing (lead measure). Tracking deep work hours provides immediate feedback."
+  },
+  {
+    "question": "The Scoreboard",
+    "content": "To stay motivated, you should keep a compelling 'scoreboard.' This is a physical or digital record of your lead measures (e.g., tallying deep work hours). Seeing your progress creates a sense of competition with yourself and makes the habit 'gamified.'",
+    "description": "Why does Newport suggest a *physical* scoreboard (like a calendar on the wall) rather than a hidden file on your computer?",
+    "options": [
+      "Digital files are too easy to delete by accident.",
+      "A physical record in your workspace provides a constant visual reminder of your commitment.",
+      "Physical tracking is more accurate than digital tracking.",
+      "It allows your boss to see how hard you are working."
+    ],
+    "answer": "A physical record in your workspace provides a constant visual reminder of your commitment.",
+    "explanation": "A visible scoreboard creates 'public' accountability to yourself. Every time you look at it, you are reminded of your goals and your current streak of success."
+  },
+  {
+    "question": "The Importance of Downtime",
+    "content": "Deep work is not about working 16 hours a day. In fact, your brain needs 'Shutdown' time to recharge. Newport argues that once your workday is over, you must completely stop thinking about work. This allows your 'unconscious mind' to process complex problems and restores your directed attention.",
+    "description": "At 6:00 PM, you finish your work and say, 'Shutdown complete,' then refuse to check email until morning. How does this benefit your next day's work?",
+    "options": [
+      "It makes you look more professional to your peers.",
+      "It ensures you don't accidentally do extra work for free.",
+      "It allows your 'attention circuits' to rest so they are fresh for the next deep session.",
+      "It proves that you don't care about your job."
+    ],
+    "answer": "It allows your 'attention circuits' to rest so they are fresh for the next deep session.",
+    "explanation": "Directed attention is a finite resource. If you never truly 'shut down,' your brain remains fatigued, making it impossible to reach deep levels of focus the following day."
+  },
+  {
+    "question": "The Shutdown Ritual",
+    "content": "A shutdown ritual involves checking your inbox one last time, updating your to-do list, and reviewing your plan for the next day. This clears your 'open loops' (unfinished tasks) so they don't haunt your thoughts during your evening rest.",
+    "description": "You are having dinner with friends, but you keep worrying about an unfinished email. What did you likely skip in your workday transition?",
+    "options": [
+      "A high-protein afternoon snack.",
+      "A formal shutdown ritual to close your mental loops.",
+      "Checking your social media one last time.",
+      "Drinking more coffee to stay alert during dinner."
+    ],
+    "answer": "A formal shutdown ritual to close your mental loops.",
+    "explanation": "The Zeigarnik Effect states that unfinished tasks stay in our active memory. A shutdown ritual 'captures' these tasks on paper, telling your brain it's safe to stop thinking about them."
+  },
+  {
+    "question": "The Bimodal Philosophy",
+    "content": "The Bimodal philosophy involves splitting your time between a clearly defined deep period and a clearly defined shallow period. This could mean 4 days of intense isolation followed by 3 days of open communication, or even several months of the year dedicated to depth.",
+    "description": "A college professor spends the entire summer at a remote cabin with no internet to write a textbook, then spends the fall semester meeting students and attending committees. Which philosophy is this?",
+    "options": [
+      "Monastic",
+      "Rhythmic",
+      "Journalistic",
+      "Bimodal"
+    ],
+    "answer": "Bimodal",
+    "explanation": "Bimodal means 'two modes.' The professor is switching between a 'monastic-like' mode for the summer and an 'accessible' mode for the school year."
+  }
+]

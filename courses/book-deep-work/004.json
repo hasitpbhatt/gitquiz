@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Deep Work Chapter 4: Quitting Social Media",
+    "content": "Newport argues that we should apply the 'Craftsman Approach' to tool selection: identify the core factors that determine success in your professional and personal life, and only use a tool if its positive impacts on these factors significantly outweigh its negative impacts. This contrasts with the 'Any-Benefit' mindset, where people use a tool if it offers *any* possible advantage.",
+    "description": "You are a software developer. You use Twitter because you occasionally see a helpful coding tip, but you find yourself scrolling for an hour every day. Using the Craftsman Approach, what is the most logical action?",
+    "options": [
+      "Keep using it; even one tip a week makes the tool beneficial.",
+      "Delete the app because the cost (5 hours a week lost) outweighs the minor benefit of occasional tips.",
+      "Post more often to try and become a 'coding influencer.'",
+      "Switch to a different social media platform to see if the content is better."
+    ],
+    "answer": "Delete the app because the cost (5 hours a week lost) outweighs the minor benefit of occasional tips.",
+    "explanation": "The Craftsman Approach requires that a tool provide *substantial* benefits. If the 'cost' in time and fragmented attention is greater than the small 'any-benefit' of a random tip, the tool should be abandoned."
+  },
+  {
+    "question": "The Law of the Vital Few",
+    "content": "Also known as the 80/20 rule, the Law of the Vital Few suggests that in many settings, 80% of the effects come from 20% of the causes. In the context of deep work, a few key activities (like writing or strategic thinking) produce most of your value, while dozens of shallow activities (like social media networking) produce very little.",
+    "description": "You list your top goals: 1. Finish a research paper, and 2. Build a professional network. You realize that deep writing contributes 90% to goal #1, while Facebook contributes 2% to goal #2. What does this suggest?",
+    "options": [
+      "You should spend equal time on both to stay balanced.",
+      "You should stop using Facebook to protect the time needed for your most vital activity: writing.",
+      "You should find a way to write your paper while on Facebook.",
+      "You should increase your Facebook usage to improve that 2% margin."
+    ],
+    "answer": "You should stop using Facebook to protect the time needed for your most vital activity: writing.",
+    "explanation": "To achieve elite results, you must prioritize the 'vital few' activities. Even if a 'shallow' activity provides a tiny bit of value, it often consumes time and mental energy better spent on high-impact work."
+  },
+  {
+    "question": "The Social Media 'Packing Heat' Test",
+    "content": "Newport suggests a radical experiment: stop using social media for 30 days without announcing it. After 30 days, ask yourself two questions: 1. Would my life have been notably better if I had been using this service? 2. Did people care that I wasn't using it? If the answer to both is 'No,' quit for good.",
+    "description": "A freelance designer goes 'dark' on Instagram for a month. They find they produced more work and not a single client noticed their absence. What is Newport's recommendation?",
+    "options": [
+      "Return to the app but post more 'behind-the-scenes' content.",
+      "Permanently delete the account as it didn't provide essential value.",
+      "Apologize to their followers for the lack of updates.",
+      "Check the app only once a week instead of daily."
+    ],
+    "answer": "Permanently delete the account as it didn't provide essential value.",
+    "explanation": "If your life wasn't diminished and no one missed your presence, the tool is likely a distraction rather than a necessity. Continuing to use it is a drain on your capacity for depth."
+  },
+  {
+    "question": "Don't Use the Internet to Entertain Yourself",
+    "content": "Many people fall into 'compulsive' internet use during their leisure time. Newport suggests that you should give your brain quality structured 'play' instead of passive 'infotainment.' If you don't have a plan for your evening, you will default to the most addictive, low-value digital distractions.",
+    "description": "It's 8:00 PM and you are tired. You have no plans for the night. What is the most likely outcome according to the book?",
+    "options": [
+      "You will naturally reflect on your deep work goals.",
+      "You will end up mindlessly browsing the web or social media.",
+      "Your brain will enter a state of 'super-rest' that prepares you for tomorrow.",
+      "You will decide to start a new, difficult project."
+    ],
+    "answer": "You will end up mindlessly browsing the web or social media.",
+    "explanation": "The 'path of least resistance' for a tired brain is passive digital consumption. To avoid this, Newport recommends planning your leisure time with high-quality activities like reading, exercise, or hobbies."
+  },
+  {
+    "question": "Drain the Shallows",
+    "content": "The 'Drain the Shallows' rule involves aggressively reducing the time spent on non-cognitive tasks. This requires you to schedule every minute of your day. While the schedule may change, the act of scheduling forces you to acknowledge how much time you are actually wasting on shallow work.",
+    "description": "You start 'Time Blocking' your day and realize that 4 hours are spent in 'Miscellaneous' tasks. What is the primary purpose of this realization?",
+    "options": [
+      "To make you feel guilty about your habits.",
+      "To provide data so you can consciously move those hours into 'Deep Work' blocks.",
+      "To prove that you need to hire an assistant.",
+      "To show that you are being overworked by your boss."
+    ],
+    "answer": "To provide data so you can consciously move those hours into 'Deep Work' blocks.",
+    "explanation": "You cannot manage what you don't measure. Time blocking 'drains the shallows' by making the cost of distraction visible, allowing you to reclaim that time for deep, meaningful output."
+  },
+  {
+    "question": "Quantify the Depth of Your Activities",
+    "content": "To determine if a task is 'Deep' or 'Shallow,' Newport suggests asking: 'How long would it take (in months) to train a smart recent college graduate with no specialized background to complete this task?' If the answer is 'a week,' it's shallow work.",
+    "description": "You spend your afternoon formatting a PowerPoint presentation. A bright intern could learn to do this in two days. How should you categorize this work?",
+    "options": [
+      "Deep Work, because the presentation is for the CEO.",
+      "Shallow Work, because the skill is easily replicable and requires little specialized training.",
+      "High-Value Work, because formatting is critical for branding.",
+      "Deep Work, because it took you three hours of effort."
+    ],
+    "answer": "Shallow Work, because the skill is easily replicable and requires little specialized training.",
+    "explanation": "Effort does not equal depth. If a task can be easily taught to a non-expert, it doesn't utilize your unique, hard-won expertise and therefore doesn't qualify as deep work."
+  },
+  {
+    "question": "The Shallow Work Budget",
+    "content": "Newport recommends asking your boss for a 'shallow work budget'—the percentage of your time that should be spent on shallow tasks (like meetings and emails). For most deep workers, this should be between 30% and 50%. This creates a social contract that protects your time for deep focus.",
+    "description": "Your manager agrees that you should only spend 40% of your time on shallow work. You realize your current meetings already take up 60% of your week. What is your next move?",
+    "options": [
+      "Work late every night to get your deep work done.",
+      "Start skipping meetings without telling anyone.",
+      "Use the 'budget' to justify declining or shortening low-value meetings to hit the 40% target.",
+      "Ignore the budget and keep doing what you're doing."
+    ],
+    "answer": "Use the 'budget' to justify declining or shortening low-value meetings to hit the 40% target.",
+    "explanation": "The budget is a tool for negotiation. It allows you to have a rational conversation with your organization about which 'shallow' activities must be discarded to make room for high-value 'deep' activities."
+  },
+  {
+    "question": "Finish Your Work by Five-Thirty",
+    "content": "Newport practices 'Fixed-Schedule Productivity.' By setting a hard deadline for the end of the workday, you are forced to become incredibly efficient. This constraint acts as a 'productivity catalyst,' forcing you to ruthlessly eliminate any shallow task that doesn't contribute significantly to your goals.",
+    "description": "Since adopting a 5:30 PM hard stop, you find you no longer have time to 'browse' industry news for two hours a day. Is this a failure of the system?",
+    "options": [
+      "Yes, because staying informed is essential for any professional.",
+      "No, the constraint is working by forcing you to prioritize actual production over passive consumption.",
+      "Yes, you should extend your deadline to 7:00 PM to fit the news in.",
+      "No, but you should probably quit your job for a less demanding one."
+    ],
+    "answer": "No, the constraint is working by forcing you to prioritize actual production over passive consumption.",
+    "explanation": "Fixed-schedule productivity reveals that many 'important-looking' activities (like excessive browsing) are actually shallow. The deadline forces you to spend your limited energy on the work that actually matters."
+  },
+  {
+    "question": "Become Hard to Reach",
+    "content": "To protect your deep work, you must manage your availability. This includes 'Sender Filters' (forcing people to do work before they email you) and 'Process-Centric Emails' (answering in a way that closes the loop rather than starting a long back-and-forth).",
+    "description": "Someone emails you: 'Hey, want to grab coffee and talk about your project?' Which is the most 'process-centric' response?",
+    "options": [
+      "'Sure, when are you free?'",
+      "'I'd love to! I'm free on Tuesday at 10 AM or Thursday at 2 PM at the Starbucks on Main St. If either works, just send a calendar invite and we are set.'",
+      "'I'm too busy for coffee right now.'",
+      "'Let me check my calendar and get back to you in a few days.'"
+    ],
+    "answer": "'I'd love to! I'm free on Tuesday at 10 AM or Thursday at 2 PM at the Starbucks on Main St. If either works, just send a calendar invite and we are set.'",
+    "explanation": "A process-centric email aims to minimize the total number of emails. By providing specific times and a clear 'if/then' protocol, you avoid the shallow 'ping-pong' of scheduling."
+  },
+  {
+    "question": "The Deep Life is a Good Life",
+    "content": "The book concludes by arguing that a life built on deep work is not just productive, but meaningful. Focusing deeply on a craft generates 'flow,' a state of intense satisfaction. In contrast, a life of shallow distraction often leads to a sense of fragmentation and anxiety.",
+    "description": "According to the philosophy of the book, why is a craftsman (like a woodworker or a lead programmer) often happier than a distracted middle manager?",
+    "options": [
+      "They make more money.",
+      "They have fewer responsibilities.",
+      "The commitment to depth creates a sense of mastery and 'sacredness' in their daily actions.",
+      "They don't have to talk to people."
+    ],
+    "answer": "The commitment to depth creates a sense of mastery and 'sacredness' in their daily actions.",
+    "explanation": "Deep work is inherently rewarding. By pushing your skills to the limit to produce something of value, you achieve a level of fulfillment that 'shallow' busyness can never provide."
+  }
+]
