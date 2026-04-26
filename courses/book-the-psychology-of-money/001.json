@@ -1,0 +1,82 @@
+[
+  {
+    "question": "The Lens of Experience",
+    "content": "Every person's view of money is shaped by the unique era and circumstances they grew up in. An investor who came of age during a booming bull market sees risk very differently than someone who started investing during the Great Depression.",
+    "description": "Two individuals, one born in 1950 and one in 1970, have vastly different appetites for stock market risk. According to Chapter 1, why is this likely the case?",
+    "options": ["The younger person is naturally more reckless.", "The older person is wiser and more experienced.", "Their formative years coincided with different market performances.", "One of them is likely making irrational choices."],
+    "answer": "Their formative years coincided with different market performances.",
+    "explanation": "Housel explains that our personal experiences with the world account for a tiny fraction of what has happened, but a huge portion of how we think the world works."
+  },
+  {
+    "question": "Rational vs. Reasonable",
+    "content": "People don't make financial decisions on a spreadsheet; they make them at the dinner table. Decisions are often based on what makes the most sense to the individual's current life situation and emotional state at that moment.",
+    "description": "Why might a low-income family spend a significant portion of their money on lottery tickets, even though the math says it is a losing bet?",
+    "options": ["They are incapable of basic math.", "They are buying a 'dream' of a better life that wealthier people already possess.", "They are being tricked by predatory marketing.", "They expect to win and retire immediately."],
+    "answer": "They are buying a 'dream' of a better life that wealthier people already possess.",
+    "explanation": "For those with little hope of a massive salary or inheritance, a lottery ticket is often the only way to tangibly buy the feeling of 'having a chance' at wealth."
+  },
+  {
+    "question": "The Myth of Universal Advice",
+    "content": "Because our backgrounds differ so much, there is no such thing as a 'one size fits all' financial strategy. What feels safe and logical to a tech billionaire would feel terrifying and insane to a subsistence farmer.",
+    "description": "A financial advisor gives the exact same aggressive growth portfolio to a 20-year-old and a 70-year-old. Why does Chapter 1 suggest this is flawed?",
+    "options": ["The 70-year-old has less time to recover from losses.", "The two individuals have different life experiences that define their comfort with risk.", "Financial advisors should only work with people of the same age.", "Aggressive portfolios are objectively bad for everyone."],
+    "answer": "The two individuals have different life experiences that define their comfort with risk.",
+    "explanation": "While math might suggest a certain path, the 'crazy' behavior of individuals is often just them being 'reasonable' within their own life context."
+  },
+  {
+    "question": "Generational Gaps",
+    "content": "Inflation, unemployment, and stock returns vary wildly decade by decade. If you were 20 years old in 1968, the stock market went nowhere for the next 10 years. If you were 20 in 1988, it skyrocketed.",
+    "description": "How does the 'luck of birth' affect an individual's long-term financial worldview?",
+    "options": ["It doesn't; smart people always figure out the right way to invest.", "It creates a subconscious bias that dictates how they view the safety of the market.", "It ensures that older generations are always more conservative.", "It makes younger generations more likely to save money."],
+    "answer": "It creates a subconscious bias that dictates how they view the safety of the market.",
+    "explanation": "We are all prisoners of our own history; someone who saw their parents lose everything in a bank run will never view banks the same way as someone who didn't."
+  },
+  {
+    "question": "The Role of Education",
+    "content": "Knowing how to do something (the math) is different from how you feel when the market is crashing. High intelligence does not protect you from the emotional weight of your own financial history.",
+    "description": "A PhD in Economics panics and sells his portfolio during a 10% dip. Why does this support Housel's 'No One's Crazy' theory?",
+    "options": ["The PhD clearly didn't study hard enough.", "Emotional responses to stress are more powerful than academic knowledge.", "Economics is a fake science.", "He was actually being rational by cutting his losses."],
+    "answer": "Emotional responses to stress are more powerful than academic knowledge.",
+    "explanation": "Financial success is a 'soft skill' where behavior is more important than technical knowledge, regardless of your degree."
+  },
+  {
+    "question": "Socioeconomic Perspective",
+    "content": "Rich people and poor people don't just have different amounts of money; they have different goals and fears. A 'crazy' decision in one bracket is a survival tactic in another.",
+    "description": "A person living in poverty chooses to spend extra cash on a high-end smartphone instead of investing in a diversified index fund. How would Housel describe this?",
+    "options": ["It is a reckless and stupid decision.", "It is a way to gain a sense of dignity in a world where they have little.", "They are trying to look rich to trick people.", "They simply don't know what an index fund is."],
+    "answer": "It is a way to gain a sense of dignity in a world where they have little.",
+    "explanation": "People use money to solve their own specific emotional problems, which may include the need for status or belonging when other avenues are closed."
+  },
+  {
+    "question": "The Evolution of Finance",
+    "content": "Modern financial tools like 401(k)s and index funds are relatively new inventions. Humanity has only had a few decades to learn how these systems work, whereas we've had thousands of years to learn how to hunt and gather.",
+    "description": "Why are many people 'bad' at retirement planning, according to the book?",
+    "options": ["People are naturally lazy.", "Retirement as a concept is too difficult to understand.", "We are 'new' to these tools and lack the evolutionary experience to use them perfectly.", "Governments have made the systems intentionally confusing."],
+    "answer": "We are 'new' to these tools and lack the evolutionary experience to use them perfectly.",
+    "explanation": "Housel points out that we are essentially 'freshmen' in the world of modern finance, so we shouldn't be surprised when people struggle with it."
+  },
+  {
+    "question": "The Dinner Table Test",
+    "content": "If a financial decision allows you to sleep at night and feel good about your family's future, it's often better than a decision that is mathematically superior but causes constant stress.",
+    "description": "If someone chooses a low-interest savings account over a high-yield stock because they fear market volatility, how should we judge them?",
+    "options": ["They are losing money to inflation and being foolish.", "They are making a 'reasonable' choice for their own mental health.", "They should be forced to take a finance class.", "They are being 'rational' in a mathematical sense."],
+    "answer": "They are making a 'reasonable' choice for their own mental health.",
+    "explanation": "Success is staying in the game. If a 'sub-optimal' investment keeps you from panicking and quitting, it's actually the better choice for you."
+  },
+  {
+    "question": "The Power of Narrative",
+    "content": "We tell ourselves stories to make sense of the world. When we see someone make a financial mistake, we blame their character, but when we make one, we blame the circumstances.",
+    "description": "How does recognizing that 'no one is crazy' help your own investing?",
+    "options": ["It helps you realize that you can't learn anything from others.", "It makes you more empathetic to others and more aware of your own biases.", "It justifies every bad decision you've ever made.", "It proves that the market is random."],
+    "answer": "It makes you more empathetic to others and more aware of your own biases.",
+    "explanation": "Understanding that everyone is operating on their own internal logic helps you identify when your own 'logic' is just a reaction to your past."
+  },
+  {
+    "question": "Total World Experience",
+    "content": "Remember: your experience is 0.00000001% of what has happened, but 80% of how you think the world works.",
+    "description": "What is the primary takeaway from Chapter 1 regarding how we judge other people's financial behavior?",
+    "options": ["Most people are financially illiterate.", "People's actions align with their unique experiences of how the world works.", "Success is 100% luck.", "You should never listen to financial advice from anyone older than you."],
+    "answer": "People's actions align with their unique experiences of how the world works.",
+    "explanation": "The core theme of Chapter 1 is that while behavior might look crazy to an outsider, it usually makes sense to the person doing it based on what they've seen."
+  }
+]
