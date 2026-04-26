@@ -1,0 +1,132 @@
+[
+  {
+    "question": "AI as the Personal Coach",
+    "content": "In Chapter 8, Mollick explores the role of AI as a 'Coach.' Unlike a tutor who focuses on academic subjects, a coach focuses on performance, mindset, and soft skills. AI can provide immediate, objective feedback on your leadership style, your communication, and even your negotiation tactics by role-playing difficult scenarios with you.",
+    "description": "You have a difficult performance review to give to an employee. You spend 20 minutes role-playing the conversation with an AI, asking it to be 'defensive and argumentative' so you can practice staying calm. This is using AI as:",
+    "options": [
+      "A personal coach.",
+      "A data analyst.",
+      "A technical manual.",
+      "A secret whistleblower."
+    ],
+    "answer": "A personal coach.",
+    "explanation": "AI acting as a coach allows for safe, repetitive practice of high-stakes human interactions, helping you refine your 'soft skills' before the real event."
+  },
+  {
+    "question": "The Non-Judgmental Mirror",
+    "content": "One of the unique benefits of an AI coach is that it is non-judgmental. Humans often hide their weaknesses from human coaches for fear of looking incompetent. With an AI, users are often more honest about their failures, leading to more accurate feedback and faster personal growth.",
+    "description": "A CEO admits to an AI coach that they are terrified of public speaking and asks for a step-by-step confidence-building plan. Why might they do this with an AI rather than a human consultant?",
+    "options": [
+      "The AI is smarter than any human consultant.",
+      "The AI provides a 'psychologically safe' and non-judgmental environment to admit vulnerability.",
+      "The AI can physically stand on stage for them.",
+      "The AI charges more for the service, making it feel more elite."
+    ],
+    "answer": "The AI provides a 'psychologically safe' and non-judgmental environment to admit vulnerability.",
+    "explanation": "The lack of human ego in the AI allows users to be vulnerable, which is often the first necessary step for effective coaching and improvement."
+  },
+  {
+    "question": "Breaking the 'Expertise' Barrier",
+    "content": "Access to high-level coaching used to be a luxury for executives. AI 'democratizes' coaching by providing everyone with access to the same frameworks used by top consultants. It can guide you through the 'GROW' model (Goal, Reality, Options, Will) or other professional development strategies at any time.",
+    "description": "An entry-level employee uses AI to structure their career goals using the 'SMART' framework. This is an example of:",
+    "options": [
+      "Replacing their manager.",
+      "Democratizing access to high-level professional coaching.",
+      "Automating the HR department.",
+      "A violation of company hierarchy."
+    ],
+    "answer": "Democratizing access to high-level professional coaching.",
+    "explanation": "AI makes elite coaching methodologies available to everyone, regardless of their rank or income level, allowing for self-directed professional growth."
+  },
+  {
+    "question": "Simulating the 'Other'",
+    "content": "AI is excellent at 'Perspective Taking.' A coach can use AI to simulate the viewpoint of a customer, a competitor, or a skeptical board member. By interacting with these 'simulated minds,' you can identify blind spots in your strategy that you wouldn't see on your own.",
+    "description": "Before a big pitch, you ask the AI to 'Critique this proposal from the perspective of a cost-conscious CFO.' You are using the AI to:",
+    "options": [
+      "Write the proposal for you.",
+      "Identify blind spots through simulated perspective-taking.",
+      "Calculate the final budget.",
+      "Check for spelling errors."
+    ],
+    "answer": "Identify blind spots through simulated perspective-taking.",
+    "explanation": "Coaching involves seeing things from a different angle. AI can instantly adopt any persona to challenge your assumptions and help you prepare for counter-arguments."
+  },
+  {
+    "question": "The Gap Between Knowing and Doing",
+    "content": "The 'Knowing-Doing Gap' is where we know what we *should* do, but we struggle to execute it. An AI coach helps bridge this gap by breaking down large goals into tiny, actionable steps and providing 'just-in-time' reminders and encouragement.",
+    "description": "You know you need to network more, but you find it overwhelming. Your AI coach suggests you reach out to just one person today and drafts a low-pressure 'hello' email for you. The AI is helping you:",
+    "options": [
+      "Avoid the work entirely.",
+      "Bridge the 'Knowing-Doing Gap' with actionable micro-steps.",
+      "Spam your professional network.",
+      "Outsource your friendships."
+    ],
+    "answer": "Bridge the 'Knowing-Doing Gap' with actionable micro-steps.",
+    "explanation": "Coaching isn't just about big ideas; it's about execution. AI helps by making the 'doing' feel manageable through small, specific tasks."
+  },
+  {
+    "question": "Critical Reflection and the 'Rubber Duck'",
+    "content": "In programming, 'Rubber Ducking' is explaining your code to a toy to find errors. AI acts as a 'Hyper-Powered Rubber Duck.' By explaining your problems to the AI, and having the AI summarize and reflect them back to you, you often find the solution yourself through the act of vocalizing it.",
+    "description": "You are stuck on a strategic problem. You describe the whole situation to the AI. As you read the AI's summary of your own words, you realize where you went wrong. This coaching technique is called:",
+    "options": [
+      "Data entry.",
+      "Critical reflection (or Rubber Ducking).",
+      "Algorithmic synthesis.",
+      "The 'Centaur' method."
+    ],
+    "answer": "Critical reflection (or Rubber Ducking).",
+    "explanation": "The AI serves as a sounding board. The process of organizing your thoughts to 'coach' the AI on your problem often leads to your own 'aha' moment."
+  },
+  {
+    "question": "Real-time Feedback vs. Delayed Review",
+    "content": "Traditional coaching happens in weekly sessions. AI coaching can happen in real-time. You can use AI to analyze a draft of an email *before* you hit send, or to give you pointers right before you walk into a meeting, providing 'active' rather than 'passive' learning.",
+    "description": "You are about to send a sensitive email. You ask the AI: 'Does this sound passive-aggressive?' It says yes and suggests a clearer tone. This is an example of:",
+    "options": [
+      "Real-time performance coaching.",
+      "Automated censorship.",
+      "Skills atrophy.",
+      "Digital eavesdropping."
+    ],
+    "answer": "Real-time performance coaching.",
+    "explanation": "The AI acts as an 'on-demand' coach that provides feedback exactly when you need it, which is far more effective for behavior change than a review a week later."
+  },
+  {
+    "question": "Avoiding the 'Coach' Hallucination",
+    "content": "While AI is a great coach, it can still hallucinate 'best practices' or give bad advice with extreme confidence. A Co-Intelligent user must always weigh the AI's coaching advice against their own intuition and real-world experience.",
+    "description": "An AI coach suggests you fire a top performer to 'shake up the team culture.' Your intuition says this is a mistake. What should you do?",
+    "options": [
+      "Follow the AI because it is data-driven.",
+      "Ignore your intuition; the AI has no bias.",
+      "Critically evaluate the advice and reject it if it contradicts your human understanding of the team.",
+      "Ask a different AI and do whatever the second one says."
+    ],
+    "answer": "Critically evaluate the advice and reject it if it contradicts your human understanding of the team.",
+    "explanation": "You are the 'Human in the Loop.' Coaching is a suggestion, not a command. You must always be the final judge of the advice provided by the AI."
+  },
+  {
+    "question": "The Future of Mentorship",
+    "content": "Mollick suggests that human mentors will still be vital for providing high-level inspiration and career 'sponsorship,' but AI will handle the daily 'grind' of skill-building. This allows human mentors to focus on the deep, long-term guidance only they can provide.",
+    "description": "How does the 'AI as Coach' model change the relationship between a senior leader and a junior employee?",
+    "options": [
+      "The senior leader no longer needs to talk to the junior employee.",
+      "The junior employee uses AI for daily skill questions, so their time with the leader is spent on high-level career vision.",
+      "The leader is replaced by a chatbot.",
+      "The junior employee becomes smarter than the leader immediately."
+    ],
+    "answer": "The junior employee uses AI for daily skill questions, so their time with the leader is spent on high-level career vision.",
+    "explanation": "By offloading 'technical' coaching to AI, human mentorship becomes more focused on high-value, personal, and strategic connections."
+  },
+  {
+    "question": "Personalized Development Paths",
+    "content": "Every person has a different learning style and different 'blocks.' An AI coach can track your progress over time (within its context window) and create a highly personalized development path that focuses specifically on your unique weaknesses.",
+    "description": "You want to become a better negotiator. The AI coach notices you struggle specifically with 'anchoring' and creates five practice scenarios just on that topic. This is called:",
+    "options": [
+      "Adaptive coaching.",
+      "Standardized training.",
+      "Manual intervention.",
+      "Linear progression."
+    ],
+    "answer": "Adaptive coaching.",
+    "explanation": "Unlike a static textbook, the AI coach 'adapts' to your specific performance, focusing energy where you need it most to ensure efficient growth."
+  }
+]

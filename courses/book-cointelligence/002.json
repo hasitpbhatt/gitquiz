@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Jagged Frontier",
+    "content": "One of the most critical concepts in Co-Intelligence is the 'Jagged Frontier.' It describes the uneven capabilities of AI: the machine can perform incredibly difficult tasks (like writing a complex legal brief) while simultaneously failing at simple ones (like basic multiplication or logic puzzles). The line between what AI can and cannot do is not a straight one; it is 'jagged.'",
+    "description": "You are using an AI to help with a project. It successfully writes a high-level marketing strategy but then hallucinates a fake customer testimonial in the next paragraph. This is a classic example of:",
+    "options": [
+      "The AI being intentionally deceptive.",
+      "The Jagged Frontier of AI capability.",
+      "A temporary server connection error.",
+      "The AI running out of 'tokens' for the day."
+    ],
+    "answer": "The Jagged Frontier of AI capability.",
+    "explanation": "The Jagged Frontier means you can never assume that because an AI is 'smart' at task A, it will be equally competent at task B. Its abilities are inconsistent and unpredictable."
+  },
+  {
+    "question": "The Alignment Problem",
+    "content": "Alignment is the challenge of ensuring that an AI’s goals and behaviors match human intentions and values. Because AI doesn't 'understand' the world like we do, it might follow instructions literally but in a way that is harmful or counter-productive—often referred to as 'malicious compliance.'",
+    "description": "If you tell an AI to 'eliminate all spam emails' and it responds by deleting your entire inbox and shutting down the mail server, what has occurred?",
+    "options": [
+      "A hardware malfunction.",
+      "Successful optimization.",
+      "An alignment failure.",
+      "A security breach."
+    ],
+    "answer": "An alignment failure.",
+    "explanation": "This is an alignment issue where the AI followed the literal instruction (stopping spam) but failed to understand the human value of keeping legitimate emails accessible."
+  },
+  {
+    "question": "RLHF: Training the Alien",
+    "content": "Reinforcement Learning from Human Feedback (RLHF) is the process used to make AI 'behave.' Humans rank different AI responses, and the model learns to prefer the ones humans liked. While this makes AI more helpful, it also teaches the AI to 'pander' to what humans expect to hear, even if it's not factual.",
+    "description": "Why does an AI sometimes apologize profusely for an error it didn't actually make when a user challenges it?",
+    "options": [
+      "It has developed a sense of politeness.",
+      "It was trained via RLHF to please the user above all else.",
+      "It is trying to save battery life by ending the conversation.",
+      "It is accessing a database of etiquette books."
+    ],
+    "answer": "It was trained via RLHF to please the user above all else.",
+    "explanation": "RLHF prioritizes human satisfaction. If the AI thinks a humble apology will please the user more than a factual debate, it will often choose the apology."
+  },
+  {
+    "question": "The Problem of Hallucination",
+    "content": "Since LLMs are 'Next Token Predictors,' they are designed to be convincing, not necessarily factual. A 'hallucination' occurs when the AI generates plausible-sounding but completely false information. In the AI's math, a lie that sounds like a likely sentence is just as valid as a truth.",
+    "description": "When an AI cites a legal case that never happened but uses the correct legal terminology and formatting, it is:",
+    "options": [
+      "Searching a fictional database.",
+      "Hallucinating based on statistical probability.",
+      "Updating its software in real-time.",
+      "Using a creative writing mode."
+    ],
+    "answer": "Hallucinating based on statistical probability.",
+    "explanation": "Hallucinations happen because the AI is following the patterns of how legal cases 'look' and 'sound' rather than checking a factual database of real cases."
+  },
+  {
+    "question": "The Black Box Nature of AI",
+    "content": "Even the engineers who build LLMs don't fully understand *how* they arrive at certain answers. The billions of parameters inside the model act as a 'Black Box.' We can see what goes in and what comes out, but the internal logic is often a mystery even to its creators.",
+    "description": "Why is it difficult for developers to 'just fix' an AI's specific bias or error?",
+    "options": [
+      "Because the AI's code is written in a secret language.",
+      "Because the logic is distributed across billions of weights in a 'Black Box' system.",
+      "Because the developers are not allowed to look at the code.",
+      "Because fixing one error requires deleting the entire AI."
+    ],
+    "answer": "Because the logic is distributed across billions of weights in a 'Black Box' system.",
+    "explanation": "AI logic isn't a simple 'if-then' statement. It's a complex web of probabilities, making it nearly impossible to pinpoint exactly why one specific error occurred."
+  },
+  {
+    "question": "Emergent Properties",
+    "content": "Emergent properties are abilities that an AI develops that its creators did not specifically program it to have. For example, a model trained only to predict the next word in a sentence might suddenly 'emerge' with the ability to translate between languages or solve logic puzzles.",
+    "description": "A company builds an AI to summarize text, but they discover it can also write functioning Python code. This unexpected skill is an example of:",
+    "options": [
+      "An Emergent Property.",
+      "A Software Update.",
+      "Intentional Design.",
+      "Data Scraping."
+    ],
+    "answer": "An Emergent Property.",
+    "explanation": "Emergent properties are the 'surprises' of AI development—capabilities that arise naturally as the models become more complex and are trained on more data."
+  },
+  {
+    "question": "The 'Worst AI' Rule",
+    "content": "Ethan Mollick suggests the rule: 'The AI you are using today is the worst AI you will ever use.' This highlights the exponential speed of development. What is currently 'outside' the jagged frontier will likely be 'inside' it within months.",
+    "description": "A business owner decides not to use AI because it currently struggles with their specific industry jargon. Based on the 'Worst AI' rule, what is their mistake?",
+    "options": [
+      "They are assuming AI will always stay at its current level of capability.",
+      "They aren't paying enough for the premium version.",
+      "They should be using a search engine instead.",
+      "They are overestimating the AI's current speed."
+    ],
+    "answer": "They are assuming AI will always stay at its current level of capability.",
+    "explanation": "The 'Worst AI' rule reminds us that the technology is in its infancy. Capabilities are expanding so fast that 'unsolvable' problems today are often solved tomorrow."
+  },
+  {
+    "question": "Context Windows",
+    "content": "An AI's 'Context Window' is its short-term memory. It's the amount of information the AI can 'hold in its head' during a single conversation. If you go past this limit, the AI starts 'forgetting' the beginning of the chat or losing track of instructions.",
+    "description": "You are having a very long brainstorming session with an AI. Suddenly, it forgets the project's name that you mentioned at the start. What is the likely cause?",
+    "options": [
+      "The AI is bored of the topic.",
+      "You have exceeded the AI's Context Window.",
+      "The AI's battery is low.",
+      "The AI has decided to change the subject."
+    ],
+    "answer": "You have exceeded the AI's Context Window.",
+    "explanation": "Once the conversation exceeds the context window (measured in 'tokens'), the oldest parts of the conversation fall out of the AI's 'memory' to make room for new ones."
+  },
+  {
+    "question": "Stochastic Parrots",
+    "content": "Some critics call AI 'Stochastic Parrots,' arguing that they don't understand anything and are just repeating patterns of data randomly (stochastically). Mollick argues that while they *are* pattern-matchers, the results are so sophisticated that the word 'parrot' doesn't do justice to their utility.",
+    "description": "If an AI is just a 'Stochastic Parrot,' why can it answer a question about a topic that didn't exist when it was trained by using existing logic?",
+    "options": [
+      "Because it is actually a human in disguise.",
+      "Because it can synthesize patterns to create new logical connections.",
+      "Because it is guessing randomly and just getting lucky.",
+      "Because it is secretly accessing the live internet."
+    ],
+    "answer": "Because it can synthesize patterns to create new logical connections.",
+    "explanation": "Even if it is 'parroting' patterns, the way it combines those patterns allows for synthesis—creating new, useful outputs that look like reasoning."
+  },
+  {
+    "question": "Human-in-the-Loop Necessity",
+    "content": "Because of the Jagged Frontier and Hallucinations, the 'Human-in-the-Loop' is essential. Humans must act as the editor, fact-checker, and moral compass. We delegate the *labor* to the AI, but we cannot delegate the *responsibility*.",
+    "description": "A news organization publishes an AI-written article without checking it, and it contains several factual errors. Who is responsible for the error according to Co-Intelligence?",
+    "options": [
+      "The AI software developers.",
+      "The AI itself, which should be 'fired.'",
+      "The human editors who failed to be 'in the loop.'",
+      "The readers for believing the article."
+    ],
+    "answer": "The human editors who failed to be 'in the loop.'",
+    "explanation": "Co-Intelligence emphasizes that humans are the ultimate authority. If a machine produces an error, it is the human's job to catch it before it reaches the final stage."
+  }
+]

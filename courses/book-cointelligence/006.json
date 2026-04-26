@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Coworker Paradigm",
+    "content": "In Chapter 6, AI is reframed as a 'Coworker' rather than just a tool. This shift implies that AI can handle tasks with a degree of autonomy—brainstorming, drafting, and organizing—but requires a human 'manager' to provide oversight. Unlike a static program, this coworker can be 'briefed' on a project and given feedback to improve its performance.",
+    "description": "You are overwhelmed with emails and reports. Instead of doing them all yourself, you treat the AI as a junior assistant by giving it your notes and asking it to draft three distinct follow-up emails. This represents:",
+    "options": [
+      "Replacing your role entirely.",
+      "The 'AI as Coworker' model of delegation.",
+      "A violation of office privacy protocols.",
+      "Linear task automation."
+    ],
+    "answer": "The 'AI as Coworker' model of delegation.",
+    "explanation": "Treating AI as a coworker involves delegating cognitively demanding but time-consuming tasks while maintaining the role of the 'lead' who makes the final decisions."
+  },
+  {
+    "question": "The Centaur Model",
+    "content": "The 'Centaur' model of work involves a clear division of labor between human and machine. Like the mythical creature, the worker keeps their human 'top' (judgment, strategy) separate from the 'horse' (AI's raw processing power). Tasks are divided: some are done 100% by the human, others 100% by the AI.",
+    "description": "A financial analyst manually researches the ethics of a company (Human) and then uses an AI to calculate the standard deviation of its stock prices (AI). This is known as:",
+    "options": [
+      "Cyborg interaction.",
+      "The Centaur model.",
+      "Autonomous processing.",
+      "Manual redundancy."
+    ],
+    "answer": "The Centaur model.",
+    "explanation": "Centaurs divide tasks based on who is best suited for them. The human does the 'human parts' and the AI does the 'machine parts' without blending them."
+  },
+  {
+    "question": "The Cyborg Model",
+    "content": "The 'Cyborg' approach is much more integrated than the Centaur. Instead of dividing tasks, the human and AI 'weave' their work together in real-time. A Cyborg might start writing a paragraph, have the AI finish it, edit the AI's words, and ask for a counter-argument—all in one continuous flow.",
+    "description": "A coder is writing a new app. They write the logic, the AI suggests the syntax for the next function, the coder rejects it and asks for a more efficient version, which they then refine together. This is:",
+    "options": [
+      "The Centaur model.",
+      "The Cyborg model.",
+      "Outsourced labor.",
+      "Software installation."
+    ],
+    "answer": "The Cyborg model.",
+    "explanation": "The Cyborg model is characterized by the 'seamless integration' of human and machine intelligence throughout the entire creative or analytical process."
+  },
+  {
+    "question": "The Productivity Frontier",
+    "content": "Research mentioned in Chapter 6 shows that AI can significantly raise the 'floor' of productivity. Lower-performing workers often see the biggest gains (up to 40% improvement), while top-tier workers see smaller gains. AI acts as an equalizer, bringing everyone closer to the top performance level.",
+    "description": "A company introduces AI to its customer service team. The newest employees see a massive jump in their resolution rates, while the veterans see only a slight increase. This illustrates:",
+    "options": [
+      "The AI is biased against veterans.",
+      "The AI's ability to raise the performance 'floor' for everyone.",
+      "The failure of the AI to help experts.",
+      "A technical glitch in the veteran's software."
+    ],
+    "answer": "The AI's ability to raise the performance 'floor' for everyone.",
+    "explanation": "AI provides a 'baseline' of high-level competence. For those who were struggling, this baseline is a massive boost; for experts, it is simply a helpful secondary tool."
+  },
+  {
+    "question": "The Risk of Skills Atrophy",
+    "content": "A major concern with the 'AI as Coworker' model is 'Skills Atrophy.' If the AI does all the drafting, calculating, and basic reasoning, humans might lose the ability to do those things manually. Over-reliance on the coworker can make the human less capable if the tool is ever removed.",
+    "description": "A writer notices they can no longer structure a story without asking an AI for an outline first. This person is experiencing:",
+    "options": [
+      "Enhanced creativity.",
+      "The Cyborg evolution.",
+      "Skills atrophy.",
+      "Technical mastery."
+    ],
+    "answer": "Skills atrophy.",
+    "explanation": "Skills atrophy occurs when we outsource the 'cognitive muscles' of our job to the AI, leading to a decline in our own unassisted abilities."
+  },
+  {
+    "question": "The 'Checking Out' Paradox",
+    "content": "When a coworker is too good, we stop double-checking their work. If an AI is 95% accurate, humans tend to trust it blindly, which makes the 5% of errors (hallucinations) extremely dangerous. Working with an AI coworker requires *more* vigilance, not less.",
+    "description": "A lawyer uses AI to find legal precedents. The AI has been perfect for a year, so the lawyer stops reading the full text of the cases. This behavior is dangerous because:",
+    "options": [
+      "The AI might charge more for its services.",
+      "The lawyer has 'checked out' and is susceptible to an AI hallucination.",
+      "The AI prefers shorter cases.",
+      "Other lawyers will be jealous of their speed."
+    ],
+    "answer": "The lawyer has 'checked out' and is susceptible to an AI hallucination.",
+    "explanation": "High reliability leads to human complacency. To be a good 'manager' of an AI coworker, you must remain critically engaged even when things seem perfect."
+  },
+  {
+    "question": "Shadow AI in the Workplace",
+    "content": "'Shadow AI' refers to employees using AI tools in secret because they fear their boss will think they are cheating or lazy. Chapter 6 argues that this is harmful because it prevents the organization from learning how to scale the productivity gains of the 'coworker.'",
+    "description": "An employee uses AI to do 8 hours of work in 20 minutes, then spends the rest of the day pretending to be busy. This is an example of:",
+    "options": [
+      "Optimized efficiency.",
+      "Shadow AI usage.",
+      "Corporate sabotage.",
+      "Strategic downtime."
+    ],
+    "answer": "Shadow AI usage.",
+    "explanation": "Shadow AI is the 'hidden' use of these tools. It creates an illusion of work that prevents the company from truly evolving its processes."
+  },
+  {
+    "question": "The Management of Prompts",
+    "content": "Working with an AI coworker requires 'Prompt Management.' This means setting clear expectations, defining the persona, and providing constraints. If you give the AI coworker a bad 'brief,' you will get a bad result, just as you would with a human intern.",
+    "description": "You tell your AI 'Write a report.' The result is generic and useless. What management error did you commit?",
+    "options": [
+      "You didn't pay for the pro version.",
+      "You provided a low-context 'brief' that didn't specify tone, audience, or goal.",
+      "You were too polite to the machine.",
+      "The AI is having a bad day."
+    ],
+    "answer": "You provided a low-context 'brief' that didn't specify tone, audience, or goal.",
+    "explanation": "Successful 'AI as Coworker' interaction depends on the quality of the instruction. Specificity and context are the management tools of the future."
+  },
+  {
+    "question": "Reinvesting the Productivity Dividend",
+    "content": "When an AI coworker saves you 50% of your time, you have a 'Productivity Dividend.' Chapter 6 suggests that the most successful workers will reinvest this time into things AI can't do: building human relationships, high-level strategy, and mentorship.",
+    "description": "An AI handles all of a manager's scheduling and basic reporting. The manager uses that extra time to hold 1-on-1 career coaching sessions with their team. This is:",
+    "options": [
+      "Wasting the AI's efficiency.",
+      "Reinvesting the productivity dividend into human-centric value.",
+      "A Centaur model of scheduling.",
+      "Automating leadership."
+    ],
+    "answer": "Reinvesting the productivity dividend into human-centric value.",
+    "explanation": "The value of AI is that it clears the 'drudge work,' allowing humans to focus on the high-impact emotional and strategic work that machines cannot replicate."
+  },
+  {
+    "question": "The Future of Jobs: Integration",
+    "content": "The chapter concludes that the jobs most likely to survive aren't those that 'avoid' AI, but those that 'integrate' it most effectively. Being a 'Solo-preneur' or a highly efficient 'team of one' becomes possible when you learn to manage multiple AI coworkers at once.",
+    "description": "Why does Mollick suggest that 'learning to prompt' is actually 'learning to manage'?",
+    "options": [
+      "Because prompting is just coding by another name.",
+      "Because you are coordinating the efforts of an 'alien' intelligence toward a human goal.",
+      "Because it requires a degree in business administration.",
+      "Because the AI will eventually become the boss."
+    ],
+    "answer": "Because you are coordinating the efforts of an 'alien' intelligence toward a human goal.",
+    "explanation": "Managing AI involves setting vision, checking quality, and iterating on results—the core functions of a traditional manager, now applied to machine collaborators."
+  }
+]

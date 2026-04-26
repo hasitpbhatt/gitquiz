@@ -1,0 +1,132 @@
+[
+  {
+    "question": "AI as the Ultimate Muse",
+    "content": "In Chapter 5, AI is presented as 'The Muse'—a tool that excels at overcoming the 'blank page' problem. While humans often struggle to generate the first dozen ideas, AI can generate hundreds of varied, novel concepts instantly. This shifts the human's role from 'creator of ideas' to 'curator of possibilities.'",
+    "description": "An advertising team is stuck on a slogan for a new eco-friendly sneaker. According to the 'AI as Muse' concept, how should they proceed?",
+    "options": [
+      "Ask the AI to pick the final slogan and launch the campaign immediately.",
+      "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
+      "Avoid AI because it isn't truly 'creative' in the biological sense.",
+      "Wait for a human creative director to have a breakthrough moment without tools."
+    ],
+    "answer": "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
+    "explanation": "The 'Muse' role uses AI's speed to provide a wide range of 'seeds,' which humans then cultivate. This overcomes creative blocks and expands the search space for good ideas."
+  },
+  {
+    "question": "Combinatorial Creativity",
+    "content": "Most human creativity isn't 'magic'; it’s 'combinatorial'—the act of taking two existing ideas and merging them into something new. AI is built for this. It can take '18th-century poetry' and 'modern silicon valley jargon' and combine them perfectly because it maps these concepts in its latent space.",
+    "description": "A product designer asks an AI to 'design a coffee machine inspired by the aesthetic of a 1950s fighter jet.' This is an application of:",
+    "options": [
+      "Linear processing.",
+      "Combinatorial creativity.",
+      "Hallucination.",
+      "Data plagiarism."
+    ],
+    "answer": "Combinatorial creativity.",
+    "explanation": "By merging two distinct 'coordinates' in its latent space (1950s jets and coffee machines), the AI creates a novel synthesis that a human might not have easily visualized."
+  },
+  {
+    "question": "The 'Latent Space' of Ideas",
+    "content": "AI doesn't just copy; it navigates a 'Latent Space'—a mathematical universe of all the concepts it has learned. Creativity in AI happens when we ask it to find the 'unoccupied' spots in that space—the weird, middle grounds between established categories that humans rarely visit.",
+    "description": "What is the primary reason AI can suggest 'original' ideas that aren't just direct copies of its training data?",
+    "options": [
+      "It has a soul that allows it to imagine the future.",
+      "It is constantly searching the live internet for new trends.",
+      "It navigates the mathematical relationships between concepts to find new, 'in-between' points.",
+      "It is programmed with a 'randomness' button that forces it to be weird."
+    ],
+    "answer": "It navigates the mathematical relationships between concepts to find new, 'in-between' points.",
+    "explanation": "The latent space allows for interpolation. If the AI knows 'A' and 'B,' it can mathematically calculate what '0.5A + 0.5B' looks like, resulting in a novel concept."
+  },
+  {
+    "question": "Overcoming Functional Fixedness",
+    "content": "Humans suffer from 'functional fixedness'—we see an object and can only imagine its traditional use. AI doesn't have this bias. It can suggest using a paperclip as a surgical tool or a pizza box as a solar oven because it doesn't 'know' what things are 'supposed' to be used for.",
+    "description": "In a brainstorming session, an AI suggests using old shipping containers as modular classrooms. This helps the human team by:",
+    "options": [
+      "Providing a cheaper alternative to building.",
+      "Breaking 'functional fixedness' and allowing for divergent thinking.",
+      "Automating the construction process.",
+      "Reducing the need for human architects."
+    ],
+    "answer": "Breaking 'functional fixedness' and allowing for divergent thinking.",
+    "explanation": "AI isn't bound by human social norms or habits, making it an excellent partner for 'outside the box' thinking that humans often find difficult."
+  },
+  {
+    "question": "The 'Curator's Burden'",
+    "content": "When 'content generation' becomes free and instant, the value of the 'creator' drops while the value of the 'curator' rises. High-quality creativity now depends on the human's ability to recognize what is 'good' and 'meaningful' among the thousands of options AI provides.",
+    "description": "If everyone has access to an AI that can write a decent novel, what will differentiate a best-selling author in the future?",
+    "options": [
+      "Their ability to type faster than others.",
+      "Their ability to curate, edit, and inject unique human meaning into the AI's output.",
+      "Their ability to keep the AI's use a secret.",
+      "The amount of money they spend on AI subscriptions."
+    ],
+    "answer": "Their ability to curate, edit, and inject unique human meaning into the AI's output.",
+    "explanation": "As the volume of content increases, the 'human touch'—taste, discernment, and emotional resonance—becomes the rarest and most valuable resource."
+  },
+  {
+    "question": "Iterative Prompting as Sculpting",
+    "content": "In Chapter 5, prompting is described more like 'sculpting' than 'ordering.' You don't just give one prompt and stop; you give a prompt, see the 'block of marble' the AI gives you, and then 'chip away' by giving more specific feedback until the 'statue' is revealed.",
+    "description": "An AI generates a story that you like, but the ending is too happy. What is the most 'Co-Intelligent' creative action?",
+    "options": [
+      "Rewrite the ending yourself from scratch.",
+      "Tell the AI: 'The tone is great, but make the ending more bittersweet and realistic.'",
+      "Ask the AI to start the whole story over.",
+      "Accept the happy ending because the AI 'knows best.'"
+    ],
+    "answer": "Tell the AI: 'The tone is great, but make the ending more bittersweet and realistic.'",
+    "explanation": "Iteration is the core of the creative process with AI. You 'sculpt' the output through continuous feedback loops."
+  },
+  {
+    "question": "The Risk of 'Average' Creativity",
+    "content": "AI is trained on the 'average' of all human knowledge. If you give it a boring prompt, it will give you a boring, 'middle-of-the-road' answer. To get true creativity, you must push the AI toward the 'edges' of its training data using constraints and unusual personas.",
+    "description": "Why do many people complain that AI-generated art or writing feels 'generic'?",
+    "options": [
+      "Because the AI is broken.",
+      "Because the user provided a generic prompt that pushed the AI to the statistical average of its training.",
+      "Because the AI doesn't have a high enough resolution.",
+      "Because the AI is trying to avoid offending anyone."
+    ],
+    "answer": "Because the user provided a generic prompt that pushed the AI to the statistical average of its training.",
+    "explanation": "AI aims for the 'most likely' answer. Without specific, 'edgy' constraints from the human, the AI will default to the most common (and therefore generic) patterns."
+  },
+  {
+    "question": "The 'Creative' Turing Test",
+    "content": "We often think AI isn't creative because it doesn't have 'feelings.' But Mollick argues that if an AI provides an idea that a human finds useful and novel, it has passed a 'Creative Turing Test.' The 'process' matters less than the 'outcome' for the person using the tool.",
+    "description": "An AI suggests a melody that makes a songwriter cry. Does it matter that the AI didn't 'feel' the sadness itself?",
+    "options": [
+      "Yes, because art without suffering isn't real.",
+      "No, because the creativity is realized in the human's emotional response and the utility of the idea.",
+      "Yes, because the AI is just tricking the human.",
+      "No, because the AI probably copied that melody from a sad song."
+    ],
+    "answer": "No, because the creativity is realized in the human's emotional response and the utility of the idea.",
+    "explanation": "In Co-Intelligence, the human is the 'meaning-maker.' If the AI provides the spark that leads to a human emotional or creative breakthrough, the partnership was successful."
+  },
+  {
+    "question": "Constraints Breed Creativity",
+    "content": "AI works better when it is 'boxed in.' Asking an AI for 'an idea' is hard for it. Asking for 'an idea for a kitchen gadget that uses magnets, costs under $5, and is themed like a dinosaur' forces the AI to find a very specific, often more creative, solution.",
+    "description": "Which prompt is likely to yield a more 'creative' business idea?",
+    "options": [
+      "Give me a new business idea for the food industry.",
+      "Give me a business idea for a high-end restaurant that only serves breakfast foods at night in an old library.",
+      "What is a profitable business I can start today?",
+      "List 10 ways to make money in 2024."
+    ],
+    "answer": "Give me a business idea for a high-end restaurant that only serves breakfast foods at night in an old library.",
+    "explanation": "Specific constraints force the AI away from the 'average' and into the 'jagged' parts of its latent space where unique combinations live."
+  },
+  {
+    "question": "The Future of 'Craft'",
+    "content": "As AI takes over the 'production' of creative assets (images, text, music), 'craft' will shift from 'technical execution' (how well you can draw a circle) to 'conceptual depth' (why the circle needs to be there in the first place).",
+    "description": "In a world of AI-generated movies, what becomes the most important skill for a director?",
+    "options": [
+      "Knowing how to operate a physical camera.",
+      "Vision, storytelling, and the ability to direct the AI to capture specific emotional nuances.",
+      "Being able to draw every frame by hand.",
+      "Memorizing the names of every actor in history."
+    ],
+    "answer": "Vision, storytelling, and the ability to direct the AI to capture specific emotional nuances.",
+    "explanation": "When execution is 'free,' the 'vision' becomes the premium. The director’s role is to ensure the AI's output aligns with a cohesive, meaningful human story."
+  }
+]

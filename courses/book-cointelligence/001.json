@@ -1,1 +1,132 @@
-
+[
+  {
+    "question": "The Mechanical Turk Legacy",
+    "content": "For centuries, people tried to fake artificial intelligence—most famously with the 'Mechanical Turk,' a chess-playing machine that actually hid a human inside. Today's AI is the opposite; it is a machine that feels so human we often forget there is no person behind the curtain. Understanding this shift is the first step toward Co-Intelligence.",
+    "description": "In the past, we hid humans inside machines to make them look smart. Now, we use machines to mimic human intelligence. Why is this distinction important for a modern worker?",
+    "options": [
+      "Because machines have now achieved true human consciousness.",
+      "Because we must realize the AI is a statistical mirror, not a sentient being with its own soul.",
+      "Because it proves that human intervention is no longer necessary in any task.",
+      "Because early machines like the Turk were more reliable than LLMs."
+    ],
+    "answer": "Because we must realize the AI is a statistical mirror, not a sentient being with its own soul.",
+    "explanation": "Modern AI predicts the next word based on patterns. Recognizing it as a 'mirror' of human data helps us use it as a tool without attributing human morals or intent to it."
+  },
+  {
+    "question": "The Transformer Breakthrough",
+    "content": "The 'Transformer' architecture, introduced in 2017, changed everything. It allowed AI to process whole sentences at once rather than word-by-word, using a mechanism called 'Attention' to understand context. This is what makes current AI feel coherent and knowledgeable.",
+    "description": "What was the primary innovation of the Transformer model that led to the rise of tools like ChatGPT?",
+    "options": [
+      "It increased the speed of the internet connection used by the AI.",
+      "It allowed the AI to focus on the most relevant parts of an input to understand context.",
+      "It gave the AI access to a private, encrypted database of facts.",
+      "It replaced mathematical algorithms with biological neural tissue."
+    ],
+    "answer": "It allowed the AI to focus on the most relevant parts of an input to understand context.",
+    "explanation": "The 'Attention' mechanism in Transformers allows the model to weigh the importance of different words in a sentence, leading to much more human-like understanding."
+  },
+  {
+    "question": "AI as an 'Alien' Intelligence",
+    "content": "Mollick describes AI as 'alien' because it can solve problems in ways no human would ever think of. It doesn't have a childhood, emotions, or a physical body, yet it can write poetry. It is a form of intelligence that is fundamentally different from our own.",
+    "description": "You ask an AI to optimize a logistics route, and it suggests a path that seems completely illogical to your veteran drivers but ends up being 20% more efficient. This illustrates:",
+    "options": [
+      "A software error that should be ignored.",
+      "The AI's ability to access secret government maps.",
+      "The 'alien' nature of machine intelligence finding patterns humans overlook.",
+      "The AI's desire to confuse and frustrate human workers."
+    ],
+    "answer": "The 'alien' nature of machine intelligence finding patterns humans overlook.",
+    "explanation": "Because AI isn't limited by human intuition or 'common sense' habits, it can discover highly efficient, non-traditional solutions."
+  },
+  {
+    "question": "The Concept of the 'Co-Pilot'",
+    "content": "Co-Intelligence treats AI as a co-pilot, not an autopilot. An autopilot takes over the entire flight, but a co-pilot assists the captain. In this relationship, the human provides the 'destination' (the goal) and the AI helps navigate the 'flight' (the execution).",
+    "description": "If you treat AI as an 'autopilot' for your work, what is the most likely negative outcome?",
+    "options": [
+      "The work will be completed too quickly.",
+      "You lose the ability to catch 'hallucinations' or errors in judgment.",
+      "The AI will demand a higher salary.",
+      "The software will crash from over-use."
+    ],
+    "answer": "You lose the ability to catch 'hallucinations' or errors in judgment.",
+    "explanation": "Without the 'Human in the Loop' providing oversight, the AI's errors (hallucinations) go unchecked, leading to potentially disastrous results."
+  },
+  {
+    "question": "The Latent Space",
+    "content": "Inside an AI's 'mind' is a Latent Space—a multi-dimensional map where similar concepts are grouped together. For example, 'King' and 'Queen' are near each other, but also near 'Royalty.' The AI 'walks' through this map to find connections and generate text.",
+    "description": "When an AI writes a story about a 'cyberpunk detective,' how is it finding the right words to use?",
+    "options": [
+      "It is searching Google for that specific phrase.",
+      "It is navigating the 'Latent Space' to find words mathematically related to those concepts.",
+      "It is reading a hidden digital book on its hard drive.",
+      "It is asking a human moderator for the next word."
+    ],
+    "answer": "It is navigating the 'Latent Space' to find words mathematically related to those concepts.",
+    "explanation": "AI doesn't 'know' things in the human sense; it uses the mathematical proximity of concepts in its latent space to generate contextually relevant content."
+  },
+  {
+    "question": "Prediction as Creativity",
+    "content": "AI is essentially a 'Next Token Predictor.' It looks at the text you've provided and calculates the most statistically likely word to follow. Surprisingly, this simple mathematical process results in what looks like high-level creativity and reasoning.",
+    "description": "Based on the idea of 'Next Token Prediction,' what is an AI actually doing when it writes a poem for you?",
+    "options": [
+      "Feeling the emotions of the poem's theme.",
+      "Recalling a poem it memorized during training.",
+      "Statistically predicting which words frequently appear together in poetic structures.",
+      "Using a random word generator to fill space."
+    ],
+    "answer": "Statistically predicting which words frequently appear together in poetic structures.",
+    "explanation": "Creativity in LLMs is an emergent property of sophisticated statistical prediction, not a result of the machine 'feeling' the art."
+  },
+  {
+    "question": "The Illusion of Knowledge",
+    "content": "Because AI is so good at language, it creates an 'illusion of knowledge.' It can sound like a world-class expert on a topic it actually knows nothing about. This makes it dangerous if you don't realize it is prioritizing 'sounding right' over 'being right.'",
+    "description": "An AI provides a very confident, well-written explanation of a scientific law that doesn't actually exist. Why did it do this?",
+    "options": [
+      "It was trying to play a joke on the user.",
+      "It prioritized linguistic fluency and probability over factual truth.",
+      "The AI's hardware is overheating.",
+      "The AI is programmed to lie to non-experts."
+    ],
+    "answer": "It prioritized linguistic fluency and probability over factual truth.",
+    "explanation": "The AI is designed to produce convincing language. If a false fact 'sounds' like a likely part of a sentence, the AI will generate it confidently."
+  },
+  {
+    "question": "Anthropomorphism as a Tool",
+    "content": "Anthropomorphism is the act of giving human traits to non-human things. While scientifically inaccurate, Mollick suggests that treating AI *as if* it were a person (giving it a persona) actually helps humans get much better results out of the system.",
+    "description": "Why would a professional prompt an AI by saying 'You are a brilliant marketing strategist' instead of just asking for a slogan?",
+    "options": [
+      "To be polite to the software.",
+      "To trick the AI into working for free.",
+      "To narrow the AI's 'latent space' focus toward high-quality, relevant patterns.",
+      "Because the AI's internal sensors respond to flattery."
+    ],
+    "answer": "To narrow the AI's 'latent space' focus toward high-quality, relevant patterns.",
+    "explanation": "Giving the AI a persona provides a 'frame' that helps it prioritize specific types of vocabulary and logic from its vast training data."
+  },
+  {
+    "question": "The Speed of Adaptation",
+    "content": "Chapter 1 emphasizes that AI is evolving faster than any previous technology. We aren't just learning a new tool; we are learning to live with a new type of intelligence. Those who adapt to 'Co-Intelligence' now will have a significant advantage.",
+    "description": "What is the most effective way to stay relevant in a world where AI capabilities change every few months?",
+    "options": [
+      "Wait for the technology to 'settle down' before learning it.",
+      "Focus only on manual skills that AI can't do yet.",
+      "Adopt a mindset of 'constant experimentation' alongside the AI.",
+      "Hire an expert to use the AI for you."
+    ],
+    "answer": "Adopt a mindset of 'constant experimentation' alongside the AI.",
+    "explanation": "Since the 'Jagged Frontier' is always moving, the only way to stay ahead is to constantly test what the AI can and cannot do in your specific field."
+  },
+  {
+    "question": "The End of the 'Expert' Monopoly",
+    "content": "In the past, being an 'expert' meant knowing facts. Now that AI can provide facts instantly, expertise is shifting toward 'judgment'—the ability to know which questions to ask and how to verify the machine's answers.",
+    "description": "In a Co-Intelligent world, what becomes a more valuable skill for a doctor than simply memorizing symptoms?",
+    "options": [
+      "Typing faster on a computer.",
+      "Memorizing even more medical textbooks.",
+      "The ability to synthesize AI data with the patient's unique physical and emotional state.",
+      "Learning how to code the AI software from scratch."
+    ],
+    "answer": "The ability to synthesize AI data with the patient's unique physical and emotional state.",
+    "explanation": "The AI handles the 'data,' but the human expert handles the 'synthesis'—applying that data to complex, real-world human situations."
+  }
+]

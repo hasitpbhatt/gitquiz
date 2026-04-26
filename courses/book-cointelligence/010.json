@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Great Disruption",
+    "content": "Mollick concludes that we are in the 'Great Disruption,' a period where the speed of AI progress outpaces our social, legal, and educational systems. This creates a gap between what we *can* do with technology and what we *know* how to manage ethically and safely.",
+    "description": "Why does Mollick emphasize that this disruption is different from the Industrial Revolution?",
+    "options": [
+      "Because it only affects manufacturing jobs.",
+      "Because previous revolutions took generations to unfold, while this is happening in years.",
+      "Because AI is more expensive to maintain than steam engines.",
+      "Because humans will eventually stop using AI once the novelty wears off."
+    ],
+    "answer": "Because previous revolutions took generations to unfold, while this is happening in years.",
+    "explanation": "The exponential nature of AI growth means we don't have the luxury of decades to adapt our schools and laws, requiring a more proactive 'Co-Intelligent' approach immediately."
+  },
+  {
+    "question": "The Value of 'Human-Only' Work",
+    "content": "As AI becomes a commodity (cheap, fast, and everywhere), the relative value of 'pure intelligence' drops. In its place, the value of uniquely human traits—empathy, physical presence, moral accountability, and 'lived experience'—rises significantly.",
+    "description": "In a world where AI can write a perfect legal brief, what becomes the lawyer's primary value to their client?",
+    "options": [
+      "The ability to type faster than the AI.",
+      "Memorizing every law in the country.",
+      "Providing emotional support, ethical judgment, and a human presence in the courtroom.",
+      "Keeping their use of AI a secret from the client."
+    ],
+    "answer": "Providing emotional support, ethical judgment, and a human presence in the courtroom.",
+    "explanation": "When the 'data' part of a job is automated, the 'human' part—trust, empathy, and advocacy—becomes the premium service people are willing to pay for."
+  },
+  {
+    "question": "The Principle of Proactive Adaptation",
+    "content": "Co-Intelligence is not a passive state; it is an active choice. Mollick argues that individuals who experiment with AI today—even when it is 'the worst it will ever be'—are building the 'muscles' of adaptation that will be required for the rest of their lives.",
+    "description": "Which behavior best exemplifies 'Proactive Adaptation'?",
+    "options": [
+      "Waiting for your company to release a formal AI policy before trying ChatGPT.",
+      "Testing AI on every task you do to see where it succeeds and fails.",
+      "Focusing only on the skills that AI cannot do yet.",
+      "Delegating all your thinking to the AI to save energy."
+    ],
+    "answer": "Testing AI on every task you do to see where it succeeds and fails.",
+    "explanation": "Active experimentation is the only way to find the 'Jagged Frontier.' If you don't test it, you won't know when the machine has become capable of helping you."
+  },
+  {
+    "question": "The Productivity Dividend",
+    "content": "AI offers a massive 'Productivity Dividend'—the time saved by automating drudge work. The risk is that we use this time just to do *more* busy work. The goal of Co-Intelligence is to reinvest that time into high-impact, creative, or restful activities that lead to flourishing.",
+    "description": "If AI saves you 10 hours a week, what is the most 'Co-Intelligent' way to use that time for your career?",
+    "options": [
+      "Ask for 10 more hours of administrative tasks to prove your worth.",
+      "Spend those 10 hours on strategic thinking, networking, and deep learning.",
+      "Hide the time savings so you can play video games.",
+      "Tell the AI to do your work even faster next week."
+    ],
+    "answer": "Spend those 10 hours on strategic thinking, networking, and deep learning.",
+    "explanation": "The true benefit of AI is clearing the 'low-value' work to make room for the 'high-value' human work that moves the needle."
+  },
+  {
+    "question": "The Mirror Effect",
+    "content": "AI is a mirror that reflects the data of humanity. If the AI is biased, it is because we are biased. If the AI is brilliant, it is because it was trained on our collective brilliance. Aligning AI is ultimately about deciding what kind of humans we want to be.",
+    "description": "When an AI gives a biased or offensive response, what does this tell us about Co-Intelligence?",
+    "options": [
+      "The machine is evil and has its own agenda.",
+      "The AI is accurately reflecting the flaws and biases present in human history and data.",
+      "The software needs to be deleted and rebuilt from scratch.",
+      "The AI is trying to start a conflict."
+    ],
+    "answer": "The AI is accurately reflecting the flaws and biases present in human history and data.",
+    "explanation": "AI doesn't invent bias; it extracts it from the vast amount of human text it was trained on. To 'fix' AI, we must be 'in the loop' to correct and guide it toward better values."
+  },
+  {
+    "question": "The 'Agency' of the Prompter",
+    "content": "The most important tool in Co-Intelligence isn't the algorithm—it's the prompt. Your 'agency' (your power to act) is expressed through how you direct the AI. You are the 'Senior Partner' who sets the goal, the tone, and the ethical boundaries.",
+    "description": "Who holds the moral responsibility if an AI-generated marketing campaign accidentally offends a community?",
+    "options": [
+      "The AI, which should be 'banned.'",
+      "The developers of the AI model.",
+      "The human prompter who failed to review and edit the output.",
+      "The community for being too sensitive."
+    ],
+    "answer": "The human prompter who failed to review and edit the output.",
+    "explanation": "You can delegate the *labor* of creation, but you can never delegate the *responsibility* for the outcome. You are always the human in the loop."
+  },
+  {
+    "question": "The Death of 'Traditional' Expertise",
+    "content": "In the past, an expert was someone who 'knew' things. In the future, an expert is someone who knows 'how to find out' and 'how to verify.' Expertise is shifting from a static library of facts to a dynamic skill of navigation.",
+    "description": "How should a young professional redefine their 'expertise' in an AI world?",
+    "options": [
+      "By memorizing as many facts as possible.",
+      "By becoming a master of 'synthesis'—combining AI data with human context.",
+      "By avoiding all AI tools to prove they are 'authentic.'",
+      "By learning to code every piece of software they use."
+    ],
+    "answer": "By becoming a master of 'synthesis'—combining AI data with human context.",
+    "explanation": "When information is free, the value lies in *connecting* that information to real-world problems and people."
+  },
+  {
+    "question": "The Post-Work Identity",
+    "content": "Mollick suggests that we may be moving toward a future where our identity is no longer defined by our 'to-do list.' If AI can do the list, we must find identity in our 'to-be list'—who we are, how we relate to others, and what we contribute to our communities.",
+    "description": "What is a major psychological challenge of the AI era mentioned in the conclusion?",
+    "options": [
+      "Finding purpose and meaning when machines can outperform us in many tasks.",
+      "Learning to type on new keyboards.",
+      "Remembering our passwords.",
+      "Staying awake during AI-generated movies."
+    ],
+    "answer": "Finding purpose and meaning when machines can outperform us in many tasks.",
+    "explanation": "As AI handles more 'intelligence' tasks, humans must ground their identity in things that aren't purely about 'utility' or 'productivity.'"
+  },
+  {
+    "question": "The Singularity vs. The Asymptote",
+    "content": "The book ends by looking at two extremes: AI continues growing until it surpasses human understanding (Singularity), or it hits a wall and stops getting better (Asymptote). Mollick suggests we must be ready for both, but the 'Co-Intelligent' path works in either scenario.",
+    "description": "Why is the 'Co-Intelligence' mindset useful even if AI growth slows down (the Asymptote)?",
+    "options": [
+      "Because you'll still be better at using the existing tools than those who ignored them.",
+      "Because the tools will eventually disappear.",
+      "Because AI will eventually become human anyway.",
+      "Because you won't need a job anymore."
+    ],
+    "answer": "Because you'll still be better at using the existing tools than those who ignored them.",
+    "explanation": "Even if AI plateaus, the advantage goes to those who have integrated it into their workflow most effectively."
+  },
+  {
+    "question": "The Final Rule: Be Human",
+    "content": "The ultimate lesson of *Co-Intelligence* is that the more we use AI, the more we realize what it means to be human. AI can simulate, but it cannot 'be.' It can predict, but it cannot 'care.' Our job is to use the machine to enhance our humanity, not to mimic the machine.",
+    "description": "According to the final pages of the book, what is the 'true' goal of working with AI?",
+    "options": [
+      "To become as efficient as a computer.",
+      "To let the machine do the human things so we don't have to.",
+      "To use AI as a tool for human flourishing and solving our greatest challenges.",
+      "To eventually merge our brains with the software."
+    ],
+    "answer": "To use AI as a tool for human flourishing and solving our greatest challenges.",
+    "explanation": "Mollick's vision is optimistic: AI is a partner that clears the path for humans to do what they do best—create, connect, and solve."
+  }
+]

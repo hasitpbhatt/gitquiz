@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Rule 1: Always Be Using AI",
+    "content": "The first rule of Co-Intelligence is to use AI for everything you do. Because the 'Jagged Frontier' is constantly moving, the only way to know what the AI is capable of *today* is to test it against every task. If you don't use it, you won't know when the frontier has shifted in your favor.",
+    "description": "A developer is hesitant to use AI for a new programming language because they heard it was buggy six months ago. Which principle are they ignoring?",
+    "options": [
+      "The 'Human in the Loop' rule.",
+      "The 'Always Be Using AI' rule.",
+      "The 'Treat it like a person' rule.",
+      "The 'Minimalist AI' approach."
+    ],
+    "answer": "The 'Always Be Using AI' rule.",
+    "explanation": "By not testing the AI currently, the developer is missing out on potential improvements. The rule encourages constant experimentation to discover new efficiencies as the technology evolves."
+  },
+  {
+    "question": "Rule 2: Be the Human in the Loop",
+    "content": "AI is a powerful engine, but it lacks a steering wheel. 'Be the Human in the Loop' means you must provide the direction, the quality control, and the final verification. You are responsible for the output, regardless of how much the AI contributed to it.",
+    "description": "An architect uses AI to generate structural designs. To follow Rule 2, what must they do before submitting the plans?",
+    "options": [
+      "Ask the AI if the plans are safe.",
+      "Trust the AI's math because it is faster than a human.",
+      "Personally verify the structural integrity and sign off on the safety of the design.",
+      "Submit the plans and let the city inspector find the errors."
+    ],
+    "answer": "Personally verify the structural integrity and sign off on the safety of the design.",
+    "explanation": "Being the 'Human in the Loop' means taking ultimate accountability. The human must check the AI's work for accuracy and ethical standards."
+  },
+  {
+    "question": "Rule 3: Treat it Like a Person (But Know it's a Machine)",
+    "content": "Surprisingly, AI performs better when you treat it like a person. Giving it a persona, providing feedback, and explaining context as if you were talking to an intern helps navigate its 'latent space.' However, you must maintain the 'machine' awareness to avoid over-trusting its 'feelings.'",
+    "description": "You tell an AI, 'Imagine you are a tough editor at a top newspaper. Critique my article harshly.' Why is this effective according to Rule 3?",
+    "options": [
+      "It activates the AI's internal ego.",
+      "It uses a persona to narrow the AI's focus and improve the quality of the critique.",
+      "It makes the AI work harder because it feels challenged.",
+      "It bypasses the AI's need for a software update."
+    ],
+    "answer": "It uses a persona to narrow the AI's focus and improve the quality of the critique.",
+    "explanation": "Treating AI as a 'social actor' (a person with a role) allows it to access specific patterns of language and logic that produce higher-quality results."
+  },
+  {
+    "question": "Rule 4: This is the Worst AI You Will Ever Use",
+    "content": "This rule reminds us of the exponential growth of AI. Any frustration you have today with a 'hallucination' or a logic error is likely a temporary problem. The technology is at its absolute floor, and it will only become more capable from this point forward.",
+    "description": "A teacher decides that AI is useless because it cannot grade creative essays perfectly yet. What perspective is this teacher missing?",
+    "options": [
+      "AI is not meant for education.",
+      "The teacher should write the essays themselves.",
+      "This is the worst version of the AI they will ever encounter; it will improve.",
+      "The AI is intentionally holding back its best features."
+    ],
+    "answer": "This is the worst version of the AI they will ever encounter; it will improve.",
+    "explanation": "Rule 4 encourages a forward-looking mindset. Current limitations are just 'bugs' in a system that is rapidly becoming more sophisticated."
+  },
+  {
+    "question": "The Danger of 'Checking Out'",
+    "content": "When we rely on AI, there is a risk of 'falling asleep at the wheel.' If the AI is 99% right, humans tend to stop paying attention, which makes the 1% error catastrophic. Co-Intelligence requires active engagement, not passive observation.",
+    "description": "A pilot uses an advanced AI flight system that works perfectly for hours. Suddenly, a rare sensor error occurs. Why is the pilot at high risk here?",
+    "options": [
+      "The AI is too fast for the pilot to understand.",
+      "The pilot may have 'checked out' due to the AI's high reliability, slowing their reaction time.",
+      "The AI is trying to trick the pilot.",
+      "The airplane is too old for the AI."
+    ],
+    "answer": "The pilot may have 'checked out' due to the AI's high reliability, slowing their reaction time.",
+    "explanation": "High reliability leads to human complacency. Co-Intelligence requires the human to stay 'active' even when the machine seems perfect."
+  },
+  {
+    "question": "Context and 'The Ask'",
+    "content": "In Rule 3, the quality of the 'Ask' (the prompt) determines the quality of the 'Answer.' Providing deep context, examples, and constraints is how you collaborate effectively. A vague prompt is like giving a vague instruction to a human intern.",
+    "description": "Compare two prompts: A) 'Write a speech.' B) 'Write a 5-minute graduation speech for high schoolers, focusing on resilience, in the style of Michelle Obama.' Why is B better?",
+    "options": [
+      "It uses more words, which makes the AI feel important.",
+      "It provides context and a specific persona to guide the AI's output.",
+      "It is easier for the AI to copy from the internet.",
+      "It requires less processing power."
+    ],
+    "answer": "It provides context and a specific persona to guide the AI's output.",
+    "explanation": "Specific context helps the AI navigate its training data to find the exact tone and structure required, rather than guessing randomly."
+  },
+  {
+    "question": "The 'Looming' Expertise Shift",
+    "content": "As AI handles more 'doing' (Rule 1), human expertise shifts toward 'delegating' and 'judging.' You no longer need to be the fastest writer, but you do need to be the best editor. Your value is found in your ability to direct the AI toward a meaningful goal.",
+    "description": "In a future workplace, who is more valuable: the person who can write code manually or the person who can use AI to build a functioning app and verify its security?",
+    "options": [
+      "The manual coder, because they don't need tools.",
+      "The AI-enabled builder, because they can leverage machine speed with human judgment.",
+      "Neither, because the AI will do everything alone.",
+      "The person who avoids technology entirely."
+    ],
+    "answer": "The AI-enabled builder, because they can leverage machine speed with human judgment.",
+    "explanation": "Co-Intelligence focuses on the 'multiplier effect.' The person who can direct and verify the machine's work becomes the new version of an expert."
+  },
+  {
+    "question": "Incentivizing Transparency",
+    "content": "If people are punished for using AI, they will use it in secret (Shadow AI). Rule 1 works best when organizations encourage people to share their AI workflows. Transparency allows everyone to learn where the 'Jagged Frontier' is located.",
+    "description": "A manager notices that a quiet employee is finishing tasks 3x faster than everyone else. What is the most 'Co-Intelligent' leadership move?",
+    "options": [
+      "Give the employee 3x more work to keep them busy.",
+      "Ask the employee to teach their AI techniques to the rest of the team.",
+      "Ban the use of AI to ensure 'fairness' across the team.",
+      "Ignore it as long as the work is good."
+    ],
+    "answer": "Ask the employee to teach their AI techniques to the rest of the team.",
+    "explanation": "Sharing AI strategies turns individual 'Shadow AI' into collective 'Co-Intelligence,' raising the floor for the entire organization."
+  },
+  {
+    "question": "The 'Human' in Human-in-the-Loop",
+    "content": "Being 'in the loop' doesn't just mean checking for errors. It also means adding the 'human touch'—empathy, personal experience, and social nuance—that AI cannot replicate. The goal is to make the final result *better* than what either could do alone.",
+    "description": "You use AI to write a condolence letter. It is grammatically perfect but feels cold. How do you fulfill your role as the 'Human in the Loop'?",
+    "options": [
+      "Ask the AI to make it '10% more emotional.'",
+      "Send it as is to save time.",
+      "Rewrite sections to include a specific shared memory you have with the recipient.",
+      "Ask a different AI to write it."
+    ],
+    "answer": "Rewrite sections to include a specific shared memory you have with the recipient.",
+    "explanation": "Adding personal, lived experience is a 'Human-in-the-Loop' action that provides the emotional depth the machine lacks."
+  },
+  {
+    "question": "Embracing the Weirdness",
+    "content": "Co-Intelligence requires us to accept that we are working with something 'weird.' AI doesn't have a brain, but it can 'think.' It's a machine, but it likes 'praise.' Embracing this paradox is necessary to unlock the full potential of the Four Rules.",
+    "description": "Why does Mollick suggest that being 'too logical' can actually hinder your success with AI?",
+    "options": [
+      "Because AI is broken and doesn't follow logic.",
+      "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",
+      "Because logic makes the AI's processor run too hot.",
+      "Because humans are naturally illogical."
+    ],
+    "answer": "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",
+    "explanation": "Treating AI like a simple 'calculator' ignores its social-actor capabilities. To get the most out of it, you must engage with its 'alien' and 'person-like' qualities simultaneously."
+  }
+]

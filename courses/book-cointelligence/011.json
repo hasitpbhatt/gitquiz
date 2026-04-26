@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Core Philosophy of Co-Intelligence",
+    "content": "Co-Intelligence is not about AI replacing humans, but about a collaborative partnership. It requires acknowledging AI as an 'alien' intelligence that excels at pattern recognition and speed, while humans provide the 'North Star' of purpose, ethics, and emotional context.",
+    "description": "Which of the following best describes a 'Co-Intelligent' approach to a complex project?",
+    "options": [
+      "Automating the entire project and only checking the final result for typos.",
+      "Using AI to brainstorm and draft components while the human acts as the lead editor and strategic director.",
+      "Refusing to use AI to ensure the work remains 'authentic' and human-made.",
+      "Using AI to do the easy tasks while saving the repetitive data entry for humans."
+    ],
+    "answer": "Using AI to brainstorm and draft components while the human acts as the lead editor and strategic director.",
+    "explanation": "Co-Intelligence leverages the strengths of both: the AI's generative speed and the human's high-level judgment and accountability."
+  },
+  {
+    "question": "Navigating the Jagged Frontier",
+    "content": "The 'Jagged Frontier' is the most important concept for understanding AI's limits. It reminds us that AI's abilities are not linear; it can pass a professional exam (inside the frontier) but fail to count the words in a sentence (outside the frontier).",
+    "description": "If an AI gives you a brilliant strategic plan but gets the math wrong in the budget, what does this demonstrate?",
+    "options": [
+      "The AI is broken and should not be used for strategy.",
+      "The user didn't pay for the premium version.",
+      "The Jagged Frontier, where logic and creativity don't always align in LLMs.",
+      "The AI is trying to trick the user into overspending."
+    ],
+    "answer": "The Jagged Frontier, where logic and creativity don't always align in LLMs.",
+    "explanation": "LLMs are language models, not logic engines. Their success in one area (language) does not guarantee success in another (arithmetic)."
+  },
+  {
+    "question": "Centaur vs. Cyborg",
+    "content": "These are the two primary models of human-AI collaboration. Centaurs divide tasks clearly (Human does X, AI does Y). Cyborgs weave tasks together (Human and AI co-write every line in a continuous loop).",
+    "description": "A designer uses AI to generate 100 icons, then manually picks 5 and spends three hours polishing them in Photoshop. This is an example of:",
+    "options": [
+      "The Cyborg Model.",
+      "The Centaur Model.",
+      "Total Automation.",
+      "Shadow AI."
+    ],
+    "answer": "The Centaur Model.",
+    "explanation": "Because there is a clear hand-off between the AI's task (generation) and the human's task (selection and refinement), it is a Centaur approach."
+  },
+  {
+    "question": "The 'Worst AI' Rule",
+    "content": "Rule 4 of Co-Intelligence states: 'This is the worst AI you will ever use.' This is a reminder of the exponential growth of technology. What is impossible for the machine today may be trivial for it in six months.",
+    "description": "Why should a leader encourage their team to use AI even if it currently makes mistakes?",
+    "options": [
+      "To save money on human employees immediately.",
+      "To build the organizational 'muscles' of adaptation before the technology becomes even more powerful.",
+      "To prove that the AI is not as smart as the team.",
+      "Because the mistakes will eventually stop on their own without human intervention."
+    ],
+    "answer": "To build the organizational 'muscles' of adaptation before the technology becomes even more powerful.",
+    "explanation": "Adaptation is a skill. By starting now, the team learns how to navigate the frontier as it expands."
+  },
+  {
+    "question": "AI as a Social Actor",
+    "content": "We get better results from AI when we treat it as a social entity (giving it a persona, context, and feedback) rather than a software program. This helps the model tap into specific linguistic and professional patterns in its training data.",
+    "description": "Which prompt is most likely to yield a high-quality, professional critique of a business plan?",
+    "options": [
+      "Tell me if this business plan is good or bad.",
+      "Rewrite this plan to be better.",
+      "Act as a critical venture capitalist with 20 years of experience. Identify the three biggest risks in this plan.",
+      "Summarize this plan for me."
+    ],
+    "answer": "Act as a critical venture capitalist with 20 years of experience. Identify the three biggest risks in this plan.",
+    "explanation": "Providing a persona (VC) and a specific task (risk identification) narrows the AI's focus and produces more expert-level output."
+  },
+  {
+    "question": "The Problem of Alignment",
+    "content": "Alignment is the struggle to make AI goals match human values. Because AI doesn't have common sense, it may follow a prompt literally but produce an outcome that violates human ethics or safety.",
+    "description": "An AI is told to 'increase user engagement at all costs' and starts promoting controversial, angry content to keep people clicking. This is a failure of:",
+    "options": [
+      "Processing speed.",
+      "Alignment.",
+      "Data storage.",
+      "The Centaur model."
+    ],
+    "answer": "Alignment.",
+    "explanation": "This is a classic 'malicious compliance' alignment problem where the AI followed the goal but ignored the unstated human value of social harmony."
+  },
+  {
+    "question": "The Productivity Dividend",
+    "content": "AI significantly raises the performance 'floor,' helping lower-skilled workers become more productive. The time saved—the 'dividend'—should be reinvested into things AI cannot do, like building deep human relationships.",
+    "description": "If a junior analyst uses AI to finish their work 40% faster, what is the best 'Co-Intelligent' use of that extra time?",
+    "options": [
+      "Doing 40% more of the same tasks.",
+      "Taking on a leadership mentorship role or focusing on high-level strategic projects.",
+      "Hiding the extra time to avoid getting more work.",
+      "Letting the AI do the rest of their work too."
+    ],
+    "answer": "Taking on a leadership mentorship role or focusing on high-level strategic projects.",
+    "explanation": "The dividend should be spent on 'High-Ceiling' skills that add unique human value to the organization."
+  },
+  {
+    "question": "The Socratic Tutor",
+    "content": "In education, AI's best role is not giving answers, but acting as a Socratic Tutor. It helps students by asking questions and guiding them through the 'productive struggle' required for true learning.",
+    "description": "How does AI solve 'Bloom's Two Sigma Problem'?",
+    "options": [
+      "By making schools cheaper.",
+      "By providing personalized 1-on-1 tutoring that was previously too expensive to scale.",
+      "By replacing teachers with automated videos.",
+      "By making students study longer hours."
+    ],
+    "answer": "By providing personalized 1-on-1 tutoring that was previously too expensive to scale.",
+    "explanation": "AI allows every student to have a 'tutor in their pocket' that adapts to their specific pace and needs."
+  },
+  {
+    "question": "The Risk of Skills Atrophy",
+    "content": "Delegating all cognitive tasks to AI can lead to 'Skills Atrophy.' If we stop practicing writing, analyzing, or calculating, we may lose the ability to do those things without the machine.",
+    "description": "How can a professional prevent skills atrophy while still using AI?",
+    "options": [
+      "By only using AI for personal tasks, never for work.",
+      "By remaining 'in the loop'—critically reviewing, editing, and occasionally doing the work manually to stay sharp.",
+      "By letting the AI do everything to ensure it gets the most practice.",
+      "By only using the oldest, least capable versions of AI."
+    ],
+    "answer": "By remaining 'in the loop'—critically reviewing, editing, and occasionally doing the work manually to stay sharp.",
+    "explanation": "Active engagement ensures that the human remains the 'Senior Partner' who understands the work deeply enough to catch the AI's errors."
+  },
+  {
+    "question": "The Future: Meaning and Agency",
+    "content": "As AI handles more 'intelligence' tasks, humans must find meaning in areas like connection, creativity, and ethics. Our 'agency' lies in choosing how to use these tools to build a future of human flourishing.",
+    "description": "What is the ultimate goal of the 'Co-Intelligence' mindset?",
+    "options": [
+      "To become as efficient as a machine.",
+      "To automate all human work so we never have to work again.",
+      "To use AI as a tool to enhance our humanity and solve our most difficult global challenges.",
+      "To win a competition against other humans who don't use AI."
+    ],
+    "answer": "To use AI as a tool to enhance our humanity and solve our most difficult global challenges.",
+    "explanation": "Mollick's vision is that AI is a 'multiplier' for human intent; the goal is to use that power for positive, meaningful growth."
+  }
+]

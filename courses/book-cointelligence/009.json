@@ -1,0 +1,133 @@
+[
+  {
+    "question": "The Future of Co-Intelligence",
+    "content": "In the final chapter, Mollick shifts from practical advice to speculative foresight. He argues that we are currently in the 'Great Disruption,' where the relationship between human and machine is being permanently redefined. The future isn't about AI replacing humans, but about how humanity evolves in a world where intelligence is no longer exclusively biological.",
+    "description": "Mollick suggests that the 'Great Disruption' is different from previous industrial revolutions. What is the primary reason for this?",
+    "options": [
+      "It only affects physical labor, not cognitive work.",
+      "It is happening at a speed that outpaces our social and legal ability to adapt.",
+      "The technology is becoming more expensive and less accessible.",
+      "It requires a complete return to manual, paper-based systems."
+    ],
+    "answer": "It is happening at a speed that outpaces our social and legal ability to adapt.",
+    "explanation": "Unlike previous shifts that took decades or centuries, the AI revolution is moving exponentially, creating a gap between technological capability and our societal frameworks for managing it."
+  },
+  {
+    "question": "The 'Worst AI' Revisited",
+    "content": "Chapter 9 brings back the rule: 'This is the worst AI you will ever use.' As we look forward, the 'Jagged Frontier' is rapidly smoothing out. Problems that seem impossible for AI today—like long-term memory, perfect logic, or physical robotics—are likely to be solved in the near future.",
+    "description": "If current AI models are the 'worst' we will ever use, what does this imply for long-term career planning?",
+    "options": [
+      "We should stop learning new skills entirely.",
+      "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
+      "We should wait for the technology to finish evolving before we start using it.",
+      "We should only learn skills that are currently 'outside' the jagged frontier."
+    ],
+    "answer": "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
+    "explanation": "Since the machine's technical and analytical skills are improving rapidly, human value will increasingly be found in areas where AI struggles: true empathy, moral accountability, and high-level strategy."
+  },
+  {
+    "question": "The Four Scenarios for the Future",
+    "content": "Mollick outlines four possible futures: 1. Asymptote (AI stops getting better), 2. Slow Growth, 3. Exponential Growth, and 4. The Singularity (AI becomes god-like). Understanding these scenarios helps individuals and leaders prepare for different levels of disruption.",
+    "description": "In the 'Asymptote' scenario, what would be the defining characteristic of the AI market?",
+    "options": [
+      "AI becomes so powerful it takes over the government.",
+      "AI development hits a physical or data limit and plateaus at current levels.",
+      "AI begins to decline and humans return to traditional tools.",
+      "AI only works for large corporations and is banned for individuals."
+    ],
+    "answer": "AI development hits a physical or data limit and plateaus at current levels.",
+    "explanation": "The 'Asymptote' scenario assumes that we have reached the limits of what data and computing power can achieve, meaning AI will remain a helpful tool but won't fundamentally transform existence further."
+  },
+  {
+    "question": "The Meaning of Work",
+    "content": "As AI takes over the 'drudge work' and even high-level analytical work, humanity faces a crisis of meaning. If our identity is tied to being 'productive' or 'smart,' and a machine is more productive and smarter, we must find new ways to define our value and purpose.",
+    "description": "According to the themes of Chapter 9, what might become the new 'status symbol' in a post-AI world?",
+    "options": [
+      "The ability to perform complex math without a calculator.",
+      "Ownership of the most expensive AI software.",
+      "Authentic human connection, handmade goods, and lived experiences.",
+      "The speed at which one can type prompts."
+    ],
+    "answer": "Authentic human connection, handmade goods, and lived experiences.",
+    "explanation": "When 'intelligence' and 'content' become commodities (cheap and abundant), the things that cannot be mass-produced by AI—human presence and physical craftsmanship—become more valuable."
+  },
+  {
+    "question": "The Alignment of Humanity",
+    "content": "The final chapter argues that the 'Alignment Problem' isn't just about making AI follow human rules; it's about humans deciding what our rules actually are. AI acts as a mirror, showing us our biases, our flaws, and our potential. To align AI, we must first align ourselves.",
+    "description": "Why does Mollick suggest that AI is a 'mirror' for humanity?",
+    "options": [
+      "Because the screens are reflective.",
+      "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
+      "Because AI only answers questions it has been asked before.",
+      "Because AI tries to look like the person using it."
+    ],
+    "answer": "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
+    "explanation": "AI is built on the sum of human knowledge and internet text. Its biases are our biases; its brilliance is our brilliance. Aligning it requires us to confront our own data."
+  },
+  {
+    "question": "The New Social Contract",
+    "content": "With the rise of Co-Intelligence, the 'social contract' between employers and employees is changing. If a worker uses AI to do their job in 1/10th of the time, who owns that extra time? Mollick explores the need for new economic models like Universal Basic Income or shorter work weeks.",
+    "description": "An employee uses AI to automate their entire job. In a 'Co-Intelligent' future, what is the most ethical outcome according to the book's vision?",
+    "options": [
+      "The employee is fired immediately for being redundant.",
+      "The employer takes all the profit and gives the employee more work.",
+      "A shared benefit where the employee works less and the company remains productive.",
+      "The employee keeps it a secret forever (Shadow AI)."
+    ],
+    "answer": "A shared benefit where the employee works less and the company remains productive.",
+    "explanation": "Mollick advocates for transparency and sharing the 'productivity dividend.' The goal is a future where AI reduces human toil rather than just increasing corporate quotas."
+  },
+  {
+    "question": "The Responsibility of the 'Human in the Loop'",
+    "content": "Even in the most advanced future scenarios, the 'Human in the Loop' remains the moral anchor. We cannot delegate our values or our responsibility for the world's direction to an algorithm. Co-Intelligence is a partnership where humans remain the senior partner in terms of 'purpose.'",
+    "description": "If an AI suggests a highly profitable business move that will destroy a local ecosystem, what is the role of the 'Human in the Loop'?",
+    "options": [
+      "To follow the AI because it knows how to maximize profit.",
+      "To ignore the AI because it doesn't understand money.",
+      "To apply human ethical judgment and reject the move, prioritizing the ecosystem.",
+      "To ask the AI for a second opinion."
+    ],
+    "answer": "To apply human ethical judgment and reject the move, prioritizing the ecosystem.",
+    "explanation": "AI optimizes for the goals it is given (like profit). The human must provide the ethical constraints that prevent the 'alien' intelligence from causing collateral damage."
+  },
+  {
+    "question": "AI and the End of the 'Expert'",
+    "content": "The chapter discusses how 'traditional expertise' (knowing things) is dying, replaced by 'adaptive expertise' (learning things). The future belongs not to those who 'know' the most, but to those who can best collaborate with AI to solve novel problems.",
+    "description": "How should a student today prepare for a job market that will exist in ten years?",
+    "options": [
+      "Focus on memorizing a single technical skill perfectly.",
+      "Learn how to learn, how to prompt, and how to pivot across different domains.",
+      "Avoid all technology to remain 'pure.'",
+      "Only study the history of AI."
+    ],
+    "answer": "Learn how to learn, how to prompt, and how to pivot across different domains.",
+    "explanation": "In an exponential world, specific technical knowledge becomes obsolete quickly. The ability to 'pivot' and use AI to acquire new skills is the ultimate survival trait."
+  },
+  {
+    "question": "The 'Agency' of the Individual",
+    "content": "Mollick concludes by empowering the reader. AI is not a storm that just happens to us; it is a tool we are currently shaping. Every prompt we write and every way we choose to use (or not use) AI is a vote for the kind of future we want to build.",
+    "description": "What is the core message regarding 'agency' in the final chapter?",
+    "options": [
+      "Humans have no control over the future of AI.",
+      "We must wait for the government to tell us how to use AI.",
+ incentive.",
+      "Individuals have the power to shape the AI revolution through their daily choices and ethical standards.",
+      "AI has more agency than humans already."
+    ],
+    "answer": "Individuals have the power to shape the AI revolution through their daily choices and ethical standards.",
+    "explanation": "Co-Intelligence is a choice. We have the agency to decide if we use AI to automate humanity out of existence or to augment human potential to new heights."
+  },
+  {
+    "question": "Final Vision: Flourishing with AI",
+    "content": "The ultimate goal of Co-Intelligence is human flourishing. Mollick's final vision is one where AI handles the mundane, the dangerous, and the repetitive, freeing humans to engage in 'deep' work, play, creativity, and connection.",
+    "description": "In the best-case scenario for the future, AI's primary role is to:",
+    "options": [
+      "Become our masters and provide us with instructions.",
+      "Act as an invisible infrastructure that supports human creativity and well-being.",
+      "Replace all human interaction with digital simulations.",
+      "Limit human population growth to save the planet."
+    ],
+    "answer": "Act as an invisible infrastructure that supports human creativity and well-being.",
+    "explanation": "The 'flourishing' vision sees AI as a supportive layer that allows humans to spend more time on the things that make life worth living: relationships, art, and complex problem-solving."
+  }
+]
