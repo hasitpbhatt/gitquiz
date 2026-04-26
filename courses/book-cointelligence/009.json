@@ -1,132 +1,132 @@
 [
   {
-    "question": "The Illusion of the Broken System (001.json)",
-    "content": "A core tenet of adaptive leadership is that systems are never actually 'broken.' Instead, every organization is perfectly aligned to achieve the results it currently gets. If a system appears dysfunctional, it is likely because that 'dysfunction' is actually protecting a hidden interest or maintaining a comfortable status quo for certain stakeholders.",
-    "description": "Your company's cross-departmental communication is failing despite several training sessions. Based on the 'broken system' theory, what is the most likely reality?",
+    "question": "The Future of Co-Intelligence",
+    "content": "In the final chapter, Mollick shifts from practical advice to speculative foresight. He argues that we are currently in the 'Great Disruption,' where the relationship between human and machine is being permanently redefined. The future isn't about AI replacing humans, but about how humanity evolves in a world where intelligence is no longer exclusively biological.",
+    "description": "Mollick suggests that the 'Great Disruption' is different from previous industrial revolutions. What is the primary reason for this?",
     "options": [
-      "The employees are inherently resistant to technology.",
-      "The leadership team simply hasn't found the right software yet.",
-      "The current siloed structure is serving a specific, hidden purpose for some leaders.",
-      "The system is naturally decaying and requires a total replacement."
+      "It only affects physical labor, not cognitive work.",
+      "It is happening at a speed that outpaces our social and legal ability to adapt.",
+      "The technology is becoming more expensive and less accessible.",
+      "It requires a complete return to manual, paper-based systems."
     ],
-    "answer": "The current siloed structure is serving a specific, hidden purpose for some leaders.",
-    "explanation": "Systems are designed for their current output. Silos often persist because they provide individuals with a sense of local control or protect them from broader accountability."
+    "answer": "It is happening at a speed that outpaces our social and legal ability to adapt.",
+    "explanation": "Unlike previous shifts that took decades or centuries, the AI revolution is moving exponentially, creating a gap between technological capability and our societal frameworks for managing it."
   },
   {
-    "question": "Technical vs. Adaptive Challenges (001.json)",
-    "content": "Technical problems have known solutions that can be solved by experts or authorities (e.g., repairing a server). Adaptive challenges require people to change their habits, values, or priorities because the solution isn't found in a manual—it must be 'grown' by the people involved.",
-    "description": "Sales are dropping because a new competitor entered the market. You decide to buy a more expensive CRM software to track leads. How would you categorize this specific response?",
+    "question": "The 'Worst AI' Revisited",
+    "content": "Chapter 9 brings back the rule: 'This is the worst AI you will ever use.' As we look forward, the 'Jagged Frontier' is rapidly smoothing out. Problems that seem impossible for AI today—like long-term memory, perfect logic, or physical robotics—are likely to be solved in the near future.",
+    "description": "If current AI models are the 'worst' we will ever use, what does this imply for long-term career planning?",
     "options": [
-      "Technical, because it applies a tool to a problem that may actually require a shift in strategy or culture.",
-      "Adaptive, because it requires learning new software.",
-      "Technical, because the software is highly complex and requires an IT expert to install.",
-      "Adaptive, because it involves a financial investment from the whole company."
+      "We should stop learning new skills entirely.",
+      "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
+      "We should wait for the technology to finish evolving before we start using it.",
+      "We should only learn skills that are currently 'outside' the jagged frontier."
     ],
-    "answer": "Technical, because it applies a tool to a problem that may actually require a shift in strategy or culture.",
-    "explanation": "Software is a technical fix. While helpful, it doesn't solve the 'adaptive' need for the sales team to rethink their value proposition or their approach to customer relationships."
+    "answer": "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
+    "explanation": "Since the machine's technical and analytical skills are improving rapidly, human value will increasingly be found in areas where AI struggles: true empathy, moral accountability, and high-level strategy."
   },
   {
-    "question": "Conserving vs. Discarding (001.json)",
-    "content": "Adaptation in organizations is like biological evolution: it is about 'conserving' the essential DNA that works while 'discarding' the habits and structures that are no longer useful. The goal is to evolve, not to destroy everything that came before.",
-    "description": "During a major restructure, employees are anxious about losing the 'family feel' of the startup. As a leader, what is the best way to manage this change?",
+    "question": "The Four Scenarios for the Future",
+    "content": "Mollick outlines four possible futures: 1. Asymptote (AI stops getting better), 2. Slow Growth, 3. Exponential Growth, and 4. The Singularity (AI becomes god-like). Understanding these scenarios helps individuals and leaders prepare for different levels of disruption.",
+    "description": "In the 'Asymptote' scenario, what would be the defining characteristic of the AI market?",
     "options": [
-      "Focus entirely on the future and tell employees that the past no longer matters.",
-      "Clearly define which core values must be kept and which specific old habits must be let go.",
-      "Guarantee that absolutely nothing about the culture will change to keep everyone happy.",
-      "Implement a new set of values immediately to replace the old ones."
+      "AI becomes so powerful it takes over the government.",
+      "AI development hits a physical or data limit and plateaus at current levels.",
+      "AI begins to decline and humans return to traditional tools.",
+      "AI only works for large corporations and is banned for individuals."
     ],
-    "answer": "Clearly define which core values must be kept and which specific old habits must be let go.",
-    "explanation": "Adaptation is selective. By clarifying what will be 'conserved,' you reduce the fear of loss and make the 'discarding' of outdated practices more palatable."
+    "answer": "AI development hits a physical or data limit and plateaus at current levels.",
+    "explanation": "The 'Asymptote' scenario assumes that we have reached the limits of what data and computing power can achieve, meaning AI will remain a helpful tool but won't fundamentally transform existence further."
   },
   {
-    "question": "Leadership vs. Authority (001.json)",
-    "content": "Authority is a role (given by a boss or voters) to provide protection, order, and direction. Leadership is an 'activity' that involves disturbing people at a rate they can absorb. You don't need a title to lead; you only need to mobilize people to face a difficult reality.",
-    "description": "You are an entry-level analyst who notices a major data discrepancy that everyone else is ignoring. You decide to gather a small group to investigate. What are you doing?",
+    "question": "The Meaning of Work",
+    "content": "As AI takes over the 'drudge work' and even high-level analytical work, humanity faces a crisis of meaning. If our identity is tied to being 'productive' or 'smart,' and a machine is more productive and smarter, we must find new ways to define our value and purpose.",
+    "description": "According to the themes of Chapter 9, what might become the new 'status symbol' in a post-AI world?",
     "options": [
-      "Exercising authority because you are taking charge.",
-      "Exercising leadership because you are mobilizing others to address a challenge.",
-      "Being insubordinate by stepping outside your role.",
-      "Performing project management by organizing a team."
+      "The ability to perform complex math without a calculator.",
+      "Ownership of the most expensive AI software.",
+      "Authentic human connection, handmade goods, and lived experiences.",
+      "The speed at which one can type prompts."
     ],
-    "answer": "Exercising leadership because you are mobilizing others to address a challenge.",
-    "explanation": "Leadership is an action, not a title. Moving a group to tackle a difficult truth—regardless of your rank—is the essence of adaptive leadership."
+    "answer": "Authentic human connection, handmade goods, and lived experiences.",
+    "explanation": "When 'intelligence' and 'content' become commodities (cheap and abundant), the things that cannot be mass-produced by AI—human presence and physical craftsmanship—become more valuable."
   },
   {
-    "question": "On the Balcony vs. On the Dance Floor (001.json)",
-    "content": "Effective leaders must move between the 'dance floor' (the action/interaction) and the 'balcony' (the high-level observation). The balcony allows you to see patterns, power dynamics, and the 'vibe' of the system that you can't see while you're busy dancing.",
-    "description": "In a tense negotiation, you notice that every time you mention 'budget,' your counterpart crosses their arms and looks away. Realizing this pattern is an example of:",
+    "question": "The Alignment of Humanity",
+    "content": "The final chapter argues that the 'Alignment Problem' isn't just about making AI follow human rules; it's about humans deciding what our rules actually are. AI acts as a mirror, showing us our biases, our flaws, and our potential. To align AI, we must first align ourselves.",
+    "description": "Why does Mollick suggest that AI is a 'mirror' for humanity?",
     "options": [
-      "Being on the dance floor.",
-      "Micro-management.",
-      "Technical observation.",
-      "Getting on the balcony."
+      "Because the screens are reflective.",
+      "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
+      "Because AI only answers questions it has been asked before.",
+      "Because AI tries to look like the person using it."
     ],
-    "answer": "Getting on the balcony.",
-    "explanation": "Identifying patterns of behavior in real-time is the purpose of the balcony. It allows you to step back from the 'action' to see the underlying dynamics."
+    "answer": "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
+    "explanation": "AI is built on the sum of human knowledge and internet text. Its biases are our biases; its brilliance is our brilliance. Aligning it requires us to confront our own data."
   },
   {
-    "question": "The Productive Zone of Disequilibrium (001.json)",
-    "content": "For change to happen, there must be enough 'heat' or tension to motivate people, but not so much that they panic. This is the 'Productive Zone.' A leader’s job is to regulate this heat—keeping it high enough for work but low enough for safety.",
-    "description": "Your team is becoming complacent. You want to introduce a difficult new target. How do you keep them in the Productive Zone?",
+    "question": "The New Social Contract",
+    "content": "With the rise of Co-Intelligence, the 'social contract' between employers and employees is changing. If a worker uses AI to do their job in 1/10th of the time, who owns that extra time? Mollick explores the need for new economic models like Universal Basic Income or shorter work weeks.",
+    "description": "An employee uses AI to automate their entire job. In a 'Co-Intelligent' future, what is the most ethical outcome according to the book's vision?",
     "options": [
-      "Introduce the challenge but provide a strong 'holding environment' of support.",
-      "Set an extreme deadline that causes high stress to force innovation.",
-      "Lower the target until everyone feels 100% comfortable.",
-      "Avoid the challenge until the team asks for it themselves."
+      "The employee is fired immediately for being redundant.",
+      "The employer takes all the profit and gives the employee more work.",
+      "A shared benefit where the employee works less and the company remains productive.",
+      "The employee keeps it a secret forever (Shadow AI)."
     ],
-    "answer": "Introduce the challenge but provide a strong 'holding environment' of support.",
-    "explanation": "You must increase the 'heat' (the challenge) while simultaneously providing a 'holding environment' (support and safety) so the team doesn't boil over into panic."
+    "answer": "A shared benefit where the employee works less and the company remains productive.",
+    "explanation": "Mollick advocates for transparency and sharing the 'productivity dividend.' The goal is a future where AI reduces human toil rather than just increasing corporate quotas."
   },
   {
-    "question": "Loss as the Root of Resistance (001.json)",
-    "content": "People don't actually resist change; they resist 'loss.' This might be a loss of status, a loss of competence, or a loss of a long-standing relationship. If you don't address what people are afraid of losing, you can't lead them through adaptation.",
-    "description": "A long-term employee is fighting the move to a digital filing system. They argue the paper system is 'safer.' What is likely the real issue?",
+    "question": "The Responsibility of the 'Human in the Loop'",
+    "content": "Even in the most advanced future scenarios, the 'Human in the Loop' remains the moral anchor. We cannot delegate our values or our responsibility for the world's direction to an algorithm. Co-Intelligence is a partnership where humans remain the senior partner in terms of 'purpose.'",
+    "description": "If an AI suggests a highly profitable business move that will destroy a local ecosystem, what is the role of the 'Human in the Loop'?",
     "options": [
-      "They are lazy and don't want to scan documents.",
-      "They want to sabotage the company's progress.",
-      "They fear a loss of their 'expert' status associated with knowing the old system.",
-      "They are technically incapable of learning a computer."
+      "To follow the AI because it knows how to maximize profit.",
+      "To ignore the AI because it doesn't understand money.",
+      "To apply human ethical judgment and reject the move, prioritizing the ecosystem.",
+      "To ask the AI for a second opinion."
     ],
-    "answer": "They fear a loss of their 'expert' status associated with knowing the old system.",
-    "explanation": "Resistance is often a symptom of feared loss. In this case, the employee likely values the status and certainty their current knowledge provides."
+    "answer": "To apply human ethical judgment and reject the move, prioritizing the ecosystem.",
+    "explanation": "AI optimizes for the goals it is given (like profit). The human must provide the ethical constraints that prevent the 'alien' intelligence from causing collateral damage."
   },
   {
-    "question": "Giving the Work Back (001.json)",
-    "content": "In a crisis, people look to an authority figure for answers. However, for adaptive challenges, the leader must 'give the work back' to the people. This means refusing to provide a quick fix and instead making stakeholders take responsibility for the tough choices.",
-    "description": "Two of your managers are arguing over resources and want you to decide who gets what. What is an adaptive leadership response?",
+    "question": "AI and the End of the 'Expert'",
+    "content": "The chapter discusses how 'traditional expertise' (knowing things) is dying, replaced by 'adaptive expertise' (learning things). The future belongs not to those who 'know' the most, but to those who can best collaborate with AI to solve novel problems.",
+    "description": "How should a student today prepare for a job market that will exist in ten years?",
     "options": [
-      "Divide the resources exactly in half to be fair.",
-      "Tell them they must negotiate a shared solution that meets both their needs.",
-      "Make the decision yourself based on the company's strategic goals.",
-      "Give the resources to the manager who has been at the company longest."
+      "Focus on memorizing a single technical skill perfectly.",
+      "Learn how to learn, how to prompt, and how to pivot across different domains.",
+      "Avoid all technology to remain 'pure.'",
+      "Only study the history of AI."
     ],
-    "answer": "Tell them they must negotiate a shared solution that meets both their needs.",
-    "explanation": "By refusing to solve the problem for them, you are giving the 'work' (the negotiation and trade-offs) back to the people who own the problem."
+    "answer": "Learn how to learn, how to prompt, and how to pivot across different domains.",
+    "explanation": "In an exponential world, specific technical knowledge becomes obsolete quickly. The ability to 'pivot' and use AI to acquire new skills is the ultimate survival trait."
   },
   {
-    "question": "The Experimental Mindset (001.json)",
-    "content": "Since adaptive challenges are new and complex, there are no 'correct' answers. Therefore, every intervention should be seen as an experiment. This encourages a culture of learning and allows for small failures that lead to eventual success.",
-    "description": "You want to trial a 4-day work week. Instead of changing the whole company, you let one small team try it for a month. Why is this adaptive?",
+    "question": "The 'Agency' of the Individual",
+    "content": "Mollick concludes by empowering the reader. AI is not a storm that just happens to us; it is a tool we are currently shaping. Every prompt we write and every way we choose to use (or not use) AI is a vote for the kind of future we want to build.",
+    "description": "What is the core message regarding 'agency' in the final chapter?",
     "options": [
-      "It avoids having to ask for permission from the CEO.",
-      "It minimizes the cost of the project in case it fails.",
-      "It allows you to test a hypothesis and gather data before scaling.",
-      "It creates competition between teams."
+      "Humans have no control over the future of AI.",
+      "We must wait for the government to tell us how to use AI.",
+      "Individuals have the power to shape the AI revolution through their daily choices and ethical standards.",
+      "AI has more agency than humans already."
     ],
-    "answer": "It allows you to test a hypothesis and gather data before scaling.",
-    "explanation": "Experiments are the primary tool for adaptive work. They provide the evidence needed to navigate challenges where the path forward is unclear."
+    "answer": "Individuals have the power to shape the AI revolution through their daily choices and ethical standards.",
+    "explanation": "Co-Intelligence is a choice. We have the agency to decide if we use AI to automate humanity out of existence or to augment human potential to new heights."
   },
   {
-    "question": "Protecting Voices from the Margin (001.json)",
-    "content": "Valuable insights often come from 'the margin'—people who aren't part of the core power structure. These individuals often see the reality of the situation more clearly because they aren't as invested in protecting the current system.",
-    "description": "During a high-level strategy meeting, a new junior designer suggests that the company's visual brand is outdated. The executives dismiss the comment. As a leader, you should:",
+    "question": "Final Vision: Flourishing with AI",
+    "content": "The ultimate goal of Co-Intelligence is human flourishing. Mollick's final vision is one where AI handles the mundane, the dangerous, and the repetitive, freeing humans to engage in 'deep' work, play, creativity, and connection.",
+    "description": "In the best-case scenario for the future, AI's primary role is to:",
     "options": [
-      "Ask the designer to elaborate on why they think that, protecting their voice.",
-      "Agree with the executives to maintain the flow of the meeting.",
-      "Talk to the designer in private later to avoid undermining the VPs.",
-      "Remind the designer to wait until the Q&A session at the end."
+      "Become our masters and provide us with instructions.",
+      "Act as an invisible infrastructure that supports human creativity and well-being.",
+      "Replace all human interaction with digital simulations.",
+      "Limit human population growth to save the planet."
     ],
-    "answer": "Ask the designer to elaborate on why they think that, protecting their voice.",
-    "explanation": "Protecting 'voices from the margin' is critical because these voices often carry the 'uncomfortable truths' that the organization needs to hear to adapt."
+    "answer": "Act as an invisible infrastructure that supports human creativity and well-being.",
+    "explanation": "The 'flourishing' vision sees AI as a supportive layer that allows humans to spend more time on the things that make life worth living: relationships, art, and complex problem-solving."
   }
 ]
