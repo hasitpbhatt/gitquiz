@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Secret to Self-Control",
+    "content": "The concept of 'disciplined' people is often a myth. Research shows that people with high self-control actually spend less time in tempting situations; they don't resist temptation, they avoid it. Once a habit is encoded in the brain, the urge to act follows the cue automatically, making it nearly impossible to 'unlearn' through willpower alone.",
+    "description": "You are trying to focus on a deep work project but keep getting distracted by your phone. Based on the findings in Chapter 7, what is the most effective way to maintain focus?",
+    "options": [
+      "Keep the phone on your desk but practice resisting the urge to touch it.",
+      "Leave the phone in a different room so you cannot see or hear the cues.",
+      "Set a timer and reward yourself with 5 minutes of phone time every hour.",
+      "Tell yourself that you are a disciplined person who doesn't need a phone."
+    ],
+    "answer": "Leave the phone in a different room so you cannot see or hear the cues.",
+    "explanation": "You can break a habit, but you're unlikely to forget it. By making the cue 'invisible' (removing the phone), you bypass the need for willpower entirely, which is a much more reliable strategy for success."
+  },
+  {
+    "question": "Cue-Induced Wanting",
+    "content": "Our brains are designed to notice and react to cues in our environment. 'Cue-induced wanting' is a phenomenon where an external trigger causes a powerful surge of desire to repeat a past behavior. This is why a smoker might feel a craving just by seeing a friend light up, even if they weren't thinking about it before.",
+    "description": "If someone is trying to save money but finds themselves buying clothes whenever they see a 'Limited Time Sale' email, what is happening psychologically?",
+    "options": [
+      "They are experiencing a lack of moral character.",
+      "The email is acting as a cue that triggers an automatic craving to spend.",
+      "They are making a logical decision based on financial savings.",
+      "Their brain has forgotten how to calculate a budget."
+    ],
+    "answer": "The email is acting as a cue that triggers an automatic craving to spend.",
+    "explanation": "The 'wanting' is induced by the cue (the email). The easiest way to stop the behavior is to unsubscribe, thereby removing the cue-induced wanting at the source."
+  },
+  {
+    "question": "The Persistence of Habitual Cues",
+    "content": "Habits are permanently etched into the pathways of your brain. Even if you haven't performed a habit for years, the neural circuit remains. If the original cue reappears, the habit can be re-triggered almost instantly.",
+    "description": "Why is it so difficult to 'just say no' to a bad habit once the cue is present?",
+    "options": [
+      "Because saying 'no' actually makes the habit stronger in the long run.",
+      "Because the brain's habit circuitry is faster than the conscious 'refusal' circuitry.",
+      "Because bad habits provide more energy than good habits.",
+      "Because the human brain is incapable of learning new things after childhood."
+    ],
+    "answer": "Because the brain's habit circuitry is faster than the conscious 'refusal' circuitry.",
+    "explanation": "Cues trigger cravings subconsciously. By the time you are 'resisting' the habit, it has already been activated in your brain. This is why 'making it invisible' is superior to 'making it difficult to resist.'"
+  },
+  {
+    "question": "The Short-Term Nature of Willpower",
+    "content": "Willpower is like a battery; it can be used for a short burst to get through a difficult moment, but it eventually runs out. Relying on willpower to fix your life is a recipe for exhaustion. True behavior change comes from changing the environment so you don't have to use willpower at all.",
+    "description": "A student decides to study in the middle of a noisy cafeteria while their friends are talking. Why is this a poor strategy according to James Clear?",
+    "options": [
+      "Because the student will likely run out of 'willpower' to ignore the conversation.",
+      "Because cafeterias have poor lighting for reading.",
+      "Because studying should only be done in total silence.",
+      "Because friends are always a negative influence on grades."
+    ],
+    "answer": "Because the student will likely run out of 'willpower' to ignore the conversation.",
+    "explanation": "The student is forcing themselves to use willpower to block out cues. Eventually, the mental energy required to resist the distraction will deplete, and the habit of joining the conversation will win."
+  },
+  {
+    "question": "Self-Control as a Preventative Measure",
+    "content": "In the short term, you can choose to overpower temptation. In the long term, however, we become a product of the environment we live in. Those who appear to have the most self-control are actually the ones who have to use it the least.",
+    "description": "Which of these people is using the most effective form of 'self-control'?",
+    "options": [
+      "A person who keeps cookies on the counter but promises not to eat them.",
+      "A person who carries a pack of cigarettes but vows not to smoke.",
+      "A person who does not buy cookies at the store so they aren't in the house.",
+      "A person who watches TV and tries to ignore the snacks in front of them."
+    ],
+    "answer": "A person who does not buy cookies at the store so they aren't in the house.",
+    "explanation": "By controlling the environment (not buying the cookies), the person avoids the battle of willpower entirely. This is the hallmark of 'disciplined' behavior: proactive environment design."
+  },
+  {
+    "question": "The Inversion of the 1st Law",
+    "content": "The 1st Law of Behavior Change is to 'Make it Obvious.' The inversion for breaking a bad habit is to 'Make it Invisible.' This is the most practical way to eliminate a habit because it stops the loop before it even begins.",
+    "description": "If you want to stop staying up late watching television, which action best follows the 'Make it Invisible' rule?",
+    "options": [
+      "Unplugging the TV and putting it in a closet after each use.",
+      "Buying a smaller TV so it is less enjoyable to watch.",
+      "Putting a sign on the TV that says 'Go to Sleep!'",
+      "Setting an alarm that tells you when to turn the TV off."
+    ],
+    "answer": "Unplugging the TV and putting it in a closet after each use.",
+    "explanation": "While it seems extreme, hiding the TV removes the visual cue. If you don't see the TV, you aren't triggered to think about what's on, effectively 'deleting' the cue from your immediate environment."
+  },
+  {
+    "question": "Why Environment Beats Motivation",
+    "content": "Motivation is fickle; it comes and goes. Environment is constant. If you rely on feeling 'motivated' to do the right thing, you will fail when you are tired or stressed. If you design your environment correctly, the right thing happens by default.",
+    "description": "You want to stop drinking soda. You decide to stop buying it and instead fill your fridge with sparkling water. Why is this better than just 'wanting' to be healthier?",
+    "options": [
+      "Because sparkling water is cheaper than soda.",
+      "Because the environment now makes the 'good' habit the only obvious choice.",
+      "Because wanting something isn't a real emotion.",
+      "Because soda is only addictive if you think it is."
+    ],
+    "answer": "Because the environment now makes the 'good' habit the only obvious choice.",
+    "explanation": "When you are thirsty and open the fridge, you will grab what is there. By removing the soda (making it invisible) and adding water (making it obvious), you've aligned your environment with your goals."
+  },
+  {
+    "question": "Breaking the Connection",
+    "content": "A habit is a response to a specific cue. To break a habit, you must break the connection between the cue and the response. The most reliable way to do this is to ensure you never encounter the cue in the first place.",
+    "description": "If you always eat junk food while sitting in a specific 'snack chair,' how could you use context to break the habit?",
+    "options": [
+      "Try to eat healthy food while sitting in the snack chair.",
+      "Only sit in the snack chair when you have a guest over.",
+      "Avoid sitting in that chair altogether for a few weeks to break the association.",
+      "Buy a new cushion for the chair so it feels different."
+    ],
+    "answer": "Avoid sitting in that chair altogether for a few weeks to break the association.",
+    "explanation": "The chair has become a cue for snacking. By removing yourself from that context, you prevent the 'snack' neural pathway from being triggered, allowing the association to weaken over time."
+  },
+  {
+    "question": "The Myth of the 'Strong' Person",
+    "content": "We often praise people for their 'iron will,' but this is a misunderstanding of how habits work. No one has a perfect will. Instead, successful people are experts at avoiding the situations that require them to use their will at all.",
+    "description": "James Clear argues that 'self-control' is a...?",
+    "options": [
+      "Short-term strategy, not a long-term one.",
+      "Skill that everyone is born with in equal amounts.",
+      "Muscle that gets stronger the more you are tempted.",
+      "Myth that doesn't actually exist in the human brain."
+    ],
+    "answer": "Short-term strategy, not a long-term one.",
+    "explanation": "Willpower can help you resist a cookie once or twice, but it won't help you resist a cookie that is on your desk every single day for a year. Environment design is the long-term solution."
+  },
+  {
+    "question": "Reducing Exposure",
+    "content": "If you want to reduce the frequency of a bad habit, the most effective method is 'exposure reduction.' If you can't get anything done because of constant notifications, the answer isn't 'more discipline,' it's 'less exposure' to the triggers.",
+    "description": "Which of these is the best example of exposure reduction?",
+    "options": [
+      "Turning off all non-human notifications on your phone.",
+      "Leaving your phone on 'Vibrate' instead of 'Ring.'",
+      "Checking your phone every 15 minutes instead of every 5.",
+      "Answering every notification immediately so they don't pile up."
+    ],
+    "answer": "Turning off all non-human notifications on your phone.",
+    "explanation": "This is a direct application of 'Make it Invisible.' By turning off notifications, you eliminate the cues that draw your attention away from your work, reducing your exposure to temptation."
+  }
+]

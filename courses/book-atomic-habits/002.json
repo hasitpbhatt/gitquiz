@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Three Levels of Behavior Change",
+    "content": "Behavior change happens at three levels: outcomes (what you get), processes (what you do), and identity (what you believe). Most people start by focusing on outcomes like losing weight or winning a race. However, the most effective way to build lasting habits is to focus on identity—becoming the type of person who could achieve those things.",
+    "description": "Mark wants to start a running habit. Instead of saying 'I want to run a 5k,' he tells himself 'I am a runner.' Which level of change is Mark prioritizing?",
+    "options": [
+      "Outcome-based change",
+      "Process-based change",
+      "Identity-based change",
+      "Environment-based change"
+    ],
+    "answer": "Identity-based change",
+    "explanation": "Identity-based habits focus on who you wish to become. By shifting the focus from the result (the 5k) to the person (a runner), the behavior becomes an expression of who you are, making it easier to maintain."
+  },
+  {
+    "question": "The Direction of Change",
+    "content": "In outcome-based habits, the focus is on what you want to achieve. In identity-based habits, the focus is on who you wish to become. Many people fail to change because they try to change the 'what' without changing the 'who' behind the actions.",
+    "description": "Two people are offered a cigarette. Person A says, 'No thanks, I'm trying to quit.' Person B says, 'No thanks, I'm not a smoker.' Why is Person B's approach more likely to succeed?",
+    "options": [
+      "Because they are being more polite to the person offering.",
+      "Because they have signaled a shift in identity, rather than just resisting a craving.",
+      "Because Person B probably has more willpower than Person A.",
+      "Because Person B has already achieved the goal of quitting."
+    ],
+    "answer": "Because they have signaled a shift in identity, rather than just resisting a craving.",
+    "explanation": "Person A still identifies as a smoker who is trying to be something else. Person B no longer identifies as a smoker; for them, smoking is no longer a part of who they are, which reduces internal friction."
+  },
+  {
+    "question": "The Feedback Loop of Identity",
+    "content": "Your identity is literally your 'repeated beingness.' Every action you take is a vote for the type of person you wish to become. No single instance will transform your beliefs, but as the votes build up, so does the evidence of your new identity.",
+    "description": "If you make your bed every single morning, what 'vote' are you casting for your identity?",
+    "options": [
+      "A vote for being a professional interior designer.",
+      "A vote for being a person who is tired and needs sleep.",
+      "A vote for being a disciplined and organized person.",
+      "A vote for being someone who cares too much about small details."
+    ],
+    "answer": "A vote for being a disciplined and organized person.",
+    "explanation": "Small habits provide evidence for your identity. Making your bed doesn't make you tidy instantly, but it is one small piece of evidence that suggests you are a disciplined person."
+  },
+  {
+    "question": "The Two-Step Process for Changing Identity",
+    "content": "To change your identity, you must follow a simple two-step process: 1. Decide the type of person you want to be. 2. Prove it to yourself with small wins. You don't need a total transformation; you just need to win the majority of the 'votes' throughout the day.",
+    "description": "Sarah wants to become a writer but hasn't published anything. What is the most effective first step for her to change her identity according to this chapter?",
+    "options": [
+      "Wait until she has a book deal to call herself a writer.",
+      "Write just one paragraph every day to accumulate small wins.",
+      "Sign up for an expensive four-year degree in literature.",
+      "Tell everyone she is a writer before she starts writing."
+    ],
+    "answer": "Write just one paragraph every day to accumulate small wins.",
+    "explanation": "Identity change requires evidence. By writing daily, even a small amount, Sarah provides herself with proof that she is, in fact, a writer."
+  },
+  {
+    "question": "Habits as Identity Reinforcement",
+    "content": "The goal is not to read a book, the goal is to *become* a reader. The goal is not to run a marathon, the goal is to *become* a runner. When your habits and your identity are aligned, you are no longer pursuing behavior change; you are simply acting like yourself.",
+    "description": "Which of these scenarios shows the strongest alignment between habit and identity?",
+    "options": [
+      "Going to the gym only because your doctor told you to.",
+      "Studying for an exam just to get a passing grade.",
+      "Practicing guitar daily because you see yourself as a musician.",
+      "Eating a salad because you feel guilty about a previous meal."
+    ],
+    "answer": "Practicing guitar daily because you see yourself as a musician.",
+    "explanation": "When you believe you are a musician, practicing isn't a chore or a goal to be checked off; it's a natural extension of who you are, which makes the habit much more resilient."
+  },
+  {
+    "question": "The Downside of Identity",
+    "content": "Identity can become a burden when you cling to a rigid version of yourself. Saying 'I’m bad at math' or 'I’m terrible with directions' creates a mental ceiling. These internal stories act as a form of self-sabotage that prevents you from even trying to improve.",
+    "description": "A student says, 'I'm just not a morning person,' to explain why they miss early classes. How is this identity-based statement affecting them?",
+    "options": [
+      "It helps them accept their biological reality.",
+      "It acts as a self-fulfilling prophecy that justifies their current behavior.",
+      "It encourages them to find creative ways to study at night.",
+      "It has no real impact on their future habits."
+    ],
+    "answer": "It acts as a self-fulfilling prophecy that justifies their current behavior.",
+    "explanation": "When you label yourself, you provide yourself with a reason to stop trying to change. Your brain seeks to act in alignment with your self-image, even if that image is negative."
+  },
+  {
+    "question": "The Focus of Outcome-Based Habits",
+    "content": "Outcome-based habits focus on what you get. While results are important, they are often temporary if the underlying beliefs haven't changed. If you clean a messy room but keep the same disorganized habits, the room will be messy again shortly.",
+    "description": "Why does James Clear suggest that focusing solely on outcomes (like a specific weight on a scale) can be problematic?",
+    "options": [
+      "Because outcomes are too easy to achieve.",
+      "Because you can achieve the outcome without actually changing your lifestyle.",
+      "Because results don't matter as much as how you feel.",
+      "Because outcomes are usually determined by luck."
+    ],
+    "answer": "Because you can achieve the outcome without actually changing your lifestyle.",
+    "explanation": "You can reach a goal through a 'burst' of willpower, but without a shift in identity and process, you will likely revert to your old ways once the goal is reached."
+  },
+  {
+    "question": "The Power of Small Wins",
+    "content": "A 'small win' is a tiny victory that reinforces your desired identity. It’s not about the magnitude of the win, but the fact that it occurred. These wins are the 'evidence' that convinces your brain that you are becoming a new person.",
+    "description": "If you want to be a 'healthy person,' which of these is the most effective 'small win' to build that identity?",
+    "options": [
+      "Planning to run a marathon next year.",
+      "Buying an expensive treadmill you haven't used yet.",
+      "Choosing to take the stairs instead of the elevator just once today.",
+      "Reading a magazine article about nutrition."
+    ],
+    "answer": "Choosing to take the stairs instead of the elevator just once today.",
+    "explanation": "Taking the stairs is an action. It is a 'vote' for being a healthy person. Planning or reading about health doesn't provide the same behavioral evidence to your brain."
+  },
+  {
+    "question": "Becoming the Best Version of Yourself",
+    "content": "Building habits is not about 'fixing' yourself; it's about becoming the best version of yourself. This requires continuously editing your beliefs and upgrading your identity as you grow and learn.",
+    "description": "How should one handle a situation where a current habit no longer serves their desired identity?",
+    "options": [
+      "Keep the habit anyway to maintain consistency.",
+      "Ignore it and hope it goes away on its own.",
+      "Re-evaluate the identity they want and cast new votes for a different behavior.",
+      "Blame their personality for being unable to change."
+    ],
+    "answer": "Re-evaluate the identity they want and cast new votes for a different behavior.",
+    "explanation": "Identity is not fixed. As you grow, you can choose to stop voting for old identities and start building evidence for new ones that align with your current values."
+  },
+  {
+    "question": "Why Habits Matter",
+    "content": "Ultimately, habits matter not because they can get you better results (although they can do that), but because they can change your beliefs about yourself. They are the path to changing your identity.",
+    "description": "According to the book, what is the most important reason to develop good habits?",
+    "options": [
+      "To impress your friends and family with your discipline.",
+      "To reach your goals as quickly as possible.",
+      "To prove to yourself that you are capable of change and growth.",
+      "To ensure you never make a mistake again."
+    ],
+    "answer": "To prove to yourself that you are capable of change and growth.",
+    "explanation": "The real value of a habit is the internal shift. It changes your self-image from 'someone who struggles' to 'someone who can,' which is the foundation of all long-term success."
+  }
+]

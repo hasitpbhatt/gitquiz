@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Power of Context",
+    "content": "Most people think they lack motivation, but what they really lack is clarity. Our environment often acts as a silent driver of our behavior; we tend to choose the products or actions that are most visible and accessible. By redesigning your surroundings, you can make the cues for good habits obvious and the cues for bad habits invisible.",
+    "description": "You want to eat more fruit, but you currently keep it in the bottom drawer of the refrigerator where you often forget about it. According to the 1st Law, what is the best environmental change?",
+    "options": [
+      "Buying a more expensive variety of fruit to motivate yourself.",
+      "Placing a large bowl of fresh fruit in the center of the kitchen table.",
+      "Setting an alarm on your phone to remind you to open the fridge.",
+      "Writing a note on the fridge that says 'Eat more fruit!'"
+    ],
+    "answer": "Placing a large bowl of fresh fruit in the center of the kitchen table.",
+    "explanation": "Visual cues are the greatest catalyst of behavior. By moving the fruit to a high-traffic, highly visible area, you make the cue 'obvious,' which significantly increases the odds of the habit occurring."
+  },
+  {
+    "question": "Visual Cues and Behavior",
+    "content": "Human beings rely heavily on vision. Of all the sensory pathways in the human brain, about half of the resources are dedicated to vision. This means that small changes in what you see can lead to a big shift in what you do.",
+    "description": "An office manager notices that employees are drinking too much soda. If they want to use environmental design to encourage water consumption without banning soda, what should they do?",
+    "options": [
+      "Send a company-wide email about the dangers of sugar.",
+      "Increase the price of soda in the vending machine.",
+      "Place water bottles at eye-level in all coolers and move sodas to the bottom.",
+      "Put up posters of athletes drinking water in the breakroom."
+    ],
+    "answer": "Place water bottles at eye-level in all coolers and move sodas to the bottom.",
+    "explanation": "This is 'choice architecture.' By placing the healthier option in the direct line of sight (making it obvious), you capitalize on the brain's visual dominance to drive better choices."
+  },
+  {
+    "question": "Context is the Cue",
+    "content": "We often associate a habit with a specific location rather than a single trigger. For example, 'the couch' might be the cue for 'watching Netflix' and 'eating chips.' Over time, your habits become tied not to a single trigger, but to the entire context surrounding the behavior.",
+    "description": "If you struggle to fall asleep because you often work on your laptop while in bed, what is the 'Atomic Habits' solution for better sleep?",
+    "options": [
+      "Buying a more comfortable pillow for your bed.",
+      "Drinking coffee earlier in the day to ensure you are tired.",
+      "Only using the bed for sleep, and moving all work tasks to a desk.",
+      "Setting a timer to turn off the laptop at 10:00 PM."
+    ],
+    "answer": "Only using the bed for sleep, and moving all work tasks to a desk.",
+    "explanation": "When you mix contexts (working in bed), the cues become blurred. By strictly dedicating the bed to sleep, the physical environment of 'getting into bed' becomes an unmistakable cue for the brain to rest."
+  },
+  {
+    "question": "The 'One Space, One Use' Rule",
+    "content": "It is easier to associate a new habit with a new context than to build a new habit in the face of old cues. If you can, try to create a separate space for different activities. This prevents the cues from one habit from bleeding into another.",
+    "description": "You want to start a creative writing habit, but you usually sit at your gaming computer, which makes you want to play video games instead. What should you do?",
+    "options": [
+      "Try to use your willpower to ignore the games while you write.",
+      "Delete all the games from your computer every time you want to write.",
+      "Find a specific corner of a library or a different chair where you ONLY write.",
+      "Promise yourself a gaming reward after you finish writing."
+    ],
+    "answer": "Find a specific corner of a library or a different chair where you ONLY write.",
+    "explanation": "Every space has a 'feel' based on your past habits. Creating a 'writing-only' zone allows you to build a clean association where the environment itself triggers the writing mindset."
+  },
+  {
+    "question": "Environment Design for Consistency",
+    "content": "Environment design allows you to take back control and become the architect of your behavior. Instead of being the victim of your environment, you can be the designer of it. The goal is to make the cues of your good habits part of the 'path of least resistance.'",
+    "description": "If you want to practice guitar more often, which environmental setup is most effective?",
+    "options": [
+      "Keeping the guitar in its protective case inside a closet.",
+      "Putting the guitar on a stand in the middle of the living room.",
+      "Storing the guitar at a friend's house so you have to travel to play.",
+      "Relying on your memory to take the guitar out when you have free time."
+    ],
+    "answer": "Putting the guitar on a stand in the middle of the living room.",
+    "explanation": "Out of sight, out of mind. By making the guitar a permanent, visible fixture in your daily environment, you ensure the cue is constantly present, making it much more likely you'll pick it up."
+  },
+  {
+    "question": "The Inversion: Make it Invisible",
+    "content": "The most common way to break a bad habit is to remove the cue from your environment. It is much easier to practice self-control when you don't have to use it. Disciplined people aren't necessarily stronger; they just structure their lives to avoid tempting situations.",
+    "description": "You find that you spend too much money on impulse purchases when browsing shopping apps. What is the most effective 'invisible' strategy?",
+    "options": [
+      "Deleting the shopping apps from your phone entirely.",
+      "Muting the notifications but keeping the apps on the home screen.",
+      "Telling yourself you will be more disciplined next time you open them.",
+      "Setting a monthly budget on a piece of paper."
+    ],
+    "answer": "Deleting the shopping apps from your phone entirely.",
+    "explanation": "If you don't see the app, you don't receive the cue to browse. Removing the trigger is a more reliable long-term strategy than trying to resist the temptation once it's already in front of you."
+  },
+  {
+    "question": "Self-Control vs. Environment Design",
+    "content": "Research shows that 'highly disciplined' people actually spend less time in tempting situations. It’s easier to avoid temptation than to resist it. Using willpower is a short-term strategy; environment design is a long-term solution.",
+    "description": "Why is 'just having more willpower' usually a failing strategy for stopping a junk food habit?",
+    "options": [
+      "Because willpower is a fixed resource that never grows.",
+      "Because willpower is only for people who are naturally athletic.",
+      "Because you have to exercise willpower every single time you see the food.",
+      "Because junk food is designed to be addictive."
+    ],
+    "answer": "Because you have to exercise willpower every single time you see the food.",
+    "explanation": "Willpower is exhausting. If the junk food is on your counter (an obvious cue), you have to say 'no' 50 times a day. If you don't buy it, you only have to say 'no' once at the store."
+  },
+  {
+    "question": "Stable Environments and Habit Change",
+    "content": "A stable environment where everything has a place and a purpose is the best place for a habit to grow. When the cues in your environment are predictable and consistent, your habits become more reliable because the triggers are always in the same spot.",
+    "description": "You decide to study for an important certification. Which environment is most likely to lead to a successful daily study habit?",
+    "options": [
+      "Studying in a different coffee shop every day to keep things fresh.",
+      "Studying on your bed while the TV is on in the background.",
+      "Using the same quiet desk at the library at the same time each day.",
+      "Studying at your dining table while your family eats dinner."
+    ],
+    "answer": "Using the same quiet desk at the library at the same time each day.",
+    "explanation": "Consistency in location builds a strong association. Over time, simply sitting down at that specific library desk will automatically trigger your 'study mode' because the cues are stable."
+  },
+  {
+    "question": "Hidden Cues of Consumption",
+    "content": "Many of our behaviors are triggered by 'micro-cues' we don't even notice. For instance, the size of a plate acts as a cue for how much food we should eat. By changing the environment—like using smaller plates—we can change our habits without thinking.",
+    "description": "If someone wants to reduce their alcohol consumption at home, what is a 'Make it Invisible' environmental change?",
+    "options": [
+      "Buying smaller glasses for their drinks.",
+      "Storing the alcohol in a high cabinet that requires a stool to reach.",
+      "Reading a book about the negative effects of alcohol.",
+      "Making a pact with a friend to stop drinking."
+    ],
+    "answer": "Storing the alcohol in a high cabinet that requires a stool to reach.",
+    "explanation": "Moving the alcohol out of sight (invisible) and making it slightly harder to reach (difficult) removes the visual cue and adds friction, stopping the 'autopilot' habit of pouring a drink."
+  },
+  {
+    "question": "The Architecture of Better Habits",
+    "content": "To maximize your success, you want to live in an environment where the 'good' choice is the easiest and most obvious choice. This is called environmental 'priming.' You are preparing the space to make the future action effortless.",
+    "description": "You want to exercise first thing in the morning. How can you 'prime' your environment the night before?",
+    "options": [
+      "By setting three different alarms on your phone.",
+      "By laying out your workout clothes and shoes right next to your bed.",
+      "By promising yourself a big breakfast after the workout.",
+      "By thinking about how much you will enjoy being fit."
+    ],
+    "answer": "By laying out your workout clothes and shoes right next to your bed.",
+    "explanation": "Laying out the clothes makes the cue 'obvious' the moment you wake up and 'primes' the environment so that the 'Response' (getting dressed) is as easy as possible."
+  }
+]

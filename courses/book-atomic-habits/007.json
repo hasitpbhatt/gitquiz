@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Role of Dopamine",
+    "content": "Habits are a dopamine-driven feedback loop. Dopamine is not just released when you *experience* pleasure, but also when you *anticipate* it. It is the spike in dopamine—the craving—that provides the motivation to act. Without the anticipation of a reward, we would have no reason to perform a habit.",
+    "description": "Researchers found that when a gambler sees the lights on a slot machine, their brain releases dopamine before they even pull the lever. What does this reveal about why we perform habits?",
+    "options": [
+      "The physical action of the habit is more important than the feeling.",
+      "The brain is more motivated by the anticipation of the reward than the reward itself.",
+      "Dopamine is only released when we lose, not when we win.",
+      "Habits are purely logical and have nothing to do with brain chemistry."
+    ],
+    "answer": "The brain is more motivated by the anticipation of the reward than the reward itself.",
+    "explanation": "Dopamine levels spike when you expect a reward. This craving is what actually drives the behavior. Once you get the reward, the dopamine often levels off because the 'search' is over."
+  },
+  {
+    "question": "Temptation Bundling",
+    "content": "The 2nd Law of Behavior Change is 'Make it Attractive.' Temptation bundling is a strategy that works by linking an action you *want* to do with an action you *need* to do. This uses the high-dopamine activity to pull you through the low-dopamine task.",
+    "description": "Which of the following is a correct application of temptation bundling?",
+    "options": [
+      "Watching your favorite Netflix show while you are on the treadmill at the gym.",
+      "Eating a healthy salad and then immediately eating a cookie.",
+      "Checking your email while you are in the middle of an important meeting.",
+      "Doing 100 pushups only on days when you feel very motivated."
+    ],
+    "answer": "Watching your favorite Netflix show while you are on the treadmill at the gym.",
+    "explanation": "You 'want' to watch Netflix (attractive) and you 'need' to exercise (hard). By bundling them, the attractiveness of the show makes the exercise more likely to happen."
+  },
+  {
+    "question": "The Premack Principle",
+    "content": "Named after professor David Premack, this principle states that 'more probable behaviors will reinforce less probable behaviors.' In other words, you can use your current habits or things you love to do as a reward for things you are avoiding.",
+    "description": "If you love scrolling through TikTok but hate doing the dishes, how would you apply the Premack Principle?",
+    "options": [
+      "Only watch TikTok after you have finished washing the dishes.",
+      "Watch TikTok first to get in a good mood, then do the dishes.",
+      "Stop watching TikTok entirely so you have more time for dishes.",
+      "Hire someone to do the dishes so you can watch more TikTok."
+    ],
+    "answer": "Only watch TikTok after you have finished washing the dishes.",
+    "explanation": "By putting the high-probability behavior (TikTok) after the low-probability behavior (dishes), the desired activity becomes a reward that pulls you through the difficult task."
+  },
+  {
+    "question": "Combining Habit Stacking and Temptation Bundling",
+    "content": "You can combine these two techniques into a powerful formula: 1. After [CURRENT HABIT], I will [HABIT I NEED]. 2. After [HABIT I NEED], I will [HABIT I WANT]. This creates a bridge between your routine and your desires.",
+    "description": "You want to start meditating (Need) and you love checking sports scores (Want). You already drink coffee every morning (Current). What is the best 'super-stack'?",
+    "options": [
+      "After I check sports scores, I will meditate and then drink coffee.",
+      "After I drink coffee, I will check sports scores and then meditate.",
+      "After I drink coffee, I will meditate. After I meditate, I will check sports scores.",
+      "I will do all three things at the same time to save energy."
+    ],
+    "answer": "After I drink coffee, I will meditate. After I meditate, I will check sports scores.",
+    "explanation": "This follows the formula perfectly. You anchor the 'need' (meditation) to an existing habit (coffee), and reward the 'need' with the 'want' (sports scores)."
+  },
+  {
+    "question": "The Craving vs. The Reward",
+    "content": "Desire is the engine that drives behavior. Every action is taken because of the anticipation that the next moment will be better than the current one. If there is no desire (no dopamine spike), the habit loop never starts, even if the reward is still 'good.'",
+    "description": "Scientists found that mice who had their dopamine production blocked would still enjoy sugar, but they would never work to get it. What does this tell us about behavior?",
+    "options": [
+      "Mice are naturally lazy and don't like working.",
+      "Without craving, we have the capacity to experience pleasure but no motivation to pursue it.",
+      "Sugar is not actually a reward for most animals.",
+      "The brain only cares about rewards that are difficult to obtain."
+    ],
+    "answer": "Without craving, we have the capacity to experience pleasure but no motivation to pursue it.",
+    "explanation": "This highlights the '2nd Law' (Make it Attractive). If a habit isn't attractive (spiking dopamine/desire), you won't do it, even if you know the end result is beneficial."
+  },
+  {
+    "question": "Creating a Motivation Ritual",
+    "content": "You can make a hard habit more attractive by associating it with something you find enjoyable. By consistently performing a small, pleasant ritual before a difficult task, the ritual eventually triggers the mindset needed for the hard work.",
+    "description": "A writer listens to one specific upbeat song before they sit down to write every single day. Eventually, they find that simply hearing the first few notes of the song makes them feel creative. Why?",
+    "options": [
+      "The song has magical frequencies that boost the brain.",
+      "The brain has associated the 'attractive' cue of the song with the 'need' to write.",
+      "Listening to music makes the writing process take less time.",
+      "Writing is naturally easier when the room is loud."
+    ],
+    "answer": "The brain has associated the 'attractive' cue of the song with the 'need' to write.",
+    "explanation": "This is a motivation ritual. By pairing something attractive (the song) with the work, you create an 'on-switch' for your focus, making the habit easier to start."
+  },
+  {
+    "question": "The Power of Supernormal Stimuli",
+    "content": "Modern life is filled with 'supernormal stimuli'—exaggerated versions of reality that spike our dopamine higher than anything in nature (like junk food or social media). Because these are so attractive, they easily become addictive habits.",
+    "description": "How should we use the knowledge of 'Supernormal Stimuli' to improve our habits?",
+    "options": [
+      "We should try to make our good habits as exaggerated and stimulating as video games.",
+      "We should realize that our brains are easily 'tricked' and work to make good habits more appealing.",
+      "We should only perform habits that are boring and difficult.",
+      "We should never use technology because it is too attractive."
+    ],
+    "answer": "We should realize that our brains are easily 'tricked' and work to make good habits more appealing.",
+    "explanation": "Since we live in a world of high-dopamine triggers, we must intentionally use the 'Make it Attractive' rule to give our good habits a 'fighting chance' against distractions."
+  },
+  {
+    "question": "Reframing Your Mindset",
+    "content": "The way you talk about your habits changes how attractive they feel. Instead of saying 'I *have* to,' try saying 'I *get* to.' This small shift in language changes the habit from a burden into an opportunity.",
+    "description": "You are dreading your morning workout. Which internal dialogue best follows the 'Make it Attractive' principle?",
+    "options": [
+      "'I have to go run so I don't get out of shape.'",
+      "'I get to build strength and increase my energy today.'",
+      "'I should go to the gym because I paid for the membership.'",
+      "'I must exercise because it is a rule I set for myself.'"
+    ],
+    "answer": "'I get to build strength and increase my energy today.'",
+    "explanation": "Reframing focuses on the benefits rather than the sacrifice. By highlighting the positive outcome, you make the behavior more attractive and reduce the mental resistance to starting."
+  },
+  {
+    "question": "The Importance of the Anticipation Spike",
+    "content": "In the habit loop, the 'Craving' (anticipation) is actually what causes the most neural activity. Once the reward is obtained, the brain's activity actually drops. This is why the 'chase' is often more addictive than the 'catch.'",
+    "description": "Why do people often find themselves scrolling through social media long after they have stopped seeing interesting content?",
+    "options": [
+      "Because they are hoping the next post will be the 'big reward' (the dopamine spike).",
+      "Because they have forgotten how to close the app.",
+      "Because the reward of social media gets better the longer you use it.",
+      "Because their brain is trying to save energy by not moving."
+    ],
+    "answer": "Because they are hoping the next post will be the 'big reward' (the dopamine spike).",
+    "explanation": "The brain is addicted to the *anticipation* of a potential reward (the 'variable reward'). We keep acting because the *next* moment might be the attractive one."
+  },
+  {
+    "question": "Making Hard Habits Attractive",
+    "content": "To make a difficult habit attractive, you must find a way to highlight its immediate benefits or link it to a positive identity. Habits are easier to stick to when they provide a 'win' for your self-image or a spark of joy in the moment.",
+    "description": "If someone wants to save money (which feels like 'missing out' on buying things), how can they make the habit of saving feel more attractive?",
+    "options": [
+      "By thinking about how much money they will have in 40 years.",
+      "By labeling their savings account 'Freedom Fund' and watching it grow after every 'win.'",
+      "By looking at pictures of things they can't afford to buy yet.",
+      "By punishing themselves whenever they spend money on a coffee."
+    ],
+    "answer": "By labeling their savings account 'Freedom Fund' and watching it grow after every 'win.'",
+    "explanation": "Naming the goal (Freedom) and seeing the immediate progress (watching the number go up) provides an immediate sense of satisfaction and identity-alignment, making the act of saving attractive."
+  }
+]

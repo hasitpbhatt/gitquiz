@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Motion vs. Action",
+    "content": "There is a big difference between being in 'motion' and taking 'action.' Motion is when you are planning, strategizing, and learning—which are good, but they don't produce a result. Action is the type of behavior that delivers an outcome. We often stay in motion to delay the risk of failure.",
+    "description": "You want to get in shape. You spend two weeks researching the best gym shoes, reading workout blogs, and mapping out a schedule, but you haven't actually exercised yet. Which state are you in?",
+    "options": [
+      "Effective Action",
+      "Motion",
+      "Linear Progress",
+      "Strategic Implementation"
+    ],
+    "answer": "Motion",
+    "explanation": "Motion feels like progress, but it's often a form of procrastination. Action would be actually going to the gym or doing a pushup. Researching is just preparing to act."
+  },
+  {
+    "question": "The 3rd Law: Make It Easy",
+    "content": "The most effective form of learning is practice, not planning. The more you repeat an activity, the more your brain structure changes to become efficient at that activity. To build a habit, you need to focus on 'reps' (repetitions) rather than perfection.",
+    "description": "A photography professor split his class into two groups: the 'Quantity' group (graded on the number of photos taken) and the 'Quality' group (graded on a single perfect photo). Which group produced the better photos at the end of the term?",
+    "options": [
+      "The Quality group, because they spent more time studying the theory of lighting.",
+      "The Quantity group, because they learned through the trial and error of hundreds of photos.",
+      "Both groups performed equally because they had the same teacher.",
+      "Neither group, because artistic talent cannot be learned."
+    ],
+    "answer": "The Quantity group, because they learned through the trial and error of hundreds of photos.",
+    "explanation": "By taking hundreds of photos (Action), the quantity group honed their skills through repetition. The quality group sat around 'planning' perfection (Motion) and ended up with mediocre results."
+  },
+  {
+    "question": "Long-Term Potentiation",
+    "content": "Every time you repeat a habit, you are strengthening a specific neural circuit in your brain. This is known as Long-Term Potentiation. The more you repeat a behavior, the more the 'path' becomes paved, making the habit eventually feel automatic and effortless.",
+    "description": "Why does a habit like 'driving home' eventually require almost no conscious thought?",
+    "options": [
+      "Because the car's GPS does all the work for you.",
+      "Because your brain has physically changed to automate that specific neural pathway through repetition.",
+      "Because your muscles have a brain of their own that remembers the turns.",
+      "Because you have naturally high intelligence for navigation."
+    ],
+    "answer": "Because your brain has physically changed to automate that specific neural pathway through repetition.",
+    "explanation": "Habits are based on frequency, not time. It doesn't matter if you've wanted to drive for 20 years; what matters is how many times you have actually driven the route."
+  },
+  {
+    "question": "The Concept of Friction",
+    "content": "Friction is the physical or mental resistance that makes a habit difficult to perform. To make a good habit easy, you must 'reduce friction.' To make a bad habit difficult, you must 'increase friction.' Your environment determines how much energy is required to start.",
+    "description": "You want to start going to the gym in the morning. Which of these actions best illustrates 'reducing friction'?",
+    "options": [
+      "Setting a very loud alarm that is far away from your bed.",
+      "Buying a more expensive gym membership to motivate yourself.",
+      "Packing your gym bag and putting it in the passenger seat of your car the night before.",
+      "Reading a book about the benefits of morning exercise."
+    ],
+    "answer": "Packing your gym bag and putting it in the passenger seat of your car the night before.",
+    "explanation": "By prepping the bag, you remove a 'friction point' in the morning. You no longer have to find your socks or pack your bag when you are tired; the path to the gym is now 'greased.'"
+  },
+  {
+    "question": "Priming the Environment",
+    "content": "You can 'prime' your environment for future use to make your next action effortless. It is about 'resetting' the room so that the next time you enter it, the easiest thing to do is the right thing to do.",
+    "description": "How can you prime your kitchen to make the habit of 'cooking a healthy breakfast' easier for tomorrow morning?",
+    "options": [
+      "Leaving the dirty dishes in the sink so you remember you need to clean them.",
+      "Chopping the vegetables and setting the pan on the stove the night before.",
+      "Watching a cooking show right before you go to sleep.",
+      "Hiding all the healthy food in the back of the pantry."
+    ],
+    "answer": "Chopping the vegetables and setting the pan on the stove the night before.",
+    "explanation": "Priming the environment removes the 'startup cost' of the habit. When you walk into the kitchen, the work is already half-done, making it much easier to start."
+  },
+  {
+    "question": "The Law of Least Effort",
+    "content": "Human behavior follows the Law of Least Effort: we will naturally gravitate toward the option that requires the least amount of work. We don't want the habit; we want the result. Therefore, the easier a habit is to perform, the more likely it is to happen.",
+    "description": "Why is 'scrolling through social media' a more common habit than 'writing a novel'?",
+    "options": [
+      "Because humans are naturally lazy and lack creativity.",
+      "Because scrolling requires almost zero friction to start, while writing requires high cognitive effort.",
+      "Because social media is more important than literature in the modern world.",
+      "Because phones are made of materials that attract the human hand."
+    ],
+    "answer": "Because scrolling requires almost zero friction to start, while writing requires high cognitive effort.",
+    "explanation": "Our brains choose the path of least resistance. To write more, you have to make writing easier (less friction) and scrolling harder (more friction)."
+  },
+  {
+    "question": "Designing for Convenience",
+    "content": "Most people try to change their habits through willpower, but it is much more effective to change your 'choice architecture.' If you organize your life so that the most important things are also the most convenient, you will do them automatically.",
+    "description": "If you want to drink more water, which strategy uses 'choice architecture' most effectively?",
+    "options": [
+      "Telling yourself that you must drink 8 glasses a day or you will fail.",
+      "Placing a water bottle in every room of the house and on your desk.",
+      "Waiting until you are thirsty to look for a glass.",
+      "Tracking your water intake in a complicated spreadsheet."
+    ],
+    "answer": "Placing a water bottle in every room of the house and on your desk.",
+    "explanation": "This makes the habit of drinking water 'convenient.' You don't have to go to the kitchen (friction); the water is already there whenever you have the urge."
+  },
+  {
+    "question": "Increasing Friction for Bad Habits",
+    "content": "To stop a bad habit, you want to make it difficult. You want to add so many steps between you and the behavior that the effort required to start is greater than your desire to do it.",
+    "description": "You want to stop watching so much television. What is an example of 'increasing friction'?",
+    "options": [
+      "Keeping the remote on the coffee table so it's always ready.",
+      "Removing the batteries from the remote and putting them in a drawer in another room.",
+      "Buying a larger TV so you can see the screen better.",
+      "Setting a goal to only watch one hour of TV a day."
+    ],
+    "answer": "Removing the batteries from the remote and putting them in a drawer in another room.",
+    "explanation": "By removing the batteries, you've added a physical 'hurdle.' Now, if you want to watch TV, you have to get up, find the batteries, and put them in. That extra effort is often enough to stop the mindless habit."
+  },
+  {
+    "question": "The 2-Minute Rule",
+    "content": "The 2-Minute Rule states: 'When you start a new habit, it should take less than two minutes to do.' The goal is to make it as easy as possible to *start*. A habit must be established before it can be improved.",
+    "description": "You want to start a habit of reading 50 books a year. How should you apply the 2-Minute Rule on day one?",
+    "options": [
+      "Read the first 20 pages of a book every morning.",
+      "Read just one page.",
+      "Spend two minutes researching which books to buy.",
+      "Buy 50 books and stack them on your desk."
+    ],
+    "answer": "Read just one page.",
+    "explanation": "Reading one page takes less than two minutes. It sounds too easy, but it establishes the 'ritual' of reading. Once you are 'mastering the art of showing up,' you can gradually increase the challenge."
+  },
+  {
+    "question": "Mastering the Art of Showing Up",
+    "content": "A habit is like an entrance ramp to a highway. The 2-minute version of a habit is the entrance ramp. If you can get on the ramp, the rest of the habit follows naturally. You can't improve a habit that doesn't exist, so focus on the first two minutes above all else.",
+    "description": "Why is 'showing up at the gym for 5 minutes and then leaving' actually a valuable exercise for someone building a habit?",
+    "options": [
+      "Because 5 minutes of exercise is enough to build significant muscle.",
+      "Because it reinforces the identity of 'someone who goes to the gym' and makes the start automatic.",
+      "Because the gym membership is more worth it if you go every day.",
+      "Because it tricks the gym staff into thinking you are a regular."
+    ],
+    "answer": "Because it reinforces the identity of 'someone who goes to the gym' and makes the start automatic.",
+    "explanation": "The hardest part of any habit is starting. By showing up for 5 minutes, you are practicing the 'start.' Once the start is easy and automatic, staying for 45 minutes becomes much simpler."
+  }
+]

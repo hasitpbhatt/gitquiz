@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Habit Loop",
+    "content": "A habit is a self-reinforcing cycle consisting of four steps: Cue, Craving, Response, and Reward. The Cue triggers a Craving, which motivates a Response, which provides a Reward. This four-step process is the backbone of every habit, and your brain runs through it in the same order every time.",
+    "description": "You walk into a dark room and instinctively flip the light switch. In this specific habit loop, what is the 'Cue'?",
+    "options": [
+      "The feeling of safety once the light is on.",
+      "The physical action of flipping the switch.",
+      "Walking into the dark room.",
+      "The desire to see where you are going."
+    ],
+    "answer": "Walking into the dark room.",
+    "explanation": "The cue is the sensory trigger that predicts a reward (being able to see). Walking into the darkness is the environmental signal that starts the habit loop."
+  },
+  {
+    "question": "The Purpose of Rewards",
+    "content": "Rewards serve two purposes: they satisfy your craving and they teach your brain which actions are worth remembering. If an action results in a positive feeling or solves a problem, your brain notes that it should repeat that action the next time it encounters the same cue.",
+    "description": "Imagine you eat a piece of chocolate when you feel stressed. If the chocolate makes you feel relaxed for a moment, what will your brain do the next time you feel stressed?",
+    "options": [
+      "It will ignore the stress and try to solve the underlying problem.",
+      "It will associate the feeling of stress with the craving for chocolate.",
+      "It will forget the chocolate because the feeling was only temporary.",
+      "It will trigger a response to go for a run instead."
+    ],
+    "answer": "It will associate the feeling of stress with the craving for chocolate.",
+    "explanation": "Because the chocolate provided a 'reward' (stress relief), your brain marks 'eating chocolate' as a successful strategy for the cue of 'feeling stressed,' making it a habit."
+  },
+  {
+    "question": "The Four Laws of Behavior Change",
+    "content": "To build better habits, we can use the Four Laws of Behavior Change: 1. Make it obvious (Cue), 2. Make it attractive (Craving), 3. Make it easy (Response), and 4. Make it satisfying (Reward). To break a bad habit, you simply invert these laws.",
+    "description": "If you want to start a habit of drinking more water, but you always forget because the bottle is hidden in your bag, which law are you failing to utilize?",
+    "options": [
+      "The 1st Law: Make it obvious",
+      "The 2nd Law: Make it attractive",
+      "The 3rd Law: Make it easy",
+      "The 4th Law: Make it satisfying"
+    ],
+    "answer": "The 1st Law: Make it obvious",
+    "explanation": "By hiding the water bottle, the 'Cue' is invisible. To use the 1st Law, you should place the water bottle on your desk where you can see it throughout the day."
+  },
+  {
+    "question": "Inverting the Laws to Break Habits",
+    "content": "To break a bad habit, you turn the Four Laws upside down: 1. Make it invisible, 2. Make it unattractive, 3. Make it difficult, and 4. Make it unsatisfying. This makes the habit harder to start and less rewarding to complete.",
+    "description": "You find yourself scrolling through social media for hours. You decide to delete the app from your home screen so you have to search for it in the settings. Which inversion are you applying?",
+    "options": [
+      "Make it unattractive",
+      "Make it invisible",
+      "Make it difficult",
+      "Make it unsatisfying"
+    ],
+    "answer": "Make it invisible",
+    "explanation": "By removing the app from your immediate sight, you are removing the visual cue that usually triggers the craving to scroll."
+  },
+  {
+    "question": "Problem Phase vs. Solution Phase",
+    "content": "The habit loop is divided into two phases. The Problem Phase includes the Cue and Craving (realizing something is missing or needs to change). The Solution Phase includes the Response and Reward (taking action and getting what you wanted).",
+    "description": "You smell a Cinnabon at the mall (Cue) and start to want a cinnamon roll (Craving). Which phase of the habit loop are you currently in?",
+    "options": [
+      "The Solution Phase",
+      "The Final Phase",
+      "The Problem Phase",
+      "The Execution Phase"
+    ],
+    "answer": "The Problem Phase",
+    "explanation": "The Cue and Craving are about noticing a 'problem' (a lack of a cinnamon roll) and wanting to solve it. You haven't taken the action yet."
+  },
+  {
+    "question": "The 3rd Law: Make it Easy",
+    "content": "The Response is the actual habit you perform. Whether a habit occurs depends on how much friction is involved. If a habit requires more physical or mental effort than you are willing to provide, you won't do it. Therefore, you must reduce friction.",
+    "description": "You want to start journaling every night. Which setup follows the 3rd Law of 'Making it Easy'?",
+    "options": [
+      "Keeping your journal locked in a drawer in another room.",
+      "Placing your journal and a pen directly on your pillow each morning.",
+      "Telling yourself you will write five pages every single night.",
+      "Buying a very expensive journal that you are afraid to mess up."
+    ],
+    "answer": "Placing your journal and a pen directly on your pillow each morning.",
+    "explanation": "By putting the journal on your pillow, you've reduced the friction to almost zero. The 'Response' of writing is now much easier to initiate."
+  },
+  {
+    "question": "Cravings: The Motivational Force",
+    "content": "Cravings are the second step of the loop. You do not crave the habit itself, but the change in state it delivers. You don't crave smoking a cigarette; you crave the feeling of relief it provides. Without a craving, you have no reason to act.",
+    "description": "A person wants to check their email every five minutes. According to the habit loop, what are they actually craving?",
+    "options": [
+      "The act of typing on a keyboard.",
+      "The feeling of being productive or the relief of reducing uncertainty.",
+      "The blue light from the computer screen.",
+      "The technical process of data transmission."
+    ],
+    "answer": "The feeling of being productive or the relief of reducing uncertainty.",
+    "explanation": "Cravings are internal transformations. We perform habits to move from a current internal state to a more desirable one (e.g., from 'not knowing' to 'being informed')."
+  },
+  {
+    "question": "Why Habits Form",
+    "content": "Habits are mental shortcuts learned from experience. When you face a problem repeatedly, your brain begins to automate the solution. This allows you to perform tasks without conscious thought, freeing up mental space for other things.",
+    "description": "How does the brain benefit from a habit like 'knowing exactly where the brake pedal is' while driving?",
+    "options": [
+      "It allows the brain to focus on navigating traffic rather than searching for the pedal.",
+      "It makes the brain work harder because habits are complex.",
+      "It prevents the driver from ever making a mistake.",
+      "It slows down the driver's reaction time."
+    ],
+    "answer": "It allows the brain to focus on navigating traffic rather than searching for the pedal.",
+    "explanation": "Habits reduce cognitive load. By automating the mechanical parts of driving, your conscious mind can focus on the more unpredictable parts, like other cars."
+  },
+  {
+    "question": "The 4th Law: Make it Satisfying",
+    "content": "The 4th Law is about the Reward. We are more likely to repeat a behavior when the experience is satisfying. While the first three laws increase the odds that a behavior will be performed *this* time, the fourth law increases the odds it will be repeated *next* time.",
+    "description": "You finish a difficult workout and treat yourself to a refreshing, healthy smoothie that you love. Which part of the habit loop does the smoothie represent?",
+    "options": [
+      "The Cue",
+      "The Craving",
+      "The Response",
+      "The Reward"
+    ],
+    "answer": "The Reward",
+    "explanation": "The smoothie provides the immediate satisfaction that tells your brain, 'That workout was worth it. Let's do it again tomorrow.'"
+  },
+  {
+    "question": "The Relationship Between the Four Steps",
+    "content": "If a behavior is insufficient in any of the four stages, it will not become a habit. Eliminate the cue and your habit will never start. Reduce the craving and you won't have enough motivation to act. Make the behavior difficult and you won't be able to do it. And if the reward fails to satisfy your desire, then you'll have no reason to do it again in the future.",
+    "description": "If you see a bag of chips (Cue) and want them (Craving), but the bag is on a high shelf that requires a ladder to reach, which stage is preventing the habit from occurring?",
+    "options": [
+      "The Cue",
+      "The Craving",
+      "The Response",
+      "The Reward"
+    ],
+    "answer": "The Response",
+    "explanation": "The 'Response' is too difficult because of the physical effort required (the ladder). Even though the cue and craving are present, the friction stops the habit loop."
+  }
+]
