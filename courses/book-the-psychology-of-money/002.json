@@ -27,8 +27,12 @@
     "question": "Judging Failure",
     "content": "Just as we shouldn't assume all success is due to hard work, we shouldn't assume all failure is due to laziness or bad decisions. Sometimes, a perfectly good decision results in a bad outcome because of risk.",
     "description": "You start a business with a 90% chance of success, but it ends up being part of the 10% that fails. How should you judge this outcome?",
-    "content": "Acknowledge that you made a bad decision and never try again.", "Understand that you took a calculated risk and 'risk' simply happened to manifest.", "Blame yourself for not seeing the future clearly.", "Assume that the 90% statistic was a lie."],
-    "options": ["Acknowledge that you made a bad decision and never try again.", "Understand that you took a calculated risk and 'risk' simply happened to manifest.", "Blame yourself for not seeing the future clearly.", "Assume that the 90% statistic was a lie."],
+    "options": [
+      "Acknowledge that you made a bad decision and never try again.", 
+      "Understand that you took a calculated risk and 'risk' simply happened to manifest.", 
+      "Blame yourself for not seeing the future clearly.", 
+      "Assume that the 90% statistic was a lie."
+    ],
     "answer": "Understand that you took a calculated risk and 'risk' simply happened to manifest.",
     "explanation": "If you judge yourself only by results rather than the quality of your decision, you will be too afraid to take reasonable risks in the future."
   },
@@ -61,7 +65,7 @@
     "content": "Since you cannot control luck or risk, the best strategy is to manage your own behavior and keep your 'room for error' high enough to survive when bad luck strikes.",
     "description": "If you accept that risk is a permanent part of life, how should you change your investing strategy?",
     "options": ["Stop investing entirely to avoid all risk.", "Bet everything on one 'sure thing' to minimize the time you are exposed to risk.", "Ensure you have enough cash or 'margin of safety' to survive a streak of bad luck.", "Wait until you feel 100% certain before making a move."],
-    "answer": "Ensure you have enough cash or 'margin of safety' to survive a streak of bad luck.",
+    "answer": "Ensure you have enough those who work 100 hours a week.",
     "explanation": "You can't stop risk, but you can build a life that doesn't break when a risk turns into a reality."
   },
   {
