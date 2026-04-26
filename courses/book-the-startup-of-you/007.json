@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Nature of Network Intelligence",
+    "content": "Network Intelligence is the idea that the most valuable, up-to-date information isn't found in books or databases, but in the heads of other people. In a fast-moving economy, 'what' you know depends heavily on 'who' you know and your ability to extract that knowledge through conversation.",
+    "description": "You need to know if a specific company's culture is truly collaborative before accepting an offer. What is the most effective way to gather this 'intelligence'?",
+    "options": [
+      "Reading the 'About Us' section on the company website",
+      "Searching for a former employee on LinkedIn and asking for a 10-minute honest chat",
+      "Reading a general blog post about 'Top 10 Collaborative Companies'",
+      "Asking the HR manager during the final interview"
+    ],
+    "answer": "Searching for a former employee on LinkedIn and asking for a 10-minute honest chat",
+    "explanation": "Former employees provide 'unfiltered' intelligence. Company websites and HR managers provide 'curated' information that may not reflect the daily reality."
+  },
+  {
+    "question": "The Power of the 'Lunch' Intelligence",
+    "content": "Information gathered in informal settings—like a coffee or lunch—is often more valuable than formal meetings. People are more likely to share 'soft' information, such as rumors, internal shifts, or unannounced opportunities, when they feel comfortable and off-the-record.",
+    "description": "Why should you regularly have lunch with people in your industry even when you aren't looking for a job?",
+    "options": [
+      "To save money by having the other person pay",
+      "To stay in the 'information flow' and hear about market trends before they become public news",
+      "To show off your recent accomplishments",
+      "Because it's a requirement of most employment contracts"
+    ],
+    "answer": "To stay in the 'information flow' and hear about market trends before they become public news",
+    "explanation": "Regular informal check-ins keep your 'intelligence radar' active. By the time a trend is in the news, the best opportunities are often already gone."
+  },
+  {
+    "question": "Quizzing the Network",
+    "content": "When you have a specific problem, you should 'quiz' your network by asking targeted questions to multiple people. By synthesizing their different perspectives, you can form a more accurate picture of the truth than any single 'expert' could provide.",
+    "description": "You are deciding whether to invest your time in learning a new programming language. How should you 'quiz' your network?",
+    "options": [
+      "Ask one person who loves that language and do exactly what they say",
+      "Post a poll on social media and follow the majority vote",
+      "Ask three people: one who uses it, one who just stopped using it, and one who hires for it",
+      "Wait for a university to release a study on the language's popularity"
+    ],
+    "answer": "Ask three people: one who uses it, one who just stopped using it, and one who hires for it",
+    "explanation": "Speaking to people with different 'angles' on the same topic provides a 360-degree view, helping you avoid the bias of a single source."
+  },
+  {
+    "question": "Filtering Information",
+    "content": "Not all information from your network is equal. To get good intelligence, you must account for the perspective and potential bias of the person giving it. Successful professionals learn to 'triangulate' information by comparing what different sources say.",
+    "description": "A friend tells you that 'everyone' is leaving a certain company. How do you triangulate this information?",
+    "options": [
+      "Assume your friend is right and tell everyone else the news",
+      "Check the LinkedIn profiles of other people at that company to see if there is a pattern of recent departures",
+      "Ignore the information because it's probably just gossip",
+      "Call the CEO of that company and ask if they are failing"
+    ],
+    "answer": "Check the LinkedIn profiles of other people at that company to see if there is a pattern of recent departures",
+    "explanation": "Triangulation involves verifying 'soft' intelligence with 'hard' data or other independent sources to ensure the information is reliable."
+  },
+  {
+    "question": "Reaching Out to 'Weak Ties'",
+    "content": "As discussed in earlier chapters, 'weak ties' (acquaintances) are often better sources of new intelligence than close friends. This is because they live in different 'information bubbles' and have access to data that your close circle does not.",
+    "description": "You want to learn about the market for sustainable tech in Europe. Who is the best person to reach out to for intelligence?",
+    "options": [
+      "Your current office deskmate",
+      "An old college acquaintance who now works for a German engineering firm",
+      "Your brother who works in local real estate",
+      "A chatbot that summarizes Wikipedia articles"
+    ],
+    "answer": "An old college acquaintance who now works for a German engineering firm",
+    "explanation": "The old acquaintance is a 'bridge' to a different network. They can provide specific, localized intelligence that your immediate circle simply doesn't have."
+  },
+  {
+    "question": "The 'Second-Order' Intelligence",
+    "content": "Sometimes the person you know doesn't have the answer, but they know exactly who does. Intelligence gathering often involves asking your network, 'Who is the smartest person you know on this topic?' and getting an introduction.",
+    "description": "You need advice on a complex legal issue for your startup. Your best friend is a graphic designer. How can they help you gather intelligence?",
+    "options": [
+      "They can't; they don't know anything about law",
+      "They can give you their 'opinion' on law even though they aren't an expert",
+      "They can introduce you to their cousin who is a top startup attorney",
+      "They can help you design a better logo so people don't sue you"
+    ],
+    "answer": "They can introduce you to their cousin who is a top startup attorney",
+    "explanation": "Networking is about 'reach.' Even if a contact lacks the knowledge, they can act as a gateway to the person who has it."
+  },
+  {
+    "question": "Navigating 'Dark' Information",
+    "content": "'Dark' information is knowledge that is intentionally kept secret or isn't written down anywhere for legal or competitive reasons. You can only access this information through high-trust relationships where people feel safe sharing the 'inside scoop.'",
+    "description": "How do you build the trust necessary to receive 'dark' information about a potential merger?",
+    "options": [
+      "By offering to pay the person for the secret",
+      "By having a long history of being discreet and providing value to that person in the past",
+      "By promising to post the information on social media immediately",
+      "By pressuring the person to tell you 'if they are really your friend'"
+    ],
+    "answer": "By having a long history of being discreet and providing value to that person in the past",
+    "explanation": "Trust is the prerequisite for sensitive intelligence. People only share 'dark' information with those they know will handle it responsibly."
+  },
+  {
+    "question": "The Speed of Network Intelligence",
+    "content": "In a crisis, the speed of information is critical. Networks provide 'real-time' data that allows you to pivot faster than competitors who are waiting for official reports or news cycles.",
+    "description": "A sudden supply chain disruption hits your industry. What is the fastest way to understand the impact on your business?",
+    "options": [
+      "Waiting for the quarterly earnings call in three months",
+      "Texting two contacts who work at the main shipping ports to see what they are seeing on the docks",
+      "Searching for a newspaper article that will be published tomorrow",
+      "Checking the stock market every five minutes"
+    ],
+    "answer": "Texting two contacts who work at the main shipping ports to see what they are seeing on the docks",
+    "explanation": "Direct contact with 'boots on the ground' provides the fastest intelligence, allowing you to make decisions before the rest of the market reacts."
+  },
+  {
+    "question": "Being an Intelligence 'Node'",
+    "content": "To get great intelligence, you must also give it. By sharing what you know with your network, you become a 'high-value node.' People will naturally send information your way because they know you are a source of valuable insights.",
+    "description": "How can you become a person that others want to share information with?",
+    "options": [
+      "By hoarding all your secrets so you are the only one who knows them",
+      "By proactively sharing helpful articles, trends, and connections with your network",
+      "By only talking about your own needs and goals",
+      "By never answering your phone so you seem 'busy' and 'important'"
+    ],
+    "answer": "By proactively sharing helpful articles, trends, and connections with your network",
+    "explanation": "Reciprocity drives network intelligence. The more value you broadcast, the more high-quality information you will attract in return."
+  },
+  {
+    "question": "Synthesizing the Intel",
+    "content": "Gathering intelligence is only half the battle; the other half is synthesis. This means taking all the 'bits' of information from different people and connecting the dots to see the 'big picture' of where your career or industry is going.",
+    "description": "After talking to five people, you hear five different things about the future of remote work. What is the final step of synthesis?",
+    "options": [
+      "Picking the one opinion that you like the most and ignoring the rest",
+      "Looking for the common themes and 'signals' that appeared in most of the conversations",
+      "Giving up because the information is too confusing",
+      "Averaging the opinions into one meaningless middle-ground"
+    ],
+    "answer": "Looking for the common themes and 'signals' that appeared in most of the conversations",
+    "explanation": "Synthesis is about pattern recognition. If four out of five people mention a specific shift, that is a 'signal' you should probably act on."
+  }
+]

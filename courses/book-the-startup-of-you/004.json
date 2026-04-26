@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The 'I' is 'We'",
+    "content": "A central theme of the book is that an individual's power is limited, but a network's power is exponential. Your success is not just determined by your own skills, but by the resources, information, and opportunities that flow through the people you know.",
+    "description": "You are facing a deadline on a project involving a software you've never used. What is the most effective 'network-centric' approach?",
+    "options": [
+      "Spending all night reading the manual by yourself",
+      "Asking a colleague who is an expert in that software for a 15-minute crash course",
+      "Telling your boss you can't do it because you weren't trained",
+      "Guessing how the software works and hoping for the best"
+    ],
+    "answer": "Asking a colleague who is an expert in that software for a 15-minute crash course",
+    "explanation": "Leveraging the expertise of others allows you to solve problems much faster than working in isolation. This is the 'We' mindset in action."
+  },
+  {
+    "question": "Relationship vs. Transaction",
+    "content": "Networking is often misunderstood as a sleazy, transactional activity. True networking is about building long-term, mutually beneficial relationships where you offer value to others without immediately expecting something in return.",
+    "description": "You meet a high-profile industry leader at a conference. How should you approach the initial interaction?",
+    "options": [
+      "Hand them your resume and ask for a job on the spot",
+      "Ask them a thoughtful question about a challenge they mentioned in their speech and offer a helpful resource",
+      "Ask them how much money they make",
+      "Wait for them to approach you first so you don't seem desperate"
+    ],
+    "answer": "Ask them a thoughtful question about a challenge they mentioned in their speech and offer a helpful resource",
+    "explanation": "Starting with a 'give' or a genuine interest in their work builds a relationship foundation, whereas asking for a job immediately is a purely selfish transaction."
+  },
+  {
+    "question": "The Three Degrees of Influence",
+    "content": "Research shows that your network influences you up to three degrees (friends of friends of friends). This means the people your friends know can have a significant impact on your career opportunities and your even your worldview.",
+    "description": "Why should you care about the professional quality of your friends' friends?",
+    "options": [
+      "Because you will probably end up marrying one of them",
+      "Because they are the people most likely to introduce you to your next big opportunity",
+      "Because you should only hang out with wealthy people",
+      "You shouldn't; only your direct friends matter"
+    ],
+    "answer": "Because they are the people most likely to introduce you to your next big opportunity",
+    "explanation": "Your 'second-degree' and 'third-degree' connections expand your reach into industries and companies where you don't currently have a presence."
+  },
+  {
+    "question": "Building a 'Trust' Network",
+    "content": "In a startup, trust is the currency that allows for speed. In your career, a network built on trust allows you to get honest feedback, reliable referrals, and support during pivots. Trust is built through consistency and helping others when they are down.",
+    "description": "A former coworker is looking for a job after being laid off. You don't have a job for them, but you know someone who might. What do you do to build trust?",
+    "options": [
+      "Ignore their message because you can't help them directly",
+      "Offer to make a warm introduction to your contact and help them polish their portfolio",
+      "Tell them to check a public job board",
+      "Only help them if they promise to help you find a job later"
+    ],
+    "answer": "Offer to make a warm introduction to your contact and help them polish their portfolio",
+    "explanation": "Helping someone when you have nothing to gain is one of the most powerful ways to build deep, long-term trust in a network."
+  },
+  {
+    "question": "Diversity in Your Network",
+    "content": "If everyone in your network knows the same people and has the same skills as you, your network is an 'echo chamber.' A powerful network is diverse, connecting you to different industries, age groups, and perspectives.",
+    "description": "You are a graphic designer and all your friends are also graphic designers. What is the downside of this network structure?",
+    "options": [
+      "You will have too many people to talk to about fonts",
+      "You are unlikely to hear about opportunities in other fields like marketing or tech where designers are needed",
+      "Your friends will steal your design ideas",
+      "There is no downside; it's better to stay with your own kind"
+    ],
+    "answer": "You are unlikely to hear about opportunities in other fields like marketing or tech where designers are needed",
+    "explanation": "A homogeneous network limits the 'flow' of new information. Diversity brings in 'non-redundant' information that leads to breakthroughs."
+  },
+  {
+    "question": "The Role of the 'Connector'",
+    "content": "Some people act as 'connectors'—they naturally enjoy meeting people and introducing them to others. Identifying and building relationships with connectors can exponentially increase the size and quality of your own network.",
+    "description": "You realize that a former professor of yours seems to know everyone in the local business community. How should you view this relationship?",
+    "options": [
+      "As a potential 'Connector' who can help bridge the gap between you and new industries",
+      "As someone who is too busy to ever talk to you",
+      "As a threat to your personal brand",
+      "As someone you should only contact if you are in deep trouble"
+    ],
+    "answer": "As a potential 'Connector' who can help bridge the gap between you and new industries",
+    "explanation": "Connectors are high-leverage nodes in a network. Maintaining a good relationship with them gives you access to a vast web of indirect connections."
+  },
+  {
+    "question": "Keeping it Warm",
+    "content": "Relationships require maintenance. You shouldn't only reach out to people when you need something. 'Keeping the network warm' means checking in periodically, sharing interesting articles, or offering small bits of help.",
+    "description": "What is a simple way to maintain a relationship with a former mentor without being a burden?",
+    "options": [
+      "Sending them a long email every week detailing your life",
+      "Occasionally sending a brief note about a project of theirs you admired or an article relevant to their interests",
+      "Calling them during dinner time to chat",
+      "Only contacting them when you need a letter of recommendation"
+    ],
+    "answer": "Occasionally sending a brief note about a project of theirs you admired or an article relevant to their interests",
+    "explanation": "Low-friction, high-value check-ins keep you on their radar in a positive way without demanding too much of their time."
+  },
+  {
+    "question": "Network Intelligence (Quizzing the Network)",
+    "content": "Your network is a living search engine. When you face a decision, you can 'query' your network for real-time information that you can't find on Google, such as the true culture of a company or the reliability of a potential partner.",
+    "description": "You are offered a job at a company that has great reviews online, but you know someone who worked there. What should you do?",
+    "options": [
+      "Trust the online reviews and sign the contract",
+      "Ask your contact for the 'unfiltered' truth about the management and work-life balance",
+      "Ignore your contact because they might be biased",
+      "Ask the hiring manager if the online reviews are true"
+    ],
+    "answer": "Ask your contact for the 'unfiltered' truth about the management and work-life balance",
+    "explanation": "This is using your network for 'intelligence.' Private, honest feedback is far more valuable than public, curated marketing."
+  },
+  {
+    "question": "The Power of the 'Bridge'",
+    "content": "A 'bridge' is a person who connects two completely different social or professional groups. Being a bridge yourself—by introducing people from different worlds—makes you a high-value member of any network.",
+    "description": "You know a great coder and a great venture capitalist. Neither knows the other. What is the best way to act as a 'bridge'?",
+    "options": [
+      "Tell the coder about the VC and hope they find each other",
+      "Ask both if they are open to an introduction, then send a high-quality 'double-opt-in' intro email",
+      "Give the VC's private phone number to the coder without asking",
+      "Do nothing; it's not your business"
+    ],
+    "answer": "Ask both if they are open to an introduction, then send a high-quality 'double-opt-in' intro email",
+    "explanation": "A professional bridge always respects people's time by asking first. Successfully connecting them increases your status as a 'value-adder' in both circles."
+  },
+  {
+    "question": "The 'I' in 'Team'",
+    "content": "In the Startup of You, your 'team' isn't just your coworkers. It’s your inner circle—the 3 to 5 people you trust most for honest, brutal feedback and support. This group helps you navigate your most difficult pivots.",
+    "description": "You are considering quitting your stable job to start a risky business. Who should you consult first?",
+    "options": [
+      "A random career coach on the internet",
+      "Your 'inner circle' of trusted allies who know your strengths and weaknesses",
+      "No one; you should make the decision in total isolation",
+      "Your current boss"
+    ],
+    "answer": "Your 'inner circle' of trusted allies who know your strengths and weaknesses",
+    "explanation": "Your inner circle provides the psychological safety and honest perspective needed to make high-stakes decisions."
+  }
+]

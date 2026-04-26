@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Essence of ABZ Planning",
+    "content": "ABZ Planning is a framework that rejects rigid, long-term plans in favor of adaptability. Plan A is what you are doing now; Plan B is what you pivot to as you learn more; and Plan Z is your fallback safety net. This approach allows you to take risks because you always have a 'bottom' to land on.",
+    "description": "If you are currently working as a software engineer but spending your weekends learning about AI ethics to potentially switch roles, how would you categorize these activities?",
+    "options": [
+      "The engineering job is Plan A; the AI ethics study is the beginning of a Plan B",
+      "Both are Plan A because they happen in the same week",
+      "The engineering job is Plan Z; the AI ethics is Plan A",
+      "AI ethics is Plan Z because it is a backup interest"
+    ],
+    "answer": "The engineering job is Plan A; the AI ethics study is the beginning of a Plan B",
+    "explanation": "Plan A is your current primary focus. Plan B is the adjacent path you explore and pivot toward when you discover new opportunities or realize Plan A isn't working."
+  },
+  {
+    "question": "When to Pivot to Plan B",
+    "content": "You don't wait for Plan A to fail before thinking about Plan B. You pivot when you discover a better opportunity or when you realize the market for Plan A is declining. It is a proactive shift based on learning, not a reactive move based on desperation.",
+    "description": "A freelance writer notices that their clients are asking more for video scripts than blog posts. What is the most 'ABZ' response?",
+    "options": [
+      "Keep writing only blog posts until the work completely stops",
+      "Immediately quit freelancing and find a corporate job",
+      "Start incorporating video scripting into their services while phasing out blog posts",
+      "Ignore the clients and hope they change their minds"
+    ],
+    "answer": "Start incorporating video scripting into their services while phasing out blog posts",
+    "explanation": "This is a pivot. You are moving from a declining Plan A to a more promising Plan B based on real-time market feedback."
+  },
+  {
+    "question": "The Nature of Plan B",
+    "content": "Plan B shouldn't be a detailed 50-page document. It is a direction. It often remains fluid and 'in beta' while you test the waters. Once you commit to a Plan B, it eventually becomes your new Plan A.",
+    "description": "Why is it important that Plan B remains flexible and relatively informal?",
+    "options": [
+      "Because it is not a serious plan and shouldn't be treated as one",
+      "To allow you to pivot again quickly if the new direction doesn't yield results",
+      "Because you shouldn't tell anyone about your backup plans",
+      "To save time on paperwork so you can work harder on Plan A"
+    ],
+    "answer": "To allow you to pivot again quickly if the new direction doesn't yield results",
+    "explanation": "The point of Plan B is agility. If it’s too rigid, you lose the ability to respond to the very market changes you are trying to navigate."
+  },
+  {
+    "question": "The 'Lifeboat' Plan Z",
+    "content": "Plan Z is your fallback. It's the plan that ensures you can still pay for food and rent if your current career path collapses. Knowing your Plan Z gives you the psychological safety to take bigger risks with your Plan A and B.",
+    "description": "Which of these is the most effective example of a Plan Z?",
+    "options": [
+      "A secret hope that you will win the lottery",
+      "A written agreement with your parents that you can live in their basement for 6 months while you retrain",
+      "Applying for a promotion at your current company",
+      "A Plan B that is slightly different from Plan A"
+    ],
+    "answer": "A written agreement with your parents that you can live in their basement for 6 months while you retrain",
+    "explanation": "Plan Z must be a concrete, reliable certainty. It’s the 'worst-case scenario' plan that keeps you from becoming homeless or destitute."
+  },
+  {
+    "question": "Iterating Based on Feedback",
+    "content": "Successful startups pivot because they listen to 'the flow' of information. In your career, you iterate by trying small things, seeing what works, and using that data to refine your Plan A or shift toward a Plan B.",
+    "description": "You want to move into management. You volunteer to lead a small internal committee to see if you like the work. What is this an example of?",
+    "options": [
+      "A waste of time that takes away from your real job",
+      "An iteration to gather data on a potential Plan B",
+      "Executing your Plan Z",
+      "A permanent commitment to never code again"
+    ],
+    "answer": "An iteration to gather data on a potential Plan B",
+    "explanation": "By taking on a small, low-risk project, you are testing a new direction (Plan B) without fully abandoning your current path (Plan A)."
+  },
+  {
+    "question": "Persistence vs. Pivoting",
+    "content": "The hardest part of ABZ planning is knowing when to stick with Plan A and when to pivot. The book suggests pivoting when the 'learning curve' flattens out or when the market signals a clear dead end, despite your best efforts.",
+    "description": "You've been trying to sell a specific product for 2 years with zero sales, and every expert says the market has moved on. What should you do?",
+    "options": [
+      "Persist for another 5 years to show grit",
+      "Pivot to Plan B immediately because the market feedback is clear",
+      "Ignore the experts because they don't know your passion",
+      "Switch to Plan Z and give up on entrepreneurship forever"
+    ],
+    "answer": "Pivot to Plan B immediately because the market feedback is clear",
+    "explanation": "Grit is important, but 'blind persistence' in the face of overwhelming negative market data is a recipe for failure."
+  },
+  {
+    "question": "Plan B as an Adjacent Move",
+    "content": "Plan B usually shouldn't be a 180-degree turn into an unknown field. It is most effective when it is an 'adjacent' move—using your current skills and network in a slightly different way or industry.",
+    "description": "A high-end chef wants to pivot because the restaurant industry is struggling. Which move is a classic 'adjacent' Plan B?",
+    "options": [
+      "Becoming a professional poker player",
+      "Starting a boutique catering service or food-tech consultancy",
+      "Going back to school to become a surgeon",
+      "Moving to a different country to work in a similar restaurant"
+    ],
+    "answer": "Starting a boutique catering service or food-tech consultancy",
+    "explanation": "An adjacent move leverages existing assets (cooking skills, food industry network) while changing the 'market' or 'delivery' of those assets."
+  },
+  {
+    "question": "The Risk of No Plan Z",
+    "content": "Without a Plan Z, any setback feels like a catastrophe. This fear makes people 'risk-averse,' causing them to stay in dying industries or boring jobs because they are terrified of what happens if they fail.",
+    "description": "Why does having a 'lifeboat' (Plan Z) actually make you more daring in your career?",
+    "options": [
+      "Because you don't care if you fail at all",
+      "Because it lowers the 'cost' of failure, allowing you to try bold Plan A ideas",
+      "Because Plan Z usually pays more than Plan A",
+      "It doesn't; it actually makes you lazy"
+    ],
+    "answer": "Because it lowers the 'cost' of failure, allowing you to try bold Plan A ideas",
+    "explanation": "When you know you won't 'die' (professionally or financially) if a risk doesn't pan out, you are free to pursue high-upside opportunities."
+  },
+  {
+    "question": "Learning as the Primary Metric",
+    "content": "In the early stages of a career or a pivot, the primary metric of success isn't money—it's learning. If Plan A is teaching you valuable things that will help you in Plan B, it is still a success even if it hasn't made you rich yet.",
+    "description": "You are offered a job that pays 10% less but puts you at the center of a new industry you want to learn. How do you evaluate this?",
+    "options": [
+      "It is a failure because you are losing money",
+      "It is a strategic investment in 'Plan B' knowledge and assets",
+      "It is a Plan Z move because you are 'settling' for less",
+      "You should only take it if they promise a raise in one month"
+    ],
+    "answer": "It is a strategic investment in 'Plan B' knowledge and assets",
+    "explanation": "Prioritizing learning over immediate cash is a classic startup move. You are building the 'soft assets' that will pay off in the long run."
+  },
+  {
+    "question": "The Dynamic Nature of Plans",
+    "content": "ABZ planning is dynamic. As you move, your plans shift. Your Plan B might become your Plan A, and you'll need to develop a new Plan B. Your Plan Z might also change as your lifestyle and responsibilities grow.",
+    "description": "You've successfully pivoted to your Plan B (Digital Marketing). What should you do now regarding your planning?",
+    "options": [
+      "Stop planning; you've arrived at your destination",
+      "Make Digital Marketing your new Plan A and start identifying a new Plan B",
+      "Go back to your old Plan A just in case",
+      "Delete your Plan Z because you are now successful"
+    ],
+    "answer": "Make Digital Marketing your new Plan A and start identifying a new Plan B",
+    "explanation": "Career management is an infinite loop. Once a pivot is successful, it becomes the new baseline, and the process of looking for the next 'Beta' begins."
+  }
+]

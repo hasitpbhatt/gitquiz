@@ -1,1 +1,132 @@
-
+[
+  {
+    "question": "The Concept of Permanent Beta",
+    "content": "In the tech world, 'beta' refers to software that is nearly finished but still being tested. 'Permanent Beta' is a mindset that applies this to your career, suggesting that you should never consider yourself a finished product, but rather a constant work-in-progress regardless of your success.",
+    "description": "You have just received a glowing annual performance review and a promotion. If you are practicing the 'Permanent Beta' mindset, what is your next logical step?",
+    "options": [
+      "Celebrate your mastery and shift your focus to maintaining the status quo",
+      "Update your skills and seek out a new challenge that you haven't mastered yet",
+      "Stop taking professional development courses since you have reached the top tier",
+      "Wait for your manager to tell you what the next goal should be"
+    ],
+    "answer": "Update your skills and seek out a new challenge that you haven't mastered yet",
+    "explanation": "Permanent Beta means you are always starting. Achieving a goal is simply a platform to begin the next phase of learning and growth."
+  },
+  {
+    "question": "Why Finished is Risky",
+    "content": "The 'Startup of You' argues that the moment you think you are 'finished' or 'done' with your education and growth is the moment you become vulnerable. In a rapidly changing economy, a fixed mindset leads to obsolescence because the market moves faster than a static career.",
+    "description": "A long-tenured employee at a traditional firm believes that their 20 years of experience exempts them from learning new digital tools. What is the primary risk of this 'finished' mindset?",
+    "options": [
+      "They will be given more responsibility because they are reliable",
+      "They will become a 'fossil' whose skills no longer match the evolving needs of the company",
+      "Their salary will automatically increase due to seniority",
+      "They will be better protected from economic downturns"
+    ],
+    "answer": "They will become a 'fossil' whose skills no longer match the evolving needs of the company",
+    "explanation": "If you aren't growing, you are rotting. The 'finished' mindset ignores the fact that the world around you is constantly changing."
+  },
+  {
+    "question": "Adaptability Over Stability",
+    "content": "Historically, career success was about stability and climbing a pre-defined ladder. Today, success is about adaptability. Being like a startup means being nimble enough to change direction when the 'market' of your industry shifts.",
+    "description": "The industry you work in is being disrupted by automation. You have a stable job but see the writing on the wall. What is the most 'startup-like' response?",
+    "options": [
+      "Ignore the news and hope your specific role is spared",
+      "Complain to management about the changes and demand job security",
+      "Proactively research adjacent industries where your skills can be adapted to new technology",
+      "Do exactly what you have always done to prove your loyalty"
+    ],
+    "answer": "Proactively research adjacent industries where your skills can be adapted to new technology",
+    "explanation": "Adaptability requires looking ahead and being willing to move before you are forced to move."
+  },
+  {
+    "question": "The Fallacy of the 10-Year Plan",
+    "content": "While having goals is important, the traditional 10-year career plan is often a fantasy because the world changes too much in a decade. Instead, entrepreneurs focus on flexible, shorter-term iterations that allow for pivot points based on real-world feedback.",
+    "description": "A student is stressed because they don't know exactly what they want to do in 10 years. According to Chapter 1, what advice would be most helpful?",
+    "options": [
+      "Pick one path and stick to it no matter what happens",
+      "Focus on gaining 'foundational' skills and exploring opportunities that exist right now",
+      "Don't start working until you have a perfect long-term plan",
+      "Follow the exact career path of a successful relative from 30 years ago"
+    ],
+    "answer": "Focus on gaining 'foundational' skills and exploring opportunities that exist right now",
+    "explanation": "Focusing on the present and near-future allows you to gather data and adjust your path as you learn more about yourself and the market."
+  },
+  {
+    "question": "Investing in Yourself",
+    "content": "Startups invest in R&D (Research and Development) to stay ahead. In the Startup of You, you are the product, and your R&D is your personal learning. This involves spending time and money to acquire new knowledge even when it's not immediately required by your boss.",
+    "description": "You have an extra $500 and a free weekend. Which choice represents the best 'R&D' investment for your career?",
+    "options": [
+      "Buying a new suit to look more professional",
+      "Putting the money in a standard savings account for retirement",
+      "Taking an intensive workshop on an emerging skill in your field",
+      "Spending it on an expensive dinner to network with people you already know"
+    ],
+    "answer": "Taking an intensive workshop on an emerging skill in your field",
+    "explanation": "R&D is about increasing your 'inventory' of skills and knowledge to stay competitive in the future."
+  },
+  {
+    "question": "The Entrepreneurial Mindset",
+    "content": "Being entrepreneurial isn't just about starting companies; it's a way of approaching problems. It involves seeing opportunities where others see obstacles and being willing to take calculated risks to create value.",
+    "description": "Your department’s budget has been cut, and a project is stalled. How does someone with an entrepreneurial mindset react?",
+    "options": [
+      "They wait for the budget to be restored before doing any more work",
+      "They look for creative, low-cost ways to achieve the project goals or find internal partners to share the cost",
+      "They blame the finance department for the project's failure",
+      "They quit immediately because they don't have enough resources"
+    ],
+    "answer": "They look for creative, low-cost ways to achieve the project goals or find internal partners to share the cost",
+    "explanation": "Entrepreneurs are resourceful. They focus on how to move forward with what they have rather than focusing on what they lack."
+  },
+  {
+    "question": "Continuous Learning as a Habit",
+    "content": "In Permanent Beta, learning is not an event that ends at graduation; it is a daily habit. This includes reading, talking to experts, and experimenting with new ways of working to keep your 'intellectual curiosity' sharp.",
+    "description": "Which of these daily routines best aligns with the habit of continuous learning?",
+    "options": [
+      "Checking your email as soon as you wake up to stay on top of tasks",
+      "Spending 30 minutes reading industry news or a non-fiction book related to your field",
+      "Focusing only on the tasks your manager assigned for that day",
+      "Taking a nap during your lunch break to stay refreshed"
+    ],
+    "answer": "Spending 30 minutes reading industry news or a non-fiction book related to your field",
+    "explanation": "Continuous learning requires intentional time set aside to ingest new information outside of your immediate daily tasks."
+  },
+  {
+    "question": "Feedback Loops",
+    "content": "Startups rely on 'user feedback' to improve. In your career, you need feedback loops to know if your Plan A is working. This means actively seeking criticism and data to adjust your performance in real-time.",
+    "description": "You've launched a new internal process at work. It’s not going as well as you hoped. What should you do next?",
+    "options": [
+      "Hide the negative results so you don't look bad",
+      "Interview the people using the process to find out exactly where the friction is",
+      "Keep pushing the process until people get used to it",
+      "Abandon the project immediately and try something completely different"
+    ],
+    "answer": "Interview the people using the process to find out exactly where the friction is",
+    "explanation": "Getting direct feedback allows you to make precise adjustments, which is the core of the 'beta' testing phase."
+  },
+  {
+    "question": "Ownership of Career",
+    "content": "Chapter 1 emphasizes that nobody else—not your boss, your company, or the government—is responsible for your career. You are the 'founder' and CEO of your own life, and you must take full ownership of your trajectory.",
+    "description": "Your company no longer offers the training program you were interested in. If you own your career, what do you do?",
+    "options": [
+      "Accept that you will never learn that skill",
+      "Lobby the company every day until they bring the program back",
+      "Find an online course or a mentor outside the company to teach you that skill on your own time",
+      "Assume that since the company doesn't offer it, the skill must not be important"
+    ],
+    "answer": "Find an online course or a mentor outside the company to teach you that skill on your own time",
+    "explanation": "Taking ownership means finding a way to get what you need for your growth, regardless of what your employer provides."
+  },
+  {
+    "question": "The Power of Small Experiments",
+    "content": "Instead of making one massive, risky bet, startups run small experiments to see what works. In your career, this might mean taking on a side project or a 'pro bono' task to test a new career direction before making a full jump.",
+    "description": "You are considering a career change from Finance to Graphic Design. What is the most 'Permanent Beta' way to test this?",
+    "options": [
+      "Quit your finance job and enroll in a 4-year design degree",
+      "Design a logo for a friend’s small business on the weekend to see if you enjoy the work and the feedback process",
+      "Read one blog post about design and decide it's your life's calling",
+      "Ask your boss for a raise so you can afford design school later"
+    ],
+    "answer": "Design a logo for a friend’s small business on the weekend to see if you enjoy the work and the feedback process",
+    "explanation": "A small experiment provides real-world data with low risk, helping you decide if a larger 'pivot' is actually worth it."
+  }
+]
