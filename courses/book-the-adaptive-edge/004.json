@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Goal of Diagnosis (Self)",
+    "content": "In Chapter 4, 'Diagnosing the Self,' the focus shifts from the organization to the individual leader. You cannot diagnose a system objectively if you don't understand your own triggers, biases, and 'blind spots.' Being an adaptive leader requires you to treat yourself as a 'system' with its own default settings and vulnerabilities.",
+    "description": "You find yourself feeling extremely defensive every time a subordinate questions your strategy. Instead of blaming the subordinate, how should you approach this from a 'Diagnosing the Self' perspective?",
+    "options": [
+      "Assume the subordinate is being disrespectful and needs a formal warning.",
+      "Analyze your own need for 'expert status' and why being questioned feels like a personal threat.",
+      "Ignore the feeling and focus on proving why your strategy is technically superior.",
+      "Ask a peer to tell the subordinate to stop questioning you in public."
+    ],
+    "answer": "Analyze your own need for 'expert status' and why being questioned feels like a personal threat.",
+    "explanation": "Diagnosing the self means looking inward to understand your emotional reactions. Defensiveness usually signals a 'hunger' or a fear that is being triggered by the external environment."
+  },
+  {
+    "question": "Identifying Your 'Hungers'",
+    "content": "Everyone has 'hungers'—natural human needs for power, affirmation, control, or importance. In leadership, these hungers become dangerous when they are 'un-managed,' as the system can use them to manipulate you or keep you from doing difficult adaptive work.",
+    "description": "You have a deep hunger for 'affirmation' (to be liked by everyone). How might this specifically sabotage your ability to lead an adaptive change?",
+    "options": [
+      "It will make you a more empathetic and effective communicator.",
+      "It might stop you from raising 'the heat' or making unpopular decisions necessary for growth.",
+      "It will ensure that the holding environment remains calm and productive.",
+      "It will lead to higher employee retention because everyone feels happy."
+    ],
+    "answer": "It might stop you from raising 'the heat' or making unpopular decisions necessary for growth.",
+    "explanation": "If you need to be liked, you will avoid the 'disequilibrium' required for adaptation. Adaptive leadership often requires making people uncomfortable, which is the opposite of seeking affirmation."
+  },
+  {
+    "question": "Understanding Your 'Tuning'",
+    "content": "Your 'tuning' consists of the childhood experiences, values, and cultural background that shape how you hear and react to the world. Just like a musical instrument, you are 'tuned' to vibrate in response to certain frequencies (topics or behaviors) while ignoring others.",
+    "description": "You grew up in a household where conflict was seen as dangerous. Now, as a CEO, you notice you subconsciously shut down meetings as soon as the tone gets heated. This is an example of:",
+    "options": [
+      "A professional preference for calm environments.",
+      "Your personal 'tuning' dictating how you manage the organizational 'heat.'",
+      "Effective regulation of the productive zone of disequilibrium.",
+      "A technical approach to conflict resolution."
+    ],
+    "answer": "Your personal 'tuning' dictating how you manage the organizational 'heat.'",
+    "explanation": "Your tuning determines your 'comfort zone.' In this case, your past makes you interpret productive tension as 'danger,' causing you to prematurely lower the heat."
+  },
+  {
+    "question": "Distinguishing Self from Role",
+    "content": "One of the most important survival skills in leadership is the ability to distinguish your 'self' from your 'role.' When people attack your initiative, they are usually attacking the 'role' you represent in the system, not you as a human being.",
+    "description": "A group of employees starts a protest against a policy you implemented. You feel deeply hurt and personally insulted. What is the adaptive leadership advice for this situation?",
+    "options": [
+      "Remind yourself that they are attacking the 'agent of change' (the role), not your personal character.",
+      "Defend your character publicly to ensure they know you are a good person.",
+      "Resign from the position because the personal cost is becoming too high.",
+      "Identify the ringleader of the protest and move them to a different department."
+    ],
+    "answer": "Remind yourself that they are attacking the 'agent of change' (the role), not your personal character.",
+    "explanation": "If you take it personally, you become defensive and lose your 'balcony' perspective. Distinguishing 'self from role' allows you to stay focused on the work despite the heat."
+  },
+  {
+    "question": "Knowing Your 'Scope of Authority'",
+    "content": "You must understand the limits of your 'formal' and 'informal' authority. Formal authority is your job description; informal authority is the trust and influence you've built. Leading 'beyond' your authority is where adaptive work usually happens, but it is also where the risk is highest.",
+    "description": "You are the Marketing Director, but you start suggesting radical changes to the Manufacturing process. What should you be aware of regarding your authority?",
+    "options": [
+      "You have high formal authority in Manufacturing because you are a Director.",
+      "You are working outside your formal authority and must rely entirely on your informal influence and trust.",
+      "Manufacturing must follow your lead because all departments are interconnected.",
+      "You should wait until you are promoted to VP before making suggestions to other departments."
+    ],
+    "answer": "You are working outside your formal authority and must rely entirely on your informal influence and trust.",
+    "explanation": "When you step outside your 'lane,' you no longer have the protection of your title. You must be aware that you are now 'leading' in a way that the system might try to reject."
+  },
+  {
+    "question": "The 'Holding Environment' for Yourself",
+    "content": "Leading adaptive change is exhausting. Just as the organization needs a 'holding environment,' you need one for yourself—a place or a group of people where you can vent, reflect, and recharge without being 'the leader.'",
+    "description": "You find a 'confidant'—someone outside the organization who listens to your struggles but doesn't have a stake in the company. What is the purpose of this relationship?",
+    "output": "options": [
+      "To find a new job through networking.",
+      "To create a personal holding environment where you can process the 'heat' of leadership.",
+      "To get technical advice on how to fix the company's financial problems.",
+      "To have someone who will always agree with your decisions."
+    ],
+    "answer": "To create a personal holding environment where you can process the 'heat' of leadership.",
+    "explanation": "A confidant provides the emotional safety needed to stay in the game. Without a personal holding environment, leaders often burn out or act out their frustrations destructively."
+  },
+  {
+    "question": "Integrating Your 'Shadow' Side",
+    "content": "Your 'shadow' consists of the parts of yourself you try to hide—anger, ambition, or insecurity. Adaptive leadership requires acknowledging these traits so they don't drive your actions from the 'subconscious.'",
+    "description": "You realize that your drive to 'win' every argument comes from an old insecurity about being seen as unintelligent. By acknowledging this, you are:",
+    "options": [
+      "Making yourself vulnerable to your enemies.",
+      "Integrating your shadow so you can choose a more adaptive response in the future.",
+      "Admitting that you are technically unqualified for leadership.",
+      "Focusing too much on the past instead of the future."
+    ],
+    "answer": "Integrating your shadow so you can choose a more adaptive response in the future.",
+    "explanation": "Self-awareness is power. Once you know 'why' you behave a certain way, you are no longer a slave to that impulse and can act in the interest of the challenge instead."
+  },
+  {
+    "question": "Listening as a Diagnostic Tool",
+    "content": "To diagnose yourself, you must listen to the 'feedback' the system is giving you—especially the feedback that hurts. The criticisms that make you the most angry are often the ones that contain a 'kernel of truth' about your leadership style.",
+    "description": "A peer tells you that you 'suck all the air out of the room' during meetings. Your first instinct is to get angry. What is the diagnostic move?",
+    "options": [
+      "Analyze the feedback to see if your 'hunger for control' is indeed preventing others from contributing.",
+      "Stop speaking entirely in meetings to show them how much they need you.",
+      "Report the peer to HR for creating a hostile work environment.",
+      "Explain to the peer that you only talk because no one else has good ideas."
+    ],
+    "answer": "Analyze the feedback to see if your 'hunger for control' is indeed preventing others from contributing.",
+    "explanation": "Using 'painful' feedback as a diagnostic tool allows you to adjust your behavior to be more effective. It’s about using the system's reaction to 'tune' your own leadership instrument."
+  },
+  {
+    "question": "The Temptation of the 'Savior' Complex",
+    "content": "A common trap for leaders is the 'Savior Complex'—the belief that only *you* can fix the problem. This is often a way to satisfy a hunger for importance, but it actually disempowers the group and prevents them from doing their own adaptive work.",
+    "description": "Your team is struggling with a difficult client. You step in, take over the account, and tell the team to 'just watch me work.' What is the primary risk here?",
+    "options": [
+      "The client will be so impressed they will only want to work with you.",
+      "You are satisfying your own 'hunger' while failing to build the team's adaptive capacity.",
+      "The team will appreciate the break from the difficult work.",
+      "There is no risk; a leader's job is to protect their team from all stress."
+    ],
+    "answer": "You are satisfying your own 'hunger' while failing to build the team's adaptive capacity.",
+    "explanation": "While 'saving' the day feels good (satisfying a hunger), it prevents the team from learning how to handle difficult clients themselves, which is the actual adaptive challenge."
+  },
+  {
+    "question": "Staying Reflective in Action",
+    "content": "The ultimate goal of diagnosing the self is to achieve 'mindfulness'—the ability to observe your own internal reactions *while* you are in the heat of the moment. This allows you to pause and choose an adaptive intervention rather than a reflexive one.",
+    "description": "During a board meeting, you feel your heart rate increase and your jaw clench after a criticism. Instead of snapping back, you take a breath and think, 'Ah, my tuning for protection is being triggered.' This is called:",
+    "options": [
+      "Emotional suppression.",
+      "Reflection-in-action.",
+      "Technical avoidance.",
+      "Giving the work back."
+    ],
+    "answer": "Reflection-in-action.",
+    "explanation": "Reflection-in-action is the 'balcony' view of your own internal state. It gives you the split-second of freedom needed to lead rather than just react."
+  }
+]

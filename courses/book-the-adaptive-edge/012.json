@@ -1,0 +1,132 @@
+[
+  {
+    "question": "The Danger of Misinterpretation",
+    "content": "In Chapter 12, 'Common Traps,' we learn that leaders often fail because they treat adaptive challenges as technical problems. This is the most common trap because technical fixes (like restructuring or hiring a consultant) provide immediate, albeit temporary, relief from the 'heat' of a deep cultural issue.",
+    "description": "Your company culture is toxic and lacks trust. You decide to host a one-day 'Fun Team Building' retreat at a bowling alley to fix the vibe. Why is this likely a trap?",
+    "options": [
+      "Because bowling is an outdated activity that most employees will find boring.",
+      "Because it applies a technical solution (an event) to an adaptive challenge (toxic culture).",
+      "Because it doesn't involve enough high-level strategy and financial planning.",
+      "Because you didn't hire a professional facilitator to lead the bowling session."
+    ],
+    "answer": "Because it applies a technical solution (an event) to an adaptive challenge (toxic culture).",
+    "explanation": "A retreat is a technical fix. It provides a 'break' from the tension, but it doesn't address the underlying beliefs, behaviors, or power dynamics that created the toxicity in the first place."
+  },
+  {
+    "question": "The 'Hero' Trap",
+    "content": "Authority figures often feel a heavy pressure to be the 'hero' who saves the day. While being the hero feels good for the leader’s ego, it is a trap because it prevents the system from doing its own work. If you save them today, they will be just as helpless when the next challenge arrives.",
+    "description": "A project is failing and the team is panicked. You step in, work through the night, and complete the project yourself. What have you reinforced in the system?",
+    "options": [
+      "A culture of excellence and high performance.",
+      "A dependency on you as the 'hero,' which weakens the team's adaptive capacity.",
+      "A technical standard for how work should be completed in a crisis.",
+      "The importance of the 'holding environment' you created."
+    ],
+    "answer": "A dependency on you as the 'hero,' which weakens the team's adaptive capacity.",
+    "explanation": "By 'saving' the team, you've taught them that they don't need to adapt or learn new skills—they just need to wait for you to take over when things get hard."
+  },
+  {
+    "question": "The Diversion Trap",
+    "content": "A system will often try to divert a leader's attention toward 'side-shows'—minor interpersonal drama or technical glitches—to avoid the primary adaptive challenge. Falling into this trap means wasting your limited energy on things that don't actually move the needle.",
+    "description": "You are trying to implement a radical new strategy. Suddenly, the board of directors wants to spend three meetings discussing the 'unprofessional' tone of your internal Slack channels. This is:",
+    "options": [
+      "An essential check on organizational professionalism.",
+      "A systemic diversion to avoid the difficult conversation about the new strategy.",
+      "A sign that the productive zone of disequilibrium is too low.",
+      "A technical requirement for HR compliance."
+    ],
+    "answer": "A systemic 'diversion' to avoid the difficult conversation about the new strategy.",
+    "explanation": "Systems create 'drama' to lower the heat. By focusing on 'tone' instead of 'strategy,' the board avoids the loss and uncertainty associated with the real adaptive work."
+  },
+  {
+    "question": "The 'Seduction' Trap",
+    "content": "Leaders can be 'seduced' by the system through praise and affirmation. If you only move when people applaud you, you are no longer leading—you are following the group’s desire for comfort. To lead adaptively, you must be willing to be the most unpopular person in the room.",
+    "description": "You stop pursuing a necessary but painful reorganization because you want to win the 'Manager of the Year' award, which is decided by an employee vote. You have fallen into:",
+    "options": [
+      "A professional networking opportunity.",
+      "The 'Seduction' trap, where the desire for affirmation overrides the work.",
+      "A healthy balancing of employee needs and company goals.",
+      "The practice of 'leading with an open heart.'"
+    ],
+    "answer": "The 'Seduction' trap, where the desire for affirmation overrides the work.",
+    "explanation": "Leadership often requires causing 'distress.' If your primary goal is to be liked (affirmation), you will reflexively lower the heat whenever the work gets difficult."
+  },
+  {
+    "question": "Misidentifying the 'DNA'",
+    "content": "A trap in the 'conserving' stage of adaptation is misidentifying what is truly essential DNA. Sometimes leaders protect things that are just 'traditions' (habits) rather than 'values.' This keeps the organization anchored in the past when it needs to be sailing into the future.",
+    "description": "You refuse to move to digital records because 'we have always been a paper-first company.' Is this a valid conservation of DNA?",
+    "options": [
+      "Yes, because consistency is a core value of successful systems.",
+      "No, you are likely protecting an outdated habit rather than a core value like 'accuracy' or 'security.'",
+      "Yes, because paper is technically more reliable than digital servers.",
+      "No, because adaptation means discarding everything from the past."
+    ],
+    "answer": "No, you are likely protecting an outdated habit rather than a core value like 'accuracy' or 'security.'",
+    "explanation": "DNA conservation is about protecting the *purpose* (e.g., accuracy), not the *tool* (e.g., paper). Protecting the tool is a trap that leads to obsolescence."
+  },
+  {
+    "question": "The 'Expert' Trap",
+    "content": "Being an 'expert' is a trap in adaptive work. If you act like you have the answer, people will stop looking for one. Adaptive leadership requires 'knowing what you don't know' and being comfortable in the space of uncertainty so that the group's collective intelligence can surface.",
+    "description": "You are the most experienced person in the room. When a complex problem arises, you say: 'I have some ideas, but I'm honestly not sure what the best path is. What do you all see?' You are avoiding:",
+    "options": [
+      "The 'Expert' trap by modeling humility and inviting group work.",
+      "The 'Hero' trap by delegating your technical responsibilities.",
+      "Your duty as an authority figure to provide direction.",
+      "A personal conflict with other senior staff."
+    ],
+    "answer": "The 'Expert' trap by modeling humility and inviting group work.",
+    "explanation": "By admitting uncertainty, you prevent the team from 'leaning' on your expertise and force them to engage in the adaptive struggle themselves."
+  },
+  {
+    "question": "The Marginalization Trap",
+    "content": "The system will often try to 'marginalize' a leader by labeling them as 'too radical,' 'out of touch,' or 'too emotional.' If you allow yourself to be isolated in this way, you lose your ability to influence the center of the organization.",
+    "description": "After you suggest a major change, the other executives start 'forgetting' to invite you to informal lunches. To avoid the marginalization trap, you should:",
+    "options": [
+      "Accept the isolation as the price of being a visionary leader.",
+      "Actively rebuild your 'informal' connections to stay tethered to the center of power.",
+      "Report them to HR for exclusionary behavior.",
+      "Start your own lunch group with the junior employees who support your ideas."
+    ],
+    "answer": "Actively rebuild your 'informal' connections to stay tethered to the center of power.",
+    "explanation": "To lead, you must stay 'in' the system. If you allow yourself to be marginalized, the system successfully 'neutralizes' your message by disconnecting the 'messenger.'"
+  },
+  {
+    "question": "The 'Holding Environment' Leak",
+    "content": "A trap in orchestration is letting the 'heat' leak out of the holding environment too early. This happens when a leader sees the tension getting high and makes a joke, changes the subject, or offers a premature compromise just to stop the discomfort.",
+    "description": "In a meeting, two VPs are finally being honest about their mutual distrust. The silence is heavy. You feel tempted to say, 'Well, at least we all agree on the coffee brand!' This is an example of:",
+    "options": [
+      "Using humor to build a better team culture.",
+      "A 'leak' in the holding environment that allows people to escape the work.",
+      "A technical intervention to lower the heat to the productive zone.",
+      "An act of 'leading with an open heart.'"
+    ],
+    "answer": "A 'leak' in the holding environment that allows people to escape the work.",
+    "explanation": "A joke in a high-tension moment is often a 'safety valve.' While it feels better, it stops the adaptive process right when it was getting to the 'deep' work."
+  },
+  {
+    "question": "The Shadow Trap",
+    "content": "The 'Shadow' trap occurs when a leader’s own unexamined insecurities drive their leadership decisions. For example, a leader who fears being seen as 'weak' may act overly aggressive, causing the system to shut down in panic rather than adapt.",
+    "description": "You find yourself constantly 'barking' orders at a team you don't trust. Upon self-diagnosis, you realize this comes from a fear that *you* aren't being respected. This is:",
+    "options": [
+      "A technical management style that works in high-pressure environments.",
+      "The 'Shadow' trap where your personal insecurity is sabotaging the work.",
+      "A default response designed to increase the productive disequilibrium.",
+      "An example of 'getting on the balcony' of your own behavior."
+    ],
+    "answer": "The 'Shadow' trap where your personal insecurity is sabotaging the work.",
+    "explanation": "When your internal 'tuning' (fear of disrespect) drives your external actions (barking orders), you aren't leading the challenge; you're just reacting to your own shadow."
+  },
+  {
+    "question": "The 'Savior' Projection",
+    "content": "Systems love to project the role of 'Savior' onto a leader because it relieves the system of any responsibility for change. If you accept this projection, you become the 'lightning rod' for all future failures when the technical 'miracles' don't happen.",
+    "description": "The CEO tells the whole company, 'This new hire will single-handedly fix our revenue problems.' As that new hire, how do you avoid the savior trap?",
+    "options": [
+      "Work 100 hours a week to ensure you live up to the CEO's high expectations.",
+      "Immediately publicly clarify: 'I am here to facilitate the work, but the revenue solution must come from all of us.'",
+      "Accept the praise and use it to negotiate a higher salary and more authority.",
+      "Ignore the comment and focus on your technical tasks."
+    ],
+    "answer": "Immediately publicly clarify: 'I am here to facilitate the work, but the revenue solution must come from all of us.'",
+    "explanation": "By 'giving the work back' immediately, you reject the 'Savior' projection. This forces the company to realize that they are the ones who must adapt to fix the revenue."
+  }
+]
