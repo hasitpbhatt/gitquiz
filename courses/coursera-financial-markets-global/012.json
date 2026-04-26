@@ -18,7 +18,7 @@
     "description": "If the S&P 500 rises by 10%, and a specific 'High-Beta' stock with a Beta of 2.0 moves as expected, how much should that stock's price increase?",
     "options": ["5%", "10%", "20%", "2%"],
     "answer": "20%",
-    "explanation": "A Beta of 2.0 means the stock is twice as sensitive to market movements. If the market goes up 10%, the stock is expected to move 20% (10% × 2.0)."
+    "explanation": "A Beta of 2.0 means the stock is twice as sensitive to market movements. If the market goes up 10%, the stock is expected to move 20% (10% x 2.0)."
   },
   {
     "question": "The Capital Asset Pricing Model (CAPM)",
@@ -81,7 +81,7 @@
     "description": "If a safe government bond pays 3% and the stock market is expected to return 8%, what is the Equity Risk Premium?",
     "options": ["11%", "8%", "5%", "3%"],
     "answer": "5%",
-    "explanation": "The premium is the difference between the risky return and the risk-free return ($8\% - 3\% = 5\%$). It represents the 'bonus' you get for taking a risk."
+    "explanation": "The premium is the difference between the risky return and the risk-free return (8% - 3% = 5%). It represents the 'bonus' you get for taking a risk."
   },
   {
     "question": "The Role of Asset Allocation",
