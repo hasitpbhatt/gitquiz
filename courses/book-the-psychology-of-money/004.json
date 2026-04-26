@@ -1,0 +1,82 @@
+[
+  {
+    "question": "The Unintuitive Nature of Math",
+    "content": "Compounding is not intuitive because our brains think in linear terms (2 + 2 + 2) rather than exponential terms (2 * 2 * 2). Small changes in time or interest rates lead to massive, unexpected results over the long run.",
+    "description": "If you double a penny every day for 31 days, you end up with over $10 million. Why is this concept so difficult for most investors to grasp in practice?",
+    "options": ["Because the growth is invisible and slow in the early stages", "Because the math is factually incorrect for small amounts", "Because pennies are no longer relevant in modern finance", "Because doubling your money daily is a common linear task"],
+    "answer": "Because the growth is invisible and slow in the early stages",
+    "explanation": "In the beginning, compounding looks like nothing is happening. It takes a long time for the exponential curve to 'turn the corner' and become vertical."
+  },
+  {
+    "question": "The Warren Buffett Secret",
+    "content": "Warren Buffett is often cited as the greatest investor ever, but his real 'secret' is time. He started investing seriously at age 10; if he had started at 30 and retired at 60, he would be worth a fraction of what he is today.",
+    "description": "What is the most significant factor in Buffett's $80+ billion fortune according to Chapter 4?",
+    "options": ["His superior ability to pick tech stocks", "The fact that he has been investing for over 75 years", "His high-frequency trading algorithms", "His refusal to pay taxes"],
+    "answer": "The fact that he has been investing for over 75 years",
+    "explanation": "Over 90% of Buffett's wealth was accumulated after his 65th birthday. His skill is investing, but his secret is time."
+  },
+  {
+    "question": "The Ice Age Analogy",
+    "content": "Geologists discovered that Ice Ages aren't caused by exceptionally cold winters, but rather by cool summers where the snow from the previous winter never melts. This small amount of leftover snow compounds over centuries into massive glaciers.",
+    "description": "How does the 'cool summer' analogy apply to your personal savings?",
+    "options": ["You should only save money during the summer months", "Small, consistent savings that never 'melt away' lead to massive wealth over time", "You need a massive 'winter' of income to start building wealth", "Savings are like ice; they eventually disappear due to inflation"],
+    "answer": "Small, consistent savings that never 'melt away' lead to massive wealth over time",
+    "explanation": "Success comes from not interrupting the compounding process. Keeping what you have allows the next layer of growth to build on top of the old one."
+  },
+  {
+    "question": "The Price of Interruption",
+    "content": "The first rule of compounding is to never interrupt it unnecessarily. Moving money in and out of the market to 'time' the perfect entry often resets the compounding clock.",
+    "description": "An investor sells their stocks every time the news predicts a recession, then buys back in later. What is the primary 'compounding cost' of this behavior?",
+    "options": ["They pay too many transaction fees", "They interrupt the exponential growth curve", "They make the market more volatile for everyone else", "There is no cost if they buy back at a lower price"],
+    "answer": "They interrupt the exponential growth curve",
+    "explanation": "Compounding relies on the 'snowball effect.' Every time you sell, you are essentially melting part of your snowball and starting the growth process over."
+  },
+  {
+    "question": "Time vs. Returns",
+    "content": "A mediocre return sustained for a very long time will always beat a spectacular return sustained for a short period. Consistency is more powerful than intensity.",
+    "description": "Investor A gets a 20% return for 10 years. Investor B gets an 8% return for 50 years. Who ends up with significantly more money?",
+    "options": ["Investor A, because 20% is more than double 8%", "Investor B, because the extra 40 years of compounding creates massive growth", "They will have the same amount because the math balances out", "Investor A, because they can retire sooner"],
+    "answer": "Investor B, because the extra 40 years of compounding creates massive growth",
+    "explanation": "Compounding is heavily weighted toward the end of the time period. The longer you stay invested, the more 'explosive' the dollar growth becomes."
+  },
+  {
+    "question": "The 8.1% Difference",
+    "content": "Small differences in annual returns become enormous over decades. However, people often focus on the 'return' and ignore the 'time' because the return is more exciting to talk about.",
+    "description": "Why does Housel say that 'Good investing is not necessarily about making the highest returns'?",
+    "options": ["Because high returns are illegal in most countries", "Because the highest returns are usually one-off events that can't be sustained", "Because you should focus on returns that you can earn for the longest period of time", "Because returns don't matter as much as how much you earn at your job"],
+    "answer": "Because you should focus on returns that you can earn for the longest period of time",
+    "explanation": "A return you can stick with through thick and thin (like 7%) is better than a 20% return that causes you to panic and sell when things get volatile."
+  },
+  {
+    "question": "Exponential vs. Linear Growth",
+    "content": "Linear growth is adding the same amount every time (10, 20, 30). Exponential growth is multiplying by the same amount (10, 20, 40, 80).",
+    "description": "If you are in the 10th year of a 40-year investment plan, how should you feel about your relatively small account balance?",
+    "options": ["Discouraged, because you are 25% through the time but haven't made much money", "Patient, because the vast majority of your gains will occur in the final decade", "Worried, because you probably picked the wrong investments", "Happy, because you can stop saving now and still reach your goal"],
+    "answer": "Patient, because the vast majority of your gains will occur in the final decade",
+    "explanation": "In compounding, the 'tail' (the end) does all the heavy lifting. The first 10 years are just the foundation for the explosion that happens later."
+  },
+  {
+    "question": "The Problem with Experts",
+    "content": "Most financial experts focus on what the market will do next month or next year. Almost no one focuses on what will happen if you just stay put for 50 years.",
+    "description": "Why is 'long-term thinking' so rare in the financial industry?",
+    "options": ["It's boring and doesn't sell news or generate trading commissions", "It's mathematically impossible to predict 50 years into the future", "Short-term trading is the only way to beat inflation", "Long-term investors don't need financial experts"],
+    "answer": "It's boring and doesn't sell news or generate trading commissions",
+    "explanation": "Compounding is like watching grass grow. It's highly effective but not exciting, which leads people to seek 'faster' (and riskier) strategies."
+  },
+  {
+    "question": "The 'Tail' of the Snowball",
+    "content": "The biggest gains in a compounding system always come at the very end. This is why staying 'in the game' is the most important skill in investing.",
+    "description": "What is the primary reason people fail to benefit from compounding?",
+    "options": ["They don't have enough starting capital", "They don't understand how to read stock charts", "They quit or change strategies before the 'tail' of the curve is reached", "The stock market is rigged against small investors"],
+    "answer": "They quit or change strategies before the 'tail' of the curve is reached",
+    "explanation": "Most people give up when they don't see massive results in the first few years, not realizing they were just a few years away from the vertical part of the curve."
+  },
+  {
+    "question": "Compounding in Non-Financial Areas",
+    "content": "The concept of compounding applies to relationships, skills, and reputation. Doing something 1% better every day results in being 37 times better by the end of a year.",
+    "description": "Based on the book's logic, what is the best way to become an 'expert' in a soft skill?",
+    "options": ["Take a one-week intensive 'bootcamp'", "Consistently practice and learn every day over many years", "Read a single book and apply it perfectly once", "Wait for a lucky break to show off your talent"],
+    "answer": "Consistently practice and learn every day over many years",
+    "explanation": "Just like money, skills and trust compound over time. The 'overnight success' is usually the result of 20 years of compounding effort."
+  }
+]
