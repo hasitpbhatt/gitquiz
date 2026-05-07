@@ -1,132 +1,132 @@
 [
   {
-    "question": "The Determinants of Power",
-    "content": "To understand why empires rise and fall, we look at 'Determinants'—measurable indicators of a nation's health. The most critical leading indicator is Education, which builds the foundation for Innovation and Technology. This eventually leads to a greater share of World Trade and, finally, the establishment of a Reserve Currency. These factors typically peak at different times, creating a predictable sequence.",
-    "description": "If you are a global investor looking for the 'next big empire' before it's obvious to the world, which indicator should you prioritize based on Dalio's sequence?",
+    "question": "Implicit vs. Explicit AI",
+    "content": "A company can use AI 'explicitly' by reorganizing its entire structure around it, or 'implicitly' by using it as a background tool to enhance current tasks. Naval suggests that even without a formal AI-centric org chart, AI acts as a powerful internal search engine and data analyst that can recreate business insights on the fly.",
+    "description": "Naval mentions that AI can 'recreate dashboards on demand.' How does this replace traditional business integration systems?",
     "options": [
-      "Military Strength, because power starts with force.",
-      "Reserve Currency Status, because it shows who has the most money.",
-      "Education and Innovation, because they are the earliest leading indicators.",
-      "Equity Markets, because they reflect current profits."
+      "It requires a team of data scientists to manually code every new chart.",
+      "The AI can perform real-time data analysis and generate reports without pre-built dashboards.",
+      "It automatically deletes old data to save space on company servers.",
+      "It forces the CEO to learn how to use complex SQL databases."
     ],
-    "answer": "Education and Innovation, because they are the earliest leading indicators.",
-    "explanation": "Education is the first determinant to rise. It produces the thinkers and creators who drive innovation, which eventually builds the economic and military power that follows much later."
+    "answer": "The AI can perform real-time data analysis and generate reports without pre-built dashboards.",
+    "explanation": "Implicit AI can dig through company data and 'update dashboards on demand,' meaning you don't need to maintain static, pre-built business integration systems."
   },
   {
-    "question": "The Rise Phase: Virtuous Cycles",
-    "content": "The 'Rise' of a new order usually follows a period of conflict that clearly establishes who the dominant power is. This phase is characterized by low debt, strong productivity, and a collective sense of purpose. People work hard, save money, and build the systems (institutions) that will support growth for decades.",
-    "description": "Which of the following behaviors is most characteristic of a nation in the early 'Rise' phase of the Big Cycle?",
+    "question": "AI for Code and Paper Summarization",
+    "content": "One of the most practical 'implicit' uses of AI is reducing the time it takes to digest complex information. AI can read thousands of lines of code or dense academic papers and provide a high-level summary, allowing team members to understand work produced by others almost instantly.",
+    "description": "According to Naval, how does AI help a team member deal with a codebase written by someone else?",
     "options": [
-      "Heavy government spending on social safety nets using borrowed money.",
-      "High rates of investment in infrastructure and productive assets.",
-      "A shift toward a service economy with declining manufacturing.",
-      "Internal political gridlock and frequent protests."
+      "It automatically rewrites the code in a simpler programming language.",
+      "It reads the complicated code and provides a summary of how it works.",
+      "It blocks the code from being submitted if it's too difficult to read.",
+      "It alerts the CEO every time a piece of code is too complex."
     ],
-    "answer": "High rates of investment in infrastructure and productive assets.",
-    "explanation": "In the Rise phase, the focus is on building the 'engine' of the economy. This means high savings and investment into things that make the country more productive, rather than just consuming wealth."
+    "answer": "It reads the complicated code and provides a summary of how it works.",
+    "explanation": "Naval explains that AI can read complicated code or papers for you, saving you the time it would take to 'manually' excavate that knowledge."
   },
   {
-    "question": "The Peak Phase: Overextension",
-    "content": "Success eventually leads to the 'Peak.' In this phase, the empire is at its most powerful but also its most vulnerable. Wealth leads to higher labor costs (making it less competitive), and the nation often becomes overextended by maintaining a global military presence to protect its interests. The population begins to value leisure over the hard work that built the empire.",
-    "description": "Why does 'Success' often sow the seeds of 'Decline' in an empire?",
+    "question": "The Generalist Force Multiplier",
+    "content": "AI allows specialists to become '30% generalists' in other fields. By using AI to handle the basic tasks of a different discipline (like a hardware person writing basic software), team members can 'glue' their work together more effectively without waiting for a specialist to assist them.",
+    "description": "In the podcast, how does Naval suggest AI changes the relationship between hardware and software teams?",
     "options": [
-      "Success leads to better education, which makes people too smart to work.",
-      "Success often leads to over-borrowing and a loss of the competitive edge that caused the rise.",
-      "Success forces a country to stop trading with rivals to protect its secrets.",
-      "Success causes a nation to naturally return to a gold standard."
+      "It makes the software people obsolete so only hardware people are needed.",
+      "It allows hardware people to write their own software harnesses for testing without waiting.",
+      "It prevents software and hardware teams from talking to each other at all.",
+      "It ensures that all hardware is now manufactured entirely by AI agents."
     ],
-    "answer": "Success often leads to over-borrowing and a loss of the competitive edge that caused the rise.",
-    "explanation": "As empires succeed, they become expensive. To maintain their standard of living and global reach, they start borrowing against their future, leading to the debt problems of the next phase."
+    "answer": "It allows hardware people to write their own software harnesses for testing without waiting.",
+    "explanation": "AI acts as a force multiplier, enabling team members to do 'a little bit of everything' and test their own work without being blocked by cross-functional dependencies."
   },
   {
-    "question": "Hard Money vs. Fiat Money",
-    "content": "Throughout history, money has transitioned between 'Hard Money' (linked to a commodity like gold) and 'Fiat Money' (backed by government decree). When empires face massive debts they cannot pay, they almost always abandon hard money so they can print as much as they need to devalue the debt.",
-    "description": "A government is facing a debt crisis and decides to 'de-link' its currency from gold. Based on Chapter 2, what is the primary motive for this?",
+    "question": "Predictive Resource Management",
+    "content": "Traditional project management requires manual updates to Gantt charts and timelines. AI can be unleashed on company emails, file folders, and codebases to estimate progress and identify which divisions are lacking resources, providing a more accurate picture of 'where we actually are.'",
+    "description": "If you wanted to know the actual shipping date of a product, how would Naval's 'AI-unleashed' approach differ from a traditional manager's approach?",
     "options": [
-      "To make the currency more valuable and attractive to foreign buyers.",
-      "To encourage people to save more money in their bank accounts.",
-      "To gain the freedom to print money and pay off debts with cheaper currency.",
-      "To simplify the tax code and reduce government bureaucracy."
+      "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
+      "The manager would use a crystal ball; the AI would ask the employees to work 24/7.",
+      "The manager would fire the slowest division; the AI would hire more people automatically.",
+      "There is no difference; both rely on employees lying about their progress."
     ],
-    "answer": "To gain the freedom to print money and pay off debts with cheaper currency.",
-    "explanation": "De-linking from a commodity allows the central bank to create money at will. This 'prints' the country out of a nominal debt crisis but usually leads to inflation and the loss of purchasing power."
+    "answer": "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
+    "explanation": "Naval suggests that AI can analyze the email flow, code, and estimates to create its own Gantt chart and tell you who is ahead or behind, bypassing manual status reports."
   },
   {
-    "question": "The Wealth Gap and Internal Conflict",
-    "content": "As the cycle progresses toward the top, the gap between the 'haves' and 'have-nots' widens. This is often because those with capital (assets/stocks) benefit from money printing, while those without capital see their costs rise. This gap creates resentment and leads to political extremism and internal disorder.",
-    "description": "How does the printing of money typically affect the 'Wealth Gap' in a late-stage empire?",
+    "question": "Discovering Expertise with AI",
+    "content": "In a decentralized organization, it can be hard to know who to talk to. AI can scan the internal work product—designs, code, and documents—to identify who in the organization is the true expert on a specific topic, acting as an automated 'internal yellow pages.'",
+    "description": "How does AI solve the problem of 'who to talk to' in a fully interconnected graph architecture?",
     "options": [
-      "It narrows the gap by giving everyone more cash.",
-      "It has no effect on the gap as long as taxes are high.",
-      "It widens the gap because asset prices (owned by the wealthy) rise faster than wages.",
-      "It encourages the wealthy to give more to charity, reducing tension."
+      "It forces every employee to wear a badge listing their skills.",
+      "It scans the codebase and documents to guide you to the person likely to be an expert.",
+      "It randomly assigns a person to answer your questions.",
+      "It makes the CEO answer every question so nobody else has to."
     ],
-    "answer": "It widens the gap because asset prices (owned by the wealthy) rise faster than wages.",
-    "explanation": "When money is printed, it flows into assets like stocks and real estate. Since the wealthy own most of these assets, their net worth grows, while the working class struggles with the rising cost of living."
+    "answer": "It scans the codebase and documents to guide you to the person likely to be an expert.",
+    "explanation": "Because AI knows 'what' has been written and 'by whom,' it can act as a guide, pointing you toward the expert you need without an explicit organizational chart."
   },
   {
-    "question": "The Decline Phase: Loss of Reserve Status",
-    "content": "The final stage of the Big Cycle is the decline of the Reserve Currency. This happens when holders of the currency realize it is being devalued through printing and start selling it. When the world no longer wants to hold a nation's 'debt' (money), that nation loses its 'exorbitant privilege' of borrowing.",
-    "description": "What is the 'tipping point' that signals an empire has lost its global financial dominance?",
+    "question": "The 'Vibe Coding' Revolution",
+    "content": "Naval mentions 'vibe coding'—a term for using AI to generate code via natural language and intuition rather than manual syntax. This democratizes technical power, as the number of people who can build software becomes hundreds of times greater than before.",
+    "description": "What is the primary consequence of 'vibe coding' being democratized according to Naval?",
     "options": [
-      "When the country stops exporting goods entirely.",
-      "When other countries and investors stop using its currency as a store of value.",
-      "When the country's leader is replaced in a peaceful election.",
-      "When the country increases its interest rates to attract investors."
+      "The price of computers will drop significantly.",
+      "The number of people who can build and build and build increases exponentially.",
+      "Professional coders will stop working and become AI researchers.",
+      "People will no longer need to know how to read or write."
     ],
-    "answer": "When other countries and investors stop using its currency as a store of value.",
-    "explanation": "Once a currency loses its status as a safe 'store of value,' the empire can no longer print money to solve its problems without causing hyper-inflation, marking the end of its global order."
+    "answer": "The number of people who can build and build and build increases exponentially.",
+    "explanation": "As AI lowers the barrier to entry, many more people gain the 'power' to create software, effectively increasing the 'building' capacity of society."
   },
   {
-    "question": "The Role of Human Nature",
-    "content": "Dalio argues that while the tools change (from swords to missiles), human nature remains constant. People are driven by the same desires: to improve their lives, to protect their 'tribe,' and to gain status. This constancy is why the patterns of history repeat despite technological advances.",
-    "description": "Why does Dalio believe we can use history to predict the future even though today's technology is so different?",
+    "question": "Bypassing APIs with AI",
+    "content": "Typically, for one piece of code to work with another, a developer must write an explicit API (Application Programming Interface). With AI, you can bypass this by having the AI discover the code's structure or create its own connection at the database or codebase level.",
+    "description": "How does AI reduce the 'interface' friction between different people's code?",
     "options": [
-      "Because humans will eventually stop using technology and return to the past.",
-      "Because the 'cause-effect' relationships driven by human psychology don't change.",
-      "Because history repeats itself exactly every 100 years.",
-      "Because modern computers have finally mapped out all possible human choices."
+      "It requires everyone to use the exact same coding style.",
+      "It can discover an API or create its own connection directly into the database.",
+      "It deletes any code that doesn't have a manual API.",
+      "It forces developers to meet daily to agree on interfaces."
     ],
-    "answer": "Because the 'cause-effect' relationships driven by human psychology don't change.",
-    "explanation": "Human psychology—greed, fear, and the drive for power—reacts to economic and social pressures in the same way today as it did 500 years ago, leading to the same cyclical results."
+    "answer": "It can discover an API or create its own connection directly into the database.",
+    "explanation": "Naval explains that AI can 'discover an API' or connect directly at whatever level it needs, removing the bottleneck of waiting for someone to write a custom interface."
   },
   {
-    "question": "Competitiveness and Relative Standing",
-    "content": "An empire's power is relative. It isn't just about how much wealth a country has, but how it compares to its rivals. A country might be growing, but if a rival is growing twice as fast with less debt, the 'Relative Standing' of the first country is actually declining.",
-    "description": "Country A has a 2% growth rate, while Country B has a 7% growth rate. According to Dalio, why should Country A be concerned?",
+    "question": "AI-Driven Supplier Management",
+    "content": "Managing vendors and suppliers often involves digging through folders of messy contracts and documents. By 'unleashing' AI on these folders, a company can quickly answer questions about where their hardware stands or what their current contractual obligations are.",
+    "description": "What is a specific example Naval gives for using AI in hardware operations?",
     "options": [
-      "Because 2% is a negative growth rate in the Big Cycle.",
-      "Because their 'Relative Power' is shrinking, making them vulnerable to Country B.",
-      "Because Country B will eventually run out of resources first.",
-      "Because growth rates are a lagging indicator of military power."
+      "AI can design a factory in seconds.",
+      "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?'",
+      "AI can replace the need for physical hardware entirely.",
+      "AI can negotiate lower prices by threatening to quit."
     ],
-    "answer": "Because their 'Relative Power' is shrinking, making them vulnerable to Country B.",
-    "explanation": "In geopolitics, power is a zero-sum game. If a rival gains strength faster, they will eventually have more resources to spend on innovation, trade influence, and military strength, shifting the world order."
+    "answer": "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?'",
+    "explanation": "Naval suggests that AI can analyze 'the file folder in which all the documents with suppliers and vendors are kept' to provide instant reports on the state of operations."
   },
   {
-    "question": "The Cost of Empire",
-    "content": "Maintaining a global empire is incredibly expensive. As an empire grows, it must spend more on its military to protect trade routes and its influence. Eventually, the cost of maintaining the empire exceeds the income it generates, leading to a 'classic' fiscal collapse.",
-    "description": "Which of these scenarios best describes 'Imperial Overstretch'?",
+    "question": "Force Multiplier Efficiency",
+    "content": "A 'force multiplier' is a tool that allows an individual or group to accomplish much more than they could alone. Naval argues that while they haven't done anything 'explicitly' with AI, it is naturally a force multiplier because of its ability to analyze, summarize, and bridge gaps.",
+    "description": "What is the end goal of using AI as a force multiplier in a small company?",
     "options": [
-      "A country withdrawing its troops to save money for domestic issues.",
-      "A country having so many military bases that it must print money to fund them.",
-      "A country that refuses to join international trade organizations.",
-      "A country with a very small military but a huge economy."
+      "To replace all human employees with robots.",
+      "To allow a small group of smart people to accomplish 'impossible' tasks.",
+      "To make the company look bigger than it actually is to investors.",
+      "To ensure the CEO has less work to do."
     ],
-    "answer": "A country having so many military bases that it must print money to fund them.",
-    "explanation": "Imperial overstretch occurs when the military obligations of an empire become so large that they drain the national treasury, forcing the nation to take on unsustainable debt."
+    "answer": "To allow a small group of smart people to accomplish 'impossible' tasks.",
+    "explanation": "The entire premise of 'Impossible' (Naval's company) is using a small, elite team to do huge things; AI makes this possible by multiplying the productivity of each individual."
   },
   {
-    "question": "External Conflict and 'Testing'",
-    "content": "As a leading power weakens and a rising power grows, the two inevitably enter a 'Testing' phase. This is where the rising power challenges the existing rules of the order to see how the leader will react. If the leader is weak, the order changes; if the leader is strong, the rise is delayed.",
-    "description": "When a rising power begins ignoring the trade rules established by the dominant power, what stage of the cycle are we seeing?",
+    "question": "Jagged Intelligence",
+    "content": "Naval describes current AI as having 'jagged intelligence'—it is brilliant at some tasks (like code summarization) but surprisingly poor at others (like multimodal reasoning or world modeling). This means leaders must be strategic about where they trust the tool.",
+    "description": "What does Naval mean when he says AI intelligence is 'jagged'?",
     "options": [
-      "The early Rise phase where rules are being built.",
-      "The Peak phase where rules are respected by everyone.",
-      "The Testing phase of the External Order.",
-      "The productivity phase where rules no longer matter."
+      "The AI's hardware is physically sharp and dangerous.",
+      "The AI is only smart when it's connected to a specific data center.",
+      "The AI has high performance in some areas but significant gaps in others.",
+      "The AI's intelligence changes based on the time of day."
     ],
-    "answer": "The Testing phase of the External Order.",
-    "explanation": "Testing occurs when the rising power feels strong enough to challenge the status quo. It is a dangerous period because it often escalates into 'hot' wars or major economic shifts."
+    "answer": "The AI has high performance in some areas but significant gaps in others.",
+    "explanation": "Jagged intelligence refers to the fact that AI can solve complex coding problems but might fail at simple 'world model' tasks or multimodal reasoning."
   }
 ]
