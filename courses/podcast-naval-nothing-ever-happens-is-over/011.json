@@ -121,4 +121,12 @@
     "content": "Being a 'generalist' doesn't mean being an expert in everything; it means having 'better touch points' to interface with others. AI provides the base-level knowledge needed for a hardware person to understand software, or an AI researcher to build a software harness, facilitating a tighter collaborative loop.",
     "description": "Why does having 'better touch points' matter in a flat organization like Naval's?",
     "options": [
-      "
+      "It allows for better politics between departments.",
+      "It makes the gluing between different specialists (like hardware and software) easier.",
+      "It helps the CEO manage more people simultaneously.",
+      "It makes it easier for the AI to eventually replace the human workers."
+    ],
+    "answer": "It makes the gluing between different specialists (like hardware and software) easier.",
+    "explanation": "Naval emphasizes that AI makes 'the gluing between them a little easier,' as specialists can bridge the gap between their roles without waiting for external help."
+  }
+]
