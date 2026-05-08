@@ -105,4 +105,28 @@
   },
   {
     "question": "Anonymized Data for AI Medicine",
-    "content": "To 'solve' biology and medicine, AI needs access to massive datasets of patient outcomes. Naval argues that while privacy is important, the current system of 'data silos' and rules prevents life-saving discoveries. He suggests anonymizing this data to feed
+    "content": "To 'solve' biology and medicine, AI needs access to massive datasets of patient outcomes. Naval argues that while privacy is important, the current system of 'data silos' and rules prevents life-saving discoveries. He suggests anonymizing this data to feed the 'defensive' AIs.",
+    "description": "According to Naval, what is the 'fuel' that AI needs to solve medical therapies?",
+    "options": [
+      "More electricity from green energy sources.",
+      "Access to massive, anonymized datasets of medical history and outcomes.",
+      "Better bioethicists to manage the research teams.",
+      "A connection to every individual's smartphone via the cloud."
+    ],
+    "answer": "Access to massive, anonymized datasets of medical history and outcomes.",
+    "explanation": "Data is the barrier. Naval believes that if we could unlock these 'silos,' AI could find cures and defenses far faster than human bureaucrats."
+  },
+  {
+    "question": "The Logic of Individual Deterrence",
+    "content": "Drones may lead to a society where the 'cost' of attacking a specific individual becomes very low. This creates a terrifying future unless the same technology is used to build 'individual defenses' or unless society fundamentally restructures its 'logic of violence.'",
+    "description": "What is the 'scary thought' Naval leaves us with regarding drones and individuals?",
+    "options": [
+      "Drones will eventually replace all human jobs.",
+      "Drones democratize the power of lethal violence to the individual level.",
+      "Drones will make people stop talking to each other one-on-one.",
+      "Drones are only going to be used by the 'Mag 7' to deliver packages."
+    ],
+    "answer": "Drones democratize the power of lethal violence to the individual level.",
+    "explanation": "Naval's core geopolitical concern is that drones change the 'who' and 'how' of violence, potentially making state protection less relevant than it was in the era of rifles."
+  }
+]
