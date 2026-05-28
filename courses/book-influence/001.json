@@ -1,0 +1,106 @@
+[
+  {
+    "question": "The Rule of Reciprocity",
+    "content": "The rule of reciprocity states that we should try to repay, in kind, what another person has provided us. This powerful social norm governs human behavior across all societies and creates a sense of obligation when someone gives us something.",
+    "description": "A waiter brings a small complimentary dessert to your table after your meal. Later, when suggesting a more expensive bottle of wine, you're more likely to agree. This illustrates:",
+    "options": [
+      "The waiter's expertise in wine selection",
+      "Your genuine desire for expensive wine",
+      "The reciprocity trigger from the complimentary dessert",
+      "The restaurant's overall excellent service"
+    ],
+    "answer": "The reciprocity trigger from the complimentary dessert",
+    "explanation": "The small gift creates a feeling of indebtedness, making you more likely to comply with the subsequent request for a larger purchase, demonstrating the reciprocity principle in action."
+  },
+  {
+    "question": "Reject-Then-Retreat Technique",
+    "content": "The reject-then-retreat technique (also called the door-in-the-face technique) involves making an initial large request that is likely to be rejected, followed by a smaller, more reasonable request. The contrast makes the second request seem more acceptable.",
+    "description": "A kid asks to borrow your car for the weekend. You say no. They then ask to borrow your bicycle for an hour instead. You're more likely to agree to the bicycle request because:",
+    "options": [
+      "You feel guilty saying no twice",
+      "The bicycle request seems reasonable by comparison",
+      "You like the kid more after they lowered their request",
+      "You think they deserve a reward for being polite"
+    ],
+    "answer": "The bicycle request seems reasonable by comparison",
+    "explanation": "After refusing the large request (car for weekend), the smaller request (bicycle for hour) appears more reasonable by contrast, making compliance more likely. This is the reject-then-retreat application of reciprocity."
+  },
+  {
+    "question": "Uninvited First Strike",
+    "content": "The reciprocity rule can trigger obligations even when we didn't ask for the initial favor. Marketers exploit this by giving unsolicited gifts or favors to create a sense of debt.",
+    "description": "You receive free address labels in the mail from a charity you've never supported. A few days later, they ask for a donation. You feel compelled to give because:",
+    "options": [
+      "You think the labels are valuable",
+      "You don't want to seem wasteful by throwing them away",
+      "The unsolicited gift triggers reciprocity obligation",
+      "You assume they're a reputable organization"
+    ],
+    "answer": "The unsolicited gift triggers reciprocity obligation",
+    "explanation": "Even though you didn't request the address labels, receiving them creates a psychological obligation to reciprocate with a donation, demonstrating how reciprocity works unsolicited."
+  },
+  {
+    "question": "Reciprocal Concessions",
+    "content": "When someone makes a concession to us, we feel obligated to make a concession in return. This principle underlies negotiation strategies where both parties make gradual concessions.",
+    "description": "You're negotiating the price of a used car. The seller asks $8,000. You counter with $6,000. They then offer $7,500. You feel more inclined to accept because:",
+    "options": [
+      "You think $7,500 is the fair market value",
+      "Their concession creates pressure for you to reciprocate",
+      "You've worn them down through persistence",
+      "You believe they're being honest now"
+    ],
+    "answer": "Their concession creates pressure for you to reciprocate",
+    "explanation": "The seller's movement from $8,000 to $7,500 is a concession that triggers the reciprocity norm, making you feel obligated to move from your $6,000 counteroffer in return."
+  },
+  {
+    "question": "Why Reciprocity Works",
+    "content": "Reciprocity is powerful because it evolved to facilitate beneficial exchanges in social groups. Those who didn't reciprocate were often excluded from future cooperation, making reciprocity a survival advantage.",
+    "description": "From an evolutionary perspective, societies with strong reciprocity norms tend to:",
+    "options": [
+      "Have more aggressive individuals who take advantage",
+      "Develop better systems of cooperation and trust",
+      "Experience more frequent conflicts over resources",
+      "Become isolated from neighboring groups"
+    ],
+    "answer": "Develop better systems of cooperation and trust",
+    "explanation": "Reciprocity norms enabled groups to share resources, help each other in times of need, and build trust—all advantageous for group survival and individual success within the group."
+  },
+  {
+    "question": "Defending Against Unwanted Reciprocity",
+    "content": "To defend against manipulative reciprocity tactics, redefine the initial 'gift' as a trick or sales device rather than a genuine favor. This prevents the automatic feeling of obligation.",
+    "description": "A salesperson gives you a free pen during a presentation. To avoid feeling obligated to buy their product afterward, you should:",
+    "options": [
+      "Accept the pen graciously and listen to their pitch",
+      "Tell them you don't want the pen",
+      "Mentally label the pen as a sales tactic, not a gift",
+      "Ask for a more expensive gift to increase the obligation"
+    ],
+    "answer": "Mentally label the pen as a sales tactic, not a gift",
+    "explanation": "By reframing the 'gift' as a manipulative tactic rather than a genuine favor, you prevent the automatic reciprocity response while still being able to accept the item if desired."
+  },
+  {
+    "question": "Reciprocity in Social Experiments",
+    "content": "In studies, reciprocity demonstrates surprising strength. People will comply with significantly larger requests after receiving even trivial favors, showing the rule's unconscious power.",
+    "description": "In a famous experiment, participants who received a small uncapped bottle of Coca-Cola from a stranger were subsequently:",
+    "options": [
+      "Less likely to help the stranger with a task",
+      "About equally likely to help regardless of the drink",
+      "Much more likely to help the stranger with a request",
+      "Only more likely if they were thirsty"
+    ],
+    "answer": "Much more likely to help the stranger with a request",
+    "explanation": "Even this trivial gift created a reciprocity obligation that made participants significantly more likely to comply with a later request for help, demonstrating the rule's powerful unconscious influence."
+  },
+  {
+    "question": "Business Applications of Reciprocity",
+    "content": "Businesses systematically apply reciprocity through free samples, trial periods, complimentary services, and concessions. These aren't gifts but strategic activations of the reciprocity norm.",
+    "description": "A software company offers a 30-day free trial of their premium product. After the trial ends, users are more likely to purchase because:",
+    "options": [
+      "They've learned all the features during the trial",
+      "They feel obligated to reciprocate the free access",
+      "The software becomes unusable after trial ends",
+      "They develop brand loyalty during the trial period"
+    ],
+    "answer": "They feel obligated to reciprocate the free access",
+    "explanation": "The free trial activates reciprocity—users feel they should 'pay back' the company's generosity by purchasing, even if they could have continued with a free alternative."
+  }
+]

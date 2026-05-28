@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Liking Principle",
+    "content": "We prefer to say yes to people we like. Factors that increase liking include physical attractiveness, similarity, compliments, contact/cooperation, and association with positive things.",
+    "description": "You're more likely to buy a car from a salesperson who shares your hometown, likes the same sports team, and compliments your taste in vehicles because:",
+    "options": [
+      "They actually know more about cars",
+      "You perceive them as more trustworthy due to similarity and praise",
+      "They gave you a better price than other salespeople",
+      "You checked their sales credentials beforehand"
+    ],
+    "answer": "You perceive them as more trustworthy due to similarity and praise",
+    "explanation": "Similarity and compliments increase liking, which makes us more inclined to trust and comply with requests from those we like, even when objective factors don't justify it."
+  },
+  {
+    "question": "Physical Attractiveness Halo Effect",
+    "content": "The physical attractiveness 'halo' effect causes us to assume attractive people possess other positive traits like talent, kindness, and intelligence, making them more persuasive.",
+    "description": "An attractive model advertising a product is perceived as more knowledgeable about it because:",
+    "options": [
+      "They actually have expertise in the product category",
+      "Attractiveness creates a halo effect assuming other positive traits",
+      "They spent time studying the product beforehand",
+      "The product is specifically designed for attractive people"
+    ],
+    "answer": "Attractiveness creates a halo effect assuming other positive traits",
+    "explanation": "We generalize from physical attractiveness to other unrelated positive traits, making attractive people more persuasive communicators regardless of actual expertise."
+  },
+  {
+    "question": "Similarity and Liking",
+    "content": "We like people who are similar to us in opinions, personality traits, background, or lifestyle. This similarity increases our willingness to comply with their requests.",
+    "description": "A financial advisor mentions they grew up in the same neighborhood as you and attended the same type of college. You're more likely to follow their advice because:",
+    "options": [
+      "They actually have better investment track records",
+      "Similarity increases liking and trust",
+      "They researched your background beforehand",
+      "They are required to find common ground by company policy"
+    ],
+    "answer": "Similarity increases liking and trust",
+    "explanation": "Finding common ground increases liking, which makes us more open to influence from those we perceive as similar to ourselves."
+  },
+  {
+    "question": "Familiarity and Liking",
+    "content": "Repeated contact with a person or thing normally increases our liking for it. Familiarity breeds liking, not contempt, in most circumstances.",
+    "description": "You're more likely to buy a brand of cereal you've seen advertised many times because:",
+    "options": [
+      "The cereal actually tastes better than competitors",
+      "Familiarity from repeated exposure increases liking",
+      "You checked nutritional labels and found it healthier",
+      "The store only carries that brand of cereal"
+    ],
+    "answer": "Familiarity from repeated exposure increases liking",
+    "explanation": "The mere exposure effect shows that repeated contact increases liking, making familiar brands more appealing even without objective superiority."
+  },
+  {
+    "question": "Compliance Through Praise",
+    "content": "Compliments generally increase liking and compliance, even when we suspect they are insincere or manipulative. Praise creates a positive feeling that predisposes us to agree.",
+    "description": "A coworker compliments your presentation skills before asking for your help on their project. You're more likely to help because:",
+    "options": [
+      "They actually need your specific expertise",
+      "The compliment increased liking and willingness to help",
+      "You owe them a favor from last week",
+      "Your boss told you to assist them"
+    ],
+    "answer": "The compliment increased liking and willingness to help",
+    "explanation": "Even suspected insincere compliments can increase liking and compliance through the positive feelings they create."
+  },
+  {
+    "question": "Contact and Cooperation",
+    "content": "Working together toward a common goal increases liking between parties. Cooperation under appropriate conditions reduces prejudice and builds relationships.",
+    "description": "After working on a team project together, two coworkers who initially disliked each other are more likely to:",
+    "options": [
+      "Continue avoiding each other outside work",
+      "Have increased liking due to cooperative contact",
+      "Request to be placed on different teams",
+      "Complain to management about each other"
+    ],
+    "answer": "Have increased liking due to cooperative contact",
+    "explanation": "Cooperative contact toward shared goals can transform relationships by increasing liking through shared effort and achievement."
+  },
+  {
+    "question": "Association and Liking",
+    "content": "We like things associated with positive events and dislike things associated with negative events. This principle of association influences our preferences and choices.",
+    "description": "A restaurant plays popular music from your youth while you eat. You're more likely to return because:",
+    "options": [
+      "The food quality actually improved recently",
+      "Positive associations with the music increase liking",
+      "They changed their menu to healthier options",
+      "The restaurant lowered their prices significantly"
+    ],
+    "answer": "Positive associations with the music increase liking",
+    "explanation": "Associating a stimulus (restaurant) with positive stimuli (nostalgic music) increases liking for the stimulus through association."
+  },
+  {
+    "question": "Liking in Sales and Marketing",
+    "content": "Sales professionals use liking principles by finding similarities, giving compliments, creating familiarity through repeated contact, and associating products with positive imagery.",
+    "description": "A real estate agent mentions they have children the same age as yours, compliments your taste in neighborhoods, and sends you monthly market updates. This approach works because:",
+    "options": [
+      "They actually have access to better listings",
+      "Multiple liking factors increase compliance likelihood",
+      "They are required to use this technique by their brokerage",
+      "You checked their sales license and ratings"
+    ],
+    "answer": "Multiple liking factors increase compliance likelihood",
+    "explanation": "Combining similarity (same-aged children), compliments (taste in neighborhoods), and familiarity (regular contact) creates powerful liking-based influence."
+  }
+]

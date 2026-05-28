@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Commitment and Consistency Principle",
+    "content": "People have a deep desire to be consistent with what they have already said or done. Once we make a choice or take a stand, we feel pressure to behave consistently with that commitment.",
+    "description": "After signing a petition supporting environmental conservation, a person is more likely to donate money to an environmental group because:",
+    "options": [
+      "They genuinely changed their mind about the environment",
+      "They want to appear consistent with their prior commitment",
+      "The environmental group contacted them repeatedly",
+      "They received a free gift for signing the petition"
+    ],
+    "answer": "They want to appear consistent with their prior commitment",
+    "explanation": "The initial act of signing the petition creates a self-image of being an environmental supporter, creating internal pressure to act consistently with that identity through subsequent actions like donating."
+  },
+  {
+    "question": "Foot-in-the-Door Technique",
+    "content": "The foot-in-the-door technique involves getting a person to agree to a small request first, increasing the likelihood they will agree to a larger request later. The initial commitment creates consistency pressure.",
+    "description": "A volunteer asks if you'll display a small 'Be a Safe Driver' sign in your window. You agree. Two weeks later, they ask if you'll install a large, unattractive billboard in your yard. You're more likely to say yes because:",
+    "options": [
+      "You now care deeply about traffic safety",
+      "The small commitment created consistency pressure for the larger request",
+      "You feel guilty refusing after already agreeing once",
+      "You think the volunteer is being persistent"
+    ],
+    "answer": "The small commitment created consistency pressure for the larger request",
+    "explanation": "Agreeing to the small sign request commits you to seeing yourself as someone who supports safe driving, making refusal of the larger billboard request inconsistent with that self-image."
+  },
+  {
+    "question": "Public Commitments",
+    "content": "Commitments made publicly are more likely to influence future behavior than private ones. Public declarations create stronger consistency pressures because they affect our self-image and social reputation.",
+    "description": "Someone who announces their New Year's resolution to quit smoking on social media is more likely to succeed than someone who keeps it private because:",
+    "options": [
+      "Their friends will remind them not to smoke",
+      "They receive public praise for trying",
+      "The public commitment creates stronger consistency pressure",
+      "Social media reduces cravings for cigarettes"
+    ],
+    "answer": "The public commitment creates stronger consistency pressure",
+    "explanation": "Public commitments tie our self-image to social reputation. Backing out would require admitting inconsistency to others, creating stronger motivation to follow through than with private commitments."
+  },
+  {
+    "question": "Written Commitments",
+    "content": "Written commitments are more effective at influencing future behavior than verbal ones. The physical act of writing creates tangible evidence of commitment that's harder to ignore or rationalize away.",
+    "description": "A weight loss program asks participants to write down their goals rather than just state them verbally because:",
+    "options": [
+      "Writing is easier than speaking for most people",
+      "Written goals create stronger consistency pressure than verbal ones",
+      "The program can check if goals are written correctly",
+      "Writing burns more calories than talking"
+    ],
+    "answer": "Written goals create stronger consistency pressure than verbal ones",
+    "explanation": "The tangible nature of written commitments makes them harder to dismiss or forget, creating a persistent reminder that influences behavior through consistency motivations."
+  },
+  {
+    "question": "Lowball Technique",
+    "content": "The lowball technique involves getting commitment by offering favorable terms, then changing the terms to be less favorable after commitment is secured. People often stick with the decision due to commitment consistency.",
+    "description": "A car salesman offers a great price on a vehicle. After you agree to buy, they announce the price was a mistake and it's actually higher. You're likely to still buy because:",
+    "options": [
+      "You don't want to admit you made a bad decision",
+      "You've already committed and want to be consistent",
+      "You think the salesman is being honest now",
+      "You believe no better deal exists elsewhere"
+    ],
+    "answer": "You've already committed and want to be consistent",
+    "explanation": "Once you've committed to buying the car, backing out would require admitting inconsistency with your decision. Most people choose to stick with the commitment even when terms change unfavorably."
+  },
+  {
+    "question": "Consistency and Self-Image",
+    "content": "Our desire for consistency stems from wanting to maintain a stable self-image. We act consistently to avoid seeing ourselves as fickle, irrational, or unreliable.",
+    "description": "Someone who considers themselves environmentally conscious is most likely to:",
+    "options": [
+      "Never use plastic products under any circumstances",
+      "Take actions that align with their environmental self-image",
+      "Criticize others who aren't environmentally conscious",
+      "Change their self-image frequently based on convenience"
+    ],
+    "answer": "Take actions that align with their environmental self-image",
+    "explanation": "People strive for consistency between their actions and self-image. Someone who sees themselves as environmentally conscious will take recycling, conservation, or other eco-friendly actions to maintain that consistent self-view."
+  },
+  {
+    "question": "Commitment Through Effort",
+    "content": "The more effort we put into achieving something, the more we tend to value it and want to remain consistent with that commitment. Effort justifies commitment in our minds.",
+    "description": "After going through a difficult initiation to join a club, members typically:",
+    "options": [
+      "Value their membership less because of the unpleasant experience",
+      "Value their membership more due to the effort expended",
+      "Leave the club quickly to avoid further discomfort",
+      "Feel indifferent about their membership status"
+    ],
+    "answer": "Value their membership more due to the effort expended",
+    "explanation": "The effort justification effect causes us to increase our liking for something we've suffered for, reducing cognitive dissonance between the unpleasant initiation and our decision to join."
+  },
+  {
+    "question": "Consistency in Goal Setting",
+    "content": "Effective goal setting leverages consistency by getting people to make specific, public commitments to their goals. The more specific and public the commitment, the stronger the consistency pressure.",
+    "description": "A fitness app increases user engagement by asking them to:",
+    "options": [
+      "Set vague goals like 'get healthier'",
+      "Keep their fitness goals completely private",
+      "Make specific, public commitments to workout schedules",
+      "Change their goals daily based on mood"
+    ],
+    "answer": "Make specific, public commitments to workout schedules",
+    "explanation": "Specific, public commitments create the strongest consistency pressures. Vague goals lack clarity, private commitments lack social accountability, and frequently changing goals prevent consistency formation."
+  }
+]

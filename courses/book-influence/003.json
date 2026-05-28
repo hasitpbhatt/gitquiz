@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Social Proof Principle",
+    "content": "Social proof states that we determine what is correct by finding out what other people think is correct. We look to the actions of others to guide our own, especially when we are uncertain.",
+    "description": "When you enter a crowded restaurant and see a long line outside another similar restaurant, you assume the second restaurant must be better because:",
+    "options": [
+      "You actually tasted the food at both places",
+      "The longer line indicates social proof of quality",
+      "The first restaurant has higher prices",
+      "You read reviews online about both places"
+    ],
+    "answer": "The longer line indicates social proof of quality",
+    "explanation": "When uncertain, we use the behavior of others as evidence of what is correct. A longer line suggests more people find the restaurant valuable, providing social proof of its quality."
+  },
+  {
+    "question": "Pluralistic Ignorance",
+    "content": "Pluralistic ignorance occurs when people privately reject a norm but incorrectly assume others accept it, leading them to go along with it. Social proof can reinforce this mistaken perception.",
+    "description": "In a college classroom, no one asks questions during a lecture because each student thinks they're the only one confused, while actually most are confused. This illustrates:",
+    "options": [
+      "Effective teaching methods",
+      "Pluralistic ignorance reinforced by social proof",
+      "Students who are all experts on the topic",
+      "The professor's intimidating presence"
+    ],
+    "answer": "Pluralistic ignorance reinforced by social proof",
+    "explanation": "Each student sees others not asking questions (social proof) and assumes everyone understands, leading to pluralistic ignorance where no one speaks up despite widespread confusion."
+  },
+  {
+    "question": "Similarity Increases Social Proof",
+    "content": "We are more influenced by the actions of people who are similar to us. Social proof is most powerful when the 'others' resemble us in relevant ways.",
+    "description": "A software company targeting elderly users finds that testimonials from other seniors are more effective than those from teenagers because:",
+    "options": [
+      "Seniors have more money to spend",
+      "People are more influenced by similar others",
+      "Teenagers don't use software",
+      "The company has better relationships with seniors"
+    ],
+    "answer": "People are more influenced by similar others",
+    "explanation": "Social proof is strongest when we perceive the 'others' as similar to ourselves. Testimonials from similar seniors are more persuasive than those from dissimilar teenagers."
+  },
+  {
+    "question": "Uncertainty Amplifies Social Proof",
+    "content": "The less certain we are about a situation, the more we rely on social proof to guide our behavior. Ambiguity increases our dependence on others' actions.",
+    "description": "Tourists in a foreign city are more likely to follow the crowd to a restaurant when:",
+    "options": [
+      "They have eaten at that restaurant before",
+      "They are uncertain about which restaurants are good",
+      "They speak the local language fluently",
+      "They have detailed restaurant guides"
+    ],
+    "answer": "They are uncertain about which restaurants are good",
+    "explanation": "When uncertain (not knowing which restaurants are good), people rely heavily on social proof—following the crowd—to reduce uncertainty about the correct choice."
+  },
+  {
+    "question": "The Bystander Effect",
+    "content": "The bystander effect occurs when individuals are less likely to help a victim when other people are present. Counterintuitively, more witnesses lead to less individual help due to social proof and diffusion of responsibility.",
+    "description": "A person collapses on a busy city street. People are less likely to help because:",
+    "options": [
+      "Everyone knows the person personally",
+      "Each person assumes someone else will help (social proof of inaction)",
+      "The person is obviously faking the collapse",
+      "Helping is illegal in that city"
+    ],
+    "answer": "Each person assumes someone else will help (social proof of inaction)",
+    "explanation": "Seeing others not helping provides social proof that helping is not necessary or appropriate. Each person interprets the inaction of others as a sign that help is not needed."
+  },
+  {
+    "question": "Canned Laughter",
+    "content": "Television sitcoms use laugh tracks because canned laughter provides social proof that the jokes are funny, making viewers more likely to perceive them as humorous and laugh along.",
+    "description": "A comedy show adds a laugh track to increase the perception that jokes are funny because:",
+    "options": [
+      "The actors deliver better performances with laughter",
+      "Laughter provides social proof that the material is humorous",
+      "The show's budget requires audio effects",
+      "Audiences dislike silence during comedies"
+    ],
+    "answer": "Laughter provides social proof that the material is humorous",
+    "explanation": "The laugh track creates social proof that others find the jokes funny, influencing viewers to perceive the humor more strongly and laugh along themselves."
+  },
+  {
+    "question": "Social Proof in Advertising",
+    "content": "Advertisers use social proof extensively through testimonials, user reviews, 'best-seller' labels, and 'X million served' claims to influence consumer behavior.",
+    "description": "A toothpaste advertisement claims '9 out of 10 dentists recommend this product' primarily to:",
+    "options": [
+      "Provide detailed chemical analysis",
+      "Offer social proof of professional endorsement",
+      "Explain the manufacturing process",
+      "List the product's flavors"
+    ],
+    "answer": "Offer social proof of professional endorsement",
+    "explanation": "The statistic provides social proof by showing that respected authorities (dentists) approve of the product, influencing consumers to trust and choose it."
+  },
+  {
+    "question": "Fear and Social Proof",
+    "content": "In fearful or ambiguous situations, people are especially susceptible to social proof as they seek guidance from others on how to behave safely.",
+    "description": "During a fire drill, if most people calmly walk to the exits, others are likely to:",
+    "options": [
+      "Panick and run in random directions",
+      "Follow the calm behavior due to social proof",
+      "Ignore the drill completely",
+      "Wait for explicit instructions from authorities"
+    ],
+    "answer": "Follow the calm behavior due to social proof",
+    "explanation": "In ambiguous emergency situations, people look to others for cues on how to behave. Seeing others act calmly provides social proof that the situation is under control and calm action is appropriate."
+  }
+]
