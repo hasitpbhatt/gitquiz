@@ -1,0 +1,78 @@
+body { font-family: 'Inter', sans-serif; }
+    
+:root {
+    --bg-main: #f8fafc;
+    --card-bg: #ffffff;
+    --text-main: #1e293b;
+    --accent: #2563eb;
+    --progress-bg: #e2e8f0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-main: #0f172a;
+        --card-bg: #1e293b;
+        --text-main: #f8fafc;
+        --accent: #3b82f6;
+        --progress-bg: #334155;
+    }
+}
+
+body { background-color: var(--bg-main); color: var(--text-main); }
+.glass-card { background-color: var(--card-bg); border: 1px solid rgba(148, 163, 184, 0.1); }
+
+.option-btn {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.option-btn:hover:not(:disabled) {
+    transform: translateX(4px);
+    border-color: var(--accent);
+}
+
+.correct { background: #dcfce7 !important; border-color: #22c55e !important; color: #166534 !important; }
+.wrong { background: #fee2e2 !important; border-color: #ef4444 !important; color: #991b1b !important; }
+
+/* Restored Robust Achievement Card Template */
+#achievement-card-template {
+    position: fixed;
+    left: -9999px;
+    top: 0;
+    width: 800px;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: white;
+    padding: 60px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+#ach-cert-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 82px;
+    color: #3b82f6;
+    margin: 10px 0;
+    display: block;
+}
+
+.ach-badge { font-size: 80px; margin-bottom: 10px; }
+.ach-title { font-size: 14px; text-transform: uppercase; letter-spacing: 6px; color: #60a5fa; font-weight: 800; margin-bottom: 5px; }
+.ach-course-name { font-size: 42px; font-weight: 900; color: #f8fafc; line-height: 1.1; margin: 10px 0; text-transform: uppercase; }
+.ach-module-info { font-size: 18px; color: #94a3b8; font-weight: 700; margin-bottom: 40px; }
+
+.ach-stats-grid {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.ach-stat-box { display: flex; flex-direction: column; }
+.ach-stat-val { font-size: 32px; font-weight: 900; color: #ffffff; }
+.ach-stat-lab { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; opacity: 0.5; margin-top: 5px; }
+
+.ach-footer { margin-top: 40px; font-size: 14px; opacity: 0.4; }
+
+/* Custom Scrollbar for Catalog */
+#course-dropdown::-webkit-scrollbar { width: 6px; }
+#course-dropdown::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 10px; }
