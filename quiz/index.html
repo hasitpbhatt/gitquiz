@@ -1,0 +1,603 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Portal Pro | Learning Management</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7046934020222763" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        :root {
+            --bg-main: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --accent: #2563eb;
+            --progress-bg: #e2e8f0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-main: #0f172a;
+                --card-bg: #1e293b;
+                --text-main: #f8fafc;
+                --accent: #3b82f6;
+                --progress-bg: #334155;
+            }
+        }
+
+        body { background-color: var(--bg-main); color: var(--text-main); }
+        .glass-card { background-color: var(--card-bg); border: 1px solid rgba(148, 163, 184, 0.1); }
+        
+        .option-btn {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .option-btn:hover:not(:disabled) {
+            transform: translateX(4px);
+            border-color: var(--accent);
+        }
+        
+        .correct { background: #dcfce7 !important; border-color: #22c55e !important; color: #166534 !important; }
+        .wrong { background: #fee2e2 !important; border-color: #ef4444 !important; color: #991b1b !important; }
+
+        /* Restored Robust Achievement Card Template */
+        #achievement-card-template {
+            position: fixed;
+            left: -9999px;
+            top: 0;
+            width: 800px;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            padding: 60px;
+            border-radius: 40px;
+            text-align: center;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        #ach-cert-name {
+            font-family: 'Great Vibes', cursive;
+            font-size: 82px;
+            color: #3b82f6;
+            margin: 10px 0;
+            display: block;
+        }
+
+        .ach-badge { font-size: 80px; margin-bottom: 10px; }
+        .ach-title { font-size: 14px; text-transform: uppercase; letter-spacing: 6px; color: #60a5fa; font-weight: 800; margin-bottom: 5px; }
+        .ach-course-name { font-size: 42px; font-weight: 900; color: #f8fafc; line-height: 1.1; margin: 10px 0; text-transform: uppercase; }
+        .ach-module-info { font-size: 18px; color: #94a3b8; font-weight: 700; margin-bottom: 40px; }
+        
+        .ach-stats-grid {
+            display: flex;
+            justify-content: space-around;
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .ach-stat-box { display: flex; flex-direction: column; }
+        .ach-stat-val { font-size: 32px; font-weight: 900; color: #ffffff; }
+        .ach-stat-lab { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; opacity: 0.5; margin-top: 5px; }
+
+        .ach-footer { margin-top: 40px; font-size: 14px; opacity: 0.4; }
+
+        /* Custom Scrollbar for Catalog */
+        #course-dropdown::-webkit-scrollbar { width: 6px; }
+        #course-dropdown::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 10px; }
+    </style>
+</head>
+<body class="min-h-screen p-4 md:p-8 flex flex-col items-center">
+
+    <div id="app-container" class="w-full max-w-2xl mt-4">
+        
+        <!-- Setup Screen -->
+        <div id="setup-container" class="glass-card rounded-3xl p-8 shadow-2xl animate-in fade-in slide-in-from-bottom-4 duration-500">
+            <header class="mb-8">
+                <h1 class="text-3xl font-800 tracking-tight mb-2">Quiz Portal Pro</h1>
+                <p class="text-slate-500 dark:text-slate-400">Master your knowledge with interactive modules.</p>
+            </header>
+
+            <div class="space-y-6">
+                <div>
+                    <label class="block text-[10px] uppercase tracking-[2px] font-700 text-slate-500 mb-2">User Identity</label>
+                    <input type="text" id="user-name-input" placeholder="Enter your full name..." 
+                        class="w-full p-4 rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500 transition-colors text-lg">
+                </div>
+
+                <div class="flex gap-2 p-1 bg-slate-100 dark:bg-slate-800 rounded-xl">
+                    <button id="tab-code" onclick="switchMode('code')" class="flex-1 py-2 px-4 rounded-lg font-600 transition-all bg-white dark:bg-slate-700 shadow-sm text-blue-600">Catalog</button>
+                    <button id="tab-url" onclick="switchMode('url')" class="flex-1 py-2 px-4 rounded-lg font-600 transition-all text-slate-500">Custom URL</button>
+                </div>
+
+                <div id="mode-code" class="space-y-2">
+                    <input type="text" id="catalog-search" oninput="filterCatalog()" placeholder="🔍 Search modules..." 
+                        class="w-full p-3 rounded-t-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500 border-b-0">
+                    <select id="course-dropdown" size="6" 
+                        class="w-full p-2 rounded-b-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500 appearance-none">
+                        <option value="" disabled selected>Connecting to vault...</option>
+                    </select>
+                </div>
+
+                <div id="mode-url" class="hidden space-y-4">
+                    <input type="text" id="quiz-url" placeholder="https://.../module.json" 
+                        class="w-full p-4 rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500">
+                    <div class="p-4 bg-slate-100 dark:bg-slate-800/50 rounded-xl border border-dashed border-slate-300 dark:border-slate-600">
+                        <span class="text-xs font-700 text-slate-400 uppercase">Pro Tip:</span>
+                        <code id="example-link" onclick="fillExample()" class="block mt-2 text-xs text-blue-500 cursor-pointer break-all hover:underline">https://raw.githubusercontent.com/hasitpbhatt/gitquiz/refs/heads/main/courses/book-atomic-habits/001.json</code>
+                    </div>
+                </div>
+
+                <button onclick="handleStart()" class="w-full py-5 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-800 text-lg shadow-lg shadow-blue-500/30 active:scale-[0.98] transition-all">
+                    Begin Challenge
+                </button>
+            </div>
+        </div>
+
+        <div id="quiz-container" class="hidden">
+            <div class="w-full h-2 bg-slate-200 dark:bg-slate-800 rounded-full mb-6 overflow-hidden">
+                <div id="progress-fill" class="h-full bg-blue-500 w-0 transition-all duration-500"></div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 mb-6">
+                <div class="glass-card p-4 rounded-2xl text-center">
+                    <span class="block text-[9px] uppercase tracking-widest font-800 text-slate-400">Score</span>
+                    <span id="score-val" class="text-xl font-800 text-blue-500">0</span>
+                </div>
+                <div class="glass-card p-4 rounded-2xl text-center">
+                    <span class="block text-[9px] uppercase tracking-widest font-800 text-slate-400">Streak</span>
+                    <span id="streak-val" class="text-xl font-800 text-orange-500">0</span>
+                </div>
+                <div class="glass-card p-4 rounded-2xl text-center">
+                    <span class="block text-[9px] uppercase tracking-widest font-800 text-slate-400">Time</span>
+                    <span id="timer-val" class="text-xl font-800 text-slate-600 dark:text-slate-300">00:00</span>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-3xl p-8 shadow-xl relative">
+                <div id="error-overlay" class="hidden text-center py-10">
+                    <div class="text-4xl mb-4">⚠️</div>
+                    <h3 class="text-xl font-bold text-red-500 mb-2">Module Load Failed</h3>
+                    <p id="error-message" class="text-slate-500 mb-6"></p>
+                    <button onclick="location.reload()" class="px-6 py-2 bg-slate-800 text-white rounded-lg">Return to Menu</button>
+                </div>
+
+                <div id="quiz-flow" class="space-y-6">
+                    <div class="flex justify-between items-center">
+                        <span id="module-label" class="text-[10px] font-800 uppercase tracking-widest text-slate-400">Loading...</span>
+                        <button onclick="directSkipModule()" class="text-xs font-700 text-slate-500 hover:text-blue-500 transition-colors">Skip Module ⏭</button>
+                    </div>
+
+                    <h2 id="topic-title" class="text-2xl md:text-3xl font-800 text-blue-600 leading-tight"></h2>
+                    
+                    <div id="content-box" class="p-5 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded-r-xl italic text-slate-600 dark:text-slate-300 text-sm hidden"></div>
+                    
+                    <p id="description-text" class="text-lg font-600 leading-relaxed"></p>
+
+                    <div id="options-bin" class="space-y-3"></div>
+
+                    <div id="explanation" class="hidden p-6 bg-emerald-50 dark:bg-emerald-900/20 rounded-2xl border border-emerald-100 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 animate-in fade-in slide-in-from-top-2 duration-300"></div>
+
+                    <div class="pt-4 flex justify-end min-h-[60px]">
+                        <button id="next-btn" onclick="handleNextClick()" class="hidden px-8 py-3 bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-800 rounded-xl shadow-lg hover:-translate-y-1 transition-all">
+                            Continue →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Completion Screen -->
+                <div id="completion-screen" class="hidden text-center py-6 space-y-6">
+                    <div class="text-7xl animate-bounce">🏆</div>
+                    <h2 id="completion-title" class="text-3xl font-800">Module Mastered!</h2>
+                    
+                    <div class="grid grid-cols-2 gap-4 max-w-sm mx-auto">
+                        <div class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-700">
+                            <div class="text-[10px] font-800 uppercase text-slate-400 mb-1">Final Score</div>
+                            <div id="final-score-val" class="text-2xl font-800 text-blue-500">0</div>
+                        </div>
+                        <div class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-700">
+                            <div class="text-[10px] font-800 uppercase text-slate-400 mb-1">Total Time</div>
+                            <div id="final-timer-val" class="text-2xl font-800 text-blue-500">00:00</div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3 pt-4">
+                        <button onclick="downloadScreenshot()" class="w-full p-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-xl font-800 flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20 transition-all">
+                            📸 Download Achievement Card
+                        </button>
+                        <div id="transition-actions"></div>
+                        <button onclick="location.reload()" class="w-full p-4 border-2 border-slate-200 dark:border-slate-700 rounded-xl font-700 hover:bg-slate-50 dark:hover:bg-slate-800 transition-all">
+                            Return to Catalog
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-12 text-center text-slate-400 text-xs font-500">
+            Powered by Pro Learning Portal • <a href="https://hasit.in/quiz.html" class="text-blue-500 hover:underline">More Quizzes</a>
+        </footer>
+    </div>
+
+    <!-- Restored Clean Achievement Template -->
+    <div id="achievement-card-template">
+        <div class="ach-badge">🛡️</div>
+        <div class="ach-title">Course Mastery Achieved</div>
+        
+        <div id="ach-cert-name">Explorer Name</div>
+        
+        <div style="font-size: 16px; opacity: 0.6; margin: 10px 0;">has successfully completed</div>
+        
+        <h2 id="ach-course-name" class="ach-course-name">COURSE TITLE</h2>
+        <div id="ach-module-num" class="ach-module-info">MODULE 001</div>
+
+        <div class="ach-stats-grid">
+            <div class="ach-stat-box">
+                <span id="ach-score" class="ach-stat-val">2,500</span>
+                <span class="ach-stat-lab">Total Points</span>
+            </div>
+            <div class="ach-stat-box">
+                <span id="ach-time" class="ach-stat-val">04:20</span>
+                <span class="ach-stat-lab">Completion Time</span>
+            </div>
+            <div class="ach-stat-box">
+                <span id="ach-date" class="ach-stat-val">MAY 2026</span>
+                <span class="ach-stat-lab">Date Verified</span>
+            </div>
+        </div>
+
+        <div class="ach-footer">
+            Verified by Pro Quiz Portal • hasit.in/quiz.html
+        </div>
+    </div>
+
+    <script>
+        const BASE_URL = "https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/";
+        const CATALOG_URL = "https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/courses_list.txt";
+
+        let quizData = [];
+        let currentIdx = 0;
+        let currentUrl = "";
+        let activeMode = "code";
+        let userName = "Explorer";
+        let score = 0;
+        let streak = 0;
+        let secondsElapsed = 0;
+        let timerInterval = null;
+        let questionStartTime = 0;
+        let fullCatalog = [];
+
+        window.onload = loadCatalog;
+
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.appendChild(document.createTextNode(str));
+            return div.innerHTML;
+        }
+
+        function fillExample() {
+            document.getElementById('quiz-url').value = document.getElementById('example-link').innerText;
+        }
+
+        async function loadCatalog() {
+            const dropdown = document.getElementById('course-dropdown');
+            try {
+                const response = await fetch(CATALOG_URL);
+                const text = await response.text();
+                fullCatalog = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
+                renderCatalogOptions(fullCatalog);
+            } catch (err) {
+                dropdown.innerHTML = '<option value="" disabled>Error connecting to catalog vault.</option>';
+            }
+        }
+
+        function renderCatalogOptions(items) {
+            const dropdown = document.getElementById('course-dropdown');
+            dropdown.innerHTML = '';
+            if (items.length === 0) {
+                dropdown.innerHTML = '<option value="" disabled>No matches found.</option>';
+                return;
+            }
+            items.forEach(name => {
+                const opt = document.createElement('option');
+                opt.value = name;
+                opt.className = "p-3 border-b border-slate-100 dark:border-slate-800 cursor-pointer hover:bg-blue-50 dark:hover:bg-slate-800";
+                opt.innerText = name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                dropdown.appendChild(opt);
+            });
+            if (items.length > 0) dropdown.selectedIndex = 0;
+        }
+
+        function filterCatalog() {
+            const query = document.getElementById('catalog-search').value.toLowerCase();
+            const filtered = fullCatalog.filter(name => 
+                name.toLowerCase().replace(/-/g, ' ').includes(query)
+            );
+            renderCatalogOptions(filtered);
+        }
+
+        function switchMode(mode) {
+            activeMode = mode;
+            const tabCode = document.getElementById('tab-code');
+            const tabUrl = document.getElementById('tab-url');
+            
+            tabCode.className = mode === 'code' ? 'flex-1 py-2 px-4 rounded-lg font-600 transition-all bg-white dark:bg-slate-700 shadow-sm text-blue-600' : 'flex-1 py-2 px-4 rounded-lg font-600 transition-all text-slate-500';
+            tabUrl.className = mode === 'url' ? 'flex-1 py-2 px-4 rounded-lg font-600 transition-all bg-white dark:bg-slate-700 shadow-sm text-blue-600' : 'flex-1 py-2 px-4 rounded-lg font-600 transition-all text-slate-500';
+            
+            document.getElementById('mode-code').classList.toggle('hidden', mode !== 'code');
+            document.getElementById('mode-url').classList.toggle('hidden', mode !== 'url');
+        }
+
+        function startTimer() {
+            secondsElapsed = 0;
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                secondsElapsed++;
+                const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
+                const secs = (secondsElapsed % 60).toString().padStart(2, '0');
+                document.getElementById('timer-val').innerText = `${mins}:${secs}`;
+            }, 1000);
+        }
+
+        function handleStart() {
+            const nameVal = document.getElementById('user-name-input').value.trim();
+            if (!nameVal) {
+                showNotify("Missing Info", "Please enter your name for the achievement card.");
+                return;
+            }
+            userName = nameVal.trim().substring(0, 100);
+
+            let finalUrl = "";
+            if (activeMode === 'code') {
+                const val = document.getElementById('course-dropdown').value;
+                if (!val) {
+                    showNotify("Selection Required", "Please choose a module from the list.");
+                    return;
+                }
+                finalUrl = `${BASE_URL}${val}/001.json`;
+            } else {
+                finalUrl = document.getElementById('quiz-url').value.trim();
+            }
+            if (finalUrl) initializeQuiz(finalUrl);
+        }
+
+        async function initializeQuiz(url) {
+            if (url.includes("github.com") && !url.includes("raw.githubusercontent.com")) {
+                url = url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/").replace("/tree/", "/");
+            }
+            if (!url.toLowerCase().endsWith('.json')) {
+                url = url.endsWith('/') ? url + '001.json' : url + '/001.json';
+            }
+            currentUrl = url;
+
+            document.getElementById('setup-container').classList.add('hidden');
+            document.getElementById('quiz-container').classList.remove('hidden');
+            document.getElementById('quiz-flow').classList.remove('hidden');
+            document.getElementById('completion-screen').classList.add('hidden');
+            document.getElementById('error-overlay').classList.add('hidden');
+
+            try {
+                const res = await fetch(currentUrl);
+                if (!res.ok) throw new Error(`Status ${res.status}: Failed to load file.`);
+                const raw = await res.json();
+                quizData = Array.isArray(raw) ? raw : [raw];
+                if (quizData.length === 0) throw new Error('Empty module data.');
+                quizData.forEach((q, i) => {
+                    if (!q || typeof q !== 'object') throw new Error(`Invalid entry at index ${i}.`);
+                });
+                
+                score = 0;
+                streak = 0;
+                currentIdx = 0;
+                document.getElementById('score-val').innerText = '0';
+                document.getElementById('streak-val').innerText = '0';
+                document.getElementById('progress-fill').style.width = '0%';
+                
+                startTimer();
+                const filename = url.split('/').pop().replace('.json', '');
+                document.getElementById('module-label').innerText = filename;
+                renderQuestion();
+            } catch (err) {
+                clearInterval(timerInterval);
+                document.getElementById('error-message').innerText = err.message;
+                document.getElementById('error-overlay').classList.remove('hidden');
+                document.getElementById('quiz-flow').classList.add('hidden');
+            }
+        }
+
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        function renderQuestion() {
+            if (!quizData || currentIdx >= quizData.length) {
+                checkNaturalEnd();
+                return;
+            }
+            const q = quizData[currentIdx];
+            if (!q) {
+                checkNaturalEnd();
+                return;
+            }
+            questionStartTime = Date.now();
+            
+            const prog = ((currentIdx) / quizData.length) * 100;
+            document.getElementById('progress-fill').style.width = prog + '%';
+
+            const topicTitle = document.getElementById('topic-title');
+            topicTitle.textContent = q.question || "Step " + (currentIdx + 1);
+            
+            const cb = document.getElementById('content-box');
+            cb.textContent = q.content || "";
+            cb.classList.toggle('hidden', !q.content);
+            
+            document.getElementById('description-text').textContent = q.description || "";
+            
+            const bin = document.getElementById('options-bin');
+            bin.innerHTML = '';
+            document.getElementById('explanation').classList.add('hidden');
+            document.getElementById('next-btn').classList.add('hidden');
+
+            if (q.options) {
+                const randomizedOptions = shuffleArray(q.options);
+                const correctAnswer = q.answer.trim();
+
+                randomizedOptions.forEach(opt => {
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn w-full p-5 text-left border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 shadow-sm';
+                    btn.innerText = opt;
+                    btn.onclick = () => {
+                        const btns = document.querySelectorAll('.option-btn');
+                        btns.forEach(b => b.disabled = true);
+                        
+                        const timeSpent = (Date.now() - questionStartTime) / 1000;
+                        
+                        if (opt.trim() === correctAnswer) {
+                            btn.classList.add('correct');
+                            streak++;
+                            const speedBonus = Math.max(0, Math.round(50 - (timeSpent * 5)));
+                            const streakBonus = streak > 2 ? 20 : 0;
+                            score += (100 + speedBonus + streakBonus);
+                            
+                            document.getElementById('score-val').innerText = score.toLocaleString();
+                            document.getElementById('streak-val').innerText = streak;
+                        } else {
+                            btn.classList.add('wrong');
+                            streak = 0;
+                            document.getElementById('streak-val').innerText = streak;
+                            btns.forEach(b => { 
+                                if (b.innerText.trim() === correctAnswer) b.classList.add('correct'); 
+                            });
+                        }
+                        
+                        const expText = q.explanation || "Correct! Moving to next section.";
+                        document.getElementById('explanation').innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4><p class="text-sm font-500">${escapeHtml(expText)}</p>`;
+                        document.getElementById('explanation').classList.remove('hidden');
+                        document.getElementById('next-btn').classList.remove('hidden');
+                    };
+                    bin.appendChild(btn);
+                });
+            }
+        }
+
+        function handleNextClick() {
+            currentIdx++;
+            if (currentIdx < quizData.length) {
+                renderQuestion();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                document.getElementById('progress-fill').style.width = '100%';
+                checkNaturalEnd(); 
+            }
+        }
+
+        async function directSkipModule() {
+            if (!currentUrl) return;
+            const nextUrl = currentUrl.replace(/(\d+)(?=\.json)/, (m) => 
+                (parseInt(m) + 1).toString().padStart(m.length, '0')
+            );
+            try {
+                const res = await fetch(nextUrl);
+                if (res.ok) initializeQuiz(nextUrl);
+                else checkNaturalEnd();
+            } catch (e) {
+                checkNaturalEnd();
+            }
+        }
+
+        async function checkNaturalEnd() {
+            clearInterval(timerInterval);
+            const finalTime = document.getElementById('timer-val').innerText;
+            document.getElementById('final-score-val').innerText = score.toLocaleString();
+            document.getElementById('final-timer-val').innerText = finalTime;
+
+            const nextUrl = currentUrl ? currentUrl.replace(/(\d+)(?=\.json)/, (m) => 
+                (parseInt(m) + 1).toString().padStart(m.length, '0')
+            ) : '';
+            
+            document.getElementById('quiz-flow').classList.add('hidden');
+            document.getElementById('completion-screen').classList.remove('hidden');
+            const box = document.getElementById('transition-actions');
+            box.innerHTML = '<p class="text-xs text-slate-400 font-600 italic">Scanning for following modules...</p>';
+
+            try {
+                const res = await fetch(nextUrl);
+                if (res.ok) {
+                    box.innerHTML = `<button onclick="initializeQuiz('${nextUrl}')" class="w-full p-4 bg-slate-900 dark:bg-white dark:text-slate-900 text-white rounded-xl font-800 shadow-xl">Start Next Module →</button>`;
+                } else {
+                    box.innerHTML = `<p class="font-800 text-emerald-500">Mastery Complete: No further modules detected in this track.</p>`;
+                    document.getElementById('completion-title').innerText = "Course Track Completed!";
+                }
+            } catch (e) {
+                box.innerHTML = `<p class="text-slate-500">End of sequence.</p>`;
+            }
+        }
+
+        function downloadScreenshot() {
+            const target = document.getElementById('achievement-card-template');
+            if (!currentUrl) {
+                showNotify("Screenshot Error", "No quiz data to generate card.");
+                return;
+            }
+            const parts = currentUrl.split('/');
+            const modFile = parts.pop();
+            const courseFolderName = parts.pop();
+            const moduleNum = modFile.replace('.json', '');
+            const courseFormatted = courseFolderName.toUpperCase().replace(/-/g, ' ');
+
+            document.getElementById('ach-cert-name').innerText = userName;
+            document.getElementById('ach-course-name').innerText = courseFormatted;
+            document.getElementById('ach-module-num').innerText = "Module " + moduleNum;
+            document.getElementById('ach-score').innerText = score.toLocaleString();
+            document.getElementById('ach-time').innerText = document.getElementById('timer-val').innerText;
+            
+            const now = new Date();
+            document.getElementById('ach-date').innerText = now.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }).toUpperCase();
+
+            if (typeof html2canvas !== 'function') {
+                console.error('html2canvas library is not loaded');
+                showNotify("Screenshot Error", "html2canvas library failed to load.");
+                return;
+            }
+            html2canvas(target).then(canvas => {
+                const link = document.createElement('a');
+                link.download = `Achievement_${courseFolderName}_M${moduleNum}.png`;
+                link.href = canvas.toDataURL("image/png");
+                link.click();
+            }).catch(err => {
+                console.error('Screenshot generation failed:', err);
+                showNotify("Screenshot Error", "Could not generate achievement card.");
+            });
+        }
+
+        // Internal UI Notification (Replaces alerts)
+        function showNotify(title, msg) {
+            const div = document.createElement('div');
+            div.className = "fixed bottom-4 left-1/2 -translate-x-1/2 w-[90%] max-w-sm glass-card p-4 rounded-xl shadow-2xl z-50 animate-in fade-in slide-in-from-bottom-4";
+            div.innerHTML = `
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">!</div>
+                    <div>
+                        <h4 class="font-800 text-sm">${title}</h4>
+                        <p class="text-xs text-slate-500">${msg}</p>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(div);
+            setTimeout(() => {
+                div.classList.add('animate-out', 'fade-out', 'slide-out-to-bottom-4');
+                setTimeout(() => div.remove(), 500);
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
