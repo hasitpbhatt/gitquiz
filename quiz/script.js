@@ -1,3 +1,5 @@
+// @ts-check
+
 const BASE_URL = "https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/";
 const CATALOG_URL = "https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/courses_list.txt";
 
@@ -5,7 +7,7 @@ let quizData = [];
 let currentIdx = 0;
 let currentUrl = "";
 let activeMode = "code";
-let userName = "Explorer";
+let userName = localStorage.getItem('quizUserName') || "Explorer";
 let score = 0;
 let streak = 0;
 let secondsElapsed = 0;
@@ -13,7 +15,23 @@ let timerInterval = null;
 let questionStartTime = 0;
 let fullCatalog = [];
 
-window.onload = loadCatalog;
+window.onload = async () => {
+  await loadCatalog();
+  const courseParam = new URLSearchParams(window.location.search).get('course');
+  if (courseParam && fullCatalog.includes(courseParam)) {
+    const dropdown = document.getElementById('course-dropdown');
+    dropdown.value = courseParam;
+    // Optional: Add subtle UI hint (e.g., change placeholder or add tooltip)
+  }
+  
+  // Auto-start quiz if we have a valid course selected
+  const dropdown = document.getElementById('course-dropdown');
+  if (dropdown.value) {
+    // Auto-start the quiz (simulate clicking "Begin Challenge")
+    // We'll use a default name if not set, but won't prompt for it until certificate download
+    handleStart();
+  }
+};
 
 function escapeHtml(str) {
     const div = document.createElement('div');
@@ -86,13 +104,6 @@ function startTimer() {
 }
 
 function handleStart() {
-    const nameVal = document.getElementById('user-name-input').value.trim();
-    if (!nameVal) {
-        showNotify("Missing Info", "Please enter your name for the achievement card.");
-        return;
-    }
-    userName = nameVal.trim().substring(0, 100);
-
     let finalUrl = "";
     if (activeMode === 'code') {
         const val = document.getElementById('course-dropdown').value;
@@ -290,6 +301,25 @@ function downloadScreenshot() {
         showNotify("Screenshot Error", "No quiz data to generate card.");
         return;
     }
+    
+    // Prompt for name if not already set (and not default "Explorer")
+    if (userName === "Explorer" || !userName || userName.trim() === "") {
+        const namePrompt = prompt("Please enter your name for the achievement certificate:", userName === "Explorer" ? "" : userName);
+        if (namePrompt === null) {
+            // User cancelled
+            return;
+        }
+        const trimmedName = namePrompt.trim();
+        if (trimmedName) {
+            userName = trimmedName.substring(0, 100); // Limit length
+            localStorage.setItem('quizUserName', userName); // Save for next time
+        } else {
+            // If user provides empty name, keep current userName (which might be "Explorer")
+            showNotify("Name Required", "Please enter a valid name for the certificate.");
+            return;
+        }
+    }
+
     const parts = currentUrl.split('/');
     const modFile = parts.pop();
     const courseFolderName = parts.pop();
