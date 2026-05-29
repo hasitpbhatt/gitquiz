@@ -55,6 +55,7 @@ For each chapter (001.json, 002.json, etc.), create a file with this format:
 - **Content**: Concise definition/explanation of the concept
 - **Description**: Scenario setup ending with a question (e.g., "This illustrates:")
 - **Options**: 4 plausible options, only one correct
+  - **CRITICAL**: Options must NOT reference **other options** by letter (e.g., "Both B and C", "A & C", "B & D", "All of the above"). Options are shuffled at runtime, so positional letter references become meaningless. Use standalone text instead. — Letters used as **content** (e.g. "A and E" for a question about vowels) are fine since they're the actual answer, not a reference to another option's position.
 - **Answer**: Must match exactly one option string
 - **Explanation**: Teaching moment explaining the reasoning
 
@@ -72,11 +73,13 @@ Add your course identifier to `gitquiz/courses/courses_list.txt` in alphabetical
 
 ### 7. Quality Check
 Before completing:
-- [ ] All JSON files are valid (parseable)
+- [ ] All JSON files are valid (parseable, no duplicate keys)
+- [ ] Run `node -e "JSON.parse(require('fs').readFileSync('FILE'))"` on each JSON file
 - [ ] Each chapter has 7-12 questions
 - [ ] Options are mutually exclusive
+- [ ] No option references other options by position (grep for `"Both [A-D]`, `"All of the above`, `[A-D] & [A-D]`)
 - [ ] Answer matches exactly one option
-- [ *] Explanations teach, don't just state
+- [ ] Explanations teach, don't just state
 - [ ] Courses list is alphabetically sorted
 - [ ] File naming uses 001.json, 002.json format
 
@@ -98,11 +101,20 @@ Based from our "Super Thinking" course creation:
 - Courses list: `gitquiz/courses/courses_list.txt`
 
 ## Validation Steps
-After creating files:
-1. Verify JSON syntax: Use a JSON validator on each file
-2. Check answer correctness: Ensure answer string exactly matches one option
-3. Confirm alphabetical order: `sort -c courses_list.txt` should not error
-4. Review scenario quality: Descriptions should be realistic and illustrative
+After creating files, run these checks:
+
+1. **JSON syntax**: Validate each file with Node:
+   ```bash
+   node -e "require('fs').readdirSync('courses/course-identifier/').filter(f => f.endsWith('.json')).forEach(f => { try { JSON.parse(require('fs').readFileSync('courses/course-identifier/'+f)); console.log(f+' OK'); } catch(e) { console.error(f+' FAIL: '+e.message); process.exit(1); } })"
+   ```
+2. **No position-referencing options**: Grep for options that reference other options by letter position:
+   ```bash
+   rg -n '(Both [A-D]|All of the above|[A-D] & [A-D])' courses/course-identifier/
+   ```
+   Should return zero matches (letters as content, e.g. vowel answers like "A and E", are not affected). If any found, rewrite options as standalone text.
+3. **Check answer correctness**: Ensure answer string exactly matches one option
+4. **Confirm alphabetical order**: `sort -c courses/courses_list.txt` should not error
+5. **Review scenario quality**: Descriptions should be realistic and illustrative
 
 ## Example Usage Flow
 ```
