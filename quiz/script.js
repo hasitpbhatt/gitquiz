@@ -15,23 +15,19 @@ let timerInterval = null;
 let questionStartTime = 0;
 let fullCatalog = [];
 
-window.onload = async () => {
+;(async () => {
   await loadCatalog();
   const courseParam = new URLSearchParams(window.location.search).get('course');
   if (courseParam && fullCatalog.includes(courseParam)) {
     const dropdown = document.getElementById('course-dropdown');
     dropdown.value = courseParam;
-    // Optional: Add subtle UI hint (e.g., change placeholder or add tooltip)
   }
   
-  // Auto-start quiz if we have a valid course selected
   const dropdown = document.getElementById('course-dropdown');
   if (dropdown.value) {
-    // Auto-start the quiz (simulate clicking "Begin Challenge")
-    // We'll use a default name if not set, but won't prompt for it until certificate download
     handleStart();
   }
-};
+})();
 
 function escapeHtml(str) {
     const div = document.createElement('div');
