@@ -1,0 +1,145 @@
+[
+  {
+    "question": "Occam's Razor vs. Complexity Bias",
+    "content": "Occam's Razor favors simpler explanations with fewer assumptions. Complexity bias is our tendency to perceive complex solutions as better than simple ones.",
+    "description": "A startup's app isn't gaining users. The team proposes adding AI, blockchain, and VR features. Occam's Razor suggests first:",
+    "options": [
+      "Immediately implement all three technologies",
+      "Conduct user interviews to identify core usability issues",
+      "Rebrand the entire company",
+      "Seek venture capital for the tech overhaul"
+    ],
+    "answer": "Conduct user interviews to identify core usability issues",
+    "explanation": "Occam's Razor says to look for the simplest explanation first - likely usability or value proposition issues - before assuming complex technological solutions are needed."
+  },
+  {
+    "question": "Confirmation Bias and Inversion",
+    "content": "Confirmation bias makes us seek information that confirms our beliefs. Inversion asks what would cause the opposite outcome to reveal blind spots.",
+    "description": "You're confident your investment strategy works. To combat confirmation bias using inversion, you should:",
+    "options": [
+      "Only read news that supports your strategy",
+      "Ask: 'How could this strategy lose all my money?'",
+      "Increase your investment amount",
+      "Ignore all market data"
+    ],
+    "answer": "Ask: 'How could this strategy lose all my money?'",
+    "explanation": "Inversion for investment means considering failure scenarios to overcome confirmation bias - identifying risks like market crashes, sector declines, or execution flaws."
+  },
+  {
+    "question": "Supply and Demand with Opportunity Cost",
+    "content": "Supply and demand determine market prices. Opportunity cost is the value of the next best alternative when making choices.",
+    "description": "A sudden oil shortage increases gasoline prices. The opportunity cost of driving now includes:",
+    "options": [
+      "Only the higher gas price",
+      "The higher gas price plus what else you could do with that money",
+      "The wear and tear on your car",
+      "The time spent driving"
+    ],
+    "answer": "The higher gas price plus what else you could do with that money",
+    "explanation": "Opportunity cost includes both the explicit cost (higher gas price) and the implicit cost (forgone alternatives like saving, entertainment, or other purchases)."
+  },
+  {
+    "question": "Natural Selection and Incentives",
+    "content": "Natural selection favors traits that increase reproductive success. Incentives drive behavior in economic systems - similar selective pressures.",
+    "description": "A company rewards employees solely based on hours worked in office. Over time, natural selection-like pressures will favor:",
+    "options": [
+      "Employees who work remotely but are highly productive",
+      "Employees who stay late regardless of output",
+      "Employees who take frequent breaks",
+      "Employees who collaborate effectively in teams"
+    ],
+    "answer": "Employees who stay late regardless of output",
+    "explanation": "The incentive structure (rewarding hours, not output) creates selection pressure favoring presenteeism over productivity - similar to how natural selection favors traits that maximize reproductive success in given conditions."
+  },
+  {
+    "question": "Network Effects and Critical Mass",
+    "content": "Network effects increase product value as more users join. Critical mass is the point where value exceeds cost for new users.",
+    "description": "A new professional networking site launches. It will succeed if it achieves:",
+    "options": [
+      "Perfect features before any users join",
+      "Enough users that professionals find it valuable for career opportunities",
+      "Venture capital funding for 10 years",
+      "Celebrity endorsements"
+    ],
+    "answer": "Enough users that professionals find it valuable for career opportunities",
+    "explanation": "Success depends on reaching critical mass - sufficient users that the network provides value (job leads, connections) that outweighs the cost of joining (time, privacy)."
+  },
+  {
+    "question": "Tragedy of the Commons and Externalities",
+    "content": "Tragedy of commons: shared resources depleted by individual self-interest. Externalities: costs/benefits affecting third parties not involved in the transaction.",
+    "description": "Multiple factories polluting a river illustrates both tragedy of the commons and negative externalities because:",
+    "options": [
+      "Each factory saves money by not treating waste (self-interest), harming others who use the river (externalities)",
+      "The river is privately owned by one factory",
+      "Pollution actually improves the river ecosystem",
+      "Factories voluntarily cooperate to clean the river"
+    ],
+    "answer": "Each factory saves money by not treating waste (self-interest), harming others who use the river (externalities)",
+    "explanation": "Each factory benefits individually from not treating waste (self-interest), but the shared river resource gets degraded (tragedy of commons), imposing costs on downstream users like fishermen and communities (negative externalities)."
+  },
+  {
+    "question": "Leverage Points and Margin of Safety",
+    "content": "Leverage points: small changes creating large system effects. Margin of safety: buffer against uncertainty or error.",
+    "description": "When trying to improve your health with limited time, applying these models means:",
+    "options": [
+      "Spending 2 hours daily at the gym",
+      "Following every health trend you see online",
+      "Identifying high-leverage actions (like sleep) and building in consistency buffers",
+      "Only focusing on diet and ignoring exercise"
+    ],
+    "answer": "Identifying high-leverage actions (like sleep) and building in consistency buffers",
+    "explanation": "Leverage: Sleep affects hormones, cognition, immunity, and recovery - high impact. Margin of safety: Planning for 4 workouts/week but accepting 3 creates sustainability buffer."
+  },
+  {
+    "question": "Probabilistic Thinking and Base Rates",
+    "content": "Probabilistic thinking estimates likelihoods. Base rate neglect ignores general probabilities in favor of specific information.",
+    "description": "A test for a rare disease (0.1% prevalence) is 99% accurate. If you test positive, the probability you actually have the disease is approximately:",
+    "options": [
+      "99%",
+      "50%",
+      "9%",
+      "1%"
+    ],
+    "answer": "9%",
+    "explanation": "With 0.1% base rate: In 1000 people, 1 has disease (tests positive true), 999 don't (~10 test positive false). So ~11 positives total, only 1 true → 1/11 ≈ 9%. Ignoring base rate leads to overestimating probability."
+  },
+  {
+    "question": "Compounding and Opportunity Cost",
+    "content": "Compounding grows wealth exponentially over time. Opportunity cost is what you forgive when choosing one option over another.",
+    "description": "Choosing to spend $5,000 on a vacation instead of investing it at 7% annual return has an opportunity cost of approximately:",
+    "options": [
+      "$5,000",
+      "$9,835",
+      "$350",
+      "$0"
+    ],
+    "answer": "$9,835",
+    "explanation": "Opportunity cost includes compounding: $5,000 × (1.07)^10 ≈ $9,835 after 10 years. This is the future value forgone by spending instead of investing."
+  },
+  {
+    "question": "Relativity and Frame of Reference",
+    "content": "Relativity shows measurements depend on observer's frame. In life, our perspective (reference frame) shapes our interpretation of events.",
+    "description": "Getting a 5% raise feels:",
+    "options": [
+      "Always positive regardless of context",
+      "Negative if inflation is 8%",
+      "The same for everyone in all situations",
+      "Only meaningful if you're underpaid"
+    ],
+    "answer": "Negative if inflation is 8%",
+    "explanation": "Relativity of perception: A 5% raise is negative in real terms if inflation is 8% (you lose purchasing power). Our frame of reference (cost of living changes) determines whether nominal gains are actually beneficial."
+  },
+  {
+    "question": "Integrated Thinking: The Latticework",
+    "content": "Super thinking emphasizes building a latticework of mental models from multiple disciplines to better understand complex systems and make wiser decisions.",
+    "description": "When facing a major life decision (career change, moving cities, etc.), the super thinking approach is to:",
+    "options": [
+      "Rely on gut feeling alone",
+      "Follow what worked for a friend or family member",
+      "Apply relevant models from physics, psychology, economics, and systems theory to examine the decision from multiple angles",
+      "Make the quickest decision to avoid overthinking"
+    ],
+    "answer": "Apply relevant models from physics, psychology, economics, and systems theory to examine the decision from multiple angles",
+    "explanation": "Super thinking means using a latticework of models: opportunity cost (what you're giving up), inversion (what could go wrong), circle of competence (do you have expertise?), systems thinking (second/order effects), and more to gain multidimensional understanding."
+  }
+]

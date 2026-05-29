@@ -1,0 +1,119 @@
+[
+  {
+    "question": "Occam's Razor",
+    "content": "Occam's Razor states that among competing hypotheses, the one with the fewest assumptions should be selected. It's a principle of simplicity that helps avoid overcomplicating explanations.",
+    "description": "You hear hoofbeats and see animal tracks. Which conclusion best applies Occam's Razor?",
+    "options": [
+      "A zebra escaped from the nearby zoo",
+      "A horse is nearby",
+      "A unicorn left magical hoofprints",
+      "An alien spacecraft landed and took off"
+    ],
+    "answer": "A horse is nearby",
+    "explanation": "Occam's Razor favors the explanation requiring fewest assumptions - a horse is more likely than a zebra in most locations, and vastly more likely than mythical creatures or aliens."
+  },
+  {
+    "question": "Hanlon's Razor",
+    "content": "Hanlon's Razor advises: 'Never attribute to malice that which is adequately explained by stupidity.' It helps prevent overestimating intentional harm when ignorance or error suffices.",
+    "description": "Your coworker forgets to invite you to an important meeting. Applying Hanlon's Razor, you should first consider:",
+    "options": [
+      "They deliberately excluded you to undermine your work",
+      "They made an honest oversight or mistake",
+      "They're testing your reaction to exclusion",
+      "They accidentally sent the invite to spam"
+    ],
+    "answer": "They made an honest oversight or mistake",
+    "explanation": "Hanlon's Razor suggests starting with the simplest explanation - an honest mistake - before assuming malicious intent, which requires more complex assumptions about motives."
+  },
+  {
+    "question": "First Principles Thinking",
+    "content": "First principles thinking involves breaking down complex problems into basic elements and reassembling them from the ground up, rather than relying on analogy or tradition.",
+    "description": "When designing a new backpack using first principles, you would:",
+    "options": [
+      "Copy the most popular backpack design",
+      "Ask hikers what features they want",
+      "Identify the core purpose: carrying items comfortably and efficiently",
+      "Use materials from last year's model"
+    ],
+    "answer": "Identify the core purpose: carrying items comfortably and efficiently",
+    "explanation": "First principles means starting from fundamental purpose - what a backpack must do - rather than copying existing designs or making incremental improvements."
+  },
+  {
+    "question": "Inversion",
+    "content": "Inversion means approaching a problem backward - instead of asking how to achieve something, ask how to avoid the opposite outcome. This reveals hidden obstacles.",
+    "description": "To improve your work productivity using inversion, you should:",
+    "options": [
+      "Study the habits of extremely productive people",
+      "Ask yourself: 'How could I make sure I get nothing done today?'",
+      "Set ambitious daily goals",
+      "Buy the latest productivity apps"
+    ],
+    "answer": "Ask yourself: 'How could I make sure I get nothing done today?'",
+    "explanation": "Inversion reveals productivity blockers by considering the opposite outcome - identifying distractions, poor planning, or energy mismanagement that would prevent work."
+  },
+  {
+    "question": "Second-Order Thinking",
+    "content": "Second-order thinking considers not just immediate consequences of an action, but the subsequent effects that follow - asking 'And then what?' multiple times.",
+    "description": "A city installs free public Wi-Fi everywhere. Second-order thinking would consider:",
+    "options": [
+      "The cost of installing the equipment",
+      "How many people will use it on day one",
+      "Potential increases in loitering, cybercrime, and privacy concerns",
+      "The technical specifications of the routers"
+    ],
+    "answer": "Potential increases in loitering, cybercrime, and privacy concerns",
+    "explanation": "Second-order thinking looks beyond the immediate benefit (free internet) to anticipate downstream effects like changed behavior patterns, security issues, and social impacts."
+  },
+  {
+    "question": "Probabilistic Thinking",
+    "content": "Probabilistic thinking involves estimating likelihoods of outcomes rather than seeking certainty, helping make better decisions under uncertainty by weighing possibilities.",
+    "description": "When deciding whether to bring an umbrella, probabilistic thinking means:",
+    "options": [
+      "Waiting to see if it starts raining",
+      "Checking if rain is guaranteed today",
+      "Estimating the chance of rain and weighing inconvenience vs. getting wet",
+      "Always carrying an umbrella just in case"
+    ],
+    "answer": "Estimating the chance of rain and weighing inconvenience vs. getting wet",
+    "explanation": "Probabilistic thinking considers the likelihood of rain (from forecast), the inconvenience of carrying an umbrella, and the discomfort of getting wet to make an optimal choice."
+  },
+  {
+    "question": "Leverage",
+    "content": "Leverage identifies situations where small inputs produce large outputs. Finding leverage points allows disproportionate impact with minimal effort.",
+    "description": "In personal finance, which action typically provides the greatest leverage?",
+    "options": [
+      "Saving $5/day by skipping coffee",
+      "Getting a 1% raise at work",
+      "Learning to negotiate your salary effectively",
+      "Using a coupon for grocery shopping"
+    ],
+    "answer": "Learning to negotiate your salary effectively",
+    "explanation": "Salary negotiation can yield thousands of extra dollars annually - far greater leverage than small daily savings or modest percentage increases."
+  },
+  {
+    "question": "Opportunity Cost",
+    "content": "Opportunity cost is what you give up to pursue a certain action. Every choice has hidden costs - the value of the next best alternative you didn't choose.",
+    "description": "You decide to spend Saturday watching movies instead of working freelance. The opportunity cost is:",
+    "options": [
+      "The money you would have earned freelancing",
+      "The enjoyment from watching movies",
+      "The electricity used by your TV",
+      "The wear and tear on your couch"
+    ],
+    "answer": "The money you would have earned freelancing",
+    "explanation": "Opportunity cost focuses on the value of the best alternative forgone - in this case, freelance income - not the chosen activity's costs or benefits."
+  },
+  {
+    "question": "Margin of Safety",
+    "content": "Margin of safety involves building in a buffer for error or uncertainty. Engineers design bridges to hold more than expected loads; investors buy stocks below intrinsic value.",
+    "description": "When estimating how long a project will take, applying margin of safety means:",
+    "options": [
+      "Working as fast as possible to finish early",
+      "Adding extra time to your estimate for unexpected delays",
+      "Only counting time when you're actively working",
+      "Assuming everything will go perfectly according to plan"
+    ],
+    "answer": "Adding extra time to your estimate for unexpected delays",
+    "explanation": "Margin of safety means deliberately overestimating time needed to account for inevitable complications, creating a buffer that increases likelihood of on-time completion."
+  }
+]

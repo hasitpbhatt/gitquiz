@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Microeconomics",
+    "content": "Microeconomics studies individual agents (households, firms) and their interactions in markets, focusing on supply and demand, pricing, and resource allocation.",
+    "description": "If the price of coffee increases significantly, what is the most likely immediate effect on the tea market, assuming they are substitutes?",
+    "options": [
+      "Demand for tea decreases",
+      "Supply of tea increases",
+      "Demand for tea increases",
+      "No change in tea market"
+    ],
+    "answer": "Demand for tea increases",
+    "explanation": "When coffee (a substitute for tea) becomes more expensive, consumers switch to tea, increasing demand for tea. This is the substitution effect in microeconomics."
+  },
+  {
+    "question": "Supply and Demand",
+    "content": "The supply and demand model explains how prices vary based on the balance between product availability (supply) and consumer desire (demand).",
+    "description": "A new technology makes smartphone production much cheaper. What happens to the equilibrium price and quantity of smartphones?",
+    "options": [
+      "Price increases, quantity decreases",
+      "Price decreases, quantity increases",
+      "Both price and quantity increase",
+      "Both price and quantity decrease"
+    ],
+    "answer": "Price decreases, quantity increases",
+    "explanation": "Cheaper production increases supply (supply curve shifts right). With demand constant, this lowers equilibrium price and increases equilibrium quantity."
+  },
+  {
+    "question": "Opportunity Cost",
+    "content": "Opportunity cost in economics is the value of the next best alternative forgone when making a decision. It's crucial for rational choice theory.",
+    "description": "A farmer can grow either wheat or corn on a plot of land. If growing wheat yields $100 profit and corn yields $150 profit, what is the opportunity cost of growing wheat?",
+    "options": [
+      "$100",
+      "$150",
+      "$50",
+      "$250"
+    ],
+    "answer": "$150",
+    "explanation": "Opportunity cost is the profit from the next best alternative forgone. By choosing wheat ($100 profit), the farmer gives up the opportunity to earn $150 from corn."
+  },
+  {
+    "question": "Comparative Advantage",
+    "content": "Comparative advantage explains how parties benefit from trade by specializing in producing goods where they have the lowest opportunity cost, even if one is more efficient in everything.",
+    "description": "Country A can produce 10 cars or 20 trucks per day. Country B can produce 6 cars or 6 trucks per day. Which country has comparative advantage in truck production?",
+    "options": [
+      "Country A",
+      "Country B",
+      "Both have equal advantage",
+      "Neither has advantage"
+    ],
+    "answer": "Country B",
+    "explanation": "Country A's opportunity cost of 1 truck = 0.5 cars. Country B's opportunity cost of 1 truck = 1 car. Country A has lower opportunity cost for trucks, so Country A has comparative advantage in trucks. Wait, let me recalculate: Actually, Country A gives up 10 cars for 20 trucks = 0.5 cars per truck. Country B gives up 6 cars for 6 trucks = 1 car per truck. Since 0.5 < 1, Country A has lower opportunity cost for trucks, thus comparative advantage in trucks. But that doesn't match options. Let me think again: For trucks: A: 20 trucks = 10 cars → 1 truck = 0.5 cars. B: 6 trucks = 6 cars → 1 truck = 1 car. Lower opportunity cost is A (0.5 < 1), so A has comparative advantage in trucks. But the question might be asking about who should specialize in trucks. Actually, A has comp adv in trucks (lower OC), B has comp adv in cars (A's OC for cars = 2 trucks, B's OC for cars = 1 truck → B has lower OC for cars). So A should specialize in trucks, B in cars. Therefore A has comparative advantage in truck production. But looking at options, if A is correct, then answer should be A. Let me check standard example: Usually the one with lower OC has comp adv. So A has lower OC for trucks (0.5 cars vs 1 car), so A has comp adv in trucks. Answer should be A."
+    ],
+    "answer": "Country A",
+    "explanation": "Country A's opportunity cost of producing 1 truck is 0.5 cars (10 cars/20 trucks). Country B's opportunity cost of producing 1 truck is 1 car (6 cars/6 trucks). Since 0.5 < 1, Country A has lower opportunity cost for truck production and thus comparative advantage in trucks."
+  },
+  {
+    "question": "Incentives",
+    "content": "Incentives are factors that motivate or influence behavior. Economics studies how people respond to incentives, which can be financial, social, or psychological.",
+    "description": "A city wants to reduce traffic congestion. Which policy would likely be most effective based on incentives?",
+    "options": [
+      "Building more highways",
+      "Implementing congestion pricing during peak hours",
+      "Creating more parking spaces downtown",
+      "Requiring companies to have lunch breaks at different times"
+    ],
+    "answer": "Implementing congestion pricing during peak hours",
+    "explanation": "Congestion pricing creates a financial incentive to drive less during peak hours or use alternative transportation, directly influencing behavior through cost."
+  },
+  {
+    "question": "Tragedy of the Commons",
+    "content": "The tragedy of the commons occurs when individuals acting in self-interest deplete a shared limited resource, even when it's against the group's long-term interest.",
+    "description": "Several fishermen share a lake. If each tries to maximize their own catch without limits, what is the likely outcome?",
+    "options": [
+      "The fish population remains stable indefinitely",
+      "Fish populations increase due to competition",
+      "The fish population collapses from overfishing",
+      "Fishermen automatically cooperate to limit catches"
+    ],
+    "answer": "The fish population collapses from overfishing",
+    "explanation": "Without regulation, each fisherman benefits from catching more fish, but the shared resource gets depleted. Individual rationality leads to collective ruin - the tragedy of the commons."
+  },
+  {
+    "question": "Network Effects",
+    "content": "Network effects occur when a product or service gains additional value as more people use it, creating a positive feedback loop that can lead to market dominance.",
+    "description": "Why might someone choose to join a less-featured social network that all their friends use over a better-featured network that none of their friends use?",
+    "options": [
+      "They don't know about the better network",
+      "The less-featured network has network effects - it's valuable because friends are there",
+      "Better networks are always more expensive",
+      "They prefer worse user experience"
+    ],
+    "answer": "The less-featured network has network effects - it's valuable because friends are there",
+    "explanation": "Network effects mean the value of a network increases with the number of users. Even inferior technology can dominate if it achieves critical mass first (e.g., QWERTY keyboard)."
+  },
+  {
+    "question": "Externalities",
+    "content": "Externalities are costs or benefits that affect third parties who did not choose to incur those costs or benefits. They cause market failures when not accounted for.",
+    "description": "A factory polluting a river creates a negative externality because:",
+    "options": [
+      "The factory must pay for the pollution",
+      "Fishermen downstream suffer losses without compensation",
+      "The factory gets tax breaks for being green",
+      "Pollution increases the factory's productivity"
+    ],
+    "answer": "Fishermen downstream suffer losses without compensation",
+    "explanation": "The factory's pollution imposes costs (cleanup, lost fishing income) on downstream fishermen who neither agreed to nor receive compensation for these harms - a classic negative externality."
+  },
+  {
+    "question": "Arbitrage",
+    "content": "Arbitrage is the simultaneous purchase and sale of an asset to profit from price differences in different markets. It helps markets converge toward efficiency.",
+    "description": "If gold costs $1,800/ounce in New York and $1,820/ounce in London, an arbitrageur would:",
+    "options": [
+      "Buy gold in London and sell in New York",
+      "Buy gold in New York and sell in London",
+      "Wait for prices to equalize naturally",
+      "Buy gold in both cities"
+    ],
+    "answer": "Buy gold in New York and sell in London",
+    "explanation": "Buy low in New York ($1,800), sell high in London ($1,820), profit $20/ounce minus transaction costs. This activity pushes New York price up and London price down toward equilibrium."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Climate Change Policy",
+    "content": "Addressing climate change requires integrating multiple mental models: systems thinking (feedback loops, tipping points), economics (externalities, tragedy of commons), and physics (thermodynamics, energy transfer).",
+    "description": "A government is considering a carbon tax. Which combination of models best supports this policy?",
+    "options": [
+      "Only physics models of heat transfer",
+      "Only economic models of supply and demand",
+      "Physics (energy systems) + Economics (negative externalities) + Systems (feedback loops)",
+      "Only biology models of ecosystems"
+    ],
+    "answer": "Physics (energy systems) + Economics (negative externalities) + Systems (feedback loops)",
+    "explanation": "Climate change involves: physics (greenhouse effect, thermodynamics), economics (carbon emissions as negative externality not priced in markets), and systems thinking (climate feedback loops like ice-albedo effect)."
+  },
+  {
+    "question": "Investment Decision",
+    "content": "Smart investing combines: accounting (circle of competence), probability (expected value), psychology (biases like loss aversion), and systems (market cycles, leverage).",
+    "description": "You're evaluating a stock using multiple models. Which approach is most robust?",
+    "options": [
+      "Buy based on a hot tip from a friend",
+      "Buy because the stock went up yesterday (recency)",
+      "Analyze financials within your expertise, estimate intrinsic value with margin of safety, and check for cognitive biases",
+      "Buy the most expensive stock assuming it's best"
+    ],
+    "answer": "Analyze financials within your expertise, estimate intrinsic value with margin of safety, and check for cognitive biases",
+    "explanation": "Integrating circle of competence (stay expert), inversion/margin of safety (avoid overpaying), and bias awareness (loss aversion, confirmation) creates a robust investment framework."
+  },
+  {
+    "question": "Health Intervention",
+    "content": "Improving public health requires: biology (physiology, homeostasis), psychology (habits, incentives), systems (feedback loops, emergence), and economics (cost-benefit, opportunity cost).",
+    "description": "To reduce childhood obesity, which integrated approach works best?",
+    "options": [
+      "Only building more playgrounds",
+      "Only teaching nutrition in schools",
+      "Combining soda taxes (incentives), school programs (education), urban design (activity), and parental education (home environment)",
+      "Only banning sugary drinks"
+    ],
+    "answer": "Combining soda taxes (incentives), school programs (education), urban design (activity), and parental education (home environment)",
+    "explanation": "Obesity is a complex system: biology (metabolism), psychology (habits, self-control), economics (food pricing, time costs), and systems (food deserts, marketing). Multi-model interventions address more leverage points."
+  },
+  {
+    "question": "Career Decision",
+    "content": "Career choices benefit from: opportunity cost (what you give up), circle of competence (skills match), leverage (high-impact roles), and learning curves (skill acquisition).",
+    "description": "Choosing between two job offers: Job A pays more but in a dying industry. Job B pays less but grows valuable skills. Which model combination helps decide?",
+    "options": [
+      "Only take the higher paying job (Job A)",
+      "Only follow your passion regardless of pay",
+      "Compare opportunity cost (future options), skill leverage, industry trends, and competence alignment",
+      "Flip a coin to avoid overthinking"
+    ],
+    "answer": "Compare opportunity cost (future options), skill leverage, industry trends, and competence alignment",
+    "explanation": "Opportunity cost: What future doors does each job open? Leverage: Does one offer higher impact per hour? Circle of competence: Which better uses/develops your skills? Systems: Industry growth/decline trends."
+  },
+  {
+    "question": "Relationship Conflict",
+    "content": "Resolving conflicts uses: psychology (confirmation bias, fundamental attribution error), systems (feedback loops, escalation), inversion (what worsens conflict?), and reciprocity (mutual concession).",
+    "description": "You and your partner keep arguing about chores. Applying integrated models, you should:",
+    "options": [
+      "Blame them entirely for being lazy",
+      "Insist they change completely while you stay the same",
+      "Examine your own contributions (fundamental attribution error), look for negative feedback loops, try inversion (what makes it worse?), and propose mutual concessions",
+      "Ignore the problem hoping it goes away"
+    ],
+    "answer": "Examine your own contributions (fundamental attribution error), look for negative feedback loops, try inversion (what makes it worse?), and propose mutual concessions",
+    "explanation": "Relationships are psychological systems: attribution bias blames others, negative feedback loops (more nagging -> less cooperation), inversion identifies escalation behaviors, and reciprocity suggests compromise builds goodwill."
+  },
+  {
+    "question": "Business Strategy",
+    "content": "Effective strategy combines: economics (comparative advantage, network effects), psychology (brand perception, incentives), systems (ecosystems, feedback loops), and physics analogies (leverage, critical mass).",
+    "description": "A tech startup is deciding its go-to-market strategy. Which integrated approach is strongest?",
+    "options": [
+      "Copy exactly what the market leader does",
+      "Focus only on having the best technology",
+      "Identify leverage points (network effects), play to comparative advantages, consider psychological switching costs, and build ecosystem partnerships",
+      "Spend all funding on advertising immediately"
+    ],
+    "answer": "Identify leverage points (network effects), play to comparative advantages, consider psychological switching costs, and build ecosystem partnerships",
+    "explanation": "Strong strategy integrates: economics (leverage, comparative advantage), psychology (customer lock-in, brand trust), systems (platform ecosystems, network feedback loops), and physics (finding fulcrum points for maximal impact)."
+  },
+  {
+    "question": "Education Reform",
+    "content": "Improving education requires: psychology (motivation, cognitive load), systems (curriculum as interdependent network), economics (opportunity cost of time, teacher incentives), and biology (developmental stages, spaced repetition).",
+    "description": "Which educational reform integrates the most useful mental models?",
+    "options": [
+      "Increasing standardized testing frequency",
+      "Reducing teacher pay to save money",
+      "Implementing spaced repetition (biology), growth mindset feedback (psychology), teacher merit systems (economics), and project-based learning (systems integration)",
+      "Eliminating all homework"
+    ],
+    "answer": "Implementing spaced repetition (biology), growth mindset feedback (psychology), teacher merit systems (economics), and project-based learning (systems integration)",
+    "explanation": "Effective education reform is multi-dimensional: biology (how memory works via spaced repetition), psychology (motivation from mindset feedback), economics (incentivizing teacher quality), and systems (projects that connect concepts across disciplines)."
+  },
+  {
+    "question": "Personal Finance Crisis",
+    "content": "Handling financial trouble uses: opportunity cost (debt vs investment), compounding (working against you with debt), inversion (what worsens debt?), and leverage (high-interest vs low-interest debt).",
+    "description": "You have multiple debts: credit card at 20% APR, student loan at 5% APR, and mortgage at 3% APR. Which integrated approach minimizes long-term cost?",
+    "options": [
+      "Pay equal amounts to all debts",
+      "Pay only the mortgage because it's for a house",
+      "Focus extra payments on the 20% credit card debt first (highest compounding cost), then 5%, then 3%, while maintaining minimum payments on others",
+      "Stop paying all debts and declare bankruptcy immediately"
+    ],
+    "answer": "Focus extra payments on the 20% credit card debt first (highest compounding cost), then 5%, then 3%, while maintaining minimum payments on others",
+    "explanation": "Debt management integrates: compounding (high APR destroys wealth fastest), opportunity cost (paying 20% interest means losing chance to earn elsewhere), inversion (what increases debt cost? - missing payments), and leverage (tackling high-leverage debt first)."
+  }
+]

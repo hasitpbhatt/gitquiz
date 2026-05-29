@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Circle of Competence",
+    "content": "Your circle of competence is the area where you have useful knowledge and expertise. Operating outside this circle increases risk of poor decisions.",
+    "description": "You're considering investing in a biotech startup but have no background in biology or finance. Applying circle of competence, you should:",
+    "options": [
+      "Invest anyway since diversification is important",
+      "Spend months studying biotech before deciding",
+      "Avoid the investment or seek expert advice within your competence",
+      "Invest a small amount to limit potential losses"
+    ],
+    "answer": "Avoid the investment or seek expert advice within your competence",
+    "explanation": "Staying within your circle of competence means avoiding areas where you lack expertise, or consulting those who have the necessary knowledge before making decisions."
+  },
+  {
+    "question": "Margin of Safety (Engineering)",
+    "content": "In engineering, margin of safety is the difference between a system's maximum load and its expected load. It prevents failure under unexpected stress.",
+    "description": "A bridge is designed to hold 10,000kg but expects only 2,000kg of traffic. Its margin of safety is:",
+    "options": [
+      "20%",
+      "80%",
+      "400%",
+      "500%"
+    ],
+    "answer": "400%",
+    "explanation": "Margin of safety = (maximum load - expected load) / expected load = (10,000 - 2,000) / 2,000 = 8,000 / 2,000 = 4 = 400%. This means it can handle 4 times the expected load."
+  },
+  {
+    "question": "Relativity",
+    "content": "Relativity in mental models means understanding that perceptions, values, and decisions depend on the reference point or frame of reference used.",
+    "description": "After paying $1,000 for a laptop, a $50 mouse seems inexpensive. But after paying $50 for the mouse, a $1,000 laptop seems expensive. This shows:",
+    "options": [
+      "You have inconsistent preferences",
+      "The mouse is actually overpriced",
+      "Your perception of price is relative to recent expenditures",
+      "You suffer from memory loss about prices"
+    ],
+    "answer": "Your perception of price is relative to recent expenditures",
+    "explanation": "This demonstrates the relativity mental model - our perception of value shifts based on our reference point (what we just paid)."
+  },
+  {
+    "question": "Leverage Points",
+    "content": "Leverage points are places within a complex system where a small shift can produce large changes in system behavior.",
+    "description": "In trying to reduce childhood obesity, which intervention likely offers the greatest leverage point?",
+    "options": [
+      "Teaching nutrition in schools",
+      "Building more playgrounds",
+      "Regulating food advertising to children",
+      "Distributing free fitness trackers"
+    ],
+    "answer": "Regulating food advertising to children",
+    "explanation": "Changing advertising regulations affects millions of children's food preferences simultaneously - a high-leverage point that shapes behavior at the source."
+  },
+  {
+    "question": "Feedback Loops",
+    "content": "Feedback loops occur when outputs of a system are routed back as inputs, either amplifying (positive feedback) or stabilizing (negative feedback) the system.",
+    "description": "A microphone too close to a speaker creates a screeching noise. This is an example of:",
+    "options": [
+      "Negative feedback loop stabilizing the system",
+      "Positive feedback loop amplifying the signal",
+      "Random electrical interference",
+      "The speaker being defective"
+    ],
+    "answer": "Positive feedback loop amplifying the signal",
+    "explanation": "Sound from the speaker enters the microphone, gets amplified, comes out louder through the speaker, and repeats - each cycle amplifying the sound (positive feedback)."
+  },
+  {
+    "question": "Critical Mass",
+    "content": "Critical mass is the minimum amount of something needed to start or maintain a venture, reaction, or process.",
+    "description": "A social media platform needs critical mass to be valuable. This means:",
+    "options": [
+      "It needs perfect features before launching",
+      "It needs enough users that joining becomes beneficial for new users",
+      "It needs venture capital funding",
+      "It needs celebrity endorsements"
+    ],
+    "answer": "It needs enough users that joining becomes beneficial for new users",
+    "explanation": "Critical mass in networks means sufficient users exist that the platform provides value (connections, content) making it worthwhile for others to join."
+  },
+  {
+    "question": "Emergence",
+    "content": "Emergence is when complex systems exhibit properties or behaviors that their individual components do not possess on their own.",
+    "description": "Consciousness emerging from brain neurons is an example of:",
+    "options": [
+      "Reductionism - understanding parts to understand whole",
+      "Emergence - whole system properties not in parts",
+      "Artificial intelligence programming",
+      "Electrical conductivity in metals"
+    ],
+    "answer": "Emergence - whole system properties not in parts",
+    "explanation": "Individual neurons aren't conscious, but their interconnected network produces consciousness - a classic emergent property where the whole is more than sum of parts."
+  },
+  {
+    "question": "Opportunity Cost",
+    "content": "Opportunity cost represents the benefits an individual, investor or business misses out on when choosing one alternative over another.",
+    "description": "A company uses its factory to make Product A instead of Product B. The opportunity cost is:",
+    "options": [
+      "The profit from Product A",
+      "The revenue from Product A",
+      "The profit they could have made from Product B",
+      "The cost of raw materials for Product A"
+    ],
+    "answer": "The profit they could have made from Product B",
+    "explanation": "Opportunity cost is the foregone benefit of the next best alternative - here, the profit from Product B that was not pursued."
+  },
+  {
+    "question": "Compounding",
+    "content": "Compounding is the process where an asset's earnings are reinvested to generate additional earnings over time.",
+    "description": "If you invest $1,000 at 7% annual return, approximately how much will you have after 10 years due to compounding?",
+    "options": [
+      $1,700",
+      "$1,967",
+      "$2,000",
+      "$2,500"
+    ],
+    "answer": "$1,967",
+    "explanation": "With compounding: $1,000 × (1.07)^10 ≈ $1,000 × 1.967 = $1,967. Without compounding (simple interest): $1,000 + ($1,000 × 0.07 × 10) = $1,700."
+  },
+  {
+    "question": "Inversion Applied to Happiness",
+    "content": "Applying inversion to happiness means asking: 'What would make me unhappy?' rather than 'What would make me happy?'",
+    "description": "To become happier using inversion, you should first identify:",
+    "options": [
+      "Activities that bring you joy",
+      "People who make you feel good",
+      "Things that currently make you miserable or anxious",
+      "Your long-term life goals"
+    ],
+    "answer": "Things that currently make you miserable or anxious",
+    "explanation": "Inversion for happiness means eliminating sources of misery (stressful relationships, unhealthy habits, unsatisfying work) which often yields faster gains than pursuing positive experiences."
+  }
+]

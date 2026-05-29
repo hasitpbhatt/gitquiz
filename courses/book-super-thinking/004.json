@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Thermodynamics",
+    "content": "Thermodynamics laws govern energy transfer: energy cannot be created/destroyed (1st), entropy tends to increase (2nd), and absolute zero is theoretical minimum temperature (3rd).",
+    "description": "Why does mixing hot and cold water result in lukewarm water, not hotter or colder than either?",
+    "options": [
+      "Heat energy is destroyed in the process",
+      "Energy spreads out until evenly distributed (entropy increases)",
+      "The container absorbs the excess heat",
+      "Water molecules lose energy when mixed"
+    ],
+    "answer": "Energy spreads out until evenly distributed (entropy increases)",
+    "explanation": "The 2nd law of thermodynamics states entropy increases - energy disperses from concentrated (hot/cold) to uniform (lukewarm) states, making energy unavailable for work."
+  },
+  {
+    "question": "Newton's Laws of Motion",
+    "content": "Newton's 1st law: inertia (objects stay at rest/in motion unless acted upon). 2nd law: F=ma. 3rd law: for every action, equal opposite reaction.",
+    "description": "When a car suddenly stops, passengers lurch forward due to:",
+    "options": [
+      "The car's backward pull on passengers",
+      "Passengers' inertia wanting to maintain forward motion",
+      "Gravity increasing during deceleration",
+      "Air resistance pushing passengers forward"
+    ],
+    "answer": "Passengers' inertia wanting to maintain forward motion",
+    "explanation": "Newton's 1st law (inertia): passengers tend to maintain their state of motion. When the car stops, their bodies want to keep moving forward until restrained by seatbelts."
+  },
+  {
+    "question": "Reciprocity",
+    "content": "Reciprocity in physics: for every action there is an equal and opposite reaction (Newton's 3rd). In social systems: favors create obligation to return them.",
+    "description": "When you push against a wall, the wall pushes back with equal force because:",
+    "options": [
+      "The wall is alive and resisting you",
+      "Conservation of momentum requires equal opposite forces",
+      "Your push creates sound waves that bounce back",
+      "The wall flexes and springs back like a spring"
+    ],
+    "answer": "Conservation of momentum requires equal opposite forces",
+    "explanation": "Newton's 3rd law and conservation of momentum: your push on the wall accelerates you backward; to conserve total momentum (zero initially), the wall must accelerate forward equally."
+  },
+  {
+    "question": "Velocity vs Speed",
+    "content": "Speed is scalar (magnitude only). Velocity is vector (magnitude + direction). Two cars at 60 mph have same speed but different velocities if going opposite ways.",
+    "description": "Two race cars drive at 100 mph on a circular track. Car A goes clockwise, Car B counterclockwise. They have:",
+    "options": [
+      "Same speed and same velocity",
+      "Same speed but different velocities",
+      "Different speeds but same velocity",
+      "Different speeds and different velocities"
+    ],
+    "answer": "Same speed but different velocities",
+    "explanation": "Both have speed of 100 mph (scalar magnitude). But velocity includes direction - clockwise vs counterclockwise are opposite vectors, so velocities differ."
+  },
+  {
+    "question": "Relativity",
+    "content": "Relativity shows measurements depend on observer's frame. Time slows, lengths contract at high speeds. No absolute frame - all motion is relative.",
+    "description": "According to relativity, if you're on a train moving at half light speed shining a flashlight forward, an observer on the ground measures the light's speed as:",
+    "options": [
+      "1.5 times light speed",
+      "Half light speed",
+      "Exactly light speed",
+      "Zero - the light can't move forward"
+    ],
+    "answer": "Exactly light speed",
+    "explanation": "Relativity's key insight: light speed is constant for all observers regardless of their motion. This breaks Galilean relativity and leads to time dilation/length contraction."
+  },
+  {
+    "question": "Critical Mass",
+    "content": "In nuclear physics, critical mass is minimum fissile material for chain reaction. In social systems: minimum users/adopters for network value to exceed cost.",
+    "description": "A new messaging app needs critical mass. This means it must:",
+    "options": [
+      "Have perfect security before launch",
+      "Get enough users that each finds value in joining",
+      "Raise venture capital funding",
+      "Copy features from WhatsApp exactly"
+    ],
+    "answer": "Get enough users that each finds value in joining",
+    "explanation": "Social critical mass: when user base is large enough that joining benefits (network connections, content) outweigh costs (time, privacy) for new users."
+  },
+  {
+    "question": "Phase Transitions",
+    "content": "Phase transitions occur when small changes in conditions (temperature/pressure) cause abrupt changes in state (solid/liquid/gas). Social examples: trends, riots, adoption.",
+    "description": "Water boiling at 100°C is a phase transition because:",
+    "options": [
+      "It requires adding heat energy",
+      "A small temperature increase causes abrupt change from liquid to gas",
+      "It only happens at sea level",
+      "The water molecules break apart"
+    ],
+    "answer": "A small temperature increase causes abrupt change from liquid to gas",
+    "explanation": "Phase transitions show discontinuous change: at 99.9°C water is liquid; at 100.1°C it's gas. Small input change creates large output shift - like viral trends."
+  },
+  {
+    "question": "Chaos Theory",
+    "content": "Chaos theory studies deterministic systems highly sensitive to initial conditions ('butterfly effect'). Small causes create large unpredictable effects over time.",
+    "description": "The butterfly effect means a butterfly flapping its wings in Brazil could:",
+    "options": [
+      "Directly cause a tornado in Texas",
+      "Physically push air molecules to Texas",
+      "Potentially alter Texas weather weeks later via complex atmosphere",
+      "Create wind felt immediately in Texas"
+    ],
+    "answer": "Potentially alter Texas weather weeks later via complex atmosphere",
+    "explanation": "Chaos: tiny initial changes (butterfly wings) get amplified through complex non-linear systems (atmosphere), making long-term prediction impossible despite deterministic rules."
+  }
+]

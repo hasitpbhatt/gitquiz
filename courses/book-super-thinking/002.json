@@ -1,0 +1,133 @@
+[
+  {
+    "question": "Confirmation Bias",
+    "content": "Confirmation bias is the tendency to search for, interpret, favor, and recall information that confirms one's preexisting beliefs while giving less consideration to alternative possibilities.",
+    "description": "You believe your favorite sports team is the best in the league. When reading news about them, you're most likely to:",
+    "options": [
+      "Seek out critical analyses of their weaknesses",
+      "Remember statistics that show their dominance",
+      "Forget games they lost by narrow margins",
+      "Both B and C",
+      "All of the above"
+    ],
+    "answer": "Both B and C",
+    "explanation": "Confirmation bias leads you to remember information confirming your belief (their dominance) and forget information contradicting it (their losses), while avoiding contradictory sources."
+  },
+  {
+    "question": "Availability Heuristic",
+    "content": "The availability heuristic is a mental shortcut that relies on immediate examples that come to mind when evaluating a topic, concept, method or decision.",
+    "description": "After watching news about shark attacks, you avoid swimming in the ocean because:",
+    "options": [
+      "Sharks are actually more common than before",
+      "You've personally seen more sharks lately",
+      "Recent vivid examples make shark attacks seem more probable",
+      "You read a scientific study about increased shark populations"
+    ],
+    "answer": "Recent vivid examples make shark attacks seem more probable",
+    "explanation": "The availability heuristic makes easily recalled events (like recent news stories) seem more frequent or probable than they actually are, skewing risk perception."
+  },
+  {
+    "question": "Representativeness Heuristic",
+    "content": "The representativeness heuristic is when people judge the probability of an event by finding a 'comparable known' event and assuming the probabilities will be similar.",
+    "description": "You meet a quiet, introverted person who loves reading. You assume they're more likely to be a librarian than a salesperson because:",
+    "options": [
+      "Librarians actually read more than salespeople",
+      "Their personality matches your stereotype of a librarian",
+      "You know statistics showing more librarians are introverted",
+      "Salespeople are required to be extroverted by law"
+    ],
+    "answer": "Their personality matches your stereotype of a librarian",
+    "explanation": "The representativeness heuristic causes us to judge likelihood based on how well something matches our stereotypes, ignoring base rates (there are far more salespeople than librarians)."
+  },
+  {
+    "question": "Survivorship Bias",
+    "content": "Survivorship bias is the logical error of concentrating on the people or things that made it past some selection process and overlooking those that did not, typically because of their lack of visibility.",
+    "description": "You study successful entrepreneurs who dropped out of college and conclude that dropping out leads to success. This ignores:",
+    "options": [
+      "The work ethic of those entrepreneurs",
+      "The millions who dropped out and weren't successful",
+      "The specific industries they entered",
+      "Their family backgrounds and connections"
+    ],
+    "answer": "The millions who dropped out and weren't successful",
+    "explanation": "Survivorship bias focuses only on visible successes (famous dropout entrepreneurs) while ignoring the much larger group of dropouts who didn't achieve notable success."
+  },
+  {
+    "question": "Clustering Illusion",
+    "content": "The clustering illusion is the tendency to erroneously consider inevitable streaks or clusters arising from small samples in random distributions to be meaningful.",
+    "description": "You flip a fair coin and get heads 5 times in a row. You think the coin must be biased because:",
+    "options": [
+      "Five heads in a row is impossible with a fair coin",
+      "Such streaks never occur in random sequences",
+      "Random sequences can produce streaks that aren't meaningful",
+      "The coin feels heavier on one side"
+    ],
+    "answer": "Random sequences can produce streaks that aren't meaningful",
+    "explanation": "The clustering illusion makes us see meaning in random streaks. Even fair coins can produce runs of 5+ heads or tails due to chance alone."
+  },
+  {
+    "question": "Recency Illusion",
+    "content": "The recency illusion is the belief that a phenomenon you have noticed only recently is itself recent, often referring to linguistic features but applicable more broadly.",
+    "description": "You notice people using 'literally' to mean 'figuratively' and complain:",
+    "options": [
+      "This usage started with teenagers last year",
+      "Shakespeare used 'literally' this way in the 1600s",
+      "It's a new corruption of the English language",
+      "No major dictionaries recognize this usage"
+    ],
+    "answer": "Shakespeare used 'literally' this way in the 1600s",
+    "explanation": "The recency illusion makes us think language 'errors' are new when they often have historical usage - 'literally' used for emphasis dates back centuries."
+  },
+  {
+    "question": "Anchoring Bias",
+    "content": "Anchoring bias is the common human tendency to rely too heavily on the first piece of information offered (the 'anchor') when making decisions.",
+    "description": "You see a jacket priced at $200, then marked down to $100. You think it's a good deal because:",
+    "options": [
+      "The jacket actually costs $100 to make",
+      "You compared it to similar jackets at other stores",
+      "The $200 price serves as an anchor making $100 seem cheap",
+      "You checked online reviews before purchasing"
+    ],
+    "answer": "The $200 price serves as an anchor making $100 seem cheap",
+    "explanation": "The initial $200 price anchors your perception of value, making the $100 sale price seem like a significant saving regardless of the jacket's actual worth."
+  },
+  {
+    "question": "Loss Aversion",
+    "content": "Loss aversion refers to the tendency to prefer avoiding losses to acquiring equivalent gains: it's better to not lose $5 than to find $5.",
+    "description": "You're offered a coin flip: heads you win $150, tails you lose $100. Loss aversion predicts you'll likely:",
+    "options": [
+      "Accept the bet immediately",
+      "Refuse the bet despite positive expected value",
+      "Only accept if you get to flip the coin",
+      "Ask for better odds before considering"
+    ],
+    "answer": "Refuse the bet despite positive expected value",
+    "explanation": "Loss aversion makes the potential $100 loss feel worse than the potential $150 gain feels good, causing rejection of bets with positive expected value (~$25)."
+  },
+  {
+    "question": "Sunk Cost Fallacy",
+    "content": "The sunk cost fallacy is when people continue a behavior or endeavor because of previously invested resources (time, money, effort), even if future costs outweigh benefits.",
+    "description": "You've spent $200 on non-refundable concert tickets. On the day of the concert, you're sick and it's snowing heavily. You should:",
+    "options": [
+      "Go to the concert because you already paid for the tickets",
+      "Stay home since you'll feel miserable and risk worsening your illness",
+      "Go but leave early if you feel worse",
+      "Try to sell the tickets to recover some cost"
+    ],
+    "answer": "Stay home since you'll feel miserable and risk worsening your illness",
+    "explanation": "The $200 is a sunk cost - gone regardless of your decision. Rational choice ignores sunk costs and considers only future consequences (miscomfort, illness risk)."
+  },
+  {
+    "question": "Framing Effect",
+    "content": "The framing effect is when people decide on options based on whether the options are presented with positive or negative connotations.",
+    "description": "A medical treatment has a 90% survival rate. Patients are more likely to choose it when told:",
+    "options": [
+      "There's a 10% chance of dying",
+      "9 out of 10 patients survive",
+      "It has a 90% success rate",
+      "Both B and C"
+    ],
+    "answer": "Both B and C",
+    "explanation": "Positive framing (90% survival, 9/10 survive, 90% success) increases acceptance compared to negative framing (10% dying), even though they're statistically identical."
+  }
+]
