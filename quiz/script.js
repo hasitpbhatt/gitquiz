@@ -21,10 +21,6 @@ let fullCatalog = [];
   if (courseParam && fullCatalog.includes(courseParam)) {
     const dropdown = document.getElementById('course-dropdown');
     dropdown.value = courseParam;
-  }
-  
-  const dropdown = document.getElementById('course-dropdown');
-  if (dropdown.value) {
     handleStart();
   }
 })();
