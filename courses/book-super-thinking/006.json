@@ -48,9 +48,6 @@
       "Both have equal advantage",
       "Neither has advantage"
     ],
-    "answer": "Country B",
-    "explanation": "Country A's opportunity cost of 1 truck = 0.5 cars. Country B's opportunity cost of 1 truck = 1 car. Country A has lower opportunity cost for trucks, so Country A has comparative advantage in trucks. Wait, let me recalculate: Actually, Country A gives up 10 cars for 20 trucks = 0.5 cars per truck. Country B gives up 6 cars for 6 trucks = 1 car per truck. Since 0.5 < 1, Country A has lower opportunity cost for trucks, thus comparative advantage in trucks. But that doesn't match options. Let me think again: For trucks: A: 20 trucks = 10 cars → 1 truck = 0.5 cars. B: 6 trucks = 6 cars → 1 truck = 1 car. Lower opportunity cost is A (0.5 < 1), so A has comparative advantage in trucks. But the question might be asking about who should specialize in trucks. Actually, A has comp adv in trucks (lower OC), B has comp adv in cars (A's OC for cars = 2 trucks, B's OC for cars = 1 truck → B has lower OC for cars). So A should specialize in trucks, B in cars. Therefore A has comparative advantage in truck production. But looking at options, if A is correct, then answer should be A. Let me check standard example: Usually the one with lower OC has comp adv. So A has lower OC for trucks (0.5 cars vs 1 car), so A has comp adv in trucks. Answer should be A."
-    ],
     "answer": "Country A",
     "explanation": "Country A's opportunity cost of producing 1 truck is 0.5 cars (10 cars/20 trucks). Country B's opportunity cost of producing 1 truck is 1 car (6 cars/6 trucks). Since 0.5 < 1, Country A has lower opportunity cost for truck production and thus comparative advantage in trucks."
   },
