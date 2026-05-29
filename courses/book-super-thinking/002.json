@@ -7,10 +7,9 @@
       "Seek out critical analyses of their weaknesses",
       "Remember statistics that show their dominance",
       "Forget games they lost by narrow margins",
-      "Both B and C",
-      "All of the above"
+      "Remember favorable stats and forget unfavorable ones"
     ],
-    "answer": "Both B and C",
+    "answer": "Remember favorable stats and forget unfavorable ones",
     "explanation": "Confirmation bias leads you to remember information confirming your belief (their dominance) and forget information contradicting it (their losses), while avoiding contradictory sources."
   },
   {
@@ -125,9 +124,9 @@
       "There's a 10% chance of dying",
       "9 out of 10 patients survive",
       "It has a 90% success rate",
-      "Both B and C"
+      "Either of the positively framed descriptions"
     ],
-    "answer": "Both B and C",
+    "answer": "Either of the positively framed descriptions",
     "explanation": "Positive framing (90% survival, 9/10 survive, 90% success) increases acceptance compared to negative framing (10% dying), even though they're statistically identical."
   }
 ]
