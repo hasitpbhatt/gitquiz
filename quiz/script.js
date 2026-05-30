@@ -362,3 +362,94 @@ function showNotify(title, msg) {
         setTimeout(() => div.remove(), 500);
     }, 3000);
 }
+
+// Share Quiz Functionality
+function getShareUrl() {
+    const base = window.location.origin + window.location.pathname;
+    if (!currentUrl) return base;
+    const parts = currentUrl.split('/');
+    const courseFolderName = parts[parts.length - 2];
+    return base + '?course=' + encodeURIComponent(courseFolderName);
+}
+
+function shareHandler() {
+    const moduleLabel = document.getElementById('module-label')?.textContent || 'Knowledge Challenge';
+    const scoreText = document.getElementById('score-val')?.textContent || '0';
+    const shareUrl = getShareUrl();
+    const shareData = {
+        title: `Quiz Portal Pro - ${moduleLabel}`,
+        text: `I just scored ${scoreText} points on Quiz Portal Pro! Can you beat my score?`,
+        url: shareUrl
+    };
+    if (navigator.share) {
+        navigator.share(shareData).catch(() => showSocialShareOptions());
+    } else {
+        showSocialShareOptions();
+    }
+}
+
+function showSocialShareOptions() {
+    const shareUrl = getShareUrl();
+    const url = encodeURIComponent(shareUrl);
+    const score = document.getElementById('score-val')?.textContent || '0';
+    const shareText = encodeURIComponent(`I just scored ${score} points on Quiz Portal Pro! Can you beat my score? #QuizPortalPro`);
+    const modal = document.createElement('div');
+    modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
+    modal.innerHTML = `
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 max-w-md w-full mx-4">
+            <h3 class="text-xl font-bold mb-4 text-center">Share Your Achievement</h3>
+            <div class="space-y-4">
+                <button onclick="shareToTwitter()" class="w-full p-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                    </svg>
+                    Twitter
+                </button>
+                <button onclick="shareToFacebook()" class="w-full p-3 bg-[#1877f2] hover:bg-[#166fe5] text-white rounded-lg flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M22.675 0h-20.5C1.004 0 0 1.004 0 2.252v19.496c0 1.248 1.004 2.252 2.252 2.252h12.018V14.46h-3.579v-3.669h3.579V9.582c0-3.008 1.892-4.788 4.659-4.788 1.325 0 2.468.099 2.645.113v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.31h3.587l-.467 3.669h-3.12v11.555c1.248 0 2.252-1.004 2.252-2.252V2.252c0-1.248-1.004-2.252-2.252-2.252z"/>
+                    </svg>
+                    Facebook
+                </button>
+                <button onclick="copyLink()" class="w-full p-3 bg-slate-600 hover:bg-slate-500 text-white rounded-lg flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2z"/>
+                    </svg>
+                    Copy Link
+                </button>
+                <button onclick="closeModal(this)" class="w-full p-3 bg-slate-300 hover:bg-slate-200 text-slate-800 rounded-lg">Close</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+}
+
+function shareToTwitter() {
+    const score = document.getElementById('score-val')?.textContent || '0';
+    const shareUrl = getShareUrl();
+    const shareText = encodeURIComponent(`I just scored ${score} points on Quiz Portal Pro! Can you beat my score? #QuizPortalPro`);
+    const url = encodeURIComponent(shareUrl);
+    window.open(`https://twitter.com/intent/tweet?text=${shareText}&url=${url}`, '_blank');
+}
+
+function shareToFacebook() {
+    const shareUrl = getShareUrl();
+    const url = encodeURIComponent(shareUrl);
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+}
+
+function copyLink() {
+    const shareUrl = getShareUrl();
+    navigator.clipboard.writeText(shareUrl).then(() => {
+        showNotify('Link Copied', 'Quiz link copied to clipboard!');
+    }).catch(() => {
+        showNotify('Copy Failed', 'Could not copy link to clipboard');
+    });
+}
+
+function closeModal(button) {
+    button.closest('.fixed').remove();
+}
+
+// Add share button event listener
+document.getElementById('share-btn')?.addEventListener('click', shareHandler);

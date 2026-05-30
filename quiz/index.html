@@ -13,6 +13,14 @@
 <body class="min-h-screen p-4 md:p-8 flex flex-col items-center">
 
     <div id="app-container" class="w-full max-w-2xl mt-4">
+        <!-- Share Button (Fixed Position) -->
+        <button id="share-btn" class="fixed top-4 right-4 p-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg z-50 transition-all transform hover:scale-105" title="Share Quiz">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+                <polyline points="16 6 12 2 8 6"/>
+                <line x1="12" y1="2" x2="12" y2="15"/>
+            </svg>
+        </button>
         
         <!-- Setup Screen -->
         <div id="setup-container" class="glass-card rounded-3xl p-8 shadow-2xl animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -133,7 +141,7 @@
     </div>
 
      <footer class="mt-12 text-center text-slate-400 text-xs font-500">
-         developed by Hasit Bhatt • <a href="https://hasit.in" class="text-blue-500 hover:underline">More Quizzes</a>
+         developed by Hasit Bhatt • <a href="https://hasit.in/quiz/" class="text-blue-500 hover:underline">More Quizzes</a>
      </footer>
 </div>
 
