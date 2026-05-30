@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Divine Nature (Daivi Sampat)",
+    "content": "Divine qualities include fearlessness, purity, discrimination, sacrifice, study, austerity, and nonviolence.",
+    "description": "A leader makes decisions based on principle rather than popularity, admits mistakes openly, and works for the team's welfare rather than personal glory. What qualities are they demonstrating?",
+    "options": [
+      "Being naive about office politics",
+      "Divine qualities like fearlessness, integrity, and selflessness",
+      "Weak leadership that will fail",
+      "Trying too hard to be liked by everyone"
+    ],
+    "answer": "Divine qualities like fearlessness, integrity, and selflessness",
+    "explanation": "The leader demonstrates fearlessness (standing by principles), purity (integrity in admitting mistakes), discrimination (wise judgment), sacrifice (team welfare over self), and nonviolence (respectful approach)."
+  },
+  {
+    "question": "Demoniacal Nature (Asuri Sampat)",
+    "content": "Demoniacal qualities include hypocrisy, arrogance, anger, ignorance, and greed driven by desire and aversion.",
+    "description": "Someone takes credit for others' work, spreads rumors to advance themselves, and becomes furious when questioned about their ethics. What nature are they exhibiting?",
+    "options": [
+      "Being highly competitive and ambitious",
+      "Demoniacal qualities like hypocrisy, arrogance, and anger",
+      "Just having a bad day",
+      "Being misunderstood by jealous coworkers"
+    ],
+    "answer": "Demoniacal qualities like hypocrisy, arrogance, and anger",
+    "explanation": "Taking credit for others' work (hypocrisy), seeking advancement through manipulation (arrogance), and fury when questioned (anger) reflect demoniacal qualities driven by egoistic desire."
+  },
+  {
+    "question": "The Threefold Gate of Hell",
+    "content": "Lust, anger, and greed are the three gates leading to hellish conditions that bind us to suffering.",
+    "description": "A person stays in a toxic relationship because they're afraid of being alone (fear), constantly argues with their partner (anger), and clings to the relationship for what they can get (greed). What keeps them trapped?",
+    "options": [
+      "True love and commitment",
+      "The three gates of hell: fear (related to lust), anger, and greed",
+      "They should try harder to make it work",
+      "Their partner is actually perfect and they're the problem"
+    ],
+    "answer": "The three gates of hell: fear (related to lust), anger, and greed",
+    "explanation": "Fear of loneliness relates to lust (desire for companionship), anger manifests in constant arguments, and greed appears as clinging for what one can get - these three bind the person to suffering."
+  },
+  {
+    "question": "Discernment Between Divine and Demoniacal",
+    "content": "The wise discern divine qualities leading to liberation and demoniacal qualities leading to bondage.",
+    "description": "When choosing between two job offers - one with higher pay but questionable ethics, another with less pay but integrity - how should one decide according to the Gita?",
+    "options": [
+      "Always take the higher paying job",
+      "Choose based solely on personal preference",
+      "Discern which option cultivates divine vs demoniacal qualities",
+      "Ask others what they would do without reflection"
+    ],
+    "answer": "Discern which option cultivates divine vs demoniacal qualities",
+    "explanation": "The Gita teaches discerning which actions cultivate divine qualities (leading to liberation) versus demoniacal qualities (leading to bondage), not just following money or others' opinions."
+  },
+  {
+    "question": "Liberation (Moksha)",
+    "content": "Liberation is freedom from the cycle of birth and death, attained through self-realization and divine grace.",
+    "description": "After years of spiritual practice, someone feels a deep sense of inner freedom, no longer desperately seeking fulfillment from external sources, and experiences unshakeable peace. What have they likely attained?",
+    "options": [
+      "Temporary happiness from recent success",
+      "Liberation (moksha) from identification with temporary sources of happiness",
+      "Emotional numbness from spiritual bypassing",
+      "Just getting older and wiser"
+    ],
+    "answer": "Liberation (moksha) from identification with temporary sources of happiness",
+    "explanation": "The inner freedom, reduced dependence on externals for happiness, and unshakeable peace reflect liberation - freedom from the bondage of seeking fulfillment in temporary things."
+  },
+  {
+    "question": "Characteristics of the Liberated",
+    "content": "The liberated are free from anger, jealousy, and ego, seeing equality in all beings and remaining steady in duality.",
+    "description": "Someone receives criticism at work but instead of becoming defensive or retaliating, they listen openly, learn if valid, and remain unaffected if unjust. What liberation characteristic do they show?",
+    "options": [
+      "Having low standards and accepting poor treatment",
+      "Freedom from anger and ego in receiving feedback",
+      "Being indifferent and uncaring about work quality",
+      "Waiting for the right moment to take revenge"
+    ],
+    "answer": "Freedom from anger and ego in receiving feedback",
+    "explanation": "Remaining steady and non-defensive when receiving criticism shows freedom from anger and ego - key characteristics of the liberated who see feedback objectively without personal disturbance."
+  },
+  {
+    "question": "Seeing Equality in Liberation",
+    "content": "The liberated see the same divine Self in all beings, eliminating hatred, jealousy, and discrimination.",
+    "description": "A prison volunteer treats inmates with dignity and compassion, recognizing their inherent worth despite their crimes, working to help them rehabilitate rather than merely punish. What vision guides this approach?",
+    "options": [
+      "Being naive about criminal behavior",
+      "Seeing the same divine Self in all beings regardless of actions",
+      "Having a personal relationship with the inmates",
+      "Believing that punishment is never justified"
+    ],
+    "answer": "Seeing the same divine Self in all beings regardless of actions",
+    "explanation": "Treating everyone with dignity despite their actions reflects seeing the divine essence (Self) that remains unchanged by external behavior - the vision of liberation."
+  },
+  {
+    "question": "Steadfastness in Liberation",
+    "content": "The liberated remain undisturbed by pleasure or pain, gain or loss, victory or defeat.",
+    "description": "An athlete wins a championship after years of training, celebrates appropriately, but doesn't let the victory define their self-worth or disturb their inner peace. What liberation quality are they showing?",
+    "options": [
+      "Being ungrateful for their achievement",
+      "Steadfastness undisturbed by success or failure",
+      "Having low ambition and goals",
+      "Just being emotionally flat"
+    ],
+    "answer": "Steadfastness undisturbed by success or failure",
+    "explanation": "Enjoying the victory without letting it disturb inner peace or define self-worth shows steadfastness - a key liberation quality of remaining balanced amidst life's dualities."
+  }
+]

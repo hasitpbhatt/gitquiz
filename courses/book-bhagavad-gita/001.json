@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Dharma",
+    "content": "Dharma refers to one's righteous duty or moral responsibility based on their role in life and stage of development.",
+    "description": "A software engineer discovers a critical bug that could compromise user data but fixing it would delay the product launch and potentially cost the company money. What should they do according to the concept of Dharma?",
+    "options": [
+      "Hide the bug to avoid delaying the launch and protect their job",
+      "Fix the bug secretly without telling anyone to avoid blame",
+      "Report the bug to their manager and work to fix it despite potential delays",
+      "Quit the job to avoid being responsible for the consequences"
+    ],
+    "answer": "Report the bug to their manager and work to fix it despite potential delays",
+    "explanation": "According to Dharma, one must fulfill their duty with integrity. For a software engineer, this means protecting users and maintaining quality, even when it's difficult. Hiding the bug would be adharma (unrighteous), while reporting it upholds professional and ethical responsibility."
+  },
+  {
+    "question": "Karma Yoga",
+    "content": "Karma Yoga is the path of selfless action performed without attachment to results or personal gain.",
+    "description": "A teacher spends extra time helping struggling students after school, knowing they won't receive additional pay or recognition for this effort. What motivates this action according to Karma Yoga?",
+    "options": [
+      "Expectation of getting a promotion or bonus",
+      "Desire to be seen as a great teacher by colleagues",
+      "Satisfaction from helping others learn and grow",
+      "Hope that students will give gifts in return"
+    ],
+    "answer": "Satisfaction from helping others learn and grow",
+    "explanation": "Karma Yoga teaches performing actions for their own sake, not for fruits or rewards. The teacher's motivation comes from the intrinsic value of helping students, not external recognition or compensation."
+  },
+  {
+    "question": "Detachment from Results",
+    "content": "Detachment from results means focusing on performing your duty well while remaining unaffected by success or failure.",
+    "description": "An athlete trains rigorously for an important competition but gets injured during warm-ups and cannot participate. How should they view this situation according to the principle of detachment?",
+    "options": [
+      "Feel bitter and regret all the time spent training",
+      "Believe they were punished for past mistakes",
+      "Accept that they did their best in preparation and focus on healing",
+      "Blame the coach or training program for the injury"
+    ],
+    "answer": "Accept that they did their best in preparation and focus on healing",
+    "explanation": "Detachment from results means giving your best effort without being attached to outcomes. The athlete can take pride in their preparation while accepting that the result was beyond their control, then move forward constructively."
+  },
+  {
+    "question": "Equanimity",
+    "content": "Equanimity is maintaining mental calmness and balance in both success and failure, pleasure and pain.",
+    "description": "A startup founder's company receives major funding news, followed immediately by a key team member resigning. How should they respond according to the teaching of equanimity?",
+    "options": [
+      "Celebrate the funding intensely and ignore the resignation",
+      "Fall into despair about the resignation and dismiss the funding",
+      "Remain balanced, grateful for funding while addressing the team challenge calmly",
+      "Quit the startup because nothing ever goes smoothly"
+    ],
+    "answer": "Remain balanced, grateful for funding while addressing the team challenge calmly",
+    "explanation": "Equanimity teaches maintaining stability of mind regardless of circumstances. The founder acknowledges both events without being overwhelmed by either, responding with wisdom and balance to each situation."
+  },
+  {
+    "question": "Bhakti Yoga",
+    "content": "Bhakti Yoga is the path of love and devotion toward the divine, seeing God in all beings and expressing love through service.",
+    "description": "A nurse treats every patient with equal compassion and care, whether they are rich or poor, friendly or difficult, seeing the divine spark in each person. Which yoga path does this exemplify?",
+    "options": [
+      "Jnana Yoga (path of knowledge)",
+      "Karma Yoga (path of action)",
+      "Bhakti Yoga (path of devotion)",
+      "Raja Yoga (path of meditation)"
+    ],
+    "answer": "Bhakti Yoga (path of devotion)",
+    "explanation": "Seeing the divine in all beings and serving them with love is the essence of Bhakti Yoga. The nurse's equal compassion for all patients reflects devotion to the divine presence in every human being."
+  },
+  {
+    "question": "The Three Gunas",
+    "content": "The three Gunas are qualities that influence behavior: Sattva (purity, harmony), Rajas (activity, passion), and Tamas (inertia, darkness).",
+    "description": "After eating a heavy meal of fried foods, a person feels sluggish, unmotivated to work, and spends hours scrolling mindlessly through social media. Which Guna is predominantly influencing their state?",
+    "options": [
+      "Sattva (purity, harmony)",
+      "Rajas (activity, passion)",
+      "Tamas (inertia, darkness)",
+      "A balance of all three Gunas"
+    ],
+    "answer": "Tamas (inertia, darkness)",
+    "explanation": "Tamas is characterized by inertia, lethargy, and darkness. The sluggishness, lack of motivation, and passive consumption after eating heavy, fried foods reflect a tamasic state of mind and body."
+  },
+  {
+    "question": "Seeing Divinity in All Beings",
+    "content": "The enlightened view sees the same divine consciousness present in all beings, regardless of external differences.",
+    "description": "A successful entrepreneur treats their CEO, managers, entry-level employees, and janitorial staff with equal respect and takes time to listen to everyone's ideas. What principle guides this behavior?",
+    "options": [
+      "Belief that everyone will eventually become rich and powerful",
+      "Desire to collect favors from people at all levels",
+      "Recognition of equal divine worth in all individuals",
+      "Fear that staff might unionize if not treated well"
+    ],
+    "answer": "Recognition of equal divine worth in all individuals",
+    "explanation": "Treating everyone with equal respect regardless of position reflects the Bhagavad Gita's teaching that the same divine consciousness resides in all beings. This recognition eliminates hierarchy based on external roles."
+  },
+  {
+    "question": "Overcoming Fear and Doubt",
+    "content": "Fear and doubt arise from ignorance of our true eternal nature; knowledge dispels them.",
+    "description": "A musician feels intense anxiety before performing in front of large audiences, fearing they will make mistakes and be judged negatively. According to the Gita, what is the root cause of this fear?",
+    "options": [
+      "Lack of sufficient practice and preparation",
+      "Identification with the temporary body and ego rather than the eternal Self",
+      "The audience's known tendency to criticize performers",
+      "Past negative experiences with performances"
+    ],
+    "answer": "Identification with the temporary body and ego rather than the eternal Self",
+    "explanation": "The Gita teaches that fear comes from identifying with our temporary, vulnerable ego-self rather than our eternal, invulnerable spiritual Self. When we know our true nature, external circumstances lose power to frighten us."
+  }
+]
