@@ -2,15 +2,15 @@
   {
     "question": "The Illusion of the Broken System",
     "content": "A core tenet of adaptive leadership is that systems are never actually 'broken.' Instead, every organization is perfectly aligned to achieve the results it currently gets. If a system appears dysfunctional, it is likely because that 'dysfunction' is actually protecting a hidden interest or maintaining a comfortable status quo for certain stakeholders.",
-    "description": "Your company's cross-departmental communication is failing despite several training sessions. Based on the 'broken system' theory, what is the most likely reality?",
+    "description": "Your neighborhood association has tried multiple clean-up drives, but the same few streets are always left littered. Based on the 'broken system' theory, what is the most likely reality?",
     "options": [
-      "The employees are inherently resistant to technology.",
-      "The current siloed structure is serving a specific, hidden purpose for some leaders.",
-      "The system is naturally decaying and requires a total replacement.",
-      "The leadership team simply hasn't found the right software yet."
+      "The residents on those streets are inherently irresponsible.",
+      "The current neglect is serving a hidden purpose, like keeping city resources focused elsewhere.",
+      "The neighborhood is simply too large to manage and needs to be divided.",
+      "The association hasn't found the right cleaning equipment yet."
     ],
-    "answer": "The current siloed structure is serving a specific, hidden purpose for some leaders.",
-    "explanation": "Systems are designed for their current output. Silos often persist because they provide individuals with a sense of local control or protect them from broader accountability."
+    "answer": "The current neglect is serving a hidden purpose, like keeping city resources focused elsewhere.",
+    "explanation": "Systems are designed for their current output. Dysfunction often persists because it provides an unspoken benefit — like maintaining a narrative of 'neglect' to attract external funding or attention."
   },
   {
     "question": "Technical vs. Adaptive Challenges",
@@ -66,41 +66,41 @@
   },
   {
     "question": "The Productive Zone of Disequilibrium",
-    "content": "For change to happen, there must be enough 'heat' or tension to motivate people, but not so much that they panic. This is the 'Productive Zone.' A leader’s job is to regulate this heat—keeping it high enough for work but low enough for safety.",
-    "description": "Your team is becoming complacent. You want to introduce a difficult new target. How do you keep them in the Productive Zone?",
+    "content": "For change to happen, there must be enough 'heat' or tension to motivate people, but not so much that they panic. This is the 'Productive Zone.' A leader's job is to regulate this heat—keeping it high enough for work but low enough for safety.",
+    "description": "Your recreational running group has been coasting through easy jogs. You want to introduce a more challenging training plan. How do you keep them in the Productive Zone?",
     "options": [
-      "Set an extreme deadline that causes high stress to force innovation.",
-      "Lower the target until everyone feels 100% comfortable.",
-      "Introduce the challenge but provide a strong 'holding environment' of support.",
-      "Avoid the challenge until the team asks for it themselves."
+      "Announce an immediate marathon to force rapid improvement.",
+      "Keep the jogs easy so nobody feels uncomfortable.",
+      "Introduce gradually harder workouts while offering guidance and recovery days.",
+      "Cancel the training plan until everyone asks for it themselves."
     ],
-    "answer": "Introduce the challenge but provide a strong 'holding environment' of support.",
-    "explanation": "You must increase the 'heat' (the challenge) while simultaneously providing a 'holding environment' (support and safety) so the team doesn't boil over into panic."
+    "answer": "Introduce gradually harder workouts while offering guidance and recovery days.",
+    "explanation": "You must increase the 'heat' (the challenge) while simultaneously providing a 'holding environment' (support and safety) so the group doesn't burn out or quit."
   },
   {
     "question": "Loss as the Root of Resistance",
     "content": "People don't actually resist change; they resist 'loss.' This might be a loss of status, a loss of competence, or a loss of a long-standing relationship. If you don't address what people are afraid of losing, you can't lead them through adaptation.",
-    "description": "A long-term employee is fighting the move to a digital filing system. They argue the paper system is 'safer.' What is likely the real issue?",
+    "description": "Your elderly father refuses to use a smartphone, insisting his old flip phone is 'perfectly fine.' He gets defensive whenever anyone offers to help. What is likely the real issue?",
     "options": [
-      "They are lazy and don't want to scan documents.",
-      "They fear a loss of their 'expert' status associated with knowing the old system.",
-      "They are technically incapable of learning a computer.",
-      "They want to sabotage the company's progress."
+      "He is too old to learn anything new.",
+      "He fears a loss of his independence and competence associated with mastering familiar technology.",
+      "He has a personal grudge against the person offering the smartphone.",
+      "He wants to save money by not buying a new phone."
     ],
-    "answer": "They fear a loss of their 'expert' status associated with knowing the old system.",
-    "explanation": "Resistance is often a symptom of feared loss. In this case, the employee likely values the status and certainty their current knowledge provides."
+    "answer": "He fears a loss of his independence and competence associated with mastering familiar technology.",
+    "explanation": "Resistance is often a symptom of feared loss. The father isn't resisting the phone itself; he is protecting his sense of competence and independence that the old device represents."
   },
   {
     "question": "Giving the Work Back",
     "content": "In a crisis, people look to an authority figure for answers. However, for adaptive challenges, the leader must 'give the work back' to the people. This means refusing to provide a quick fix and instead making stakeholders take responsibility for the tough choices.",
-    "description": "Two of your managers are arguing over resources and want you to decide who gets what. What is an adaptive leadership response?",
+    "description": "Your two children are arguing over who gets to use the family tablet. They come to you demanding you decide. What is an adaptive response?",
     "options": [
-      "Divide the resources exactly in half to be fair.",
-      "Make the decision yourself based on the company's strategic goals.",
-      "Tell them they must negotiate a shared solution that meets both their needs.",
-      "Give the resources to the manager who has been at the company longest."
+      "Set a timer so each gets exactly 30 minutes.",
+      "Make the decision yourself based on whose need seems more urgent.",
+      "Tell them they must work out a schedule together that works for both of them.",
+      "Take the tablet away so nobody gets to use it."
     ],
-    "answer": "Tell them they must negotiate a shared solution that meets both their needs.",
+    "answer": "Tell them they must work out a schedule together that works for both of them.",
     "explanation": "By refusing to solve the problem for them, you are giving the 'work' (the negotiation and trade-offs) back to the people who own the problem."
   },
   {

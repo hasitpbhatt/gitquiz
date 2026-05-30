@@ -54,15 +54,15 @@
   {
     "question": "Naming the 'Unspeakables'",
     "content": "In every organization, there are 'elephants in the room'—topics that everyone knows about but no one mentions because they are too painful or politically dangerous. Diagnosing the system requires identifying these 'unspeakables' to understand what is blocking progress.",
-    "description": "Everyone knows the founder's son is incompetent in his management role, but the topic is avoided in every performance review meeting. This is an example of:",
+    "description": "At every family gathering, everyone notices your uncle's drinking has worsened, but the topic is always avoided. This is an example of:",
     "options": [
-      "Professional courtesy.",
-      "An unspeakable truth that is stalling organizational growth.",
-      "A technical HR problem.",
-      "A holding environment."
+      "Respecting personal boundaries.",
+      "An unspeakable truth that is preventing the family from addressing a real crisis.",
+      "A private medical issue that should stay private.",
+      "A healthy holding environment."
     ],
-    "answer": "An unspeakable truth that is stalling organizational growth.",
-    "explanation": "Unspeakables are the 'taboos' of a system. Until they are named and addressed, the system will continue to work around them, wasting immense energy."
+    "answer": "An unspeakable truth that is preventing the family from addressing a real crisis.",
+    "explanation": "Unspeakables are the 'taboos' of a system. Until they are named and addressed, the system will continue to work around them, wasting immense energy and allowing problems to worsen."
   },
   {
     "question": "The 'Archaeology' of the System",
@@ -106,15 +106,15 @@
   {
     "question": "The 'Work Avoidance' Red Flag",
     "content": "When a system is faced with a difficult adaptive challenge, it often 'diverts' the energy into busywork or technical debates. This is a survival mechanism. Diagnosing 'work avoidance' is the first step in steering the group back to the 'real' work.",
-    "description": "The leadership team is supposed to discuss a strategy for 50% layoffs, but they spend the whole meeting debating the wording of the email signature policy. This is:",
+    "description": "The neighborhood board is supposed to discuss whether to shut down the struggling community pool, but they spend the whole meeting debating the color of the new park benches. This is:",
     "options": [
-      "Meticulous attention to detail.",
-      "A 'default response' to ensure branding is consistent.",
-      "Work avoidance to escape the emotional pain of discussing layoffs.",
-      "A technical problem involving HR software."
+      "Meticulous attention to neighborhood aesthetics.",
+      "A 'default response' to ensure park consistency.",
+      "Work avoidance to escape the emotional pain of closing the pool.",
+      "A technical problem involving city permits."
     ],
-    "answer": "Work avoidance to escape the emotional pain of discussing layoffs.",
-    "explanation": "Debating small details (email signatures) is a safe way to 'do work' without actually facing the devastating reality (layoffs). It is a classic diagnostic signal of systemic avoidance."
+    "answer": "Work avoidance to escape the emotional pain of closing the pool.",
+    "explanation": "Debating small details (bench colors) is a safe way to 'do work' without actually facing the devastating reality (closing a beloved community asset). It is a classic diagnostic signal of systemic avoidance."
   },
   {
     "question": "Testing Your Hypothesis",

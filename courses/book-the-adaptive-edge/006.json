@@ -54,28 +54,28 @@
   {
     "question": "Giving the Work Back (Conflict)",
     "content": "A common way leaders 'fail' is by taking the conflict onto their own shoulders. If you decide the outcome of every argument, the group never learns how to resolve their own differences. Orchestration means making the *group* resolve the conflict.",
-    "description": "Your department heads are fighting over the annual budget. They come to you and say, 'You just decide the percentages and we'll follow them.' How do you respond?",
+    "description": "Your roommates are fighting over how to split the utility bills. They come to you and say, 'You just decide who pays what and we'll follow it.' How do you respond?",
     "options": [
-      "Accept the task, as making tough financial decisions is what you are paid for.",
-      "Tell them to go into a room and not come out until they have a unanimous budget proposal.",
-      "Assign the task to an outside consultant to avoid showing favoritism.",
-      "Ask them to each present their case to you, and then you will decide in private."
+      "Accept the task, as someone needs to make a fair decision.",
+      "Tell them they must work out a shared budget together and come back with a unanimous proposal.",
+      "Assign the task to an outside accountant to avoid conflict.",
+      "Ask each to present their case to you, then decide in private."
     ],
-    "answer": "Tell them to go into a room and not come out until they have a unanimous budget proposal.",
+    "answer": "Tell them they must work out a shared budget together and come back with a unanimous proposal.",
     "explanation": "This is 'giving the work back.' By forcing them to negotiate, you are requiring them to face the adaptive challenge of shared resources rather than letting you be the 'technical' referee."
   },
   {
     "question": "Distinguishing 'Person' from 'Perspective'",
     "content": "To orchestrate conflict, you must help the group see that people aren't just 'difficult'; they are 'representing' a specific perspective or stakeholder group. This depersonalizes the conflict and makes it easier for the group to analyze the different interests at play.",
-    "description": "An old-timer in the office constantly shoots down new digital initiatives. Instead of seeing them as a 'grouch,' how do you frame their role in the conflict?",
+    "description": "An older relative constantly criticizes your modern parenting style. Instead of seeing them as a 'meddler,' how do you frame their role in the conflict?",
     "options": [
-      "As a person who is technically obsolete and needs to be retired.",
-      "As the voice representing the 'conservation' of the company's traditional values and stability.",
-      "As a personal obstacle to your career advancement.",
-      "As a symptom of a poorly managed IT department."
+      "As someone whose parenting knowledge is outdated and irrelevant.",
+      "As the voice representing the 'conservation' of traditional family values and stability.",
+      "As a personal obstacle to your own parenting confidence.",
+      "As a symptom of a difficult family dynamic."
     ],
-    "answer": "As the voice representing the 'conservation' of the company's traditional values and stability.",
-    "explanation": "Framing them as a 'voice for stability' allows the group to respect the perspective they bring. It moves the conflict from 'fighting the grouch' to 'balancing innovation with stability.'"
+    "answer": "As the voice representing the 'conservation' of traditional family values and stability.",
+    "explanation": "Framing them as a 'voice for stability' allows the group to respect the perspective they bring. It moves the conflict from 'fighting the meddler' to 'balancing modern approaches with traditional values.'"
   },
   {
     "question": "Protecting Voices from the Margin (Part 2)",

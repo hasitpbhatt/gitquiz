@@ -54,14 +54,14 @@
   {
     "question": "Varying the 'Heat'",
     "content": "Interventions are used to regulate the 'Productive Zone of Disequilibrium.' If the system is too comfortable (cold), your intervention should increase the heat. If the system is panicking (too hot), your intervention should lower the heat and provide more support.",
-    "description": "During a crisis, your staff is paralyzed by fear and can't make decisions. What kind of intervention is needed here?",
+    "description": "During a family medical emergency, your relatives are frozen with fear and can't make decisions. What kind of intervention is needed here?",
     "options": [
-      "An intervention that provides order, direction, and protection to lower the heat.",
-      "An intervention that challenges them to work harder and faster.",
-      "An intervention that points out their technical failures to motivate them.",
+      "An intervention that provides clear direction and calm reassurance to lower the heat.",
+      "An intervention that scolds them for panicking to motivate action.",
+      "An intervention that lists all the things that could go wrong to prepare them.",
       "A silent intervention to see if they can figure it out on their own."
     ],
-    "answer": "An intervention that provides order, direction, and protection to lower the heat.",
+    "answer": "An intervention that provides clear direction and calm reassurance to lower the heat.",
     "explanation": "When the system is 'boiling' with panic, the leader must intervene to lower the disequilibrium so people can return to a productive state."
   },
   {
@@ -92,15 +92,15 @@
   },
   {
     "question": "Framing the Challenge",
-    "content": "The way you 'frame' an intervention determines how people hear it. To be effective, you must frame the challenge in a way that connects to the people’s values and explains what is being 'conserved' (the DNA) as well as what is being 'discarded.'",
-    "description": "You need to lay off 10% of the workforce. How do you frame this intervention to the remaining staff?",
+    "content": "The way you 'frame' an intervention determines how people hear it. To be effective, you must frame the challenge in a way that connects to the people's values and explains what is being 'conserved' (the DNA) as well as what is being 'discarded.'",
+    "description": "Your community center needs to eliminate its after-school program due to budget cuts. How do you frame this to the families and volunteers?",
     "options": [
-      "Focus only on the financial numbers to keep it professional and unemotional.",
-      "Explain that this 'loss' is necessary to 'conserve' the core mission and long-term survival of the company.",
-      "Tell them that the people being laid off were low performers and the company is better off.",
-      "Avoid framing it at all and hope people don't ask too many questions."
+      "Focus only on the budget numbers to keep it professional and unemotional.",
+      "Explain that this difficult cut is necessary to protect the center's core mission of serving the most vulnerable families.",
+      "Tell the families that the program was poorly attended anyway.",
+      "Avoid announcing it and hope people don't notice."
     ],
-    "answer": "Explain that this 'loss' is necessary to 'conserve' the core mission and long-term survival of the company.",
+    "answer": "Explain that this difficult cut is necessary to protect the center's core mission of serving the most vulnerable families.",
     "explanation": "Effective framing acknowledges the loss while highlighting the 'purpose' behind it. It helps people move through the grief of change by showing them what is being protected."
   },
   {
