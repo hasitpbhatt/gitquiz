@@ -288,51 +288,44 @@ async function checkNaturalEnd() {
 }
 
 function downloadScreenshot() {
-    const target = document.getElementById('achievement-card-template');
     if (!currentUrl) {
         showNotify("Screenshot Error", "No quiz data to generate card.");
         return;
     }
-    
-    // Prompt for name if not already set (and not default "Explorer")
     if (userName === "Explorer" || !userName || userName.trim() === "") {
         const namePrompt = prompt("Please enter your name for the achievement certificate:", userName === "Explorer" ? "" : userName);
-        if (namePrompt === null) {
-            // User cancelled
-            return;
-        }
+        if (namePrompt === null) return;
         const trimmedName = namePrompt.trim();
         if (trimmedName) {
-            userName = trimmedName.substring(0, 100); // Limit length
-            localStorage.setItem('quizUserName', userName); // Save for next time
+            userName = trimmedName.substring(0, 100);
+            localStorage.setItem('quizUserName', userName);
         } else {
-            // If user provides empty name, keep current userName (which might be "Explorer")
             showNotify("Name Required", "Please enter a valid name for the certificate.");
             return;
         }
     }
-
     const parts = currentUrl.split('/');
     const modFile = parts.pop();
     const courseFolderName = parts.pop();
     const moduleNum = modFile.replace('.json', '');
     const courseFormatted = courseFolderName.toUpperCase().replace(/-/g, ' ');
-
     document.getElementById('ach-cert-name').innerText = userName;
     document.getElementById('ach-course-name').innerText = courseFormatted;
     document.getElementById('ach-module-num').innerText = "Module " + moduleNum;
     document.getElementById('ach-score').innerText = score.toLocaleString();
     document.getElementById('ach-time').innerText = document.getElementById('timer-val').innerText;
-    
     const now = new Date();
     document.getElementById('ach-date').innerText = now.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }).toUpperCase();
-
+    const target = document.getElementById('achievement-card-template');
     if (typeof html2canvas !== 'function') {
         console.error('html2canvas library is not loaded');
         showNotify("Screenshot Error", "html2canvas library failed to load.");
         return;
     }
-    html2canvas(target).then(canvas => {
+    html2canvas(target, {
+        useCORS: true,
+        backgroundColor: '#0f172a'
+    }).then(canvas => {
         const link = document.createElement('a');
         link.download = `Achievement_${courseFolderName}_M${moduleNum}.png`;
         link.href = canvas.toDataURL("image/png");
@@ -373,31 +366,151 @@ function getShareUrl() {
 }
 
 function shareHandler() {
-    const moduleLabel = document.getElementById('module-label')?.textContent || 'Knowledge Challenge';
-    const scoreText = document.getElementById('score-val')?.textContent || '0';
-    const shareUrl = getShareUrl();
-    const shareData = {
-        title: `Quiz Portal Pro - ${moduleLabel}`,
-        text: `I just scored ${scoreText} points on Quiz Portal Pro! Can you beat my score?`,
-        url: shareUrl
-    };
-    if (navigator.share) {
-        navigator.share(shareData).catch(() => showSocialShareOptions());
-    } else {
-        showSocialShareOptions();
+    const isCompletion = !document.getElementById('completion-screen').classList.contains('hidden');
+    if (isCompletion) {
+        shareCertificate();
+        return;
     }
+    const isQuizActive = !document.getElementById('quiz-container').classList.contains('hidden')
+        && !document.getElementById('quiz-flow').classList.contains('hidden');
+    if (isQuizActive && quizData.length > 0 && currentIdx < quizData.length) {
+        shareQuestion();
+        return;
+    }
+    showSocialShareOptions();
+}
+
+function captureAndShareImage(element, filename) {
+    if (typeof html2canvas !== 'function') {
+        showNotify('Share Error', 'Image generation library failed to load.');
+        return;
+    }
+    html2canvas(element, {
+        useCORS: true,
+        backgroundColor: '#0f172a',
+        scale: 2
+    }).then(canvas => {
+        canvas.toBlob(async (blob) => {
+            const file = new File([blob], filename, { type: 'image/png' });
+            if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+                try {
+                    await navigator.share({
+                        files: [file],
+                        title: 'Quiz Portal Pro'
+                    });
+                    element.remove();
+                    return;
+                } catch (err) {
+                    if (err.name === 'AbortError') { element.remove(); return; }
+                }
+            }
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+            element.remove();
+            showNotify('Image Saved', 'Saved. You can now post it to your story!');
+        });
+    }).catch(err => {
+        console.error('Image generation failed:', err);
+        element.remove();
+        showNotify('Share Error', 'Could not generate share image.');
+    });
+}
+
+function shareQuestion() {
+    if (!quizData || currentIdx >= quizData.length) {
+        showNotify('Share Error', 'No question to share.');
+        return;
+    }
+    const q = quizData[currentIdx];
+    if (!q) return;
+    const modLabel = document.getElementById('module-label')?.textContent || 'MODULE';
+    const container = document.createElement('div');
+    container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:50px 60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:600px;';
+    container.innerHTML = `
+        <div class="qc-badge">📝</div>
+        <div class="qc-module">${escapeHtml(modLabel)}</div>
+        <div class="qc-question">${escapeHtml(q.question || '')}</div>
+        <div class="qc-options"></div>
+        <div class="qc-footer">Quiz Portal Pro</div>
+    `;
+    const optsDiv = container.querySelector('.qc-options');
+    if (q.options) {
+        q.options.forEach(opt => {
+            const d = document.createElement('div');
+            d.className = 'qc-option';
+            d.textContent = opt;
+            optsDiv.appendChild(d);
+        });
+    }
+    document.body.appendChild(container);
+    const idxStr = (currentIdx + 1).toString().padStart(3, '0');
+    captureAndShareImage(container, `Question_${idxStr}.png`);
+}
+
+function shareCertificate() {
+    if (!currentUrl) {
+        showNotify('Share Error', 'No quiz data to share.');
+        return;
+    }
+    if (userName === "Explorer" || !userName || userName.trim() === "") {
+        const namePrompt = prompt("Please enter your name for the achievement certificate:", userName === "Explorer" ? "" : userName);
+        if (namePrompt === null) return;
+        const trimmedName = namePrompt.trim();
+        if (trimmedName) {
+            userName = trimmedName.substring(0, 100);
+            localStorage.setItem('quizUserName', userName);
+        } else {
+            showNotify('Name Required', 'Please enter a valid name for the certificate.');
+            return;
+        }
+    }
+    const parts = currentUrl.split('/');
+    const modFile = parts.pop();
+    const courseFolderName = parts.pop();
+    const moduleNum = modFile.replace('.json', '');
+    const courseFormatted = courseFolderName.toUpperCase().replace(/-/g, ' ');
+    const now = new Date();
+    const dateStr = now.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }).toUpperCase();
+    const container = document.createElement('div');
+    container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:center;';
+    container.innerHTML = `
+        <div class="ach-badge">🛡️</div>
+        <div class="ach-title">Course Mastery Achieved</div>
+        <div style="font-family:'Great Vibes',cursive;font-size:82px;color:#3b82f6;margin:10px 0;display:block;">${escapeHtml(userName)}</div>
+        <div style="font-size:16px;opacity:0.6;margin:10px 0;">has successfully completed</div>
+        <h2 class="ach-course-name">${escapeHtml(courseFormatted)}</h2>
+        <div class="ach-module-info">Module ${escapeHtml(moduleNum)}</div>
+        <div class="ach-stats-grid">
+            <div class="ach-stat-box">
+                <span class="ach-stat-val">${score.toLocaleString()}</span>
+                <span class="ach-stat-lab">Total Points</span>
+            </div>
+            <div class="ach-stat-box">
+                <span class="ach-stat-val">${escapeHtml(document.getElementById('timer-val').innerText)}</span>
+                <span class="ach-stat-lab">Completion Time</span>
+            </div>
+            <div class="ach-stat-box">
+                <span class="ach-stat-val">${escapeHtml(dateStr)}</span>
+                <span class="ach-stat-lab">Date Verified</span>
+            </div>
+        </div>
+        <div class="ach-footer">Verified by Pro Quiz Portal • hasit.in</div>
+    `;
+    document.body.appendChild(container);
+    captureAndShareImage(container, `Achievement_${courseFolderName}_M${moduleNum}.png`);
 }
 
 function showSocialShareOptions() {
     const shareUrl = getShareUrl();
     const url = encodeURIComponent(shareUrl);
-    const score = document.getElementById('score-val')?.textContent || '0';
-    const shareText = encodeURIComponent(`I just scored ${score} points on Quiz Portal Pro! Can you beat my score? #QuizPortalPro`);
+    const shareText = encodeURIComponent('Check out Quiz Portal Pro! Challenge yourself at: ' + shareUrl + ' #QuizPortalPro');
     const modal = document.createElement('div');
     modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
     modal.innerHTML = `
         <div class="bg-white dark:bg-slate-800 rounded-xl p-6 max-w-md w-full mx-4">
-            <h3 class="text-xl font-bold mb-4 text-center">Share Your Achievement</h3>
+            <h3 class="text-xl font-bold mb-4 text-center">Share the Quiz</h3>
             <div class="space-y-4">
                 <button onclick="shareToTwitter()" class="w-full p-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg flex items-center justify-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -425,9 +538,8 @@ function showSocialShareOptions() {
 }
 
 function shareToTwitter() {
-    const score = document.getElementById('score-val')?.textContent || '0';
     const shareUrl = getShareUrl();
-    const shareText = encodeURIComponent(`I just scored ${score} points on Quiz Portal Pro! Can you beat my score? #QuizPortalPro`);
+    const shareText = encodeURIComponent('Check out Quiz Portal Pro! ' + shareUrl + ' #QuizPortalPro');
     const url = encodeURIComponent(shareUrl);
     window.open(`https://twitter.com/intent/tweet?text=${shareText}&url=${url}`, '_blank');
 }

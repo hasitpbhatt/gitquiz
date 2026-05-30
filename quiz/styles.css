@@ -36,7 +36,7 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 #achievement-card-template {
     position: fixed;
     left: -9999px;
-    top: 0;
+    top: -9999px;
     width: 800px;
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     color: white;
@@ -72,6 +72,23 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 .ach-stat-lab { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; opacity: 0.5; margin-top: 5px; }
 
 .ach-footer { margin-top: 40px; font-size: 14px; opacity: 0.4; }
+
+/* Question Card Styles (used by dynamically created share elements) */
+.qc-badge { font-size: 70px; margin-bottom: 16px; }
+.qc-module { font-size: 14px; text-transform: uppercase; letter-spacing: 4px; color: #60a5fa; font-weight: 800; margin-bottom: 24px; }
+.qc-question { font-size: 30px; font-weight: 800; line-height: 1.35; margin-bottom: 36px; color: #f8fafc; max-width: 680px; }
+.qc-options { display: flex; flex-direction: column; gap: 14px; max-width: 600px; width: 100%; }
+.qc-option {
+    padding: 18px 24px;
+    background: rgba(255,255,255,0.08);
+    border: 2px solid rgba(255,255,255,0.15);
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f8fafc;
+    text-align: left;
+}
+.qc-footer { margin-top: 40px; font-size: 14px; opacity: 0.4; }
 
 /* Custom Scrollbar for Catalog */
 #course-dropdown::-webkit-scrollbar { width: 6px; }
