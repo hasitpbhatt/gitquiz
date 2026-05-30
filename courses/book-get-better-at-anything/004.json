@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Variability Over Repetition",
+    "content": "Varying how you practice leads to better skill development than repeating the exact same action. Variable practice creates flexible, robust skills that transfer to new situations.",
+    "description": "A baseball batter practices hitting only fastballs at 90 mph. In a game, they struggle against curveballs. This illustrates:",
+    "options": [
+      "The batter needs to practice more fastballs to perfect their swing",
+      "Variability Over Repetition: practicing only one pitch type creates narrow expertise that does not transfer",
+      "Curveballs are impossible to hit regardless of practice",
+      "The batter lacks natural talent for baseball"
+    ],
+    "answer": "Variability Over Repetition: practicing only one pitch type creates narrow expertise that does not transfer",
+    "explanation": "Repeating the same action builds skill for that specific situation. Variable practice with different pitch types builds flexible skills that adapt to game conditions."
+  },
+  {
+    "question": "Variability Over Repetition",
+    "content": "Varying how you practice leads to better skill development than repeating the exact same action. Variable practice creates flexible, robust skills that transfer to new situations.",
+    "description": "A language learner practices vocabulary only through flashcards. They can recognize words but cannot use them in conversation. What does Variability Over Repetition suggest?",
+    "options": [
+      "Use more flashcards to achieve conversational fluency",
+      "Vary practice methods: writing sentences, having conversations, listening to podcasts, and reading articles",
+      "Conversation skills are unrelated to vocabulary knowledge",
+      "Flashcards are a waste of time for language learning"
+    ],
+    "answer": "Vary practice methods: writing sentences, having conversations, listening to podcasts, and reading articles",
+    "explanation": "Variable practice builds flexible knowledge. Using vocabulary across different contexts develops the ability to access and use words naturally in real communication."
+  },
+  {
+    "question": "Variability Over Repetition",
+    "content": "Varying how you practice leads to better skill development than repeating the exact same action. Variable practice creates flexible, robust skills that transfer to new situations.",
+    "description": "A jazz musician practices scales in every key but always starting from the root note. They struggle during improvisation. Variability Over Repetition suggests:",
+    "options": [
+      "They should practice scales even more until perfect",
+      "They should practice scales starting from different notes and in different rhythmic patterns",
+      "Scales are not important for jazz musicians",
+      "They lack the natural creativity needed for jazz"
+    ],
+    "answer": "They should practice scales starting from different notes and in different rhythmic patterns",
+    "explanation": "Practicing scales with variability trains the brain to access the scale patterns from any starting point, building the flexible knowledge needed for improvisation."
+  },
+  {
+    "question": "Variability Over Repetition",
+    "content": "Varying how you practice leads to better skill development than repeating the exact same action. Variable practice creates flexible, robust skills that transfer to new situations.",
+    "description": "A math student solves 50 identical problems using the same formula. On the exam, they cannot recognize when to apply the formula in a word problem. This demonstrates:",
+    "options": [
+      "The student did not practice enough problems",
+      "The student has a math learning disability",
+      "Variability Over Repetition: identical repetitive practice does not build transferable understanding",
+      "The exam was unfairly designed to trick students"
+    ],
+    "answer": "Variability Over Repetition: identical repetitive practice does not build transferable understanding",
+    "explanation": "Solving varied problem types builds flexible knowledge that transfers to novel situations. Identical repetition only builds the ability to solve that exact problem type."
+  },
+  {
+    "question": "Quality Comes from Quantity",
+    "content": "Producing a large volume of work is often the path to high quality. Creative success correlates strongly with productivity because quantity generates variety and learning.",
+    "description": "A photographer takes 100 photos on a shoot and selects 3 excellent ones. An amateur takes 10 photos hoping each is perfect. Who will likely produce better results over time?",
+    "options": [
+      "The amateur, because taking fewer photos means more care per shot",
+      "The photographer with volume, because quantity produces more chances for excellent results and more learning opportunities",
+      "Both will produce equally good results",
+      "Neither approach works for photography"
+    ],
+    "answer": "The photographer with volume, because quantity produces more chances for excellent results and more learning opportunities",
+    "explanation": "Quality Comes from Quantity: producing work at volume generates more opportunities for excellence and more feedback for improvement. The best photo often emerges from many attempts."
+  },
+  {
+    "question": "Quality Comes from Quantity",
+    "content": "Producing a large volume of work is often the path to high quality. Creative success correlates strongly with productivity because quantity generates variety and learning.",
+    "description": "A writer aims to write one perfect paragraph per day. Another writes 500 average words daily regardless of quality. Who is more likely to improve over a year?",
+    "options": [
+      "The perfectionist, because quality comes from careful revision",
+      "The daily word writer, because consistent volume produces more practice, feedback, and opportunities for occasional brilliance",
+      "Neither will improve without professional training",
+      "Both will improve at the same rate"
+    ],
+    "answer": "The daily word writer, because consistent volume produces more practice, feedback, and opportunities for occasional brilliance",
+    "explanation": "High volume generates more raw material to learn from. The daily writer accumulates far more practice and produces more pieces that can be polished into quality."
+  },
+  {
+    "question": "Quality Comes from Quantity",
+    "content": "Producing a large volume of work is often the path to high quality. Creative success correlates strongly with productivity because quantity generates variety and learning.",
+    "description": "A potter makes 100 identical bowls trying to perfect one design. Another makes 100 different bowls, experimenting with shapes and glazes. Who develops more skill?",
+    "options": [
+      "The first potter, because focused repetition builds mastery",
+      "The second potter, because varied volume produces more learning about different techniques and effects",
+      "Both develop the same skills",
+      "Neither approach works for pottery"
+    ],
+    "answer": "The second potter, because varied volume produces more learning about different techniques and effects",
+    "explanation": "Combining quantity with variability amplifies learning. Producing many varied pieces generates diverse experiences, more feedback, and deeper understanding of the craft."
+  },
+  {
+    "question": "Quality Comes from Quantity",
+    "content": "Producing a large volume of work is often the path to high quality. Creative success correlates strongly with productivity because quantity generates variety and learning.",
+    "description": "Thomas Edison conducted thousands of experiments before creating a working light bulb. When asked about failures he said he found thousands of ways that did not work. This best illustrates:",
+    "options": [
+      "Edison was inefficient and should have theorized first",
+      "Quality Comes from Quantity: massive experimentation generates the data and insights needed for breakthrough success",
+      "Luck is the most important factor in invention",
+      "Persistence without direction is pointless"
+    ],
+    "answer": "Quality Comes from Quantity: massive experimentation generates the data and insights needed for breakthrough success",
+    "explanation": "Edison volume of experiments meant he explored the solution space thoroughly. Each failed experiment provided information that guided subsequent attempts, ultimately leading to success."
+  }
+]

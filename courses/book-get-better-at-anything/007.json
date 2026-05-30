@@ -1,0 +1,93 @@
+[
+  {
+    "question": "Fears Fade with Exposure",
+    "content": "Repeated, controlled exposure to feared situations reduces anxiety over time. Avoidance maintains fear while gradual exposure builds confidence and reduces avoidance behavior.",
+    "description": "Someone terrified of public speaking avoids all opportunities to present. According to Fears Fade with Exposure, what should they do?",
+    "options": [
+      "Continue avoiding public speaking since fear is protective",
+      "Start with small, low-stakes speaking situations and gradually increase audience size",
+      "Force themselves to give a keynote speech immediately to conquer the fear",
+      "Take medication to eliminate anxiety before speaking"
+    ],
+    "answer": "Start with small, low-stakes speaking situations and gradually increase audience size",
+    "explanation": "Gradual exposure retrains the brain that speaking situations are safe. Starting small builds confidence and prevents overwhelming anxiety, allowing fear to fade naturally through experience."
+  },
+  {
+    "question": "Fears Fade with Exposure",
+    "content": "Repeated, controlled exposure to feared situations reduces anxiety over time. Avoidance maintains fear while gradual exposure builds confidence and reduces avoidance behavior.",
+    "description": "A child is afraid of dogs. Their parents keep them away from all dogs. According to Fears Fade with Exposure, what should they do instead?",
+    "options": [
+      "Respect the fear and avoid dogs permanently",
+      "Start by watching calm dogs from a distance, then gradually approach under controlled conditions",
+      "Force the child to pet the scariest dog to get it over with",
+      "Explain logically that most dogs are friendly"
+    ],
+    "answer": "Start by watching calm dogs from a distance, then gradually approach under controlled conditions",
+    "explanation": "Avoidance reinforces fear. Gradual exposure at the child pace allows them to learn through experience that dogs are safe, building confidence step by step."
+  },
+  {
+    "question": "Fears Fade with Exposure",
+    "content": "Repeated, controlled exposure to feared situations reduces anxiety over time. Avoidance maintains fear while gradual exposure builds confidence and reduces avoidance behavior.",
+    "description": "A professional fears networking events and avoids them. This limits their career growth. What approach applies Fears Fade with Exposure?",
+    "options": [
+      "Network only through email to avoid in-person events",
+      "Start by attending a small event with a friend, then gradually attend larger gatherings alone",
+      "Skip networking entirely and focus on technical skills",
+      "Attend the biggest conference immediately to get it done"
+    ],
+    "answer": "Start by attending a small event with a friend, then gradually attend larger gatherings alone",
+    "explanation": "Avoidance of networking reinforces the fear. Controlled exposure starts with manageable situations, providing success experiences that build confidence for bigger challenges."
+  },
+  {
+    "question": "Fears Fade with Exposure",
+    "content": "Repeated, controlled exposure to feared situations reduces anxiety over time. Avoidance maintains fear while gradual exposure builds confidence and reduces avoidance behavior.",
+    "description": "Someone afraid of flying books a flight and cancels repeatedly. Each cancellation makes the next booking harder. This demonstrates:",
+    "options": [
+      "That the person should never fly since they are too afraid",
+      "Avoidance reinforces fear: each cancellation strengthens the anxiety pattern",
+      "Booking flights is not the right approach to overcoming fear",
+      "Fear of flying cannot be treated without medication"
+    ],
+    "answer": "Avoidance reinforces fear: each cancellation strengthens the anxiety pattern",
+    "explanation": "Each time the person avoids flying, their brain learns that flying is dangerous and the fear response becomes stronger. Exposure breaks this cycle by teaching safety through experience."
+  },
+  {
+    "question": "Fears Fade with Exposure",
+    "content": "Repeated, controlled exposure to feared situations reduces anxiety over time. Avoidance maintains fear while gradual exposure builds confidence and reduces avoidance behavior.",
+    "description": "An entrepreneur fears failure and delays launching their product. What would Fears Fade with Exposure recommend?",
+    "options": [
+      "Wait until the product is absolutely perfect before launching",
+      "Launch a minimal version to a small audience, learn from real feedback, and build confidence through action",
+      "Abandon the product and find a less risky career",
+      "Hire someone else to handle the launch"
+    ],
+    "answer": "Launch a minimal version to a small audience, learn from real feedback, and build confidence through action",
+    "explanation": "Fear of failure shrinks through exposure to manageable risks. A small launch provides real-world experience that shows the entrepreneur can handle outcomes, reducing fear of the unknown."
+  },
+  {
+    "question": "Fears Fade with Exposure",
+    "content": "Repeated, controlled exposure to feared situations reduces anxiety over time. Avoidance maintains fear while gradual exposure builds confidence and reduces avoidance behavior.",
+    "description": "A student fears answering questions in class. Their teacher applies exposure by:",
+    "options": [
+      "Never calling on the student to avoid causing anxiety",
+      "Starting with easy questions and gradually asking more challenging ones as the student gains confidence",
+      "Having the student answer the hardest questions first to build resilience",
+      "Excusing the student from class participation entirely"
+    ],
+    "answer": "Starting with easy questions and gradually asking more challenging ones as the student gains confidence",
+    "explanation": "Gradual exposure starts where the student feels safe. Each successful response builds confidence, allowing the student to tackle increasingly challenging participation over time."
+  },
+  {
+    "question": "Fears Fade with Exposure",
+    "content": "Repeated, controlled exposure to feared situations reduces anxiety over time. Avoidance maintains fear while gradual exposure builds confidence and reduces avoidance behavior.",
+    "description": "Someone fears rejection in dating. They never ask anyone out. What does Fears Fade with Exposure suggest?",
+    "options": [
+      "Rejection is too painful to risk and they should wait for someone to approach them",
+      "Start by making small talk with strangers, then progress to asking for a coffee date",
+      "Ask out the most attractive person first to build confidence",
+      "Use dating apps exclusively to avoid in-person rejection"
+    ],
+    "answer": "Start by making small talk with strangers, then progress to asking for a coffee date",
+    "explanation": "Gradual exposure to social situations reduces the fear response. Starting with low-stakes interactions builds social confidence step by step, making the prospect of rejection less intimidating."
+  }
+]
