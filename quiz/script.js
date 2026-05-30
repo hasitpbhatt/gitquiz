@@ -431,18 +431,17 @@ function shareQuestion() {
     container.innerHTML = `
         <div style="text-align:center;"><span class="qc-badge">📝</span></div>
         <div style="text-align:center;" class="qc-module">${escapeHtml(modLabel)}</div>
-        <div class="qc-question">${escapeHtml(q.question || '')}</div>
+        <div class="qc-title">${escapeHtml(q.question || '')}</div>
         ${q.description ? `<div class="qc-description">${escapeHtml(q.description)}</div>` : ''}
-        ${q.content ? `<div class="qc-content">${escapeHtml(q.content)}</div>` : ''}
         <div class="qc-options"></div>
         <div style="text-align:center;margin-top:auto;" class="qc-footer">Quiz Portal Pro</div>
     `;
     const optsDiv = container.querySelector('.qc-options');
     if (q.options) {
-        q.options.forEach(opt => {
+        q.options.forEach((opt, i) => {
             const d = document.createElement('div');
             d.className = 'qc-option';
-            d.textContent = opt;
+            d.innerHTML = `<span class="qc-opt-num">${i + 1}</span><span>${escapeHtml(opt)}</span>`;
             optsDiv.appendChild(d);
         });
     }

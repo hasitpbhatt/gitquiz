@@ -75,20 +75,35 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 
 /* Question Card Styles (used by dynamically created share elements) */
 .qc-badge { font-size: 70px; margin-bottom: 16px; display: inline-block; }
-.qc-module { font-size: 14px; text-transform: uppercase; letter-spacing: 4px; color: #60a5fa; font-weight: 800; margin-bottom: 32px; }
-.qc-question { font-size: 30px; font-weight: 800; line-height: 1.35; margin-bottom: 16px; color: #f8fafc; }
-.qc-description { font-size: 20px; font-weight: 600; line-height: 1.5; margin-bottom: 24px; color: #e2e8f0; }
-.qc-content { font-size: 15px; line-height: 1.5; margin-bottom: 24px; color: #94a3b8; font-style: italic; padding: 14px 18px; background: rgba(255,255,255,0.05); border-left: 3px solid #60a5fa; border-radius: 8px; }
-.qc-options { display: flex; flex-direction: column; gap: 12px; width: 100%; }
+.qc-module { font-size: 14px; text-transform: uppercase; letter-spacing: 4px; color: #60a5fa; font-weight: 800; margin-bottom: 28px; }
+.qc-title { font-size: 22px; font-weight: 600; margin-bottom: 20px; color: #94a3b8; }
+.qc-description { font-size: 24px; font-weight: 700; line-height: 1.4; margin-bottom: 28px; color: #f8fafc; }
+.qc-options { display: flex; flex-direction: column; gap: 16px; width: 100%; }
 .qc-option {
-    padding: 16px 22px;
-    background: rgba(255,255,255,0.08);
-    border: 2px solid rgba(255,255,255,0.15);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 20px;
+    background: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.12);
     border-radius: 14px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #f8fafc;
     text-align: left;
+}
+.qc-opt-num {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgba(96, 165, 250, 0.2);
+    color: #60a5fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
 }
 .qc-footer { margin-top: 40px; font-size: 14px; opacity: 0.4; }
 
