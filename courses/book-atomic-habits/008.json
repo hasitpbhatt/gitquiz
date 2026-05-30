@@ -1,132 +1,132 @@
 [
   {
-    "question": "The Power of Social Norms",
-    "content": "Humans are 'herd animals' who want to fit in and belong. We tend to adopt the habits of the people around us because we have a deep-seated desire to be accepted by the tribe. This social pressure can be used as a powerful tool to make good habits more attractive or bad habits less so.",
-    "description": "If you want to read more books but everyone in your current circle of friends only talks about television shows, what is the 'Atomic Habits' strategy for making reading more attractive?",
+    "question": "Motion vs. Action",
+    "content": "Motion is planning and preparing. Action is doing the behavior. Motion feels productive but produces no results.",
+    "description": "A person spends weeks researching the best running shoes, training plans, and routes but never actually runs. They are stuck in:",
     "options": [
-      "Try to convince your current friends to stop watching TV and start reading.",
-      "Join a book club where reading is the normal, celebrated behavior.",
-      "Read in total isolation so you aren't influenced by anyone else.",
-      "Wait until you feel a stronger internal motivation to read."
+      "Motion (planning without executing)",
+      "Effective preparation",
+      "The Goldilocks Rule",
+      "Habit tracking"
     ],
-    "answer": "Join a book club where reading is the normal, celebrated behavior.",
-    "explanation": "The most effective way to make a habit attractive is to join a culture where your desired behavior is the normal behavior. When you see others doing it, the habit becomes a way to belong to the group."
+    "answer": "Motion (planning without executing)",
+    "explanation": "Motion includes strategies and planning that feel like progress but do not produce the desired outcome. Action is the behavior that actually moves you toward your goal."
   },
   {
-    "question": "The Three Groups of Influence",
-    "content": "We especially imitate the habits of three groups: 1. The Close (family and friends), 2. The Many (the crowd/trends), and 3. The Powerful (those with status and prestige). Our environment is not just physical; it is social.",
-    "description": "You notice that you've started using certain slang words after spending time with a new group of colleagues. Which group of influence is primarily driving this habit?",
+    "question": "Reducing Friction",
+    "content": "The 3rd Law states that the more friction a habit requires, the less likely it is to happen. Reduce friction to increase habit performance.",
+    "description": "Someone wants to floss daily. Which change best reduces friction?",
     "options": [
-      "The Many",
-      "The Powerful",
-      "The Close",
-      "The Distant"
+      "Buy an expensive electric flosser",
+      "Keep floss picks in the shower so flossing happens automatically during the routine",
+      "Set a phone reminder to floss",
+      "Promise a reward after 30 days of flossing"
     ],
-    "answer": "The Close",
-    "explanation": "We pick up the habits of those nearest to us. Proximity has a powerful effect on our behavior; the people you spend the most time with determine which habits seem 'normal' to you."
+    "answer": "Keep floss picks in the shower so flossing happens automatically during the routine",
+    "explanation": "By placing the floss in the path of an existing routine (showering), friction drops to near zero. The behavior happens by default rather than requiring a separate decision."
   },
   {
-    "question": "The Pull of the Crowd",
-    "content": "When we are unsure how to act, we look to the group to guide our behavior. Most of the time, we would rather be wrong with the crowd than right by ourselves. This is why it is so difficult to maintain a habit that goes against the social norms of your 'tribe.'",
-    "description": "Why do many people find it hard to stick to a healthy diet during a family holiday or a dinner with friends?",
+    "question": "Commitment Devices",
+    "content": "A commitment device is a choice made in the present that locks in better future behavior by adding cost to bad choices.",
+    "description": "A person wants to save money. They set up an automatic transfer to a savings account on payday before they can spend it. This is:",
     "options": [
-      "Because the food is objectively more delicious than their healthy options.",
-      "Because the social cost of 'not fitting in' feels higher than the benefit of the diet.",
-      "Because willpower is biologically lower in the evening.",
-      "Because they have forgotten why they wanted to be healthy in the first place."
+      "Temptation bundling",
+      "A commitment device",
+      "Habit stacking",
+      "The Premack Principle"
     ],
-    "answer": "Because the social cost of 'not fitting in' feels higher than the benefit of the diet.",
-    "explanation": "We have an ancient instinct to follow the herd. If everyone is eating cake and you are not, you feel a social 'friction' that makes your desired habit (eating healthy) feel unattractive."
+    "answer": "A commitment device",
+    "explanation": "A commitment device uses automation to remove the future choice. By moving the money before it can be spent, the person locks in good behavior and prevents the bad option."
   },
   {
-    "question": "Imitating the Powerful",
-    "content": "We are drawn to habits that we believe will earn us respect, approval, or status. We see the 'successful' people in our field or social circle and try to copy their behaviors, hoping we will achieve the same results and admiration.",
-    "description": "A young athlete starts wearing the same brand of shoes and following the same pre-game ritual as a superstar player. This is an example of imitating...",
+    "question": "Strategic One-Time Actions",
+    "content": "One-time actions that automate a habit or remove a bad option provide ongoing benefits without daily effort.",
+    "description": "Which of these is a strategic one-time action that makes eating healthy easier?",
     "options": [
-      "The Many",
-      "The Close",
-      "The Powerful",
-      "The Logical"
+      "Deciding what to eat each morning",
+      "Subscribing to a weekly meal delivery service",
+      "Reading nutrition labels at the store",
+      "Writing a meal plan every Sunday"
     ],
-    "answer": "The Powerful",
-    "explanation": "We look to people with high status as a blueprint for success. By adopting the habits of the powerful, we hope to climb the social ladder and gain the same rewards of status."
+    "answer": "Subscribing to a weekly meal delivery service",
+    "explanation": "A meal subscription is a one-time decision that eliminates daily choices about what to eat. It automates the healthy eating habit through a single action."
   },
   {
-    "question": "The 'Normal' Behavior Rule",
-    "content": "A shared identity reinforces your personal identity. When you join a group (like a CrossFit gym or a choir), the shared identity of 'we are the type of people who do X' makes your individual habit feel like a core part of who you are.",
-    "description": "What is the primary benefit of being part of a group when trying to build a difficult habit?",
+    "question": "Automation and Technology",
+    "content": "Technology can automate habits entirely, removing the need for motivation, willpower, or decision-making.",
+    "description": "Someone wants to invest regularly. Which approach uses automation most effectively?",
     "options": [
-      "The group members will punish you if you fail.",
-      "The group provides a competitive environment where only the best survive.",
-      "The habit stops being a chore and starts being a way to connect with others.",
-      "The group does the work for you so you don't have to try as hard."
+      "Manually transfer money to an investment account each month",
+      "Set up an automatic payroll deduction that invests a percentage of each paycheck",
+      "Review investment options every quarter",
+      "Wait until a bonus comes to invest a lump sum"
     ],
-    "answer": "The habit stops being a chore and starts being a way to connect with others.",
-    "explanation": "When a habit is tied to social belonging, it becomes highly attractive. You aren't just 'working out'; you are 'seeing your friends' at the gym."
+    "answer": "Set up an automatic payroll deduction that invests a percentage of each paycheck",
+    "explanation": "Automation removes all friction and decision-making. The investment happens before the money even reaches the bank account, making the habit inevitable."
   },
   {
-    "question": "The Power of Shared Interests",
-    "content": "Nothing sustains motivation better than belonging to a tribe. It transforms a solitary quest into a shared one. Previously, you were on your own; now, your identity is wrapped up in those around you.",
-    "description": "If you are a solo entrepreneur struggling to stay productive, which social change would James Clear likely recommend?",
+    "question": "The Two-Minute Rule",
+    "content": "Any new habit should take less than two minutes to start. Scaling down makes the behavior easy enough to begin.",
+    "description": "Someone wants to start a meditation habit but finds 20 minutes overwhelming. How should they apply the Two-Minute Rule?",
     "options": [
-      "Working in a co-working space surrounded by other productive entrepreneurs.",
-      "Hiring a strict manager to watch your every move.",
-      "Deleting all your social media accounts to avoid 'The Many.'",
-      "Focusing on the outcome of making a million dollars."
+      "Meditate for 20 minutes but allow breaks",
+      "Start by meditating for just one breath, or two minutes max",
+      "Meditate only when they feel calm",
+      "Skip meditation and try yoga instead"
     ],
-    "answer": "Working in a co-working space surrounded by other productive entrepreneurs.",
-    "explanation": "By surrounding yourself with people who value productivity, the act of working hard becomes the 'socially attractive' thing to do, reducing the urge to procrastinate."
+    "answer": "Start by meditating for just one breath, or two minutes max",
+    "explanation": "The Two-Minute Rule makes the habit so easy it requires almost no motivation to start. Once started, it is easier to continue beyond two minutes."
   },
   {
-    "question": "The Conflict of Tribe and Habit",
-    "content": "If a habit helps you fit in, it is attractive. If a habit causes you to stand out in a negative way, it is unattractive. If you have to choose between a good habit and belonging to your tribe, most people will choose the tribe.",
-    "description": "How can you use this 'Tribe' principle to stop a bad habit, like gossiping?",
+    "question": "Inverting the 3rd Law for Bad Habits",
+    "content": "To break a bad habit, increase friction. Make the behavior so difficult that it is not worth doing.",
+    "description": "Someone watches too much TV. They unplug the TV after each use and put the remote in a closet. This makes watching TV:",
     "options": [
-      "Try to ignore the gossip when your friends do it.",
-      "Find a new group of friends who find gossip distasteful or boring.",
-      "Tell your current friends that they are bad people for gossiping.",
-      "Write down the names of everyone you gossiped about."
+      "More attractive",
+      "More difficult, applying the inversion of the 3rd Law",
+      "More satisfying",
+      "More invisible"
     ],
-    "answer": "Find a new group of friends who find gossip distasteful or boring.",
-    "explanation": "If your social circle rewards gossip, you will keep doing it to fit in. By switching to a 'tribe' that doesn't value it, the habit loses its social reward and becomes unattractive."
+    "answer": "More difficult, applying the inversion of the 3rd Law",
+    "explanation": "By adding friction to the bad habit, the inversion of the 3rd Law (Make it Difficult) makes the behavior less likely to occur. The effort required breaks the autopilot loop."
   },
   {
-    "question": "Imitating the Many",
-    "content": "The 'Many' exerts pressure through numbers. If 10 people in a room are doing one thing and you are doing another, you feel an immense pressure to conform. We check reviews, look for 'best-seller' tags, and follow trends because the crowd provides a sense of safety.",
-    "description": "You aren't sure which restaurant to visit, so you pick the one with the longest line. This habit-forming behavior is an example of...",
+    "question": "Choice Architecture",
+    "content": "Designing your environment so that the good choice is the path of least resistance.",
+    "description": "A school cafeteria places salads at eye level and desserts at the end of the line. This is an example of:",
     "options": [
-      "Imitating the Close",
-      "Imitating the Powerful",
-      "Imitating the Many",
-      "Strategic Decision Making"
+      "Temptation bundling",
+      "Choice architecture",
+      "The Premack Principle",
+      "Habit tracking"
     ],
-    "answer": "Imitating the Many",
-    "explanation": "The long line is a signal that 'the many' have approved of this choice. We use the behavior of the crowd as a shortcut for what is attractive or effective."
+    "answer": "Choice architecture",
+    "explanation": "Choice architecture arranges options so the desired behavior is the easiest and most obvious choice. The arrangement itself drives behavior without requiring willpower."
   },
   {
-    "question": "Creating an Environment of Belonging",
-    "content": "To make a habit stick, you need two things: the physical environment (cues) and the social environment (approval). When these two align, behavior change becomes nearly effortless.",
-    "description": "Which scenario provides the best 'social environment' for someone trying to learn to play chess?",
+    "question": "The Path of Least Resistance",
+    "content": "Human behavior follows the path of least resistance. The environment shapes which path that is.",
+    "description": "A person wants to read more but the TV remote is on the coffee table and the books are on a high shelf. What does the path of least resistance favor?",
     "options": [
-      "Playing against a computer alone in their bedroom.",
-      "Reading a history book about famous chess players.",
-      "Spending every Saturday afternoon at a local chess park with regulars.",
-      "Buying a very expensive, high-quality chess set."
+      "Reading, because books are valuable",
+      "Watching TV, because the remote is more accessible than the books",
+      "Neither, because both require effort",
+      "Reading, because it is more educational"
     ],
-    "answer": "Spending every Saturday afternoon at a local chess park with regulars.",
-    "explanation": "The park provides a social tribe. The approval of the other players and the shared culture of the game make the habit of practicing chess feel attractive and socially rewarding."
+    "answer": "Watching TV, because the remote is more accessible than the books",
+    "explanation": "The path of least resistance is defined by the environment. When TV is one step away and books require effort to reach, the default behavior is TV. Redesign the environment to flip this."
   },
   {
-    "question": "Status and Habit Maintenance",
-    "content": "We are constantly scanning our environment for ways to improve our status. If a habit—like being the most prepared person in a meeting—earns us praise and respect, we will work very hard to maintain that habit.",
-    "description": "Why is 'praise' such an effective way to reinforce a good habit in others?",
+    "question": "Decisive Moments",
+    "content": "Small choices that seem insignificant at the time determine the trajectory of your day and your habits.",
+    "description": "The moment a person walks through the door after work, they can either sit on the couch or change into workout clothes. This choice point is:",
     "options": [
-      "Because praise makes the habit feel like a logical necessity.",
-      "Because praise signals that the habit has increased the person's status within the group.",
-      "Because people only do things if they are being watched.",
-      "Because praise is a form of physical energy."
+      "A decisive moment that shapes the rest of the evening",
+      "An implementation intention",
+      "A motivation ritual",
+      "The Premack Principle"
     ],
-    "answer": "Because praise signals that the habit has increased the person's status within the group.",
-    "explanation": "Praise is a social reward. It tells the individual that their 'identity' as a person who does that habit is attractive to the tribe, making them want to repeat it to keep that status."
+    "answer": "A decisive moment that shapes the rest of the evening",
+    "explanation": "Decisive moments are small choices that set the direction for subsequent behavior. Optimizing these moments has an outsized impact on habit outcomes."
   }
 ]

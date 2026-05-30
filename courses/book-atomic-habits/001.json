@@ -1,132 +1,158 @@
 [
   {
     "question": "The Power of Tiny Gains",
-    "content": "The core idea of Atomic Habits is that small, 1% improvements don't seem like much in the moment, but they compound over time. Just as money multiplies through compound interest, the effects of your habits multiply as you repeat them. Over a year, improving by 1% every day makes you 37 times better.",
-    "description": "Imagine you are trying to learn a new language. Instead of cramming for five hours once a week, you decide to practice for just 10 minutes every single morning. Based on the concept of compounding, what is the most likely long-term outcome?",
+    "content": "Small 1% improvements compound over time, leading to exponential rather than linear growth.",
+    "description": "A musician practices guitar for 10 minutes every morning instead of cramming for 5 hours once a week. After a year, the daily player is dramatically more skilled despite each session feeling insignificant. What concept does this demonstrate?",
     "options": [
-      "You will see immediate, massive results within the first week.",
-      "The small daily efforts will seem insignificant at first but yield exponential growth over months.",
-      "The 10-minute sessions are too short to ever lead to fluency.",
-      "Your progress will be linear, meaning you learn exactly the same amount every day without it stacking."
+      "The Plateau of Latent Potential",
+      "The Power of Tiny Gains",
+      "The Habit Loop",
+      "Implementation Intentions"
     ],
-    "answer": "The small daily efforts will seem insignificant at first but yield exponential growth over months.",
-    "explanation": "Habits are the 'compound interest' of self-improvement. While the daily 10 minutes feels small, the cumulative effect of consistency creates a non-linear breakthrough over time."
+    "answer": "The Power of Tiny Gains",
+    "explanation": "Tiny gains compound. The daily 10 minutes accumulate, but more importantly each session builds on the previous one through compounding, creating exponential improvement over the year."
   },
   {
     "question": "The Plateau of Latent Potential",
-    "content": "Habits often appear to make no difference until you cross a critical threshold. This 'Plateau of Latent Potential' is the period where you are doing the work, but haven't seen the results yet. It’s like heating an ice cube: from 25 to 31 degrees, nothing happens, but at 32 degrees, it begins to melt.",
-    "description": "You have been going to the gym for three weeks and haven't lost any weight. You feel discouraged and want to quit. According to James Clear, what is actually happening?",
+    "content": "Results often lag behind effort because habits compound invisibly until crossing a critical threshold.",
+    "description": "A dieter eats clean for three weeks with no weight change, then loses four pounds in the fourth week. The invisible progress of the first three weeks best illustrates:",
     "options": [
-      "Your workout plan is definitely ineffective and needs to be changed immediately.",
-      "You have reached your maximum potential and cannot improve further.",
-      "You are in the Plateau of Latent Potential, where results are being stored, not yet visible.",
-      "The '1% rule' does not apply to physical fitness, only to mental tasks."
+      "The Plateau of Latent Potential",
+      "The Diderot Effect",
+      "Cue-Induced Wanting",
+      "The Premack Principle"
     ],
-    "answer": "You are in the Plateau of Latent Potential, where results are being stored, not yet visible.",
-    "explanation": "Most people quit in the 'Valley of Disappointment' because they expect linear results. In reality, the work you did in those three weeks isn't wasted; it's being stored for a future breakthrough."
+    "answer": "The Plateau of Latent Potential",
+    "explanation": "Like heating an ice cube from 25 to 31 degrees shows no visible change, the early work was not wasted. At 32 degrees the melt happens. Results lag behind effort, so persistence through the plateau is essential."
   },
   {
-    "question": "Forget About Goals, Focus on Systems",
-    "content": "Goals are about the results you want to achieve, while systems are about the processes that lead to those results. Winners and losers often have the same goals (e.g., winning a championship), so the goal itself cannot be what separates them. It is the system of continuous small improvements that determines the outcome.",
-    "description": "An aspiring writer wants to publish a novel. Which of the following approaches focuses on the 'system' rather than the 'goal'?",
+    "question": "Forget Goals, Focus on Systems",
+    "content": "Goals define the outcome; systems define the process. Winners and losers often share the same goal, but different systems.",
+    "description": "Two aspiring authors both want to write a novel. One visualizes the bestseller list daily. The other writes 300 words every morning before work. The second finishes the novel. This illustrates:",
     "options": [
-      "Visualizing the book on the New York Times Bestseller list every night.",
-      "Setting a deadline to finish the book by December 31st.",
-      "Committing to writing 200 words every morning before breakfast.",
-      "Focusing on the desire to become a famous author."
+      "The Power of Habit Stacking",
+      "The Difference Between Goals and Systems",
+      "The Goldilocks Rule",
+      "The Two-Minute Rule"
     ],
-    "answer": "Committing to writing 200 words every morning before breakfast.",
-    "explanation": "Writing 200 words daily is a process (a system) you can control. A deadline or a bestseller status is a result (a goal) that depends on many factors outside your immediate daily actions."
-  },
-  {
-    "question": "The Problem with Goal-Oriented Happiness",
-    "content": "A goal-first mentality creates a 'yo-yo' effect and postpones happiness. People often say, 'Once I reach my goal, then I’ll be happy.' This creates a binary conflict where you are either a failure until you reach the goal, or you reach it and lose the motivation that got you there.",
-    "description": "After training for months, Sarah completes a marathon. The next day, she feels empty and stops running altogether. How could a 'systems-first' mindset have prevented this slump?",
-    "options": [
-      "By setting a harder goal immediately, like an ultramarathon.",
-      "By focusing on the identity of being a runner rather than just the race finish line.",
-      "By realizing that marathons are too taxing for the human body.",
-      "By ignoring the race results and focusing only on the medal."
-    ],
-    "answer": "By focusing on the identity of being a runner rather than just the race finish line.",
-    "explanation": "Systems-first thinking ensures you fall in love with the process. If the 'system' is the goal, you can be satisfied whenever your system is running, not just when you cross a finish line."
+    "answer": "The Difference Between Goals and Systems",
+    "explanation": "Goals set direction but systems make progress. The daily writing habit is a controllable system; the bestseller list is an uncontrollable outcome. Focusing on the system ensures consistent action."
   },
   {
     "question": "The Concept of Atomic Habits",
-    "content": "The word 'atomic' has two meanings: 'extremely small' and 'the source of immense power.' An atomic habit is a regular practice that is small and easy to do, but is also a component of a larger system. Just as atoms are the building blocks of molecules, atomic habits are the building blocks of remarkable results.",
-    "description": "Why is the term 'Atomic' used to describe these habits?",
+    "content": "Atomic means both extremely small and the fundamental source of immense power, like atoms in physics.",
+    "description": "A programmer commits to writing one unit test daily. The action feels trivial in isolation but over a year builds a robust test suite. Why is the term atomic used for such habits?",
     "options": [
-      "Because the habits should be explosive and change your life overnight.",
-      "Because they are small, incremental units that serve as the foundation for a larger system.",
-      "Because they require a massive amount of energy to start, like a nuclear reaction.",
-      "Because they are invisible and cannot be tracked by the naked eye."
+      "Because habits should produce explosive, immediate results",
+      "Because they are tiny yet serve as the fundamental building blocks of larger systems",
+      "Because they require atomic-level discipline to maintain",
+      "Because they remain invisible until triggered by external events"
     ],
-    "answer": "Because they are small, incremental units that serve as the foundation for a larger system.",
-    "explanation": "Atomic habits are small in scale (easy to do) but serve as the fundamental units that build into a powerful system of growth."
-  },
-  {
-    "question": "The 1% Better Every Day Formula",
-    "content": "Success is the product of daily habits—not once-in-a-lifetime transformations. You get what you repeat. If you can get 1% better each day for one year, you’ll end up 37 times better by the time you’re done. Conversely, if you get 1% worse each day, you’ll decline nearly to zero.",
-    "description": "Which of these scenarios best illustrates the negative side of the 1% formula?",
-    "options": [
-      "Forgetting to brush your teeth once in a month.",
-      "Eating one slightly unhealthy meal on your birthday.",
-      "Consistently choosing a sugary snack every afternoon as a minor daily treat.",
-      "Spending a single day resting instead of working on a project."
-    ],
-    "answer": "Consistently choosing a sugary snack every afternoon as a minor daily treat.",
-    "explanation": "Habits work both ways. A single bad choice is a mistake, but a 1% decline repeated daily (like the sugary snack) compounds into significant health issues over time."
+    "answer": "Because they are tiny yet serve as the fundamental building blocks of larger systems",
+    "explanation": "Atomic captures the duality of being tiny in scale yet foundational in power. Just as atoms form molecules, atomic habits are small actions that build into remarkable systems."
   },
   {
     "question": "Breaking the Binary of Success",
-    "content": "When you focus on goals, you give yourself a 'pass/fail' grade. If you don't hit the specific target, you feel like a failure even if you made progress. Systems allow you to succeed every time you show up, regardless of the immediate outcome.",
-    "description": "If a salesperson's system is to make 20 calls a day, but they don't make a single sale today, how would a 'systems-thinker' view the day?",
+    "content": "Goals create pass-fail thinking; systems let you succeed every time you show up.",
+    "description": "A salesperson commits to making ten prospecting calls daily. On Tuesday they make all ten calls but close zero deals. How does a systems-thinker view Tuesday?",
     "options": [
-      "As a complete waste of time because no revenue was generated.",
-      "As a failure to meet the primary goal of the company.",
-      "As a success, because they stuck to their process and executed the system.",
-      "As a sign that they should quit sales and try a different career."
+      "As a failure because no revenue was generated",
+      "As a success because the process was executed",
+      "As a sign they should switch careers",
+      "As a neutral day with no useful outcome"
     ],
-    "answer": "As a success, because they stuck to their process and executed the system.",
-    "explanation": "In a systems-based mindset, success is defined by following the process. Since the salesperson made the 20 calls, they 'won' the day, knowing that the sales will eventually follow the math of the system."
+    "answer": "As a success because the process was executed",
+    "explanation": "Systems define success as following the process. The ten calls are votes for the identity of a diligent salesperson. Deals follow the math over time, not per individual day."
   },
   {
-    "question": "Goals vs. Systems in Sports",
-    "content": "In sports, the goal is to have the best score on the scoreboard. However, staring at the scoreboard all game won't help you win. The only way to actually win is to get better at the system of play—the practice, the drills, and the strategy.",
-    "description": "A basketball coach wants to win a championship. To follow the advice in Chapter 1, where should the coach spend the majority of their mental energy?",
+    "question": "The Negative Compounding Effect",
+    "content": "Getting 1% worse each day compounds to near zero over time, just as 1% better compounds to 37 times improvement.",
+    "description": "A developer skips refactoring one messy function. The next week they skip another. Six months later the codebase is unmaintainable and every new feature takes ten times longer. This illustrates:",
     "options": [
-      "Continuously checking the league standings to see where they rank.",
-      "Recruiting better players from other teams every week.",
-      "Refining the daily practice routines and player skill development.",
-      "Promising the fans and media that they will win the trophy."
+      "The Plateau of Latent Potential",
+      "The Negative Compounding Effect",
+      "The Diderot Effect",
+      "The Horns Effect"
     ],
-    "answer": "Refining the daily practice routines and player skill development.",
-    "explanation": "The 'system' in sports consists of the daily drills and habits of the players. If the system is good, the score (the goal) will take care of itself."
+    "answer": "The Negative Compounding Effect",
+    "explanation": "Just as good habits compound, so do bad ones. Each skipped refactoring seems harmless alone, but the accumulation creates technical debt that compounds toward zero productivity."
+  },
+  {
+    "question": "The Problem with Goal-Oriented Happiness",
+    "content": "Focusing solely on goals creates a yo-yo effect where happiness is postponed until the goal is reached, then lost after.",
+    "description": "A marathon runner trains for months, completes the race, and feels empty the next day, stopping running altogether. How could a systems-first mindset have prevented this?",
+    "options": [
+      "By setting a harder goal like an ultramarathon",
+      "By focusing on the identity of being a runner rather than the finish line",
+      "By hiring a personal coach",
+      "By ignoring the race results entirely"
+    ],
+    "answer": "By focusing on the identity of being a runner rather than the finish line",
+    "explanation": "Systems-first thinking means loving the process. If the daily run is itself the goal, satisfaction comes every day the system runs, not just on race day."
+  },
+  {
+    "question": "Long-Term Persistence vs. Quick Fixes",
+    "content": "True change comes from hundreds of small decisions compounded over time, not from a single quantum leap.",
+    "description": "A language learner studies 15 minutes daily for two months, can barely order coffee, and quits in frustration. They never reach the six-month point where conversational fluency clicks. This illustrates:",
+    "options": [
+      "The Diderot Effect",
+      "The Importance of Long-Term Persistence",
+      "Cue-Induced Wanting",
+      "The Premack Principle"
+    ],
+    "answer": "The Importance of Long-Term Persistence",
+    "explanation": "Human nature craves immediate results, but habits compound slowly. Most people abandon their system before compounding has a chance to produce visible results."
   },
   {
     "question": "The Feedback Loop of Habits",
-    "content": "Habits are a double-edged sword. Bad habits can cut you down just as easily as good habits can build you up. This is why understanding the 'mechanics'—how habits form and compound—is essential for taking control of your life.",
-    "description": "Which of the following is an example of a 'negative' compounding habit mentioned by Clear?",
+    "content": "Habits are a double-edged sword: good habits build you up, bad habits cut you down, both through the same compounding mechanism.",
+    "description": "A young professional starts each day by listing three goals. Over a year this accumulates into a clear career direction. Meanwhile their colleague starts each day scrolling social media, which compounds into chronic distraction. This illustrates:",
     "options": [
-      "Stress from a single bad traffic jam.",
-      "The cumulative impact of daily self-criticism and negative self-talk.",
-      "Reading a book for 5 minutes and then stopping.",
-      "Saving 1% of your paycheck into a savings account."
+      "The Feedback Loop of Habits (double-edged nature)",
+      "The Habit Scorecard",
+      "Implementation Intentions",
+      "Temptation Bundling"
     ],
-    "answer": "The cumulative impact of daily self-criticism and negative self-talk.",
-    "explanation": "Just as money or skills compound, thoughts compound too. One negative thought is nothing, but a daily habit of self-criticism compounds into a very toxic internal environment."
+    "answer": "The Feedback Loop of Habits (double-edged nature)",
+    "explanation": "The same mechanism works in both directions. Daily actions, positive or negative, reinforce themselves through repetition. Understanding this dual nature is essential for taking control."
   },
   {
-    "question": "Long-term Persistence vs. Quick Fixes",
-    "content": "True change comes from the compound effect of hundreds of small decisions. It is not about a 'quantum leap' or a single event. It is about a commitment to a process that persists even when progress seems invisible.",
-    "description": "Why do most people find it so hard to build lasting habits?",
+    "question": "Systems in Practice: Sports Analogy",
+    "content": "Staring at the scoreboard does not change the score; improving the daily practice system does.",
+    "description": "A basketball coach obsessed with league standings loses every game. Another coach who focuses on perfecting daily shooting drills and conditioning wins the championship. This difference illustrates:",
     "options": [
-      "Because they lack the biological 'willpower gene' required for success.",
-      "Because they expect results to be visible immediately and give up when they don't see them.",
-      "Because most habits are actually impossible to change after the age of 25.",
-      "Because they don't set high enough goals for themselves."
+      "The Habit Scorecard",
+      "Systems vs. Goals in Practice",
+      "The Two-Minute Rule",
+      "Temptation Bundling"
     ],
-    "answer": "Because they expect results to be visible immediately and give up when they don't see them.",
-    "explanation": "Human nature seeks immediate gratification. Because habits compound slowly, many people abandon the 'system' before the results of the 1% improvements have a chance to show up."
+    "answer": "Systems vs. Goals in Practice",
+    "explanation": "The scoreboard is the goal reflecting past system performance. Obsessing over it does not improve future results, but refining the daily practice system does."
+  },
+  {
+    "question": "The Valley of Disappointment",
+    "content": "The Valley of Disappointment is the emotional experience of persisting through effort before results become visible. Most people quit here because they expect linear progress from an exponential process.",
+    "description": "A writer publishes blog posts weekly for three months with zero readers and quits. Six more months of compounding would have built an audience, but the breakthrough never came. This common quitting moment is called:",
+    "options": [
+      "The Plateau of Latent Potential",
+      "The Valley of Disappointment",
+      "The Diderot Effect",
+      "The Feedback Loop"
+    ],
+    "answer": "The Valley of Disappointment",
+    "explanation": "The Valley of Disappointment is the emotional gap between effort and visible results. People expect linear progress, but habits compound exponentially, so the exciting results arrive later. Persisting through this valley is essential for breakthrough."
+  },
+  {
+    "question": "Marginal Gains in Practice",
+    "content": "The marginal gains philosophy seeks 1% improvements across many small areas. Aggregated, these tiny enhancements produce massive overall gains.",
+    "description": "British Cycling was mediocre for decades. New coach Dave Brailsford improved bike seats, tire friction, hand washing to prevent illness, pillow types for better sleep, and more. None was a magic bullet, but together they transformed the team into Olympic champions. This illustrates:",
+    "options": [
+      "The Diderot Effect",
+      "The Habit Loop",
+      "The aggregation of marginal gains",
+      "Implementation Intentions"
+    ],
+    "answer": "The aggregation of marginal gains",
+    "explanation": "The British Cycling story is the flagship case study of atomic habits. No single change was revolutionary, but the aggregation of dozens of 1% improvements across many domains created a breakthrough in performance."
   }
 ]

@@ -20,7 +20,7 @@ Use this skill when you:
 
 ### 1. Analyze the Book Content
 - Identify key concepts, principles, or models from the book
-- Group related concepts into logical chapters (typically 6-10 chapters)
+- Group related concepts into logical chapters. Do not sacrifice conceptual coverage for an arbitrary chapter count; create as many chapters as needed to cover all key concepts from the source material.
 - For each concept, identify a real-world scenario that illustrates it and aids learning
 
 ### 2. If Course Exists: Audit Before Enriching
@@ -78,11 +78,12 @@ Follow these content conventions for each field:
 - **Answer**: Must match exactly one option string
 - **Explanation**: Teaching moment explaining the reasoning
 
-### 5. Maintain Difficulty Progression
+### 5. Maintain Difficulty and Coverage
 - Earlier chapters: Foundational concepts
 - Middle chapters: Core principles/applications
 - Later chapters: Integrated scenarios, advanced applications
-- Final chapter: Comprehensive review minimizing redundancy
+- Final chapters: Comprehensive review and advanced topics, minimizing redundancy
+- **Coverage first**: If the source material has significant gaps after grouping, create additional chapters. Conceptual coverage is more important than hitting a target chapter count.
 
 ### 6. Update Courses List
 Add your course identifier to `courses/courses_list.txt` in alphabetical position:

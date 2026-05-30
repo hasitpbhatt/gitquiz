@@ -1,132 +1,132 @@
 [
   {
-    "question": "The Role of Dopamine",
-    "content": "Habits are a dopamine-driven feedback loop. Dopamine is not just released when you *experience* pleasure, but also when you *anticipate* it. It is the spike in dopamine—the craving—that provides the motivation to act. Without the anticipation of a reward, we would have no reason to perform a habit.",
-    "description": "Researchers found that when a gambler sees the lights on a slot machine, their brain releases dopamine before they even pull the lever. What does this reveal about why we perform habits?",
+    "question": "The Power of Social Norms",
+    "content": "We imitate the habits of those around us because belonging to a tribe was essential for survival.",
+    "description": "A new employee notices that everyone in the office takes a brisk walk after lunch. Without being asked, they start doing the same. This is driven by:",
     "options": [
-      "The physical action of the habit is more important than the feeling.",
-      "The brain is more motivated by the anticipation of the reward than the reward itself.",
-      "Dopamine is only released when we lose, not when we win.",
-      "Habits are purely logical and have nothing to do with brain chemistry."
+      "The Power of Social Norms and Imitation",
+      "Implementation Intentions",
+      "The Diderot Effect",
+      "Temptation Bundling"
     ],
-    "answer": "The brain is more motivated by the anticipation of the reward than the reward itself.",
-    "explanation": "Dopamine levels spike when you expect a reward. This craving is what actually drives the behavior. Once you get the reward, the dopamine often levels off because the 'search' is over."
+    "answer": "The Power of Social Norms and Imitation",
+    "explanation": "Humans are wired to mimic the behaviors of their social group. When a behavior is seen as normal in a group, it becomes more attractive to adopt it."
   },
   {
-    "question": "Temptation Bundling",
-    "content": "The 2nd Law of Behavior Change is 'Make it Attractive.' Temptation bundling is a strategy that works by linking an action you *want* to do with an action you *need* to do. This uses the high-dopamine activity to pull you through the low-dopamine task.",
-    "description": "Which of the following is a correct application of temptation bundling?",
+    "question": "The Three Groups of Influence",
+    "content": "We imitate three groups: the close (family and friends), the many (the tribe or society), and the powerful (those with status).",
+    "description": "A teenager starts wearing a specific brand of sneakers because all the popular athletes at school wear them. Which influence group is driving this behavior?",
     "options": [
-      "Watching your favorite Netflix show while you are on the treadmill at the gym.",
-      "Eating a healthy salad and then immediately eating a cookie.",
-      "Checking your email while you are in the middle of an important meeting.",
-      "Doing 100 pushups only on days when you feel very motivated."
+      "The close (family and friends)",
+      "The many (the tribe)",
+      "The powerful (those with status)",
+      "The wise (experts and teachers)"
     ],
-    "answer": "Watching your favorite Netflix show while you are on the treadmill at the gym.",
-    "explanation": "You 'want' to watch Netflix (attractive) and you 'need' to exercise (hard). By bundling them, the attractiveness of the show makes the exercise more likely to happen."
+    "answer": "The powerful (those with status)",
+    "explanation": "We naturally imitate those who have status, prestige, or admiration. Athletes represent the powerful group, and their choices signal what behaviors are worth adopting."
   },
   {
-    "question": "The Premack Principle",
-    "content": "Named after professor David Premack, this principle states that 'more probable behaviors will reinforce less probable behaviors.' In other words, you can use your current habits or things you love to do as a reward for things you are avoiding.",
-    "description": "If you love scrolling through TikTok but hate doing the dishes, how would you apply the Premack Principle?",
+    "question": "The Normal Behavior Rule",
+    "content": "We are more likely to engage in a behavior when it is perceived as normal within our social group.",
+    "description": "A study shows that college students drink less alcohol when they learn that most peers actually drink moderately. This illustrates:",
     "options": [
-      "Only watch TikTok after you have finished washing the dishes.",
-      "Watch TikTok first to get in a good mood, then do the dishes.",
-      "Stop watching TikTok entirely so you have more time for dishes.",
-      "Hire someone to do the dishes so you can watch more TikTok."
+      "The Plateau of Latent Potential",
+      "The Normal Behavior Rule",
+      "The Premack Principle",
+      "The Habit Scorecard"
     ],
-    "answer": "Only watch TikTok after you have finished washing the dishes.",
-    "explanation": "By putting the high-probability behavior (TikTok) after the low-probability behavior (dishes), the desired activity becomes a reward that pulls you through the difficult task."
+    "answer": "The Normal Behavior Rule",
+    "explanation": "When people discover that their perception of peer behavior is exaggerated, the revised understanding of what is normal shifts their own behavior toward the actual norm."
   },
   {
-    "question": "Combining Habit Stacking and Temptation Bundling",
-    "content": "You can combine these two techniques into a powerful formula: 1. After [CURRENT HABIT], I will [HABIT I NEED]. 2. After [HABIT I NEED], I will [HABIT I WANT]. This creates a bridge between your routine and your desires.",
-    "description": "You want to start meditating (Need) and you love checking sports scores (Want). You already drink coffee every morning (Current). What is the best 'super-stack'?",
+    "question": "The Conflict of Tribe and Habit",
+    "content": "When a habit conflicts with the norms of a group you identify with, it becomes difficult to maintain.",
+    "description": "A person stops drinking alcohol, but their entire friend group centers social events around bars and drinking. The person struggles to maintain sobriety. This illustrates:",
     "options": [
-      "After I check sports scores, I will meditate and then drink coffee.",
-      "After I drink coffee, I will check sports scores and then meditate.",
-      "After I drink coffee, I will meditate. After I meditate, I will check sports scores.",
-      "I will do all three things at the same time to save energy."
+      "The Diderot Effect",
+      "The Conflict of Tribe and Habit",
+      "The Goldilocks Rule",
+      "Environment Priming"
     ],
-    "answer": "After I drink coffee, I will meditate. After I meditate, I will check sports scores.",
-    "explanation": "This follows the formula perfectly. You anchor the 'need' (meditation) to an existing habit (coffee), and reward the 'need' with the 'want' (sports scores)."
+    "answer": "The Conflict of Tribe and Habit",
+    "explanation": "When your desired habit conflicts with your tribes norms, maintaining it requires constant effort. Joining a group where the desired behavior is normal makes the habit much easier."
   },
   {
-    "question": "The Craving vs. The Reward",
-    "content": "Desire is the engine that drives behavior. Every action is taken because of the anticipation that the next moment will be better than the current one. If there is no desire (no dopamine spike), the habit loop never starts, even if the reward is still 'good.'",
-    "description": "Scientists found that mice who had their dopamine production blocked would still enjoy sugar, but they would never work to get it. What does this tell us about behavior?",
+    "question": "Creating an Environment of Belonging",
+    "content": "Joining a group where your desired behavior is the norm makes the habit more attractive and sustainable.",
+    "description": "Someone wants to become a serious reader. Which action best creates an environment of belonging around reading?",
     "options": [
-      "Mice are naturally lazy and don't like working.",
-      "Without craving, we have the capacity to experience pleasure but no motivation to pursue it.",
-      "Sugar is not actually a reward for most animals.",
-      "The brain only cares about rewards that are difficult to obtain."
+      "Buy a large collection of books",
+      "Join a book club that meets weekly to discuss what members are reading",
+      "Set a goal to read 50 books in a year",
+      "Download a reading app on the phone"
     ],
-    "answer": "Without craving, we have the capacity to experience pleasure but no motivation to pursue it.",
-    "explanation": "This highlights the '2nd Law' (Make it Attractive). If a habit isn't attractive (spiking dopamine/desire), you won't do it, even if you know the end result is beneficial."
+    "answer": "Join a book club that meets weekly to discuss what members are reading",
+    "explanation": "Joining a group where reading is the norm makes the habit attractive through social belonging. The expectation and shared identity reinforce the behavior."
   },
   {
-    "question": "Creating a Motivation Ritual",
-    "content": "You can make a hard habit more attractive by associating it with something you find enjoyable. By consistently performing a small, pleasant ritual before a difficult task, the ritual eventually triggers the mindset needed for the hard work.",
-    "description": "A writer listens to one specific upbeat song before they sit down to write every single day. Eventually, they find that simply hearing the first few notes of the song makes them feel creative. Why?",
+    "question": "The Root of Cravings",
+    "content": "Every craving is ultimately a desire to change your internal state. You do not crave the habit itself but the feeling it provides.",
+    "description": "A person craves checking social media. According to the book, what are they actually seeking?",
     "options": [
-      "The song has magical frequencies that boost the brain.",
-      "The brain has associated the 'attractive' cue of the song with the 'need' to write.",
-      "Listening to music makes the writing process take less time.",
-      "Writing is naturally easier when the room is loud."
+      "The mechanical action of scrolling",
+      "The feeling of connection, novelty, or validation",
+      "The blue light exposure from the screen",
+      "The habit of checking for its own sake"
     ],
-    "answer": "The brain has associated the 'attractive' cue of the song with the 'need' to write.",
-    "explanation": "This is a motivation ritual. By pairing something attractive (the song) with the work, you create an 'on-switch' for your focus, making the habit easier to start."
+    "answer": "The feeling of connection, novelty, or validation",
+    "explanation": "Cravings are about the internal transformation a habit delivers. Social media offers connection, novelty, and validation, which are the desired state changes, not the scrolling itself."
   },
   {
-    "question": "The Power of Supernormal Stimuli",
-    "content": "Modern life is filled with 'supernormal stimuli'—exaggerated versions of reality that spike our dopamine higher than anything in nature (like junk food or social media). Because these are so attractive, they easily become addictive habits.",
-    "description": "How should we use the knowledge of 'Supernormal Stimuli' to improve our habits?",
+    "question": "Predictive Coding and Cravings",
+    "content": "The brain uses past experiences to predict rewards. When a cue matches a prediction, craving fires automatically.",
+    "description": "A former smoker sees someone light a cigarette and suddenly feels a strong urge to smoke, even though they have not smoked in years. This is:",
     "options": [
-      "We should try to make our good habits as exaggerated and stimulating as video games.",
-      "We should realize that our brains are easily 'tricked' and work to make good habits more appealing.",
-      "We should only perform habits that are boring and difficult.",
-      "We should never use technology because it is too attractive."
+      "Temptation bundling",
+      "Predictive coding triggering a craving from a familiar cue",
+      "The Premack Principle",
+      "The Diderot Effect"
     ],
-    "answer": "We should realize that our brains are easily 'tricked' and work to make good habits more appealing.",
-    "explanation": "Since we live in a world of high-dopamine triggers, we must intentionally use the 'Make it Attractive' rule to give our good habits a 'fighting chance' against distractions."
+    "answer": "Predictive coding triggering a craving from a familiar cue",
+    "explanation": "The brain has learned that the cue seeing a cigarette predicts a reward. Even after years, the neural pathway remains, and the cue triggers the craving automatically."
   },
   {
-    "question": "Reframing Your Mindset",
-    "content": "The way you talk about your habits changes how attractive they feel. Instead of saying 'I *have* to,' try saying 'I *get* to.' This small shift in language changes the habit from a burden into an opportunity.",
-    "description": "You are dreading your morning workout. Which internal dialogue best follows the 'Make it Attractive' principle?",
+    "question": "Reframing: Have To vs. Get To",
+    "content": "Changing have to to get to reframes a chore as a privilege, making it more attractive.",
+    "description": "A person dreads preparing healthy meals. Which reframe best applies the 2nd Law?",
     "options": [
-      "'I have to go run so I don't get out of shape.'",
-      "'I get to build strength and increase my energy today.'",
-      "'I should go to the gym because I paid for the membership.'",
-      "'I must exercise because it is a rule I set for myself.'"
+      "I have to meal prep or I will eat junk food",
+      "I get to nourish my body with fresh ingredients that fuel my day",
+      "Meal prep is a necessary evil",
+      "I will meal prep only when I feel motivated"
     ],
-    "answer": "'I get to build strength and increase my energy today.'",
-    "explanation": "Reframing focuses on the benefits rather than the sacrifice. By highlighting the positive outcome, you make the behavior more attractive and reduce the mental resistance to starting."
+    "answer": "I get to nourish my body with fresh ingredients that fuel my day",
+    "explanation": "Get to frames the activity as an opportunity and privilege. This shifts the brain perception from burden to benefit, making the behavior more attractive."
   },
   {
-    "question": "The Importance of the Anticipation Spike",
-    "content": "In the habit loop, the 'Craving' (anticipation) is actually what causes the most neural activity. Once the reward is obtained, the brain's activity actually drops. This is why the 'chase' is often more addictive than the 'catch.'",
-    "description": "Why do people often find themselves scrolling through social media long after they have stopped seeing interesting content?",
+    "question": "Associating Hard Habits with Pleasure",
+    "content": "Pairing a difficult habit with something you enjoy creates a positive association that makes it easier to start.",
+    "description": "Someone dislikes cold showers but wants the health benefits. How could they associate the habit with pleasure?",
     "options": [
-      "Because they are hoping the next post will be the 'big reward' (the dopamine spike).",
-      "Because they have forgotten how to close the app.",
-      "Because the reward of social media gets better the longer you use it.",
-      "Because their brain is trying to save energy by not moving."
+      "Focus on the discomfort and breathe through it",
+      "Listen to an uplifting song immediately before and during the shower",
+      "Take cold showers at the same time every day",
+      "Write down how they felt after each shower"
     ],
-    "answer": "Because they are hoping the next post will be the 'big reward' (the dopamine spike).",
-    "explanation": "The brain is addicted to the *anticipation* of a potential reward (the 'variable reward'). We keep acting because the *next* moment might be the attractive one."
+    "answer": "Listen to an uplifting song immediately before and during the shower",
+    "explanation": "By pairing the difficult activity with something pleasurable, the brain builds a positive association. The anticipation of the song makes the cold shower more attractive to start."
   },
   {
-    "question": "Making Hard Habits Attractive",
-    "content": "To make a difficult habit attractive, you must find a way to highlight its immediate benefits or link it to a positive identity. Habits are easier to stick to when they provide a 'win' for your self-image or a spark of joy in the moment.",
-    "description": "If someone wants to save money (which feels like 'missing out' on buying things), how can they make the habit of saving feel more attractive?",
+    "question": "The Motivation Ritual",
+    "content": "A motivation ritual is a short, consistent routine you perform before a difficult habit to put yourself in the right state.",
+    "description": "A public speaker feels anxious before presentations. They develop a ritual of deep breathing, stretching, and saying I am excited. This ritual is:",
     "options": [
-      "By thinking about how much money they will have in 40 years.",
-      "By labeling their savings account 'Freedom Fund' and watching it grow after every 'win.'",
-      "By looking at pictures of things they can't afford to buy yet.",
-      "By punishing themselves whenever they spend money on a coffee."
+      "Temptation bundling",
+      "A motivation ritual",
+      "Habit stacking",
+      "Implementation intentions"
     ],
-    "answer": "By labeling their savings account 'Freedom Fund' and watching it grow after every 'win.'",
-    "explanation": "Naming the goal (Freedom) and seeing the immediate progress (watching the number go up) provides an immediate sense of satisfaction and identity-alignment, making the act of saving attractive."
+    "answer": "A motivation ritual",
+    "explanation": "A motivation ritual associates a specific set of actions with a desired mental state. Over time, the ritual itself triggers the craving for confidence and focus."
   }
 ]

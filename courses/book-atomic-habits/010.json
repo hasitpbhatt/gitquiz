@@ -1,132 +1,158 @@
 [
   {
-    "question": "Motion vs. Action",
-    "content": "There is a big difference between being in 'motion' and taking 'action.' Motion is when you are planning, strategizing, and learning—which are good, but they don't produce a result. Action is the type of behavior that delivers an outcome. We often stay in motion to delay the risk of failure.",
-    "description": "You want to get in shape. You spend two weeks researching the best gym shoes, reading workout blogs, and mapping out a schedule, but you haven't actually exercised yet. Which state are you in?",
+    "question": "The Goldilocks Rule",
+    "content": "Peak motivation occurs when working on tasks at the edge of your current ability: not too hard, not too easy, just right.",
+    "description": "A chess player consistently plays opponents at their skill level. Players who play much stronger opponents get discouraged, and weaker ones get bored. This optimal challenge zone is:",
     "options": [
-      "Effective Action",
-      "Motion",
-      "Linear Progress",
-      "Strategic Implementation"
+      "The Goldilocks Rule",
+      "The Plateau of Latent Potential",
+      "The Premack Principle",
+      "The Habit Scorecard"
     ],
-    "answer": "Motion",
-    "explanation": "Motion feels like progress, but it's often a form of procrastination. Action would be actually going to the gym or doing a pushup. Researching is just preparing to act."
+    "answer": "The Goldilocks Rule",
+    "explanation": "The Goldilocks Rule states that humans experience peak motivation when working on tasks at the border of their current ability. Too hard leads to anxiety; too easy leads to boredom."
   },
   {
-    "question": "The 3rd Law: Make It Easy",
-    "content": "The most effective form of learning is practice, not planning. The more you repeat an activity, the more your brain structure changes to become efficient at that activity. To build a habit, you need to focus on 'reps' (repetitions) rather than perfection.",
-    "description": "A photography professor split his class into two groups: the 'Quantity' group (graded on the number of photos taken) and the 'Quality' group (graded on a single perfect photo). Which group produced the better photos at the end of the term?",
+    "question": "The Explore/Exploit Trade-off",
+    "content": "Early in skill acquisition, you explore many options. Once you find a fit, you exploit that niche for mastery.",
+    "description": "A musician tries several instruments (piano, guitar, drums) before settling on guitar and practicing it daily for years. This progression shows:",
     "options": [
-      "The Quality group, because they spent more time studying the theory of lighting.",
-      "The Quantity group, because they learned through the trial and error of hundreds of photos.",
-      "Both groups performed equally because they had the same teacher.",
-      "Neither group, because artistic talent cannot be learned."
+      "The Habit Loop",
+      "The Explore/Exploit Trade-off",
+      "Implementation Intentions",
+      "The Diderot Effect"
     ],
-    "answer": "The Quantity group, because they learned through the trial and error of hundreds of photos.",
-    "explanation": "By taking hundreds of photos (Action), the quantity group honed their skills through repetition. The quality group sat around 'planning' perfection (Motion) and ended up with mediocre results."
+    "answer": "The Explore/Exploit Trade-off",
+    "explanation": "The explore phase tries many options to find a good match. The exploit phase doubles down on that choice for mastery. Both phases are necessary for excellence."
   },
   {
-    "question": "Long-Term Potentiation",
-    "content": "Every time you repeat a habit, you are strengthening a specific neural circuit in your brain. This is known as Long-Term Potentiation. The more you repeat a behavior, the more the 'path' becomes paved, making the habit eventually feel automatic and effortless.",
-    "description": "Why does a habit like 'driving home' eventually require almost no conscious thought?",
+    "question": "Work That Feels Like Play",
+    "content": "Sustainable habits align with your natural inclinations and strengths. Work that matches your personality feels less like effort.",
+    "description": "An introvert becomes a data analyst and finds deep focus on spreadsheets energizing rather than draining. An extrovert in the same role struggles. This illustrates:",
     "options": [
-      "Because the car's GPS does all the work for you.",
-      "Because your brain has physically changed to automate that specific neural pathway through repetition.",
-      "Because your muscles have a brain of their own that remembers the turns.",
-      "Because you have naturally high intelligence for navigation."
+      "The importance of aligning work with personality",
+      "The Goldilocks Rule",
+      "The Two-Minute Rule",
+      "Habit stacking"
     ],
-    "answer": "Because your brain has physically changed to automate that specific neural pathway through repetition.",
-    "explanation": "Habits are based on frequency, not time. It doesn't matter if you've wanted to drive for 20 years; what matters is how many times you have actually driven the route."
+    "answer": "The importance of aligning work with personality",
+    "explanation": "Habits that match natural inclinations require less motivation to maintain. Finding roles and activities that fit your personality makes the hard work of mastery feel like play."
   },
   {
-    "question": "The Concept of Friction",
-    "content": "Friction is the physical or mental resistance that makes a habit difficult to perform. To make a good habit easy, you must 'reduce friction.' To make a bad habit difficult, you must 'increase friction.' Your environment determines how much energy is required to start.",
-    "description": "You want to start going to the gym in the morning. Which of these actions best illustrates 'reducing friction'?",
+    "question": "The 80/20 Rule in Habits",
+    "content": "A minority of your efforts produce the majority of your results. Focus on the high-impact 20% of habits.",
+    "description": "A salesperson finds that 80% of their sales come from 20% of their clients. They shift focus to nurturing those key relationships. This is applying:",
     "options": [
-      "Setting a very loud alarm that is far away from your bed.",
-      "Buying a more expensive gym membership to motivate yourself.",
-      "Packing your gym bag and putting it in the passenger seat of your car the night before.",
-      "Reading a book about the benefits of morning exercise."
+      "The 80/20 Rule (Pareto Principle) to habit focus",
+      "The Habit Scorecard",
+      "Temptation bundling",
+      "The Goldilocks Rule"
     ],
-    "answer": "Packing your gym bag and putting it in the passenger seat of your car the night before.",
-    "explanation": "By prepping the bag, you remove a 'friction point' in the morning. You no longer have to find your socks or pack your bag when you are tired; the path to the gym is now 'greased.'"
+    "answer": "The 80/20 Rule (Pareto Principle) to habit focus",
+    "explanation": "The 80/20 Rule helps identify which habits deliver the most impact. Focusing energy on the vital few habits rather than spreading effort across many produces outsized results."
   },
   {
-    "question": "Priming the Environment",
-    "content": "You can 'prime' your environment for future use to make your next action effortless. It is about 'resetting' the room so that the next time you enter it, the easiest thing to do is the right thing to do.",
-    "description": "How can you prime your kitchen to make the habit of 'cooking a healthy breakfast' easier for tomorrow morning?",
+    "question": "Review and Reflection",
+    "content": "Regular review and reflection prevent complacency, catch drift, and ensure habits stay aligned with goals.",
+    "description": "A founder reviews their weekly metrics every Friday, adjusting strategies before small problems compound. This practice of:",
     "options": [
-      "Leaving the dirty dishes in the sink so you remember you need to clean them.",
-      "Chopping the vegetables and setting the pan on the stove the night before.",
-      "Watching a cooking show right before you go to sleep.",
-      "Hiding all the healthy food in the back of the pantry."
+      "Review and reflection prevents drift and enables course correction",
+      "Implementation intentions",
+      "Temptation bundling",
+      "The Two-Minute Rule"
     ],
-    "answer": "Chopping the vegetables and setting the pan on the stove the night before.",
-    "explanation": "Priming the environment removes the 'startup cost' of the habit. When you walk into the kitchen, the work is already half-done, making it much easier to start."
+    "answer": "Review and reflection prevents drift and enables course correction",
+    "explanation": "Habits can drift over time without periodic review. Reflection ensures you are still heading in the right direction and allows you to catch small deviations before they compound."
   },
   {
-    "question": "The Law of Least Effort",
-    "content": "Human behavior follows the Law of Least Effort: we will naturally gravitate toward the option that requires the least amount of work. We don't want the habit; we want the result. Therefore, the easier a habit is to perform, the more likely it is to happen.",
-    "description": "Why is 'scrolling through social media' a more common habit than 'writing a novel'?",
+    "question": "The Identity Trap",
+    "content": "Becoming attached to a specific identity can prevent growth when circumstances change.",
+    "description": "A professional athlete who defines themselves entirely as an athlete struggles to find purpose after retiring. This is:",
     "options": [
-      "Because humans are naturally lazy and lack creativity.",
-      "Because scrolling requires almost zero friction to start, while writing requires high cognitive effort.",
-      "Because social media is more important than literature in the modern world.",
-      "Because phones are made of materials that attract the human hand."
+      "The Identity Trap becoming attached to one rigid self-definition",
+      "The Goldilocks Rule",
+      "The Plateau of Latent Potential",
+      "Implementation Intentions"
     ],
-    "answer": "Because scrolling requires almost zero friction to start, while writing requires high cognitive effort.",
-    "explanation": "Our brains choose the path of least resistance. To write more, you have to make writing easier (less friction) and scrolling harder (more friction)."
+    "answer": "The Identity Trap becoming attached to one rigid self-definition",
+    "explanation": "While identity-based habits are powerful, becoming too attached to a single identity makes it hard to adapt. Keeping identity small and flexible allows growth."
   },
   {
-    "question": "Designing for Convenience",
-    "content": "Most people try to change their habits through willpower, but it is much more effective to change your 'choice architecture.' If you organize your life so that the most important things are also the most convenient, you will do them automatically.",
-    "description": "If you want to drink more water, which strategy uses 'choice architecture' most effectively?",
+    "question": "Breaking the Ceiling of Automaticity",
+    "content": "Once a habit becomes automatic, it stops improving. Deliberate practice is required to break through plateaus.",
+    "description": "A pianist can play a piece flawlessly on autopilot but has not improved in months. They must focus on specific challenging sections deliberately. This illustrates:",
     "options": [
-      "Telling yourself that you must drink 8 glasses a day or you will fail.",
-      "Placing a water bottle in every room of the house and on your desk.",
-      "Waiting until you are thirsty to look for a glass.",
-      "Tracking your water intake in a complicated spreadsheet."
+      "The need to combine habits with deliberate practice to keep improving",
+      "The Goldilocks Rule",
+      "The Power of Tiny Gains",
+      "The Habit Loop"
     ],
-    "answer": "Placing a water bottle in every room of the house and on your desk.",
-    "explanation": "This makes the habit of drinking water 'convenient.' You don't have to go to the kitchen (friction); the water is already there whenever you have the urge."
+    "answer": "The need to combine habits with deliberate practice to keep improving",
+    "explanation": "Habits make behavior automatic, but mastery requires pushing beyond comfort. Once a habit is established, you must add deliberate practice elements to continue growing."
   },
   {
-    "question": "Increasing Friction for Bad Habits",
-    "content": "To stop a bad habit, you want to make it difficult. You want to add so many steps between you and the behavior that the effort required to start is greater than your desire to do it.",
-    "description": "You want to stop watching so much television. What is an example of 'increasing friction'?",
+    "question": "The Habit Trajectory",
+    "content": "Habits have a trajectory. Small daily actions determine the direction of your life over years and decades.",
+    "description": "Two people start their careers at the same time. One reads industry news for 15 minutes daily; the other scrolls social media. After a decade, the first is an expert and the second has stagnated. This shows:",
     "options": [
-      "Keeping the remote on the coffee table so it's always ready.",
-      "Removing the batteries from the remote and putting them in a drawer in another room.",
-      "Buying a larger TV so you can see the screen better.",
-      "Setting a goal to only watch one hour of TV a day."
+      "The Trajectory of Habits",
+      "The Habit Scorecard",
+      "The Diderot Effect",
+      "Temptation bundling"
     ],
-    "answer": "Removing the batteries from the remote and putting them in a drawer in another room.",
-    "explanation": "By removing the batteries, you've added a physical 'hurdle.' Now, if you want to watch TV, you have to get up, find the batteries, and put them in. That extra effort is often enough to stop the mindless habit."
+    "answer": "The Trajectory of Habits",
+    "explanation": "Each small habit choice sets a trajectory. Over years, these trajectories diverge dramatically. The trajectory matters more than the current position because it determines where you end up."
   },
   {
-    "question": "The 2-Minute Rule",
-    "content": "The 2-Minute Rule states: 'When you start a new habit, it should take less than two minutes to do.' The goal is to make it as easy as possible to *start*. A habit must be established before it can be improved.",
-    "description": "You want to start a habit of reading 50 books a year. How should you apply the 2-Minute Rule on day one?",
+    "question": "The Culmination of Atomic Habits",
+    "content": "The ultimate purpose of building atomic habits is not just achieving goals but becoming the person capable of achieving them.",
+    "description": "After two years of daily practice, a writer has published a novel. More importantly, they now see themselves as a writer who can tackle any book project. This transformation illustrates:",
     "options": [
-      "Read the first 20 pages of a book every morning.",
-      "Read just one page.",
-      "Spend two minutes researching which books to buy.",
-      "Buy 50 books and stack them on your desk."
+      "The culmination of atomic habits changing identity, not just outcomes",
+      "The Goldilocks Rule",
+      "The Two-Minute Rule",
+      "The Habit Loop"
     ],
-    "answer": "Read just one page.",
-    "explanation": "Reading one page takes less than two minutes. It sounds too easy, but it establishes the 'ritual' of reading. Once you are 'mastering the art of showing up,' you can gradually increase the challenge."
+    "answer": "The culmination of atomic habits changing identity, not just outcomes",
+    "explanation": "The deepest benefit of habits is the identity shift. The writer did not just achieve a goal; they became the person who achieves writing goals. This identity change is the real reward."
   },
   {
-    "question": "Mastering the Art of Showing Up",
-    "content": "A habit is like an entrance ramp to a highway. The 2-minute version of a habit is the entrance ramp. If you can get on the ramp, the rest of the habit follows naturally. You can't improve a habit that doesn't exist, so focus on the first two minutes above all else.",
-    "description": "Why is 'showing up at the gym for 5 minutes and then leaving' actually a valuable exercise for someone building a habit?",
+    "question": "Tiny Changes, Remarkable Results",
+    "content": "Small changes often appear to make no difference until you cross a critical threshold. The most powerful outcomes of atomic habits are delayed.",
+    "description": "A business owner improves their customer service process by 1% each month. For the first year, revenue is flat. In the second year, revenue doubles. This delayed breakthrough illustrates:",
     "options": [
-      "Because 5 minutes of exercise is enough to build significant muscle.",
-      "Because it reinforces the identity of 'someone who goes to the gym' and makes the start automatic.",
-      "Because the gym membership is more worth it if you go every day.",
-      "Because it tricks the gym staff into thinking you are a regular."
+      "That small changes compound into remarkable results, but only after crossing a threshold",
+      "That the improvements were ineffective in the first year",
+      "That the business should have focused on marketing instead",
+      "That 1% improvements are too small to matter"
     ],
-    "answer": "Because it reinforces the identity of 'someone who goes to the gym' and makes the start automatic.",
-    "explanation": "The hardest part of any habit is starting. By showing up for 5 minutes, you are practicing the 'start.' Once the start is easy and automatic, staying for 45 minutes becomes much simpler."
+    "answer": "That small changes compound into remarkable results, but only after crossing a threshold",
+    "explanation": "The compound effect of small improvements often produces delayed breakthroughs. The first year built the foundation; the second year crossed the critical threshold where results became visible."
+  },
+  {
+    "question": "The Boredom Plateau",
+    "content": "The greatest threat to success is not failure but boredom. Once a habit becomes routine, it loses its novelty. The ability to stick with habits even when they are no longer exciting separates masters from amateurs.",
+    "description": "A guitar player practiced eagerly for six months. Now the daily practice feels stale and repetitive. Most people would quit and try something new. What principle explains why professionals push through this stage?",
+    "options": [
+      "The need to love boredom and persist through the plateau of habit maintenance",
+      "The Goldilocks Rule",
+      "The Two-Minute Rule",
+      "The Diderot Effect"
+    ],
+    "answer": "The need to love boredom and persist through the plateau of habit maintenance",
+    "explanation": "Clear argues that the biggest challenge to long-term success is not the difficulty of the habit but the boredom of its repetition. Professionals show up even when the habit is no longer exciting."
+  },
+  {
+    "question": "Flow State and Habit Mastery",
+    "content": "The Goldilocks Rule connects to flow state: peak motivation and performance occur when the challenge level matches your skill level, keeping you engaged without overwhelming you.",
+    "description": "A video game designer adjusts difficulty so the game is neither too easy (boring) nor too hard (frustrating). Players enter a state of deep engagement where time seems to disappear. This optimal experience is:",
+    "options": [
+      "Flow state achieved through the Goldilocks Rule of optimal challenge",
+      "The Two-Minute Rule",
+      "Temptation bundling",
+      "The Diderot Effect"
+    ],
+    "answer": "Flow state achieved through the Goldilocks Rule of optimal challenge",
+    "explanation": "Flow state occurs when challenge and skill are in balance. The Goldilocks Rule captures this principle for habits: habits must be at the right level of difficulty to sustain motivation and engagement over time."
   }
 ]
