@@ -1,106 +1,93 @@
 [
   {
+    "question": "The Battlefield of Life",
+    "content": "Kurukshetra symbolizes the inner battlefield where every person faces the struggle between righteousness and self-interest.",
+    "description": "A mid-level manager discovers that her company's new product launch relies on misleading advertising that exaggerates benefits. She is torn between her loyalty to the company and her conscience. What does this conflict represent according to the Gita?",
+    "options": [
+      "A simple career decision with no moral dimension",
+      "The inner Kurukshetra between dharma and adharma",
+      "A legal issue best handled by the compliance department",
+      "An unavoidable aspect of modern business"
+    ],
+    "answer": "The inner Kurukshetra between dharma and adharma",
+    "explanation": "Just as Arjuna faced a moral crisis on the battlefield, we all encounter situations where our duty (dharma) conflicts with personal gain or institutional pressure. Recognizing this as an inner Kurukshetra is the first step toward conscious choice."
+  },
+  {
+    "question": "Arjuna's Vishada",
+    "content": "Vishada is the state of deep sorrow, confusion, and paralysis that arises when confronting a profound moral dilemma.",
+    "description": "A founder who has built a successful startup over a decade now faces an acquisition offer that would make him wealthy but requires him to abandon his team and customers. He feels paralyzed, unable to decide. What state is he experiencing?",
+    "options": [
+      "Strategic business deliberation",
+      "Arjuna's vishada - moral and emotional paralysis",
+      "Simple indecisiveness from too many options",
+      "Burnout from overwork and stress"
+    ],
+    "answer": "Arjuna's vishada - moral and emotional paralysis",
+    "explanation": "Arjuna's vishada on the battlefield describes the overwhelming confusion that results from conflicting duties and values. Like the founder, Arjuna was torn between what seemed right and what was expected, unable to act until clarity emerged."
+  },
+  {
+    "question": "Krishna as Inner Wisdom",
+    "content": "Krishna represents the divine wisdom within each person that guides from confusion to clarity when sincerely consulted.",
+    "description": "After months of agonizing over whether to leave an unfulfilling career for an uncertain passion project, a person finally sits in quiet reflection and feels a clear inner knowing about what to do. What does this symbolize?",
+    "options": [
+      "Random intuition with no reliable basis",
+      "The inner Krishna - divine wisdom accessed through stillness",
+      "Delusion caused by wishful thinking",
+      "Fear of making any decision at all"
+    ],
+    "answer": "The inner Krishna - divine wisdom accessed through stillness",
+    "explanation": "In the Gita, Krishna guides Arjuna from confusion to clarity. This represents the inner wisdom available to all when they turn inward with sincerity. The clarity felt after quiet reflection is this inner guidance emerging."
+  },
+  {
     "question": "Dharma",
-    "content": "Dharma refers to one's righteous duty or moral responsibility based on their role in life and stage of development.",
-    "description": "A software engineer discovers a critical bug that could compromise user data but fixing it would delay the product launch and potentially cost the company money. What should they do according to the concept of Dharma?",
+    "content": "Dharma is one's righteous duty aligned with universal principles, varying by role, context, and stage of life.",
+    "description": "A journalist obtains classified information that would expose government corruption but publishing it could endanger national security sources. What does the concept of dharma require?",
     "options": [
-      "Hide the bug to avoid delaying the launch and protect their job",
-      "Fix the bug secretly without telling anyone to avoid blame",
-      "Report the bug to their manager and work to fix it despite potential delays",
-      "Quit the job to avoid being responsible for the consequences"
+      "Always publish regardless of consequences",
+      "Always prioritize national security over truth",
+      "Discern the higher dharma by weighing competing duties",
+      "Avoid making any decision that involves risk"
     ],
-    "answer": "Report the bug to their manager and work to fix it despite potential delays",
-    "explanation": "According to Dharma, one must fulfill their duty with integrity. For a software engineer, this means protecting users and maintaining quality, even when it's difficult. Hiding the bug would be adharma (unrighteous), while reporting it upholds professional and ethical responsibility."
+    "answer": "Discern the higher dharma by weighing competing duties",
+    "explanation": "Dharma is not a rigid rulebook but requires discernment between conflicting duties. The journalist must weigh truth-telling against potential harm, recognizing that the highest dharma serves the greatest good."
   },
   {
-    "question": "Karma Yoga",
-    "content": "Karma Yoga is the path of selfless action performed without attachment to results or personal gain.",
-    "description": "A teacher spends extra time helping struggling students after school, knowing they won't receive additional pay or recognition for this effort. What motivates this action according to Karma Yoga?",
+    "question": "The Eternal Self (Atman)",
+    "content": "The Atman is the eternal, indestructible consciousness that exists beyond the temporary body and mind.",
+    "description": "After the death of a beloved pet, a child asks whether the pet's spirit or just its body died. According to the Gita's teaching on the Atman, what is the most accurate response?",
     "options": [
-      "Expectation of getting a promotion or bonus",
-      "Desire to be seen as a great teacher by colleagues",
-      "Satisfaction from helping others learn and grow",
-      "Hope that students will give gifts in return"
+      "Everything ends with the body - that is the scientific truth",
+      "The body dies but the consciousness that animated it continues",
+      "Only humans have souls, not animals",
+      "Death is the complete end of all existence"
     ],
-    "answer": "Satisfaction from helping others learn and grow",
-    "explanation": "Karma Yoga teaches performing actions for their own sake, not for fruits or rewards. The teacher's motivation comes from the intrinsic value of helping students, not external recognition or compensation."
+    "answer": "The body dies but the consciousness that animated it continues",
+    "explanation": "The Gita teaches that the Atman (conscious Self) is eternal and indestructible. While the physical body perishes, the consciousness or life essence continues. This applies to all beings, not just humans, as the same divine Self dwells in all."
   },
   {
-    "question": "Detachment from Results",
-    "content": "Detachment from results means focusing on performing your duty well while remaining unaffected by success or failure.",
-    "description": "An athlete trains rigorously for an important competition but gets injured during warm-ups and cannot participate. How should they view this situation according to the principle of detachment?",
+    "question": "The Temporary vs The Eternal",
+    "content": "Wisdom begins with distinguishing between the temporary (body, possessions, circumstances) and the eternal (the Self, truth, consciousness).",
+    "description": "A young professional derives intense happiness from buying a luxury car, but the excitement fades within weeks. What does this reveal about the nature of such happiness according to the Gita?",
     "options": [
-      "Feel bitter and regret all the time spent training",
-      "Believe they were punished for past mistakes",
-      "Accept that they did their best in preparation and focus on healing",
-      "Blame the coach or training program for the injury"
+      "The car was not expensive enough to provide lasting happiness",
+      "All happiness from material objects is temporary and fades",
+      "They should have bought a different model for lasting satisfaction",
+      "The experience proves that happiness does not exist"
     ],
-    "answer": "Accept that they did their best in preparation and focus on healing",
-    "explanation": "Detachment from results means giving your best effort without being attached to outcomes. The athlete can take pride in their preparation while accepting that the result was beyond their control, then move forward constructively."
+    "answer": "All happiness from material objects is temporary and fades",
+    "explanation": "The Gita distinguishes between temporary happiness from sense objects (which inevitably fades) and lasting fulfillment from spiritual realization. The fading excitement is not a failure of the object but a sign of its temporary nature."
   },
   {
-    "question": "Equanimity",
-    "content": "Equanimity is maintaining mental calmness and balance in both success and failure, pleasure and pain.",
-    "description": "A startup founder's company receives major funding news, followed immediately by a key team member resigning. How should they respond according to the teaching of equanimity?",
+    "question": "Right Action Without Attachment",
+    "content": "One should perform their duty with full effort but without attachment to specific outcomes or results.",
+    "description": "A scientist spends years researching a cure for a disease but ultimately another team publishes the breakthrough first. How should the scientist view this outcome according to the Gita?",
     "options": [
-      "Celebrate the funding intensely and ignore the resignation",
-      "Fall into despair about the resignation and dismiss the funding",
-      "Remain balanced, grateful for funding while addressing the team challenge calmly",
-      "Quit the startup because nothing ever goes smoothly"
+      "Consider the years a complete waste and give up research",
+      "Feel satisfied that the research contributed to human knowledge despite not being first",
+      "Accuse the other team of stealing their ideas",
+      "Focus only on getting credit for future discoveries"
     ],
-    "answer": "Remain balanced, grateful for funding while addressing the team challenge calmly",
-    "explanation": "Equanimity teaches maintaining stability of mind regardless of circumstances. The founder acknowledges both events without being overwhelmed by either, responding with wisdom and balance to each situation."
-  },
-  {
-    "question": "Bhakti Yoga",
-    "content": "Bhakti Yoga is the path of love and devotion toward the divine, seeing God in all beings and expressing love through service.",
-    "description": "A nurse treats every patient with equal compassion and care, whether they are rich or poor, friendly or difficult, seeing the divine spark in each person. Which yoga path does this exemplify?",
-    "options": [
-      "Jnana Yoga (path of knowledge)",
-      "Karma Yoga (path of action)",
-      "Bhakti Yoga (path of devotion)",
-      "Raja Yoga (path of meditation)"
-    ],
-    "answer": "Bhakti Yoga (path of devotion)",
-    "explanation": "Seeing the divine in all beings and serving them with love is the essence of Bhakti Yoga. The nurse's equal compassion for all patients reflects devotion to the divine presence in every human being."
-  },
-  {
-    "question": "The Three Gunas",
-    "content": "The three Gunas are qualities that influence behavior: Sattva (purity, harmony), Rajas (activity, passion), and Tamas (inertia, darkness).",
-    "description": "After eating a heavy meal of fried foods, a person feels sluggish, unmotivated to work, and spends hours scrolling mindlessly through social media. Which Guna is predominantly influencing their state?",
-    "options": [
-      "Sattva (purity, harmony)",
-      "Rajas (activity, passion)",
-      "Tamas (inertia, darkness)",
-      "A balance of all three Gunas"
-    ],
-    "answer": "Tamas (inertia, darkness)",
-    "explanation": "Tamas is characterized by inertia, lethargy, and darkness. The sluggishness, lack of motivation, and passive consumption after eating heavy, fried foods reflect a tamasic state of mind and body."
-  },
-  {
-    "question": "Seeing Divinity in All Beings",
-    "content": "The enlightened view sees the same divine consciousness present in all beings, regardless of external differences.",
-    "description": "A successful entrepreneur treats their CEO, managers, entry-level employees, and janitorial staff with equal respect and takes time to listen to everyone's ideas. What principle guides this behavior?",
-    "options": [
-      "Belief that everyone will eventually become rich and powerful",
-      "Desire to collect favors from people at all levels",
-      "Recognition of equal divine worth in all individuals",
-      "Fear that staff might unionize if not treated well"
-    ],
-    "answer": "Recognition of equal divine worth in all individuals",
-    "explanation": "Treating everyone with equal respect regardless of position reflects the Bhagavad Gita's teaching that the same divine consciousness resides in all beings. This recognition eliminates hierarchy based on external roles."
-  },
-  {
-    "question": "Overcoming Fear and Doubt",
-    "content": "Fear and doubt arise from ignorance of our true eternal nature; knowledge dispels them.",
-    "description": "A musician feels intense anxiety before performing in front of large audiences, fearing they will make mistakes and be judged negatively. According to the Gita, what is the root cause of this fear?",
-    "options": [
-      "Lack of sufficient practice and preparation",
-      "Identification with the temporary body and ego rather than the eternal Self",
-      "The audience's known tendency to criticize performers",
-      "Past negative experiences with performances"
-    ],
-    "answer": "Identification with the temporary body and ego rather than the eternal Self",
-    "explanation": "The Gita teaches that fear comes from identifying with our temporary, vulnerable ego-self rather than our eternal, invulnerable spiritual Self. When we know our true nature, external circumstances lose power to frighten us."
+    "answer": "Feel satisfied that the research contributed to human knowledge despite not being first",
+    "explanation": "The Gita teaches acting with full dedication while remaining detached from outcomes. The scientist's work still advanced knowledge - that is the true fruit of action. Personal credit or being first is external to the act itself."
   }
 ]

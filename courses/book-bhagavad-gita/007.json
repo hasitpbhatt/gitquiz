@@ -1,106 +1,93 @@
 [
   {
-    "question": "Field and Knower of Field",
-    "content": "The Field (kshetra) is the body and mind; the Knower of Field (kshetrajna) is the consciousness that knows the Field.",
-    "description": "During meditation, someone notices thoughts and emotions passing by like clouds while maintaining awareness that observes them without getting caught up. What distinction are they experiencing?",
+    "question": "Divine Nature (Daivi Sampat)",
+    "content": "Divine qualities include fearlessness, purity, compassion, self-control, truthfulness, and freedom from anger and greed.",
+    "description": "A leader facing a corporate crisis takes full responsibility, protects her team from blame, communicates transparently with stakeholders, and refuses to cut ethical corners even when it costs the company money. What qualities does she demonstrate?",
     "options": [
-      "Just zoning out or dissociation",
-      "The Field (body/mind) and Knower of Field (consciousness)",
-      "Developing multiple personalities",
-      "Losing touch with reality"
+      "Weak leadership that will damage her career",
+      "Divine qualities - fearlessness, integrity, and selflessness",
+      "Naive business decisions that ignore profit",
+      "Strategic reputation management for future benefit"
     ],
-    "answer": "The Field (body/mind) and Knower of Field (consciousness)",
-    "explanation": "The meditator is experiencing the distinction between the Field (thoughts, emotions, bodily sensations - the known) and the Knower of Field (the pure awareness that knows them - the knower)."
+    "answer": "Divine qualities - fearlessness, integrity, and selflessness",
+    "explanation": "The Gita enumerates divine qualities (daivi sampat) including abhayam (fearlessness), satya (truthfulness), and ahimsa (non-harming). The leader's courageous, transparent, and protective actions embody these divine traits."
   },
   {
-    "question": "Prakriti and Purusha",
-    "content": "Prakriti is material nature (body, mind, world); Purusha is pure consciousness or the true Self.",
-    "description": "A person realizes that their mood changes with weather, diet, and social interactions, but there's an unchanging awareness beneath these fluctuations. What does this reflect?",
+    "question": "Demoniacal Nature (Asuri Sampat)",
+    "content": "Demoniacal qualities include arrogance, hypocrisy, cruelty, anger, ignorance, and the belief that might makes right.",
+    "description": "A politician spreads deliberate misinformation about opponents, takes bribes from corporations, becomes enraged when questioned by journalists, and believes the ends always justify the means. What nature does this reflect?",
     "options": [
-      "Being overly sensitive to environment",
-      "The changing Prakriti and unchanging Purusha",
-      "Just having a weak personality",
-      "Needing to control their environment better"
+      "Pragmatic politics as usual in any democracy",
+      "Demoniacal qualities - deceit, greed, anger, and unethical means",
+      "Someone who simply plays the game better than opponents",
+      "A misunderstood leader who ultimately serves the public"
     ],
-    "answer": "The changing Prakriti and unchanging Purusha",
-    "explanation": "The fluctuating moods represent Prakriti (material nature) which changes, while the unchanging awareness beneath reflects Purusha (pure consciousness) which remains constant."
+    "answer": "Demoniacal qualities - deceit, greed, anger, and unethical means",
+    "explanation": "The Gita describes the asuri (demoniacal) nature as characterized by hypocrisy (dambha), arrogance (mada), anger (krodha), and the belief that nothing exists beyond material satisfaction. The politician's pattern reflects these qualities."
   },
   {
-    "question": "Knowledge of Field and Knower",
-    "content": "True knowledge is understanding the difference between the Field (material) and Knower of Field (spiritual).",
-    "description": "After years of identifying strongly with their job title and achievements, someone realizes they are more than their profession and feels a deeper sense of self beyond their role. What insight have they gained?",
+    "question": "Discernment Between Divine and Demoniacal",
+    "content": "The wise cultivate divine qualities and abandon demoniacal ones, discerning which actions lead to liberation and which to bondage.",
+    "description": "A company must choose between two strategies: one that maximizes profit by exploiting a legal loophole (harming the environment) and another with lower profit but sustainable practices. How should a discerning leader decide?",
     "options": [
-      "Having an identity crisis",
-      "Understanding the difference between Field and Knower of Field",
-      "Suffering from low self-esteem",
-      "Being unprepared for career advancement"
+      "Always choose maximum profit as the primary duty",
+      "Discern which option cultivates divine vs demoniacal qualities",
+      "Follow what competitors are doing in the same situation",
+      "Delay the decision until more data is available"
     ],
-    "answer": "Understanding the difference between Field and Knower of Field",
-    "explanation": "Recognizing that one's true identity extends beyond job title (Field) to the deeper Self (Knower of Field) represents the spiritual knowledge the Gita emphasizes."
+    "answer": "Discern which option cultivates divine vs demoniacal qualities",
+    "explanation": "The Gita teaches active discernment between actions that develop divine qualities (leading to liberation) and those that strengthen demoniacal tendencies (leading to bondage). The sustainable option cultivates compassion and foresight over greed."
   },
   {
-    "question": "The Field's Characteristics",
-    "content": "The Field consists of five great elements, ego, intellect, unmanifested nature, eleven organs, and five sense objects.",
-    "description": "Someone notices how their physical body (earth, water, fire, air, ether), thoughts, desires, and senses all work together as a complex system. What are they observing?",
+    "question": "Liberation (Moksha)",
+    "content": "Moksha is freedom from the cycle of birth and death, attained through self-realization and the end of all desires and attachments.",
+    "description": "An elderly person who has lived a full life faces death with peace and acceptance, without fear or regret. They have no unfinished business and no desperate clinging to life. What state have they likely attained?",
     "options": [
-      "Just a complicated biological machine",
-      "The constitution of the Field as described in the Gita",
-      "Evidence against spiritual teachings",
-      "Random bodily functions"
+      "Resignation from exhaustion with life",
+      "Liberation - freedom from fear of death through self-realization",
+      "Emotional numbness from old age",
+      "Depression that needs medical attention"
     ],
-    "answer": "The constitution of the Field as described in the Gita",
-    "explanation": "The Gita describes the Field as comprising physical elements, subtle aspects (ego, intellect), and operational aspects (organs, sense objects) - exactly what the person is observing in their embodied experience."
+    "answer": "Liberation - freedom from fear of death through self-realization",
+    "explanation": "Moksha is freedom from all fear, including the fear of death, achieved through realizing one's eternal nature beyond the body. The person's peaceful acceptance of death reflects this state of liberation."
   },
   {
-    "question": "The Knower's Qualities",
-    "content": "The Knower of Field is characterized by detachment, wisdom, fearlessness, and continuous remembrance of the divine.",
-    "description": "A person maintains inner peace and clarity despite chaotic circumstances, making wise decisions without being overwhelmed by emotions. What quality of the Knower are they displaying?",
+    "question": "Characteristics of the Liberated",
+    "content": "The liberated soul is free from ego, anger, possessiveness, and dualities, seeing the same Self everywhere.",
+    "description": "A spiritual teacher receives both lavish praise and harsh criticism in the same week. She responds to both with equal warmth, neither inflated by praise nor deflated by criticism. What characteristic does she show?",
     "options": [
-      "Emotional suppression",
-      "The qualities of the Knower of Field (detachment, wisdom, fearlessness)",
-      "Being emotionally detached and uncaring",
-      "Having a naturally calm personality"
+      "Emotional flatness lacking normal human response",
+      "Freedom from dualities - equal vision in praise and blame",
+      "Politeness that masks true feelings",
+      "Indifference to what others think"
     ],
-    "answer": "The qualities of the Knower of Field (detachment, wisdom, fearlessness)",
-    "explanation": "Remaining peaceful and wise amidst chaos reflects the Knower's characteristics: detachment from outcomes, wisdom in decision-making, fearlessness in facing challenges."
+    "answer": "Freedom from dualities - equal vision in praise and blame",
+    "explanation": "One of the key marks of the liberated person is sama-darshana (equal vision) - the ability to remain equally balanced and loving regardless of how others treat them. This is not indifference but freedom from being controlled by external reactions."
   },
   {
-    "question": "Supreme Being as Witness",
-    "content": "The Supreme Being exists as the witness in all Fields, conscious but not involved in the Field's activities.",
-    "description": "During a heated argument, someone notices their anger rising but can observe it without immediately reacting, feeling a sense of inner space observing the emotions. What are they experiencing?",
+    "question": "Liberated Action",
+    "content": "The liberated person continues to act in the world but without ego, attachment, or personal stake in outcomes.",
+    "description": "A retired surgeon still performs free surgeries in underserved areas despite no longer practicing professionally. He takes on the most difficult cases without concern for reputation or compensation. How does the Gita describe this?",
     "options": [
-      "Multiple personality disorder",
-      "The Supreme Being as witness to the Field's activities",
-      "Just good acting skills",
-      "Emotional detachment from relationships"
+      "A hobby that keeps him busy in retirement",
+      "Liberated action - working without ego or attachment to outcomes",
+      "An inability to enjoy retirement properly",
+      "Guilt-driven behavior needing psychological help"
     ],
-    "answer": "The Supreme Being as witness to the Field's activities",
-    "explanation": "The ability to observe emotions (anger) without being consumed by them reflects the Supreme Being's role as witness - conscious of the Field's activities but not identified with them."
+    "answer": "Liberated action - working without ego or attachment to outcomes",
+    "explanation": "The liberated person continues to act but without personal stake or ego identification. The surgeon's free service, taking on difficult cases without concern for credit, exemplifies action free from ego and attachment."
   },
   {
-    "question": "Liberation Through Discrimination",
-    "content": "Liberation comes from discriminating between the Field and Knower of Field, realizing our true identity as consciousness.",
-    "description": "After a painful breakup, someone grieves but maintains an underlying sense of okay-ness, knowing their worth isn't defined by the relationship. What understanding supports this resilience?",
+    "question": "Equality of Vision",
+    "content": "The wise see the same divine Self in all beings - a learned scholar, a cow, an elephant, and even a dog - treating all with equal respect.",
+    "description": "A community leader spends equal time and care helping a wealthy philanthropist with a problem and an unhoused person with basic needs, seeing equal worth in both individuals. What vision guides this behavior?",
     "options": [
-      "Denial of their true feelings",
-      "Discriminating between temporary Field experiences and eternal Knower identity",
-      "Being emotionally unavailable",
-      "Just putting on a brave face"
+      "Professional networking disguised as community service",
+      "Equal vision - seeing the same divine Self in all beings",
+      "Poor time management that treats everyone as equally important",
+      "A political strategy to gain support from all classes"
     ],
-    "answer": "Discriminating between temporary Field experiences and eternal Knower identity",
-    "explanation": "Grief is natural (Field experience) but knowing one's intrinsic worth remains unchanged (Knower identity) provides resilience - this discrimination leads to liberation from excessive identification with temporary states."
-  },
-  {
-    "question": "Seeing the Supreme in All Fields",
-    "content": "The wise see the same Supreme Being as the Knower in all Fields, regardless of external differences.",
-    "description": "A volunteer at a refugee camp feels deep connection with people from vastly different backgrounds, recognizing a common humanity beyond cultural differences. What perception are they experiencing?",
-    "options": [
-      "Just being overly sentimental",
-      "Projection of their own feelings onto others",
-      "Seeing the same Supreme Being as Knower in all Fields",
-      "Having unrealistic expectations about human nature"
-    ],
-    "answer": "Seeing the same Supreme Being as Knower in all Fields",
-    "explanation": "Recognizing the common consciousness/divine essence in people despite external differences reflects the Gita's teaching of seeing the Supreme as the Knower in all Fields."
+    "answer": "Equal vision - seeing the same divine Self in all beings",
+    "explanation": "The Gita describes the enlightened as those who see the same Atman in all beings regardless of external status. The leader's equal care for both the wealthy and the unhoused reflects this vision of essential spiritual equality."
   }
 ]

@@ -1,106 +1,93 @@
 [
   {
-    "question": "Divine Nature (Daivi Sampat)",
-    "content": "Divine qualities include fearlessness, purity, discrimination, sacrifice, study, austerity, and nonviolence.",
-    "description": "A leader makes decisions based on principle rather than popularity, admits mistakes openly, and works for the team's welfare rather than personal glory. What qualities are they demonstrating?",
+    "question": "Samatva - Skill in Action",
+    "content": "Yoga is perfect skill in action, defined as remaining equally balanced in success and failure, treating both with equanimity.",
+    "description": "Two entrepreneurs pitch to investors. One succeeds and becomes overconfident; the other fails and becomes despondent. A third entrepreneur also pitches but whether she wins or loses, she maintains the same steady effort and self-worth. Who practices yoga according to the Gita?",
     "options": [
-      "Being naive about office politics",
-      "Divine qualities like fearlessness, integrity, and selflessness",
-      "Weak leadership that will fail",
-      "Trying too hard to be liked by everyone"
+      "The one who succeeded - success validates skill",
+      "The one who failed - failure teaches humility",
+      "The one who remains steady regardless of outcome",
+      "None of them - yoga is about meditation, not work"
     ],
-    "answer": "Divine qualities like fearlessness, integrity, and selflessness",
-    "explanation": "The leader demonstrates fearlessness (standing by principles), purity (integrity in admitting mistakes), discrimination (wise judgment), sacrifice (team welfare over self), and nonviolence (respectful approach)."
+    "answer": "The one who remains steady regardless of outcome",
+    "explanation": "The Gita defines yoga as samatva - equanimity. It is not about winning or losing but about maintaining balance and giving full effort regardless of outcome. The entrepreneur who stays steady practices yoga in action."
   },
   {
-    "question": "Demoniacal Nature (Asuri Sampat)",
-    "content": "Demoniacal qualities include hypocrisy, arrogance, anger, ignorance, and greed driven by desire and aversion.",
-    "description": "Someone takes credit for others' work, spreads rumors to advance themselves, and becomes furious when questioned about their ethics. What nature are they exhibiting?",
+    "question": "Witness Consciousness",
+    "content": "The highest state of being is to witness all thoughts, emotions, and events without being identified with them, even while fully engaged in life.",
+    "description": "In the middle of a heated family argument, one family member notices the anger rising in their body, observes the words being exchanged, and feels a calm space of awareness beneath the chaos. They respond thoughtfully rather than react impulsively. What state are they accessing?",
     "options": [
-      "Being highly competitive and ambitious",
-      "Demoniacal qualities like hypocrisy, arrogance, and anger",
-      "Just having a bad day",
-      "Being misunderstood by jealous coworkers"
+      "Emotional detachment that damages relationships",
+      "Witness consciousness - observing without being consumed",
+      "Suppression of genuine feelings",
+      "A freeze trauma response to conflict"
     ],
-    "answer": "Demoniacal qualities like hypocrisy, arrogance, and anger",
-    "explanation": "Taking credit for others' work (hypocrisy), seeking advancement through manipulation (arrogance), and fury when questioned (anger) reflect demoniacal qualities driven by egoistic desire."
+    "answer": "Witness consciousness - observing without being consumed",
+    "explanation": "The Gita's highest teaching is to become the witness (sakshi) of all experiences while remaining fully engaged. This family member accesses the witness state, observing the storm of emotions without being swept away, enabling a wise response."
   },
   {
-    "question": "The Threefold Gate of Hell",
-    "content": "Lust, anger, and greed are the three gates leading to hellish conditions that bind us to suffering.",
-    "description": "A person stays in a toxic relationship because they're afraid of being alone (fear), constantly argues with their partner (anger), and clings to the relationship for what they can get (greed). What keeps them trapped?",
+    "question": "Surrender to the Divine",
+    "content": "Complete surrender to the divine (prapatti) is the ultimate teaching of the Gita - offering all actions and their results to God.",
+    "description": "After years of struggling alone with addiction, a person finally admits they cannot control it by sheer willpower and asks for help from a higher power, a community, and professionals. What Gita principle does this reflect?",
     "options": [
-      "True love and commitment",
-      "The three gates of hell: fear (related to lust), anger, and greed",
-      "They should try harder to make it work",
-      "Their partner is actually perfect and they're the problem"
+      "Giving up personal responsibility for one's actions",
+      "The power of surrender - acknowledging limitation and seeking divine help",
+      "An excuse for lack of willpower",
+      "A twelve-step concept foreign to the Gita"
     ],
-    "answer": "The three gates of hell: fear (related to lust), anger, and greed",
-    "explanation": "Fear of loneliness relates to lust (desire for companionship), anger manifests in constant arguments, and greed appears as clinging for what one can get - these three bind the person to suffering."
+    "answer": "The power of surrender - acknowledging limitation and seeking divine help",
+    "explanation": "The Gita's final teaching is sarvadharman parityajya mam ekam sharanam vraja - surrender completely. The person's admission of powerlessness and turning to a higher power reflects this profound spiritual principle of humble surrender."
   },
   {
-    "question": "Discernment Between Divine and Demoniacal",
-    "content": "The wise discern divine qualities leading to liberation and demoniacal qualities leading to bondage.",
-    "description": "When choosing between two job offers - one with higher pay but questionable ethics, another with less pay but integrity - how should one decide according to the Gita?",
+    "question": "The Steadfast Devotee",
+    "content": "The highest devotee is one who is free from hatred, treats all beings with love, is free from ego, and remains steady in all circumstances.",
+    "description": "A community elder is respected by everyone regardless of their background or beliefs. She never speaks ill of anyone, remains calm in crises, and treats critics and supporters with equal warmth. What qualities does she embody?",
     "options": [
-      "Always take the higher paying job",
-      "Choose based solely on personal preference",
-      "Discern which option cultivates divine vs demoniacal qualities",
-      "Ask others what they would do without reflection"
+      "She is simply a naturally nice person",
+      "The qualities of the highest devotee - equal love for all, freedom from ego",
+      "She lacks strong opinions and convictions",
+      "She is conflict-avoidant to maintain her reputation"
     ],
-    "answer": "Discern which option cultivates divine vs demoniacal qualities",
-    "explanation": "The Gita teaches discerning which actions cultivate divine qualities (leading to liberation) versus demoniacal qualities (leading to bondage), not just following money or others' opinions."
+    "answer": "The qualities of the highest devotee - equal love for all, freedom from ego",
+    "explanation": "The Gita describes the highest devotee (and one dearest to Krishna) as one who hates no one, is friendly and compassionate to all, is free from ego and possessiveness, and remains steady in pleasure and pain. The elder exemplifies these qualities."
   },
   {
-    "question": "Liberation (Moksha)",
-    "content": "Liberation is freedom from the cycle of birth and death, attained through self-realization and divine grace.",
-    "description": "After years of spiritual practice, someone feels a deep sense of inner freedom, no longer desperately seeking fulfillment from external sources, and experiences unshakeable peace. What have they likely attained?",
+    "question": "Living Without 'I' and 'Mine'",
+    "content": "Freedom comes from releasing the sense of 'I' (ego as doer) and 'mine' (possessiveness), recognizing everything belongs to the divine.",
+    "description": "A successful entrepreneur builds a company, then steps down from leadership and gives significant ownership to employees, feeling the company was never truly 'his' but something that flowed through him. What understanding does this reflect?",
     "options": [
-      "Temporary happiness from recent success",
-      "Liberation (moksha) from identification with temporary sources of happiness",
-      "Emotional numbness from spiritual bypassing",
-      "Just getting older and wiser"
+      "Poor business judgment that loses control",
+      "Releasing 'I' (ego) and 'mine' (possessiveness) regarding achievements",
+      "A strategic exit before the company declines",
+      "Philanthropic tax planning"
     ],
-    "answer": "Liberation (moksha) from identification with temporary sources of happiness",
-    "explanation": "The inner freedom, reduced dependence on externals for happiness, and unshakeable peace reflect liberation - freedom from the bondage of seeking fulfillment in temporary things."
+    "answer": "Releasing 'I' (ego) and 'mine' (possessiveness) regarding achievements",
+    "explanation": "The Gita teaches liberation from ahamkara (ego) and mamata (mine-ness). The entrepreneur's recognition that the company was not 'his' possession but a manifestation of larger forces reflects this freedom from ownership identity."
   },
   {
-    "question": "Characteristics of the Liberated",
-    "content": "The liberated are free from anger, jealousy, and ego, seeing equality in all beings and remaining steady in duality.",
-    "description": "Someone receives criticism at work but instead of becoming defensive or retaliating, they listen openly, learn if valid, and remain unaffected if unjust. What liberation characteristic do they show?",
+    "question": "The Final Teaching",
+    "content": "The Gita's ultimate message is to let go of all lesser dharmas and surrender completely to the divine, finding peace beyond all conceptual frameworks.",
+    "description": "A lifelong spiritual seeker has tried many paths - meditation, service, study, devotion - each giving partial peace. Finally, she simply rests in trust, releasing the need to achieve any particular spiritual state. What does this culmination represent?",
     "options": [
-      "Having low standards and accepting poor treatment",
-      "Freedom from anger and ego in receiving feedback",
-      "Being indifferent and uncaring about work quality",
-      "Waiting for the right moment to take revenge"
+      "Spiritual burnout from trying too many approaches",
+      "The final teaching - complete surrender beyond all methods",
+      "Giving up when progress is not fast enough",
+      "Confusion about which path is correct"
     ],
-    "answer": "Freedom from anger and ego in receiving feedback",
-    "explanation": "Remaining steady and non-defensive when receiving criticism shows freedom from anger and ego - key characteristics of the liberated who see feedback objectively without personal disturbance."
+    "answer": "The final teaching - complete surrender beyond all methods",
+    "explanation": "After teaching karma yoga, jnana yoga, bhakti yoga, and raja yoga, the Gita culminates in the ultimate teaching: complete and humble surrender to the divine, letting go of all attachment even to spiritual methods and achievements."
   },
   {
-    "question": "Seeing Equality in Liberation",
-    "content": "The liberated see the same divine Self in all beings, eliminating hatred, jealousy, and discrimination.",
-    "description": "A prison volunteer treats inmates with dignity and compassion, recognizing their inherent worth despite their crimes, working to help them rehabilitate rather than merely punish. What vision guides this approach?",
+    "question": "Yoga of the Gita - Summary Integration",
+    "content": "The entire Bhagavad Gita teaches the integration of selfless action (karma), loving devotion (bhakti), discriminative knowledge (jnana), and mental mastery (raja) into a unified spiritual life.",
+    "description": "A person asks how to live spiritually while having a demanding job, family responsibilities, and limited time for formal practice. They want to know one simple takeaway from the Gita. What is the most complete answer?",
     "options": [
-      "Being naive about criminal behavior",
-      "Seeing the same divine Self in all beings regardless of actions",
-      "Having a personal relationship with the inmates",
-      "Believing that punishment is never justified"
+      "Meditate for two hours daily and everything will resolve",
+      "Perform your duties with full effort, offer them to the divine, remain balanced in success and failure, and know your eternal Self",
+      "Quit your job and become a monk to truly practice spirituality",
+      "Just be a good person and it does not matter what teachings you follow"
     ],
-    "answer": "Seeing the same divine Self in all beings regardless of actions",
-    "explanation": "Treating everyone with dignity despite their actions reflects seeing the divine essence (Self) that remains unchanged by external behavior - the vision of liberation."
-  },
-  {
-    "question": "Steadfastness in Liberation",
-    "content": "The liberated remain undisturbed by pleasure or pain, gain or loss, victory or defeat.",
-    "description": "An athlete wins a championship after years of training, celebrates appropriately, but doesn't let the victory define their self-worth or disturb their inner peace. What liberation quality are they showing?",
-    "options": [
-      "Being ungrateful for their achievement",
-      "Steadfastness undisturbed by success or failure",
-      "Having low ambition and goals",
-      "Just being emotionally flat"
-    ],
-    "answer": "Steadfastness undisturbed by success or failure",
-    "explanation": "Enjoying the victory without letting it disturb inner peace or define self-worth shows steadfastness - a key liberation quality of remaining balanced amidst life's dualities."
+    "answer": "Perform your duties with full effort, offer them to the divine, remain balanced in success and failure, and know your eternal Self",
+    "explanation": "The Gita integrates all paths: perform karma yoga (duties with full effort), practice bhakti yoga (offer them to the divine), cultivate samatva (balance in success/failure), and pursue jnana (know your eternal Self). This is the complete teaching for householders."
   }
 ]

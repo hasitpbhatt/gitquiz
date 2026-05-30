@@ -1,106 +1,93 @@
 [
   {
-    "question": "The Battlefield as Life",
-    "content": "The Kurukshetra battlefield symbolizes the inner struggle between righteousness and unrighteousness that we all face in life.",
-    "description": "A person is offered a promotion that requires them to mislead customers about a product's effectiveness. They feel torn between career advancement and honesty. What does this internal conflict represent according to the Gita's symbolism?",
+    "question": "The Three Gunas",
+    "content": "The three Gunas - Sattva (harmony), Rajas (passion), and Tamas (inertia) - are the fundamental qualities of nature that shape all thoughts, actions, and experiences.",
+    "description": "Before an important presentation, one person feels clear, focused, and confident (Sattva). Another feels intensely anxious and competitive (Rajas). A third feels heavy and wants to cancel (Tamas). What does this illustrate?",
     "options": [
-      "A literal battlefield scenario",
-      "The Kurukshetra of inner moral conflict",
-      "A test from God to see if they'll fail",
-      "Random bad luck in their career"
+      "Different personality types that cannot change",
+      "The three Gunas influencing responses to the same situation",
+      "Levels of preparation and expertise",
+      "Random mood variations with no pattern"
     ],
-    "answer": "The Kurukshetra of inner moral conflict",
-    "explanation": "Just as Arjuna faced a moral dilemma on the battlefield of Kurukshetra, we face similar inner battles between dharma (righteousness) and adharma (unrighteousness) in everyday life situations."
+    "answer": "The three Gunas influencing responses to the same situation",
+    "explanation": "The same external situation can evoke different guna-dominated responses. Sattva brings clarity and balance, Rajas brings agitation and striving, Tamas brings inertia and avoidance. Understanding this helps one consciously cultivate higher states."
   },
   {
-    "question": "Arjuna's Vishada (Dejection)",
-    "content": "Vishada is the state of sorrow, confusion, and inertia that arises when facing difficult moral dilemmas or life crises.",
-    "description": "After losing their job unexpectedly, someone feels paralyzed by doubt, unable to decide what to do next, and questions the meaning of their hard work. What state are they experiencing?",
+    "question": "Rising Beyond the Gunas",
+    "content": "Liberation involves rising beyond the influence of the three Gunas by becoming a witness to their activity rather than being controlled by them.",
+    "description": "A person notices that some days they feel lazy (Tamas), other days driven (Rajas), and occasionally calm (Sattva). Instead of identifying with these moods, they observe them as passing weather patterns. What are they practicing?",
     "options": [
-      "Vishada - moral confusion and dejection",
-      "Pure laziness and lack of motivation",
-      "Justified anger at unfair circumstances",
-      "Enlightened detachment from outcomes"
+      "Avoidance of genuine emotional experience",
+      "Witnessing the Gunas without being controlled by them",
+      "Giving up on improving their emotional state",
+      "Mood tracking for medical purposes"
     ],
-    "answer": "Vishada - moral confusion and dejection",
-    "explanation": "Arjuna's vishada on the battlefield represents the universal human experience of becoming overwhelmed by doubt and sorrow when facing difficult life situations. This state precedes the search for higher wisdom."
+    "answer": "Witnessing the Gunas without being controlled by them",
+    "explanation": "The Gita teaches that freedom comes not from eliminating the Gunas but from witnessing their play without identification. Like watching clouds pass, one can observe moods without being swept away by them."
   },
   {
-    "question": "Krishna as the Inner Guide",
-    "content": "Krishna represents the divine inner voice of wisdom that guides us when we are confused or suffering.",
-    "description": "When struggling with a difficult ethical decision at work, a person suddenly gains clarity about what is right after quiet reflection or meditation. What does this experience symbolize?",
+    "question": "Prakriti and Purusha",
+    "content": "Prakriti is the material world of constant change (body, mind, nature); Purusha is the unchanging consciousness that witnesses it.",
+    "description": "During deep meditation, a practitioner experiences thoughts, sensations, and emotions arising and passing, while also feeling a steady, unchanging awareness that observes all this without being disturbed. What are they experiencing?",
     "options": [
-      "Random luck or chance",
-      "Their conscience or inner wisdom speaking",
-      "A coworker giving them advice secretly",
-      "Fatigue causing delusional thinking"
+      "A dissociative state disconnected from reality",
+      "The distinction between Prakriti (changing phenomena) and Purusha (witness consciousness)",
+      "An unusual mental phenomenon with no spiritual significance",
+      "Signs of a meditation-induced neurological condition"
     ],
-    "answer": "Their conscience or inner wisdom speaking",
-    "explanation": "Just as Krishna guides Arjuna from confusion to clarity, we all have access to an inner source of wisdom (buddhi or divine guidance) that can illuminate the right path when we turn inward with sincerity."
+    "answer": "The distinction between Prakriti (changing phenomena) and Purusha (witness consciousness)",
+    "explanation": "This meditation experience reveals the core teaching of Sankhya philosophy in the Gita: Prakriti (mind, body, thoughts) constantly changes, while Purusha (pure awareness) remains as the unchanging witness. Realizing this distinction is key to liberation."
   },
   {
-    "question": "Seeing Beyond Surface Appearances",
-    "content": "Enlightened vision perceives the eternal soul in all beings, recognizing equality despite external differences in form, status, or behavior.",
-    "description": "A volunteer at a homeless shelter treats every guest with dignity and respect, seeing past their current circumstances to recognize their inherent worth as human beings. What ability are they demonstrating?",
+    "question": "Field and Knower of the Field",
+    "content": "The body-mind complex is the Field (kshetra) that is known; the consciousness that knows it is the Knower of the Field (kshetrajna).",
+    "description": "A therapist helps a client notice that they are not their anxious thoughts but rather the one who observes those thoughts. The client begins to feel spaciousness around the anxiety. What distinction are they learning?",
     "options": [
-      "Good social work training",
-      "Seeing the divine equality in all beings",
-      "Expecting something in return from guests",
-      "Feeling superior to those they help"
+      "The difference between healthy and unhealthy thoughts",
+      "The Field (thoughts/emotions) vs the Knower of the Field (consciousness)",
+      "The difference between good and bad therapy techniques",
+      "A cognitive behavioral therapy concept unrelated to the Gita"
     ],
-    "answer": "Seeing the divine equality in all beings",
-    "explanation": "The volunteer demonstrates the Gita's teaching of samadarshina - equal vision that sees the same divine soul in everyone, regardless of external conditions like wealth, health, or social status."
+    "answer": "The Field (thoughts/emotions) vs the Knower of the Field (consciousness)",
+    "explanation": "The client is learning to distinguish between the Field (anxious thoughts, bodily sensations) and the Knower (the awareness that notices them). This very distinction is the core of the Gita's kshetra-kshetrajna teaching."
   },
   {
-    "question": "Performing Duty Without Ego",
-    "content": "Right action is performed as an offering to the divine, free from egoistic identification with being the 'doer'.",
-    "description": "A talented artist creates beautiful work but attributes their ability to divine grace rather than personal talent, feeling grateful for the opportunity to express creativity through them. What attitude are they cultivating?",
+    "question": "Sattvic Food and Lifestyle",
+    "content": "Sattvic foods - fresh, nutritious, and naturally sourced - promote mental clarity, health, and spiritual wellbeing.",
+    "description": "A group of friends tries different breakfasts before a mental exam. One has fresh fruits and nuts, another has greasy fast food, a third has sugary cereal. The first friend reports feeling clear and alert during the exam. What explains this?",
     "options": [
-      "False modesty to gain praise",
-      "Healthy pride in their abilities",
-      "Offering action to the divine without ego",
-      "Low self-esteem about their skills"
+      "She was simply smarter than her friends",
+      "Sattvic food (fresh fruits and nuts) promotes mental clarity",
+      "The exam was easier than expected",
+      "She had better sleep the night before"
     ],
-    "answer": "Offering action to the divine without ego",
-    "explanation": "The artist recognizes that their abilities flow from a source greater than their individual ego and offers their creative work as worship. This reduces egoic attachment to being the 'doer' and transforms action into yoga."
+    "answer": "Sattvic food (fresh fruits and nuts) promotes mental clarity",
+    "explanation": "The Gita classifies sattvic foods as those that increase clarity and vitality. Fresh natural foods support mental function, while heavy processed foods (tamasic) dull the mind, and stimulating foods (rajasic) agitate it."
   },
   {
-    "question": "The Threefold Path of Liberation",
-    "content": "Liberation is attained through knowledge (jnana), devotion (bhakti), and selfless action (karma yoga) working together.",
-    "description": "A spiritual practitioner studies sacred texts regularly, serves their community selflessly, and maintains a loving relationship with the divine through prayer and worship. What approach are they following?",
+    "question": "The Three Types of Faith",
+    "content": "Faith takes on the quality of the person's dominant guna: sattvic faith seeks truth, rajasic faith seeks results, tamasic faith causes harm.",
+    "description": "A person practices spirituality primarily to gain supernatural powers, impress others, and control outcomes in their life. When results do not come quickly, they become frustrated. What type of faith are they exhibiting?",
     "options": [
-      "Focusing only on intellectual study",
-      "Balancing knowledge, service, and love",
-      "Rejecting all forms of spiritual practice",
-      "Believing liberation comes only through suffering"
+      "Sattvic faith - pure pursuit of truth",
+      "Rajasic faith - driven by desire for results and recognition",
+      "Tamasic faith - harmful practices with destructive intent",
+      "They have no faith at all"
     ],
-    "answer": "Balancing knowledge, service, and love",
-    "explanation": "The Gita presents an integrated path where jnana (knowledge/wisdom), bhakti (love/devotion), and karma yoga (selfless action) complement each other, rather than advocating for just one path to the exclusion of others."
+    "answer": "Rajasic faith - driven by desire for results and recognition",
+    "explanation": "Faith motivated by desire for power, status, or quick results, with frustration when expectations are not met, reflects rajasic faith. It is passionate but attached to fruits, unlike sattvic faith which seeks truth regardless of personal benefit."
   },
   {
-    "question": "Tolerance and Forbearance",
-    "content": "Spiritual strength is shown by tolerating life's dualities (heat/cold, pleasure/pain) without being disturbed.",
-    "description": "During a long business trip, someone experiences flight delays, uncomfortable accommodations, and frustrating meetings but maintains composure and continues working effectively without complaining or becoming upset. What quality are they exhibiting?",
+    "question": "Transcending Material Nature",
+    "content": "The wise recognize that they are not the doer; the Gunas of nature perform all actions, and the Self remains the witness.",
+    "description": "A team leader accomplishes a major project goal through effective delegation. Instead of claiming personal credit, she acknowledges how circumstances, team efforts, and timing aligned perfectly. What understanding is she demonstrating?",
     "options": [
-      "Passive resignation to circumstances",
-      "Tit-for-tat retaliation against annoyances",
-      "Forbearance - tolerance of dualities without disturbance",
-      "Unawareness of their actual discomfort"
+      "False modesty that undermines her position",
+      "Recognition that actions are performed by nature's forces, not the ego alone",
+      "Lack of confidence in her leadership abilities",
+      "Poor understanding of her own contribution"
     ],
-    "answer": "Forbearance - tolerance of dualities without disturbance",
-    "explanation": "The Gita praises those who remain steady amid life's inevitable pairs of opposites. This spiritual strength comes from identifying with the eternal self rather than the temporary body-mind that experiences pleasure and pain."
-  },
-  {
-    "question": "Freedom from Expectations",
-    "content": "Peace comes from releasing rigid expectations about how people, situations, or life 'should' be and accepting what is.",
-    "description": "Someone feels hurt and angry when their friend forgets their birthday, but then remembers that their friend has been going through a difficult time and chooses to understand rather than resent the oversight. What shift occurred?",
-    "options": [
-      "Keeping score of who remembers whose birthday",
-      "Releasing expectations and responding with understanding",
-      "Deciding to end the friendship over the slight",
-      "Believing they deserved perfection from their friend"
-    ],
-    "answer": "Releasing expectations and responding with understanding",
-    "explanation": "Much suffering comes from unmet expectations. By recognizing their friend's circumstances and letting go of how things 'should' have been, the person frees themselves from negative emotions and responds with compassion."
+    "answer": "Recognition that actions are performed by nature's forces, not the ego alone",
+    "explanation": "The Gita teaches the advanced understanding that while we engage in action, the forces of nature (gunas, circumstances, collective effort) are the real drivers. The ego claims authorship, but wisdom recognizes the larger play of forces."
   }
 ]

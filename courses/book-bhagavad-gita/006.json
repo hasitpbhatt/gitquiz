@@ -1,106 +1,93 @@
 [
   {
-    "question": "Universal Form (Vishvarupa)",
-    "content": "The Universal Form is Krishna's cosmic manifestation showing all beings, past, present, and future within Himself.",
-    "description": "A scientist studying the universe feels overwhelmed by its vastness and complexity, realizing how everything is interconnected and interdependent. What aspect of the Gita does this experience reflect?",
+    "question": "Equanimity in Achievement",
+    "content": "True equanimity means remaining balanced and steady whether experiencing success or failure, gain or loss.",
+    "description": "A novelist's book becomes an international bestseller, bringing fame and fortune. She continues her daily writing routine, remains accessible to friends, and does not let success change her values or behavior. What quality does she embody?",
     "options": [
-      "The illusion of separateness (maya)",
-      "The Universal Form showing divine unity in diversity",
-      "Random cosmic coincidence",
-      "Proof that God does not exist"
+      "Ungratefulness for her success",
+      "Equanimity - remaining steady and unchanged by success",
+      "Lack of ambition to capitalise on her success",
+      "Low self-esteem that prevents enjoying achievement"
     ],
-    "answer": "The Universal Form showing divine unity in diversity",
-    "explanation": "Just as Arjuna saw the entire universe within Krishna's Universal Form, the scientist's realization of cosmic interconnectedness reflects seeing unity within diversity - a core Gita teaching."
+    "answer": "Equanimity - remaining steady and unchanged by success",
+    "explanation": "Equanimity is tested more by success than failure. The novelist's unchanged behavior despite dramatic success shows genuine equanimity - the ability to remain steady amid life's changing circumstances."
   },
   {
-    "question": "Divine Glories (Vibhuti Yoga)",
-    "content": "Divine glories are manifestations of Krishna's splendor in various aspects of creation, showing His presence everywhere.",
-    "description": "A musician feels that their talent and inspiration come from a source beyond their individual effort, recognizing beauty in music as a reflection of something sacred. What does this reflect?",
+    "question": "Transforming Work into Worship",
+    "content": "Any work, regardless of its nature, becomes spiritual practice when performed with the attitude of offering and service.",
+    "description": "A street sweeper takes pride in keeping the city clean, treating each street as sacred ground. He works with care and attention, seeing his labor as a contribution to the wellbeing of everyone. What attitude transforms his work?",
     "options": [
-      "Self-attribution of talent",
-      "Divine glories manifest in human abilities and beauty",
-      "Just psychological conditioning",
-      "Evidence against spiritual teachings"
+      "He should seek more dignified employment",
+      "Performing humble work as an offering transforms it into worship",
+      "His satisfaction means he has low standards",
+      "Only religious rituals are true spiritual practice"
     ],
-    "answer": "Divine glories manifest in human abilities and beauty",
-    "explanation": "The Gita teaches that excellence, beauty, talent, and positive qualities in the world are manifestations (vibhutis) of divine glory. Recognizing this cultivates gratitude and reverence."
+    "answer": "Performing humble work as an offering transforms it into worship",
+    "explanation": "The Gita teaches that it is not the nature of work but the attitude behind it that matters. Work performed as an offering becomes yoga. The street sweeper's reverent attitude transforms an ordinary job into spiritual practice."
   },
   {
-    "question": "Omnipresence of the Divine",
-    "content": "The divine pervades all creation - nothing exists without the divine presence sustaining it.",
-    "description": "When looking at a tree, instead of seeing just wood and leaves, a person senses the living presence within it and feels connected to all of nature. What awareness are they developing?",
+    "question": "Renunciation of Fruits, Not Actions",
+    "content": "True renunciation is not abandoning action but performing duties without attachment to personal rewards.",
+    "description": "A young lawyer takes on pro bono cases for marginalized communities, working as hard on these unpaid cases as on high-paying client work. When asked why, she says the work itself is meaningful. What Gita teaching does this reflect?",
     "options": [
-      "Botanical expertise",
-      "Awareness of divine presence in all beings",
-      "Sentimental imagination",
-      "Confusion about basic biology"
+      "Poor career planning that wastes her qualifications",
+      "Renunciation of fruits - acting without attachment to rewards",
+      "She should focus on building her paid practice instead",
+      "Pro bono work is just a resume builder"
     ],
-    "answer": "Awareness of divine presence in all beings",
-    "explanation": "Developing sensitivity to the divine presence in all beings, from trees to humans, reflects the Gita's teaching that the divine pervades and sustains all creation."
+    "answer": "Renunciation of fruits - acting without attachment to rewards",
+    "explanation": "The Gita teaches tyaga - renunciation not of action but of attachment to results. The lawyer gives equal effort to cases regardless of pay, finding meaning in the action itself rather than external rewards."
   },
   {
-    "question": "Seeing God in Extraordinary Phenomena",
-    "content": "Extraordinary qualities in nature, human beings, and events can be recognized as manifestations of divine glory.",
-    "description": "During a natural disaster, someone notices ordinary people displaying extraordinary courage, compassion, and self-sacrifice to help others. How might they interpret this according to the Gita?",
+    "question": "The Nature of True Happiness",
+    "content": "Lasting happiness comes from inner peace and self-realization, not from accumulating external objects or achievements.",
+    "description": "A wealthy executive achieves every material goal - luxury home, exotic cars, prestigious title - yet feels a persistent emptiness inside. Friends suggest she needs even more. What does the Gita teach about this emptiness?",
     "options": [
-      "Just random human behavior",
-      "Divine glories manifesting through human beings in crisis",
-      "Proof that humans are inherently selfish",
-      "Evidence that disasters are punishments"
+      "She has not accumulated enough yet",
+      "External achievements cannot fill an inner spiritual void",
+      "She suffers from a medical condition needing treatment",
+      "Her goals were not ambitious enough to satisfy her"
     ],
-    "answer": "Divine glories manifesting through human beings in crisis",
-    "explanation": "The Gita teaches that extraordinary courage, compassion, and selflessness, especially in adversity, are manifestations of divine glory working through human beings."
+    "answer": "External achievements cannot fill an inner spiritual void",
+    "explanation": "The Gita distinguishes between material pleasures (which are born from sense contact and eventually become painful) and lasting happiness which arises from inner peace and self-knowledge. The emptiness signals the need for inner rather than outer fulfillment."
   },
   {
-    "question": "Limitation of Material Perception",
-    "content": "Our ordinary senses cannot perceive the divine glory; it requires divine grace to see the Universal Form.",
-    "description": "Someone feels frustrated that despite their spiritual efforts, they cannot see visions of God or experience supernatural phenomena. What does the Gita teach about this?",
+    "question": "Stages of Spiritual Wisdom",
+    "content": "Wisdom develops through study (shravana), reflection (manana), and direct realization (nididhyasana).",
+    "description": "A spiritual seeker first learns about non-attachment from texts (stage 1), then contemplates how it applies to her own life (stage 2), and eventually naturally lives with non-attachment without effort (stage 3). What progression does this represent?",
     "options": [
-      "They must be doing something wrong spiritually",
-      "Divine vision requires grace, not just effort",
-      "They should give up on spirituality",
-      "Such experiences are always hallucinations"
+      "From ignorance to confusion to giving up",
+      "From hearing to reflecting to realizing",
+      "From beginner to intermediate to advanced",
+      "From theory to practice to mastery"
     ],
-    "answer": "Divine vision requires grace, not just effort",
-    "explanation": "Just as Arjuna needed divine eyes to see Krishna's Universal Form, spiritual perception requires divine grace (prasada) in addition to our efforts - it's not earned solely by our actions."
+    "answer": "From hearing to reflecting to realizing",
+    "explanation": "The Gita describes wisdom developing through three stages: shravana (hearing/studying), manana (reflection/contemplation), and nididhyasana (direct realization/ integration). The seeker's journey mirrors this classical progression."
   },
   {
-    "question": "Divine as Source and Dissolution",
-    "content": "All beings emanate from the divine, exist by divine sustenance, and ultimately return to the divine.",
-    "description": "A gardener observes how plants grow from seeds, flourish with care, eventually wither, and return to the earth to nourish new life. What cycle does this reflect?",
+    "question": "Sattvic Charity",
+    "content": "True charity is given selflessly, at the right time and place, to worthy recipients, without expectation of return.",
+    "description": "During a natural disaster, one person donates money anonymously, another donates with a press release about their generosity, and a third donates expired food from their warehouse. According to the Gita, which donation is sattvic?",
     "options": [
-      "Just biological processes with no deeper meaning",
-      "The cycle of creation, sustenance, and dissolution in the divine",
-      "Evidence against spiritual teachings",
-      "Random natural occurrences"
+      "The press release donation - it inspires others to give",
+      "The anonymous donation - given without expectation of recognition",
+      "The expired food donation - any help is better than none",
+      "All three are equally valid forms of charity"
     ],
-    "answer": "The cycle of creation, sustenance, and dissolution in the divine",
-    "explanation": "The gardener's observation reflects the Gita's teaching that all beings originate from the divine (creation), are sustained by the divine (sustenance), and return to the divine (dissolution) in an eternal cycle."
+    "answer": "The anonymous donation - given without expectation of recognition",
+    "explanation": "The Gita classifies sattvic charity as that which is given because it is right to give, at the proper time, to a deserving person, without expectation of return. The anonymous donor's selflessness exemplifies this highest form of giving."
   },
   {
-    "question": "Humility Before Divine Magnitude",
-    "content": "Recognizing the divine's infinite magnitude cultivates humility and reduces ego.",
-    "description": "An accomplished professional, after years of success, volunteers at a community shelter and feels humbled by the realization of how little they know compared to vast human needs and spiritual truths. What growth are they experiencing?",
+    "question": "The Threefold Path to Liberation",
+    "content": "Liberation is attained through the integrated practice of knowledge (jnana), devotion (bhakti), and selfless action (karma).",
+    "description": "A monk spends mornings in study of scriptures (knowledge), afternoons serving in a village school (action), and evenings in devotional singing (love). What approach to liberation does this embody?",
     "options": [
-      "False modesty to gain praise",
-      "Healthy humility before life's vastness and divine magnitude",
-      "Loss of confidence in their abilities",
-      "Regret over their past achievements"
+      "Indecisiveness about which path to follow",
+      "The harmonious integration of knowledge, action, and devotion",
+      "Overcomplicating what should be a simple path",
+      "A modern invention not found in traditional teachings"
     ],
-    "answer": "Healthy humility before life's vastness and divine magnitude",
-    "explanation": "Just as Arjuna was humbled by seeing Krishna's Universal Form, recognizing the vastness of divine creation and our small place within it cultivates healthy humility that reduces ego."
-  },
-  {
-    "question": "Finding the Sacred in Ordinary Life",
-    "content": "The divine is present not only in extraordinary visions but also in ordinary daily life and simple duties.",
-    "description": "Someone finds deep peace and connection while washing dishes mindfully, feeling the sacredness in this simple act rather than seeking only extraordinary spiritual experiences. What approach are they following?",
-    "options": [
-      "Believing chores are spiritually inferior",
-      "Missing out on 'real' spirituality by focusing on chores",
-      "Finding sacredness in ordinary actions performed with awareness",
-      "Just trying to avoid more difficult spiritual practices"
-    ],
-    "answer": "Finding sacredness in ordinary actions performed with awareness",
-    "explanation": "While the Universal Form is extraordinary, the Gita also teaches finding the divine in ordinary life through mindful attention to our duties - seeing sacredness in the simple and routine."
+    "answer": "The harmonious integration of knowledge, action, and devotion",
+    "explanation": "While each path can lead to liberation, the Gita presents them as complementary. The monk's balanced practice of all three - jnana (study), karma (service), and bhakti (devotion) - reflects the comprehensive approach the Gita ultimately recommends."
   }
 ]

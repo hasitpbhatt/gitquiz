@@ -1,106 +1,93 @@
 [
   {
-    "question": "Buddhi Yoga (Yoga of Intelligence)",
-    "content": "Buddhi Yoga is the discipline of acting with wisdom, discernment, and clarity of mind, free from emotional disturbances.",
-    "description": "A project manager faces pressure to cut corners on quality to meet a deadline but chooses to explain the long-term risks to stakeholders and negotiate a realistic timeline instead. Which yoga is being practiced?",
+    "question": "Karma Yoga",
+    "content": "Karma Yoga is the path of selfless action performed as service, without attachment to personal rewards or recognition.",
+    "description": "A chef volunteers at a community kitchen every weekend, preparing meals for homeless people. She never posts about it on social media and refuses any awards or recognition for her service. Which path does she exemplify?",
     "options": [
-      "Karma Yoga (path of action)",
-      "Bhakti Yoga (path of devotion)",
-      "Buddhi Yoga (path of intelligence)",
-      "Jnana Yoga (path of knowledge)"
-    ],
-    "answer": "Buddhi Yoga (path of intelligence)",
-    "explanation": "The project manager uses discernment and wisdom to see beyond immediate pressures, considering long-term consequences and making a rational decision. This exemplifies Buddhi Yoga - action guided by intelligent discrimination rather than impulse or emotion."
-  },
-  {
-    "question": "Jnana Yoga (Yoga of Knowledge)",
-    "content": "Jnana Yoga is the path of self-realization through knowledge, discrimination between the real and unreal, and understanding the true nature of the Self.",
-    "description": "After years of chasing career success, money, and relationships, a person realizes these external achievements haven't brought lasting fulfillment and begins investigating the question 'Who am I?' at a deeper level. Which path are they embarking on?",
-    "options": [
-      "Karma Yoga - selfless service",
-      "Bhakti Yoga - devotion to God",
-      "Jnana Yoga - path of knowledge and self-inquiry",
+      "Karma Yoga - selfless action without attachment to rewards",
+      "Bhakti Yoga - devotion to God through worship",
+      "Jnana Yoga - pursuit of knowledge and wisdom",
       "Raja Yoga - meditation and mind control"
     ],
-    "answer": "Jnana Yoga - path of knowledge and self-inquiry",
-    "explanation": "The shift from seeking fulfillment externally to questioning one's true nature and seeking self-knowledge characterizes Jnana Yoga. This path uses discrimination and inquiry to realize the Self beyond temporary identifications."
+    "answer": "Karma Yoga - selfless action without attachment to rewards",
+    "explanation": "The chef's anonymous, consistent service without seeking recognition perfectly illustrates Karma Yoga - performing action as duty and service, not for personal gain or public acknowledgment."
   },
   {
-    "question": "Raja Yoga (Yoga of Meditation)",
-    "content": "Raja Yoga involves systematic practice of meditation to control the mind, develop concentration, and attain inner peace and self-mastery.",
-    "description": "A software developer starts practicing 20 minutes of morning meditation to improve focus, reduce reactivity to stress, and gain better control over their thoughts and emotions. Which yoga are they practicing?",
+    "question": "Bhakti Yoga",
+    "content": "Bhakti Yoga is the path of love and devotion, seeing the divine in all beings and expressing love through service and worship.",
+    "description": "A musician creates devotional songs not for commercial success but as an expression of love and gratitude toward the divine. During performances, she feels a deep connection with something greater than herself. Which path is she practicing?",
     "options": [
-      "Karma Yoga",
-      "Bhakti Yoga",
-      "Jnana Yoga",
-      "Raja Yoga"
+      "Karma Yoga - action without attachment",
+      "Bhakti Yoga - devotion and love toward the divine",
+      "Jnana Yoga - intellectual understanding of truth",
+      "Raja Yoga - meditative absorption"
     ],
-    "answer": "Raja Yoga",
-    "explanation": "Systematic meditation practice to gain mastery over the mind and emotions is the essence of Raja Yoga. The developer is using meditation as a tool to develop concentration, mental clarity, and emotional balance."
+    "answer": "Bhakti Yoga - devotion and love toward the divine",
+    "explanation": "Creating art as an expression of love for the divine, without concern for commercial gain, exemplifies Bhakti Yoga. The feeling of connection with something greater than oneself is the fruit of devotional practice."
   },
   {
-    "question": "The Eternal Soul (Atman)",
-    "content": "The Atman is the eternal, unchanging, indestructible soul or true Self that is identical with Brahman (universal consciousness).",
-    "description": "When comforting a friend who is grieving the loss of a loved one, what teaching from the Bhagavad Gita about the nature of the self would be most helpful?",
+    "question": "Jnana Yoga",
+    "content": "Jnana Yoga is the path of self-inquiry and discrimination, using knowledge to distinguish between the real and the unreal.",
+    "description": "After years of believing 'I am my career,' a person loses their job and experiences an identity crisis. Through self-inquiry, they begin to realize they are more than their job title. What path are they walking?",
     "options": [
-      "Tell them to suppress their emotions and move on quickly",
-      "Explain that the loved one's eternal soul continues beyond physical death",
-      "Suggest they avoid thinking about the loss entirely",
-      "Advise them that grief is pointless and irrational"
+      "Karma Yoga - finding new work to do",
+      "Bhakti Yoga - praying for a new job",
+      "Jnana Yoga - discriminating the Self from roles",
+      "Raja Yoga - meditating to forget the pain"
     ],
-    "answer": "Explain that the loved one's eternal soul continues beyond physical death",
-    "explanation": "The Gita teaches that the soul (Atman) is eternal and indestructible. While grief is natural, understanding that the essence of a person continues beyond physical death can provide comfort and perspective."
+    "answer": "Jnana Yoga - discriminating the Self from roles",
+    "explanation": "The crisis led this person to question their identification with a temporary role and seek their true identity. This self-inquiry - discriminating between the temporary (job title) and eternal (the Self) - is the essence of Jnana Yoga."
   },
   {
-    "question": "Renunciation of Fruit of Action",
-    "content": "True renunciation is not abandoning action but performing duties without attachment to results or rewards.",
-    "description": "A social worker continues helping disadvantaged communities despite minimal pay, limited resources, and lack of public recognition, motivated purely by the value of the work itself. What does this illustrate?",
+    "question": "Raja Yoga",
+    "content": "Raja Yoga is the systematic practice of meditation and mind control to achieve mental stillness and self-mastery.",
+    "description": "A high-frequency trader, whose job requires intense concentration, begins a daily meditation practice to manage stress and improve focus. Over months, they notice greater calm and fewer reactive decisions. What are they developing?",
     "options": [
-      "Burnout from overwork",
-      "Seeking hidden fame or future rewards",
-      "True renunciation - action without attachment to fruits",
-      "Inability to find better employment"
+      "Better trading algorithms",
+      "Raja Yoga - mastery over the mind through meditation",
+      "A convenient excuse to take breaks at work",
+      "Karma Yoga - performing work without attachment"
     ],
-    "answer": "True renunciation - action without attachment to fruits",
-    "explanation": "The social worker exemplifies the Gita's teaching of renunciation: continuing to perform meaningful action while letting go of attachment to results, rewards, or recognition. This is inner renunciation, not outer abandonment of duty."
+    "answer": "Raja Yoga - mastery over the mind through meditation",
+    "explanation": "Raja Yoga involves systematic practice to calm and master the mind. The trader's improved focus and reduced reactivity are direct benefits of meditation practice, demonstrating greater mental self-mastery."
   },
   {
-    "question": "Vision of the Divine",
-    "content": "Those with divine vision see the presence of God in all things and understand that all beings exist within the divine consciousness.",
-    "description": "An environmental scientist feels deep reverence when studying ecosystems, recognizing the intricate interconnectedness and intelligence in nature, and works to protect it not just for human benefit but because of its intrinsic sacred value. What does this perspective reflect?",
+    "question": "Buddhi Yoga",
+    "content": "Buddhi Yoga is acting with clear discernment and intelligence, making decisions guided by wisdom rather than impulse or emotion.",
+    "description": "During a market panic, a young investor's friends are selling all their stocks in fear. Instead of following the herd, she researches calmly and decides to hold her quality investments, recognizing the panic as temporary. What is she practicing?",
     "options": [
-      "Purely scientific objectivity",
-      "Economic valuation of natural resources",
-      "Divine vision - seeing sacredness in all creation",
-      "Sentimental anthropomorphism"
+      "Buddhi Yoga - acting with discernment rather than emotion",
+      "Blind luck that could backfire",
+      "Bhakt i Yoga - faith that the market will recover",
+      "Karma Yoga - accepting whatever happens"
     ],
-    "answer": "Divine vision - seeing sacredness in all creation",
-    "explanation": "Seeing the intrinsic sacred value and divine presence in nature, beyond just utility to humans, reflects the Gita's teaching of divine vision - perceiving the sacred in all beings and phenomena."
+    "answer": "Buddhi Yoga - acting with discernment rather than emotion",
+    "explanation": "Buddhi Yoga is using intelligence and discernment to guide action, rather than being driven by emotional reactions. The investor's calm research and principled decision amid panic demonstrates Buddhi Yoga in action."
   },
   {
-    "question": "Conquering Anger",
-    "content": "Anger arises from unfulfilled desire and leads to delusion; overcoming it requires self-control and understanding its roots.",
-    "description": "Someone feels intense anger when a colleague takes credit for their idea in a meeting. Instead of reacting immediately, they pause, reflect on why they're angry (desire for recognition), and later address the situation calmly and assertively. What Gita teaching does this demonstrate?",
+    "question": "The Integrated Path",
+    "content": "The Gita teaches that true spiritual growth integrates knowledge, devotion, and selfless action - not any single path alone.",
+    "description": "A spiritual seeker studies sacred texts daily (learning), volunteers at a hospice (service), and maintains a regular practice of gratitude and prayer (devotion). What approach are they following?",
     "options": [
-      "Suppressing anger completely",
-      "Acting on anger immediately to get revenge",
-      "Understanding anger's roots and responding with self-control",
-      "Avoiding all situations that might cause anger"
+      "An unfocused approach that dilutes spiritual progress",
+      "The integrated path combining jnana, karma, and bhakti",
+      "They should choose one path and stick to it exclusively",
+      "A modern invention not found in traditional teachings"
     ],
-    "answer": "Understanding anger's roots and responding with self-control",
-    "explanation": "The Gita teaches that anger comes from desire (in this case, desire for recognition). By pausing to understand the root of anger and choosing a measured response rather than reacting, one demonstrates the self-control and wisdom the Gita advocates."
+    "answer": "The integrated path combining jnana, karma, and bhakti",
+    "explanation": "The Gita repeatedly emphasizes that jnana (knowledge), karma (action), and bhakti (devotion) are complementary, not competing. The seeker's balanced practice reflects this integrated approach to spiritual development."
   },
   {
-    "question": "The Stages of Spiritual Wisdom",
-    "content": "Spiritual wisdom progresses from scriptural knowledge to direct realization to seeing the divine equally in all beings.",
-    "description": "A person begins by studying spiritual texts intellectually, then through practice gains personal experiential insights, and eventually comes to feel the same divine presence in a criminal, a saint, and themselves. What progression does this illustrate?",
+    "question": "Faith (Shraddha)",
+    "content": "Shraddha is sincere faith or trust that supports spiritual practice, even before complete intellectual understanding is achieved.",
+    "description": "A person new to meditation does not fully understand how it works but trusts enough to practice regularly for 30 days. After a month, they notice subtle positive changes in their wellbeing. What role did shraddha play?",
     "options": [
-      "Increasing intellectual knowledge only",
-      "Moving from knowledge to realization to equal vision",
-      "Rejecting all scriptural study",
-      "Believing only in personal experience, rejecting others'"
+      "It was blind superstition that happened to work",
+      "Shraddha provided the foundation to begin practice before full understanding",
+      "The meditation would have worked without any faith",
+      "Faith has no role in spiritual practice"
     ],
-    "answer": "Moving from knowledge to realization to equal vision",
-    "explanation": "This progression mirrors the Gita's description of developing wisdom: starting with scriptural knowledge (shravana), gaining personal realization through practice (manana), and culminating in equal vision (seeing divine sameness in all beings - nididhyasana)."
+    "answer": "Shraddha provided the foundation to begin practice before full understanding",
+    "explanation": "The Gita values shraddha - a trust that allows one to begin practice before complete intellectual understanding. This faith is not blind but reasonable, providing the motivational foundation for experiential learning."
   }
 ]
