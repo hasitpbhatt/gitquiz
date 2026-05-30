@@ -14,6 +14,9 @@ let secondsElapsed = 0;
 let timerInterval = null;
 let questionStartTime = 0;
 let fullCatalog = [];
+let MISTRAL_PROXY_URL = 'https://quiz-ai-proxy.hasit-p-bhatt.workers.dev/';
+let lastSelectedAnswer = '';
+let lastAnswerCorrect = false;
 
 ;(async () => {
   await loadCatalog();
@@ -191,6 +194,10 @@ function renderQuestion() {
     bin.innerHTML = '';
     document.getElementById('explanation').classList.add('hidden');
     document.getElementById('next-btn').classList.add('hidden');
+    const aiSection = document.getElementById('ai-section');
+    if (aiSection) aiSection.classList.add('hidden');
+    const aiResponse = document.getElementById('ai-response');
+    if (aiResponse) aiResponse.classList.add('hidden');
 
     if (q.options) {
         const randomizedOptions = shuffleArray(q.options);
@@ -228,6 +235,14 @@ function renderQuestion() {
                 document.getElementById('explanation').innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4><p class="text-sm font-500">${escapeHtml(expText)}</p>`;
                 document.getElementById('explanation').classList.remove('hidden');
                 document.getElementById('next-btn').classList.remove('hidden');
+                
+                lastSelectedAnswer = opt;
+                lastAnswerCorrect = opt.trim() === correctAnswer;
+                
+                if (MISTRAL_PROXY_URL) {
+                    const aiSec = document.getElementById('ai-section');
+                    if (aiSec) aiSec.classList.remove('hidden');
+                }
             };
             bin.appendChild(btn);
         });
@@ -609,6 +624,65 @@ function shareCertificate() {
 }
 
 
+
+async function askAI() {
+    if (!MISTRAL_PROXY_URL) return;
+
+    const btn = document.getElementById('explain-more-btn');
+    const responseDiv = document.getElementById('ai-response');
+    if (!btn || !responseDiv) return;
+
+    btn.disabled = true;
+    btn.innerHTML = '<span class="inline-block animate-spin mr-1">⟳</span> Thinking...';
+    responseDiv.innerHTML = '';
+    responseDiv.classList.remove('hidden');
+
+    const q = quizData[currentIdx];
+    if (!q) {
+        responseDiv.innerHTML = 'No question data available.';
+        btn.disabled = false;
+        btn.innerHTML = 'Explain More with AI';
+        return;
+    }
+
+    const prompt = 'You are a tutor helping a student understand a concept. ' +
+        'They just answered a quiz question.\n\n' +
+        'Question: ' + q.question + '\n' +
+        'Context: ' + (q.content || 'N/A') + '\n' +
+        'Scenario: ' + (q.description || 'N/A') + '\n' +
+        'Correct Answer: ' + q.answer + '\n\n' +
+        'The student selected: "' + lastSelectedAnswer + '" and was ' +
+        (lastAnswerCorrect ? 'CORRECT' : 'INCORRECT') + '.\n\n' +
+        'Provide a deeper, intuitive explanation of this concept with a fresh real-world example. ' +
+        'Keep it concise (2-3 paragraphs).';
+
+    try {
+        const res = await fetch(MISTRAL_PROXY_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                model: 'mistral-small-latest',
+                messages: [{ role: 'user', content: prompt }]
+            })
+        });
+
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+
+        const data = await res.json();
+        const content = data.choices?.[0]?.message?.content || data.content || '';
+
+        if (content) {
+            responseDiv.innerHTML = content;
+        } else {
+            throw new Error('Empty response');
+        }
+    } catch (err) {
+        responseDiv.innerHTML = 'AI explainer is not available right now.';
+    } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Explain More with AI';
+    }
+}
 
 // Add share button event listener
 document.getElementById('share-btn')?.addEventListener('click', shareHandler);
