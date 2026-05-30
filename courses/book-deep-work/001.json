@@ -1,133 +1,132 @@
 [
   {
-    "question": "Deep Work Chapter 1: The New Economy",
-    "content": "In the modern economy, two groups are poised to thrive: those who can work creatively with intelligent machines and those who are 'stars' in their field. To reach this elite status, you must possess the ability to quickly master hard things and the ability to produce at an elite level in terms of both quality and speed. Both skills require the practice of 'Deep Work'—focusing without distraction on a cognitively demanding task.",
-    "description": "Imagine you are a marketing manager. To stay competitive, you need to learn a complex new data analytics tool while also launching a high-stakes campaign. According to Cal Newport, what is the most effective way to achieve this?",
+    "question": "Deep Work Definition",
+    "content": "Deep work consists of professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.",
+    "description": "A violinist practices a difficult piece for three hours with complete focus, eyes closed, working through each complex passage repeatedly. Her phone is in another room. What is this an example of?",
     "options": [
-      "Dedicate small 10-minute bursts throughout the day to the tool while multitasking.",
-      "Schedule long blocks of uninterrupted time to focus exclusively on mastering the tool.",
-      "Hire a consultant to do the work so you can focus on answering emails.",
-      "Wait until the tool becomes easier to use before attempting to learn it."
+      "Shallow work, because she is alone",
+      "Deep work, because she is pushing her cognitive limits in a state of focused concentration",
+      "Deliberate idleness, because she is not producing anything tangible",
+      "Multitasking, because she is playing multiple notes"
     ],
-    "answer": "Schedule long blocks of uninterrupted time to focus exclusively on mastering the tool.",
-    "explanation": "Mastering hard things requires intense concentration. Shallow work, like answering emails or multitasking, doesn't provide the cognitive depth necessary to learn complex new skills or produce elite results."
+    "answer": "Deep work, because she is pushing her cognitive limits in a state of focused concentration",
+    "explanation": "Deep work requires distraction-free concentration on a cognitively demanding task. The violinist is fully engaged in skill development, which creates new value and improves her ability."
   },
   {
-    "question": "Deep Work vs. Shallow Work",
-    "content": "Deep work consists of professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. Shallow work, by contrast, includes non-cognitively demanding, logistical-style tasks, often performed while distracted. Shallow work is easily replicated and doesn't create much new value in the world.",
-    "description": "You spend four hours of your day responding to 'urgent' but routine Slack messages and CC'ing people on emails. How would Newport categorize this labor?",
+    "question": "Shallow Work Definition",
+    "content": "Shallow work includes non-cognitively demanding, logistical-style tasks often performed while distracted. These efforts tend not to create much new value and are easy to replicate.",
+    "description": "A cashier spends an afternoon alphabetizing a cabinet of paper files while listening to a podcast. How would Cal Newport classify this work?",
     "options": [
-      "Deep Work, because it is essential for team communication.",
-      "High-Value Labor, because it keeps the project moving.",
-      "Shallow Work, because it is logistical and doesn't require intense concentration.",
-      "Strategic Work, because it manages stakeholder expectations."
+      "Deep work, because filing requires precision",
+      "Shallow work, because it is a routine task that does not push cognitive limits",
+      "Elite production, because organization is valuable",
+      "Strategic thinking, because it prepares for future work"
     ],
-    "answer": "Shallow Work, because it is logistical and doesn't require intense concentration.",
-    "explanation": "Routine communication and administrative tasks are the definition of shallow work. They feel productive because they keep you busy, but they rarely contribute to significant career advancement or skill growth."
-  },
-  {
-    "question": "High-Stakes Production",
-    "content": "To produce at an elite level, you need to maximize your 'output.' Newport uses a formula: (Time Spent) x (Intensity of Focus) = Quality of Work Produced. If your intensity of focus is low because of distractions, your high-quality output will suffer, no matter how many hours you log.",
-    "description": "A writer spends 8 hours at her desk but checks social media every 15 minutes. A second writer spends only 3 hours but leaves her phone in another room. Who is likely to produce better work?",
-    "author": "Cal Newport",
-    "options": [
-      "The first writer, because she put in more total hours.",
-      "The second writer, because the intensity of focus was higher.",
-      "Both will produce the same quality if they are equally talented.",
-      "The first writer, because social media provides creative inspiration."
-    ],
-    "answer": "The second writer, because the intensity of focus was higher.",
-    "explanation": "Intensity of focus is a multiplier. According to the formula, a high intensity over a shorter period often produces better results than a distracted focus over a long period."
-  },
-  {
-    "question": "The Law of Least Resistance",
-    "content": "In an office environment, without clear feedback on what it means to be productive, we tend toward behaviors that are easiest in the moment. This 'Law of Least Resistance' often leads to a culture of constant connectivity, where we feel productive just because we are responding to messages quickly, even if we aren't doing 'deep' thinking.",
-    "description": "Your office has an 'always-on' culture where everyone expects an email reply within 5 minutes. Why does this culture persist despite being exhausting?",
-    "options": [
-      "It is the most efficient way to run a large business.",
-      "It provides a visible, easy indicator of productivity in the absence of clear goals.",
-      "It is a requirement of the deep work philosophy.",
-      "It ensures that no technical errors ever occur."
-    ],
-    "answer": "It provides a visible, easy indicator of productivity in the absence of clear goals.",
-    "explanation": "When people don't know how to measure their 'output,' they fall back on 'busyness' as a proxy for productivity. Quick replies are an easy way to look like you're working hard."
-  },
-  {
-    "question": "Attention Residue",
-    "content": "When you switch from Task A to Task B, your attention doesn't immediately follow. A 'residue' of your thoughts remains stuck on the previous task. This makes it much harder to perform Task B at a high level. Frequent 'quick checks' of email are devastating because they keep you in a state of permanent attention residue.",
-    "description": "You are writing a complex report but take a '30-second break' to check your inbox. What is the psychological cost of this action?",
-    "options": [
-      "Zero, as long as the email was short.",
-      "You gain a boost of energy from the variety of tasks.",
-      "Your brain remains partially focused on the email, reducing your performance on the report.",
-      "It improves your concentration by giving your brain a rest."
-    ],
-    "answer": "Your brain remains partially focused on the email, reducing your performance on the report.",
-    "explanation": "Even a quick glance at an email leaves 'residue' in your mind. This makes it impossible to reach the state of 'flow' or peak concentration needed for the primary task."
+    "answer": "Shallow work, because it is a routine task that does not push cognitive limits",
+    "explanation": "Shallow work is cognitively undemanding and easily replicated. Alphabetizing files requires minimal specialized skill and does not create significant new value."
   },
   {
     "question": "The Deep Work Hypothesis",
-    "content": "Newport’s core hypothesis is that the ability to perform deep work is becoming increasingly rare at the exact same time it is becoming increasingly valuable in our economy. Therefore, the few who cultivate this skill will succeed tremendously.",
-    "description": "Based on the Deep Work hypothesis, what is the best career move for someone in a competitive field?",
+    "content": "The Deep Work Hypothesis states that the ability to perform deep work is becoming increasingly rare at the exact same time it is becoming increasingly valuable in our economy. Those who cultivate this skill and make it the core of their working life will thrive.",
+    "description": "In a world where most professionals constantly check notifications and switch tasks every few minutes, a graphic designer dedicates four uninterrupted hours each morning to her most complex projects. According to the Deep Work Hypothesis, what is her competitive position?",
     "options": [
-      "Become as accessible and 'connected' as possible on all platforms.",
-      "Cultivate the rare ability to focus intensely on one thing for hours.",
-      "Learn as many shallow skills as possible to be a 'generalist.'",
-      "Focus on networking more than on the actual work produced."
+      "She is at a disadvantage because she misses important messages",
+      "She is well-positioned because the rare skill of intense focus produces high-value, hard-to-replicate work",
+      "Her position is unchanged because talent matters more than work habits",
+      "She is falling behind because collaboration requires constant availability"
     ],
-    "answer": "Cultivate the rare ability to focus intensely on one thing for hours.",
-    "explanation": "Because most people are constantly distracted, the ability to focus is a 'superpower.' It allows you to produce valuable, rare results that others cannot."
+    "answer": "She is well-positioned because the rare skill of intense focus produces high-value, hard-to-replicate work",
+    "explanation": "The hypothesis predicts that as distraction becomes the norm, the minority who maintain deep focus will produce rare, valuable output that is increasingly prized in the economy."
+  },
+  {
+    "question": "The Great Restructuring",
+    "content": "The economy is undergoing a Great Restructuring in which digital technology bifurcates the labor market. Three groups thrive: high-skilled workers who can work creatively with intelligent machines, superstars at the top of their field, and owners with capital. Deep work is the route to joining these groups.",
+    "description": "A tax preparer sees AI software automating basic return filing. Rather than competing with the machine, she learns to use the AI to process routine cases while she focuses on complex corporate tax strategy. Which thriving group is she positioning herself for?",
+    "options": [
+      "The owner class, because she owns the software license",
+      "The superstar class, because she will be the best tax preparer in her city",
+      "High-skilled workers who can work creatively with intelligent machines",
+      "None; she will eventually be replaced regardless"
+    ],
+    "answer": "High-skilled workers who can work creatively with intelligent machines",
+    "explanation": "The Great Restructuring rewards those who can leverage technology rather than compete with it. By using deep work to master the AI and apply it to higher-level problems, she joins the high-skilled group."
+  },
+  {
+    "question": "Attention Residue",
+    "content": "When you switch from Task A to Task B, part of your attention remains stuck on the first task. This 'attention residue' reduces your cognitive performance on the second task. Frequent task switching keeps you in a state of permanent residue, preventing deep focus.",
+    "description": "A chef is chopping vegetables while also monitoring a pot of soup and answering questions from a line cook. When she returns to a complicated sauce recipe, she keeps leaving out ingredients. What is the most likely cause?",
+    "options": [
+      "The sauce recipe is too difficult for her skill level",
+      "Attention residue from the interrupted tasks is occupying her mental bandwidth",
+      "She needs more kitchen experience before attempting complex sauces",
+      "The ingredients are arranged poorly on her workstation"
+    ],
+    "answer": "Attention residue from the interrupted tasks is occupying her mental bandwidth",
+    "explanation": "Every interruption leaves cognitive residue. By splitting her attention across multiple tasks, the chef never fully commits her mental resources to the sauce, leading to errors."
+  },
+  {
+    "question": "The Deep Work Formula",
+    "content": "Newport proposes that high-quality work produced equals time spent multiplied by intensity of focus. Intensity is a multiplier: low intensity over many hours produces less than high intensity over fewer hours.",
+    "description": "Two photographers each spend a week editing a portfolio. Photographer A works 40 hours but checks social media constantly. Photographer B works 20 hours in complete silence with no phone access. What does Newport's formula predict?",
+    "options": [
+      "Photographer A will produce better work because of the extra hours",
+      "Photographer B will likely produce higher quality work because intensity multiplies output",
+      "Both will produce identical work since they have the same skill level",
+      "The formula only applies to knowledge work, not creative fields"
+    ],
+    "answer": "Photographer B will likely produce higher quality work because intensity multiplies output",
+    "explanation": "Intensity of focus acts as a multiplier. Low intensity over many hours yields less valuable output than high intensity over fewer hours, because distracted work lacks the depth needed for elite results."
+  },
+  {
+    "question": "The Metric Black Hole",
+    "content": "In most knowledge work, it is difficult to measure the actual value an employee creates. This 'metric black hole' means organizations cannot see the cost of distraction, so they default to behaviors that feel productive—like constant connectivity—without recognizing the damage to deep output.",
+    "description": "A company implements a policy requiring all employees to respond to Slack messages within five minutes. Productivity metrics (revenue, projects completed) remain flat, but managers praise the new 'responsiveness.' What dynamic is at play?",
+    "options": [
+      "The policy is working; responsiveness is a form of productivity",
+      "The metric black hole prevents managers from seeing that deep work has been sacrificed for visible busyness",
+      "Slack messages contain the most important strategic information",
+      "Employees are secretly working longer hours to compensate"
+    ],
+    "answer": "The metric black hole prevents managers from seeing that deep work has been sacrificed for visible busyness",
+    "explanation": "Because deep output is hard to measure, managers default to visible metrics like response time. They cannot see the hidden cost: lost capacity for the deep thinking that drives real results."
+  },
+  {
+    "question": "The Law of Least Resistance",
+    "content": "In the absence of clear feedback on what behaviors drive results, people gravitate toward whatever is easiest in the moment. This explains why checking email feels more natural than wrestling with a difficult problem, even when the problem matters more.",
+    "description": "A social media manager has two tasks: plan a quarterly content strategy (difficult, high-impact) and respond to comments (easy, low-impact). Every morning she starts with comments and never gets to the strategy. What explains this pattern?",
+    "options": [
+      "Comments are more urgent than strategy",
+      "The Law of Least Resistance: the brain gravitates toward the easier task in the moment",
+      "Strategy work is not an official part of her job description",
+      "Responding to comments generates more revenue directly"
+    ],
+    "answer": "The Law of Least Resistance: the brain gravitates toward the easier task in the moment",
+    "explanation": "Without clear feedback that strategy drives more value than comments, the brain defaults to the easier activity. Overcoming this requires conscious systems that make deep work the path of least resistance."
   },
   {
     "question": "Busyness as a Proxy for Productivity",
-    "content": "In many jobs, it’s hard to see the actual value an employee creates (unlike a factory worker). As a result, many people fall back on 'industrial productivity'—doing lots of things in a visible way—to prove they are useful. This is 'busyness as a proxy for productivity.'",
-    "description": "A manager rewards the employee who stays latest and sends the most emails, regardless of the quality of their projects. What phenomenon is this manager encouraging?",
+    "content": "When the value of knowledge work is hard to measure, people fall back on visible activity—long hours, full calendars, quick replies—as a stand-in for actual productivity. This rewards being 'busy' rather than being effective.",
+    "description": "A new employee stays late every night, attends every optional meeting, and sends dozens of emails. Meanwhile, a senior colleague leaves at 5 PM but consistently delivers breakthrough solutions. Who is more likely to be perceived as productive by leadership?",
     "options": [
-      "Deep Work Excellence.",
-      "The Principle of Least Resistance.",
-      "Busyness as a proxy for productivity.",
-      "The Star Effect."
+      "The senior colleague, because results speak for themselves",
+      "The new employee, because their visible busyness is easier to measure than actual deep output",
+      "Both are equally valued since they both contribute",
+      "Neither; leadership values neither visibility nor results"
     ],
-    "answer": "Busyness as a proxy for productivity.",
-    "explanation": "The manager is measuring 'visible activity' rather than 'value created.' This often leads employees to prioritize shallow tasks over deep, meaningful work."
-  },
-  {
-    "question": "Learning Hard Things",
-    "content": "To learn hard things, you must focus intensely without distraction. This process triggers 'myelin' growth in the brain—a fatty tissue that wraps around neurons, allowing signals to fire more quickly and effectively. You cannot trigger myelin growth if you are constantly switching tasks.",
-    "description": "A student is trying to learn organic chemistry while listening to a podcast and texting. Why will they struggle to master the subject?",
-    "options": [
-      "Chemistry is simply too hard for most people to learn.",
-      "The lack of intense, isolated focus prevents the brain from reinforcing the necessary neural pathways.",
-      "Podcasts are generally bad for learning any subject.",
-      "The student isn't spending enough total hours studying."
-    ],
-    "answer": "The lack of intense, isolated focus prevents the brain from reinforcing the necessary neural pathways.",
-    "explanation": "Learning requires focused 'firing' of specific neural circuits. Distractions interrupt this process, preventing the brain from physically adapting to the new, difficult information."
-  },
-  {
-    "question": "The Role of Intelligent Machines",
-    "content": "In the new economy, those who can 'race with the machines' will succeed. This means using technology to augment your skills rather than being replaced by it. Working with complex AI or specialized software requires deep work to master the interface and output of these tools.",
-    "description": "An accountant sees a new AI tool that can automate basic bookkeeping. According to the book, what should the accountant do to stay valuable?",
-    "options": [
-      "Ignore the tool and hope it goes away.",
-      "Focus on the 'shallow' parts of the job that AI can't do yet, like filing.",
-      "Use deep work to master the tool and provide higher-level strategic insights that the AI cannot.",
-      "Switch to a career that doesn't use any computers."
-    ],
-    "answer": "Use deep work to master the tool and provide higher-level strategic insights that the AI cannot.",
-    "explanation": "Deep work allows you to master the complex machines that automate the 'shallow' parts of your job, moving you into the category of high-value 'stars' or 'owners.'"
+    "answer": "The new employee, because their visible busyness is easier to measure than actual deep output",
+    "explanation": "In a metric black hole, visible activity becomes the proxy for productivity. The senior colleague's deep work is invisible, while the new employee's busyness creates the appearance of high productivity."
   },
   {
     "question": "The Cult of the Internet",
-    "content": "Modern office culture often treats 'the internet' and 'connectivity' as inherently good things. We are encouraged to be social, collaborative, and fast. However, Newport argues that these 'Internet' values are often at direct odds with the 'Deep Work' values required to produce great things.",
-    "description": "A tech company moves to an open-office plan to 'increase collaboration,' but programmers find they can no longer code effectively. What is the likely conflict?",
+    "content": "Modern office culture treats connectivity and collaboration as inherently good, assuming that more communication, more tools, and more openness always lead to better outcomes. This 'cult of the internet' ignores the trade-off: connectivity often destroys the quiet needed for depth.",
+    "description": "A school district installs interactive whiteboards, requires teachers to maintain classroom Twitter accounts, and mandates real-time parent messaging during lessons. Test scores drop. What conflict does this illustrate?",
     "options": [
-      "The programmers are not being team players.",
-      "The value of 'serendipitous collaboration' is being prioritized over the value of 'deep concentration.'",
-      "Open offices are technically more expensive to maintain.",
-      "The internet connection in open offices is usually slower."
+      "Teachers are not tech-savvy enough to use the new tools",
+      "The cult of the internet prioritized connectivity over the deep concentration required for effective teaching",
+      "Interactive whiteboards are inherently inferior to chalkboards",
+      "Parents prefer email over messaging apps"
     ],
-    "answer": "The value of 'serendipitous collaboration' is being prioritized over the value of 'deep concentration.'",
-    "explanation": "While connectivity and collaboration are trendy, they often destroy the quiet environment needed for deep work. Organizations often trade 'depth' for 'connectivity' without realizing the cost to productivity."
+    "answer": "The cult of the internet prioritized connectivity over the deep concentration required for effective teaching",
+    "explanation": "Not every profession benefits from constant connectivity. Teaching requires sustained attention to student needs, which is undermined when the teacher's focus is fragmented by tools and notifications."
   }
 ]

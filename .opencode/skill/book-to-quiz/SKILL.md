@@ -89,6 +89,7 @@ Follow these content conventions for each field:
 - Final chapters: Comprehensive review and advanced topics, minimizing redundancy
 - **Coverage first**: If the source material has significant gaps after grouping, create additional chapters. Conceptual coverage is more important than hitting a target chapter count.
 - **Scrutinize review-only chapters**: A chapter that purely repeats concepts already taught (without adding new material or novel integrations) should be deleted rather than kept. Review concepts can be naturally reinforced within the core chapter questions themselves.
+- **Quantitative threshold for review detection**: After creating all chapters, run a script that compares each chapter's concepts against prior chapters. If ≥65% of a chapter's concepts already appeared in prior chapters and the new material could fit elsewhere, the chapter is review-only and should be eliminated. Chapters with 35-64% repetition are "mixed" — consider consolidating them with adjacent chapters.
 
 ### 6. Update Courses List
 Add your course identifier to `courses/courses_list.txt` in alphabetical position:
@@ -136,15 +137,18 @@ Post-creation gap analysis:
 - [ ] Every concept from the inventory (Step 1) has at least one question
 - [ ] Key case studies from the source material appear as scenarios or concepts
 - [ ] For enrichment: added concepts fit thematically in their chapter, chapter does not exceed 12 questions
+- [ ] Run the coverage verification script against the concept inventory to confirm no gaps
+
+Structural audit:
+- [ ] No review-only chapter exists (run the review-only detection script; no chapter should exceed 65% repetition from prior chapters)
+- [ ] Run the cross-chapter repetition script: no concept should appear across 3+ chapters in the same course
+- [ ] For rewrites/restructures: old files are deleted before new ones are created (use `Remove-Item -Path "courses/course-identifier/*.json"`)
 
 Post-creation diversity audit:
 - [ ] Do a second pass reading only `description` fields — note the domain of each
 - [ ] If 50%+ of questions are in a single domain (especially corporate), diversify ~25-30% into other domains using the natural-fit heuristic
 - [ ] No scenario is force-fit — each change improves the question, not just changes it
 - [ ] Every chapter has at least one question that feels relatable to a non-professional audience
-
-Structural audit:
-- [ ] No review-only chapter exists that purely repeats earlier concepts without adding new material
 
 ## Reusable Scripts
 
@@ -165,9 +169,9 @@ console.log('001.json: ' + d.length + ' questions');
 ```
 **CRITICAL**: Avoid contractions (use "does not" instead of "doesn't", "cannot" instead of "can't", "will not" instead of "won't") in the inline script, or escape them for PowerShell. Alternatively, write a `.js` file to disk first and run with Node.
 
-### Generator Script for Multi-Chapter Courses
+### Generator Script for Multi-Chapter Courses (New or Rewrite)
 
-For courses with 5+ chapters, write a single `.js` file that generates all chapters at once. This avoids repeated PowerShell calls and makes it easy to spot-check consistency across chapters:
+For courses with 5+ chapters, write a single `.js` file that generates all chapters at once. This avoids repeated PowerShell calls and makes it easy to spot-check consistency across chapters. Works equally well for creating new courses and for major restructures of existing ones.
 
 ```javascript
 // gen_course.js
@@ -238,6 +242,126 @@ else console.log('=== ALL CHECKS PASSED ===');
 
 **Note on the positional ref regex**: This uses a case-sensitive match in the Node.js script (no `/i` flag) so only uppercase option letters like "Both A and B" or "A & C" are caught. Common English words like "Both are" or "Both do" (lowercase) will not trigger false positives. The PowerShell `Select-String` version on Windows is case-insensitive by default and may still generate false positives; add `-CaseSensitive` flag to suppress them.
 
+### Review-Only Chapter Detection Script
+
+Run this to find chapters that mostly repeat concepts from prior files. Edit the `dir` variable. Requires fuzzy concept mapping via the conceptGroups object — customize the groups for your course:
+
+```javascript
+// review_detection.js
+const fs = require('fs');
+const dir = 'courses/course-identifier';
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
+const all = {};
+files.forEach(f => { all[f] = JSON.parse(fs.readFileSync(dir + '/' + f, 'utf8')); });
+
+// Define canonical concept groups (customize for your course)
+const conceptGroups = {
+  'Example Concept': ['example concept', 'alt name', 'another name'],
+  // ... add your own groups
+};
+
+function findConcept(text) {
+  const t = text.toLowerCase();
+  for (const [concept, patterns] of Object.entries(conceptGroups))
+    for (const pat of patterns)
+      if (t.includes(pat)) return concept;
+  return null;
+}
+
+const conceptChapters = {};
+files.forEach(f => all[f].forEach(q => {
+  const c = findConcept(q.question + ' ' + q.content);
+  if (c) { if (!conceptChapters[c]) conceptChapters[c] = new Set(); conceptChapters[c].add(f); }
+}));
+
+files.forEach(f => {
+  const prior = files.slice(0, files.indexOf(f));
+  let repeat = 0, total = 0;
+  all[f].forEach(q => {
+    const c = findConcept(q.question + ' ' + q.content);
+    if (c && conceptChapters[c] && [...conceptChapters[c]].some(pf => prior.includes(pf))) repeat++;
+    total++;
+  });
+  const pct = (repeat / total * 100).toFixed(0);
+  const tag = pct >= 65 ? 'REVIEW-ONLY' : (pct >= 35 ? 'MIXED' : 'FRESH');
+  console.log(f + ': ' + repeat + '/' + total + ' repeated (' + pct + '%) [' + tag + ']');
+});
+```
+
+**Thresholds**: ≥65% = review-only (delete or consolidate), 35-64% = mixed (consider consolidating), <35% = fresh.
+
+### Cross-Chapter Repetition Detection Script
+
+Run this after creation to flag concepts that appear across too many chapters. Edit `conceptGroups` to match your course:
+
+```javascript
+// cross_chapter_repetition.js
+const fs = require('fs');
+const dir = 'courses/course-identifier';
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
+const all = {};
+files.forEach(f => { all[f] = JSON.parse(fs.readFileSync(dir + '/' + f, 'utf8')); });
+
+// Define canonical concept groups (customize for your course)
+const conceptGroups = { /* same as review detection */ };
+
+function findConcept(text) {
+  const t = text.toLowerCase();
+  for (const [concept, patterns] of Object.entries(conceptGroups))
+    for (const pat of patterns)
+      if (t.includes(pat)) return concept;
+  return null;
+}
+
+const conceptChapters = {};
+files.forEach(f => all[f].forEach(q => {
+  const c = findConcept(q.question + ' ' + q.content);
+  if (c) { if (!conceptChapters[c]) conceptChapters[c] = new Set(); conceptChapters[c].add(f); }
+}));
+
+let found = 0;
+Object.entries(conceptChapters)
+  .filter(([_, chs]) => chs.size >= 3)
+  .sort((a, b) => b[1].size - a[1].size)
+  .forEach(([concept, chapters]) => {
+    found++;
+    console.log('"' + concept + '" appears in ' + chapters.size + ' chapters: ' + [...chapters].sort().join(', '));
+  });
+
+if (found === 0) console.log('No concept appears in 3+ chapters. Good repetition control.');
+else console.log('Total: ' + found + ' over-repeated concepts — consider consolidating.');
+```
+
+**Threshold**: any concept appearing in 3+ chapters should be consolidated — keep the best question and eliminate the duplicates.
+
+### Coverage Verification Script
+
+Use this to verify every concept from your inventory (Step 1) is covered. Add your concept keywords to the `inventory` array:
+
+```javascript
+// coverage_check.js
+const fs = require('fs');
+const dir = 'courses/course-identifier';
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
+const allText = files.flatMap(f => JSON.parse(fs.readFileSync(dir + '/' + f, 'utf8')))
+  .map(q => (q.question + ' ' + q.content + ' ' + q.description + ' ' + q.explanation).toLowerCase())
+  .join(' ');
+
+const inventory = [
+  ['Concept Name', 'keyword1', 'keyword2'],
+  // ... add from your concept inventory (Step 1)
+];
+
+let found = 0, missing = 0;
+inventory.forEach(([concept, ...kw]) => {
+  if (kw.some(k => allText.includes(k))) { found++; console.log('  ✓ ' + concept); }
+  else { missing++; console.log('  ✗ MISSING: ' + concept); }
+});
+console.log(found + '/' + (found + missing) + ' covered, ' + missing + ' gaps');
+```
+
+Save as `coverage_check.js` and run with `node coverage_check.js`. Add keyword variations as needed — the script is case-insensitive.
+
 ## Technical Learnings
 
 ### BOM Issue (Critical)
@@ -265,6 +389,8 @@ When rewriting an existing course from scratch, remove old files before creating
 Remove-Item -Path "courses/course-identifier/*.json"
 ```
 Use `-Path` (not `-LiteralPath`) to enable wildcard matching. Then create new 001.json, 002.json, etc. Old files are tracked in git and can be recovered if needed.
+
+**Tip**: When using a generator script for a rewrite, run cleanup first, then the generator. This avoids accidentally leaving orphan files (e.g., old 008-011.json when the new course has only 7 chapters).
 
 ### Answer String Matching
 The most common error after generation is answer text not matching the option text exactly. Common causes:
