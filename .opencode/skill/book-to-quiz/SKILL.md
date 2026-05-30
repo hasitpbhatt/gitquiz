@@ -24,7 +24,8 @@ Before writing any questions, build a complete inventory of concepts from the so
 - Get the book's full table of contents (TOC) from official sources
 - For each chapter, list the key principles, models, case studies, and frameworks
 - Note any foundational anecdotes (e.g., British Cycling story, Paper Clip Strategy) that anchor key concepts - these make good scenario material
-- Use this inventory as a checklist: every concept gets at least one quiz question
+- **Also capture sub-topics within each chapter**: notable quotes, aphorisms (e.g., "Gradually, then suddenly"), intellectual movements or paradigm shifts (e.g., the Renaissance, the Enlightenment), and counter-ideologies that arise in response to dominant systems (e.g., communism as a response to capitalism). These are easy to miss if you only track chapter-level headings.
+- Use this inventory as a checklist: every concept and sub-topic gets at least one quiz question
 - Group related concepts into logical chapters. Do not sacrifice conceptual coverage for an arbitrary chapter count; create as many chapters as needed to cover all key concepts from the source material.
 
 ### 2. Audit Before Creating (New or Rewrite)
@@ -136,6 +137,7 @@ File-level checks:
 Post-creation gap analysis:
 - [ ] Every concept from the inventory (Step 1) has at least one question
 - [ ] Key case studies from the source material appear as scenarios or concepts
+- [ ] **Sub-topic gap analysis**: run a second pass against the full TOC mapping each book chapter to your questions, then drill into sub-topics (quotes, movements, counter-ideologies). Chapter-level coverage does not guarantee sub-topic coverage.
 - [ ] For enrichment: added concepts fit thematically in their chapter, chapter does not exceed 12 questions
 - [ ] Run the coverage verification script against the concept inventory to confirm no gaps
 
