@@ -427,13 +427,15 @@ function shareQuestion() {
     if (!q) return;
     const modLabel = document.getElementById('module-label')?.textContent || 'MODULE';
     const container = document.createElement('div');
-    container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:50px 60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:600px;';
+    container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:50px 60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:left;display:flex;flex-direction:column;min-height:600px;';
     container.innerHTML = `
-        <div class="qc-badge">📝</div>
-        <div class="qc-module">${escapeHtml(modLabel)}</div>
+        <div style="text-align:center;"><span class="qc-badge">📝</span></div>
+        <div style="text-align:center;" class="qc-module">${escapeHtml(modLabel)}</div>
         <div class="qc-question">${escapeHtml(q.question || '')}</div>
+        ${q.description ? `<div class="qc-description">${escapeHtml(q.description)}</div>` : ''}
+        ${q.content ? `<div class="qc-content">${escapeHtml(q.content)}</div>` : ''}
         <div class="qc-options"></div>
-        <div class="qc-footer">Quiz Portal Pro</div>
+        <div style="text-align:center;margin-top:auto;" class="qc-footer">Quiz Portal Pro</div>
     `;
     const optsDiv = container.querySelector('.qc-options');
     if (q.options) {
