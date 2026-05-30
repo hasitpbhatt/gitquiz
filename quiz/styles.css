@@ -74,36 +74,32 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 .ach-footer { margin-top: 40px; font-size: 14px; opacity: 0.4; }
 
 /* Question Card Styles (used by dynamically created share elements) */
-.qc-badge { font-size: 70px; margin-bottom: 16px; display: inline-block; }
-.qc-module { font-size: 14px; text-transform: uppercase; letter-spacing: 4px; color: #60a5fa; font-weight: 800; margin-bottom: 28px; }
-.qc-title { font-size: 22px; font-weight: 600; margin-bottom: 20px; color: #94a3b8; }
-.qc-description { font-size: 24px; font-weight: 700; line-height: 1.4; margin-bottom: 28px; color: #f8fafc; }
-.qc-options { display: flex; flex-direction: column; gap: 16px; width: 100%; }
+.qc-badge { font-size: 60px; margin-bottom: 8px; display: inline-block; }
+.qc-module { font-size: 12px; text-transform: uppercase; letter-spacing: 4px; color: #60a5fa; font-weight: 800; margin-bottom: 24px; }
+.qc-title { font-size: 18px; font-weight: 600; margin-bottom: 20px; color: #64748b; }
+.qc-description { font-size: 26px; font-weight: 700; line-height: 1.4; margin-bottom: 30px; color: #f8fafc; }
+.qc-options { display: flex; flex-direction: column; gap: 14px; width: 100%; }
 .qc-option {
     display: flex;
     align-items: flex-start;
-    gap: 16px;
-    padding: 16px 20px;
-    background: rgba(255,255,255,0.06);
-    border: 2px solid rgba(255,255,255,0.12);
-    border-radius: 14px;
+    gap: 14px;
+    padding: 14px 20px;
+    background: rgba(255,255,255,0.04);
+    border: 1.5px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
     font-size: 18px;
     font-weight: 500;
-    color: #f8fafc;
+    color: #e2e8f0;
     text-align: left;
+    line-height: 1.5;
 }
-.qc-opt-num {
+.qc-opt-letter {
     flex-shrink: 0;
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-    background: rgba(96, 165, 250, 0.2);
-    color: #60a5fa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 800;
+    color: #60a5fa;
+    min-width: 28px;
+    display: inline-block;
 }
 .qc-footer { margin-top: 40px; font-size: 14px; opacity: 0.4; }
 

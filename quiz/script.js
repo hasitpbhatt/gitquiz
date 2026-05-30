@@ -356,6 +356,31 @@ function showNotify(title, msg) {
     }, 3000);
 }
 
+function showNotifyWithAction(title, msg, actionLabel, actionFn) {
+    const div = document.createElement('div');
+    div.className = "fixed bottom-4 left-1/2 -translate-x-1/2 w-[90%] max-w-sm glass-card p-4 rounded-xl shadow-2xl z-50 animate-in fade-in slide-in-from-bottom-4";
+    div.innerHTML = `
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">!</div>
+            <div class="flex-1">
+                <h4 class="font-800 text-sm">${title}</h4>
+                <p class="text-xs text-slate-500">${msg}</p>
+            </div>
+            <button class="notify-action px-3 py-1.5 bg-blue-600 text-white text-xs font-700 rounded-lg whitespace-nowrap">${actionLabel}</button>
+        </div>
+    `;
+    document.body.appendChild(div);
+    div.querySelector('.notify-action').addEventListener('click', () => {
+        actionFn();
+        div.classList.add('animate-out', 'fade-out', 'slide-out-to-bottom-4');
+        setTimeout(() => div.remove(), 500);
+    });
+    setTimeout(() => {
+        div.classList.add('animate-out', 'fade-out', 'slide-out-to-bottom-4');
+        setTimeout(() => div.remove(), 500);
+    }, 6000);
+}
+
 // Share Quiz Functionality
 function getShareUrl() {
     const base = window.location.origin + window.location.pathname;
@@ -377,7 +402,86 @@ function shareHandler() {
         shareQuestion();
         return;
     }
-    showSocialShareOptions();
+    shareSetup();
+}
+
+function shareSetup() {
+    const shareUrl = getShareUrl();
+    const modal = document.createElement('div');
+    modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
+    modal.innerHTML = `
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 max-w-sm w-full mx-4 text-center">
+            <div class="text-4xl mb-3">🎯</div>
+            <h3 class="text-lg font-bold mb-1">Share Quiz Portal</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mb-6">Share this quiz link or download a promo image</p>
+            <div class="space-y-3">
+                <button onclick="copyAndClose(this)" class="w-full p-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-700 flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                    Copy Link
+                </button>
+                <button onclick="downloadPromoImage(this)" class="w-full p-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg font-700 flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download Image
+                </button>
+                <button onclick="closeModal(this)" class="w-full p-3 bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-300 rounded-lg">Close</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+}
+
+function copyAndClose(btn) {
+    const shareUrl = getShareUrl();
+    navigator.clipboard.writeText(shareUrl).then(() => {
+        showNotify('Link Copied', 'Quiz link copied to clipboard!');
+    }).catch(() => {
+        showNotify('Copy Failed', 'Could not copy link');
+    });
+    closeModal(btn);
+}
+
+function downloadPromoImage(btn) {
+    closeModal(btn);
+    const shareUrl = getShareUrl();
+    const container = document.createElement('div');
+    container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:600px;';
+    container.innerHTML = `
+        <div style="font-size:80px;margin-bottom:16px;">🎯</div>
+        <div style="font-size:36px;font-weight:800;margin-bottom:8px;">Quiz Portal Pro</div>
+        <div style="font-size:16px;opacity:0.6;max-width:400px;margin-bottom:40px;">Master your knowledge with interactive modules.</div>
+        <div style="font-size:13px;font-family:monospace;padding:14px 24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:12px;color:#60a5fa;max-width:100%;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(shareUrl)}</div>
+        <div style="margin-top:auto;font-size:14px;opacity:0.4;">hasit.in/quiz</div>
+    `;
+    document.body.appendChild(container);
+    if (typeof html2canvas !== 'function') {
+        showNotify('Error', 'Image generation library failed.');
+        container.remove();
+        return;
+    }
+    html2canvas(container, { useCORS: true, backgroundColor: '#0f172a', scale: 2 }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = 'QuizPortal_Promo.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+        container.remove();
+        showNotifyWithAction('Image Saved', 'Downloaded. Copy link to share?', 'Copy Link', function() { copyLink(); });
+    }).catch(() => {
+        container.remove();
+        showNotify('Error', 'Could not generate image.');
+    });
+}
+
+function copyLink() {
+    const shareUrl = getShareUrl();
+    navigator.clipboard.writeText(shareUrl).then(() => {
+        showNotify('Link Copied', 'Quiz link copied to clipboard!');
+    }).catch(() => {
+        showNotify('Copy Failed', 'Could not copy link to clipboard');
+    });
+}
+
+function closeModal(button) {
+    button.closest('.fixed').remove();
 }
 
 function captureAndShareImage(element, filename) {
@@ -396,7 +500,8 @@ function captureAndShareImage(element, filename) {
                 try {
                     await navigator.share({
                         files: [file],
-                        title: 'Quiz Portal Pro'
+                        title: 'Quiz Portal Pro',
+                        text: getShareUrl()
                     });
                     element.remove();
                     return;
@@ -409,12 +514,11 @@ function captureAndShareImage(element, filename) {
             link.href = canvas.toDataURL('image/png');
             link.click();
             element.remove();
-            showNotify('Image Saved', 'Saved. You can now post it to your story!');
+            showNotifyWithAction('Image Saved', 'Downloaded. Copy link to share?', 'Copy Link', function() { copyLink(); });
         });
-    }).catch(err => {
-        console.error('Image generation failed:', err);
-        element.remove();
-        showNotify('Share Error', 'Could not generate share image.');
+    }).catch(() => {
+        container.remove();
+        showNotify('Error', 'Could not generate image.');
     });
 }
 
@@ -426,12 +530,13 @@ function shareQuestion() {
     const q = quizData[currentIdx];
     if (!q) return;
     const modLabel = document.getElementById('module-label')?.textContent || 'MODULE';
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
     const container = document.createElement('div');
     container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:50px 60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:left;display:flex;flex-direction:column;min-height:600px;';
     container.innerHTML = `
         <div style="text-align:center;"><span class="qc-badge">📝</span></div>
         <div style="text-align:center;" class="qc-module">${escapeHtml(modLabel)}</div>
-        <div class="qc-title">${escapeHtml(q.question || '')}</div>
+        ${q.question ? `<div class="qc-title">${escapeHtml(q.question)}</div>` : ''}
         ${q.description ? `<div class="qc-description">${escapeHtml(q.description)}</div>` : ''}
         <div class="qc-options"></div>
         <div style="text-align:center;margin-top:auto;" class="qc-footer">Quiz Portal Pro</div>
@@ -441,7 +546,7 @@ function shareQuestion() {
         q.options.forEach((opt, i) => {
             const d = document.createElement('div');
             d.className = 'qc-option';
-            d.innerHTML = `<span class="qc-opt-num">${i + 1}</span><span>${escapeHtml(opt)}</span>`;
+            d.innerHTML = `<span class="qc-opt-letter">${letters[i] || (i + 1)}.</span><span>${escapeHtml(opt)}</span>`;
             optsDiv.appendChild(d);
         });
     }
@@ -503,66 +608,7 @@ function shareCertificate() {
     captureAndShareImage(container, `Achievement_${courseFolderName}_M${moduleNum}.png`);
 }
 
-function showSocialShareOptions() {
-    const shareUrl = getShareUrl();
-    const url = encodeURIComponent(shareUrl);
-    const shareText = encodeURIComponent('Check out Quiz Portal Pro! Challenge yourself at: ' + shareUrl + ' #QuizPortalPro');
-    const modal = document.createElement('div');
-    modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
-    modal.innerHTML = `
-        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 max-w-md w-full mx-4">
-            <h3 class="text-xl font-bold mb-4 text-center">Share the Quiz</h3>
-            <div class="space-y-4">
-                <button onclick="shareToTwitter()" class="w-full p-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg flex items-center justify-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
-                    </svg>
-                    Twitter
-                </button>
-                <button onclick="shareToFacebook()" class="w-full p-3 bg-[#1877f2] hover:bg-[#166fe5] text-white rounded-lg flex items-center justify-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M22.675 0h-20.5C1.004 0 0 1.004 0 2.252v19.496c0 1.248 1.004 2.252 2.252 2.252h12.018V14.46h-3.579v-3.669h3.579V9.582c0-3.008 1.892-4.788 4.659-4.788 1.325 0 2.468.099 2.645.113v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.31h3.587l-.467 3.669h-3.12v11.555c1.248 0 2.252-1.004 2.252-2.252V2.252c0-1.248-1.004-2.252-2.252-2.252z"/>
-                    </svg>
-                    Facebook
-                </button>
-                <button onclick="copyLink()" class="w-full p-3 bg-slate-600 hover:bg-slate-500 text-white rounded-lg flex items-center justify-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2z"/>
-                    </svg>
-                    Copy Link
-                </button>
-                <button onclick="closeModal(this)" class="w-full p-3 bg-slate-300 hover:bg-slate-200 text-slate-800 rounded-lg">Close</button>
-            </div>
-        </div>
-    `;
-    document.body.appendChild(modal);
-}
 
-function shareToTwitter() {
-    const shareUrl = getShareUrl();
-    const shareText = encodeURIComponent('Check out Quiz Portal Pro! ' + shareUrl + ' #QuizPortalPro');
-    const url = encodeURIComponent(shareUrl);
-    window.open(`https://twitter.com/intent/tweet?text=${shareText}&url=${url}`, '_blank');
-}
-
-function shareToFacebook() {
-    const shareUrl = getShareUrl();
-    const url = encodeURIComponent(shareUrl);
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
-}
-
-function copyLink() {
-    const shareUrl = getShareUrl();
-    navigator.clipboard.writeText(shareUrl).then(() => {
-        showNotify('Link Copied', 'Quiz link copied to clipboard!');
-    }).catch(() => {
-        showNotify('Copy Failed', 'Could not copy link to clipboard');
-    });
-}
-
-function closeModal(button) {
-    button.closest('.fixed').remove();
-}
 
 // Add share button event listener
 document.getElementById('share-btn')?.addEventListener('click', shareHandler);
