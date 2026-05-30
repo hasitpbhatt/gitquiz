@@ -23,7 +23,16 @@ Use this skill when you:
 - Group related concepts into logical chapters (typically 6-10 chapters)
 - For each concept, identify a real-world scenario that illustrates it and aids learning
 
-### 2. Present a Plan for Approval
+### 2. If Course Exists: Audit Before Enriching
+
+When **improving an existing course** (e.g., user says "this isn't satisfying, upgrade it"):
+- Read all existing chapter files and list every concept already covered
+- Map concepts against the source material's full table of contents to identify gaps
+- **Then decide**: does the missing concept fit thematically into an existing chapter? Add it there to keep chapters cohesive. Otherwise create a new chapter file (009.json, 010.json, etc.)
+- Update the courses list only if creating a completely new course (existing courses stay listed)
+- **Key**: Concept density per chapter should not exceed 12 questions. If adding would push past 12, create a new chapter instead.
+
+### 3. Present a Plan for Approval
 - Before creating files, present a structured plan to the user including:
   - Proposed chapter structure with concepts grouped per chapter
   - Approach for creating engaging real-life scenarios per concept
@@ -32,9 +41,9 @@ Use this skill when you:
 - Wait for user approval before proceeding to file creation
 - This ensures the user can guide scenario design and chapter organization up front
 
-### 3. Create Chapter Directory
+### 4. Create Chapter Directory
 ```bash
-mkdir -p gitquiz/courses/course-identifier/
+mkdir -p courses/course-identifier/
 ```
 Where `course-identifier` follows the pattern: `book-title-in-kebab-case`
 
@@ -56,7 +65,7 @@ For each chapter (001.json, 002.json, etc.), create a file with this format:
     "answer": "Correct option (exact text from options)",
     "explanation": "Clear explanation of why this is correct and others are not"
   },
-  // ... 6-12 questions per chapter
+  // ... 7-12 questions per chapter
 ]
 ```
 
@@ -76,12 +85,17 @@ Follow these content conventions for each field:
 - Final chapter: Comprehensive review minimizing redundancy
 
 ### 6. Update Courses List
-Add your course identifier to `gitquiz/courses/courses_list.txt` in alphabetical position:
+Add your course identifier to `courses/courses_list.txt` in alphabetical position:
 - Keep one course per line
 - Use kebab-case identifiers (e.g., `book-super-thinking`)
 - Maintain strict alphabetical ordering
 
-### 7. Quality Check
+### 7. Maintain Scenario Diversity
+- Vary scenarios across multiple domains: professional (engineering, medicine, law), personal (parenting, relationships, health), creative (art, music, writing), social (community, politics, activism), and philosophical (science, spirituality, ethics)
+- Avoid overusing workplace scenarios for every question - real life is broader than the office
+- Each scenario should feel authentic and relatable to a general audience
+
+### 8. Quality Check
 Before completing:
 - [ ] All JSON files are valid (parseable, no duplicate keys)
 - [ ] Run `node -e "JSON.parse(require('fs').readFileSync('FILE'))"` on each JSON file
@@ -92,6 +106,7 @@ Before completing:
 - [ ] Explanations teach, don't just state
 - [ ] Courses list is alphabetically sorted
 - [ ] File naming uses 001.json, 002.json format
+- [ ] For enrichment: added concepts fit thematically in their chapter, chapter does not exceed 12 questions
 
 ## Reusable Scripts
 
@@ -188,7 +203,7 @@ Based from our "Super Thinking" course creation:
 - Explanation: "Occam's Razor favors the explanation requiring fewest assumptions..."
 
 ## File Naming Conventions
-- Course directory: `gitquiz/courses/<kebab-case-title>/`
+- Course directory: `courses/<kebab-case-title>/`
 - Chapter files: `001.json`, `002.json`, ..., `00N.json`
 - Courses list: `gitquiz/courses/courses_list.txt`
 
@@ -204,6 +219,7 @@ After creating files, run these checks:
    Select-String -Path "courses/course-identifier/*.json" -Pattern '(Both [A-D]|All of the above|[A-D] & [A-D])'
    ```
    Should return zero matches (letters as content, e.g. vowel answers like "A and E", are not affected). If any found, rewrite options as standalone text.
+   **Note**: The pattern `[A-D]` matches any character in the range A-D, including lowercase `a-d`. Words like "Both **a**re..." or "Both **d**o..." will produce false positives. Manually verify each match - if the word after "Both" is a regular English word (not a standalone letter), it is safe. Only rewrite options that truly reference another option's letter position.
 3. **Check answer correctness**: Ensure answer string exactly matches one option
 4. **Confirm alphabetical order**: Run `Get-Content courses/courses_list.txt | Sort-Object | Compare-Object (Get-Content courses/courses_list.txt)` or use `node -e "const lines=require('fs').readFileSync('courses/courses_list.txt','utf8').trim().split('\n').sort(); console.log(lines.join('\n'))" ` to verify no errors
 5. **Review scenario quality**: Descriptions should be realistic and illustrative
@@ -219,6 +235,17 @@ After creating files, run these checks:
    - Creates 001.json through 008.json with engaging real-life scenarios
    - Updates courses_list.txt to insert "book-get-better-at-anything" alphabetically
    - Validates all files before completion
+```
+
+### Enrichment Flow Example
+```
+1. User: "The Bhagavad Gita quiz isn't satisfying, upgrade it from scratch"
+2. Assistant:
+   - Reads all 8 existing chapter files and audits concepts covered against the Gita's 18 chapters
+   - Identifies gaps: avatar concept, path after death, Ashvattha tree, threefold austerity, svadharma
+   - Decides which gaps fit in existing chapters (adds sthitaprajna to Ch2, Maya to Ch5, etc.)
+   - Creates 3 new chapters (009-011) for major missing topics (paths after death, austerity, svadharma)
+   - Ensures each chapter still has 7-12 questions, runs validation, commits and pushes
 ```
 
 This skill ensures consistency with existing courses like "book-influence" and "book-super-thinking" while enabling rapid creation of new educational content.
