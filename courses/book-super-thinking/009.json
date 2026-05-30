@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Parkinson's Law",
+    "content": "Parkinson's Law states that work expands to fill the time available for its completion. The more time you allocate, the longer a task takes.",
+    "description": "You give yourself two weeks to complete a report that could be done in three days. According to Parkinson's Law, what will likely happen?",
+    "options": [
+      "You will finish in two days and have extra time",
+      "The report will take most or all of the two weeks despite minimal actual work",
+      "You will need more than two weeks because it expands further",
+      "The quality will be much higher with more time"
+    ],
+    "answer": "The report will take most or all of the two weeks despite minimal actual work",
+    "explanation": "Parkinson's Law: work expands to fill available time. With two weeks, you will procrastinate, add unnecessary polish, and stretch the work rather than finishing efficiently in three days."
+  },
+  {
+    "question": "Eisenhower Decision Matrix",
+    "content": "The Eisenhower Matrix categorizes tasks by urgency (needs immediate attention) and importance (contributes to long-term goals), creating four quadrants for prioritization.",
+    "description": "Using the Eisenhower Matrix, which quadrant should you focus on most for long-term success?",
+    "options": [
+      "Urgent and Important tasks like crises",
+      "Important but Not Urgent tasks like strategic planning",
+      "Urgent but Not Important tasks like interruptions",
+      "Neither Urgent nor Important tasks like mindless browsing"
+    ],
+    "answer": "Important but Not Urgent tasks like strategic planning",
+    "explanation": "The matrix's key insight: most people get trapped in Urgent/Important quadrant (crises). The Important/Not Urgent quadrant (planning, relationships, health) drives long-term success but requires deliberate effort."
+  },
+  {
+    "question": "Present Bias",
+    "content": "Present bias is the tendency to overvalue immediate rewards at the expense of future benefits. It explains procrastination and poor long-term choices despite knowing better.",
+    "description": "You know saving $500/month for retirement is wise, but you spend it on dining out instead. This best illustrates:",
+    "options": [
+      "Loss aversion - you hate losing dining experiences",
+      "Present bias - immediate pleasure outweighs distant future benefit",
+      "Sunk cost - you already invested in cooking equipment",
+      "Anchoring - you anchored to a high dining budget"
+    ],
+    "answer": "Present bias - immediate pleasure outweighs distant future benefit",
+    "explanation": "Present bias makes today's enjoyment feel more salient than abstract future benefits. Evolution wired us to prioritize immediate rewards over delayed gratification, which hurts long-term goals like saving."
+  },
+  {
+    "question": "Paradox of Choice",
+    "content": "The Paradox of Choice states that while some choice is good, too many options lead to anxiety, decision paralysis, and lower satisfaction with whatever is chosen.",
+    "description": "A store offers 50 varieties of jam. Shoppers stop to look but few buy. When the store reduces to 6 varieties, sales increase. This demonstrates:",
+    "options": [
+      "Shoppers prefer less variety in general",
+      "The Paradox of Choice - too many options overwhelm and paralyze",
+      "The store lowered prices with fewer options",
+      "The 50 varieties were low quality"
+    ],
+    "answer": "The Paradox of Choice - too many options overwhelm and paralyze",
+    "explanation": "More options create higher expectations and fear of making the wrong choice, leading to paralysis (no purchase) or post-choice regret. Fewer options make decisions easier and increase satisfaction."
+  },
+  {
+    "question": "Decision Fatigue",
+    "content": "Decision fatigue is the deteriorating quality of decisions after a long session of decision-making. The brain's energy for making choices depletes over time.",
+    "description": "Judges are more likely to grant parole early in the day than after lunch. This pattern is best explained by:",
+    "options": [
+      "Judges are lazier in the afternoon",
+      "Decision fatigue - mental resources deplete over repeated decisions",
+      "Morning cases are more deserving of parole",
+      "Lawyers present better arguments in the morning"
+    ],
+    "answer": "Decision fatigue - mental resources deplete over repeated decisions",
+    "explanation": "Each parole decision consumes mental energy. As judges experience decision fatigue, their brains default to the safer option (denying parole) to conserve effort. This is why structuring important decisions early matters."
+  },
+  {
+    "question": "Hick's Law",
+    "content": "Hick's Law states that the time it takes to make a decision increases logarithmically with the number of choices. More options mean slower decisions.",
+    "description": "A restaurant menu with 100 items takes longer to order from than one with 15 items because:",
+    "options": [
+      "The food quality is lower with more items",
+      "Hick's Law - decision time increases with more choices",
+      "Customers read slower on longer menus",
+      "Chefs take longer to cook with more options"
+    ],
+    "answer": "Hick's Law - decision time increases with more choices",
+    "explanation": "Hick's Law: decision time = a + b * log2(n) where n is number of choices. Each additional option adds evaluation time, though the logarithmic relationship means initial additions matter most."
+  },
+  {
+    "question": "Bike-Shedding",
+    "content": "Bike-shedding (or Parkinson's Law of Triviality) is the tendency to spend disproportionate time on trivial, easy-to-understand issues while neglecting complex, important ones.",
+    "description": "A board spends 30 minutes approving a $10 million reactor design but 2 hours debating the color of the bike shed. This is:",
+    "options": [
+      "Reasonable - aesthetics matter for employee morale",
+      "Bike-shedding - trivial issues get more attention because everyone has an opinion",
+      "The reactor design was already perfect",
+      "The board members have expertise in paint colors"
+    ],
+    "answer": "Bike-shedding - trivial issues get more attention because everyone has an opinion",
+    "explanation": "Bike-shedding: people avoid complex topics they don't fully understand. Instead, they focus on trivial issues where everyone can contribute an opinion, wasting time on low-impact decisions."
+  },
+  {
+    "question": "Satisficing vs Maximizing",
+    "content": "Satisficing means choosing the first option that meets your criteria (good enough). Maximizing means exhaustively searching for the absolute best option.",
+    "description": "When apartment hunting, a satisficer visits 3 places and picks one that meets needs. A maximizer visits 15, researches for weeks, and still wonders if something better exists. The maximizer often ends up:",
+    "options": [
+      "Happier because they found the objectively best apartment",
+      "Less satisfied due to higher regret and opportunity cost of time",
+      "Saving money from thorough comparison shopping",
+      "Finding the exact same apartment as the satisficer"
+    ],
+    "answer": "Less satisfied due to higher regret and opportunity cost of time",
+    "explanation": "Research shows maximizers often feel less satisfied than satisficers because they invest more time, compare against unrealized alternatives, and experience more regret and counterfactual thinking."
+  },
+  {
+    "question": "Default Effect",
+    "content": "The default effect describes how people tend to stick with the pre-selected option when given a choice, even when a different option would be objectively better for them.",
+    "description": "Countries where organ donation is opt-out (you must actively decline) have donation rates above 90%. Countries where it is opt-in (you must actively sign up) have rates below 20%. This gap illustrates:",
+    "options": [
+      "Citizens in opt-out countries care more about organ donation",
+      "The default effect - people stick with the pre-set option due to inertia",
+      "Opt-out countries have better healthcare education",
+      "Religious beliefs differ between the countries"
+    ],
+    "answer": "The default effect - people stick with the pre-set option due to inertia",
+    "explanation": "The default effect leverages inertia and the status quo bias. People do not actively opt out even if they support donation, because changing the default requires effort and overcoming procrastination."
+  },
+  {
+    "question": "Regret Minimization Framework",
+    "content": "The Regret Minimization Framework asks: 'When I am 80 years old, will I regret doing this or not doing this more?' It cuts through analysis paralysis by focusing on long-term regret.",
+    "description": "You are considering quitting your stable job to start a business. Using the Regret Minimization Framework, you ask:",
+    "options": [
+      "What would maximize my income this year?",
+      "Will my 80-year-old self regret not trying this more than trying and failing?",
+      "What do my family and friends think I should do?",
+      "How much savings do I need for a comfortable life?"
+    ],
+    "answer": "Will my 80-year-old self regret not trying this more than trying and failing?",
+    "explanation": "The Regret Minimization Framework was popularized by Jeff Bezos when deciding to start Amazon. It reframes decisions from short-term risk to long-term regret, often revealing that the fear of not trying exceeds the fear of failure."
+  }
+]
