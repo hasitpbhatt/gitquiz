@@ -81,8 +81,8 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 .qc-options { display: flex; flex-direction: column; gap: 14px; width: 100%; }
 .qc-option {
     display: flex;
-    align-items: flex-start;
-    gap: 14px;
+    align-items: baseline;
+    gap: 12px;
     padding: 14px 20px;
     background: rgba(255,255,255,0.04);
     border: 1.5px solid rgba(255,255,255,0.08);
@@ -95,11 +95,10 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 }
 .qc-opt-letter {
     flex-shrink: 0;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 800;
     color: #60a5fa;
     min-width: 28px;
-    display: inline-block;
 }
 .qc-footer { margin-top: 40px; font-size: 14px; opacity: 0.4; }
 
