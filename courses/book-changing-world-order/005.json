@@ -1,0 +1,93 @@
+[
+  {
+    "question": "Five Types of War",
+    "content": "Dalio identifies five types of war between nations: military war, capital war, geopolitical war, technology war, and trade or economic war.",
+    "description": "Country A imposes tariffs on Country B's goods, restricts technology exports, freezes assets, expels diplomats, and deploys troops to a disputed border. How many types of war from Dalio's framework are occurring simultaneously?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "All five"
+    ],
+    "answer": "All five",
+    "explanation": "Tariffs = trade war, technology restrictions = tech war, asset freezes = capital war, diplomatic expulsions = geopolitical war, troops = military confrontation. All five types are present."
+  },
+  {
+    "question": "Rising vs. Established Power Dynamics",
+    "content": "The greatest risk of major conflict occurs when a rising power approaches parity with an established power, especially if their differences are existential and irreconcilable.",
+    "description": "An established global power has dominated for a century, but a rising power now matches it in economic output, technology, and military capability. Their political systems are fundamentally incompatible. According to Dalio, this situation carries:",
+    "options": [
+      "Low risk because both sides benefit from trade",
+      "Moderate risk that can be managed through diplomacy",
+      "The greatest risk of major conflict, as seen repeatedly in history",
+      "No risk because nuclear weapons prevent all wars"
+    ],
+    "answer": "The greatest risk of major conflict, as seen repeatedly in history",
+    "explanation": "Dalio shows that when a rising power nears parity with the established power and the two have irreconcilable differences, the historical track record for peaceful resolution is very poor."
+  },
+  {
+    "question": "The Transition Period",
+    "content": "The transition from one world order to another typically takes 10-20 years and is marked by conflict across multiple dimensions.",
+    "description": "A historian examines periods when global leadership shifted from one power to another. Common features include trade disputes, technological competition, proxy conflicts, and eventually direct confrontation. This period of turmoil typically lasts:",
+    "options": [
+      "1-2 years",
+      "5-10 years",
+      "10-20 years",
+      "50-100 years"
+    ],
+    "answer": "10-20 years",
+    "explanation": "Dalio's research shows that the transition period when a new world order replaces an old one typically spans one to two decades of intensifying conflict before a new equilibrium emerges."
+  },
+  {
+    "question": "Two Certainties About War",
+    "content": "Dalio states: war will not go as planned, and it will be far worse than imagined. Leaders who assume they can control the outcome are typically proven wrong.",
+    "description": "A country's leaders confidently predict a short victorious war against a neighboring power. Two years later, the war has cost far more than expected, produced unexpected consequences, and shows no sign of ending. This outcome illustrates Dalio's two certainties about war:",
+    "options": [
+      "War always favors the larger nation",
+      "War will not go as planned and will be worse than imagined",
+      "War can be won with superior technology alone",
+      "War outcomes are determined by international law"
+    ],
+    "answer": "War will not go as planned and will be worse than imagined",
+    "explanation": "Dalio's study of history shows this pattern repeats: leaders enter wars expecting quick, manageable victories, but wars invariably spiral beyond initial expectations in cost, duration, and destructiveness."
+  },
+  {
+    "question": "Capital Wars",
+    "content": "Capital wars involve economic sanctions, asset freezes, and restrictions on financial flows. They have become more common as direct military conflict has become costlier.",
+    "description": "A rising power targets an established rival by freezing its central bank's foreign assets, restricting its access to the global payments system, and imposing sanctions on its key industries. This is best described as:",
+    "options": [
+      "A trade war",
+      "A capital war",
+      "A military war",
+      "A diplomatic dispute"
+    ],
+    "answer": "A capital war",
+    "explanation": "Capital wars use financial tools as weapons. Dalio notes they have grown more prominent in recent decades and are often a precursor to more direct forms of conflict."
+  },
+  {
+    "question": "Win-Win vs. Lose-Lose Relationships",
+    "content": "Relationships between nations are cyclical. During good times, win-win cooperation prevails. During periods of scarcity or transition, relationships shift toward lose-lose competition.",
+    "description": "Two countries trade extensively and cooperate on technology development for decades. As the global economy slows and one country rises while the other declines, their relationship becomes adversarial. This illustrates:",
+    "options": [
+      "A failure of diplomacy",
+      "The cyclical nature of win-win vs. lose-lose relationships between nations",
+      "A permanent breakdown in international cooperation",
+      "Cultural incompatibility"
+    ],
+    "answer": "The cyclical nature of win-win vs. lose-lose relationships between nations",
+    "explanation": "Dalio emphasizes that win-win relationships are not permanent. They shift to lose-lose as resources become scarce and existential competition intensifies, especially during power transitions."
+  },
+  {
+    "question": "Military and Domestic Power",
+    "content": "Military strength depends on economic strength. A nation that runs out of money loses its ability to project military power, which in turn makes it vulnerable.",
+    "description": "A once-dominant empire takes on expensive military commitments around the world while its domestic economy stagnates. Eventually it cannot afford to maintain its forces, and its global influence collapses. This sequence shows how:",
+    "options": [
+      "Military spending is always beneficial",
+      "Military power depends on economic strength, and losing one leads to losing the other",
+      "Empires fall only due to external invasion",
+      "Military strength can be maintained indefinitely"
+    ],
+    "answer": "Military power depends on economic strength, and losing one leads to losing the other",
+    "explanation": "Dalio highlights this interdependence. A strong economy funds a strong military, which protects trade and resources, which in turn sustains the economy. When this cycle reverses, decline accelerates."
+  }
+]

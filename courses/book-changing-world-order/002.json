@@ -1,0 +1,93 @@
+[
+  {
+    "question": "The Five Forces",
+    "content": "Dalio identifies five major forces that drive the rise and fall of nations: debt and financial cycles, internal conflict, external conflict, acts of nature, and technology and innovation.",
+    "description": "A nation is experiencing rising debt levels, widening wealth inequality, a border dispute with a neighbor, a recent drought, and a slowdown in patent filings. How many of Dalio's five forces are actively affecting this nation?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "All five"
+    ],
+    "answer": "All five",
+    "explanation": "Debt (financial), wealth gaps (internal conflict), border dispute (external conflict), drought (act of nature), and declining patents (technology) together cover all five forces Dalio identifies."
+  },
+  {
+    "question": "Debt and Financial Cycles",
+    "content": "Debt cycles operate at multiple time scales: short-term debt cycles of roughly 8 years, and long-term debt cycles of roughly 50-100 years. When central banks cut rates to zero and still cannot stimulate, the long-term debt cycle has reached its end.",
+    "description": "A central bank has lowered interest rates to zero, yet the economy remains stagnant. The central bank begins printing money to buy government bonds and other assets. According to Dalio, this signals:",
+    "options": [
+      "A normal recession that will self-correct",
+      "The end of the long-term debt cycle",
+      "A temporary liquidity crisis",
+      "An inflation problem"
+    ],
+    "answer": "The end of the long-term debt cycle",
+    "explanation": "When interest rates hit zero and printing money becomes the only tool left, Dalio considers this the terminal phase of the long-term debt cycle, similar to what happened in the 1930s."
+  },
+  {
+    "question": "Internal Conflict",
+    "content": "Internal conflict arises from the struggle over how wealth and power are created and distributed within a country. Large wealth and opportunity gaps are the primary drivers of internal disorder.",
+    "description": "A country has a small elite controlling most of the wealth while the middle class shrinks and poverty rises. Political discourse becomes increasingly hostile and trust in institutions declines. This situation best illustrates:",
+    "options": [
+      "A normal fluctuation in a healthy democracy",
+      "The buildup of internal conflict driven by wealth and opportunity gaps",
+      "A foreign influence operation",
+      "A media-induced panic"
+    ],
+    "answer": "The buildup of internal conflict driven by wealth and opportunity gaps",
+    "explanation": "Dalio emphasizes that when the system stops working for the majority, internal conflict escalates. Wealth and opportunity gaps are the most reliable leading indicators of internal disorder."
+  },
+  {
+    "question": "External Conflict",
+    "content": "External conflict occurs when nations compete over resources, influence, and power. It becomes most dangerous when a rising power threatens an established one.",
+    "description": "A dominant global power sees its share of world trade declining while a rival nation's share rises rapidly. The rival develops advanced technology and expands its military. According to Dalio, this situation creates:",
+    "options": [
+      "Mutual economic benefit through competition",
+      "A high risk of external conflict between the established and rising powers",
+      "Automatic balancing through international institutions",
+      "Peaceful coexistence due to nuclear deterrence"
+    ],
+    "answer": "A high risk of external conflict between the established and rising powers",
+    "explanation": "Dalio shows that when a rising power approaches parity with an established power across multiple determinants, the risk of conflict spikes. This pattern has repeated across all major power transitions in history."
+  },
+  {
+    "question": "Acts of Nature",
+    "content": "Environmental changes, natural disasters, pandemics, and climate shifts are external forces that can accelerate a nation's decline or catalyze its rise, depending on its resilience.",
+    "description": "Two neighboring countries experience the same severe drought. One has diversified agriculture, water reserves, and a flexible economy, while the other has mono-crop farming and no reserves. The drought devastates the second country but barely affects the first. This demonstrates how:",
+    "options": [
+      "Climate change affects all nations equally",
+      "Acts of nature amplify existing weaknesses and strengths",
+      "Natural disasters are the primary driver of national decline",
+      "Technology can eliminate all environmental risk"
+    ],
+    "answer": "Acts of nature amplify existing weaknesses and strengths",
+    "explanation": "Dalio treats acts of nature as a force that interacts with a nation's other determinants. A resilient nation absorbs shocks; a vulnerable one can be broken by them."
+  },
+  {
+    "question": "Technology and Innovation",
+    "content": "Technology and innovation are the most powerful forces for raising living standards and national power over the long run. They drive productivity, which is the ultimate source of wealth.",
+    "description": "A poor nation with limited natural resources invests heavily in education and builds a culture of innovation. Within two generations, it becomes a global leader in multiple industries. This story best illustrates:",
+    "options": [
+      "The advantage of natural resource wealth",
+      "Technology and innovation as the primary driver of rising national power",
+      "The importance of military strength",
+      "The role of geographic location in national success"
+    ],
+    "answer": "Technology and innovation as the primary driver of rising national power",
+    "explanation": "Dalio ranks innovation and technology among the top determinants because they drive productivity growth, which compounds over time and enables a nation to outcompete rivals across all other dimensions."
+  },
+  {
+    "question": "Human Inventiveness",
+    "content": "Dalio believes that humanity's innate drive to progress and invent is what gives history its net positive trajectory despite the destructive cycles.",
+    "description": "Despite wars, depressions, and pandemics, the world today has lower poverty, longer life expectancy, and more advanced medicine than any prior era. According to Dalio, this is because:",
+    "options": [
+      "Each cycle leaves behind net gains through human inventiveness",
+      "Modern political systems are fundamentally better",
+      "Natural resources have become more abundant over time",
+      "Population growth creates more innovators automatically"
+    ],
+    "answer": "Each cycle leaves behind net gains through human inventiveness",
+    "explanation": "Dalio argues that while cycles bring destruction, the evolutionary process of inventiveness and learning means each cycle builds on the last, creating a long-term upward trajectory."
+  }
+]

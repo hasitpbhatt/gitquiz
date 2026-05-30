@@ -1,0 +1,93 @@
+[
+  {
+    "question": "The Six Stages of the Internal Cycle",
+    "content": "The internal order cycle has six stages: New Order Begins, Building Phase, Peace and Prosperity, Period of Excess, Bad Finances and Conflicts, and Revolution.",
+    "description": "A country has just emerged from a civil war. A new leadership consolidates power, removes loyalists of the former regime, and begins rebuilding institutions. According to Dalio, this country is in which stage of the internal cycle?",
+    "options": [
+      "Stage 1: A New Order Begins",
+      "Stage 3: Peace and Prosperity",
+      "Stage 5: Bad Finances and Conflicts",
+      "Stage 6: Revolution"
+    ],
+    "answer": "Stage 1: A New Order Begins",
+    "explanation": "The New Order Begins stage follows a revolution or civil war. The new leadership establishes control, purges the old guard, and lays the foundation for the next building phase."
+  },
+  {
+    "question": "The Building Phase",
+    "content": "In the Building Phase, a new system produces prosperity for most people, especially the large middle class. Debt is low and used strategically for growth. Education and infrastructure improve.",
+    "description": "A post-war nation experiences decades of rapid growth. The middle class expands, schools improve, roads and ports are built, and debt remains manageable. This period corresponds to which internal cycle stage?",
+    "options": [
+      "Stage 6: Revolution",
+      "Stage 2: The Building Phase",
+      "Stage 4: The Period of Excess",
+      "Stage 5: Bad Finances and Conflicts"
+    ],
+    "answer": "Stage 2: The Building Phase",
+    "explanation": "The Building Phase is the most constructive period of the cycle. Strong leadership, national unity, and productive investment create broad-based prosperity and set the stage for the golden age that follows."
+  },
+  {
+    "question": "The Period of Excess",
+    "content": "In the Period of Excess, wealth and opportunity gaps widen, debt-fueled consumption replaces productive investment, and the nation's competitiveness declines. Bubbles form in financial markets.",
+    "description": "A wealthy nation sees its richest 1% capturing most economic gains while median incomes stagnate. People borrow to maintain their lifestyle. Luxury spending rises but investment in research and infrastructure falls. This describes:",
+    "options": [
+      "Stage 2: The Building Phase",
+      "Stage 3: Peace and Prosperity",
+      "Stage 4: The Period of Excess",
+      "Stage 6: Revolution"
+    ],
+    "answer": "Stage 4: The Period of Excess",
+    "explanation": "The Period of Excess is characterized by widening inequality, financial bubbles, and a shift from productive investment to consumption. These conditions plant the seeds for the next downturn."
+  },
+  {
+    "question": "Bad Finances and Conflicts",
+    "content": "Stage 5 combines three toxic conditions: a severe negative economic shock, large socioeconomic and value differences, and both the country and its people in bad financial shape.",
+    "description": "A country experiences a financial crisis, its population is deeply divided along political and economic lines, and both the government and households carry heavy debt loads. Davio would identify this as:",
+    "options": [
+      "Stage 2: The Building Phase challenges",
+      "Stage 5: Bad Finances and Conflicts",
+      "A normal recession in a healthy cycle",
+      "The end of the external cycle"
+    ],
+    "answer": "Stage 5: Bad Finances and Conflicts",
+    "explanation": "Dalio identifies Stage 5 as the most dangerous period before outright revolution. The combination of economic shock, social division, and financial weakness creates conditions that can lead to civil war."
+  },
+  {
+    "question": "Revolution",
+    "content": "When the system stops working for the majority, a revolution ensues and changes the system. Civil wars always end up happening under certain conditions, not as a surprise but as a predictable outcome.",
+    "description": "A historian notes that before a major civil war, the following were all present: extreme wealth concentration, a government unable to address grievances, and a large population suffering economic hardship. Dalio would argue this revolution was:",
+    "options": [
+      "A random unpredictable event",
+      "The predictable Stage 6 outcome when Stage 5 conditions are severe enough",
+      "Caused entirely by foreign interference",
+      "Preventable with better communication"
+    ],
+    "answer": "The predictable Stage 6 outcome when Stage 5 conditions are severe enough",
+    "explanation": "Dalio emphasizes that revolutions do not come out of nowhere. They are the culmination of the internal cycle. When the system ceases to function for most people, a new order eventually replaces it through conflict."
+  },
+  {
+    "question": "Bureaucracy as a Sign of Decline",
+    "content": "As time passes, systems become more complex and bureaucracy increases. It becomes a problem when it stands in the way of productive action, signaling that the system is aging.",
+    "description": "A once-dynamic country now requires years of permits and approvals to build infrastructure. Regulations multiply, and it becomes easier to block projects than to start them. Dalio would interpret this as:",
+    "options": [
+      "A sign of a mature responsible government",
+      "A natural development that has no impact on national power",
+      "Bureaucracy slowing the system, consistent with a maturing or declining cycle",
+      "An improvement in democratic accountability"
+    ],
+    "answer": "Bureaucracy slowing the system, consistent with a maturing or declining cycle",
+    "explanation": "Dalio notes that bureaucracy inevitably grows as nations age. When it begins to impede rather than enable, it contributes to declining competitiveness, which is a key indicator of a nation's movement through the Big Cycle."
+  },
+  {
+    "question": "Leadership Quality and Cycles",
+    "content": "The quality of leadership tends to correlate with the stage of the cycle. Strong, capable leaders emerge during building phases, while weak or divisive leaders are more common during periods of decline.",
+    "description": "A nation in its building phase has visionary leaders who unite the country and drive progress. A century later, the same nation has leaders who focus on short-term gains, avoid hard choices, and deepen divisions. Dalio would explain this as:",
+    "options": [
+      "A decline in the gene pool of leaders",
+      "The cycle of leadership quality corresponding to the internal cycle stage",
+      "A random fluctuation in talent distribution",
+      "The result of a different electoral system"
+    ],
+    "answer": "The cycle of leadership quality corresponding to the internal cycle stage",
+    "explanation": "Dalio observes that leadership quality correlates with cycle stage. In the building phase, conditions produce and reward effective leaders. In the declining phase, the system elevates leaders who serve narrow interests rather than the common good."
+  }
+]

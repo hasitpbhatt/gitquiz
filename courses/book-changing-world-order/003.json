@@ -1,0 +1,93 @@
+[
+  {
+    "question": "The Money, Credit, and Debt Cycle",
+    "content": "Money, credit, and debt are inextricably linked. Credit allows spending power to be pulled forward, creating economic expansion, but debt must eventually be repaid, causing contractions.",
+    "description": "A nation experiences a decades-long expansion fueled by rising debt. Eventually, debt burdens become unsustainable, credit contracts, and the economy enters a prolonged depression. This sequence describes:",
+    "options": [
+      "A typical short-term business cycle correction",
+      "The long-term money, credit, and debt cycle",
+      "A currency crisis",
+      "A trade deficit problem"
+    ],
+    "answer": "The long-term money, credit, and debt cycle",
+    "explanation": "Dalio explains that the long-term debt cycle spans multiple generations. Debt accumulates over decades until it cannot be serviced with normal income, forcing a restructuring or monetization."
+  },
+  {
+    "question": "Reserve Currency Status",
+    "content": "A reserve currency is a currency held by foreign governments and institutions as part of their foreign exchange reserves. Having the world's reserve currency gives a nation enormous advantages, including the ability to borrow at lower cost and to pay foreign debts in its own currency.",
+    "description": "A country's currency is used in international trade, held by central banks worldwide, and its government bonds are considered the safest assets globally. This country enjoys lower borrowing costs and can run larger trade deficits than other nations. According to Dalio, this country holds:",
+    "options": [
+      "A trade surplus",
+      "Reserve currency status",
+      "A fixed exchange rate regime",
+      "Commodity-based money"
+    ],
+    "answer": "Reserve currency status",
+    "explanation": "Reserve currency status is the most powerful but also most precarious position for a nation. Dalio notes that every reserve currency in history has eventually lost that status, typically over a period of decades."
+  },
+  {
+    "question": "The Lifecycle of a Reserve Currency",
+    "content": "Reserve currencies follow a predictable lifecycle: a nation rises through productivity and trade, its currency becomes widely used, debt accumulates, overextension occurs, and eventually the currency is devalued or replaced.",
+    "description": "A historian studying the Dutch guilder, British pound, and US dollar notices each followed a similar arc: first the nation dominated trade, then its currency became the global standard, then it borrowed excessively, and finally its currency was devalued. This pattern is known as:",
+    "options": [
+      "The currency depreciation cycle",
+      "The reserve currency lifecycle",
+      "The gold standard mechanism",
+      "The Mundell-Fleming trilemma"
+    ],
+    "answer": "The reserve currency lifecycle",
+    "explanation": "Dalio documents this pattern across all major reserve currencies. On average, reserve currency status lasts approximately 100 years before erosion begins."
+  },
+  {
+    "question": "Inflation and Currency Debasement",
+    "content": "When a country's debts become too large to repay with real economic growth, governments and central banks often resort to printing money, which debases the currency and transfers wealth from savers to borrowers.",
+    "description": "A government faces massive debts it cannot repay through taxes or growth. Its central bank begins creating new money to buy government bonds. Savers find that their purchasing power erodes year after year. This process is called:",
+    "options": [
+      "Monetary tightening",
+      "Fiscal austerity",
+      "Currency debasement",
+      "Capital formation"
+    ],
+    "answer": "Currency debasement",
+    "explanation": "Dalio identifies currency debasement as a common response to unsustainable debt. It is effectively a hidden tax on savers and a key mechanism through which empires lose their economic strength."
+  },
+  {
+    "question": "The Three Risks of Investing",
+    "content": "Dalio identifies three fundamental risks every investor faces: the risk that their investment will be seized or taxed away, the risk that it will lose value in a market crash, and the risk that it will not generate sufficient real returns after inflation.",
+    "description": "A wealthy family wants to preserve their assets across generations. They worry about: high taxes and potential seizure, stock market crashes, and inflation eroding their purchasing power. Dalio would say these concerns cover:",
+    "options": [
+      "Only market risk",
+      "All three fundamental risks of investing",
+      "Tax risk only",
+      "Inflation risk only"
+    ],
+    "answer": "All three fundamental risks of investing",
+    "explanation": "Dalio frames all investment risk into these three categories. A robust strategy, he argues, must address all three, especially during Big Cycle transitions when all three can materialize simultaneously."
+  },
+  {
+    "question": "Printing Money and Debt Restructuring",
+    "content": "When a country's debt burden becomes unbearable, central banks print money to buy debt, effectively monetizing it. This relieves immediate pressure but hurts currency value and punishes savers.",
+    "description": "A country's debt-to-GDP ratio has exceeded 130%. The central bank begins a program of quantitative easing, buying government bonds with newly created money. According to Dalio, this action is:",
+    "options": [
+      "A sign of sound monetary policy",
+      "An indication that the long-term debt cycle is nearing its end",
+      "A temporary measure with no long-term consequences",
+      "A return to the gold standard"
+    ],
+    "answer": "An indication that the long-term debt cycle is nearing its end",
+    "explanation": "Dalio views large-scale money printing as a hallmark of the late stage of the long-term debt cycle. It postpones a day of reckoning but erodes the currency and sets the stage for a new world order."
+  },
+  {
+    "question": "Credit as a Double-Edged Sword",
+    "content": "Credit enables growth by allowing spending ahead of income, but it also creates obligations that must be repaid. Used productively, it funds investments that generate future income; used unproductively, it creates unsustainable debt burdens.",
+    "description": "Two startups both take out loans. One uses the loan to build a factory that generates profits; the other uses it to throw lavish parties and pay salaries without generating revenue. Dalio would describe the first as using credit productively and the second as:",
+    "options": [
+      "Investing in marketing",
+      "Creating unsustainable debt",
+      "Building brand awareness",
+      "Bootstrapping responsibly"
+    ],
+    "answer": "Creating unsustainable debt",
+    "explanation": "Dalio emphasizes that the key difference between good and bad debt is whether it finances productive capacity that generates the income to repay it. Unproductive debt accumulation is what eventually causes the long-term debt cycle to turn."
+  }
+]
