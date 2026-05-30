@@ -18,18 +18,22 @@ Use this skill when you:
 
 ## Skill Workflow
 
-### 1. Analyze the Book Content
-- Identify key concepts, principles, or models from the book
+### 1. Create a Concept Inventory
+
+Before writing any questions, build a complete inventory of concepts from the source material:
+- Get the book's full table of contents (TOC) from official sources
+- For each chapter, list the key principles, models, case studies, and frameworks
+- Note any foundational anecdotes (e.g., British Cycling story, Paper Clip Strategy) that anchor key concepts - these make good scenario material
+- Use this inventory as a checklist: every concept gets at least one quiz question
 - Group related concepts into logical chapters. Do not sacrifice conceptual coverage for an arbitrary chapter count; create as many chapters as needed to cover all key concepts from the source material.
-- For each concept, identify a real-world scenario that illustrates it and aids learning
 
-### 2. If Course Exists: Audit Before Enriching
+### 2. Audit Before Creating (New or Rewrite)
 
-When **improving an existing course** (e.g., user says "this isn't satisfying, upgrade it"):
-- Read all existing chapter files and list every concept already covered
-- Map concepts against the source material's full table of contents to identify gaps
-- **Then decide**: does the missing concept fit thematically into an existing chapter? Add it there to keep chapters cohesive. Otherwise create a new chapter file (009.json, 010.json, etc.)
-- Update the courses list only if creating a completely new course (existing courses stay listed)
+Whether creating from scratch or enriching an existing course:
+- **For a rewrite**: Read the full source TOC and build the concept inventory (Step 1). You do not need to re-read old quiz files unless you want to salvage specific scenarios.
+- **For enrichment**: Read all existing chapter files and map concepts against the source TOC to identify gaps.
+- **Then decide**: does the missing concept fit thematically into an existing chapter? Add it there to keep chapters cohesive. Otherwise create a new chapter file.
+- Update the courses list only if creating a completely new course (existing courses stay listed).
 - **Key**: Concept density per chapter should not exceed 12 questions. If adding would push past 12, create a new chapter instead.
 
 ### 3. Present a Plan for Approval
@@ -98,15 +102,23 @@ Add your course identifier to `courses/courses_list.txt` in alphabetical positio
 
 ### 8. Quality Check
 Before completing:
-- [ ] All JSON files are valid (parseable, no duplicate keys)
-- [ ] Run `node -e "JSON.parse(require('fs').readFileSync('FILE'))"` on each JSON file
-- [ ] Each chapter has 7-12 questions
+
+Field-level checks (every question):
+- [ ] Every question has all five required fields: `question`, `content`, `description`, `options` (array of 4), `answer`, `explanation` (watch for typos like `"context"` instead of `"content"`)
+- [ ] `answer` text matches exactly one entry in `options` (watch for typos: "unpredictable" vs "unexpected")
 - [ ] Options are mutually exclusive
 - [ ] No option references other options by position (grep for `"Both [A-D]`, `"All of the above`, `[A-D] & [A-D]`)
-- [ ] Answer matches exactly one option
 - [ ] Explanations teach, don't just state
-- [ ] Courses list is alphabetically sorted
+
+File-level checks:
+- [ ] All JSON files are valid (parseable, no duplicate keys)
+- [ ] Each chapter has 7-12 questions
 - [ ] File naming uses 001.json, 002.json format
+- [ ] Courses list is alphabetically sorted
+
+Post-creation gap analysis:
+- [ ] Every concept from the inventory (Step 1) has at least one question
+- [ ] Key case studies from the source material appear as scenarios or concepts
 - [ ] For enrichment: added concepts fit thematically in their chapter, chapter does not exceed 12 questions
 
 ## Reusable Scripts
@@ -128,6 +140,33 @@ console.log('001.json: ' + d.length + ' questions');
 ```
 **CRITICAL**: Avoid contractions (use "does not" instead of "doesn't", "cannot" instead of "can't", "will not" instead of "won't") in the inline script, or escape them for PowerShell. Alternatively, write a `.js` file to disk first and run with Node.
 
+### Generator Script for Multi-Chapter Courses
+
+For courses with 5+ chapters, write a single `.js` file that generates all chapters at once. This avoids repeated PowerShell calls and makes it easy to spot-check consistency across chapters:
+
+```javascript
+// gen_course.js
+const fs = require('fs');
+const DIR = 'courses/course-identifier';
+
+// Write one chapter
+function writeChapter(num, questions) {
+  const file = DIR + '/' + String(num).padStart(3, '0') + '.json';
+  fs.writeFileSync(file, JSON.stringify(questions, null, 2), 'utf8');
+  console.log(String(num).padStart(3, '0') + '.json: ' + questions.length + ' questions');
+}
+
+// Chapter 1
+writeChapter(1, [
+  { question: 'Concept Name', content: '...', description: '...?', options: ['A','B','C','D'], answer: 'D', explanation: '...' }
+  // ... more questions
+]);
+
+// Chapter 2, 3, etc.
+```
+
+**Advantages**: single file, easy to preview all data, no PowerShell escaping issues, write all files in one `node gen_course.js` command.
+
 ### File Creation via Temp Script (for large data)
 
 When the data is large, write a JS file first to avoid PowerShell command-length limits:
@@ -143,28 +182,36 @@ node "$env:TEMP\gen_chapter.js"
 
 ### Comprehensive Validation Script
 
-Validates all requirements in one command:
+Validates all requirements in one command. Edit the `dir` variable to point to your course directory:
 ```bash
 node -e "
 const fs=require('fs');
 const dir='courses/course-identifier';
 const files=fs.readdirSync(dir).filter(f=>f.endsWith('.json')).sort();
 let total=0,errs=[];
+const REQUIRED_FIELDS=['question','content','description','options','answer','explanation'];
 console.log('=== FILE NAMING ===');
 files.forEach(f=>console.log(f.match(/^\d{3}\.json$/)?'  OK: '+f:'  BAD: '+f));
 console.log('=== QUESTION COUNTS ===');
 files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));total+=d.length;console.log('  '+f+': '+d.length+' q');if(d.length<7||d.length>12)errs.push(f+' has '+d.length+' questions')});
 console.log('Total: '+total);
+console.log('=== FIELD CHECK ===');
+files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));d.forEach((q,i)=>{REQUIRED_FIELDS.forEach(fld=>{if(!(fld in q))errs.push(f+' Q'+(i+1)+': missing field \"'+fld+'\"')})})});
 console.log('=== ANSWER/OPTION CHECK ===');
-files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));d.forEach((q,i)=>{if(!q.options.includes(q.answer))errs.push(f+' Q'+(i+1)+': answer not in options');if(q.options.length!==4)errs.push(f+' Q'+(i+1)+': has '+q.options.length+' options')})});
+files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));d.forEach((q,i)=>{if(!q.options.includes(q.answer))errs.push(f+' Q'+(i+1)+': answer not in options. Answer: '+q.answer);if(q.options.length!==4)errs.push(f+' Q'+(i+1)+': has '+q.options.length+' options')})});
+console.log('=== POSITIONAL REF CHECK (case-sensitive, flags uppercase only) ===');
+files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));d.forEach((q,i)=>{q.options.forEach(o=>{if(o.match(/(Both [A-D]\b|All of the above\b|[A-D]\s*&\s*[A-D]\b)/))errs.push(f+' Q'+(i+1)+': positional ref: '+o)})})});
 console.log('=== COURSES LIST SORT ===');
-const lines=fs.readFileSync('courses/courses_list.txt','utf8').trim().split('\r\n');
+const lines=fs.readFileSync('courses/courses_list.txt','utf8').trim().split(/\r?\n/);
 const sorted=[...lines].sort();
-lines.forEach((l,i)=>{if(l!==sorted[i])errs.push('courses_list.txt not sorted at line '+(i+1))});
+lines.forEach((l,i)=>{if(l!==sorted[i])errs.push('courses_list.txt not sorted at line '+(i+1)+': '+l)});
+console.log('Course list has '+lines.length+' entries');
 if(errs.length>0){errs.forEach(e=>console.log('ERROR: '+e));process.exit(1)}
-else console.log('ALL CHECKS PASSED');
+else console.log('=== ALL CHECKS PASSED ===');
 "
 ```
+
+**Note on the positional ref regex**: This uses a case-sensitive match in the Node.js script (no `/i` flag) so only uppercase option letters like "Both A and B" or "A & C" are caught. Common English words like "Both are" or "Both do" (lowercase) will not trigger false positives. The PowerShell `Select-String` version on Windows is case-insensitive by default and may still generate false positives; add `-CaseSensitive` flag to suppress them.
 
 ## Technical Learnings
 
@@ -175,6 +222,7 @@ PowerShell's `Set-Content -Encoding UTF8` prepends a BOM (Byte Order Mark) to th
 - **`rg` (ripgrep)** is not available on Windows by default. Use **`Select-String`** instead.
 - **`sort -c`** is not available in PowerShell. Compare against sorted copy instead.
 - **`mkdir -p`** works in PowerShell 5.1 as an alias for `New-Item`.
+- **`Remove-Item -LiteralPath` vs `-Path`**: `-LiteralPath` does not support wildcards. Use `-Path` for glob patterns like `Remove-Item -Path "courses/*.json"`.
 
 ### Scenario Design Patterns
 Use these real-life scenario categories to create engaging questions:
@@ -184,6 +232,23 @@ Use these real-life scenario categories to create engaging questions:
 - **Creative**: Writing, painting, design, comedy, music improvisation
 - **Social**: Networking, dating, parenting, team collaboration
 - **Business**: Startups, investing, product launches, marketing
+
+### Cleanup Strategy for Rewrites
+When rewriting an existing course from scratch, remove old files before creating new ones:
+```powershell
+# Delete all JSON files in the course directory
+Remove-Item -Path "courses/course-identifier/*.json"
+```
+Use `-Path` (not `-LiteralPath`) to enable wildcard matching. Then create new 001.json, 002.json, etc. Old files are tracked in git and can be recovered if needed.
+
+### Answer String Matching
+The most common error after generation is answer text not matching the option text exactly. Common causes:
+- **Synonym mismatch**: option says "unpredictable" but answer says "unexpected"
+- **Punctuation**: option ends with a period but answer does not
+- **Capitalization**: option starts with uppercase but answer uses lowercase
+- **Whitespace**: trailing spaces in one but not the other
+
+Always let the validation script catch these before committing. A simple way to create matching pairs: copy-paste the option string directly into the answer field.
 
 ### Escaping Strategy
 When embedding JSON in PowerShell `node -e "..."` commands:
