@@ -43,25 +43,25 @@
     "content": "Not all information from your network is equal. To get good intelligence, you must account for the perspective and potential bias of the person giving it. Successful professionals learn to 'triangulate' information by comparing what different sources say.",
     "description": "A friend tells you that 'everyone' is leaving a certain company. How do you triangulate this information?",
     "options": [
-      "Assume your friend is right and tell everyone else the news",
-      "Check the LinkedIn profiles of other people at that company to see if there is a pattern of recent departures",
+      "Assume your friend is right and tell everyone else to avoid the restaurant",
+      "Check recent online reviews and ask a few other friends who went there recently",
       "Ignore the information because it's probably just gossip",
-      "Call the CEO of that company and ask if they are failing"
+      "Call the restaurant owner and ask if their quality has dropped"
     ],
-    "answer": "Check the LinkedIn profiles of other people at that company to see if there is a pattern of recent departures",
+    "answer": "Check recent online reviews and ask a few other friends who went there recently",
     "explanation": "Triangulation involves verifying 'soft' intelligence with 'hard' data or other independent sources to ensure the information is reliable."
   },
   {
     "question": "Reaching Out to 'Weak Ties'",
     "content": "As discussed in earlier chapters, 'weak ties' (acquaintances) are often better sources of new intelligence than close friends. This is because they live in different 'information bubbles' and have access to data that your close circle does not.",
-    "description": "You want to learn about the market for sustainable tech in Europe. Who is the best person to reach out to for intelligence?",
+    "description": "You want to learn about organic permaculture gardening techniques. Who is the best person to reach out to for intelligence?",
     "options": [
-      "Your current office deskmate",
-      "An old college acquaintance who now works for a German engineering firm",
-      "Your brother who works in local real estate",
-      "A chatbot that summarizes Wikipedia articles"
+      "Your current next-door neighbor",
+      "An old college acquaintance who now runs a community-supported agriculture farm",
+      "Your cousin who works in corporate landscaping",
+      "A chatbot that summarizes gardening articles"
     ],
-    "answer": "An old college acquaintance who now works for a German engineering firm",
+    "answer": "An old college acquaintance who now runs a community-supported agriculture farm",
     "explanation": "The old acquaintance is a 'bridge' to a different network. They can provide specific, localized intelligence that your immediate circle simply doesn't have."
   },
   {

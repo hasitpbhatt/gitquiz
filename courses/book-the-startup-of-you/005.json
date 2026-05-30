@@ -15,14 +15,14 @@
   {
     "question": "The Role of Curiosity",
     "content": "Opportunities are rarely labeled 'Great Opportunity Here.' They often look like problems, weird requests, or side interests. Cultivating a sense of curiosity allows you to investigate these 'low-probability' leads that others might ignore.",
-    "description": "A colleague mentions a strange, unsolved bug in a minor product feature that everyone else has given up on. How should you approach this?",
+    "description": "You notice a strange, unidentified plant growing in your garden that none of your neighbors can identify. How should you approach this?",
     "options": [
       "Ignore it; it's not in your job description and seems like a waste of time",
-      "Spend some of your free time investigating it to understand the underlying system",
-      "Complain that the company should hire better engineers",
-      "Wait for your boss to assign it to you officially"
+      "Spend a weekend researching it and asking a local botanist to identify the species",
+      "Complain that the city should hire better gardeners",
+      "Wait for a gardening expert to show up and tell you what it is"
     ],
-    "answer": "Spend some of your free time investigating it to understand the underlying system",
+    "answer": "Spend a weekend researching it and asking a local botanist to identify the species",
     "explanation": "Curiosity often leads to 'hidden' opportunities. Solving a problem others couldn't can build your reputation and expertise in unexpected ways."
   },
   {
@@ -30,12 +30,12 @@
     "content": "Opportunities don't float around in a vacuum; they flow through networks of people and ideas. To find them, you must put yourself in 'the flow'—attending events, joining relevant online communities, and being where the action is.",
     "description": "If you want to transition into the renewable energy sector, what is the best way to get in 'the flow'?",
     "options": [
-      "Reading about solar panels alone in your room",
-      "Attending local industry meetups and engaging with professionals on LinkedIn",
-      "Applying to 100 jobs through a generic career site",
-      "Watching documentaries about climate change"
+      "Reading about pottery techniques alone in your living room",
+      "Attending local pottery studio open houses and engaging with artists on Instagram",
+      "Applying to 100 pottery studios through a generic job board",
+      "Watching documentaries about famous ceramicists"
     ],
-    "answer": "Attending local industry meetups and engaging with professionals on LinkedIn",
+    "answer": "Attending local pottery studio open houses and engaging with artists on Instagram",
     "explanation": "Opportunities are social. By being present where industry professionals gather and talk, you increase the chances of 'bumping into' a breakout lead."
   },
   {
@@ -93,14 +93,14 @@
   {
     "question": "The Concept of 'Soft' Opportunities",
     "content": "Not all opportunities are about a new job. 'Soft' opportunities—like an introduction to a mentor, access to a private community, or a piece of insider information—can be just as valuable in the long run.",
-    "description": "A contact offers to introduce you to a high-level executive in your field, but there is no job opening. Is this a valuable opportunity?",
+    "description": "A neighbor offers to introduce you to the leader of a local community garden project, but there is no paid position available. Is this a valuable opportunity?",
     "options": [
       "No, because it doesn't lead to an immediate paycheck",
-      "Yes, because the executive could become a mentor or provide 'network intelligence'",
+      "Yes, because the garden leader could become a mentor or connect you to the local food community",
       "No, because it's a waste of the executive's time",
-      "Only if the executive pays for the coffee"
+      "Only if the garden pays for your time"
     ],
-    "answer": "Yes, because the executive could become a mentor or provide 'network intelligence'",
+    "answer": "Yes, because the garden leader could become a mentor or connect you to the local food community",
     "explanation": "Soft opportunities build your 'assets' (connections and knowledge), which eventually lead to 'hard' opportunities like jobs or deals."
   },
   {

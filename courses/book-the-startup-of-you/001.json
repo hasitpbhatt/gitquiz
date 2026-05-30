@@ -2,14 +2,14 @@
   {
     "question": "The Concept of Permanent Beta",
     "content": "In the tech world, 'beta' refers to software that is nearly finished but still being tested. 'Permanent Beta' is a mindset that applies this to your career, suggesting that you should never consider yourself a finished product, but rather a constant work-in-progress regardless of your success.",
-    "description": "You have just received a glowing annual performance review and a promotion. If you are practicing the 'Permanent Beta' mindset, what is your next logical step?",
+    "description": "You have just finished building a complex bookshelf from scratch, and it turned out beautifully. If you practice the 'Permanent Beta' mindset, what do you do next?",
     "options": [
-      "Celebrate your mastery and shift your focus to maintaining the status quo",
-      "Update your skills and seek out a new challenge that you haven't mastered yet",
-      "Stop taking professional development courses since you have reached the top tier",
-      "Wait for your manager to tell you what the next goal should be"
+      "Celebrate your mastery and only build the same bookshelf design from now on",
+      "Start planning your next project with a technique you have not tried yet",
+      "Stop woodworking entirely since you have already proven yourself",
+      "Wait for someone to commission you before starting anything new"
     ],
-    "answer": "Update your skills and seek out a new challenge that you haven't mastered yet",
+    "answer": "Start planning your next project with a technique you have not tried yet",
     "explanation": "Permanent Beta means you are always starting. Achieving a goal is simply a platform to begin the next phase of learning and growth."
   },
   {
@@ -67,14 +67,14 @@
   {
     "question": "The Entrepreneurial Mindset",
     "content": "Being entrepreneurial isn't just about starting companies; it's a way of approaching problems. It involves seeing opportunities where others see obstacles and being willing to take calculated risks to create value.",
-    "description": "Your department’s budget has been cut, and a project is stalled. How does someone with an entrepreneurial mindset react?",
+    "description": "Your neighborhood association’s annual festival has lost its funding, and the event is at risk of being canceled. How does someone with an entrepreneurial mindset react?",
     "options": [
-      "They wait for the budget to be restored before doing any more work",
-      "They look for creative, low-cost ways to achieve the project goals or find internal partners to share the cost",
-      "They blame the finance department for the project's failure",
-      "They quit immediately because they don't have enough resources"
+      "Cancel the festival and wait for the city council to restore funding next year",
+      "Look for creative, low-cost alternatives like local sponsors and volunteer-run activities",
+      "Blame the city government for the festival's problems",
+      "Move out of the neighborhood because it clearly does not support community events"
     ],
-    "answer": "They look for creative, low-cost ways to achieve the project goals or find internal partners to share the cost",
+    "answer": "Look for creative, low-cost alternatives like local sponsors and volunteer-run activities",
     "explanation": "Entrepreneurs are resourceful. They focus on how to move forward with what they have rather than focusing on what they lack."
   },
   {
@@ -96,11 +96,11 @@
     "description": "You've launched a new internal process at work. It’s not going as well as you hoped. What should you do next?",
     "options": [
       "Hide the negative results so you don't look bad",
-      "Interview the people using the process to find out exactly where the friction is",
-      "Keep pushing the process until people get used to it",
-      "Abandon the project immediately and try something completely different"
+      "Ask your guests for honest feedback on what went wrong and how to improve it",
+      "Serve the same dish at every gathering until people develop a taste for it",
+      "Give up on cooking entirely and order takeout for every future party"
     ],
-    "answer": "Interview the people using the process to find out exactly where the friction is",
+    "answer": "Ask your guests for honest feedback on what went wrong and how to improve it",
     "explanation": "Getting direct feedback allows you to make precise adjustments, which is the core of the 'beta' testing phase."
   },
   {

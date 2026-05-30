@@ -5,11 +5,11 @@
     "description": "You have spent years mastering a specific coding language (Asset), but you find the work soul-crushing (Aspiration), and new AI tools are automating that specific code (Market Reality). What is the most 'Startup of You' response?",
     "options": [
       "Force yourself to keep going because you've already invested so much time in that asset",
-      "Pivot to a new role that uses your logic skills but aligns with your interest in AI oversight, where the market is growing",
+      "Pivot to nature and wildlife photography, which reignites your passion and serves a growing market",
       "Ignore your feelings and the market, and hope your boss doesn't notice the AI tools",
-      "Quit the tech industry entirely and move to your Plan Z immediately"
+      "Quit photography entirely and activate your Plan Z immediately"
     ],
-    "answer": "Pivot to a new role that uses your logic skills but aligns with your interest in AI oversight, where the market is growing",
+    "answer": "Pivot to nature and wildlife photography, which reignites your passion and serves a growing market",
     "explanation": "This move re-aligns your strategy by pivoting to a new asset (AI oversight) that matches both your curiosity and the changing market demand."
   },
   {
@@ -93,14 +93,14 @@
   {
     "question": "The Role of Curiosity in Innovation",
     "content": "Breakout opportunities often look like small, annoying problems or 'weird' niche interests. Curiosity is the tool that helps you investigate these areas before they become mainstream, giving you a 'first-mover' advantage.",
-    "description": "Everyone in your office is complaining about a new, confusing software tool. How does a curious professional respond?",
+    "description": "Everyone in your running club is complaining about a new, confusing GPS watch. How does a curious person respond?",
     "options": [
-      "Join the complaints to fit in with the team culture",
-      "Master the tool over the weekend and become the internal 'go-to' expert for it",
-      "Wait for the company to provide mandatory training",
-      "Ask the IT department to uninstall it"
+      "Join the complaints to fit in with the group",
+      "Master the watch over the weekend and become the group’s go-to expert on it",
+      "Wait for the watch manufacturer to offer a tutorial",
+      "Switch back to your old watch and ignore the new one"
     ],
-    "answer": "Master the tool over the weekend and become the internal 'go-to' expert for it",
+    "answer": "Master the watch over the weekend and become the group’s go-to expert on it",
     "explanation": "Turning a common 'pain point' into a personal 'asset' through curiosity is a classic way to create a competitive advantage."
   },
   {
@@ -121,12 +121,12 @@
     "content": "The ultimate competitive advantage in the 'Startup of You' is the speed at which you learn and adapt. If your 'feedback loop'—the time between trying something and learning from the result—is shorter than your competitors, you will eventually win.",
     "description": "How do you apply a 'fast feedback loop' to a career pivot into public speaking?",
     "options": [
-      "Spend a year writing a single perfect speech before showing it to anyone",
-      "Give a 5-minute talk at a small local meetup every week and ask for three critiques after each one",
-      "Read every book ever written about public speaking before standing on a stage",
-      "Watch famous speakers on YouTube and try to mimic their movements in front of a mirror"
+      "Spend a year music theory before touching the instrument",
+      "Learn one simple song each week and play it for a friend for immediate feedback",
+      "Read every method book about the instrument before playing a single note",
+      "Watch virtuosos on YouTube and try to mimic their finger movements in front of a mirror"
     ],
-    "answer": "Give a 5-minute talk at a small local meetup every week and ask for three critiques after each one",
+    "answer": "Learn one simple song each week and play it for a friend for immediate feedback",
     "explanation": "Action plus immediate feedback is the fastest way to learn. Multiple small 'beta' tests are superior to one large, untested 'launch.'"
   }
 ]
