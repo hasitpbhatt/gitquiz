@@ -88,6 +88,7 @@ Follow these content conventions for each field:
 - Later chapters: Integrated scenarios, advanced applications
 - Final chapters: Comprehensive review and advanced topics, minimizing redundancy
 - **Coverage first**: If the source material has significant gaps after grouping, create additional chapters. Conceptual coverage is more important than hitting a target chapter count.
+- **Scrutinize review-only chapters**: A chapter that purely repeats concepts already taught (without adding new material or novel integrations) should be deleted rather than kept. Review concepts can be naturally reinforced within the core chapter questions themselves.
 
 ### 6. Update Courses List
 Add your course identifier to `courses/courses_list.txt` in alphabetical position:
@@ -96,9 +97,24 @@ Add your course identifier to `courses/courses_list.txt` in alphabetical positio
 - Maintain strict alphabetical ordering
 
 ### 7. Maintain Scenario Diversity
-- Vary scenarios across multiple domains: professional (engineering, medicine, law), personal (parenting, relationships, health), creative (art, music, writing), social (community, politics, activism), and philosophical (science, spirituality, ethics)
+- Vary scenarios across multiple domains: professional (engineering, medicine, law), personal (parenting, relationships, health, family), creative (art, music, writing), social (community, small business, sports, activism), and philosophical (science, spirituality, ethics)
 - Avoid overusing workplace scenarios for every question - real life is broader than the office
 - Each scenario should feel authentic and relatable to a general audience
+
+#### 7a. The "Natural Fit" Heuristic for Diversification
+Not every concept translates well to every domain. Before changing a scenario, ask:
+- **Natural fit** — does the concept inherently apply to this domain? (e.g., "Shadow Loyalties" works for family, sports teams, AND corporate boards)
+- **Native domain** — is the concept fundamentally about organizational/system dynamics? (e.g., "Cross-Sector Orchestration" or "Supply Chain Scaling" — changing these would weaken the question)
+- **Force-fit test** — would the question make equal pedagogical sense after the change? If the scenario becomes confusing or inauthentic, leave it in its native domain.
+
+Only ~25-30% of questions typically benefit from diversification. The rest should stay where the concept naturally lives.
+
+#### 7b. Two-Pass Approach to Diversity
+Write all questions first with whatever scenarios come naturally. Then do a deliberate second pass:
+1. Read only the `description` fields sequentially
+2. For each, note the domain (corporate, personal, community, etc.)
+3. If 3+ consecutive questions are in the same domain, look for the best candidate to diversify
+4. Apply the natural-fit heuristic — only change if it strengthens the question
 
 ### 8. Quality Check
 Before completing:
@@ -120,6 +136,15 @@ Post-creation gap analysis:
 - [ ] Every concept from the inventory (Step 1) has at least one question
 - [ ] Key case studies from the source material appear as scenarios or concepts
 - [ ] For enrichment: added concepts fit thematically in their chapter, chapter does not exceed 12 questions
+
+Post-creation diversity audit:
+- [ ] Do a second pass reading only `description` fields — note the domain of each
+- [ ] If 50%+ of questions are in a single domain (especially corporate), diversify ~25-30% into other domains using the natural-fit heuristic
+- [ ] No scenario is force-fit — each change improves the question, not just changes it
+- [ ] Every chapter has at least one question that feels relatable to a non-professional audience
+
+Structural audit:
+- [ ] No review-only chapter exists that purely repeats earlier concepts without adding new material
 
 ## Reusable Scripts
 

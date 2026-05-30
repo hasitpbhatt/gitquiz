@@ -15,15 +15,15 @@
   {
     "question": "The Power of Persona",
     "content": "Assigning a 'persona' to an AI is one of the most effective ways to improve its performance. By telling the AI it is a 'harsh critic,' a 'supportive tutor,' or a 'logistics expert,' you are essentially narrowing its focus to a specific subset of its vast knowledge, leading to more relevant and professional output.",
-    "description": "You are trying to improve a business proposal. Which prompt uses the 'persona' concept most effectively?",
+    "description": "You are trying to improve a community grant proposal for a local park renovation. Which prompt uses the 'persona' concept most effectively?",
     "options": [
       "Check this proposal for grammar and spelling errors.",
       "Rewrite this proposal so it sounds better and is more professional.",
-      "Act as a cynical venture capitalist. Tear this proposal apart and find every logical weakness.",
-      "Make this proposal longer so it looks more impressive to the board."
+      "Act as a skeptical city council member. Tear this proposal apart and find every logical weakness.",
+      "Make this proposal longer so it looks more impressive to the committee."
     ],
-    "answer": "Act as a cynical venture capitalist. Tear this proposal apart and find every logical weakness.",
-    "explanation": "Giving the AI a specific, high-stakes persona (the VC) forces it to adopt a specific critical lens that a generic 'rewrite' request would miss."
+    "answer": "Act as a skeptical city council member. Tear this proposal apart and find every logical weakness.",
+    "explanation": "Giving the AI a specific, high-stakes persona (the council member) forces it to adopt a specific critical lens that a generic 'rewrite' request would miss."
   },
   {
     "question": "The IKEA Effect and AI",
@@ -80,14 +80,14 @@
   {
     "question": "Emotional Contagion",
     "content": "Research shows that humans can experience 'emotional contagion' with AI. If an AI uses urgent, panicked language, the human user becomes stressed. If it is calm and structured, the human performs better. Managing the AI’s 'emotional tone' is a key leadership skill in Co-Intelligence.",
-    "description": "As a manager using AI to draft an internal memo about a company crisis, why should you carefully instruct the AI to use a 'calm and resolute' tone?",
+    "description": "As a parent using AI to draft a message to other parents about a school safety incident, why should you carefully instruct the AI to use a 'calm and resolute' tone?",
     "options": [
       "To save the AI's processing power.",
-      "To prevent 'emotional contagion' where the AI's generated panic spreads to the staff.",
+      "To prevent 'emotional contagion' where the AI's generated panic spreads to the school community.",
       "Because AI cannot understand emotion.",
-      "To make the memo sound like it was written by a lawyer."
+      "To make the message sound like it was written by an administrator."
     ],
-    "answer": "To prevent 'emotional contagion' where the AI's generated panic spreads to the staff.",
+    "answer": "To prevent 'emotional contagion' where the AI's generated panic spreads to the school community.",
     "explanation": "The tone the AI uses has a psychological impact on the reader; controlling that tone is essential for effective communication."
   },
   {

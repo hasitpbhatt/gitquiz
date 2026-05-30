@@ -2,7 +2,7 @@
   {
     "question": "AI as the Ultimate Muse",
     "content": "In Chapter 5, AI is presented as 'The Muse'—a tool that excels at overcoming the 'blank page' problem. While humans often struggle to generate the first dozen ideas, AI can generate hundreds of varied, novel concepts instantly. This shifts the human's role from 'creator of ideas' to 'curator of possibilities.'",
-    "description": "An advertising team is stuck on a slogan for a new eco-friendly sneaker. According to the 'AI as Muse' concept, how should they proceed?",
+    "description": "A charity team is stuck on a slogan for a holiday food drive. According to the 'AI as Muse' concept, how should they proceed?",
     "options": [
       "Ask the AI to pick the final slogan and launch the campaign immediately.",
       "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
@@ -106,14 +106,14 @@
   {
     "question": "Constraints Breed Creativity",
     "content": "AI works better when it is 'boxed in.' Asking an AI for 'an idea' is hard for it. Asking for 'an idea for a kitchen gadget that uses magnets, costs under $5, and is themed like a dinosaur' forces the AI to find a very specific, often more creative, solution.",
-    "description": "Which prompt is likely to yield a more 'creative' business idea?",
+    "description": "Which prompt is likely to yield a more 'creative' school fundraiser idea?",
     "options": [
-      "Give me a new business idea for the food industry.",
-      "Give me a business idea for a high-end restaurant that only serves breakfast foods at night in an old library.",
-      "What is a profitable business I can start today?",
-      "List 10 ways to make money in 2024."
+      "Give me a new fundraiser idea.",
+      "Give me a fundraiser idea for a school that involves the whole neighborhood, uses no food, and costs less than $50 to start.",
+      "What is a profitable way to raise money?",
+      "List 10 ways to make money quickly."
     ],
-    "answer": "Give me a business idea for a high-end restaurant that only serves breakfast foods at night in an old library.",
+    "answer": "Give me a fundraiser idea for a school that involves the whole neighborhood, uses no food, and costs less than $50 to start.",
     "explanation": "Specific constraints force the AI away from the 'average' and into the 'jagged' parts of its latent space where unique combinations live."
   },
   {

@@ -28,12 +28,12 @@
   {
     "question": "AI as an 'Alien' Intelligence",
     "content": "Mollick describes AI as 'alien' because it can solve problems in ways no human would ever think of. It doesn't have a childhood, emotions, or a physical body, yet it can write poetry. It is a form of intelligence that is fundamentally different from our own.",
-    "description": "You ask an AI to optimize a logistics route, and it suggests a path that seems completely illogical to your veteran drivers but ends up being 20% more efficient. This illustrates:",
+    "description": "You ask an AI to plan a cross-country family road trip, and it suggests a route that seems completely illogical to you—taking backroads through small towns instead of the highway—but ends up being faster, cheaper, and more scenic. This illustrates:",
     "options": [
       "A software error that should be ignored.",
       "The AI's ability to access secret government maps.",
       "The 'alien' nature of machine intelligence finding patterns humans overlook.",
-      "The AI's desire to confuse and frustrate human workers."
+      "The AI's desire to confuse and frustrate human travelers."
     ],
     "answer": "The 'alien' nature of machine intelligence finding patterns humans overlook.",
     "explanation": "Because AI isn't limited by human intuition or 'common sense' habits, it can discover highly efficient, non-traditional solutions."

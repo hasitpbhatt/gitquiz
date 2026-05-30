@@ -41,12 +41,12 @@
   {
     "question": "The Productivity Frontier",
     "content": "Research mentioned in Chapter 6 shows that AI can significantly raise the 'floor' of productivity. Lower-performing workers often see the biggest gains (up to 40% improvement), while top-tier workers see smaller gains. AI acts as an equalizer, bringing everyone closer to the top performance level.",
-    "description": "A company introduces AI to its customer service team. The newest employees see a massive jump in their resolution rates, while the veterans see only a slight increase. This illustrates:",
+    "description": "A community center introduces AI to help its volunteer-run helpline. The newest volunteers see a massive jump in how quickly they can find answers, while the longtime volunteers see only a slight increase. This illustrates:",
     "options": [
-      "The AI is biased against veterans.",
+      "The AI is biased against longtime volunteers.",
       "The AI's ability to raise the performance 'floor' for everyone.",
-      "The failure of the AI to help experts.",
-      "A technical glitch in the veteran's software."
+      "The failure of the AI to help experienced people.",
+      "A technical glitch in the veteran volunteers' software."
     ],
     "answer": "The AI's ability to raise the performance 'floor' for everyone.",
     "explanation": "AI provides a 'baseline' of high-level competence. For those who were struggling, this baseline is a massive boost; for experts, it is simply a helpful secondary tool."
@@ -80,15 +80,15 @@
   {
     "question": "Shadow AI in the Workplace",
     "content": "'Shadow AI' refers to employees using AI tools in secret because they fear their boss will think they are cheating or lazy. Chapter 6 argues that this is harmful because it prevents the organization from learning how to scale the productivity gains of the 'coworker.'",
-    "description": "An employee uses AI to do 8 hours of work in 20 minutes, then spends the rest of the day pretending to be busy. This is an example of:",
+    "description": "A student uses AI to finish a week's worth of homework in 20 minutes, then spends the rest of the week playing games instead of studying. This is an example of:",
     "options": [
       "Optimized efficiency.",
       "Shadow AI usage.",
-      "Corporate sabotage.",
-      "Strategic downtime."
+      "Academic sabotage.",
+      "Strategic rest."
     ],
     "answer": "Shadow AI usage.",
-    "explanation": "Shadow AI is the 'hidden' use of these tools. It creates an illusion of work that prevents the company from truly evolving its processes."
+    "explanation": "Shadow AI is the 'hidden' use of these tools. It creates an illusion of learning that prevents the student from truly building skills."
   },
   {
     "question": "The Management of Prompts",
