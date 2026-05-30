@@ -1,0 +1,119 @@
+[
+  {
+    "question": "Good Explanations",
+    "content": "A good explanation is hard to vary - it specifies precise mechanisms that would break the explanation if altered. Bad explanations are flexible excuses that fit any outcome.",
+    "description": "Your car won't start. Friend A says 'the battery is dead because the lights were left on.' Friend B says 'a gremlin sabotaged it.' Which is a better explanation and why?",
+    "options": [
+      "Friend A's explanation, because it specifies a testable mechanism",
+      "Friend B's explanation, because gremlins are mysterious and powerful",
+      "Neither explanation is better than the other",
+      "Neither explanation is good"
+    ],
+    "answer": "Friend A's explanation, because it specifies a testable mechanism",
+    "explanation": "Friend A's explanation points to a specific, testable cause (battery drain from lights). Friend B's explanation invokes an unverifiable gremlin that could 'explain' any outcome equally well - making it a bad explanation that's easy to vary."
+  },
+  {
+    "question": "Bad Explanations",
+    "content": "Bad explanations are flexible and can be adjusted to fit any outcome, making them explain nothing specific. They lack precision and testability.",
+    "description": "A weather app says 'tomorrow it might rain or it might not' — it's always right but useless. This illustrates:",
+    "options": [
+      "A good explanation because it's never wrong",
+      "A bad explanation because it fits any outcome",
+      "An explanation with good reach",
+      "A conjecture that needs refutation"
+    ],
+    "answer": "A bad explanation because it fits any outcome",
+    "explanation": "The weather app's statement is always correct but provides zero predictive value because it accommodates both rain and no rain equally well. Good explanations constrain what could happen - this one doesn't."
+  },
+  {
+    "question": "Reach of Explanations",
+    "content": "The reach of an explanation is how far it applies beyond its original context. Great explanations have wide reach - applying to many different domains.",
+    "description": "The same physics that explains a falling apple also explains why satellites stay in orbit — that's reach. This demonstrates:",
+    "options": [
+      "Why we need different physics for different scales",
+      "How explanations can have surprising reach",
+      "That celestial mechanics is unrelated to terrestrial physics",
+      "Why Newton was wrong about gravity"
+    ],
+    "answer": "How explanations can have surprising reach",
+    "explanation": "Newton's law of gravitation, developed to explain falling apples, also precisely predicts planetary motion - showing how a single explanation can have enormous reach across vastly different domains and scales."
+  },
+  {
+    "question": "Explanation vs. Prediction",
+    "content": "Prediction without explanation is merely instrumentalism - getting results right without understanding why. Science seeks explanations, not just predictions.",
+    "description": "A stock prediction bot that guesses right 60% of the time but can't explain why — is this knowledge? This illustrates:",
+    "options": [
+      "Good scientific knowledge because it's accurate",
+      "Knowledge without explanation - merely instrumental",
+      "A conjecture awaiting refutation",
+      "An explanation with limited reach"
+    ],
+    "answer": "Knowledge without explanation - merely instrumental",
+    "explanation": "The bot may predict well but offers no understanding of market mechanisms. Without explanatory power, it's merely a reliable instrument - not scientific knowledge which requires understanding why things happen."
+  },
+  {
+    "question": "Conjecture and Refutation",
+    "content": "Knowledge grows through creative conjectures followed by ruthless criticism. We propose theories then actively seek evidence that would refute them.",
+    "description": "You assume traffic is due to an accident, but it's actually road construction — you update your belief. This illustrates:",
+    "options": [
+      "Confirmation bias",
+      "The process of conjecture and refutation",
+      "Authoritarian thinking",
+      "Inductive reasoning"
+    ],
+    "answer": "The process of conjecture and refutation",
+    "explanation": "You formed a conjecture (accident causing traffic), encountered evidence refuting it (no accident, but construction), and revised your belief. This exemplifies Popper's conjecture-refutation cycle central to knowledge growth."
+  },
+  {
+    "question": "The Problem of Induction",
+    "content": "Induction - assuming the future will resemble the past because it always has - cannot be logically justified. Past repetitions don't guarantee future outcomes.",
+    "description": "Every day the sun rises, so it must rise tomorrow — except near the North Pole in winter. This shows:",
+    "options": [
+      "Induction is always reliable",
+      "Why we need authorities to tell us what's true",
+      "Induction's logical weakness - past patterns don't guarantee futures",
+      "That the sun doesn't actually rise"
+    ],
+    "answer": "Induction's logical weakness - past patterns don't guarantee futures",
+    "explanation": "While the sun has risen every observed day, this doesn't logically guarantee it will rise tomorrow - especially since we know there are places/times where it doesn't. Induction assumes what it tries to prove."
+  },
+  {
+    "question": "Authority vs. Reason",
+    "content": "Relying on authority replaces critical thinking with deference. Reason demands we judge ideas by their content, not their source.",
+    "description": "A celebrity doctor endorses a supplement; you look up studies yourself. This demonstrates:",
+    "options": [
+      "Blind faith in authority",
+      "Reason overriding authority",
+      "The problem of induction",
+      "Confirmation bias"
+    ],
+    "answer": "Reason overriding authority",
+    "explanation": "Instead of accepting the celebrity's claim on authority, you seek evidence and explanations yourself. This embodies the Enlightenment ideal of judging ideas by reason and evidence, not status or fame."
+  },
+  {
+    "question": "Value of Being Wrong",
+    "content": "Being mistaken is essential to learning - errors, when criticized, lead to better explanations. Success often teaches less than productive failure.",
+    "description": "A failed recipe teaches you about baking chemistry better than a successful one. This illustrates:",
+    "options": [
+      "Why we should avoid experimentation",
+      "How failure can teach more than success",
+      "That cooking is not a science",
+      "The importance of following recipes exactly"
+    ],
+    "answer": "How failure can teach more than success",
+    "explanation": "When a recipe fails, you must investigate why - learning about ingredient interactions, temperatures, and chemical reactions. Success often reinforces existing knowledge; productive failure creates new understanding."
+  },
+  {
+    "question": "Hard-to-Vary Criteria",
+    "content": "Good explanations are 'hard to vary' - changing key parts breaks them. Bad explanations are 'easy to vary' - you can adjust them to fit any data without loss.",
+    "description": "Two sales pitches: 'this product will change your life' vs. 'this product filters 99% of contaminants'. Which is a better explanation and why?",
+    "options": [
+      "The first, because life change is important",
+      "The second, because it specifies a precise, testable mechanism",
+      "Neither explanation is better than the other",
+      "Neither makes any explanation at all"
+    ],
+    "answer": "The second, because it specifies a precise, testable mechanism",
+    "explanation": "'Filters 99% of contaminants' is hard to vary - change the percentage or mechanism and the explanation breaks. 'Change your life' is vague and flexible - it could 'explain' any outcome equally well, making it a bad explanation."
+  }
+]

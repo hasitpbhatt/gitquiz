@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Infinite Reach",
+    "content": "The reach of an explanation is how widely it applies. The best explanations have enormous reach - working across vastly different contexts and scales.",
+    "description": "The Pythagorean theorem works in ancient Greece, modern skyscrapers, and space stations. This demonstrates:",
+    "options": [
+      "That mathematics is culturally relative",
+      "How explanations can have surprising reach across domains",
+      "Why we need different math for different eras",
+      "That ancient Greeks knew about space travel"
+    ],
+    "answer": "How explanations can have surprising reach across domains",
+    "explanation": "The Pythagorean theorem (a² + b² = c²) works whether you're measuring fields in ancient Greece, calculating structural loads in skyscrapers, or plotting spacecraft trajectories - showing how mathematical explanations can have universal reach."
+  },
+  {
+    "question": "Jump to Universality",
+    "content": "Certain systems become universal - able to compute anything that is computable. Once a system reaches this threshold, adding more complexity doesn't increase its computational power.",
+    "description": "A single laptop can be a calculator, a movie theater, a music studio, a library. This illustrates:",
+    "options": [
+      "Why we need specialized devices for each task",
+      "How computational universality enables diverse functions",
+      "That laptops are actually magic",
+      "Why older computers were better at specific tasks"
+    ],
+    "answer": "How computational universality enables diverse functions",
+    "explanation": "A universal computer (like your laptop) can perform any computation - from simple math to rendering video, composing music, or storing books. Once universality is reached, the same hardware can run any software program."
+  },
+  {
+    "question": "Universal Replicators",
+    "content": "A universal replicator can copy itself and any other pattern with perfect fidelity. Digital information enables universal replication without degradation.",
+    "description": "A PDF can be copied infinitely with zero quality loss. This shows:",
+    "options": [
+      "Why analog copies are superior",
+      "How digital information enables perfect replication",
+      "That PDFs are actually magical",
+      "Why we should avoid making copies"
+    ],
+    "answer": "How digital information enables perfect replication",
+    "explanation": "Unlike photocopies that degrade with each generation, digital files like PDFs can be copied infinitely with perfect fidelity - each copy is identical to the original. This is a key feature of digital knowledge."
+  },
+  {
+    "question": "Digital vs. Analogue Knowledge",
+    "content": "Digital knowledge can be copied, stored, and transmitted with perfect fidelity, while analogue knowledge degrades over time and with each copying generation.",
+    "description": "A photocopy of a photocopy degrades; a digital file doesn't. This illustrates:",
+    "options": [
+      "Why we should return to analogue technology",
+      "How digital preservation prevents knowledge loss",
+      "That all copies are equally good",
+      "Why digital files are actually less reliable"
+    ],
+    "answer": "How digital preservation prevents knowledge loss",
+    "explanation": "Analogue copying (like photocopies or tape recordings) introduces errors that accumulate. Digital copying preserves information perfectly - crucial for maintaining knowledge across generations without corruption."
+  },
+  {
+    "question": "The Reach Argument",
+    "content": "If an explanation works in one context, we should test whether it applies elsewhere. Good explanations often have unexpected reach to seemingly unrelated domains.",
+    "description": "Learning to cook one cuisine teaches skills that apply to many cuisines. This demonstrates:",
+    "options": [
+      "Why we should specialize in just one type of cooking",
+      "How good explanations have transferable reach",
+      "That cooking skills are not transferable",
+      "Why recipes should never be shared"
+    ],
+    "answer": "How good explanations have transferable reach",
+    "explanation": "Learning fundamental cooking techniques (heat control, ingredient balance, knife skills) in one cuisine creates knowledge that reaches far beyond - applying to entirely different culinary traditions. Good explanations often have this kind of unexpected reach."
+  },
+  {
+    "question": "Knowledge as Explanatory Information",
+    "content": "Knowledge is explanatory information - it tells us why things are the way they work. Mere data storage (like a phone book) lacks explanatory power.",
+    "description": "Memorizing phone numbers vs. understanding how phone networks work. This shows the difference between:",
+    "options": [
+      "Two equally valuable forms of knowledge",
+      "Explanatory knowledge and mere data storage",
+      "Why we should memorize everything",
+      "That understanding is overrated"
+    ],
+    "answer": "Explanatory knowledge and mere data storage",
+    "explanation": "Memorizing phone numbers gives you data but no understanding. Understanding how phone networks work gives you explanatory knowledge - you can predict outcomes, troubleshoot problems, and innovate. Only the latter is true knowledge."
+  },
+  {
+    "question": "Emergence",
+    "content": "Emergence occurs when complex systems exhibit properties that their individual parts do not have - these emergent properties require new explanations at the system level.",
+    "description": "Individual ants are simple, but a colony builds complex structures. This illustrates:",
+    "options": [
+      "Why we should study ants individually",
+      "How complex systems can have emergent properties",
+      "That ant colonies are actually intelligent beings",
+      "Why emergence doesn't exist in nature"
+    ],
+    "answer": "How complex systems can have emergent properties",
+    "explanation": "No single ant knows how to build a complex nest, yet colonies create intricate structures through local interactions. The nest-building ability emerges from the colony as a whole - a property not present in individual ants."
+  },
+  {
+    "question": "Universality in Computation",
+    "content": "Once a system reaches computational universality, it can compute any computable function. This threshold creates a qualitative jump in capabilities.",
+    "description": "Your phone can run any app, not just the ones it came with. This demonstrates:",
+    "options": [
+      "Why phones should have limited functionality",
+      "How computational universality enables flexible use",
+      "That phone manufacturers are hiding features",
+      "Why we need different phones for different tasks"
+    ],
+    "answer": "How computational universality enables flexible use",
+    "explanation": "Your smartphone is a universal computer - it can run any software program, from games to productivity tools to educational apps. This flexibility comes from reaching the threshold of computational universality."
+  }
+]

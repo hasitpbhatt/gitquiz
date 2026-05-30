@@ -11,16 +11,17 @@ This skill helps you convert a book or its summary into a scenario-based quiz co
 
 Use this skill when you:
 - Have a book (or detailed summary) you want to convert to an interactive quiz
-- Want to create chapter-by-chapter learning materials
+- Want to create chapter-by-chapter learning materials with effective scenarios
 - Need to follow the gitquiz course format exactly
 - Want to maintain alphabetical ordering in the courses list
+- Want to create scenarios that aid understanding and retention of concepts
 
 ## Skill Workflow
 
 ### 1. Analyze the Book Content
 - Identify key concepts, principles, or models from the book
 - Group related concepts into logical chapters (typically 6-10 chapters)
-- For each concept, identify a real-world scenario that illustrates it
+- For each concept, identify a real-world scenario that illustrates it and aids learning
 
 ### 2. Create Chapter Directory
 ```bash

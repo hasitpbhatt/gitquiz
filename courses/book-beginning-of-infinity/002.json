@@ -1,0 +1,119 @@
+[
+  {
+    "question": "Fallibilism",
+    "content": "Fallibilism is the recognition that we are all capable of error - no belief is beyond question, and all knowledge is tentative and corrigible.",
+    "description": "Your GPS says turn left but you know that's a dead end — experts can be wrong. This illustrates:",
+    "options": [
+      "Why we should never trust technology",
+      "That all humans are fallible and capable of error",
+      "That GPS systems are unreliable",
+      "Why we need authorities to tell us what to do"
+    ],
+    "answer": "That all humans are fallible and capable of error",
+    "explanation": "Even authoritative sources like GPS systems can be wrong. Fallibilism means recognizing that anyone - experts, authorities, ourselves - can be mistaken, so we must remain open to criticism and correction."
+  },
+  {
+    "question": "Error-Correction / Criticism",
+    "content": "Errors are corrected through criticism - we learn by identifying mistakes in our ideas, not by accumulating confirming evidence.",
+    "description": "A coworker points out a flaw in your presentation draft — grateful or defensive? This shows:",
+    "options": [
+      "Why we should avoid sharing our work",
+      "How criticism helps us correct errors and improve",
+      "That coworkers are usually wrong",
+      "Why presentations should be perfect before sharing"
+    ],
+    "answer": "How criticism helps us correct errors and improve",
+    "explanation": "When others criticize our work, they often spot errors we missed. Responding with gratitude rather than defensiveness allows us to correct mistakes and improve - this is how knowledge grows through error correction."
+  },
+  {
+    "question": "Creative Conjectures",
+    "content": "Knowledge begins with creative conjectures - bold guesses about how the world works that go beyond current evidence, followed by attempts to refute them.",
+    "description": "A student proposes a new way to organize the filing system before having all the details. This illustrates:",
+    "options": [
+      "Why we should wait until we have all information",
+      "How creative conjectures start the knowledge creation process",
+      "That filing systems should never be changed",
+      "The dangers of thinking outside the box"
+    ],
+    "answer": "How creative conjectures start the knowledge creation process",
+    "explanation": "The student made a conjecture (a better filing system) without complete evidence - this is how knowledge creation begins. The conjecture can then be tested, criticized, and refined through the conjecture-refutation cycle."
+  },
+  {
+    "question": "Solutions Create New Problems",
+    "content": "Every solution creates new problems to solve - this is the boundless nature of progress. There's no final endpoint where all problems are solved.",
+    "description": "Social media solved distance communication but created misinformation. This demonstrates:",
+    "options": [
+      "Why we should avoid technological solutions",
+      "That all solutions are inherently bad",
+      "How solving problems creates new, higher-quality problems",
+      "That communication technology was a mistake"
+    ],
+    "answer": "How solving problems creates new, higher-quality problems",
+    "explanation": "Social media solved the problem of instant global communication but introduced new challenges like misinformation spread. This is normal - each solution reveals higher-quality problems to tackle, driving unbounded progress."
+  },
+  {
+    "question": "Taboo on Explanation",
+    "content": "Taboos against explanation ('don't question why') prevent error correction and knowledge growth. Societies that forbid criticism stagnate.",
+    "description": "A manager who fires anyone who questions company policy — effect on innovation. This illustrates:",
+    "options": [
+      "Why strong leadership requires unquestioning obedience",
+      "How taboos against explanation stifle innovation",
+      "That questioning policy is always disloyal",
+      "Why innovation comes from following orders precisely"
+    ],
+    "answer": "How taboos against explanation stifle innovation",
+    "explanation": "When questioning is punished, errors in policies go uncorrected. Without the ability to criticize and improve explanations, the organization cannot learn or adapt - leading to stagnation rather than innovation."
+  },
+  {
+    "question": "Justificationism vs. Criticism",
+    "content": "Justificationism seeks to prove ideas true (impossible); criticism seeks to refute them (possible and productive). Knowledge grows through refutation, not proof.",
+    "description": "'Prove me wrong' vs. 'Let's try to disprove this together' shows the difference between:",
+    "options": [
+      "Two equally valid approaches to knowledge",
+      "Justificationism (seeking proof) and criticism (seeking refutation)",
+      "Why we should never change our minds",
+      "The importance of being absolutely certain"
+    ],
+    "answer": "Justificationism (seeking proof) and criticism (seeking refutation)",
+    "explanation": "Seeking proof ('prove me wrong' implies it's already right) is justificationism - trying to show an idea cannot be refuted. Seeking refutation together is the critical approach - actively trying to find flaws to improve our understanding."
+  },
+  {
+    "question": "Growth of Knowledge",
+    "content": "Knowledge grows incrementally through conjecture and refutation - we're always mistaken in some ways, but we can improve our explanations over time.",
+    "description": "Learning to cook: each burned meal teaches something. This illustrates:",
+    "options": [
+      "Why we should eat only pre-made food",
+      "How knowledge grows through learning from errors",
+      "That cooking talent is purely innate",
+      "The importance of never making mistakes"
+    ],
+    "answer": "How knowledge grows through learning from errors",
+    "explanation": "Each cooking failure teaches about ingredient interactions, timing, temperatures - correcting mistaken beliefs. Knowledge isn't downloaded perfectly; it's built gradually by eliminating errors through criticism and testing."
+  },
+  {
+    "question": "Imagination in Discovery",
+    "content": "Creative imagination is essential for forming conjectures that leap beyond current knowledge - Einstein's thought experiments exemplify this.",
+    "description": "Einstein imagining riding alongside a light beam led to relativity. This shows:",
+    "options": [
+      "Why daydreaming is a waste of time",
+      "How imagination enables scientific breakthroughs",
+      "That thought experiments are useless in science",
+      "Why we should only trust laboratory evidence"
+    ],
+    "answer": "How imagination enables scientific breakthroughs",
+    "explanation": "Einstein's imaginative thought experiment (chasing a light beam) helped him conceive special relativity - demonstrating how creative imagination forms the conjectures that drive scientific progress before experimental testing."
+  },
+  {
+    "question": "Knowledge is Conjectural",
+    "content": "All knowledge is conjectural - we can never prove a theory true, only show it has survived attempts at refutation. Certainty is unattainable.",
+    "description": "'The sun revolves around Earth' seemed certain once. This illustrates:",
+    "options": [
+      "Why ancient people were stupid",
+      "How even strongly-held beliefs can be mistaken",
+      "That we should trust our senses completely",
+      "Why science cannot make progress"
+    ],
+    "answer": "How even strongly-held beliefs can be mistaken",
+    "explanation": "The geocentric model seemed obviously true based on daily observation - yet was completely wrong. This shows how fallibilism applies even to our most certain-seeming beliefs, which must remain open to refutation."
+  }
+]

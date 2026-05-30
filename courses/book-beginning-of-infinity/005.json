@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Many-Worlds Interpretation",
+    "content": "The Many-Worlds Interpretation (MWI) of quantum physics proposes that all possible outcomes of quantum measurements actually occur, each in a separate branch of reality.",
+    "description": "You flip a coin — in MWI, both heads and tails happen, just in different branches. This illustrates:",
+    "options": [
+      "Why coins actually land on their edge",
+      "How quantum superposition creates multiple realities",
+      "That probability doesn't exist in quantum mechanics",
+      "Why we need to ignore quantum physics"
+    ],
+    "answer": "How quantum superposition creates multiple realities",
+    "explanation": "In MWI, when a quantum event has multiple possible outcomes (like a coin flip), all outcomes occur - but in different, non-interacting branches of the universe. There's no single 'actual' outcome; all possibilities are realized."
+  },
+  {
+    "question": "Quantum Computers",
+    "content": "Quantum computers leverage quantum superposition and interference to perform certain calculations exponentially faster than classical computers by effectively computing in parallel across multiple universes.",
+    "description": "Solving a maze by exploring all paths simultaneously (simplified analogy). This illustrates:",
+    "options": [
+      "Why classical computers are actually faster",
+      "How quantum parallelism can solve certain problems",
+      "That mazes cannot be solved by computers",
+      "Why we should avoid quantum computing"
+    ],
+    "answer": "How quantum parallelism can solve certain problems",
+    "explanation": "While the maze analogy is simplified, quantum computers can explore many computational paths at once through superposition. For specific problems like factoring large numbers, this allows exponential speedups over classical approaches."
+  },
+  {
+    "question": "Interference and Computation",
+    "content": "Quantum interference (where probability amplitudes add or cancel) is how quantum computers compute - paths leading to wrong answers interfere destructively, while correct paths interfere constructively.",
+    "description": "Waves canceling or amplifying each other — quantum algorithms work similarly. This demonstrates:",
+    "options": [
+      "Why waves don't actually interfere",
+      "How interference enables quantum computation",
+      "That all waves behave identically",
+      "Why we need to eliminate interference in computing"
+    ],
+    "answer": "How interference enables quantum computation",
+    "explanation": "In quantum computing, incorrect computational paths interfere destructively (canceling out), while correct paths interfere constructively (reinforcing each other). This interference mechanism is what gives quantum computers their computational advantage for certain problems."
+  },
+  {
+    "question": "The Multiverse",
+    "content": "In MWI, the universal wavefunction never collapses - instead, every quantum measurement causes the universe to 'split' into branches representing each possible outcome, creating a vast multiverse.",
+    "description": "Every quantum event creates branches. This shows:",
+    "options": [
+      "Why we should fear quantum events",
+      "How the multiverse grows through quantum events",
+      "That branches frequently recombine",
+      "Why the multiverse is actually small"
+    ],
+    "answer": "How the multiverse grows through quantum events",
+    "explanation": "Each quantum event with multiple possible outcomes (like an electron spinning up or down) causes the universe to differentiate into branches - one for each outcome. This continuous branching creates the vast multiverse of MWI."
+  },
+  {
+    "question": "Why MWI is a Good Explanation",
+    "content": "MWI is considered a good explanation because it's hard to vary - it makes quantum mechanics deterministic and local by removing the mysterious 'collapse' postulate, relying only on the Schrödinger equation.",
+    "description": "MWI adds no extra assumptions (no 'collapse') — simpler than Copenhagen. This illustrates:",
+    "options": [
+      "Why we should prefer complex explanations",
+      "How MWI's simplicity makes it a better explanation",
+      "That simplicity is irrelevant to good explanations",
+      "Why Copenhagen interpretation is actually better"
+    ],
+    "answer": "How MWI's simplicity makes it a better explanation",
+    "explanation": "MWI explains quantum phenomena using only the Schrödinger equation, without adding the ad-hoc 'collapse' postulate of Copenhagen. This makes it harder to vary and more parsimonious - key traits of a good explanation according to Deutsch."
+  },
+  {
+    "question": "Decoherence",
+    "content": "Decoherence explains why we don't observe quantum superpositions in everyday life - interaction with the environment causes quantum systems to lose coherence and appear classical.",
+    "description": "Why you don't see a cat both dead and alive — interactions with environment. This demonstrates:",
+    "options": [
+      "Why cats are actually quantum proof",
+      "How environmental interaction destroys quantum coherence",
+      "That superconductors work at room temperature",
+      "Why quantum effects are irrelevant to daily life"
+    ],
+    "answer": "How environmental interaction destroys quantum coherence",
+    "explanation": "When a quantum system interacts with its environment (air molecules, radiation, etc.), it becomes entangled with countless particles. This entanglement spreads the coherence so thin that macroscopic superpositions like Schrödinger's cat become undetectable - we perceive only one definite outcome."
+  },
+  {
+    "question": "Quantum Measurement",
+    "content": "In MWI, there's no special 'measurement' process - when a quantum system interacts with a measuring device, they become entangled, and the observer becomes correlated with one branch of the superposition.",
+    "description": "How 'observing' something in MWI just entangles you with one branch. This illustrates:",
+    "options": [
+      "Why consciousness causes wave function collapse",
+      "How measurement creates entanglement without collapse",
+      "That observers are actually outside the universe",
+      "Why we need special measuring devices"
+    ],
+    "answer": "How measurement creates entanglement without collapse",
+    "explanation": "In MWI, measurement isn't a special process - it's just quantum interaction. When you measure a quantum system, you become entangled with it. Each version of you in different branches sees a definite outcome, but the universal wavefunction containing all branches continues to evolve according to the Schrödinger equation."
+  },
+  {
+    "question": "Fabric of Reality",
+    "content": "For Deutsch, the 'fabric of reality' consists of four interconnected strands: quantum physics (specifically MWI), epistemology (theory of knowledge), computation theory, and evolutionary theory - each explaining aspects of the others.",
+    "description": "How quantum physics, epistemology, computation, and evolution connect. This shows:",
+    "options": [
+      "Why these fields are actually unrelated",
+      "How they form a unified explanatory framework",
+      "That only one strand is important",
+      "Why we should study them in isolation"
+    ],
+    "answer": "How they form a unified explanatory framework",
+    "explanation": "Deutsch argues that quantum physics (MWI) explains how computation works; computation theory explains how knowledge can be processed; epistemology explains how knowledge grows through conjecture and criticism; and evolutionary theory explains how knowledge is created through variation and selection - forming a cohesive 'fabric of reality'."
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "question": "The Enlightenment",
+    "content": "The Enlightenment marked the transition from relying on authority and tradition to using reason and evidence as the primary sources of knowledge - the beginning of unbounded progress through criticism.",
+    "description": "Before: 'the king says so.' After: 'let's test it empirically'. This illustrates:",
+    "options": [
+      "Why we should return to medieval thinking",
+      "How the Enlightenment shifted from authority to reason and evidence",
+      "That kings actually knew best",
+      "Why empiricism doesn't work"
+    ],
+    "answer": "How the Enlightenment shifted from authority to reason and evidence",
+    "explanation": "The Enlightenment replaced deference to authority (kings, priests, ancient texts) with the idea that claims should be tested against evidence and reasoned about critically - creating the conditions for unbounded scientific and moral progress."
+  },
+  {
+    "question": "The Scientific Revolution",
+    "content": "The Scientific Revolution established that knowledge comes from empirical evidence and mathematical reasoning, not from ancient authorities or religious doctrine - creating a tradition of criticism.",
+    "description": "Galileo dropped weights from the Tower of Pisa to test Aristotle — radical then. This demonstrates:",
+    "options": [
+      "Why Aristotle was actually correct",
+      "How empirical testing challenged ancient authority",
+      "That dropping weights proves nothing",
+      "Why we should trust ancient texts over observation"
+    ],
+    "answer": "How empirical testing challenged ancient authority",
+    "explanation": "Galileo's experiment directly tested Aristotle's claim about falling bodies using observation and mathematics rather than accepting it on authority. This exemplified the new scientific method: evidence over ancient authority."
+  },
+  {
+    "question": "The Open Society",
+    "content": "An Open Society (Popper's concept) is one where institutions encourage criticism and allow error correction - essential for unbounded progress in knowledge and governance.",
+    "description": "A company where anyone can criticize the CEO's strategy vs. one where they can't. This shows:",
+    "options": [
+      "Why CEOs should never be questioned",
+      "How openness to criticism enables error correction and progress",
+      "That all criticism is actually helpful",
+      "Why hierarchies prevent innovation"
+    ],
+    "answer": "How openness to criticism enables error correction and progress",
+    "explanation": "In an open society, flawed policies and ideas can be identified and corrected through criticism. Closed societies suppress criticism, allowing errors to persist and compound - preventing the error correction essential for progress."
+  },
+  {
+    "question": "Tradition vs. Reason",
+    "content": "Tradition appeals to how things have always been done; reason evaluates ideas by evidence and argument. Progress requires prioritizing reason over mere tradition.",
+    "description": "\"We've always done it this way\" vs. \"the data shows a better way\". This illustrates:",
+    "options": [
+      "Why tradition is always better than innovation",
+      "How reason should trump mere tradition when evidence contradicts it",
+      "That data is actually irrelevant to decisions",
+      "Why we should never change established practices"
+    ],
+    "answer": "How reason should trump mere tradition when evidence contradicts it",
+    "explanation": "When tradition and evidence conflict, reason demands we follow the evidence. Blindly following tradition prevents adopting better methods - while reasoned evaluation allows us to keep what works and improve what doesn't."
+  },
+  {
+    "question": "Criticism as Engine of Progress",
+    "content": "Criticism identifies flaws in our current explanations, allowing us to replace them with better ones. Without criticism, errors persist and knowledge stagnates.",
+    "description": "Code review improves software; same with ideas. This demonstrates:",
+    "options": [
+      "Why we should avoid sharing our work",
+      "How criticism improves ideas and products through error correction",
+      "That reviewers are usually wrong",
+      "Why first drafts are always best"
+    ],
+    "answer": "How criticism improves ideas and products through error correction",
+    "explanation": "Just as code review catches bugs before they cause problems, criticism of ideas identifies flaws before they lead to bad outcomes. This error correction process is how knowledge improves over time through conjecture and refutation."
+  },
+  {
+    "question": "The End of Authority",
+    "content": "Science progresses by overturning authorities - not by accumulating their approval. No idea is beyond question, no matter how prestigious its source.",
+    "description": "The medical establishment laughed at hand-washing; now it's standard. This illustrates:",
+    "options": [
+      "Why we should always trust medical authorities",
+      "How science progresses by correcting authorities through evidence",
+      "That hand-washing is actually harmful",
+      "Why laughter is the best medicine"
+    ],
+    "answer": "How science progresses by correcting authorities through evidence",
+    "explanation": "When Semmelweis proposed hand-washing to prevent childbed fever, medical authorities rejected it despite evidence. Later, overwhelming evidence forced acceptance - showing how science advances by correcting even respected authorities through evidence and criticism."
+  },
+  {
+    "question": "Instinct vs. Reason",
+    "content": "Instinct (evolved intuitions) can be useful heuristics but often misfire in modern contexts. Reason allows us to override instincts when they lead us astray.",
+    "description": "Intuition: the Earth looks flat. Reason: it's a sphere. This shows:",
+    "options": [
+      "Why we should always trust our instincts",
+      "How reason can override misleading intuitions",
+      "That the Earth is actually flat",
+      "Why intuition is always more reliable than reason"
+    ],
+    "answer": "How reason can override misleading intuitions",
+    "explanation": "Our instincts evolved for savanna life, not for understanding cosmology. The flat appearance of Earth is an intuitive misconception overcome by reasoning from evidence (shadows, ship horizons, gravity) - showing reason's power to correct instincts."
+  },
+  {
+    "question": "Taboo-Breaking",
+    "content": "Taboos against questioning sacred beliefs prevent error correction and progress. Breaking these taboos is essential for challenging mistaken explanations and improving knowledge.",
+    "description": "A student asks 'why is that law fair?' in a society that doesn't question laws. This illustrates:",
+    "options": [
+      "Why we should never question authority",
+      "How taboo-breaking enables moral and social progress",
+      "That questioning laws is always disloyal",
+      "Why traditions should never be examined"
+    ],
+    "answer": "How taboo-breaking enables moral and social progress",
+    "explanation": "When questioning is taboo, mistaken or unjust beliefs and laws go unchallenged. Breaking taboos allows criticism to identify flaws, leading to reforms - whether correcting scientific misunderstandings or improving unjust laws and social practices."
+  },
+  {
+    "question": "Emergence of Scientific Culture",
+    "content": "Scientific culture emerged when institutions were created that rewarded criticism and punished intellectual dishonesty - making criticism a valued social activity rather than a dangerous one.",
+    "description": "How we transitioned from alchemy (secret recipes) to chemistry (open methods). This demonstrates:",
+    "options": [
+      "Why secrecy actually improves knowledge",
+      "How open criticism enables cumulative knowledge",
+      "That alchemists were better scientists",
+      "Why we should return to secret knowledge"
+    ],
+    "answer": "How open criticism enables cumulative knowledge",
+    "explanation": "Alchemy relied on secret knowledge, preventing cumulative progress. Chemistry's open sharing of methods and results allowed scientists to build on each other's work through criticism and refinement - creating the cumulative knowledge essential for scientific progress."
+  }
+]

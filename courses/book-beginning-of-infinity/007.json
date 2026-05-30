@@ -1,0 +1,119 @@
+[
+  {
+    "question": "The Human Universal",
+    "content": "All human cultures create explanations, ask 'why,' and build upon existing knowledge - this explanatory drive is a human universal absent in other animals.",
+    "description": "Every human culture tells stories, makes art, asks 'why' — no other animal does. This illustrates:",
+    "options": [
+      "Why we should study animal behavior more",
+      "How the drive to explain is uniquely human",
+      "That animals actually philosophize",
+      "Why storytelling is unimportant"
+    ],
+    "answer": "How the drive to explain is uniquely human",
+    "explanation": "While animals communicate and solve problems, only humans universally engage in explanatory activities like asking 'why things happen,' creating theories, and building cumulative knowledge. This explanatory drive is what made the Enlightenment possible."
+  },
+  {
+    "question": "Explanatory Creativity",
+    "content": "Explanatory creativity is the drive to understand why things are the way they are - seeking deep understanding rather than just practical solutions or memorization.",
+    "description": "A child asks why the sky is blue — satisfaction comes from understanding. This demonstrates:",
+    "options": [
+      "Why we should discourage children's questions",
+      "How understanding provides deeper satisfaction than memorization",
+      "That the sky is actually not blue",
+      "Why curiosity is a weakness"
+    ],
+    "answer": "How understanding provides deeper satisfaction than memorization",
+    "explanation": "A child asking why the sky is blue isn't just seeking a prediction ('it will look blue tomorrow') but an explanation (light scattering in atmosphere). The satisfaction comes from understanding the mechanism, not just knowing the fact - this is explanatory creativity."
+  },
+  {
+    "question": "Consciousness and Understanding",
+    "content": "Consciousness enables understanding - the ability to grasp how and why things work, not just to respond to them. Understanding allows prediction, explanation, and innovation.",
+    "description": "Parrot says 'hello' but doesn't mean it vs. a person explaining a concept. This shows:",
+    "options": [
+      "Why parrots are actually deep thinkers",
+      "How understanding differs from mere mimicry",
+      "That speech doesn't require consciousness",
+      "Why we should teach by rote repetition"
+    ],
+    "answer": "How understanding differs from mere mimicry",
+    "explanation": "A parrot can mimic 'hello' without understanding language or intent. A person explaining a concept demonstrates comprehension - they grasp the relationships, can apply the knowledge in new contexts, and explain why it's true. This distinction is crucial for knowledge."
+  },
+  {
+    "question": "Theory of Mind",
+    "content": "Theory of mind is the ability to attribute mental states — beliefs, intents, desires, emotions, knowledge — to oneself and others, enabling effective communication and teaching.",
+    "description": "You explain something differently to a child vs. an expert — you model their mind. This illustrates:",
+    "options": [
+      "Why we should use the same explanation for everyone",
+      "How theory of mind enables effective communication",
+      "That children and experts think identically",
+      "Why we should never adapt our explanations"
+    ],
+    "answer": "How theory of mind enables effective communication",
+    "explanation": "By imagining what the child knows (limited) vs. what the expert knows (extensive), you tailor your explanation appropriately. Theory of mind allows us to predict others' understanding gaps and adjust our communication - essential for teaching and knowledge sharing."
+  },
+  {
+    "question": "Language as Knowledge",
+    "content": "Language enables the storage, transmission, and accumulation of knowledge across generations - turning individual discoveries into cultural heritage.",
+    "description": "\"Fire\" is one word that conveys survival-critical knowledge instantly. This demonstrates:",
+    "options": [
+      "Why we should develop better gestures",
+      "How language compresses and transmits knowledge",
+      "That single words are actually meaningless",
+      "Why writing is superior to speech"
+    ],
+    "answer": "How language compresses and transmits knowledge",
+    "explanation": "The word 'fire' instantly conveys a wealth of knowledge: its properties, dangers, uses, and how to create it. Language allows complex knowledge to be packaged efficiently, shared accurately, and accumulated across generations - enabling cultural evolution."
+  },
+  {
+    "question": "Memes and Memeplexes",
+    "content": "Memes are units of cultural transmission (ideas, behaviors, skills) that replicate from mind to mind. Memeplexes are complexes of mutually supporting memes (like religions or scientific theories).",
+    "description": "A catchy song, a recipe, a religious belief — ideas that replicate. This illustrates:",
+    "options": [
+      "Why we should avoid all cultural transmission",
+      "How ideas spread and evolve through imitation and variation",
+      "That memes are actually genetic",
+      "Why ideas never change"
+    ],
+    "answer": "How ideas spread and evolve through imitation and variation",
+    "explanation": "Like genes, memes replicate with variation - a song might be misremembered and evolve, a recipe adapted to local ingredients. Successful memes spread through imitation; this process with selection creates cultural evolution, analogous to biological evolution but much faster."
+  },
+  {
+    "question": "Culture as Knowledge",
+    "content": "Culture is the accumulated knowledge of a group - its explanations, skills, traditions, and problem-solving methods - transmitted through teaching, imitation, and cultural evolution.",
+    "description": "Writing preserved knowledge beyond one lifetime. This demonstrates:",
+    "options": [
+      "Why oral tradition is actually superior",
+      "How external storage enables cumulative knowledge",
+      "That writing corrupts knowledge",
+      "Why we should forget the past"
+    ],
+    "answer": "How external storage enables cumulative knowledge",
+    "explanation": "Before writing, knowledge died with individuals or was corrupted in oral transmission. Writing allowed knowledge to accumulate across generations - each generation could start where the last left off, rather than rediscovering basics. This enabled the knowledge explosion of civilization."
+  },
+  {
+    "question": "Human Uniqueness",
+    "content": "Humans uniquely create explanatory knowledge - we don't just solve problems, we seek to understand why solutions work. This enables unbounded progress through improving our explanations.",
+    "description": "Why chimpanzees, despite being smart, don't invent telescopes. This illustrates:",
+    "options": [
+      "Why we should study chimpanzee astronomy",
+      "How explanatory creativity enables cumulative innovation",
+      "That chimpanzees actually have telescopes",
+      "Why tool use defines humanity"
+    ],
+    "answer": "How explanatory creativity enables cumulative innovation",
+    "explanation": "Chimpanzees solve immediate problems (using sticks for termites) but don't ask 'why does this work?' or seek to improve the underlying principle. Humans create explanatory theories (optics, gravity) that enable radical innovations like telescopes - then improve those explanations for even better instruments."
+  },
+  {
+    "question": "Role of Explanation in Survival",
+    "content": "Explanatory knowledge gives humans a massive survival advantage - we don't just react to stimuli, we understand causal mechanisms and can manipulate them purposefully.",
+    "description": "Understanding which berries are safe vs. trial-and-error eating. This shows:",
+    "options": [
+      "Why we should eat random berries",
+      "How understanding enables safe, efficient survival",
+      "That all berries are actually poisonous",
+      "Why knowledge doesn't help survival"
+    ],
+    "answer": "How understanding enables safe, efficient survival",
+    "explanation": "Trial-and-error eating risks poisoning. Understanding plant taxonomy, toxicity mechanisms, and environmental indicators lets us identify safe food reliably and efficiently. Explanatory knowledge transforms survival from gambling to reliable prediction and control."
+  }
+]
