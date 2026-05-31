@@ -146,8 +146,16 @@ async function initializeQuiz(url) {
         document.getElementById('progress-fill').style.width = '0%';
         
         startTimer();
-        const filename = url.split('/').pop().replace('.json', '');
-        document.getElementById('module-label').innerText = filename;
+        const urlParts = url.split('/');
+        const filename = urlParts.pop().replace('.json', '');
+        const parentFolder = urlParts.pop() || '';
+        let courseName = parentFolder
+            .replace(/^(book|podcast|coursera|course)-/i, '')
+            .replace(/-/g, ' ')
+            .replace(/\b\w/g, c => c.toUpperCase());
+        document.getElementById('module-label').innerText = courseName
+            ? `${courseName} • ${filename}`
+            : filename;
         renderQuestion();
     } catch (err) {
         clearInterval(timerInterval);
