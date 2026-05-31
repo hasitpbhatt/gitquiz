@@ -1,6 +1,6 @@
 // Verifies every concept from your inventory is covered.
 // Edit `dir` and `inventory` for your course.
-// Usage: node .opencode/skill/book-to-quiz/coverage_check.js
+// Usage: node .opencode/skill/syllabus-to-quiz/coverage_check.js
 const fs = require('fs');
 const dir = 'courses/course-identifier';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();

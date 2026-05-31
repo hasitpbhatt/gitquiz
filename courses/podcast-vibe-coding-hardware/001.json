@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Vibe Coding a Turbine Blade",
+    "content": "Blake Scholl describes how hardware engineering at Boom Supersonic traditionally worked — engineers passing Excel spreadsheets via email, no source control, no automated testing. AI changes this fundamentally.",
+    "description": "You are a hardware engineering manager who just learned that your team's aerodynamicist and structures engineer have been exchanging a 50-MB spreadsheet over email for the past six months. According to Blake Scholl, what is the fundamental problem with this workflow?",
+    "options": [
+      "The spreadsheet is too large for email servers to handle reliably",
+      "Hardware engineering workflows are treated as software but lack software engineering discipline like source control and testing",
+      "Excel spreadsheets cannot handle the complexity of turbine blade design",
+      "The engineers should be using CAD software instead of spreadsheets"
+    ],
+    "answer": "Hardware engineering workflows are treated as software but lack software engineering discipline like source control and testing",
+    "explanation": "Blake Scholl explains that a lot of hardware engineering happens in Excel spreadsheets with VBScript — it's actually software, but treated as if it's not, with no source control or automated testing.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two Engineers, One Jet Engine",
+    "content": "Blake Scholl describes the new model at Boom Supersonic: software engineers create the architectures, and hardware engineers vibe-code their pieces. The result is a dramatic reduction in the team size needed for complex engineering.",
+    "description": "Your VP of Hardware says you need a team of fifty engineers to design a jet engine from scratch — that's the industry standard. Based on Blake Scholl's experience at Boom, what counter-argument can you make?",
+    "options": [
+      "Fifty engineers is actually the minimum because of FAA certification requirements",
+      "With software engineers creating architectures and hardware engineers vibe-coding, two engineers can design an entire jet engine",
+      "You should outsource the engine design entirely to a specialized vendor",
+      "Fifty engineers is fine if you divide them across aerodynamics and structures teams"
+    ],
+    "answer": "With software engineers creating architectures and hardware engineers vibe-coding, two engineers can design an entire jet engine",
+    "explanation": "Blake Scholl says with the new model — software engineers creating architectures and hardware engineers vibe-coding their pieces — two engineers can design an entire jet engine.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Human-in-the-Loop Hardware Simulator",
+    "content": "Max Hodak describes moving from Excel to Python models for believable simulations of physical systems. He also predicts AI will soon generate STEP files and PCB layouts, not just software.",
+    "description": "You run a hardware startup that relies on mechanical and electrical engineering simulations. Your team currently uses Excel for most calculations. Max Hodak sees a three-stage progression for AI in hardware. What is it?",
+    "options": [
+      "Excel → Python simulations → AI generating STEP files and PCB layouts",
+      "Manual drafting → CAD software → 3D printing",
+      "Spreadsheets → databases → cloud computing",
+      "Prototyping → testing → manufacturing"
+    ],
+    "answer": "Excel → Python simulations → AI generating STEP files and PCB layouts",
+    "explanation": "Max Hodak says he moved from Excel to Python models for simulations, and predicts AI will soon generate STEP files and PCB layouts — coming for mechanical and electrical engineering next.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Software Engineers Build the Scaffold",
+    "content": "Guillermo Rauch reacts to Blake's description by noting a major shift in enterprise software: no startup can sell you hardware collaboration tools anymore because companies just build what they need internally.",
+    "description": "A VC pitches you a startup that builds collaboration software for hardware engineering teams. Guillermo Rauch would argue this startup faces a fundamental problem. What is it?",
+    "options": [
+      "The hardware engineering market is too small to support a SaaS business",
+      "Companies are now just internally coding exactly what they need, so there's no room for external tools",
+      "Hardware engineers refuse to use any cloud-based software for security reasons",
+      "The startup would need ten years to build a product competitive with Excel"
+    ],
+    "answer": "Companies are now just internally coding exactly what they need, so there's no room for external tools",
+    "explanation": "Guillermo Rauch says there's no startup that builds hardware collaboration tools that can sell you anything anymore — internally, you're just coding the right thing you need at any given time.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Spreadsheets Are Lightweight Programming",
+    "content": "Naval observes that spreadsheets with VBScript were successful because they approximated custom software — they were 'lightweight programming' for people who couldn't build real software.",
+    "description": "A colleague argues that spreadsheets are simply data organization tools and have nothing to do with software engineering. Based on Naval's take, why did spreadsheets with VBScript become so dominant in engineering?",
+    "options": [
+      "They were the only tools available for collaboration in the 1990s",
+      "They approximated custom software for people who couldn't build real software — they were lightweight programming",
+      "Microsoft Excel had a marketing advantage that crushed all competitors",
+      "Spreadsheets are inherently better than code for any type of engineering analysis"
+    ],
+    "answer": "They approximated custom software for people who couldn't build real software — they were lightweight programming",
+    "explanation": "Naval says spreadsheets were successful because no one could build custom software, so a spreadsheet approximating custom software was the best available option — it was lightweight programming.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Thousand-Blade Problem",
+    "content": "Blake Scholl details the turbine blade design problem: a blade changes shape from cold to hot, requiring conversion between aerodynamics and structures. With a thousand blades per engine, manual iteration is infeasible.",
+    "description": "Your team needs to analyze how each of the thousand turbine blades in a jet engine deforms under operating temperatures. Doing one blade manually takes an engineer a full day. What does the new AI-enabled workflow allow instead?",
+    "options": [
+      "It automates the analysis so you can change blade geometry and see structures and aerodynamics results in real time",
+      "It eliminates the need for turbine blades entirely by using ceramic coatings",
+      "It lets one engineer analyze all thousand blades in a single day with zero errors",
+      "It outsources the analysis to a cloud compute cluster running legacy Fortran code"
+    ],
+    "answer": "It automates the analysis so you can change blade geometry and see structures and aerodynamics results in real time",
+    "explanation": "Blake Scholl says with the new combination of software and hardware people, you can change blade geometry and see in real time the structures and aerodynamics results — a complete transformation from one-day-per-blade.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Disappearing Hardware Tool Market",
+    "content": "Guillermo Rauch argues that the ability to internally code custom solutions means the market for horizontal hardware engineering tools is disappearing. Even spreadsheets are 'kind of cooked.'",
+    "description": "Your company spends $2M annually on a suite of hardware engineering collaboration tools. Based on Guillermo Rauch's analysis, what long-term trend should you prepare for?",
+    "options": [
+      "The tools will consolidate into a single platform from a dominant vendor",
+      "Your internal team will increasingly build custom replacements, making external tools redundant",
+      "Hardware engineering tool costs will triple as AI features are added",
+      "The government will regulate which engineering tools can be used for aerospace"
+    ],
+    "answer": "Your internal team will increasingly build custom replacements, making external tools redundant",
+    "explanation": "Guillermo Rauch says there's no startup that builds hardware collaboration tools that can sell you anything anymore — internally you're just coding what you need. Even spreadsheets are 'kind of cooked.'",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Agentic Hardware Interfaces",
+    "content": "Naval suggests that hardware companies with historically bad software may skip human-facing software entirely and go straight to agentic interfaces — an agent accesses the hardware and you talk to it through voice.",
+    "description": "A hardware startup building IoT devices asks you whether they should invest in building a polished mobile app or a web dashboard for their product. Using Naval's prediction, what alternative path should they consider?",
+    "options": [
+      "They absolutely need a polished mobile app to reach consumers",
+      "They should build both a web dashboard and a mobile app for maximum coverage",
+      "They could skip human-facing software entirely and let agents access the hardware through voice interfaces",
+      "They should license their API to larger companies who will build the front-end"
+    ],
+    "answer": "They could skip human-facing software entirely and let agents access the hardware through voice interfaces",
+    "explanation": "Naval says it 'may not even be software with a human front end — it might just be completely agentic, an agent accessing it, and you talk to it through voice to control hardware.'",
+    "difficulty": "hard"
+  }
+]

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const REQUIRED_FIELDS = ['question', 'content', 'description', 'options', 'answer', 'explanation'];
+const REQUIRED_FIELDS = ['question', 'content', 'description', 'options', 'answer', 'explanation', 'difficulty'];
 
 // Auto-discover all course directories from courses/courses_list.txt
 const listPath = 'courses/courses_list.txt';

@@ -1,6 +1,6 @@
 // Detects review-only chapters by analyzing concept repetition across files.
 // Edit `dir` and `conceptGroups` for your course.
-// Usage: node .opencode/skill/book-to-quiz/review_detection.js
+// Usage: node .opencode/skill/syllabus-to-quiz/review_detection.js
 const fs = require('fs');
 const dir = 'courses/course-identifier';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();

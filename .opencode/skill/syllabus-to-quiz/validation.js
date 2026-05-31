@@ -1,10 +1,10 @@
 // Validates all requirements for a single course. Edit `dir` to point to your course.
-// Usage: node .opencode/skill/book-to-quiz/validation.js
+// Usage: node .opencode/skill/syllabus-to-quiz/validation.js
 const fs = require('fs');
 const dir = 'courses/course-identifier';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
 let total = 0, errs = [];
-const REQUIRED_FIELDS = ['question', 'content', 'description', 'options', 'answer', 'explanation'];
+const REQUIRED_FIELDS = ['question', 'content', 'description', 'options', 'answer', 'explanation', 'difficulty'];
 
 console.log('=== FILE NAMING ===');
 files.forEach(f => console.log(f.match(/^\d{3}\.json$/) ? '  OK: ' + f : '  BAD: ' + f));

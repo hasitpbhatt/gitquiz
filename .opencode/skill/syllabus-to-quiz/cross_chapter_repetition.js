@@ -1,6 +1,6 @@
 // Flags concepts appearing in too many chapters (3+).
 // Edit `dir` and `conceptGroups` for your course.
-// Usage: node .opencode/skill/book-to-quiz/cross_chapter_repetition.js
+// Usage: node .opencode/skill/syllabus-to-quiz/cross_chapter_repetition.js
 const fs = require('fs');
 const dir = 'courses/course-identifier';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
