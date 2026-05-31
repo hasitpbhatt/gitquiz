@@ -52,17 +52,17 @@
     "explanation": "The mere exposure effect shows that repeated contact increases liking, making familiar brands more appealing even without objective superiority."
   },
   {
-    "question": "Compliance Through Praise",
-    "content": "Compliments generally increase liking and compliance, even when we suspect they are insincere or manipulative. Praise creates a positive feeling that predisposes us to agree.",
-    "description": "A coworker compliments your presentation skills before asking for your help on their project. You're more likely to help because:",
+    "question": "The Multiple Routes of Compliments",
+    "content": "Compliments increase compliance through multiple mechanisms simultaneously: liking (positive feelings toward the complimenter), reciprocity (feeling obligated to return the favor), and self-enhancement (good mood increasing agreeableness).",
+    "description": "A colleague compliments your work and then asks you to take over their weekend shift. You agree. Research suggests the compliment likely increased compliance through:",
     "options": [
-      "They actually need your specific expertise",
-      "The compliment increased liking and willingness to help",
-      "You owe them a favor from last week",
-      "Your boss told you to assist them"
+      "Reciprocity only — you felt obligated to return the compliment with a favor",
+      "Liking only — the compliment increased positive feelings toward the colleague",
+      "Self-enhancement only — the good mood made you more agreeable",
+      "All three mechanisms likely contributed to some degree"
     ],
-    "answer": "The compliment increased liking and willingness to help",
-    "explanation": "Even suspected insincere compliments can increase liking and compliance through the positive feelings they create."
+    "answer": "All three mechanisms likely contributed to some degree",
+    "explanation": "Compliments work through multiple psychological channels simultaneously: they increase liking (we like people who appreciate us), trigger reciprocity (praise feels like a gift), and boost self-esteem (which temporarily increases agreeableness). This multi-channel effect is why compliments are so effective at increasing compliance."
   },
   {
     "question": "Contact and Cooperation",
@@ -78,17 +78,17 @@
     "explanation": "Cooperative contact toward shared goals can transform relationships by increasing liking through shared effort and achievement."
   },
   {
-    "question": "Association and Liking",
-    "content": "We like things associated with positive events and dislike things associated with negative events. This principle of association influences our preferences and choices.",
-    "description": "A restaurant plays popular music from your youth while you eat. You're more likely to return because:",
+    "question": "Association or Evaluative Conditioning?",
+    "content": "Association refers to linking a product with positive stimuli. Evaluative conditioning is a specific form where repeated pairing of a neutral stimulus with a positive stimulus transfers the positive feeling automatically, even without conscious awareness.",
+    "description": "A car advertisement pairs their vehicle with beautiful mountain scenery across many exposures. After seeing this repeatedly, customers feel good when they see the car, even in a plain showroom. This is more accurately described as:",
     "options": [
-      "The food quality actually improved recently",
-      "Positive associations with the music increase liking",
-      "They changed their menu to healthier options",
-      "The restaurant lowered their prices significantly"
+      "Simple association — the car is mentally linked with mountains in the customer's mind",
+      "Evaluative conditioning — positive feelings from mountains have transferred to the car through repeated pairing",
+      "Mere exposure — seeing the car repeatedly increased liking for it independently",
+      "Social proof — the mountains suggest other people enjoy this car"
     ],
-    "answer": "Positive associations with the music increase liking",
-    "explanation": "Associating a stimulus (restaurant) with positive stimuli (nostalgic music) increases liking for the stimulus through association."
+    "answer": "Evaluative conditioning — positive feelings from mountains have transferred to the car through repeated pairing",
+    "explanation": "Evaluative conditioning is distinct from simple association because it involves the automatic transfer of affect through repeated pairing, not just a conscious mental link. The customer feels good seeing the car because positive emotion from the mountains has been conditioned to the car stimulus. Mere exposure would involve seeing the car alone, not paired with mountains."
   },
   {
     "question": "Liking in Sales and Marketing",

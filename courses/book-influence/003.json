@@ -65,17 +65,17 @@
     "explanation": "Seeing others not helping provides social proof that helping is not necessary or appropriate. Each person interprets the inaction of others as a sign that help is not needed."
   },
   {
-    "question": "Canned Laughter",
-    "content": "Television sitcoms use laugh tracks because canned laughter provides social proof that the jokes are funny, making viewers more likely to perceive them as humorous and laugh along.",
-    "description": "A comedy show adds a laugh track to increase the perception that jokes are funny because:",
+    "question": "Social Proof or Informational Influence?",
+    "content": "Social proof operates through two channels: informational influence (assuming others know something we do not) and normative influence (conforming to fit in). Both use others' behavior as guidance but for different underlying reasons.",
+    "description": "At a classical music concert, you notice the person next to you applauds after the first movement. You applaud too, even though you usually wait until the end. Later, a friend says that person clapped at the wrong time. Your applause was driven by:",
     "options": [
-      "The actors deliver better performances with laughter",
-      "Laughter provides social proof that the material is humorous",
-      "The show's budget requires audio effects",
-      "Audiences dislike silence during comedies"
+      "Normative influence — you wanted to fit in with the audience around you",
+      "Informational influence — you assumed they knew the correct time to applaud",
+      "Pure conformity — you always mimic what others do without thinking",
+      "Authority — you assumed they were a classical music expert"
     ],
-    "answer": "Laughter provides social proof that the material is humorous",
-    "explanation": "The laugh track creates social proof that others find the jokes funny, influencing viewers to perceive the humor more strongly and laugh along themselves."
+    "answer": "Informational influence — you assumed they knew the correct time to applaud",
+    "explanation": "This is informational influence: you observed someone's behavior and assumed they possessed knowledge you lacked (when to applaud). Normative influence would involve clapping to avoid standing out or being judged. Both are forms of social proof, but the motivation differs — here it is about being correct, not about fitting in."
   },
   {
     "question": "Social Proof in Advertising",
@@ -91,16 +91,16 @@
     "explanation": "The statistic provides social proof by showing that respected authorities (dentists) approve of the product, influencing consumers to trust and choose it."
   },
   {
-    "question": "Fear and Social Proof",
-    "content": "In fearful or ambiguous situations, people are especially susceptible to social proof as they seek guidance from others on how to behave safely.",
-    "description": "During a fire drill, if most people calmly walk to the exits, others are likely to:",
+    "question": "Competing Signals in Emergencies",
+    "content": "In emergencies, multiple influence principles may provide conflicting guidance. Social proof may suggest inaction (others are calm), while authority may suggest action (a directive). Understanding which principle dominates is critical.",
+    "description": "In a crowded theater, smoke appears near the exit. Most people stay seated, looking around. One person in an usher uniform stands up and says calmly, 'Everyone please move to the side exits.' People begin moving. The switch from inaction to action is best explained by:",
     "options": [
-      "Panick and run in random directions",
-      "Follow the calm behavior due to social proof",
-      "Ignore the drill completely",
-      "Wait for explicit instructions from authorities"
+      "Social proof overriding authority when the crowd finally moves as a group",
+      "Authority (usher uniform) breaking the social proof of inaction",
+      "Scarcity of time creating urgency to act regardless of principles",
+      "Reciprocity for the usher's past service to the audience"
     ],
-    "answer": "Follow the calm behavior due to social proof",
-    "explanation": "In ambiguous emergency situations, people look to others for cues on how to behave. Seeing others act calmly provides social proof that the situation is under control and calm action is appropriate."
+    "answer": "Authority (usher uniform) breaking the social proof of inaction",
+    "explanation": "Initially, social proof keeps everyone seated (others are calm, so it must be fine). But the usher's uniform provides an authority signal that overrides the social proof. This shows how competing principles interact: authority can break the spell of pluralistic ignorance by offering a credible directive that counters the inaction of the crowd."
   }
 ]

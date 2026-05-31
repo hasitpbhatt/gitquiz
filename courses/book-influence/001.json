@@ -52,17 +52,17 @@
     "explanation": "The seller's movement from $8,000 to $7,500 is a concession that triggers the reciprocity norm, making you feel obligated to move from your $6,000 counteroffer in return."
   },
   {
-    "question": "Why Reciprocity Works",
-    "content": "Reciprocity is powerful because it evolved to facilitate beneficial exchanges in social groups. Those who didn't reciprocate were often excluded from future cooperation, making reciprocity a survival advantage.",
-    "description": "From an evolutionary perspective, societies with strong reciprocity norms tend to:",
+    "question": "Reciprocity vs. Mere Exposure",
+    "content": "Both reciprocity and the mere exposure effect can increase compliance, but through different mechanisms. Reciprocity creates obligation through a perceived debt, while mere exposure increases liking through repeated familiarity without obligation.",
+    "description": "A bakery gives you a free cookie each time you walk past without asking for anything. A nearby florist gives you a single rose on your first visit and immediately asks you to buy. After three weeks, you finally buy from the bakery but never from the florist. Why did the bakery succeed where the florist failed?",
     "options": [
-      "Have more aggressive individuals who take advantage",
-      "Develop better systems of cooperation and trust",
-      "Experience more frequent conflicts over resources",
-      "Become isolated from neighboring groups"
+      "Reciprocity — each cookie created a separate obligation that accumulated over time",
+      "Mere exposure — repeated positive contact built comfort and familiarity without obligation",
+      "Reciprocity — the cookies are more valuable than a single rose",
+      "Mere exposure — you forgot the florist's gift by the next day"
     ],
-    "answer": "Develop better systems of cooperation and trust",
-    "explanation": "Reciprocity norms enabled groups to share resources, help each other in times of need, and build trust—all advantageous for group survival and individual success within the group."
+    "answer": "Mere exposure — repeated positive contact built comfort and familiarity without obligation",
+    "explanation": "The bakery never asked for anything in return — each cookie was given freely without a follow-up request, making reciprocity weak. The real driver is mere exposure: repeated positive contact builds familiarity, comfort, and liking over time. Contrast with the florist, who asked immediately after a single gift — classic reciprocity, but less effective because the transaction felt calculated."
   },
   {
     "question": "Defending Against Unwanted Reciprocity",
@@ -78,17 +78,17 @@
     "explanation": "By reframing the 'gift' as a manipulative tactic rather than a genuine favor, you prevent the automatic reciprocity response while still being able to accept the item if desired."
   },
   {
-    "question": "Reciprocity in Social Experiments",
-    "content": "In studies, reciprocity demonstrates surprising strength. People will comply with significantly larger requests after receiving even trivial favors, showing the rule's unconscious power.",
-    "description": "In a famous experiment, participants who received a small uncapped bottle of Coca-Cola from a stranger were subsequently:",
+    "question": "Boundary Conditions of Reciprocity",
+    "content": "Reciprocity has limits: it weakens when the gift is perceived as transactional, when the requester is disliked, when the delay between gift and request is too short, or when the gift is unwanted.",
+    "description": "A telemarketer says 'We are sending you a free $50 gift certificate — no strings attached!' It arrives a week later. The next week they call asking for a donation. You feel annoyed rather than obligated. Your resistance is best explained by:",
     "options": [
-      "Less likely to help the stranger with a task",
-      "About equally likely to help regardless of the drink",
-      "Much more likely to help the stranger with a request",
-      "Only more likely if they were thirsty"
+      "The gift certificate was not valuable enough to trigger reciprocity",
+      "The promised gift felt transactional, not generous, undermining genuine obligation",
+      "Telemarketers are legally prohibited from using reciprocity tactics",
+      "Gift certificates cannot create reciprocity because they are not cash"
     ],
-    "answer": "Much more likely to help the stranger with a request",
-    "explanation": "Even this trivial gift created a reciprocity obligation that made participants significantly more likely to comply with a later request for help, demonstrating the rule's powerful unconscious influence."
+    "answer": "The promised gift felt transactional, not generous, undermining genuine obligation",
+    "explanation": "When a gift is announced in advance ('we are sending you...'), it feels like a calculated transaction rather than a genuine gift. True reciprocity requires the gift to feel voluntary and generous. The advance notice reveals manipulative intent, triggering resistance instead of obligation. This is a boundary condition where reciprocity fails."
   },
   {
     "question": "Business Applications of Reciprocity",

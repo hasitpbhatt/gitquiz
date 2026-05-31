@@ -39,17 +39,17 @@
     "explanation": "When something is rare or limited in quantity, we worry that others will acquire it before we can, increasing its perceived value and urgency."
   },
   {
-    "question": "The Reactance Theory",
-    "content": "When freedoms are restricted or threatened, people experience reactance—a motivation to regain those freedoms. Censorship often increases desire for the censored item.",
-    "description": "A government announces it will ban a certain book next month. Before the ban, sales of the book increase because:",
+    "question": "Reactance or Scarcity?",
+    "content": "Reactance (freedom restriction) and scarcity (limited availability) both increase desire but through different mechanisms. Reactance is about losing freedom of choice, while scarcity is about limited access to something desirable.",
+    "description": "A streaming service announces a popular show is 'leaving the platform next week.' Viewership spikes dramatically, even though the show is available on other platforms. The primary driver is:",
     "options": [
-      "People actually read and loved the book",
-      "The threatened loss of freedom increases desire (reactance)",
-      "The book became cheaper before the ban",
-      "Libraries started giving away free copies"
+      "Scarcity — the show will soon be unavailable on this specific platform",
+      "Reactance — viewers feel their freedom to watch anytime is being restricted",
+      "Social proof — others are also watching the show now",
+      "Commitment — viewers had planned to watch it eventually"
     ],
-    "answer": "The threatened loss of freedom increases desire (reactance)",
-    "explanation": "When access to something is restricted, people want to maintain their freedom to access it, increasing desire even if they weren't particularly interested before."
+    "answer": "Scarcity — the show will soon be unavailable on this specific platform",
+    "explanation": "This is scarcity, not reactance. The show is still available everywhere else — only access through this platform is time-limited. Reactance would involve a threat to the freedom to watch the show at all (e.g., government banning it). Scarcity creates urgency ('limited time'), while reactance creates defiance ('you cannot tell me what to do')."
   },
   {
     "question": "Scarcity Through Competition",
@@ -91,16 +91,16 @@
     "explanation": "The implied scarcity of future access to the store (if it closes) motivates purchases now to avoid missing out completely."
   },
   {
-    "question": "The Romeo and Juliet Effect",
-    "content": "When parental interference increases in a romantic relationship, feelings of love often intensify rather than diminish—a demonstration of reactance to restrictions on freedom.",
-    "description": "Parents try to separate two teenagers who are dating. As a result, the couple's feelings often:",
+    "question": "Love or Reactance?",
+    "content": "The Romeo and Juliet effect — where parental opposition intensifies romantic feelings — is classically attributed to psychological reactance. However, alternative explanations include effort justification (valuing what we struggle for) and forbidden fruit appeal.",
+    "description": "A couple's parents strongly oppose their relationship. The couple becomes more committed. Research supports which interpretation as the primary mechanism?",
     "options": [
-      "Diminish quickly due to the interference",
-      "Stay exactly the same as before",
-      "Intensify due to psychological reactance",
-      "Cause them to immediately break up"
+      "Reactance — the opposition threatens their freedom to choose their own partner",
+      "Effort justification — overcoming obstacles makes the relationship seem more valuable",
+      "Social proof — the opposition signals the partner must be especially desirable",
+      "Scarcity — the parents may try to limit future access to the partner"
     ],
-    "answer": "Intensify due to psychological reactance",
-    "explanation": "When external forces try to restrict the freedom to be together, psychological reactance can intensify feelings as individuals strive to maintain their freedom to choose."
+    "answer": "Reactance — the opposition threatens their freedom to choose their own partner",
+    "explanation": "While effort justification and forbidden fruit appeal may contribute, empirical research supports reactance as the primary mechanism. When people feel their freedom to choose a partner is threatened, they experience psychological reactance that intensifies determination to exercise that freedom. This is distinct from effort justification because the intensification occurs when opposition first appears, not after overcoming obstacles."
   }
 ]

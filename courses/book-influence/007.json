@@ -13,17 +13,17 @@
     "explanation": "Combining similarity and liking (rapport building), scarcity (urgency), and authority (credibility) creates a multiplicative effect that's more powerful than any single tactic alone."
   },
   {
-    "question": "Influence in Charity Donations",
-    "content": "Charitable organizations use influence principles to increase donations. Recognizing these tactics helps donors give more thoughtfully.",
-    "description": "A charity sends you: free address labels (reciprocity), a letter mentioning '9 out of 10 people in your neighborhood donated' (social proof), and states 'Matching grant available only until Friday!' (scarcity). This combination is effective because:",
+    "question": "Identifying the Primary Lever",
+    "content": "When multiple influence principles are activated, one principle is often the primary driver for a specific audience. Identifying the primary lever requires understanding the target audience's main psychological barrier to action.",
+    "description": "A charity targets three distinct groups: (A) people who feel disconnected from the cause, (B) people who are unsure whether donating is appropriate, and (C) people who intend to donate but procrastinate. Which principle should each mailing emphasize?",
     "options": [
-      "The charity actually helps more people with these tactics",
-      "Each principle addresses different psychological barriers to giving",
-      "You verified how much of donations go to overhead",
-      "The charity is legally required to use these methods"
+      "All three groups should receive the same appeal since all principles work on everyone",
+      "A = reciprocity, B = social proof, C = scarcity — each targets the specific barrier",
+      "B should get social proof, but A and C should both get scarcity since it creates urgency",
+      "All groups should receive reciprocity since free gifts work on everyone"
     ],
-    "answer": "Each principle addresses different psychological barriers to giving",
-    "explanation": "Reciprocity creates obligation, social proof reduces uncertainty about the norm, and scarcity creates urgency—together they address reluctance, skepticism, and procrastination that limit giving."
+    "answer": "A = reciprocity, B = social proof, C = scarcity — each targets the specific barrier",
+    "explanation": "Each principle addresses a different psychological barrier. Reciprocity bridges disconnection (the gift creates obligation from a stranger). Social proof resolves uncertainty (others donate, so it must be appropriate). Scarcity overcomes procrastination (limited time creates urgency to act now). Matching the principle to the primary barrier maximizes effectiveness."
   },
   {
     "question": "Influence Techniques in Online Marketing",
@@ -78,17 +78,17 @@
     "explanation": "When multiple influence principles are combined intensively, they can create pressure that bypasses thoughtful consideration. Ethical use involves informing and persuading, not overwhelming decision-making capacity."
   },
   {
-    "question": "Recognizing Influence Bundles in Advertising",
-    "content": "Advertisements frequently bundle influence principles to create persuasive messages. Identifying these bundles helps consumers evaluate offers more objectively.",
-    "description": "A weight loss supplement ad shows: a doctor endorsing the product (authority), 'Join 200,000+ satisfied customers' (social proof), 'First 100 customers get double strength' (scarcity), and attractive people using the product (liking/association). Consumers should ask:",
+    "question": "Bundling or Manipulation?",
+    "content": "Using multiple influence principles together is not inherently manipulative. The ethical boundary depends on whether the combination enables informed choice or overwhelms rational decision-making through psychological pressure.",
+    "description": "A political campaign ad uses: an expert endorsement (authority), crowd size footage (social proof), a countdown to election day (scarcity), and 'I need you' language (liking). A voter feels compelled but uncertain. The ethical concern is that the combined tactics:",
     "options": [
-      "Whether the doctor actually uses the product",
-      "What objective evidence exists beyond the influence bundle",
-      "If the attractive people are paid models",
-      "Whether the scarcity claim is time-limited"
+      "Are unethical because they use multiple influence principles simultaneously",
+      "May bypass critical evaluation by activating too many automatic responses at once",
+      "Are always ethical because voters can choose not to watch ads",
+      "Are only unethical if the candidate lacks relevant experience"
     ],
-    "answer": "What objective evidence exists beyond the influence bundle",
-    "explanation": "When confronted with bundled influence tactics, the most important question is what substantive, objective evidence supports the claims independent of the psychological persuasion techniques."
+    "answer": "May bypass critical evaluation by activating too many automatic responses at once",
+    "explanation": "The ethical concern with intense bundling is that simultaneous activation of multiple automatic triggers can overwhelm the cognitive resources needed for conscious deliberation. The question is not whether any single principle is manipulative, but whether the combination undermines the capacity for rational evaluation."
   },
   {
     "question": "Influence in Workplace Dynamics",

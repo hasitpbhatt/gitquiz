@@ -39,17 +39,17 @@
     "explanation": "Ethically applying liking involves authentic relationship-building rather than manipulative deception, creating trust that benefits all parties."
   },
   {
-    "question": "Principle of Least Redundancy",
-    "content": "When applying influence knowledge, focus on identifying the primary principle at work rather than labeling every possible influence factor, which can lead to analysis paralysis.",
-    "description": "A charity uses: free address labels (reciprocity), 'Join thousands of donors' (social proof), and 'Match available only this week' (scarcity). If you had to identify the single most important factor for someone who never gives to charity, it would likely be:",
+    "question": "Priority of Principles",
+    "content": "When multiple influence principles are at play, one typically dominates because it addresses the most fundamental psychological barrier in that specific situation. Identifying the dominant principle is key to understanding the influence attempt.",
+    "description": "A new restaurant in an unfamiliar neighborhood is mostly empty. The owner offers free appetizers (reciprocity) and puts up a sign reading 'Join 200 satisfied diners this week' (social proof). Three months later, the restaurant thrives. Which principle was likely MOST critical for overcoming the initial barrier?",
     "options": [
-      "The free address labels creating obligation",
-      "The social proof showing it's normal to give",
-      "The scarcity creating urgency to act now",
-      "The combination of all three equally"
+      "Reciprocity — free food created obligation to return and bring others",
+      "Social proof — the sign reduced uncertainty about an unknown restaurant",
+      "Both contributed equally to the restaurant's success",
+      "Neither — success was entirely due to food quality"
     ],
-    "answer": "The social proof showing it's normal to give",
-    "explanation": "For someone who never gives, the primary barrier is often uncertainty about whether giving is appropriate or normal. Social proof addresses this fundamental objection more directly than reciprocity (which they might reject) or scarcity (which they might ignore if not inclined to give)."
+    "answer": "Social proof — the sign reduced uncertainty about an unknown restaurant",
+    "explanation": "The primary barrier was uncertainty (it is new and unfamiliar). Social proof directly addresses uncertainty by showing others have chosen this place. While reciprocity helps once people are inside, it does not solve the initial problem of getting people through the door. Social proof was the critical lever for the primary barrier."
   },
   {
     "question": "Recognizing Authority Misuse",
@@ -104,17 +104,17 @@
     "explanation": "Social proof provides useful information about popularity but should be evaluated alongside other factors like menu preferences, dietary restrictions, or actual food quality assessments."
   },
   {
-    "question": "Reciprocity in Relationships",
-    "content": "Healthy relationships involve mutual, voluntary reciprocity rather than calculated exchanges or feeling indebted for unsolicited gifts.",
-    "description": "In a friendship, reciprocity is healthiest when it:",
+    "question": "Healthy vs. Toxic Reciprocity",
+    "content": "Reciprocity is healthy when it is voluntary, mutual, and flexible. It becomes toxic when it is coerced, tracked transactionally, or used to maintain imbalance — one person always giving more, creating perpetual obligation.",
+    "description": "Two friends exchange favors. Friend A always gives slightly more and subtly reminds Friend B of past favors when asking for help. Friend B feels increasingly uncomfortable. This dynamic is unhealthy because:",
     "options": [
-      "Is carefully tracked to ensure exact equality",
-      "Occurs naturally through mutual care and support",
-      "Involves expensive gifts to demonstrate commitment",
-      "Is avoided to maintain independence"
+      "Friends should never exchange favors — it creates transactional relationships",
+      "Friend A uses accumulated obligation to create asymmetric power in the relationship",
+      "Friend B should give more to balance the reciprocity",
+      "The favors are not valuable enough to create meaningful reciprocity"
     ],
-    "answer": "Occurs naturally through mutual care and support",
-    "explanation": "Healthy reciprocity in relationships flows from genuine care rather than scorekeeping, creating bonds rather than transactions."
+    "answer": "Friend A uses accumulated obligation to create asymmetric power in the relationship",
+    "explanation": "Healthy reciprocity maintains balanced relationships through voluntary, mutual exchange. Here, Friend A deliberately creates a debt imbalance and leverages it strategically, transforming reciprocity into a power tool. The discomfort Friend B feels signals that the natural, voluntary quality of reciprocity has been replaced by calculated obligation."
   },
   {
     "question": "Applying Influence Knowledge Personally",

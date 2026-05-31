@@ -65,17 +65,17 @@
     "explanation": "Once you've committed to buying the car, backing out would require admitting inconsistency with your decision. Most people choose to stick with the commitment even when terms change unfavorably."
   },
   {
-    "question": "Consistency and Self-Image",
-    "content": "Our desire for consistency stems from wanting to maintain a stable self-image. We act consistently to avoid seeing ourselves as fickle, irrational, or unreliable.",
-    "description": "Someone who considers themselves environmentally conscious is most likely to:",
+    "question": "Consistency vs. Cognitive Dissonance",
+    "content": "Consistency drives us to align future actions with past commitments. Cognitive dissonance drives us to resolve discomfort when beliefs and actions conflict — sometimes by changing beliefs rather than behavior.",
+    "description": "A person donates to an environmental charity. Later they buy a gas-guzzling SUV. Instead of feeling hypocritical, they decide 'the research on emissions is exaggerated.' This is best explained by:",
     "options": [
-      "Never use plastic products under any circumstances",
-      "Take actions that align with their environmental self-image",
-      "Criticize others who aren't environmentally conscious",
-      "Change their self-image frequently based on convenience"
+      "Consistency — they are staying true to their desire for a comfortable vehicle",
+      "Cognitive dissonance — they changed their beliefs to justify the inconsistent action",
+      "Social proof — their friends also drive SUVs",
+      "Reciprocity — the charity should have given them something first"
     ],
-    "answer": "Take actions that align with their environmental self-image",
-    "explanation": "People strive for consistency between their actions and self-image. Someone who sees themselves as environmentally conscious will take recycling, conservation, or other eco-friendly actions to maintain that consistent self-view."
+    "answer": "Cognitive dissonance — they changed their beliefs to justify the inconsistent action",
+    "explanation": "Cognitive dissonance creates discomfort when actions conflict with beliefs. Instead of changing the behavior or tolerating the inconsistency, the person resolves discomfort by changing their belief about emissions. This differs from consistency, which involves aligning future actions with a prior commitment."
   },
   {
     "question": "Commitment Through Effort",
@@ -91,16 +91,16 @@
     "explanation": "The effort justification effect causes us to increase our liking for something we've suffered for, reducing cognitive dissonance between the unpleasant initiation and our decision to join."
   },
   {
-    "question": "Consistency in Goal Setting",
-    "content": "Effective goal setting leverages consistency by getting people to make specific, public commitments to their goals. The more specific and public the commitment, the stronger the consistency pressure.",
-    "description": "A fitness app increases user engagement by asking them to:",
+    "question": "Escalating Commitment",
+    "content": "Escalating commitment describes the tendency to increase investment in a failing course of action. While related to consistency, it specifically involves continued resource commitment despite negative outcomes.",
+    "description": "A manager funds a failing project for three years because 'we have already invested too much to stop.' Her team privately calls this 'throwing good money after bad.' The psychological mechanism at work is:",
     "options": [
-      "Set vague goals like 'get healthier'",
-      "Keep their fitness goals completely private",
-      "Make specific, public commitments to workout schedules",
-      "Change their goals daily based on mood"
+      "Consistency with the original decision to start the project",
+      "The sunk cost fallacy driving continued investment despite evidence",
+      "Social proof from other departments running similar projects",
+      "Scarcity of other investment opportunities"
     ],
-    "answer": "Make specific, public commitments to workout schedules",
-    "explanation": "Specific, public commitments create the strongest consistency pressures. Vague goals lack clarity, private commitments lack social accountability, and frequently changing goals prevent consistency formation."
+    "answer": "The sunk cost fallacy driving continued investment despite evidence",
+    "explanation": "The sunk cost fallacy is a specific form of escalating commitment where past investment drives continued spending despite negative returns. While consistency with the original decision plays a supporting role, the core mechanism is the irrational weighting of sunk costs over future expected value."
   }
 ]

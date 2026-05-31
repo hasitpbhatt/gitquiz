@@ -92,6 +92,24 @@ Follow these content conventions for each field:
 - **Scrutinize review-only chapters**: A chapter that purely repeats concepts already taught (without adding new material or novel integrations) should be deleted rather than kept. Review concepts can be naturally reinforced within the core chapter questions themselves.
 - **Quantitative threshold for review detection**: After creating all chapters, run a script that compares each chapter's concepts against prior chapters. If ≥65% of a chapter's concepts already appeared in prior chapters and the new material could fit elsewhere, the chapter is review-only and should be eliminated. Chapters with 35-64% repetition are "mixed" — consider consolidating them with adjacent chapters.
 
+### 5a. Maintain Difficulty Variation Within Chapters
+
+Engagement drops when every question is trivially easy. Each chapter must contain a deliberate mix of difficulty levels:
+
+- **Easy (30-40%)**: Straightforward recall — the correct answer is clearly right once you know the concept. Two distractors are clearly wrong.
+- **Medium (35-45%)**: Requires applying the concept to an unfamiliar scenario. All four options are plausible; the distinction lies in nuance.
+- **Hard (15-25%)**: Requires synthesizing multiple concepts, catching subtle distinctions, or avoiding a common trap. All options are highly plausible at a surface level — the learner must deeply understand the concept to pick the right one.
+
+Hard-question techniques:
+
+- **Trapdoor option**: Include one option that sounds correct because it uses concept-adjacent buzzwords but actually describes a different concept.
+- **Reverse application**: Present a scenario that seems to fit Concept A but actually illustrates Concept B. The learner must recognize the mismatch.
+- **Boundary case**: Test the edge of a definition — "When does this principle stop applying?" or "Which situation would this principle not address?"
+- **Competing principles**: Two valid principles point to different conclusions; the learner must determine which takes priority.
+- **Option symmetry**: All four options are the same length, structure, and grammatical form — no option stands out by appearance alone. Use professional-grade distractors that would each be correct in a slightly different scenario.
+
+**Pre-writing validation**: Before writing explanations, label each question E/M/H. If a chapter has 0 hard questions, rewrite at least 1-2. If all questions are the same difficulty, rebalance.
+
 ### 6. Update Courses List
 Add your course identifier to `courses/courses_list.txt` in alphabetical position:
 - Keep one course per line
@@ -133,6 +151,11 @@ File-level checks:
 - [ ] Each chapter has 7-12 questions
 - [ ] File naming uses 001.json, 002.json format
 - [ ] Courses list is alphabetically sorted
+
+Difficulty variation check:
+- [ ] Each chapter has a mix: 30-40% easy, 35-45% medium, 15-25% hard
+- [ ] No chapter has 0 hard questions — learner engagement requires challenge
+- [ ] Hard questions use at least one technique (trapdoor, reverse application, boundary case, competing principles, option symmetry)
 
 Post-creation gap analysis:
 - [ ] Every concept from the inventory (Step 1) has at least one question
@@ -363,6 +386,27 @@ console.log(found + '/' + (found + missing) + ' covered, ' + missing + ' gaps');
 ```
 
 Save as `coverage_check.js` and run with `node coverage_check.js`. Add keyword variations as needed — the script is case-insensitive.
+
+### Difficulty Audit Script (see `difficulty_audit.js` in this directory)
+
+Run `node .opencode/skill/book-to-quiz/difficulty_audit.js` (after editing `dir` inside it) to print every question organized by chapter with blank `[_]` brackets to label E/M/H.
+
+### Difficulty Tally Script (see `difficulty_tally.js` in this directory)
+
+After labeling, paste your labels into `difficulty_tally.js` and run it to validate the distribution per chapter. Flags chapters with 0 hard questions or overall hard < 15%.
+
+### Difficulty Refactoring Scaffold (see `refactor_difficulty.js` in this directory)
+
+When a chapter has 0 hard questions, edit the `replacements` map in `refactor_difficulty.js` — keyed by existing question name — with new hard questions using one of the five techniques (competing principles, boundary case, reverse application, trapdoor, option symmetry). Run with `node .opencode/skill/book-to-quiz/refactor_difficulty.js`.
+
+**Workflow for refactoring**:
+1. Run the difficulty audit script — identify chapters with 0 hard questions
+2. For each such chapter, pick 1-2 easy questions to upgrade to hard
+3. Choose a technique: competing principles, boundary case, reverse application, trapdoor option, or option symmetry
+4. Fill in the refactoring scaffold with new question data
+5. Run `node refactor_difficulty.js`
+6. Re-run the difficulty tally to confirm 15-25% hard per chapter
+7. Run the comprehensive validation script to catch any answer/option mismatches
 
 ## Technical Learnings
 

@@ -52,17 +52,17 @@
     "explanation": "Status symbols like luxury items create perceptions of success and expertise that enhance persuasive influence, even when not directly related to actual competence."
   },
   {
-    "question": "Authority and the Milgram Experiment",
-    "content": "The famous Milgram experiments demonstrated that ordinary people would administer what they believed were dangerous electric shocks to others when instructed by an authority figure.",
-    "description": "In the Milgram experiments, participants continued to administer shocks because:",
+    "question": "Boundaries of Obedience",
+    "content": "While Milgram showed high obedience rates (65% delivered maximum shocks), obedience varied dramatically with situational factors — proximity to the victim, presence of disobedient peers, and directness of the authority figure.",
+    "description": "In a Milgram replication, obedience rates drop from 65% to approximately 10% when a confederate teacher refuses to continue. The confederate's refusal causes the real participant to also refuse. This is best explained by:",
     "options": [
-      "They enjoyed causing pain to others",
-      "They believed the shocks were not actually harmful",
-      "The authority figure instructed them to continue",
-      "They were paid extra for higher voltage levels"
+      "Reciprocity — the participant feels obligated to support the confederate's decision",
+      "Social proof of disobedience overriding the authority figure's commands",
+      "The confederate being more authoritative than the experimenter",
+      "Scarcity — fewer participants are available to complete the experiment"
     ],
-    "answer": "The authority figure instructed them to continue",
-    "explanation": "Participants obeyed the authority figure's instructions despite personal discomfort, demonstrating the powerful influence of perceived authority on behavior."
+    "answer": "Social proof of disobedience overriding the authority figure's commands",
+    "explanation": "When a peer refuses to obey, it provides powerful social proof that disobedience is acceptable and safe, breaking the authority spell. This demonstrates that authority is not absolute — it can be overridden by social proof from similar others. Milgram's variations showed this was one of the most powerful conditions for reducing obedience."
   },
   {
     "question": "Legitimate Authority vs. Appearance",
@@ -91,16 +91,16 @@
     "explanation": "The white coat serves as a symbol of medical authority, increasing perceived credibility and trust in the product recommendation regardless of the individual's actual expertise."
   },
   {
-    "question": "Blind Obedience to Authority",
-    "content": "Blind obedience occurs when people follow authority requests without critical thinking about the request's appropriateness or ethics, often to avoid responsibility or due to trust in authority systems.",
-    "description": "A manager asks an employee to falsify financial reports. The employee complies because:",
+    "question": "Defending Against Authority Exploitation",
+    "content": "Defending against unwanted authority influence requires distinguishing legitimate from illegitimate authority. Legitimate authority is domain-specific and verifiable, while illegitimate authority relies on symbols and confidence without substance.",
+    "description": "A caller claims to be from 'Technical Support at Microsoft' and asks you to run a diagnostic giving them remote access. You suspect a scam. The most reliable defense is:",
     "options": [
-      "They enjoy committing fraud",
-      "They blindly obey authority without questioning ethics",
-      "They verified the request was legal",
-      "They received a promotion for compliance"
+      "Hanging up immediately to avoid further persuasion attempts",
+      "Asking for their name, employee ID, and callback number",
+      "Hanging up and independently calling Microsoft using their official number",
+      "Checking whether the caller sounds professional and knowledgeable"
     ],
-    "answer": "They blindly obey authority without questioning ethics",
-    "explanation": "Blind obedience to authority can lead to unethical or illegal actions when individuals fail to critically evaluate requests against moral or legal standards."
+    "answer": "Hanging up and independently calling Microsoft using their official number",
+    "explanation": "The strongest defense is to break contact and independently verify the authority through trusted channels. Asking for credentials is weak (scammers can fabricate IDs), and judging professionalism is unreliable. This demonstrates the general strategy: pause, verify through independent channels, then respond."
   }
 ]
