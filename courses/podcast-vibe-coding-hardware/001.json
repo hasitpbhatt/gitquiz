@@ -84,20 +84,6 @@
     "difficulty": "medium"
   },
   {
-    "question": "The Disappearing Hardware Tool Market",
-    "content": "Guillermo Rauch argues that the ability to internally code custom solutions means the market for horizontal hardware engineering tools is disappearing. Even spreadsheets are 'kind of cooked.'",
-    "description": "Your company spends $2M annually on a suite of hardware engineering collaboration tools. Based on Guillermo Rauch's analysis, what long-term trend should you prepare for?",
-    "options": [
-      "The tools will consolidate into a single platform from a dominant vendor",
-      "Your internal team will increasingly build custom replacements, making external tools redundant",
-      "Hardware engineering tool costs will triple as AI features are added",
-      "The government will regulate which engineering tools can be used for aerospace"
-    ],
-    "answer": "Your internal team will increasingly build custom replacements, making external tools redundant",
-    "explanation": "Guillermo Rauch says there's no startup that builds hardware collaboration tools that can sell you anything anymore — internally you're just coding what you need. Even spreadsheets are 'kind of cooked.'",
-    "difficulty": "hard"
-  },
-  {
     "question": "Agentic Hardware Interfaces",
     "content": "Naval suggests that hardware companies with historically bad software may skip human-facing software entirely and go straight to agentic interfaces — an agent accesses the hardware and you talk to it through voice.",
     "description": "A hardware startup building IoT devices asks you whether they should invest in building a polished mobile app or a web dashboard for their product. Using Naval's prediction, what alternative path should they consider?",
@@ -109,6 +95,62 @@
     ],
     "answer": "They could skip human-facing software entirely and let agents access the hardware through voice interfaces",
     "explanation": "Naval says it 'may not even be software with a human front end — it might just be completely agentic, an agent accessing it, and you talk to it through voice to control hardware.'",
+    "difficulty": "hard"
+  },
+  {
+    "question": "You Always Want the Smartest Model",
+    "content": "Naval argues that intelligence is an 'unalloyed good' — you always want more of it. When models make mistakes, you don't know it, and they're always cheaper than a real person.",
+    "description": "Your CFO proposes using a cheaper, less intelligent AI model for 97% of coding tasks and only using the frontier model for the hardest 3%. Based on Naval's argument, what is the flaw in this cost-saving strategy?",
+    "options": [
+      "The cheaper model costs more in compute than the frontier model",
+      "When the cheaper model makes a mistake, you won't know it, and intelligence is too valuable to compromise on",
+      "The cheaper model is actually more intelligent than the frontier model for coding tasks",
+      "The strategy would violate the AI model's terms of service"
+    ],
+    "answer": "When the cheaper model makes a mistake, you won't know it, and intelligence is too valuable to compromise on",
+    "explanation": "Naval says: 'When these models make a mistake, you don't know it' — and intelligence is an unalloyed good. Given the leverage poured through decisions, you always want the most intelligent model.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Two-Tier Model Strategy",
+    "content": "Guillermo describes a practical split: use frontier models for pushing the coding frontier, and use cheaper models (including Chinese models and Gemini) for support tasks, browser automation, and industrial production.",
+    "description": "You are designing an AI deployment strategy for your company. You need both cutting-edge code generation and cost-efficient automation for routine tasks. How does Guillermo Rauch suggest splitting the workload?",
+    "options": [
+      "Use one model for everything to keep the architecture simple",
+      "Use frontier models for pushing the coding frontier and cheaper models like Gemini or Chinese models for support and automation",
+      "Use only open-source models to avoid vendor lock-in across all tasks",
+      "Always use the cheapest model and accept lower quality for all tasks"
+    ],
+    "answer": "Use frontier models for pushing the coding frontier and cheaper models like Gemini or Chinese models for support and automation",
+    "explanation": "Guillermo says: 'Any time I'm working to push the frontier, you need the best possible coding model. That's basically two or three models. The Chinese are certainly not in it.' For other tasks, cheaper models work fine.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Monopoly Problem",
+    "content": "Naval acknowledges that his preference for the most intelligent model is 'not great news' because it concentrates power among the top two or three frontier labs, creating a monopoly or oligopoly situation in AI.",
+    "description": "A policy maker is concerned about AI market concentration. You explain Naval's argument that everyone will gravitate toward the single most intelligent model. What market structure does this predict for AI?",
+    "options": [
+      "A highly fragmented market with hundreds of competitive AI models",
+      "A monopoly or oligopoly where the top few frontier models dominate because users always prefer the smartest",
+      "A market where open-source models eventually beat proprietary ones through community contributions",
+      "A market where every company fine-tunes its own model and no single player dominates"
+    ],
+    "answer": "A monopoly or oligopoly where the top few frontier models dominate because users always prefer the smartest",
+    "explanation": "Naval says: 'Which isn't great news, because it means you'll end up creating a monopoly or oligopoly situation in AI. But I always want the most intelligent programmer.'",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Intelligence Unicorn",
+    "content": "Guillermo reveals that Chinese models are 'certainly not in it' when it comes to frontier coding — despite all the hype, the real frontier work is dominated by just two or three Western model providers.",
+    "description": "A tech journalist claims 'Chinese AI models are now competing head-to-head with Western frontier models on coding tasks.' Based on what Naval and Guillermo agree on, is this claim accurate?",
+    "options": [
+      "Yes, DeepSeek has surpassed GPT-4 on all major coding benchmarks",
+      "No — neither Naval nor Guillermo sees Chinese models being used for frontier coding work",
+      "Partially — Chinese models lead on coding but trail on creative writing",
+      "The comparison is meaningless because Chinese models don't publish benchmarks"
+    ],
+    "answer": "No — neither Naval nor Guillermo sees Chinese models being used for frontier coding work",
+    "explanation": "Naval says he doesn't know anyone who uses Chinese models. Guillermo confirms: 'The Chinese are certainly not in it' when it comes to frontier coding. Chinese models find use in support and automation, not cutting-edge coding.",
     "difficulty": "hard"
   }
 ]

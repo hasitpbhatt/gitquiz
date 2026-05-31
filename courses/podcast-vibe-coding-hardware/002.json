@@ -45,7 +45,6 @@
     "question": "Software Is the Bottleneck for Everything",
     "content": "Guillermo Rauch warns that without great frontier coding models, a nation loses self-improvement capability. Software generation underpins every piece of the hardware pipeline.",
     "description": "A policy maker argues that a country can excel in hardware manufacturing even if it falls behind in AI coding models. How would Guillermo Rauch respond based on the hardware pipeline argument?",
-    "content": "Guillermo Rauch warns that without great frontier coding models, a nation loses self-improvement capability. Software generation underpins every piece of the hardware pipeline.",
     "options": [
       "Hardware manufacturing and AI software are completely separate industries",
       "If you fall behind in your ability to generate software, you fall behind in your ability to generate everything",
@@ -54,20 +53,6 @@
     ],
     "answer": "If you fall behind in your ability to generate software, you fall behind in your ability to generate everything",
     "explanation": "Guillermo says: 'If you fall behind in your ability to generate software, you fall behind in your ability to generate everything' — because every piece of the hardware pipeline needs software generation.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "The Self-Improvement Wake-Up Call",
-    "content": "Guillermo Rauch says everyone has had the wake-up call that without great frontier coding models, self-improvement is impossible. This ties AI capability directly to national industrial competitiveness.",
-    "description": "Your country's industrial policy committee is debating whether to fund fundamental AI research or focus on applied manufacturing. Applying Guillermo's framework, what is the strongest argument for funding frontier AI models?",
-    "options": [
-      "Frontier AI models can be sold to other countries for high profits",
-      "Without great frontier coding models, a nation has no self-improvement ability across all industries",
-      "Manufacturing is outdated and all value is now in software",
-      "Frontier AI research will create more tech startups than manufacturing ever did"
-    ],
-    "answer": "Without great frontier coding models, a nation has no self-improvement ability across all industries",
-    "explanation": "Guillermo says: 'Everyone's had the wake-up call that without great frontier coding models, you don't have self-improvement' — it's existential for national industrial competitiveness.",
     "difficulty": "medium"
   },
   {
@@ -88,7 +73,6 @@
     "question": "The Open Source Paradox",
     "content": "Naval points out the irony that China's open-source AI contributions help hardware founders globally, but disproportionately help China's own hardware factories and founders who already have supply chain advantages.",
     "description": "A US hardware founder celebrates that Chinese open-source models are freely available and dramatically improving their product's software. Using Naval's framework, what should this founder be cautious about?",
-    "output": "The founder should worry that while open-source models help everyone, they disproportionately help Chinese hardware factories that already have supply chain superiority",
     "options": [
       "Open-source models might contain backdoors installed by the Chinese government",
       "While the models help US founders, they help Chinese hardware founders and factories that much more because they already have supply chain advantages",
