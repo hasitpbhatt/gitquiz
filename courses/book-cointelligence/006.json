@@ -2,15 +2,15 @@
   {
     "question": "The Coworker Paradigm",
     "content": "In Chapter 6, AI is reframed as a 'Coworker' rather than just a tool. This shift implies that AI can handle tasks with a degree of autonomy—brainstorming, drafting, and organizing—but requires a human 'manager' to provide oversight. Unlike a static program, this coworker can be 'briefed' on a project and given feedback to improve its performance.",
-    "description": "A project manager assigns the AI to independently draft all client status updates each week (Centaur model), while a colleague integrates the AI into real-time creative brainstorming for a new campaign (Cyborg model). After one month, the project manager has perfect email archives but no innovative ideas, while the colleague has produced several original campaign concepts. What does this contrast reveal about the choice of collaboration model?",
+    "description": "You are overwhelmed with emails and reports. Instead of doing them all yourself, you treat the AI as a junior assistant by giving it your notes and asking it to draft three distinct follow-up emails. This represents:",
     "options": [
-      "The Cyborg model is objectively superior in all workplace scenarios.",
-      "The Centaur model is efficient for routine execution but can isolate the human from serendipitous creative insights that the Cyborg model harnesses through tight integration.",
-      "The project manager lacks the talent that the colleague has, regardless of AI model choice.",
-      "The Centaur model works best for creative work because it gives the AI more independence."
+      "Replacing your role entirely.",
+      "The 'AI as Coworker' model of delegation.",
+      "A violation of office privacy protocols.",
+      "Linear task automation."
     ],
-    "answer": "The Centaur model is efficient for routine execution but can isolate the human from serendipitous creative insights that the Cyborg model harnesses through tight integration.",
-    "explanation": "Centaur cleanly divides labor, which is efficient for well-defined execution tasks, but the human may miss serendipitous insights that emerge from real-time back-and-forth with the AI. Cyborg integration allows the AI's 'alien' associations to directly spark human ideas during the creative process. The optimal model depends on whether the goal is execution efficiency (Centaur) or creative exploration (Cyborg).",
+    "answer": "The 'AI as Coworker' model of delegation.",
+    "explanation": "Treating AI as a coworker involves delegating cognitively demanding but time-consuming tasks while maintaining the role of the 'lead' who makes the final decisions.",
     "difficulty": "hard"
   },
   {

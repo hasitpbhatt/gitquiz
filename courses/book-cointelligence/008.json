@@ -2,15 +2,15 @@
   {
     "question": "AI as the Personal Coach",
     "content": "In Chapter 8, Mollick explores the role of AI as a 'Coach.' Unlike a tutor who focuses on academic subjects, a coach focuses on performance, mindset, and soft skills. AI can provide immediate, objective feedback on your leadership style, your communication, and even your negotiation tactics by role-playing difficult scenarios with you.",
-    "description": "A senior executive uses an AI coach weekly to prepare for board meetings. After six months, the executive's presentations are technically flawless — perfectly structured, data-rich, and well-paced — but the board grows increasingly frustrated. They feel the executive is 'robotic' and not truly listening to their live concerns during meetings. What limitation of AI coaching does this reveal?",
+    "description": "You have a difficult performance review to give to an employee. You spend 20 minutes role-playing the conversation with an AI, asking it to be 'defensive and argumentative' so you can practice staying calm. This is using AI as:",
     "options": [
-      "The executive needs to upgrade to a more advanced AI model with better emotional simulation.",
-      "AI coaching excels at optimizing performance within known parameters but cannot train genuine human presence and adaptive emotional attunement in unpredictable social dynamics.",
-      "The board members are simply resistant to change and prefer traditional presentation styles.",
-      "The executive is using the wrong persona configuration in their coaching prompts."
+      "A personal coach.",
+      "A data analyst.",
+      "A technical manual.",
+      "A secret whistleblower."
     ],
-    "answer": "AI coaching excels at optimizing performance within known parameters but cannot train genuine human presence and adaptive emotional attunement in unpredictable social dynamics.",
-    "explanation": "AI coaching can optimize structure, content, and delivery — measurable performance dimensions — but it cannot replicate the unpredictable, emotionally charged dynamics of real human interaction. The 'Non-Judgmental Mirror' strength (psychological safety) is also a blind spot: the AI never challenges the executive with genuine human unpredictability. True interpersonal attunement requires live practice with humans who have independent emotions and reactions.",
+    "answer": "A personal coach.",
+    "explanation": "AI acting as a coach allows for safe, repetitive practice of high-stakes human interactions, helping you refine your 'soft skills' before the real event.",
     "difficulty": "hard"
   },
   {

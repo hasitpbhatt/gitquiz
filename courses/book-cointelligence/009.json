@@ -2,15 +2,15 @@
   {
     "question": "The Future of Co-Intelligence",
     "content": "In the final chapter, Mollick shifts from practical advice to speculative foresight. He argues that we are currently in the 'Great Disruption,' where the relationship between human and machine is being permanently redefined. The future isn't about AI replacing humans, but about how humanity evolves in a world where intelligence is no longer exclusively biological.",
-    "description": "Mollick presents four scenarios for AI's future (Asymptote, Slow Growth, Exponential, Singularity). A corporate strategist argues that since no one can predict which scenario will actually unfold, the company should adopt a 'wait and see' approach to AI investment. Using Co-Intelligence principles, what is the flaw in this reasoning?",
+    "description": "Mollick suggests that the 'Great Disruption' is different from previous industrial revolutions. What is the primary reason for this?",
     "options": [
-      "The strategist is correct; inaction is the only rational response to fundamental uncertainty about the future.",
-      "The 'Worst AI' rule applies across all scenarios — even if growth plateaus (Asymptote), current AI capability is already transformative enough to require proactive experimentation now.",
-      "The Exponential scenario is mathematically guaranteed to occur, so immediate full-scale investment across all departments is mandatory.",
-      "The Singularity will render all current strategic planning irrelevant, so no decision about AI investment actually matters."
+      "It only affects physical labor, not cognitive work.",
+      "It is happening at a speed that outpaces our social and legal ability to adapt.",
+      "The technology is becoming more expensive and less accessible.",
+      "It requires a complete return to manual, paper-based systems."
     ],
-    "answer": "The 'Worst AI' rule applies across all scenarios — even if growth plateaus (Asymptote), current AI capability is already transformative enough to require proactive experimentation now.",
-    "explanation": "Uncertainty about the future does not justify inaction. The 'Worst AI' rule applies regardless of which future unfolds: today's AI is already powerful enough to reshape industries. Waiting for clarity risks being left behind in every scenario. The correct approach is to build organizational AI literacy and experimentation capacity now — this is valuable in the Asymptote scenario and essential in Exponential. This is the principle of preparing for multiple futures simultaneously.",
+    "answer": "It is happening at a speed that outpaces our social and legal ability to adapt.",
+    "explanation": "Unlike previous shifts that took decades or centuries, the AI revolution is moving exponentially, creating a gap between technological capability and our societal frameworks for managing it.",
     "difficulty": "hard"
   },
   {
