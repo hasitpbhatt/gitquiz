@@ -1,0 +1,11 @@
+{
+  "name": "gitquiz-visual-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
