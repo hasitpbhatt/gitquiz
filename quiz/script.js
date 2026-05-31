@@ -197,10 +197,11 @@ function renderQuestion() {
 
     const topicTitle = document.getElementById('topic-title');
     topicTitle.textContent = q.question || "Step " + (currentIdx + 1);
+    topicTitle.classList.add('hidden');
     
     const cb = document.getElementById('content-box');
     cb.textContent = q.content || "";
-    cb.classList.toggle('hidden', !q.content);
+    cb.classList.add('hidden');
     
     document.getElementById('description-text').textContent = q.description || "";
     
@@ -254,6 +255,8 @@ function renderQuestion() {
                 document.getElementById('explanation').innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4><p class="text-sm font-500">${escapeHtml(expText)}</p>`;
                 document.getElementById('explanation').classList.remove('hidden');
                 document.getElementById('next-btn').classList.remove('hidden');
+                topicTitle.classList.remove('hidden');
+                if (cb.textContent.trim()) cb.classList.remove('hidden');
                 
                 lastSelectedAnswer = opt;
                 lastAnswerCorrect = opt.trim() === correctAnswer;
@@ -636,7 +639,7 @@ function shareCertificate() {
                 <span class="ach-stat-lab">Date Verified</span>
             </div>
         </div>
-        <div class="ach-footer">Verified by LearnLeap • hasit.in</div>
+        <div class="ach-footer">Verified by LearnLeap • quiz.hasit.in</div>
     `;
     document.body.appendChild(container);
     captureAndShareImage(container, `Achievement_${courseFolderName}_M${moduleNum}.png`);
