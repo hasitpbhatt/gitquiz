@@ -78,11 +78,15 @@ function renderCatalogOptions(items) {
         const opt = document.createElement('option');
         opt.value = name;
         opt.className = "p-3 border-b border-slate-100 dark:border-slate-800 cursor-pointer hover:bg-blue-50 dark:hover:bg-slate-800";
-        let prefix = '📖';
-        if (name.startsWith('book-')) prefix = '📘';
-        else if (name.startsWith('podcast-')) prefix = '🎙';
-        else if (name.startsWith('coursera-')) prefix = '📚';
-        opt.innerHTML = `${prefix} ${name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}`;
+        let displayName = name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        if (activeTypeFilter === 'all') {
+            let prefix = '📖';
+            if (name.startsWith('book-')) prefix = '📘';
+            else if (name.startsWith('podcast-')) prefix = '🎙';
+            else if (name.startsWith('coursera-')) prefix = '📚';
+            displayName = `${prefix} ${displayName}`;
+        }
+        opt.innerHTML = displayName;
         dropdown.appendChild(opt);
     });
     if (items.length > 0) dropdown.selectedIndex = 0;
