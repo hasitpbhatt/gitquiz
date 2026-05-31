@@ -60,7 +60,7 @@ Whether creating from scratch or enriching an existing course:
 ```bash
 mkdir -p courses/course-identifier/
 ```
-Where `course-identifier` follows the pattern: `book-title-in-kebab-case`
+Where `course-identifier` follows the pattern: `book-title-in-kebab-case` for books, `podcast-title-in-kebab-case` for podcasts, etc.
 
 ### 4. Create Chapter JSON Files
 For each chapter (001.json, 002.json, etc.), create a file with this format:
@@ -230,6 +230,8 @@ writeChapter(1, [
 ```
 
 **Advantages**: single file, easy to preview all data, no PowerShell escaping issues, write all files in one `node gen_course.js` command.
+
+**Cleanup**: After generating all JSON files and running validation (`validate_all.js`), delete the generator script (e.g., `Remove-Item gen_course.js`). JSON files are the canonical artifact — the generator was a one-time build tool.
 
 ### File Creation via Temp Script (for large data)
 
