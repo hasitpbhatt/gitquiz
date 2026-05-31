@@ -1,0 +1,29 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["AGENTS.md"],
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "reserved": 30000
+  },
+  "provider": {
+    "opencode": {
+      "models": {
+        "deepseek-v4-flash-free": {
+          "limit": {
+            "context": 90000,
+            "input": 50000,
+            "output": 8192
+          }
+        },
+        "nemotron-3-super-free": {
+          "limit": {
+            "context": 90000,
+            "input": 50000,
+            "output": 8192
+          }
+        }
+      }
+    }
+  }
+}

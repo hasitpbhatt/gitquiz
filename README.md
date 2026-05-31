@@ -21,9 +21,9 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │       ├── worker.js                 # Mistral AI proxy
 │       └── wrangler.toml             # CF Worker config
 ├── .opencode/
-│   └── skill/book-to-quiz/SKILL.md   # Workflow for converting books to quizzes
-├── opencode.json                     # OpenCode AI config (local, gitignored)
-└── quick_audit.ps1                   # Audit script (local, gitignored)
+│   └── skill/syllabus-to-quiz/SKILL.md   # Workflow for converting courses to quizzes
+├── opencode.json                     # OpenCode AI config
+
 ```
 
 ## Course Format
@@ -75,7 +75,7 @@ Each course folder contains numbered chapter files (`001.json`, `002.json`, ...)
 
 Quizzes aim for ~40% easy, ~40% medium, ~20% hard across each course.
 
-## Available Courses (17)
+## Available Courses
 
 | Course | Chapters | Source |
 |--------|----------|--------|
@@ -96,6 +96,9 @@ Quizzes aim for ~40% easy, ~40% medium, ~20% hard across each course.
 | coursera-financial-markets-global | 12 | Coursera: Financial Markets |
 | coursera-genai-for-algorithmic-trading | 11 | Coursera: GenAI for Algorithmic Trading |
 | podcast-naval-nothing-ever-happens-is-over | 14 | Naval Podcast |
+| podcast-regulatory-frontier | 1 | Naval Podcast (Blake Scholl) |
+| podcast-vibe-coding-hardware | 2 | Naval Podcast |
+| podcast-waste-tokens-save-time | 1 | Naval Podcast (Guillermo Rauch) |
 
 ## Adding a New Course
 
