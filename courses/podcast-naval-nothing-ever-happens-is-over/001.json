@@ -2,16 +2,16 @@
   {
     "question": "The Hub and Spoke Model",
     "content": "In a 'Hub and Spoke' architecture, a single central node (the hub) manages all communication and decision-making for the surrounding nodes (the spokes). In a small company, this usually means the CEO or a single product manager holds the entire project roadmap in their head, and everyone interfaces through them to stay aligned.",
-    "description": "At Naval's company 'Impossible,' the co-founder acts as the CEO while everyone else acts as independent contributors. Based on the transcript, how does this structure function day-to-day?",
+    "description": "Your startup has grown from 5 to 40 people in six months. You currently operate as a hub-and-spoke with you as the CEO-hub, reviewing every decision. You notice shipping speed has collapsed—you are the bottleneck. Using Naval's framework from the podcast, evaluate the trade-off: should you try to maintain hub-and-spoke as CEO, or does growth force a structural change? What would Naval recommend and why?",
     "options": [
-      "Every employee must get approval from a board of directors for every task.",
-      "The CEO acts as the single product manager who coordinates everyone's efforts.",
-      "AI agents autonomously assign tasks to employees without human intervention.",
-      "A large middle-management layer filters information before it reaches the CEO."
+      "Hire more middle managers to distribute the hub load while keeping the same architecture.",
+      "Transition toward a fully interconnected graph: hire senior, self-navigating talent and let go of anyone who cannot operate without your direction, accepting that hub-and-spoke does not scale beyond a handful of people.",
+      "Keep hub-and-spoke but use AI to automate your coordination role so you can handle 40 people alone.",
+      "Formalize a tree hierarchy with department heads so you only talk to four direct reports and lose visibility into details."
     ],
-    "answer": "The CEO acts as the single product manager who coordinates everyone's efforts.",
-    "explanation": "Naval describes his co-founder as the 'one product manager' who brings the impossible task together, serving as the central hub for the 'spokes' (the team).",
-    "difficulty": "easy"
+    "answer": "Transition toward a fully interconnected graph: hire senior, self-navigating talent and let go of anyone who cannot operate without your direction, accepting that hub-and-spoke does not scale beyond a handful of people.",
+    "explanation": "Naval argues hub-and-spoke works when the team is very small and the hub holds all context, but it breaks down as the team grows because the hub itself becomes the bottleneck. His solution: hire people who can self-navigate in a fully interconnected graph, where any node communicates directly with any other. Those who cannot operate this way 'don't belong in this kind of an organization.' This is a structural, not a tooling, change.",
+    "difficulty": "hard"
   },
   {
     "question": "Hierarchical vs. Flat Structures",

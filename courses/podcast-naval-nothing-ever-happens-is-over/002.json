@@ -2,16 +2,16 @@
   {
     "question": "Implicit vs. Explicit AI",
     "content": "A company can use AI 'explicitly' by reorganizing its entire structure around it, or 'implicitly' by using it as a background tool to enhance current tasks. Naval suggests that even without a formal AI-centric org chart, AI acts as a powerful internal search engine and data analyst that can recreate business insights on the fly.",
-    "description": "Naval mentions that AI can 'recreate dashboards on demand.' How does this replace traditional business integration systems?",
+    "description": "You are the COO of a 300-person logistics company. The CEO wants to 'go all-in on AI' by creating a new C-level 'Chief AI Officer' role and rewriting every department's charter around AI agents (explicit approach). The VP of Engineering argues it is smarter to simply let teams use AI tools naturally without restructuring (implicit approach). Using Naval's distinction, outline the hidden risks of the explicit approach that the VP of Engineering is worried about, and under what specific condition would Naval say the explicit approach becomes justified?",
     "options": [
-      "It requires a team of data scientists to manually code every new chart.",
-      "The AI can perform real-time data analysis and generate reports without pre-built dashboards.",
-      "It automatically deletes old data to save space on company servers.",
-      "It forces the CEO to learn how to use complex SQL databases."
+      "The explicit approach adds organizational overhead and creates a centralized bottleneck; Naval would say it is justified only if the company's core product is AI itself, rather than AI being a support tool.",
+      "The explicit approach is always better because it signals to investors that the company is 'AI-first'; the VP just fears losing power.",
+      "The implicit approach is always superior; Naval would say explicit AI is never justified because it creates too much bureaucracy.",
+      "Both approaches are identical in outcome; the real question is whether the CEO or VP has more political influence."
     ],
-    "answer": "The AI can perform real-time data analysis and generate reports without pre-built dashboards.",
-    "explanation": "Implicit AI can dig through company data and 'update dashboards on demand,' meaning you don't need to maintain static, pre-built business integration systems.",
-    "difficulty": "easy"
+    "answer": "The explicit approach adds organizational overhead and creates a centralized bottleneck; Naval would say it is justified only if the company's core product is AI itself, rather than AI being a support tool.",
+    "explanation": "Naval distinguishes implicit AI (tools teams adopt naturally, like AI code summarization or data analysis) from explicit AI (restructuring the org around AI). He suggests explicit restructuring risks recreating the very hierarchies and bottlenecks that small, fast teams avoid. The condition for going explicit: when AI is your product, not just a productivity multiplier. For a logistics company, implicit AI is lower-risk and preserves the agility that Naval values.",
+    "difficulty": "hard"
   },
   {
     "question": "AI for Code and Paper Summarization",

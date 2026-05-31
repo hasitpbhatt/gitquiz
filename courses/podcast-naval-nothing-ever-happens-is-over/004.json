@@ -2,16 +2,16 @@
   {
     "question": "The Logic of Violence",
     "content": "Technology often dictates the 'logic of violence,' which in turn shapes how society is organized. For example, the rifle allowed a peasant to defeat a knight, leading to the rise of nation-states over feudalism. Today, drones and AI are shifting this logic again by changing who can exert lethal power and at what scale.",
-    "description": "According to Naval, how did the invention of the rifle fundamentally change the structure of the state?",
+    "description": "A small secessionist group acquires a swarm of AI-guided drones capable of targeting specific infrastructure. Applying Naval's 'logic of violence' framework, analyze how the state's structural response might differ from the historical rifle case. The rifle forced centralization into nation-states. What makes the drone case potentially produce the opposite effect—decentralization or fragmentation of state power?",
     "options": [
-      "It made feudal knights more powerful because they could afford better rifles.",
-      "It required large factories and drilled musket men, leading to the rise of nation-states.",
-      "It ended all wars because the logic of violence became too dangerous.",
-      "It forced everyone to move back to small, decentralized villages for safety."
+      "Drones are less deadly than rifles, so states will simply ignore the threat and no structural change will occur.",
+      "The rifle required mass industrialization to produce, which only nation-states could afford; drones are cheap and can be manufactured or bought by small groups, meaning the state no longer holds a monopoly on lethal force, which could fragment centralized power.",
+      "Drones will lead to even more powerful nation-states because only states can afford the AI computing power to run drone swarms.",
+      "The logic of violence has nothing to do with economics; it is purely about weapons technology, and all weapons lead to more centralization."
     ],
-    "answer": "It required large factories and drilled musket men, leading to the rise of nation-states.",
-    "explanation": "Naval explains that the rifle democratized violence against knights, but required the industrial and organizational power of a nation-state to produce and manage effectively.",
-    "difficulty": "easy"
+    "answer": "The rifle required mass industrialization to produce, which only nation-states could afford; drones are cheap and can be manufactured or bought by small groups, meaning the state no longer holds a monopoly on lethal force, which could fragment centralized power.",
+    "explanation": "Naval's key insight is that the 'logic of violence' follows the economics of the weapon. Rifles centralized power because mass production required state-scale factories. Drones reverse this: they are cheap, accessible, and can be operated by individuals or small groups. This democratization of lethal force scales MAD down to the individual level, potentially fragmenting the nation-state's monopoly on violence and forcing a new societal architecture.",
+    "difficulty": "hard"
   },
   {
     "question": "The Nuclear Umbrella",

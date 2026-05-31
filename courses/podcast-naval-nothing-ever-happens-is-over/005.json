@@ -2,16 +2,16 @@
   {
     "question": "The Hardware Renaissance",
     "content": "Historically, hardware development was seen as secondary to software because it was harder to iterate on and difficult to program. Naval suggests we are entering a hardware renaissance because AI is finally making it easy to write high-quality software for complex devices, removing the traditional 'software bottleneck.'",
-    "description": "According to Naval, why have many hardware companies failed to compete with Apple in the past?",
+    "description": "You are the CEO of a hardware startup making a new AR headset. Your investors keep asking: 'How will you compete with Apple?' Using Naval's 'hardware renaissance' thesis, construct a specific strategy for beating Apple in a post-AI world. What advantage does the software bottleneck removal give you that simply did not exist for hardware startups 10 years ago, and what must you prioritize to exploit it?",
     "options": [
-      "Apple has a monopoly on all hardware raw materials.",
-      "Most companies do one thing well (hardware), but Apple is unique in integrating great hardware with high-quality software.",
-      "Apple's hardware is significantly cheaper to manufacture.",
-      "Other companies refuse to use AI in their manufacturing process."
+      "Compete on hardware specs alone—make the lightest, highest-resolution headset—because software is irrelevant for AR devices.",
+      "Focus on a novel hardware form factor and use AI to generate the entire software stack (OS, apps, UX) with a tiny team; Naval's thesis says AI collapses the software advantage that Apple historically had, so differentiation shifts back to hardware innovation and speed of iteration.",
+      "Wait for Apple to release their headset, then clone it exactly at half the price using contract manufacturers.",
+      "Raise enough money to hire 5,000 software engineers to match Apple's software team size, then outspend them on development."
     ],
-    "answer": "Most companies do one thing well (hardware), but Apple is unique in integrating great hardware with high-quality software.",
-    "explanation": "Naval notes that Apple’s success comes from doing two things well (hardware and software), whereas most companies struggle to write the software that makes their hardware usable.",
-    "difficulty": "easy"
+    "answer": "Focus on a novel hardware form factor and use AI to generate the entire software stack (OS, apps, UX) with a tiny team; Naval's thesis says AI collapses the software advantage that Apple historically had, so differentiation shifts back to hardware innovation and speed of iteration.",
+    "explanation": "Naval's hardware renaissance argument: Apple's historical moat was its unique ability to pair great hardware with great software. Most hardware companies failed because they could not write the software. AI now lets a small team generate production-quality software instantly (a 'bright kid with cloud code'). This means hardware startups no longer need a massive software division—they can compete on hardware innovation and iteration speed alone, turning Apple's former advantage into a commodity.",
+    "difficulty": "hard"
   },
   {
     "question": "Unlocking Hardware through AI",
