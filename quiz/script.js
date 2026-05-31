@@ -22,11 +22,17 @@ let previewData = null;
 
 ;(async () => {
   await loadCatalog();
-  const courseParam = new URLSearchParams(window.location.search).get('course');
+  const params = new URLSearchParams(window.location.search);
+  const courseParam = params.get('course');
+  const qParam = params.get('q');
   if (courseParam && fullCatalog.includes(courseParam)) {
     const dropdown = document.getElementById('course-dropdown');
     dropdown.value = courseParam;
-    handleStart();
+    if (qParam) {
+      await showPreviewScreen(`${BASE_URL}${courseParam}/001.json`, parseInt(qParam, 10) - 1);
+    } else {
+      await initializeQuiz(`${BASE_URL}${courseParam}/001.json`);
+    }
   }
 })();
 
@@ -124,10 +130,10 @@ async function handleStart() {
         }
         finalUrl = `${BASE_URL}${val}/001.json`;
     }
-    if (finalUrl) await showPreviewScreen(finalUrl);
+    if (finalUrl) await initializeQuiz(finalUrl);
 }
 
-async function showPreviewScreen(url) {
+async function showPreviewScreen(url, previewIndex = 0) {
     if (url.includes("github.com") && !url.includes("raw.githubusercontent.com")) {
         url = url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/").replace("/tree/", "/");
     }
@@ -164,14 +170,14 @@ async function showPreviewScreen(url) {
 
         document.getElementById('preview-meta').innerText = `${data.length} question${data.length > 1 ? 's' : ''}`;
 
-        const firstQ = data[0];
-        document.getElementById('preview-question').innerText = firstQ.question || 'No question available';
+        const targetQ = data[previewIndex] || data[0];
+        document.getElementById('preview-question').innerText = targetQ.question || 'No question available';
 
         const bin = document.getElementById('preview-options');
         bin.innerHTML = '';
-        if (firstQ.options) {
+        if (targetQ.options) {
             const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
-            firstQ.options.forEach((opt, idx) => {
+            targetQ.options.forEach((opt, idx) => {
                 const div = document.createElement('div');
                 div.className = 'preview-option w-full p-3 text-left border border-slate-200 dark:border-slate-700 rounded-xl font-500 bg-white dark:bg-slate-800';
                 div.innerHTML = `<span class="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0 mr-3">${letters[idx] || (idx + 1)}</span><span class="text-sm text-slate-600 dark:text-slate-400">${escapeHtml(opt)}</span>`;
@@ -314,6 +320,7 @@ function renderQuestion() {
             const btn = document.createElement('button');
             btn.className = 'option-btn w-full p-5 text-left border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 shadow-sm flex items-center gap-3';
             btn.innerHTML = `<span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0">${letters[idx] || (idx + 1)}</span><span class="flex-1">${escapeHtml(opt)}</span>`;
+            btn.dataset.option = opt;
             btn.onclick = () => {
                 const btns = document.querySelectorAll('.option-btn');
                 btns.forEach(b => b.disabled = true);
@@ -338,7 +345,7 @@ function renderQuestion() {
                     streak = 0;
                     document.getElementById('streak-val').innerText = streak;
                     btns.forEach(b => { 
-                        if (b.innerText.trim() === correctAnswer) b.classList.add('correct'); 
+                        if (b.dataset.option === correctAnswer) b.classList.add('correct'); 
                     });
                 }
                 
