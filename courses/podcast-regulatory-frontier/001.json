@@ -1,0 +1,114 @@
+[
+  {
+    "question": "An Airplane Takes a Lightning Strike",
+    "content": "Blake Scholl describes the regulatory compliance documentation required to certify an airplane can withstand a lightning strike. The test plan stretches to 200 pages, written by a not-super-bright engineer over two months. Any design change means another two months of rework.",
+    "description": "Your aviation startup has just redesigned the wing of your prototype aircraft. The regulatory team estimates two months of additional compliance documentation for the lightning strike test plan alone. According to Blake Scholl, what is the fundamental problem with this scenario?",
+    "options": [
+      "The test plan should be written by a brighter engineer to reduce errors",
+      "When you change the airplane, the regulatory compliance rework makes you 'want to cry' — change aversion kills iteration speed",
+      "Two months for documentation is actually fast by industry standards",
+      "The lightning strike test itself is dangerous and should be avoided"
+    ],
+    "answer": "When you change the airplane, the regulatory compliance rework makes you 'want to cry' — change aversion kills iteration speed",
+    "explanation": "Blake explains that if you change the airplane, there's another two months of rework of compliance documentation. This massively reduces change aversion and kills iteration speed — exactly what you don't want in an innovative company.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Regulation by Test Suite",
+    "content": "Guillermo Rauch describes regulation as a 'test suite' — a set of constraints that any product must pass. The problem isn't regulation per se, but how it's enforced: pre-approval vs. post-enforcement.",
+    "description": "A policymaker proposes that all AI products must receive government approval before launch, similar to FDA drug approval. Based on Guillermo Rauch's framework of regulation as a test suite, what is the strongest counterargument?",
+    "options": [
+      "Pre-approval is slow and creates a single point of failure, while enforcement-based regulation allows products to launch and be punished later if they fail the test",
+      "AI products are too complex for any test suite to capture",
+      "Regulation should be eliminated entirely for all technology products",
+      "The government should build its own AI products instead of regulating them"
+    ],
+    "answer": "Pre-approval is slow and creates a single point of failure, while enforcement-based regulation allows products to launch and be punished later if they fail the test",
+    "explanation": "Guillermo argues regulation should be a test suite — guardrails you pass. The mode of enforcement matters enormously: pre-approval throttles innovation by requiring permission, while enforcement lets you launch and get punished if you fail.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Red Queen's Regulatory Race",
+    "content": "Naval introduces the concept of the Red Queen's race in regulation: you have to run as fast as you can just to stay in the same place. Regulation chases innovation but never catches up — and often makes things worse.",
+    "description": "Your AI startup is moving so fast that no existing regulations cover your product category. A legal advisor suggests you slow down and lobby for new regulations to create 'clarity.' Based on Naval's Red Queen's race analysis, what is the risk of this strategy?",
+    "options": [
+      "New regulations will likely lock in existing incumbents and make it harder for startups to enter later",
+      "The government will never be able to write regulations for AI",
+      "Lobbying for regulation is illegal without a special license",
+      "Your competitors will beat you to market while you wait for regulatory clarity"
+    ],
+    "answer": "New regulations will likely lock in existing incumbents and make it harder for startups to enter later",
+    "explanation": "Naval explains the Red Queen's race: regulation chases innovation but never catches up. Guillermo adds that regulation codifies the status quo — asking for regulation means asking for a moat that protects today's winners at the expense of future competitors.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "AI Documents the Lightning Strike",
+    "content": "Blake Scholl describes a future where AI handles regulatory compliance documentation: 'All you need is agentic mechanisms that are able to iterate and produce documentation for you — 'hey, write me the 200-page lightning strike test plan for the current configuration of the airplane.'",
+    "description": "Your compliance team is drowning in documentation requirements across five regulatory jurisdictions. You propose deploying an AI agent to draft all compliance documents on demand. Which of the following captures the full strategic implication, according to Blake?",
+    "options": [
+      "AI can generate the compliance documents instantly, removing the cost of change and making iteration dramatically cheaper",
+      "AI will eventually eliminate the need for all regulatory compliance",
+      "The AI should only be used for lightning strike documentation, not other compliance areas",
+      "AI-generated documents will be rejected by regulators because they lack human authorship"
+    ],
+    "answer": "AI can generate the compliance documents instantly, removing the cost of change and making iteration dramatically cheaper",
+    "explanation": "Blake says AI massively reduces change aversion and improves iteration speed. Once AI can produce compliance documentation on demand — 'write me the lightning strike test plan' — the friction that made you avoid changing the airplane simply evaporates.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Regulation Codifies the Status Quo",
+    "content": "Guillermo Rauch argues that regulation is often a mechanism for incumbents to lock in their advantages. The people writing the regulations are typically from the companies that already exist, and regulation codifies the current way of doing things.",
+    "description": "A large legacy airline is lobbying for stricter safety certification requirements for supersonic aircraft. The requirements match exactly what subsonic aircraft already comply with. According to Guillermo, what is the most likely strategic intent?",
+    "options": [
+      "The legacy airline genuinely believes stricter requirements improve passenger safety",
+      "The legacy airline is using regulation as a moat to prevent a faster competitor from entering the market",
+      "The legacy airline wants to give the FAA more funding for inspectors",
+      "The legacy airline is preparing to transition to supersonic themselves and wants a head start"
+    ],
+    "answer": "The legacy airline is using regulation as a moat to prevent a faster competitor from entering the market",
+    "explanation": "Guillermo explains that regulation is an incumbency protection mechanism — it codifies the status quo. If the rules require what legacy aircraft already do, a newcomer with a different approach must spend years and billions just to get permission to compete.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The SEC Takes Four Years",
+    "content": "Naval contrasts the speed of regulation with the speed of innovation: the SEC takes four years to write a rule while Silicon Valley can build and launch products in months. Guillermo adds that the SEC tries to define securities classifications that are obsolete by the time they're published.",
+    "description": "A crypto exchange is operating in a legal gray area while the SEC drafts rules for digital assets. The rulemaking process is projected to take four years. A rival exchange decides to wait for the SEC rules before launching any products. Based on the discussion, what will likely happen?",
+    "options": [
+      "The rival exchange will benefit from having clear legal guidelines from day one",
+      "The SEC rules will make it illegal to operate the exchange retroactively",
+      "By the time the SEC finalizes the rules, they will be obsolete because the market will have moved on",
+      "The SEC will consult the rival exchange and create rules tailored to their business model"
+    ],
+    "answer": "By the time the SEC finalizes the rules, they will be obsolete because the market will have moved on",
+    "explanation": "Naval notes the SEC takes four years to make a rule, while Silicon Valley ships in months. Guillermo adds that regulators try to define what a security is, but by the time they publish, the definitions are already obsolete. Waiting for regulatory clarity means waiting for irrelevance.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Boeing 737 MAX Proves Safety Regulation Doesn't Work",
+    "content": "Naval argues that the Boeing 737 MAX crashes disprove the claim that regulation ensures safety. The FAA certified the aircraft as safe because Boeing tested what the FAA required — but the testing didn't cover the actual failure mode that caused the crashes.",
+    "description": "A politician argues that stricter FAA certification requirements make air travel safer, citing the agency's long safety record. Based on Naval's analysis of the Boeing 737 MAX, how would you respond?",
+    "options": [
+      "The FAA's safety record proves that their certification process is working",
+      "The 737 MAX was certified as safe under existing regulations but still crashed — regulation only tests what it tests, and never catches everything",
+      "The 737 MAX crashes were caused by pilot error, not regulatory failure",
+      "More regulation would have prevented the 737 MAX crashes entirely"
+    ],
+    "answer": "The 737 MAX was certified as safe under existing regulations but still crashed — regulation only tests what it tests, and never catches everything",
+    "explanation": "Naval points out that the 737 MAX met every FAA certification requirement and still crashed. Regulation is a test suite — passing doesn't mean safe, just that you passed those specific tests. This undermines the claim that pre-approval regulation guarantees safety.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Regulatory Approval Is a Single Point of Failure",
+    "content": "Guillermo Rauch argues that pre-approval regulation creates a single point of failure — one reviewer can block an entire product. This is fine for things like new drugs where the failure cost is high, but for software products it creates artificial scarcity and bottleneck.",
+    "description": "A fintech startup's entire product launch is delayed for six months because a single SEC reviewer is on parental leave. The reviewer had primary responsibility for evaluating their filing. What concept from the discussion does this illustrate?",
+    "options": [
+      "The Red Queen's race: regulation must keep up with innovation",
+      "Pre-approval regulation creates a human bottleneck — one person can block an entire product without anyone else reviewing it",
+      "The startup should have hired a better legal team to handle the reviewer's absence",
+      "This is an isolated incident that doesn't reflect systemic problems with pre-approval"
+    ],
+    "answer": "Pre-approval regulation creates a human bottleneck — one person can block an entire product without anyone else reviewing it",
+    "explanation": "Guillermo argues that pre-approval is a single point of failure. With enforcement-based regulation, you launch and get punished if you fail. With pre-approval, one person going on leave or having a bad week can kill months of work for an entire company.",
+    "difficulty": "hard"
+  }
+]
