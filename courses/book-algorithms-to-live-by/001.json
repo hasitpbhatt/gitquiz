@@ -1,0 +1,106 @@
+[
+  {
+    "question": "The 37% Rule",
+    "content": "The 37% Rule states that in optimal stopping problems, you should look at and reject the first 37% of options, then choose the next option that is better than all previously seen options.",
+    "description": "You are apartment hunting in a competitive market with 30 days to find a place. According to the 37% Rule, what should you do?",
+    "options": [
+      "Look at apartments for the first 11 days without committing, then rent the first place that is better than any you've seen so far",
+      "Rent the first apartment you see to avoid missing out",
+      "Look at all 30 apartments before making a decision",
+      "Rent the 15th apartment you see regardless of quality"
+    ],
+    "answer": "Look at apartments for the first 11 days without committing, then rent the first place that is better than any you've seen so far",
+    "explanation": "37% of 30 days is approximately 11 days. During this look phase, you gather data about what constitutes a good apartment. After day 11, you commit to the first apartment that surpasses all previous options."
+  },
+  {
+    "question": "Look-Then-Leap Rule",
+    "content": "The Look-Then-Leap Rule involves two phases: first looking (gathering data without committing) and then leaping (committing to the first option that exceeds the best seen during the look phase).",
+    "description": "You are dating and want to maximize your chances of finding the best partner. You plan to date seriously for 2 years before settling down. How should you apply the Look-Then-Leap Rule?",
+    "options": [
+      "Date casually for 2 years, then marry the next person who is better than anyone you've dated so far",
+      "Marry the first person you date to avoid loneliness",
+      "Date everyone you meet for exactly 2 years before choosing",
+      "Marry after dating 10 people regardless of quality"
+    ],
+    "answer": "Date casually for 2 years, then marry the next person who is better than anyone you've dated so far",
+    "explanation": "With a 2-year look phase, you date without committing to establish what makes a good partner. After 2 years, you leap by committing to the first person who exceeds all previous partners in your estimation."
+  },
+  {
+    "question": "Post-Leap Regret",
+    "content": "Post-Leap Regret occurs when, after committing based on the Look-Then-Leap Rule, you later discover better options that appeared after your decision point, which you cannot recover.",
+    "description": "You accepted a job offer after interviewing 40% of candidates, then found a better candidate later. Why might you feel regret despite following optimal stopping?",
+    "options": [
+      "Because the optimal strategy only gives a 37% chance of selecting the absolute best option",
+      "Because you should have interviewed all candidates",
+      "Because you made an emotional decision",
+      "Because you didnt check references"
+    ],
+    "answer": "Because the optimal strategy only gives a 37% chance of selecting the absolute best option",
+    "explanation": "Even when following the optimal 37% Rule perfectly, you only have a 37% chance of choosing the very best option. This mathematical limitation means regret is possible even with optimal behavior."
+  },
+  {
+    "question": "Full Information vs. No Information",
+    "content": "In full information optimal stopping, you know the absolute quality of options; in no information, you only know relative rankings compared to what you've seen.",
+    "description": "When selling your house, you can compare offers to recent sales data (full information). What strategy should you use?",
+    "options": [
+      "Set a minimum acceptable price threshold and accept the first offer that meets it",
+      "Wait for the highest possible offer regardless of time",
+      "Accept the first offer you receive",
+      "Flip a coin to decide"
+    ],
+    "answer": "Set a minimum acceptable price threshold and accept the first offer that meets it",
+    "explanation": "With full information (knowing market values), you should use a threshold strategy: set your minimum acceptable price based on comparable sales and accept the first offer that meets or exceeds it."
+  },
+  {
+    "question": "Finite Horizons",
+    "content": "Finite horizon optimal stopping problems have a known endpoint, which affects the optimal strategy compared to infinite horizon problems.",
+    "description": "You need to hire a contractor for a 3-month project starting in June. How should the finite horizon affect your hiring strategy?",
+    "options": [
+      "Be more selective early and less selective as the deadline approaches",
+      "Be less selective early and more selective as the deadline approaches",
+      "Interview exactly 3 contractors and pick the best",
+      "Hire the first contractor available"
+    ],
+    "answer": "Be more selective early and less selective as the deadline approaches",
+    "explanation": "With a finite horizon (knowing you must hire by a certain date), you should be more selective early in the search and become less selective as the deadline approaches to avoid being left without options."
+  },
+  {
+    "question": "No-Recall Constraints",
+    "content": "No-recall constraints mean that once you reject an option, you cannot return to it later, which is realistic for many real-world decisions like dating or apartment hunting.",
+    "description": "You are shopping at a flea market and see a unique vintage jacket. Why might you buy it immediately despite wanting to keep looking?",
+    "options": [
+      "Because if you pass on it, you cannot return to buy it later (no-recall constraint)",
+      "Because it is definitely the best jacket available",
+      "Because flea market items never go on sale",
+      "Because you have unlimited time to decide"
+    ],
+    "answer": "Because if you pass on it, you cannot return to buy it later (no-recall constraint)",
+    "explanation": "In no-recall scenarios like flea markets, once an item is purchased by someone else, it is gone forever. This creates pressure to act when you see something uniquely valuable."
+  },
+  {
+    "question": "End-of-Life Buffers",
+    "content": "End-of-life buffers involve adjusting decisions based on remaining time or opportunities, such as being more willing to try new things when young versus sticking with favorites when older.",
+    "description": "A 70-year-old is choosing between trying a risky new medication with potential cure versus sticking with current treatment. How should remaining life expectancy affect this decision?",
+    "options": [
+      "They should be more willing to try the new treatment because they have less to lose",
+      "They should stick with current treatment because they have less time to recover from risks",
+      "Age should not affect medical decisions",
+      "They should flip a coin to decide"
+    ],
+    "answer": "They should stick with current treatment because they have less time to recover from risks",
+    "explanation": "With limited remaining life, the potential downside of a risky new treatment (time spent recovering from side effects) represents a larger proportion of remaining life, making established treatments relatively more attractive."
+  },
+  {
+    "question": "\"The Typist's Dilemma\"",
+    "content": "The Typists Dilemma applies optimal stopping to editing: knowing when to stop improving a document and declare it finished, balancing perfectionism against completion.",
+    "description": "You are writing a report and notice minor typos. According to optimal stopping principles, when should you stop editing?",
+    "options": [
+      "When the time spent correcting errors exceeds the expected improvement in quality",
+      "When you have corrected every single typo",
+      "When you have edited for exactly 2 hours",
+      "Never stop editing until perfect"
+    ],
+    "answer": "When the time spent correcting errors exceeds the expected improvement in quality",
+    "explanation": "Optimal stopping for editing means continuing to improve the document only as long as the expected benefit exceeds the cost. When additional editing yields diminishing returns, it is time to leap and declare the work finished."
+  }
+]

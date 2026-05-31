@@ -1,0 +1,119 @@
+[
+  {
+    "question": "Overfitting",
+    "content": "Overfitting occurs when a model learns the training data too well, including noise and random fluctuations, resulting in poor generalization to new data.",
+    "description": "A startup is optimizing its product based solely on feedback from its most vocal power user. What risk does this approach pose?",
+    "options": [
+      "The product may become overfitted to that user\\'s specific needs, making it less appealing to the broader market",
+      "The startup will definitely succeed because they\\'re listening to a user",
+      "Power users never represent the broader market",
+      "The product will be perfect for everyone"
+    ],
+    "answer": "The product may become overfitted to that user\\'s specific needs, making it less appealing to the broader market",
+    "explanation": "Just like in machine learning, optimizing too narrowly to one data point (or user) captures that user\\'s peculiarities rather than general patterns. The product may work perfectly for that user but fail to appeal to others with different needs."
+  },
+  {
+    "question": "Regularization",
+    "content": "Regularization techniques add a penalty for model complexity to prevent overfitting, encouraging simpler models that generalize better.",
+    "description": "A web designer is considering removing decorative animations and complex interactions from an interface to improve usability. What principle are they applying?",
+    "options": [
+      "Regularization - removing unnecessary complexity to improve general usability and performance",
+      "Always adding more features makes things better",
+      "Users prefer the most complex possible interface",
+      "Animation is never problematic"
+    ],
+    "answer": "Regularization - removing unnecessary complexity to improve general usability and performance",
+    "explanation": "Like L1/L2 regularization in machine learning that penalizes complexity, the designer is applying Occam\\'s Razor principle: preferring simpler solutions that work well over complex ones that may be brittle or confusing to most users."
+  },
+  {
+    "question": "\"Less-is-More\" Effect",
+    "content": "The \"Less-is-More\" effect describes situations where limiting information, options, or consideration leads to better decisions than analyzing all available data.",
+    "description": "A basketball player is deciding whether to overthink their shooting mechanics during a game or rely on muscle memory. What should they do?",
+    "options": [
+      "Rely on muscle memory and practiced routine rather than overthinking mechanics in the moment",
+      "Analyze every muscle movement and joint angle before each shot",
+      "Close their eyes and shoot randomly",
+      "Ask the crowd for advice on each shot"
+    ],
+    "answer": "Rely on muscle memory and practiced routine rather than overthinking mechanics in the moment",
+    "explanation": "In high-pressure situations, over-analysis can lead to paralysis. Trusting trained intuition (like a regularized model) often yields better results than trying to optimize every variable in real-time."
+  },
+  {
+    "question": "Constraint Relaxation",
+    "content": "Constraint relaxation involves temporarily removing or loosening a problem\\'s constraints to find a solution, then adapting that solution back to the original constraints.",
+    "description": "A\\'s project is stalled because of a rigid budget limit that\\'s preventing purchase of a critical software license. What approach could help?",
+    "options": [
+      "Temporarily ease the budget constraint to explore solutions, then adjust the findings to fit the original limit",
+      "Abandon the project immediately because of the budget constraint",
+      "Ignore the budget constraint completely and overspend",
+      "Hope the constraint disappears on its own"
+    ],
+    "answer": "Temporarily ease the budget constraint to explore solutions, then adjust the findings to fit the original limit",
+    "explanation": "Like relaxation techniques in optimization, temporarily loosening a constraint can reveal solution paths that are invisible when the constraint is held strictly. The relaxed solution can then be adapted or projected back to fit the original constraints."
+  },
+  {
+    "question": "Continuous Relaxation",
+    "content": "Continuous relaxation replaces discrete or integer variables with continuous ones to make a problem tractable, then rounds or adjusts the solution.",
+    "description": "You\\'re planning a multi-city trip and want to minimize travel time. How could continuous relaxation help?",
+    "options": [
+      "Treat travel times as flexible blocks that can be adjusted, then fix them to specific schedules afterward",
+      "Only visit cities that are alphabetically consecutive",
+      "Always take the longest possible route between cities",
+      "Never plan any trips because they\\'re too complex"
+    ],
+    "answer": "Treat travel times as flexible blocks that can be adjusted, then fix them to specific schedules afterward",
+    "explanation": "Instead of agonizing over exact minute-by-minute scheduling, treat time allocations as adjustable blocks. Find a good overall distribution, then refine to specific times - similar to how integer programming uses continuous relaxation."
+  },
+  {
+    "question": "Cross-Validation",
+    "content": "Cross-validation assesses how a model will generalize to unseen data by partitioning data into training and validation sets in multiple ways.",
+    "description": "A sales team is testing a new pitch approach. How should they validate its effectiveness before a full rollout?",
+    "options": [
+      "Test the pitch on an entirely different demographic group than their usual customers",
+      "Only test it on their most enthusiastic existing customers",
+      "Assume it will work because it sounds good in theory",
+      "Use the exact same customers for testing and final deployment"
+    ],
+    "answer": "Test the pitch on an entirely different demographic group than their usual customers",
+    "explanation": "Like cross-validation in machine learning, testing on a genuinely different population (out-of-sample) gives a better estimate of real-world performance than testing only on familiar data that may have influenced the approach\\'s development."
+  },
+  {
+    "question": "\"Gradually, then Suddenly\" Shift",
+    "content": "\"Gradually, then Suddenly\" shifts describe systems where incremental changes accumulate until reaching a tipping point that triggers abrupt, large-scale change.",
+    "description": "You\\'ve noticed increasing friction in a work approval process where each step requires slightly more documentation. What might happen eventually?",
+    "options": [
+      "Small increases in required documentation could eventually cause massive backlogs and process gridlock",
+      "The process will become perfectly efficient over time",
+      "People will stop working altogether immediately",
+      "The documentation will spontaneously disappear"
+    ],
+    "answer": "Small increases in required documentation could eventually cause massive backlogs and process gridlock",
+    "explanation": "Like phase transitions in physics, gradual increases in friction or requirements can accumulate until a critical threshold is reached, after which the system behavior changes dramatically and suddenly - often to a much worse state."
+  },
+  {
+    "question": "Occam\\'s Razor",
+    "content": "Occam\\'s Razor (the principle of parsimony) states that among competing hypotheses that explain the data equally well, the simplest is preferable.",
+    "description": "A patient has fever, headache, and muscle aches. A doctor is deciding between diagnosing three separate illnesses or one condition that explains all symptoms. What should they consider?",
+    "options": [
+      "Prefer the single diagnosis that explains all symptoms if it\\'s scientifically plausible",
+      "Always diagnose the maximum number of possible conditions",
+      "Choose the diagnosis that requires the most expensive treatments",
+      "Flip a coin to decide which illnesses the patient has"
+    ],
+    "answer": "Prefer the single diagnosis that explains all symptoms if it\\'s scientifically plausible",
+    "explanation": "Occam\\'s Razor favors explanations with fewer moving parts. If one condition like influenza can plausibly cause all observed symptoms, it\\'s preferable to diagnosing three separate unrelated conditions unless evidence strongly suggests otherwise."
+  },
+  {
+    "question": "Early Stopping",
+    "content": "Early stopping halts model training when performance on a validation set stops improving, preventing overfitting to training data.",
+    "description": "You\\'re writing a novel and notice you\\'ve been editing the same chapter for weeks, making it worse rather than better. What should you do?",
+    "options": [
+      "Stop editing and move on - further changes are likely to decrease quality rather than improve it",
+      "Continue editing indefinitely until it\\'s \\'perfect\\'",
+      "Show the chapter to absolutely everyone you know for feedback",
+      "Delete the chapter and start over from scratch"
+    ],
+    "answer": "Stop editing and move on - further changes are likely to decrease quality rather than improve it",
+    "explanation": "Like early stopping in machine learning that halts training when validation performance plateaus, recognizing when additional work degrades rather than improves quality is crucial for knowing when to declare a creative work finished."
+  }
+]

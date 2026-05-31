@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Big-O Notation",
+    "content": "Big-O notation describes the upper bound of an algorithm\\'s time complexity as input size grows, focusing on worst-case scenario.",
+    "description": "You are evaluating if an administrative filing system will scale as your company grows from 10 to 10,000 employees. What should you consider?",
+    "options": [
+      "How the time required to find files grows with the number of files - look for logarithmic or linear growth rather than quadratic or worse",
+      "Only the current speed of the system",
+      "The aesthetic design of the filing cabinets",
+      "The color of the file folders"
+    ],
+    "answer": "How the time required to find files grows with the number of files - look for logarithmic or linear growth rather than quadratic or worse",
+    "explanation": "Big-O notation helps you understand how an algorithm\\'s performance scales. For searching, you want O(log n) (binary search) or O(n) (linear search), not O(n^2) or worse which would become unusably slow at scale."
+  },
+  {
+    "question": "Bubble Sort",
+    "content": "Bubble Sort repeatedly steps through a list, compares adjacent elements, and swaps them if they are in the wrong order.",
+    "description": "You have a messy pile of laundry to sort by color. How would you apply Bubble Sort?",
+    "options": [
+      "Compare each pair of adjacent items and swap them if they\\'re in the wrong color order, repeating passes through the pile until no swaps are needed",
+      "Throw all clothes in the pile and hope they sort themselves",
+      "Sort by throwing each item onto one of several pre-decided piles",
+      "Wear all clothes at once to avoid sorting"
+    ],
+    "answer": "Compare each pair of adjacent items and swap them if they\\'re in the wrong color order, repeating passes through the pile until no swaps are needed",
+    "explanation": "Bubble Sort works by repeatedly swapping adjacent elements that are out of order. For laundry, you\\'d compare each pair of adjacent items and swap them if, for example, a darker item is before a lighter one when sorting light to dark."
+  },
+  {
+    "question": "Insertion Sort",
+    "content": "Insertion Sort builds a sorted array one item at a time by taking each new item and inserting it into the correct position in the already-sorted part.",
+    "description": "You are organizing a book collection on a shelf as you acquire new books one by one. How would Insertion Sort work?",
+    "options": [
+      "Place each new book in its correct alphabetical position among the books already on the shelf",
+      "Stack all new books in a pile and sort them all at once monthly",
+      "Arrange books by the height of the spine rather than title",
+      "Leave books wherever they fall when you put them down"
+    ],
+    "answer": "Place each new book in its correct alphabetical position among the books already on the shelf",
+    "explanation": "Insertion Sort is like organizing books as you get them: for each new book, you compare it to the books already on the shelf from right to left until you find where it belongs, then insert it there."
+  },
+  {
+    "question": "Merge Sort",
+    "content": "Merge Sort is a divide-and-conquer algorithm that splits data into halves, recursively sorts each half, then merges the sorted halves.",
+    "description": "You are managing a large team project with multiple independent components. How could Merge Sort principles apply?",
+    "options": [
+      "Divide the project into independent pods, have each pod complete their work, then integrate (merge) the completed components",
+      "Have everyone work on every task simultaneously",
+      "Randomly assign tasks without regard to dependencies",
+      "Do all tasks in alphabetical order by task name"
+    ],
+    "answer": "Divide the project into independent pods, have each pod complete their work, then integrate (merge) the completed components",
+    "explanation": "Merge Sort\\'s divide-and-conquer approach maps to project management: split work into independent chunks (divide), let each team complete their chunk (conquer/sort), then combine the finished work (merge)."
+  },
+  {
+    "question": "Search Costs",
+    "content": "Search costs refer to the time and effort required to find an item in a collection, which depends on how the collection is organized.",
+    "description": "You\\'re deciding whether to spend time organizing your desk or leave papers in a pile. What factor should influence your decision?",
+    "options": [
+      "How frequently you need to find specific items - if retrieval is rare, organizing may not be worth the effort",
+      "Only whether the pile looks messy to visitors",
+      "The color of your desk",
+      "The phase of the moon"
+    ],
+    "answer": "How frequently you need to find specific items - if retrieval is rare, organizing may not be worth the effort",
+    "explanation": "The sort/search tradeoff: organizing (sorting) has upfront cost but reduces future search cost. If you rarely need to find specific items, the effort of organizing may exceed the time saved from faster searches."
+  },
+  {
+    "question": "Linear Search",
+    "content": "Linear Search checks each element in a list sequentially until the target is found or the end is reached.",
+    "description": "You\\'re looking for a specific screwdriver in a completely chaotic, unorganized garage toolbox. What search method are you using?",
+    "options": [
+      "Checking each tool one by one until you find the right screwdriver",
+      "Using a magnetic tool finder",
+      "Asking the screwdriver to call out when you\\'re near",
+      "Waiting for the screwdriver to float to the top of the pile"
+    ],
+    "answer": "Checking each tool one by one until you find the right screwdriver",
+    "explanation": "In an unsorted collection with no indexing, Linear Search (checking each item sequentially) is your only option. You examine each tool until you find the target screwdriver."
+  },
+  {
+    "question": "Binary Search",
+    "content": "Binary Search efficiently finds an item in a sorted list by repeatedly dividing the search interval in half.",
+    "description": "You\\'re looking for a name in a massive, alphabetized physical registration logbook. How should you search?",
+    "options": [
+      "Open the book to the middle, check if the name comes before or after that point, then repeat the process in the relevant half",
+      "Start at page one and read every name until you find it",
+      "Guess a page number and hope the name is there",
+      "Lick your finger and hold it up to see which way the wind blows"
+    ],
+    "answer": "Open the book to the middle, check if the name comes before or after that point, then repeat the process in the relevant half",
+    "explanation": "Binary Search works on sorted data: check the middle item, eliminate half the remaining possibilities based on comparison, and repeat. For an alphabetized list, you compare alphabetically to decide which half to search next."
+  },
+  {
+    "question": "Inversion Count",
+    "content": "Inversion Count measures how far a list is from being sorted by counting pairs of elements that are out of order.",
+    "description": "You\\'ve created a music playlist that\\'s supposed to follow a specific thematic flow, but the order seems off. How could you quantify how \\'messed up\\' it is?",
+    "options": [
+      "Count how many pairs of songs are in the wrong order relative to the intended sequence",
+      "Count only the songs that are in the correct position",
+      "Measure the total playback time of the playlist",
+      "See how many songs start with the letter \\'A\\'"
+    ],
+    "answer": "Count how many pairs of songs are in the wrong order relative to the intended sequence",
+    "explanation": "An inversion is a pair of elements that are out of their natural order. The total inversion count quantifies how disordered a sequence is - a sorted list has zero inversions, a reverse-sorted list has maximum inversions."
+  },
+  {
+    "question": "Social Hierarchies",
+    "content": "In animal societies, dominance hierarchies (pecking orders) reduce conflict by establishing known relationships, minimizing costly fights.",
+    "description": "How might ancient tracking of pecking orders in chicken societies have reduced physical violence?",
+    "options": [
+      "By allowing chickens to assess dominance visually without fighting, once the hierarchy was established",
+      "By making all chickens equally aggressive",
+      "By eliminating the concept of chicken social order",
+      "By forcing chickens to wear blindfolds"
+    ],
+    "answer": "By allowing chickens to assess dominance visually without fighting, once the hierarchy was established",
+    "explanation": "Once a pecking order is established through initial confrontations, chickens can recognize their relative positions and avoid fights by yielding to higher-ranked individuals, reducing the need for ongoing violence."
+  },
+  {
+    "question": "Pre-Sorting Value",
+    "content": "Pre-sorting value considers whether sorting items earlier (e.g., on receipt) provides enough benefit to justify the effort compared to sorting later (e.g., before shipping).",
+    "description": "You\\'re managing a warehouse and deciding whether to sort incoming inventory immediately or wait until orders are ready to ship. What should you consider?",
+    "options": [
+      "Whether sorting now reduces overall effort compared to sorting later, considering factors like order frequency and item similarity",
+      "Only the color of the incoming boxes",
+      "The phase of the moon when items arrive",
+      "Always sort immediately regardless of circumstances"
+    ],
+    "answer": "Whether sorting now reduces overall effort compared to sorting later, considering factors like order frequency and item similarity",
+    "explanation": "The decision depends on comparing total effort: if you sort items once when they\\'ll be needed in sorted order multiple times, pre-sorting wins. If items ship in unsorted orders frequently, post-sorting or no sorting may be better."
+  }
+]
