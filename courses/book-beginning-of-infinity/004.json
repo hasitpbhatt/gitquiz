@@ -2,16 +2,16 @@
   {
     "question": "Knowledge in Evolution",
     "content": "Biological evolution creates knowledge through blind variation and selection - adaptations encode information about how to survive in specific environments.",
-    "description": "A polar bear's white fur 'knows' snow is white — is that knowledge? This raises:",
+    "description": "A polar bear's white fur encodes knowledge about snowy environments. A human engineer designs white camouflage for arctic soldiers by studying the environment and running experiments. Deutsch argues both are 'knowledge,' but they differ in a crucial way. What is the fundamental difference between adaptive knowledge in evolution and human explanatory knowledge?",
     "options": [
-      "Why polar bears prefer white environments",
-      "How biological adaptations embody environmental knowledge",
-      "That fur color is purely random",
-      "Why all bears should be white"
+      "There is no fundamental difference; both arise through trial and error",
+      "Evolutionary knowledge is encoded in DNA; human knowledge is encoded in brains — same mechanism, different substrate",
+      "Evolutionary knowledge is blind and lacks understanding of why it works; human explanatory knowledge includes comprehension of causal mechanisms",
+      "Human knowledge is fallible; evolutionary knowledge is always optimal for the environment"
     ],
-    "answer": "How biological adaptations embody environmental knowledge",
-    "explanation": "The polar bear's white fur isn't random - it's an adaptation that provides camouflage in snowy environments. This adaptation encodes knowledge about the bear's environment (snow = white background) that increases survival chances.",
-    "difficulty": "easy"
+    "answer": "Evolutionary knowledge is blind and lacks understanding of why it works; human explanatory knowledge includes comprehension of causal mechanisms",
+    "explanation": "This is a key Deutsch distinction. The polar bear's fur 'knows' that snow is white in the sense that generations of selection encoded that environmental fact, but no bear understands camouflage theory. Human explanatory knowledge — like designing arctic camouflage through physics and optics — includes understanding of why it works (reflection, absorption, predator vision). This comprehension enables us to apply, improve, and criticize the knowledge, which blind evolution cannot do.",
+    "difficulty": "hard"
   },
   {
     "question": "Blind Variation and Selective Retention",

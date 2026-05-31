@@ -44,16 +44,16 @@
   {
     "question": "The Diderot Effect",
     "content": "The Diderot Effect describes how one purchase often triggers a spiral of additional related purchases or behaviors.",
-    "description": "A person buys a new dress and then feels they need new shoes, a matching purse, and earrings to go with it. What principle does this illustrate?",
+    "description": "A minimalist buys a single high-quality fountain pen. Within a month, they have purchased a leather journal, a desk organizer, a calligraphy guide, and a专属 ink set. A friend calls this wasteful consumerism. But the minimalist argues they have accidentally triggered a powerful habit-building mechanism. Based on the Diderot Effect and habit stacking principles, who is more correct, and under what condition?",
     "options": [
-      "The Plateau of Latent Potential",
-      "Implementation Intentions",
-      "The Diderot Effect",
-      "The 1% Rule"
+      "The friend is correct: the Diderot Effect is purely a consumption trap with no behavioral upside",
+      "The minimalist is correct if the purchases form a coherent identity (becoming a writer) rather than random acquisition",
+      "The minimalist is correct unconditionally: any purchase chain builds positive momentum",
+      "Both are wrong: the Diderot Effect only applies to luxury goods, not stationery"
     ],
-    "answer": "The Diderot Effect",
-    "explanation": "The Diderot Effect explains how one action becomes a cue for the next. This chain reaction can be harnessed positively through Habit Stacking.",
-    "difficulty": "easy"
+    "answer": "The minimalist is correct if the purchases form a coherent identity (becoming a writer) rather than random acquisition",
+    "explanation": "The Diderot Effect is neutral: it amplifies whatever identity the purchases serve. If the pen, journal, and ink all point toward the identity of a writer, each purchase reinforces the same behavioral direction and the chain becomes a self-reinforcing habit stack. If the purchases are disconnected luxury items, the effect produces clutter without identity coherence. The critical factor is whether the chain serves a unified identity or random consumption.",
+    "difficulty": "hard"
   },
   {
     "question": "Habit Stacking",

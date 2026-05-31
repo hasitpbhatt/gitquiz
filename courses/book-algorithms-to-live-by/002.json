@@ -42,18 +42,18 @@
     "difficulty": "easy"
   },
   {
-    "question": "Regret Minimization",
-    "content": "Regret minimization frameworks aim to minimize the maximum possible regret (difference between chosen outcome and best possible outcome) rather than maximize expected value.",
-    "description": "You are running an online ad campaign and need to split budget between winning ads (known performance) and new ads (uncertain performance). How should regret minimization guide your decision?",
+    "question": "The Horizon Effect on Optimal Exploration Rate",
+    "content": "In the explore-exploit tradeoff, the optimal exploration rate depends critically on the time horizon: longer horizons favor more exploration because the knowledge gained can be exploited for more rounds.",
+    "description": "Two product teams at the same company use the same explore-vs-exploit framework. Team A maintains an internal tool used by 5 employees for 1 year. Team B maintains a customer-facing feature used by 10,000 users projected for 5 years. Both must decide how much to invest in exploring alternatives vs polishing the current version. What does the horizon difference imply?",
     "options": [
-      "Allocate budget to minimize the maximum possible regret, which might mean allocating some budget to new ads even if winning ads perform better on average",
-      "Put 100% of budget into winning ads",
-      "Put 100% of budget into new ads",
-      "Allocate budget randomly"
+      "Team B should explore more aggressively because they have more users and a longer horizon over which to benefit from improvements",
+      "Team A should explore more aggressively because internal tools always need more experimentation",
+      "Both teams should use identical exploration rates since they work at the same company",
+      "Team A should explore more because shorter horizons mean less risk of disruption"
     ],
-    "answer": "Allocate budget to minimize the maximum possible regret, which might mean allocating some budget to new ads even if winning ads perform better on average",
-    "explanation": "Regret minimization might lead you to explore new ads even when winning ads have better average performance, because the potential regret of missing out on a much better new ad could be high.",
-    "difficulty": "easy"
+    "answer": "Team B should explore more aggressively because they have more users and a longer horizon over which to benefit from improvements",
+    "explanation": "The horizon effect states that the value of exploration scales with both the number of beneficiaries and the duration of payoff. Team B's exploration has a massive multiplier: any improvement benefits 10,000 users for 5 years (50,000 user-years of value). Team A's improvement benefits only 5 users for 1 year (5 user-years). Even if the probability of finding a better alternative is equal, the expected value of exploration for Team B is thousands of times higher.",
+    "difficulty": "hard"
   },
   {
     "question": "Win-Stay / Lose-Shift",

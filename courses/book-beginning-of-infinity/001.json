@@ -2,16 +2,16 @@
   {
     "question": "Good Explanations",
     "content": "A good explanation is hard to vary - it specifies precise mechanisms that would break the explanation if altered. Bad explanations are flexible excuses that fit any outcome.",
-    "description": "Your car won't start. Friend A says 'the battery is dead because the lights were left on.' Friend B says 'a gremlin sabotaged it.' Which is a better explanation and why?",
+    "description": "Two economists are asked why unemployment rose. Economist A: 'A 0.5% interest rate hike reduced corporate borrowing for expansion, eliminating 12,000 construction jobs — a rate cut would reverse the trend.' Economist B: 'Markets lost confidence due to structural uncertainties in the global regulatory environment.' Which explanation better satisfies the hard-to-vary criterion, and what specific change would falsify the weaker one?",
     "options": [
-      "Friend A's explanation, because it specifies a testable mechanism",
-      "Friend B's explanation, because gremlins are mysterious and powerful",
-      "Neither explanation is better than the other",
-      "Neither explanation is good"
+      "A's is better; B's would survive any outcome by appealing to vague 'uncertainties'",
+      "B's is better; structural factors are more fundamental than interest rates",
+      "Both are equally hard to vary because both reference economics",
+      "Neither satisfies hard-to-vary; economics cannot produce good explanations"
     ],
-    "answer": "Friend A's explanation, because it specifies a testable mechanism",
-    "explanation": "Friend A's explanation points to a specific, testable cause (battery drain from lights). Friend B's explanation invokes an unverifiable gremlin that could 'explain' any outcome equally well - making it a bad explanation that's easy to vary.",
-    "difficulty": "easy"
+    "answer": "A's is better; B's would survive any outcome by appealing to vague 'uncertainties'",
+    "explanation": "A's explanation specifies a precise causal mechanism (rate hike → reduced borrowing → fewer construction jobs) with a testable prediction (cut rates → jobs return). B's 'structural uncertainties' could explain any economic outcome equally well — whether unemployment rises or falls, one can always claim 'uncertainty' caused it. This makes B's explanation easy to vary and therefore bad by Deutsch's criterion.",
+    "difficulty": "hard"
   },
   {
     "question": "Bad Explanations",

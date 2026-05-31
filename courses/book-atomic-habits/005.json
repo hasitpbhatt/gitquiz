@@ -2,16 +2,16 @@
   {
     "question": "The Power of Context",
     "content": "Environment acts as a silent driver of behavior. We tend to choose the options most visible and accessible in our surroundings.",
-    "description": "Someone wants to eat more fruit but keeps fruit in the bottom drawer of the fridge where it is forgotten. What environmental change best applies the 1st Law?",
+    "description": "A company redesigns its office cafeteria. They place salad ingredients at eye level in the first cooler, desserts in a separate corner behind a pillar, and remove trays so employees must carry each item individually. Salad sales increase 40%. Dessert sales drop 25%. Critics argue this is manipulative choice architecture that infringes on freedom. Proponents argue it preserves full choice while respecting how the brain actually works. Which reasoning best defends the design as ethical rather than manipulative?",
     "options": [
-      "Buy more expensive organic fruit for motivation",
-      "Place a large bowl of fresh fruit in the center of the kitchen table",
-      "Set a phone alarm to remember to open the fridge",
-      "Write a note on the fridge that says Eat fruit"
+      "The changes are ethical because salad is objectively healthier than dessert, and companies have a duty to promote health",
+      "The changes are ethical because every food option remains available with equal effort to access; no choice is removed or penalized",
+      "The changes are ethical because the company disclosed the redesign intent in a company-wide email before implementation",
+      "The changes are ethical because employees can still ask staff to retrieve any item from the back, preserving full access"
     ],
-    "answer": "Place a large bowl of fresh fruit in the center of the kitchen table",
-    "explanation": "Visual cues are the greatest catalyst of behavior. By moving fruit to a high-traffic visible area, the cue becomes obvious, significantly increasing the odds of eating it.",
-    "difficulty": "easy"
+    "answer": "The changes are ethical because every food option remains available with equal effort to access; no choice is removed or penalized",
+    "explanation": "Libertarian paternalism argues that environment design is ethical when it steers without restricting. All foods are equally available and equally priced. The design works with the brain's visual dominance (50% of neural resources) rather than against it. Employees remain free to walk to the dessert corner and carry it on a tray. The choice architecture merely changes what is noticed first, which compensates for the mismatch between evolved attention systems and modern food environments.",
+    "difficulty": "hard"
   },
   {
     "question": "Visual Cues and Behavior",

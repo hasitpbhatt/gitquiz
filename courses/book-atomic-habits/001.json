@@ -142,16 +142,16 @@
   {
     "question": "The Valley of Disappointment",
     "content": "The Valley of Disappointment is the emotional experience of persisting through effort before results become visible. Most people quit here because they expect linear progress from an exponential process.",
-    "description": "A writer publishes blog posts weekly for three months with zero readers and quits. Six more months of compounding would have built an audience, but the breakthrough never came. This common quitting moment is called:",
+    "description": "A founder launches a product and tracks daily active users. The first 90 days show flatline growth. At day 120, growth suddenly accelerates and doubles every month after. The founder who quit at day 90 and the one who persisted evaluated the same flat data differently. What cognitive bias most directly explains why most founders quit before the inflection point?",
     "options": [
-      "The Plateau of Latent Potential",
-      "The Valley of Disappointment",
-      "The Diderot Effect",
-      "The Feedback Loop"
+      "Confirmation bias causes them to seek evidence that the product is failing",
+      "Linearity bias causes them to project the flat trend indefinitely",
+      "Recency bias causes them to overweight the most recent failure",
+      "Anchoring bias causes them to fixate on launch-day expectations"
     ],
-    "answer": "The Valley of Disappointment",
-    "explanation": "The Valley of Disappointment is the emotional gap between effort and visible results. People expect linear progress, but habits compound exponentially, so the exciting results arrive later. Persisting through this valley is essential for breakthrough.",
-    "difficulty": "easy"
+    "answer": "Linearity bias causes them to project the flat trend indefinitely",
+    "explanation": "The brain defaults to linear projections because exponential curves look flat in early stages. By day 90, the cumulative growth of a 5% weekly compounding rate is only 1.4x. The brain sees flat and quits, not realizing the same curve will reach 11.5x by day 180. Breaking this linearity bias is the core psychological challenge of the Valley of Disappointment.",
+    "difficulty": "hard"
   },
   {
     "question": "Marginal Gains in Practice",

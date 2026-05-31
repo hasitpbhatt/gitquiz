@@ -484,7 +484,7 @@ function downloadPromoImage(btn) {
         <div style="font-size:36px;font-weight:800;margin-bottom:8px;">LearnLeap</div>
         <div style="font-size:16px;opacity:0.6;max-width:400px;margin-bottom:40px;">Read. Retain. Rise.</div>
         <div style="font-size:13px;font-family:monospace;padding:14px 24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:12px;color:#60a5fa;max-width:100%;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(shareUrl)}</div>
-        <div style="margin-top:auto;font-size:14px;opacity:0.4;">LearnLeap • hasit.in/quiz</div>
+        <div style="margin-top:auto;font-size:14px;opacity:0.4;">LearnLeap • quiz.hasit.in</div>
     `;
     document.body.appendChild(container);
     if (typeof html2canvas !== 'function') {

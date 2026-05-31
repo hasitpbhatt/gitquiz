@@ -56,18 +56,18 @@
     "difficulty": "easy"
   },
   {
-    "question": "Search Costs",
-    "content": "Search costs refer to the time and effort required to find an item in a collection, which depends on how the collection is organized.",
-    "description": "You\\'re deciding whether to spend time organizing your desk or leave papers in a pile. What factor should influence your decision?",
+    "question": "Sorting Algorithm Selection for Hybrid Systems",
+    "content": "Different sorting algorithms have different tradeoffs: Bubble Sort is O(n^2) but simple and stable; Merge Sort is O(n log n) but requires O(n) extra memory; QuickSort is O(n log n) average but O(n^2) worst case; Insertion Sort is O(n^2) but O(n) on nearly-sorted data.",
+    "description": "You are designing a database system where 90% of queries receive data that is already nearly sorted (each item is within 5 positions of its final location), but 10% receive completely random data. You need minimize total sorting time across both workloads. Which strategy should you choose?",
     "options": [
-      "How frequently you need to find specific items - if retrieval is rare, organizing may not be worth the effort",
-      "Only whether the pile looks messy to visitors",
-      "The color of your desk",
-      "The phase of the moon"
+      "Use Insertion Sort for the 90% nearly-sorted case and switch to QuickSort or MergeSort when Insertion Sort's runtime exceeds a threshold indicating the data is not nearly sorted",
+      "Always use Bubble Sort since it works well on small datasets",
+      "Always use Merge Sort since it has guaranteed O(n log n) performance for all cases",
+      "Use QuickSort for all cases since it is the fastest on average"
     ],
-    "answer": "How frequently you need to find specific items - if retrieval is rare, organizing may not be worth the effort",
-    "explanation": "The sort/search tradeoff: organizing (sorting) has upfront cost but reduces future search cost. If you rarely need to find specific items, the effort of organizing may exceed the time saved from faster searches.",
-    "difficulty": "easy"
+    "answer": "Use Insertion Sort for the 90% nearly-sorted case and switch to QuickSort or MergeSort when Insertion Sort's runtime exceeds a threshold indicating the data is not nearly sorted",
+    "explanation": "Insertion Sort on nearly-sorted data runs in O(n) time (each element moves at most 5 positions = O(5n) = O(n)). A hybrid approach detects when Insertion Sort is performing poorly (indicating the data isn't nearly sorted) and falls back to a general-purpose O(n log n) algorithm. This minimizes sorting time across both workload types by exploiting the common case while handling the worst case gracefully.",
+    "difficulty": "hard"
   },
   {
     "question": "Linear Search",

@@ -44,16 +44,16 @@
   {
     "question": "Dharma",
     "content": "Dharma is one's righteous duty aligned with universal principles, varying by role, context, and stage of life.",
-    "description": "A journalist obtains classified information that would expose government corruption but publishing it could endanger national security sources. What does the concept of dharma require?",
+    "description": "A doctor in a war zone has limited medical supplies. She must choose between treating a wounded enemy soldier (universal medical duty) or saving her own country's soldiers first (patriotic duty). Her commanding officer orders her to prioritize countrymen; her oath says treat by medical need. According to the Gita's framework, how should she resolve this conflict of dharmas?",
     "options": [
-      "Always publish regardless of consequences",
-      "Always prioritize national security over truth",
-      "Discern the higher dharma by weighing competing duties",
-      "Avoid making any decision that involves risk"
+      "Follow the commanding officer; military hierarchy defines dharma",
+      "Follow her medical oath; professional dharma always overrides situational",
+      "Discern the higher universal dharma (compassion) by understanding which duty serves the greatest good in this specific context",
+      "Refuse to treat anyone since the situation is morally impossible"
     ],
-    "answer": "Discern the higher dharma by weighing competing duties",
-    "explanation": "Dharma is not a rigid rulebook but requires discernment between conflicting duties. The journalist must weigh truth-telling against potential harm, recognizing that the highest dharma serves the greatest good.",
-    "difficulty": "easy"
+    "answer": "Discern the higher universal dharma (compassion) by understanding which duty serves the greatest good in this specific context",
+    "explanation": "The Gita does not present dharma as a rigid checklist. When multiple duties conflict, one must discern the higher dharma — the principle that serves the greatest good in that specific context. For the doctor, universal medical ethics (compassion, saving life regardless of identity) may constitute a higher dharma than military obedience. This requires deep reflection on which duty, if abandoned, would cause greater harm to the moral order.",
+    "difficulty": "hard"
   },
   {
     "question": "The Eternal Self (Atman)",

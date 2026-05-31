@@ -2,16 +2,16 @@
   {
     "question": "The Role of Dopamine",
     "content": "Dopamine is released not just when you receive a reward but when you anticipate it. This anticipation drives craving and action.",
-    "description": "A gambler feels a rush of excitement while walking into a casino, before placing any bet. What brain chemical drives this anticipation?",
+    "description": "A notification-badge designer at a social media company must decide between two engagement strategies: (A) show badges immediately when new content arrives, or (B) show badges on a slight random delay while the content is being fetched. Strategy B produces stronger user engagement. The designer is surprised because delayed rewards should reduce motivation, not increase it. Which neurological mechanism explains this counterintuitive result?",
     "options": [
-      "Serotonin",
-      "Dopamine",
-      "Cortisol",
-      "Adrenaline"
+      "The delayed badge triggers cortisol (stress hormone), which increases attention and engagement as a coping mechanism",
+      "The anticipatory gap prolongs the dopamine release window, and variable rewards create a stronger prediction-error signal than fixed rewards",
+      "Users are unconsciously trying to prove the app wrong by checking earlier, creating a reactance-driven engagement loop",
+      "The delay triggers a Zeigarnik effect where incomplete tasks are remembered better than completed ones"
     ],
-    "answer": "Dopamine",
-    "explanation": "Dopamine spikes during anticipation of reward, not just the reward itself. This is why the craving before the action is the real motivational force.",
-    "difficulty": "easy"
+    "answer": "The anticipatory gap prolongs the dopamine release window, and variable rewards create a stronger prediction-error signal than fixed rewards",
+    "explanation": "Dopamine peaks during anticipation, not consumption. Strategy B extends the anticipation window by introducing uncertainty. The brain's reward system is wired to pay maximal attention to unpredictable cues because variable rewards (like slot machines) produce larger prediction errors than fixed ones. Each slight delay signals Maybe something is there, amplifying the craving loop. This is why variable reinforcement schedules produce more persistent engagement than fixed schedules, a finding from Skinner's operant conditioning research.",
+    "difficulty": "hard"
   },
   {
     "question": "Temptation Bundling",

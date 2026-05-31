@@ -86,16 +86,16 @@
   {
     "question": "The Power of Small Wins",
     "content": "Small wins are tiny victories that provide behavioral evidence for a new identity, building momentum over time.",
-    "description": "Someone wants to become a healthy person. Which action provides the most effective small win?",
+    "description": "A dieter chooses to eat a salad for lunch one day, then eats pizza for dinner. A behaviorist argues the salad was meaningless because the calorie deficit was erased. A psychologist argues the salad was powerful because it planted evidence of a new identity. Which framework resolves this disagreement and explains who is correct?",
     "options": [
-      "Planning to run a marathon next year",
-      "Choosing to take the stairs instead of the elevator once today",
-      "Buying an expensive gym membership",
-      "Reading an article about nutrition"
+      "Operant conditioning: the pizza punishment cancels the salad reward, so the behaviorist is correct",
+      "Identity-based habit theory: the salad is a vote for being healthy regardless of other votes that day, so the psychologist is correct",
+      "Cognitive dissonance theory: the contradiction between salad and pizza creates discomfort that forces better choices, so both are partially correct",
+      "Expected value theory: one salad has negligible caloric impact, so neither is correct unless the pattern repeats"
     ],
-    "answer": "Choosing to take the stairs instead of the elevator once today",
-    "explanation": "Taking the stairs is an actual action that serves as a vote for being healthy. Planning and reading do not provide the same behavioral evidence to your brain.",
-    "difficulty": "easy"
+    "answer": "Identity-based habit theory: the salad is a vote for being healthy regardless of other votes that day, so the psychologist is correct",
+    "explanation": "The behaviorist evaluates the day's net calories; the psychologist evaluates identity evidence. Each small win is a vote cast for an identity. No single vote decides the election, but consistent votes accumulate. The salad matters not for its caloric impact but because it shapes self-perception. Over time, enough healthy votes shift the identity from someone who tries to be healthy to someone who is healthy, making future choices automatic.",
+    "difficulty": "hard"
   },
   {
     "question": "Becoming the Best Version of Yourself",

@@ -2,16 +2,16 @@
   {
     "question": "Fallibilism",
     "content": "Fallibilism is the recognition that we are all capable of error - no belief is beyond question, and all knowledge is tentative and corrigible.",
-    "description": "Your GPS says turn left but you know that's a dead end — experts can be wrong. This illustrates:",
+    "description": "Three climate models disagree on regional rainfall by 2050. Model X uses one set of assumptions, Model Y a different set, and Model Z averages both. A politician says 'since all models are fallible, we cannot act.' A scientist says 'exactly because we know each model is fallible, we must test which assumptions fail and improve.' Who better applies fallibilism, and why?",
     "options": [
-      "Why we should never trust technology",
-      "That all humans are fallible and capable of error",
-      "That GPS systems are unreliable",
-      "Why we need authorities to tell us what to do"
+      "The scientist; fallibilism demands identifying and correcting specific errors, not paralysis",
+      "The politician; fallibilism correctly leads to skepticism about all knowledge claims",
+      "Neither; fallibilism only applies to established facts, not predictions",
+      "Both equally; they simply draw different practical conclusions from the same insight"
     ],
-    "answer": "That all humans are fallible and capable of error",
-    "explanation": "Even authoritative sources like GPS systems can be wrong. Fallibilism means recognizing that anyone - experts, authorities, ourselves - can be mistaken, so we must remain open to criticism and correction.",
-    "difficulty": "easy"
+    "answer": "The scientist; fallibilism demands identifying and correcting specific errors, not paralysis",
+    "explanation": "The politician uses fallibilism as an excuse for inaction — a common misuse. True fallibilism (as Deutsch advocates) recognizes that all knowledge is conjectural and corrigible, which means we should actively seek errors through criticism to improve our models, not abandon the attempt. The scientist's approach — finding which assumptions fail — is the productive application of fallibilism that drives knowledge growth.",
+    "difficulty": "hard"
   },
   {
     "question": "Error-Correction / Criticism",

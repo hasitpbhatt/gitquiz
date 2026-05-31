@@ -100,16 +100,16 @@
   {
     "question": "Why Habits Form (Cognitive Efficiency)",
     "content": "Habits are mental shortcuts that automate frequent responses, freeing cognitive resources for complex tasks.",
-    "description": "A driver instinctively knows where the brake pedal is without looking. How does this habit benefit the brain?",
+    "description": "An experienced driver navigates a familiar route on autopilot while holding a conversation. A learner driver must focus entirely on the road and cannot speak. Cognitive load theory explains both scenarios, but it also predicts a hidden danger in the experienced driver's automation. What is the most significant risk of habit-based automation in high-stakes environments?",
     "options": [
-      "It allows the brain to focus on navigating traffic and hazards",
-      "It makes the brain work harder because habits add complexity",
-      "It prevents the driver from ever making a mistake",
-      "It slows the driver reaction time"
+      "Habit automation reduces reaction time, causing the driver to brake too late in unexpected situations",
+      "When the environment changes unpredictably, the automated response may be the wrong one, and regaining conscious control has a latency cost",
+      "The brain offloads too much processing to habit, leading to micro-sleep episodes behind the wheel",
+      "Habit automation only works for positive behaviors; negative behaviors like speeding are never automated"
     ],
-    "answer": "It allows the brain to focus on navigating traffic and hazards",
-    "explanation": "Habits reduce cognitive load. By automating the mechanical parts of driving, the conscious mind can focus on unpredictable elements like other cars and pedestrians.",
-    "difficulty": "easy"
+    "answer": "When the environment changes unpredictably, the automated response may be the wrong one, and regaining conscious control has a latency cost",
+    "explanation": "Cognitive efficiency through habit has a trade-off: the brain routes control from slow conscious processing to fast basal ganglia automation. This works perfectly in stable environments but creates vulnerability when conditions shift. If a child runs into the street on a road where the driver habitually expects no pedestrians, the automated non-alert state delays the transition to conscious emergency response. This latency between habit failure and conscious takeover is the hidden cost of automation.",
+    "difficulty": "hard"
   },
   {
     "question": "The 4th Law: Make it Satisfying",
