@@ -17,6 +17,9 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   ├── index.html                    # Single-page quiz app (vanilla JS + Tailwind)
 │   ├── script.js                     # All quiz logic (707 lines)
 │   ├── styles.css                    # Custom styling
+│   ├── tests/                        # Playwright end-to-end tests
+│   │   ├── visual.spec.mjs           # Visual and behavior tests
+│   │   └── playwright.config.mjs     # Playwright config (screenshots on)
 │   └── proxy/                        # Cloudflare Worker for AI explanations
 │       ├── worker.js                 # Mistral AI proxy
 │       └── wrangler.toml             # CF Worker config
@@ -110,6 +113,22 @@ Quizzes aim for ~40% easy, ~40% medium, ~20% hard across each course.
 ## Running Locally
 
 Serve `quiz/` with any static file server. No build step needed.
+
+## Testing
+
+Playwright end-to-end tests live in `quiz/tests/`.
+
+```bash
+cd quiz/tests
+npm install
+npx playwright test
+```
+
+Screenshots are captured after every test and saved to `quiz/tests/test-results/`. To run a specific test file:
+
+```bash
+npx playwright test visual.spec.mjs
+```
 
 ## AI Explain Feature
 

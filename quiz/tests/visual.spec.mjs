@@ -1,6 +1,11 @@
 import { test, expect } from '@playwright/test';
 
-const CATALOG_CONTENT = 'test-course';
+const CATALOG_CONTENT = [
+  'book-atomic-habits',
+  'podcast-tim-ferriss',
+  'coursera-machine-learning',
+  'test-course',
+].join('\n');
 const MOCK_MODULES = {
   '001.json': [
     {
@@ -166,4 +171,144 @@ test('preview topic-title and content-box remain hidden', async ({ page }) => {
 
   await expect(page.locator('#preview-topic-title')).toBeHidden();
   await expect(page.locator('#preview-content-box')).toBeHidden();
+});
+
+test('wrong answer highlights correct option and shows explanation', async ({ page }) => {
+  await page.goto('/?course=test-course');
+
+  await expect(page.locator('#quiz-container')).toBeVisible();
+  await expect(page.locator('#score-val')).toHaveText('0');
+
+  await page.locator('.option-btn', { hasText: 'A VM manager' }).click();
+
+  await expect(page.locator('.option-btn.wrong')).toContainText('A VM manager');
+  await expect(page.locator('.option-btn.correct')).toContainText('A container orchestrator');
+  await expect(page.locator('#explanation')).toBeVisible();
+  await expect(page.locator('#next-btn')).toBeVisible();
+  await expect(page.locator('#score-val')).toHaveText('0');
+});
+
+test('correct answer increases score', async ({ page }) => {
+  await page.goto('/?course=test-course');
+
+  await expect(page.locator('#quiz-container')).toBeVisible();
+  await expect(page.locator('#score-val')).toHaveText('0');
+
+  await page.locator('.option-btn', { hasText: 'A container orchestrator' }).click();
+
+  await expect(page.locator('.option-btn.correct')).toContainText('A container orchestrator');
+  await expect(page.locator('#explanation')).toBeVisible();
+  await expect(page.locator('#next-btn')).toBeVisible();
+  await expect(page.locator('#score-val')).not.toHaveText('0');
+});
+
+test('catalog loads and shows all options', async ({ page }) => {
+  await page.goto('/');
+
+  await expect(page.locator('#setup-container')).toBeVisible();
+
+  const options = page.locator('#course-dropdown option');
+  await expect(options).toHaveCount(4);
+  await expect(options.nth(0)).toHaveAttribute('value', 'book-atomic-habits');
+  await expect(options.nth(1)).toHaveAttribute('value', 'podcast-tim-ferriss');
+  await expect(options.nth(2)).toHaveAttribute('value', 'coursera-machine-learning');
+  await expect(options.nth(3)).toHaveAttribute('value', 'test-course');
+});
+
+test('catalog text search filters options', async ({ page }) => {
+  await page.goto('/');
+
+  const options = page.locator('#course-dropdown option');
+  await expect(options).toHaveCount(4);
+
+  await page.fill('#catalog-search', 'atomic');
+
+  await expect(options).toHaveCount(1);
+  await expect(options.first()).toHaveAttribute('value', 'book-atomic-habits');
+});
+
+test('catalog type filter shows only matching types', async ({ page }) => {
+  await page.goto('/');
+
+  const options = page.locator('#course-dropdown option');
+  await expect(options).toHaveCount(4);
+
+  await page.click('.type-filter-btn[data-type="book"]');
+  await expect(options).toHaveCount(1);
+  await expect(options.first()).toHaveAttribute('value', 'book-atomic-habits');
+
+  await page.click('.type-filter-btn[data-type="podcast"]');
+  await expect(options).toHaveCount(1);
+  await expect(options.first()).toHaveAttribute('value', 'podcast-tim-ferriss');
+
+  await page.click('.type-filter-btn[data-type="coursera"]');
+  await expect(options).toHaveCount(1);
+  await expect(options.first()).toHaveAttribute('value', 'coursera-machine-learning');
+});
+
+test('catalog combined search and type filter', async ({ page }) => {
+  await page.goto('/');
+
+  const options = page.locator('#course-dropdown option');
+  await expect(options).toHaveCount(4);
+
+  await page.click('.type-filter-btn[data-type="coursera"]');
+  await page.fill('#catalog-search', 'learning');
+
+  await expect(options).toHaveCount(1);
+  await expect(options.first()).toHaveAttribute('value', 'coursera-machine-learning');
+
+  await page.fill('#catalog-search', 'atomic');
+  await expect(page.locator('#course-dropdown')).toContainText('No matches found');
+});
+
+test('catalog no matches shows placeholder', async ({ page }) => {
+  await page.goto('/');
+
+  const options = page.locator('#course-dropdown option');
+  await expect(options).toHaveCount(4);
+
+  await page.fill('#catalog-search', 'zzzdoesnotexist');
+
+  await expect(page.locator('#course-dropdown')).toContainText('No matches found');
+});
+
+test('catalog empty search restores all options', async ({ page }) => {
+  await page.goto('/');
+
+  const options = page.locator('#course-dropdown option');
+  await expect(options).toHaveCount(4);
+
+  await page.fill('#catalog-search', 'tim');
+  await expect(options).toHaveCount(1);
+
+  await page.fill('#catalog-search', '');
+  await expect(options).toHaveCount(4);
+});
+
+test('catalog "All" type filter shows everything', async ({ page }) => {
+  await page.goto('/');
+
+  const options = page.locator('#course-dropdown option');
+  await expect(options).toHaveCount(4);
+
+  await page.click('.type-filter-btn[data-type="book"]');
+  await expect(options).toHaveCount(1);
+
+  await page.click('.type-filter-btn[data-type="all"]');
+  await expect(options).toHaveCount(4);
+});
+
+test('catalog type filter button active state toggles', async ({ page }) => {
+  await page.goto('/');
+
+  await expect(page.locator('.type-filter-btn[data-type="all"]')).toHaveClass(/active/);
+
+  await page.click('.type-filter-btn[data-type="book"]');
+  await expect(page.locator('.type-filter-btn[data-type="book"]')).toHaveClass(/active/);
+  await expect(page.locator('.type-filter-btn[data-type="all"]')).not.toHaveClass(/active/);
+
+  await page.click('.type-filter-btn[data-type="all"]');
+  await expect(page.locator('.type-filter-btn[data-type="all"]')).toHaveClass(/active/);
+  await expect(page.locator('.type-filter-btn[data-type="book"]')).not.toHaveClass(/active/);
 });

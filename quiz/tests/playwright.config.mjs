@@ -10,7 +10,7 @@ export default defineConfig({
     baseURL: 'http://localhost:8765',
     headless: true,
     viewport: { width: 1280, height: 800 },
-    screenshot: 'only-on-failure',
+    screenshot: 'on',
   },
   webServer: {
     command: 'python -m http.server 8765 --directory ../../quiz',
