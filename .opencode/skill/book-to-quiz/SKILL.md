@@ -374,6 +374,10 @@ PowerShell's `Set-Content -Encoding UTF8` prepends a BOM (Byte Order Mark) to th
 - **`sort -c`** is not available in PowerShell. Compare against sorted copy instead.
 - **`mkdir -p`** works in PowerShell 5.1 as an alias for `New-Item`.
 - **`Remove-Item -LiteralPath` vs `-Path`**: `-LiteralPath` does not support wildcards. Use `-Path` for glob patterns like `Remove-Item -Path "courses/*.json"`.
+- **`ls -la`** does not work in PowerShell (the flags have no `-l`/`-a` equivalent). Use plain `ls` (alias for `Get-ChildItem`) or `Get-ChildItem` directly instead.
+- **`cat > file << 'EOF'` heredoc** is not available in PowerShell. Use a here-string with `Set-Content` instead: `$script = @' ... '@; Set-Content -Path file -Value $script`.
+- **Inline `node -e "..."` with complex JS** often fails due to PowerShell quoting conflicts (nested quotes, regex patterns with backslashes). Use the temp-file pattern instead: write a `.js` file via PowerShell here-string, then `node` it.
+- **`Get-Content | Sort-Object | Set-Content` strips trailing newline** from text files. If the file needs a trailing newline, append one explicitly after setting content.
 
 ### Scenario Design Patterns
 Use these real-life scenario categories to create engaging questions:
