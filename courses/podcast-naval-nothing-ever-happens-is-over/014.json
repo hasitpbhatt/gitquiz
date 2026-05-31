@@ -10,7 +10,8 @@
       "Biological threats are less likely because AI cannot understand organic chemistry."
     ],
     "answer": "Just as AI makes complex coding easy for non-experts, it could make engineering dangerous viruses easy for non-experts.",
-    "explanation": "Naval worries that when expertise is democratized via AI, the same 'building' power used for good in software can be used for harm in biology."
+    "explanation": "Naval worries that when expertise is democratized via AI, the same 'building' power used for good in software can be used for harm in biology.",
+    "difficulty": "medium"
   },
   {
     "question": "Regulatory Lag and Defensive Research",
@@ -23,7 +24,8 @@
       "They are the reason why healthcare is so expensive."
     ],
     "answer": "They slow down life-saving innovation while threats operate without any rules.",
-    "explanation": "Naval points out that 'all the official research... is always gated behind regulations,' which makes it difficult to react to fast-moving threats."
+    "explanation": "Naval points out that 'all the official research... is always gated behind regulations,' which makes it difficult to react to fast-moving threats.",
+    "difficulty": "medium"
   },
   {
     "question": "The Right to Try and Volunteerism",
@@ -36,7 +38,8 @@
       "Because the AI models were not yet advanced enough to simulate viruses."
     ],
     "answer": "Because we didn't allow healthy young volunteers to 'take one for the team' via right-to-try.",
-    "explanation": "Naval laments that bureaucracy and 'bioethicists' blocked fast-track human trials that could have potentially saved months of time."
+    "explanation": "Naval laments that bureaucracy and 'bioethicists' blocked fast-track human trials that could have potentially saved months of time.",
+    "difficulty": "medium"
   },
   {
     "question": "Anonymized Data as a Medical Solution",
@@ -49,7 +52,8 @@
       "Medical data is too expensive for AI labs to purchase."
     ],
     "answer": "Data is hidden behind silos, regulations, and privacy rules.",
-    "explanation": "Naval identifies 'data silos' as the bottleneck; if AI could see the patterns in all medical data, it could potentially research vaccines and stop threats far more effectively."
+    "explanation": "Naval identifies 'data silos' as the bottleneck; if AI could see the patterns in all medical data, it could potentially research vaccines and stop threats far more effectively.",
+    "difficulty": "medium"
   },
   {
     "question": "The Veto Players in Medicine",
@@ -62,7 +66,8 @@
       "There is no money left in medical research."
     ],
     "answer": "There is too much bureaucracy and 'people who can say no.'",
-    "explanation": "Naval argues that the bureaucracy has grown so thick that it stifles the efforts of those trying to innovate."
+    "explanation": "Naval argues that the bureaucracy has grown so thick that it stifles the efforts of those trying to innovate.",
+    "difficulty": "hard"
   },
   {
     "question": "Volunteer Challenge Trials",
@@ -75,7 +80,8 @@
       "He believes volunteers should only be allowed if they are over 80 years old."
     ],
     "answer": "He believes it should be allowed so they can 'take one for the team' and speed up research.",
-    "explanation": "Naval argues for a return to a more proactive, risk-tolerant approach to medical research during crises."
+    "explanation": "Naval argues for a return to a more proactive, risk-tolerant approach to medical research during crises.",
+    "difficulty": "hard"
   },
   {
     "question": "The Data Silo Bottleneck",
@@ -88,7 +94,8 @@
       "By only allowing government-approved AIs to see it."
     ],
     "answer": "By anonymizing it, cleaning it up, and allowing it to be used in large datasets.",
-    "explanation": "Anonymization allows for the protection of privacy while still providing the 'fuel' (data) that AI needs to learn."
+    "explanation": "Anonymization allows for the protection of privacy while still providing the 'fuel' (data) that AI needs to learn.",
+    "difficulty": "hard"
   },
   {
     "question": "The Asymmetry of Bio-threats",
@@ -101,7 +108,8 @@
       "Attackers only work in the cloud, while defenders work in labs."
     ],
     "answer": "Attackers have no regulations, while defenders are slowed down by bureaucracy.",
-    "explanation": "The 'bad guy' is unconstrained by ethics boards, while the 'good guy' is forced to wait months for approval, a gap that can be fatal in a pandemic."
+    "explanation": "The 'bad guy' is unconstrained by ethics boards, while the 'good guy' is forced to wait months for approval, a gap that can be fatal in a pandemic.",
+    "difficulty": "hard"
   },
   {
     "question": "AI Solving Biology",
@@ -114,7 +122,8 @@
       "By convincing politicians to stop regulating medicine."
     ],
     "answer": "By looking at everyone's data and all the outcomes to find what actually works.",
-    "explanation": "AI can see patterns across millions of data points that a human doctor or researcher could never process alone."
+    "explanation": "AI can see patterns across millions of data points that a human doctor or researcher could never process alone.",
+    "difficulty": "hard"
   },
   {
     "question": "The Emergency Exception",
@@ -127,6 +136,7 @@
       "He thinks emergencies are a myth created by bioethicists."
     ],
     "answer": "He believes we only operate reasonably well during emergencies, and even then, we are too slow.",
-    "explanation": "Naval's critique is that the 'default speed' of medical regulation is dangerously slow, and our 'emergency speed' is only slightly better."
+    "explanation": "Naval's critique is that the 'default speed' of medical regulation is dangerously slow, and our 'emergency speed' is only slightly better.",
+    "difficulty": "hard"
   }
 ]

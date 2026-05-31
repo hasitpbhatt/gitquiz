@@ -10,7 +10,8 @@
       "The younger doctor is naturally more talented"
     ],
     "answer": "Experience Does Not Reliably Ensure Expertise: without feedback on errors, experience alone does not improve judgment",
-    "explanation": "Repeating the same practices for 20 years without accurate feedback does not build expertise. Improvement requires feedback that reveals errors and guides adjustment."
+    "explanation": "Repeating the same practices for 20 years without accurate feedback does not build expertise. Improvement requires feedback that reveals errors and guides adjustment.",
+    "difficulty": "easy"
   },
   {
     "question": "Experience Does Not Reliably Ensure Expertise",
@@ -23,7 +24,8 @@
       "Market performance is always unpredictable for everyone"
     ],
     "answer": "Without systematic feedback and strategy adjustment, the same mistakes compound over decades",
-    "explanation": "Experience without learning from feedback leads to repeating the same ineffective behaviors. True expertise requires analyzing outcomes and adjusting strategies accordingly."
+    "explanation": "Experience without learning from feedback leads to repeating the same ineffective behaviors. True expertise requires analyzing outcomes and adjusting strategies accordingly.",
+    "difficulty": "easy"
   },
   {
     "question": "Experience Does Not Reliably Ensure Expertise",
@@ -36,7 +38,8 @@
       "The experienced teacher is clearly burned out"
     ],
     "answer": "Experience Does Not Reliably Ensure Expertise: teaching the same material yearly without seeking improvement leads to stagnation",
-    "explanation": "Repeating the same lesson plan for 15 years is one year of experience repeated 15 times, not 15 years of growth. Improvement requires actively seeking and integrating feedback."
+    "explanation": "Repeating the same lesson plan for 15 years is one year of experience repeated 15 times, not 15 years of growth. Improvement requires actively seeking and integrating feedback.",
+    "difficulty": "medium"
   },
   {
     "question": "Improvement is Not a Straight Line",
@@ -49,7 +52,8 @@
       "Your guitar is not good enough for advanced playing"
     ],
     "answer": "Plateaus are a normal part of learning that precede the next breakthrough",
-    "explanation": "Learning progresses in fits and starts. Plateaus often represent consolidation where the brain integrates previous gains before the next leap forward."
+    "explanation": "Learning progresses in fits and starts. Plateaus often represent consolidation where the brain integrates previous gains before the next leap forward.",
+    "difficulty": "medium"
   },
   {
     "question": "Improvement is Not a Straight Line",
@@ -62,7 +66,8 @@
       "Marathon training requires a different sport"
     ],
     "answer": "Improvement is Not a Straight Line: performance fluctuates due to fatigue, recovery, and adaptation cycles",
-    "explanation": "Physical training follows cycles of stress and recovery. Performance dips are often followed by adaptation and breakthroughs. The downward trend before improvement is normal."
+    "explanation": "Physical training follows cycles of stress and recovery. Performance dips are often followed by adaptation and breakthroughs. The downward trend before improvement is normal.",
+    "difficulty": "medium"
   },
   {
     "question": "Improvement is Not a Straight Line",
@@ -75,7 +80,8 @@
       "Success should be immediate if the idea is good"
     ],
     "answer": "Analyze the dip for learning, adjust strategy, and persist through the natural fluctuation",
-    "explanation": "Business growth is rarely a straight line. Down periods provide valuable feedback. The key is learning from the dip rather than being demoralized by the lack of linear progress."
+    "explanation": "Business growth is rarely a straight line. Down periods provide valuable feedback. The key is learning from the dip rather than being demoralized by the lack of linear progress.",
+    "difficulty": "medium"
   },
   {
     "question": "Improvement is Not a Straight Line",
@@ -88,6 +94,7 @@
       "Chess skill is determined by natural talent alone"
     ],
     "answer": "Improvement is Not a Straight Line: losing streaks often precede breakthroughs as old patterns break down to make way for new strategies",
-    "explanation": "When learning new tactics, your performance may temporarily drop as you abandon familiar but limited strategies. This dip is a sign of progress, not regression."
+    "explanation": "When learning new tactics, your performance may temporarily drop as you abandon familiar but limited strategies. This dip is a sign of progress, not regression.",
+    "difficulty": "medium"
   }
 ]

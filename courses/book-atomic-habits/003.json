@@ -10,7 +10,8 @@
       "Response, Cue, Craving, Reward"
     ],
     "answer": "Cue, Craving, Response, Reward",
-    "explanation": "The ping is the cue, curiosity is the craving, picking up the phone is the response, and feeling informed is the reward. The order is always Cue, Craving, Response, Reward."
+    "explanation": "The ping is the cue, curiosity is the craving, picking up the phone is the response, and feeling informed is the reward. The order is always Cue, Craving, Response, Reward.",
+    "difficulty": "easy"
   },
   {
     "question": "The Purpose of Rewards",
@@ -23,7 +24,8 @@
       "To trigger a response to go for a run instead"
     ],
     "answer": "To associate stress with a craving for chocolate",
-    "explanation": "Because chocolate provided a reward of relief, the brain marks eating chocolate as a successful strategy for the cue of feeling stressed, making it a habit."
+    "explanation": "Because chocolate provided a reward of relief, the brain marks eating chocolate as a successful strategy for the cue of feeling stressed, making it a habit.",
+    "difficulty": "easy"
   },
   {
     "question": "The Four Laws of Behavior Change",
@@ -36,7 +38,8 @@
       "The 4th Law: Make it Satisfying"
     ],
     "answer": "The 1st Law: Make it Obvious",
-    "explanation": "By keeping the bottle hidden, the cue is invisible. To apply the 1st Law, place the water bottle on the desk where it is clearly visible throughout the day."
+    "explanation": "By keeping the bottle hidden, the cue is invisible. To apply the 1st Law, place the water bottle on the desk where it is clearly visible throughout the day.",
+    "difficulty": "easy"
   },
   {
     "question": "Inverting the Laws to Break Bad Habits",
@@ -49,7 +52,8 @@
       "Make it Unsatisfying"
     ],
     "answer": "Make it Invisible",
-    "explanation": "By removing the icon from immediate sight, the visual cue that triggers the scrolling habit is eliminated. This is the Make it Invisible inversion of the 1st Law."
+    "explanation": "By removing the icon from immediate sight, the visual cue that triggers the scrolling habit is eliminated. This is the Make it Invisible inversion of the 1st Law.",
+    "difficulty": "easy"
   },
   {
     "question": "Problem Phase vs. Solution Phase",
@@ -62,7 +66,8 @@
       "The Reward Phase"
     ],
     "answer": "The Problem Phase",
-    "explanation": "The Cue and Craving constitute the Problem Phase, where the brain notices something is missing. Action has not yet been taken; that comes in the Solution Phase."
+    "explanation": "The Cue and Craving constitute the Problem Phase, where the brain notices something is missing. Action has not yet been taken; that comes in the Solution Phase.",
+    "difficulty": "easy"
   },
   {
     "question": "The 3rd Law: Make it Easy",
@@ -75,7 +80,8 @@
       "Buy an expensive leather journal to feel motivated"
     ],
     "answer": "Place the journal and pen directly on the pillow each morning",
-    "explanation": "Putting the journal on the pillow reduces friction to nearly zero. The response of writing becomes much easier to initiate when the tools are already in place."
+    "explanation": "Putting the journal on the pillow reduces friction to nearly zero. The response of writing becomes much easier to initiate when the tools are already in place.",
+    "difficulty": "easy"
   },
   {
     "question": "Cravings as the Motivational Force",
@@ -88,7 +94,8 @@
       "The technical process of data transmission"
     ],
     "answer": "The feeling of being productive or the relief of reducing uncertainty",
-    "explanation": "Cravings are about internal state change. We perform habits to move from a current state to a more desirable one, such as from not knowing to being informed."
+    "explanation": "Cravings are about internal state change. We perform habits to move from a current state to a more desirable one, such as from not knowing to being informed.",
+    "difficulty": "easy"
   },
   {
     "question": "Why Habits Form (Cognitive Efficiency)",
@@ -101,7 +108,8 @@
       "It slows the driver reaction time"
     ],
     "answer": "It allows the brain to focus on navigating traffic and hazards",
-    "explanation": "Habits reduce cognitive load. By automating the mechanical parts of driving, the conscious mind can focus on unpredictable elements like other cars and pedestrians."
+    "explanation": "Habits reduce cognitive load. By automating the mechanical parts of driving, the conscious mind can focus on unpredictable elements like other cars and pedestrians.",
+    "difficulty": "easy"
   },
   {
     "question": "The 4th Law: Make it Satisfying",
@@ -114,7 +122,8 @@
       "The Reward"
     ],
     "answer": "The Reward",
-    "explanation": "The smoothie provides immediate satisfaction that tells the brain: That workout was worth it, let us do it again tomorrow. This is the 4th Law in action."
+    "explanation": "The smoothie provides immediate satisfaction that tells the brain: That workout was worth it, let us do it again tomorrow. This is the 4th Law in action.",
+    "difficulty": "medium"
   },
   {
     "question": "The Interdependence of All Four Steps",
@@ -127,6 +136,7 @@
       "The Reward (insufficient)"
     ],
     "answer": "The Response (insufficient)",
-    "explanation": "The Response is too difficult due to physical friction. Even with a strong cue and craving, the effort required stops the loop from completing."
+    "explanation": "The Response is too difficult due to physical friction. Even with a strong cue and craving, the effort required stops the loop from completing.",
+    "difficulty": "medium"
   }
 ]

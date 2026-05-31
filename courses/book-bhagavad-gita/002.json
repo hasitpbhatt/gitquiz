@@ -10,7 +10,8 @@
       "Raja Yoga - meditation and mind control"
     ],
     "answer": "Karma Yoga - selfless action without attachment to rewards",
-    "explanation": "The chef's anonymous, consistent service without seeking recognition perfectly illustrates Karma Yoga - performing action as duty and service, not for personal gain or public acknowledgment."
+    "explanation": "The chef's anonymous, consistent service without seeking recognition perfectly illustrates Karma Yoga - performing action as duty and service, not for personal gain or public acknowledgment.",
+    "difficulty": "easy"
   },
   {
     "question": "Bhakti Yoga",
@@ -23,7 +24,8 @@
       "Raja Yoga - meditative absorption"
     ],
     "answer": "Bhakti Yoga - devotion and love toward the divine",
-    "explanation": "Creating art as an expression of love for the divine, without concern for commercial gain, exemplifies Bhakti Yoga. The feeling of connection with something greater than oneself is the fruit of devotional practice."
+    "explanation": "Creating art as an expression of love for the divine, without concern for commercial gain, exemplifies Bhakti Yoga. The feeling of connection with something greater than oneself is the fruit of devotional practice.",
+    "difficulty": "easy"
   },
   {
     "question": "Jnana Yoga",
@@ -36,7 +38,8 @@
       "Raja Yoga - meditating to forget the pain"
     ],
     "answer": "Jnana Yoga - discriminating the Self from roles",
-    "explanation": "The crisis led this person to question their identification with a temporary role and seek their true identity. This self-inquiry - discriminating between the temporary (job title) and eternal (the Self) - is the essence of Jnana Yoga."
+    "explanation": "The crisis led this person to question their identification with a temporary role and seek their true identity. This self-inquiry - discriminating between the temporary (job title) and eternal (the Self) - is the essence of Jnana Yoga.",
+    "difficulty": "easy"
   },
   {
     "question": "Raja Yoga",
@@ -49,7 +52,8 @@
       "Karma Yoga - performing work without attachment"
     ],
     "answer": "Raja Yoga - mastery over the mind through meditation",
-    "explanation": "Raja Yoga involves systematic practice to calm and master the mind. The trader's improved focus and reduced reactivity are direct benefits of meditation practice, demonstrating greater mental self-mastery."
+    "explanation": "Raja Yoga involves systematic practice to calm and master the mind. The trader's improved focus and reduced reactivity are direct benefits of meditation practice, demonstrating greater mental self-mastery.",
+    "difficulty": "easy"
   },
   {
     "question": "Buddhi Yoga",
@@ -62,7 +66,8 @@
       "Karma Yoga - accepting whatever happens"
     ],
     "answer": "Buddhi Yoga - acting with discernment rather than emotion",
-    "explanation": "Buddhi Yoga is using intelligence and discernment to guide action, rather than being driven by emotional reactions. The investor's calm research and principled decision amid panic demonstrates Buddhi Yoga in action."
+    "explanation": "Buddhi Yoga is using intelligence and discernment to guide action, rather than being driven by emotional reactions. The investor's calm research and principled decision amid panic demonstrates Buddhi Yoga in action.",
+    "difficulty": "easy"
   },
   {
     "question": "The Integrated Path",
@@ -75,7 +80,8 @@
       "A modern invention not found in traditional teachings"
     ],
     "answer": "The integrated path combining jnana, karma, and bhakti",
-    "explanation": "The Gita repeatedly emphasizes that jnana (knowledge), karma (action), and bhakti (devotion) are complementary, not competing. The seeker's balanced practice reflects this integrated approach to spiritual development."
+    "explanation": "The Gita repeatedly emphasizes that jnana (knowledge), karma (action), and bhakti (devotion) are complementary, not competing. The seeker's balanced practice reflects this integrated approach to spiritual development.",
+    "difficulty": "easy"
   },
   {
     "question": "Faith (Shraddha)",
@@ -88,7 +94,8 @@
       "Faith has no role in spiritual practice"
     ],
     "answer": "Shraddha provided the foundation to begin practice before full understanding",
-    "explanation": "The Gita values shraddha - a trust that allows one to begin practice before complete intellectual understanding. This faith is not blind but reasonable, providing the motivational foundation for experiential learning."
+    "explanation": "The Gita values shraddha - a trust that allows one to begin practice before complete intellectual understanding. This faith is not blind but reasonable, providing the motivational foundation for experiential learning.",
+    "difficulty": "easy"
   },
   {
     "question": "The Steady-Witted Person (Sthitaprajna)",
@@ -101,6 +108,7 @@
       "Lack of normal human emotional response"
     ],
     "answer": "The sthita-prajna state - unshaken wisdom that remains steady in crisis",
-    "explanation": "The Gita describes the sthita-prajna as one who is not disturbed by adversity, who has abandoned all desires, and is free from attachment, fear, and anger. The pilot's steady competence and emotional balance amid crisis mirrors this ideal."
+    "explanation": "The Gita describes the sthita-prajna as one who is not disturbed by adversity, who has abandoned all desires, and is free from attachment, fear, and anger. The pilot's steady competence and emotional balance amid crisis mirrors this ideal.",
+    "difficulty": "medium"
   }
 ]

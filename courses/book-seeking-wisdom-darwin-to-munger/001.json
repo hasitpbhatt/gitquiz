@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Anatomy Shapes Behavior",
+    "content": "Our anatomy, physiology, and biochemistry set the fundamental limits for how we behave. Changes to brain structure can fundamentally alter personality and decision-making.",
+    "description": "After a workplace accident damaged his prefrontal cortex, a previously reliable employee becomes impulsive and disrespectful toward colleagues. This case mirrors the famous story of Phineas Gage and illustrates:",
+    "options": [
+      "Personality is a fixed trait that cannot change",
+      "Brain anatomy can fundamentally shape behavior and judgment",
+      "Workplace stress is the primary cause of behavioral change",
+      "Head injuries only affect physical movement, not personality"
+    ],
+    "answer": "Brain anatomy can fundamentally shape behavior and judgment",
+    "explanation": "The prefrontal cortex is essential for impulse control, social behavior, and sound judgment. Damage to this region can radically alter personality, showing how deeply our anatomy influences behavior.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Neural Communication",
+    "content": "Neurons communicate through synapses, where electrical impulses trigger the release of chemical neurotransmitters that relay signals between brain cells.",
+    "description": "A patient taking an antidepressant notices their mood improves gradually over weeks. These drugs work by affecting which aspect of brain function?",
+    "options": [
+      "Creating new brain cells where none existed before",
+      "Increasing the amount of serotonin available at synapses",
+      "Permanently rewiring all neural connections",
+      "Shrinking the amygdala to reduce emotional responses"
+    ],
+    "answer": "Increasing the amount of serotonin available at synapses",
+    "explanation": "Antidepressants increase serotonin availability by mimicking its structure, allowing more of this mood-regulating neurotransmitter to remain in the synapse. They treat the state of unhappiness rather than creating happiness directly.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Dopamine and Reward",
+    "content": "Dopamine is a neurotransmitter involved in the brain reward and motivation system. High dopamine levels increase feelings of pleasure and are linked to addiction.",
+    "description": "Checking your phone for likes on a social media post feels pleasurable because each notification triggers a small dopamine release. Over time, you check your phone more frequently. This illustrates dopamine role in:",
+    "options": [
+      "Memory formation and recall",
+      "The brain reward and motivation system",
+      "Regulating body temperature",
+      "Processing visual information from screens"
+    ],
+    "answer": "The brain reward and motivation system",
+    "explanation": "Dopamine reinforces behaviors that produce pleasure, creating motivation to repeat them. This reward system, while evolutionarily useful, can lead to compulsive behaviors when hijacked by modern technology.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Genes and Environment Interaction",
+    "content": "Genes control brain chemistry but are turned on and off by environmental factors. Gene expression where, when, and for how long genes are active is key to understanding behavior.",
+    "description": "Studies show that humans and chimpanzees share at least 94 percent of their DNA, yet their behavior differs enormously. The most likely explanation is:",
+    "options": [
+      "The remaining 6 percent of DNA contains all behavioral instructions",
+      "Environment alone accounts for all behavioral differences",
+      "Gene expression patterns differ significantly between human and chimpanzee brains",
+      "Chimpanzees have simpler neural structures despite similar DNA"
+    ],
+    "answer": "Gene expression patterns differ significantly between human and chimpanzee brains",
+    "explanation": "It is not just the genes themselves but how and when they are expressed that creates differences. The human brain shows strikingly different patterns of gene expression compared to the chimpanzee brain, explaining large behavioral differences despite similar DNA.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Dominant and Recessive Genes",
+    "content": "When genes combine, some versions dominate others. A child inheriting a brown-eye gene from one parent and a blue-eye gene from the other will have brown eyes because the brown-eyed gene is dominant, while blue is recessive.",
+    "description": "Both parents have brown eyes, but their child is born with blue eyes. Applying principles of genetics, this is possible because:",
+    "options": [
+      "The mother diet during pregnancy affects eye color",
+      "Both parents carry a recessive blue-eye gene that combined in the child",
+      "Eye color is determined solely by the father genes",
+      "A mutation always occurs during conception"
+    ],
+    "answer": "Both parents carry a recessive blue-eye gene that combined in the child",
+    "explanation": "Dominant brown-eye genes mask recessive blue-eye genes. If both parents carry one brown and one blue gene each, there is a chance their child inherits two blue genes, resulting in blue eyes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Interaction in Biological Systems",
+    "content": "Biological functions are characterized by interaction and flexibility. No single gene acts in isolation. Genes, neurons, cells, and organs all interact as parts of an interconnected system.",
+    "description": "A researcher tries to isolate a single gene responsible for intelligence but fails because the trait does not appear to have one cause. This reflects:",
+    "options": [
+      "Poor research methodology and measurement errors",
+      "The interconnected nature of biological systems where multiple genes interact",
+      "Intelligence being purely determined by environment",
+      "Genes operating independently without interaction"
+    ],
+    "answer": "The interconnected nature of biological systems where multiple genes interact",
+    "explanation": "Most traits, especially complex ones like intelligence, are governed by many genes interacting with each other and the environment. This interaction, not isolation, is a fundamental property of biology.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Evolution and Adaptive Behavior",
+    "content": "Evolution selected neural connections that produce behavior useful for survival and reproduction. Many of our automatic responses were adaptive in ancestral environments but may misfire today.",
+    "description": "Your ancestors who instinctively feared rustling in the grass survived longer than those who were curious about potential predators. Today, that same instinct makes you:",
+    "options": [
+      "Better at identifying dangerous people in crowds",
+      "Anxious about public speaking for no evolutionary reason",
+      "Alert to potential threats even when the modern risk is minimal",
+      "More adventurous in exploring new places"
+    ],
+    "answer": "Alert to potential threats even when the modern risk is minimal",
+    "explanation": "Evolution favored those who erred on the side of caution, better to mistake a leaf rustle for a predator than vice versa. This adaptation persists even when modern environments rarely contain such threats.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Amygdala and Emotional Response",
+    "content": "The amygdala is a brain region linked with emotional states and social behavior. Damage reduces fear responses, while stimulation can trigger intense emotional reactions.",
+    "description": "A patient with damage to their amygdala shows abnormally calm reactions to situations that would terrify most people. This suggests the amygdala is primarily involved in:",
+    "options": [
+      "Processing logical reasoning and mathematics",
+      "Generating fear and emotional responses",
+      "Controlling voluntary muscle movements",
+      "Storing long-term factual memories"
+    ],
+    "answer": "Generating fear and emotional responses",
+    "explanation": "The amygdala is central to emotional processing, especially fear. Damage reduces the ability to feel and respond to fear, while tumors pressing against it can cause uncontrollable emotional outbursts.",
+    "difficulty": "easy"
+  }
+]

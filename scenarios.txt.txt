@@ -1,0 +1,64 @@
+Chapter,Question / Concept Name,Book Sub-topic / Anchor,Scenario Domain,Real-World Scenario Setup
+001: Optimal Stopping,1. The 37% Rule,Secretary Problem,Personal / Housing,Finding an apartment in a hyper-competitive rental market.
+,2. Look-Then-Leap,Threshold Strategy,Personal / Dating,Knowing when to stop dating casual options and commit to a partner.
+,3. Post-Leap Regret,Baseline Establishment,Business / Sales,"Rejecting an early solid offer on a house, then facing worse offers."
+,4. Full Information,Odds Algorithm,Everyday / Driving,Deciding whether to take a visible parking spot or drive closer to the venue.
+,5. Finite Horizons,Known Deadline,Professional / Hiring,Filling a critical temporary contract role before a hard project launch.
+,6. No-Recall Constraints,Irreversible Choices,Personal / Shopping,Buying a unique vintage item at a flea market before someone else does.
+,7. End-of-Life Buffers,Lifetime Discounting,Personal / Health,Choosing a medical treatment plan based on remaining life expectancy.
+,"8. ""The Typist's Dilemma""",Optimal Stopping Cost,Professional / Tech,Deciding when to stop correcting minor typos vs. finishing the draft.
+002: Explore vs. Exploit,9. Multi-Armed Bandit,Resource Allocation,Everyday / Dining,Choosing between your absolute favorite restaurant vs. trying a new spot.
+,10. Gittins Index,Dynamic Payoff Value,Professional / Creative,A freelance writer balancing reliable legacy clients against unproven leads.
+,11. Upper Confidence Bound,Optimism Under Uncertainty,Social / Community,Investing community funds into an untested youth program with huge upside.
+,12. Regret Minimization,Herbert Robbins Framework,Business / Marketing,Running an online ad campaign and splitting budget between winning vs. new ads.
+,13. Win-Stay / Lose-Shift,Simple Heuristics,Personal / Habits,"Sticking to a workout routine until it fails to deliver results, then pivoting."
+,14. Finite vs. Infinite Life,Horizon-Dependent Choices,Philosophical / Age,A retiree shifting from trying new hobbies to deeply mastering an old one.
+,15. Clinical Trial Ethics,Balance of Care / Learning,Professional / Medicine,Doctors choosing whether to give a new experimental drug to all patients.
+,"16. The ""A/B Testing"" Trap",Local Maxima,Business / Tech,Maximizing short-term clicks while accidentally destroying long-term brand trust.
+,17. Hyper-Exploration,Childhood/Infancy Stage,Social / Parenting,Understanding why a toddler destroys toys and constantly shifts focus.
+003: Sorting & Searching,18. Big-O Notation,Computational Complexity,Professional / Systems,Evaluating if an administrative filing system scales as a company grows.
+,19. Bubble Sort,O(n2) Comparison,Everyday / Chores,Sorting a messy pile of laundry by comparing items one by one.
+,20. Insertion Sort,On-the-fly Sorting,Creative / Art,Organizing a collection of books on a shelf as you buy them one by one.
+,21. Merge Sort,Divide and Conquer,Professional / Management,Managing a large team project by splitting the work into independent pods.
+,22. Search Costs,Retrieval vs. Storage,Personal / Workspace,Deciding whether to obsessively organize a desk or leave papers in a pile.
+,23. Linear Search,Unsorted Scanning,Everyday / Missing Items,"Finding a specific tool in a completely chaotic, unorganized garage toolbox."
+,24. Binary Search,Sorted Halving,Social / Networking,"Locating a name in a massive, alphabetized physical registration logbook."
+,25. Inversion Count,Measure of Messiness,Creative / Music,Rearranging a music playlist to restore its intended thematic flow.
+,26. Social Hierarchies,Sorting People,Philosophical / History,How ancient tracking of pecking orders reduced the physical cost of fighting.
+,27. Pre-Sorting Value,Upfront vs. Downstream Cost,Business / Logistics,Deciding if a warehouse should sort items on delivery or on shipping.
+004: Caching & Memory,28. Memory Hierarchy,Speed vs. Size Tradeoff,Professional / Workspace,"Organizing a writer's desk: sticky notes, filing cabinets, and basement archives."
+,29. Least Recently Used (LRU),Temporal Locality,Everyday / Wardrobe,The closet organization trick: hanging used clothes on the leftmost side.
+,30. Least Frequently Used (LFU),Frequency Counting,Creative / Tools,"Keeping a paintbrush because you use it often, even if not used recently."
+,31. Belady’s Anomaly,Cache Size Paradox,Professional / IT,Adding storage space to a system and accidentally making performance worse.
+,32. Random Eviction,Zero-Overhead Policy,Personal / Cleaning,Throwing away a random piece of clutter when a storage bin overflows.
+,33. Human Forgetting,Optimal Filter Theory,Philosophical / Mind,Reframing normal human forgetfulness as a feature to clear mental clutter.
+,34. Spatial Locality,Co-located Assets,Everyday / Kitchen,"Storing the salt, pepper, and cooking oil right next to the stove burner."
+,"35. ""Flashing the Cache""",Total State Reset,Personal / Burnout,Taking a radical digital detox weekend to reset your baseline focus.
+005: Scheduling,36. Earliest Due Date (EDD),Minimizing Max Lateness,Business / Freelance,A tax accountant managing client returns right before the April deadline.
+,37. Shortest Processing Time,Minimizing Flow Time,Everyday / Inbox,"Answering quick, 1-minute emails first to dramatically shrink your backlog."
+,38. Moore’s Algorithm,Strategic Task Drop,Professional / Engineering,Purposely abandoning a failing feature request to save the broader release.
+,39. Context Switching,Multi-tasking Penalty,Creative / Writing,An author getting interrupted by text messages every 10 minutes while writing.
+,40. Thread Thrashing,Complete Gridlock,Personal / Stress,Getting so overwhelmed by chores that you spend hours pacing instead of doing.
+,41. Interrupt Coalescing,Batching Disruptions,Professional / Corporate,"Setting a rule to only check slack/emails at 9 AM, 1 PM, and 4 PM."
+,42. Preemption,Dynamic Priority,Everyday / Medical,An urgent care clinic triaging a broken bone ahead of a routine checkup.
+,43. Weighted SPT,Value-Dense Priority,Business / Finance,Prioritizing client issues based on the financial contract size divided by fix time.
+,44. Lateness vs. Tardiness,Mathematical Distinction,Social / Event Planning,Understanding why being 5 minutes late to 10 meetings hurts trust more than 1 hour late to one.
+,45. Single-Core Constraints,Human Sequential Nature,Philosophical / Lifestyle,Accepting that humans cannot parallel-process deep creative work.
+006: Overfitting & Relaxation,46. Overfitting,Noise Tracking,Business / Strategy,A startup optimizing its product entirely around one highly vocal user.
+,47. Regularization,Penalty for Complexity,Creative / Design,A designer stripping away non-essential UI elements to keep a screen clean.
+,"48. ""Less-is-More"" Effect",Simple Heuristics,Everyday / Sports,A basketball player relying on muscle memory instead of overthinking mechanics.
+,49. Constraint Relaxation,Making Hard Problems Easy,Professional / Management,Easing a rigid budget limit temporarily to unlock a stuck project.
+,50. Continuous Relaxation,Fractional Approximations,Social / Group Travel,"Planning an itinerary by treating travel times as flexible blocks, not fixed minutes."
+,51. Cross-Validation,Out-of-Sample Testing,Business / Sales,Testing a sales pitch on an entirely new demographic before launching it.
+,"52. The ""Gradually, then Suddenly"" Shift",Phase Transitions,Philosophical / Systems,"How small changes in systemic friction lead to sudden, massive backlogs."
+,53. Occam’s Razor,Parsimony Principle,Professional / Science,Choosing the medical diagnosis that links all symptoms to one root cause.
+,54. Early Stopping,Over-training Prevention,Creative / Writing,Stopping a painting or novel draft before you over-edit and ruin the spark.
+007: Game Theory & Mechanism Design,55. Nash Equilibrium,Self-Enforcing Deadlock,Everyday / Driving,Drivers gridlocked at an intersection because no one wants to let others yield.
+,56. Dominant Strategy,Always Optimal Choice,Social / Etiquette,Choosing to dress formally for an event when the dress code is ambiguous.
+,57. Prisoner’s Dilemma,Collective Sabotage,Business / Marketing,Two competing stores launching massive discount wars that destroy both margins.
+,58. Mechanism Design,Rule-Setting,Social / Parenting,"Designing a chore splitting system: ""One sibling cuts the cake, the other chooses."""
+,59. Vickrey Auction,"Second-Price, Sealed-Bid",Professional / Tech,How automated online auction systems prevent users from bidding tracking snipers.
+,60. Tragedy of the Commons,Resource Depletion,Social / Community,A shared office refrigerator getting messy because cleaning is no one's job.
+,61. Information Asymmetry,Lemon Problem,Personal / Market,Buying a used car from a seller who knows significantly more about its flaws.
+,62. Evolutionary Stable Strategy,Behavioral Dynamics,Philosophical / Biology,Why aggressive vs. cooperative animal behaviors find an equilibrium in nature.
+,63. Incentive Alignment,Good Outsourcing,Business / Operations,Paying a home contractor a bonus based on completion speed and safety metrics.

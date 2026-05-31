@@ -10,7 +10,8 @@
       "Systemic stagnation."
     ],
     "answer": "Organizational thriving.",
-    "explanation": "Thriving occurs when a system successfully adapts to a challenge and emerges stronger, with new capacities that weren't present in the old way of operating."
+    "explanation": "Thriving occurs when a system successfully adapts to a challenge and emerges stronger, with new capacities that weren't present in the old way of operating.",
+    "difficulty": "easy"
   },
   {
     "question": "The DNA of Success",
@@ -23,7 +24,8 @@
       "Avoid the conflict of modernizing the business."
     ],
     "answer": "Conserve essential DNA while adapting the delivery model to thrive.",
-    "explanation": "Thriving requires distinguishing between what is 'essential' (the recipe and craft) and what is 'expendable' (the walk-in requirement) to ensure the business's survival in a new market."
+    "explanation": "Thriving requires distinguishing between what is 'essential' (the recipe and craft) and what is 'expendable' (the walk-in requirement) to ensure the business's survival in a new market.",
+    "difficulty": "easy"
   },
   {
     "question": "Building Adaptive Capacity",
@@ -36,7 +38,8 @@
       "It reduces the need for a balcony perspective."
     ],
     "answer": "It builds adaptive capacity by normalizing experimentation and reflection.",
-    "explanation": "Capacity is built when the tools of adaptation (observation and learning from failure) are integrated into the regular rhythm of the organization."
+    "explanation": "Capacity is built when the tools of adaptation (observation and learning from failure) are integrated into the regular rhythm of the organization.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of Innovation",
@@ -49,7 +52,8 @@
       "A default response to minimize executive responsibility."
     ],
     "answer": "Using an experimental mindset to find the path to thriving.",
-    "explanation": "Because the future is uncertain, thriving systems use 'diversification' and 'mini-pilots' to discover which innovations will actually succeed in the new landscape."
+    "explanation": "Because the future is uncertain, thriving systems use 'diversification' and 'mini-pilots' to discover which innovations will actually succeed in the new landscape.",
+    "difficulty": "easy"
   },
   {
     "question": "Sustaining the Work",
@@ -62,7 +66,8 @@
       "Let them return to silos if it makes them feel more comfortable."
     ],
     "answer": "Re-intervene to highlight the 'backsliding' and reconnect the team to the purpose of the change.",
-    "explanation": "Systems have 'memory' and will naturally gravity back toward the old status quo. Thriving requires constant vigilance to ensure the 'new DNA' sticks."
+    "explanation": "Systems have 'memory' and will naturally gravity back toward the old status quo. Thriving requires constant vigilance to ensure the 'new DNA' sticks.",
+    "difficulty": "easy"
   },
   {
     "question": "Empowering the 'Edges'",
@@ -75,7 +80,8 @@
       "Encouraging volunteers to bypass proper procedures."
     ],
     "answer": "Empowering the 'edges' to adapt quickly to community needs.",
-    "explanation": "By moving authority to where the 'data' is (the volunteers on the ground), the organization becomes more agile and better able to thrive in a fast-changing community environment."
+    "explanation": "By moving authority to where the 'data' is (the volunteers on the ground), the organization becomes more agile and better able to thrive in a fast-changing community environment.",
+    "difficulty": "medium"
   },
   {
     "question": "The Heart of the Leader",
@@ -88,7 +94,8 @@
       "A default response of risk-taking."
     ],
     "answer": "An internal sense of sanctuary and purpose that transcends your 'role.'",
-    "explanation": "Thriving requires the courage to fail. Leaders who have an internal 'sanctuary' (a sense of self-worth not tied to their title) are the only ones who can take the necessary risks to lead a system to a new level."
+    "explanation": "Thriving requires the courage to fail. Leaders who have an internal 'sanctuary' (a sense of self-worth not tied to their title) are the only ones who can take the necessary risks to lead a system to a new level.",
+    "difficulty": "medium"
   },
   {
     "question": "Distinguishing Growth from Throughput",
@@ -101,7 +108,8 @@
       "Successfully conserving their core DNA."
     ],
     "answer": "Exhibiting high throughput but failing to adapt their processes to grow.",
-    "explanation": "Working harder is a technical response to increased demand. Thriving would involve 'growing' a new, automated process so the team can handle the volume without burning out."
+    "explanation": "Working harder is a technical response to increased demand. Thriving would involve 'growing' a new, automated process so the team can handle the volume without burning out.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Holding Environment' for Thriving",
@@ -114,7 +122,8 @@
       "It serves as a work avoidance mechanism to distract from low profits."
     ],
     "answer": "It strengthens the holding environment for innovation by de-stigmatizing failure.",
-    "explanation": "Thriving requires learning. By celebrating the 'learning' that comes from failure, you create the psychological safety needed for people to experiment with new ways of working."
+    "explanation": "Thriving requires learning. By celebrating the 'learning' that comes from failure, you create the psychological safety needed for people to experiment with new ways of working.",
+    "difficulty": "medium"
   },
   {
     "question": "Purpose as the North Star",
@@ -127,6 +136,7 @@
       "A default response to avoid talking about salary cuts."
     ],
     "answer": "Using 'Purpose' to anchor the system and sustain the work of thriving.",
-    "explanation": "Purpose is the ultimate 'holding' mechanism. It gives people a 'why' that is powerful enough to help them endure the 'how' of difficult adaptive change."
+    "explanation": "Purpose is the ultimate 'holding' mechanism. It gives people a 'why' that is powerful enough to help them endure the 'how' of difficult adaptive change.",
+    "difficulty": "medium"
   }
 ]

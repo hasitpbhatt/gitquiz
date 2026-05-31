@@ -10,7 +10,8 @@
       "Why we need to return to pre-Enlightenment thinking"
     ],
     "answer": "How the Enlightenment launched unbounded progress through explanation",
-    "explanation": "Before the Enlightenment, knowledge growth was slow and episodic. Afterward, through institutions that encouraged criticism and explanation, progress became cumulative and potentially unlimited - each generation could build on the last's explanatory knowledge."
+    "explanation": "Before the Enlightenment, knowledge growth was slow and episodic. Afterward, through institutions that encouraged criticism and explanation, progress became cumulative and potentially unlimited - each generation could build on the last's explanatory knowledge.",
+    "difficulty": "medium"
   },
   {
     "question": "Infinity in Physics",
@@ -23,7 +24,8 @@
       "Why we should stop funding physics research"
     ],
     "answer": "How physics reveals endless frontiers of knowledge",
-    "explanation": "Each major physics discovery (relativity, quantum mechanics, cosmology) answered old questions but revealed deeper ones. This endless progression shows how the universe's explanatory depth appears unbounded - we're not approaching a finish line."
+    "explanation": "Each major physics discovery (relativity, quantum mechanics, cosmology) answered old questions but revealed deeper ones. This endless progression shows how the universe's explanatory depth appears unbounded - we're not approaching a finish line.",
+    "difficulty": "medium"
   },
   {
     "question": "Virtual Reality and Knowledge",
@@ -36,7 +38,8 @@
       "Why we should trust our senses over our theories"
     ],
     "answer": "That our experience is shaped by our explanations, not just sensory input",
-    "explanation": "In VR, identical sensory input can feel like flying, falling, or standing still based on what you believe you're experiencing. This shows that our conscious experience depends on the explanations we construct to interpret sensory data - not the data alone."
+    "explanation": "In VR, identical sensory input can feel like flying, falling, or standing still based on what you believe you're experiencing. This shows that our conscious experience depends on the explanations we construct to interpret sensory data - not the data alone.",
+    "difficulty": "medium"
   },
   {
     "question": "Cosmological Potential",
@@ -49,7 +52,8 @@
       "Why space exploration is a waste"
     ],
     "answer": "How knowledge growth enables cosmic-scale engineering",
-    "explanation": "The Wright brothers to SpaceX in ~120 years shows how rapidly knowledge can grow. Extrapolating this growth rate suggests that with continued progress, humanity could gain the knowledge to engineer at planetary or even stellar scales within millennia."
+    "explanation": "The Wright brothers to SpaceX in ~120 years shows how rapidly knowledge can grow. Extrapolating this growth rate suggests that with continued progress, humanity could gain the knowledge to engineer at planetary or even stellar scales within millennia.",
+    "difficulty": "hard"
   },
   {
     "question": "AI and Knowledge Creation",
@@ -62,7 +66,8 @@
       "Why we should not develop AI at all"
     ],
     "answer": "The question of whether AI can create genuinely new explanations",
-    "explanation": "Current AI excels at pattern recognition and recombining existing knowledge but shows no evidence of creating deep, novel explanations like Einstein's relativity. Whether AI can achieve true explanatory creativity remains an open question crucial to its potential role in knowledge growth."
+    "explanation": "Current AI excels at pattern recognition and recombining existing knowledge but shows no evidence of creating deep, novel explanations like Einstein's relativity. Whether AI can achieve true explanatory creativity remains an open question crucial to its potential role in knowledge growth.",
+    "difficulty": "hard"
   },
   {
     "question": "The Problem of Sustainability",
@@ -75,7 +80,8 @@
       "Why technology always makes problems worse"
     ],
     "answer": "How knowledge creates substitutes and improves efficiency",
-    "explanation": "When whale oil became scarce, knowledge gave us petroleum and later electricity. Knowledge doesn't just use existing resources better - it creates entirely new resources and radically improves efficiency, allowing continued growth despite apparent limits."
+    "explanation": "When whale oil became scarce, knowledge gave us petroleum and later electricity. Knowledge doesn't just use existing resources better - it creates entirely new resources and radically improves efficiency, allowing continued growth despite apparent limits.",
+    "difficulty": "hard"
   },
   {
     "question": "The Ultimate Reach",
@@ -88,7 +94,8 @@
       "Why understanding is actually impossible"
     ],
     "answer": "Whether the reach of rational explanation is actually unbounded",
-    "explanation": "Deutsch argues there's no known barrier to applying explanatory methods to any domain - from physics to consciousness to ethics. Whether this reach is truly infinite remains to be seen, but there's no evidence of fundamental limits in principle."
+    "explanation": "Deutsch argues there's no known barrier to applying explanatory methods to any domain - from physics to consciousness to ethics. Whether this reach is truly infinite remains to be seen, but there's no evidence of fundamental limits in principle.",
+    "difficulty": "hard"
   },
   {
     "question": "Infinity in the Details",
@@ -101,7 +108,8 @@
       "Why detailed study is a waste of time"
     ],
     "answer": "How small investigations can unlock vast knowledge",
-    "explanation": "Antonie van Leeuwenhoek's meticulous observation of pond scum revealed a whole microscopic world. This seemingly trivial investigation founded microbiology - showing how deep examination of small details can yield principles with enormous reach and application."
+    "explanation": "Antonie van Leeuwenhoek's meticulous observation of pond scum revealed a whole microscopic world. This seemingly trivial investigation founded microbiology - showing how deep examination of small details can yield principles with enormous reach and application.",
+    "difficulty": "hard"
   },
   {
     "question": "Optimism vs. Pessimism",
@@ -114,6 +122,7 @@
       "Why knowledge doesn't help solve problems"
     ],
     "answer": "How optimism sees problems as knowledge gaps, not impossibilities",
-    "explanation": "Pessimism looks at unsolved problems and concludes they're inherently unsolvable. Optimism (as Deutsch defines it) sees them as gaps in our current knowledge - challenges to be overcome through better explanations, not signs of fundamental limits or impossibility."
+    "explanation": "Pessimism looks at unsolved problems and concludes they're inherently unsolvable. Optimism (as Deutsch defines it) sees them as gaps in our current knowledge - challenges to be overcome through better explanations, not signs of fundamental limits or impossibility.",
+    "difficulty": "hard"
   }
 ]

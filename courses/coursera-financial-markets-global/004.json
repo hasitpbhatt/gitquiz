@@ -10,7 +10,8 @@
       "A variable amount based on stock market performance"
     ],
     "answer": "$30.00 in interest",
-    "explanation": "The coupon payment is calculated as the interest rate times the face value ($1,000 × 0.03 = $30). This payment is typically fixed regardless of market conditions."
+    "explanation": "The coupon payment is calculated as the interest rate times the face value ($1,000 × 0.03 = $30). This payment is typically fixed regardless of market conditions.",
+    "difficulty": "easy"
   },
   {
     "question": "Interest Rates and Bond Prices",
@@ -23,7 +24,8 @@
       "The price will drop to zero"
     ],
     "answer": "The price will decrease",
-    "explanation": "No one will pay full price for a 2% bond when they can buy a new one at 5%. To find a buyer, you must lower your price until the effective return for the buyer matches the new 5% market rate."
+    "explanation": "No one will pay full price for a 2% bond when they can buy a new one at 5%. To find a buyer, you must lower your price until the effective return for the buyer matches the new 5% market rate.",
+    "difficulty": "easy"
   },
   {
     "question": "The Concept of Present Value",
@@ -36,7 +38,8 @@
       "There is no difference in value"
     ],
     "answer": "Because the $1,000 today can be invested to grow into a larger sum over those 5 years",
-    "explanation": "This is the core of the Time Value of Money. By taking the money today and earning interest, you will end up with more than $1,000 in five years."
+    "explanation": "This is the core of the Time Value of Money. By taking the money today and earning interest, you will end up with more than $1,000 in five years.",
+    "difficulty": "easy"
   },
   {
     "question": "Credit Risk and Default",
@@ -49,7 +52,8 @@
       "The government uses its own bank to set its own rates"
     ],
     "answer": "The startup has a higher risk of going bankrupt and defaulting on the loan",
-    "explanation": "Lenders require a 'risk premium' to compensate for the chance that the startup might fail. The U.S. government is considered to have the lowest default risk, hence it pays lower rates."
+    "explanation": "Lenders require a 'risk premium' to compensate for the chance that the startup might fail. The U.S. government is considered to have the lowest default risk, hence it pays lower rates.",
+    "difficulty": "easy"
   },
   {
     "question": "Compound Interest",
@@ -62,7 +66,8 @@
       "Because inflation increased the value of the dollar"
     ],
     "answer": "Because in year two, you earned $10 on your original $100 plus $1 on the interest from year one",
-    "explanation": "This is compounding in action. Each year, your interest is calculated based on the new, higher balance, causing your wealth to accelerate over time."
+    "explanation": "This is compounding in action. Each year, your interest is calculated based on the new, higher balance, causing your wealth to accelerate over time.",
+    "difficulty": "easy"
   },
   {
     "question": "Inflation and Real vs. Nominal Returns",
@@ -75,7 +80,8 @@
       "It stayed exactly the same"
     ],
     "answer": "It decreased by 1%",
-    "explanation": "Even though you have 5% more money, prices went up by 6%. Your 'Real' return is approximately -1%, meaning you can actually buy less than you could at the start of the year."
+    "explanation": "Even though you have 5% more money, prices went up by 6%. Your 'Real' return is approximately -1%, meaning you can actually buy less than you could at the start of the year.",
+    "difficulty": "easy"
   },
   {
     "question": "The Yield Curve",
@@ -88,7 +94,8 @@
       "To encourage people to retire earlier"
     ],
     "answer": "To compensate investors for the increased risk of inflation and uncertainty over a longer time horizon",
-    "explanation": "More can go wrong in 30 years than in 2 years. Investors require a 'term premium' to offset the risks of inflation and interest rate changes over three decades."
+    "explanation": "More can go wrong in 30 years than in 2 years. Investors require a 'term premium' to offset the risks of inflation and interest rate changes over three decades.",
+    "difficulty": "easy"
   },
   {
     "question": "Zero-Coupon Bonds",
@@ -101,7 +108,8 @@
       "An Amortizing Loan"
     ],
     "answer": "A Zero-Coupon Bond",
-    "explanation": "Zero-coupon bonds 'roll up' all the interest into a single payment at the end. Your 'interest' is the $200 profit you make when the bond matures."
+    "explanation": "Zero-coupon bonds 'roll up' all the interest into a single payment at the end. Your 'interest' is the $200 profit you make when the bond matures.",
+    "difficulty": "medium"
   },
   {
     "question": "Callable Bonds",
@@ -114,7 +122,8 @@
       "Increase the face value of the bonds"
     ],
     "answer": "Call the bonds (pay them back early) and issue new debt at 4%",
-    "explanation": "Just like a homeowner refinances a mortgage when rates drop, a company uses the 'call' feature to reduce its interest expenses."
+    "explanation": "Just like a homeowner refinances a mortgage when rates drop, a company uses the 'call' feature to reduce its interest expenses.",
+    "difficulty": "medium"
   },
   {
     "question": "The Role of Credit Rating Agencies",
@@ -127,6 +136,7 @@
       "The interest rate the company pays will automatically decrease"
     ],
     "answer": "Its price will fall as investors demand a much higher yield to hold the riskier debt",
-    "explanation": "A downgrade signals higher risk. Investors will sell the bond, driving the price down until the yield is high enough to compensate for the increased danger of default."
+    "explanation": "A downgrade signals higher risk. Investors will sell the bond, driving the price down until the yield is high enough to compensate for the increased danger of default.",
+    "difficulty": "medium"
   }
 ]

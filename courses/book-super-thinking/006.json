@@ -10,7 +10,8 @@
       "No change in tea market"
     ],
     "answer": "Demand for tea increases",
-    "explanation": "When coffee (a substitute for tea) becomes more expensive, consumers switch to tea, increasing demand for tea. This is the substitution effect in microeconomics."
+    "explanation": "When coffee (a substitute for tea) becomes more expensive, consumers switch to tea, increasing demand for tea. This is the substitution effect in microeconomics.",
+    "difficulty": "easy"
   },
   {
     "question": "Supply and Demand",
@@ -23,7 +24,8 @@
       "Both price and quantity decrease"
     ],
     "answer": "Price decreases, quantity increases",
-    "explanation": "Cheaper production increases supply (supply curve shifts right). With demand constant, this lowers equilibrium price and increases equilibrium quantity."
+    "explanation": "Cheaper production increases supply (supply curve shifts right). With demand constant, this lowers equilibrium price and increases equilibrium quantity.",
+    "difficulty": "easy"
   },
   {
     "question": "Opportunity Cost",
@@ -36,7 +38,8 @@
       "$250"
     ],
     "answer": "$150",
-    "explanation": "Opportunity cost is the profit from the next best alternative forgone. By choosing wheat ($100 profit), the farmer gives up the opportunity to earn $150 from corn."
+    "explanation": "Opportunity cost is the profit from the next best alternative forgone. By choosing wheat ($100 profit), the farmer gives up the opportunity to earn $150 from corn.",
+    "difficulty": "easy"
   },
   {
     "question": "Comparative Advantage",
@@ -49,7 +52,8 @@
       "Neither has advantage"
     ],
     "answer": "Country A",
-    "explanation": "Country A's opportunity cost of producing 1 truck is 0.5 cars (10 cars/20 trucks). Country B's opportunity cost of producing 1 truck is 1 car (6 cars/6 trucks). Since 0.5 < 1, Country A has lower opportunity cost for truck production and thus comparative advantage in trucks."
+    "explanation": "Country A's opportunity cost of producing 1 truck is 0.5 cars (10 cars/20 trucks). Country B's opportunity cost of producing 1 truck is 1 car (6 cars/6 trucks). Since 0.5 < 1, Country A has lower opportunity cost for truck production and thus comparative advantage in trucks.",
+    "difficulty": "medium"
   },
   {
     "question": "Incentives",
@@ -62,7 +66,8 @@
       "Requiring companies to have lunch breaks at different times"
     ],
     "answer": "Implementing congestion pricing during peak hours",
-    "explanation": "Congestion pricing creates a financial incentive to drive less during peak hours or use alternative transportation, directly influencing behavior through cost."
+    "explanation": "Congestion pricing creates a financial incentive to drive less during peak hours or use alternative transportation, directly influencing behavior through cost.",
+    "difficulty": "medium"
   },
   {
     "question": "Tragedy of the Commons",
@@ -75,7 +80,8 @@
       "Fishermen automatically cooperate to limit catches"
     ],
     "answer": "The fish population collapses from overfishing",
-    "explanation": "Without regulation, each fisherman benefits from catching more fish, but the shared resource gets depleted. Individual rationality leads to collective ruin - the tragedy of the commons."
+    "explanation": "Without regulation, each fisherman benefits from catching more fish, but the shared resource gets depleted. Individual rationality leads to collective ruin - the tragedy of the commons.",
+    "difficulty": "medium"
   },
   {
     "question": "Network Effects",
@@ -88,7 +94,8 @@
       "They prefer worse user experience"
     ],
     "answer": "The less-featured network has network effects - it's valuable because friends are there",
-    "explanation": "Network effects mean the value of a network increases with the number of users. Even inferior technology can dominate if it achieves critical mass first (e.g., QWERTY keyboard)."
+    "explanation": "Network effects mean the value of a network increases with the number of users. Even inferior technology can dominate if it achieves critical mass first (e.g., QWERTY keyboard).",
+    "difficulty": "medium"
   },
   {
     "question": "Externalities",
@@ -101,7 +108,8 @@
       "Pollution increases the factory's productivity"
     ],
     "answer": "Fishermen downstream suffer losses without compensation",
-    "explanation": "The factory's pollution imposes costs (cleanup, lost fishing income) on downstream fishermen who neither agreed to nor receive compensation for these harms - a classic negative externality."
+    "explanation": "The factory's pollution imposes costs (cleanup, lost fishing income) on downstream fishermen who neither agreed to nor receive compensation for these harms - a classic negative externality.",
+    "difficulty": "medium"
   },
   {
     "question": "Arbitrage",
@@ -114,6 +122,7 @@
       "Buy gold in both cities"
     ],
     "answer": "Buy gold in New York and sell in London",
-    "explanation": "Buy low in New York ($1,800), sell high in London ($1,820), profit $20/ounce minus transaction costs. This activity pushes New York price up and London price down toward equilibrium."
+    "explanation": "Buy low in New York ($1,800), sell high in London ($1,820), profit $20/ounce minus transaction costs. This activity pushes New York price up and London price down toward equilibrium.",
+    "difficulty": "medium"
   }
 ]

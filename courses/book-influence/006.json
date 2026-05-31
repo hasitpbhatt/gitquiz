@@ -10,7 +10,8 @@
       "The price is actually the lowest available"
     ],
     "answer": "Scarcity increases perceived value through loss aversion",
-    "explanation": "Limited availability triggers fear of missing out (FOMO), making the opportunity seem more valuable and urgent than if it were abundantly available."
+    "explanation": "Limited availability triggers fear of missing out (FOMO), making the opportunity seem more valuable and urgent than if it were abundantly available.",
+    "difficulty": "medium"
   },
   {
     "question": "Scarcity Through Time Limits",
@@ -23,7 +24,8 @@
       "The advertisement shows actual inventory counts"
     ],
     "answer": "Time limits create urgency through scarcity of opportunity",
-    "explanation": "Deadlines make opportunities scarce in time, increasing perceived value and motivating immediate action to avoid losing the chance."
+    "explanation": "Deadlines make opportunities scarce in time, increasing perceived value and motivating immediate action to avoid losing the chance.",
+    "difficulty": "medium"
   },
   {
     "question": "Scarcity Through Quantity Limits",
@@ -36,7 +38,8 @@
       "The item comes with a certificate of authenticity"
     ],
     "answer": "Quantity scarcity increases fear of missing out",
-    "explanation": "When something is rare or limited in quantity, we worry that others will acquire it before we can, increasing its perceived value and urgency."
+    "explanation": "When something is rare or limited in quantity, we worry that others will acquire it before we can, increasing its perceived value and urgency.",
+    "difficulty": "medium"
   },
   {
     "question": "Reactance or Scarcity?",
@@ -49,7 +52,8 @@
       "Commitment — viewers had planned to watch it eventually"
     ],
     "answer": "Scarcity — the show will soon be unavailable on this specific platform",
-    "explanation": "This is scarcity, not reactance. The show is still available everywhere else — only access through this platform is time-limited. Reactance would involve a threat to the freedom to watch the show at all (e.g., government banning it). Scarcity creates urgency ('limited time'), while reactance creates defiance ('you cannot tell me what to do')."
+    "explanation": "This is scarcity, not reactance. The show is still available everywhere else — only access through this platform is time-limited. Reactance would involve a threat to the freedom to watch the show at all (e.g., government banning it). Scarcity creates urgency ('limited time'), while reactance creates defiance ('you cannot tell me what to do').",
+    "difficulty": "medium"
   },
   {
     "question": "Scarcity Through Competition",
@@ -62,7 +66,8 @@
       "They verified the painting's authenticity during bidding"
     ],
     "answer": "Competition for scarcity increases desire to win",
-    "explanation": "Seeing others compete for a scarce item increases its perceived value through social proof and the fear of losing in competition, driving bids higher."
+    "explanation": "Seeing others compete for a scarce item increases its perceived value through social proof and the fear of losing in competition, driving bids higher.",
+    "difficulty": "medium"
   },
   {
     "question": "Psychological Reactance",
@@ -75,7 +80,8 @@
       "Thanks the parent for looking out for them"
     ],
     "answer": "May actually increase contact with the friend to regain freedom",
-    "explanation": "Psychological reactance causes people to want to restore threatened freedoms, sometimes leading to increased engagement with the restricted behavior."
+    "explanation": "Psychological reactance causes people to want to restore threatened freedoms, sometimes leading to increased engagement with the restricted behavior.",
+    "difficulty": "medium"
   },
   {
     "question": "Scarcity in Sales Tactics",
@@ -88,7 +94,8 @@
       "The merchandise is actually higher quality"
     ],
     "answer": "Scarcity of future access increases current purchasing urge",
-    "explanation": "The implied scarcity of future access to the store (if it closes) motivates purchases now to avoid missing out completely."
+    "explanation": "The implied scarcity of future access to the store (if it closes) motivates purchases now to avoid missing out completely.",
+    "difficulty": "hard"
   },
   {
     "question": "Love or Reactance?",
@@ -101,6 +108,7 @@
       "Scarcity — the parents may try to limit future access to the partner"
     ],
     "answer": "Reactance — the opposition threatens their freedom to choose their own partner",
-    "explanation": "While effort justification and forbidden fruit appeal may contribute, empirical research supports reactance as the primary mechanism. When people feel their freedom to choose a partner is threatened, they experience psychological reactance that intensifies determination to exercise that freedom. This is distinct from effort justification because the intensification occurs when opposition first appears, not after overcoming obstacles."
+    "explanation": "While effort justification and forbidden fruit appeal may contribute, empirical research supports reactance as the primary mechanism. When people feel their freedom to choose a partner is threatened, they experience psychological reactance that intensifies determination to exercise that freedom. This is distinct from effort justification because the intensification occurs when opposition first appears, not after overcoming obstacles.",
+    "difficulty": "hard"
   }
 ]

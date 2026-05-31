@@ -10,7 +10,8 @@
       "To gather technical data on the specific reasons for the delay."
     ],
     "answer": "To perform an intervention that disrupts the work avoidance and tests the team's reaction.",
-    "explanation": "An intervention isn't just about 'saying something.' It’s a strategic move to disrupt the status quo and see how the system responds to a difficult truth."
+    "explanation": "An intervention isn't just about 'saying something.' It’s a strategic move to disrupt the status quo and see how the system responds to a difficult truth.",
+    "difficulty": "easy"
   },
   {
     "question": "Getting onto the Playing Field",
@@ -23,7 +24,8 @@
       "It proves that you are a neutral party who doesn't care about the outcome."
     ],
     "answer": "It brings the intervention to a more personal, 'holding' level where you can test the relationship dynamic.",
-    "explanation": "Intervening on the 'dance floor' means engaging directly with the stakeholders. A private lunch creates a smaller, more controlled holding environment for a difficult conversation."
+    "explanation": "Intervening on the 'dance floor' means engaging directly with the stakeholders. A private lunch creates a smaller, more controlled holding environment for a difficult conversation.",
+    "difficulty": "easy"
   },
   {
     "question": "Integrating the Observations",
@@ -36,7 +38,8 @@
       "Regulating the heat."
     ],
     "answer": "Integrating observations and self-diagnosis.",
-    "explanation": "By checking your own 'tuning' (the anger) against the 'balcony view' (the project needs), you ensure your intervention is clean, purposeful, and leadership-oriented."
+    "explanation": "By checking your own 'tuning' (the anger) against the 'balcony view' (the project needs), you ensure your intervention is clean, purposeful, and leadership-oriented.",
+    "difficulty": "easy"
   },
   {
     "question": "Acting Experimentally",
@@ -49,7 +52,8 @@
       "Assume the team is lazy and doesn't care about the company's growth."
     ],
     "answer": "Treat the lack of response as data and try a different method, like 'walking the floor' instead.",
-    "explanation": "In an experiment, a 'null' result is still a result. It tells you that the 'open-door' method didn't lower the barrier to communication, prompting a new hypothesis."
+    "explanation": "In an experiment, a 'null' result is still a result. It tells you that the 'open-door' method didn't lower the barrier to communication, prompting a new hypothesis.",
+    "difficulty": "easy"
   },
   {
     "question": "Varying the 'Heat'",
@@ -62,7 +66,8 @@
       "A silent intervention to see if they can figure it out on their own."
     ],
     "answer": "An intervention that provides clear direction and calm reassurance to lower the heat.",
-    "explanation": "When the system is 'boiling' with panic, the leader must intervene to lower the disequilibrium so people can return to a productive state."
+    "explanation": "When the system is 'boiling' with panic, the leader must intervene to lower the disequilibrium so people can return to a productive state.",
+    "difficulty": "easy"
   },
   {
     "question": "Giving the Work Back",
@@ -75,7 +80,8 @@
       "A default response to minimize your own workload."
     ],
     "answer": "An intervention designed to give the work back.",
-    "explanation": "By refusing to solve the problem for them, you are intervening to stop their 'work avoidance' (expecting the boss to fix it) and requiring them to adapt."
+    "explanation": "By refusing to solve the problem for them, you are intervening to stop their 'work avoidance' (expecting the boss to fix it) and requiring them to adapt.",
+    "difficulty": "easy"
   },
   {
     "question": "Protecting Voices from the Margin",
@@ -88,7 +94,8 @@
       "Practicing technical risk management."
     ],
     "answer": "Protecting a voice from the margin to ensure the system hears a difficult truth.",
-    "explanation": "Adaptive leaders protect those who speak 'the unspeakable.' This intervention ensures that the 'heat' is directed toward the real problem rather than being used to silence dissent."
+    "explanation": "Adaptive leaders protect those who speak 'the unspeakable.' This intervention ensures that the 'heat' is directed toward the real problem rather than being used to silence dissent.",
+    "difficulty": "easy"
   },
   {
     "question": "Framing the Challenge",
@@ -101,7 +108,8 @@
       "Avoid announcing it and hope people don't notice."
     ],
     "answer": "Explain that this difficult cut is necessary to protect the center's core mission of serving the most vulnerable families.",
-    "explanation": "Effective framing acknowledges the loss while highlighting the 'purpose' behind it. It helps people move through the grief of change by showing them what is being protected."
+    "explanation": "Effective framing acknowledges the loss while highlighting the 'purpose' behind it. It helps people move through the grief of change by showing them what is being protected.",
+    "difficulty": "medium"
   },
   {
     "question": "Holding the Tension",
@@ -114,7 +122,8 @@
       "Apologize for the difficult question and move to the next item on the agenda."
     ],
     "answer": "Wait and let the silence 'do the work' of forcing the group to reflect.",
-    "explanation": "Silence is an intervention in itself. By 'holding' it, you keep the heat in the room and prevent the group from escaping into comfortable conversation."
+    "explanation": "Silence is an intervention in itself. By 'holding' it, you keep the heat in the room and prevent the group from escaping into comfortable conversation.",
+    "difficulty": "medium"
   },
   {
     "question": "Leading with an 'Open Heart'",
@@ -127,6 +136,7 @@
       "Work avoidance, because you should be focusing on the goals, not the feelings."
     ],
     "answer": "An intervention aimed at maintaining the holding environment through empathy.",
-    "explanation": "Leading with an open heart keeps you connected to the system. It ensures that your interventions feel like 'shared work' rather than 'attacks from the top.'"
+    "explanation": "Leading with an open heart keeps you connected to the system. It ensures that your interventions feel like 'shared work' rather than 'attacks from the top.'",
+    "difficulty": "medium"
   }
 ]

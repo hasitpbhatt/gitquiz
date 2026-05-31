@@ -10,15 +10,22 @@
       "Because diversification only works in a bull market"
     ],
     "answer": "Because the oil shortage is a Systematic Risk that affects the entire economy",
-    "explanation": "Diversification eliminates idiosyncratic risk, but it cannot protect against market risk that impacts all sectors simultaneously."
+    "explanation": "Diversification eliminates idiosyncratic risk, but it cannot protect against market risk that impacts all sectors simultaneously.",
+    "difficulty": "medium"
   },
   {
     "question": "The Meaning of Beta (β)",
     "content": "Beta measures a stock's volatility in relation to the overall market. A Beta of 1.0 means the stock moves exactly with the market. A Beta higher than 1.0 is more volatile, and a Beta lower than 1.0 is less volatile.",
     "description": "If the S&P 500 rises by 10%, and a specific High-Beta stock with a Beta of 2.0 moves as expected, how much should that stock's price increase?",
-    "options": ["5%", "10%", "20%", "2%"],
+    "options": [
+      "5%",
+      "10%",
+      "20%",
+      "2%"
+    ],
     "answer": "20%",
-    "explanation": "A Beta of 2.0 means the stock is twice as sensitive to market movements. If the market goes up 10 percent, the stock is expected to move 20 percent."
+    "explanation": "A Beta of 2.0 means the stock is twice as sensitive to market movements. If the market goes up 10 percent, the stock is expected to move 20 percent.",
+    "difficulty": "medium"
   },
   {
     "question": "The Capital Asset Pricing Model (CAPM)",
@@ -31,23 +38,36 @@
       "An infinite return"
     ],
     "answer": "The Risk-Free Rate (e.g., the return on a Treasury Bond)",
-    "explanation": "If there is no market risk, the formula calculates that the investor should only earn the Risk-Free Rate."
+    "explanation": "If there is no market risk, the formula calculates that the investor should only earn the Risk-Free Rate.",
+    "difficulty": "medium"
   },
   {
     "question": "The Efficient Frontier",
     "content": "The Efficient Frontier is a set of optimal portfolios that offer the highest expected return for a defined level of risk.",
     "description": "You are comparing two portfolios. Both have a risk level of 15%. Portfolio A returns 8%, and Portfolio B returns 12%. Which one sits on the Efficient Frontier?",
-    "options": ["Portfolio A", "Portfolio B", "Both", "Neither"],
+    "options": [
+      "Portfolio A",
+      "Portfolio B",
+      "Both",
+      "Neither"
+    ],
     "answer": "Portfolio B",
-    "explanation": "On the Efficient Frontier, you always choose the maximum return for a specific level of risk. Portfolio B yields more than Portfolio A for the same volatility."
+    "explanation": "On the Efficient Frontier, you always choose the maximum return for a specific level of risk. Portfolio B yields more than Portfolio A for the same volatility.",
+    "difficulty": "hard"
   },
   {
     "question": "The Sharpe Ratio",
     "content": "The Sharpe Ratio measures the performance of an investment compared to a risk-free asset, after adjusting for its risk.",
     "description": "Portfolio X and Portfolio Y both earned 10% last year. However, Portfolio X was very steady, while Portfolio Y swung wildly. Which portfolio has a higher Sharpe Ratio?",
-    "options": ["Portfolio X", "Portfolio Y", "They are equal", "The Sharpe Ratio cannot be calculated"],
+    "options": [
+      "Portfolio X",
+      "Portfolio Y",
+      "They are equal",
+      "The Sharpe Ratio cannot be calculated"
+    ],
     "answer": "Portfolio X",
-    "explanation": "The Sharpe Ratio rewards smooth returns. Since Portfolio X achieved the same return with less volatility, its risk-adjusted return is superior."
+    "explanation": "The Sharpe Ratio rewards smooth returns. Since Portfolio X achieved the same return with less volatility, its risk-adjusted return is superior.",
+    "difficulty": "hard"
   },
   {
     "question": "Passive vs. Active Management",
@@ -60,7 +80,8 @@
       "The manager should have traded more frequently"
     ],
     "answer": "Fees and market efficiency make it very difficult for active managers to provide value over the long term",
-    "explanation": "In an efficient market, it is hard to find mispriced stocks. High fees make it even harder to beat a simple index fund."
+    "explanation": "In an efficient market, it is hard to find mispriced stocks. High fees make it even harder to beat a simple index fund.",
+    "difficulty": "hard"
   },
   {
     "question": "Rebalancing a Portfolio",
@@ -73,15 +94,22 @@
       "To make sure you never make a profit"
     ],
     "answer": "To prevent your portfolio from becoming much riskier than you originally intended",
-    "explanation": "If you don't rebalance, the risky part of your portfolio grows as a percentage of your wealth, increasing your exposure to a crash."
+    "explanation": "If you don't rebalance, the risky part of your portfolio grows as a percentage of your wealth, increasing your exposure to a crash.",
+    "difficulty": "hard"
   },
   {
     "question": "The Equity Risk Premium",
     "content": "The Equity Risk Premium is the extra return that investors demand for shifting their money from safe government bonds to risky stocks.",
     "description": "If a safe government bond pays 3% and the stock market is expected to return 8%, what is the Equity Risk Premium?",
-    "options": ["11%", "8%", "5%", "3%"],
+    "options": [
+      "11%",
+      "8%",
+      "5%",
+      "3%"
+    ],
     "answer": "5%",
-    "explanation": "The premium is the difference between the risky return and the risk-free return. In this case, 8 percent minus 3 percent equals 5 percent."
+    "explanation": "The premium is the difference between the risky return and the risk-free return. In this case, 8 percent minus 3 percent equals 5 percent.",
+    "difficulty": "hard"
   },
   {
     "question": "The Role of Asset Allocation",
@@ -93,8 +121,9 @@
       "The specific day of the week they choose to invest",
       "Which bank they use for their checking account"
     ],
-    "answer": "The overall percentage of their savings they keep in stocks versus a savings account",
-    "explanation": "Asset Allocation drives about 90 percent of a portfolio's return variability over long periods."
+    "answer": "The overall percentage of savings kept in stocks versus a savings account",
+    "explanation": "Asset Allocation drives about 90 percent of a portfolio's return variability over long periods.",
+    "difficulty": "hard"
   },
   {
     "question": "Market Timing vs. Time in the Market",
@@ -106,7 +135,8 @@
       "Their returns will be exactly the same",
       "The bank will give them a bonus"
     ],
-    "answer": "They will likely have significantly less money because the best days often happen right after the worst days",
-    "explanation": "Missing just a few top-performing days can ruin annual gains, making stay the course a statistically superior strategy."
+    "answer": "They will likely have significantly less money",
+    "explanation": "Missing just a few top-performing days can ruin annual gains, making stay the course a statistically superior strategy.",
+    "difficulty": "hard"
   }
 ]

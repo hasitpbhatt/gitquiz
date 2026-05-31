@@ -10,7 +10,8 @@
       "Work on all returns simultaneously"
     ],
     "answer": "Work on the returns with the earliest deadlines first, regardless of how long they take to complete",
-    "explanation": "EDD minimizes maximum lateness by always working on the most urgent task (closest deadline). This ensures you\\'re least likely to miss any deadlines, even if some tasks take longer than expected."
+    "explanation": "EDD minimizes maximum lateness by always working on the most urgent task (closest deadline). This ensures you\\'re least likely to miss any deadlines, even if some tasks take longer than expected.",
+    "difficulty": "easy"
   },
   {
     "question": "Shortest Processing Time (SPT)",
@@ -23,7 +24,8 @@
       "Reply to every email with a lengthy response"
     ],
     "answer": "Answer all emails that take less than 1 minute first, then tackle longer emails",
-    "explanation": "SPT minimizes average completion time by clearing quick tasks first. This gives rapid psychological wins and reduces the number of pending items quickly, making your inbox feel more manageable."
+    "explanation": "SPT minimizes average completion time by clearing quick tasks first. This gives rapid psychological wins and reduces the number of pending items quickly, making your inbox feel more manageable.",
+    "difficulty": "medium"
   },
   {
     "question": "Moore\\'s Algorithm",
@@ -36,7 +38,8 @@
       "Ignore the deadline and take as long as needed"
     ],
     "answer": "Identify the feature that will take longest to complete and consider dropping it to save the broader release",
-    "explanation": "Moore\\'s Algorithm minimizes the number of late tasks by being willing to skip (not complete) certain tasks. When facing overload, it\\'s better to finish most tasks on time than to complete all tasks late."
+    "explanation": "Moore\\'s Algorithm minimizes the number of late tasks by being willing to skip (not complete) certain tasks. When facing overload, it\\'s better to finish most tasks on time than to complete all tasks late.",
+    "difficulty": "medium"
   },
   {
     "question": "Context Switching",
@@ -49,7 +52,8 @@
       "You don\\'t notice any difference in your writing quality"
     ],
     "answer": "Your writing flow is disrupted and you lose time refocusing after each interruption",
-    "explanation": "Each context switch requires mental effort to disengage from the current task and re-engage with the new one. Frequent switching prevents deep focus and significantly reduces productive writing time."
+    "explanation": "Each context switch requires mental effort to disengage from the current task and re-engage with the new one. Frequent switching prevents deep focus and significantly reduces productive writing time.",
+    "difficulty": "medium"
   },
   {
     "question": "Thread Thrashing",
@@ -62,7 +66,8 @@
       "You have too much free time on weekends"
     ],
     "answer": "Thread thrashing - excessive time spent on decision-making and task-switching rather than execution",
-    "explanation": "Just like in computing systems, when you spend more time organizing, deciding, and switching between tasks than actually doing them, you\\'re experiencing thrashing - the overhead outweighs the productive work."
+    "explanation": "Just like in computing systems, when you spend more time organizing, deciding, and switching between tasks than actually doing them, you\\'re experiencing thrashing - the overhead outweighs the productive work.",
+    "difficulty": "medium"
   },
   {
     "question": "Interrupt Coalescing",
@@ -75,7 +80,8 @@
       "Quit your job to avoid all workplace communication"
     ],
     "answer": "Set specific times to check messages (e.g., 9 AM, 1 PM, and 4 PM) and batch your responses",
-    "explanation": "By scheduling specific times to process interruptions, you reduce the frequency of context switches. This allows for longer periods of focused work between batches of communication handling."
+    "explanation": "By scheduling specific times to process interruptions, you reduce the frequency of context switches. This allows for longer periods of focused work between batches of communication handling.",
+    "difficulty": "medium"
   },
   {
     "question": "Preemption",
@@ -88,7 +94,8 @@
       "Make the broken bone patient wait until the checkup is completely finished"
     ],
     "answer": "Treat the broken bone first because it\\'s more urgent and time-sensitive, even though the other patient arrived first",
-    "explanation": "Preemption allows urgent, high-priority tasks to interrupt lower-priority ones. In medical triage, life-threatening or time-sensitive conditions take precedence over routine matters regardless of arrival order."
+    "explanation": "Preemption allows urgent, high-priority tasks to interrupt lower-priority ones. In medical triage, life-threatening or time-sensitive conditions take precedence over routine matters regardless of arrival order.",
+    "difficulty": "medium"
   },
   {
     "question": "Weighted Shortest Processing Time (WSPT)",
@@ -101,7 +108,8 @@
       "Randomly select which client to help each day"
     ],
     "answer": "Prioritize issues based on (contract size) / (time to fix) - highest value per hour first",
-    "explanation": "WSPT allocates effort to tasks that deliver the most value per unit time. A large contract that\\'s quick to fix provides higher hourly value than a small contract that takes the same time, or a large contract that takes much longer."
+    "explanation": "WSPT allocates effort to tasks that deliver the most value per unit time. A large contract that\\'s quick to fix provides higher hourly value than a small contract that takes the same time, or a large contract that takes much longer.",
+    "difficulty": "hard"
   },
   {
     "question": "Lateness vs. Tardiness",
@@ -114,7 +122,8 @@
       "The total minutes late are actually the same in both scenarios"
     ],
     "answer": "Tardiness accumulates - multiple small latenesses often create worse disruption than one large lateness",
-    "explanation": "Multiple small latenesses disrupt more workflows and affect more people\\'s schedules than a single large lateness. Being 5 minutes late to 10 meetings affects 10 sets of attendees, whereas 60 minutes late to one meeting primarily affects one group."
+    "explanation": "Multiple small latenesses disrupt more workflows and affect more people\\'s schedules than a single large lateness. Being 5 minutes late to 10 meetings affects 10 sets of attendees, whereas 60 minutes late to one meeting primarily affects one group.",
+    "difficulty": "hard"
   },
   {
     "question": "Single-Core Constraints",
@@ -127,6 +136,7 @@
       "You have unlimited cognitive bandwidth for parallel processing"
     ],
     "answer": "Your brain cannot give deep focus to two cognitively demanding tasks at the same time",
-    "explanation": "Just like a single-core CPU, your attentional resources are limited. Deep cognitive work requires focused processing that cannot be truly divided between two demanding tasks without significant performance costs in both."
+    "explanation": "Just like a single-core CPU, your attentional resources are limited. Deep cognitive work requires focused processing that cannot be truly divided between two demanding tasks without significant performance costs in both.",
+    "difficulty": "hard"
   }
 ]

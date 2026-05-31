@@ -10,7 +10,8 @@
       "It forces the CEO to learn how to use complex SQL databases."
     ],
     "answer": "The AI can perform real-time data analysis and generate reports without pre-built dashboards.",
-    "explanation": "Implicit AI can dig through company data and 'update dashboards on demand,' meaning you don't need to maintain static, pre-built business integration systems."
+    "explanation": "Implicit AI can dig through company data and 'update dashboards on demand,' meaning you don't need to maintain static, pre-built business integration systems.",
+    "difficulty": "easy"
   },
   {
     "question": "AI for Code and Paper Summarization",
@@ -23,7 +24,8 @@
       "It alerts the CEO every time a piece of code is too complex."
     ],
     "answer": "It reads the complicated code and provides a summary of how it works.",
-    "explanation": "Naval explains that AI can read complicated code or papers for you, saving you the time it would take to 'manually' excavate that knowledge."
+    "explanation": "Naval explains that AI can read complicated code or papers for you, saving you the time it would take to 'manually' excavate that knowledge.",
+    "difficulty": "easy"
   },
   {
     "question": "The Generalist Force Multiplier",
@@ -36,7 +38,8 @@
       "It ensures that all hardware is now manufactured entirely by AI agents."
     ],
     "answer": "It allows hardware people to write their own software harnesses for testing without waiting.",
-    "explanation": "AI acts as a force multiplier, enabling team members to do 'a little bit of everything' and test their own work without being blocked by cross-functional dependencies."
+    "explanation": "AI acts as a force multiplier, enabling team members to do 'a little bit of everything' and test their own work without being blocked by cross-functional dependencies.",
+    "difficulty": "easy"
   },
   {
     "question": "Predictive Resource Management",
@@ -49,7 +52,8 @@
       "There is no difference; both rely on employees lying about their progress."
     ],
     "answer": "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
-    "explanation": "Naval suggests that AI can analyze the email flow, code, and estimates to create its own Gantt chart and tell you who is ahead or behind, bypassing manual status reports."
+    "explanation": "Naval suggests that AI can analyze the email flow, code, and estimates to create its own Gantt chart and tell you who is ahead or behind, bypassing manual status reports.",
+    "difficulty": "easy"
   },
   {
     "question": "Discovering Expertise with AI",
@@ -62,7 +66,8 @@
       "It makes the CEO answer every question so nobody else has to."
     ],
     "answer": "It scans the codebase and documents to guide you to the person likely to be an expert.",
-    "explanation": "Because AI knows 'what' has been written and 'by whom,' it can act as a guide, pointing you toward the expert you need without an explicit organizational chart."
+    "explanation": "Because AI knows 'what' has been written and 'by whom,' it can act as a guide, pointing you toward the expert you need without an explicit organizational chart.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Vibe Coding' Revolution",
@@ -75,7 +80,8 @@
       "People will no longer need to know how to read or write."
     ],
     "answer": "The number of people who can build and build and build increases exponentially.",
-    "explanation": "As AI lowers the barrier to entry, many more people gain the 'power' to create software, effectively increasing the 'building' capacity of society."
+    "explanation": "As AI lowers the barrier to entry, many more people gain the 'power' to create software, effectively increasing the 'building' capacity of society.",
+    "difficulty": "easy"
   },
   {
     "question": "Bypassing APIs with AI",
@@ -88,7 +94,8 @@
       "It forces developers to meet daily to agree on interfaces."
     ],
     "answer": "It can discover an API or create its own connection directly into the database.",
-    "explanation": "Naval explains that AI can 'discover an API' or connect directly at whatever level it needs, removing the bottleneck of waiting for someone to write a custom interface."
+    "explanation": "Naval explains that AI can 'discover an API' or connect directly at whatever level it needs, removing the bottleneck of waiting for someone to write a custom interface.",
+    "difficulty": "easy"
   },
   {
     "question": "AI-Driven Supplier Management",
@@ -101,7 +108,8 @@
       "AI can negotiate lower prices by threatening to quit."
     ],
     "answer": "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?'",
-    "explanation": "Naval suggests that AI can analyze 'the file folder in which all the documents with suppliers and vendors are kept' to provide instant reports on the state of operations."
+    "explanation": "Naval suggests that AI can analyze 'the file folder in which all the documents with suppliers and vendors are kept' to provide instant reports on the state of operations.",
+    "difficulty": "easy"
   },
   {
     "question": "Force Multiplier Efficiency",
@@ -114,7 +122,8 @@
       "To ensure the CEO has less work to do."
     ],
     "answer": "To allow a small group of smart people to accomplish 'impossible' tasks.",
-    "explanation": "The entire premise of 'Impossible' (Naval's company) is using a small, elite team to do huge things; AI makes this possible by multiplying the productivity of each individual."
+    "explanation": "The entire premise of 'Impossible' (Naval's company) is using a small, elite team to do huge things; AI makes this possible by multiplying the productivity of each individual.",
+    "difficulty": "easy"
   },
   {
     "question": "Jagged Intelligence",
@@ -127,6 +136,7 @@
       "The AI's intelligence changes based on the time of day."
     ],
     "answer": "The AI has high performance in some areas but significant gaps in others.",
-    "explanation": "Jagged intelligence refers to the fact that AI can solve complex coding problems but might fail at simple 'world model' tasks or multimodal reasoning."
+    "explanation": "Jagged intelligence refers to the fact that AI can solve complex coding problems but might fail at simple 'world model' tasks or multimodal reasoning.",
+    "difficulty": "medium"
   }
 ]

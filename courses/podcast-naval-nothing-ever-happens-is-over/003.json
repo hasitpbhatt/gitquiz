@@ -10,7 +10,8 @@
       "Open-source models cannot run on Nvidia hardware."
     ],
     "answer": "People will always want the 'smartest' model and may give up privacy to get it.",
-    "explanation": "Naval asks if the smartest model will always win out, even if it means users have to sacrifice privacy or open-source values to use a centralized cloud."
+    "explanation": "Naval asks if the smartest model will always win out, even if it means users have to sacrifice privacy or open-source values to use a centralized cloud.",
+    "difficulty": "easy"
   },
   {
     "question": "Distributed vs. Centralized Training",
@@ -23,7 +24,8 @@
       "That training will move entirely to mobile phones within a year."
     ],
     "answer": "That distributed training is possible and centralization will fail.",
-    "explanation": "While most people believe AI training must be centralized, Naval notes that a bet on distributed training being the ultimate winner would be a high-stakes contrarian move."
+    "explanation": "While most people believe AI training must be centralized, Naval notes that a bet on distributed training being the ultimate winner would be a high-stakes contrarian move.",
+    "difficulty": "easy"
   },
   {
     "question": "Naval's Definition of a World Model",
@@ -36,7 +38,8 @@
       "Because true world models can only be created by humans, not AIs."
     ],
     "answer": "Because it lacks an agent that predicts consequences and adjusts via a feedback loop.",
-    "explanation": "Naval argues that a world model requires a reinforcement learning loop where an agent takes action, predicts results, and learns—not just a visual rendering of space."
+    "explanation": "Naval argues that a world model requires a reinforcement learning loop where an agent takes action, predicts results, and learns—not just a visual rendering of space.",
+    "difficulty": "easy"
   },
   {
     "question": "Jagged Intelligence in AGI",
@@ -49,7 +52,8 @@
       "AI is too expensive for most companies to afford."
     ],
     "answer": "AI has 'jagged intelligence' and is poor at multimodal reasoning.",
-    "explanation": "Naval notes that current models are very smart in specific areas but still struggle with reasoning across different types of data (multimodal) and world-understanding."
+    "explanation": "Naval notes that current models are very smart in specific areas but still struggle with reasoning across different types of data (multimodal) and world-understanding.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Post-COVID' Acceleration",
@@ -62,7 +66,8 @@
       "The slow march of progress."
     ],
     "answer": "May you live in interesting times.",
-    "explanation": "Naval cites this famous curse to describe the current era where everything from rockets to AI is moving at a breakneck, 'sci-fi' speed."
+    "explanation": "Naval cites this famous curse to describe the current era where everything from rockets to AI is moving at a breakneck, 'sci-fi' speed.",
+    "difficulty": "easy"
   },
   {
     "question": "The Supply Gap in 'Sci-Fi' Talent",
@@ -75,7 +80,8 @@
       "Sci-fi authors are now the most well-paid people in Silicon Valley."
     ],
     "answer": "Sci-fi technologies are in high demand, but the talent to build them is in low supply.",
-    "explanation": "Naval notes that while the market wants rockets and drones, there aren't enough 'sci-fi scientists, authors, or engineers' to meet the current demand."
+    "explanation": "Naval notes that while the market wants rockets and drones, there aren't enough 'sci-fi scientists, authors, or engineers' to meet the current demand.",
+    "difficulty": "easy"
   },
   {
     "question": "Multimodal Reasoning",
@@ -88,7 +94,8 @@
       "Only hardware companies like Nvidia can perform multimodal reasoning."
     ],
     "answer": "AI is currently 'pretty bad' at it, which is part of its 'jagged intelligence.'",
-    "explanation": "Naval explicitly mentions that current AI is poor at multimodal reasoning, which prevents it from having a true world model or achieving AGI."
+    "explanation": "Naval explicitly mentions that current AI is poor at multimodal reasoning, which prevents it from having a true world model or achieving AGI.",
+    "difficulty": "easy"
   },
   {
     "question": "The Reinforcement Learning Loop",
@@ -101,7 +108,8 @@
       "It ensures that only the CEO can control the AI's actions."
     ],
     "answer": "It allows the agent to predict consequences and adjust behavior based on what it learned.",
-    "explanation": "Naval explains that a world model requires an agent to take action and then use the RL loop to learn from the results of those actions."
+    "explanation": "Naval explains that a world model requires an agent to take action and then use the RL loop to learn from the results of those actions.",
+    "difficulty": "easy"
   },
   {
     "question": "The Frontier Lab Belief",
@@ -114,7 +122,8 @@
       "They believe that AI will never be able to code as well as humans."
     ],
     "answer": "They believe all value is going to 'disappear into the AI labs.'",
-    "explanation": "Naval mentions that the labs believe they are moving toward AGI and that the resulting intelligence will capture the vast majority of the world's economic value."
+    "explanation": "Naval mentions that the labs believe they are moving toward AGI and that the resulting intelligence will capture the vast majority of the world's economic value.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Jagged' Nature of AGI Progress",
@@ -127,6 +136,7 @@
       "The logic of violence."
     ],
     "answer": "Jagged intelligence.",
-    "explanation": "This is a perfect example of jagged intelligence—high performance in a complex symbolic task (the Bar Exam) combined with failure in a basic physical task (navigation)."
+    "explanation": "This is a perfect example of jagged intelligence—high performance in a complex symbolic task (the Bar Exam) combined with failure in a basic physical task (navigation).",
+    "difficulty": "medium"
   }
 ]

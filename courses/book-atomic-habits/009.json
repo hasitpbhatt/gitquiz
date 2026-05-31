@@ -10,7 +10,8 @@
       "Implementation Intentions"
     ],
     "answer": "The Cardinal Rule of Behavior Change",
-    "explanation": "The Cardinal Rule states that behaviors with immediate satisfaction get repeated. The thrill of saving makes the habit self-reinforcing, even though the big reward (wealth) comes much later."
+    "explanation": "The Cardinal Rule states that behaviors with immediate satisfaction get repeated. The thrill of saving makes the habit self-reinforcing, even though the big reward (wealth) comes much later.",
+    "difficulty": "medium"
   },
   {
     "question": "Habit Tracking and Visual Feedback",
@@ -23,7 +24,8 @@
       "Habit stacking"
     ],
     "answer": "The Paper Clip Strategy (visual habit tracking)",
-    "explanation": "Visual tracking creates immediate satisfaction by making progress visible. Each marble is a small reward that reinforces the behavior and motivates the next repetition."
+    "explanation": "Visual tracking creates immediate satisfaction by making progress visible. Each marble is a small reward that reinforces the behavior and motivates the next repetition.",
+    "difficulty": "medium"
   },
   {
     "question": "Never Miss Twice",
@@ -36,7 +38,8 @@
       "Switch to a different exercise entirely"
     ],
     "answer": "Run even if it is a shortened distance, ensuring they do not miss twice",
-    "explanation": "The Never Miss Twice rule prevents a single slip from becoming a new pattern. Getting back on track immediately, even with a reduced effort, preserves the habit."
+    "explanation": "The Never Miss Twice rule prevents a single slip from becoming a new pattern. Getting back on track immediately, even with a reduced effort, preserves the habit.",
+    "difficulty": "medium"
   },
   {
     "question": "Goodhart Law and Habit Tracking",
@@ -49,7 +52,8 @@
       "The Two-Minute Rule"
     ],
     "answer": "Goodhart Law applied to habit tracking",
-    "explanation": "Goodhart Law states that when a metric becomes the target, people optimize for the metric rather than the underlying behavior. The writer cares about words written instead of quality writing."
+    "explanation": "Goodhart Law states that when a metric becomes the target, people optimize for the metric rather than the underlying behavior. The writer cares about words written instead of quality writing.",
+    "difficulty": "medium"
   },
   {
     "question": "Immediate vs. Delayed Rewards",
@@ -62,7 +66,8 @@
       "The delayed reward of health is more powerful"
     ],
     "answer": "The brain prioritizes immediate rewards over delayed consequences",
-    "explanation": "The brain evolved to prioritize immediate rewards. Smoking feels good now; the cancer risk is decades away. To build good habits, you must add immediate satisfaction to behaviors with delayed benefits."
+    "explanation": "The brain evolved to prioritize immediate rewards. Smoking feels good now; the cancer risk is decades away. To build good habits, you must add immediate satisfaction to behaviors with delayed benefits.",
+    "difficulty": "medium"
   },
   {
     "question": "Habit Contracts",
@@ -75,7 +80,8 @@
       "The Two-Minute Rule"
     ],
     "answer": "A habit contract that adds an immediate cost to failure",
-    "explanation": "A habit contract makes the cost of skipping immediate and tangible. The social cost of telling the friend and the financial penalty add immediate dissatisfaction to breaking the habit."
+    "explanation": "A habit contract makes the cost of skipping immediate and tangible. The social cost of telling the friend and the financial penalty add immediate dissatisfaction to breaking the habit.",
+    "difficulty": "medium"
   },
   {
     "question": "Accountability Partners",
@@ -88,7 +94,8 @@
       "Environment design"
     ],
     "answer": "Accountability partnership",
-    "explanation": "Accountability partners add immediate social consequences. The anticipated shame of reporting failure and the pride of reporting success make the habit more satisfying to maintain."
+    "explanation": "Accountability partners add immediate social consequences. The anticipated shame of reporting failure and the pride of reporting success make the habit more satisfying to maintain.",
+    "difficulty": "medium"
   },
   {
     "question": "The Immediate Cost of Bad Habits",
@@ -101,7 +108,8 @@
       "The 3rd Law: Make it Easy"
     ],
     "answer": "The inversion of the 4th Law: Make it Unsatisfying",
-    "explanation": "The bitter taste adds an immediate negative consequence to the nail-biting behavior. This makes the habit unsatisfying, reducing the likelihood of repetition."
+    "explanation": "The bitter taste adds an immediate negative consequence to the nail-biting behavior. This makes the habit unsatisfying, reducing the likelihood of repetition.",
+    "difficulty": "hard"
   },
   {
     "question": "Streak Satisfaction",
@@ -114,7 +122,8 @@
       "Implementation Intentions"
     ],
     "answer": "Streak satisfaction and the desire not to break the chain",
-    "explanation": "Streaks create their own motivation. The satisfaction of seeing the number grow and the discomfort of imagining it resetting to zero drives daily repetition."
+    "explanation": "Streaks create their own motivation. The satisfaction of seeing the number grow and the discomfort of imagining it resetting to zero drives daily repetition.",
+    "difficulty": "hard"
   },
   {
     "question": "Recovery vs. Perfection",
@@ -127,7 +136,8 @@
       "Habit contracts"
     ],
     "answer": "Recovery over perfection",
-    "explanation": "No one is perfect. What distinguishes successful habit builders is not avoiding all mistakes but recovering quickly from them. One slip does not define the habit trajectory."
+    "explanation": "No one is perfect. What distinguishes successful habit builders is not avoiding all mistakes but recovering quickly from them. One slip does not define the habit trajectory.",
+    "difficulty": "hard"
   },
   {
     "question": "The Paper Clip Strategy Case Study",
@@ -140,7 +150,8 @@
       "Habit stacking"
     ],
     "answer": "The Paper Clip Strategy for visual habit tracking",
-    "explanation": "The Paper Clip Strategy provides immediate visual satisfaction for each completed action. The growing pile of clips proves progress, which motivates the next repetition. Clear uses this story to illustrate the 4th Law."
+    "explanation": "The Paper Clip Strategy provides immediate visual satisfaction for each completed action. The growing pile of clips proves progress, which motivates the next repetition. Clear uses this story to illustrate the 4th Law.",
+    "difficulty": "hard"
   },
   {
     "question": "The Habit Journal and Tracking Templates",
@@ -153,6 +164,7 @@
       "Habit stacking"
     ],
     "answer": "A habit journal that creates streak satisfaction",
-    "explanation": "The habit journal turns abstract progress into visible proof. Each X is a small reward, and the growing chain creates its own motivation through the satisfaction of not breaking the streak."
+    "explanation": "The habit journal turns abstract progress into visible proof. Each X is a small reward, and the growing chain creates its own motivation through the satisfaction of not breaking the streak.",
+    "difficulty": "hard"
   }
 ]

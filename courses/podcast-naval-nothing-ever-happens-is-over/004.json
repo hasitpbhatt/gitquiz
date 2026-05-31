@@ -10,7 +10,8 @@
       "It forced everyone to move back to small, decentralized villages for safety."
     ],
     "answer": "It required large factories and drilled musket men, leading to the rise of nation-states.",
-    "explanation": "Naval explains that the rifle democratized violence against knights, but required the industrial and organizational power of a nation-state to produce and manage effectively."
+    "explanation": "Naval explains that the rifle democratized violence against knights, but required the industrial and organizational power of a nation-state to produce and manage effectively.",
+    "difficulty": "easy"
   },
   {
     "question": "The Nuclear Umbrella",
@@ -23,7 +24,8 @@
       "Developing independent drone swarms to counter nuclear missiles."
     ],
     "answer": "Relying on a nuclear-armed ally for protection, thereby giving up some sovereignty.",
-    "explanation": "Naval notes that post-nuclear, most countries aren't truly independent; they live underneath the protection—and influence—of one of the few nuclear-armed nations."
+    "explanation": "Naval notes that post-nuclear, most countries aren't truly independent; they live underneath the protection—and influence—of one of the few nuclear-armed nations.",
+    "difficulty": "easy"
   },
   {
     "question": "Drones and Individualized MAD",
@@ -36,7 +38,8 @@
       "A shift toward non-violent drone racing to settle disputes."
     ],
     "answer": "The ability for an individual to target another specific individual they hate using a drone.",
-    "explanation": "Naval suggests that as drones become democratized, the high-level logic of state warfare (MAD) scales down to individual-on-individual conflict, fundamentally restructuring society."
+    "explanation": "Naval suggests that as drones become democratized, the high-level logic of state warfare (MAD) scales down to individual-on-individual conflict, fundamentally restructuring society.",
+    "difficulty": "easy"
   },
   {
     "question": "The Attacker's Advantage in Drone Warfare",
@@ -49,7 +52,8 @@
       "Defense drones require more electricity than attack drones."
     ],
     "answer": "The attacker can concentrate all their drones in one spot, while the defender is always spread thin.",
-    "explanation": "Naval highlights the asymmetrical nature of drone combat: the attacker chooses the time and place to mass their forces, making total defense nearly impossible."
+    "explanation": "Naval highlights the asymmetrical nature of drone combat: the attacker chooses the time and place to mass their forces, making total defense nearly impossible.",
+    "difficulty": "easy"
   },
   {
     "question": "Democratization of Biological Weapons",
@@ -62,7 +66,8 @@
       "He believes biology is much safer because it cannot be 'coded' like software."
     ],
     "answer": "Both involve a massive increase in the number of people who can perform highly complex, potentially dangerous tasks.",
-    "explanation": "Naval worries that as AI lowers the barrier to entry (vibe coding), it will also lower the barrier for creating viruses or biological weapons, increasing the threat level by orders of magnitude."
+    "explanation": "Naval worries that as AI lowers the barrier to entry (vibe coding), it will also lower the barrier for creating viruses or biological weapons, increasing the threat level by orders of magnitude.",
+    "difficulty": "easy"
   },
   {
     "question": "The Regulatory Bottleneck in Defense",
@@ -75,7 +80,8 @@
       "They are secretly working for bioweapons labs."
     ],
     "answer": "They prevent healthy young volunteers from taking risks to speed up vaccine testing.",
-    "explanation": "Naval expresses frustration that bureaucracy and ethics rules prevent 'right to try' and volunteer testing, which he believes slows down vital research during crises."
+    "explanation": "Naval expresses frustration that bureaucracy and ethics rules prevent 'right to try' and volunteer testing, which he believes slows down vital research during crises.",
+    "difficulty": "easy"
   },
   {
     "question": "AI and the 'Right to Try'",
@@ -88,7 +94,8 @@
       "To make health insurance cheaper by using AI to deny claims."
     ],
     "answer": "To solve therapies and medicine by analyzing anonymized, massive datasets and allowing 'right to try.'",
-    "explanation": "Naval sees AI's ability to analyze vast silos of medical data as a pathway to new cures, provided we can get past the regulatory hurdles that keep the data hidden."
+    "explanation": "Naval sees AI's ability to analyze vast silos of medical data as a pathway to new cures, provided we can get past the regulatory hurdles that keep the data hidden.",
+    "difficulty": "easy"
   },
   {
     "question": "The Structure of Violence and the State",
@@ -101,7 +108,8 @@
       "Militaries will return to using horses and swords to avoid drone detection."
     ],
     "answer": "Militaries and states will be fundamentally 'architected' differently to match the new logic.",
-    "explanation": "Naval argues that 'drones change the structure of violence in society,' which historically forces a complete restructuring of how militaries and entire states are organized."
+    "explanation": "Naval argues that 'drones change the structure of violence in society,' which historically forces a complete restructuring of how militaries and entire states are organized.",
+    "difficulty": "medium"
   },
   {
     "question": "Kinetic Energy and Drone Attacks",
@@ -114,7 +122,8 @@
       "It doesn't require a battery to operate while in the air."
     ],
     "answer": "It has the advantage of kinetic energy because it is coming 'down' on the target.",
-    "explanation": "Naval specifically mentions that an attacking drone has both kinetic energy (falling toward the target) and the advantage of surprise, making defense a 'difficult' uphill battle."
+    "explanation": "Naval specifically mentions that an attacking drone has both kinetic energy (falling toward the target) and the advantage of surprise, making defense a 'difficult' uphill battle.",
+    "difficulty": "medium"
   },
   {
     "question": "Biological Data Silos",
@@ -127,6 +136,7 @@
       "Hardware companies like Nvidia are blocking access to medical software."
     ],
     "answer": "The data is hidden behind too many silos, regulations, and rules.",
-    "explanation": "Naval notes that while there are good reasons for privacy, the 'silos' of data are the primary barrier to AI making the same breakthroughs in medicine that it has made in code."
+    "explanation": "Naval notes that while there are good reasons for privacy, the 'silos' of data are the primary barrier to AI making the same breakthroughs in medicine that it has made in code.",
+    "difficulty": "medium"
   }
 ]

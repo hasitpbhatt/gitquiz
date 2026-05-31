@@ -10,7 +10,8 @@
       "Because humans will eventually stop using AI once the novelty wears off."
     ],
     "answer": "Because previous revolutions took generations to unfold, while this is happening in years.",
-    "explanation": "The exponential nature of AI growth means we don't have the luxury of decades to adapt our schools and laws, requiring a more proactive 'Co-Intelligent' approach immediately."
+    "explanation": "The exponential nature of AI growth means we don't have the luxury of decades to adapt our schools and laws, requiring a more proactive 'Co-Intelligent' approach immediately.",
+    "difficulty": "medium"
   },
   {
     "question": "The Value of 'Human-Only' Work",
@@ -23,7 +24,8 @@
       "Keeping their use of AI a secret from the client."
     ],
     "answer": "Providing emotional support, ethical judgment, and a human presence in the courtroom.",
-    "explanation": "When the 'data' part of a job is automated, the 'human' part—trust, empathy, and advocacy—becomes the premium service people are willing to pay for."
+    "explanation": "When the 'data' part of a job is automated, the 'human' part—trust, empathy, and advocacy—becomes the premium service people are willing to pay for.",
+    "difficulty": "medium"
   },
   {
     "question": "The Principle of Proactive Adaptation",
@@ -36,7 +38,8 @@
       "Delegating all your thinking to the AI to save energy."
     ],
     "answer": "Testing AI on every task you do to see where it succeeds and fails.",
-    "explanation": "Active experimentation is the only way to find the 'Jagged Frontier.' If you don't test it, you won't know when the machine has become capable of helping you."
+    "explanation": "Active experimentation is the only way to find the 'Jagged Frontier.' If you don't test it, you won't know when the machine has become capable of helping you.",
+    "difficulty": "medium"
   },
   {
     "question": "The Productivity Dividend",
@@ -49,7 +52,8 @@
       "Tell the AI to do your work even faster next week."
     ],
     "answer": "Spend those 10 hours on strategic thinking, networking, and deep learning.",
-    "explanation": "The true benefit of AI is clearing the 'low-value' work to make room for the 'high-value' human work that moves the needle."
+    "explanation": "The true benefit of AI is clearing the 'low-value' work to make room for the 'high-value' human work that moves the needle.",
+    "difficulty": "medium"
   },
   {
     "question": "The Mirror Effect",
@@ -62,7 +66,8 @@
       "The AI is trying to start a conflict."
     ],
     "answer": "The AI is accurately reflecting the flaws and biases present in human history and data.",
-    "explanation": "AI doesn't invent bias; it extracts it from the vast amount of human text it was trained on. To 'fix' AI, we must be 'in the loop' to correct and guide it toward better values."
+    "explanation": "AI doesn't invent bias; it extracts it from the vast amount of human text it was trained on. To 'fix' AI, we must be 'in the loop' to correct and guide it toward better values.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Agency' of the Prompter",
@@ -75,7 +80,8 @@
       "The community for being too sensitive."
     ],
     "answer": "The human prompter who failed to review and edit the output.",
-    "explanation": "You can delegate the *labor* of creation, but you can never delegate the *responsibility* for the outcome. You are always the human in the loop."
+    "explanation": "You can delegate the *labor* of creation, but you can never delegate the *responsibility* for the outcome. You are always the human in the loop.",
+    "difficulty": "hard"
   },
   {
     "question": "The Death of 'Traditional' Expertise",
@@ -88,7 +94,8 @@
       "By learning to code every piece of software they use."
     ],
     "answer": "By becoming a master of 'synthesis'—combining AI data with human context.",
-    "explanation": "When information is free, the value lies in *connecting* that information to real-world problems and people."
+    "explanation": "When information is free, the value lies in *connecting* that information to real-world problems and people.",
+    "difficulty": "hard"
   },
   {
     "question": "The Post-Work Identity",
@@ -101,7 +108,8 @@
       "Staying awake during AI-generated movies."
     ],
     "answer": "Finding purpose and meaning when machines can outperform us in many tasks.",
-    "explanation": "As AI handles more 'intelligence' tasks, humans must ground their identity in things that aren't purely about 'utility' or 'productivity.'"
+    "explanation": "As AI handles more 'intelligence' tasks, humans must ground their identity in things that aren't purely about 'utility' or 'productivity.'",
+    "difficulty": "hard"
   },
   {
     "question": "The Singularity vs. The Asymptote",
@@ -114,7 +122,8 @@
       "Because you won't need a job anymore."
     ],
     "answer": "Because you'll still be better at using the existing tools than those who ignored them.",
-    "explanation": "Even if AI plateaus, the advantage goes to those who have integrated it into their workflow most effectively."
+    "explanation": "Even if AI plateaus, the advantage goes to those who have integrated it into their workflow most effectively.",
+    "difficulty": "hard"
   },
   {
     "question": "The Final Rule: Be Human",
@@ -127,6 +136,7 @@
       "To eventually merge our brains with the software."
     ],
     "answer": "To use AI as a tool for human flourishing and solving our greatest challenges.",
-    "explanation": "Mollick's vision is optimistic: AI is a partner that clears the path for humans to do what they do best—create, connect, and solve."
+    "explanation": "Mollick's vision is optimistic: AI is a partner that clears the path for humans to do what they do best—create, connect, and solve.",
+    "difficulty": "hard"
   }
 ]

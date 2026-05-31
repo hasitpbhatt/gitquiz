@@ -10,7 +10,8 @@
       "By assuming the company will take care of your retirement and health needs forever"
     ],
     "answer": "By looking for internal 'pain points' in your department and proposing new solutions as if you were an external consultant",
-    "explanation": "Being entrepreneurial within a company (intrapreneurship) means taking initiative and acting like an owner of your projects, regardless of your official title."
+    "explanation": "Being entrepreneurial within a company (intrapreneurship) means taking initiative and acting like an owner of your projects, regardless of your official title.",
+    "difficulty": "medium"
   },
   {
     "question": "The Infinite Beta",
@@ -23,7 +24,8 @@
       "The stress of being successful"
     ],
     "answer": "Complacency and the belief that you no longer need to adapt or learn",
-    "explanation": "Complacency is the enemy of the startup mindset. Once you stop iterating, you become vulnerable to disruption from those who are still in 'Beta.'"
+    "explanation": "Complacency is the enemy of the startup mindset. Once you stop iterating, you become vulnerable to disruption from those who are still in 'Beta.'",
+    "difficulty": "medium"
   },
   {
     "question": "The Power of the Group",
@@ -36,7 +38,8 @@
       "Choose people who share all your same opinions and habits"
     ],
     "answer": "Choose people who challenge your thinking and model habits you want to develop",
-    "explanation": "Your network is your net worth. Surrounding yourself with people who push you to grow ensures that your personal 'Startup' continues to evolve."
+    "explanation": "Your network is your net worth. Surrounding yourself with people who push you to grow ensures that your personal 'Startup' continues to evolve.",
+    "difficulty": "medium"
   },
   {
     "question": "Investing in the Future",
@@ -49,7 +52,8 @@
       "Cleaning your office space to be perfectly organized"
     ],
     "answer": "Learning a skill that is currently 'fringe' but growing, such as decentralized finance or ethical AI",
-    "explanation": "Reinvestment is about future-proofing. Spending time on emerging trends gives you a head start when those trends eventually become mainstream."
+    "explanation": "Reinvestment is about future-proofing. Spending time on emerging trends gives you a head start when those trends eventually become mainstream.",
+    "difficulty": "medium"
   },
   {
     "question": "Risk is Better Than Regret",
@@ -62,7 +66,8 @@
       "Wait another 5 years to see if you still feel the same way"
     ],
     "answer": "Start a 'Plan B' on the side to build momentum before making a full jump",
-    "explanation": "It is never too late to be in Beta. A side project (Plan B) allows you to test the risk without abandoning your stability (Plan A) prematurely."
+    "explanation": "It is never too late to be in Beta. A side project (Plan B) allows you to test the risk without abandoning your stability (Plan A) prematurely.",
+    "difficulty": "medium"
   },
   {
     "question": "The Network as a Safety Net",
@@ -75,7 +80,8 @@
       "Your local news station to complain about the economy"
     ],
     "answer": "Your 'inner circle' of trusted professional allies to brainstorm next steps",
-    "explanation": "In a crisis, trust is the most valuable currency. Your inner circle knows your value and can help you navigate the chaos faster than any institution."
+    "explanation": "In a crisis, trust is the most valuable currency. Your inner circle knows your value and can help you navigate the chaos faster than any institution.",
+    "difficulty": "hard"
   },
   {
     "question": "Resourcefulness Over Resources",
@@ -88,7 +94,8 @@
       "Put the tuition on a high-interest credit card"
     ],
     "answer": "Find free open-source materials and ask a mentor in that field for a list of recommended readings",
-    "explanation": "Resourcefulness is about finding alternative paths to the same goal. Information is more accessible than ever if you are willing to look for it."
+    "explanation": "Resourcefulness is about finding alternative paths to the same goal. Information is more accessible than ever if you are willing to look for it.",
+    "difficulty": "hard"
   },
   {
     "question": "The Speed of Learning",
@@ -101,7 +108,8 @@
       "Ask your coworkers if they 'like' the design"
     ],
     "answer": "Launch a 'minimum viable' version of the campaign in one week and measure the initial clicks",
-    "explanation": "Real-world data is the only feedback that truly matters. Launching quickly allows you to fail small and pivot fast."
+    "explanation": "Real-world data is the only feedback that truly matters. Launching quickly allows you to fail small and pivot fast.",
+    "difficulty": "hard"
   },
   {
     "question": "Living with Uncertainty",
@@ -114,7 +122,8 @@
       "Ask the new company for a guarantee that you will never be fired"
     ],
     "answer": "Accept the offer, keep your network warm (Plan B), and treat the first 90 days as a 'Beta' test",
-    "explanation": "Decisive action followed by careful iteration is the hallmark of the startup mindset. You learn by doing, not by waiting for certainty."
+    "explanation": "Decisive action followed by careful iteration is the hallmark of the startup mindset. You learn by doing, not by waiting for certainty.",
+    "difficulty": "hard"
   },
   {
     "question": "The Final Word: Personal Agency",
@@ -127,6 +136,7 @@
       "Memorize the book word-for-word but take no action"
     ],
     "answer": "Identify one small 'Permanent Beta' action you can take today, such as reaching out to a 'weak tie' or starting a small side project",
-    "explanation": "Information without action is useless. The startup mindset requires immediate, small-scale execution to turn knowledge into an asset."
+    "explanation": "Information without action is useless. The startup mindset requires immediate, small-scale execution to turn knowledge into an asset.",
+    "difficulty": "hard"
   }
 ]

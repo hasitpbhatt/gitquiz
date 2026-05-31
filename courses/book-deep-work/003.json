@@ -10,7 +10,8 @@
       "The Journalistic Philosophy"
     ],
     "answer": "The Monastic Philosophy",
-    "explanation": "The Monastic approach prioritizes depth by systematically eliminating shallow obligations. It is powerful but usually only possible for those whose roles require minimal administrative interaction."
+    "explanation": "The Monastic approach prioritizes depth by systematically eliminating shallow obligations. It is powerful but usually only possible for those whose roles require minimal administrative interaction.",
+    "difficulty": "easy"
   },
   {
     "question": "The Bimodal Philosophy",
@@ -23,7 +24,8 @@
       "Journalistic, because she fits writing in whenever she can"
     ],
     "answer": "Bimodal, because she alternates between extended periods of depth and availability",
-    "explanation": "Bimodal means switching between two distinct modes. The novelist dedicates clear blocks of time to monastic-level depth and other blocks to open engagement."
+    "explanation": "Bimodal means switching between two distinct modes. The novelist dedicates clear blocks of time to monastic-level depth and other blocks to open engagement.",
+    "difficulty": "easy"
   },
   {
     "question": "The Rhythmic Philosophy",
@@ -36,7 +38,8 @@
       "Bimodal, because he works in two distinct phases"
     ],
     "answer": "Rhythmic, because he relies on a consistent daily habit to make depth automatic",
-    "explanation": "The rhythmic philosophy removes the cognitive burden of deciding when to work. The fixed time and place create an automatic trigger that transitions the brain into focus mode."
+    "explanation": "The rhythmic philosophy removes the cognitive burden of deciding when to work. The fixed time and place create an automatic trigger that transitions the brain into focus mode.",
+    "difficulty": "easy"
   },
   {
     "question": "The Journalistic Philosophy",
@@ -49,7 +52,8 @@
       "Bimodal, because she switches between consulting and writing"
     ],
     "answer": "Journalistic, because she can enter a deep state quickly in any environment",
-    "explanation": "The Journalistic approach is the most difficult because it requires the ability to achieve depth without a long warm-up or ideal environment. It is suited for those with unpredictable schedules."
+    "explanation": "The Journalistic approach is the most difficult because it requires the ability to achieve depth without a long warm-up or ideal environment. It is suited for those with unpredictable schedules.",
+    "difficulty": "easy"
   },
   {
     "question": "The Grand Gesture",
@@ -62,7 +66,8 @@
       "Editing requires natural light that only cabins provide"
     ],
     "answer": "The financial and effort investment signals to her brain that this task is a top priority",
-    "explanation": "A Grand Gesture leverages commitment psychology. When you invest significant resources, your brain treats the task with more gravity, reducing the temptation to procrastinate."
+    "explanation": "A Grand Gesture leverages commitment psychology. When you invest significant resources, your brain treats the task with more gravity, reducing the temptation to procrastinate.",
+    "difficulty": "easy"
   },
   {
     "question": "The Hub-and-Spoke Model",
@@ -75,7 +80,8 @@
       "Monastic isolation, because the workshops are private"
     ],
     "answer": "The Hub-and-Spoke model, combining spaces for idea exchange and deep execution",
-    "explanation": "Innovation requires both exposure to new ideas (hub) and focused development of those ideas (spoke). A space that provides only one or the other is incomplete."
+    "explanation": "Innovation requires both exposure to new ideas (hub) and focused development of those ideas (spoke). A space that provides only one or the other is incomplete.",
+    "difficulty": "easy"
   },
   {
     "question": "The 4DX Framework: Focus on the Wildly Important",
@@ -88,7 +94,8 @@
       "Delegate all planning to an assistant"
     ],
     "answer": "Concentrate her best thinking on the three competitive athletes who drive her success",
-    "explanation": "Deep work is limited. Spreading it across many low-impact activities dilutes its power. The 'wildly important' goals deserve the deepest focus."
+    "explanation": "Deep work is limited. Spreading it across many low-impact activities dilutes its power. The 'wildly important' goals deserve the deepest focus.",
+    "difficulty": "medium"
   },
   {
     "question": "Lead Measures vs. Lag Measures",
@@ -101,7 +108,8 @@
       "The weather conditions on race day"
     ],
     "answer": "The number of hours spent in focused, high-intensity training sessions",
-    "explanation": "Race time (lag) can only be measured after the fact. Training hours (lead) can be controlled today and directly predict the lag outcome."
+    "explanation": "Race time (lag) can only be measured after the fact. Training hours (lead) can be controlled today and directly predict the lag outcome.",
+    "difficulty": "medium"
   },
   {
     "question": "The Compelling Scoreboard",
@@ -114,7 +122,8 @@
       "It replaces the need for actual language practice"
     ],
     "answer": "It creates a visual streak that makes the habit self-reinforcing",
-    "explanation": "A visible scoreboard leverages the psychological power of streaks and progress tracking. The desire to maintain the chain of stars becomes a stronger motivator than the effort of studying."
+    "explanation": "A visible scoreboard leverages the psychological power of streaks and progress tracking. The desire to maintain the chain of stars becomes a stronger motivator than the effort of studying.",
+    "difficulty": "medium"
   },
   {
     "question": "The Shutdown Ritual",
@@ -127,6 +136,7 @@
       "Dinner is too early for someone with her work schedule"
     ],
     "answer": "She did not complete a proper shutdown ritual to capture and close her open loops",
-    "explanation": "The Zeigarnik Effect keeps unfinished tasks active in memory. Without a formal process to capture them in a trusted system and plan the next steps, the brain refuses to release them."
+    "explanation": "The Zeigarnik Effect keeps unfinished tasks active in memory. Without a formal process to capture them in a trusted system and plan the next steps, the brain refuses to release them.",
+    "difficulty": "medium"
   }
 ]

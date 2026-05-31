@@ -10,7 +10,8 @@
       "They\\'ve decided to have a picnic in the intersection"
     ],
     "answer": "Neither wants to risk proceeding if the other might also go, creating a mutual standoff",
-    "explanation": "This resembles a Nash Equilibrium: if you proceed and the other driver also proceeds, you risk collision. If you proceed and they wait, you\\'re safe but they might go when you\\'re in the intersection. The safest equilibrium is both waiting, assuming the other might go."
+    "explanation": "This resembles a Nash Equilibrium: if you proceed and the other driver also proceeds, you risk collision. If you proceed and they wait, you\\'re safe but they might go when you\\'re in the intersection. The safest equilibrium is both waiting, assuming the other might go.",
+    "difficulty": "medium"
   },
   {
     "question": "Dominant Strategy",
@@ -23,7 +24,8 @@
       "You\\'ve never owned casual clothing"
     ],
     "answer": "Dressing up is never harmful and avoids the risk of being underdressed if others interpret the event as formal",
-    "explanation": "Dressing formally is a dominant strategy: if the event is casual, you\\'re slightly overdressed but not inappropriate; if it\\'s formal, you\\'re correctly dressed. Casual attire risks being underdressed if others treat it as formal."
+    "explanation": "Dressing formally is a dominant strategy: if the event is casual, you\\'re slightly overdressed but not inappropriate; if it\\'s formal, you\\'re correctly dressed. Casual attire risks being underdressed if others treat it as formal.",
+    "difficulty": "medium"
   },
   {
     "question": "Prisoner\\'s Dilemma",
@@ -36,7 +38,8 @@
       "Both stores decide to close their businesses"
     ],
     "answer": "Both stores launch deep discounts, starting a price war that reduces profits for both",
-    "explanation": "This is a Prisoner\\'s Dilemma: regardless of what the competitor does, launching discounts seems better for each store (gain market share or prevent loss). But if both launch discounts, both ends up worse off than if both had maintained regular prices."
+    "explanation": "This is a Prisoner\\'s Dilemma: regardless of what the competitor does, launching discounts seems better for each store (gain market share or prevent loss). But if both launch discounts, both ends up worse off than if both had maintained regular prices.",
+    "difficulty": "medium"
   },
   {
     "question": "Mechanism Design",
@@ -49,7 +52,8 @@
       "Ask a parent to arbitrarily divide it"
     ],
     "answer": "Have one sibling cut the cake and the other choose first which piece to take",
-    "explanation": "This mechanism aligns incentives: the cutter wants to cut fairly to avoid getting a small piece, and the chooser gets their preferred piece. Both act in self-interest but the outcome is fair."
+    "explanation": "This mechanism aligns incentives: the cutter wants to cut fairly to avoid getting a small piece, and the chooser gets their preferred piece. Both act in self-interest but the outcome is fair.",
+    "difficulty": "hard"
   },
   {
     "question": "Vickrey Auction",
@@ -62,7 +66,8 @@
       "By auctioning items only during business hours"
     ],
     "answer": "By using second-price auction mechanics where the winner pays the second-highest bid, not their own bid",
-    "explanation": "In a Vickrey auction, bidding your true maximum is optimal regardless of when you bid. There\\'s no benefit to waiting until the last second because you\\'ll never pay more than the second-highest bid, making sniping ineffective."
+    "explanation": "In a Vickrey auction, bidding your true maximum is optimal regardless of when you bid. There\\'s no benefit to waiting until the last second because you\\'ll never pay more than the second-highest bid, making sniping ineffective.",
+    "difficulty": "hard"
   },
   {
     "question": "Tragedy of the Commons",
@@ -75,7 +80,8 @@
       "The office has hired maids who are not doing their job"
     ],
     "answer": "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the collective mess",
-    "explanation": "Each person reasons that\\'s not their responsibility to clean, saving themselves effort. But when everyone thinks this way, the refrigerator becomes unusable for all - a classic Tragedy of the Commons scenario."
+    "explanation": "Each person reasons that\\'s not their responsibility to clean, saving themselves effort. But when everyone thinks this way, the refrigerator becomes unusable for all - a classic Tragedy of the Commons scenario.",
+    "difficulty": "hard"
   },
   {
     "question": "Information Asymmetry",
@@ -88,7 +94,8 @@
       "The seller is definitely lying about the mileage"
     ],
     "answer": "You might overpay for a car with hidden problems (the \\'Lemon Problem\\')",
-    "explanation": "This is the classic Lemon Problem: sellers of low-quality vehicles ('lemons') are more likely to sell because they know their defects, while owners of good cars may refuse to sell at prices that don\\'t reflect their value, leading to market degradation."
+    "explanation": "This is the classic Lemon Problem: sellers of low-quality vehicles ('lemons') are more likely to sell because they know their defects, while owners of good cars may refuse to sell at prices that don\\'t reflect their value, leading to market degradation.",
+    "difficulty": "hard"
   },
   {
     "question": "Evolutionary Stable Strategy",
@@ -101,7 +108,8 @@
       "The environment changes too quickly for evolution to work"
     ],
     "answer": "Because under certain conditions, neither strategy can consistently outperform the other when rare",
-    "explanation": "An Evolutionary Stable Strategy resists invasion by rare alternatives. In some environments, neither pure aggression nor pure cooperation is stable - instead, a mixed strategy or conditional behavior evolves as the ESS."
+    "explanation": "An Evolutionary Stable Strategy resists invasion by rare alternatives. In some environments, neither pure aggression nor pure cooperation is stable - instead, a mixed strategy or conditional behavior evolves as the ESS.",
+    "difficulty": "hard"
   },
   {
     "question": "Incentive Alignment",
@@ -114,6 +122,7 @@
       "Pay them nothing unless they work exactly 8 hours per day"
     ],
     "answer": "Pay a bonus based on both completion speed and verified safety metrics",
-    "explanation": "By tying bonuses to both speed and safety, you align the contractor\\'s interests with your own: they benefit most when they work quickly AND safely, rather than having to choose between the two."
+    "explanation": "By tying bonuses to both speed and safety, you align the contractor\\'s interests with your own: they benefit most when they work quickly AND safely, rather than having to choose between the two.",
+    "difficulty": "hard"
   }
 ]

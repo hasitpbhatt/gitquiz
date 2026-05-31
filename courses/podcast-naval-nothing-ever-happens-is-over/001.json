@@ -10,7 +10,8 @@
       "A large middle-management layer filters information before it reaches the CEO."
     ],
     "answer": "The CEO acts as the single product manager who coordinates everyone's efforts.",
-    "explanation": "Naval describes his co-founder as the 'one product manager' who brings the impossible task together, serving as the central hub for the 'spokes' (the team)."
+    "explanation": "Naval describes his co-founder as the 'one product manager' who brings the impossible task together, serving as the central hub for the 'spokes' (the team).",
+    "difficulty": "easy"
   },
   {
     "question": "Hierarchical vs. Flat Structures",
@@ -23,7 +24,8 @@
       "The inherent efficiency of middle-management communication."
     ],
     "answer": "The sheer requirement of size and the need to march in one direction.",
-    "explanation": "Naval notes that while stifling and political, hierarchy is often a 'requirement of size' to keep massive organizations organized, even though he personally avoids it."
+    "explanation": "Naval notes that while stifling and political, hierarchy is often a 'requirement of size' to keep massive organizations organized, even though he personally avoids it.",
+    "difficulty": "easy"
   },
   {
     "question": "The Fully Interconnected Graph",
@@ -36,7 +38,8 @@
       "The CEO must oversee every single conversation that happens."
     ],
     "answer": "Every node (person) in the graph must be highly intelligent and capable of self-navigating.",
-    "explanation": "Naval explains that for a fully interconnected graph to work, you must hire highly intelligent people who can find the right person to solve a problem themselves."
+    "explanation": "Naval explains that for a fully interconnected graph to work, you must hire highly intelligent people who can find the right person to solve a problem themselves.",
+    "difficulty": "easy"
   },
   {
     "question": "Communication Overhead",
@@ -49,7 +52,8 @@
       "They route all messages through a central AI clearinghouse."
     ],
     "answer": "They don't use Slack or project management software; they just text or talk one-on-one.",
-    "explanation": "Naval explicitly states they don't use Slack or project management software. Instead, people operate independently and text each other as needed to keep overhead low."
+    "explanation": "Naval explicitly states they don't use Slack or project management software. Instead, people operate independently and text each other as needed to keep overhead low.",
+    "difficulty": "easy"
   },
   {
     "question": "The Talent Filter",
@@ -62,7 +66,8 @@
       "They are given access to a more advanced AI communication tool."
     ],
     "answer": "They are encouraged to find a hierarchical organization where they'll be more comfortable.",
-    "explanation": "Naval suggests that if someone can't operate in a fully interconnected graph, they 'don't belong in this kind of an organization' and should seek a traditional hierarchy."
+    "explanation": "Naval suggests that if someone can't operate in a fully interconnected graph, they 'don't belong in this kind of an organization' and should seek a traditional hierarchy.",
+    "difficulty": "easy"
   },
   {
     "question": "Venture Capital Accessibility",
@@ -75,7 +80,8 @@
       "Traditional VC funds are managed by AI, while USVC is managed by humans."
     ],
     "answer": "USVC has no accreditation requirement and a low $500 minimum investment.",
-    "explanation": "The podcast describes USVC as a way for the general public to invest in companies like OpenAI and Anthropic without needing to be an 'accredited investor' or having millions of dollars."
+    "explanation": "The podcast describes USVC as a way for the general public to invest in companies like OpenAI and Anthropic without needing to be an 'accredited investor' or having millions of dollars.",
+    "difficulty": "easy"
   },
   {
     "question": "Venture as an Illiquid Asset",
@@ -88,7 +94,8 @@
       "Because AI will eventually make money obsolete."
     ],
     "answer": "Because the money is tied up in private companies and cannot be withdrawn quickly.",
-    "explanation": "Venture capital involves investing in young companies that may take years to reach a valuation or go public, making the investment 'illiquid' and risky."
+    "explanation": "Venture capital involves investing in young companies that may take years to reach a valuation or go public, making the investment 'illiquid' and risky.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Founder Mode' Phenomenon",
@@ -101,7 +108,8 @@
       "He argues that only AI should be allowed to talk to engineers."
     ],
     "answer": "He thinks it’s ridiculous that a CEO needs a special 'mode' just to talk to their own employees.",
-    "explanation": "Naval finds it ironic that it's celebrated as an achievement when a CEO talks to an engineer, as he believes direct communication should be the default, not an exception."
+    "explanation": "Naval finds it ironic that it's celebrated as an achievement when a CEO talks to an engineer, as he believes direct communication should be the default, not an exception.",
+    "difficulty": "easy"
   },
   {
     "question": "Computer Networks as Org Design",
@@ -114,7 +122,8 @@
       "Reducing the number of people in the company."
     ],
     "answer": "A structure where everyone has to talk through too many middle-layers.",
-    "explanation": "In a network, the overhead increases when data (or information) has to hop through many points (hierarchy) to get to its destination, slowing down the system."
+    "explanation": "In a network, the overhead increases when data (or information) has to hop through many points (hierarchy) to get to its destination, slowing down the system.",
+    "difficulty": "easy"
   },
   {
     "question": "Flat Structure Agility",
@@ -127,6 +136,7 @@
       "Because it makes it too easy to get things done."
     ],
     "answer": "Because large groups always involve politics and you aren't dealing with the best and brightest.",
-    "explanation": "Naval's dislike for management stems from the belief that large organizations inevitably become political and inefficient, losing the speed found in small, elite groups."
+    "explanation": "Naval's dislike for management stems from the belief that large organizations inevitably become political and inefficient, losing the speed found in small, elite groups.",
+    "difficulty": "easy"
   }
 ]

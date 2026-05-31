@@ -10,7 +10,8 @@
       "Adrenaline"
     ],
     "answer": "Dopamine",
-    "explanation": "Dopamine spikes during anticipation of reward, not just the reward itself. This is why the craving before the action is the real motivational force."
+    "explanation": "Dopamine spikes during anticipation of reward, not just the reward itself. This is why the craving before the action is the real motivational force.",
+    "difficulty": "easy"
   },
   {
     "question": "Temptation Bundling",
@@ -23,7 +24,8 @@
       "Reward themselves with a podcast after finishing all chores"
     ],
     "answer": "Listen to the podcast only while folding laundry",
-    "explanation": "By linking the wanted activity (podcast) with the needed activity (laundry), the laundry becomes more attractive because the brain anticipates the podcast."
+    "explanation": "By linking the wanted activity (podcast) with the needed activity (laundry), the laundry becomes more attractive because the brain anticipates the podcast.",
+    "difficulty": "easy"
   },
   {
     "question": "The Premack Principle",
@@ -36,7 +38,8 @@
       "Promise to study more tomorrow if they skip YouTube today"
     ],
     "answer": "Study for five minutes, then watch ten minutes of YouTube, alternating",
-    "explanation": "The Premack Principle uses a high-probability behavior (watching YouTube) to reinforce a low-probability one (studying). The anticipation of YouTube makes studying more bearable."
+    "explanation": "The Premack Principle uses a high-probability behavior (watching YouTube) to reinforce a low-probability one (studying). The anticipation of YouTube makes studying more bearable.",
+    "difficulty": "easy"
   },
   {
     "question": "Combining Habit Stacking and Temptation Bundling",
@@ -49,7 +52,8 @@
       "I will work first and reward myself with coffee later"
     ],
     "answer": "After I pour my morning coffee, I will write three work tasks while enjoying my favorite latte",
-    "explanation": "This stacks the new habit (writing tasks) after an existing one (pouring coffee) and bundles it with a wanted experience (enjoying a latte), making work attractive."
+    "explanation": "This stacks the new habit (writing tasks) after an existing one (pouring coffee) and bundles it with a wanted experience (enjoying a latte), making work attractive.",
+    "difficulty": "medium"
   },
   {
     "question": "Craving vs. Reward",
@@ -62,7 +66,8 @@
       "Environment Design"
     ],
     "answer": "The difference between craving and reward",
-    "explanation": "The anticipation spike often exceeds the actual pleasure of the reward. This is why cravings are such powerful drivers of behavior the brain seeks the anticipation, not just the outcome."
+    "explanation": "The anticipation spike often exceeds the actual pleasure of the reward. This is why cravings are such powerful drivers of behavior the brain seeks the anticipation, not just the outcome.",
+    "difficulty": "medium"
   },
   {
     "question": "Creating a Motivation Ritual",
@@ -75,7 +80,8 @@
       "Habit tracking"
     ],
     "answer": "A motivation ritual",
-    "explanation": "By consistently pairing a specific ritual with the desired mental state, the ritual itself becomes a cue that triggers the craving for focus, making it easier to start."
+    "explanation": "By consistently pairing a specific ritual with the desired mental state, the ritual itself becomes a cue that triggers the craving for focus, making it easier to start.",
+    "difficulty": "medium"
   },
   {
     "question": "Supernormal Stimuli",
@@ -88,7 +94,8 @@
       "An implementation intention"
     ],
     "answer": "A supernormal stimulus",
-    "explanation": "Supernormal stimuli are artificially exaggerated versions of natural cues. Food manufacturers amplify sugar, fat, and salt to levels that do not occur in nature, hijacking ancient craving circuits."
+    "explanation": "Supernormal stimuli are artificially exaggerated versions of natural cues. Food manufacturers amplify sugar, fat, and salt to levels that do not occur in nature, hijacking ancient craving circuits.",
+    "difficulty": "medium"
   },
   {
     "question": "Reframing Mindset",
@@ -101,7 +108,8 @@
       "Promise a reward for every early wake-up"
     ],
     "answer": "Tell themselves they get to wake up early and have quiet time before the world gets busy",
-    "explanation": "Reframing transforms a chore into a privilege. Get to emphasizes the opportunity and benefit, making the behavior more attractive than have to which feels like a burden."
+    "explanation": "Reframing transforms a chore into a privilege. Get to emphasizes the opportunity and benefit, making the behavior more attractive than have to which feels like a burden.",
+    "difficulty": "medium"
   },
   {
     "question": "Making Hard Habits Attractive",
@@ -114,7 +122,8 @@
       "Focus only on the pain of running as motivation"
     ],
     "answer": "Run on a treadmill while watching their favorite show",
-    "explanation": "Pairing the needed habit (running) with a wanted experience (favorite show) makes the habit more attractive. The brain starts to associate running with pleasure rather than pain."
+    "explanation": "Pairing the needed habit (running) with a wanted experience (favorite show) makes the habit more attractive. The brain starts to associate running with pleasure rather than pain.",
+    "difficulty": "medium"
   },
   {
     "question": "Highlighting Benefits vs. Costs",
@@ -127,6 +136,7 @@
       "I will study only if I feel motivated"
     ],
     "answer": "Each study session makes me more knowledgeable and confident in my field",
-    "explanation": "Highlighting the benefit transforms studying from a chore into an investment in identity. The brain finds behaviors that reinforce a desired self-image more attractive."
+    "explanation": "Highlighting the benefit transforms studying from a chore into an investment in identity. The brain finds behaviors that reinforce a desired self-image more attractive.",
+    "difficulty": "medium"
   }
 ]

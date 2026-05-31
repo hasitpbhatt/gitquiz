@@ -3,80 +3,140 @@
     "question": "The Core Philosophy",
     "content": "The central argument of the book is that financial success is not a 'hard science' like physics; it is a 'soft skill' where your behavior is more important than your technical knowledge. You can be a genius and go broke, or a person with no formal training and become wealthy.",
     "description": "If you had to summarize the most important factor for long-term wealth according to Morgan Housel, which would it be?",
-    "options": ["A high IQ and ability to calculate complex math.", "Mastering your own ego and emotional reactions.", "Access to exclusive, high-growth investment deals.", "Predicting market trends before they happen."],
+    "options": [
+      "A high IQ and ability to calculate complex math.",
+      "Mastering your own ego and emotional reactions.",
+      "Access to exclusive, high-growth investment deals.",
+      "Predicting market trends before they happen."
+    ],
     "answer": "Mastering your own ego and emotional reactions.",
-    "explanation": "Housel emphasizes that how you behave—your patience, humility, and discipline—is the primary driver of wealth, far outweighing your ability to pick stocks or time the market."
+    "explanation": "Housel emphasizes that how you behave—your patience, humility, and discipline—is the primary driver of wealth, far outweighing your ability to pick stocks or time the market.",
+    "difficulty": "medium"
   },
   {
     "question": "The Power of Not Being 'Crazy'",
     "content": "No one is crazy. People make financial decisions based on their unique life experiences, the era they grew up in, and their personal fears. What looks irrational to you likely makes perfect sense to the person doing it.",
     "description": "How should an Instructional Designer apply the 'No One is Crazy' rule when giving or receiving financial advice?",
-    "options": ["Assume people who disagree with you lack intelligence.", "Realize that advice is context-dependent and what works for one person’s history might not work for another’s.", "Try to convince everyone to follow the same 'perfect' spreadsheet.", "Ignore personal history and focus only on current market data."],
+    "options": [
+      "Assume people who disagree with you lack intelligence.",
+      "Realize that advice is context-dependent and what works for one person’s history might not work for another’s.",
+      "Try to convince everyone to follow the same 'perfect' spreadsheet.",
+      "Ignore personal history and focus only on current market data."
+    ],
     "answer": "Realize that advice is context-dependent and what works for one person’s history might not work for another’s.",
-    "explanation": "Understanding that everyone has a different lens helps you find a strategy that is 'reasonable' for your specific temperament rather than one that is 'rationally' perfect for a stranger."
+    "explanation": "Understanding that everyone has a different lens helps you find a strategy that is 'reasonable' for your specific temperament rather than one that is 'rationally' perfect for a stranger.",
+    "difficulty": "medium"
   },
   {
     "question": "Compounding's Silent Start",
     "content": "Compounding is like a giant snowball that starts as a tiny speck. Most of the growth happens at the very end of the hill, but only if the snowball isn't interrupted along the way.",
     "description": "What is the most common mistake investors make that destroys the power of compounding?",
-    "options": ["Not checking their portfolio every day.", "Starting with too small an amount of money.", "Unnecessarily interrupting the process due to panic or boredom.", "Paying too much attention to long-term trends."],
+    "options": [
+      "Not checking their portfolio every day.",
+      "Starting with too small an amount of money.",
+      "Unnecessarily interrupting the process due to panic or boredom.",
+      "Paying too much attention to long-term trends."
+    ],
     "answer": "Unnecessarily interrupting the process due to panic or boredom.",
-    "explanation": "The 'price' of compounding is the ability to endure boring periods and scary downturns without selling. If you stop the clock, you reset the exponential curve."
+    "explanation": "The 'price' of compounding is the ability to endure boring periods and scary downturns without selling. If you stop the clock, you reset the exponential curve.",
+    "difficulty": "medium"
   },
   {
     "question": "Wealth vs. Being Rich",
     "content": "Richness is a current income—it's the fancy car and the big house you see. Wealth is hidden—it's the income not spent, the options not yet exercised, and the freedom to do what you want.",
     "description": "Which of these acts contributes most directly to building 'Wealth' as Housel defines it?",
-    "options": ["Spending a year's salary on a status symbol to look successful.", "Getting a high-paying job but spending every cent to keep up appearances.", "Keeping your ego in check and saving money you could have spent.", "Increasing your debt to buy assets that look expensive."],
+    "options": [
+      "Spending a year's salary on a status symbol to look successful.",
+      "Getting a high-paying job but spending every cent to keep up appearances.",
+      "Keeping your ego in check and saving money you could have spent.",
+      "Increasing your debt to buy assets that look expensive."
+    ],
     "answer": "Keeping your ego in check and saving money you could have spent.",
-    "explanation": "Wealth is the 'un-spent' portion of your earnings. It provides the 'invisible' dividends of safety, options, and time."
+    "explanation": "Wealth is the 'un-spent' portion of your earnings. It provides the 'invisible' dividends of safety, options, and time.",
+    "difficulty": "hard"
   },
   {
     "question": "The Goal of 'Enough'",
     "content": "The hardest financial skill is getting the goalposts to stop moving. If you don't define what 'enough' is, you will eventually risk things you need for things you don't.",
     "description": "A billionaire commits fraud to turn $1 billion into $2 billion. According to the book, what is their primary psychological failure?",
-    "options": ["They weren't aggressive enough in their legal investments.", "They lacked a sense of 'enough,' risking their freedom and reputation for a number that didn't change their life.", "They were victims of a bad market cycle.", "They didn't have a high enough savings rate."],
+    "options": [
+      "They weren't aggressive enough in their legal investments.",
+      "They lacked a sense of 'enough,' risking their freedom and reputation for a number that didn't change their life.",
+      "They were victims of a bad market cycle.",
+      "They didn't have a high enough savings rate."
+    ],
     "answer": "They lacked a sense of 'enough,' risking their freedom and reputation for a number that didn't change their life.",
-    "explanation": "Knowing when you have enough allows you to protect what is priceless (like reputation) rather than chasing marginal gains that add no value to your happiness."
+    "explanation": "Knowing when you have enough allows you to protect what is priceless (like reputation) rather than chasing marginal gains that add no value to your happiness.",
+    "difficulty": "hard"
   },
   {
     "question": "Surviving the Tail Events",
     "content": "A few outlier events (tails) drive the majority of results in history and investing. Most of the time, nothing interesting happens; then, a few days or months change everything.",
     "description": "How do you prepare your finances for 'tail events' like market crashes or global surprises?",
-    "options": ["Try to predict exactly when they will occur using history.", "Build a 'margin of safety' (cash, low debt) so you can survive the bad tails and stay in for the good ones.", "Only invest in the single most popular tech company.", "Move all your money to a savings account and stay there forever."],
+    "options": [
+      "Try to predict exactly when they will occur using history.",
+      "Build a 'margin of safety' (cash, low debt) so you can survive the bad tails and stay in for the good ones.",
+      "Only invest in the single most popular tech company.",
+      "Move all your money to a savings account and stay there forever."
+    ],
     "answer": "Build a 'margin of safety' (cash, low debt) so you can survive the bad tails and stay in for the good ones.",
-    "explanation": "Since you can't predict outliers, you must build a resilient life that can survive a wide range of outcomes. Survival is the key to winning the 'long game'."
+    "explanation": "Since you can't predict outliers, you must build a resilient life that can survive a wide range of outcomes. Survival is the key to winning the 'long game'.",
+    "difficulty": "hard"
   },
   {
     "question": "The Dividend of Time",
     "content": "The highest form of wealth is the ability to wake up every morning and say, 'I can do whatever I want today.' Control over your time is the best predictor of happiness.",
     "description": "Why should you prioritize savings even if you don't have a specific purchase in mind?",
-    "options": ["Because the bank will give you a higher credit score.", "Because savings buy you 'optionality' and the power to control your own schedule.", "Because spending money is always a bad idea.", "Because it's the only way to beat the billionaire class."],
+    "options": [
+      "Because the bank will give you a higher credit score.",
+      "Because savings buy you 'optionality' and the power to control your own schedule.",
+      "Because spending money is always a bad idea.",
+      "Because it's the only way to beat the billionaire class."
+    ],
     "answer": "Because savings buy you 'optionality' and the power to control your own schedule.",
-    "explanation": "Unspent money gives you the power to wait for the right job, take a break, or avoid a crisis without desperation. That control is worth more than any object."
+    "explanation": "Unspent money gives you the power to wait for the right job, take a break, or avoid a crisis without desperation. That control is worth more than any object.",
+    "difficulty": "hard"
   },
   {
     "question": "Reasonable Over Rational",
     "content": "A plan that is mathematically perfect but emotionally unbearable will fail. A 'reasonable' plan that accounts for your humanity is the one you will actually stick to.",
     "description": "Why might an investor choose to keep 20% of their money in cash even if inflation is high?",
-    "options": ["Because they are bad at math.", "Because having that cash prevents them from panicking and selling their stocks during a market dip.", "Because cash is a better long-term investment than stocks.", "Because the law requires them to keep cash."],
+    "options": [
+      "Because they are bad at math.",
+      "Because having that cash prevents them from panicking and selling their stocks during a market dip.",
+      "Because cash is a better long-term investment than stocks.",
+      "Because the law requires them to keep cash."
+    ],
     "answer": "Because having that cash prevents them from panicking and selling their stocks during a market dip.",
-    "explanation": "If the cash provides 'emotional insurance' that keeps you from making a massive mistake (selling at the bottom), it is a 'reasonable' and effective choice."
+    "explanation": "If the cash provides 'emotional insurance' that keeps you from making a massive mistake (selling at the bottom), it is a 'reasonable' and effective choice.",
+    "difficulty": "hard"
   },
   {
     "question": "The Seduction of Pessimism",
     "content": "Pessimism sounds smarter and more urgent than optimism. But progress is a slow process of compounding improvements that are often quiet and invisible in the short term.",
     "description": "When the news is full of 'end-of-the-world' predictions, what should a long-term investor remember?",
-    "options": ["Pessimists are usually right in the long run.", "Progress happens slowly through thousands of small adaptations that don't make the headlines.", "They should sell everything until the news becomes positive again.", "The news is always 100% accurate about future risks."],
+    "options": [
+      "Pessimists are usually right in the long run.",
+      "Progress happens slowly through thousands of small adaptations that don't make the headlines.",
+      "They should sell everything until the news becomes positive again.",
+      "The news is always 100% accurate about future risks."
+    ],
     "answer": "Progress happens slowly through thousands of small adaptations that don't make the headlines.",
-    "explanation": "Destruction is dramatic and fast; growth is slow and boring. Over decades, the slow growth of human ingenuity consistently outweighs the fast spikes of destruction."
+    "explanation": "Destruction is dramatic and fast; growth is slow and boring. Over decades, the slow growth of human ingenuity consistently outweighs the fast spikes of destruction.",
+    "difficulty": "hard"
   },
   {
     "question": "Nothing is Free",
     "content": "Every gain has a price. In the stock market, the price isn't dollars—it's uncertainty, fear, and volatility. If you want the returns, you have to be willing to pay the 'fee'.",
     "description": "What is the best way to handle a 20% drop in your portfolio's value?",
-    "options": ["View it as a 'fine' for a mistake and exit the market.", "View it as a 'price of admission' for the long-term gains you are seeking.", "Try to find a way to never experience a drop again.", "Blame your financial advisor for the loss."],
+    "options": [
+      "View it as a 'fine' for a mistake and exit the market.",
+      "View it as a 'price of admission' for the long-term gains you are seeking.",
+      "Try to find a way to never experience a drop again.",
+      "Blame your financial advisor for the loss."
+    ],
     "answer": "View it as a 'price of admission' for the long-term gains you are seeking.",
-    "explanation": "Once you accept that volatility is the cost of doing business, it loses its power to scare you. You stop being a victim and start being a participant."
+    "explanation": "Once you accept that volatility is the cost of doing business, it loses its power to scare you. You stop being a victim and start being a participant.",
+    "difficulty": "hard"
   }
 ]

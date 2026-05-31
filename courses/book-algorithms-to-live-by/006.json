@@ -10,7 +10,8 @@
       "The product will be perfect for everyone"
     ],
     "answer": "The product may become overfitted to that user\\'s specific needs, making it less appealing to the broader market",
-    "explanation": "Just like in machine learning, optimizing too narrowly to one data point (or user) captures that user\\'s peculiarities rather than general patterns. The product may work perfectly for that user but fail to appeal to others with different needs."
+    "explanation": "Just like in machine learning, optimizing too narrowly to one data point (or user) captures that user\\'s peculiarities rather than general patterns. The product may work perfectly for that user but fail to appeal to others with different needs.",
+    "difficulty": "medium"
   },
   {
     "question": "Regularization",
@@ -23,7 +24,8 @@
       "Animation is never problematic"
     ],
     "answer": "Regularization - removing unnecessary complexity to improve general usability and performance",
-    "explanation": "Like L1/L2 regularization in machine learning that penalizes complexity, the designer is applying Occam\\'s Razor principle: preferring simpler solutions that work well over complex ones that may be brittle or confusing to most users."
+    "explanation": "Like L1/L2 regularization in machine learning that penalizes complexity, the designer is applying Occam\\'s Razor principle: preferring simpler solutions that work well over complex ones that may be brittle or confusing to most users.",
+    "difficulty": "medium"
   },
   {
     "question": "\"Less-is-More\" Effect",
@@ -36,7 +38,8 @@
       "Ask the crowd for advice on each shot"
     ],
     "answer": "Rely on muscle memory and practiced routine rather than overthinking mechanics in the moment",
-    "explanation": "In high-pressure situations, over-analysis can lead to paralysis. Trusting trained intuition (like a regularized model) often yields better results than trying to optimize every variable in real-time."
+    "explanation": "In high-pressure situations, over-analysis can lead to paralysis. Trusting trained intuition (like a regularized model) often yields better results than trying to optimize every variable in real-time.",
+    "difficulty": "medium"
   },
   {
     "question": "Constraint Relaxation",
@@ -49,7 +52,8 @@
       "Hope the constraint disappears on its own"
     ],
     "answer": "Temporarily ease the budget constraint to explore solutions, then adjust the findings to fit the original limit",
-    "explanation": "Like relaxation techniques in optimization, temporarily loosening a constraint can reveal solution paths that are invisible when the constraint is held strictly. The relaxed solution can then be adapted or projected back to fit the original constraints."
+    "explanation": "Like relaxation techniques in optimization, temporarily loosening a constraint can reveal solution paths that are invisible when the constraint is held strictly. The relaxed solution can then be adapted or projected back to fit the original constraints.",
+    "difficulty": "medium"
   },
   {
     "question": "Continuous Relaxation",
@@ -62,7 +66,8 @@
       "Never plan any trips because they\\'re too complex"
     ],
     "answer": "Treat travel times as flexible blocks that can be adjusted, then fix them to specific schedules afterward",
-    "explanation": "Instead of agonizing over exact minute-by-minute scheduling, treat time allocations as adjustable blocks. Find a good overall distribution, then refine to specific times - similar to how integer programming uses continuous relaxation."
+    "explanation": "Instead of agonizing over exact minute-by-minute scheduling, treat time allocations as adjustable blocks. Find a good overall distribution, then refine to specific times - similar to how integer programming uses continuous relaxation.",
+    "difficulty": "medium"
   },
   {
     "question": "Cross-Validation",
@@ -75,7 +80,8 @@
       "Use the exact same customers for testing and final deployment"
     ],
     "answer": "Test the pitch on an entirely different demographic group than their usual customers",
-    "explanation": "Like cross-validation in machine learning, testing on a genuinely different population (out-of-sample) gives a better estimate of real-world performance than testing only on familiar data that may have influenced the approach\\'s development."
+    "explanation": "Like cross-validation in machine learning, testing on a genuinely different population (out-of-sample) gives a better estimate of real-world performance than testing only on familiar data that may have influenced the approach\\'s development.",
+    "difficulty": "hard"
   },
   {
     "question": "\"Gradually, then Suddenly\" Shift",
@@ -88,7 +94,8 @@
       "The documentation will spontaneously disappear"
     ],
     "answer": "Small increases in required documentation could eventually cause massive backlogs and process gridlock",
-    "explanation": "Like phase transitions in physics, gradual increases in friction or requirements can accumulate until a critical threshold is reached, after which the system behavior changes dramatically and suddenly - often to a much worse state."
+    "explanation": "Like phase transitions in physics, gradual increases in friction or requirements can accumulate until a critical threshold is reached, after which the system behavior changes dramatically and suddenly - often to a much worse state.",
+    "difficulty": "hard"
   },
   {
     "question": "Occam\\'s Razor",
@@ -101,7 +108,8 @@
       "Flip a coin to decide which illnesses the patient has"
     ],
     "answer": "Prefer the single diagnosis that explains all symptoms if it\\'s scientifically plausible",
-    "explanation": "Occam\\'s Razor favors explanations with fewer moving parts. If one condition like influenza can plausibly cause all observed symptoms, it\\'s preferable to diagnosing three separate unrelated conditions unless evidence strongly suggests otherwise."
+    "explanation": "Occam\\'s Razor favors explanations with fewer moving parts. If one condition like influenza can plausibly cause all observed symptoms, it\\'s preferable to diagnosing three separate unrelated conditions unless evidence strongly suggests otherwise.",
+    "difficulty": "hard"
   },
   {
     "question": "Early Stopping",
@@ -114,6 +122,7 @@
       "Delete the chapter and start over from scratch"
     ],
     "answer": "Stop editing and move on - further changes are likely to decrease quality rather than improve it",
-    "explanation": "Like early stopping in machine learning that halts training when validation performance plateaus, recognizing when additional work degrades rather than improves quality is crucial for knowing when to declare a creative work finished."
+    "explanation": "Like early stopping in machine learning that halts training when validation performance plateaus, recognizing when additional work degrades rather than improves quality is crucial for knowing when to declare a creative work finished.",
+    "difficulty": "hard"
   }
 ]

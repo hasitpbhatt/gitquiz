@@ -10,7 +10,8 @@
       "Ask the LLM to predict the exact price of the S&P 500 one year from today."
     ],
     "answer": "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score as a new signal.",
-    "explanation": "LLMs excel at sentiment analysis. By transforming the qualitative 'tone' of a report into a quantitative score, you provide your algorithm with data it previously couldn't understand."
+    "explanation": "LLMs excel at sentiment analysis. By transforming the qualitative 'tone' of a report into a quantitative score, you provide your algorithm with data it previously couldn't understand.",
+    "difficulty": "easy"
   },
   {
     "question": "Retrieval-Augmented Generation (RAG) for Market Analysis",
@@ -23,7 +24,8 @@
       "Asking the AI to be 'very sure' before it answers."
     ],
     "answer": "Implementing a RAG system that pulls data directly from verified financial databases.",
-    "explanation": "RAG connects the AI to a 'source of truth,' ensuring the numbers it discusses are retrieved from actual financial records rather than its internal training weights."
+    "explanation": "RAG connects the AI to a 'source of truth,' ensuring the numbers it discusses are retrieved from actual financial records rather than its internal training weights.",
+    "difficulty": "easy"
   },
   {
     "question": "Zero-Shot vs. Few-Shot Prompting in Trading",
@@ -36,7 +38,8 @@
       "Increase the temperature setting of the model to 1.0."
     ],
     "answer": "Provide 3-5 examples of headlines and the expected JSON output in the prompt.",
-    "explanation": "Few-shot prompting (providing examples) is a powerful way to teach the model a specific pattern or formatting requirement that it might miss with a general instruction."
+    "explanation": "Few-shot prompting (providing examples) is a powerful way to teach the model a specific pattern or formatting requirement that it might miss with a general instruction.",
+    "difficulty": "easy"
   },
   {
     "question": "AI Agents for Strategy Execution",
@@ -49,7 +52,8 @@
       "Agents eliminate the need for risk management parameters."
     ],
     "answer": "Agents can adapt to unexpected information by 'reasoning' through the next best step if the primary source is down.",
-    "explanation": "Unlike rigid scripts, agents can use logic to navigate obstacles, such as trying an alternative data source if the first one fails to return a result."
+    "explanation": "Unlike rigid scripts, agents can use logic to navigate obstacles, such as trying an alternative data source if the first one fails to return a result.",
+    "difficulty": "easy"
   },
   {
     "question": "Synthetic Data Generation for Backtesting",
@@ -62,7 +66,8 @@
       "It can tell you which stocks will go up tomorrow based on its intuition."
     ],
     "answer": "It can generate realistic, synthetic market scenarios that simulate 1970s-style inflation for stress testing.",
-    "explanation": "Synthetic data allows traders to 'stress test' their algorithms against scenarios that aren't present in their recent historical datasets."
+    "explanation": "Synthetic data allows traders to 'stress test' their algorithms against scenarios that aren't present in their recent historical datasets.",
+    "difficulty": "easy"
   },
   {
     "question": "Vector Databases in Finance",
@@ -75,7 +80,8 @@
       "A basic SQL database using keyword matching."
     ],
     "answer": "A vector database storing embeddings of the reports.",
-    "explanation": "Vector databases search by meaning rather than keywords, making them perfect for finding conceptual matches across thousands of documents."
+    "explanation": "Vector databases search by meaning rather than keywords, making them perfect for finding conceptual matches across thousands of documents.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of Fine-Tuning in Finance",
@@ -88,7 +94,8 @@
       "Fine-tuning should never be used in finance."
     ],
     "answer": "When they need the model to learn a very specific professional 'shorthand' or jargon used only in their niche market.",
-    "explanation": "Fine-tuning is best for teaching a model a new 'language' or style, while RAG is better for providing the model with specific, updated facts."
+    "explanation": "Fine-tuning is best for teaching a model a new 'language' or style, while RAG is better for providing the model with specific, updated facts.",
+    "difficulty": "easy"
   },
   {
     "question": "Hallucinations and Risk Management",
@@ -101,7 +108,8 @@
       "Assume the AI is always wrong and do the opposite of what it says."
     ],
     "answer": "Program a cross-check where the AI must provide a direct quote and page number from the source for every claim.",
-    "explanation": "Requiring citations (verifiability) is a key risk management technique to ensure the AI's output is grounded in reality."
+    "explanation": "Requiring citations (verifiability) is a key risk management technique to ensure the AI's output is grounded in reality.",
+    "difficulty": "easy"
   },
   {
     "question": "Sentiment Analysis and Alpha Generation",
@@ -114,7 +122,8 @@
       "Irrelevant noise that should be ignored."
     ],
     "answer": "A sentiment-based alpha signal that may predict a future price drop.",
-    "explanation": "Subtle linguistic cues can reveal underlying business stress that hasn't hit the financial statements yet, providing an edge (alpha) to the trader."
+    "explanation": "Subtle linguistic cues can reveal underlying business stress that hasn't hit the financial statements yet, providing an edge (alpha) to the trader.",
+    "difficulty": "easy"
   },
   {
     "question": "Prompt Chaining for Complex Strategies",
@@ -127,6 +136,7 @@
       "Use a different AI model for every single letter of S.W.O.T."
     ],
     "answer": "Chain prompts: first ask for Strengths, then use that to find Weaknesses, and so on.",
-    "explanation": "Chaining allows the model to focus its 'attention' on one specific sub-task at a time, leading to much higher quality and more detailed analysis."
+    "explanation": "Chaining allows the model to focus its 'attention' on one specific sub-task at a time, leading to much higher quality and more detailed analysis.",
+    "difficulty": "easy"
   }
 ]

@@ -10,7 +10,8 @@
       "Neither explanation is good"
     ],
     "answer": "Friend A's explanation, because it specifies a testable mechanism",
-    "explanation": "Friend A's explanation points to a specific, testable cause (battery drain from lights). Friend B's explanation invokes an unverifiable gremlin that could 'explain' any outcome equally well - making it a bad explanation that's easy to vary."
+    "explanation": "Friend A's explanation points to a specific, testable cause (battery drain from lights). Friend B's explanation invokes an unverifiable gremlin that could 'explain' any outcome equally well - making it a bad explanation that's easy to vary.",
+    "difficulty": "easy"
   },
   {
     "question": "Bad Explanations",
@@ -23,7 +24,8 @@
       "A conjecture that needs refutation"
     ],
     "answer": "A bad explanation because it fits any outcome",
-    "explanation": "The weather app's statement is always correct but provides zero predictive value because it accommodates both rain and no rain equally well. Good explanations constrain what could happen - this one doesn't."
+    "explanation": "The weather app's statement is always correct but provides zero predictive value because it accommodates both rain and no rain equally well. Good explanations constrain what could happen - this one doesn't.",
+    "difficulty": "easy"
   },
   {
     "question": "Reach of Explanations",
@@ -36,7 +38,8 @@
       "Why Newton was wrong about gravity"
     ],
     "answer": "How explanations can have surprising reach",
-    "explanation": "Newton's law of gravitation, developed to explain falling apples, also precisely predicts planetary motion - showing how a single explanation can have enormous reach across vastly different domains and scales."
+    "explanation": "Newton's law of gravitation, developed to explain falling apples, also precisely predicts planetary motion - showing how a single explanation can have enormous reach across vastly different domains and scales.",
+    "difficulty": "easy"
   },
   {
     "question": "Explanation vs. Prediction",
@@ -49,7 +52,8 @@
       "An explanation with limited reach"
     ],
     "answer": "Knowledge without explanation - merely instrumental",
-    "explanation": "The bot may predict well but offers no understanding of market mechanisms. Without explanatory power, it's merely a reliable instrument - not scientific knowledge which requires understanding why things happen."
+    "explanation": "The bot may predict well but offers no understanding of market mechanisms. Without explanatory power, it's merely a reliable instrument - not scientific knowledge which requires understanding why things happen.",
+    "difficulty": "easy"
   },
   {
     "question": "Conjecture and Refutation",
@@ -62,7 +66,8 @@
       "Inductive reasoning"
     ],
     "answer": "The process of conjecture and refutation",
-    "explanation": "You formed a conjecture (accident causing traffic), encountered evidence refuting it (no accident, but construction), and revised your belief. This exemplifies Popper's conjecture-refutation cycle central to knowledge growth."
+    "explanation": "You formed a conjecture (accident causing traffic), encountered evidence refuting it (no accident, but construction), and revised your belief. This exemplifies Popper's conjecture-refutation cycle central to knowledge growth.",
+    "difficulty": "easy"
   },
   {
     "question": "The Problem of Induction",
@@ -75,7 +80,8 @@
       "That the sun doesn't actually rise"
     ],
     "answer": "Induction's logical weakness - past patterns don't guarantee futures",
-    "explanation": "While the sun has risen every observed day, this doesn't logically guarantee it will rise tomorrow - especially since we know there are places/times where it doesn't. Induction assumes what it tries to prove."
+    "explanation": "While the sun has risen every observed day, this doesn't logically guarantee it will rise tomorrow - especially since we know there are places/times where it doesn't. Induction assumes what it tries to prove.",
+    "difficulty": "easy"
   },
   {
     "question": "Authority vs. Reason",
@@ -88,7 +94,8 @@
       "Confirmation bias"
     ],
     "answer": "Reason overriding authority",
-    "explanation": "Instead of accepting the celebrity's claim on authority, you seek evidence and explanations yourself. This embodies the Enlightenment ideal of judging ideas by reason and evidence, not status or fame."
+    "explanation": "Instead of accepting the celebrity's claim on authority, you seek evidence and explanations yourself. This embodies the Enlightenment ideal of judging ideas by reason and evidence, not status or fame.",
+    "difficulty": "easy"
   },
   {
     "question": "Value of Being Wrong",
@@ -101,7 +108,8 @@
       "The importance of following recipes exactly"
     ],
     "answer": "How failure can teach more than success",
-    "explanation": "When a recipe fails, you must investigate why - learning about ingredient interactions, temperatures, and chemical reactions. Success often reinforces existing knowledge; productive failure creates new understanding."
+    "explanation": "When a recipe fails, you must investigate why - learning about ingredient interactions, temperatures, and chemical reactions. Success often reinforces existing knowledge; productive failure creates new understanding.",
+    "difficulty": "easy"
   },
   {
     "question": "Hard-to-Vary Criteria",
@@ -114,6 +122,7 @@
       "Neither makes any explanation at all"
     ],
     "answer": "The second, because it specifies a precise, testable mechanism",
-    "explanation": "'Filters 99% of contaminants' is hard to vary - change the percentage or mechanism and the explanation breaks. 'Change your life' is vague and flexible - it could 'explain' any outcome equally well, making it a bad explanation."
+    "explanation": "'Filters 99% of contaminants' is hard to vary - change the percentage or mechanism and the explanation breaks. 'Change your life' is vague and flexible - it could 'explain' any outcome equally well, making it a bad explanation.",
+    "difficulty": "easy"
   }
 ]

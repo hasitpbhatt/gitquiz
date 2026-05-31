@@ -3,33 +3,57 @@
     "question": "The Nature of a Financial Crisis",
     "content": "A financial crisis is a situation where the value of financial institutions or assets drops rapidly. These are often characterized by a 'liquidity crunch,' where businesses and individuals cannot get the cash they need to operate, leading to a self-reinforcing downward spiral in the economy.",
     "description": "During a market panic, an otherwise healthy company cannot get a short-term loan to pay its employees because all the banks have stopped lending to each other. This specific problem is known as:",
-    "options": ["A Liquidity Crisis", "A Dividend Cut", "A Capital Gain", "A Stock Split"],
+    "options": [
+      "A Liquidity Crisis",
+      "A Dividend Cut",
+      "A Capital Gain",
+      "A Stock Split"
+    ],
     "answer": "A Liquidity Crisis",
-    "explanation": "A liquidity crisis occurs when there is a sudden shortage of cash in the system. Even if a company has valuable assets (like factories), it can fail if it cannot access 'liquid' cash to meet its immediate obligations."
+    "explanation": "A liquidity crisis occurs when there is a sudden shortage of cash in the system. Even if a company has valuable assets (like factories), it can fail if it cannot access 'liquid' cash to meet its immediate obligations.",
+    "difficulty": "medium"
   },
   {
     "question": "Contagion in Global Markets",
     "content": "Contagion is the spread of an economic crisis from one market or region to others. Because the global financial system is highly interconnected through trade and investment, a bank failure in Europe can quickly cause a stock market crash in Asia or America.",
     "description": "If a debt crisis in a small emerging economy causes investors to panic and pull their money out of all similar economies simultaneously, what phenomenon are we witnessing?",
-    "options": ["Diversification", "Financial Contagion", "Market Equilibrium", "Hedging"],
+    "options": [
+      "Diversification",
+      "Financial Contagion",
+      "Market Equilibrium",
+      "Hedging"
+    ],
     "answer": "Financial Contagion",
-    "explanation": "Contagion reflects how fear and instability spread across borders. Investors often treat similar assets as a single group; when one fails, they sell the others to reduce risk, spreading the crisis globally."
+    "explanation": "Contagion reflects how fear and instability spread across borders. Investors often treat similar assets as a single group; when one fails, they sell the others to reduce risk, spreading the crisis globally.",
+    "difficulty": "medium"
   },
   {
     "question": "The Minsky Moment",
     "content": "Named after economist Hyman Minsky, a 'Minsky Moment' is a sudden collapse of asset values after a long period of prosperity and increasing debt. It occurs when over-indebted investors are forced to sell their assets to pay back loans, causing prices to plummet.",
     "description": "After years of rising home prices, investors have taken on massive loans they can only pay back if prices keep rising. When prices stop growing, they all sell at once to cover their debts. This collapse is a:",
-    "options": ["Bull Market", "Minsky Moment", "Fiscal Stimulus", "Pareto Efficiency"],
+    "options": [
+      "Bull Market",
+      "Minsky Moment",
+      "Fiscal Stimulus",
+      "Pareto Efficiency"
+    ],
     "answer": "Minsky Moment",
-    "explanation": "The Minsky Moment describes the point where the 'house of cards' built on debt falls down. It highlights that stability can actually lead to instability by encouraging excessive risk-taking."
+    "explanation": "The Minsky Moment describes the point where the 'house of cards' built on debt falls down. It highlights that stability can actually lead to instability by encouraging excessive risk-taking.",
+    "difficulty": "medium"
   },
   {
     "question": "The Role of Stress Testing",
     "content": "Stress testing is a simulation conducted by regulators to see if a bank has enough capital to survive a hypothetical economic disaster, such as a 10% spike in unemployment or a 30% drop in the stock market. It is a preventive measure to ensure resilience.",
     "description": "The Federal Reserve runs a 'what-if' computer model on the nation's largest banks to see if they would stay solvent during a global pandemic. What is this process called?",
-    "options": ["An Audit", "A Stress Test", "Quantitative Easing", "Underwriting"],
+    "options": [
+      "An Audit",
+      "A Stress Test",
+      "Quantitative Easing",
+      "Underwriting"
+    ],
     "answer": "A Stress Test",
-    "explanation": "Stress tests are the financial equivalent of a 'fire drill.' They ensure that banks are robust enough to withstand extreme shocks without needing a taxpayer-funded bailout."
+    "explanation": "Stress tests are the financial equivalent of a 'fire drill.' They ensure that banks are robust enough to withstand extreme shocks without needing a taxpayer-funded bailout.",
+    "difficulty": "medium"
   },
   {
     "question": "The Basel Accords",
@@ -42,15 +66,22 @@
       "To eliminate the need for central banks"
     ],
     "answer": "To prevent a 'race to the bottom' where banks move to countries with the weakest rules to take more risk",
-    "explanation": "International standards like Basel prevent 'regulatory arbitrage.' By having global rules, the system ensures that a failure in one poorly regulated country doesn't bring down the global financial network."
+    "explanation": "International standards like Basel prevent 'regulatory arbitrage.' By having global rules, the system ensures that a failure in one poorly regulated country doesn't bring down the global financial network.",
+    "difficulty": "hard"
   },
   {
     "question": "Austerity vs. Stimulus",
     "content": "During a recession, governments debate two paths: Austerity (cutting spending to reduce debt) or Stimulus (increasing spending to jumpstart the economy). The choice often depends on whether the priority is long-term debt stability or immediate economic survival.",
     "description": "During a deep economic slump, the government decides to build thousands of miles of new high-speed rail to create jobs and increase demand. This is an example of:",
-    "options": ["Austerity", "Stimulus", "Monetary Tightening", "Short Selling"],
+    "options": [
+      "Austerity",
+      "Stimulus",
+      "Monetary Tightening",
+      "Short Selling"
+    ],
     "answer": "Stimulus",
-    "explanation": "Stimulus spending aims to fill the gap left by private consumers who have stopped spending. By injecting money into the economy, the government tries to prevent a 'deflationary spiral'."
+    "explanation": "Stimulus spending aims to fill the gap left by private consumers who have stopped spending. By injecting money into the economy, the government tries to prevent a 'deflationary spiral'.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Zero Lower Bound'",
@@ -63,15 +94,22 @@
       "Because it would cause the stock market to disappear"
     ],
     "answer": "Because people would simply withdraw their cash and hold it physically rather than paying the bank to keep it",
-    "explanation": "This is the 'liquidity trap.' If banks charge you to keep money, you'll just keep cash in a safe. This limit forces central banks to use 'unconventional' tools like Quantitative Easing."
+    "explanation": "This is the 'liquidity trap.' If banks charge you to keep money, you'll just keep cash in a safe. This limit forces central banks to use 'unconventional' tools like Quantitative Easing.",
+    "difficulty": "hard"
   },
   {
     "question": "Financial Ethics and Fiduciary Duty",
     "content": "Fiduciary duty is a legal obligation of one party to act in the best interest of another. In finance, advisors or board members often have a fiduciary duty to their clients or shareholders, meaning they must put the client's financial health above their own profit.",
     "description": "An investment advisor recommends a product that gives them a high commission but is actually a very bad investment for the client. Which principle have they violated?",
-    "options": ["Market Efficiency", "Fiduciary Duty", "Leverage", "Diversification"],
+    "options": [
+      "Market Efficiency",
+      "Fiduciary Duty",
+      "Leverage",
+      "Diversification"
+    ],
     "answer": "Fiduciary Duty",
-    "explanation": "A fiduciary must act with 'undivided loyalty' to the client. Recommending a bad product just to earn a commission is a clear breach of this ethical and legal standard."
+    "explanation": "A fiduciary must act with 'undivided loyalty' to the client. Recommending a bad product just to earn a commission is a clear breach of this ethical and legal standard.",
+    "difficulty": "hard"
   },
   {
     "question": "Sovereign Debt Crises",
@@ -84,7 +122,8 @@
       "Because debt is automatically cancelled when a currency crashes"
     ],
     "answer": "Because the cost of paying back the debt in local currency has effectively skyrocketed",
-    "explanation": "If you earn local 'Pesos' but owe 'Dollars,' and the Peso loses half its value, you now need twice as many Pesos to pay back the same debt. This often triggers a default."
+    "explanation": "If you earn local 'Pesos' but owe 'Dollars,' and the Peso loses half its value, you now need twice as many Pesos to pay back the same debt. This often triggers a default.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Great Moderation' Illusion",
@@ -97,6 +136,7 @@
       "Because prices will eventually drop to zero"
     ],
     "answer": "Because it leads to complacency, lower lending standards, and the accumulation of hidden risks",
-    "explanation": "Stability is destabilizing. When people stop fearing a crash, they take on more debt and stop checking for risks, creating the very conditions that allow a massive crisis to form."
+    "explanation": "Stability is destabilizing. When people stop fearing a crash, they take on more debt and stop checking for risks, creating the very conditions that allow a massive crisis to form.",
+    "difficulty": "hard"
   }
 ]

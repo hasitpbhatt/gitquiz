@@ -10,7 +10,8 @@
       "Multitasking, because she is playing multiple notes"
     ],
     "answer": "Deep work, because she is pushing her cognitive limits in a state of focused concentration",
-    "explanation": "Deep work requires distraction-free concentration on a cognitively demanding task. The violinist is fully engaged in skill development, which creates new value and improves her ability."
+    "explanation": "Deep work requires distraction-free concentration on a cognitively demanding task. The violinist is fully engaged in skill development, which creates new value and improves her ability.",
+    "difficulty": "easy"
   },
   {
     "question": "Shallow Work Definition",
@@ -23,7 +24,8 @@
       "Strategic thinking, because it prepares for future work"
     ],
     "answer": "Shallow work, because it is a routine task that does not push cognitive limits",
-    "explanation": "Shallow work is cognitively undemanding and easily replicated. Alphabetizing files requires minimal specialized skill and does not create significant new value."
+    "explanation": "Shallow work is cognitively undemanding and easily replicated. Alphabetizing files requires minimal specialized skill and does not create significant new value.",
+    "difficulty": "easy"
   },
   {
     "question": "The Deep Work Hypothesis",
@@ -36,7 +38,8 @@
       "She is falling behind because collaboration requires constant availability"
     ],
     "answer": "She is well-positioned because the rare skill of intense focus produces high-value, hard-to-replicate work",
-    "explanation": "The hypothesis predicts that as distraction becomes the norm, the minority who maintain deep focus will produce rare, valuable output that is increasingly prized in the economy."
+    "explanation": "The hypothesis predicts that as distraction becomes the norm, the minority who maintain deep focus will produce rare, valuable output that is increasingly prized in the economy.",
+    "difficulty": "easy"
   },
   {
     "question": "The Great Restructuring",
@@ -49,7 +52,8 @@
       "None; she will eventually be replaced regardless"
     ],
     "answer": "High-skilled workers who can work creatively with intelligent machines",
-    "explanation": "The Great Restructuring rewards those who can leverage technology rather than compete with it. By using deep work to master the AI and apply it to higher-level problems, she joins the high-skilled group."
+    "explanation": "The Great Restructuring rewards those who can leverage technology rather than compete with it. By using deep work to master the AI and apply it to higher-level problems, she joins the high-skilled group.",
+    "difficulty": "easy"
   },
   {
     "question": "Attention Residue",
@@ -62,7 +66,8 @@
       "The ingredients are arranged poorly on her workstation"
     ],
     "answer": "Attention residue from the interrupted tasks is occupying her mental bandwidth",
-    "explanation": "Every interruption leaves cognitive residue. By splitting her attention across multiple tasks, the chef never fully commits her mental resources to the sauce, leading to errors."
+    "explanation": "Every interruption leaves cognitive residue. By splitting her attention across multiple tasks, the chef never fully commits her mental resources to the sauce, leading to errors.",
+    "difficulty": "easy"
   },
   {
     "question": "The Deep Work Formula",
@@ -75,7 +80,8 @@
       "The formula only applies to knowledge work, not creative fields"
     ],
     "answer": "Photographer B will likely produce higher quality work because intensity multiplies output",
-    "explanation": "Intensity of focus acts as a multiplier. Low intensity over many hours yields less valuable output than high intensity over fewer hours, because distracted work lacks the depth needed for elite results."
+    "explanation": "Intensity of focus acts as a multiplier. Low intensity over many hours yields less valuable output than high intensity over fewer hours, because distracted work lacks the depth needed for elite results.",
+    "difficulty": "easy"
   },
   {
     "question": "The Metric Black Hole",
@@ -88,7 +94,8 @@
       "Employees are secretly working longer hours to compensate"
     ],
     "answer": "The metric black hole prevents managers from seeing that deep work has been sacrificed for visible busyness",
-    "explanation": "Because deep output is hard to measure, managers default to visible metrics like response time. They cannot see the hidden cost: lost capacity for the deep thinking that drives real results."
+    "explanation": "Because deep output is hard to measure, managers default to visible metrics like response time. They cannot see the hidden cost: lost capacity for the deep thinking that drives real results.",
+    "difficulty": "easy"
   },
   {
     "question": "The Law of Least Resistance",
@@ -101,7 +108,8 @@
       "Responding to comments generates more revenue directly"
     ],
     "answer": "The Law of Least Resistance: the brain gravitates toward the easier task in the moment",
-    "explanation": "Without clear feedback that strategy drives more value than comments, the brain defaults to the easier activity. Overcoming this requires conscious systems that make deep work the path of least resistance."
+    "explanation": "Without clear feedback that strategy drives more value than comments, the brain defaults to the easier activity. Overcoming this requires conscious systems that make deep work the path of least resistance.",
+    "difficulty": "easy"
   },
   {
     "question": "Busyness as a Proxy for Productivity",
@@ -114,7 +122,8 @@
       "Neither; leadership values neither visibility nor results"
     ],
     "answer": "The new employee, because their visible busyness is easier to measure than actual deep output",
-    "explanation": "In a metric black hole, visible activity becomes the proxy for productivity. The senior colleague's deep work is invisible, while the new employee's busyness creates the appearance of high productivity."
+    "explanation": "In a metric black hole, visible activity becomes the proxy for productivity. The senior colleague's deep work is invisible, while the new employee's busyness creates the appearance of high productivity.",
+    "difficulty": "easy"
   },
   {
     "question": "The Cult of the Internet",
@@ -127,6 +136,7 @@
       "Parents prefer email over messaging apps"
     ],
     "answer": "The cult of the internet prioritized connectivity over the deep concentration required for effective teaching",
-    "explanation": "Not every profession benefits from constant connectivity. Teaching requires sustained attention to student needs, which is undermined when the teacher's focus is fragmented by tools and notifications."
+    "explanation": "Not every profession benefits from constant connectivity. Teaching requires sustained attention to student needs, which is undermined when the teacher's focus is fragmented by tools and notifications.",
+    "difficulty": "easy"
   }
 ]

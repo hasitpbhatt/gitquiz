@@ -10,7 +10,8 @@
       "The association hasn't found the right cleaning equipment yet."
     ],
     "answer": "The current neglect is serving a hidden purpose, like keeping city resources focused elsewhere.",
-    "explanation": "Systems are designed for their current output. Dysfunction often persists because it provides an unspoken benefit — like maintaining a narrative of 'neglect' to attract external funding or attention."
+    "explanation": "Systems are designed for their current output. Dysfunction often persists because it provides an unspoken benefit — like maintaining a narrative of 'neglect' to attract external funding or attention.",
+    "difficulty": "easy"
   },
   {
     "question": "Technical vs. Adaptive Challenges",
@@ -23,7 +24,8 @@
       "Adaptive, because it involves a financial investment from the whole company."
     ],
     "answer": "Technical, because it applies a tool to a problem that may actually require a shift in strategy or culture.",
-    "explanation": "Software is a technical fix. While helpful, it doesn't solve the 'adaptive' need for the sales team to rethink their value proposition or their approach to customer relationships."
+    "explanation": "Software is a technical fix. While helpful, it doesn't solve the 'adaptive' need for the sales team to rethink their value proposition or their approach to customer relationships.",
+    "difficulty": "easy"
   },
   {
     "question": "Conserving vs. Discarding",
@@ -36,7 +38,8 @@
       "Implement a new set of values immediately to replace the old ones."
     ],
     "answer": "Clearly define which core values must be kept and which specific old habits must be let go.",
-    "explanation": "Adaptation is selective. By clarifying what will be 'conserved,' you reduce the fear of loss and make the 'discarding' of outdated practices more palatable."
+    "explanation": "Adaptation is selective. By clarifying what will be 'conserved,' you reduce the fear of loss and make the 'discarding' of outdated practices more palatable.",
+    "difficulty": "easy"
   },
   {
     "question": "Leadership vs. Authority",
@@ -49,7 +52,8 @@
       "Performing project management by organizing a team."
     ],
     "answer": "Exercising leadership because you are mobilizing others to address a challenge.",
-    "explanation": "Leadership is an action, not a title. Moving a group to tackle a difficult truth—regardless of your rank—is the essence of adaptive leadership."
+    "explanation": "Leadership is an action, not a title. Moving a group to tackle a difficult truth—regardless of your rank—is the essence of adaptive leadership.",
+    "difficulty": "easy"
   },
   {
     "question": "On the Balcony vs. On the Dance Floor",
@@ -62,7 +66,8 @@
       "Technical observation."
     ],
     "answer": "Getting on the balcony.",
-    "explanation": "Identifying patterns of behavior in real-time is the purpose of the balcony. It allows you to step back from the 'action' to see the underlying dynamics."
+    "explanation": "Identifying patterns of behavior in real-time is the purpose of the balcony. It allows you to step back from the 'action' to see the underlying dynamics.",
+    "difficulty": "easy"
   },
   {
     "question": "The Productive Zone of Disequilibrium",
@@ -75,7 +80,8 @@
       "Cancel the training plan until everyone asks for it themselves."
     ],
     "answer": "Introduce gradually harder workouts while offering guidance and recovery days.",
-    "explanation": "You must increase the 'heat' (the challenge) while simultaneously providing a 'holding environment' (support and safety) so the group doesn't burn out or quit."
+    "explanation": "You must increase the 'heat' (the challenge) while simultaneously providing a 'holding environment' (support and safety) so the group doesn't burn out or quit.",
+    "difficulty": "easy"
   },
   {
     "question": "Loss as the Root of Resistance",
@@ -88,7 +94,8 @@
       "He wants to save money by not buying a new phone."
     ],
     "answer": "He fears a loss of his independence and competence associated with mastering familiar technology.",
-    "explanation": "Resistance is often a symptom of feared loss. The father isn't resisting the phone itself; he is protecting his sense of competence and independence that the old device represents."
+    "explanation": "Resistance is often a symptom of feared loss. The father isn't resisting the phone itself; he is protecting his sense of competence and independence that the old device represents.",
+    "difficulty": "easy"
   },
   {
     "question": "Giving the Work Back",
@@ -101,7 +108,8 @@
       "Take the tablet away so nobody gets to use it."
     ],
     "answer": "Tell them they must work out a schedule together that works for both of them.",
-    "explanation": "By refusing to solve the problem for them, you are giving the 'work' (the negotiation and trade-offs) back to the people who own the problem."
+    "explanation": "By refusing to solve the problem for them, you are giving the 'work' (the negotiation and trade-offs) back to the people who own the problem.",
+    "difficulty": "easy"
   },
   {
     "question": "The Experimental Mindset",
@@ -114,7 +122,8 @@
       "It creates competition between teams."
     ],
     "answer": "It allows you to test a hypothesis and gather data before scaling.",
-    "explanation": "Experiments are the primary tool for adaptive work. They provide the evidence needed to navigate challenges where the path forward is unclear."
+    "explanation": "Experiments are the primary tool for adaptive work. They provide the evidence needed to navigate challenges where the path forward is unclear.",
+    "difficulty": "easy"
   },
   {
     "question": "Protecting Voices from the Margin",
@@ -127,6 +136,7 @@
       "Remind the designer to wait until the Q&A session at the end."
     ],
     "answer": "Ask the designer to elaborate on why they think that, protecting their voice.",
-    "explanation": "Protecting 'voices from the margin' is critical because these voices often carry the 'uncomfortable truths' that the organization needs to hear to adapt."
+    "explanation": "Protecting 'voices from the margin' is critical because these voices often carry the 'uncomfortable truths' that the organization needs to hear to adapt.",
+    "difficulty": "easy"
   }
 ]

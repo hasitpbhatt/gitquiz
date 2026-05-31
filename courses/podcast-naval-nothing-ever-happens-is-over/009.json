@@ -10,7 +10,8 @@
       "It replaces the need for any human-to-human interface."
     ],
     "answer": "It makes them more generalist, allowing them to interface with other people's work without needing explicit instructions.",
-    "explanation": "Naval notes that AI lets specialists do a bit of everything, creating better 'touch points' because the AI handles the discovery of how to connect their disparate workflows."
+    "explanation": "Naval notes that AI lets specialists do a bit of everything, creating better 'touch points' because the AI handles the discovery of how to connect their disparate workflows.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Vibe Coding' Democratization",
@@ -23,7 +24,8 @@
       "People stop building software and return to manual labor."
     ],
     "answer": "The value shifts toward people who have the vision and 'vibe' to direct AI agents.",
-    "explanation": "Naval argues that democratized coding means more people can build, which places a premium on the 'judgment' and 'creativity' of the person directing the AI."
+    "explanation": "Naval argues that democratized coding means more people can build, which places a premium on the 'judgment' and 'creativity' of the person directing the AI.",
+    "difficulty": "easy"
   },
   {
     "question": "Jagged Intelligence and World Models",
@@ -36,7 +38,8 @@
       "To prevent the AI from becoming too optimistic."
     ],
     "answer": "To allow the AI to take actions and adjust its behavior based on the results.",
-    "explanation": "Naval emphasizes that a world model isn't just a 3D image; it’s an 'agent' that can test the world, see what happened, and learn from it."
+    "explanation": "Naval emphasizes that a world model isn't just a 3D image; it’s an 'agent' that can test the world, see what happened, and learn from it.",
+    "difficulty": "easy"
   },
   {
     "question": "Hardware Unlocking: The 'Lamp' Example",
@@ -49,7 +52,8 @@
       "By automating the shipping and delivery of the lamps."
     ],
     "answer": "By allowing an AI agent to control the hardware directly, removing the need for custom consumer software.",
-    "explanation": "Naval argues that we may not even need 'apps' for these devices anymore because our personal AI agents will simply interact with the hardware's unlocked software layer."
+    "explanation": "Naval argues that we may not even need 'apps' for these devices anymore because our personal AI agents will simply interact with the hardware's unlocked software layer.",
+    "difficulty": "medium"
   },
   {
     "question": "Economic Incentives for Open Source",
@@ -62,7 +66,8 @@
       "Venture Capitalists who only fund software companies."
     ],
     "answer": "Hardware players including Nvidia and most of China.",
-    "explanation": "Naval explains that hardware-heavy entities benefit most when the software needed to use their hardware is open, free, and widely available."
+    "explanation": "Naval explains that hardware-heavy entities benefit most when the software needed to use their hardware is open, free, and widely available.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Nothing Ever Happens' Meme and Acceleration",
@@ -75,7 +80,8 @@
       "It forced the world to become more centralized and slower."
     ],
     "answer": "It may have broken an unstable equilibrium, leading to a phase shift where everything moves faster.",
-    "explanation": "Naval suggests that post-COVID, the world has entered a period of 'living in interesting times' where technological and geopolitical shifts are occurring at an unprecedented pace."
+    "explanation": "Naval suggests that post-COVID, the world has entered a period of 'living in interesting times' where technological and geopolitical shifts are occurring at an unprecedented pace.",
+    "difficulty": "medium"
   },
   {
     "question": "Biological Risks and Democratized Expertise",
@@ -88,7 +94,8 @@
       "That biological research will become too expensive for the government."
     ],
     "answer": "That the power to create dangerous viruses will be in the hands of far more people than in the past.",
-    "explanation": "Naval’s fear is that lowering the 'knowledge barrier' for biology—just as we did for coding—presents a massive, decentralized security threat."
+    "explanation": "Naval’s fear is that lowering the 'knowledge barrier' for biology—just as we did for coding—presents a massive, decentralized security threat.",
+    "difficulty": "medium"
   },
   {
     "question": "Medical Data Silos and AI",
@@ -101,7 +108,8 @@
       "To make medical school shorter by using AI tutors."
     ],
     "answer": "To analyze massive, anonymized datasets to discover new therapies and stop diseases.",
-    "explanation": "Naval views data as the primary bottleneck; if the AI can 'see' all the medical outcomes in the world, it can discover patterns that humans and bureaucracy miss."
+    "explanation": "Naval views data as the primary bottleneck; if the AI can 'see' all the medical outcomes in the world, it can discover patterns that humans and bureaucracy miss.",
+    "difficulty": "medium"
   },
   {
     "question": "The Duty of Optimism in a Crisis",
@@ -114,7 +122,8 @@
       "There is no difference; both require the same amount of effort."
     ],
     "answer": "Doom is 'legible' and easy to see, while rising up requires 'creativity' and imagining the unknown.",
-    "explanation": "Naval argues that fixating on doom is easy because it’s the end of something known; optimism is a creative act of building something that doesn't yet exist."
+    "explanation": "Naval argues that fixating on doom is easy because it’s the end of something known; optimism is a creative act of building something that doesn't yet exist.",
+    "difficulty": "hard"
   },
   {
     "question": "Distributed Training as a Contrarian Bet",
@@ -127,6 +136,7 @@
       "That open-source AI is the only way to achieve AGI."
     ],
     "answer": "That AI training is moving toward centralization in a few massive data centers due to power and data limits.",
-    "explanation": "Naval notes that the current trend is toward centralization (2-4 companies dominating), but he leaves the door open for a distributed future as a 'what if' scenario."
+    "explanation": "Naval notes that the current trend is toward centralization (2-4 companies dominating), but he leaves the door open for a distributed future as a 'what if' scenario.",
+    "difficulty": "hard"
   }
 ]

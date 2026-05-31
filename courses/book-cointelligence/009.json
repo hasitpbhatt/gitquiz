@@ -10,7 +10,8 @@
       "It requires a complete return to manual, paper-based systems."
     ],
     "answer": "It is happening at a speed that outpaces our social and legal ability to adapt.",
-    "explanation": "Unlike previous shifts that took decades or centuries, the AI revolution is moving exponentially, creating a gap between technological capability and our societal frameworks for managing it."
+    "explanation": "Unlike previous shifts that took decades or centuries, the AI revolution is moving exponentially, creating a gap between technological capability and our societal frameworks for managing it.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Worst AI' Revisited",
@@ -23,7 +24,8 @@
       "We should only learn skills that are currently 'outside' the jagged frontier."
     ],
     "answer": "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
-    "explanation": "Since the machine's technical and analytical skills are improving rapidly, human value will increasingly be found in areas where AI struggles: true empathy, moral accountability, and high-level strategy."
+    "explanation": "Since the machine's technical and analytical skills are improving rapidly, human value will increasingly be found in areas where AI struggles: true empathy, moral accountability, and high-level strategy.",
+    "difficulty": "medium"
   },
   {
     "question": "The Four Scenarios for the Future",
@@ -36,7 +38,8 @@
       "AI only works for large corporations and is banned for individuals."
     ],
     "answer": "AI development hits a physical or data limit and plateaus at current levels.",
-    "explanation": "The 'Asymptote' scenario assumes that we have reached the limits of what data and computing power can achieve, meaning AI will remain a helpful tool but won't fundamentally transform existence further."
+    "explanation": "The 'Asymptote' scenario assumes that we have reached the limits of what data and computing power can achieve, meaning AI will remain a helpful tool but won't fundamentally transform existence further.",
+    "difficulty": "medium"
   },
   {
     "question": "The Meaning of Work",
@@ -49,7 +52,8 @@
       "The speed at which one can type prompts."
     ],
     "answer": "Authentic human connection, handmade goods, and lived experiences.",
-    "explanation": "When 'intelligence' and 'content' become commodities (cheap and abundant), the things that cannot be mass-produced by AI—human presence and physical craftsmanship—become more valuable."
+    "explanation": "When 'intelligence' and 'content' become commodities (cheap and abundant), the things that cannot be mass-produced by AI—human presence and physical craftsmanship—become more valuable.",
+    "difficulty": "medium"
   },
   {
     "question": "The Alignment of Humanity",
@@ -62,7 +66,8 @@
       "Because AI tries to look like the person using it."
     ],
     "answer": "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
-    "explanation": "AI is built on the sum of human knowledge and internet text. Its biases are our biases; its brilliance is our brilliance. Aligning it requires us to confront our own data."
+    "explanation": "AI is built on the sum of human knowledge and internet text. Its biases are our biases; its brilliance is our brilliance. Aligning it requires us to confront our own data.",
+    "difficulty": "medium"
   },
   {
     "question": "The New Social Contract",
@@ -75,7 +80,8 @@
       "The employee keeps it a secret forever (Shadow AI)."
     ],
     "answer": "A shared benefit where the employee works less and the company remains productive.",
-    "explanation": "Mollick advocates for transparency and sharing the 'productivity dividend.' The goal is a future where AI reduces human toil rather than just increasing corporate quotas."
+    "explanation": "Mollick advocates for transparency and sharing the 'productivity dividend.' The goal is a future where AI reduces human toil rather than just increasing corporate quotas.",
+    "difficulty": "medium"
   },
   {
     "question": "The Responsibility of the 'Human in the Loop'",
@@ -88,7 +94,8 @@
       "To ask the AI for a second opinion."
     ],
     "answer": "To apply human ethical judgment and reject the move, prioritizing the ecosystem.",
-    "explanation": "AI optimizes for the goals it is given (like profit). The human must provide the ethical constraints that prevent the 'alien' intelligence from causing collateral damage."
+    "explanation": "AI optimizes for the goals it is given (like profit). The human must provide the ethical constraints that prevent the 'alien' intelligence from causing collateral damage.",
+    "difficulty": "hard"
   },
   {
     "question": "AI and the End of the 'Expert'",
@@ -101,7 +108,8 @@
       "Only study the history of AI."
     ],
     "answer": "Learn how to learn, how to prompt, and how to pivot across different domains.",
-    "explanation": "In an exponential world, specific technical knowledge becomes obsolete quickly. The ability to 'pivot' and use AI to acquire new skills is the ultimate survival trait."
+    "explanation": "In an exponential world, specific technical knowledge becomes obsolete quickly. The ability to 'pivot' and use AI to acquire new skills is the ultimate survival trait.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Agency' of the Individual",
@@ -114,7 +122,8 @@
       "AI has more agency than humans already."
     ],
     "answer": "Individuals have the power to shape the AI revolution through their daily choices and ethical standards.",
-    "explanation": "Co-Intelligence is a choice. We have the agency to decide if we use AI to automate humanity out of existence or to augment human potential to new heights."
+    "explanation": "Co-Intelligence is a choice. We have the agency to decide if we use AI to automate humanity out of existence or to augment human potential to new heights.",
+    "difficulty": "hard"
   },
   {
     "question": "Final Vision: Flourishing with AI",
@@ -127,6 +136,7 @@
       "Limit human population growth to save the planet."
     ],
     "answer": "Act as an invisible infrastructure that supports human creativity and well-being.",
-    "explanation": "The 'flourishing' vision sees AI as a supportive layer that allows humans to spend more time on the things that make life worth living: relationships, art, and complex problem-solving."
+    "explanation": "The 'flourishing' vision sees AI as a supportive layer that allows humans to spend more time on the things that make life worth living: relationships, art, and complex problem-solving.",
+    "difficulty": "hard"
   }
 ]

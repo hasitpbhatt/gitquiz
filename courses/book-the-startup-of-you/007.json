@@ -10,7 +10,8 @@
       "Asking the HR manager during the final interview"
     ],
     "answer": "Searching for a former employee on LinkedIn and asking for a 10-minute honest chat",
-    "explanation": "Former employees provide 'unfiltered' intelligence. Company websites and HR managers provide 'curated' information that may not reflect the daily reality."
+    "explanation": "Former employees provide 'unfiltered' intelligence. Company websites and HR managers provide 'curated' information that may not reflect the daily reality.",
+    "difficulty": "medium"
   },
   {
     "question": "The Power of the 'Lunch' Intelligence",
@@ -23,7 +24,8 @@
       "Because it's a requirement of most employment contracts"
     ],
     "answer": "To stay in the 'information flow' and hear about market trends before they become public news",
-    "explanation": "Regular informal check-ins keep your 'intelligence radar' active. By the time a trend is in the news, the best opportunities are often already gone."
+    "explanation": "Regular informal check-ins keep your 'intelligence radar' active. By the time a trend is in the news, the best opportunities are often already gone.",
+    "difficulty": "medium"
   },
   {
     "question": "Quizzing the Network",
@@ -36,7 +38,8 @@
       "Wait for a university to release a study on the language's popularity"
     ],
     "answer": "Ask three people: one who uses it, one who just stopped using it, and one who hires for it",
-    "explanation": "Speaking to people with different 'angles' on the same topic provides a 360-degree view, helping you avoid the bias of a single source."
+    "explanation": "Speaking to people with different 'angles' on the same topic provides a 360-degree view, helping you avoid the bias of a single source.",
+    "difficulty": "medium"
   },
   {
     "question": "Filtering Information",
@@ -49,7 +52,8 @@
       "Call the restaurant owner and ask if their quality has dropped"
     ],
     "answer": "Check recent online reviews and ask a few other friends who went there recently",
-    "explanation": "Triangulation involves verifying 'soft' intelligence with 'hard' data or other independent sources to ensure the information is reliable."
+    "explanation": "Triangulation involves verifying 'soft' intelligence with 'hard' data or other independent sources to ensure the information is reliable.",
+    "difficulty": "medium"
   },
   {
     "question": "Reaching Out to 'Weak Ties'",
@@ -62,7 +66,8 @@
       "A chatbot that summarizes gardening articles"
     ],
     "answer": "An old college acquaintance who now runs a community-supported agriculture farm",
-    "explanation": "The old acquaintance is a 'bridge' to a different network. They can provide specific, localized intelligence that your immediate circle simply doesn't have."
+    "explanation": "The old acquaintance is a 'bridge' to a different network. They can provide specific, localized intelligence that your immediate circle simply doesn't have.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Second-Order' Intelligence",
@@ -75,7 +80,8 @@
       "They can help you design a better logo so people don't sue you"
     ],
     "answer": "They can introduce you to their cousin who is a top startup attorney",
-    "explanation": "Networking is about 'reach.' Even if a contact lacks the knowledge, they can act as a gateway to the person who has it."
+    "explanation": "Networking is about 'reach.' Even if a contact lacks the knowledge, they can act as a gateway to the person who has it.",
+    "difficulty": "medium"
   },
   {
     "question": "Navigating 'Dark' Information",
@@ -88,7 +94,8 @@
       "By pressuring the person to tell you 'if they are really your friend'"
     ],
     "answer": "By having a long history of being discreet and providing value to that person in the past",
-    "explanation": "Trust is the prerequisite for sensitive intelligence. People only share 'dark' information with those they know will handle it responsibly."
+    "explanation": "Trust is the prerequisite for sensitive intelligence. People only share 'dark' information with those they know will handle it responsibly.",
+    "difficulty": "hard"
   },
   {
     "question": "The Speed of Network Intelligence",
@@ -101,7 +108,8 @@
       "Checking the stock market every five minutes"
     ],
     "answer": "Texting two contacts who work at the main shipping ports to see what they are seeing on the docks",
-    "explanation": "Direct contact with 'boots on the ground' provides the fastest intelligence, allowing you to make decisions before the rest of the market reacts."
+    "explanation": "Direct contact with 'boots on the ground' provides the fastest intelligence, allowing you to make decisions before the rest of the market reacts.",
+    "difficulty": "hard"
   },
   {
     "question": "Being an Intelligence 'Node'",
@@ -114,7 +122,8 @@
       "By never answering your phone so you seem 'busy' and 'important'"
     ],
     "answer": "By proactively sharing helpful articles, trends, and connections with your network",
-    "explanation": "Reciprocity drives network intelligence. The more value you broadcast, the more high-quality information you will attract in return."
+    "explanation": "Reciprocity drives network intelligence. The more value you broadcast, the more high-quality information you will attract in return.",
+    "difficulty": "hard"
   },
   {
     "question": "Synthesizing the Intel",
@@ -127,6 +136,7 @@
       "Averaging the opinions into one meaningless middle-ground"
     ],
     "answer": "Looking for the common themes and 'signals' that appeared in most of the conversations",
-    "explanation": "Synthesis is about pattern recognition. If four out of five people mention a specific shift, that is a 'signal' you should probably act on."
+    "explanation": "Synthesis is about pattern recognition. If four out of five people mention a specific shift, that is a 'signal' you should probably act on.",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "Because banks are not allowed to sell seized homes"
     ],
     "answer": "Because the value of the collateral is now less than the outstanding loan balance",
-    "explanation": "This is known as being 'underwater.' Since the loan ($240,000) is higher than the home's current value ($200,000), selling the house won't cover the full debt, leaving the bank with a shortfall."
+    "explanation": "This is known as being 'underwater.' Since the loan ($240,000) is higher than the home's current value ($200,000), selling the house won't cover the full debt, leaving the bank with a shortfall.",
+    "difficulty": "easy"
   },
   {
     "question": "Fixed-Rate vs. Adjustable-Rate Mortgages (ARMs)",
@@ -23,7 +24,8 @@
       "A Balloon Payment Mortgage"
     ],
     "answer": "A 30-year Fixed-Rate Mortgage",
-    "explanation": "A fixed-rate mortgage ensures the interest rate never changes. Even if global market rates double, the borrower's payment remains the same for the full 30 years."
+    "explanation": "A fixed-rate mortgage ensures the interest rate never changes. Even if global market rates double, the borrower's payment remains the same for the full 30 years.",
+    "difficulty": "easy"
   },
   {
     "question": "The Process of Securitization",
@@ -36,7 +38,8 @@
       "It forces the bank to only lend to the government"
     ],
     "answer": "It increases lending capacity by moving old loans off the books and bringing in new capital",
-    "explanation": "By selling 'bundles' of mortgages to investors, the bank recovers its cash immediately rather than waiting 30 years for homeowners to pay them back, allowing them to turn around and lend to new borrowers."
+    "explanation": "By selling 'bundles' of mortgages to investors, the bank recovers its cash immediately rather than waiting 30 years for homeowners to pay them back, allowing them to turn around and lend to new borrowers.",
+    "difficulty": "easy"
   },
   {
     "question": "Mortgage-Backed Securities (MBS)",
@@ -49,7 +52,8 @@
       "Stock market dividends"
     ],
     "answer": "The monthly mortgage payments made by thousands of homeowners",
-    "explanation": "An MBS passes the payments from borrowers through to investors. If homeowners pay their mortgages, the MBS investor gets paid; if homeowners default, the investor's return drops."
+    "explanation": "An MBS passes the payments from borrowers through to investors. If homeowners pay their mortgages, the MBS investor gets paid; if homeowners default, the investor's return drops.",
+    "difficulty": "easy"
   },
   {
     "question": "Prepayment Risk",
@@ -62,7 +66,8 @@
       "The bank will go out of business"
     ],
     "answer": "The investor receives their cash back early and must now reinvest it at the new, lower 3% rate",
-    "explanation": "This is a key risk in real estate finance. When rates drop, 'good' high-interest loans disappear because borrowers pay them off early to get cheaper ones elsewhere."
+    "explanation": "This is a key risk in real estate finance. When rates drop, 'good' high-interest loans disappear because borrowers pay them off early to get cheaper ones elsewhere.",
+    "difficulty": "easy"
   },
   {
     "question": "Subprime Mortgages",
@@ -75,7 +80,8 @@
       "The investors were forced to buy them by law"
     ],
     "answer": "They offered higher yields (returns) than 'prime' loans and were incorrectly rated as safe",
-    "explanation": "Investors were attracted to the higher interest rates of subprime loans. Many believed that because the loans were 'pooled' together, the risk of everyone failing at once was nearly zero—an assumption that proved wrong."
+    "explanation": "Investors were attracted to the higher interest rates of subprime loans. Many believed that because the loans were 'pooled' together, the risk of everyone failing at once was nearly zero—an assumption that proved wrong.",
+    "difficulty": "medium"
   },
   {
     "question": "The Role of Home Equity",
@@ -88,7 +94,8 @@
       "$250,000"
     ],
     "answer": "$150,000",
-    "explanation": "Initial equity was $200,000 ($500k - $300k). By borrowing an additional $50k against the house, their debt increases to $350k, leaving them with $150,000 in equity."
+    "explanation": "Initial equity was $200,000 ($500k - $300k). By borrowing an additional $50k against the house, their debt increases to $350k, leaving them with $150,000 in equity.",
+    "difficulty": "medium"
   },
   {
     "question": "Real Estate Investment Trusts (REITs)",
@@ -101,7 +108,8 @@
       "Buying physical gold"
     ],
     "answer": "Buying shares in an Office-focused REIT",
-    "explanation": "REITs 'democratize' real estate by allowing small investors to own a piece of large, professional-grade properties with high liquidity and low entry costs."
+    "explanation": "REITs 'democratize' real estate by allowing small investors to own a piece of large, professional-grade properties with high liquidity and low entry costs.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Housing Bubble' Concept",
@@ -114,7 +122,8 @@
       "Systemic Risk Regulation"
     ],
     "answer": "A Speculative Bubble",
-    "explanation": "When prices are driven by the expectation that they will always go up—rather than the actual utility of the asset—a bubble forms. This decouples the price from reality."
+    "explanation": "When prices are driven by the expectation that they will always go up—rather than the actual utility of the asset—a bubble forms. This decouples the price from reality.",
+    "difficulty": "medium"
   },
   {
     "question": "Appraisals and Valuation",
@@ -127,6 +136,7 @@
       "The bank is legally required to always lend $50,000 less than the price"
     ],
     "answer": "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",
-    "explanation": "The bank uses the appraisal to manage its risk. If they lend more than the house is worth, they are 'unsecured' for the difference, which is too risky for a standard mortgage lender."
+    "explanation": "The bank uses the appraisal to manage its risk. If they lend more than the house is worth, they are 'unsecured' for the difference, which is too risky for a standard mortgage lender.",
+    "difficulty": "medium"
   }
 ]

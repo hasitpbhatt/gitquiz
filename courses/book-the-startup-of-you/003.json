@@ -10,7 +10,8 @@
       "AI ethics is Plan Z because it is a backup interest"
     ],
     "answer": "The engineering job is Plan A; the AI ethics study is the beginning of a Plan B",
-    "explanation": "Plan A is your current primary focus. Plan B is the adjacent path you explore and pivot toward when you discover new opportunities or realize Plan A isn't working."
+    "explanation": "Plan A is your current primary focus. Plan B is the adjacent path you explore and pivot toward when you discover new opportunities or realize Plan A isn't working.",
+    "difficulty": "easy"
   },
   {
     "question": "When to Pivot to Plan B",
@@ -23,7 +24,8 @@
       "Ignore the clients and hope they change their minds"
     ],
     "answer": "Start incorporating video scripting into their services while phasing out blog posts",
-    "explanation": "This is a pivot. You are moving from a declining Plan A to a more promising Plan B based on real-time market feedback."
+    "explanation": "This is a pivot. You are moving from a declining Plan A to a more promising Plan B based on real-time market feedback.",
+    "difficulty": "easy"
   },
   {
     "question": "The Nature of Plan B",
@@ -36,7 +38,8 @@
       "To save time on paperwork so you can work harder on Plan A"
     ],
     "answer": "To allow you to pivot again quickly if the new direction doesn't yield results",
-    "explanation": "The point of Plan B is agility. If it’s too rigid, you lose the ability to respond to the very market changes you are trying to navigate."
+    "explanation": "The point of Plan B is agility. If it’s too rigid, you lose the ability to respond to the very market changes you are trying to navigate.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Lifeboat' Plan Z",
@@ -49,7 +52,8 @@
       "A Plan B that is slightly different from Plan A"
     ],
     "answer": "A written agreement with your parents that you can live in their basement for 6 months while you retrain",
-    "explanation": "Plan Z must be a concrete, reliable certainty. It’s the 'worst-case scenario' plan that keeps you from becoming homeless or destitute."
+    "explanation": "Plan Z must be a concrete, reliable certainty. It’s the 'worst-case scenario' plan that keeps you from becoming homeless or destitute.",
+    "difficulty": "easy"
   },
   {
     "question": "Iterating Based on Feedback",
@@ -62,7 +66,8 @@
       "A permanent commitment to never code again"
     ],
     "answer": "An iteration to gather data on a potential Plan B",
-    "explanation": "By taking on a small, low-risk project, you are testing a new direction (Plan B) without fully abandoning your current path (Plan A)."
+    "explanation": "By taking on a small, low-risk project, you are testing a new direction (Plan B) without fully abandoning your current path (Plan A).",
+    "difficulty": "easy"
   },
   {
     "question": "Persistence vs. Pivoting",
@@ -75,7 +80,8 @@
       "Switch to Plan Z and give up on game development entirely"
     ],
     "answer": "Pivot to a new game concept immediately because the feedback is clear",
-    "explanation": "Grit is important, but 'blind persistence' in the face of overwhelming negative market data is a recipe for failure."
+    "explanation": "Grit is important, but 'blind persistence' in the face of overwhelming negative market data is a recipe for failure.",
+    "difficulty": "easy"
   },
   {
     "question": "Plan B as an Adjacent Move",
@@ -88,7 +94,8 @@
       "Moving to a different country to work in a similar restaurant"
     ],
     "answer": "Starting a boutique catering service or food-tech consultancy",
-    "explanation": "An adjacent move leverages existing assets (cooking skills, food industry network) while changing the 'market' or 'delivery' of those assets."
+    "explanation": "An adjacent move leverages existing assets (cooking skills, food industry network) while changing the 'market' or 'delivery' of those assets.",
+    "difficulty": "easy"
   },
   {
     "question": "The Risk of No Plan Z",
@@ -101,7 +108,8 @@
       "It doesn't; it actually makes you lazy"
     ],
     "answer": "Because it lowers the 'cost' of failure, allowing you to try bold Plan A ideas",
-    "explanation": "When you know you won't 'die' (professionally or financially) if a risk doesn't pan out, you are free to pursue high-upside opportunities."
+    "explanation": "When you know you won't 'die' (professionally or financially) if a risk doesn't pan out, you are free to pursue high-upside opportunities.",
+    "difficulty": "medium"
   },
   {
     "question": "Learning as the Primary Metric",
@@ -114,7 +122,8 @@
       "You should only take it if they promise a raise in one month"
     ],
     "answer": "It is a strategic investment in 'Plan B' knowledge and assets",
-    "explanation": "Prioritizing learning over immediate cash is a classic startup move. You are building the 'soft assets' that will pay off in the long run."
+    "explanation": "Prioritizing learning over immediate cash is a classic startup move. You are building the 'soft assets' that will pay off in the long run.",
+    "difficulty": "medium"
   },
   {
     "question": "The Dynamic Nature of Plans",
@@ -127,6 +136,7 @@
       "Delete your Plan Z because you are now successful"
     ],
     "answer": "Make Digital Marketing your new Plan A and start identifying a new Plan B",
-    "explanation": "Career management is an infinite loop. Once a pivot is successful, it becomes the new baseline, and the process of looking for the next 'Beta' begins."
+    "explanation": "Career management is an infinite loop. Once a pivot is successful, it becomes the new baseline, and the process of looking for the next 'Beta' begins.",
+    "difficulty": "medium"
   }
 ]

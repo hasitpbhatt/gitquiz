@@ -10,7 +10,8 @@
       "After the trade has been executed to review what happened."
     ],
     "answer": "Immediately before the Execution stage to serve as a final gatekeeper for all orders.",
-    "explanation": "A safety gate (Risk Manager) should be the very last step before money leaves the account. This ensures that even if the AI or the strategy logic makes a mistake, the order is checked against hard risk limits."
+    "explanation": "A safety gate (Risk Manager) should be the very last step before money leaves the account. This ensures that even if the AI or the strategy logic makes a mistake, the order is checked against hard risk limits.",
+    "difficulty": "easy"
   },
   {
     "question": "Debugging AI Trading Logic",
@@ -23,7 +24,8 @@
       "Increase the trading volume to force the price up."
     ],
     "answer": "Check the LLM logs to see if it interpreted 'fire' as a literal disaster or a positive recommendation.",
-    "explanation": "In custom strategies, 'Semantic Debugging' is key. You need to see the AI's internal reasoning to know if it's failing because of its language model or because of your trading rules."
+    "explanation": "In custom strategies, 'Semantic Debugging' is key. You need to see the AI's internal reasoning to know if it's failing because of its language model or because of your trading rules.",
+    "difficulty": "medium"
   },
   {
     "question": "Scripting Trade Logic from AI Reasoning",
@@ -36,7 +38,8 @@
       "AI models are naturally better at math if they use curly braces."
     ],
     "answer": "It allows your execution script to reliably 'grab' the values and act on them without the risk of misinterpreting the AI's grammar.",
-    "explanation": "Trading scripts need precision. Structured data (JSON) eliminates the ambiguity of natural language, making the bridge between the AI's 'thought' and the broker's 'API' robust."
+    "explanation": "Trading scripts need precision. Structured data (JSON) eliminates the ambiguity of natural language, making the bridge between the AI's 'thought' and the broker's 'API' robust.",
+    "difficulty": "medium"
   },
   {
     "question": "Middleware: The Bridge to the Broker",
@@ -49,7 +52,8 @@
       "The human trader reading the logs later."
     ],
     "answer": "The Middleware / Portfolio Check layer.",
-    "explanation": "Never rely on an LLM to manage your account balance. Your custom pipeline should have a 'hard-coded' middleware layer that checks physical constraints (like cash) before an order is sent."
+    "explanation": "Never rely on an LLM to manage your account balance. Your custom pipeline should have a 'hard-coded' middleware layer that checks physical constraints (like cash) before an order is sent.",
+    "difficulty": "medium"
   },
   {
     "question": "Paper Trading vs. Live Deployment",
@@ -62,7 +66,8 @@
       "To give the AI time to get to know the 'feel' of the market."
     ],
     "answer": "To see if your pipeline's latency or API handling causes issues that didn't appear in backtests.",
-    "explanation": "Backtests are 'perfect' simulations. Paper trading reveals 'real-world' friction, such as internet lag, API disconnects, or the AI taking too long to respond to a fast-moving price."
+    "explanation": "Backtests are 'perfect' simulations. Paper trading reveals 'real-world' friction, such as internet lag, API disconnects, or the AI taking too long to respond to a fast-moving price.",
+    "difficulty": "medium"
   },
   {
     "question": "State Management in Trading Bots",
@@ -75,7 +80,8 @@
       "Program the bot to only trade once per day."
     ],
     "answer": "Use a 'State Database' to track that an order has already been placed for this news event/ticker.",
-    "explanation": "A trading bot must have a 'memory' of its own actions. By checking its current 'State' (positions and recent orders), it can avoid redundant and expensive mistakes."
+    "explanation": "A trading bot must have a 'memory' of its own actions. By checking its current 'State' (positions and recent orders), it can avoid redundant and expensive mistakes.",
+    "difficulty": "medium"
   },
   {
     "question": "Prompt Versioning in Production",
@@ -88,7 +94,8 @@
       "Delete the prompt and let the AI decide for itself."
     ],
     "answer": "Revert the pipeline to the 'v1.0' prompt file in your version control system (like Git).",
-    "explanation": "Treating prompts like code (PromptOps) allows for safety and reproducibility. Version control ensures you can always go back to a 'known good' state if an experiment fails."
+    "explanation": "Treating prompts like code (PromptOps) allows for safety and reproducibility. Version control ensures you can always go back to a 'known good' state if an experiment fails.",
+    "difficulty": "medium"
   },
   {
     "question": "Error Handling: The 'Graceful Shutdown'",
@@ -101,7 +108,8 @@
       "Delete its own training data to protect itself."
     ],
     "answer": "Pause all logic, log the error, and send a high-priority notification to the developer.",
-    "explanation": "In trading, 'doing nothing' is better than 'doing the wrong thing' during a technical failure. Stopping and alerting a human prevents uncontrolled behavior during a crisis."
+    "explanation": "In trading, 'doing nothing' is better than 'doing the wrong thing' during a technical failure. Stopping and alerting a human prevents uncontrolled behavior during a crisis.",
+    "difficulty": "hard"
   },
   {
     "question": "Unit Testing for AI Strategies",
@@ -114,7 +122,8 @@
       "Unit tests are only for traditional math, not for AI."
     ],
     "answer": "To see if the new formatting accidentally made all headlines look 'Neutral' to the AI.",
-    "explanation": "Small changes in data 'cleaning' can drastically change how an LLM perceives the text. Unit tests catch these 'silent failures' before they reach the live market."
+    "explanation": "Small changes in data 'cleaning' can drastically change how an LLM perceives the text. Unit tests catch these 'silent failures' before they reach the live market.",
+    "difficulty": "hard"
   },
   {
     "question": "Latency Monitoring in Custom Pipelines",
@@ -127,6 +136,7 @@
       "The market has more traders than usual."
     ],
     "answer": "The LLM provider is experiencing slow response times or your prompt has become too long.",
-    "explanation": "The LLM is almost always the 'bottleneck' in a GenAI pipeline. Monitoring this specific latency helps you decide when to switch to a faster model or optimize your prompt."
+    "explanation": "The LLM is almost always the 'bottleneck' in a GenAI pipeline. Monitoring this specific latency helps you decide when to switch to a faster model or optimize your prompt.",
+    "difficulty": "hard"
   }
 ]

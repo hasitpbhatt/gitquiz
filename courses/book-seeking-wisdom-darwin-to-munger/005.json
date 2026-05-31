@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Latticework of Mental Models",
+    "content": "Mental models are simplified representations of how the world works. Building a latticework of models from multiple disciplines helps us understand complex situations and make better decisions.",
+    "description": "A CEO insists on using only financial models to understand her business, ignoring psychology, biology, and systems thinking. Her approach is limited because:",
+    "options": [
+      "Financial models are always inaccurate",
+      "No single discipline provides a complete view of reality",
+      "CEOs should focus exclusively on numbers",
+      "Psychology and biology are irrelevant in business"
+    ],
+    "answer": "No single discipline provides a complete view of reality",
+    "explanation": "Munger advocates a latticework of mental models from various disciplines. Relying solely on one perspective, like finance, misses critical insights from psychology, physics, biology, and other fields.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplification and Narrative",
+    "content": "We make sense of complex reality by simplifying it into stories and patterns. While necessary for understanding, this process can lead us to see connections where none exist.",
+    "description": "After a stock market drop, financial news creates a narrative, Investors feared inflation data. In reality, markets move for thousands of simultaneous reasons. The human tendency to create narratives:",
+    "options": [
+      "Always reveals true market causes",
+      "Helps us find meaning but may oversimplify complex events",
+      "Is unique to financial journalism",
+      "Should be eliminated entirely from thinking"
+    ],
+    "answer": "Helps us find meaning but may oversimplify complex events",
+    "explanation": "Our brains crave coherent stories, but real-world events often have multiple, contradictory, or random causes. Simplification aids understanding but can create false certainty about complex events.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Occam Razor",
+    "content": "Occam Razor states that among competing explanations, the simplest one with the fewest assumptions is usually correct. It is a tool for avoiding unnecessary complexity in reasoning.",
+    "description": "Your phone stops working. Among these explanations, Occam Razor favors:",
+    "options": [
+      "A sophisticated hacker disabled your phone remotely",
+      "The battery ran out or the software needs a restart",
+      "Electromagnetic solar flares interfered with the circuits",
+      "The manufacturer deliberately programmed obsolescence"
+    ],
+    "answer": "The battery ran out or the software needs a restart",
+    "explanation": "The simplest explanation requiring the fewest assumptions, battery drain or software glitch, is most likely. More complex explanations add unnecessary assumptions without evidence.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Checklists as Filters",
+    "content": "Rules and filters act as decision-making shortcuts that prevent common mistakes. Pre-committing to rules like checklists protects us from emotional reasoning and bias in critical moments.",
+    "description": "Pilots use pre-flight checklists even when they have flown the same plane hundreds of times. The primary benefit is:",
+    "options": [
+      "Training new pilots who may not know the routine",
+      "Protecting against oversight from overconfidence or distraction",
+      "Complying with aviation regulations",
+      "Documenting activities for legal purposes"
+    ],
+    "answer": "Protecting against oversight from overconfidence or distraction",
+    "explanation": "Checklists are a filter against human fallibility. Even experts skip steps when overconfident or distracted. A structured checklist ensures critical items are never missed, regardless of experience.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Goal Clarity",
+    "content": "Clear goals are essential for effective decision-making. Without knowing what we truly want, we cannot evaluate which path serves us best. Vague goals produce vague results.",
+    "description": "Two friends start fitness programs. One says I want to get in shape, while the other says I want to run a 5K in under 25 minutes within three months. Who is more likely to succeed, and why?",
+    "options": [
+      "The first, because flexibility leads to better outcomes",
+      "The second, because specific, measurable goals improve focus and effort",
+      "Both equally, since the intention is the same",
+      "Neither, since fitness goals are rarely achieved"
+    ],
+    "answer": "The second, because specific, measurable goals improve focus and effort",
+    "explanation": "Clear goals provide a target to aim for and criteria for success. Vague goals lack the specificity needed to design an effective plan and measure progress.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Inversion Applied",
+    "content": "Applying inversion means asking not How do I achieve this, but What would guarantee failure. Eliminating the causes of failure often reveals the path to success more clearly.",
+    "description": "When planning a wedding, a couple applies inversion by first asking What would make this day a disaster. This approach helps them:",
+    "options": [
+      "Focus only on negative possibilities",
+      "Identify and prevent major sources of failure",
+      "Expect the worst to happen",
+      "Avoid making any decisions at all"
+    ],
+    "answer": "Identify and prevent major sources of failure",
+    "explanation": "By considering what would cause failure, logistics breakdown, conflicts, poor weather plans, the couple can proactively address these risks. Munger called this avoiding stupidity over seeking brilliance.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Decision Filters",
+    "content": "Decision filters are simple criteria that screen out bad choices before deep analysis. They save time and prevent obvious mistakes by eliminating options that fail basic tests.",
+    "description": "A venture capitalist rejects any pitch that does not address a clear customer pain point, without even reading the financial projections. This filter helps:",
+    "options": [
+      "Save time by eliminating fundamentally flawed opportunities early",
+      "Ignore important financial details",
+      "Make decisions based on one criterion only",
+      "Avoid meeting with ambitious entrepreneurs"
+    ],
+    "answer": "Save time by eliminating fundamentally flawed opportunities early",
+    "explanation": "A good filter eliminates options that fail a basic requirement. If there is no customer need, the venture cannot succeed regardless of financial projections. The filter catches this early.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Emotional vs Rational Thinking",
+    "content": "Our thinking is influenced by both rational analysis and emotional responses. Recognizing when emotions are driving decisions allows us to pause and engage more deliberate reasoning.",
+    "description": "An investor feels a strong emotional attachment to a stock his father once owned. He refuses to sell even as the company declines. The best course of action is:",
+    "options": [
+      "Follow his gut feeling since emotional connections matter",
+      "Recognize the emotional influence and evaluate the stock objectively",
+      "Hold forever since his father had good judgment",
+      "Double down since emotions often signal hidden value"
+    ],
+    "answer": "Recognize the emotional influence and evaluate the stock objectively",
+    "explanation": "Emotional attachments to investments are common but dangerous. Recognizing this influence allows the investor to step back and evaluate the stock prospects independently of sentiment.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Map Is Not the Territory",
+    "content": "Maps are simplified representations of reality, not reality itself. Our mental models and theories must be updated as the territory changes, or we risk outdated decisions.",
+    "description": "A manager relies on last year market research report to make strategy decisions, ignoring new competitors and changing customer preferences. This mistake exemplifies:",
+    "options": [
+      "Thorough reliance on documented research",
+      "Confusing the map, the past report, with the territory, current reality",
+      "Effective use of historical data for planning",
+      "Proper risk management through established procedures"
+    ],
+    "answer": "Confusing the map, the past report, with the territory, current reality",
+    "explanation": "The report was a snapshot of past conditions, a map. Using it as if it represents current reality, the territory, ignores that the landscape has changed. Models must be continuously updated.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Probabilistic Thinking",
+    "content": "Probabilistic thinking means acknowledging uncertainty by expressing beliefs as probabilities rather than certainties. It avoids the trap of yes-or-no binary thinking in an uncertain world.",
+    "description": "A weather forecaster says There is a 40 percent chance of rain. A binary thinker says Either it will rain or it will not, so the forecast is useless. The probabilistic thinker understands:",
+    "options": [
+      "The forecaster is guessing without confidence",
+      "40 percent means that in similar conditions, rain occurs 40 percent of the time",
+      "Probability forecasts are meaningless for daily planning",
+      "The forecaster should always commit to rain or no rain"
+    ],
+    "answer": "40 percent means that in similar conditions, rain occurs 40 percent of the time",
+    "explanation": "Probabilistic statements express calibrated uncertainty. Over many days with a 40 percent forecast, it will rain about 40 percent of the time. This is more honest and useful than false certainty.",
+    "difficulty": "hard"
+  }
+]

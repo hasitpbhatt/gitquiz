@@ -10,7 +10,8 @@
       "Check the company's official organizational chart to see who is authorized to give them the spec."
     ],
     "answer": "Naval says they should navigate their own way to the person who has the spec and talk to them directly.",
-    "explanation": "In a decentralized graph, the 'skill set' of the employee includes the ability to figure out who to navigate towards without needing a middleman to facilitate the connection."
+    "explanation": "In a decentralized graph, the 'skill set' of the employee includes the ability to figure out who to navigate towards without needing a middleman to facilitate the connection.",
+    "difficulty": "easy"
   },
   {
     "question": "Post-Nuclear vs. Drone Logic",
@@ -23,7 +24,8 @@
       "The total abandonment of technology in favor of traditional diplomacy."
     ],
     "answer": "A restructuring of society where the logic of mutually assured destruction reaches the individual level.",
-    "explanation": "Naval posits that drones bring the high-level stalemate of nuclear nations down to a granular level, where individuals may have the power to deter or target one another."
+    "explanation": "Naval posits that drones bring the high-level stalemate of nuclear nations down to a granular level, where individuals may have the power to deter or target one another.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Commodity' AI Trap",
@@ -36,7 +38,8 @@
       "Value returns to traditional manual labor that AI cannot perform."
     ],
     "answer": "Value flows into the hardware (like Nvidia) and the unique data silos that the AI uses.",
-    "explanation": "When the software (AI) is commoditized, the 'moats' become the physical infrastructure (chips/power) and the proprietary data that the model wasn't trained on."
+    "explanation": "When the software (AI) is commoditized, the 'moats' become the physical infrastructure (chips/power) and the proprietary data that the model wasn't trained on.",
+    "difficulty": "easy"
   },
   {
     "question": "Generalists vs. Specialized APIs",
@@ -49,7 +52,8 @@
       "Because AI can replace the need for human scientists entirely."
     ],
     "answer": "Because AI allows people to do 20-30% of each other's specialized work, like a hardware person bringing up software.",
-    "explanation": "AI acts as a bridge; it gives a specialist enough cross-disciplinary skill to 'glue' their work to others without needing a high-friction handoff or an explicit API."
+    "explanation": "AI acts as a bridge; it gives a specialist enough cross-disciplinary skill to 'glue' their work to others without needing a high-friction handoff or an explicit API.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Nothing Ever Happens' Meme",
@@ -62,7 +66,8 @@
       "The rise of traditional brick-and-mortar retail stores."
     ],
     "answer": "Changes in geopolitics, economics, and technological funding for things like rockets and drones.",
-    "explanation": "Naval argues that the 'phase shift' post-COVID has accelerated the demand for sci-fi technologies and changed the economic and geopolitical landscape."
+    "explanation": "Naval argues that the 'phase shift' post-COVID has accelerated the demand for sci-fi technologies and changed the economic and geopolitical landscape.",
+    "difficulty": "easy"
   },
   {
     "question": "Bio-threat Democratization",
@@ -75,7 +80,8 @@
       "The high cost of buying a computer to run biological simulations."
     ],
     "answer": "The high expertise and limited access to specialized biological data and labs.",
-    "explanation": "Naval explains that the 'expertise gap' was the main barrier; AI 'vibe coding' for biology threatens to remove that gap, allowing many more people to access dangerous capabilities."
+    "explanation": "Naval explains that the 'expertise gap' was the main barrier; AI 'vibe coding' for biology threatens to remove that gap, allowing many more people to access dangerous capabilities.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Crabs in a Bucket' Mentality",
@@ -88,7 +94,8 @@
       "Use AI to prove that their doom scenarios are mathematically impossible."
     ],
     "answer": "Nurture and reward optimism instead, as it is the only way to build the future.",
-    "explanation": "Naval believes optimism is a creative requirement. Even if doomers are right, their mindset isn't helpful in a 'foxhole'; we need builders who imagine the 'rising up' scenarios."
+    "explanation": "Naval believes optimism is a creative requirement. Even if doomers are right, their mindset isn't helpful in a 'foxhole'; we need builders who imagine the 'rising up' scenarios.",
+    "difficulty": "medium"
   },
   {
     "question": "The Renaissance of Functional Hardware",
@@ -101,7 +108,8 @@
       "Government subsidies for hardware manufacturing in the first world."
     ],
     "answer": "The commoditization of software through AI, which allows the hardware to finally shine.",
-    "explanation": "Naval’s thesis is that hardware was always 'good,' but 'bad software' made it unusable. AI removes that bottleneck, leading to a renaissance in hardware products."
+    "explanation": "Naval’s thesis is that hardware was always 'good,' but 'bad software' made it unusable. AI removes that bottleneck, leading to a renaissance in hardware products.",
+    "difficulty": "medium"
   },
   {
     "question": "The Right to Try in Medicine",
@@ -114,7 +122,8 @@
       "There were not enough doctors available to administer the tests."
     ],
     "answer": "We didn't allow healthy volunteers to 'take one for the team' under a right-to-try model.",
-    "explanation": "Naval blames bureaucracy and the lack of 'volunteer situations' for the slow response, suggesting that a more decentralized 'right to try' would have been faster."
+    "explanation": "Naval blames bureaucracy and the lack of 'volunteer situations' for the slow response, suggesting that a more decentralized 'right to try' would have been faster.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Jagged' Path to AGI",
@@ -127,6 +136,7 @@
       "Because he is more interested in investing in coal and oil than in AI."
     ],
     "answer": "Because he sees 'jagged intelligence' and bad multimodal reasoning, making the timeline uncertain.",
-    "explanation": "Naval is a 'blind optimist' but also a realist about the technology's current gaps, specifically noting that 'world models' and 'multimodal reasoning' are still missing."
+    "explanation": "Naval is a 'blind optimist' but also a realist about the technology's current gaps, specifically noting that 'world models' and 'multimodal reasoning' are still missing.",
+    "difficulty": "medium"
   }
 ]

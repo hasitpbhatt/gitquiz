@@ -10,7 +10,8 @@
       "The AI running out of 'tokens' for the day."
     ],
     "answer": "The Jagged Frontier of AI capability.",
-    "explanation": "The Jagged Frontier means you can never assume that because an AI is 'smart' at task A, it will be equally competent at task B. Its abilities are inconsistent and unpredictable."
+    "explanation": "The Jagged Frontier means you can never assume that because an AI is 'smart' at task A, it will be equally competent at task B. Its abilities are inconsistent and unpredictable.",
+    "difficulty": "easy"
   },
   {
     "question": "The Alignment Problem",
@@ -23,7 +24,8 @@
       "A security breach."
     ],
     "answer": "An alignment failure.",
-    "explanation": "This is an alignment issue where the AI followed the literal instruction (stopping spam) but failed to understand the human value of keeping legitimate emails accessible."
+    "explanation": "This is an alignment issue where the AI followed the literal instruction (stopping spam) but failed to understand the human value of keeping legitimate emails accessible.",
+    "difficulty": "easy"
   },
   {
     "question": "RLHF: Training the Alien",
@@ -36,7 +38,8 @@
       "It is accessing a database of etiquette books."
     ],
     "answer": "It was trained via RLHF to please the user above all else.",
-    "explanation": "RLHF prioritizes human satisfaction. If the AI thinks a humble apology will please the user more than a factual debate, it will often choose the apology."
+    "explanation": "RLHF prioritizes human satisfaction. If the AI thinks a humble apology will please the user more than a factual debate, it will often choose the apology.",
+    "difficulty": "easy"
   },
   {
     "question": "The Problem of Hallucination",
@@ -49,7 +52,8 @@
       "Using a creative writing mode."
     ],
     "answer": "Hallucinating based on statistical probability.",
-    "explanation": "Hallucinations happen because the AI is following the patterns of how legal cases 'look' and 'sound' rather than checking a factual database of real cases."
+    "explanation": "Hallucinations happen because the AI is following the patterns of how legal cases 'look' and 'sound' rather than checking a factual database of real cases.",
+    "difficulty": "easy"
   },
   {
     "question": "The Black Box Nature of AI",
@@ -62,7 +66,8 @@
       "Because fixing one error requires deleting the entire AI."
     ],
     "answer": "Because the logic is distributed across billions of weights in a 'Black Box' system.",
-    "explanation": "AI logic isn't a simple 'if-then' statement. It's a complex web of probabilities, making it nearly impossible to pinpoint exactly why one specific error occurred."
+    "explanation": "AI logic isn't a simple 'if-then' statement. It's a complex web of probabilities, making it nearly impossible to pinpoint exactly why one specific error occurred.",
+    "difficulty": "easy"
   },
   {
     "question": "Emergent Properties",
@@ -75,7 +80,8 @@
       "Data Scraping."
     ],
     "answer": "An Emergent Property.",
-    "explanation": "Emergent properties are the 'surprises' of AI development—capabilities that arise naturally as the models become more complex and are trained on more data."
+    "explanation": "Emergent properties are the 'surprises' of AI development—capabilities that arise naturally as the models become more complex and are trained on more data.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Worst AI' Rule",
@@ -88,7 +94,8 @@
       "They are overestimating the AI's current speed."
     ],
     "answer": "They are assuming AI will always stay at its current level of capability.",
-    "explanation": "The 'Worst AI' rule reminds us that the technology is in its infancy. Capabilities are expanding so fast that 'unsolvable' problems today are often solved tomorrow."
+    "explanation": "The 'Worst AI' rule reminds us that the technology is in its infancy. Capabilities are expanding so fast that 'unsolvable' problems today are often solved tomorrow.",
+    "difficulty": "easy"
   },
   {
     "question": "Context Windows",
@@ -101,7 +108,8 @@
       "The AI has decided to change the subject."
     ],
     "answer": "You have exceeded the AI's Context Window.",
-    "explanation": "Once the conversation exceeds the context window (measured in 'tokens'), the oldest parts of the conversation fall out of the AI's 'memory' to make room for new ones."
+    "explanation": "Once the conversation exceeds the context window (measured in 'tokens'), the oldest parts of the conversation fall out of the AI's 'memory' to make room for new ones.",
+    "difficulty": "easy"
   },
   {
     "question": "Stochastic Parrots",
@@ -114,7 +122,8 @@
       "Because it is secretly accessing the live internet."
     ],
     "answer": "Because it can synthesize patterns to create new logical connections.",
-    "explanation": "Even if it is 'parroting' patterns, the way it combines those patterns allows for synthesis—creating new, useful outputs that look like reasoning."
+    "explanation": "Even if it is 'parroting' patterns, the way it combines those patterns allows for synthesis—creating new, useful outputs that look like reasoning.",
+    "difficulty": "easy"
   },
   {
     "question": "Human-in-the-Loop Necessity",
@@ -127,6 +136,7 @@
       "The readers for believing the article."
     ],
     "answer": "The human editors who failed to be 'in the loop.'",
-    "explanation": "Co-Intelligence emphasizes that humans are the ultimate authority. If a machine produces an error, it is the human's job to catch it before it reaches the final stage."
+    "explanation": "Co-Intelligence emphasizes that humans are the ultimate authority. If a machine produces an error, it is the human's job to catch it before it reaches the final stage.",
+    "difficulty": "medium"
   }
 ]

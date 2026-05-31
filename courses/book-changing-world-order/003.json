@@ -10,7 +10,8 @@
       "A trade deficit problem"
     ],
     "answer": "The long-term money, credit, and debt cycle",
-    "explanation": "Dalio explains that the long-term debt cycle spans multiple generations. Debt accumulates over decades until it cannot be serviced with normal income, forcing a restructuring or monetization."
+    "explanation": "Dalio explains that the long-term debt cycle spans multiple generations. Debt accumulates over decades until it cannot be serviced with normal income, forcing a restructuring or monetization.",
+    "difficulty": "easy"
   },
   {
     "question": "Reserve Currency Status",
@@ -23,7 +24,8 @@
       "Commodity-based money"
     ],
     "answer": "Reserve currency status",
-    "explanation": "Reserve currency status is the most powerful but also most precarious position for a nation. Dalio notes that every reserve currency in history has eventually lost that status, typically over a period of decades."
+    "explanation": "Reserve currency status is the most powerful but also most precarious position for a nation. Dalio notes that every reserve currency in history has eventually lost that status, typically over a period of decades.",
+    "difficulty": "easy"
   },
   {
     "question": "The Lifecycle of a Reserve Currency",
@@ -36,7 +38,8 @@
       "The Mundell-Fleming trilemma"
     ],
     "answer": "The reserve currency lifecycle",
-    "explanation": "Dalio documents this pattern across all major reserve currencies. On average, reserve currency status lasts approximately 100 years before erosion begins."
+    "explanation": "Dalio documents this pattern across all major reserve currencies. On average, reserve currency status lasts approximately 100 years before erosion begins.",
+    "difficulty": "easy"
   },
   {
     "question": "Inflation and Currency Debasement",
@@ -49,7 +52,8 @@
       "Capital formation"
     ],
     "answer": "Currency debasement",
-    "explanation": "Dalio identifies currency debasement as a common response to unsustainable debt. It is effectively a hidden tax on savers and a key mechanism through which empires lose their economic strength."
+    "explanation": "Dalio identifies currency debasement as a common response to unsustainable debt. It is effectively a hidden tax on savers and a key mechanism through which empires lose their economic strength.",
+    "difficulty": "easy"
   },
   {
     "question": "The Three Risks of Investing",
@@ -62,7 +66,8 @@
       "Inflation risk only"
     ],
     "answer": "All three fundamental risks of investing",
-    "explanation": "Dalio frames all investment risk into these three categories. A robust strategy, he argues, must address all three, especially during Big Cycle transitions when all three can materialize simultaneously."
+    "explanation": "Dalio frames all investment risk into these three categories. A robust strategy, he argues, must address all three, especially during Big Cycle transitions when all three can materialize simultaneously.",
+    "difficulty": "medium"
   },
   {
     "question": "Printing Money and Debt Restructuring",
@@ -75,7 +80,8 @@
       "A return to the gold standard"
     ],
     "answer": "An indication that the long-term debt cycle is nearing its end",
-    "explanation": "Dalio views large-scale money printing as a hallmark of the late stage of the long-term debt cycle. It postpones a day of reckoning but erodes the currency and sets the stage for a new world order."
+    "explanation": "Dalio views large-scale money printing as a hallmark of the late stage of the long-term debt cycle. It postpones a day of reckoning but erodes the currency and sets the stage for a new world order.",
+    "difficulty": "medium"
   },
   {
     "question": "Credit as a Double-Edged Sword",
@@ -88,6 +94,7 @@
       "Bootstrapping responsibly"
     ],
     "answer": "Creating unsustainable debt",
-    "explanation": "Dalio emphasizes that the key difference between good and bad debt is whether it finances productive capacity that generates the income to repay it. Unproductive debt accumulation is what eventually causes the long-term debt cycle to turn."
+    "explanation": "Dalio emphasizes that the key difference between good and bad debt is whether it finances productive capacity that generates the income to repay it. Unproductive debt accumulation is what eventually causes the long-term debt cycle to turn.",
+    "difficulty": "medium"
   }
 ]

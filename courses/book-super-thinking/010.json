@@ -10,7 +10,8 @@
       "A simple pro-con list for each shop"
     ],
     "answer": "Game theory - modeling how each player's decision affects the other",
-    "explanation": "Game theory captures strategic interdependence: my best move depends on your move. The coffee shop scenario is an iterated game where cooperation (both raise prices) or defection (one undercuts) creates different payoffs."
+    "explanation": "Game theory captures strategic interdependence: my best move depends on your move. The coffee shop scenario is an iterated game where cooperation (both raise prices) or defection (one undercuts) creates different payoffs.",
+    "difficulty": "medium"
   },
   {
     "question": "Prisoner's Dilemma",
@@ -23,7 +24,8 @@
       "Both confess and then appeal the sentence"
     ],
     "answer": "Confess because no matter what the other does, confessing gives a better outcome",
-    "explanation": "In the Prisoner's Dilemma, confessing is the dominant strategy: if the other confesses, you get 5 instead of 10. If the other stays silent, you go free instead of getting 1. Self-interest leads both to confess, producing a worse collective outcome (5 years each) than cooperation (1 year each)."
+    "explanation": "In the Prisoner's Dilemma, confessing is the dominant strategy: if the other confesses, you get 5 instead of 10. If the other stays silent, you go free instead of getting 1. Self-interest leads both to confess, producing a worse collective outcome (5 years each) than cooperation (1 year each).",
+    "difficulty": "medium"
   },
   {
     "question": "Zero-Sum vs Non-Zero-Sum Games",
@@ -36,7 +38,8 @@
       "Pure competition where only one can win"
     ],
     "answer": "Non-zero-sum game - cooperation can create value for both",
-    "explanation": "Non-zero-sum games allow both sides to benefit through cooperation. Water negotiations can create value via shared infrastructure, coordinated usage, and trade agreements - expanding the pie rather than dividing a fixed one."
+    "explanation": "Non-zero-sum games allow both sides to benefit through cooperation. Water negotiations can create value via shared infrastructure, coordinated usage, and trade agreements - expanding the pie rather than dividing a fixed one.",
+    "difficulty": "medium"
   },
   {
     "question": "BATNA",
@@ -49,7 +52,8 @@
       "How much you think the company can afford to pay"
     ],
     "answer": "What you will do if this negotiation fails - your best alternative offer",
-    "explanation": "BATNA is your fallback if no deal is reached. A strong BATNA (another job offer, staying in current role with options) gives you leverage to walk away. A weak BATNA forces you to accept worse terms."
+    "explanation": "BATNA is your fallback if no deal is reached. A strong BATNA (another job offer, staying in current role with options) gives you leverage to walk away. A weak BATNA forces you to accept worse terms.",
+    "difficulty": "medium"
   },
   {
     "question": "Most Respectful Interpretation",
@@ -62,7 +66,8 @@
       "They are testing how you react to being ignored"
     ],
     "answer": "They are probably overwhelmed or the email was buried",
-    "explanation": "MRI assumes the most charitable explanation: your colleague is busy, the email got lost, or something else benign occurred. This preserves trust and prevents unnecessary conflict, though it should be balanced with accountability."
+    "explanation": "MRI assumes the most charitable explanation: your colleague is busy, the email got lost, or something else benign occurred. This preserves trust and prevents unnecessary conflict, though it should be balanced with accountability.",
+    "difficulty": "hard"
   },
   {
     "question": "Third Story",
@@ -75,7 +80,8 @@
       "A story about a third person who had this exact argument"
     ],
     "answer": "The situation neutrally: 'We have different views on how household tasks should be shared'",
-    "explanation": "The Third Story describes the gap between two perspectives from an outside view. It avoids blame language ('you never') and instead frames the issue as a shared problem ('we have different views'), reducing defensiveness."
+    "explanation": "The Third Story describes the gap between two perspectives from an outside view. It avoids blame language ('you never') and instead frames the issue as a shared problem ('we have different views'), reducing defensiveness.",
+    "difficulty": "hard"
   },
   {
     "question": "Containment vs Appeasement",
@@ -88,7 +94,8 @@
       "Transferring to a different department"
     ],
     "answer": "Documenting your contributions and ensuring managers know your work",
-    "explanation": "Containment limits the damage without escalating. By documenting work and ensuring visibility, you prevent the rival from expanding their behavior. Appeasement (letting it slide) often encourages more exploitation."
+    "explanation": "Containment limits the damage without escalating. By documenting work and ensuring visibility, you prevent the rival from expanding their behavior. Appeasement (letting it slide) often encourages more exploitation.",
+    "difficulty": "hard"
   },
   {
     "question": "OODA Loop",
@@ -101,7 +108,8 @@
       "Wait for the market to stabilize before making any moves"
     ],
     "answer": "Quickly observe customer feedback, orient based on data, decide on changes, and act within days",
-    "explanation": "The OODA Loop emphasizes speed: Observe (gather data), Orient (analyze context), Decide (choose action), Act (execute). Faster cycles create competitive advantage by outpacing slower competitors' decision-making."
+    "explanation": "The OODA Loop emphasizes speed: Observe (gather data), Orient (analyze context), Decide (choose action), Act (execute). Faster cycles create competitive advantage by outpacing slower competitors' decision-making.",
+    "difficulty": "hard"
   },
   {
     "question": "Cobra Effect",
@@ -114,7 +122,8 @@
       "A failure of enforcement, not incentive design"
     ],
     "answer": "The Cobra Effect - the solution created perverse incentives that worsened the problem",
-    "explanation": "The Cobra Effect demonstrates how well-intentioned solutions fail when incentives are misaligned. The bounty rewarded cobra breeding, not cobra elimination. This is a classic perverse incentive - a key concept from Goodhart's Law family."
+    "explanation": "The Cobra Effect demonstrates how well-intentioned solutions fail when incentives are misaligned. The bounty rewarded cobra breeding, not cobra elimination. This is a classic perverse incentive - a key concept from Goodhart's Law family.",
+    "difficulty": "hard"
   },
   {
     "question": "Goodhart's Law",
@@ -127,6 +136,7 @@
       "The factory inspector is too strict"
     ],
     "answer": "Goodhart's Law - the production target stopped being a useful measure because workers optimized for it",
-    "explanation": "Goodhart's Law: once you measure and reward a specific metric (units produced), people optimize for that metric while neglecting other important dimensions (quality). The measure loses its value as an indicator of overall performance."
+    "explanation": "Goodhart's Law: once you measure and reward a specific metric (units produced), people optimize for that metric while neglecting other important dimensions (quality). The measure loses its value as an indicator of overall performance.",
+    "difficulty": "hard"
   }
 ]

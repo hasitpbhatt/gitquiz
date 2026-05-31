@@ -10,7 +10,8 @@
       "They will force everyone to live in a single, perfectly flat hierarchy."
     ],
     "answer": "They bring the logic of mutually assured destruction (MAD) down to the individual level.",
-    "explanation": "Naval posits that drones decentralize the power of violence, allowing individuals or small groups to deter even large states, fundamentally shifting the 'logic' of how society is architected."
+    "explanation": "Naval posits that drones decentralize the power of violence, allowing individuals or small groups to deter even large states, fundamentally shifting the 'logic' of how society is architected.",
+    "difficulty": "easy"
   },
   {
     "question": "Centralized Training vs. Distributed Bet",
@@ -23,7 +24,8 @@
       "The number of social media users and mobile phone storage."
     ],
     "answer": "Data centers and power.",
-    "explanation": "Naval notes that the rush towards a few companies dominating is driven by the massive physical requirements of data processing and energy consumption."
+    "explanation": "Naval notes that the rush towards a few companies dominating is driven by the massive physical requirements of data processing and energy consumption.",
+    "difficulty": "easy"
   },
   {
     "question": "World Models: The RL Loop",
@@ -36,7 +38,8 @@
       "Because the AI labs are too centralized to allow for multimodal thinking."
     ],
     "answer": "Because they lack a coherent model of the world inside their heads to predict actions.",
-    "explanation": "Naval distinguishes between 'generating' something that looks like a world and having a 'world model' that acts as an agent with a reinforcement learning loop."
+    "explanation": "Naval distinguishes between 'generating' something that looks like a world and having a 'world model' that acts as an agent with a reinforcement learning loop.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Jagged' Multi-Modal Intelligence",
@@ -49,7 +52,8 @@
       "A result of open-source commoditization."
     ],
     "answer": "Jagged intelligence.",
-    "explanation": "Jagged intelligence refers to the uneven distribution of AI capabilities—extraordinary in some areas, yet failing in others that humans find simple."
+    "explanation": "Jagged intelligence refers to the uneven distribution of AI capabilities—extraordinary in some areas, yet failing in others that humans find simple.",
+    "difficulty": "medium"
   },
   {
     "question": "Democratization of Biological Threats",
@@ -62,7 +66,8 @@
       "Biological data is so well-guarded that AI will never be able to read it."
     ],
     "answer": "The number of people who can access or create bioweapons will increase by hundreds or thousands of times.",
-    "explanation": "Naval draws a direct parallel between the democratization of coding and the democratization of biological engineering, which creates a decentralized security risk."
+    "explanation": "Naval draws a direct parallel between the democratization of coding and the democratization of biological engineering, which creates a decentralized security risk.",
+    "difficulty": "medium"
   },
   {
     "question": "Unlocking Hardware via Software",
@@ -75,7 +80,8 @@
       "They believe closed-source models are inherently more dangerous."
     ],
     "answer": "Open source commoditizes the 'complement' (software) and supports their dominance in hardware manufacturing.",
-    "explanation": "For a hardware-centric economy like China, making software free and open makes their physical products more usable and valuable."
+    "explanation": "For a hardware-centric economy like China, making software free and open makes their physical products more usable and valuable.",
+    "difficulty": "medium"
   },
   {
     "question": "Rational Optimism: Legibility of Doom",
@@ -88,7 +94,8 @@
       "Because the 'doom scenarios' are actually impossible according to physics."
     ],
     "answer": "Because optimism is the only mindset that allows for the creativity needed to find a way out of problems.",
-    "explanation": "Naval argues that while doom is easier to imagine, optimism is a 'creative duty' required to build the future and solve the very problems doomers fixate on."
+    "explanation": "Naval argues that while doom is easier to imagine, optimism is a 'creative duty' required to build the future and solve the very problems doomers fixate on.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Next Job' and the Farm Analogy",
@@ -101,7 +108,8 @@
       "AI will only be able to perform 10% of today's jobs."
     ],
     "answer": "We shouldn't worry about job loss because we lack the current creativity to see the future's 'next jobs.'",
-    "explanation": "Naval uses this historical context to show that technology doesn't end work; it just evolves it into forms we can't yet visualize."
+    "explanation": "Naval uses this historical context to show that technology doesn't end work; it just evolves it into forms we can't yet visualize.",
+    "difficulty": "medium"
   },
   {
     "question": "Regulatory Lag and Biological Defense",
@@ -114,7 +122,8 @@
       "Building a robot that can manufacture hardware without humans."
     ],
     "answer": "Using AI to solve medicine and biology through massive, anonymized datasets.",
-    "explanation": "Naval argues that AI could solve therapies if it could access and clean the massive amounts of medical data currently hidden by regulation."
+    "explanation": "Naval argues that AI could solve therapies if it could access and clean the massive amounts of medical data currently hidden by regulation.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Crabs in a Bucket' Mentality",
@@ -127,6 +136,7 @@
       "To use AI to predict exactly when the world will end."
     ],
     "answer": "To nurture creativity and imagine the 'rising up' scenario to build a way out.",
-    "explanation": "Optimism is presented as a survival and building tool. In a crisis, the person who imagines a way out is more valuable than the one who fixates on the catastrophic outcome."
+    "explanation": "Optimism is presented as a survival and building tool. In a crisis, the person who imagines a way out is more valuable than the one who fixates on the catastrophic outcome.",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "Because it made a profit on the trade."
     ],
     "answer": "Because it autonomously selected which tools to use and in what order to solve a high-level objective.",
-    "explanation": "Agency is defined by the ability to use tools and reasoning to solve complex goals without every single intermediate step being hard-coded by the developer."
+    "explanation": "Agency is defined by the ability to use tools and reasoning to solve complex goals without every single intermediate step being hard-coded by the developer.",
+    "difficulty": "medium"
   },
   {
     "question": "Safety Protocols and 'Kill Switches'",
@@ -23,7 +24,8 @@
       "Lower the transaction fees at the brokerage."
     ],
     "answer": "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
-    "explanation": "When an autonomous system fails, you must remove its power to trade immediately. Kill switches prevent 'algorithmic meltdowns' from draining an account in minutes."
+    "explanation": "When an autonomous system fails, you must remove its power to trade immediately. Kill switches prevent 'algorithmic meltdowns' from draining an account in minutes.",
+    "difficulty": "medium"
   },
   {
     "question": "Execution Algorithms: VWAP and TWAP",
@@ -36,7 +38,8 @@
       "Wait for the price to drop to zero before buying."
     ],
     "answer": "Use a VWAP algorithm to spread the buying throughout the day based on historical volume patterns.",
-    "explanation": "Execution algorithms minimize 'Market Impact.' By following volume (VWAP), the bot blends in with the rest of the market and achieves a better average price."
+    "explanation": "Execution algorithms minimize 'Market Impact.' By following volume (VWAP), the bot blends in with the rest of the market and achieves a better average price.",
+    "difficulty": "medium"
   },
   {
     "question": "Monitoring and Logging Bot Performance",
@@ -49,7 +52,8 @@
       "The bot needs a faster CPU."
     ],
     "answer": "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
-    "explanation": "Slippage is a sign of 'execution friction.' Monitoring this allows developers to refine how the bot places orders, such as switching from 'Market' orders to 'Limit' orders."
+    "explanation": "Slippage is a sign of 'execution friction.' Monitoring this allows developers to refine how the bot places orders, such as switching from 'Market' orders to 'Limit' orders.",
+    "difficulty": "hard"
   },
   {
     "question": "Handling 'API Disconnects' Gracefully",
@@ -62,7 +66,8 @@
       "Start a new trading day from scratch."
     ],
     "answer": "Synchronize its internal 'State' with the broker to see which orders were filled or canceled during the outage.",
-    "explanation": "Synchronization is vital. The bot must know exactly what it currently owns (its 'State') before making new decisions to avoid accidental over-exposure or double-trading."
+    "explanation": "Synchronization is vital. The bot must know exactly what it currently owns (its 'State') before making new decisions to avoid accidental over-exposure or double-trading.",
+    "difficulty": "hard"
   },
   {
     "question": "Multi-Agent Systems (MAS) in Trading",
@@ -75,7 +80,8 @@
       "To make the software more complicated and impressive."
     ],
     "answer": "To simulate a 'Digital Investment Committee,' reducing individual bias and catching errors through internal debate.",
-    "explanation": "MAS architectures provide 'Cognitive Diversity.' By forcing different agents to argue different sides of a trade, the system is less likely to fall for a single 'hallucination' or biased news source."
+    "explanation": "MAS architectures provide 'Cognitive Diversity.' By forcing different agents to argue different sides of a trade, the system is less likely to fall for a single 'hallucination' or biased news source.",
+    "difficulty": "hard"
   },
   {
     "question": "Rate Limiting and 'Backoff' Strategies",
@@ -88,7 +94,8 @@
       "Buy a second computer to send more requests."
     ],
     "answer": "Implement an 'Exponential Backoff' where the bot waits 1s, then 2s, then 4s, until the server responds.",
-    "explanation": "Exponential backoff is a standard networking practice. it allows the system to recover gracefully without overwhelming the service provider or triggering a security block."
+    "explanation": "Exponential backoff is a standard networking practice. it allows the system to recover gracefully without overwhelming the service provider or triggering a security block.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Shadow Mode' Deployment",
@@ -101,7 +108,8 @@
       "There is no difference."
     ],
     "answer": "Backtesting uses historical data; Shadow Mode uses real-time, live market data without spending real money.",
-    "explanation": "Shadow Mode is the 'Final Exam.' It tests how the agent handles the 'messiness' of live data (delays, news spikes, API errors) before it is trusted with capital."
+    "explanation": "Shadow Mode is the 'Final Exam.' It tests how the agent handles the 'messiness' of live data (delays, news spikes, API errors) before it is trusted with capital.",
+    "difficulty": "hard"
   },
   {
     "question": "Agentic Memory: Short-term vs. Long-term",
@@ -114,7 +122,8 @@
       "It doesn't help; AI cannot learn from its own mistakes."
     ],
     "answer": "It can store the source's metadata in a 'Blacklist' and refer to it before making the next trade.",
-    "explanation": "By utilizing persistent storage (like a Vector Database), an agent can build a 'knowledge base' of its own performance, becoming more refined and risk-averse over time."
+    "explanation": "By utilizing persistent storage (like a Vector Database), an agent can build a 'knowledge base' of its own performance, becoming more refined and risk-averse over time.",
+    "difficulty": "hard"
   },
   {
     "question": "Defining the 'Reward Function'",
@@ -127,6 +136,7 @@
       "The bot will refuse to make any trades at all."
     ],
     "answer": "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",
-    "explanation": "AI will 'optimize' exactly what you tell it to. Without 'Risk' penalties in the reward function, the agent will choose the most aggressive path to maximize the single metric of profit, regardless of the danger."
+    "explanation": "AI will 'optimize' exactly what you tell it to. Without 'Risk' penalties in the reward function, the agent will choose the most aggressive path to maximize the single metric of profit, regardless of the danger.",
+    "difficulty": "hard"
   }
 ]

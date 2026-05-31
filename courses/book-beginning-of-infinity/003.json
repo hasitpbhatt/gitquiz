@@ -10,7 +10,8 @@
       "That ancient Greeks knew about space travel"
     ],
     "answer": "How explanations can have surprising reach across domains",
-    "explanation": "The Pythagorean theorem (a² + b² = c²) works whether you're measuring fields in ancient Greece, calculating structural loads in skyscrapers, or plotting spacecraft trajectories - showing how mathematical explanations can have universal reach."
+    "explanation": "The Pythagorean theorem (a² + b² = c²) works whether you're measuring fields in ancient Greece, calculating structural loads in skyscrapers, or plotting spacecraft trajectories - showing how mathematical explanations can have universal reach.",
+    "difficulty": "easy"
   },
   {
     "question": "Jump to Universality",
@@ -23,7 +24,8 @@
       "Why older computers were better at specific tasks"
     ],
     "answer": "How computational universality enables diverse functions",
-    "explanation": "A universal computer (like your laptop) can perform any computation - from simple math to rendering video, composing music, or storing books. Once universality is reached, the same hardware can run any software program."
+    "explanation": "A universal computer (like your laptop) can perform any computation - from simple math to rendering video, composing music, or storing books. Once universality is reached, the same hardware can run any software program.",
+    "difficulty": "easy"
   },
   {
     "question": "Universal Replicators",
@@ -36,7 +38,8 @@
       "Why we should avoid making copies"
     ],
     "answer": "How digital information enables perfect replication",
-    "explanation": "Unlike photocopies that degrade with each generation, digital files like PDFs can be copied infinitely with perfect fidelity - each copy is identical to the original. This is a key feature of digital knowledge."
+    "explanation": "Unlike photocopies that degrade with each generation, digital files like PDFs can be copied infinitely with perfect fidelity - each copy is identical to the original. This is a key feature of digital knowledge.",
+    "difficulty": "easy"
   },
   {
     "question": "Digital vs. Analogue Knowledge",
@@ -49,7 +52,8 @@
       "Why digital files are actually less reliable"
     ],
     "answer": "How digital preservation prevents knowledge loss",
-    "explanation": "Analogue copying (like photocopies or tape recordings) introduces errors that accumulate. Digital copying preserves information perfectly - crucial for maintaining knowledge across generations without corruption."
+    "explanation": "Analogue copying (like photocopies or tape recordings) introduces errors that accumulate. Digital copying preserves information perfectly - crucial for maintaining knowledge across generations without corruption.",
+    "difficulty": "easy"
   },
   {
     "question": "The Reach Argument",
@@ -62,7 +66,8 @@
       "Why recipes should never be shared"
     ],
     "answer": "How good explanations have transferable reach",
-    "explanation": "Learning fundamental cooking techniques (heat control, ingredient balance, knife skills) in one cuisine creates knowledge that reaches far beyond - applying to entirely different culinary traditions. Good explanations often have this kind of unexpected reach."
+    "explanation": "Learning fundamental cooking techniques (heat control, ingredient balance, knife skills) in one cuisine creates knowledge that reaches far beyond - applying to entirely different culinary traditions. Good explanations often have this kind of unexpected reach.",
+    "difficulty": "easy"
   },
   {
     "question": "Knowledge as Explanatory Information",
@@ -75,7 +80,8 @@
       "That understanding is overrated"
     ],
     "answer": "Explanatory knowledge and mere data storage",
-    "explanation": "Memorizing phone numbers gives you data but no understanding. Understanding how phone networks work gives you explanatory knowledge - you can predict outcomes, troubleshoot problems, and innovate. Only the latter is true knowledge."
+    "explanation": "Memorizing phone numbers gives you data but no understanding. Understanding how phone networks work gives you explanatory knowledge - you can predict outcomes, troubleshoot problems, and innovate. Only the latter is true knowledge.",
+    "difficulty": "medium"
   },
   {
     "question": "Emergence",
@@ -88,7 +94,8 @@
       "Why emergence doesn't exist in nature"
     ],
     "answer": "How complex systems can have emergent properties",
-    "explanation": "No single ant knows how to build a complex nest, yet colonies create intricate structures through local interactions. The nest-building ability emerges from the colony as a whole - a property not present in individual ants."
+    "explanation": "No single ant knows how to build a complex nest, yet colonies create intricate structures through local interactions. The nest-building ability emerges from the colony as a whole - a property not present in individual ants.",
+    "difficulty": "medium"
   },
   {
     "question": "Universality in Computation",
@@ -101,6 +108,7 @@
       "Why we need different phones for different tasks"
     ],
     "answer": "How computational universality enables flexible use",
-    "explanation": "Your smartphone is a universal computer - it can run any software program, from games to productivity tools to educational apps. This flexibility comes from reaching the threshold of computational universality."
+    "explanation": "Your smartphone is a universal computer - it can run any software program, from games to productivity tools to educational apps. This flexibility comes from reaching the threshold of computational universality.",
+    "difficulty": "medium"
   }
 ]

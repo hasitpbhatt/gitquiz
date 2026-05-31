@@ -10,7 +10,8 @@
       "By refusing to participate in any international trade."
     ],
     "answer": "By focusing on human capital and innovation through superior education.",
-    "explanation": "Education is the leading determinant in Dalio's cycle. The Dutch used their knowledge to build better ships (the Fluyt) and better financial systems, allowing them to dominate the world despite their small size."
+    "explanation": "Education is the leading determinant in Dalio's cycle. The Dutch used their knowledge to build better ships (the Fluyt) and better financial systems, allowing them to dominate the world despite their small size.",
+    "difficulty": "easy"
   },
   {
     "question": "The Invention of the Joint-Stock Company",
@@ -22,8 +23,9 @@
       "It allowed for the pooling of capital from many investors to fund high-risk, high-reward global trade.",
       "It was the first company to use steam engines for shipping."
     ],
-    "answer": "It allows for the pooling of capital from many investors to fund high-risk, high-reward global trade.",
-    "explanation": "By inventing the joint-stock company and the first stock exchange (Amsterdam), the Dutch created a machine for generating and attracting capital, which fueled their expansion across the globe."
+    "answer": "It allowed for the pooling of capital from many investors to fund high-risk, high-reward global trade.",
+    "explanation": "By inventing the joint-stock company and the first stock exchange (Amsterdam), the Dutch created a machine for generating and attracting capital, which fueled their expansion across the globe.",
+    "difficulty": "easy"
   },
   {
     "question": "The Guilder: The First World Reserve Currency",
@@ -36,7 +38,8 @@
       "It forced other countries to speak the Dutch language."
     ],
     "answer": "They could borrow money at lower interest rates than any other nation.",
-    "explanation": "Reserve currency status allows a nation to borrow more easily and cheaply because the rest of the world wants to hold that currency as a safe store of value."
+    "explanation": "Reserve currency status allows a nation to borrow more easily and cheaply because the rest of the world wants to hold that currency as a safe store of value.",
+    "difficulty": "easy"
   },
   {
     "question": "The Shift from Productive to Financial Wealth",
@@ -49,7 +52,8 @@
       "Strengthening their own internal education systems."
     ],
     "answer": "Funding the very rival that would eventually displace them.",
-    "explanation": "Late-stage empires often seek 'passive' income by lending to rising powers. While profitable in the short term, this exports the empire's capital and helps the rival build the capacity to challenge the leader."
+    "explanation": "Late-stage empires often seek 'passive' income by lending to rising powers. While profitable in the short term, this exports the empire's capital and helps the rival build the capacity to challenge the leader.",
+    "difficulty": "medium"
   },
   {
     "question": "High Labor Costs and Competitiveness",
@@ -62,7 +66,8 @@
       "A temporary technical glitch in the economy."
     ],
     "answer": "The transition from Peak to Decline.",
-    "explanation": "Loss of competitiveness occurs when a successful nation becomes 'expensive' and 'complacent.' This allows rising powers with lower costs and high work ethics to take over trade share."
+    "explanation": "Loss of competitiveness occurs when a successful nation becomes 'expensive' and 'complacent.' This allows rising powers with lower costs and high work ethics to take over trade share.",
+    "difficulty": "medium"
   },
   {
     "question": "The Anglo-Dutch Wars: The Testing Phase",
@@ -75,7 +80,8 @@
       "A distraction that had no impact on the empire's future."
     ],
     "answer": "The 'Testing' phase of the External Order.",
-    "explanation": "The 'Testing' phase occurs when a rising power challenges the incumbent. The Dutch, burdened by debt and internal division, were unable to sustain the high costs of these conflicts."
+    "explanation": "The 'Testing' phase occurs when a rising power challenges the incumbent. The Dutch, burdened by debt and internal division, were unable to sustain the high costs of these conflicts.",
+    "difficulty": "medium"
   },
   {
     "question": "Internal Conflict and the 'Orange' vs. 'States' Parties",
@@ -88,7 +94,8 @@
       "It had no effect because the Dutch military was separate from politics."
     ],
     "answer": "It paralyzed their decision-making and weakened their collective resolve.",
-    "explanation": "Internal disorder (Stage 5) makes an empire fragile. When a nation is busy fighting itself, it cannot effectively manage its debt or defend itself against external rivals."
+    "explanation": "Internal disorder (Stage 5) makes an empire fragile. When a nation is busy fighting itself, it cannot effectively manage its debt or defend itself against external rivals.",
+    "difficulty": "medium"
   },
   {
     "question": "Debt, Printing, and the Fourth Anglo-Dutch War",
@@ -101,7 +108,8 @@
       "An increase in the price of gold that made everyone rich."
     ],
     "answer": "The discovery that the central bank was printing 'claims' on money it didn't actually have.",
-    "explanation": "Once the 'reserve' bank loses its credibility by printing money to cover debts, investors flee the currency. This loss of trust ends the nation's financial dominance."
+    "explanation": "Once the 'reserve' bank loses its credibility by printing money to cover debts, investors flee the currency. This loss of trust ends the nation's financial dominance.",
+    "difficulty": "medium"
   },
   {
     "question": "The Collapse and the French Invasion",
@@ -114,7 +122,8 @@
       "Because the Dutch decided they didn't want to be an empire anymore."
     ],
     "answer": "Because they were at the end of their 'Big Cycle,' characterized by financial and social exhaustion.",
-    "explanation": "By 1795, the Dutch had hit the 'Decline' markers: high debt, internal division, and a weakened military. They were a 'broken system' waiting for an external shock to topple them."
+    "explanation": "By 1795, the Dutch had hit the 'Decline' markers: high debt, internal division, and a weakened military. They were a 'broken system' waiting for an external shock to topple them.",
+    "difficulty": "hard"
   },
   {
     "question": "Lessons from the Dutch Archetype",
@@ -127,6 +136,7 @@
       "Printing money is a safe way to win any war."
     ],
     "answer": "Success leads to excesses and debt, which eventually destroy the foundation of that success.",
-    "explanation": "The Dutch story is a warning about the 'Top' of the cycle. Success creates wealth, but wealth often leads to the very debt and complacency that cause the eventual decline."
+    "explanation": "The Dutch story is a warning about the 'Top' of the cycle. Success creates wealth, but wealth often leads to the very debt and complacency that cause the eventual decline.",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "The 'Minimalist AI' approach."
     ],
     "answer": "The 'Always Be Using AI' rule.",
-    "explanation": "By not testing the AI currently, the developer is missing out on potential improvements. The rule encourages constant experimentation to discover new efficiencies as the technology evolves."
+    "explanation": "By not testing the AI currently, the developer is missing out on potential improvements. The rule encourages constant experimentation to discover new efficiencies as the technology evolves.",
+    "difficulty": "easy"
   },
   {
     "question": "Rule 2: Be the Human in the Loop",
@@ -23,7 +24,8 @@
       "Submit the plans and let the city inspector find the errors."
     ],
     "answer": "Personally verify the structural integrity and sign off on the safety of the design.",
-    "explanation": "Being the 'Human in the Loop' means taking ultimate accountability. The human must check the AI's work for accuracy and ethical standards."
+    "explanation": "Being the 'Human in the Loop' means taking ultimate accountability. The human must check the AI's work for accuracy and ethical standards.",
+    "difficulty": "easy"
   },
   {
     "question": "Rule 3: Treat it Like a Person (But Know it's a Machine)",
@@ -36,7 +38,8 @@
       "It bypasses the AI's need for a software update."
     ],
     "answer": "It uses a persona to narrow the AI's focus and improve the quality of the critique.",
-    "explanation": "Treating AI as a 'social actor' (a person with a role) allows it to access specific patterns of language and logic that produce higher-quality results."
+    "explanation": "Treating AI as a 'social actor' (a person with a role) allows it to access specific patterns of language and logic that produce higher-quality results.",
+    "difficulty": "easy"
   },
   {
     "question": "Rule 4: This is the Worst AI You Will Ever Use",
@@ -49,7 +52,8 @@
       "The AI is intentionally holding back its best features."
     ],
     "answer": "This is the worst version of the AI they will ever encounter; it will improve.",
-    "explanation": "Rule 4 encourages a forward-looking mindset. Current limitations are just 'bugs' in a system that is rapidly becoming more sophisticated."
+    "explanation": "Rule 4 encourages a forward-looking mindset. Current limitations are just 'bugs' in a system that is rapidly becoming more sophisticated.",
+    "difficulty": "easy"
   },
   {
     "question": "The Danger of 'Checking Out'",
@@ -62,7 +66,8 @@
       "The airplane is too old for the AI."
     ],
     "answer": "The pilot may have 'checked out' due to the AI's high reliability, slowing their reaction time.",
-    "explanation": "High reliability leads to human complacency. Co-Intelligence requires the human to stay 'active' even when the machine seems perfect."
+    "explanation": "High reliability leads to human complacency. Co-Intelligence requires the human to stay 'active' even when the machine seems perfect.",
+    "difficulty": "easy"
   },
   {
     "question": "Context and 'The Ask'",
@@ -75,7 +80,8 @@
       "It requires less processing power."
     ],
     "answer": "It provides context and a specific persona to guide the AI's output.",
-    "explanation": "Specific context helps the AI navigate its training data to find the exact tone and structure required, rather than guessing randomly."
+    "explanation": "Specific context helps the AI navigate its training data to find the exact tone and structure required, rather than guessing randomly.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Looming' Expertise Shift",
@@ -88,7 +94,8 @@
       "The person who avoids technology entirely."
     ],
     "answer": "The AI-enabled builder, because they can leverage machine speed with human judgment.",
-    "explanation": "Co-Intelligence focuses on the 'multiplier effect.' The person who can direct and verify the machine's work becomes the new version of an expert."
+    "explanation": "Co-Intelligence focuses on the 'multiplier effect.' The person who can direct and verify the machine's work becomes the new version of an expert.",
+    "difficulty": "easy"
   },
   {
     "question": "Incentivizing Transparency",
@@ -101,7 +108,8 @@
       "Ignore it as long as the work is good."
     ],
     "answer": "Ask the volunteer to teach their AI techniques to the rest of the team.",
-    "explanation": "Sharing AI strategies turns individual 'Shadow AI' into collective 'Co-Intelligence,' raising the floor for the entire organization."
+    "explanation": "Sharing AI strategies turns individual 'Shadow AI' into collective 'Co-Intelligence,' raising the floor for the entire organization.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Human' in Human-in-the-Loop",
@@ -114,7 +122,8 @@
       "Ask a different AI to write it."
     ],
     "answer": "Rewrite sections to include a specific shared memory you have with the recipient.",
-    "explanation": "Adding personal, lived experience is a 'Human-in-the-Loop' action that provides the emotional depth the machine lacks."
+    "explanation": "Adding personal, lived experience is a 'Human-in-the-Loop' action that provides the emotional depth the machine lacks.",
+    "difficulty": "medium"
   },
   {
     "question": "Embracing the Weirdness",
@@ -127,6 +136,7 @@
       "Because humans are naturally illogical."
     ],
     "answer": "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",
-    "explanation": "Treating AI like a simple 'calculator' ignores its social-actor capabilities. To get the most out of it, you must engage with its 'alien' and 'person-like' qualities simultaneously."
+    "explanation": "Treating AI like a simple 'calculator' ignores its social-actor capabilities. To get the most out of it, you must engage with its 'alien' and 'person-like' qualities simultaneously.",
+    "difficulty": "medium"
   }
 ]

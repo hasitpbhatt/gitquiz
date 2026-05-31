@@ -10,7 +10,8 @@
       "Other companies refuse to use AI in their manufacturing process."
     ],
     "answer": "Most companies do one thing well (hardware), but Apple is unique in integrating great hardware with high-quality software.",
-    "explanation": "Naval notes that Apple’s success comes from doing two things well (hardware and software), whereas most companies struggle to write the software that makes their hardware usable."
+    "explanation": "Naval notes that Apple’s success comes from doing two things well (hardware and software), whereas most companies struggle to write the software that makes their hardware usable.",
+    "difficulty": "easy"
   },
   {
     "question": "Unlocking Hardware through AI",
@@ -23,7 +24,8 @@
       "The AI makes the lamp shine brighter without needing more electricity."
     ],
     "answer": "An AI agent can interact with the hardware directly, or a kid with cloud code can quickly build the software that used to take a whole team.",
-    "explanation": "Naval suggests that because software is now 'figured out' enough via AI, the barrier to making usable hardware has dropped significantly, allowing smaller players to create functional devices."
+    "explanation": "Naval suggests that because software is now 'figured out' enough via AI, the barrier to making usable hardware has dropped significantly, allowing smaller players to create functional devices.",
+    "difficulty": "easy"
   },
   {
     "question": "China's Incentive for Open Source",
@@ -36,7 +38,8 @@
       "The Chinese government wants to sell AI software to the United States."
     ],
     "answer": "Open source helps them catch up in software while supporting their existing dominance in hardware manufacturing.",
-    "explanation": "Naval explains that open source is a strategic move for those who are behind in software (like China) or those who sell hardware (like Nvidia), as it makes the software 'commodity' and the hardware more valuable."
+    "explanation": "Naval explains that open source is a strategic move for those who are behind in software (like China) or those who sell hardware (like Nvidia), as it makes the software 'commodity' and the hardware more valuable.",
+    "difficulty": "easy"
   },
   {
     "question": "Commoditizing the Complement",
@@ -49,7 +52,8 @@
       "The silicon used to manufacture chips."
     ],
     "answer": "The AI models and software that run on their cards.",
-    "explanation": "Nvidia wants as many people using AI as possible; by making the models open and 'commoditized,' they ensure more people need to buy their hardware (the GPUs) to run them."
+    "explanation": "Nvidia wants as many people using AI as possible; by making the models open and 'commoditized,' they ensure more people need to buy their hardware (the GPUs) to run them.",
+    "difficulty": "easy"
   },
   {
     "question": "The Google vs. Apple Paradox",
@@ -62,7 +66,8 @@
       "Poor at AI, but the best in the world at making phones."
     ],
     "answer": "Very good at cloud and AI, but not very good at consumer hardware or consumer software.",
-    "explanation": "Naval points out that while Google dominates in the cloud and AI space, they lack the 'gene' for high-quality consumer hardware and software that Apple possesses."
+    "explanation": "Naval points out that while Google dominates in the cloud and AI space, they lack the 'gene' for high-quality consumer hardware and software that Apple possesses.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Smart Kid' and Cloud Code",
@@ -75,7 +80,8 @@
       "The reason why hardware is becoming more expensive."
     ],
     "answer": "The democratization of software development, where small actors can unlock hardware functionality easily.",
-    "explanation": "Naval uses this example to show that the software 'moat' is shrinking; if a kid can write the software for a toy or a lamp using AI, then the value lies in the hardware itself."
+    "explanation": "Naval uses this example to show that the software 'moat' is shrinking; if a kid can write the software for a toy or a lamp using AI, then the value lies in the hardware itself.",
+    "difficulty": "easy"
   },
   {
     "question": "Hyperscalers and Open Source",
@@ -88,7 +94,8 @@
       "To protect themselves from being sued by AI scientists."
     ],
     "answer": "Because it commoditizes software and leads to more hardware usage in their data centers.",
-    "explanation": "Like Nvidia and China, cloud providers want a high volume of 'work' happening on their infrastructure. Open-source software removes the cost barrier for people to start using that infrastructure."
+    "explanation": "Like Nvidia and China, cloud providers want a high volume of 'work' happening on their infrastructure. Open-source software removes the cost barrier for people to start using that infrastructure.",
+    "difficulty": "medium"
   },
   {
     "question": "Rational Optimism vs. Doom Scenarios",
@@ -101,7 +108,8 @@
       "Because they want to be proven right when the world ends."
     ],
     "answer": "Because it's easier to see how existing jobs will go away than to imagine the new jobs that will be created.",
-    "explanation": "Naval explains that our minds hold onto doom scenarios because the 'methods of doom' are easier to visualize than the 'creativity' required for rising up and evolving."
+    "explanation": "Naval explains that our minds hold onto doom scenarios because the 'methods of doom' are easier to visualize than the 'creativity' required for rising up and evolving.",
+    "difficulty": "medium"
   },
   {
     "question": "The Farm Analogy for Job Loss",
@@ -114,7 +122,8 @@
       "Farming was a more 'honest' way to live than working with AI."
     ],
     "answer": "Past technological shifts show that we inevitably find 'the next job,' even if we can't imagine it now.",
-    "explanation": "Naval uses history to show that while we fear the end of current work, we always create new categories of work that were previously unimaginable."
+    "explanation": "Naval uses history to show that while we fear the end of current work, we always create new categories of work that were previously unimaginable.",
+    "difficulty": "medium"
   },
   {
     "question": "The Duty of the Optimist",
@@ -127,6 +136,7 @@
       "The competition between Nvidia and Google for data centers."
     ],
     "answer": "People who fixate on doom and try to pull the optimists back down with them.",
-    "explanation": "Naval notes that while the 'doom' crowd might be right, their mindset isn't helpful; we need 'irrational' optimism to stay in the 'foxhole' and actually build solutions."
+    "explanation": "Naval notes that while the 'doom' crowd might be right, their mindset isn't helpful; we need 'irrational' optimism to stay in the 'foxhole' and actually build solutions.",
+    "difficulty": "medium"
   }
 ]

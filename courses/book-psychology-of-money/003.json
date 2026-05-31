@@ -10,7 +10,8 @@
       "Leverage is always the right choice for long-term investors"
     ],
     "answer": "A reasonable strategy he sticks with beats an optimal one he abandons",
-    "explanation": "Housel argues that reasonable beats rational in practice. The mathematically optimal strategy means nothing if you abandon it during a downturn. A simple, boring approach that you maintain for decades produces better real-world results."
+    "explanation": "Housel argues that reasonable beats rational in practice. The mathematically optimal strategy means nothing if you abandon it during a downturn. A simple, boring approach that you maintain for decades produces better real-world results.",
+    "difficulty": "easy"
   },
   {
     "question": "Reasonable Over Rational — Emotional",
@@ -23,7 +24,8 @@
       "You need to develop more discipline and control your feelings"
     ],
     "answer": "A plan that lets you sleep at night is worth the reduced expected returns",
-    "explanation": "Housel emphasizes that the best financial plan is the one you can actually maintain. If a strategy causes sleepless nights, you will abandon it at the worst possible moment. Accounting for your own psychology is not weakness—it is wisdom."
+    "explanation": "Housel emphasizes that the best financial plan is the one you can actually maintain. If a strategy causes sleepless nights, you will abandon it at the worst possible moment. Accounting for your own psychology is not weakness—it is wisdom.",
+    "difficulty": "easy"
   },
   {
     "question": "Surprise!",
@@ -36,7 +38,8 @@
       "Past patterns always repeat themselves exactly"
     ],
     "answer": "History provides guidance but cannot predict novel surprises",
-    "explanation": "Housel warns against overconfidence in historical models. The future produces surprises that have no precedent. Use history for rough orientation, not precise prediction, and always leave room for the unexpected."
+    "explanation": "Housel warns against overconfidence in historical models. The future produces surprises that have no precedent. Use history for rough orientation, not precise prediction, and always leave room for the unexpected.",
+    "difficulty": "easy"
   },
   {
     "question": "Room for Error",
@@ -49,7 +52,8 @@
       "Her original calculation was probably accurate enough"
     ],
     "answer": "A margin of error protects against assumptions that turn out wrong",
-    "explanation": "Housel stresses that room for error is the only reliable way to handle uncertainty. Life rarely follows the plan. A 50% buffer transforms a setback from a crisis into an inconvenience. It is not waste—it is resilience."
+    "explanation": "Housel stresses that room for error is the only reliable way to handle uncertainty. Life rarely follows the plan. A 50% buffer transforms a setback from a crisis into an inconvenience. It is not waste—it is resilience.",
+    "difficulty": "medium"
   },
   {
     "question": "Room for Error — Resilience",
@@ -62,7 +66,8 @@
       "Delivery drivers do not need emergency funds because their income is stable"
     ],
     "answer": "An 18-month buffer provides genuine resilience against life’s unpredictability",
-    "explanation": "Housel argues the size of your margin of safety is a personal decision based on your need for security. If 18 months lets this driver sleep well and avoid panicked decisions during a crisis, it is not excessive—it is wise."
+    "explanation": "Housel argues the size of your margin of safety is a personal decision based on your need for security. If 18 months lets this driver sleep well and avoid panicked decisions during a crisis, it is not excessive—it is wise.",
+    "difficulty": "medium"
   },
   {
     "question": "You Will Change",
@@ -75,7 +80,8 @@
       "The startup lifestyle is always worth it regardless of age"
     ],
     "answer": "People consistently underestimate how much they will change in the future",
-    "explanation": "Housel describes the End of History Illusion: we believe we have reached the final version of ourselves, but future versions will have different priorities. Avoid extreme financial commitments that lock you into one version of yourself."
+    "explanation": "Housel describes the End of History Illusion: we believe we have reached the final version of ourselves, but future versions will have different priorities. Avoid extreme financial commitments that lock you into one version of yourself.",
+    "difficulty": "medium"
   },
   {
     "question": "Nothing Is Free",
@@ -88,7 +94,8 @@
       "She should switch to bonds which never lose value"
     ],
     "answer": "Market volatility is the price you pay for long-term returns",
-    "explanation": "Housel explains that volatility is not a fine we are forced to pay—it is the admission price. Like any worthwhile endeavor, investing has a cost. The cost is enduring uncertainty and temporary losses. Those who refuse to pay never get the returns."
+    "explanation": "Housel explains that volatility is not a fine we are forced to pay—it is the admission price. Like any worthwhile endeavor, investing has a cost. The cost is enduring uncertainty and temporary losses. Those who refuse to pay never get the returns.",
+    "difficulty": "medium"
   },
   {
     "question": "Nothing Is Free — Business Setbacks",
@@ -101,7 +108,8 @@
       "New competitors mean the business model is fundamentally flawed"
     ],
     "answer": "Setbacks and competition are normal costs of being in business long-term",
-    "explanation": "Housel encourages viewing market downturns and business setbacks as the price of admission, not as punishments. The bookstore owner who accepts competition as a normal cost will persist; the one who sees it as a personal failure will quit."
+    "explanation": "Housel encourages viewing market downturns and business setbacks as the price of admission, not as punishments. The bookstore owner who accepts competition as a normal cost will persist; the one who sees it as a personal failure will quit.",
+    "difficulty": "medium"
   },
   {
     "question": "You and Me",
@@ -114,7 +122,8 @@
       "Your sibling's success proves their strategy is universally correct"
     ],
     "answer": "Different time horizons require different investment strategies",
-    "explanation": "Housel emphasizes that what works for one person may be wrong for another. A day trader’s strategy makes sense for their short horizon but is inappropriate for a 30-year retirement plan. Know which game you are playing and do not copy others."
+    "explanation": "Housel emphasizes that what works for one person may be wrong for another. A day trader’s strategy makes sense for their short horizon but is inappropriate for a 30-year retirement plan. Know which game you are playing and do not copy others.",
+    "difficulty": "medium"
   },
   {
     "question": "Room for Error — Housing",
@@ -127,6 +136,7 @@
       "A mortgage is always a safe investment regardless of the payment size"
     ],
     "answer": "Failing to leave room for error turns manageable setbacks into potential crises",
-    "explanation": "Housel warns that the most dangerous financial situations are those with no buffer. A job loss or medical emergency would force this couple into impossible choices. Room for error is not pessimism—it is acknowledgment that life is unpredictable."
+    "explanation": "Housel warns that the most dangerous financial situations are those with no buffer. A job loss or medical emergency would force this couple into impossible choices. Room for error is not pessimism—it is acknowledgment that life is unpredictable.",
+    "difficulty": "medium"
   }
 ]

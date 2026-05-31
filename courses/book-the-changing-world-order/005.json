@@ -10,7 +10,8 @@
       "International law will automatically resolve the competition peacefully."
     ],
     "answer": "The two countries will enter a period of extreme tension with a high probability of war.",
-    "explanation": "History shows that in 12 out of 16 cases over the last 500 years, when a rising power threatened to displace a ruling power, it resulted in war. The 'trap' is the structural stress caused by this shift in relative strength."
+    "explanation": "History shows that in 12 out of 16 cases over the last 500 years, when a rising power threatened to displace a ruling power, it resulted in war. The 'trap' is the structural stress caused by this shift in relative strength.",
+    "difficulty": "easy"
   },
   {
     "question": "The Five Types of War",
@@ -23,7 +24,8 @@
       "A Geopolitical war, focused on changing the rival's borders."
     ],
     "answer": "A Technology war, aimed at slowing the rival's development.",
-    "explanation": "Technology wars involve restricting the flow of critical knowledge or components (like semiconductors) to prevent a rival from gaining a competitive or military edge."
+    "explanation": "Technology wars involve restricting the flow of critical knowledge or components (like semiconductors) to prevent a rival from gaining a competitive or military edge.",
+    "difficulty": "easy"
   },
   {
     "question": "Capital Wars and Sanctions",
@@ -36,7 +38,8 @@
       "A Military War tactic."
     ],
     "answer": "A Capital War tactic.",
-    "explanation": "Freezing assets and restricting financial flows are classic moves in a Capital War, designed to starve the rival of the funds needed to operate their economy or military."
+    "explanation": "Freezing assets and restricting financial flows are classic moves in a Capital War, designed to starve the rival of the funds needed to operate their economy or military.",
+    "difficulty": "easy"
   },
   {
     "question": "The Importance of 'Alliances'",
@@ -49,7 +52,8 @@
       "World trade is simply becoming more diverse."
     ],
     "answer": "The rising power is successfully challenging the External Order.",
-    "explanation": "Alliances are a measure of 'Geopolitical Influence.' When allies shift sides, it shows the rising power's influence is growing while the dominant power's ability to provide protection or benefits is weakening."
+    "explanation": "Alliances are a measure of 'Geopolitical Influence.' When allies shift sides, it shows the rising power's influence is growing while the dominant power's ability to provide protection or benefits is weakening.",
+    "difficulty": "easy"
   },
   {
     "question": "The Concept of 'Winning' Without Fighting",
@@ -62,7 +66,8 @@
       "The early Rise phase of the cycle."
     ],
     "answer": "Subduing the enemy without fighting.",
-    "explanation": "If a power can achieve its goals through economic, technological, or psychological dominance without ever firing a shot, it has achieved the ultimate strategic victory."
+    "explanation": "If a power can achieve its goals through economic, technological, or psychological dominance without ever firing a shot, it has achieved the ultimate strategic victory.",
+    "difficulty": "easy"
   },
   {
     "question": "Balance of Power and Miscalculations",
@@ -75,7 +80,8 @@
       "Because 80% is the magic number for the 'Rise' phase to end."
     ],
     "answer": "Because both sides may miscalculate their ability to win a conflict.",
-    "explanation": "When powers are near parity, the 'Rules of the Game' are no longer clear. Each side might think it can win a 'limited' war, which often escalates into a full-scale world order shift."
+    "explanation": "When powers are near parity, the 'Rules of the Game' are no longer clear. Each side might think it can win a 'limited' war, which often escalates into a full-scale world order shift.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of Geography and 'Spheres of Influence'",
@@ -88,7 +94,8 @@
       "Technology status."
     ],
     "answer": "Sphere of Influence.",
-    "explanation": "Spheres of influence are geographic zones of control. Challenging these zones is a common way to test the 'resolve' of a rival in the External Order cycle."
+    "explanation": "Spheres of influence are geographic zones of control. Challenging these zones is a common way to test the 'resolve' of a rival in the External Order cycle.",
+    "difficulty": "medium"
   },
   {
     "question": "Economic Interdependence as a Weapon",
@@ -101,7 +108,8 @@
       "A Capital War."
     ],
     "answer": "Economic/Trade Warfare.",
-    "explanation": "Using the supply of essential goods or trade routes to coerce another nation is a form of economic/trade warfare used to gain leverage in the external cycle."
+    "explanation": "Using the supply of essential goods or trade routes to coerce another nation is a form of economic/trade warfare used to gain leverage in the external cycle.",
+    "difficulty": "medium"
   },
   {
     "question": "The Costs of War",
@@ -114,7 +122,8 @@
       "Because winning a war prevents a country from trading forever."
     ],
     "answer": "Because the cost of the victory usually results in unsustainable debt and currency devaluation.",
-    "explanation": "War is the ultimate debt-driver. The massive spending required to win often leaves the victor financially crippled, leading to the internal and monetary crises that signal the end of their order."
+    "explanation": "War is the ultimate debt-driver. The massive spending required to win often leaves the victor financially crippled, leading to the internal and monetary crises that signal the end of their order.",
+    "difficulty": "medium"
   },
   {
     "question": "The New World Order",
@@ -127,6 +136,7 @@
       "A temporary pause in the Internal Order."
     ],
     "answer": "A New World Order.",
-    "explanation": "The conclusion of a major global restructuring results in a New World Order. It establishes the peace and the rules that will define the next 'Big Cycle' for roughly the next century."
+    "explanation": "The conclusion of a major global restructuring results in a New World Order. It establishes the peace and the rules that will define the next 'Big Cycle' for roughly the next century.",
+    "difficulty": "medium"
   }
 ]

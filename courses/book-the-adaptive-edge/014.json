@@ -10,7 +10,8 @@
       "The mandate should have come from the CEO rather than the HR department."
     ],
     "answer": "You scaled a technical solution without addressing the adaptive challenge of trust and management style at scale.",
-    "explanation": "Scaling isn't just about 'more people.' It’s about the holding environment. A small group has high trust; a large group requires an adaptive intervention to build that trust before the new policy can thrive."
+    "explanation": "Scaling isn't just about 'more people.' It’s about the holding environment. A small group has high trust; a large group requires an adaptive intervention to build that trust before the new policy can thrive.",
+    "difficulty": "medium"
   },
   {
     "question": "The Institutionalization of Leadership",
@@ -23,7 +24,8 @@
       "Identify which employees are most likely to be disruptive in meetings."
     ],
     "answer": "Institutionalize the adaptive habit of 'protecting voices from the margin.'",
-    "explanation": "By creating a ritual (the chair), you make 'speaking from the margin' a safe and expected behavior within the system's architecture, ensuring this leadership activity outlasts your tenure."
+    "explanation": "By creating a ritual (the chair), you make 'speaking from the margin' a safe and expected behavior within the system's architecture, ensuring this leadership activity outlasts your tenure.",
+    "difficulty": "medium"
   },
   {
     "question": "Managing the 'Resilience Gap'",
@@ -36,7 +38,8 @@
       "Because you want to maintain a default response of resisting all outside advice."
     ],
     "answer": "Because that 'unstructured' time often serves as the holding environment for naming and processing new challenges.",
-    "explanation": "Efficiency is often the enemy of adaptation. If every minute is accounted for (technical optimization), there is no 'room' for the messy, high-heat conversations required for systemic growth."
+    "explanation": "Efficiency is often the enemy of adaptation. If every minute is accounted for (technical optimization), there is no 'room' for the messy, high-heat conversations required for systemic growth.",
+    "difficulty": "medium"
   },
   {
     "question": "Distinguishing 'Succession' from 'Continuity'",
@@ -49,7 +52,8 @@
       "They represent the essential DNA that the company needs to thrive in the future."
     ],
     "answer": "They pose a high risk to the sustainability of the organization's adaptive capacity.",
-    "explanation": "Financial success is a technical metric. If a new leader cannot see the 'adaptive' reality of the system, they will likely collapse the holding environment and silence the very voices that allow the company to evolve."
+    "explanation": "Financial success is a technical metric. If a new leader cannot see the 'adaptive' reality of the system, they will likely collapse the holding environment and silence the very voices that allow the company to evolve.",
+    "difficulty": "medium"
   },
   {
     "question": "The Ritual of Reflection",
@@ -62,7 +66,8 @@
       "The productive zone of disequilibrium, by intentionally making people feel safe."
     ],
     "answer": "System-wide reflection to ensure long-term sustainability and relevance.",
-    "explanation": "By normalizing the 'sacrifice' of outdated habits, you keep the system lean and focused on its purpose. This prevents the 'technical debt' of old habits from slowing down the organization's evolution."
+    "explanation": "By normalizing the 'sacrifice' of outdated habits, you keep the system lean and focused on its purpose. This prevents the 'technical debt' of old habits from slowing down the organization's evolution.",
+    "difficulty": "medium"
   },
   {
     "question": "Holding the 'Ecosystem' Tension",
@@ -75,7 +80,8 @@
       "Giving the work back to the regulators so they can't blame you."
     ],
     "answer": "Applying adaptive leadership to the entire industry ecosystem to ensure collective survival.",
-    "explanation": "Adaptive challenges (like climate change) often exceed the boundaries of a single company. Leading the 'ecosystem' requires the same skills as leading a team: balcony view, managing disequilibrium, and protecting marginal voices."
+    "explanation": "Adaptive challenges (like climate change) often exceed the boundaries of a single company. Leading the 'ecosystem' requires the same skills as leading a team: balcony view, managing disequilibrium, and protecting marginal voices.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Immune System' Response to Scale",
@@ -88,7 +94,8 @@
       "An intervention by the authority figures to restore order and direction."
     ],
     "answer": "An 'immune system' response to the loss of control and status in those departments.",
-    "explanation": "When change scales, it threatens the 'power' and 'identity' of central functions. Recognizing this as an immune response allows you to treat the resistance with empathy rather than seeing it as a technical failure."
+    "explanation": "When change scales, it threatens the 'power' and 'identity' of central functions. Recognizing this as an immune response allows you to treat the resistance with empathy rather than seeing it as a technical failure.",
+    "difficulty": "hard"
   },
   {
     "question": "Maintaining the 'Learning Edge'",
@@ -101,7 +108,8 @@
       "Satisfy your own personal hunger for excitement and risk."
     ],
     "answer": "Keep the organization on the 'Learning Edge' and prevent complacency.",
-    "explanation": "The learning edge is where adaptation happens. By intentionally funding failure, you ensure the organization never stops being a 'student' of its environment, which is the only way to scale over decades."
+    "explanation": "The learning edge is where adaptation happens. By intentionally funding failure, you ensure the organization never stops being a 'student' of its environment, which is the only way to scale over decades.",
+    "difficulty": "hard"
   },
   {
     "question": "The Ethics of Scale",
@@ -114,7 +122,8 @@
       "Focusing on the technical efficiency of the current line to lower costs further."
     ],
     "answer": "Slowing down the scale of production to adapt the process, even if it hurts short-term profit.",
-    "explanation": "Ethical scale requires that the 'Purpose' remains the North Star. If scaling the product requires betraying the company's core values, the 'growth' is not sustainable and will eventually trigger a systemic crisis."
+    "explanation": "Ethical scale requires that the 'Purpose' remains the North Star. If scaling the product requires betraying the company's core values, the 'growth' is not sustainable and will eventually trigger a systemic crisis.",
+    "difficulty": "hard"
   },
   {
     "question": "The Legacy of the Adaptive Edge",
@@ -127,6 +136,7 @@
       "Concern, because they aren't treating the situation as a 'crisis' that requires a hero."
     ],
     "answer": "The ultimate validation that you have built a sustainable, adaptive organism.",
-    "explanation": "A thriving, sustainable system is the ultimate goal. When the 'adaptive activity' is distributed across the whole organization, the mission is accomplished. You have successfully navigated the Adaptive Edge."
+    "explanation": "A thriving, sustainable system is the ultimate goal. When the 'adaptive activity' is distributed across the whole organization, the mission is accomplished. You have successfully navigated the Adaptive Edge.",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "Remember favorable stats and forget unfavorable ones"
     ],
     "answer": "Remember favorable stats and forget unfavorable ones",
-    "explanation": "Confirmation bias leads you to remember information confirming your belief (their dominance) and forget information contradicting it (their losses), while avoiding contradictory sources."
+    "explanation": "Confirmation bias leads you to remember information confirming your belief (their dominance) and forget information contradicting it (their losses), while avoiding contradictory sources.",
+    "difficulty": "easy"
   },
   {
     "question": "Availability Heuristic",
@@ -23,7 +24,8 @@
       "You read a scientific study about increased shark populations"
     ],
     "answer": "Recent vivid examples make shark attacks seem more probable",
-    "explanation": "The availability heuristic makes easily recalled events (like recent news stories) seem more frequent or probable than they actually are, skewing risk perception."
+    "explanation": "The availability heuristic makes easily recalled events (like recent news stories) seem more frequent or probable than they actually are, skewing risk perception.",
+    "difficulty": "easy"
   },
   {
     "question": "Representativeness Heuristic",
@@ -36,7 +38,8 @@
       "Salespeople are required to be extroverted by law"
     ],
     "answer": "Their personality matches your stereotype of a librarian",
-    "explanation": "The representativeness heuristic causes us to judge likelihood based on how well something matches our stereotypes, ignoring base rates (there are far more salespeople than librarians)."
+    "explanation": "The representativeness heuristic causes us to judge likelihood based on how well something matches our stereotypes, ignoring base rates (there are far more salespeople than librarians).",
+    "difficulty": "easy"
   },
   {
     "question": "Survivorship Bias",
@@ -49,7 +52,8 @@
       "Their family backgrounds and connections"
     ],
     "answer": "The millions who dropped out and weren't successful",
-    "explanation": "Survivorship bias focuses only on visible successes (famous dropout entrepreneurs) while ignoring the much larger group of dropouts who didn't achieve notable success."
+    "explanation": "Survivorship bias focuses only on visible successes (famous dropout entrepreneurs) while ignoring the much larger group of dropouts who didn't achieve notable success.",
+    "difficulty": "easy"
   },
   {
     "question": "Clustering Illusion",
@@ -62,7 +66,8 @@
       "The coin feels heavier on one side"
     ],
     "answer": "Random sequences can produce streaks that aren't meaningful",
-    "explanation": "The clustering illusion makes us see meaning in random streaks. Even fair coins can produce runs of 5+ heads or tails due to chance alone."
+    "explanation": "The clustering illusion makes us see meaning in random streaks. Even fair coins can produce runs of 5+ heads or tails due to chance alone.",
+    "difficulty": "easy"
   },
   {
     "question": "Recency Illusion",
@@ -75,7 +80,8 @@
       "No major dictionaries recognize this usage"
     ],
     "answer": "Shakespeare used 'literally' this way in the 1600s",
-    "explanation": "The recency illusion makes us think language 'errors' are new when they often have historical usage - 'literally' used for emphasis dates back centuries."
+    "explanation": "The recency illusion makes us think language 'errors' are new when they often have historical usage - 'literally' used for emphasis dates back centuries.",
+    "difficulty": "easy"
   },
   {
     "question": "Anchoring Bias",
@@ -88,7 +94,8 @@
       "You checked online reviews before purchasing"
     ],
     "answer": "The $200 price serves as an anchor making $100 seem cheap",
-    "explanation": "The initial $200 price anchors your perception of value, making the $100 sale price seem like a significant saving regardless of the jacket's actual worth."
+    "explanation": "The initial $200 price anchors your perception of value, making the $100 sale price seem like a significant saving regardless of the jacket's actual worth.",
+    "difficulty": "easy"
   },
   {
     "question": "Loss Aversion",
@@ -101,7 +108,8 @@
       "Ask for better odds before considering"
     ],
     "answer": "Refuse the bet despite positive expected value",
-    "explanation": "Loss aversion makes the potential $100 loss feel worse than the potential $150 gain feels good, causing rejection of bets with positive expected value (~$25)."
+    "explanation": "Loss aversion makes the potential $100 loss feel worse than the potential $150 gain feels good, causing rejection of bets with positive expected value (~$25).",
+    "difficulty": "easy"
   },
   {
     "question": "Sunk Cost Fallacy",
@@ -114,7 +122,8 @@
       "Try to sell the tickets to recover some cost"
     ],
     "answer": "Stay home since you'll feel miserable and risk worsening your illness",
-    "explanation": "The $200 is a sunk cost - gone regardless of your decision. Rational choice ignores sunk costs and considers only future consequences (miscomfort, illness risk)."
+    "explanation": "The $200 is a sunk cost - gone regardless of your decision. Rational choice ignores sunk costs and considers only future consequences (miscomfort, illness risk).",
+    "difficulty": "easy"
   },
   {
     "question": "Framing Effect",
@@ -127,6 +136,7 @@
       "Either of the positively framed descriptions"
     ],
     "answer": "Either of the positively framed descriptions",
-    "explanation": "Positive framing (90% survival, 9/10 survive, 90% success) increases acceptance compared to negative framing (10% dying), even though they're statistically identical."
+    "explanation": "Positive framing (90% survival, 9/10 survive, 90% success) increases acceptance compared to negative framing (10% dying), even though they're statistically identical.",
+    "difficulty": "medium"
   }
 ]

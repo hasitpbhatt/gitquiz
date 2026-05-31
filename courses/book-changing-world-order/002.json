@@ -10,7 +10,8 @@
       "All five"
     ],
     "answer": "All five",
-    "explanation": "Debt (financial), wealth gaps (internal conflict), border dispute (external conflict), drought (act of nature), and declining patents (technology) together cover all five forces Dalio identifies."
+    "explanation": "Debt (financial), wealth gaps (internal conflict), border dispute (external conflict), drought (act of nature), and declining patents (technology) together cover all five forces Dalio identifies.",
+    "difficulty": "easy"
   },
   {
     "question": "Debt and Financial Cycles",
@@ -23,7 +24,8 @@
       "An inflation problem"
     ],
     "answer": "The end of the long-term debt cycle",
-    "explanation": "When interest rates hit zero and printing money becomes the only tool left, Dalio considers this the terminal phase of the long-term debt cycle, similar to what happened in the 1930s."
+    "explanation": "When interest rates hit zero and printing money becomes the only tool left, Dalio considers this the terminal phase of the long-term debt cycle, similar to what happened in the 1930s.",
+    "difficulty": "easy"
   },
   {
     "question": "Internal Conflict",
@@ -36,7 +38,8 @@
       "A media-induced panic"
     ],
     "answer": "The buildup of internal conflict driven by wealth and opportunity gaps",
-    "explanation": "Dalio emphasizes that when the system stops working for the majority, internal conflict escalates. Wealth and opportunity gaps are the most reliable leading indicators of internal disorder."
+    "explanation": "Dalio emphasizes that when the system stops working for the majority, internal conflict escalates. Wealth and opportunity gaps are the most reliable leading indicators of internal disorder.",
+    "difficulty": "easy"
   },
   {
     "question": "External Conflict",
@@ -49,7 +52,8 @@
       "Peaceful coexistence due to nuclear deterrence"
     ],
     "answer": "A high risk of external conflict between the established and rising powers",
-    "explanation": "Dalio shows that when a rising power approaches parity with an established power across multiple determinants, the risk of conflict spikes. This pattern has repeated across all major power transitions in history."
+    "explanation": "Dalio shows that when a rising power approaches parity with an established power across multiple determinants, the risk of conflict spikes. This pattern has repeated across all major power transitions in history.",
+    "difficulty": "easy"
   },
   {
     "question": "Acts of Nature",
@@ -62,7 +66,8 @@
       "Technology can eliminate all environmental risk"
     ],
     "answer": "Acts of nature amplify existing weaknesses and strengths",
-    "explanation": "Dalio treats acts of nature as a force that interacts with a nation's other determinants. A resilient nation absorbs shocks; a vulnerable one can be broken by them."
+    "explanation": "Dalio treats acts of nature as a force that interacts with a nation's other determinants. A resilient nation absorbs shocks; a vulnerable one can be broken by them.",
+    "difficulty": "easy"
   },
   {
     "question": "Technology and Innovation",
@@ -75,7 +80,8 @@
       "The role of geographic location in national success"
     ],
     "answer": "Technology and innovation as the primary driver of rising national power",
-    "explanation": "Dalio ranks innovation and technology among the top determinants because they drive productivity growth, which compounds over time and enables a nation to outcompete rivals across all other dimensions."
+    "explanation": "Dalio ranks innovation and technology among the top determinants because they drive productivity growth, which compounds over time and enables a nation to outcompete rivals across all other dimensions.",
+    "difficulty": "easy"
   },
   {
     "question": "Human Inventiveness",
@@ -88,7 +94,8 @@
       "Population growth creates more innovators automatically"
     ],
     "answer": "Each cycle leaves behind net gains through human inventiveness",
-    "explanation": "Dalio argues that while cycles bring destruction, the evolutionary process of inventiveness and learning means each cycle builds on the last, creating a long-term upward trajectory."
+    "explanation": "Dalio argues that while cycles bring destruction, the evolutionary process of inventiveness and learning means each cycle builds on the last, creating a long-term upward trajectory.",
+    "difficulty": "medium"
   },
   {
     "question": "The Renaissance and the Enlightenment",
@@ -101,6 +108,7 @@
       "An isolated philosophical debate among academics"
     ],
     "answer": "The Renaissance and Enlightenment as transformative forces that enabled modern progress",
-    "explanation": "Dalio credits the Renaissance and Enlightenment as the intellectual foundation for the productivity innovations, governance systems, and capital markets that drove the rise of modern empires."
+    "explanation": "Dalio credits the Renaissance and Enlightenment as the intellectual foundation for the productivity innovations, governance systems, and capital markets that drove the rise of modern empires.",
+    "difficulty": "medium"
   }
 ]

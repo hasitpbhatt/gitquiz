@@ -1,0 +1,170 @@
+[
+  {
+    "question": "Confirmation Bias",
+    "content": "Confirmation bias is the tendency to search for, interpret, and recall information that confirms our existing beliefs while ignoring or discounting contradictory evidence.",
+    "description": "An investor buys a stock and then spends hours reading articles that predict the stock will rise, dismissing negative analyses as biased. This illustrates:",
+    "options": [
+      "Diligent research making informed decisions",
+      "Confirmation bias in seeking supportive evidence",
+      "Efficient time management by focusing on positive sources",
+      "Healthy optimism about investment outcomes"
+    ],
+    "answer": "Confirmation bias in seeking supportive evidence",
+    "explanation": "Once we commit to a decision, we naturally seek information that validates it while avoiding contradictory data. Good decision-making requires actively seeking disconfirming evidence.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Incentive-Caused Bias",
+    "content": "Incentive-caused bias describes how people respond strongly to incentives both obvious and subtle. Understanding who benefits from what is crucial for evaluating their advice.",
+    "description": "A financial advisor recommends a complex investment product that earns him a high commission, rather than a simpler, cheaper alternative that better suits your needs. This reflects:",
+    "options": [
+      "The advisor superior knowledge of complex investments",
+      "Incentive-caused bias shaping the advice given",
+      "Your own lack of understanding of financial products",
+      "Market regulations requiring complex options first"
+    ],
+    "answer": "Incentive-caused bias shaping the advice given",
+    "explanation": "Always ask who benefits from this advice. Financial advisors, like all professionals, are influenced by their own incentives. Their recommendations may serve their interests more than yours.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Social Proof",
+    "content": "Social proof is the tendency to look to others behavior to determine what is correct, especially in uncertain situations. We assume that if many people do something, it must be right.",
+    "description": "A restaurant hires actors to stand in line outside, making passersby assume the food must be excellent. The resulting real customers demonstrate:",
+    "options": [
+      "The restaurant superior cooking quality",
+      "Effective social proof influencing behavior",
+      "The power of logical advertising campaigns",
+      "Customers doing independent research before dining"
+    ],
+    "answer": "Effective social proof influencing behavior",
+    "explanation": "When uncertain, we look to others for cues about correct behavior. The fake line creates the impression that many people choose this restaurant, triggering social proof and attracting real customers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Authority Influence",
+    "content": "People tend to comply with authority figures even when the authority directives conflict with their own judgment. A title, uniform, or perceived expertise can override independent thinking.",
+    "description": "A nurse administers a clearly incorrect medication dosage because a doctor insisted on it, despite the nurse training indicating otherwise. This demonstrates:",
+    "options": [
+      "Proper chain of command in medical settings",
+      "Authority influence overriding personal judgment",
+      "The nurse lack of professional competence",
+      "Effective teamwork and trust between colleagues"
+    ],
+    "answer": "Authority influence overriding personal judgment",
+    "explanation": "The tendency to defer to authority can be dangerous when it bypasses independent critical thinking. The nurse training should prevail, but the authority dynamic made compliance feel mandatory.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Commitment and Consistency",
+    "content": "Once we make a choice or take a stand, we encounter internal and external pressure to behave consistently with that commitment. This tendency can lead us to maintain failing courses of action.",
+    "description": "After publicly declaring she will finish a marathon despite a knee injury, a runner refuses to quit even as her pain worsens. Her determination is partly driven by:",
+    "options": [
+      "Genuine obliviousness to physical pain",
+      "The commitment and consistency principle",
+      "Superior athletic training techniques",
+      "The belief that injuries always heal during exercise"
+    ],
+    "answer": "The commitment and consistency principle",
+    "explanation": "Public commitments create powerful pressure to remain consistent. The runner declared goal makes it psychologically difficult to quit, even when doing so would be the wiser choice.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Scarcity Principle",
+    "content": "Scarcity creates desire. Opportunities seem more valuable when their availability is limited. The fear of missing out can override rational evaluation of whether we actually need something.",
+    "description": "A website displays Only 3 rooms left at this price even though many rooms are available. This triggers:",
+    "options": [
+      "The scarcity principle making the offer seem more valuable",
+      "Accurate inventory information helping decision-making",
+      "Customers rational price comparison across sites",
+      "Legal requirements for hotel booking transparency"
+    ],
+    "answer": "The scarcity principle making the offer seem more valuable",
+    "explanation": "Limited availability creates urgency and increases perceived value. The fear of losing the opportunity can short-circuit rational consideration of whether the deal is actually good.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pain-Avoiding Denial",
+    "content": "Pain-avoiding psychological denial is the tendency to reject or distort information that causes emotional pain, shielding ourselves from uncomfortable truths.",
+    "description": "Smokers often downplay health risks by citing exceptions like My grandfather smoked until 95. This rationalization is an example of:",
+    "options": [
+      "Statistical literacy and proper risk assessment",
+      "Pain-avoiding psychological denial",
+      "Intelligent use of anecdotal counterexamples",
+      "Balanced consideration of all scientific evidence"
+    ],
+    "answer": "Pain-avoiding psychological denial",
+    "explanation": "Facing the truth about smoking dangers is emotionally painful, so the mind finds reasons to dismiss it. This denial protects emotional comfort at the cost of accurate risk perception.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Mere Association",
+    "content": "Mere association influences us when we transfer feelings about one thing to something associated with it, even if there is no logical connection. This is why advertisers pair products with attractive people.",
+    "description": "A car commercial shows happy people driving through beautiful countryside with uplifting music. The advertiser is relying on:",
+    "options": [
+      "Detailed technical specifications of the vehicle",
+      "Mere association between the car and positive emotions",
+      "Honest demonstrations of the car performance",
+      "Customer reviews and satisfaction data"
+    ],
+    "answer": "Mere association between the car and positive emotions",
+    "explanation": "By linking the car with pleasant scenery and happy feelings, advertisers transfer those positive associations to the product, making you feel good about it without any logical argument.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Contrast Misjudgment",
+    "content": "Contrast misjudgment occurs when we perceive something differently based on what it is compared to, rather than evaluating it on its own merits. A small price seems reasonable after a large one.",
+    "description": "A store displays a $2,000 sofa, then shows a $400 chair. The chair seems like a great deal by comparison, even though $400 is expensive for a basic chair. This is:",
+    "options": [
+      "Smart pricing based on production costs",
+      "Contrast misjudgment distorting perceived value",
+      "The customer careful budget planning",
+      "Market competition driving fair prices"
+    ],
+    "answer": "Contrast misjudgment distorting perceived value",
+    "explanation": "The initial high price creates an anchor that makes the second price seem reasonable, even if neither represents good value. Judging items independently would reveal the chair true cost.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Availability Bias",
+    "content": "Availability bias leads us to overestimate the likelihood of events that are easily recalled. Vivid, recent, or emotionally charged events feel more common than they statistically are.",
+    "description": "After watching news coverage of a plane crash, people overestimate the risk of flying while underestimating the greater risk of car accidents. This illustrates:",
+    "options": [
+      "Rational risk assessment based on recent data",
+      "Availability bias making vivid events seem more probable",
+      "The media duty to report all transportation news",
+      "The actual statistical frequency of plane crashes"
+    ],
+    "answer": "Availability bias making vivid events seem more probable",
+    "explanation": "Dramatic, memorable events like plane crashes are easily recalled, available in memory, so we overestimate their frequency. The quieter, more common risks like car accidents are underestimated.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Self-Serving Bias",
+    "content": "Self-serving bias is the tendency to attribute our successes to our own abilities and efforts, while blaming failures on external circumstances beyond our control.",
+    "description": "A student who aces an exam says it is because of her intelligence and hard work, but fails the next one and blames the unfair questions. This reflects:",
+    "options": [
+      "Accurate self-assessment in both scenarios",
+      "Self-serving bias protecting self-esteem",
+      "The professor genuinely being unfair sometimes",
+      "Legitimate fluctuation in academic performance"
+    ],
+    "answer": "Self-serving bias protecting self-esteem",
+    "explanation": "We protect our egos by taking credit for success and deflecting blame for failure. This bias prevents honest self-evaluation and learning from mistakes.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Overconfidence Effect",
+    "content": "The overconfidence effect causes people to overestimate their own abilities, knowledge, and predictions. Most people rate themselves as above average, which is mathematically impossible for everyone.",
+    "description": "When surveyed, 93 percent of American drivers consider themselves above average in skill. This statistical impossibility demonstrates:",
+    "options": [
+      "The exceptional quality of American driver training",
+      "The overconfidence effect in self-assessment",
+      "American drivers being genuinely more skilled",
+      "Survey methodology flaws in data collection"
+    ],
+    "answer": "The overconfidence effect in self-assessment",
+    "explanation": "Mathematically, only 50 percent can be above average. The widespread belief that most of us are above average perfectly illustrates the overconfidence effect. We consistently overestimate our abilities.",
+    "difficulty": "medium"
+  }
+]

@@ -10,7 +10,8 @@
       "A decrease in the demand for sci-fi technologies like rockets and drones."
     ],
     "answer": "A phase shift where the world moves at a much faster pace across all sectors.",
-    "explanation": "Naval argues that the world has transitioned out of its previous stagnation and into a period of rapid, multi-dimensional acceleration."
+    "explanation": "Naval argues that the world has transitioned out of its previous stagnation and into a period of rapid, multi-dimensional acceleration.",
+    "difficulty": "medium"
   },
   {
     "question": "Venture Capital and 'Hard Tech'",
@@ -23,7 +24,8 @@
       "A shift toward funding only 'slow tech' that has 50-year development cycles."
     ],
     "answer": "A new requirement to fund sci-fi technologies like rockets, drones, and AI.",
-    "explanation": "Naval points out that the demand for 'sci-fi' technologies has skyrocketed, forcing VCs to move beyond traditional software-only portfolios."
+    "explanation": "Naval points out that the demand for 'sci-fi' technologies has skyrocketed, forcing VCs to move beyond traditional software-only portfolios.",
+    "difficulty": "medium"
   },
   {
     "question": "The Supply-Demand Gap in Sci-Fi Talent",
@@ -36,7 +38,8 @@
       "People willing to work in traditional hierarchical organizations."
     ],
     "answer": "Sci-fi engineers, scientists, and authors.",
-    "explanation": "Naval emphasizes that while the world wants sci-fi outcomes, the specialized talent required to engineer those outcomes is extremely rare."
+    "explanation": "Naval emphasizes that while the world wants sci-fi outcomes, the specialized talent required to engineer those outcomes is extremely rare.",
+    "difficulty": "medium"
   },
   {
     "question": "Hardware Renaissance: Software as the Key",
@@ -49,7 +52,8 @@
       "Government mandates requiring all hardware to be open source."
     ],
     "answer": "The fact that software is now 'figured out' enough via AI that hardware can finally function well.",
-    "explanation": "Naval’s core point about hardware is that 'software figured out' removes the primary reason why hardware products used to fail or be difficult to use."
+    "explanation": "Naval’s core point about hardware is that 'software figured out' removes the primary reason why hardware products used to fail or be difficult to use.",
+    "difficulty": "medium"
   },
   {
     "question": "China's Open Source Strategy",
@@ -62,7 +66,8 @@
       "They believe open-source models are easier for a government to control."
     ],
     "answer": "It plays into their hardware dominance by providing the necessary software to unlock their electronic goods.",
-    "explanation": "Naval explains that open source is a tool for China to commoditize software, which in turn makes their dominant hardware manufacturing more valuable."
+    "explanation": "Naval explains that open source is a tool for China to commoditize software, which in turn makes their dominant hardware manufacturing more valuable.",
+    "difficulty": "medium"
   },
   {
     "question": "The Role of Nvidia in the Open Source Ecosystem",
@@ -75,7 +80,8 @@
       "To follow international laws that require all GPU companies to be open source."
     ],
     "answer": "To commoditize the 'complement' (software) so they can sell as many hardware cards as possible.",
-    "explanation": "Nvidia benefits from the proliferation of AI; open-source software lowers the barrier for users to consume more of Nvidia's hardware."
+    "explanation": "Nvidia benefits from the proliferation of AI; open-source software lowers the barrier for users to consume more of Nvidia's hardware.",
+    "difficulty": "medium"
   },
   {
     "question": "Optimism and the Legibility of Doom",
@@ -88,7 +94,8 @@
       "Because there is more data available for doom scenarios than for positive ones."
     ],
     "answer": "Because optimism requires creativity to imagine the unknown, whereas doom fixates on the destruction of the known.",
-    "explanation": "Naval notes that we hold doom scenarios closer because they are 'legible' to the mind, while the next great human advancement is currently unimaginable."
+    "explanation": "Naval notes that we hold doom scenarios closer because they are 'legible' to the mind, while the next great human advancement is currently unimaginable.",
+    "difficulty": "hard"
   },
   {
     "question": "The Crab in the Bucket Metaphor",
@@ -101,7 +108,8 @@
       "It is a necessary part of the biological evolution of society."
     ],
     "answer": "It doesn't help matters; you don't want to be in a 'foxhole' with someone who only sees the end of the world.",
-    "explanation": "Naval emphasizes that even if doomers have points, their mindset is fundamentally unconstructive for those actually trying to build a way out of problems."
+    "explanation": "Naval emphasizes that even if doomers have points, their mindset is fundamentally unconstructive for those actually trying to build a way out of problems.",
+    "difficulty": "hard"
   },
   {
     "question": "The Farm Analogy and Unimaginable Jobs",
@@ -114,7 +122,8 @@
       "AI will eventually make it impossible for anyone to produce food."
     ],
     "answer": "Technology doesn't end work; it evolves it into forms that are currently impossible to imagine.",
-    "explanation": "Naval uses this historical perspective to counter the fear of mass unemployment, suggesting that 'there's always a next job' that we just can't visualize yet."
+    "explanation": "Naval uses this historical perspective to counter the fear of mass unemployment, suggesting that 'there's always a next job' that we just can't visualize yet.",
+    "difficulty": "hard"
   },
   {
     "question": "The Duty to Nurture Optimism",
@@ -127,6 +136,7 @@
       "Because it makes it easier to raise money from venture capitalists."
     ],
     "answer": "Because it is the only way out of our current problems; we must imagine the 'rising up' scenario.",
-    "explanation": "Naval argues that optimism is a creative requirement; to find the 'next job' or the 'next defense,' we must believe that such things are possible and buildable."
+    "explanation": "Naval argues that optimism is a creative requirement; to find the 'next job' or the 'next defense,' we must believe that such things are possible and buildable.",
+    "difficulty": "hard"
   }
 ]

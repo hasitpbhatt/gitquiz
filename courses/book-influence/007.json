@@ -10,7 +10,8 @@
       "The dealership requires this exact script"
     ],
     "answer": "Multiple principles working together create stronger influence than any single principle",
-    "explanation": "Combining similarity and liking (rapport building), scarcity (urgency), and authority (credibility) creates a multiplicative effect that's more powerful than any single tactic alone."
+    "explanation": "Combining similarity and liking (rapport building), scarcity (urgency), and authority (credibility) creates a multiplicative effect that's more powerful than any single tactic alone.",
+    "difficulty": "medium"
   },
   {
     "question": "Identifying the Primary Lever",
@@ -23,7 +24,8 @@
       "All groups should receive reciprocity since free gifts work on everyone"
     ],
     "answer": "A = reciprocity, B = social proof, C = scarcity — each targets the specific barrier",
-    "explanation": "Each principle addresses a different psychological barrier. Reciprocity bridges disconnection (the gift creates obligation from a stranger). Social proof resolves uncertainty (others donate, so it must be appropriate). Scarcity overcomes procrastination (limited time creates urgency to act now). Matching the principle to the primary barrier maximizes effectiveness."
+    "explanation": "Each principle addresses a different psychological barrier. Reciprocity bridges disconnection (the gift creates obligation from a stranger). Social proof resolves uncertainty (others donate, so it must be appropriate). Scarcity overcomes procrastination (limited time creates urgency to act now). Matching the principle to the primary barrier maximizes effectiveness.",
+    "difficulty": "medium"
   },
   {
     "question": "Influence Techniques in Online Marketing",
@@ -36,7 +38,8 @@
       "The site uses AI to personalize recommendations"
     ],
     "answer": "Different principles target different stages of the decision process",
-    "explanation": "Authority builds initial trust, social proof reduces choice anxiety, scarcity creates urgency for action, and additional social proof encourages complementary purchases—each principle serves a specific function in the conversion funnel."
+    "explanation": "Authority builds initial trust, social proof reduces choice anxiety, scarcity creates urgency for action, and additional social proof encourages complementary purchases—each principle serves a specific function in the conversion funnel.",
+    "difficulty": "medium"
   },
   {
     "question": "Influence in Negotiation Scenarios",
@@ -49,7 +52,8 @@
       "They have insider information about the budget"
     ],
     "answer": "They create a collaborative atmosphere while leveraging multiple influence factors",
-    "explanation": "Combining authority/social proof (market validity), liking (relationship building), scarcity (alternative options), and reciprocity (reasonable starting point) creates conditions for agreement without adversarial tactics."
+    "explanation": "Combining authority/social proof (market validity), liking (relationship building), scarcity (alternative options), and reciprocity (reasonable starting point) creates conditions for agreement without adversarial tactics.",
+    "difficulty": "medium"
   },
   {
     "question": "Influence in Social Media Engagement",
@@ -62,7 +66,8 @@
       "The platform algorithm favors this type of content"
     ],
     "answer": "The combination addresses multiple motivation factors simultaneously",
-    "explanation": "Authority establishes credibility, social proof validates the content's value, reciprocity encourages engagement through free value, and scarcity drives immediate action—working together to maximize engagement."
+    "explanation": "Authority establishes credibility, social proof validates the content's value, reciprocity encourages engagement through free value, and scarcity drives immediate action—working together to maximize engagement.",
+    "difficulty": "hard"
   },
   {
     "question": "Ethical Considerations in Combined Influence",
@@ -75,7 +80,8 @@
       "The social proof statistic being accurate"
     ],
     "answer": "Whether the combination is being used to override rational decision-making",
-    "explanation": "When multiple influence principles are combined intensively, they can create pressure that bypasses thoughtful consideration. Ethical use involves informing and persuading, not overwhelming decision-making capacity."
+    "explanation": "When multiple influence principles are combined intensively, they can create pressure that bypasses thoughtful consideration. Ethical use involves informing and persuading, not overwhelming decision-making capacity.",
+    "difficulty": "hard"
   },
   {
     "question": "Bundling or Manipulation?",
@@ -88,7 +94,8 @@
       "Are only unethical if the candidate lacks relevant experience"
     ],
     "answer": "May bypass critical evaluation by activating too many automatic responses at once",
-    "explanation": "The ethical concern with intense bundling is that simultaneous activation of multiple automatic triggers can overwhelm the cognitive resources needed for conscious deliberation. The question is not whether any single principle is manipulative, but whether the combination undermines the capacity for rational evaluation."
+    "explanation": "The ethical concern with intense bundling is that simultaneous activation of multiple automatic triggers can overwhelm the cognitive resources needed for conscious deliberation. The question is not whether any single principle is manipulative, but whether the combination undermines the capacity for rational evaluation.",
+    "difficulty": "hard"
   },
   {
     "question": "Influence in Workplace Dynamics",
@@ -101,6 +108,7 @@
       "Eliminate all resistance to change"
     ],
     "answer": "Increase acceptance through combined influence while respecting autonomy",
-    "explanation": "The combination builds credibility (authority/social proof), motivation (liking), urgency (scarcity), and ownership (reciprocity of input) creating conditions for acceptance without coercion."
+    "explanation": "The combination builds credibility (authority/social proof), motivation (liking), urgency (scarcity), and ownership (reciprocity of input) creating conditions for acceptance without coercion.",
+    "difficulty": "hard"
   }
 ]

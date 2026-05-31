@@ -10,7 +10,8 @@
       "A short-term loan agreement with the company's founders"
     ],
     "answer": "A residual claim on the company's profits and voting rights",
-    "explanation": "Equity holders have a 'residual' claim, meaning they get paid after employees, suppliers, and bondholders. In exchange for this risk, they gain voting rights and unlimited upside potential if the company thrives."
+    "explanation": "Equity holders have a 'residual' claim, meaning they get paid after employees, suppliers, and bondholders. In exchange for this risk, they gain voting rights and unlimited upside potential if the company thrives.",
+    "difficulty": "easy"
   },
   {
     "question": "Dividends and Retained Earnings",
@@ -23,7 +24,8 @@
       "A company that has never turned a profit"
     ],
     "answer": "A mature utility company with a high dividend yield",
-    "explanation": "Mature companies in stable industries (like utilities) often distribute a significant portion of their earnings as dividends, providing the steady cash flow required for income-focused investors."
+    "explanation": "Mature companies in stable industries (like utilities) often distribute a significant portion of their earnings as dividends, providing the steady cash flow required for income-focused investors.",
+    "difficulty": "easy"
   },
   {
     "question": "Market Capitalization",
@@ -36,7 +38,8 @@
       "Company A is more valuable because its individual share price is higher"
     ],
     "answer": "Both companies have the exact same Market Cap",
-    "explanation": "Market Cap = Price × Shares. Both companies have a Market Cap of $100 million. Individual share price alone does not determine a company's total value."
+    "explanation": "Market Cap = Price × Shares. Both companies have a Market Cap of $100 million. Individual share price alone does not determine a company's total value.",
+    "difficulty": "easy"
   },
   {
     "question": "The Bid-Ask Spread",
@@ -49,7 +52,8 @@
       "$50.10"
     ],
     "answer": "$50.05",
-    "explanation": "When you buy immediately using a market order, you pay the 'Ask' price (the price sellers are asking for). To sell immediately, you would receive the 'Bid' price."
+    "explanation": "When you buy immediately using a market order, you pay the 'Ask' price (the price sellers are asking for). To sell immediately, you would receive the 'Bid' price.",
+    "difficulty": "easy"
   },
   {
     "question": "Price-to-Earnings (P/E) Ratio",
@@ -62,7 +66,8 @@
       "The company is paying out all of its earnings as dividends"
     ],
     "answer": "Investors expect the company's earnings to grow very rapidly in the future",
-    "explanation": "A high P/E ratio usually indicates that investors are willing to pay a premium today because they anticipate significantly higher earnings in the years to come."
+    "explanation": "A high P/E ratio usually indicates that investors are willing to pay a premium today because they anticipate significantly higher earnings in the years to come.",
+    "difficulty": "easy"
   },
   {
     "question": "Stock Splits",
@@ -75,7 +80,8 @@
       "1 share worth $10,000 each"
     ],
     "answer": "100 shares worth $100 each",
-    "explanation": "In a 10-for-1 split, your share count increases by 10x, and the price drops to 1/10th. Your total value remains $10,000 ($100 × 100), but you now hold more pieces of the same 'pie'."
+    "explanation": "In a 10-for-1 split, your share count increases by 10x, and the price drops to 1/10th. Your total value remains $10,000 ($100 × 100), but you now hold more pieces of the same 'pie'.",
+    "difficulty": "easy"
   },
   {
     "question": "Short Selling",
@@ -88,7 +94,8 @@
       "Reinvesting your dividends"
     ],
     "answer": "Selling the stock short",
-    "explanation": "Short selling is the primary way to bet against a stock. You sell high now (with borrowed shares) and aim to 'cover' the position by buying low later."
+    "explanation": "Short selling is the primary way to bet against a stock. You sell high now (with borrowed shares) and aim to 'cover' the position by buying low later.",
+    "difficulty": "easy"
   },
   {
     "question": "Limited Liability",
@@ -101,7 +108,8 @@
       "Your $5,000 and your personal home"
     ],
     "answer": "The entire $5,000 investment",
-    "explanation": "Because of limited liability, your risk is capped at your initial investment. You are not personally responsible for the corporation's debts or legal liabilities."
+    "explanation": "Because of limited liability, your risk is capped at your initial investment. You are not personally responsible for the corporation's debts or legal liabilities.",
+    "difficulty": "easy"
   },
   {
     "question": "Stock Market Indices",
@@ -114,7 +122,8 @@
       "The cost of living decreased by 2%"
     ],
     "answer": "The 500 largest companies in the U.S. market increased in value by 2% on average",
-    "explanation": "The S&P 500 acts as a barometer for the large-cap U.S. stock market. Its movement reflects the weighted average performance of the 500 companies within it."
+    "explanation": "The S&P 500 acts as a barometer for the large-cap U.S. stock market. Its movement reflects the weighted average performance of the 500 companies within it.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of Investment Banks",
@@ -127,6 +136,7 @@
       "Providing insurance against factory fires"
     ],
     "answer": "Underwriting the stock and finding buyers for the new shares",
-    "explanation": "Investment banks facilitate the 'primary market' by helping companies issue new securities to the public, ensuring the company gets the cash it needs and investors get the shares."
+    "explanation": "Investment banks facilitate the 'primary market' by helping companies issue new securities to the public, ensuring the company gets the cash it needs and investors get the shares.",
+    "difficulty": "medium"
   }
 ]

@@ -10,7 +10,8 @@
       "Ignore the emails entirely and focus only on strategy from now on."
     ],
     "answer": "Schedule a 'balcony day' to evaluate why you allowed the system to pull you back into the technical weeds.",
-    "explanation": "Self-correction involves identifying when the system has successfully 'neutralized' you by keeping you busy with technical tasks. You must intentionally carve out time to regain your perspective."
+    "explanation": "Self-correction involves identifying when the system has successfully 'neutralized' you by keeping you busy with technical tasks. You must intentionally carve out time to regain your perspective.",
+    "difficulty": "easy"
   },
   {
     "question": "Managing Your Vulnerabilities",
@@ -23,7 +24,8 @@
       "Make a joke at the staff member's expense to deflect the attention."
     ],
     "answer": "Pause and recognize your internal 'button' being pushed, then thank them for the insight.",
-    "explanation": "By recognizing your vulnerability in the moment, you prevent your ego from sabotaging an adaptive learning opportunity for the organization."
+    "explanation": "By recognizing your vulnerability in the moment, you prevent your ego from sabotaging an adaptive learning opportunity for the organization.",
+    "difficulty": "easy"
   },
   {
     "question": "Anchoring Yourself in Purpose",
@@ -36,7 +38,8 @@
       "Seek out a new job where your leadership style will be more appreciated."
     ],
     "answer": "Remind yourself of the larger mission (e.g., 'we are saving this company for the 500 families it supports').",
-    "explanation": "External validation will often disappear when you are doing adaptive work. Purpose provides the internal fuel needed to endure the 'heat' of being a lightning rod."
+    "explanation": "External validation will often disappear when you are doing adaptive work. Purpose provides the internal fuel needed to endure the 'heat' of being a lightning rod.",
+    "difficulty": "easy"
   },
   {
     "question": "Seeking Sanctuary",
@@ -49,7 +52,8 @@
       "Work avoidance that will cause the project to fall behind."
     ],
     "answer": "An essential act of creating 'sanctuary' to restore your leadership capacity.",
-    "explanation": "Sanctuary is a strategic requirement. It allows you to discharge the 'heat' you've absorbed so you can return to the system with a clear mind and an open heart."
+    "explanation": "Sanctuary is a strategic requirement. It allows you to discharge the 'heat' you've absorbed so you can return to the system with a clear mind and an open heart.",
+    "difficulty": "medium"
   },
   {
     "question": "Finding Confidants, Not Just Allies",
@@ -62,7 +66,8 @@
       "A journalist, to ensure the 'truth' of the situation is documented."
     ],
     "answer": "A mentor from a completely different industry who has no stake in your company.",
-    "explanation": "Allies are important for the 'dance,' but they are part of the system. A confidant provides a safe 'balcony' for your soul, where you don't have to 'lead' or maintain a role."
+    "explanation": "Allies are important for the 'dance,' but they are part of the system. A confidant provides a safe 'balcony' for your soul, where you don't have to 'lead' or maintain a role.",
+    "difficulty": "medium"
   },
   {
     "question": "Distinguishing 'Self' from 'Role' (Resilience)",
@@ -75,7 +80,8 @@
       "Try to become 'friends' with everyone to show them you are a nice guy."
     ],
     "answer": "Understand that they are attacking the 'symbol of change' that is causing them pain, not your actual character.",
-    "explanation": "This distinction is a survival skill. It allows you to remain empathetic toward their pain without becoming defensive or being emotionally destroyed by their reactions."
+    "explanation": "This distinction is a survival skill. It allows you to remain empathetic toward their pain without becoming defensive or being emotionally destroyed by their reactions.",
+    "difficulty": "medium"
   },
   {
     "question": "Giving the Work Back (to Preserve Yourself)",
@@ -88,7 +94,8 @@
       "It helps you stay in the game by ensuring the task is done 'right' the first time."
     ],
     "answer": "It depletes your emotional energy and prevents the manager from growing their own capacity.",
-    "explanation": "Taking on others' work leads to 'compassion fatigue.' Giving the work back isn't just about leadership; it's about preserving your own bandwidth for the high-level challenges."
+    "explanation": "Taking on others' work leads to 'compassion fatigue.' Giving the work back isn't just about leadership; it's about preserving your own bandwidth for the high-level challenges.",
+    "difficulty": "medium"
   },
   {
     "question": "Practicing 'Mindfulness-in-Action'",
@@ -101,7 +108,8 @@
       "Immediately apologize to end the confrontation."
     ],
     "answer": "Observe the physical sensation of anger, take a breath, and ask: 'What is the fear behind this reaction?'",
-    "explanation": "Mindfulness-in-action allows you to stay 'on the balcony' of your own internal experience. It gives you the split-second of freedom needed to act with purpose rather than reflex."
+    "explanation": "Mindfulness-in-action allows you to stay 'on the balcony' of your own internal experience. It gives you the split-second of freedom needed to act with purpose rather than reflex.",
+    "difficulty": "medium"
   },
   {
     "question": "Accepting the 'Incompleteness' of Work",
@@ -114,7 +122,8 @@
       "Worry about the conflicts all weekend so you are 'prepared' for a fight on Monday."
     ],
     "answer": "Accept that adaptive work is messy and ongoing, and trust the 'holding environment' to keep things safe until Monday.",
-    "explanation": "Perfectionism is an enemy of adaptive leadership. Staying in the game requires the maturity to live with 'open loops' and unresolved tension without it draining your personal life."
+    "explanation": "Perfectionism is an enemy of adaptive leadership. Staying in the game requires the maturity to live with 'open loops' and unresolved tension without it draining your personal life.",
+    "difficulty": "medium"
   },
   {
     "question": "The Reward of the Work",
@@ -127,6 +136,7 @@
       "As a personal loss, because your popularity has decreased among some staff."
     ],
     "answer": "As a success, because the 'adaptive capacity' of the team has clearly increased.",
-    "explanation": "The 'win' in adaptive leadership isn't just the final metric; it’s the increased ability of the people to face their own challenges. Recognizing this keeps you motivated to stay in the game."
+    "explanation": "The 'win' in adaptive leadership isn't just the final metric; it’s the increased ability of the people to face their own challenges. Recognizing this keeps you motivated to stay in the game.",
+    "difficulty": "hard"
   }
 ]

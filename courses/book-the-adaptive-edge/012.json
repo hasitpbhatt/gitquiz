@@ -10,7 +10,8 @@
       "Because the coach should have ordered a different type of food."
     ],
     "answer": "Because it applies a social event (technical solution) to an adaptive challenge (lack of trust and communication).",
-    "explanation": "A pizza party is a technical fix. It provides a temporary 'feel-good' break, but it doesn't address the underlying behaviors, communication patterns, or power dynamics that created the dysfunction."
+    "explanation": "A pizza party is a technical fix. It provides a temporary 'feel-good' break, but it doesn't address the underlying behaviors, communication patterns, or power dynamics that created the dysfunction.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Hero' Trap",
@@ -23,7 +24,8 @@
       "The importance of the 'holding environment' you created."
     ],
     "answer": "A dependency on you as the 'hero,' which weakens the team's adaptive capacity.",
-    "explanation": "By 'saving' the team, you've taught them that they don't need to adapt or learn new skills—they just need to wait for you to take over when things get hard."
+    "explanation": "By 'saving' the team, you've taught them that they don't need to adapt or learn new skills—they just need to wait for you to take over when things get hard.",
+    "difficulty": "medium"
   },
   {
     "question": "The Diversion Trap",
@@ -36,7 +38,8 @@
       "A technical requirement for HR compliance."
     ],
     "answer": "A systemic diversion to avoid the difficult conversation about the new strategy.",
-    "explanation": "Systems create 'drama' to lower the heat. By focusing on 'tone' instead of 'strategy,' the board avoids the loss and uncertainty associated with the real adaptive work."
+    "explanation": "Systems create 'drama' to lower the heat. By focusing on 'tone' instead of 'strategy,' the board avoids the loss and uncertainty associated with the real adaptive work.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Seduction' Trap",
@@ -49,7 +52,8 @@
       "The practice of 'leading with an open heart.'"
     ],
     "answer": "The 'Seduction' trap, where the desire for affirmation overrides the work.",
-    "explanation": "Leadership often requires causing 'distress.' If your primary goal is to be liked (affirmation), you will reflexively lower the heat whenever the work gets difficult."
+    "explanation": "Leadership often requires causing 'distress.' If your primary goal is to be liked (affirmation), you will reflexively lower the heat whenever the work gets difficult.",
+    "difficulty": "medium"
   },
   {
     "question": "Misidentifying the 'DNA'",
@@ -62,7 +66,8 @@
       "No, because adaptation means discarding everything from the past."
     ],
     "answer": "No, you are likely protecting an outdated habit rather than a core value like 'accuracy' or 'security.'",
-    "explanation": "DNA conservation is about protecting the *purpose* (e.g., accuracy), not the *tool* (e.g., paper). Protecting the tool is a trap that leads to obsolescence."
+    "explanation": "DNA conservation is about protecting the *purpose* (e.g., accuracy), not the *tool* (e.g., paper). Protecting the tool is a trap that leads to obsolescence.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Expert' Trap",
@@ -75,7 +80,8 @@
       "A personal conflict with other senior staff."
     ],
     "answer": "The 'Expert' trap by modeling humility and inviting group work.",
-    "explanation": "By admitting uncertainty, you prevent the team from 'leaning' on your expertise and force them to engage in the adaptive struggle themselves."
+    "explanation": "By admitting uncertainty, you prevent the team from 'leaning' on your expertise and force them to engage in the adaptive struggle themselves.",
+    "difficulty": "medium"
   },
   {
     "question": "The Marginalization Trap",
@@ -88,7 +94,8 @@
       "Start your own lunch group with the junior employees who support your ideas."
     ],
     "answer": "Actively rebuild your 'informal' connections to stay tethered to the center of power.",
-    "explanation": "To lead, you must stay 'in' the system. If you allow yourself to be marginalized, the system successfully 'neutralizes' your message by disconnecting the 'messenger.'"
+    "explanation": "To lead, you must stay 'in' the system. If you allow yourself to be marginalized, the system successfully 'neutralizes' your message by disconnecting the 'messenger.'",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Holding Environment' Leak",
@@ -101,7 +108,8 @@
       "An act of leading with an open heart and empathy."
     ],
     "answer": "A 'leak' in the holding environment that allows everyone to escape the real work.",
-    "explanation": "A lighthearted comment in a high-tension moment is often a 'safety valve.' While it feels more comfortable, it stops the adaptive process right when it was getting to the 'deep' work."
+    "explanation": "A lighthearted comment in a high-tension moment is often a 'safety valve.' While it feels more comfortable, it stops the adaptive process right when it was getting to the 'deep' work.",
+    "difficulty": "hard"
   },
   {
     "question": "The Shadow Trap",
@@ -114,7 +122,8 @@
       "An example of 'getting on the balcony' of your own behavior."
     ],
     "answer": "The 'Shadow' trap where your personal insecurity is sabotaging the work.",
-    "explanation": "When your internal 'tuning' (fear of disrespect) drives your external actions (barking orders), you aren't leading the challenge; you're just reacting to your own shadow."
+    "explanation": "When your internal 'tuning' (fear of disrespect) drives your external actions (barking orders), you aren't leading the challenge; you're just reacting to your own shadow.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Savior' Projection",
@@ -127,6 +136,7 @@
       "Ignore the comment and focus on your technical tasks."
     ],
     "answer": "Immediately publicly clarify: 'I am here to facilitate the work, but the revenue solution must come from all of us.'",
-    "explanation": "By 'giving the work back' immediately, you reject the 'Savior' projection. This forces the company to realize that they are the ones who must adapt to fix the revenue."
+    "explanation": "By 'giving the work back' immediately, you reject the 'Savior' projection. This forces the company to realize that they are the ones who must adapt to fix the revenue.",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "Take medication to eliminate anxiety before speaking"
     ],
     "answer": "Start with small, low-stakes speaking situations and gradually increase audience size",
-    "explanation": "Gradual exposure retrains the brain that speaking situations are safe. Starting small builds confidence and prevents overwhelming anxiety, allowing fear to fade naturally through experience."
+    "explanation": "Gradual exposure retrains the brain that speaking situations are safe. Starting small builds confidence and prevents overwhelming anxiety, allowing fear to fade naturally through experience.",
+    "difficulty": "medium"
   },
   {
     "question": "Fears Fade with Exposure",
@@ -23,7 +24,8 @@
       "Explain logically that most dogs are friendly"
     ],
     "answer": "Start by watching calm dogs from a distance, then gradually approach under controlled conditions",
-    "explanation": "Avoidance reinforces fear. Gradual exposure at the child pace allows them to learn through experience that dogs are safe, building confidence step by step."
+    "explanation": "Avoidance reinforces fear. Gradual exposure at the child pace allows them to learn through experience that dogs are safe, building confidence step by step.",
+    "difficulty": "medium"
   },
   {
     "question": "Fears Fade with Exposure",
@@ -36,7 +38,8 @@
       "Attend the biggest conference immediately to get it done"
     ],
     "answer": "Start by attending a small event with a friend, then gradually attend larger gatherings alone",
-    "explanation": "Avoidance of networking reinforces the fear. Controlled exposure starts with manageable situations, providing success experiences that build confidence for bigger challenges."
+    "explanation": "Avoidance of networking reinforces the fear. Controlled exposure starts with manageable situations, providing success experiences that build confidence for bigger challenges.",
+    "difficulty": "medium"
   },
   {
     "question": "Fears Fade with Exposure",
@@ -49,7 +52,8 @@
       "Fear of flying cannot be treated without medication"
     ],
     "answer": "Avoidance reinforces fear: each cancellation strengthens the anxiety pattern",
-    "explanation": "Each time the person avoids flying, their brain learns that flying is dangerous and the fear response becomes stronger. Exposure breaks this cycle by teaching safety through experience."
+    "explanation": "Each time the person avoids flying, their brain learns that flying is dangerous and the fear response becomes stronger. Exposure breaks this cycle by teaching safety through experience.",
+    "difficulty": "medium"
   },
   {
     "question": "Fears Fade with Exposure",
@@ -62,7 +66,8 @@
       "Hire someone else to handle the launch"
     ],
     "answer": "Launch a minimal version to a small audience, learn from real feedback, and build confidence through action",
-    "explanation": "Fear of failure shrinks through exposure to manageable risks. A small launch provides real-world experience that shows the entrepreneur can handle outcomes, reducing fear of the unknown."
+    "explanation": "Fear of failure shrinks through exposure to manageable risks. A small launch provides real-world experience that shows the entrepreneur can handle outcomes, reducing fear of the unknown.",
+    "difficulty": "hard"
   },
   {
     "question": "Fears Fade with Exposure",
@@ -75,7 +80,8 @@
       "Excusing the student from class participation entirely"
     ],
     "answer": "Starting with easy questions and gradually asking more challenging ones as the student gains confidence",
-    "explanation": "Gradual exposure starts where the student feels safe. Each successful response builds confidence, allowing the student to tackle increasingly challenging participation over time."
+    "explanation": "Gradual exposure starts where the student feels safe. Each successful response builds confidence, allowing the student to tackle increasingly challenging participation over time.",
+    "difficulty": "hard"
   },
   {
     "question": "Fears Fade with Exposure",
@@ -88,6 +94,7 @@
       "Use dating apps exclusively to avoid in-person rejection"
     ],
     "answer": "Start by making small talk with strangers, then progress to asking for a coffee date",
-    "explanation": "Gradual exposure to social situations reduces the fear response. Starting with low-stakes interactions builds social confidence step by step, making the prospect of rejection less intimidating."
+    "explanation": "Gradual exposure to social situations reduces the fear response. Starting with low-stakes interactions builds social confidence step by step, making the prospect of rejection less intimidating.",
+    "difficulty": "hard"
   }
 ]

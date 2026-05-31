@@ -10,7 +10,8 @@
       "Stage 6: Revolution"
     ],
     "answer": "Stage 1: A New Order Begins",
-    "explanation": "The New Order Begins stage follows a revolution or civil war. The new leadership establishes control, purges the old guard, and lays the foundation for the next building phase."
+    "explanation": "The New Order Begins stage follows a revolution or civil war. The new leadership establishes control, purges the old guard, and lays the foundation for the next building phase.",
+    "difficulty": "easy"
   },
   {
     "question": "The Building Phase",
@@ -23,7 +24,8 @@
       "Stage 5: Bad Finances and Conflicts"
     ],
     "answer": "Stage 2: The Building Phase",
-    "explanation": "The Building Phase is the most constructive period of the cycle. Strong leadership, national unity, and productive investment create broad-based prosperity and set the stage for the golden age that follows."
+    "explanation": "The Building Phase is the most constructive period of the cycle. Strong leadership, national unity, and productive investment create broad-based prosperity and set the stage for the golden age that follows.",
+    "difficulty": "easy"
   },
   {
     "question": "The Period of Excess",
@@ -36,7 +38,8 @@
       "Stage 6: Revolution"
     ],
     "answer": "Stage 4: The Period of Excess",
-    "explanation": "The Period of Excess is characterized by widening inequality, financial bubbles, and a shift from productive investment to consumption. These conditions plant the seeds for the next downturn."
+    "explanation": "The Period of Excess is characterized by widening inequality, financial bubbles, and a shift from productive investment to consumption. These conditions plant the seeds for the next downturn.",
+    "difficulty": "easy"
   },
   {
     "question": "Bad Finances and Conflicts",
@@ -49,7 +52,8 @@
       "The end of the external cycle"
     ],
     "answer": "Stage 5: Bad Finances and Conflicts",
-    "explanation": "Dalio identifies Stage 5 as the most dangerous period before outright revolution. The combination of economic shock, social division, and financial weakness creates conditions that can lead to civil war."
+    "explanation": "Dalio identifies Stage 5 as the most dangerous period before outright revolution. The combination of economic shock, social division, and financial weakness creates conditions that can lead to civil war.",
+    "difficulty": "medium"
   },
   {
     "question": "Revolution",
@@ -62,7 +66,8 @@
       "Preventable with better communication"
     ],
     "answer": "The predictable Stage 6 outcome when Stage 5 conditions are severe enough",
-    "explanation": "Dalio emphasizes that revolutions do not come out of nowhere. They are the culmination of the internal cycle. When the system ceases to function for most people, a new order eventually replaces it through conflict."
+    "explanation": "Dalio emphasizes that revolutions do not come out of nowhere. They are the culmination of the internal cycle. When the system ceases to function for most people, a new order eventually replaces it through conflict.",
+    "difficulty": "medium"
   },
   {
     "question": "Communism as a Cyclical Response to Capitalism",
@@ -75,7 +80,8 @@
       "The natural end point of all industrial societies"
     ],
     "answer": "A cyclical response to capitalism's tendency to produce unsustainable wealth gaps",
-    "explanation": "Dalio frames communism as part of the internal cycle: when capitalism generates extreme inequality without correction, a revolutionary ideology emerges to redistribute power and wealth, resetting the cycle."
+    "explanation": "Dalio frames communism as part of the internal cycle: when capitalism generates extreme inequality without correction, a revolutionary ideology emerges to redistribute power and wealth, resetting the cycle.",
+    "difficulty": "medium"
   },
   {
     "question": "Bureaucracy as a Sign of Decline",
@@ -88,7 +94,8 @@
       "An improvement in democratic accountability"
     ],
     "answer": "Bureaucracy slowing the system, consistent with a maturing or declining cycle",
-    "explanation": "Dalio notes that bureaucracy inevitably grows as nations age. When it begins to impede rather than enable, it contributes to declining competitiveness, which is a key indicator of a nation's movement through the Big Cycle."
+    "explanation": "Dalio notes that bureaucracy inevitably grows as nations age. When it begins to impede rather than enable, it contributes to declining competitiveness, which is a key indicator of a nation's movement through the Big Cycle.",
+    "difficulty": "medium"
   },
   {
     "question": "Leadership Quality and Cycles",
@@ -101,6 +108,7 @@
       "The result of a different electoral system"
     ],
     "answer": "The cycle of leadership quality corresponding to the internal cycle stage",
-    "explanation": "Dalio observes that leadership quality correlates with cycle stage. In the building phase, conditions produce and reward effective leaders. In the declining phase, the system elevates leaders who serve narrow interests rather than the common good."
+    "explanation": "Dalio observes that leadership quality correlates with cycle stage. In the building phase, conditions produce and reward effective leaders. In the declining phase, the system elevates leaders who serve narrow interests rather than the common good.",
+    "difficulty": "medium"
   }
 ]

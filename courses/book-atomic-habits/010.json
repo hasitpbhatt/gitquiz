@@ -10,7 +10,8 @@
       "The Habit Scorecard"
     ],
     "answer": "The Goldilocks Rule",
-    "explanation": "The Goldilocks Rule states that humans experience peak motivation when working on tasks at the border of their current ability. Too hard leads to anxiety; too easy leads to boredom."
+    "explanation": "The Goldilocks Rule states that humans experience peak motivation when working on tasks at the border of their current ability. Too hard leads to anxiety; too easy leads to boredom.",
+    "difficulty": "medium"
   },
   {
     "question": "The Explore/Exploit Trade-off",
@@ -23,7 +24,8 @@
       "The Diderot Effect"
     ],
     "answer": "The Explore/Exploit Trade-off",
-    "explanation": "The explore phase tries many options to find a good match. The exploit phase doubles down on that choice for mastery. Both phases are necessary for excellence."
+    "explanation": "The explore phase tries many options to find a good match. The exploit phase doubles down on that choice for mastery. Both phases are necessary for excellence.",
+    "difficulty": "medium"
   },
   {
     "question": "Work That Feels Like Play",
@@ -36,7 +38,8 @@
       "Habit stacking"
     ],
     "answer": "The importance of aligning work with personality",
-    "explanation": "Habits that match natural inclinations require less motivation to maintain. Finding roles and activities that fit your personality makes the hard work of mastery feel like play."
+    "explanation": "Habits that match natural inclinations require less motivation to maintain. Finding roles and activities that fit your personality makes the hard work of mastery feel like play.",
+    "difficulty": "medium"
   },
   {
     "question": "The 80/20 Rule in Habits",
@@ -49,7 +52,8 @@
       "The Goldilocks Rule"
     ],
     "answer": "The 80/20 Rule (Pareto Principle) to habit focus",
-    "explanation": "The 80/20 Rule helps identify which habits deliver the most impact. Focusing energy on the vital few habits rather than spreading effort across many produces outsized results."
+    "explanation": "The 80/20 Rule helps identify which habits deliver the most impact. Focusing energy on the vital few habits rather than spreading effort across many produces outsized results.",
+    "difficulty": "medium"
   },
   {
     "question": "Review and Reflection",
@@ -62,7 +66,8 @@
       "The Two-Minute Rule"
     ],
     "answer": "Review and reflection prevents drift and enables course correction",
-    "explanation": "Habits can drift over time without periodic review. Reflection ensures you are still heading in the right direction and allows you to catch small deviations before they compound."
+    "explanation": "Habits can drift over time without periodic review. Reflection ensures you are still heading in the right direction and allows you to catch small deviations before they compound.",
+    "difficulty": "medium"
   },
   {
     "question": "The Identity Trap",
@@ -75,7 +80,8 @@
       "Implementation Intentions"
     ],
     "answer": "The Identity Trap becoming attached to one rigid self-definition",
-    "explanation": "While identity-based habits are powerful, becoming too attached to a single identity makes it hard to adapt. Keeping identity small and flexible allows growth."
+    "explanation": "While identity-based habits are powerful, becoming too attached to a single identity makes it hard to adapt. Keeping identity small and flexible allows growth.",
+    "difficulty": "hard"
   },
   {
     "question": "Breaking the Ceiling of Automaticity",
@@ -88,7 +94,8 @@
       "The Habit Loop"
     ],
     "answer": "The need to combine habits with deliberate practice to keep improving",
-    "explanation": "Habits make behavior automatic, but mastery requires pushing beyond comfort. Once a habit is established, you must add deliberate practice elements to continue growing."
+    "explanation": "Habits make behavior automatic, but mastery requires pushing beyond comfort. Once a habit is established, you must add deliberate practice elements to continue growing.",
+    "difficulty": "hard"
   },
   {
     "question": "The Habit Trajectory",
@@ -101,7 +108,8 @@
       "Temptation bundling"
     ],
     "answer": "The Trajectory of Habits",
-    "explanation": "Each small habit choice sets a trajectory. Over years, these trajectories diverge dramatically. The trajectory matters more than the current position because it determines where you end up."
+    "explanation": "Each small habit choice sets a trajectory. Over years, these trajectories diverge dramatically. The trajectory matters more than the current position because it determines where you end up.",
+    "difficulty": "hard"
   },
   {
     "question": "The Culmination of Atomic Habits",
@@ -114,7 +122,8 @@
       "The Habit Loop"
     ],
     "answer": "The culmination of atomic habits changing identity, not just outcomes",
-    "explanation": "The deepest benefit of habits is the identity shift. The writer did not just achieve a goal; they became the person who achieves writing goals. This identity change is the real reward."
+    "explanation": "The deepest benefit of habits is the identity shift. The writer did not just achieve a goal; they became the person who achieves writing goals. This identity change is the real reward.",
+    "difficulty": "hard"
   },
   {
     "question": "Tiny Changes, Remarkable Results",
@@ -127,7 +136,8 @@
       "That 1% improvements are too small to matter"
     ],
     "answer": "That small changes compound into remarkable results, but only after crossing a threshold",
-    "explanation": "The compound effect of small improvements often produces delayed breakthroughs. The first year built the foundation; the second year crossed the critical threshold where results became visible."
+    "explanation": "The compound effect of small improvements often produces delayed breakthroughs. The first year built the foundation; the second year crossed the critical threshold where results became visible.",
+    "difficulty": "hard"
   },
   {
     "question": "The Boredom Plateau",
@@ -140,7 +150,8 @@
       "The Diderot Effect"
     ],
     "answer": "The need to love boredom and persist through the plateau of habit maintenance",
-    "explanation": "Clear argues that the biggest challenge to long-term success is not the difficulty of the habit but the boredom of its repetition. Professionals show up even when the habit is no longer exciting."
+    "explanation": "Clear argues that the biggest challenge to long-term success is not the difficulty of the habit but the boredom of its repetition. Professionals show up even when the habit is no longer exciting.",
+    "difficulty": "hard"
   },
   {
     "question": "Flow State and Habit Mastery",
@@ -153,6 +164,7 @@
       "The Diderot Effect"
     ],
     "answer": "Flow state achieved through the Goldilocks Rule of optimal challenge",
-    "explanation": "Flow state occurs when challenge and skill are in balance. The Goldilocks Rule captures this principle for habits: habits must be at the right level of difficulty to sustain motivation and engagement over time."
+    "explanation": "Flow state occurs when challenge and skill are in balance. The Goldilocks Rule captures this principle for habits: habits must be at the right level of difficulty to sustain motivation and engagement over time.",
+    "difficulty": "hard"
   }
 ]

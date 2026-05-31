@@ -3,80 +3,140 @@
     "question": "Loss Aversion",
     "content": "Loss aversion is a principle of behavioral finance suggesting that the pain of losing is psychologically twice as powerful as the joy of gaining. This leads investors to hold onto losing investments for too long in hopes of 'breaking even,' while selling winners too quickly.",
     "description": "An investor's portfolio has one stock up 50% and another down 50%. Despite the losing company having poor future prospects, the investor refuses to sell it because they 'don't want to realize the loss.' What bias is being displayed?",
-    "options": ["Overconfidence Bias", "Loss Aversion", "The Representative Heuristic", "Arbitrage"],
+    "options": [
+      "Overconfidence Bias",
+      "Loss Aversion",
+      "The Representative Heuristic",
+      "Arbitrage"
+    ],
     "answer": "Loss Aversion",
-    "explanation": "Loss aversion causes individuals to avoid the 'pain' of a realized loss. This often results in 'disposition effect,' where investors keep bad stocks too long and sell good ones too early."
+    "explanation": "Loss aversion causes individuals to avoid the 'pain' of a realized loss. This often results in 'disposition effect,' where investors keep bad stocks too long and sell good ones too early.",
+    "difficulty": "easy"
   },
   {
     "question": "Overconfidence Bias",
     "content": "Overconfidence bias occurs when an individual misjudges their own skills, knowledge, or the precision of their information. In financial markets, this often leads to excessive trading, higher transaction costs, and an underestimation of risk.",
     "description": "A day trader believes they have a 'special gut feeling' that allows them to time the market better than professional algorithms. They trade 50 times a day, but after fees, they are losing money. This is likely a result of:",
-    "options": ["Market Efficiency", "Overconfidence Bias", "Diversification", "Passive Management"],
+    "options": [
+      "Market Efficiency",
+      "Overconfidence Bias",
+      "Diversification",
+      "Passive Management"
+    ],
     "answer": "Overconfidence Bias",
-    "explanation": "Overconfidence leads investors to believe they possess superior information or timing skills. Statistically, excessive trading driven by overconfidence usually leads to underperformance due to fees and timing errors."
+    "explanation": "Overconfidence leads investors to believe they possess superior information or timing skills. Statistically, excessive trading driven by overconfidence usually leads to underperformance due to fees and timing errors.",
+    "difficulty": "easy"
   },
   {
     "question": "Anchoring Bias",
     "content": "Anchoring is a cognitive bias where individuals rely too heavily on the first piece of information they receive (the 'anchor'). In stocks, people often anchor to the 'historical high' price and assume a stock is a bargain just because it has fallen from that peak.",
     "description": "A stock used to trade at $200 but has dropped to $100 due to a permanent shift in its industry. An investor buys it solely because 'it's 50% off its high,' ignoring the new negative data. What is the anchor here?",
-    "options": ["The current $100 price", "The 50% discount", "The historical $200 price", "The industry shift"],
+    "options": [
+      "The current $100 price",
+      "The 50% discount",
+      "The historical $200 price",
+      "The industry shift"
+    ],
     "answer": "The historical $200 price",
-    "explanation": "The investor is 'anchored' to the $200 price point, using it as a mental benchmark for value instead of evaluating the company's current and future financial health."
+    "explanation": "The investor is 'anchored' to the $200 price point, using it as a mental benchmark for value instead of evaluating the company's current and future financial health.",
+    "difficulty": "easy"
   },
   {
     "question": "The Concept of Market Bubbles",
     "content": "A market bubble occurs when the price of an asset rises far above its intrinsic value, driven by exuberant market behavior and 'herd mentality.' Bubbles are usually followed by a 'crash' when investors realize the prices are unsustainable.",
     "description": "In the late 1990s, investors bought any company with '.com' in its name, regardless of profits, simply because everyone else was doing it. This feedback loop of rising prices and increasing greed is the hallmark of:",
-    "options": ["A Market Bubble", "Fundamental Analysis", "Risk-Free Arbitrage", "Capital Asset Pricing"],
+    "options": [
+      "A Market Bubble",
+      "Fundamental Analysis",
+      "Risk-Free Arbitrage",
+      "Capital Asset Pricing"
+    ],
     "answer": "A Market Bubble",
-    "explanation": "Bubbles are driven by psychological factors where 'fear of missing out' (FOMO) overrides rational valuation, pushing prices to levels that cannot be supported by actual earnings."
+    "explanation": "Bubbles are driven by psychological factors where 'fear of missing out' (FOMO) overrides rational valuation, pushing prices to levels that cannot be supported by actual earnings.",
+    "difficulty": "easy"
   },
   {
     "question": "Mental Accounting",
     "content": "Mental accounting refers to the tendency for people to categorize their money into different 'buckets' based on its source or intended use (e.g., 'tax refund money' vs. 'hard-earned salary'). Rationally, all money is fungible and should be treated the same.",
     "description": "A person is very frugal with their monthly paycheck but spends a $1,000 casino win on a luxury watch they don't need. They justify it by saying it was 'house money.' This is an example of:",
-    "options": ["Diversification", "Mental Accounting", "Value Investing", "Hedging"],
+    "options": [
+      "Diversification",
+      "Mental Accounting",
+      "Value Investing",
+      "Hedging"
+    ],
     "answer": "Mental Accounting",
-    "explanation": "By treating the 'casino win' differently than the 'paycheck,' the individual is practicing mental accounting. Rationally, that $1,000 has the same purchasing power regardless of how it was acquired."
+    "explanation": "By treating the 'casino win' differently than the 'paycheck,' the individual is practicing mental accounting. Rationally, that $1,000 has the same purchasing power regardless of how it was acquired.",
+    "difficulty": "easy"
   },
   {
     "question": "Herd Behavior",
     "content": "Herd behavior is the tendency for individuals to mimic the actions of a larger group. In finance, this can lead to 'momentum' where a stock keeps rising just because people are buying it, or 'panics' where everyone sells at once.",
     "description": "You see a massive sell-off in the market. There is no news, but seeing the red numbers makes you panic and sell all your long-term investments. You are following the:",
-    "options": ["Efficient Market Hypothesis", "The Herd", "Fundamental Value", "Law of Large Numbers"],
+    "options": [
+      "Efficient Market Hypothesis",
+      "The Herd",
+      "Fundamental Value",
+      "Law of Large Numbers"
+    ],
     "answer": "The Herd",
-    "explanation": "Following the herd during a market panic often leads to 'buying high and selling low.' It is an emotional reaction to the actions of others rather than a calculated financial decision."
+    "explanation": "Following the herd during a market panic often leads to 'buying high and selling low.' It is an emotional reaction to the actions of others rather than a calculated financial decision.",
+    "difficulty": "easy"
   },
   {
     "question": "Prospect Theory",
     "content": "Developed by Kahneman and Tversky, Prospect Theory describes how people choose between probabilistic alternatives that involve risk. It shows that people value gains and losses differently, leading to inconsistent decision-making.",
     "description": "You are offered $500 for sure, OR a 50% chance to win $1,000. Most people take the $500. However, if offered a $500 loss for sure, OR a 50% chance to lose $1,000, many people gamble. This inconsistency is explained by:",
-    "options": ["Standard Utility Theory", "Prospect Theory", "Efficient Markets", "Modern Portfolio Theory"],
+    "options": [
+      "Standard Utility Theory",
+      "Prospect Theory",
+      "Efficient Markets",
+      "Modern Portfolio Theory"
+    ],
     "answer": "Prospect Theory",
-    "explanation": "Prospect Theory suggests we are 'risk-averse' when facing gains but 'risk-seeking' when facing losses, trying to gamble our way out of a certain loss."
+    "explanation": "Prospect Theory suggests we are 'risk-averse' when facing gains but 'risk-seeking' when facing losses, trying to gamble our way out of a certain loss.",
+    "difficulty": "easy"
   },
   {
     "question": "Confirmation Bias",
     "content": "Confirmation bias is the tendency to search for, interpret, and favor information that confirms one's pre-existing beliefs. In investing, this leads people to ignore 'red flags' about a company they love.",
     "description": "An investor loves a certain electric car company. They only read blogs written by fans of the company and immediately dismiss any negative news as 'fake.' This investor is suffering from:",
-    "options": ["Availability Heuristic", "Confirmation Bias", "Technical Analysis", "Insider Trading"],
+    "options": [
+      "Availability Heuristic",
+      "Confirmation Bias",
+      "Technical Analysis",
+      "Insider Trading"
+    ],
     "answer": "Confirmation Bias",
-    "explanation": "By only seeking out information that confirms their existing positive view, the investor creates an information bubble and ignores the actual risks of the investment."
+    "explanation": "By only seeking out information that confirms their existing positive view, the investor creates an information bubble and ignores the actual risks of the investment.",
+    "difficulty": "easy"
   },
   {
     "question": "The Availability Heuristic",
     "content": "The availability heuristic is a mental shortcut that relies on immediate examples that come to a given person's mind when evaluating a specific topic or decision. Recent or vivid events are often over-weighted in our minds.",
     "description": "After reading a single news story about a plane crash, a traveler decides to drive 10 hours instead of flying, even though driving is statistically much more dangerous. In finance, this leads to:",
-    "options": ["Overestimating the risk of a recent market crash", "Ignoring the risk of inflation", "Diversifying too much", "Lowering transaction costs"],
+    "options": [
+      "Overestimating the risk of a recent market crash",
+      "Ignoring the risk of inflation",
+      "Diversifying too much",
+      "Lowering transaction costs"
+    ],
     "answer": "Overestimating the risk of a recent market crash",
-    "explanation": "Because a recent crash is 'vivid' and 'available' in memory, investors may stay out of the market for years afterward, even if the actual probability of another crash is low."
+    "explanation": "Because a recent crash is 'vivid' and 'available' in memory, investors may stay out of the market for years afterward, even if the actual probability of another crash is low.",
+    "difficulty": "medium"
   },
   {
     "question": "Framing Effect",
     "content": "The framing effect occurs when people react to a particular choice in different ways depending on how it is presented (e.g., as a loss or as a gain). The 'frame' of the information changes the perception of the risk.",
     "description": "An advisor tells Client A: 'This investment has an 80% chance of success.' They tell Client B: 'This investment has a 20% chance of failure.' Even though the odds are identical, Client A is more likely to invest. This is:",
-    "options": ["The Framing Effect", "Asymmetric Information", "Market Timing", "Diversification"],
+    "options": [
+      "The Framing Effect",
+      "Asymmetric Information",
+      "Market Timing",
+      "Diversification"
+    ],
     "answer": "The Framing Effect",
-    "explanation": "The way the information is 'framed' (focusing on the positive 80% vs. the negative 20%) changes the emotional response of the investor, despite the underlying math being exactly the same."
+    "explanation": "The way the information is 'framed' (focusing on the positive 80% vs. the negative 20%) changes the emotional response of the investor, despite the underlying math being exactly the same.",
+    "difficulty": "medium"
   }
 ]

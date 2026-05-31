@@ -10,7 +10,8 @@
       "Scarcity - the gift appears limited edition"
     ],
     "answer": "Reciprocity - the unsolicited gift creates obligation",
-    "explanation": "The unexpected gift triggers the reciprocity norm, creating a psychological obligation to reciprocate with attention or compliance, which is the core mechanism at work here."
+    "explanation": "The unexpected gift triggers the reciprocity norm, creating a psychological obligation to reciprocate with attention or compliance, which is the core mechanism at work here.",
+    "difficulty": "medium"
   },
   {
     "question": "Defensive Strategy Against Influence",
@@ -23,7 +24,8 @@
       "Leave immediately without explanation"
     ],
     "answer": "Ask for time to think and consult others",
-    "explanation": "Creating space and time allows the automatic, unconscious influence reactions to subside so that conscious, rational decision-making can occur."
+    "explanation": "Creating space and time allows the automatic, unconscious influence reactions to subside so that conscious, rational decision-making can occur.",
+    "difficulty": "medium"
   },
   {
     "question": "Ethical Application of Influence Principles",
@@ -36,7 +38,8 @@
       "Avoid all personal connections at work"
     ],
     "answer": "Find genuine common ground to build rapport",
-    "explanation": "Ethically applying liking involves authentic relationship-building rather than manipulative deception, creating trust that benefits all parties."
+    "explanation": "Ethically applying liking involves authentic relationship-building rather than manipulative deception, creating trust that benefits all parties.",
+    "difficulty": "medium"
   },
   {
     "question": "Priority of Principles",
@@ -49,7 +52,8 @@
       "Neither — success was entirely due to food quality"
     ],
     "answer": "Social proof — the sign reduced uncertainty about an unknown restaurant",
-    "explanation": "The primary barrier was uncertainty (it is new and unfamiliar). Social proof directly addresses uncertainty by showing others have chosen this place. While reciprocity helps once people are inside, it does not solve the initial problem of getting people through the door. Social proof was the critical lever for the primary barrier."
+    "explanation": "The primary barrier was uncertainty (it is new and unfamiliar). Social proof directly addresses uncertainty by showing others have chosen this place. While reciprocity helps once people are inside, it does not solve the initial problem of getting people through the door. Social proof was the critical lever for the primary barrier.",
+    "difficulty": "medium"
   },
   {
     "question": "Recognizing Authority Misuse",
@@ -62,7 +66,8 @@
       "Buy the vitamins to support their acting career"
     ],
     "answer": "Seek actual medical advice about the vitamins",
-    "explanation": "While the actor may portray authority, their expertise is in acting, not medicine. Ethical deference to authority requires verifying that the authority is legitimate in the relevant domain."
+    "explanation": "While the actor may portray authority, their expertise is in acting, not medicine. Ethical deference to authority requires verifying that the authority is legitimate in the relevant domain.",
+    "difficulty": "hard"
   },
   {
     "question": "Scarcity and Actual Value",
@@ -75,7 +80,8 @@
       "The resale value of the limited edition"
     ],
     "answer": "Whether the limited features actually benefit you",
-    "explanation": "Scarcity tactics should not override basic evaluation of whether a product meets your actual needs and preferences at a reasonable cost."
+    "explanation": "Scarcity tactics should not override basic evaluation of whether a product meets your actual needs and preferences at a reasonable cost.",
+    "difficulty": "hard"
   },
   {
     "question": "Commitment and Flexibility",
@@ -88,7 +94,8 @@
       "Quit the project entirely to avoid inconsistency"
     ],
     "answer": "Communicate the new information and adjust the commitment",
-    "explanation": "Ethical consistency involves honoring the spirit of commitments while being willing to adjust specifics when circumstances change significantly, maintaining integrity through transparency rather than rigidity."
+    "explanation": "Ethical consistency involves honoring the spirit of commitments while being willing to adjust specifics when circumstances change significantly, maintaining integrity through transparency rather than rigidity.",
+    "difficulty": "hard"
   },
   {
     "question": "Social Proof and Personal Judgment",
@@ -101,7 +108,8 @@
       "Ask strangers which they prefer before deciding"
     ],
     "answer": "Consider why each is busy or empty alongside the social proof",
-    "explanation": "Social proof provides useful information about popularity but should be evaluated alongside other factors like menu preferences, dietary restrictions, or actual food quality assessments."
+    "explanation": "Social proof provides useful information about popularity but should be evaluated alongside other factors like menu preferences, dietary restrictions, or actual food quality assessments.",
+    "difficulty": "hard"
   },
   {
     "question": "Healthy vs. Toxic Reciprocity",
@@ -114,7 +122,8 @@
       "The favors are not valuable enough to create meaningful reciprocity"
     ],
     "answer": "Friend A uses accumulated obligation to create asymmetric power in the relationship",
-    "explanation": "Healthy reciprocity maintains balanced relationships through voluntary, mutual exchange. Here, Friend A deliberately creates a debt imbalance and leverages it strategically, transforming reciprocity into a power tool. The discomfort Friend B feels signals that the natural, voluntary quality of reciprocity has been replaced by calculated obligation."
+    "explanation": "Healthy reciprocity maintains balanced relationships through voluntary, mutual exchange. Here, Friend A deliberately creates a debt imbalance and leverages it strategically, transforming reciprocity into a power tool. The discomfort Friend B feels signals that the natural, voluntary quality of reciprocity has been replaced by calculated obligation.",
+    "difficulty": "hard"
   },
   {
     "question": "Applying Influence Knowledge Personally",
@@ -127,6 +136,7 @@
       "Teach others to use the principles against each other"
     ],
     "answer": "Recognize when principles are being used on you and pause before responding",
-    "explanation": "The protective power of influence knowledge lies in creating awareness that allows conscious choice rather than automatic compliance, enabling alignment with one's true interests and values."
+    "explanation": "The protective power of influence knowledge lies in creating awareness that allows conscious choice rather than automatic compliance, enabling alignment with one's true interests and values.",
+    "difficulty": "hard"
   }
 ]

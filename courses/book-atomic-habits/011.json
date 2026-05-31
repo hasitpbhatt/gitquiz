@@ -10,7 +10,8 @@
       "The Two-Minute Rule"
     ],
     "answer": "That habits must align with your natural inclinations and personality",
-    "explanation": "Clear argues that genes do not determine your destiny, but they do determine your areas of opportunity. Habits that match natural inclinations require less motivation to maintain and feel more like play than work."
+    "explanation": "Clear argues that genes do not determine your destiny, but they do determine your areas of opportunity. Habits that match natural inclinations require less motivation to maintain and feel more like play than work.",
+    "difficulty": "medium"
   },
   {
     "question": "The Annual Review Process",
@@ -23,7 +24,8 @@
       "Temptation bundling"
     ],
     "answer": "The Annual Review Process for preventing habit drift",
-    "explanation": "The Annual Review is a specific practice Clear recommends to catch small deviations before they compound into large problems. It provides periodic reflection that keeps habits aligned with identity."
+    "explanation": "The Annual Review is a specific practice Clear recommends to catch small deviations before they compound into large problems. It provides periodic reflection that keeps habits aligned with identity.",
+    "difficulty": "medium"
   },
   {
     "question": "The Integrity Report",
@@ -36,7 +38,8 @@
       "The Two-Minute Rule"
     ],
     "answer": "The Integrity Report",
-    "explanation": "The Integrity Report goes beyond surface-level habit tracking. It connects daily actions to core values, revealing gaps between who you want to be and what you actually do."
+    "explanation": "The Integrity Report goes beyond surface-level habit tracking. It connects daily actions to core values, revealing gaps between who you want to be and what you actually do.",
+    "difficulty": "medium"
   },
   {
     "question": "Hormesis: The Benefits of Small Stress",
@@ -49,7 +52,8 @@
       "The Premack Principle"
     ],
     "answer": "Hormesis: manageable difficulty strengthens systems",
-    "explanation": "Hormesis explains why optimal habits are not always easy. Some difficulty is necessary for growth. The Goldilocks Rule captures the behavioral aspect, while hormesis captures the biological mechanism."
+    "explanation": "Hormesis explains why optimal habits are not always easy. Some difficulty is necessary for growth. The Goldilocks Rule captures the behavioral aspect, while hormesis captures the biological mechanism.",
+    "difficulty": "hard"
   },
   {
     "question": "The After-Action Review",
@@ -62,7 +66,8 @@
       "Temptation bundling"
     ],
     "answer": "The After-Action Review",
-    "explanation": "Clear recommends the After-Action Review as a tool for continuous improvement. By systematically analyzing outcomes and processes, you catch small errors and refine your systems regularly."
+    "explanation": "Clear recommends the After-Action Review as a tool for continuous improvement. By systematically analyzing outcomes and processes, you catch small errors and refine your systems regularly.",
+    "difficulty": "hard"
   },
   {
     "question": "Pointing and Calling Origins",
@@ -75,7 +80,8 @@
       "Temptation bundling"
     ],
     "answer": "Pointing and Calling for raising subconscious habits to awareness",
-    "explanation": "Pointing and Calling works because it breaks automaticity. By verbalizing and gesturing at the cue, you force the brain to register it consciously. Clear recommends this for habit awareness."
+    "explanation": "Pointing and Calling works because it breaks automaticity. By verbalizing and gesturing at the cue, you force the brain to register it consciously. Clear recommends this for habit awareness.",
+    "difficulty": "hard"
   },
   {
     "question": "Habit Automaticity Timeline",
@@ -88,7 +94,8 @@
       "No more than one week with sufficient willpower"
     ],
     "answer": "18 to 254 days, averaging around 66 days",
-    "explanation": "The 21-day myth is incorrect. Habit formation timelines vary widely based on behavior complexity and individual differences. The key is consistent repetition over time, not hitting a specific day count."
+    "explanation": "The 21-day myth is incorrect. Habit formation timelines vary widely based on behavior complexity and individual differences. The key is consistent repetition over time, not hitting a specific day count.",
+    "difficulty": "hard"
   },
   {
     "question": "Little Lessons: Happiness and Habits",
@@ -101,7 +108,8 @@
       "Dopamine rewards goal completion, not effort"
     ],
     "answer": "Happiness is found in the pursuit of meaningful habits, not the achievement of goals",
-    "explanation": "Clear argues that the craving for a reward, not the reward itself, drives behavior. The anticipation of achieving something is often more satisfying than the achievement itself. This is why falling in love with the process matters."
+    "explanation": "Clear argues that the craving for a reward, not the reward itself, drives behavior. The anticipation of achieving something is often more satisfying than the achievement itself. This is why falling in love with the process matters.",
+    "difficulty": "hard"
   },
   {
     "question": "The Habit Transformation Arc",
@@ -114,7 +122,8 @@
       "The Diderot Effect"
     ],
     "answer": "The Habit Transformation Arc from small action to identity shift",
-    "explanation": "Atomic habits do not stop at behavior change. They create a ripple effect: tiny actions build habits, habits reshape identity, and identity enables broader mastery and contribution."
+    "explanation": "Atomic habits do not stop at behavior change. They create a ripple effect: tiny actions build habits, habits reshape identity, and identity enables broader mastery and contribution.",
+    "difficulty": "hard"
   },
   {
     "question": "When to Quit a Habit: The Exploration Phase",
@@ -127,6 +136,7 @@
       "It is only useful for children, not adults"
     ],
     "answer": "It allows you to find the right habit fit before committing to mastery",
-    "explanation": "Clear argues that exploration and exploitation are both necessary. First explore widely to find where your natural abilities and interests align. Then exploit that niche with deep, consistent practice."
+    "explanation": "Clear argues that exploration and exploitation are both necessary. First explore widely to find where your natural abilities and interests align. Then exploit that niche with deep, consistent practice.",
+    "difficulty": "hard"
   }
 ]

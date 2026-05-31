@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Lollapalooza Effect",
+    "content": "The Lollapalooza effect occurs when multiple psychological biases operate in the same direction at once, creating extreme outcomes far beyond what any single factor would produce.",
+    "description": "During a market panic, social proof, everyone selling, scarcity, liquidity drying up, and authority, experts predicting further drops, combine to drive prices far below intrinsic value. This is the:",
+    "options": [
+      "Normal functioning of efficient markets",
+      "Lollapalooza effect of multiple biases reinforcing each other",
+      "Confirmation that economic models are accurate",
+      "Rational response to new information"
+    ],
+    "answer": "Lollapalooza effect of multiple biases reinforcing each other",
+    "explanation": "When fear, social proof, and authority influence all point in the same direction, their combined effect is far more powerful than any single factor. Understanding this helps resist extreme market movements.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Backward Thinking",
+    "content": "Backward thinking means starting with the desired outcome and working backward to identify what must be true for that outcome to occur. It helps reverse-engineer success conditions.",
+    "description": "A student dreams of becoming a doctor. Using backward thinking, they would:",
+    "options": [
+      "Focus only on getting good grades now",
+      "Work backward from being a doctor to identify required steps: medical school, prerequisites, and so on",
+      "Ask doctors if they enjoy their work",
+      "Wait until college to think about the path"
+    ],
+    "answer": "Work backward from being a doctor to identify required steps: medical school, prerequisites, and so on",
+    "explanation": "Backward thinking clarifies the chain of necessary achievements. By starting at the goal and working backward, the student can identify each critical step and plan accordingly.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Risk of Ruin",
+    "content": "Some risks are unacceptable no matter how small the probability because the consequence is total ruin. A small chance of losing everything is not worth taking for any potential gain.",
+    "description": "A risky investment offers a 20 percent annual return but has a 5 percent chance of total loss each year. Over 20 years, the probability of ruin approaches 64 percent. A wise decision-maker would:",
+    "options": [
+      "Take the risk since most years are profitable",
+      "Avoid the risk entirely because ruin is unacceptable",
+      "Invest only in the first year and then withdraw",
+      "Hedge to reduce risk to near zero"
+    ],
+    "answer": "Avoid the risk entirely because ruin is unacceptable",
+    "explanation": "When ruin is the consequence, even small probabilities accumulate over time. Munger principle: never risk what you have and need for what you do not have and do not need.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Patience in Decision-Making",
+    "content": "Patience is crucial for good decision-making. The ability to wait for the right opportunity, rather than acting impulsively, separates successful thinkers from the rest.",
+    "description": "Warren Buffett is known for sitting on large cash reserves for years, waiting for the right investment opportunity at the right price. This exemplifies:",
+    "options": [
+      "Indecisiveness as a personality trait",
+      "The wisdom of patience in decision-making",
+      "Missing out on market gains during the waiting period",
+      "Lack of confidence in investment skills"
+    ],
+    "answer": "The wisdom of patience in decision-making",
+    "explanation": "Forcing decisions when conditions are unfavorable is a recipe for poor outcomes. Patience allows action when the odds are clearly in your favor, a principle Buffett and Munger emphasize.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Circle of Competence",
+    "content": "Knowing the boundaries of your knowledge is more important than how much you know. Operating within your circle of competence means making decisions in areas you truly understand.",
+    "description": "A brilliant surgeon starts investing in biotech startups, believing her medical expertise transfers to stock picking. She loses money because:",
+    "options": [
+      "The biotech industry is always unprofitable",
+      "Medical expertise differs from investment expertise. She is outside her circle of competence",
+      "Her surgical skills made her overconfident in general",
+      "She should have invested only in surgical equipment companies"
+    ],
+    "answer": "Medical expertise differs from investment expertise. She is outside her circle of competence",
+    "explanation": "Being an expert in one field does not confer expertise in another, even a related one. Munger and Buffett stress knowing what you know and, critically, what you do not know.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Understanding Before Action",
+    "content": "Thorough understanding of a situation should precede action. Acting without comprehension increases the likelihood of mistakes and missed nuance.",
+    "description": "A new manager reorganizes her department within the first week, without understanding existing workflows or team dynamics. The likely result is:",
+    "options": [
+      "Improved efficiency from fresh perspective",
+      "Disruption and resistance due to acting without understanding",
+      "The team appreciating strong, quick leadership",
+      "Immediate productivity gains from new systems"
+    ],
+    "answer": "Disruption and resistance due to acting without understanding",
+    "explanation": "Acting without first building understanding of how things currently work ignores valuable knowledge. Good decision-making requires knowing the territory before changing the map.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Objectivity through Disconfirmation",
+    "content": "Rational thinking demands objectivity, the willingness to abandon beloved hypotheses when facts contradict them. Darwin habit of seeking disconfirming evidence exemplifies this.",
+    "description": "Darwin wrote that he forced himself to write down evidence against his theories immediately, rather than trusting memory. This habit demonstrates:",
+    "options": [
+      "Excessive self-doubt that slows progress",
+      "Objectivity through actively seeking disconfirming evidence",
+      "Academic formality unnecessary for most thinkers",
+      "Paranoia about being proven wrong"
+    ],
+    "answer": "Objectivity through actively seeking disconfirming evidence",
+    "explanation": "Darwin knew that information confirming our beliefs is easily remembered while contradictory evidence is forgotten. By writing down counterarguments immediately, he forced objectivity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Multidisciplinary Approach",
+    "content": "Important problems rarely fit neatly into one academic discipline. Using ideas from multiple fields, psychology, physics, biology, history, provides richer understanding than any single lens.",
+    "description": "To understand why a business strategy failed, analyzing only financial statements would miss critical factors from:",
+    "options": [
+      "There is nothing beyond financial statements that matters",
+      "Psychology, executive biases, biology, competition as ecosystem, and systems thinking, feedback loops",
+      "Only luck and timing affect business outcomes",
+      "Financial analysis already includes all relevant factors"
+    ],
+    "answer": "Psychology, executive biases, biology, competition as ecosystem, and systems thinking, feedback loops",
+    "explanation": "Munger latticework approach: business failure is rarely purely financial. Understanding the psychology of decision-makers, competitive dynamics, and systemic interactions provides a fuller picture.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Avoiding Stupidity over Seeking Brilliance",
+    "content": "Avoiding major mistakes is more important than making brilliant moves. The best investors and thinkers focus on not losing money rather than hitting home runs.",
+    "description": "A chess grandmaster wins primarily by avoiding blunders rather than making spectacular sacrifices. This principle, which Munger applies to investing, is:",
+    "options": [
+      "Boring chess that audiences dislike",
+      "Preventing mistakes is more reliable than seeking brilliance",
+      "Playing defensively against weaker opponents",
+      "A strategy that only works in chess, not business"
+    ],
+    "answer": "Preventing mistakes is more reliable than seeking brilliance",
+    "explanation": "Munger says: All I want to know is where I am going to die so I will never go there. By avoiding catastrophic mistakes, you naturally outperform those who take unnecessary risks chasing spectacular wins.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Learning from Failures",
+    "content": "Studying failures, our own and others, is more instructive than studying successes. Failures reveal what does not work and expose hidden assumptions, while success stories suffer from survivorship bias.",
+    "description": "A young entrepreneur reads case studies of failed startups to learn what went wrong. This approach is valuable because:",
+    "options": [
+      "Failed founders are more honest than successful ones",
+      "Failures provide clearer lessons about what to avoid",
+      "Success stories are always misleading",
+      "Failure is the only source of learning"
+    ],
+    "answer": "Failures provide clearer lessons about what to avoid",
+    "explanation": "Success can result from luck as well as skill, making it hard to extract reliable lessons. Failures often reveal specific, avoidable mistakes. This is why Munger studies where people die to avoid going there.",
+    "difficulty": "hard"
+  }
+]

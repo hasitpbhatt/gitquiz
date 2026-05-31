@@ -10,7 +10,8 @@
       "Quit photography entirely and activate your Plan Z immediately"
     ],
     "answer": "Pivot to nature and wildlife photography, which reignites your passion and serves a growing market",
-    "explanation": "This move re-aligns your strategy by pivoting to a new asset (AI oversight) that matches both your curiosity and the changing market demand."
+    "explanation": "This move re-aligns your strategy by pivoting to a new asset (AI oversight) that matches both your curiosity and the changing market demand.",
+    "difficulty": "medium"
   },
   {
     "question": "Permanent Beta vs. The 10-Year Plan",
@@ -23,7 +24,8 @@
       "I am waiting for a large company to provide me with a pre-defined career path"
     ],
     "answer": "I have a general direction based on my values, but I am staying in Permanent Beta to pivot as the market evolves",
-    "explanation": "Having a 'North Star' or direction is important, but the path to get there must remain flexible and iterative."
+    "explanation": "Having a 'North Star' or direction is important, but the path to get there must remain flexible and iterative.",
+    "difficulty": "medium"
   },
   {
     "question": "The Synergistic Power of Networks",
@@ -36,7 +38,8 @@
       "Ask the founder directly if they are a good person to work for"
     ],
     "answer": "Ask a shared connection or a former employee for an 'off-the-record' perspective on the founder’s leadership style",
-    "explanation": "Network intelligence relies on high-trust, informal channels to get the unfiltered truth that isn't part of a public PR campaign."
+    "explanation": "Network intelligence relies on high-trust, informal channels to get the unfiltered truth that isn't part of a public PR campaign.",
+    "difficulty": "medium"
   },
   {
     "question": "ABZ Planning: The Relationship Between Plans",
@@ -49,7 +52,8 @@
       "It is a secondary book idea in case the first one isn't good"
     ],
     "answer": "It acts as a 'lifeboat' (e.g., six months of savings or a guaranteed part-time job) that eliminates the fear of absolute failure",
-    "explanation": "Plan Z is about survival. When survival is guaranteed, the psychological barrier to taking a big risk on Plan A is significantly lowered."
+    "explanation": "Plan Z is about survival. When survival is guaranteed, the psychological barrier to taking a big risk on Plan A is significantly lowered.",
+    "difficulty": "hard"
   },
   {
     "question": "The Strength of Weak Ties",
@@ -62,7 +66,8 @@
       "Move to the city first and then start looking for friends"
     ],
     "answer": "Reach out to an acquaintance who lives in that city and works in a different industry",
-    "explanation": "Weak ties provide 'non-redundant' information. They know people and opportunities that your immediate social circle has no access to."
+    "explanation": "Weak ties provide 'non-redundant' information. They know people and opportunities that your immediate social circle has no access to.",
+    "difficulty": "hard"
   },
   {
     "question": "Increasing Your Luck Surface Area",
@@ -75,7 +80,8 @@
       "Designer A, because they have more time to perfect their craft"
     ],
     "answer": "Designer B, because they are creating more 'hooks' for opportunities to find them",
-    "explanation": "By putting work into the world and meeting people (The Flow), Designer B makes it easier for 'lucky' breakthroughs to occur."
+    "explanation": "By putting work into the world and meeting people (The Flow), Designer B makes it easier for 'lucky' breakthroughs to occur.",
+    "difficulty": "hard"
   },
   {
     "question": "Intelligent Risk: The Asymmetric Upside",
@@ -88,7 +94,8 @@
       "Doing exactly what you've always done for another decade"
     ],
     "answer": "Spending 5 hours a week helping a promising startup for equity instead of extra pay",
-    "explanation": "The downside is 5 hours a week (manageable); the upside is potentially high equity value and a massive new network (huge)."
+    "explanation": "The downside is 5 hours a week (manageable); the upside is potentially high equity value and a massive new network (huge).",
+    "difficulty": "hard"
   },
   {
     "question": "The Role of Curiosity in Innovation",
@@ -101,7 +108,8 @@
       "Switch back to your old watch and ignore the new one"
     ],
     "answer": "Master the watch over the weekend and become the group’s go-to expert on it",
-    "explanation": "Turning a common 'pain point' into a personal 'asset' through curiosity is a classic way to create a competitive advantage."
+    "explanation": "Turning a common 'pain point' into a personal 'asset' through curiosity is a classic way to create a competitive advantage.",
+    "difficulty": "hard"
   },
   {
     "question": "Reciprocity in Alliances",
@@ -114,7 +122,8 @@
       "Wait until you are more successful so you don't feel 'inferior' talking to them"
     ],
     "answer": "Send them a link to a high-quality article or tool that solves a problem they recently mentioned in a post",
-    "explanation": "Starting with a 'give' demonstrates your value and builds the trust necessary for a long-term professional alliance."
+    "explanation": "Starting with a 'give' demonstrates your value and builds the trust necessary for a long-term professional alliance.",
+    "difficulty": "hard"
   },
   {
     "question": "The Final Metric: Learning Speed",
@@ -127,6 +136,7 @@
       "Watch virtuosos on YouTube and try to mimic their finger movements in front of a mirror"
     ],
     "answer": "Learn one simple song each week and play it for a friend for immediate feedback",
-    "explanation": "Action plus immediate feedback is the fastest way to learn. Multiple small 'beta' tests are superior to one large, untested 'launch.'"
+    "explanation": "Action plus immediate feedback is the fastest way to learn. Multiple small 'beta' tests are superior to one large, untested 'launch.'",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "Ask a friend to hide the phone"
     ],
     "answer": "Verbalize the action out loud to raise awareness",
-    "explanation": "This is Pointing and Calling. By saying I am checking my phone because of a notification, you move the behavior from subconscious to conscious, enabling change."
+    "explanation": "This is Pointing and Calling. By saying I am checking my phone because of a notification, you move the behavior from subconscious to conscious, enabling change.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of Awareness",
@@ -23,7 +24,8 @@
       "Because the brain cannot distinguish positive from negative rewards"
     ],
     "answer": "Because the labels depend on whether the habit serves the person desired identity",
-    "explanation": "A habit is not inherently good or bad; its value depends on whether it helps you become the person you want to be. Smoking might reduce stress in the moment but hurts the identity of being healthy."
+    "explanation": "A habit is not inherently good or bad; its value depends on whether it helps you become the person you want to be. Smoking might reduce stress in the moment but hurts the identity of being healthy.",
+    "difficulty": "easy"
   },
   {
     "question": "Implementation Intentions",
@@ -36,7 +38,8 @@
       "I will try to read whenever I have free time today"
     ],
     "answer": "I will meditate for one minute at 7:00 AM in my kitchen",
-    "explanation": "This includes a specific behavior, a specific time, and a specific location. It removes the need to decide when and where, which is the essence of an implementation intention."
+    "explanation": "This includes a specific behavior, a specific time, and a specific location. It removes the need to decide when and where, which is the essence of an implementation intention.",
+    "difficulty": "easy"
   },
   {
     "question": "The Diderot Effect",
@@ -49,7 +52,8 @@
       "The 1% Rule"
     ],
     "answer": "The Diderot Effect",
-    "explanation": "The Diderot Effect explains how one action becomes a cue for the next. This chain reaction can be harnessed positively through Habit Stacking."
+    "explanation": "The Diderot Effect explains how one action becomes a cue for the next. This chain reaction can be harnessed positively through Habit Stacking.",
+    "difficulty": "easy"
   },
   {
     "question": "Habit Stacking",
@@ -62,7 +66,8 @@
       "I will buy a gratitude journal for my nightstand"
     ],
     "answer": "After I pour my morning coffee, I will name one thing I am grateful for",
-    "explanation": "By anchoring the new gratitude habit to an existing automatic habit (pouring coffee), the momentum of the current routine triggers the new behavior."
+    "explanation": "By anchoring the new gratitude habit to an existing automatic habit (pouring coffee), the momentum of the current routine triggers the new behavior.",
+    "difficulty": "easy"
   },
   {
     "question": "Selecting the Right Anchor",
@@ -75,7 +80,8 @@
       "Because feeling inspired is a negative cue"
     ],
     "answer": "Because lunch happens daily while inspiration is unpredictable",
-    "explanation": "A reliable cue must be highly specific and immediately actionable. Feeling inspired is vague and does not happen reliably, whereas lunch is a consistent daily event."
+    "explanation": "A reliable cue must be highly specific and immediately actionable. Feeling inspired is vague and does not happen reliably, whereas lunch is a consistent daily event.",
+    "difficulty": "easy"
   },
   {
     "question": "Specificity in Cues",
@@ -88,7 +94,8 @@
       "I will practice my hobby after I get home from work"
     ],
     "answer": "After I close my laptop for the day, I will immediately put on my workout clothes",
-    "explanation": "Closing the laptop is a specific physical action that marks a clear trigger moment. Getting home or taking a break are broader time windows that allow procrastination."
+    "explanation": "Closing the laptop is a specific physical action that marks a clear trigger moment. Getting home or taking a break are broader time windows that allow procrastination.",
+    "difficulty": "medium"
   },
   {
     "question": "The Failure of Relying on Memory",
@@ -101,7 +108,8 @@
       "Because no reward is identified"
     ],
     "answer": "Because it lacks a clear trigger, requiring mental energy to decide when to go",
-    "explanation": "Without a specific plan, you constantly ask Is now a good time? This decision fatigue eventually leads to skipping the habit."
+    "explanation": "Without a specific plan, you constantly ask Is now a good time? This decision fatigue eventually leads to skipping the habit.",
+    "difficulty": "medium"
   },
   {
     "question": "The 1st Law: Make it Obvious",
@@ -114,7 +122,8 @@
       "It eliminates cravings for bad habits instantly"
     ],
     "answer": "It brings invisible autopilot patterns into conscious awareness",
-    "explanation": "You cannot change what you do not notice. The scorecard turns automatic behaviors into obvious patterns, enabling you to choose which to keep and which to change."
+    "explanation": "You cannot change what you do not notice. The scorecard turns automatic behaviors into obvious patterns, enabling you to choose which to keep and which to change.",
+    "difficulty": "medium"
   },
   {
     "question": "Building a Habit Chain",
@@ -127,6 +136,7 @@
       "Meditate first, then hope the other two happen later"
     ],
     "answer": "After I wake up, I will make the bed. After I make the bed, I will drink water. After I drink water, I will meditate.",
-    "explanation": "This creates a logical flow where each completion becomes the clear cue for the next, reducing the mental effort to move through the routine."
+    "explanation": "This creates a logical flow where each completion becomes the clear cue for the next, reducing the mental effort to move through the routine.",
+    "difficulty": "medium"
   }
 ]

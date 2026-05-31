@@ -10,7 +10,8 @@
       "The Portuguese Empire"
     ],
     "answer": "The Dutch Empire",
-    "explanation": "Dalio highlights the Dutch as the first empire where a small republic, not a monarchy, achieved global dominance through financial and commercial innovation rather than conquest."
+    "explanation": "Dalio highlights the Dutch as the first empire where a small republic, not a monarchy, achieved global dominance through financial and commercial innovation rather than conquest.",
+    "difficulty": "medium"
   },
   {
     "question": "The British Empire and the Pound",
@@ -23,7 +24,8 @@
       "The German Empire"
     ],
     "answer": "The British Empire",
-    "explanation": "Britain's rise was powered by the Industrial Revolution and its naval dominance. Dalio notes that at its peak, the British Empire controlled a quarter of the world's land and population."
+    "explanation": "Britain's rise was powered by the Industrial Revolution and its naval dominance. Dalio notes that at its peak, the British Empire controlled a quarter of the world's land and population.",
+    "difficulty": "medium"
   },
   {
     "question": "The United States and the Dollar",
@@ -36,7 +38,8 @@
       "Japan after the Meiji Restoration"
     ],
     "answer": "The United States after World War II",
-    "explanation": "The US was uniquely positioned after WWII, and the Bretton Woods agreement cemented the dollar's role as the world's reserve currency. Dalio tracks the US through its peak in the 1950s-60s and its relative decline since."
+    "explanation": "The US was uniquely positioned after WWII, and the Bretton Woods agreement cemented the dollar's role as the world's reserve currency. Dalio tracks the US through its peak in the 1950s-60s and its relative decline since.",
+    "difficulty": "medium"
   },
   {
     "question": "China and the Renminbi",
@@ -49,7 +52,8 @@
       "The Top phase of the Chinese cycle"
     ],
     "answer": "The Rise phase of China in the Big Cycle",
-    "explanation": "Dalio analyzes China as being in the Rise phase, with strong fundamentals across most determinants. He notes it has already surpassed the US on purchasing power parity and is closing the gap on other metrics."
+    "explanation": "Dalio analyzes China as being in the Rise phase, with strong fundamentals across most determinants. He notes it has already surpassed the US on purchasing power parity and is closing the gap on other metrics.",
+    "difficulty": "medium"
   },
   {
     "question": "The Joint-Stock Company Innovation",
@@ -62,7 +66,8 @@
       "The Portuguese Armada"
     ],
     "answer": "The Dutch East India Company",
-    "explanation": "The joint-stock company was a Dutch innovation that mobilized capital at unprecedented scale. Dalio uses it to illustrate how financial innovation drives national power."
+    "explanation": "The joint-stock company was a Dutch innovation that mobilized capital at unprecedented scale. Dalio uses it to illustrate how financial innovation drives national power.",
+    "difficulty": "hard"
   },
   {
     "question": "The Industrial Revolution",
@@ -75,7 +80,8 @@
       "The rise of the Roman Empire"
     ],
     "answer": "The rise of the British Empire",
-    "explanation": "The Industrial Revolution was the technological force that allowed Britain to surpass the Dutch and establish global dominance. Dalio cites it as the clearest example of technology determining the next world order."
+    "explanation": "The Industrial Revolution was the technological force that allowed Britain to surpass the Dutch and establish global dominance. Dalio cites it as the clearest example of technology determining the next world order.",
+    "difficulty": "hard"
   },
   {
     "question": "The Loss of Manufacturing",
@@ -88,7 +94,8 @@
       "Temporary adjustment before a manufacturing revival"
     ],
     "answer": "The maturing and decline phase of a nation's Big Cycle",
-    "explanation": "Dalio tracks manufacturing employment and trade balances as key indicators. The shift from producer to consumer, from exporter to importer, is characteristic of nations moving past their peak in the Big Cycle."
+    "explanation": "Dalio tracks manufacturing employment and trade balances as key indicators. The shift from producer to consumer, from exporter to importer, is characteristic of nations moving past their peak in the Big Cycle.",
+    "difficulty": "hard"
   },
   {
     "question": "Patterns Across 500 Years",
@@ -101,6 +108,7 @@
       "A predetermined historical destiny"
     ],
     "answer": "The timeless and universal patterns of the Big Cycle across empires",
-    "explanation": "Dalio's central finding is that the determinants and their cause-effect sequences are consistent across all major empires regardless of era, technology level, or culture."
+    "explanation": "Dalio's central finding is that the determinants and their cause-effect sequences are consistent across all major empires regardless of era, technology level, or culture.",
+    "difficulty": "hard"
   }
 ]

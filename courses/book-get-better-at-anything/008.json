@@ -10,7 +10,8 @@
       "Only feedback and correction"
     ],
     "answer": "See, Do, and Feedback working together for comprehensive skill development",
-    "explanation": "The player sees correct form (See), practices the swing (Do), and receives error correction (Feedback). All three ingredients are necessary for optimal learning."
+    "explanation": "The player sees correct form (See), practices the swing (Do), and receives error correction (Feedback). All three ingredients are necessary for optimal learning.",
+    "difficulty": "medium"
   },
   {
     "question": "Applying Multiple Principles",
@@ -23,7 +24,8 @@
       "Only the principle of Creativity Begins with Copying"
     ],
     "answer": "Multiple principles: Copying, Variability, Feedback, and Practice Must Meet Reality working together",
-    "explanation": "Effective learners combine strategies. Listening to masters (copying), varying practice (variability), recording for analysis (feedback), and playing with a band (meeting reality) create a comprehensive learning system."
+    "explanation": "Effective learners combine strategies. Listening to masters (copying), varying practice (variability), recording for analysis (feedback), and playing with a band (meeting reality) create a comprehensive learning system.",
+    "difficulty": "medium"
   },
   {
     "question": "Diagnosing a Learning Problem",
@@ -36,7 +38,8 @@
       "You have reached your natural talent limit"
     ],
     "answer": "You lack the See and Feedback ingredients: you are not learning from examples or getting error correction",
-    "explanation": "Practice alone without seeing good examples and receiving feedback leads to plateaus. Adding example study and code reviews provides the missing inputs for continued improvement."
+    "explanation": "Practice alone without seeing good examples and receiving feedback leads to plateaus. Adding example study and code reviews provides the missing inputs for continued improvement.",
+    "difficulty": "medium"
   },
   {
     "question": "Choosing the Right Difficulty",
@@ -49,7 +52,8 @@
       "Improvement is Not a Straight Line: they are in a dip"
     ],
     "answer": "Difficulty Has a Sweet Spot: they are no longer challenged, so no further adaptation occurs",
-    "explanation": "The sweet spot shifts as you improve. What was once challenging becomes easy. Without increasing difficulty, growth stops. Regular recalibration of challenge level is essential."
+    "explanation": "The sweet spot shifts as you improve. What was once challenging becomes easy. Without increasing difficulty, growth stops. Regular recalibration of challenge level is essential.",
+    "difficulty": "medium"
   },
   {
     "question": "The Expertise Trap",
@@ -62,7 +66,8 @@
       "Innovation and experience are mutually exclusive"
     ],
     "answer": "Experience Does Not Reliably Ensure Expertise combined with insufficient feedback and variety in practice",
-    "explanation": "Without seeking feedback and varying approaches, decades of experience can be one year repeated thirty times. Innovation requires exposure to new ideas and critical feedback."
+    "explanation": "Without seeking feedback and varying approaches, decades of experience can be one year repeated thirty times. Innovation requires exposure to new ideas and critical feedback.",
+    "difficulty": "hard"
   },
   {
     "question": "Overcoming Learning Plateaus",
@@ -75,7 +80,8 @@
       "Spanish is harder than other languages"
     ],
     "answer": "Your practice does not meet reality: you need conversational practice with native speakers to develop speaking skills",
-    "explanation": "Reading practice does not transfer to speaking skills because the conditions are different. Your practice must match the real performance context for the skill to transfer."
+    "explanation": "Reading practice does not transfer to speaking skills because the conditions are different. Your practice must match the real performance context for the skill to transfer.",
+    "difficulty": "hard"
   },
   {
     "question": "Building a Complete Learning System",
@@ -88,7 +94,8 @@
       "Take an online course with multiple-choice quizzes"
     ],
     "answer": "Watch expert demonstrations, practice with gradually increasing difficulty, get feedback, and practice in realistic conditions",
-    "explanation": "A complete system integrates See (demonstrations), Do (practice with proper difficulty), Feedback (error correction), and Reality (realistic conditions). Each element serves a distinct purpose."
+    "explanation": "A complete system integrates See (demonstrations), Do (practice with proper difficulty), Feedback (error correction), and Reality (realistic conditions). Each element serves a distinct purpose.",
+    "difficulty": "hard"
   },
   {
     "question": "Applying Copying to Professional Growth",
@@ -101,7 +108,8 @@
       "Only work on theoretical designs without real constraints"
     ],
     "answer": "Study great buildings, practice designing variations, get feedback from senior architects, and work on real projects",
-    "explanation": "This combines copying (studying great work), practice (design variations), feedback (senior review), and reality (real projects). Each principle reinforces the others for maximum growth."
+    "explanation": "This combines copying (studying great work), practice (design variations), feedback (senior review), and reality (real projects). Each principle reinforces the others for maximum growth.",
+    "difficulty": "hard"
   },
   {
     "question": "Dealing with Learning Anxiety",
@@ -114,7 +122,8 @@
       "Practice Must Meet Reality and Quality Comes from Quantity"
     ],
     "answer": "Success is the Best Teacher and Fears Fade with Exposure: start with achievable projects to build confidence and increase exposure gradually",
-    "explanation": "Fear of looking stupid reduces with exposure to manageable situations. Meanwhile, small successes build self-efficacy, creating a positive cycle of confidence and motivation."
+    "explanation": "Fear of looking stupid reduces with exposure to manageable situations. Meanwhile, small successes build self-efficacy, creating a positive cycle of confidence and motivation.",
+    "difficulty": "hard"
   },
   {
     "question": "Integrating All Principles",
@@ -127,7 +136,8 @@
       "Only the importance of Practice Must Meet Reality"
     ],
     "answer": "Integrated application of Copying, Variability, Meeting Reality, and Feedback working together as a system",
-    "explanation": "Expert teachers design learning systems that incorporate multiple principles. Each element develops different aspects of skill, and together they create comprehensive, robust learning."
+    "explanation": "Expert teachers design learning systems that incorporate multiple principles. Each element develops different aspects of skill, and together they create comprehensive, robust learning.",
+    "difficulty": "hard"
   },
   {
     "question": "The Learning Journey",
@@ -140,6 +150,7 @@
       "The best way to learn is to find a great teacher and follow their instructions exactly"
     ],
     "answer": "Getting better at anything requires understanding the principles of seeing, doing, and feedback, and applying them persistently through ups and downs",
-    "explanation": "The books core message is that skill acquisition follows understandable principles. By applying See, Do, and Feedback, combined with persistence through non-linear progress, anyone can get better at anything."
+    "explanation": "The books core message is that skill acquisition follows understandable principles. By applying See, Do, and Feedback, combined with persistence through non-linear progress, anyone can get better at anything.",
+    "difficulty": "hard"
   }
 ]

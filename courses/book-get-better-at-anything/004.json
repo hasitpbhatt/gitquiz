@@ -10,7 +10,8 @@
       "The batter lacks natural talent for baseball"
     ],
     "answer": "Variability Over Repetition: practicing only one pitch type creates narrow expertise that does not transfer",
-    "explanation": "Repeating the same action builds skill for that specific situation. Variable practice with different pitch types builds flexible skills that adapt to game conditions."
+    "explanation": "Repeating the same action builds skill for that specific situation. Variable practice with different pitch types builds flexible skills that adapt to game conditions.",
+    "difficulty": "easy"
   },
   {
     "question": "Variability Over Repetition",
@@ -23,7 +24,8 @@
       "Flashcards are a waste of time for language learning"
     ],
     "answer": "Vary practice methods: writing sentences, having conversations, listening to podcasts, and reading articles",
-    "explanation": "Variable practice builds flexible knowledge. Using vocabulary across different contexts develops the ability to access and use words naturally in real communication."
+    "explanation": "Variable practice builds flexible knowledge. Using vocabulary across different contexts develops the ability to access and use words naturally in real communication.",
+    "difficulty": "easy"
   },
   {
     "question": "Variability Over Repetition",
@@ -36,7 +38,8 @@
       "They lack the natural creativity needed for jazz"
     ],
     "answer": "They should practice scales starting from different notes and in different rhythmic patterns",
-    "explanation": "Practicing scales with variability trains the brain to access the scale patterns from any starting point, building the flexible knowledge needed for improvisation."
+    "explanation": "Practicing scales with variability trains the brain to access the scale patterns from any starting point, building the flexible knowledge needed for improvisation.",
+    "difficulty": "easy"
   },
   {
     "question": "Variability Over Repetition",
@@ -49,7 +52,8 @@
       "The exam was unfairly designed to trick students"
     ],
     "answer": "Variability Over Repetition: identical repetitive practice does not build transferable understanding",
-    "explanation": "Solving varied problem types builds flexible knowledge that transfers to novel situations. Identical repetition only builds the ability to solve that exact problem type."
+    "explanation": "Solving varied problem types builds flexible knowledge that transfers to novel situations. Identical repetition only builds the ability to solve that exact problem type.",
+    "difficulty": "easy"
   },
   {
     "question": "Quality Comes from Quantity",
@@ -62,7 +66,8 @@
       "Neither approach works for photography"
     ],
     "answer": "The photographer with volume, because quantity produces more chances for excellent results and more learning opportunities",
-    "explanation": "Quality Comes from Quantity: producing work at volume generates more opportunities for excellence and more feedback for improvement. The best photo often emerges from many attempts."
+    "explanation": "Quality Comes from Quantity: producing work at volume generates more opportunities for excellence and more feedback for improvement. The best photo often emerges from many attempts.",
+    "difficulty": "medium"
   },
   {
     "question": "Quality Comes from Quantity",
@@ -75,7 +80,8 @@
       "Both will improve at the same rate"
     ],
     "answer": "The daily word writer, because consistent volume produces more practice, feedback, and opportunities for occasional brilliance",
-    "explanation": "High volume generates more raw material to learn from. The daily writer accumulates far more practice and produces more pieces that can be polished into quality."
+    "explanation": "High volume generates more raw material to learn from. The daily writer accumulates far more practice and produces more pieces that can be polished into quality.",
+    "difficulty": "medium"
   },
   {
     "question": "Quality Comes from Quantity",
@@ -88,7 +94,8 @@
       "Neither approach works for pottery"
     ],
     "answer": "The second potter, because varied volume produces more learning about different techniques and effects",
-    "explanation": "Combining quantity with variability amplifies learning. Producing many varied pieces generates diverse experiences, more feedback, and deeper understanding of the craft."
+    "explanation": "Combining quantity with variability amplifies learning. Producing many varied pieces generates diverse experiences, more feedback, and deeper understanding of the craft.",
+    "difficulty": "medium"
   },
   {
     "question": "Quality Comes from Quantity",
@@ -101,6 +108,7 @@
       "Persistence without direction is pointless"
     ],
     "answer": "Quality Comes from Quantity: massive experimentation generates the data and insights needed for breakthrough success",
-    "explanation": "Edison volume of experiments meant he explored the solution space thoroughly. Each failed experiment provided information that guided subsequent attempts, ultimately leading to success."
+    "explanation": "Edison volume of experiments meant he explored the solution space thoroughly. Each failed experiment provided information that guided subsequent attempts, ultimately leading to success.",
+    "difficulty": "medium"
   }
 ]

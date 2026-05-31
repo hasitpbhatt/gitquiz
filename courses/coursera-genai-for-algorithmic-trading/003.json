@@ -10,7 +10,8 @@
       "Only look at the current day's price action and ignore history."
     ],
     "answer": "Use an LLM to analyze macro-economic descriptions and volatility clusters to find historical analogies.",
-    "explanation": "GenAI is excellent at 'high-dimensional' pattern matching—looking at many qualitative and quantitative factors at once to find the closest historical precedent."
+    "explanation": "GenAI is excellent at 'high-dimensional' pattern matching—looking at many qualitative and quantitative factors at once to find the closest historical precedent.",
+    "difficulty": "easy"
   },
   {
     "question": "Generating Price Direction Hypotheses",
@@ -23,7 +24,8 @@
       "By deleting all data that contradicts your personal opinion."
     ],
     "answer": "By synthesizing supply chain news and competitor earnings to suggest which companies might be 'under-the-radar' winners.",
-    "explanation": "GenAI helps you find 'second-order' effects—links between companies and news events that aren't immediately obvious but form a logical trading thesis."
+    "explanation": "GenAI helps you find 'second-order' effects—links between companies and news events that aren't immediately obvious but form a logical trading thesis.",
+    "difficulty": "easy"
   },
   {
     "question": "Feature Engineering from Textual Data",
@@ -36,7 +38,8 @@
       "To reply to every tweet with a buy recommendation."
     ],
     "answer": "To convert the collective sentiment and volume of 'hype' keywords into a numerical 0-1 score.",
-    "explanation": "This is the essence of feature engineering: taking raw, unstructured information and turning it into a structured 'signal' that a math model can understand."
+    "explanation": "This is the essence of feature engineering: taking raw, unstructured information and turning it into a structured 'signal' that a math model can understand.",
+    "difficulty": "easy"
   },
   {
     "question": "Validating AI-Generated Insights",
@@ -49,7 +52,8 @@
       "Wait for it to rain in Brazil and then check the price manually."
     ],
     "answer": "Run a historical correlation test between Brazil rainfall data and coffee stock prices over the last 20 years.",
-    "explanation": "Trust but verify. Always validate an AI-generated hypothesis with historical statistical analysis to avoid trading on 'hallucinated' correlations."
+    "explanation": "Trust but verify. Always validate an AI-generated hypothesis with historical statistical analysis to avoid trading on 'hallucinated' correlations.",
+    "difficulty": "easy"
   },
   {
     "question": "Synthetic News Generation for Testing",
@@ -62,7 +66,8 @@
       "To trick the bot into giving them money."
     ],
     "answer": "To see if the bot's 'Panic Sell' or 'Hedging' logic activates as expected in a simulated disaster.",
-    "explanation": "Synthetic scenarios (stress testing) allow you to observe your bot's behavior in 'tail risk' events that haven't happened recently but are possible."
+    "explanation": "Synthetic scenarios (stress testing) allow you to observe your bot's behavior in 'tail risk' events that haven't happened recently but are possible.",
+    "difficulty": "easy"
   },
   {
     "question": "Identifying Sector Rotation Signals",
@@ -75,7 +80,8 @@
       "No change; keywords don't matter."
     ],
     "answer": "A shift toward a defensive or bear market.",
-    "explanation": "Language shifts often precede capital shifts. When the narrative moves toward 'stability,' it usually means investors are becoming risk-averse."
+    "explanation": "Language shifts often precede capital shifts. When the narrative moves toward 'stability,' it usually means investors are becoming risk-averse.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Overfitting' Risk in AI Research",
@@ -88,7 +94,8 @@
       "You didn't use enough emojis in the prompt."
     ],
     "answer": "The prompt was 'overfitted' to the specific conditions of 2021 and lacks general logic.",
-    "explanation": "If a strategy only works on one specific slice of history, it's not a robust strategy—it's just a coincidence that you've 'tuned' for."
+    "explanation": "If a strategy only works on one specific slice of history, it's not a robust strategy—it's just a coincidence that you've 'tuned' for.",
+    "difficulty": "easy"
   },
   {
     "question": "Contextualizing Macro Indicators",
@@ -101,7 +108,8 @@
       "By ignoring the numbers and looking at chart colors."
     ],
     "answer": "By analyzing analyst reports to explain why the 0.2% 'miss' relative to expectations is the most important factor.",
-    "explanation": "Markets trade on 'surprises' (Actual vs. Expected). GenAI helps quantify the 'magnitude' of the surprise by reading the context around the consensus."
+    "explanation": "Markets trade on 'surprises' (Actual vs. Expected). GenAI helps quantify the 'magnitude' of the surprise by reading the context around the consensus.",
+    "difficulty": "easy"
   },
   {
     "question": "Sentiment Divergence Research",
@@ -114,7 +122,8 @@
       "The company has been deleted from the stock exchange."
     ],
     "answer": "A potential 'bull trap' or 'distributive' phase where the 'smart money' is selling to the 'excited public.'",
-    "explanation": "Divergence is a classic signal. When sentiment is high but price is low, it suggests that the 'good news' is already fully priced in and the trend may be ending."
+    "explanation": "Divergence is a classic signal. When sentiment is high but price is low, it suggests that the 'good news' is already fully priced in and the trend may be ending.",
+    "difficulty": "medium"
   },
   {
     "question": "Causal Inference in Trading",
@@ -127,6 +136,7 @@
       "By making sure both stock prices move at exactly the same time."
     ],
     "answer": "By providing a written logical chain of events derived from news and reports that explains the connection.",
-    "explanation": "LLMs can 'reason' through text to explain the mechanism behind a price move, helping traders understand if a relationship is likely to continue or if it was just a fluke."
+    "explanation": "LLMs can 'reason' through text to explain the mechanism behind a price move, helping traders understand if a relationship is likely to continue or if it was just a fluke.",
+    "difficulty": "medium"
   }
 ]

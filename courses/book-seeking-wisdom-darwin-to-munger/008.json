@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Munger Prescriptions for Misery",
+    "content": "Munger famous speech outlines four prescriptions for guaranteed misery: ingest chemicals to alter mood, envy others, be untrustworthy, and learn only from your own experience.",
+    "description": "Munger advises avoiding misery by doing the opposite of his prescriptions. The opposite of learn only from your own experience would be:",
+    "options": [
+      "Ignore all advice from successful people",
+      "Study the mistakes of others to avoid repeating them",
+      "Trust your instincts above all else",
+      "Learn only from your own failures"
+    ],
+    "answer": "Study the mistakes of others to avoid repeating them",
+    "explanation": "Munger believes the best way to learn is to study the mistakes of others. As he says, I believe in the discipline of mastering the best that other people have ever figured out.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Berkshire Approach to Risk",
+    "content": "Buffett and Munger assess risk by focusing on permanent capital loss, not short-term price volatility. They are willing to endure price declines if the underlying business value remains intact.",
+    "description": "A stock the Buffett-Munger partnership owns drops 30 percent in a market panic, but the business fundamentals remain strong. Their most likely response is:",
+    "options": [
+      "Sell immediately to stop the losses",
+      "Ignore the price drop and evaluate the business long-term prospects",
+      "Short the stock to hedge the position",
+      "Blame the market for being irrational"
+    ],
+    "answer": "Ignore the price drop and evaluate the business long-term prospects",
+    "explanation": "Buffett and Munger define risk as permanent capital loss, not price volatility. If the business is sound, temporary price drops present opportunity, not danger. They would evaluate fundamentals, not price action.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Checklists as Decision Tools",
+    "content": "Checklists force systematic consideration of critical factors and protect against omission errors. They are especially valuable in high-stakes situations where memory or judgment may fail.",
+    "description": "Before major investment decisions, Munger uses a mental checklist of questions about the business, management, and risks. This practice helps:",
+    "options": [
+      "Automate decision-making without thinking",
+      "Ensure all critical factors are considered systematically",
+      "Impress clients with thoroughness",
+      "Replace judgment with a rigid formula"
+    ],
+    "answer": "Ensure all critical factors are considered systematically",
+    "explanation": "A checklist ensures we do not miss important considerations due to overconfidence, fatigue, or distraction. It is a tool to supplement, not replace, judgment, just as pilots use pre-flight checklists.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Inversion in Practice",
+    "content": "Inversion is a powerful practical tool. By asking how to achieve the opposite of what you want, you identify obstacles and failure modes that forward thinking misses.",
+    "description": "A city wants to reduce traffic accidents. Using inversion, they would ask What would guarantee the most accidents. This would reveal:",
+    "options": [
+      "The specific causes of accidents that can be addressed",
+      "A guaranteed way to fail at traffic safety",
+      "That accidents are impossible to prevent",
+      "The best new roads to build"
+    ],
+    "answer": "The specific causes of accidents that can be addressed",
+    "explanation": "By inverting the problem, the city identifies failure modes, poor signage, confusing intersections, lack of enforcement. Addressing these specific causes is more effective than a vague goal of improving safety.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Gambler Fallacy",
+    "content": "Understanding probability mathematics, including Bayes theorem, expected value, and regression to the mean, is essential for rational decision-making in uncertain environments.",
+    "description": "A gambler believes that after five coin flips landing on heads, the next flip is more likely to be tails because it is due. This mistake is called:",
+    "options": [
+      "Statistical literacy ensuring fair games",
+      "The gambler fallacy because each flip is independent",
+      "Understanding probability distributions",
+      "Regression to the mean in action"
+    ],
+    "answer": "The gambler fallacy because each flip is independent",
+    "explanation": "Coins have no memory. Each flip is independent with a 50 percent probability. The belief that past outcomes affect future independent events is the gambler fallacy, a common probability misunderstanding.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Behavioral Checklists",
+    "content": "Behavioral checklists help identify when psychological biases may be influencing a decision. Recognizing the presence of envy, fear, or social pressure allows us to compensate for their effects.",
+    "description": "Before a major financial decision, running through a checklist that includes Am I being influenced by envy or Am I following others without thinking helps:",
+    "options": [
+      "Identify and counteract emotional biases",
+      "Remove all emotion from decision-making",
+      "Guarantee perfect outcomes",
+      "Slow down the decision process unnecessarily"
+    ],
+    "answer": "Identify and counteract emotional biases",
+    "explanation": "Self-awareness of biases is the first step to counteracting them. A behavioral checklist surfaces potential biases such as envy, social proof, or overconfidence so they can be factored into the decision.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Worldly Wisdom as Prevention",
+    "content": "Munger concept of worldly wisdom means learning the big ideas from all major disciplines. This broad foundation prevents the narrow thinking that leads to major mistakes.",
+    "description": "A purely financial analysis might approve a loan that a sociologist understanding group dynamics or a biologist understanding competition would flag as risky. This illustrates:",
+    "options": [
+      "The need for more specialized financial training",
+      "The value of multidisciplinary thinking for better decisions",
+      "Sociology and biology being more important than finance",
+      "The uselessness of financial analysis"
+    ],
+    "answer": "The value of multidisciplinary thinking for better decisions",
+    "explanation": "Different disciplines reveal different aspects of a problem. Financial analysis alone misses group dynamics and competitive behaviors that could lead to default. Multiple perspectives reduce blind spots.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Excessive Optimism Bias",
+    "content": "Munger list of psychological tendencies that cause misjudgment includes underestimation of the power of incentives, psychological denial, and excessive optimism. Awareness is the first defense.",
+    "description": "An entrepreneur is so optimistic about his startup that he ignores warning signs, minimizes risks, and fails to prepare for difficulties. This is an example of:",
+    "options": [
+      "Healthy confidence that leads to success",
+      "Excessive optimism as a psychological misjudgment",
+      "The necessary delusion of all entrepreneurs",
+      "Rational risk-taking in business"
+    ],
+    "answer": "Excessive optimism as a psychological misjudgment",
+    "explanation": "While some optimism is needed to start ventures, excessive optimism that ignores real risks is a recognized misjudgment tendency. Awareness allows the entrepreneur to have contingency plans despite optimism.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Mental Models in Personal Life",
+    "content": "Mental models are not just for business. They apply to personal decisions, relationships, and everyday choices. A good decision-making framework works across all domains of life.",
+    "description": "A person considering marriage applies the same margin of safety principle used in engineering. They wait to ensure they truly know their partner before committing. This shows:",
+    "options": [
+      "Overthinking a romantic relationship",
+      "Applying mental models across life domains for better decisions",
+      "Engineering principles having no place in romance",
+      "Being overly cautious about commitment"
+    ],
+    "answer": "Applying mental models across life domains for better decisions",
+    "explanation": "Good thinking principles, margin of safety, inversion, second-order consequences, apply everywhere, not just in professional settings. Using them in personal life leads to better outcomes.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Continuous Learning",
+    "content": "The pursuit of wisdom is a lifelong endeavor. Munger and Buffett spend most of their time reading and learning. The best way to achieve wisdom is to learn the big ideas from the great thinkers.",
+    "description": "When asked about the secret to his success, Buffett points to reading 500 pages a day. This habit reflects the principle that:",
+    "options": [
+      "Knowledge is accumulated through continuous learning",
+      "Reading more guarantees investment success",
+      "Natural talent matters more than effort",
+      "Formal education is the only way to learn"
+    ],
+    "answer": "Knowledge is accumulated through continuous learning",
+    "explanation": "Buffett and Munger exemplify that wisdom comes from constant learning. The compounding effect of daily reading over decades produces extraordinary knowledge, just as compound interest produces wealth.",
+    "difficulty": "hard"
+  }
+]

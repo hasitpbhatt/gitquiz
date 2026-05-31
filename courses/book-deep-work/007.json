@@ -10,7 +10,8 @@
       "Neither; tactics depend on the players, not the coach"
     ],
     "answer": "Coach B, because his higher intensity of focus yields deeper analysis per hour",
-    "explanation": "Three hours of undistracted, high-intensity analysis often reveals more insights than twelve hours of fragmented attention, because deep processing extracts meaning that shallow viewing misses."
+    "explanation": "Three hours of undistracted, high-intensity analysis often reveals more insights than twelve hours of fragmented attention, because deep processing extracts meaning that shallow viewing misses.",
+    "difficulty": "medium"
   },
   {
     "question": "The Chain: Seinfeld Strategy",
@@ -23,7 +24,8 @@
       "The calendar is public and her friends will judge her"
     ],
     "answer": "The psychological desire to maintain the forty-seven-day streak overrides the temporary tiredness",
-    "explanation": "Visual progress creates momentum. The prospect of breaking a long streak becomes more painful than the temporary effort required to continue, making the habit self-sustaining."
+    "explanation": "Visual progress creates momentum. The prospect of breaking a long streak becomes more painful than the temporary effort required to continue, making the habit self-sustaining.",
+    "difficulty": "medium"
   },
   {
     "question": "Career Capital Through Depth",
@@ -36,7 +38,8 @@
       "Neither; career capital comes from networking, not skills"
     ],
     "answer": "The structural analysis tool, because it is a rare skill that enables her to work on high-value projects others cannot",
-    "explanation": "Renderings are visible but common; many architects can produce them. Mastering a difficult tool is rare and valuable—it produces career capital that makes her harder to replace and opens doors to elite projects."
+    "explanation": "Renderings are visible but common; many architects can produce them. Mastering a difficult tool is rare and valuable—it produces career capital that makes her harder to replace and opens doors to elite projects.",
+    "difficulty": "medium"
   },
   {
     "question": "Deep Work in a Leadership Role",
@@ -49,7 +52,8 @@
       "She will become disconnected from her team's daily needs"
     ],
     "answer": "She will spend 100% of her time reacting to small problems and never address the underlying strategic challenges facing the organization",
-    "explanation": "Without protected depth, leaders become 'human routers'—passing information without adding strategic value. The organization suffers because long-term problems go unaddressed amid daily firefighting."
+    "explanation": "Without protected depth, leaders become 'human routers'—passing information without adding strategic value. The organization suffers because long-term problems go unaddressed amid daily firefighting.",
+    "difficulty": "hard"
   },
   {
     "question": "Saying No to Shallow Requests",
@@ -62,7 +66,8 @@
       "Ignore the message completely"
     ],
     "answer": "Decline or suggest the acquaintance email three specific questions for a written reply during a shallow block",
-    "explanation": "This is a form of sender filter. The acquaintance may not need a call at all—a focused email exchange may suffice. The novelist protects her deep block while still offering help."
+    "explanation": "This is a form of sender filter. The acquaintance may not need a call at all—a focused email exchange may suffice. The novelist protects her deep block while still offering help.",
+    "difficulty": "hard"
   },
   {
     "question": "Racing with the Machines",
@@ -75,7 +80,8 @@
       "She is avoiding the AI because she prefers human interaction"
     ],
     "answer": "She is using AI to automate shallow work so she can focus her human depth on complex, strategic improvements",
-    "explanation": "Racing with the machines means using technology to handle what it does best (routine tasks) while freeing human cognitive capacity for what humans do best: deep analysis and creative problem solving."
+    "explanation": "Racing with the machines means using technology to handle what it does best (routine tasks) while freeing human cognitive capacity for what humans do best: deep analysis and creative problem solving.",
+    "difficulty": "hard"
   },
   {
     "question": "The Boredness Threshold",
@@ -88,7 +94,8 @@
       "Check his phone but set a timer for five minutes"
     ],
     "answer": "Resist the urge and practice sitting quietly, strengthening his tolerance for boredom",
-    "explanation": "Every moment you resist the urge for digital stimulation is a rep in the concentration workout. Over time, raising your boredom threshold makes it easier to sustain long deep work sessions."
+    "explanation": "Every moment you resist the urge for digital stimulation is a rep in the concentration workout. Over time, raising your boredom threshold makes it easier to sustain long deep work sessions.",
+    "difficulty": "hard"
   },
   {
     "question": "The Eudaimonia Machine at Home",
@@ -101,7 +108,8 @@
       "The Grand Gesture, because she converted a whole room"
     ],
     "answer": "The Eudaimonia Machine concept: creating a physical progression that leaves distractions behind before entering the work zone",
-    "explanation": "By physically separating her shallow tools (phone, internet) from her deep space, she creates a ritual transition. The act of walking into the studio signals to her brain that it is time for depth."
+    "explanation": "By physically separating her shallow tools (phone, internet) from her deep space, she creates a ritual transition. The act of walking into the studio signals to her brain that it is time for depth.",
+    "difficulty": "hard"
   },
   {
     "question": "The Deep Work Synthesis",
@@ -114,7 +122,8 @@
       "Work from a coffee shop without Wi-Fi"
     ],
     "answer": "Your attention is the most valuable resource you have; where you direct it determines the quality of your work and your life",
-    "explanation": "All the specific rules and techniques serve one core insight: attention management is the meta-skill of the 21st century. The quality of your life is shaped by what you choose to focus on."
+    "explanation": "All the specific rules and techniques serve one core insight: attention management is the meta-skill of the 21st century. The quality of your life is shaped by what you choose to focus on.",
+    "difficulty": "hard"
   },
   {
     "question": "The First Step Toward Depth",
@@ -127,6 +136,7 @@
       "Delete all apps from his phone at once"
     ],
     "answer": "Schedule a ninety-minute block tomorrow morning, eliminate all distractions, and work on his most important project",
-    "explanation": "Intentions without action produce nothing. The very first deep work session is the most important because it transforms knowledge into practice. Everything else follows from that first committed block."
+    "explanation": "Intentions without action produce nothing. The very first deep work session is the most important because it transforms knowledge into practice. Everything else follows from that first committed block.",
+    "difficulty": "hard"
   }
 ]

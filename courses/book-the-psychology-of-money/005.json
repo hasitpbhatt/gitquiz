@@ -3,80 +3,140 @@
     "question": "The Dual Skillset",
     "content": "Getting wealthy and staying wealthy are two entirely different skills. Getting wealth requires taking risks, optimism, and 'putting yourself out there,' whereas staying wealthy requires humility, frugality, and the 'paranoia' that what you have could be taken away.",
     "description": "A successful entrepreneur sells their business for $10 million but loses it all in two years by making even bigger, more aggressive bets. Which skill did they fail to transition into?",
-    "options": ["The skill of aggressive growth", "The skill of capital accumulation", "The 'survival' mindset of staying wealthy", "The skill of market timing"],
+    "options": [
+      "The skill of aggressive growth",
+      "The skill of capital accumulation",
+      "The 'survival' mindset of staying wealthy",
+      "The skill of market timing"
+    ],
     "answer": "The 'survival' mindset of staying wealthy",
-    "explanation": "The traits that make you rich (risk-taking) are often the opposite of the traits that keep you rich (caution and survival)."
+    "explanation": "The traits that make you rich (risk-taking) are often the opposite of the traits that keep you rich (caution and survival).",
+    "difficulty": "easy"
   },
   {
     "question": "The Survival Mindset",
     "content": "The goal of investing is not to earn the highest returns, but to earn pretty good returns that you can stick with for the longest period of time. This is because survival is the only thing that allows compounding to work its magic.",
     "description": "Why does Housel argue that 'survival' is the most important word in finance?",
-    "options": ["Because you need to be alive to spend your money.", "Because if you get wiped out by a bad bet, you can no longer benefit from compounding.", "Because the stock market is a dangerous place where only the strongest win.", "Because saving money is a survival instinct from our ancestors."],
+    "options": [
+      "Because you need to be alive to spend your money.",
+      "Because if you get wiped out by a bad bet, you can no longer benefit from compounding.",
+      "Because the stock market is a dangerous place where only the strongest win.",
+      "Because saving money is a survival instinct from our ancestors."
+    ],
     "answer": "Because if you get wiped out by a bad bet, you can no longer benefit from compounding.",
-    "explanation": "Compounding only works if you give it years or decades. If you take a risk that forces you to exit the market, you 'reset' your progress to zero."
+    "explanation": "Compounding only works if you give it years or decades. If you take a risk that forces you to exit the market, you 'reset' your progress to zero.",
+    "difficulty": "easy"
   },
   {
     "question": "Planning on the Plan Not Going to Plan",
     "content": "A good financial plan isn't a straight line to a goal; it's a series of contingencies. You must leave a gap between what you think will happen and what *can* happen so that a single error doesn't destroy you.",
     "description": "If you calculate that you need $1 million to retire, but you save $1.5 million 'just in case' the market performs poorly, what are you practicing?",
-    "options": ["Pessimism", "Margin of safety", "Financial anxiety", "Inefficient investing"],
+    "options": [
+      "Pessimism",
+      "Margin of safety",
+      "Financial anxiety",
+      "Inefficient investing"
+    ],
     "answer": "Margin of safety",
-    "explanation": "A margin of safety (or room for error) ensures that you can survive a range of outcomes, not just the one you hope for."
+    "explanation": "A margin of safety (or room for error) ensures that you can survive a range of outcomes, not just the one you hope for.",
+    "difficulty": "easy"
   },
   {
     "question": "The Jesse Livermore Lesson",
     "content": "Jesse Livermore was one of the greatest stock traders in history. He made a fortune during the 1929 crash, but just a few years later, he lost everything and took his own life. He was a master of getting wealthy but a failure at staying wealthy.",
     "description": "What is the primary warning Housel draws from Livermore's life?",
-    "options": ["Trading stocks is always a bad idea.", "Success can lead to overconfidence, which makes you ignore the risks that eventually ruin you.", "You should never trade during a market crash.", "Wealth is purely a matter of luck."],
+    "options": [
+      "Trading stocks is always a bad idea.",
+      "Success can lead to overconfidence, which makes you ignore the risks that eventually ruin you.",
+      "You should never trade during a market crash.",
+      "Wealth is purely a matter of luck."
+    ],
     "answer": "Success can lead to overconfidence, which makes you ignore the risks that eventually ruin you.",
-    "explanation": "Livermore felt invincible after his big win, leading him to take even larger risks that eventually wiped him out when the market didn't go his way."
+    "explanation": "Livermore felt invincible after his big win, leading him to take even larger risks that eventually wiped him out when the market didn't go his way.",
+    "difficulty": "easy"
   },
   {
     "question": "Sensible Optimism",
     "content": "Optimism is the belief that things will get better over time, but survival requires being a 'short-term pessimist.' You must be paranoid enough to survive the short-term hurdles so you can enjoy the long-term growth.",
     "description": "How can an investor be both an optimist and a pessimist at the same time?",
-    "options": ["By hoping for the best but constantly complaining about the market.", "By believing the economy will grow over decades while keeping enough cash to survive a 3-year recession.", "By investing in stocks and gold simultaneously.", "By only investing half of their money and hiding the other half."],
+    "options": [
+      "By hoping for the best but constantly complaining about the market.",
+      "By believing the economy will grow over decades while keeping enough cash to survive a 3-year recession.",
+      "By investing in stocks and gold simultaneously.",
+      "By only investing half of their money and hiding the other half."
+    ],
     "answer": "By believing the economy will grow over decades while keeping enough cash to survive a 3-year recession.",
-    "explanation": "This 'barbell' approach allows you to stay in the game during downturns (pessimism/survival) so you are still there when the market recovers (optimism)."
+    "explanation": "This 'barbell' approach allows you to stay in the game during downturns (pessimism/survival) so you are still there when the market recovers (optimism).",
+    "difficulty": "easy"
   },
   {
     "question": "The Power of a Cash Cushion",
     "content": "Cash is an asset that yields almost nothing in interest, but it yields an 'incredible return' by preventing you from having to sell your stocks during a market crash.",
     "description": "In a market downturn, why is 'unproductive' cash actually your most valuable asset?",
-    "options": ["Because its value goes up when stocks go down.", "Because it acts as an insurance policy that allows your long-term investments to stay untouched.", "Because you can use it to buy luxury items at a discount.", "Because the bank pays you more interest when the market is down."],
+    "options": [
+      "Because its value goes up when stocks go down.",
+      "Because it acts as an insurance policy that allows your long-term investments to stay untouched.",
+      "Because you can use it to buy luxury items at a discount.",
+      "Because the bank pays you more interest when the market is down."
+    ],
     "answer": "Because it acts as an insurance policy that allows your long-term investments to stay untouched.",
-    "explanation": "The value of cash isn't just its interest rate; it's the 'option' it provides to not sell your compounding assets at the worst possible time."
+    "explanation": "The value of cash isn't just its interest rate; it's the 'option' it provides to not sell your compounding assets at the worst possible time.",
+    "difficulty": "easy"
   },
   {
     "question": "The Trap of 'The Winning Streak'",
     "content": "After a period of high returns, investors often feel that they have 'figured it out.' They increase their leverage (borrowed money) right when the risk of a reversal is highest.",
     "description": "Why does Housel suggest that a 'winning streak' is one of the most dangerous things that can happen to an investor?",
-    "options": ["Because you have to pay more taxes on your wins.", "Because it creates an illusion of skill that leads to taking fatal risks.", "Because the market 'owes' you a loss after a win.", "Because other people will try to copy your strategy."],
+    "options": [
+      "Because you have to pay more taxes on your wins.",
+      "Because it creates an illusion of skill that leads to taking fatal risks.",
+      "Because the market 'owes' you a loss after a win.",
+      "Because other people will try to copy your strategy."
+    ],
     "answer": "Because it creates an illusion of skill that leads to taking fatal risks.",
-    "explanation": "Overconfidence is the enemy of survival. It makes you move from 'Getting Wealthy' mode (risk) to 'Staying Wealthy' mode (caution) too late."
+    "explanation": "Overconfidence is the enemy of survival. It makes you move from 'Getting Wealthy' mode (risk) to 'Staying Wealthy' mode (caution) too late.",
+    "difficulty": "easy"
   },
   {
     "question": "The Definition of a 'Good Plan'",
     "content": "A plan is only useful if it can survive reality. Many people make plans that work perfectly on paper but fail the moment a real-world emergency happens.",
     "description": "According to Chapter 5, what is the most important part of any financial plan?",
-    "options": ["A high-interest rate target.", "An exit strategy for every stock.", "A plan for when the plan isn't going according to plan.", "A list of the top-performing companies."],
+    "options": [
+      "A high-interest rate target.",
+      "An exit strategy for every stock.",
+      "A plan for when the plan isn't going according to plan.",
+      "A list of the top-performing companies."
+    ],
     "answer": "A plan for when the plan isn't going according to plan.",
-    "explanation": "This is the essence of 'Room for Error.' If your plan depends on everything going right, your plan is actually a wish, not a strategy."
+    "explanation": "This is the essence of 'Room for Error.' If your plan depends on everything going right, your plan is actually a wish, not a strategy.",
+    "difficulty": "easy"
   },
   {
     "question": "Compounding vs. Volatility",
     "content": "The market will inevitably go through periods of 20%, 30%, or 50% drops. Staying wealthy means having the psychological and financial endurance to ignore those drops.",
     "description": "What is the 'price' you must pay to stay wealthy through compounding?",
-    "options": ["High management fees paid to a bank.", "The willingness to endure temporary losses without panicking.", "A life of extreme poverty and no spending.", "Constantly checking the news for market updates."],
+    "options": [
+      "High management fees paid to a bank.",
+      "The willingness to endure temporary losses without panicking.",
+      "A life of extreme poverty and no spending.",
+      "Constantly checking the news for market updates."
+    ],
     "answer": "The willingness to endure temporary losses without panicking.",
-    "explanation": "If you can't survive the volatility, you can't stay wealthy. Staying wealthy is about maintaining a temperament that isn't swayed by short-term chaos."
+    "explanation": "If you can't survive the volatility, you can't stay wealthy. Staying wealthy is about maintaining a temperament that isn't swayed by short-term chaos.",
+    "difficulty": "medium"
   },
   {
     "question": "Humility and Wealth",
     "content": "Staying wealthy requires the humility to accept that some of your success was due to luck, and therefore, luck can change.",
     "description": "Why is humility a 'financial' skill?",
-    "options": ["Because it makes you more likeable to other investors.", "Because it prevents you from assuming you are smarter than the market.", "Because humble people spend less money on clothes.", "Because it is required by law in some financial sectors."],
+    "options": [
+      "Because it makes you more likeable to other investors.",
+      "Because it prevents you from assuming you are smarter than the market.",
+      "Because humble people spend less money on clothes.",
+      "Because it is required by law in some financial sectors."
+    ],
     "answer": "Because it prevents you from assuming you are smarter than the market.",
-    "explanation": "Humility leads to caution, and caution leads to survival. Survival is the foundation of long-term wealth."
+    "explanation": "Humility leads to caution, and caution leads to survival. Survival is the foundation of long-term wealth.",
+    "difficulty": "medium"
   }
 ]

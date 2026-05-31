@@ -10,7 +10,8 @@
       "To decrease the value of nearby homes"
     ],
     "answer": "To allow the community to enjoy a public good now by paying for it over time with future tax revenue",
-    "explanation": "This is the essence of social finance: using borrowing mechanisms to fund projects that provide long-term value to society, spreading the cost over the generations that will actually use the facility."
+    "explanation": "This is the essence of social finance: using borrowing mechanisms to fund projects that provide long-term value to society, spreading the cost over the generations that will actually use the facility.",
+    "difficulty": "easy"
   },
   {
     "question": "Non-Profit Organizations and Endowments",
@@ -23,7 +24,8 @@
       "To hide the money from tax authorities"
     ],
     "answer": "To ensure the university has a permanent source of funding for centuries to come",
-    "explanation": "An endowment turns a one-time gift into a 'perpetuity.' By only spending the growth/interest, the non-profit protects itself against future economic downturns and ensures long-term stability."
+    "explanation": "An endowment turns a one-time gift into a 'perpetuity.' By only spending the growth/interest, the non-profit protects itself against future economic downturns and ensures long-term stability.",
+    "difficulty": "easy"
   },
   {
     "question": "Impact Investing",
@@ -36,7 +38,8 @@
       "Arbitrage"
     ],
     "answer": "Impact Investing",
-    "explanation": "Unlike traditional charity (where you expect 0% return) or traditional investing (where you only want max profit), impact investing seeks a 'double bottom line' of both profit and social purpose."
+    "explanation": "Unlike traditional charity (where you expect 0% return) or traditional investing (where you only want max profit), impact investing seeks a 'double bottom line' of both profit and social purpose.",
+    "difficulty": "medium"
   },
   {
     "question": "Democratization of Finance",
@@ -49,7 +52,8 @@
       "Market Consolidation"
     ],
     "answer": "The Democratization of Finance",
-    "explanation": "Technology has lowered the barriers to entry, allowing people with very small amounts of capital to participate in the wealth-building potential of the global stock market."
+    "explanation": "Technology has lowered the barriers to entry, allowing people with very small amounts of capital to participate in the wealth-building potential of the global stock market.",
+    "difficulty": "medium"
   },
   {
     "question": "Philanthropy and the Gift Economy",
@@ -62,7 +66,8 @@
       "It is a form of insider trading"
     ],
     "answer": "It redistributes capital from private wealth to social problem-solving, often through foundations",
-    "explanation": "Philanthropy acts as a specialized sector of the economy that allocates capital to areas where traditional markets might fail, such as curing rare diseases or providing disaster relief."
+    "explanation": "Philanthropy acts as a specialized sector of the economy that allocates capital to areas where traditional markets might fail, such as curing rare diseases or providing disaster relief.",
+    "difficulty": "medium"
   },
   {
     "question": "Microfinance",
@@ -75,7 +80,8 @@
       "Securitization"
     ],
     "answer": "Microfinance",
-    "explanation": "Microfinance proves that even very small amounts of capital, when provided as a loan rather than a hand-out, can stimulate local economies and create self-sustaining businesses."
+    "explanation": "Microfinance proves that even very small amounts of capital, when provided as a loan rather than a hand-out, can stimulate local economies and create self-sustaining businesses.",
+    "difficulty": "medium"
   },
   {
     "question": "Crowdfunding",
@@ -88,7 +94,8 @@
       "A Leveraged Buyout"
     ],
     "answer": "Crowdfunding",
-    "explanation": "Crowdfunding allows the 'wisdom of the crowd' to decide which projects are worth funding, decentralizing the power of capital allocation."
+    "explanation": "Crowdfunding allows the 'wisdom of the crowd' to decide which projects are worth funding, decentralizing the power of capital allocation.",
+    "difficulty": "medium"
   },
   {
     "question": "ESG Criteria",
@@ -101,7 +108,8 @@
       "Market Timing"
     ],
     "answer": "ESG Criteria",
-    "explanation": "ESG investing integrates ethical considerations into the investment process, pressuring corporations to improve their social and environmental behavior to attract capital."
+    "explanation": "ESG investing integrates ethical considerations into the investment process, pressuring corporations to improve their social and environmental behavior to attract capital.",
+    "difficulty": "medium"
   },
   {
     "question": "The Future: Fintech and Blockchain",
@@ -114,7 +122,8 @@
       "A Central Bank Reserve"
     ],
     "answer": "Blockchain/Cryptocurrency",
-    "explanation": "Blockchain aims to reduce transaction costs and increase transparency by creating a peer-to-peer financial system that doesn't rely on centralized institutions."
+    "explanation": "Blockchain aims to reduce transaction costs and increase transparency by creating a peer-to-peer financial system that doesn't rely on centralized institutions.",
+    "difficulty": "hard"
   },
   {
     "question": "Financial Literacy as a Social Tool",
@@ -127,6 +136,7 @@
       "It is required by the Federal Reserve to keep inflation low"
     ],
     "answer": "It empowers them to make decisions that prevent debt traps and build long-term wealth",
-    "explanation": "Knowledge is the ultimate financial asset. Understanding how the 'rules of money' work allows individuals to navigate the system effectively, regardless of their starting point in life."
+    "explanation": "Knowledge is the ultimate financial asset. Understanding how the 'rules of money' work allows individuals to navigate the system effectively, regardless of their starting point in life.",
+    "difficulty": "hard"
   }
 ]

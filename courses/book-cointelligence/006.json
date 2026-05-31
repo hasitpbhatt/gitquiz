@@ -10,7 +10,8 @@
       "Linear task automation."
     ],
     "answer": "The 'AI as Coworker' model of delegation.",
-    "explanation": "Treating AI as a coworker involves delegating cognitively demanding but time-consuming tasks while maintaining the role of the 'lead' who makes the final decisions."
+    "explanation": "Treating AI as a coworker involves delegating cognitively demanding but time-consuming tasks while maintaining the role of the 'lead' who makes the final decisions.",
+    "difficulty": "easy"
   },
   {
     "question": "The Centaur Model",
@@ -23,7 +24,8 @@
       "Manual redundancy."
     ],
     "answer": "The Centaur model.",
-    "explanation": "Centaurs divide tasks based on who is best suited for them. The human does the 'human parts' and the AI does the 'machine parts' without blending them."
+    "explanation": "Centaurs divide tasks based on who is best suited for them. The human does the 'human parts' and the AI does the 'machine parts' without blending them.",
+    "difficulty": "easy"
   },
   {
     "question": "The Cyborg Model",
@@ -36,7 +38,8 @@
       "Software installation."
     ],
     "answer": "The Cyborg model.",
-    "explanation": "The Cyborg model is characterized by the 'seamless integration' of human and machine intelligence throughout the entire creative or analytical process."
+    "explanation": "The Cyborg model is characterized by the 'seamless integration' of human and machine intelligence throughout the entire creative or analytical process.",
+    "difficulty": "easy"
   },
   {
     "question": "The Productivity Frontier",
@@ -49,7 +52,8 @@
       "A technical glitch in the veteran volunteers' software."
     ],
     "answer": "The AI's ability to raise the performance 'floor' for everyone.",
-    "explanation": "AI provides a 'baseline' of high-level competence. For those who were struggling, this baseline is a massive boost; for experts, it is simply a helpful secondary tool."
+    "explanation": "AI provides a 'baseline' of high-level competence. For those who were struggling, this baseline is a massive boost; for experts, it is simply a helpful secondary tool.",
+    "difficulty": "medium"
   },
   {
     "question": "The Risk of Skills Atrophy",
@@ -62,7 +66,8 @@
       "Technical mastery."
     ],
     "answer": "Skills atrophy.",
-    "explanation": "Skills atrophy occurs when we outsource the 'cognitive muscles' of our job to the AI, leading to a decline in our own unassisted abilities."
+    "explanation": "Skills atrophy occurs when we outsource the 'cognitive muscles' of our job to the AI, leading to a decline in our own unassisted abilities.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Checking Out' Paradox",
@@ -75,7 +80,8 @@
       "Other lawyers will be jealous of their speed."
     ],
     "answer": "The lawyer has 'checked out' and is susceptible to an AI hallucination.",
-    "explanation": "High reliability leads to human complacency. To be a good 'manager' of an AI coworker, you must remain critically engaged even when things seem perfect."
+    "explanation": "High reliability leads to human complacency. To be a good 'manager' of an AI coworker, you must remain critically engaged even when things seem perfect.",
+    "difficulty": "medium"
   },
   {
     "question": "Shadow AI in the Workplace",
@@ -88,7 +94,8 @@
       "Strategic rest."
     ],
     "answer": "Shadow AI usage.",
-    "explanation": "Shadow AI is the 'hidden' use of these tools. It creates an illusion of learning that prevents the student from truly building skills."
+    "explanation": "Shadow AI is the 'hidden' use of these tools. It creates an illusion of learning that prevents the student from truly building skills.",
+    "difficulty": "medium"
   },
   {
     "question": "The Management of Prompts",
@@ -101,7 +108,8 @@
       "The AI is having a bad day."
     ],
     "answer": "You provided a low-context 'brief' that didn't specify tone, audience, or goal.",
-    "explanation": "Successful 'AI as Coworker' interaction depends on the quality of the instruction. Specificity and context are the management tools of the future."
+    "explanation": "Successful 'AI as Coworker' interaction depends on the quality of the instruction. Specificity and context are the management tools of the future.",
+    "difficulty": "medium"
   },
   {
     "question": "Reinvesting the Productivity Dividend",
@@ -114,7 +122,8 @@
       "Automating leadership."
     ],
     "answer": "Reinvesting the productivity dividend into human-centric value.",
-    "explanation": "The value of AI is that it clears the 'drudge work,' allowing humans to focus on the high-impact emotional and strategic work that machines cannot replicate."
+    "explanation": "The value of AI is that it clears the 'drudge work,' allowing humans to focus on the high-impact emotional and strategic work that machines cannot replicate.",
+    "difficulty": "medium"
   },
   {
     "question": "The Future of Jobs: Integration",
@@ -127,6 +136,7 @@
       "Because the AI will eventually become the boss."
     ],
     "answer": "Because you are coordinating the efforts of an 'alien' intelligence toward a human goal.",
-    "explanation": "Managing AI involves setting vision, checking quality, and iterating on results—the core functions of a traditional manager, now applied to machine collaborators."
+    "explanation": "Managing AI involves setting vision, checking quality, and iterating on results—the core functions of a traditional manager, now applied to machine collaborators.",
+    "difficulty": "medium"
   }
 ]

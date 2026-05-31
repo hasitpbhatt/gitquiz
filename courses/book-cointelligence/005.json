@@ -10,7 +10,8 @@
       "Wait for a human creative director to have a breakthrough moment without tools."
     ],
     "answer": "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
-    "explanation": "The 'Muse' role uses AI's speed to provide a wide range of 'seeds,' which humans then cultivate. This overcomes creative blocks and expands the search space for good ideas."
+    "explanation": "The 'Muse' role uses AI's speed to provide a wide range of 'seeds,' which humans then cultivate. This overcomes creative blocks and expands the search space for good ideas.",
+    "difficulty": "easy"
   },
   {
     "question": "Combinatorial Creativity",
@@ -23,7 +24,8 @@
       "Data plagiarism."
     ],
     "answer": "Combinatorial creativity.",
-    "explanation": "By merging two distinct 'coordinates' in its latent space (1950s jets and coffee machines), the AI creates a novel synthesis that a human might not have easily visualized."
+    "explanation": "By merging two distinct 'coordinates' in its latent space (1950s jets and coffee machines), the AI creates a novel synthesis that a human might not have easily visualized.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Latent Space' of Ideas",
@@ -36,7 +38,8 @@
       "It is programmed with a 'randomness' button that forces it to be weird."
     ],
     "answer": "It navigates the mathematical relationships between concepts to find new, 'in-between' points.",
-    "explanation": "The latent space allows for interpolation. If the AI knows 'A' and 'B,' it can mathematically calculate what '0.5A + 0.5B' looks like, resulting in a novel concept."
+    "explanation": "The latent space allows for interpolation. If the AI knows 'A' and 'B,' it can mathematically calculate what '0.5A + 0.5B' looks like, resulting in a novel concept.",
+    "difficulty": "easy"
   },
   {
     "question": "Overcoming Functional Fixedness",
@@ -49,7 +52,8 @@
       "Reducing the need for human architects."
     ],
     "answer": "Breaking 'functional fixedness' and allowing for divergent thinking.",
-    "explanation": "AI isn't bound by human social norms or habits, making it an excellent partner for 'outside the box' thinking that humans often find difficult."
+    "explanation": "AI isn't bound by human social norms or habits, making it an excellent partner for 'outside the box' thinking that humans often find difficult.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Curator's Burden'",
@@ -62,7 +66,8 @@
       "The amount of money they spend on AI subscriptions."
     ],
     "answer": "Their ability to curate, edit, and inject unique human meaning into the AI's output.",
-    "explanation": "As the volume of content increases, the 'human touch'—taste, discernment, and emotional resonance—becomes the rarest and most valuable resource."
+    "explanation": "As the volume of content increases, the 'human touch'—taste, discernment, and emotional resonance—becomes the rarest and most valuable resource.",
+    "difficulty": "easy"
   },
   {
     "question": "Iterative Prompting as Sculpting",
@@ -75,7 +80,8 @@
       "Accept the happy ending because the AI 'knows best.'"
     ],
     "answer": "Tell the AI: 'The tone is great, but make the ending more bittersweet and realistic.'",
-    "explanation": "Iteration is the core of the creative process with AI. You 'sculpt' the output through continuous feedback loops."
+    "explanation": "Iteration is the core of the creative process with AI. You 'sculpt' the output through continuous feedback loops.",
+    "difficulty": "medium"
   },
   {
     "question": "The Risk of 'Average' Creativity",
@@ -88,7 +94,8 @@
       "Because the AI is trying to avoid offending anyone."
     ],
     "answer": "Because the user provided a generic prompt that pushed the AI to the statistical average of its training.",
-    "explanation": "AI aims for the 'most likely' answer. Without specific, 'edgy' constraints from the human, the AI will default to the most common (and therefore generic) patterns."
+    "explanation": "AI aims for the 'most likely' answer. Without specific, 'edgy' constraints from the human, the AI will default to the most common (and therefore generic) patterns.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Creative' Turing Test",
@@ -101,7 +108,8 @@
       "No, because the AI probably copied that melody from a sad song."
     ],
     "answer": "No, because the creativity is realized in the human's emotional response and the utility of the idea.",
-    "explanation": "In Co-Intelligence, the human is the 'meaning-maker.' If the AI provides the spark that leads to a human emotional or creative breakthrough, the partnership was successful."
+    "explanation": "In Co-Intelligence, the human is the 'meaning-maker.' If the AI provides the spark that leads to a human emotional or creative breakthrough, the partnership was successful.",
+    "difficulty": "medium"
   },
   {
     "question": "Constraints Breed Creativity",
@@ -114,7 +122,8 @@
       "List 10 ways to make money quickly."
     ],
     "answer": "Give me a fundraiser idea for a school that involves the whole neighborhood, uses no food, and costs less than $50 to start.",
-    "explanation": "Specific constraints force the AI away from the 'average' and into the 'jagged' parts of its latent space where unique combinations live."
+    "explanation": "Specific constraints force the AI away from the 'average' and into the 'jagged' parts of its latent space where unique combinations live.",
+    "difficulty": "medium"
   },
   {
     "question": "The Future of 'Craft'",
@@ -127,6 +136,7 @@
       "Memorizing the names of every actor in history."
     ],
     "answer": "Vision, storytelling, and the ability to direct the AI to capture specific emotional nuances.",
-    "explanation": "When execution is 'free,' the 'vision' becomes the premium. The director’s role is to ensure the AI's output aligns with a cohesive, meaningful human story."
+    "explanation": "When execution is 'free,' the 'vision' becomes the premium. The director’s role is to ensure the AI's output aligns with a cohesive, meaningful human story.",
+    "difficulty": "medium"
   }
 ]

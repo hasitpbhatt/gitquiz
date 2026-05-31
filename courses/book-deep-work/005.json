@@ -10,7 +10,8 @@
       "Switch to a different platform with better engagement"
     ],
     "answer": "Evaluate whether the client bookings from Instagram justify the two daily hours and anxiety cost",
-    "explanation": "The Craftsman approach requires a net-benefit calculation. If the costs (time, attention, mental health) exceed the benefits (occasional clients), the tool should be abandoned or severely limited."
+    "explanation": "The Craftsman approach requires a net-benefit calculation. If the costs (time, attention, mental health) exceed the benefits (occasional clients), the tool should be abandoned or severely limited.",
+    "difficulty": "easy"
   },
   {
     "question": "The Any-Benefit Mindset",
@@ -23,7 +24,8 @@
       "Loss aversion, because she fears missing a future call"
     ],
     "answer": "Any-Benefit mindset, because a tiny possible benefit justifies a significant weekly cost",
-    "explanation": "Three hours per week (156 hours per year) for two opportunities is a poor trade. The Any-Benefit mindset ignores what those 156 hours could have produced if spent on deep work."
+    "explanation": "Three hours per week (156 hours per year) for two opportunities is a poor trade. The Any-Benefit mindset ignores what those 156 hours could have produced if spent on deep work.",
+    "difficulty": "medium"
   },
   {
     "question": "The Law of the Vital Few",
@@ -36,7 +38,8 @@
       "Hire a social media manager to handle LinkedIn"
     ],
     "answer": "Drastically reduce LinkedIn time and invest those hours in delighting existing referral sources",
-    "explanation": "LinkedIn is part of the trivial many—it provides some value but far less than the vital few (existing referral relationships). Deep work should be concentrated on what drives the majority of results."
+    "explanation": "LinkedIn is part of the trivial many—it provides some value but far less than the vital few (existing referral relationships). Deep work should be concentrated on what drives the majority of results.",
+    "difficulty": "medium"
   },
   {
     "question": "The 30-Day Social Media Experiment",
@@ -49,7 +52,8 @@
       "The experiment was flawed because thirty days is too short"
     ],
     "answer": "TikTok did not provide essential value; her life improved without it, and she should quit permanently",
-    "explanation": "If your life improved and no one noticed, the tool was likely a net negative. The experiment provides objective data to override the anxiety of 'missing out.'"
+    "explanation": "If your life improved and no one noticed, the tool was likely a net negative. The experiment provides objective data to override the anxiety of 'missing out.'",
+    "difficulty": "medium"
   },
   {
     "question": "Don't Use the Internet to Entertain Yourself",
@@ -62,7 +66,8 @@
       "Go to bed earlier to reduce his evening leisure time"
     ],
     "answer": "Plan his evening in advance with a specific high-quality activity like practicing guitar or reading",
-    "explanation": "Without a plan, a tired brain defaults to the easiest source of stimulation. Planning leisure proactively ensures that free time restores rather than fragments your attention."
+    "explanation": "Without a plan, a tired brain defaults to the easiest source of stimulation. Planning leisure proactively ensures that free time restores rather than fragments your attention.",
+    "difficulty": "medium"
   },
   {
     "question": "The Paradox of Choice in Tools",
@@ -75,7 +80,8 @@
       "She should find a different productivity app that works better"
     ],
     "answer": "The app is a net negative because its cost in attention fragmentation exceeds its organizational benefits",
-    "explanation": "A tool must be evaluated by its total impact, not just its intended benefits. If the app fragments focus, it may undermine the very productivity it promises to enhance."
+    "explanation": "A tool must be evaluated by its total impact, not just its intended benefits. If the app fragments focus, it may undermine the very productivity it promises to enhance.",
+    "difficulty": "medium"
   },
   {
     "question": "Social Pressure and FOMO",
@@ -88,7 +94,8 @@
       "That two weeks is not long enough to judge the impact"
     ],
     "answer": "That the fear of missing out was worse than the reality, and the benefits of connection came through other channels",
-    "explanation": "FOMO is usually disproportionate to actual loss. Deep relationships will persist through direct communication, while the 'updates' lost are typically low-value."
+    "explanation": "FOMO is usually disproportionate to actual loss. Deep relationships will persist through direct communication, while the 'updates' lost are typically low-value.",
+    "difficulty": "medium"
   },
   {
     "question": "Don't Use Social Media for Whimsy",
@@ -101,7 +108,8 @@
       "She should create her own social media account to post photos"
     ],
     "answer": "Even meaningful content can be obtained through less distracting channels; the real cost is the attention habit itself",
-    "explanation": "The issue is not the content but the mechanism. A once-a-week photo email provides the same benefit without training the brain to seek constant novelty and distraction."
+    "explanation": "The issue is not the content but the mechanism. A once-a-week photo email provides the same benefit without training the brain to seek constant novelty and distraction.",
+    "difficulty": "medium"
   },
   {
     "question": "The Craftsman's Cost-Benefit Framework",
@@ -114,7 +122,8 @@
       "Add Instagram to get better community awareness"
     ],
     "answer": "Evaluate if the community awareness gained from Twitter is worth the sermon preparation time lost",
-    "explanation": "The Craftsman approach forces a trade-off analysis. If Twitter's benefit to one goal undermines another equally important goal, it may not pass the test."
+    "explanation": "The Craftsman approach forces a trade-off analysis. If Twitter's benefit to one goal undermines another equally important goal, it may not pass the test.",
+    "difficulty": "hard"
   },
   {
     "question": "Plan Your Evening Leisure",
@@ -127,6 +136,7 @@
       "Watch television together instead of separate phones"
     ],
     "answer": "Agree on a specific evening activity together, like a board game or a walk, to replace the default scrolling habit",
-    "explanation": "Scheduled, intentional leisure is more restorative than passive digital consumption. Planning prevents the tired brain from taking the path of least resistance."
+    "explanation": "Scheduled, intentional leisure is more restorative than passive digital consumption. Planning prevents the tired brain from taking the path of least resistance.",
+    "difficulty": "hard"
   }
 ]

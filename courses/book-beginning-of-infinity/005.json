@@ -10,7 +10,8 @@
       "Why we need to ignore quantum physics"
     ],
     "answer": "How quantum superposition creates multiple realities",
-    "explanation": "In MWI, when a quantum event has multiple possible outcomes (like a coin flip), all outcomes occur - but in different, non-interacting branches of the universe. There's no single 'actual' outcome; all possibilities are realized."
+    "explanation": "In MWI, when a quantum event has multiple possible outcomes (like a coin flip), all outcomes occur - but in different, non-interacting branches of the universe. There's no single 'actual' outcome; all possibilities are realized.",
+    "difficulty": "easy"
   },
   {
     "question": "Quantum Computers",
@@ -23,7 +24,8 @@
       "Why we should avoid quantum computing"
     ],
     "answer": "How quantum parallelism can solve certain problems",
-    "explanation": "While the maze analogy is simplified, quantum computers can explore many computational paths at once through superposition. For specific problems like factoring large numbers, this allows exponential speedups over classical approaches."
+    "explanation": "While the maze analogy is simplified, quantum computers can explore many computational paths at once through superposition. For specific problems like factoring large numbers, this allows exponential speedups over classical approaches.",
+    "difficulty": "easy"
   },
   {
     "question": "Interference and Computation",
@@ -36,7 +38,8 @@
       "Why we need to eliminate interference in computing"
     ],
     "answer": "How interference enables quantum computation",
-    "explanation": "In quantum computing, incorrect computational paths interfere destructively (canceling out), while correct paths interfere constructively (reinforcing each other). This interference mechanism is what gives quantum computers their computational advantage for certain problems."
+    "explanation": "In quantum computing, incorrect computational paths interfere destructively (canceling out), while correct paths interfere constructively (reinforcing each other). This interference mechanism is what gives quantum computers their computational advantage for certain problems.",
+    "difficulty": "medium"
   },
   {
     "question": "The Multiverse",
@@ -49,7 +52,8 @@
       "Why the multiverse is actually small"
     ],
     "answer": "How the multiverse grows through quantum events",
-    "explanation": "Each quantum event with multiple possible outcomes (like an electron spinning up or down) causes the universe to differentiate into branches - one for each outcome. This continuous branching creates the vast multiverse of MWI."
+    "explanation": "Each quantum event with multiple possible outcomes (like an electron spinning up or down) causes the universe to differentiate into branches - one for each outcome. This continuous branching creates the vast multiverse of MWI.",
+    "difficulty": "medium"
   },
   {
     "question": "Why MWI is a Good Explanation",
@@ -62,7 +66,8 @@
       "Why Copenhagen interpretation is actually better"
     ],
     "answer": "How MWI's simplicity makes it a better explanation",
-    "explanation": "MWI explains quantum phenomena using only the Schrödinger equation, without adding the ad-hoc 'collapse' postulate of Copenhagen. This makes it harder to vary and more parsimonious - key traits of a good explanation according to Deutsch."
+    "explanation": "MWI explains quantum phenomena using only the Schrödinger equation, without adding the ad-hoc 'collapse' postulate of Copenhagen. This makes it harder to vary and more parsimonious - key traits of a good explanation according to Deutsch.",
+    "difficulty": "medium"
   },
   {
     "question": "Decoherence",
@@ -75,7 +80,8 @@
       "Why quantum effects are irrelevant to daily life"
     ],
     "answer": "How environmental interaction destroys quantum coherence",
-    "explanation": "When a quantum system interacts with its environment (air molecules, radiation, etc.), it becomes entangled with countless particles. This entanglement spreads the coherence so thin that macroscopic superpositions like Schrödinger's cat become undetectable - we perceive only one definite outcome."
+    "explanation": "When a quantum system interacts with its environment (air molecules, radiation, etc.), it becomes entangled with countless particles. This entanglement spreads the coherence so thin that macroscopic superpositions like Schrödinger's cat become undetectable - we perceive only one definite outcome.",
+    "difficulty": "medium"
   },
   {
     "question": "Quantum Measurement",
@@ -88,7 +94,8 @@
       "Why we need special measuring devices"
     ],
     "answer": "How measurement creates entanglement without collapse",
-    "explanation": "In MWI, measurement isn't a special process - it's just quantum interaction. When you measure a quantum system, you become entangled with it. Each version of you in different branches sees a definite outcome, but the universal wavefunction containing all branches continues to evolve according to the Schrödinger equation."
+    "explanation": "In MWI, measurement isn't a special process - it's just quantum interaction. When you measure a quantum system, you become entangled with it. Each version of you in different branches sees a definite outcome, but the universal wavefunction containing all branches continues to evolve according to the Schrödinger equation.",
+    "difficulty": "medium"
   },
   {
     "question": "Fabric of Reality",
@@ -101,6 +108,7 @@
       "Why we should study them in isolation"
     ],
     "answer": "How they form a unified explanatory framework",
-    "explanation": "Deutsch argues that quantum physics (MWI) explains how computation works; computation theory explains how knowledge can be processed; epistemology explains how knowledge grows through conjecture and criticism; and evolutionary theory explains how knowledge is created through variation and selection - forming a cohesive 'fabric of reality'."
+    "explanation": "Deutsch argues that quantum physics (MWI) explains how computation works; computation theory explains how knowledge can be processed; epistemology explains how knowledge grows through conjecture and criticism; and evolutionary theory explains how knowledge is created through variation and selection - forming a cohesive 'fabric of reality'.",
+    "difficulty": "hard"
   }
 ]

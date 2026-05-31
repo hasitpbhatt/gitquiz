@@ -3,80 +3,140 @@
     "question": "The Moving Goalpost",
     "content": "One of the hardest financial skills is getting the goalpost to stop moving. If your expectations rise faster than your income, you will never feel satisfied, no matter how much money you make.",
     "description": "A professional earns a raise from $100k to $150k but immediately upgrades their lifestyle so that they still feel 'broke' at the end of the month. What is this phenomenon called?",
-    "options": ["The wealth effect", "Moving the goalposts", "The compounding trap", "Financial stagnation"],
+    "options": [
+      "The wealth effect",
+      "Moving the goalposts",
+      "The compounding trap",
+      "Financial stagnation"
+    ],
     "answer": "Moving the goalposts",
-    "explanation": "When your taste for luxury or status grows along with your income, you are running on a 'hedonic treadmill' where you never actually feel wealthier."
+    "explanation": "When your taste for luxury or status grows along with your income, you are running on a 'hedonic treadmill' where you never actually feel wealthier.",
+    "difficulty": "easy"
   },
   {
     "question": "Social Comparison",
     "content": "The ceiling of social comparison is so high that virtually no one will ever reach it. If you compare yourself to a billionaire, you will feel poor; if that billionaire compares themselves to a wealthier peer, they will feel poor too.",
     "description": "Why does Housel argue that social comparison is a battle that can never be won?",
-    "options": ["Because there is always someone with more money or a bigger house.", "Because people aren't competitive enough.", "Because comparison is the only way to measure success.", "Because the government limits how much you can win."],
+    "options": [
+      "Because there is always someone with more money or a bigger house.",
+      "Because people aren't competitive enough.",
+      "Because comparison is the only way to measure success.",
+      "Because the government limits how much you can win."
+    ],
     "answer": "Because there is always someone with more money or a bigger house.",
-    "explanation": "The only way to win the comparison game is to accept that you might have enough, even if those around you have more."
+    "explanation": "The only way to win the comparison game is to accept that you might have enough, even if those around you have more.",
+    "difficulty": "easy"
   },
   {
     "question": "Risking What is Essential",
     "content": "There is no reason to risk what you have and need for what you don't have and don't need. People often risk their reputation, family, or freedom for an extra bit of money they didn't actually require to be happy.",
     "description": "An investor who is already wealthy uses illegal insider information to make an extra million dollars. Which principle from Chapter 3 did they violate?",
-    "options": ["The principle of compounding", "The principle of 'Enough'", "The principle of social status", "The principle of aggressive growth"],
+    "options": [
+      "The principle of compounding",
+      "The principle of 'Enough'",
+      "The principle of social status",
+      "The principle of aggressive growth"
+    ],
     "answer": "The principle of 'Enough'",
-    "explanation": "They risked something priceless (their freedom and reputation) for something they didn't actually need (more money), proving they didn't know where their 'enough' point was."
+    "explanation": "They risked something priceless (their freedom and reputation) for something they didn't actually need (more money), proving they didn't know where their 'enough' point was.",
+    "difficulty": "easy"
   },
   {
     "question": "The Bernie Madoff Lesson",
     "content": "Bernie Madoff was already a legitimate, wealthy, and respected businessman before he started his Ponzi scheme. He had everything a person could want but felt he needed more to maintain a certain image.",
     "description": "What does the story of Madoff teach us about the 'Psychology of Money'?",
-    "options": ["That you can never have too much money.", "That even the wealthiest people can be destroyed by a lack of contentment.", "That Ponzi schemes are a viable way to get rich.", "That wealthy people are always smarter than everyone else."],
+    "options": [
+      "That you can never have too much money.",
+      "That even the wealthiest people can be destroyed by a lack of contentment.",
+      "That Ponzi schemes are a viable way to get rich.",
+      "That wealthy people are always smarter than everyone else."
+    ],
     "answer": "That even the wealthiest people can be destroyed by a lack of contentment.",
-    "explanation": "Madoff had 'enough' by any objective standard, but his subjective lack of contentment led him to destroy his life and the lives of others."
+    "explanation": "Madoff had 'enough' by any objective standard, but his subjective lack of contentment led him to destroy his life and the lives of others.",
+    "difficulty": "easy"
   },
   {
     "question": "Reputation is Invaluable",
     "content": "Some things are not worth risking, no matter the potential gain. These include your reputation, your freedom, your family and friends, and your peace of mind.",
     "description": "When faced with a high-reward investment that has a small chance of ruining your reputation, what would the author likely advise?",
-    "options": ["Take the risk; you can always rebuild your reputation.", "Only take the risk if the reward is over $10 million.", "Don't take the risk; some things are literally 'priceless'.", "Ask a friend to take the risk for you."],
+    "options": [
+      "Take the risk; you can always rebuild your reputation.",
+      "Only take the risk if the reward is over $10 million.",
+      "Don't take the risk; some things are literally 'priceless'.",
+      "Ask a friend to take the risk for you."
+    ],
     "answer": "Don't take the risk; some things are literally 'priceless'.",
-    "explanation": "Housel emphasizes that the best way to keep 'enough' is to realize that certain assets, like your character, are worth more than any financial figure."
+    "explanation": "Housel emphasizes that the best way to keep 'enough' is to realize that certain assets, like your character, are worth more than any financial figure.",
+    "difficulty": "easy"
   },
   {
     "question": "The Difficulty of Saying No",
     "content": "Contentment is the realization that you have enough. It is not about being unambitious; it is about realizing that an insatiable appetite for 'more' will eventually lead to regret.",
     "description": "How does the book define the feeling of 'Enough'?",
-    "options": ["A state of having exactly $1 million in the bank.", "The point where you stop working entirely.", "Realizing that the opposite—an insatiable appetite for more—will push you to the point of regret.", "When you can buy anything you want without looking at the price."],
+    "options": [
+      "A state of having exactly $1 million in the bank.",
+      "The point where you stop working entirely.",
+      "Realizing that the opposite—an insatiable appetite for more—will push you to the point of regret.",
+      "When you can buy anything you want without looking at the price."
+    ],
     "answer": "Realizing that the opposite—an insatiable appetite for more—will push you to the point of regret.",
-    "explanation": "Enough is not a fixed number; it is a psychological boundary that protects you from taking foolish risks with your well-being."
+    "explanation": "Enough is not a fixed number; it is a psychological boundary that protects you from taking foolish risks with your well-being.",
+    "difficulty": "easy"
   },
   {
     "question": "Wealth and Ego",
     "content": "Wealth is often what you don't spend. It's the gap between your ego and your income. When you keep your ego in check, you find that you need less to feel successful.",
     "description": "If two people earn the same salary, but one spends it all on status symbols while the other saves half, who has a healthier relationship with the concept of 'Enough'?",
-    "options": ["The one spending, because they are enjoying their life.", "The one saving, because they have decoupled their ego from their spending.", "Both are equal as long as they are happy.", "Neither, because they aren't earning enough yet."],
+    "options": [
+      "The one spending, because they are enjoying their life.",
+      "The one saving, because they have decoupled their ego from their spending.",
+      "Both are equal as long as they are happy.",
+      "Neither, because they aren't earning enough yet."
+    ],
     "answer": "The one saving, because they have decoupled their ego from their spending.",
-    "explanation": "The saver has found their 'enough' point, allowing them to build wealth rather than just displaying 'richness'."
+    "explanation": "The saver has found their 'enough' point, allowing them to build wealth rather than just displaying 'richness'.",
+    "difficulty": "easy"
   },
   {
     "question": "The Gupta & Rajat Lesson",
     "content": "The book mentions Rajat Gupta, a former head of McKinsey who had a net worth of $100 million. He went to prison for insider trading because he wanted to be a billionaire.",
     "description": "What is the primary irony in Gupta's downfall?",
-    "options": ["He wasn't smart enough to get away with it.", "He was already 'rich' by any standard but didn't feel 'wealthy' enough.", "He should have invested in real estate instead.", "He was a victim of bad luck."],
+    "options": [
+      "He wasn't smart enough to get away with it.",
+      "He was already 'rich' by any standard but didn't feel 'wealthy' enough.",
+      "He should have invested in real estate instead.",
+      "He was a victim of bad luck."
+    ],
     "answer": "He was already 'rich' by any standard but didn't feel 'wealthy' enough.",
-    "explanation": "Gupta's downfall is a classic example of risking what you have and need for what you don't have and don't need."
+    "explanation": "Gupta's downfall is a classic example of risking what you have and need for what you don't have and don't need.",
+    "difficulty": "easy"
   },
   {
     "question": "Defining Your Own Success",
     "content": "If you don't define what success looks like for you, the world will define it for you—and the world's definition is usually 'more than what you have now.'",
     "description": "What is the most effective way to stop the goalposts from moving?",
-    "options": ["Earning so much money that you couldn't possibly spend it all.", "Explicitly deciding what 'enough' looks like for your lifestyle and values.", "Stopping your career growth entirely at age 30.", "Comparing yourself only to people who have less than you."],
+    "options": [
+      "Earning so much money that you couldn't possibly spend it all.",
+      "Explicitly deciding what 'enough' looks like for your lifestyle and values.",
+      "Stopping your career growth entirely at age 30.",
+      "Comparing yourself only to people who have less than you."
+    ],
     "answer": "Explicitly deciding what 'enough' looks like for your lifestyle and values.",
-    "explanation": "Success is subjective. By defining it yourself, you regain control over your financial decisions and emotional well-being."
+    "explanation": "Success is subjective. By defining it yourself, you regain control over your financial decisions and emotional well-being.",
+    "difficulty": "easy"
   },
   {
     "question": "The Ultimate Dividend",
     "content": "Knowing when you have enough allows you to enjoy the 'ultimate dividend' of money: freedom and time.",
     "description": "According to Chapter 3, what is the 'price' of not knowing when you have enough?",
-    "options": ["Paying higher taxes.", "Constant anxiety and the risk of losing everything you've worked for.", "Having to work a job you love for longer.", "Being ignored by high-society circles."],
+    "options": [
+      "Paying higher taxes.",
+      "Constant anxiety and the risk of losing everything you've worked for.",
+      "Having to work a job you love for longer.",
+      "Being ignored by high-society circles."
+    ],
     "answer": "Constant anxiety and the risk of losing everything you've worked for.",
-    "explanation": "Without a sense of 'enough,' you are perpetually chasing a ghost, which leads to burnout, high-stakes mistakes, and a lack of true freedom."
+    "explanation": "Without a sense of 'enough,' you are perpetually chasing a ghost, which leads to burnout, high-stakes mistakes, and a lack of true freedom.",
+    "difficulty": "medium"
   }
 ]

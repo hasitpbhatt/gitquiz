@@ -3,80 +3,140 @@
     "question": "The Popularity of Pessimism",
     "content": "Pessimism is more than just being grumpy; it is intellectually seductive. In a world of uncertainty, a pessimistic view sounds smarter, more sophisticated, and more 'realistic' than an optimistic one, which is often dismissed as a sales pitch.",
     "description": "If two experts go on TV, one predicting a 50% market crash and the other predicting steady growth, who is the audience more likely to pay attention to, according to Housel?",
-    "options": ["The optimist, because everyone wants good news.", "The pessimist, because threats demand more urgent attention than opportunities.", "Neither; audiences prefer entertainment over financial news.", "The one with the better visual charts."],
+    "options": [
+      "The optimist, because everyone wants good news.",
+      "The pessimist, because threats demand more urgent attention than opportunities.",
+      "Neither; audiences prefer entertainment over financial news.",
+      "The one with the better visual charts."
+    ],
     "answer": "The pessimist, because threats demand more urgent attention than opportunities.",
-    "explanation": "Evolutionarily, we are wired to treat threats as urgent. A 'warning' sounds like someone trying to help us, while 'good news' sounds like someone trying to sell us something."
+    "explanation": "Evolutionarily, we are wired to treat threats as urgent. A 'warning' sounds like someone trying to help us, while 'good news' sounds like someone trying to sell us something.",
+    "difficulty": "medium"
   },
   {
     "question": "The Speed of Change",
     "content": "Pessimism often ignores the fact that progress happens slowly, while setbacks happen quickly. It is easy to notice a sudden crash (like a pandemic or a bank failure), but it is hard to notice the incremental daily improvements in technology and efficiency.",
     "description": "Why is it easier to construct a compelling pessimistic narrative about the economy than an optimistic one?",
-    "options": ["Because there is more bad news than good news in the world.", "Because destruction happens in a single 'event' that is easy to see, while growth is a 'process' that takes time to compound.", "Because optimists are generally less intelligent than pessimists.", "Because the stock market spends more time going down than going up."],
+    "options": [
+      "Because there is more bad news than good news in the world.",
+      "Because destruction happens in a single 'event' that is easy to see, while growth is a 'process' that takes time to compound.",
+      "Because optimists are generally less intelligent than pessimists.",
+      "Because the stock market spends more time going down than going up."
+    ],
     "answer": "Because destruction happens in a single 'event' that is easy to see, while growth is a 'process' that takes time to compound.",
-    "explanation": "Progress requires many things to go right, which happens slowly over time. Destruction only requires one thing to go wrong, creating a dramatic, news-worthy event."
+    "explanation": "Progress requires many things to go right, which happens slowly over time. Destruction only requires one thing to go wrong, creating a dramatic, news-worthy event.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'End of the World' Cycle",
     "content": "Every decade has its own 'end-of-the-world' narrative. In the 1970s it was hyperinflation; in the 2000s it was the housing bubble. Pessimists focus on the problem but often forget to account for how humans adapt and innovate to solve those problems.",
     "description": "What is the primary factor that pessimists often leave out of their dire predictions?",
-    "options": ["The amount of money in the world.", "Human ingenuity and the ability to adapt to new challenges.", "The historical price of gold.", "The political climate of the era."],
+    "options": [
+      "The amount of money in the world.",
+      "Human ingenuity and the ability to adapt to new challenges.",
+      "The historical price of gold.",
+      "The political climate of the era."
+    ],
     "answer": "Human ingenuity and the ability to adapt to new challenges.",
-    "explanation": "History shows that when prices get too high or resources get too low, people find alternatives or invent new solutions. Pessimism assumes the problem will exist forever without a reaction."
+    "explanation": "History shows that when prices get too high or resources get too low, people find alternatives or invent new solutions. Pessimism assumes the problem will exist forever without a reaction.",
+    "difficulty": "medium"
   },
   {
     "question": "Optimism Defined",
     "content": "Optimism isn't believing that everything will be great. It is believing that the odds of a good outcome are in your favor over time, even if there will be constant setbacks and 'bad' news along the way.",
     "description": "How does Housel's definition of 'Optimism' differ from 'Blind Faith'?",
-    "options": ["Optimism acknowledges that the path will be messy and full of failures, but the destination is positive.", "Blind faith is based on math, while optimism is based on feelings.", "There is no difference; they are the same thing.", "Optimism is only for people who are already rich."],
+    "options": [
+      "Optimism acknowledges that the path will be messy and full of failures, but the destination is positive.",
+      "Blind faith is based on math, while optimism is based on feelings.",
+      "There is no difference; they are the same thing.",
+      "Optimism is only for people who are already rich."
+    ],
     "answer": "Optimism acknowledges that the path will be messy and full of failures, but the destination is positive.",
-    "explanation": "True optimism is a 'dispassionate' belief that the average of outcomes will be positive, even if specific moments are disastrous."
+    "explanation": "True optimism is a 'dispassionate' belief that the average of outcomes will be positive, even if specific moments are disastrous.",
+    "difficulty": "medium"
   },
   {
     "question": "The Cost of Pessimism",
     "content": "The price of pessimism is the 'opportunity cost' of not participating in growth. While the pessimist feels smart for avoiding a 10% dip, they often miss the 100% gain that follows.",
     "description": "An investor stays in cash for 10 years because they are waiting for a 'perfect' time when there is no bad news. What is the likely result of this 'pessimistic' safety?",
-    "options": ["They will have more money than those who took risks.", "They will be protected from all inflation.", "They will likely miss out on the compounding growth that occurs despite the bad news.", "They will be invited to speak at financial conferences."],
+    "options": [
+      "They will have more money than those who took risks.",
+      "They will be protected from all inflation.",
+      "They will likely miss out on the compounding growth that occurs despite the bad news.",
+      "They will be invited to speak at financial conferences."
+    ],
     "answer": "They will likely miss out on the compounding growth that occurs despite the bad news.",
-    "explanation": "Pessimism feels safe in the moment, but over a long time horizon, it is often the most expensive mindset to maintain."
+    "explanation": "Pessimism feels safe in the moment, but over a long time horizon, it is often the most expensive mindset to maintain.",
+    "difficulty": "medium"
   },
   {
     "question": "Extrapolation Bias",
     "content": "Pessimism thrives on extrapolation—the idea that if something is getting worse today, it will continue to get worse forever. It fails to account for the 'self-correcting' nature of markets.",
     "description": "When oil prices skyrocketed in the 1970s, pessimists predicted we would run out of energy. Instead, cars became more efficient and we found new energy sources. This is an example of failing to account for...",
-    "options": ["The supply and demand of labor.", "Market adaptation and innovation.", "The absolute truth of pessimistic math.", "Government regulations."],
+    "options": [
+      "The supply and demand of labor.",
+      "Market adaptation and innovation.",
+      "The absolute truth of pessimistic math.",
+      "Government regulations."
+    ],
     "answer": "Market adaptation and innovation.",
-    "explanation": "High prices and scarcity create incentives for people to solve the problem. Pessimists treat the 'problem' as a static fact rather than a moving target."
+    "explanation": "High prices and scarcity create incentives for people to solve the problem. Pessimists treat the 'problem' as a static fact rather than a moving target.",
+    "difficulty": "hard"
   },
   {
     "question": "The Seduction of 'Smart' Cynicism",
     "content": "If you say the world is going to get better, you are seen as naive. If you say the world is going to collapse, you are seen as a visionary. This social pressure makes it hard to remain an optimist.",
     "description": "Why does Housel say pessimism 'sounds like someone trying to help you'?",
-    "options": ["Because pessimists are more generous with their time.", "Because a warning feels like a protective shield, while an optimistic outlook feels like a risk.", "Because pessimists are usually more experienced.", "Because pessimistic advice is always free."],
+    "options": [
+      "Because pessimists are more generous with their time.",
+      "Because a warning feels like a protective shield, while an optimistic outlook feels like a risk.",
+      "Because pessimists are usually more experienced.",
+      "Because pessimistic advice is always free."
+    ],
     "answer": "Because a warning feels like a protective shield, while an optimistic outlook feels like a risk.",
-    "explanation": "We perceive someone warning us of a fire as a hero, while someone telling us 'the house will be fine' sounds like they are ignoring the danger."
+    "explanation": "We perceive someone warning us of a fire as a hero, while someone telling us 'the house will be fine' sounds like they are ignoring the danger.",
+    "difficulty": "hard"
   },
   {
     "question": "The Role of Luck in Pessimism",
     "content": "Pessimists often attribute their correct predictions to skill, but they rarely mention the dozens of times they were wrong. Because 'shocks' happen regularly, a pessimist will eventually be 'right' purely by chance.",
     "description": "A 'permabear' (someone always predicting a crash) is finally right after 12 years of growth. How should we view their prediction?",
-    "options": ["As a sign of incredible foresight.", "As a 'broken clock' being right twice a day; they ignored 12 years of gains to be 'right' for one year.", "As the only person worth listening to in the future.", "As a genius who timed the market perfectly."],
+    "options": [
+      "As a sign of incredible foresight.",
+      "As a 'broken clock' being right twice a day; they ignored 12 years of gains to be 'right' for one year.",
+      "As the only person worth listening to in the future.",
+      "As a genius who timed the market perfectly."
+    ],
     "answer": "As a 'broken clock' being right twice a day; they ignored 12 years of gains to be 'right' for one year.",
-    "explanation": "If you are always pessimistic, you will eventually be right because the market has periodic 'tails' to the downside. But you lose more in the 'up' years than you save in the 'down' year."
+    "explanation": "If you are always pessimistic, you will eventually be right because the market has periodic 'tails' to the downside. But you lose more in the 'up' years than you save in the 'down' year.",
+    "difficulty": "hard"
   },
   {
     "question": "Progress is Quiet",
     "content": "Progress is rarely a headline because it is slow and cumulative. It's the 1% improvement in crop yields or the 0.5% decrease in cancer deaths each year. Pessimism is loud; optimism is a whisper.",
     "description": "How can an investor combat the 'loudness' of pessimism in the news?",
-    "options": ["By watching the news more frequently to find the good stories.", "By zooming out and looking at long-term charts of human progress rather than daily headlines.", "By only investing in companies that have a good PR department.", "By ignoring all data and hoping for the best."],
+    "options": [
+      "By watching the news more frequently to find the good stories.",
+      "By zooming out and looking at long-term charts of human progress rather than daily headlines.",
+      "By only investing in companies that have a good PR department.",
+      "By ignoring all data and hoping for the best."
+    ],
     "answer": "By zooming out and looking at long-term charts of human progress rather than daily headlines.",
-    "explanation": "When you look at history in decades rather than days, the 'loud' disasters become small blips on a long-term upward trend of progress."
+    "explanation": "When you look at history in decades rather than days, the 'loud' disasters become small blips on a long-term upward trend of progress.",
+    "difficulty": "hard"
   },
   {
     "question": "The Ultimate Takeaway",
     "content": "Be a short-term pessimist (to survive) and a long-term optimist (to grow). This balance allows you to stay in the game long enough to benefit from the quiet, compounding nature of progress.",
     "description": "What is the most 'psychologically' profitable mindset for a long-term investor?",
-    "options": ["Pure pessimism to avoid all losses.", "Pure optimism to never worry about anything.", "Expecting the world to be a mess in the short term, but believing it will be better in the long term.", "Cynicism about everything."],
+    "options": [
+      "Pure pessimism to avoid all losses.",
+      "Pure optimism to never worry about anything.",
+      "Expecting the world to be a mess in the short term, but believing it will be better in the long term.",
+      "Cynicism about everything."
+    ],
     "answer": "Expecting the world to be a mess in the short term, but believing it will be better in the long term.",
-    "explanation": "This 'barbell' mindset gives you the paranoia to save for emergencies and the confidence to keep your investments growing for the long haul."
+    "explanation": "This 'barbell' mindset gives you the paranoia to save for emergencies and the confidence to keep your investments growing for the long haul.",
+    "difficulty": "hard"
   }
 ]

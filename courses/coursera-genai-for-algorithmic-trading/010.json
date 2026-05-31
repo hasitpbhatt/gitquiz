@@ -10,7 +10,8 @@
       "Ask the AI to stop monitoring banking news to reduce 'false alarms'."
     ],
     "answer": "Reduce position sizes or buy out-of-the-money put options to hedge against a potential systemic shock.",
-    "explanation": "Linguistic shifts often precede price action. Identifying a surge in 'distress' language allows you to protect your capital before the market prices in the crisis and hedges become expensive."
+    "explanation": "Linguistic shifts often precede price action. Identifying a surge in 'distress' language allows you to protect your capital before the market prices in the crisis and hedges become expensive.",
+    "difficulty": "medium"
   },
   {
     "question": "Market Stress Indicators and GenAI",
@@ -23,7 +24,8 @@
       "It suggests you should buy more speculative growth stocks."
     ],
     "answer": "It suggests a 'coiled spring' effect where the market is vulnerable to a sharp, unexpected downturn.",
-    "explanation": "When sentiment is poor but volatility is low, the market is often 'complacent.' GenAI helps you see the underlying fragility that traditional volatility metrics might miss."
+    "explanation": "When sentiment is poor but volatility is low, the market is often 'complacent.' GenAI helps you see the underlying fragility that traditional volatility metrics might miss.",
+    "difficulty": "medium"
   },
   {
     "question": "Stop-Loss and Drawdown Protection",
@@ -36,7 +38,8 @@
       "Ask the AI to find a new reason to stay in the trade."
     ],
     "answer": "Exit the position immediately based on 'Narrative Failure' because the thesis for the trade is no longer valid.",
-    "explanation": "Narrative-based exits allow you to leave a trade the moment the fundamental logic breaks, often saving you from the 'slippage' and panic selling that occurs when the rest of the market catches up."
+    "explanation": "Narrative-based exits allow you to leave a trade the moment the fundamental logic breaks, often saving you from the 'slippage' and panic selling that occurs when the rest of the market catches up.",
+    "difficulty": "medium"
   },
   {
     "question": "Detecting 'Greenwashing' and ESG Risk",
@@ -49,7 +52,8 @@
       "As a 'Buy' because the company is good at marketing."
     ],
     "answer": "As a high-risk asset due to potential regulatory 'crackdown' and reputational damage.",
-    "explanation": "Inconsistencies between corporate 'narrative' and 'reality' are a major red flag. GenAI is uniquely capable of cross-referencing thousands of sources to find these hidden risks."
+    "explanation": "Inconsistencies between corporate 'narrative' and 'reality' are a major red flag. GenAI is uniquely capable of cross-referencing thousands of sources to find these hidden risks.",
+    "difficulty": "medium"
   },
   {
     "question": "Adversarial Attacks on AI Trading",
@@ -62,7 +66,8 @@
       "Ignore the news and buy more to fight the 'fake news'."
     ],
     "answer": "Cross-verify the news against a 'whitelist' of trusted sources (Bloomberg, Reuters, SEC filings) before allowing the trade.",
-    "explanation": "Source verification is a critical layer of defense. Without it, your AI-driven strategy is vulnerable to 'market manipulation' from automated bots spreading misinformation."
+    "explanation": "Source verification is a critical layer of defense. Without it, your AI-driven strategy is vulnerable to 'market manipulation' from automated bots spreading misinformation.",
+    "difficulty": "hard"
   },
   {
     "question": "Ethical Considerations: 'Flash Crashes'",
@@ -75,7 +80,8 @@
       "Because the AI is likely to be happier if it doesn't sell."
     ],
     "answer": "To prevent your bot from selling at the absolute bottom of a 'liquidity vacuum' created by other AI bots.",
-    "explanation": "During flash crashes, 'uninformed' selling by thousands of bots creates temporary price distortions. A risk-managed bot recognizes 'over-crowded' signals and avoids selling into a panic."
+    "explanation": "During flash crashes, 'uninformed' selling by thousands of bots creates temporary price distortions. A risk-managed bot recognizes 'over-crowded' signals and avoids selling into a panic.",
+    "difficulty": "hard"
   },
   {
     "question": "Model Interpretability for Compliance",
@@ -88,7 +94,8 @@
       "Argue that the AI is its own legal entity."
     ],
     "answer": "Produce the AI's logs showing it identified 'unusual executive behavior' from public earnings call transcripts two weeks prior.",
-    "explanation": "Transparency is your best defense. Being able to show a logical, data-driven 'audit trail' proves that the trade was based on public data and AI analysis rather than illegal information."
+    "explanation": "Transparency is your best defense. Being able to show a logical, data-driven 'audit trail' proves that the trade was based on public data and AI analysis rather than illegal information.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Hallucination' Risk in Risk Management",
@@ -101,7 +108,8 @@
       "By only trading in small amounts of cash."
     ],
     "answer": "By using an ensemble of multiple LLMs and requiring a 'consensus' before taking extreme actions.",
-    "explanation": "Consensus-based systems reduce the 'Single Point of Failure.' If one model hallucinates a bizarre risk, the other models act as a 'sanity check' to prevent irrational trades."
+    "explanation": "Consensus-based systems reduce the 'Single Point of Failure.' If one model hallucinates a bizarre risk, the other models act as a 'sanity check' to prevent irrational trades.",
+    "difficulty": "hard"
   },
   {
     "question": "Dynamic Position Sizing",
@@ -114,7 +122,8 @@
       "Stop trading and wait for the AI to become 1.0 certain."
     ],
     "answer": "Automatically scale down the position size to reflect the higher 'information risk' in the market.",
-    "explanation": "Risk is a function of uncertainty. When the AI signals that the data is 'noisy' or 'contradictory,' the most logical risk-management move is to lower your exposure until clarity returns."
+    "explanation": "Risk is a function of uncertainty. When the AI signals that the data is 'noisy' or 'contradictory,' the most logical risk-management move is to lower your exposure until clarity returns.",
+    "difficulty": "hard"
   },
   {
     "question": "Operational Risk: API Failures",
@@ -127,6 +136,7 @@
       "Delete the positions and the bot."
     ],
     "answer": "Immediately switch to a hard-coded 'Trailing Stop-Loss' or move to cash to ensure the positions aren't left unmonitored.",
-    "explanation": "A 'Fail-Safe' ensures that you are never 'flying blind.' If the high-tech AI brain fails, the 'primitive' but reliable code brain takes over to protect the portfolio."
+    "explanation": "A 'Fail-Safe' ensures that you are never 'flying blind.' If the high-tech AI brain fails, the 'primitive' but reliable code brain takes over to protect the portfolio.",
+    "difficulty": "hard"
   }
 ]

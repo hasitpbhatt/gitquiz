@@ -10,7 +10,8 @@
       "The exact number of minutes each drill takes."
     ],
     "answer": "The hidden patterns of who the team naturally looks to for leadership during chaotic moments.",
-    "explanation": "The balcony view is about seeing high-level dynamics and social patterns. It helps you understand 'why' the team is struggling by observing who influences whom when things break down."
+    "explanation": "The balcony view is about seeing high-level dynamics and social patterns. It helps you understand 'why' the team is struggling by observing who influences whom when things break down.",
+    "difficulty": "easy"
   },
   {
     "question": "Distinguishing the 'Song'",
@@ -23,7 +24,8 @@
       "The company is in a state of productive disequilibrium."
     ],
     "answer": "The system is trying to force you back into its established 'song' or cultural norm.",
-    "explanation": "Systems are self-regulating and will try to neutralize anyone who challenges the status quo. Recognizing this 'pull' is a key balcony skill."
+    "explanation": "Systems are self-regulating and will try to neutralize anyone who challenges the status quo. Recognizing this 'pull' is a key balcony skill.",
+    "difficulty": "easy"
   },
   {
     "question": "Listening to the Silence",
@@ -36,7 +38,8 @@
       "The meeting is simply running out of time."
     ],
     "answer": "The topic is a 'sacred cow' or a source of fear that the system is avoiding.",
-    "explanation": "Avoidance is a classic sign of an adaptive challenge. The 'silence' identifies where the loss or fear is greatest within the group."
+    "explanation": "Avoidance is a classic sign of an adaptive challenge. The 'silence' identifies where the loss or fear is greatest within the group.",
+    "difficulty": "easy"
   },
   {
     "question": "Finding the 'Work Avoidance' Patterns",
@@ -49,7 +52,8 @@
       "Creative friction."
     ],
     "answer": "Work avoidance.",
-    "explanation": "Arguing over fonts is a technical distraction used to avoid the difficult, messy work of cultural integration. It’s an easy 'dance' to perform to avoid the 'hard' one."
+    "explanation": "Arguing over fonts is a technical distraction used to avoid the difficult, messy work of cultural integration. It’s an easy 'dance' to perform to avoid the 'hard' one.",
+    "difficulty": "easy"
   },
   {
     "question": "Observing the 'Authority Figure' Trap",
@@ -62,7 +66,8 @@
       "Increased the heat in the productive zone."
     ],
     "answer": "Fallen into the trap of taking the work away from the people.",
-    "explanation": "By providing the answer, you relieve the team of the 'work' of resolving their own conflict, which prevents them from developing the adaptive capacity they need."
+    "explanation": "By providing the answer, you relieve the team of the 'work' of resolving their own conflict, which prevents them from developing the adaptive capacity they need.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of the 'Canary in the Coal Mine'",
@@ -75,7 +80,8 @@
       "As an isolated incident unrelated to the group's dynamics."
     ],
     "answer": "As an indicator that the community group is putting pressure on its most sensitive members.",
-    "explanation": "Individual withdrawal is often a symptom of systemic stress. The 'canary' is reacting to the adaptive pressure that others might be successfully (but unhealthily) ignoring."
+    "explanation": "Individual withdrawal is often a symptom of systemic stress. The 'canary' is reacting to the adaptive pressure that others might be successfully (but unhealthily) ignoring.",
+    "difficulty": "easy"
   },
   {
     "question": "Managing Your Own 'Hungers'",
@@ -88,7 +94,8 @@
       "It will ensure that the technical problems are solved quickly."
     ],
     "answer": "It may cause you to solve problems for people instead of letting them learn to solve them.",
-    "explanation": "The hunger to be the hero is a technical fix for the leader’s ego but prevents the group from doing the adaptive work required for long-term growth."
+    "explanation": "The hunger to be the hero is a technical fix for the leader’s ego but prevents the group from doing the adaptive work required for long-term growth.",
+    "difficulty": "easy"
   },
   {
     "question": "Reading the 'Holding Environment'",
@@ -101,7 +108,8 @@
       "The technical infrastructure of the room is failing."
     ],
     "answer": "The holding environment is weak and the 'heat' is escaping.",
-    "explanation": "Distractions are a sign that the holding environment isn't contained. To do adaptive work, people must stay 'in the room' with the tension rather than escaping it."
+    "explanation": "Distractions are a sign that the holding environment isn't contained. To do adaptive work, people must stay 'in the room' with the tension rather than escaping it.",
+    "difficulty": "easy"
   },
   {
     "question": "Identifying Stakeholders' Stakes",
@@ -114,7 +122,8 @@
       "How many years of experience they have in finance."
     ],
     "answer": "What specific metric or sense of control they fear losing if the project proceeds.",
-    "explanation": "Resistance is rooted in loss. Identifying the specific 'stake' (like control over the budget or a predictable forecast) helps you address the root cause of the pushback."
+    "explanation": "Resistance is rooted in loss. Identifying the specific 'stake' (like control over the budget or a predictable forecast) helps you address the root cause of the pushback.",
+    "difficulty": "easy"
   },
   {
     "question": "The Action of 'Intervening'",
@@ -127,6 +136,7 @@
       "A way to exert authority."
     ],
     "answer": "An adaptive intervention.",
-    "explanation": "This is an intervention because it 'interrupts' the work avoidance and forces the group to face the difficult reality you observed from the balcony."
+    "explanation": "This is an intervention because it 'interrupts' the work avoidance and forces the group to face the difficult reality you observed from the balcony.",
+    "difficulty": "medium"
   }
 ]

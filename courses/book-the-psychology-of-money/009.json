@@ -3,80 +3,140 @@
     "question": "The Definition of Wealth",
     "content": "Wealth is the money that hasn't been spent. It is the cars not purchased, the diamonds not bought, and the first-class upgrades declined. Wealth is an option not yet exercised to buy something later.",
     "description": "Someone sees a neighbor driving a brand new $80,000 truck and says, 'Wow, that guy is wealthy.' Based on Housel's definition, why is this statement potentially incorrect?",
-    "options": ["Because the truck might be a hybrid and save on gas.", "Because all we know for sure is that he has $80,000 less than he had before he bought the truck.", "Because trucks are not considered luxury items.", "Because wealth can only be measured by the size of one's home."],
+    "options": [
+      "Because the truck might be a hybrid and save on gas.",
+      "Because all we know for sure is that he has $80,000 less than he had before he bought the truck.",
+      "Because trucks are not considered luxury items.",
+      "Because wealth can only be measured by the size of one's home."
+    ],
     "answer": "Because all we know for sure is that he has $80,000 less than he had before he bought the truck.",
-    "explanation": "We often confuse 'rich' (current income being spent) with 'wealth' (unspent income). Spending $80,000 is the opposite of being wealthy; it is the act of diminishing wealth."
+    "explanation": "We often confuse 'rich' (current income being spent) with 'wealth' (unspent income). Spending $80,000 is the opposite of being wealthy; it is the act of diminishing wealth.",
+    "difficulty": "easy"
   },
   {
     "question": "Rich vs. Wealthy",
     "content": "Rich is a current income. It is easy to spot because people go out of their way to make it known. Wealth is hidden; it is the financial assets that have not yet been converted into the stuff you see.",
     "description": "Which of these individuals best exemplifies being 'wealthy' rather than just 'rich'?",
-    "options": ["A professional athlete who spends their entire signing bonus on a mansion.", "A CEO who earns $1 million a year and spends $1.1 million.", "A quiet millionaire who lives in a modest house and keeps their money in index funds.", "A social media influencer who rents private jets for photos."],
+    "options": [
+      "A professional athlete who spends their entire signing bonus on a mansion.",
+      "A CEO who earns $1 million a year and spends $1.1 million.",
+      "A quiet millionaire who lives in a modest house and keeps their money in index funds.",
+      "A social media influencer who rents private jets for photos."
+    ],
     "answer": "A quiet millionaire who lives in a modest house and keeps their money in index funds.",
-    "explanation": "Wealth is the 'invisible' portion of your balance sheet. It provides the freedom and options that the 'rich' person often sacrifices for consumption."
+    "explanation": "Wealth is the 'invisible' portion of your balance sheet. It provides the freedom and options that the 'rich' person often sacrifices for consumption.",
+    "difficulty": "easy"
   },
   {
     "question": "The Dieting Analogy",
     "content": "Wealth is like exercise and dieting. Exercise is like being rich; you did the work and people can see the results. Wealth is like turning down a delicious meal; it is the hidden discipline of what you *didn't* do.",
     "description": "Why is building wealth harder than 'getting rich' for most people?",
-    "options": ["Because wealth requires high-level math skills.", "Because it's hard to find motivation for a result that is, by definition, invisible to others.", "Because the government taxes wealth more than income.", "Because you have to be born into wealth to have it."],
+    "options": [
+      "Because wealth requires high-level math skills.",
+      "Because it's hard to find motivation for a result that is, by definition, invisible to others.",
+      "Because the government taxes wealth more than income.",
+      "Because you have to be born into wealth to have it."
+    ],
     "answer": "Because it's hard to find motivation for a result that is, by definition, invisible to others.",
-    "explanation": "It is human nature to want outward validation. Since wealth is what you don't see, it offers no immediate social 'reward,' making it harder to maintain the discipline."
+    "explanation": "It is human nature to want outward validation. Since wealth is what you don't see, it offers no immediate social 'reward,' making it harder to maintain the discipline.",
+    "difficulty": "easy"
   },
   {
     "question": "The Illusion of Success",
     "content": "We tend to judge financial success by what we see, because that's the only information we have. We see the house, the car, and the Instagram photos, but we don't see the bank statements or the debt.",
     "description": "How does judging success by outward appearances lead to poor financial decisions?",
-    "options": ["It encourages people to save more so they can eventually buy those things.", "It creates a false benchmark that makes people spend money they don't have to look like they are successful.", "It makes the stock market go down.", "It causes people to work too many hours at their jobs."],
+    "options": [
+      "It encourages people to save more so they can eventually buy those things.",
+      "It creates a false benchmark that makes people spend money they don't have to look like they are successful.",
+      "It makes the stock market go down.",
+      "It causes people to work too many hours at their jobs."
+    ],
     "answer": "It creates a false benchmark that makes people spend money they don't have to look like they are successful.",
-    "explanation": "If we define success as 'spending money,' we will never actually become wealthy, because becoming wealthy requires *not* spending the money we have."
+    "explanation": "If we define success as 'spending money,' we will never actually become wealthy, because becoming wealthy requires *not* spending the money we have.",
+    "difficulty": "easy"
   },
   {
     "question": "The Value of Optionality",
     "content": "The world is full of people who look modest but are actually wealthy, and people who look rich but are a paycheck away from ruin. The value of the former is 'optionality'—the ability to do what they want later.",
     "description": "What is the primary 'dividend' of hidden wealth?",
-    "options": ["The admiration of strangers who don't know you have money.", "The ability to buy a luxury car whenever you feel like it.", "Flexibility, control over your time, and a safety net for the future.", "A higher credit limit at the bank."],
+    "options": [
+      "The admiration of strangers who don't know you have money.",
+      "The ability to buy a luxury car whenever you feel like it.",
+      "Flexibility, control over your time, and a safety net for the future.",
+      "A higher credit limit at the bank."
+    ],
     "answer": "Flexibility, control over your time, and a safety net for the future.",
-    "explanation": "Wealth is essentially 'unspent' freedom. By not spending now, you are purchasing the right to make choices in the future."
+    "explanation": "Wealth is essentially 'unspent' freedom. By not spending now, you are purchasing the right to make choices in the future.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role Models We Choose",
     "content": "It is difficult to learn from wealth because wealth is hidden. It’s easy to find role models for 'spending,' but hard to find role models for 'saving' because you can't see the savings account.",
     "description": "What is a major obstacle to becoming wealthy in a consumer-driven society?",
-    "options": ["There aren't enough banks to hold everyone's money.", "The lack of visible 'wealthy' role models to imitate.", "The price of stocks is too high for the average person.", "People don't understand how to use credit cards."],
+    "options": [
+      "There aren't enough banks to hold everyone's money.",
+      "The lack of visible 'wealthy' role models to imitate.",
+      "The price of stocks is too high for the average person.",
+      "People don't understand how to use credit cards."
+    ],
     "answer": "The lack of visible 'wealthy' role models to imitate.",
-    "explanation": "Because we can't see wealth, we don't realize how common it is among people who live modest lives, so we default to imitating the 'rich' spenders instead."
+    "explanation": "Because we can't see wealth, we don't realize how common it is among people who live modest lives, so we default to imitating the 'rich' spenders instead.",
+    "difficulty": "medium"
   },
   {
     "question": "Wealth as a Shield",
     "content": "Spending money to show people how much money you have is the fastest way to have less money. Wealth is a shield against life’s inevitable surprises.",
     "description": "An individual chooses not to upgrade their phone every year, even though they can afford it. What are they building, according to Chapter 9?",
-    "options": ["A reputation for being cheap.", "Invisible wealth that provides a margin of safety.", "A tech-free lifestyle.", "Nothing, because the money is just sitting there losing value."],
+    "options": [
+      "A reputation for being cheap.",
+      "Invisible wealth that provides a margin of safety.",
+      "A tech-free lifestyle.",
+      "Nothing, because the money is just sitting there losing value."
+    ],
     "answer": "Invisible wealth that provides a margin of safety.",
-    "explanation": "Every dollar not spent on a depreciating asset (like a phone) is a dollar of wealth that can protect you during a job loss or emergency."
+    "explanation": "Every dollar not spent on a depreciating asset (like a phone) is a dollar of wealth that can protect you during a job loss or emergency.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Hidden' Millionaire",
     "content": "The 'Millionaire Next Door' concept is a classic example of Chapter 9. Many millionaires drive used cars and wear ordinary clothes, which is precisely *why* they are millionaires.",
     "description": "Why does Housel argue that 'spending is the opposite of being wealthy'?",
-    "options": ["Because spending makes you happy, and wealth is about being disciplined.", "Because wealth is defined by what is kept, and spending is the act of giving money away.", "Because rich people don't pay for things; they get them for free.", "Because spending money is illegal for millionaires."],
+    "options": [
+      "Because spending makes you happy, and wealth is about being disciplined.",
+      "Because wealth is defined by what is kept, and spending is the act of giving money away.",
+      "Because rich people don't pay for things; they get them for free.",
+      "Because spending money is illegal for millionaires."
+    ],
     "answer": "Because wealth is defined by what is kept, and spending is the act of giving money away.",
-    "explanation": "Wealth is the accumulation of capital. Every time you spend, you are converting potential wealth into current consumption."
+    "explanation": "Wealth is the accumulation of capital. Every time you spend, you are converting potential wealth into current consumption.",
+    "difficulty": "medium"
   },
   {
     "question": "The Future You",
     "content": "Wealth is a transfer of consumption from the present to the future. It is a gift you give to your 'Future Self' so they have more options than you do now.",
     "description": "How should you view a $1,000 balance in your savings account that you are tempted to spend on a vacation?",
-    "options": ["As $1,000 worth of fun that you are missing out on.", "As a down payment on a car you'll need in three years.", "As a 'ticket' to freedom that your future self can use for an emergency or opportunity.", "As money that belongs to the bank until you spend it."],
+    "options": [
+      "As $1,000 worth of fun that you are missing out on.",
+      "As a down payment on a car you'll need in three years.",
+      "As a 'ticket' to freedom that your future self can use for an emergency or opportunity.",
+      "As money that belongs to the bank until you spend it."
+    ],
     "answer": "As a 'ticket' to freedom that your future self can use for an emergency or opportunity.",
-    "explanation": "Viewing wealth as 'future options' helps combat the urge to spend for immediate gratification."
+    "explanation": "Viewing wealth as 'future options' helps combat the urge to spend for immediate gratification.",
+    "difficulty": "medium"
   },
   {
     "question": "The Social Pressure of Richness",
     "content": "Modern culture celebrates richness (spending) because it fuels the economy and makes for good entertainment. Wealth (saving) is quiet and boring, so it rarely gets the spotlight.",
     "description": "In the context of this chapter, what is the best way to ensure you actually become wealthy?",
-    "options": ["Work as many hours as possible to increase your 'richness'.", "Ignore social cues about what 'success' looks like and focus on your net worth.", "Follow the investment advice of famous celebrities.", "Buy the most expensive house in a growing neighborhood."],
+    "options": [
+      "Work as many hours as possible to increase your 'richness'.",
+      "Ignore social cues about what 'success' looks like and focus on your net worth.",
+      "Follow the investment advice of famous celebrities.",
+      "Buy the most expensive house in a growing neighborhood."
+    ],
     "answer": "Ignore social cues about what 'success' looks like and focus on your net worth.",
-    "explanation": "To build wealth, you must be comfortable with the fact that your success will be invisible to most people. You must prioritize your balance sheet over your image."
+    "explanation": "To build wealth, you must be comfortable with the fact that your success will be invisible to most people. You must prioritize your balance sheet over your image.",
+    "difficulty": "medium"
   }
 ]

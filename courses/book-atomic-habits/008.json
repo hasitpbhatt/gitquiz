@@ -10,7 +10,8 @@
       "Habit tracking"
     ],
     "answer": "Motion (planning without executing)",
-    "explanation": "Motion includes strategies and planning that feel like progress but do not produce the desired outcome. Action is the behavior that actually moves you toward your goal."
+    "explanation": "Motion includes strategies and planning that feel like progress but do not produce the desired outcome. Action is the behavior that actually moves you toward your goal.",
+    "difficulty": "easy"
   },
   {
     "question": "Reducing Friction",
@@ -23,7 +24,8 @@
       "Promise a reward after 30 days of flossing"
     ],
     "answer": "Keep floss picks in the shower so flossing happens automatically during the routine",
-    "explanation": "By placing the floss in the path of an existing routine (showering), friction drops to near zero. The behavior happens by default rather than requiring a separate decision."
+    "explanation": "By placing the floss in the path of an existing routine (showering), friction drops to near zero. The behavior happens by default rather than requiring a separate decision.",
+    "difficulty": "medium"
   },
   {
     "question": "Commitment Devices",
@@ -36,7 +38,8 @@
       "The Premack Principle"
     ],
     "answer": "A commitment device",
-    "explanation": "A commitment device uses automation to remove the future choice. By moving the money before it can be spent, the person locks in good behavior and prevents the bad option."
+    "explanation": "A commitment device uses automation to remove the future choice. By moving the money before it can be spent, the person locks in good behavior and prevents the bad option.",
+    "difficulty": "medium"
   },
   {
     "question": "Strategic One-Time Actions",
@@ -49,7 +52,8 @@
       "Writing a meal plan every Sunday"
     ],
     "answer": "Subscribing to a weekly meal delivery service",
-    "explanation": "A meal subscription is a one-time decision that eliminates daily choices about what to eat. It automates the healthy eating habit through a single action."
+    "explanation": "A meal subscription is a one-time decision that eliminates daily choices about what to eat. It automates the healthy eating habit through a single action.",
+    "difficulty": "medium"
   },
   {
     "question": "Automation and Technology",
@@ -62,7 +66,8 @@
       "Wait until a bonus comes to invest a lump sum"
     ],
     "answer": "Set up an automatic payroll deduction that invests a percentage of each paycheck",
-    "explanation": "Automation removes all friction and decision-making. The investment happens before the money even reaches the bank account, making the habit inevitable."
+    "explanation": "Automation removes all friction and decision-making. The investment happens before the money even reaches the bank account, making the habit inevitable.",
+    "difficulty": "medium"
   },
   {
     "question": "The Two-Minute Rule",
@@ -75,7 +80,8 @@
       "Skip meditation and try yoga instead"
     ],
     "answer": "Start by meditating for just one breath, or two minutes max",
-    "explanation": "The Two-Minute Rule makes the habit so easy it requires almost no motivation to start. Once started, it is easier to continue beyond two minutes."
+    "explanation": "The Two-Minute Rule makes the habit so easy it requires almost no motivation to start. Once started, it is easier to continue beyond two minutes.",
+    "difficulty": "medium"
   },
   {
     "question": "Inverting the 3rd Law for Bad Habits",
@@ -88,7 +94,8 @@
       "More invisible"
     ],
     "answer": "More difficult, applying the inversion of the 3rd Law",
-    "explanation": "By adding friction to the bad habit, the inversion of the 3rd Law (Make it Difficult) makes the behavior less likely to occur. The effort required breaks the autopilot loop."
+    "explanation": "By adding friction to the bad habit, the inversion of the 3rd Law (Make it Difficult) makes the behavior less likely to occur. The effort required breaks the autopilot loop.",
+    "difficulty": "medium"
   },
   {
     "question": "Choice Architecture",
@@ -101,7 +108,8 @@
       "Habit tracking"
     ],
     "answer": "Choice architecture",
-    "explanation": "Choice architecture arranges options so the desired behavior is the easiest and most obvious choice. The arrangement itself drives behavior without requiring willpower."
+    "explanation": "Choice architecture arranges options so the desired behavior is the easiest and most obvious choice. The arrangement itself drives behavior without requiring willpower.",
+    "difficulty": "hard"
   },
   {
     "question": "The Path of Least Resistance",
@@ -114,7 +122,8 @@
       "Reading, because it is more educational"
     ],
     "answer": "Watching TV, because the remote is more accessible than the books",
-    "explanation": "The path of least resistance is defined by the environment. When TV is one step away and books require effort to reach, the default behavior is TV. Redesign the environment to flip this."
+    "explanation": "The path of least resistance is defined by the environment. When TV is one step away and books require effort to reach, the default behavior is TV. Redesign the environment to flip this.",
+    "difficulty": "hard"
   },
   {
     "question": "Decisive Moments",
@@ -127,6 +136,7 @@
       "The Premack Principle"
     ],
     "answer": "A decisive moment that shapes the rest of the evening",
-    "explanation": "Decisive moments are small choices that set the direction for subsequent behavior. Optimizing these moments has an outsized impact on habit outcomes."
+    "explanation": "Decisive moments are small choices that set the direction for subsequent behavior. Optimizing these moments has an outsized impact on habit outcomes.",
+    "difficulty": "hard"
   }
 ]

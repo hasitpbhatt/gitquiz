@@ -10,7 +10,8 @@
       "Staying in the same role for five years to prove your loyalty"
     ],
     "answer": "Being invited to lead a high-stakes, experimental project that puts you in direct contact with the CEO",
-    "explanation": "Breakout opportunities have 'exponential' potential. Leading a high-visibility project can lead to connections and roles that a decade of steady climbing might not achieve."
+    "explanation": "Breakout opportunities have 'exponential' potential. Leading a high-visibility project can lead to connections and roles that a decade of steady climbing might not achieve.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of Curiosity",
@@ -23,7 +24,8 @@
       "Wait for a gardening expert to show up and tell you what it is"
     ],
     "answer": "Spend a weekend researching it and asking a local botanist to identify the species",
-    "explanation": "Curiosity often leads to 'hidden' opportunities. Solving a problem others couldn't can build your reputation and expertise in unexpected ways."
+    "explanation": "Curiosity often leads to 'hidden' opportunities. Solving a problem others couldn't can build your reputation and expertise in unexpected ways.",
+    "difficulty": "easy"
   },
   {
     "question": "Positioning Yourself in 'The Flow'",
@@ -36,7 +38,8 @@
       "Watching documentaries about famous ceramicists"
     ],
     "answer": "Attending local pottery studio open houses and engaging with artists on Instagram",
-    "explanation": "Opportunities are social. By being present where industry professionals gather and talk, you increase the chances of 'bumping into' a breakout lead."
+    "explanation": "Opportunities are social. By being present where industry professionals gather and talk, you increase the chances of 'bumping into' a breakout lead.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Luck Surface Area'",
@@ -49,7 +52,8 @@
       "Spending all their time reading other people's writing"
     ],
     "answer": "Writing consistently on a public blog and sharing insights on social media",
-    "explanation": "By creating (Doing) and sharing (Outreach), the writer makes it easier for potential clients or collaborators to discover their work and offer opportunities."
+    "explanation": "By creating (Doing) and sharing (Outreach), the writer makes it easier for potential clients or collaborators to discover their work and offer opportunities.",
+    "difficulty": "medium"
   },
   {
     "question": "Saying 'Yes' to the Unknown",
@@ -62,7 +66,8 @@
       "Go, but spend the whole time talking about your own problems"
     ],
     "answer": "Go to the meeting with an open mind, as this could be a 'black swan' opportunity",
-    "explanation": "Breakout opportunities often start with casual conversations. Saying 'yes' to small, low-cost interactions keeps the door open for big wins."
+    "explanation": "Breakout opportunities often start with casual conversations. Saying 'yes' to small, low-cost interactions keeps the door open for big wins.",
+    "difficulty": "medium"
   },
   {
     "question": "The Power of Side Projects",
@@ -75,7 +80,8 @@
       "It isn't; resumes are always the most important factor"
     ],
     "answer": "Because it provides 'proof of work' and demonstrates initiative and passion",
-    "explanation": "A project is a living example of your capabilities. It attracts people who are interested in the specific value you can create."
+    "explanation": "A project is a living example of your capabilities. It attracts people who are interested in the specific value you can create.",
+    "difficulty": "medium"
   },
   {
     "question": "Opportunities are People",
@@ -88,7 +94,8 @@
       "Writing a book about public speaking"
     ],
     "answer": "Building relationships with the organizers and past speakers of those conferences",
-    "explanation": "Since people control the 'gateways' to opportunities, your best strategy is to connect with the individuals who make the decisions."
+    "explanation": "Since people control the 'gateways' to opportunities, your best strategy is to connect with the individuals who make the decisions.",
+    "difficulty": "medium"
   },
   {
     "question": "The Concept of 'Soft' Opportunities",
@@ -101,7 +108,8 @@
       "Only if the garden pays for your time"
     ],
     "answer": "Yes, because the garden leader could become a mentor or connect you to the local food community",
-    "explanation": "Soft opportunities build your 'assets' (connections and knowledge), which eventually lead to 'hard' opportunities like jobs or deals."
+    "explanation": "Soft opportunities build your 'assets' (connections and knowledge), which eventually lead to 'hard' opportunities like jobs or deals.",
+    "difficulty": "medium"
   },
   {
     "question": "Evaluating Opportunity Upside",
@@ -114,7 +122,8 @@
       "A project that requires 80 hours a week for a very small promotion"
     ],
     "answer": "A project with a small stipend that allows you to work with the top expert in a burgeoning field",
-    "explanation": "The 'upside' here is the connection to an expert and a new field, which could lead to massive future growth, whereas the other options have capped or low potential."
+    "explanation": "The 'upside' here is the connection to an expert and a new field, which could lead to massive future growth, whereas the other options have capped or low potential.",
+    "difficulty": "medium"
   },
   {
     "question": "The Risk of Being 'Too Busy'",
@@ -127,6 +136,7 @@
       "By only checking email once a month"
     ],
     "answer": "By deliberately leaving 10-20% of their week open for unplanned meetings and exploration",
-    "explanation": "Creating 'slack' allows you to be responsive. Without it, you are too 'locked in' to Plan A to even notice when a Plan B or a breakout lead appears."
+    "explanation": "Creating 'slack' allows you to be responsive. Without it, you are too 'locked in' to Plan A to even notice when a Plan B or a breakout lead appears.",
+    "difficulty": "medium"
   }
 ]

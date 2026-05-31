@@ -10,7 +10,8 @@
       "Because the government only regulates groups over 10,000"
     ],
     "answer": "Because the average outcome becomes more predictable and less volatile",
-    "explanation": "With a large sample size, individual variations (outliers) cancel each other out, making the total cost of claims highly predictable according to the Law of Large Numbers."
+    "explanation": "With a large sample size, individual variations (outliers) cancel each other out, making the total cost of claims highly predictable according to the Law of Large Numbers.",
+    "difficulty": "easy"
   },
   {
     "question": "Moral Hazard",
@@ -23,7 +24,8 @@
       "Risk Aversion"
     ],
     "answer": "Moral Hazard",
-    "explanation": "Because the driver no longer faces the financial consequence of theft, their behavior changes for the worse. This is why most policies include deductibles—to keep the 'skin in the game'."
+    "explanation": "Because the driver no longer faces the financial consequence of theft, their behavior changes for the worse. This is why most policies include deductibles—to keep the 'skin in the game'.",
+    "difficulty": "easy"
   },
   {
     "question": "Adverse Selection",
@@ -36,7 +38,8 @@
       "Financial advisors looking for tax breaks"
     ],
     "answer": "Individuals with chronic, high-risk health conditions",
-    "explanation": "Those who know they are high-risk have a greater incentive to buy insurance at a flat rate. If the company cannot distinguish between high and low risk, they will suffer from adverse selection."
+    "explanation": "Those who know they are high-risk have a greater incentive to buy insurance at a flat rate. If the company cannot distinguish between high and low risk, they will suffer from adverse selection.",
+    "difficulty": "easy"
   },
   {
     "question": "Pooling and Independent Risks",
@@ -49,7 +52,8 @@
       "There are more bicycles in the world than soldiers"
     ],
     "answer": "Bicycle thefts are independent events, while war affects everyone simultaneously",
-    "explanation": "Insurance relies on the fact that only a small percentage of people claim at once. A war is a 'correlated risk' where everyone claims simultaneously, which breaks the pooling model."
+    "explanation": "Insurance relies on the fact that only a small percentage of people claim at once. A war is a 'correlated risk' where everyone claims simultaneously, which breaks the pooling model.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of Deductibles",
@@ -62,7 +66,8 @@
       "The deductible has no impact on the monthly premium"
     ],
     "answer": "Plan B will have a lower monthly premium",
-    "explanation": "By accepting a higher deductible (Plan B), you are taking on more of the risk yourself. In exchange, the insurance company charges you a lower monthly premium."
+    "explanation": "By accepting a higher deductible (Plan B), you are taking on more of the risk yourself. In exchange, the insurance company charges you a lower monthly premium.",
+    "difficulty": "easy"
   },
   {
     "question": "Risk Aversion",
@@ -75,7 +80,8 @@
       "They are 'Risk Indifferent'"
     ],
     "answer": "They are 'Risk Averse'",
-    "explanation": "A risk-averse person values the pain of losing $100 more than the joy of winning $100. This preference drives people to pay for insurance to avoid volatility."
+    "explanation": "A risk-averse person values the pain of losing $100 more than the joy of winning $100. This preference drives people to pay for insurance to avoid volatility.",
+    "difficulty": "easy"
   },
   {
     "question": "Social Security as Insurance",
@@ -88,7 +94,8 @@
       "They are destroyed to prevent inflation"
     ],
     "answer": "They are pooled to provide benefits based on collective societal needs",
-    "explanation": "Social insurance functions by pooling contributions from the working population to support those currently in need (the retired or disabled), spreading the risk of poverty across the entire population."
+    "explanation": "Social insurance functions by pooling contributions from the working population to support those currently in need (the retired or disabled), spreading the risk of poverty across the entire population.",
+    "difficulty": "easy"
   },
   {
     "question": "Actuarial Science",
@@ -101,7 +108,8 @@
       "The Sales Agent"
     ],
     "answer": "The Actuary",
-    "explanation": "Actuaries are the statistical architects of finance. They analyze data trends to determine the appropriate premiums that cover future claims while keeping the company solvent."
+    "explanation": "Actuaries are the statistical architects of finance. They analyze data trends to determine the appropriate premiums that cover future claims while keeping the company solvent.",
+    "difficulty": "easy"
   },
   {
     "question": "Reinsurance",
@@ -114,7 +122,8 @@
       "Lower their premiums to get more customers"
     ],
     "answer": "Increase their own insurance by purchasing reinsurance",
-    "explanation": "Reinsurance allows local companies to pass on some of their 'peak risks' to global markets, ensuring that even in a catastrophe, the local company can honor its claims."
+    "explanation": "Reinsurance allows local companies to pass on some of their 'peak risks' to global markets, ensuring that even in a catastrophe, the local company can honor its claims.",
+    "difficulty": "easy"
   },
   {
     "question": "Underwriting",
@@ -127,6 +136,7 @@
       "Securitization"
     ],
     "answer": "Underwriting",
-    "explanation": "The company is performing underwriting. They are assessing your individual risk level based on your health and habits to determine if they should offer you a policy and how much to charge."
+    "explanation": "The company is performing underwriting. They are assessing your individual risk level based on your health and habits to determine if they should offer you a policy and how much to charge.",
+    "difficulty": "easy"
   }
 ]

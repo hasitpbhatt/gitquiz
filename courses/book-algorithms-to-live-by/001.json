@@ -10,7 +10,8 @@
       "Rent the 15th apartment you see regardless of quality"
     ],
     "answer": "Look at apartments for the first 11 days without committing, then rent the first place that is better than any you've seen so far",
-    "explanation": "37% of 30 days is approximately 11 days. During this look phase, you gather data about what constitutes a good apartment. After day 11, you commit to the first apartment that surpasses all previous options."
+    "explanation": "37% of 30 days is approximately 11 days. During this look phase, you gather data about what constitutes a good apartment. After day 11, you commit to the first apartment that surpasses all previous options.",
+    "difficulty": "easy"
   },
   {
     "question": "Look-Then-Leap Rule",
@@ -23,7 +24,8 @@
       "Marry after dating 10 people regardless of quality"
     ],
     "answer": "Date casually for 2 years, then marry the next person who is better than anyone you've dated so far",
-    "explanation": "With a 2-year look phase, you date without committing to establish what makes a good partner. After 2 years, you leap by committing to the first person who exceeds all previous partners in your estimation."
+    "explanation": "With a 2-year look phase, you date without committing to establish what makes a good partner. After 2 years, you leap by committing to the first person who exceeds all previous partners in your estimation.",
+    "difficulty": "easy"
   },
   {
     "question": "Post-Leap Regret",
@@ -36,7 +38,8 @@
       "Because you didnt check references"
     ],
     "answer": "Because the optimal strategy only gives a 37% chance of selecting the absolute best option",
-    "explanation": "Even when following the optimal 37% Rule perfectly, you only have a 37% chance of choosing the very best option. This mathematical limitation means regret is possible even with optimal behavior."
+    "explanation": "Even when following the optimal 37% Rule perfectly, you only have a 37% chance of choosing the very best option. This mathematical limitation means regret is possible even with optimal behavior.",
+    "difficulty": "easy"
   },
   {
     "question": "Full Information vs. No Information",
@@ -49,7 +52,8 @@
       "Flip a coin to decide"
     ],
     "answer": "Set a minimum acceptable price threshold and accept the first offer that meets it",
-    "explanation": "With full information (knowing market values), you should use a threshold strategy: set your minimum acceptable price based on comparable sales and accept the first offer that meets or exceeds it."
+    "explanation": "With full information (knowing market values), you should use a threshold strategy: set your minimum acceptable price based on comparable sales and accept the first offer that meets or exceeds it.",
+    "difficulty": "easy"
   },
   {
     "question": "Finite Horizons",
@@ -62,7 +66,8 @@
       "Hire the first contractor available"
     ],
     "answer": "Be more selective early and less selective as the deadline approaches",
-    "explanation": "With a finite horizon (knowing you must hire by a certain date), you should be more selective early in the search and become less selective as the deadline approaches to avoid being left without options."
+    "explanation": "With a finite horizon (knowing you must hire by a certain date), you should be more selective early in the search and become less selective as the deadline approaches to avoid being left without options.",
+    "difficulty": "easy"
   },
   {
     "question": "No-Recall Constraints",
@@ -75,7 +80,8 @@
       "Because you have unlimited time to decide"
     ],
     "answer": "Because if you pass on it, you cannot return to buy it later (no-recall constraint)",
-    "explanation": "In no-recall scenarios like flea markets, once an item is purchased by someone else, it is gone forever. This creates pressure to act when you see something uniquely valuable."
+    "explanation": "In no-recall scenarios like flea markets, once an item is purchased by someone else, it is gone forever. This creates pressure to act when you see something uniquely valuable.",
+    "difficulty": "easy"
   },
   {
     "question": "End-of-Life Buffers",
@@ -88,7 +94,8 @@
       "They should flip a coin to decide"
     ],
     "answer": "They should stick with current treatment because they have less time to recover from risks",
-    "explanation": "With limited remaining life, the potential downside of a risky new treatment (time spent recovering from side effects) represents a larger proportion of remaining life, making established treatments relatively more attractive."
+    "explanation": "With limited remaining life, the potential downside of a risky new treatment (time spent recovering from side effects) represents a larger proportion of remaining life, making established treatments relatively more attractive.",
+    "difficulty": "easy"
   },
   {
     "question": "\"The Typist's Dilemma\"",
@@ -101,6 +108,7 @@
       "Never stop editing until perfect"
     ],
     "answer": "When the time spent correcting errors exceeds the expected improvement in quality",
-    "explanation": "Optimal stopping for editing means continuing to improve the document only as long as the expected benefit exceeds the cost. When additional editing yields diminishing returns, it is time to leap and declare the work finished."
+    "explanation": "Optimal stopping for editing means continuing to improve the document only as long as the expected benefit exceeds the cost. When additional editing yields diminishing returns, it is time to leap and declare the work finished.",
+    "difficulty": "easy"
   }
 ]

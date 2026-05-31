@@ -10,7 +10,8 @@
       "Why all bears should be white"
     ],
     "answer": "How biological adaptations embody environmental knowledge",
-    "explanation": "The polar bear's white fur isn't random - it's an adaptation that provides camouflage in snowy environments. This adaptation encodes knowledge about the bear's environment (snow = white background) that increases survival chances."
+    "explanation": "The polar bear's white fur isn't random - it's an adaptation that provides camouflage in snowy environments. This adaptation encodes knowledge about the bear's environment (snow = white background) that increases survival chances.",
+    "difficulty": "easy"
   },
   {
     "question": "Blind Variation and Selective Retention",
@@ -23,7 +24,8 @@
       "Why planning is always better than experimentation"
     ],
     "answer": "How blind variation plus selection creates adaptation",
-    "explanation": "Like throwing spaghetti to see what sticks, evolution creates random variations (mutations) and retains what works (natural selection). Neither process 'knows' the outcome in advance - adaptation emerges through this blind trial-and-error process."
+    "explanation": "Like throwing spaghetti to see what sticks, evolution creates random variations (mutations) and retains what works (natural selection). Neither process 'knows' the outcome in advance - adaptation emerges through this blind trial-and-error process.",
+    "difficulty": "easy"
   },
   {
     "question": "Genetic Knowledge",
@@ -36,7 +38,8 @@
       "Why reflexes don't exist"
     ],
     "answer": "How genetic knowledge encodes innate behaviors",
-    "explanation": "The ability to suckle is encoded in DNA as cause-effect information - not as understanding. This genetic knowledge enables survival behaviors without requiring comprehension, unlike human explanatory knowledge."
+    "explanation": "The ability to suckle is encoded in DNA as cause-effect information - not as understanding. This genetic knowledge enables survival behaviors without requiring comprehension, unlike human explanatory knowledge.",
+    "difficulty": "easy"
   },
   {
     "question": "Conjecture/Selection Analogy",
@@ -49,7 +52,8 @@
       "Why evidence comes before ideas"
     ],
     "answer": "How conjecture and refutation mirrors biological evolution",
-    "explanation": "In both processes: blind variation occurs (genetic mutations / scientific conjectures), followed by selection (natural selection / criticism and refutation). Survivors reproduce (pass on genes / gain acceptance), creating cumulative adaptation over time."
+    "explanation": "In both processes: blind variation occurs (genetic mutations / scientific conjectures), followed by selection (natural selection / criticism and refutation). Survivors reproduce (pass on genes / gain acceptance), creating cumulative adaptation over time.",
+    "difficulty": "easy"
   },
   {
     "question": "Slow vs. Fast Progress",
@@ -62,7 +66,8 @@
       "Why airplanes don't work"
     ],
     "answer": "How explanation-based knowledge creation is vastly faster",
-    "explanation": "Evolution took ~100 million years to refine flight adaptations. Humans went from first powered flight to jet aircraft in ~120 years - demonstrating how explanation, criticism, and cultural transmission accelerate knowledge creation enormously."
+    "explanation": "Evolution took ~100 million years to refine flight adaptations. Humans went from first powered flight to jet aircraft in ~120 years - demonstrating how explanation, criticism, and cultural transmission accelerate knowledge creation enormously.",
+    "difficulty": "medium"
   },
   {
     "question": "Adaptation as Knowledge",
@@ -75,7 +80,8 @@
       "Why all plants should be cacti"
     ],
     "answer": "How biological adaptations embody environmental problem-solving knowledge",
-    "explanation": "The cactus's water-storing adaptation isn't random - it encodes knowledge about surviving in arid environments (water scarcity) that directly increases survival and reproduction chances in desert conditions."
+    "explanation": "The cactus's water-storing adaptation isn't random - it encodes knowledge about surviving in arid environments (water scarcity) that directly increases survival and reproduction chances in desert conditions.",
+    "difficulty": "medium"
   },
   {
     "question": "Evolution of Human Creativity",
@@ -88,7 +94,8 @@
       "Why gestures are better than words"
     ],
     "answer": "How language accelerated cultural knowledge creation",
-    "explanation": "Before language, knowledge transfer was limited to imitation. Language enabled rapid, accurate sharing of explanations and ideas - allowing cultural evolution to vastly outpace the slow pace of genetic evolution through natural selection."
+    "explanation": "Before language, knowledge transfer was limited to imitation. Language enabled rapid, accurate sharing of explanations and ideas - allowing cultural evolution to vastly outpace the slow pace of genetic evolution through natural selection.",
+    "difficulty": "medium"
   },
   {
     "question": "Differences from Cultural Evolution",
@@ -101,7 +108,8 @@
       "Why all languages should be identical"
     ],
     "answer": "How cultural evolution differs from biological evolution",
-    "explanation": "Biological evolution relies on blind variation and slow selection. Cultural evolution allows deliberate variation (creating new ideas) and rapid selection through critique and adoption - enabling much faster knowledge accumulation."
+    "explanation": "Biological evolution relies on blind variation and slow selection. Cultural evolution allows deliberate variation (creating new ideas) and rapid selection through critique and adoption - enabling much faster knowledge accumulation.",
+    "difficulty": "medium"
   },
   {
     "question": "Why Evolution Doesn't Plan",
@@ -114,6 +122,7 @@
       "That evolution always produces perfect outcomes"
     ],
     "answer": "That evolution has no goals or foresight",
-    "explanation": "Evolution doesn't 'plan' giraffe necks to reach leaves. Longer necks arose through random variation and were selected because they conferred survival advantages - not because evolution 'goal-directed' the outcome."
+    "explanation": "Evolution doesn't 'plan' giraffe necks to reach leaves. Longer necks arose through random variation and were selected because they conferred survival advantages - not because evolution 'goal-directed' the outcome.",
+    "difficulty": "medium"
   }
 ]

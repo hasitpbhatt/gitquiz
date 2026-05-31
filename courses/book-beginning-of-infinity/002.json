@@ -10,7 +10,8 @@
       "Why we need authorities to tell us what to do"
     ],
     "answer": "That all humans are fallible and capable of error",
-    "explanation": "Even authoritative sources like GPS systems can be wrong. Fallibilism means recognizing that anyone - experts, authorities, ourselves - can be mistaken, so we must remain open to criticism and correction."
+    "explanation": "Even authoritative sources like GPS systems can be wrong. Fallibilism means recognizing that anyone - experts, authorities, ourselves - can be mistaken, so we must remain open to criticism and correction.",
+    "difficulty": "easy"
   },
   {
     "question": "Error-Correction / Criticism",
@@ -23,7 +24,8 @@
       "Why presentations should be perfect before sharing"
     ],
     "answer": "How criticism helps us correct errors and improve",
-    "explanation": "When others criticize our work, they often spot errors we missed. Responding with gratitude rather than defensiveness allows us to correct mistakes and improve - this is how knowledge grows through error correction."
+    "explanation": "When others criticize our work, they often spot errors we missed. Responding with gratitude rather than defensiveness allows us to correct mistakes and improve - this is how knowledge grows through error correction.",
+    "difficulty": "easy"
   },
   {
     "question": "Creative Conjectures",
@@ -36,7 +38,8 @@
       "The dangers of thinking outside the box"
     ],
     "answer": "How creative conjectures start the knowledge creation process",
-    "explanation": "The student made a conjecture (a better filing system) without complete evidence - this is how knowledge creation begins. The conjecture can then be tested, criticized, and refined through the conjecture-refutation cycle."
+    "explanation": "The student made a conjecture (a better filing system) without complete evidence - this is how knowledge creation begins. The conjecture can then be tested, criticized, and refined through the conjecture-refutation cycle.",
+    "difficulty": "easy"
   },
   {
     "question": "Solutions Create New Problems",
@@ -49,7 +52,8 @@
       "That communication technology was a mistake"
     ],
     "answer": "How solving problems creates new, higher-quality problems",
-    "explanation": "Social media solved the problem of instant global communication but introduced new challenges like misinformation spread. This is normal - each solution reveals higher-quality problems to tackle, driving unbounded progress."
+    "explanation": "Social media solved the problem of instant global communication but introduced new challenges like misinformation spread. This is normal - each solution reveals higher-quality problems to tackle, driving unbounded progress.",
+    "difficulty": "easy"
   },
   {
     "question": "Taboo on Explanation",
@@ -62,7 +66,8 @@
       "Why innovation comes from following orders precisely"
     ],
     "answer": "How taboos against explanation stifle innovation",
-    "explanation": "When questioning is punished, errors in policies go uncorrected. Without the ability to criticize and improve explanations, the organization cannot learn or adapt - leading to stagnation rather than innovation."
+    "explanation": "When questioning is punished, errors in policies go uncorrected. Without the ability to criticize and improve explanations, the organization cannot learn or adapt - leading to stagnation rather than innovation.",
+    "difficulty": "easy"
   },
   {
     "question": "Justificationism vs. Criticism",
@@ -75,7 +80,8 @@
       "The importance of being absolutely certain"
     ],
     "answer": "Justificationism (seeking proof) and criticism (seeking refutation)",
-    "explanation": "Seeking proof ('prove me wrong' implies it's already right) is justificationism - trying to show an idea cannot be refuted. Seeking refutation together is the critical approach - actively trying to find flaws to improve our understanding."
+    "explanation": "Seeking proof ('prove me wrong' implies it's already right) is justificationism - trying to show an idea cannot be refuted. Seeking refutation together is the critical approach - actively trying to find flaws to improve our understanding.",
+    "difficulty": "easy"
   },
   {
     "question": "Growth of Knowledge",
@@ -88,7 +94,8 @@
       "The importance of never making mistakes"
     ],
     "answer": "How knowledge grows through learning from errors",
-    "explanation": "Each cooking failure teaches about ingredient interactions, timing, temperatures - correcting mistaken beliefs. Knowledge isn't downloaded perfectly; it's built gradually by eliminating errors through criticism and testing."
+    "explanation": "Each cooking failure teaches about ingredient interactions, timing, temperatures - correcting mistaken beliefs. Knowledge isn't downloaded perfectly; it's built gradually by eliminating errors through criticism and testing.",
+    "difficulty": "easy"
   },
   {
     "question": "Imagination in Discovery",
@@ -101,7 +108,8 @@
       "Why we should only trust laboratory evidence"
     ],
     "answer": "How imagination enables scientific breakthroughs",
-    "explanation": "Einstein's imaginative thought experiment (chasing a light beam) helped him conceive special relativity - demonstrating how creative imagination forms the conjectures that drive scientific progress before experimental testing."
+    "explanation": "Einstein's imaginative thought experiment (chasing a light beam) helped him conceive special relativity - demonstrating how creative imagination forms the conjectures that drive scientific progress before experimental testing.",
+    "difficulty": "medium"
   },
   {
     "question": "Knowledge is Conjectural",
@@ -114,6 +122,7 @@
       "Why science cannot make progress"
     ],
     "answer": "How even strongly-held beliefs can be mistaken",
-    "explanation": "The geocentric model seemed obviously true based on daily observation - yet was completely wrong. This shows how fallibilism applies even to our most certain-seeming beliefs, which must remain open to refutation."
+    "explanation": "The geocentric model seemed obviously true based on daily observation - yet was completely wrong. This shows how fallibilism applies even to our most certain-seeming beliefs, which must remain open to refutation.",
+    "difficulty": "medium"
   }
 ]

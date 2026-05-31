@@ -10,7 +10,8 @@
       "Wait for someone to commission you before starting anything new"
     ],
     "answer": "Start planning your next project with a technique you have not tried yet",
-    "explanation": "Permanent Beta means you are always starting. Achieving a goal is simply a platform to begin the next phase of learning and growth."
+    "explanation": "Permanent Beta means you are always starting. Achieving a goal is simply a platform to begin the next phase of learning and growth.",
+    "difficulty": "easy"
   },
   {
     "question": "Why Finished is Risky",
@@ -23,7 +24,8 @@
       "They will be better protected from economic downturns"
     ],
     "answer": "They will become a 'fossil' whose skills no longer match the evolving needs of the company",
-    "explanation": "If you aren't growing, you are rotting. The 'finished' mindset ignores the fact that the world around you is constantly changing."
+    "explanation": "If you aren't growing, you are rotting. The 'finished' mindset ignores the fact that the world around you is constantly changing.",
+    "difficulty": "easy"
   },
   {
     "question": "Adaptability Over Stability",
@@ -36,7 +38,8 @@
       "Do exactly what you have always done to prove your loyalty"
     ],
     "answer": "Proactively research adjacent industries where your skills can be adapted to new technology",
-    "explanation": "Adaptability requires looking ahead and being willing to move before you are forced to move."
+    "explanation": "Adaptability requires looking ahead and being willing to move before you are forced to move.",
+    "difficulty": "easy"
   },
   {
     "question": "The Fallacy of the 10-Year Plan",
@@ -49,7 +52,8 @@
       "Follow the exact career path of a successful relative from 30 years ago"
     ],
     "answer": "Focus on gaining 'foundational' skills and exploring opportunities that exist right now",
-    "explanation": "Focusing on the present and near-future allows you to gather data and adjust your path as you learn more about yourself and the market."
+    "explanation": "Focusing on the present and near-future allows you to gather data and adjust your path as you learn more about yourself and the market.",
+    "difficulty": "easy"
   },
   {
     "question": "Investing in Yourself",
@@ -62,7 +66,8 @@
       "Spending it on an expensive dinner to network with people you already know"
     ],
     "answer": "Taking an intensive workshop on an emerging skill in your field",
-    "explanation": "R&D is about increasing your 'inventory' of skills and knowledge to stay competitive in the future."
+    "explanation": "R&D is about increasing your 'inventory' of skills and knowledge to stay competitive in the future.",
+    "difficulty": "easy"
   },
   {
     "question": "The Entrepreneurial Mindset",
@@ -75,7 +80,8 @@
       "Move out of the neighborhood because it clearly does not support community events"
     ],
     "answer": "Look for creative, low-cost alternatives like local sponsors and volunteer-run activities",
-    "explanation": "Entrepreneurs are resourceful. They focus on how to move forward with what they have rather than focusing on what they lack."
+    "explanation": "Entrepreneurs are resourceful. They focus on how to move forward with what they have rather than focusing on what they lack.",
+    "difficulty": "easy"
   },
   {
     "question": "Continuous Learning as a Habit",
@@ -88,7 +94,8 @@
       "Taking a nap during your lunch break to stay refreshed"
     ],
     "answer": "Spending 30 minutes reading industry news or a non-fiction book related to your field",
-    "explanation": "Continuous learning requires intentional time set aside to ingest new information outside of your immediate daily tasks."
+    "explanation": "Continuous learning requires intentional time set aside to ingest new information outside of your immediate daily tasks.",
+    "difficulty": "easy"
   },
   {
     "question": "Feedback Loops",
@@ -101,7 +108,8 @@
       "Give up on cooking entirely and order takeout for every future party"
     ],
     "answer": "Ask your guests for honest feedback on what went wrong and how to improve it",
-    "explanation": "Getting direct feedback allows you to make precise adjustments, which is the core of the 'beta' testing phase."
+    "explanation": "Getting direct feedback allows you to make precise adjustments, which is the core of the 'beta' testing phase.",
+    "difficulty": "easy"
   },
   {
     "question": "Ownership of Career",
@@ -114,7 +122,8 @@
       "Assume that since the company doesn't offer it, the skill must not be important"
     ],
     "answer": "Find an online course or a mentor outside the company to teach you that skill on your own time",
-    "explanation": "Taking ownership means finding a way to get what you need for your growth, regardless of what your employer provides."
+    "explanation": "Taking ownership means finding a way to get what you need for your growth, regardless of what your employer provides.",
+    "difficulty": "easy"
   },
   {
     "question": "The Power of Small Experiments",
@@ -127,6 +136,7 @@
       "Ask your boss for a raise so you can afford design school later"
     ],
     "answer": "Design a logo for a friend’s small business on the weekend to see if you enjoy the work and the feedback process",
-    "explanation": "A small experiment provides real-world data with low risk, helping you decide if a larger 'pivot' is actually worth it."
+    "explanation": "A small experiment provides real-world data with low risk, helping you decide if a larger 'pivot' is actually worth it.",
+    "difficulty": "easy"
   }
 ]

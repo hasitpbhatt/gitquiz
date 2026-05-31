@@ -3,49 +3,85 @@
     "question": "The Rise of Robo-Advisors",
     "content": "Robo-advisors are digital platforms that provide automated, algorithm-driven financial planning services with little to no human supervision. They typically use Modern Portfolio Theory to automatically rebalance a user's portfolio, making professional investing accessible at a much lower cost.",
     "description": "A young professional wants to start investing but cannot afford the high fees of a traditional personal wealth manager. Which modern financial service is designed to solve this specific problem?",
-    "options": ["A Hedge Fund", "A Robo-Advisor", "A Central Bank Reserve", "A Private Equity Firm"],
+    "options": [
+      "A Hedge Fund",
+      "A Robo-Advisor",
+      "A Central Bank Reserve",
+      "A Private Equity Firm"
+    ],
     "answer": "A Robo-Advisor",
-    "explanation": "Robo-advisors use algorithms to manage diversified portfolios for a fraction of the cost of human advisors, lowering the barrier to entry for small-scale investors."
+    "explanation": "Robo-advisors use algorithms to manage diversified portfolios for a fraction of the cost of human advisors, lowering the barrier to entry for small-scale investors.",
+    "difficulty": "medium"
   },
   {
     "question": "Decentralized Finance (DeFi)",
     "content": "DeFi refers to a financial system built on blockchain technology that functions without traditional intermediaries like banks or brokerages. Instead, it uses 'smart contracts'—self-executing code—to handle lending, borrowing, and trading directly between users.",
     "description": "In a DeFi ecosystem, if you want to lend your digital assets to earn interest, who or what verifies the transaction and ensures you get paid back?",
-    "options": ["A bank manager at a central office", "The Federal Reserve", "An automated 'Smart Contract' on the blockchain", "A local government agency"],
+    "options": [
+      "A bank manager at a central office",
+      "The Federal Reserve",
+      "An automated 'Smart Contract' on the blockchain",
+      "A local government agency"
+    ],
     "answer": "An automated 'Smart Contract' on the blockchain",
-    "explanation": "DeFi replaces human-led institutions with code. Smart contracts automatically execute the terms of the agreement once specific conditions are met, removing the need for a middleman."
+    "explanation": "DeFi replaces human-led institutions with code. Smart contracts automatically execute the terms of the agreement once specific conditions are met, removing the need for a middleman.",
+    "difficulty": "medium"
   },
   {
     "question": "Central Bank Digital Currencies (CBDC)",
     "content": "A CBDC is a digital form of a country's sovereign currency issued and regulated by the central bank. Unlike cryptocurrencies, which are decentralized, CBDCs are centralized and act as a digital representation of the nation's physical 'fiat' money.",
     "description": "The government decides to replace physical paper bills with a digital version that you hold in a government-verified app. This asset is pegged 1:1 with the national currency. This is known as:",
-    "options": ["Bitcoin", "A Central Bank Digital Currency (CBDC)", "A Corporate Bond", "An Initial Coin Offering (ICO)"],
+    "options": [
+      "Bitcoin",
+      "A Central Bank Digital Currency (CBDC)",
+      "A Corporate Bond",
+      "An Initial Coin Offering (ICO)"
+    ],
     "answer": "A Central Bank Digital Currency (CBDC)",
-    "explanation": "CBDCs are official government-backed digital currencies. They aim to combine the convenience of digital payments with the stability and trust of a central bank."
+    "explanation": "CBDCs are official government-backed digital currencies. They aim to combine the convenience of digital payments with the stability and trust of a central bank.",
+    "difficulty": "medium"
   },
   {
     "question": "Peer-to-Peer (P2P) Lending",
     "content": "P2P lending platforms connect individual borrowers directly with individual lenders. By bypassing the traditional bank, borrowers can often get lower interest rates, and lenders (investors) can earn higher returns than they would in a savings account.",
     "description": "You have $500 you want to invest, and a person in another city needs $500 to consolidate their credit card debt. You use a website to lend them the money directly. What is this financial model called?",
-    "options": ["Fractional Reserve Banking", "Peer-to-Peer (P2P) Lending", "Securitization", "Quantitative Easing"],
+    "options": [
+      "Fractional Reserve Banking",
+      "Peer-to-Peer (P2P) Lending",
+      "Securitization",
+      "Quantitative Easing"
+    ],
     "answer": "Peer-to-Peer (P2P) Lending",
-    "explanation": "P2P lending removes the traditional 'bank' as the intermediary, allowing individuals to act as the lender and the borrower in a direct marketplace."
+    "explanation": "P2P lending removes the traditional 'bank' as the intermediary, allowing individuals to act as the lender and the borrower in a direct marketplace.",
+    "difficulty": "medium"
   },
   {
     "question": "Green Bonds and Sustainable Finance",
     "content": "Green bonds are fixed-income instruments specifically earmarked to raise money for climate and environmental projects. These bonds allow investors to support the 'green transition' while still earning a financial return.",
     "description": "A renewable energy company wants to build a massive offshore wind farm. They issue a bond where the proceeds can *only* be used for this environmental project. What is this specific bond called?",
-    "options": ["A Junk Bond", "A Green Bond", "A Zero-Coupon Bond", "A Municipal Bond"],
+    "options": [
+      "A Junk Bond",
+      "A Green Bond",
+      "A Zero-Coupon Bond",
+      "A Municipal Bond"
+    ],
     "answer": "A Green Bond",
-    "explanation": "Green bonds are a key tool in 'Sustainable Finance,' ensuring that capital is directed specifically toward projects that have a positive environmental impact."
+    "explanation": "Green bonds are a key tool in 'Sustainable Finance,' ensuring that capital is directed specifically toward projects that have a positive environmental impact.",
+    "difficulty": "medium"
   },
   {
     "question": "Algorithmic and High-Frequency Trading (HFT)",
     "content": "HFT is a type of algorithmic trading characterized by high speeds, high turnover rates, and high order-to-trade ratios. Computers execute thousands of orders in fractions of a second to profit from tiny price discrepancies.",
     "description": "A computer program detects that a stock is $10.0001 on one exchange and $10.0002 on another. It buys and sells 1 million shares in 0.001 seconds to capture the difference. This is an example of:",
-    "options": ["Value Investing", "High-Frequency Trading", "Fundamental Analysis", "Buy-and-Hold Strategy"],
+    "options": [
+      "Value Investing",
+      "High-Frequency Trading",
+      "Fundamental Analysis",
+      "Buy-and-Hold Strategy"
+    ],
     "answer": "High-Frequency Trading",
-    "explanation": "HFT relies on speed and complex algorithms rather than long-term value. It accounts for a significant portion of the daily volume in modern global markets."
+    "explanation": "HFT relies on speed and complex algorithms rather than long-term value. It accounts for a significant portion of the daily volume in modern global markets.",
+    "difficulty": "hard"
   },
   {
     "question": "Financial Inclusion and Mobile Banking",
@@ -58,15 +94,22 @@
       "It replaces the need for a national currency entirely"
     ],
     "answer": "It provides 'Financial Inclusion' to millions of people who were previously 'unbanked'",
-    "explanation": "By utilizing mobile networks, financial services can reach remote or impoverished areas where building traditional bank branches is too expensive, bringing people into the formal economy."
+    "explanation": "By utilizing mobile networks, financial services can reach remote or impoverished areas where building traditional bank branches is too expensive, bringing people into the formal economy.",
+    "difficulty": "hard"
   },
   {
     "question": "Open Banking",
     "content": "Open banking is a practice that provides third-party financial service providers open access to consumer banking, transaction, and other financial data through the use of APIs. This allows users to see all their accounts in one app and find better financial deals.",
     "description": "You use an app that connects to your three different bank accounts to show you your total spending habits in one chart. This technology is made possible by:",
-    "options": ["The Gold Standard", "Open Banking", "Insider Trading", "The Great Depression"],
+    "options": [
+      "The Gold Standard",
+      "Open Banking",
+      "Insider Trading",
+      "The Great Depression"
+    ],
     "answer": "Open Banking",
-    "explanation": "Open Banking requires banks to share data (with user consent) with other apps, promoting competition and helping consumers manage their money more holistically."
+    "explanation": "Open Banking requires banks to share data (with user consent) with other apps, promoting competition and helping consumers manage their money more holistically.",
+    "difficulty": "hard"
   },
   {
     "question": "Carbon Credits and Trading",
@@ -79,14 +122,21 @@
       "To replace the stock market"
     ],
     "answer": "To put a 'price' on carbon and incentivize companies to invest in cleaner technology",
-    "explanation": "Carbon markets use the profit motive to drive environmental change. By making pollution expensive and 'green' behavior profitable, the market helps allocate resources toward sustainability."
+    "explanation": "Carbon markets use the profit motive to drive environmental change. By making pollution expensive and 'green' behavior profitable, the market helps allocate resources toward sustainability.",
+    "difficulty": "hard"
   },
   {
     "question": "The Future of Risk: Cyber Insurance",
     "content": "As the world becomes more digital, the nature of risk is shifting from physical (fire/theft) to digital. Cyber insurance is a growing field that protects businesses against the financial losses of data breaches, ransomware, and system failures.",
     "description": "A major hospital's computers are locked by hackers who demand a ransom. The hospital has a policy that pays for the recovery costs and legal fees associated with this event. This is called:",
-    "options": ["Health Insurance", "Cyber Insurance", "Life Insurance", "Marine Insurance"],
+    "options": [
+      "Health Insurance",
+      "Cyber Insurance",
+      "Life Insurance",
+      "Marine Insurance"
+    ],
     "answer": "Cyber Insurance",
-    "explanation": "Cyber insurance is the newest frontier of risk management, reflecting how financial markets must evolve to cover the intangible risks of a software-driven global economy."
+    "explanation": "Cyber insurance is the newest frontier of risk management, reflecting how financial markets must evolve to cover the intangible risks of a software-driven global economy.",
+    "difficulty": "hard"
   }
 ]

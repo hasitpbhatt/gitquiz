@@ -10,7 +10,8 @@
       "Assume that since the crisis is over, you no longer need the balcony perspective."
     ],
     "answer": "Schedule non-negotiable 'Reflection Time' every morning to map out the system's current patterns.",
-    "explanation": "Adaptive leadership isn't just for crises. By institutionalizing a daily 'balcony' habit, you can spot the next challenge while it’s still small and manageable."
+    "explanation": "Adaptive leadership isn't just for crises. By institutionalizing a daily 'balcony' habit, you can spot the next challenge while it’s still small and manageable.",
+    "difficulty": "medium"
   },
   {
     "question": "Identifying 'Shadow Loyalties'",
@@ -23,7 +24,8 @@
       "A productive zone of disequilibrium."
     ],
     "answer": "A 'Shadow Loyalty' that is hindering your ability to do what is best for the organization.",
-    "explanation": "Shadow loyalties are hidden anchors. Recognizing that your hesitation comes from a past relationship rather than the current organizational need is a crucial 'Self-Diagnosis' step."
+    "explanation": "Shadow loyalties are hidden anchors. Recognizing that your hesitation comes from a past relationship rather than the current organizational need is a crucial 'Self-Diagnosis' step.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Holding Environment' for Yourself",
@@ -36,7 +38,8 @@
       "Gathering data from the balcony by changing your environment."
     ],
     "answer": "Creating a personal 'sanctuary' to restore your emotional holding capacity.",
-    "explanation": "Sanctuary is a survival tool. It allows the 'lightning rod' to ground itself so it doesn't melt under the pressure of constant organizational conflict."
+    "explanation": "Sanctuary is a survival tool. It allows the 'lightning rod' to ground itself so it doesn't melt under the pressure of constant organizational conflict.",
+    "difficulty": "medium"
   },
   {
     "question": "Distinguishing 'Confidants' from 'Allies'",
@@ -49,7 +52,8 @@
       "The entire team, to create a shared holding environment of vulnerability."
     ],
     "answer": "A 'Confidant' who lives in a different city and doesn't work for the company.",
-    "explanation": "Vulnerability is powerful, but in a high-stakes system, showing fear to an ally can unintentionally lower the 'heat' or make them lose confidence. Confidants provide the safety you need to process emotions without affecting the 'dance floor' dynamics."
+    "explanation": "Vulnerability is powerful, but in a high-stakes system, showing fear to an ally can unintentionally lower the 'heat' or make them lose confidence. Confidants provide the safety you need to process emotions without affecting the 'dance floor' dynamics.",
+    "difficulty": "hard"
   },
   {
     "question": "The Discipline of 'Giving the Work Back'",
@@ -62,7 +66,8 @@
       "Reprimand the employees for not listening to their direct manager."
     ],
     "answer": "Tell the manager: 'If I solve this, they learn to listen to me, not you. How can I support *you* in leading them?'",
-    "explanation": "This intervention 'gives the work back' to the person who owns the role. It builds the manager's capacity rather than increasing their dependency on you."
+    "explanation": "This intervention 'gives the work back' to the person who owns the role. It builds the manager's capacity rather than increasing their dependency on you.",
+    "difficulty": "hard"
   },
   {
     "question": "Managing the 'Post-Adaptive' Slump",
@@ -75,7 +80,8 @@
       "Tell everyone that if they don't stay collaborative, the merger was a waste of time."
     ],
     "answer": "Acknowledge the need for rest but keep 'silo-busting' on the agenda in small, low-heat ways.",
-    "explanation": "This is 'regulating the heat.' You lower it to prevent burnout but keep it high enough so that the 'new DNA' (collaboration) doesn't dissolve during the recovery period."
+    "explanation": "This is 'regulating the heat.' You lower it to prevent burnout but keep it high enough so that the 'new DNA' (collaboration) doesn't dissolve during the recovery period.",
+    "difficulty": "hard"
   },
   {
     "question": "The Courage to be 'Incomplete'",
@@ -88,7 +94,8 @@
       "Because you have already completed the technical steps of the HR process."
     ],
     "answer": "Because you realize that the system needs time to sit with the tension without your 'authority' intervention.",
-    "explanation": "Often, the best 'intervention' is giving the group time and space. Staying to 'fix' it often just relieves the group of the tension they need to feel to actually change."
+    "explanation": "Often, the best 'intervention' is giving the group time and space. Staying to 'fix' it often just relieves the group of the tension they need to feel to actually change.",
+    "difficulty": "hard"
   },
   {
     "question": "Protecting the 'Annoying' Voices",
@@ -101,7 +108,8 @@
       "Suggest they join a different committee that suits them better."
     ],
     "answer": "Ask them privately: 'You seem to see something the rest of us are missing. What is the risk you're sensing?'",
-    "explanation": "By digging into their skepticism, you might find a valid adaptive fear (e.g., 'the garden will attract pests' or 'maintenance will fall on the same few people'). You are 'harvesting' the data from a marginal voice."
+    "explanation": "By digging into their skepticism, you might find a valid adaptive fear (e.g., 'the garden will attract pests' or 'maintenance will fall on the same few people'). You are 'harvesting' the data from a marginal voice.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Open Heart' Strategy",
@@ -114,7 +122,8 @@
       "Walk out of the room and refuse to talk to them until they apologize."
     ],
     "answer": "Breathe, keep your 'heart open,' and respond to the pain behind their anger rather than the words they used.",
-    "explanation": "An open heart allows you to stay connected to the system. By responding to the 'pain' (the adaptive loss), you maintain the holding environment even during a personal attack."
+    "explanation": "An open heart allows you to stay connected to the system. By responding to the 'pain' (the adaptive loss), you maintain the holding environment even during a personal attack.",
+    "difficulty": "hard"
   },
   {
     "question": "The Final Measure of Success",
@@ -127,6 +136,7 @@
       "The company continues to follow the exact 100-page manual you wrote for them."
     ],
     "answer": "The team faces a new crisis and immediately self-organizes to diagnose and address it using the 'balcony' method.",
-    "explanation": "The ultimate goal of an instructional designer and an adaptive leader is the same: to create a system that has learned how to learn. Their independence is your greatest legacy."
+    "explanation": "The ultimate goal of an instructional designer and an adaptive leader is the same: to create a system that has learned how to learn. Their independence is your greatest legacy.",
+    "difficulty": "hard"
   }
 ]

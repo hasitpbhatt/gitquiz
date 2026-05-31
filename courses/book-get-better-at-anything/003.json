@@ -10,7 +10,8 @@
       "Give up on self-study and find a private tutor"
     ],
     "answer": "Try graded readers or intermediate content that challenges without overwhelming",
-    "explanation": "The sweet spot of difficulty is between too easy and too hard. Graded readers provide appropriate challenge: hard enough to learn new vocabulary but easy enough to understand the context."
+    "explanation": "The sweet spot of difficulty is between too easy and too hard. Graded readers provide appropriate challenge: hard enough to learn new vocabulary but easy enough to understand the context.",
+    "difficulty": "easy"
   },
   {
     "question": "Difficulty Has a Sweet Spot",
@@ -23,7 +24,8 @@
       "Using light weights because they are safer"
     ],
     "answer": "Difficulty Has a Sweet Spot: the weight is challenging enough to stimulate growth but not so heavy it causes injury",
-    "explanation": "The sweet spot for muscle growth is challenging the muscle near failure without exceeding its capacity. This same principle applies to cognitive learning: optimal difficulty produces maximum adaptation."
+    "explanation": "The sweet spot for muscle growth is challenging the muscle near failure without exceeding its capacity. This same principle applies to cognitive learning: optimal difficulty produces maximum adaptation.",
+    "difficulty": "easy"
   },
   {
     "question": "Difficulty Has a Sweet Spot",
@@ -36,7 +38,8 @@
       "Only gifted students can benefit from challenging pieces"
     ],
     "answer": "Difficulty Has a Sweet Spot: optimal challenge produces steady progress",
-    "explanation": "Slightly challenging pieces hit the sweet spot: difficult enough to require focused effort and growth but achievable with practice. This zone produces the most efficient skill development."
+    "explanation": "Slightly challenging pieces hit the sweet spot: difficult enough to require focused effort and growth but achievable with practice. This zone produces the most efficient skill development.",
+    "difficulty": "easy"
   },
   {
     "question": "Difficulty Has a Sweet Spot",
@@ -49,7 +52,8 @@
       "A system that only benefits expert players"
     ],
     "answer": "Difficulty Has a Sweet Spot by dynamically keeping the player in the challenge zone",
-    "explanation": "Dynamic difficulty adjustment keeps players in the sweet spot: hard enough to stay engaging but easy enough to avoid frustration. This maximizes both learning and enjoyment."
+    "explanation": "Dynamic difficulty adjustment keeps players in the sweet spot: hard enough to stay engaging but easy enough to avoid frustration. This maximizes both learning and enjoyment.",
+    "difficulty": "easy"
   },
   {
     "question": "The Mind is Not a Muscle",
@@ -62,7 +66,8 @@
       "Studying longer always produces proportionally better results"
     ],
     "answer": "The mind needs rest and consolidation periods for effective learning, unlike a muscle that grows during exercise",
-    "explanation": "The muscle metaphor is misleading. Mental learning requires breaks for consolidation, sleep for memory formation, and varied practice. More hours do not linearly produce more learning."
+    "explanation": "The muscle metaphor is misleading. Mental learning requires breaks for consolidation, sleep for memory formation, and varied practice. More hours do not linearly produce more learning.",
+    "difficulty": "easy"
   },
   {
     "question": "The Mind is Not a Muscle",
@@ -75,7 +80,8 @@
       "The piece is too difficult for any pianist to master"
     ],
     "answer": "Repeating the same thing mindlessly does not strengthen the mind; varied deliberate practice and feedback are needed",
-    "explanation": "Unlike muscles that grow through repeated exertion, the mind improves through focused attention, varied approaches, feedback, and problem-solving. Mindless repetition produces diminishing returns."
+    "explanation": "Unlike muscles that grow through repeated exertion, the mind improves through focused attention, varied approaches, feedback, and problem-solving. Mindless repetition produces diminishing returns.",
+    "difficulty": "medium"
   },
   {
     "question": "The Mind is Not a Muscle",
@@ -88,7 +94,8 @@
       "Mental work follows the same rules as physical labor"
     ],
     "answer": "Productivity will decrease because mental work requires recovery, focus quality, and strategic thinking",
-    "explanation": "Mental productivity does not scale with hours worked. Cognitive fatigue, reduced focus, and lack of creative incubation mean that beyond a point, working more hours reduces output quality."
+    "explanation": "Mental productivity does not scale with hours worked. Cognitive fatigue, reduced focus, and lack of creative incubation mean that beyond a point, working more hours reduces output quality.",
+    "difficulty": "medium"
   },
   {
     "question": "The Mind is Not a Muscle",
@@ -101,6 +108,7 @@
       "They had a better teacher"
     ],
     "answer": "The Mind is Not a Muscle: the quality and type of mental activity matters more than raw repetition",
-    "explanation": "Mental skills improve through active retrieval, varied application, and problem-solving rather than passive repetition. The brain learns by reconstructing knowledge, not by re-reading it."
+    "explanation": "Mental skills improve through active retrieval, varied application, and problem-solving rather than passive repetition. The brain learns by reconstructing knowledge, not by re-reading it.",
+    "difficulty": "medium"
   }
 ]

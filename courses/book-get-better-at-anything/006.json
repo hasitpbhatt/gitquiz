@@ -10,7 +10,8 @@
       "The pilot has a fear of flying that training cannot address"
     ],
     "answer": "Practice Must Meet Reality: if the simulator lacks real-world stressors, the skill does not fully transfer",
-    "explanation": "Skills are context-dependent. When practice conditions differ from real conditions, learners may struggle to transfer their knowledge. Realistic practice conditions are crucial for effective learning."
+    "explanation": "Skills are context-dependent. When practice conditions differ from real conditions, learners may struggle to transfer their knowledge. Realistic practice conditions are crucial for effective learning.",
+    "difficulty": "easy"
   },
   {
     "question": "Practice Must Meet Reality",
@@ -23,7 +24,8 @@
       "Engineering knowledge cannot be tested through exams"
     ],
     "answer": "Multiple-choice questions do not replicate real engineering challenges",
-    "explanation": "Practice Must Meet Reality: multiple-choice tests measure recognition, not the application skills needed in engineering. The practice format did not match the performance context."
+    "explanation": "Practice Must Meet Reality: multiple-choice tests measure recognition, not the application skills needed in engineering. The practice format did not match the performance context.",
+    "difficulty": "medium"
   },
   {
     "question": "Practice Must Meet Reality",
@@ -36,7 +38,8 @@
       "The salesperson needs more mirror practice time"
     ],
     "answer": "Practice Must Meet Reality: practicing without real customer interactions does not prepare for the unpredictability of actual sales",
-    "explanation": "Practicing only the ideal scenario misses the complexity of real interactions. Realistic practice includes handling objections, interruptions, and unexpected questions."
+    "explanation": "Practicing only the ideal scenario misses the complexity of real interactions. Realistic practice includes handling objections, interruptions, and unexpected questions.",
+    "difficulty": "medium"
   },
   {
     "question": "Practice Must Meet Reality",
@@ -49,7 +52,8 @@
       "Mannequins are outdated training tools"
     ],
     "answer": "Practice Must Meet Reality: mannequins do not replicate the sensory complexity and pressure of real surgery",
-    "explanation": "Real surgery involves tissue response, bleeding, time pressure, and team coordination that mannequins cannot fully replicate. Practice conditions must approximate real conditions."
+    "explanation": "Real surgery involves tissue response, bleeding, time pressure, and team coordination that mannequins cannot fully replicate. Practice conditions must approximate real conditions.",
+    "difficulty": "medium"
   },
   {
     "question": "Practice Must Meet Reality",
@@ -62,7 +66,8 @@
       "The musician needs a different instrument"
     ],
     "answer": "Practice Must Meet Reality: solo practice does not prepare for the dynamics, timing, and distractions of group performance",
-    "explanation": "Playing with a band requires listening to others, keeping tempo together, and handling stage dynamics. These skills only develop through practice conditions that match real performance."
+    "explanation": "Playing with a band requires listening to others, keeping tempo together, and handling stage dynamics. These skills only develop through practice conditions that match real performance.",
+    "difficulty": "medium"
   },
   {
     "question": "Practice Must Meet Reality",
@@ -75,7 +80,8 @@
       "The speaker did not memorize the speech well enough"
     ],
     "answer": "Practice Must Meet Reality: practicing without an audience, lights, and pressure does not transfer to real speaking conditions",
-    "explanation": "Nervousness, lighting, and audience reactions create a different cognitive context. Realistic practice conditions help build comfort with the actual performance environment."
+    "explanation": "Nervousness, lighting, and audience reactions create a different cognitive context. Realistic practice conditions help build comfort with the actual performance environment.",
+    "difficulty": "hard"
   },
   {
     "question": "Practice Must Meet Reality",
@@ -88,6 +94,7 @@
       "Real programming is easier than tutorials"
     ],
     "answer": "Practice Must Meet Reality: following tutorials does not replicate the problem-solving and debugging required in real development",
-    "explanation": "Tutorials remove the cognitive load of figuring out what to build. Real coding requires problem decomposition, debugging, and decision-making that only develop through independent project work."
+    "explanation": "Tutorials remove the cognitive load of figuring out what to build. Real coding requires problem decomposition, debugging, and decision-making that only develop through independent project work.",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "Assign even harder problems to build resilience through failure"
     ],
     "answer": "Give her a simple program she can complete successfully, then gradually increase complexity",
-    "explanation": "Success builds self-efficacy. Starting with achievable tasks creates positive experiences that build the belief I can do this, motivating her to tackle more challenging problems later."
+    "explanation": "Success builds self-efficacy. Starting with achievable tasks creates positive experiences that build the belief I can do this, motivating her to tackle more challenging problems later.",
+    "difficulty": "easy"
   },
   {
     "question": "Success is the Best Teacher",
@@ -23,7 +24,8 @@
       "Focus only on grammar exercises since conversation is too easy"
     ],
     "answer": "Celebrate the win and seek more conversations to build momentum",
-    "explanation": "That successful conversation builds self-efficacy. Seeking more conversations leverages this success to create a positive cycle: confidence leads to more practice, which leads to more success."
+    "explanation": "That successful conversation builds self-efficacy. Seeking more conversations leverages this success to create a positive cycle: confidence leads to more practice, which leads to more success.",
+    "difficulty": "easy"
   },
   {
     "question": "Success is the Best Teacher",
@@ -36,7 +38,8 @@
       "Reduce their sales targets to make success easier to achieve"
     ],
     "answer": "Have them rehearse with easy-to-close customers to experience wins, then gradually target harder accounts",
-    "explanation": "Experiencing small wins rebuilds self-efficacy. The positive feeling of closing a deal motivates persistence and provides momentum to tackle more challenging prospects."
+    "explanation": "Experiencing small wins rebuilds self-efficacy. The positive feeling of closing a deal motivates persistence and provides momentum to tackle more challenging prospects.",
+    "difficulty": "easy"
   },
   {
     "question": "Success is the Best Teacher",
@@ -49,7 +52,8 @@
       "Make them practice tying shoes for an hour straight"
     ],
     "answer": "Break the task into smaller steps, have them succeed at one step at a time",
-    "explanation": "Breaking a complex task into achievable steps creates multiple success experiences. Each small victory builds the confidence needed to persist toward the full skill."
+    "explanation": "Breaking a complex task into achievable steps creates multiple success experiences. Each small victory builds the confidence needed to persist toward the full skill.",
+    "difficulty": "easy"
   },
   {
     "question": "Knowledge Becomes Invisible with Experience",
@@ -62,7 +66,8 @@
       "The code base is actually simple and the beginners are overthinking"
     ],
     "answer": "Knowledge Becomes Invisible with Experience: the expert has automatized the process in their mind",
-    "explanation": "Experts often cannot see their own knowledge because it has become tacit. What seems simple to them is the result of years of internalized practice that newcomers cannot see."
+    "explanation": "Experts often cannot see their own knowledge because it has become tacit. What seems simple to them is the result of years of internalized practice that newcomers cannot see.",
+    "difficulty": "easy"
   },
   {
     "question": "Knowledge Becomes Invisible with Experience",
@@ -75,7 +80,8 @@
       "The baker has never learned the science behind baking"
     ],
     "answer": "Knowledge Becomes Invisible with Experience: tactile expertise becomes intuitive over time",
-    "explanation": "With enough practice, sensory knowledge becomes tacit. The baker feels the correct dough consistency through years of experience but cannot easily describe the precise criteria."
+    "explanation": "With enough practice, sensory knowledge becomes tacit. The baker feels the correct dough consistency through years of experience but cannot easily describe the precise criteria.",
+    "difficulty": "easy"
   },
   {
     "question": "Knowledge Becomes Invisible with Experience",
@@ -88,6 +94,7 @@
       "The student is not trying hard enough to understand"
     ],
     "answer": "The instructor has forgotten what it was like to learn, making the knowledge invisible to them",
-    "explanation": "Experienced drivers have automatized gear shifting so completely that they cannot access the step-by-step process anymore. The knowledge has become tacit and therefore invisible to the expert."
+    "explanation": "Experienced drivers have automatized gear shifting so completely that they cannot access the step-by-step process anymore. The knowledge has become tacit and therefore invisible to the expert.",
+    "difficulty": "medium"
   }
 ]

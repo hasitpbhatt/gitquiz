@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Understanding Scale and Limits",
+    "content": "Scale matters. What works at one size often fails at another. Systems that function well at small scale can break down catastrophically when scaled up without accounting for changed dynamics.",
+    "description": "A small bakery provides fresh bread to its neighborhood. When a national corporation tries to replicate this model across 500 locations using centralized baking, quality drops and local competitors outperform them. This demonstrates:",
+    "options": [
+      "The corporation poor management choices",
+      "That scale changes system dynamics in ways that may not transfer",
+      "Small businesses always being superior to large ones",
+      "The bakery secret recipe being impossible to copy"
+    ],
+    "answer": "That scale changes system dynamics in ways that may not transfer",
+    "explanation": "What works at small scale often fails when scaled because new factors emerge. Logistics, quality control, and local preferences become critical. Ignoring scale effects is a common source of business mistakes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Probabilities and Independent Events",
+    "content": "Past events do not affect the probability of independent future events. Each coin flip, lightning strike, or die roll has the same probability regardless of what happened before.",
+    "description": "A friend says Lightning never strikes the same place twice as a metaphor for unlikely events. Statistically, this statement is:",
+    "options": [
+      "Accurate for all natural phenomena",
+      "False because each lightning strike is an independent event",
+      "True because lightning rods protect struck locations",
+      "Correct only in tropical climates"
+    ],
+    "answer": "False because each lightning strike is an independent event",
+    "explanation": "Past lightning strikes do not affect the probability of future strikes at the same location. Each strike is an independent event. The same applies to many real-world probabilities we misunderstand.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Expected Value",
+    "content": "Expected value combines the probability of outcomes with their value to determine the average result of a decision repeated many times. It helps distinguish good bets from bad ones.",
+    "description": "A lottery ticket costs $2 with a 1-in-10-million chance of winning $5 million. The expected value of this ticket is:",
+    "options": [
+      "$5 million",
+      "$0.50",
+      "$2.00",
+      "$1.00"
+    ],
+    "answer": "$0.50",
+    "explanation": "Expected value equals probability multiplied by payoff. That is 1/10,000,000 times $5,000,000 equals $0.50. Since the ticket costs $2, this is a losing bet on average, even though someone will eventually win.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Coincidences and Large Numbers",
+    "content": "With a large enough sample of opportunities, seemingly miraculous coincidences become statistically likely. The law of truly large numbers means rare events happen all the time when enough chances exist.",
+    "description": "You dream about an old friend you have not seen in years, and the next day you run into them at the airport. This feels miraculous, but is most likely:",
+    "options": [
+      "Evidence of precognitive abilities",
+      "A coincidence made probable by the vast number of daily events",
+      "The friend having psychic powers too",
+      "A sign from a higher power"
+    ],
+    "answer": "A coincidence made probable by the vast number of daily events",
+    "explanation": "With thousands of thoughts and encounters daily across billions of people, extraordinary coincidences are statistically expected. We notice the few that match while ignoring the millions that do not.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Base Rate Neglect",
+    "content": "Base rate neglect occurs when we ignore the general frequency of an event in a population and focus only on specific information, leading to overestimation of rare occurrences.",
+    "description": "A medical test for a rare disease is 99 percent accurate. You test positive. Without knowing the disease affects only 1 in 10,000 people, you might conclude you almost certainly have it. But considering the base rate:",
+    "options": [
+      "You definitely have the disease",
+      "A positive result means nothing statistically",
+      "The chance of actually having the disease remains very low",
+      "The test accuracy is irrelevant to your case"
+    ],
+    "answer": "The chance of actually having the disease remains very low",
+    "explanation": "With a 1-in-10,000 base rate and 99 percent accuracy, a positive result is far more likely to be a false positive (9,900 false positives per 1 million) than a true positive (99 true positives). Bayes rule reveals this counterintuitive result.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Mean vs Median",
+    "content": "Numbers without context can mislead. A statistic like the average salary in our company is $80,000 may hide enormous variation between executives earning millions and entry-level workers earning minimum wage.",
+    "description": "A CEO says Our average employee salary is $75,000 to justify no raises. However, the median salary is actually $35,000. The CEO is exploiting:",
+    "options": [
+      "The difference between mean and median in a skewed distribution",
+      "Hidden costs that employees cannot see",
+      "Inflation adjustments that reduce purchasing power",
+      "Industry-wide salary standards for comparison"
+    ],
+    "answer": "The difference between mean and median in a skewed distribution",
+    "explanation": "When a distribution is heavily skewed, with a few very high earners, the mean can be misleadingly high. The median better represents the typical experience. Always ask which measure of center is being used.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Scenario Thinking",
+    "content": "Scenario thinking involves imagining multiple plausible futures rather than relying on a single forecast. Considering a range of possible outcomes helps prepare for uncertainty.",
+    "description": "A company planning a five-year strategy develops three scenarios, rapid growth, moderate stability, and economic downturn. They create flexible plans for each. This approach:",
+    "options": [
+      "Wastes time on unlikely possibilities",
+      "Shows indecisiveness in leadership",
+      "Improves preparedness through scenario thinking",
+      "Reveals that the company lacks a real strategy"
+    ],
+    "answer": "Improves preparedness through scenario thinking",
+    "explanation": "Considering multiple scenarios, even those we hope will not happen, forces us to identify assumptions and prepare for different futures. This avoids the trap of anchoring on a single forecast.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Risk and Averages",
+    "content": "Average returns describe long-term trends, not typical individual outcomes. Outcomes vary widely around the average. Mistaking the average for what should happen each year is a common error.",
+    "description": "A retiree is told the stock market average annual return is 10 percent, so they plan their budget assuming steady 10 percent growth. In the first year, the market drops 30 percent. Their planning mistake was:",
+    "options": [
+      "Assuming the average return represented a likely single-year outcome",
+      "Investing in stocks at all during retirement",
+      "Believing historical returns predict future returns",
+      "Not hiring a professional financial advisor"
+    ],
+    "answer": "Assuming the average return represented a likely single-year outcome",
+    "explanation": "Average returns describe long-term trends, not typical individual years. Stock returns vary widely around the average. Mistaking the average for what should happen each year shows misunderstanding of probability distributions.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Regression to the Mean",
+    "content": "After an extreme event, subsequent outcomes tend to be closer to the average. This statistical phenomenon is often misinterpreted as a causal effect when it is simply natural variation.",
+    "description": "A baseball player has a phenomenal first season, then performs merely well the next year. A commentator says he lost his edge. The more likely explanation is:",
+    "options": [
+      "The pressure of success affected his performance",
+      "Regression to the mean after an unusually good season",
+      "Other players figured out his technique",
+      "He reduced his training effort after the first season"
+    ],
+    "answer": "Regression to the mean after an unusually good season",
+    "explanation": "Extreme performances are often followed by less extreme ones simply because they were outliers. The player likely has not changed. His exceptional first season was above his true ability level.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Rare Events and Probability",
+    "content": "Rare events attract disproportionate attention. When they occur, we often seek causal explanations, but many rare events are simply the expected result of giving enough chances.",
+    "description": "Someone wins the lottery twice, making international headlines. Statisticians note that given millions of players buying tickets weekly, this is:",
+    "options": [
+      "Proof that some people are simply lucky",
+      "A statistically expected occurrence given enough opportunities",
+      "Evidence the lottery is rigged in favor of certain players",
+      "A sign that the winner has a special system"
+    ],
+    "answer": "A statistically expected occurrence given enough opportunities",
+    "explanation": "With millions of lottery players and repeated drawings, a double winner is not miraculous but statistically expected. The law of large numbers ensures rare events eventually occur.",
+    "difficulty": "medium"
+  }
+]

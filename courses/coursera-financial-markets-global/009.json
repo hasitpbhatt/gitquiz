@@ -10,7 +10,8 @@
       "The price of flights will automatically double"
     ],
     "answer": "Their dollars will buy more Euros, making the trip cheaper",
-    "explanation": "A 'strong' currency means its purchasing power has increased relative to another. When the dollar is strong against the Euro, each dollar converts into more Euros, lowering the cost of goods and services for the traveler."
+    "explanation": "A 'strong' currency means its purchasing power has increased relative to another. When the dollar is strong against the Euro, each dollar converts into more Euros, lowering the cost of goods and services for the traveler.",
+    "difficulty": "medium"
   },
   {
     "question": "Purchasing Power Parity (PPP)",
@@ -23,7 +24,8 @@
       "The country has no inflation"
     ],
     "answer": "The currency is undervalued",
-    "explanation": "If the same burger is cheaper in another country after currency conversion, it suggests their currency is 'undervalued' relative to the dollar. Over time, PPP theory suggests the currency should strengthen to close that gap."
+    "explanation": "If the same burger is cheaper in another country after currency conversion, it suggests their currency is 'undervalued' relative to the dollar. Over time, PPP theory suggests the currency should strengthen to close that gap.",
+    "difficulty": "medium"
   },
   {
     "question": "Fixed vs. Floating Exchange Rates",
@@ -36,7 +38,8 @@
       "Inflation will drop to zero forever"
     ],
     "answer": "They lose control over their own domestic monetary policy",
-    "explanation": "To maintain a peg, the country must mirror the interest rate changes of the U.S. Fed. If the U.S. raises rates to fight inflation, the small nation must do the same, even if their own economy is in a recession and needs lower rates."
+    "explanation": "To maintain a peg, the country must mirror the interest rate changes of the U.S. Fed. If the U.S. raises rates to fight inflation, the small nation must do the same, even if their own economy is in a recession and needs lower rates.",
+    "difficulty": "medium"
   },
   {
     "question": "The Balance of Trade",
@@ -49,7 +52,8 @@
       "By increasing the minimum wage"
     ],
     "answer": "By selling assets (like land or stocks) or borrowing from foreign investors",
-    "explanation": "A trade deficit in goods must be balanced by a surplus in the capital account. Effectively, the country is 'paying' for its extra imports by sending currency or ownership of assets back to the exporting nations."
+    "explanation": "A trade deficit in goods must be balanced by a surplus in the capital account. Effectively, the country is 'paying' for its extra imports by sending currency or ownership of assets back to the exporting nations.",
+    "difficulty": "medium"
   },
   {
     "question": "Capital Flight",
@@ -62,7 +66,8 @@
       "The government will give everyone free gold"
     ],
     "answer": "It will crash as everyone sells the local currency to buy foreign ones",
-    "explanation": "Capital flight creates a massive 'supply' of the local currency on the market with very little 'demand.' This imbalance causes the currency's value to plummet, often leading to a financial crisis."
+    "explanation": "Capital flight creates a massive 'supply' of the local currency on the market with very little 'demand.' This imbalance causes the currency's value to plummet, often leading to a financial crisis.",
+    "difficulty": "medium"
   },
   {
     "question": "The Role of the IMF",
@@ -75,7 +80,8 @@
       "The Federal Reserve"
     ],
     "answer": "The International Monetary Fund (IMF)",
-    "explanation": "The IMF's mandate is specifically to ensure global monetary stability and provide a safety net for countries in deep financial distress to prevent the crisis from spreading."
+    "explanation": "The IMF's mandate is specifically to ensure global monetary stability and provide a safety net for countries in deep financial distress to prevent the crisis from spreading.",
+    "difficulty": "medium"
   },
   {
     "question": "Foreign Direct Investment (FDI)",
@@ -88,7 +94,8 @@
       "An Import of Services"
     ],
     "answer": "Foreign Direct Investment (FDI)",
-    "explanation": "Unlike buying a few shares of a foreign stock (portfolio investment), building a physical factory is FDI because it involves direct management and a long-term physical presence in the host country."
+    "explanation": "Unlike buying a few shares of a foreign stock (portfolio investment), building a physical factory is FDI because it involves direct management and a long-term physical presence in the host country.",
+    "difficulty": "medium"
   },
   {
     "question": "The World Bank's Function",
@@ -101,7 +108,8 @@
       "A central bank's printing press"
     ],
     "answer": "The World Bank",
-    "explanation": "The World Bank is designed for long-term development projects that might not attract private investors but are essential for a country’s economic growth and social welfare."
+    "explanation": "The World Bank is designed for long-term development projects that might not attract private investors but are essential for a country’s economic growth and social welfare.",
+    "difficulty": "hard"
   },
   {
     "question": "Global Supply Chains and Finance",
@@ -114,7 +122,8 @@
       "A government tax credit"
     ],
     "answer": "A Letter of Credit issued by a bank",
-    "explanation": "A Letter of Credit is a bank's guarantee that the seller will receive payment as long as the shipping documents are in order. This reduces the risk for the seller and facilitates international trade."
+    "explanation": "A Letter of Credit is a bank's guarantee that the seller will receive payment as long as the shipping documents are in order. This reduces the risk for the seller and facilitates international trade.",
+    "difficulty": "hard"
   },
   {
     "question": "Tariffs and Trade Wars",
@@ -127,6 +136,7 @@
       "Only the shipping companies"
     ],
     "answer": "The consumers and businesses in both countries who buy those products",
-    "explanation": "Tariffs are almost always passed on to the buyer. The local construction company will pay more for steel, and the local grocery shopper will pay more for food, as businesses raise prices to cover the tax."
+    "explanation": "Tariffs are almost always passed on to the buyer. The local construction company will pay more for steel, and the local grocery shopper will pay more for food, as businesses raise prices to cover the tax.",
+    "difficulty": "hard"
   }
 ]

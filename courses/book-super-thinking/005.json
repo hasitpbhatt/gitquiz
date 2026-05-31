@@ -10,7 +10,8 @@
       "No change in color distribution"
     ],
     "answer": "More green beetles due to better survival and reproduction",
-    "explanation": "Natural selection favors green beetles because they survive longer (better camouflage) and thus have more opportunities to reproduce, passing on their green color genes."
+    "explanation": "Natural selection favors green beetles because they survive longer (better camouflage) and thus have more opportunities to reproduce, passing on their green color genes.",
+    "difficulty": "easy"
   },
   {
     "question": "Ecosystems",
@@ -23,7 +24,8 @@
       "No significant changes occur"
     ],
     "answer": "Deer populations explode, leading to overgrazing and plant loss",
-    "explanation": "Removing top predators disrupts ecosystem balance. Without wolves to control them, deer populations grow unchecked, overconsume vegetation, and damage the ecosystem."
+    "explanation": "Removing top predators disrupts ecosystem balance. Without wolves to control them, deer populations grow unchecked, overconsume vegetation, and damage the ecosystem.",
+    "difficulty": "easy"
   },
   {
     "question": "Carrying Capacity",
@@ -36,7 +38,8 @@
       "Rabbits will stop reproducing until balance is restored"
     ],
     "answer": "Rabbit population will decrease due to starvation and disease",
-    "explanation": "When population exceeds carrying capacity, resources become insufficient. Competition increases, leading to starvation, disease, and population decline back to sustainable levels."
+    "explanation": "When population exceeds carrying capacity, resources become insufficient. Competition increases, leading to starvation, disease, and population decline back to sustainable levels.",
+    "difficulty": "easy"
   },
   {
     "question": "Symbiosis",
@@ -49,7 +52,8 @@
       "Competition - both species harmed"
     ],
     "answer": "Mutualism - both bees and flowers benefit",
-    "explanation": "Bees get food (nectar), flowers get pollination service. Both species benefit from this interaction, making it mutualistic symbiosis."
+    "explanation": "Bees get food (nectar), flowers get pollination service. Both species benefit from this interaction, making it mutualistic symbiosis.",
+    "difficulty": "easy"
   },
   {
     "question": "Natural Selection",
@@ -62,7 +66,8 @@
       "Louder warning calls"
     ],
     "answer": "Better camouflage coloring",
-    "explanation": "Camouflage helps rabbits avoid being seen by predators, directly increasing survival and reproduction chances - the key metric for natural selection."
+    "explanation": "Camouflage helps rabbits avoid being seen by predators, directly increasing survival and reproduction chances - the key metric for natural selection.",
+    "difficulty": "easy"
   },
   {
     "question": "Photosynthesis",
@@ -75,7 +80,8 @@
       "It gains mass from water in the soil"
     ],
     "answer": "It loses mass as it uses stored energy without producing new",
-    "explanation": "Without light, photosynthesis stops. The plant consumes stored sugars for respiration, losing mass as carbon dioxide and water are released."
+    "explanation": "Without light, photosynthesis stops. The plant consumes stored sugars for respiration, losing mass as carbon dioxide and water are released.",
+    "difficulty": "medium"
   },
   {
     "question": "Catalysts",
@@ -88,7 +94,8 @@
       "Change the nutritional value of food"
     ],
     "answer": "Speed up breakdown of food without being used up",
-    "explanation": "Enzymes are biological catalysts that speed up chemical reactions (like breaking down food) by lowering activation energy, while remaining unchanged themselves."
+    "explanation": "Enzymes are biological catalysts that speed up chemical reactions (like breaking down food) by lowering activation energy, while remaining unchanged themselves.",
+    "difficulty": "medium"
   },
   {
     "question": "Natural Selection",
@@ -101,7 +108,8 @@
       "Peacocks with smaller tails starve more often"
     ],
     "answer": "Females prefer males with more elaborate tails",
-    "explanation": "Despite reducing survival (more visible to predators), elaborate tails persist because they increase mating success - females choose mates based on tail quality."
+    "explanation": "Despite reducing survival (more visible to predators), elaborate tails persist because they increase mating success - females choose mates based on tail quality.",
+    "difficulty": "medium"
   },
   {
     "question": "Homeostasis",
@@ -114,6 +122,7 @@
       "The body generating extra heat intentionally"
     ],
     "answer": "Negative feedback loop reducing the temperature increase",
-    "explanation": "Sweating cools the body, counteracting the temperature rise - a classic negative feedback loop that maintains homeostasis by opposing changes."
+    "explanation": "Sweating cools the body, counteracting the temperature rise - a classic negative feedback loop that maintains homeostasis by opposing changes.",
+    "difficulty": "medium"
   }
 ]

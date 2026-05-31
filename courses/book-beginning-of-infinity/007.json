@@ -10,7 +10,8 @@
       "Why storytelling is unimportant"
     ],
     "answer": "How the drive to explain is uniquely human",
-    "explanation": "While animals communicate and solve problems, only humans universally engage in explanatory activities like asking 'why things happen,' creating theories, and building cumulative knowledge. This explanatory drive is what made the Enlightenment possible."
+    "explanation": "While animals communicate and solve problems, only humans universally engage in explanatory activities like asking 'why things happen,' creating theories, and building cumulative knowledge. This explanatory drive is what made the Enlightenment possible.",
+    "difficulty": "medium"
   },
   {
     "question": "Explanatory Creativity",
@@ -23,7 +24,8 @@
       "Why curiosity is a weakness"
     ],
     "answer": "How understanding provides deeper satisfaction than memorization",
-    "explanation": "A child asking why the sky is blue isn't just seeking a prediction ('it will look blue tomorrow') but an explanation (light scattering in atmosphere). The satisfaction comes from understanding the mechanism, not just knowing the fact - this is explanatory creativity."
+    "explanation": "A child asking why the sky is blue isn't just seeking a prediction ('it will look blue tomorrow') but an explanation (light scattering in atmosphere). The satisfaction comes from understanding the mechanism, not just knowing the fact - this is explanatory creativity.",
+    "difficulty": "medium"
   },
   {
     "question": "Consciousness and Understanding",
@@ -36,7 +38,8 @@
       "Why we should teach by rote repetition"
     ],
     "answer": "How understanding differs from mere mimicry",
-    "explanation": "A parrot can mimic 'hello' without understanding language or intent. A person explaining a concept demonstrates comprehension - they grasp the relationships, can apply the knowledge in new contexts, and explain why it's true. This distinction is crucial for knowledge."
+    "explanation": "A parrot can mimic 'hello' without understanding language or intent. A person explaining a concept demonstrates comprehension - they grasp the relationships, can apply the knowledge in new contexts, and explain why it's true. This distinction is crucial for knowledge.",
+    "difficulty": "medium"
   },
   {
     "question": "Theory of Mind",
@@ -49,7 +52,8 @@
       "Why we should never adapt our explanations"
     ],
     "answer": "How theory of mind enables effective communication",
-    "explanation": "By imagining what the child knows (limited) vs. what the expert knows (extensive), you tailor your explanation appropriately. Theory of mind allows us to predict others' understanding gaps and adjust our communication - essential for teaching and knowledge sharing."
+    "explanation": "By imagining what the child knows (limited) vs. what the expert knows (extensive), you tailor your explanation appropriately. Theory of mind allows us to predict others' understanding gaps and adjust our communication - essential for teaching and knowledge sharing.",
+    "difficulty": "medium"
   },
   {
     "question": "Language as Knowledge",
@@ -62,7 +66,8 @@
       "Why writing is superior to speech"
     ],
     "answer": "How language compresses and transmits knowledge",
-    "explanation": "The word 'fire' instantly conveys a wealth of knowledge: its properties, dangers, uses, and how to create it. Language allows complex knowledge to be packaged efficiently, shared accurately, and accumulated across generations - enabling cultural evolution."
+    "explanation": "The word 'fire' instantly conveys a wealth of knowledge: its properties, dangers, uses, and how to create it. Language allows complex knowledge to be packaged efficiently, shared accurately, and accumulated across generations - enabling cultural evolution.",
+    "difficulty": "medium"
   },
   {
     "question": "Memes and Memeplexes",
@@ -75,7 +80,8 @@
       "Why ideas never change"
     ],
     "answer": "How ideas spread and evolve through imitation and variation",
-    "explanation": "Like genes, memes replicate with variation - a song might be misremembered and evolve, a recipe adapted to local ingredients. Successful memes spread through imitation; this process with selection creates cultural evolution, analogous to biological evolution but much faster."
+    "explanation": "Like genes, memes replicate with variation - a song might be misremembered and evolve, a recipe adapted to local ingredients. Successful memes spread through imitation; this process with selection creates cultural evolution, analogous to biological evolution but much faster.",
+    "difficulty": "hard"
   },
   {
     "question": "Culture as Knowledge",
@@ -88,7 +94,8 @@
       "Why we should forget the past"
     ],
     "answer": "How external storage enables cumulative knowledge",
-    "explanation": "Before writing, knowledge died with individuals or was corrupted in oral transmission. Writing allowed knowledge to accumulate across generations - each generation could start where the last left off, rather than rediscovering basics. This enabled the knowledge explosion of civilization."
+    "explanation": "Before writing, knowledge died with individuals or was corrupted in oral transmission. Writing allowed knowledge to accumulate across generations - each generation could start where the last left off, rather than rediscovering basics. This enabled the knowledge explosion of civilization.",
+    "difficulty": "hard"
   },
   {
     "question": "Human Uniqueness",
@@ -101,7 +108,8 @@
       "Why tool use defines humanity"
     ],
     "answer": "How explanatory creativity enables cumulative innovation",
-    "explanation": "Chimpanzees solve immediate problems (using sticks for termites) but don't ask 'why does this work?' or seek to improve the underlying principle. Humans create explanatory theories (optics, gravity) that enable radical innovations like telescopes - then improve those explanations for even better instruments."
+    "explanation": "Chimpanzees solve immediate problems (using sticks for termites) but don't ask 'why does this work?' or seek to improve the underlying principle. Humans create explanatory theories (optics, gravity) that enable radical innovations like telescopes - then improve those explanations for even better instruments.",
+    "difficulty": "hard"
   },
   {
     "question": "Role of Explanation in Survival",
@@ -114,6 +122,7 @@
       "Why knowledge doesn't help survival"
     ],
     "answer": "How understanding enables safe, efficient survival",
-    "explanation": "Trial-and-error eating risks poisoning. Understanding plant taxonomy, toxicity mechanisms, and environmental indicators lets us identify safe food reliably and efficiently. Explanatory knowledge transforms survival from gambling to reliable prediction and control."
+    "explanation": "Trial-and-error eating risks poisoning. Understanding plant taxonomy, toxicity mechanisms, and environmental indicators lets us identify safe food reliably and efficiently. Explanatory knowledge transforms survival from gambling to reliable prediction and control.",
+    "difficulty": "hard"
   }
 ]

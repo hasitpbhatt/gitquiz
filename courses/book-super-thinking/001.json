@@ -10,7 +10,8 @@
       "An alien spacecraft landed and took off"
     ],
     "answer": "A horse is nearby",
-    "explanation": "Occam's Razor favors the explanation requiring fewest assumptions - a horse is more likely than a zebra in most locations, and vastly more likely than mythical creatures or aliens."
+    "explanation": "Occam's Razor favors the explanation requiring fewest assumptions - a horse is more likely than a zebra in most locations, and vastly more likely than mythical creatures or aliens.",
+    "difficulty": "easy"
   },
   {
     "question": "Hanlon's Razor",
@@ -23,7 +24,8 @@
       "They accidentally sent the invite to spam"
     ],
     "answer": "They made an honest oversight or mistake",
-    "explanation": "Hanlon's Razor suggests starting with the simplest explanation - an honest mistake - before assuming malicious intent, which requires more complex assumptions about motives."
+    "explanation": "Hanlon's Razor suggests starting with the simplest explanation - an honest mistake - before assuming malicious intent, which requires more complex assumptions about motives.",
+    "difficulty": "easy"
   },
   {
     "question": "First Principles Thinking",
@@ -36,7 +38,8 @@
       "Use materials from last year's model"
     ],
     "answer": "Identify the core purpose: carrying items comfortably and efficiently",
-    "explanation": "First principles means starting from fundamental purpose - what a backpack must do - rather than copying existing designs or making incremental improvements."
+    "explanation": "First principles means starting from fundamental purpose - what a backpack must do - rather than copying existing designs or making incremental improvements.",
+    "difficulty": "easy"
   },
   {
     "question": "Inversion",
@@ -49,7 +52,8 @@
       "Buy the latest productivity apps"
     ],
     "answer": "Ask yourself: 'How could I make sure I get nothing done today?'",
-    "explanation": "Inversion reveals productivity blockers by considering the opposite outcome - identifying distractions, poor planning, or energy mismanagement that would prevent work."
+    "explanation": "Inversion reveals productivity blockers by considering the opposite outcome - identifying distractions, poor planning, or energy mismanagement that would prevent work.",
+    "difficulty": "easy"
   },
   {
     "question": "Second-Order Thinking",
@@ -62,7 +66,8 @@
       "The technical specifications of the routers"
     ],
     "answer": "Potential increases in loitering, cybercrime, and privacy concerns",
-    "explanation": "Second-order thinking looks beyond the immediate benefit (free internet) to anticipate downstream effects like changed behavior patterns, security issues, and social impacts."
+    "explanation": "Second-order thinking looks beyond the immediate benefit (free internet) to anticipate downstream effects like changed behavior patterns, security issues, and social impacts.",
+    "difficulty": "easy"
   },
   {
     "question": "Probabilistic Thinking",
@@ -75,7 +80,8 @@
       "Always carrying an umbrella just in case"
     ],
     "answer": "Estimating the chance of rain and weighing inconvenience vs. getting wet",
-    "explanation": "Probabilistic thinking considers the likelihood of rain (from forecast), the inconvenience of carrying an umbrella, and the discomfort of getting wet to make an optimal choice."
+    "explanation": "Probabilistic thinking considers the likelihood of rain (from forecast), the inconvenience of carrying an umbrella, and the discomfort of getting wet to make an optimal choice.",
+    "difficulty": "easy"
   },
   {
     "question": "Leverage",
@@ -88,7 +94,8 @@
       "Using a coupon for grocery shopping"
     ],
     "answer": "Learning to negotiate your salary effectively",
-    "explanation": "Salary negotiation can yield thousands of extra dollars annually - far greater leverage than small daily savings or modest percentage increases."
+    "explanation": "Salary negotiation can yield thousands of extra dollars annually - far greater leverage than small daily savings or modest percentage increases.",
+    "difficulty": "easy"
   },
   {
     "question": "Opportunity Cost",
@@ -101,7 +108,8 @@
       "The wear and tear on your couch"
     ],
     "answer": "The money you would have earned freelancing",
-    "explanation": "Opportunity cost focuses on the value of the best alternative forgone - in this case, freelance income - not the chosen activity's costs or benefits."
+    "explanation": "Opportunity cost focuses on the value of the best alternative forgone - in this case, freelance income - not the chosen activity's costs or benefits.",
+    "difficulty": "easy"
   },
   {
     "question": "Margin of Safety",
@@ -114,6 +122,7 @@
       "Assuming everything will go perfectly according to plan"
     ],
     "answer": "Adding extra time to your estimate for unexpected delays",
-    "explanation": "Margin of safety means deliberately overestimating time needed to account for inevitable complications, creating a buffer that increases likelihood of on-time completion."
+    "explanation": "Margin of safety means deliberately overestimating time needed to account for inevitable complications, creating a buffer that increases likelihood of on-time completion.",
+    "difficulty": "easy"
   }
 ]

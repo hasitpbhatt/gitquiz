@@ -10,7 +10,8 @@
       "Neither can be compared since they have different professions"
     ],
     "answer": "Visible spending is not a reliable measure of true wealth",
-    "explanation": "Housel distinguishes between rich (visible consumption) and wealthy (invisible assets). The dentist is spending income, which is visible. The librarian’s wealth is in investments—hidden. You cannot judge wealth by what you see."
+    "explanation": "Housel distinguishes between rich (visible consumption) and wealthy (invisible assets). The dentist is spending income, which is visible. The librarian’s wealth is in investments—hidden. You cannot judge wealth by what you see.",
+    "difficulty": "easy"
   },
   {
     "question": "Save Money",
@@ -23,7 +24,8 @@
       "Only people with high incomes should worry about saving"
     ],
     "answer": "Saving for its own sake builds options and resilience for an unpredictable future",
-    "explanation": "Housel argues that you do not need a reason to save. The very act of saving creates optionality. When unexpected opportunities or crises arise, having savings gives you freedom that spending does not. Save for saving’s sake."
+    "explanation": "Housel argues that you do not need a reason to save. The very act of saving creates optionality. When unexpected opportunities or crises arise, having savings gives you freedom that spending does not. Save for saving’s sake.",
+    "difficulty": "easy"
   },
   {
     "question": "Save Money — Savings Rate",
@@ -36,7 +38,8 @@
       "Compound interest only helps people with high incomes"
     ],
     "answer": "The chef's savings rate matters more than the absolute income difference",
-    "explanation": "Housel emphasizes that the savings rate is the most controllable factor in wealth building. A 20% saver on a modest income can out-accumulate a 5% saver on a high income because behavior, not paycheck, drives long-term outcomes."
+    "explanation": "Housel emphasizes that the savings rate is the most controllable factor in wealth building. A 20% saver on a modest income can out-accumulate a 5% saver on a high income because behavior, not paycheck, drives long-term outcomes.",
+    "difficulty": "easy"
   },
   {
     "question": "The Man in the Car Paradox",
@@ -49,7 +52,8 @@
       "Visible symbols of wealth always earn admiration from others"
     ],
     "answer": "Your relatives will imagine themselves wearing the watch rather than admiring you",
-    "explanation": "Housel explains that status symbols backfire. When others see an expensive item, they imagine themselves owning it—they do not feel admiration for the owner. Spending on status buys neither admiration nor happiness."
+    "explanation": "Housel explains that status symbols backfire. When others see an expensive item, they imagine themselves owning it—they do not feel admiration for the owner. Spending on status buys neither admiration nor happiness.",
+    "difficulty": "easy"
   },
   {
     "question": "Tails, You Win — Staying in the Game",
@@ -62,7 +66,8 @@
       "Gallery shows are the only meaningful measure of success for an artist"
     ],
     "answer": "The rare high-impact events justify staying in the game through many ordinary outcomes",
-    "explanation": "Housel’s tails concept shows that most outcomes are ordinary, but a few extraordinary events drive overall success. The potter could not have predicted which pieces would go viral, but staying active made the tail event possible."
+    "explanation": "Housel’s tails concept shows that most outcomes are ordinary, but a few extraordinary events drive overall success. The potter could not have predicted which pieces would go viral, but staying active made the tail event possible.",
+    "difficulty": "easy"
   },
   {
     "question": "Getting Wealthy vs. Staying Wealthy — Survival",
@@ -75,7 +80,8 @@
       "Retirees should invest all their money in one high-growth opportunity"
     ],
     "answer": "The first priority after building wealth is protecting it from unnecessary risk",
-    "explanation": "Housel stresses that staying wealthy requires a different mindset than getting wealthy. The couple has already built their nest egg. Their priority should now be preservation through caution and avoiding bets that could wipe them out."
+    "explanation": "Housel stresses that staying wealthy requires a different mindset than getting wealthy. The couple has already built their nest egg. Their priority should now be preservation through caution and avoiding bets that could wipe them out.",
+    "difficulty": "easy"
   },
   {
     "question": "Freedom — Time Control",
@@ -88,7 +94,8 @@
       "The promotion should come first and family priorities second"
     ],
     "answer": "Using financial stability to control your time is one of the highest uses of money",
-    "explanation": "Housel argues that control over your time is the single best thing money can buy. This parent has used their financial position to prioritize what matters most to them. That is wealth well spent."
+    "explanation": "Housel argues that control over your time is the single best thing money can buy. This parent has used their financial position to prioritize what matters most to them. That is wealth well spent.",
+    "difficulty": "easy"
   },
   {
     "question": "Wealth Is What You Do Not See — Frugality",
@@ -101,7 +108,8 @@
       "Frugality is only necessary for people who cannot afford anything"
     ],
     "answer": "His visible lifestyle gives no indication of his actual wealth",
-    "explanation": "Housel’s core insight: wealth is what you do not see. The electrician’s actual wealth is in his rental properties and savings—completely invisible. His frugal appearance is not a sign of poverty but of financial freedom."
+    "explanation": "Housel’s core insight: wealth is what you do not see. The electrician’s actual wealth is in his rental properties and savings—completely invisible. His frugal appearance is not a sign of poverty but of financial freedom.",
+    "difficulty": "medium"
   },
   {
     "question": "Save Money — Consistency Over Income",
@@ -114,7 +122,8 @@
       "The example only works in ideal market conditions"
     ],
     "answer": "Starting early with smaller amounts can beat starting late with larger ones",
-    "explanation": "Housel uses Warren Buffett to show the power of starting early. The teacher’s extra 18 years of compounding more than compensates for the smaller monthly contributions. Time is the most powerful force in investing."
+    "explanation": "Housel uses Warren Buffett to show the power of starting early. The teacher’s extra 18 years of compounding more than compensates for the smaller monthly contributions. Time is the most powerful force in investing.",
+    "difficulty": "medium"
   },
   {
     "question": "Getting Wealthy vs. Staying Wealthy — The Barbell",
@@ -127,6 +136,7 @@
       "Preparing for bad times guarantees that bad times will come"
     ],
     "answer": "This barbell approach combining optimism with paranoia is a powerful wealth strategy",
-    "explanation": "Housel advocates for a barbell personality: be optimistic enough to take productive risks, but paranoid enough to protect against downside. The farmer embodies this—hoping for the best while preparing for the worst."
+    "explanation": "Housel advocates for a barbell personality: be optimistic enough to take productive risks, but paranoid enough to protect against downside. The farmer embodies this—hoping for the best while preparing for the worst.",
+    "difficulty": "medium"
   }
 ]

@@ -10,7 +10,8 @@
       "The rumors are a sign that the productive zone of disequilibrium is too low."
     ],
     "answer": "The system is using personal attacks to neutralize the threat you pose to the status quo.",
-    "explanation": "When you surface an adaptive challenge, the system often reacts by attacking the 'messenger' rather than the 'message.' This is a natural defensive mechanism to avoid the hard work of change."
+    "explanation": "When you surface an adaptive challenge, the system often reacts by attacking the 'messenger' rather than the 'message.' This is a natural defensive mechanism to avoid the hard work of change.",
+    "difficulty": "easy"
   },
   {
     "question": "Conflict as a Resource",
@@ -23,7 +24,8 @@
       "To report them both to HR for creating a disruptive environment."
     ],
     "answer": "To help them surface the underlying values (like 'speed' vs. 'stability') that are causing the clash.",
-    "explanation": "Orchestrating conflict means moving the conversation from 'who is right' to 'what values are at play.' This allows the group to see the adaptive trade-offs they are actually making."
+    "explanation": "Orchestrating conflict means moving the conversation from 'who is right' to 'what values are at play.' This allows the group to see the adaptive trade-offs they are actually making.",
+    "difficulty": "easy"
   },
   {
     "question": "Creating a Holding Environment",
@@ -36,7 +38,8 @@
       "By excluding the most vocal critics so the meeting proceeds smoothly."
     ],
     "answer": "By establishing clear ground rules for respect and ensuring every key stakeholder is present and heard.",
-    "explanation": "A strong holding environment is built on trust, shared purpose, and clear 'rules of engagement.' This allows people to stay in the 'heat' of the conflict without it becoming destructive."
+    "explanation": "A strong holding environment is built on trust, shared purpose, and clear 'rules of engagement.' This allows people to stay in the 'heat' of the conflict without it becoming destructive.",
+    "difficulty": "easy"
   },
   {
     "question": "Regulating the Heat",
@@ -49,7 +52,8 @@
       "The heat is irrelevant; silence means everyone has finally agreed."
     ],
     "answer": "The heat is too high (panic/shutdown); you should lower it by acknowledging the difficulty of the topic.",
-    "explanation": "When a room goes 'dead silent' in a way that feels heavy, it often means the disequilibrium has exceeded the system's capacity. You need to 'lower the heat' slightly to make the work feel possible again."
+    "explanation": "When a room goes 'dead silent' in a way that feels heavy, it often means the disequilibrium has exceeded the system's capacity. You need to 'lower the heat' slightly to make the work feel possible again.",
+    "difficulty": "easy"
   },
   {
     "question": "Giving the Work Back (Conflict)",
@@ -62,7 +66,8 @@
       "Ask each to present their case to you, then decide in private."
     ],
     "answer": "Tell them they must work out a shared budget together and come back with a unanimous proposal.",
-    "explanation": "This is 'giving the work back.' By forcing them to negotiate, you are requiring them to face the adaptive challenge of shared resources rather than letting you be the 'technical' referee."
+    "explanation": "This is 'giving the work back.' By forcing them to negotiate, you are requiring them to face the adaptive challenge of shared resources rather than letting you be the 'technical' referee.",
+    "difficulty": "easy"
   },
   {
     "question": "Distinguishing 'Person' from 'Perspective'",
@@ -75,7 +80,8 @@
       "As a symptom of a difficult family dynamic."
     ],
     "answer": "As the voice representing the 'conservation' of traditional family values and stability.",
-    "explanation": "Framing them as a 'voice for stability' allows the group to respect the perspective they bring. It moves the conflict from 'fighting the meddler' to 'balancing modern approaches with traditional values.'"
+    "explanation": "Framing them as a 'voice for stability' allows the group to respect the perspective they bring. It moves the conflict from 'fighting the meddler' to 'balancing modern approaches with traditional values.'",
+    "difficulty": "easy"
   },
   {
     "question": "Protecting Voices from the Margin (Part 2)",
@@ -88,7 +94,8 @@
       "Agree with the junior staff member to show that you are 'on their side.'"
     ],
     "answer": "Interrupt the team and say, 'Wait, let’s give them space to finish their thought—it’s an important point.'",
-    "explanation": "A leader doesn't have to 'agree' with the margin voice, but they must 'protect' it. This ensures the conflict remains honest and doesn't become a superficial consensus."
+    "explanation": "A leader doesn't have to 'agree' with the margin voice, but they must 'protect' it. This ensures the conflict remains honest and doesn't become a superficial consensus.",
+    "difficulty": "medium"
   },
   {
     "question": "Using 'Pacing'",
@@ -101,7 +108,8 @@
       "A default response to keep things comfortable."
     ],
     "answer": "Pacing the work of adaptation so the system can absorb the change.",
-    "explanation": "Pacing is about 'regulating the rate of distress.' By focusing on one area first, you allow the system to build the 'muscle' of adaptation without becoming overwhelmed by the total conflict."
+    "explanation": "Pacing is about 'regulating the rate of distress.' By focusing on one area first, you allow the system to build the 'muscle' of adaptation without becoming overwhelmed by the total conflict.",
+    "difficulty": "medium"
   },
   {
     "question": "Identifying 'Work Avoidance' in Conflict",
@@ -114,7 +122,8 @@
       "They need a stronger leader to tell them where to sit."
     ],
     "answer": "The conflict is a work avoidance mechanism to escape the pain of the financial crisis.",
-    "explanation": "Arguing over 'office space' is much easier than facing a failing business model. As a leader, you must dismantle the fake conflict to focus the group on the real one."
+    "explanation": "Arguing over 'office space' is much easier than facing a failing business model. As a leader, you must dismantle the fake conflict to focus the group on the real one.",
+    "difficulty": "medium"
   },
   {
     "question": "The Leader as 'Lightning Rod'",
@@ -127,6 +136,7 @@
       "Step down from the leadership role to let someone else take the heat."
     ],
     "answer": "Acknowledge their frustration but hold the line on making them do the work.",
-    "explanation": "To stay effective, you must expect the frustration and realize it's a sign that you are actually doing the work of leadership. Absorbing the heat without reacting allows the team to eventually refocus on the challenge."
+    "explanation": "To stay effective, you must expect the frustration and realize it's a sign that you are actually doing the work of leadership. Absorbing the heat without reacting allows the team to eventually refocus on the challenge.",
+    "difficulty": "medium"
   }
 ]

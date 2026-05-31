@@ -10,7 +10,8 @@
       "To prove that her job requires more than eight hours"
     ],
     "answer": "To provide concrete data that she can use to consciously reduce those hours in favor of deeper work",
-    "explanation": "You cannot manage what you do not measure. Time-blocking reveals where shallow time is leaking, giving you the data to reclaim it for depth."
+    "explanation": "You cannot manage what you do not measure. Time-blocking reveals where shallow time is leaking, giving you the data to reclaim it for depth.",
+    "difficulty": "medium"
   },
   {
     "question": "Quantify the Depth of Your Activities",
@@ -23,7 +24,8 @@
       "Strategic work, because it ensures books are findable"
     ],
     "answer": "Shallow work, because it requires minimal specialized training and is easily replicated",
-    "explanation": "The depth test measures whether the task leverages your unique expertise. Reshelving can be learned in an hour, so it does not qualify as deep work, however necessary it may be."
+    "explanation": "The depth test measures whether the task leverages your unique expertise. Reshelving can be learned in an hour, so it does not qualify as deep work, however necessary it may be.",
+    "difficulty": "medium"
   },
   {
     "question": "The Shallow Work Budget",
@@ -36,7 +38,8 @@
       "Ask for a raise to compensate for the lost deep time"
     ],
     "answer": "Use the agreed budget to justify skipping or shortening low-value meetings",
-    "explanation": "The shallow work budget is a negotiation tool. Once agreed upon, it empowers you to make decisions about which shallow activities to cut to stay within the limit."
+    "explanation": "The shallow work budget is a negotiation tool. Once agreed upon, it empowers you to make decisions about which shallow activities to cut to stay within the limit.",
+    "difficulty": "medium"
   },
   {
     "question": "Become Hard to Reach",
@@ -49,7 +52,8 @@
       "It eliminates all administrative tasks from her day"
     ],
     "answer": "It batches shallow administrative work into two predictable blocks, protecting the rest of her day for patient-focused deep thinking",
-    "explanation": "By batching and deferring shallow communication, you prevent it from fragmenting your entire day. Patients with urgent needs still have a channel, but routine inquiries no longer interrupt deep work."
+    "explanation": "By batching and deferring shallow communication, you prevent it from fragmenting your entire day. Patients with urgent needs still have a channel, but routine inquiries no longer interrupt deep work.",
+    "difficulty": "medium"
   },
   {
     "question": "Process-Centric Emails",
@@ -62,7 +66,8 @@
       "'Why do you need to reschedule?'"
     ],
     "answer": "'I am available Saturday 9-12 or Sunday 2-5 at the park. If either works, reply with your preference and I will update the calendar.'",
-    "explanation": "A process-centric email provides specific options and a clear next step, eliminating the need for further email ping-pong to nail down details."
+    "explanation": "A process-centric email provides specific options and a clear next step, eliminating the need for further email ping-pong to nail down details.",
+    "difficulty": "medium"
   },
   {
     "question": "The Meeting Fallacy",
@@ -75,7 +80,8 @@
       "The budget is too small to justify any meeting time"
     ],
     "answer": "The chairperson should have spent thirty minutes of deep work preparing a proposal with options, then emailed it for approval",
-    "explanation": "Most meetings exist because nobody invested the focused effort to think through the problem in advance. That investment of depth often makes the meeting unnecessary."
+    "explanation": "Most meetings exist because nobody invested the focused effort to think through the problem in advance. That investment of depth often makes the meeting unnecessary.",
+    "difficulty": "hard"
   },
   {
     "question": "Shallow Work is Non-Exportable",
@@ -88,7 +94,8 @@
       "She has built enough seniority to be protected"
     ],
     "answer": "Her shallow skills are easily replaced because she did not develop unique, deep expertise",
-    "explanation": "Shallow work builds a 'moat' around your career. Easily replicable skills offer little protection when automation or restructuring arrives."
+    "explanation": "Shallow work builds a 'moat' around your career. Easily replicable skills offer little protection when automation or restructuring arrives.",
+    "difficulty": "hard"
   },
   {
     "question": "The Productivity Funnel",
@@ -101,7 +108,8 @@
       "The chef should hire a general manager immediately"
     ],
     "answer": "Too many competing tasks fragment focus, preventing any single project from receiving the intensity needed for completion",
-    "explanation": "Deep work capacity is finite. When you spread it across too many tasks, none receives enough intensity to push through to completion. The funnel gets clogged."
+    "explanation": "Deep work capacity is finite. When you spread it across too many tasks, none receives enough intensity to push through to completion. The funnel gets clogged.",
+    "difficulty": "hard"
   },
   {
     "question": "Sender Filters",
@@ -114,7 +122,8 @@
       "It is required by financial regulations"
     ],
     "answer": "It shifts the shallow work of articulating the request to the sender, protecting her time for high-value financial analysis",
-    "explanation": "Sender filters make others do the cognitive work of clarifying their needs. Many prospective clients will realize their question is not urgent, and those who do respond provide enough context for a focused reply."
+    "explanation": "Sender filters make others do the cognitive work of clarifying their needs. Many prospective clients will realize their question is not urgent, and those who do respond provide enough context for a focused reply.",
+    "difficulty": "hard"
   },
   {
     "question": "Fixed-Schedule Productivity",
@@ -127,6 +136,7 @@
       "No, but she should read journals at home instead"
     ],
     "answer": "No; the constraint is working by forcing her to distinguish between productive reading and passive browsing",
-    "explanation": "The fixed schedule acts as a forcing function. When time is scarce, your brain naturally prioritizes high-value activities and reveals which habits were actually low-value fillers."
+    "explanation": "The fixed schedule acts as a forcing function. When time is scarce, your brain naturally prioritizes high-value activities and reveals which habits were actually low-value fillers.",
+    "difficulty": "hard"
   }
 ]

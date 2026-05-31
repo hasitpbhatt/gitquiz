@@ -10,7 +10,8 @@
       "They received a free gift for signing the petition"
     ],
     "answer": "They want to appear consistent with their prior commitment",
-    "explanation": "The initial act of signing the petition creates a self-image of being an environmental supporter, creating internal pressure to act consistently with that identity through subsequent actions like donating."
+    "explanation": "The initial act of signing the petition creates a self-image of being an environmental supporter, creating internal pressure to act consistently with that identity through subsequent actions like donating.",
+    "difficulty": "easy"
   },
   {
     "question": "Foot-in-the-Door Technique",
@@ -23,7 +24,8 @@
       "You think the volunteer is being persistent"
     ],
     "answer": "The small commitment created consistency pressure for the larger request",
-    "explanation": "Agreeing to the small sign request commits you to seeing yourself as someone who supports safe driving, making refusal of the larger billboard request inconsistent with that self-image."
+    "explanation": "Agreeing to the small sign request commits you to seeing yourself as someone who supports safe driving, making refusal of the larger billboard request inconsistent with that self-image.",
+    "difficulty": "easy"
   },
   {
     "question": "Public Commitments",
@@ -36,7 +38,8 @@
       "Social media reduces cravings for cigarettes"
     ],
     "answer": "The public commitment creates stronger consistency pressure",
-    "explanation": "Public commitments tie our self-image to social reputation. Backing out would require admitting inconsistency to others, creating stronger motivation to follow through than with private commitments."
+    "explanation": "Public commitments tie our self-image to social reputation. Backing out would require admitting inconsistency to others, creating stronger motivation to follow through than with private commitments.",
+    "difficulty": "easy"
   },
   {
     "question": "Written Commitments",
@@ -49,7 +52,8 @@
       "Writing burns more calories than talking"
     ],
     "answer": "Written goals create stronger consistency pressure than verbal ones",
-    "explanation": "The tangible nature of written commitments makes them harder to dismiss or forget, creating a persistent reminder that influences behavior through consistency motivations."
+    "explanation": "The tangible nature of written commitments makes them harder to dismiss or forget, creating a persistent reminder that influences behavior through consistency motivations.",
+    "difficulty": "easy"
   },
   {
     "question": "Lowball Technique",
@@ -62,7 +66,8 @@
       "You believe no better deal exists elsewhere"
     ],
     "answer": "You've already committed and want to be consistent",
-    "explanation": "Once you've committed to buying the car, backing out would require admitting inconsistency with your decision. Most people choose to stick with the commitment even when terms change unfavorably."
+    "explanation": "Once you've committed to buying the car, backing out would require admitting inconsistency with your decision. Most people choose to stick with the commitment even when terms change unfavorably.",
+    "difficulty": "easy"
   },
   {
     "question": "Consistency vs. Cognitive Dissonance",
@@ -75,7 +80,8 @@
       "Reciprocity — the charity should have given them something first"
     ],
     "answer": "Cognitive dissonance — they changed their beliefs to justify the inconsistent action",
-    "explanation": "Cognitive dissonance creates discomfort when actions conflict with beliefs. Instead of changing the behavior or tolerating the inconsistency, the person resolves discomfort by changing their belief about emissions. This differs from consistency, which involves aligning future actions with a prior commitment."
+    "explanation": "Cognitive dissonance creates discomfort when actions conflict with beliefs. Instead of changing the behavior or tolerating the inconsistency, the person resolves discomfort by changing their belief about emissions. This differs from consistency, which involves aligning future actions with a prior commitment.",
+    "difficulty": "easy"
   },
   {
     "question": "Commitment Through Effort",
@@ -88,7 +94,8 @@
       "Feel indifferent about their membership status"
     ],
     "answer": "Value their membership more due to the effort expended",
-    "explanation": "The effort justification effect causes us to increase our liking for something we've suffered for, reducing cognitive dissonance between the unpleasant initiation and our decision to join."
+    "explanation": "The effort justification effect causes us to increase our liking for something we've suffered for, reducing cognitive dissonance between the unpleasant initiation and our decision to join.",
+    "difficulty": "easy"
   },
   {
     "question": "Escalating Commitment",
@@ -101,6 +108,7 @@
       "Scarcity of other investment opportunities"
     ],
     "answer": "The sunk cost fallacy driving continued investment despite evidence",
-    "explanation": "The sunk cost fallacy is a specific form of escalating commitment where past investment drives continued spending despite negative returns. While consistency with the original decision plays a supporting role, the core mechanism is the irrational weighting of sunk costs over future expected value."
+    "explanation": "The sunk cost fallacy is a specific form of escalating commitment where past investment drives continued spending despite negative returns. While consistency with the original decision plays a supporting role, the core mechanism is the irrational weighting of sunk costs over future expected value.",
+    "difficulty": "medium"
   }
 ]

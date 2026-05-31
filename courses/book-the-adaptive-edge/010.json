@@ -10,7 +10,8 @@
       "An act of work avoidance regarding your primary duties."
     ],
     "answer": "Answering the 'Personal Challenge' to lead where it is most needed, not where it is easiest.",
-    "explanation": "The personal challenge is about the 'courage to lead.' It involves choosing to step into the heat of adaptive work because it aligns with a deeper purpose, even when the path is uncertain."
+    "explanation": "The personal challenge is about the 'courage to lead.' It involves choosing to step into the heat of adaptive work because it aligns with a deeper purpose, even when the path is uncertain.",
+    "difficulty": "easy"
   },
   {
     "question": "Maintaining a 'Purpose-Driven' Life",
@@ -23,7 +24,8 @@
       "Accept the promotion and stop the transparency work to please your new bosses."
     ],
     "answer": "Evaluate the offer against your core purpose and decide if the 'role' still allows you to do the 'work.'",
-    "explanation": "Leadership is about the work, not the title. If a new role prevents you from addressing the adaptive challenges you value, it may be a 'trap' rather than an advancement."
+    "explanation": "Leadership is about the work, not the title. If a new role prevents you from addressing the adaptive challenges you value, it may be a 'trap' rather than an advancement.",
+    "difficulty": "easy"
   },
   {
     "question": "The Capacity for Empathy",
@@ -36,7 +38,8 @@
       "Personal work avoidance."
     ],
     "answer": "Leadership empathy as a diagnostic and personal tool.",
-    "explanation": "Empathy allows you to see the human being behind the 'saboteur.' It helps you stay grounded and find ways to address their fears rather than just escalating the conflict."
+    "explanation": "Empathy allows you to see the human being behind the 'saboteur.' It helps you stay grounded and find ways to address their fears rather than just escalating the conflict.",
+    "difficulty": "medium"
   },
   {
     "question": "Living with the 'Gap'",
@@ -49,7 +52,8 @@
       "Tell the team they are doing a perfect job to lower the tension in the room."
     ],
     "answer": "Accept the frustration as the 'fuel' for the work and stay committed to the long-term process.",
-    "explanation": "The 'gap' is where leadership happens. Living with the discomfort of 'unfinished business' is a core requirement of the personal challenge."
+    "explanation": "The 'gap' is where leadership happens. Living with the discomfort of 'unfinished business' is a core requirement of the personal challenge.",
+    "difficulty": "medium"
   },
   {
     "question": "The Courage to be 'Wrong'",
@@ -62,7 +66,8 @@
       "Quietly stop talking about the protocol and hope everyone forgets it was your idea."
     ],
     "answer": "Publicly acknowledge the failure, harvest the data on why it failed, and try a new approach.",
-    "explanation": "Humility is a leadership strength. Admitting a mistake builds trust and models the 'learning behavior' that an adaptive organization needs to thrive."
+    "explanation": "Humility is a leadership strength. Admitting a mistake builds trust and models the 'learning behavior' that an adaptive organization needs to thrive.",
+    "difficulty": "medium"
   },
   {
     "question": "Managing the 'Hunger' for Control",
@@ -75,7 +80,8 @@
       "Because you want to see if they will fail so you can fire them."
     ],
     "answer": "To build their adaptive capacity and resist your own 'hunger' for control.",
-    "explanation": "Letting go of control is a personal sacrifice for the sake of the team's growth. It is the only way to move from a 'technical' dependency on the leader to a 'thriving' independent team."
+    "explanation": "Letting go of control is a personal sacrifice for the sake of the team's growth. It is the only way to move from a 'technical' dependency on the leader to a 'thriving' independent team.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Open Heart' in Leadership",
@@ -88,7 +94,8 @@
       "As a default response to stress that should be eliminated."
     ],
     "answer": "As an expression of an open heart that maintains a human connection during a period of loss.",
-    "explanation": "Authenticity and vulnerability are powerful leadership tools. They show the team that you are 'in the struggle' with them, which strengthens the holding environment."
+    "explanation": "Authenticity and vulnerability are powerful leadership tools. They show the team that you are 'in the struggle' with them, which strengthens the holding environment.",
+    "difficulty": "medium"
   },
   {
     "question": "Cultivating Curiosity",
@@ -101,7 +108,8 @@
       "Tell them to spend more time learning the basics before making suggestions."
     ],
     "answer": "Adopt a stance of curiosity and ask: 'Tell me more—what do you see that I might be missing?'",
-    "explanation": "Curiosity is a safeguard against the 'expert trap.' It allows a leader to find the 'voices from the margin' that often hold the key to the next adaptive leap."
+    "explanation": "Curiosity is a safeguard against the 'expert trap.' It allows a leader to find the 'voices from the margin' that often hold the key to the next adaptive leap.",
+    "difficulty": "medium"
   },
   {
     "question": "The Leader's Integrity",
@@ -114,7 +122,8 @@
       "A sign that you don't understand how to play the 'game' of authority."
     ],
     "answer": "The pinnacle of personal integrity in a leadership role.",
-    "explanation": "Integrity is the willingness to sacrifice 'self-interest' for the 'purpose' of the organization. It is the ultimate test of the personal challenge."
+    "explanation": "Integrity is the willingness to sacrifice 'self-interest' for the 'purpose' of the organization. It is the ultimate test of the personal challenge.",
+    "difficulty": "hard"
   },
   {
     "question": "Finding Joy in the Struggle",
@@ -127,6 +136,7 @@
       "A technical satisfaction with your team's improved communication skills."
     ],
     "answer": "The reward of leadership—witnessing the expansion of human and organizational capacity.",
-    "explanation": "The 'win' in adaptive work isn't a clean finish line; it’s the transformation of the people and the system. Recognizing this growth is the source of a leader's lasting joy."
+    "explanation": "The 'win' in adaptive work isn't a clean finish line; it’s the transformation of the people and the system. Recognizing this growth is the source of a leader's lasting joy.",
+    "difficulty": "hard"
   }
 ]

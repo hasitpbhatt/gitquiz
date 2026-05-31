@@ -10,7 +10,8 @@
       "Implementation Intentions"
     ],
     "answer": "The Power of Tiny Gains",
-    "explanation": "Tiny gains compound. The daily 10 minutes accumulate, but more importantly each session builds on the previous one through compounding, creating exponential improvement over the year."
+    "explanation": "Tiny gains compound. The daily 10 minutes accumulate, but more importantly each session builds on the previous one through compounding, creating exponential improvement over the year.",
+    "difficulty": "easy"
   },
   {
     "question": "The Plateau of Latent Potential",
@@ -23,7 +24,8 @@
       "The Premack Principle"
     ],
     "answer": "The Plateau of Latent Potential",
-    "explanation": "Like heating an ice cube from 25 to 31 degrees shows no visible change, the early work was not wasted. At 32 degrees the melt happens. Results lag behind effort, so persistence through the plateau is essential."
+    "explanation": "Like heating an ice cube from 25 to 31 degrees shows no visible change, the early work was not wasted. At 32 degrees the melt happens. Results lag behind effort, so persistence through the plateau is essential.",
+    "difficulty": "easy"
   },
   {
     "question": "Forget Goals, Focus on Systems",
@@ -36,7 +38,8 @@
       "The Two-Minute Rule"
     ],
     "answer": "The Difference Between Goals and Systems",
-    "explanation": "Goals set direction but systems make progress. The daily writing habit is a controllable system; the bestseller list is an uncontrollable outcome. Focusing on the system ensures consistent action."
+    "explanation": "Goals set direction but systems make progress. The daily writing habit is a controllable system; the bestseller list is an uncontrollable outcome. Focusing on the system ensures consistent action.",
+    "difficulty": "easy"
   },
   {
     "question": "The Concept of Atomic Habits",
@@ -49,7 +52,8 @@
       "Because they remain invisible until triggered by external events"
     ],
     "answer": "Because they are tiny yet serve as the fundamental building blocks of larger systems",
-    "explanation": "Atomic captures the duality of being tiny in scale yet foundational in power. Just as atoms form molecules, atomic habits are small actions that build into remarkable systems."
+    "explanation": "Atomic captures the duality of being tiny in scale yet foundational in power. Just as atoms form molecules, atomic habits are small actions that build into remarkable systems.",
+    "difficulty": "easy"
   },
   {
     "question": "Breaking the Binary of Success",
@@ -62,7 +66,8 @@
       "As a neutral day with no useful outcome"
     ],
     "answer": "As a success because the process was executed",
-    "explanation": "Systems define success as following the process. The ten calls are votes for the identity of a diligent salesperson. Deals follow the math over time, not per individual day."
+    "explanation": "Systems define success as following the process. The ten calls are votes for the identity of a diligent salesperson. Deals follow the math over time, not per individual day.",
+    "difficulty": "easy"
   },
   {
     "question": "The Negative Compounding Effect",
@@ -75,7 +80,8 @@
       "The Horns Effect"
     ],
     "answer": "The Negative Compounding Effect",
-    "explanation": "Just as good habits compound, so do bad ones. Each skipped refactoring seems harmless alone, but the accumulation creates technical debt that compounds toward zero productivity."
+    "explanation": "Just as good habits compound, so do bad ones. Each skipped refactoring seems harmless alone, but the accumulation creates technical debt that compounds toward zero productivity.",
+    "difficulty": "easy"
   },
   {
     "question": "The Problem with Goal-Oriented Happiness",
@@ -88,7 +94,8 @@
       "By ignoring the race results entirely"
     ],
     "answer": "By focusing on the identity of being a runner rather than the finish line",
-    "explanation": "Systems-first thinking means loving the process. If the daily run is itself the goal, satisfaction comes every day the system runs, not just on race day."
+    "explanation": "Systems-first thinking means loving the process. If the daily run is itself the goal, satisfaction comes every day the system runs, not just on race day.",
+    "difficulty": "easy"
   },
   {
     "question": "Long-Term Persistence vs. Quick Fixes",
@@ -101,7 +108,8 @@
       "The Premack Principle"
     ],
     "answer": "The Importance of Long-Term Persistence",
-    "explanation": "Human nature craves immediate results, but habits compound slowly. Most people abandon their system before compounding has a chance to produce visible results."
+    "explanation": "Human nature craves immediate results, but habits compound slowly. Most people abandon their system before compounding has a chance to produce visible results.",
+    "difficulty": "easy"
   },
   {
     "question": "The Feedback Loop of Habits",
@@ -114,7 +122,8 @@
       "Temptation Bundling"
     ],
     "answer": "The Feedback Loop of Habits (double-edged nature)",
-    "explanation": "The same mechanism works in both directions. Daily actions, positive or negative, reinforce themselves through repetition. Understanding this dual nature is essential for taking control."
+    "explanation": "The same mechanism works in both directions. Daily actions, positive or negative, reinforce themselves through repetition. Understanding this dual nature is essential for taking control.",
+    "difficulty": "easy"
   },
   {
     "question": "Systems in Practice: Sports Analogy",
@@ -127,7 +136,8 @@
       "Temptation Bundling"
     ],
     "answer": "Systems vs. Goals in Practice",
-    "explanation": "The scoreboard is the goal reflecting past system performance. Obsessing over it does not improve future results, but refining the daily practice system does."
+    "explanation": "The scoreboard is the goal reflecting past system performance. Obsessing over it does not improve future results, but refining the daily practice system does.",
+    "difficulty": "easy"
   },
   {
     "question": "The Valley of Disappointment",
@@ -140,7 +150,8 @@
       "The Feedback Loop"
     ],
     "answer": "The Valley of Disappointment",
-    "explanation": "The Valley of Disappointment is the emotional gap between effort and visible results. People expect linear progress, but habits compound exponentially, so the exciting results arrive later. Persisting through this valley is essential for breakthrough."
+    "explanation": "The Valley of Disappointment is the emotional gap between effort and visible results. People expect linear progress, but habits compound exponentially, so the exciting results arrive later. Persisting through this valley is essential for breakthrough.",
+    "difficulty": "easy"
   },
   {
     "question": "Marginal Gains in Practice",
@@ -153,6 +164,7 @@
       "Implementation Intentions"
     ],
     "answer": "The aggregation of marginal gains",
-    "explanation": "The British Cycling story is the flagship case study of atomic habits. No single change was revolutionary, but the aggregation of dozens of 1% improvements across many domains created a breakthrough in performance."
+    "explanation": "The British Cycling story is the flagship case study of atomic habits. No single change was revolutionary, but the aggregation of dozens of 1% improvements across many domains created a breakthrough in performance.",
+    "difficulty": "easy"
   }
 ]

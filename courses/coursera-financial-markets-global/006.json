@@ -3,9 +3,15 @@
     "question": "Fractional Reserve Banking",
     "content": "Fractional reserve banking is a system where banks only hold a small portion of their customers' deposits as actual cash on hand and lend out the rest. This process allows banks to create money in the economy by cycling deposits into new loans.",
     "description": "If every single customer at a major bank tried to withdraw their cash at the exact same moment, the bank would likely fail. What is the technical term for this event?",
-    "options": ["A Dividend Cut", "A Bank Run", "Quantitative Easing", "Market Arbitrage"],
+    "options": [
+      "A Dividend Cut",
+      "A Bank Run",
+      "Quantitative Easing",
+      "Market Arbitrage"
+    ],
     "answer": "A Bank Run",
-    "explanation": "A bank run occurs when depositors fear a bank is insolvent and rush to withdraw their funds. Since the bank has lent most of that money out for long-term loans (like mortgages), it cannot provide all the cash immediately."
+    "explanation": "A bank run occurs when depositors fear a bank is insolvent and rush to withdraw their funds. Since the bank has lent most of that money out for long-term loans (like mortgages), it cannot provide all the cash immediately.",
+    "difficulty": "easy"
   },
   {
     "question": "The Federal Reserve and Interest Rates",
@@ -18,7 +24,8 @@
       "To increase the value of the dollar against the Euro"
     ],
     "answer": "To encourage borrowing and spending to stimulate economic growth",
-    "explanation": "Lower interest rates make it cheaper for businesses to expand and for consumers to buy cars or houses. This 'cheap money' is intended to kickstart economic activity during slow periods."
+    "explanation": "Lower interest rates make it cheaper for businesses to expand and for consumers to buy cars or houses. This 'cheap money' is intended to kickstart economic activity during slow periods.",
+    "difficulty": "easy"
   },
   {
     "question": "Deposit Insurance (FDIC)",
@@ -31,23 +38,36 @@
       "You must wait 20 years for the bank's assets to be sold"
     ],
     "answer": "Your money is fully protected and will be returned to you by the government",
-    "explanation": "The FDIC currently insures deposits up to $250,000 per depositor, per insured bank. This guarantee is backed by the full faith and credit of the United States government."
+    "explanation": "The FDIC currently insures deposits up to $250,000 per depositor, per insured bank. This guarantee is backed by the full faith and credit of the United States government.",
+    "difficulty": "easy"
   },
   {
     "question": "Monetary Policy vs. Fiscal Policy",
     "content": "Monetary policy involves managing the money supply and interest rates (controlled by central banks). Fiscal policy involves government spending and taxation (controlled by Congress and the President). Both are used to stabilize the economy, but they use different 'levers.'",
     "description": "The government decides to issue a $1,200 stimulus check to every citizen to boost the economy. Is this an example of Monetary or Fiscal policy?",
-    "options": ["Monetary Policy", "Fiscal Policy", "Both", "Neither"],
+    "options": [
+      "Monetary Policy",
+      "Fiscal Policy",
+      "Both",
+      "Neither"
+    ],
     "answer": "Fiscal Policy",
-    "explanation": "Since this involves direct government spending and the budget, it is fiscal policy. Monetary policy would instead involve the Federal Reserve changing interest rates or buying bonds."
+    "explanation": "Since this involves direct government spending and the budget, it is fiscal policy. Monetary policy would instead involve the Federal Reserve changing interest rates or buying bonds.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Lender of Last Resort'",
     "content": "A central bank acts as the 'lender of last resort' by providing emergency liquidity to financial institutions that are struggling but still solvent. This prevents a temporary cash shortage at one bank from turning into a total collapse of the entire financial system.",
     "description": "During a financial panic, healthy banks are afraid to lend to each other. Who steps in to provide the necessary cash to keep the 'plumbing' of the system moving?",
-    "options": ["The Stock Market", "The Central Bank", "Private Equity Firms", "Individual Taxpayers"],
+    "options": [
+      "The Stock Market",
+      "The Central Bank",
+      "Private Equity Firms",
+      "Individual Taxpayers"
+    ],
     "answer": "The Central Bank",
-    "explanation": "Central banks have the unique power to create liquidity. By lending to banks when no one else will, they stop the 'domino effect' of bank failures."
+    "explanation": "Central banks have the unique power to create liquidity. By lending to banks when no one else will, they stop the 'domino effect' of bank failures.",
+    "difficulty": "medium"
   },
   {
     "question": "Inflation and Purchasing Power",
@@ -60,7 +80,8 @@
       "The government will pay you interest to compensate for the inflation"
     ],
     "answer": "The 'real' value of your money decreases because it buys 10% less every year",
-    "explanation": "Inflation is a 'hidden tax' on cash. While you still have the same number of bills, those bills lose their ability to purchase the same amount of goods as they did previously."
+    "explanation": "Inflation is a 'hidden tax' on cash. While you still have the same number of bills, those bills lose their ability to purchase the same amount of goods as they did previously.",
+    "difficulty": "medium"
   },
   {
     "question": "Capital Requirements",
@@ -73,7 +94,8 @@
       "To prevent the bank from hiring too many employees"
     ],
     "answer": "To ensure the bank can survive a sudden drop in the value of its investments without going bankrupt",
-    "explanation": "Capital is a safety cushion. If a bank has $10 in capital for every $100 in loans, and $5 worth of loans fail, the bank is still solvent because the loss is absorbed by its own capital 'buffer' rather than depositors' money."
+    "explanation": "Capital is a safety cushion. If a bank has $10 in capital for every $100 in loans, and $5 worth of loans fail, the bank is still solvent because the loss is absorbed by its own capital 'buffer' rather than depositors' money.",
+    "difficulty": "medium"
   },
   {
     "question": "Systemic Risk and 'Too Big to Fail'",
@@ -86,7 +108,8 @@
       "Because the banks promised to pay back double the money immediately"
     ],
     "answer": "Because letting them fail would have caused a total freeze of global credit, stopping businesses everywhere from operating",
-    "explanation": "The 'systemic' nature of these banks means they are so interconnected that their collapse would have destroyed the economy's ability to function, impacting even people who had nothing to do with those banks."
+    "explanation": "The 'systemic' nature of these banks means they are so interconnected that their collapse would have destroyed the economy's ability to function, impacting even people who had nothing to do with those banks.",
+    "difficulty": "medium"
   },
   {
     "question": "Quantitative Easing (QE)",
@@ -99,7 +122,8 @@
       "They must pay a higher tax rate to the government"
     ],
     "answer": "They have more cash on hand (liquidity), which encourages them to issue more loans to the public",
-    "explanation": "QE swaps 'non-liquid' bonds for 'liquid' cash. With more cash in their vaults, banks are under pressure to lend that money out to earn a return, which stimulates the economy."
+    "explanation": "QE swaps 'non-liquid' bonds for 'liquid' cash. With more cash in their vaults, banks are under pressure to lend that money out to earn a return, which stimulates the economy.",
+    "difficulty": "medium"
   },
   {
     "question": "The Dual Mandate",
@@ -112,6 +136,7 @@
       "They must do nothing because the two goals always happen at the same time"
     ],
     "answer": "They must raise interest rates to stop inflation, even if it might cause some people to lose their jobs",
-    "explanation": "This is the classic Fed dilemma. Raising rates cools down inflation but can also slow down the economy enough to increase unemployment. They must find a 'neutral' balance between the two."
+    "explanation": "This is the classic Fed dilemma. Raising rates cools down inflation but can also slow down the economy enough to increase unemployment. They must find a 'neutral' balance between the two.",
+    "difficulty": "medium"
   }
 ]

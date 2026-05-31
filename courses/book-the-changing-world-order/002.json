@@ -10,7 +10,8 @@
       "Equity Markets, because they reflect current profits."
     ],
     "answer": "Education and Innovation, because they are the earliest leading indicators.",
-    "explanation": "Education is the first determinant to rise. It produces the thinkers and creators who drive innovation, which eventually builds the economic and military power that follows much later."
+    "explanation": "Education is the first determinant to rise. It produces the thinkers and creators who drive innovation, which eventually builds the economic and military power that follows much later.",
+    "difficulty": "easy"
   },
   {
     "question": "The Rise Phase: Virtuous Cycles",
@@ -23,7 +24,8 @@
       "Internal political gridlock and frequent protests."
     ],
     "answer": "High rates of investment in infrastructure and productive assets.",
-    "explanation": "In the Rise phase, the focus is on building the 'engine' of the economy. This means high savings and investment into things that make the country more productive, rather than just consuming wealth."
+    "explanation": "In the Rise phase, the focus is on building the 'engine' of the economy. This means high savings and investment into things that make the country more productive, rather than just consuming wealth.",
+    "difficulty": "easy"
   },
   {
     "question": "The Peak Phase: Overextension",
@@ -36,7 +38,8 @@
       "Success causes a nation to naturally return to a gold standard."
     ],
     "answer": "Success often leads to over-borrowing and a loss of the competitive edge that caused the rise.",
-    "explanation": "As empires succeed, they become expensive. To maintain their standard of living and global reach, they start borrowing against their future, leading to the debt problems of the next phase."
+    "explanation": "As empires succeed, they become expensive. To maintain their standard of living and global reach, they start borrowing against their future, leading to the debt problems of the next phase.",
+    "difficulty": "easy"
   },
   {
     "question": "Hard Money vs. Fiat Money",
@@ -49,7 +52,8 @@
       "To simplify the tax code and reduce government bureaucracy."
     ],
     "answer": "To gain the freedom to print money and pay off debts with cheaper currency.",
-    "explanation": "De-linking from a commodity allows the central bank to create money at will. This 'prints' the country out of a nominal debt crisis but usually leads to inflation and the loss of purchasing power."
+    "explanation": "De-linking from a commodity allows the central bank to create money at will. This 'prints' the country out of a nominal debt crisis but usually leads to inflation and the loss of purchasing power.",
+    "difficulty": "easy"
   },
   {
     "question": "The Wealth Gap and Internal Conflict",
@@ -62,7 +66,8 @@
       "It encourages the wealthy to give more to charity, reducing tension."
     ],
     "answer": "It widens the gap because asset prices (owned by the wealthy) rise faster than wages.",
-    "explanation": "When money is printed, it flows into assets like stocks and real estate. Since the wealthy own most of these assets, their net worth grows, while the working class struggles with the rising cost of living."
+    "explanation": "When money is printed, it flows into assets like stocks and real estate. Since the wealthy own most of these assets, their net worth grows, while the working class struggles with the rising cost of living.",
+    "difficulty": "easy"
   },
   {
     "question": "The Decline Phase: Loss of Reserve Status",
@@ -75,7 +80,8 @@
       "When the country increases its interest rates to attract investors."
     ],
     "answer": "When other countries and investors stop using its currency as a store of value.",
-    "explanation": "Once a currency loses its status as a safe 'store of value,' the empire can no longer print money to solve its problems without causing hyper-inflation, marking the end of its global order."
+    "explanation": "Once a currency loses its status as a safe 'store of value,' the empire can no longer print money to solve its problems without causing hyper-inflation, marking the end of its global order.",
+    "difficulty": "easy"
   },
   {
     "question": "The Role of Human Nature",
@@ -88,7 +94,8 @@
       "Because modern computers have finally mapped out all possible human choices."
     ],
     "answer": "Because the 'cause-effect' relationships driven by human psychology don't change.",
-    "explanation": "Human psychology—greed, fear, and the drive for power—reacts to economic and social pressures in the same way today as it did 500 years ago, leading to the same cyclical results."
+    "explanation": "Human psychology—greed, fear, and the drive for power—reacts to economic and social pressures in the same way today as it did 500 years ago, leading to the same cyclical results.",
+    "difficulty": "easy"
   },
   {
     "question": "Competitiveness and Relative Standing",
@@ -101,7 +108,8 @@
       "Because growth rates are a lagging indicator of military power."
     ],
     "answer": "Because their 'Relative Power' is shrinking, making them vulnerable to Country B.",
-    "explanation": "In geopolitics, power is a zero-sum game. If a rival gains strength faster, they will eventually have more resources to spend on innovation, trade influence, and military strength, shifting the world order."
+    "explanation": "In geopolitics, power is a zero-sum game. If a rival gains strength faster, they will eventually have more resources to spend on innovation, trade influence, and military strength, shifting the world order.",
+    "difficulty": "easy"
   },
   {
     "question": "The Cost of Empire",
@@ -114,7 +122,8 @@
       "A country with a very small military but a huge economy."
     ],
     "answer": "A country having so many military bases that it must print money to fund them.",
-    "explanation": "Imperial overstretch occurs when the military obligations of an empire become so large that they drain the national treasury, forcing the nation to take on unsustainable debt."
+    "explanation": "Imperial overstretch occurs when the military obligations of an empire become so large that they drain the national treasury, forcing the nation to take on unsustainable debt.",
+    "difficulty": "easy"
   },
   {
     "question": "External Conflict and 'Testing'",
@@ -127,6 +136,7 @@
       "The productivity phase where rules no longer matter."
     ],
     "answer": "The Testing phase of the External Order.",
-    "explanation": "Testing occurs when the rising power feels strong enough to challenge the status quo. It is a dangerous period because it often escalates into 'hot' wars or major economic shifts."
+    "explanation": "Testing occurs when the rising power feels strong enough to challenge the status quo. It is a dangerous period because it often escalates into 'hot' wars or major economic shifts.",
+    "difficulty": "medium"
   }
 ]

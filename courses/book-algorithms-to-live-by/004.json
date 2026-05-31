@@ -10,7 +10,8 @@
       "Only use the desktop surface for storage"
     ],
     "answer": "Sticky notes are like CPU registers (fastest, smallest), filing cabinets like RAM (medium speed/size), basement archives like disk storage (slowest, largest)",
-    "explanation": "Just like computer memory hierarchy, your desk organizes items by access speed and frequency: sticky notes for immediate access (registers), filing cabinets for regular reference (RAM), and archives for infrequently accessed items (disk storage)."
+    "explanation": "Just like computer memory hierarchy, your desk organizes items by access speed and frequency: sticky notes for immediate access (registers), filing cabinets for regular reference (RAM), and archives for infrequently accessed items (disk storage).",
+    "difficulty": "easy"
   },
   {
     "question": "Least Recently Used (LRU)",
@@ -23,7 +24,8 @@
       "Least Frequently Used (LFU)"
     ],
     "answer": "Least Recently Used (LRU) - the leftmost items are most recently worn, so you\\'ll know what\\'s been unused longest on the right",
-    "explanation": "By hanging worn clothes on the leftmost side, you\\'re implementing LRU: items migrate left when used, so the leftmost items are most recently used and rightmost items are least recently used (candidates for removal/donation)."
+    "explanation": "By hanging worn clothes on the leftmost side, you\\'re implementing LRU: items migrate left when used, so the leftmost items are most recently used and rightmost items are least recently used (candidates for removal/donation).",
+    "difficulty": "easy"
   },
   {
     "question": "Least Frequently Used (LFU)",
@@ -36,7 +38,8 @@
       "Random Eviction"
     ],
     "answer": "Least Frequently Used (LFU) - the brush stays because of high frequency despite low recency",
-    "explanation": "LFU would keep the frequently-used paintbrush despite recent disuse because of its high usage count, whereas LRU might remove it if it\\'s been unused longer than other items."
+    "explanation": "LFU would keep the frequently-used paintbrush despite recent disuse because of its high usage count, whereas LRU might remove it if it\\'s been unused longer than other items.",
+    "difficulty": "easy"
   },
   {
     "question": "Belady\\'s Anomaly",
@@ -49,7 +52,8 @@
       "You\\'re imagining the performance decrease"
     ],
     "answer": "Belady\\'s Anomaly - certain caching algorithms perform worse with more space under specific access patterns",
-    "explanation": "With some page replacement algorithms (like FIFO), increasing cache size can paradoxically increase page faults for certain memory access patterns, demonstrating that more resources don\\'t always improve performance."
+    "explanation": "With some page replacement algorithms (like FIFO), increasing cache size can paradoxically increase page faults for certain memory access patterns, demonstrating that more resources don\\'t always improve performance.",
+    "difficulty": "medium"
   },
   {
     "question": "Random Eviction",
@@ -62,7 +66,8 @@
       "First-In-First-Out (FIFO)"
     ],
     "answer": "Random Eviction - choosing an item to discard without considering usage patterns",
-    "explanation": "Random eviction ignores all usage history and simply picks an item at random to remove. While simple to implement, it doesn\\'t leverage temporal or frequency locality like LRU or LFU do."
+    "explanation": "Random eviction ignores all usage history and simply picks an item at random to remove. While simple to implement, it doesn\\'t leverage temporal or frequency locality like LRU or LFU do.",
+    "difficulty": "medium"
   },
   {
     "question": "Human Forgetting as Optimal Filter",
@@ -75,7 +80,8 @@
       "All forgetting is detrimental and should be prevented"
     ],
     "answer": "Forgetting acts as an optimal filter to clear mental clutter and prioritize what\\'s truly important",
-    "explanation": "Rather than being a defect, forgetting helps prevent cognitive overload by automatically deprioritizing infrequently used information, similar to how caching algorithms evict less useful data to make room for more relevant information."
+    "explanation": "Rather than being a defect, forgetting helps prevent cognitive overload by automatically deprioritizing infrequently used information, similar to how caching algorithms evict less useful data to make room for more relevant information.",
+    "difficulty": "medium"
   },
   {
     "question": "Spatial Locality",
@@ -88,7 +94,8 @@
       "Keep them as far apart as possible"
     ],
     "answer": "Store frequently used-together items near each other (spatial locality)",
-    "explanation": "Spatial locality suggests storing items that are used together or in sequence near each other. Since you often use salt, pepper, and oil together when cooking, keeping them adjacent reduces retrieval time and effort."
+    "explanation": "Spatial locality suggests storing items that are used together or in sequence near each other. Since you often use salt, pepper, and oil together when cooking, keeping them adjacent reduces retrieval time and effort.",
+    "difficulty": "medium"
   },
   {
     "question": "\"Flashing the Cache\"",
@@ -101,6 +108,7 @@
       "Never taking breaks"
     ],
     "answer": "Flashing the cache - completely clearing mental state to reset baseline focus",
-    "explanation": "Just as flashing a computer cache clears all temporary data to force a fresh reload, a radical digital detox clears accumulated mental clutter and context-switching residue, allowing you to reset your cognitive baseline."
+    "explanation": "Just as flashing a computer cache clears all temporary data to force a fresh reload, a radical digital detox clears accumulated mental clutter and context-switching residue, allowing you to reset your cognitive baseline.",
+    "difficulty": "medium"
   }
 ]

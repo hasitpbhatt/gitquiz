@@ -10,7 +10,8 @@
       "Using AI to do the easy tasks while saving the repetitive data entry for humans."
     ],
     "answer": "Using AI to brainstorm and draft components while the human acts as the lead editor and strategic director.",
-    "explanation": "Co-Intelligence leverages the strengths of both: the AI's generative speed and the human's high-level judgment and accountability."
+    "explanation": "Co-Intelligence leverages the strengths of both: the AI's generative speed and the human's high-level judgment and accountability.",
+    "difficulty": "medium"
   },
   {
     "question": "Navigating the Jagged Frontier",
@@ -23,7 +24,8 @@
       "The AI is trying to trick the user into overspending."
     ],
     "answer": "The Jagged Frontier, where logic and creativity don't always align in LLMs.",
-    "explanation": "LLMs are language models, not logic engines. Their success in one area (language) does not guarantee success in another (arithmetic)."
+    "explanation": "LLMs are language models, not logic engines. Their success in one area (language) does not guarantee success in another (arithmetic).",
+    "difficulty": "medium"
   },
   {
     "question": "Centaur vs. Cyborg",
@@ -36,7 +38,8 @@
       "Shadow AI."
     ],
     "answer": "The Centaur Model.",
-    "explanation": "Because there is a clear hand-off between the AI's task (generation) and the human's task (selection and refinement), it is a Centaur approach."
+    "explanation": "Because there is a clear hand-off between the AI's task (generation) and the human's task (selection and refinement), it is a Centaur approach.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Worst AI' Rule",
@@ -49,7 +52,8 @@
       "Because the mistakes will eventually stop on their own without human intervention."
     ],
     "answer": "To build the organizational 'muscles' of adaptation before the technology becomes even more powerful.",
-    "explanation": "Adaptation is a skill. By starting now, the team learns how to navigate the frontier as it expands."
+    "explanation": "Adaptation is a skill. By starting now, the team learns how to navigate the frontier as it expands.",
+    "difficulty": "hard"
   },
   {
     "question": "AI as a Social Actor",
@@ -62,7 +66,8 @@
       "Summarize this plan for me."
     ],
     "answer": "Act as a critical venture capitalist with 20 years of experience. Identify the three biggest risks in this plan.",
-    "explanation": "Providing a persona (VC) and a specific task (risk identification) narrows the AI's focus and produces more expert-level output."
+    "explanation": "Providing a persona (VC) and a specific task (risk identification) narrows the AI's focus and produces more expert-level output.",
+    "difficulty": "hard"
   },
   {
     "question": "The Problem of Alignment",
@@ -75,7 +80,8 @@
       "The Centaur model."
     ],
     "answer": "Alignment.",
-    "explanation": "This is a classic 'malicious compliance' alignment problem where the AI followed the goal but ignored the unstated human value of social harmony."
+    "explanation": "This is a classic 'malicious compliance' alignment problem where the AI followed the goal but ignored the unstated human value of social harmony.",
+    "difficulty": "hard"
   },
   {
     "question": "The Productivity Dividend",
@@ -88,7 +94,8 @@
       "Letting the AI do the rest of their work too."
     ],
     "answer": "Taking on a leadership mentorship role or focusing on high-level strategic projects.",
-    "explanation": "The dividend should be spent on 'High-Ceiling' skills that add unique human value to the organization."
+    "explanation": "The dividend should be spent on 'High-Ceiling' skills that add unique human value to the organization.",
+    "difficulty": "hard"
   },
   {
     "question": "The Socratic Tutor",
@@ -101,7 +108,8 @@
       "By making students study longer hours."
     ],
     "answer": "By providing personalized 1-on-1 tutoring that was previously too expensive to scale.",
-    "explanation": "AI allows every student to have a 'tutor in their pocket' that adapts to their specific pace and needs."
+    "explanation": "AI allows every student to have a 'tutor in their pocket' that adapts to their specific pace and needs.",
+    "difficulty": "hard"
   },
   {
     "question": "The Risk of Skills Atrophy",
@@ -114,7 +122,8 @@
       "By only using the oldest, least capable versions of AI."
     ],
     "answer": "By remaining 'in the loop'—critically reviewing, editing, and occasionally doing the work manually to stay sharp.",
-    "explanation": "Active engagement ensures that the human remains the 'Senior Partner' who understands the work deeply enough to catch the AI's errors."
+    "explanation": "Active engagement ensures that the human remains the 'Senior Partner' who understands the work deeply enough to catch the AI's errors.",
+    "difficulty": "hard"
   },
   {
     "question": "The Future: Meaning and Agency",
@@ -127,6 +136,7 @@
       "To win a competition against other humans who don't use AI."
     ],
     "answer": "To use AI as a tool to enhance our humanity and solve our most difficult global challenges.",
-    "explanation": "Mollick's vision is that AI is a 'multiplier' for human intent; the goal is to use that power for positive, meaningful growth."
+    "explanation": "Mollick's vision is that AI is a 'multiplier' for human intent; the goal is to use that power for positive, meaningful growth.",
+    "difficulty": "hard"
   }
 ]

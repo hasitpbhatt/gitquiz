@@ -10,7 +10,8 @@
       "Invest a small amount to limit potential losses"
     ],
     "answer": "Avoid the investment or seek expert advice within your competence",
-    "explanation": "Staying within your circle of competence means avoiding areas where you lack expertise, or consulting those who have the necessary knowledge before making decisions."
+    "explanation": "Staying within your circle of competence means avoiding areas where you lack expertise, or consulting those who have the necessary knowledge before making decisions.",
+    "difficulty": "easy"
   },
   {
     "question": "Margin of Safety (Engineering)",
@@ -23,7 +24,8 @@
       "500%"
     ],
     "answer": "400%",
-    "explanation": "Margin of safety = (maximum load - expected load) / expected load = (10,000 - 2,000) / 2,000 = 8,000 / 2,000 = 4 = 400%. This means it can handle 4 times the expected load."
+    "explanation": "Margin of safety = (maximum load - expected load) / expected load = (10,000 - 2,000) / 2,000 = 8,000 / 2,000 = 4 = 400%. This means it can handle 4 times the expected load.",
+    "difficulty": "easy"
   },
   {
     "question": "Relativity",
@@ -36,7 +38,8 @@
       "You suffer from memory loss about prices"
     ],
     "answer": "Your perception of price is relative to recent expenditures",
-    "explanation": "This demonstrates the relativity mental model - our perception of value shifts based on our reference point (what we just paid)."
+    "explanation": "This demonstrates the relativity mental model - our perception of value shifts based on our reference point (what we just paid).",
+    "difficulty": "easy"
   },
   {
     "question": "Leverage Points",
@@ -49,7 +52,8 @@
       "Distributing free fitness trackers"
     ],
     "answer": "Regulating food advertising to children",
-    "explanation": "Changing advertising regulations affects millions of children's food preferences simultaneously - a high-leverage point that shapes behavior at the source."
+    "explanation": "Changing advertising regulations affects millions of children's food preferences simultaneously - a high-leverage point that shapes behavior at the source.",
+    "difficulty": "easy"
   },
   {
     "question": "Feedback Loops",
@@ -62,7 +66,8 @@
       "The speaker being defective"
     ],
     "answer": "Positive feedback loop amplifying the signal",
-    "explanation": "Sound from the speaker enters the microphone, gets amplified, comes out louder through the speaker, and repeats - each cycle amplifying the sound (positive feedback)."
+    "explanation": "Sound from the speaker enters the microphone, gets amplified, comes out louder through the speaker, and repeats - each cycle amplifying the sound (positive feedback).",
+    "difficulty": "easy"
   },
   {
     "question": "Critical Mass",
@@ -75,7 +80,8 @@
       "It needs celebrity endorsements"
     ],
     "answer": "It needs enough users that joining becomes beneficial for new users",
-    "explanation": "Critical mass in networks means sufficient users exist that the platform provides value (connections, content) making it worthwhile for others to join."
+    "explanation": "Critical mass in networks means sufficient users exist that the platform provides value (connections, content) making it worthwhile for others to join.",
+    "difficulty": "easy"
   },
   {
     "question": "Emergence",
@@ -88,7 +94,8 @@
       "Electrical conductivity in metals"
     ],
     "answer": "Emergence - whole system properties not in parts",
-    "explanation": "Individual neurons aren't conscious, but their interconnected network produces consciousness - a classic emergent property where the whole is more than sum of parts."
+    "explanation": "Individual neurons aren't conscious, but their interconnected network produces consciousness - a classic emergent property where the whole is more than sum of parts.",
+    "difficulty": "easy"
   },
   {
     "question": "Opportunity Cost",
@@ -101,7 +108,8 @@
       "The cost of raw materials for Product A"
     ],
     "answer": "The profit they could have made from Product B",
-    "explanation": "Opportunity cost is the foregone benefit of the next best alternative - here, the profit from Product B that was not pursued."
+    "explanation": "Opportunity cost is the foregone benefit of the next best alternative - here, the profit from Product B that was not pursued.",
+    "difficulty": "easy"
   },
   {
     "question": "Compounding",
@@ -114,7 +122,8 @@
       "$2,500"
     ],
     "answer": "$1,967",
-    "explanation": "With compounding: $1,000 × (1.07)^10 ≈ $1,000 × 1.967 = $1,967. Without compounding (simple interest): $1,000 + ($1,000 × 0.07 × 10) = $1,700."
+    "explanation": "With compounding: $1,000 × (1.07)^10 ≈ $1,000 × 1.967 = $1,967. Without compounding (simple interest): $1,000 + ($1,000 × 0.07 × 10) = $1,700.",
+    "difficulty": "medium"
   },
   {
     "question": "Inversion Applied to Happiness",
@@ -127,6 +136,7 @@
       "Your long-term life goals"
     ],
     "answer": "Things that currently make you miserable or anxious",
-    "explanation": "Inversion for happiness means eliminating sources of misery (stressful relationships, unhealthy habits, unsatisfying work) which often yields faster gains than pursuing positive experiences."
+    "explanation": "Inversion for happiness means eliminating sources of misery (stressful relationships, unhealthy habits, unsatisfying work) which often yields faster gains than pursuing positive experiences.",
+    "difficulty": "medium"
   }
 ]

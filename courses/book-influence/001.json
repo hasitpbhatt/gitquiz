@@ -10,7 +10,8 @@
       "The restaurant's overall excellent service"
     ],
     "answer": "The reciprocity trigger from the complimentary dessert",
-    "explanation": "The small gift creates a feeling of indebtedness, making you more likely to comply with the subsequent request for a larger purchase, demonstrating the reciprocity principle in action."
+    "explanation": "The small gift creates a feeling of indebtedness, making you more likely to comply with the subsequent request for a larger purchase, demonstrating the reciprocity principle in action.",
+    "difficulty": "easy"
   },
   {
     "question": "Reject-Then-Retreat Technique",
@@ -23,7 +24,8 @@
       "You think they deserve a reward for being polite"
     ],
     "answer": "The bicycle request seems reasonable by comparison",
-    "explanation": "After refusing the large request (car for weekend), the smaller request (bicycle for hour) appears more reasonable by contrast, making compliance more likely. This is the reject-then-retreat application of reciprocity."
+    "explanation": "After refusing the large request (car for weekend), the smaller request (bicycle for hour) appears more reasonable by contrast, making compliance more likely. This is the reject-then-retreat application of reciprocity.",
+    "difficulty": "easy"
   },
   {
     "question": "Uninvited First Strike",
@@ -36,7 +38,8 @@
       "You assume they're a reputable organization"
     ],
     "answer": "The unsolicited gift triggers reciprocity obligation",
-    "explanation": "Even though you didn't request the address labels, receiving them creates a psychological obligation to reciprocate with a donation, demonstrating how reciprocity works unsolicited."
+    "explanation": "Even though you didn't request the address labels, receiving them creates a psychological obligation to reciprocate with a donation, demonstrating how reciprocity works unsolicited.",
+    "difficulty": "easy"
   },
   {
     "question": "Reciprocal Concessions",
@@ -49,7 +52,8 @@
       "You believe they're being honest now"
     ],
     "answer": "Their concession creates pressure for you to reciprocate",
-    "explanation": "The seller's movement from $8,000 to $7,500 is a concession that triggers the reciprocity norm, making you feel obligated to move from your $6,000 counteroffer in return."
+    "explanation": "The seller's movement from $8,000 to $7,500 is a concession that triggers the reciprocity norm, making you feel obligated to move from your $6,000 counteroffer in return.",
+    "difficulty": "easy"
   },
   {
     "question": "Reciprocity vs. Mere Exposure",
@@ -62,7 +66,8 @@
       "Mere exposure — you forgot the florist's gift by the next day"
     ],
     "answer": "Mere exposure — repeated positive contact built comfort and familiarity without obligation",
-    "explanation": "The bakery never asked for anything in return — each cookie was given freely without a follow-up request, making reciprocity weak. The real driver is mere exposure: repeated positive contact builds familiarity, comfort, and liking over time. Contrast with the florist, who asked immediately after a single gift — classic reciprocity, but less effective because the transaction felt calculated."
+    "explanation": "The bakery never asked for anything in return — each cookie was given freely without a follow-up request, making reciprocity weak. The real driver is mere exposure: repeated positive contact builds familiarity, comfort, and liking over time. Contrast with the florist, who asked immediately after a single gift — classic reciprocity, but less effective because the transaction felt calculated.",
+    "difficulty": "easy"
   },
   {
     "question": "Defending Against Unwanted Reciprocity",
@@ -75,7 +80,8 @@
       "Ask for a more expensive gift to increase the obligation"
     ],
     "answer": "Mentally label the pen as a sales tactic, not a gift",
-    "explanation": "By reframing the 'gift' as a manipulative tactic rather than a genuine favor, you prevent the automatic reciprocity response while still being able to accept the item if desired."
+    "explanation": "By reframing the 'gift' as a manipulative tactic rather than a genuine favor, you prevent the automatic reciprocity response while still being able to accept the item if desired.",
+    "difficulty": "easy"
   },
   {
     "question": "Boundary Conditions of Reciprocity",
@@ -88,7 +94,8 @@
       "Gift certificates cannot create reciprocity because they are not cash"
     ],
     "answer": "The promised gift felt transactional, not generous, undermining genuine obligation",
-    "explanation": "When a gift is announced in advance ('we are sending you...'), it feels like a calculated transaction rather than a genuine gift. True reciprocity requires the gift to feel voluntary and generous. The advance notice reveals manipulative intent, triggering resistance instead of obligation. This is a boundary condition where reciprocity fails."
+    "explanation": "When a gift is announced in advance ('we are sending you...'), it feels like a calculated transaction rather than a genuine gift. True reciprocity requires the gift to feel voluntary and generous. The advance notice reveals manipulative intent, triggering resistance instead of obligation. This is a boundary condition where reciprocity fails.",
+    "difficulty": "easy"
   },
   {
     "question": "Business Applications of Reciprocity",
@@ -101,6 +108,7 @@
       "They develop brand loyalty during the trial period"
     ],
     "answer": "They feel obligated to reciprocate the free access",
-    "explanation": "The free trial activates reciprocity—users feel they should 'pay back' the company's generosity by purchasing, even if they could have continued with a free alternative."
+    "explanation": "The free trial activates reciprocity—users feel they should 'pay back' the company's generosity by purchasing, even if they could have continued with a free alternative.",
+    "difficulty": "easy"
   }
 ]

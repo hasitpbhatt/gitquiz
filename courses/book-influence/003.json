@@ -10,7 +10,8 @@
       "You read reviews online about both places"
     ],
     "answer": "The longer line indicates social proof of quality",
-    "explanation": "When uncertain, we use the behavior of others as evidence of what is correct. A longer line suggests more people find the restaurant valuable, providing social proof of its quality."
+    "explanation": "When uncertain, we use the behavior of others as evidence of what is correct. A longer line suggests more people find the restaurant valuable, providing social proof of its quality.",
+    "difficulty": "easy"
   },
   {
     "question": "Pluralistic Ignorance",
@@ -23,7 +24,8 @@
       "The professor's intimidating presence"
     ],
     "answer": "Pluralistic ignorance reinforced by social proof",
-    "explanation": "Each student sees others not asking questions (social proof) and assumes everyone understands, leading to pluralistic ignorance where no one speaks up despite widespread confusion."
+    "explanation": "Each student sees others not asking questions (social proof) and assumes everyone understands, leading to pluralistic ignorance where no one speaks up despite widespread confusion.",
+    "difficulty": "easy"
   },
   {
     "question": "Similarity Increases Social Proof",
@@ -36,7 +38,8 @@
       "The company has better relationships with seniors"
     ],
     "answer": "People are more influenced by similar others",
-    "explanation": "Social proof is strongest when we perceive the 'others' as similar to ourselves. Testimonials from similar seniors are more persuasive than those from dissimilar teenagers."
+    "explanation": "Social proof is strongest when we perceive the 'others' as similar to ourselves. Testimonials from similar seniors are more persuasive than those from dissimilar teenagers.",
+    "difficulty": "easy"
   },
   {
     "question": "Uncertainty Amplifies Social Proof",
@@ -49,7 +52,8 @@
       "They have detailed restaurant guides"
     ],
     "answer": "They are uncertain about which restaurants are good",
-    "explanation": "When uncertain (not knowing which restaurants are good), people rely heavily on social proof—following the crowd—to reduce uncertainty about the correct choice."
+    "explanation": "When uncertain (not knowing which restaurants are good), people rely heavily on social proof—following the crowd—to reduce uncertainty about the correct choice.",
+    "difficulty": "easy"
   },
   {
     "question": "The Bystander Effect",
@@ -62,7 +66,8 @@
       "Helping is illegal in that city"
     ],
     "answer": "Each person assumes someone else will help (social proof of inaction)",
-    "explanation": "Seeing others not helping provides social proof that helping is not necessary or appropriate. Each person interprets the inaction of others as a sign that help is not needed."
+    "explanation": "Seeing others not helping provides social proof that helping is not necessary or appropriate. Each person interprets the inaction of others as a sign that help is not needed.",
+    "difficulty": "easy"
   },
   {
     "question": "Social Proof or Informational Influence?",
@@ -75,7 +80,8 @@
       "Authority — you assumed they were a classical music expert"
     ],
     "answer": "Informational influence — you assumed they knew the correct time to applaud",
-    "explanation": "This is informational influence: you observed someone's behavior and assumed they possessed knowledge you lacked (when to applaud). Normative influence would involve clapping to avoid standing out or being judged. Both are forms of social proof, but the motivation differs — here it is about being correct, not about fitting in."
+    "explanation": "This is informational influence: you observed someone's behavior and assumed they possessed knowledge you lacked (when to applaud). Normative influence would involve clapping to avoid standing out or being judged. Both are forms of social proof, but the motivation differs — here it is about being correct, not about fitting in.",
+    "difficulty": "medium"
   },
   {
     "question": "Social Proof in Advertising",
@@ -88,7 +94,8 @@
       "List the product's flavors"
     ],
     "answer": "Offer social proof of professional endorsement",
-    "explanation": "The statistic provides social proof by showing that respected authorities (dentists) approve of the product, influencing consumers to trust and choose it."
+    "explanation": "The statistic provides social proof by showing that respected authorities (dentists) approve of the product, influencing consumers to trust and choose it.",
+    "difficulty": "medium"
   },
   {
     "question": "Competing Signals in Emergencies",
@@ -101,6 +108,7 @@
       "Reciprocity for the usher's past service to the audience"
     ],
     "answer": "Authority (usher uniform) breaking the social proof of inaction",
-    "explanation": "Initially, social proof keeps everyone seated (others are calm, so it must be fine). But the usher's uniform provides an authority signal that overrides the social proof. This shows how competing principles interact: authority can break the spell of pluralistic ignorance by offering a credible directive that counters the inaction of the crowd."
+    "explanation": "Initially, social proof keeps everyone seated (others are calm, so it must be fine). But the usher's uniform provides an authority signal that overrides the social proof. This shows how competing principles interact: authority can break the spell of pluralistic ignorance by offering a credible directive that counters the inaction of the crowd.",
+    "difficulty": "medium"
   }
 ]

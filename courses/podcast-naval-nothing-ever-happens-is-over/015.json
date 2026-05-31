@@ -10,7 +10,8 @@
       "Because the government funds doom scenarios more than positive ones."
     ],
     "answer": "Because doom is legible and targets the known, while optimism requires creativity to imagine the unknown.",
-    "explanation": "Naval posits that we hold doom close because we can see exactly what might be lost, whereas we lack the current creativity to see what might be gained."
+    "explanation": "Naval posits that we hold doom close because we can see exactly what might be lost, whereas we lack the current creativity to see what might be gained.",
+    "difficulty": "medium"
   },
   {
     "question": "The 200-Year-Old Farm Analogy",
@@ -23,7 +24,8 @@
       "That job loss is a modern phenomenon that didn't exist 200 years ago."
     ],
     "answer": "That technology creates new categories of work that were previously unimaginable.",
-    "explanation": "Just as the farm worker couldn't imagine a 'software engineer,' we cannot yet imagine the roles that will follow the AI revolution."
+    "explanation": "Just as the farm worker couldn't imagine a 'software engineer,' we cannot yet imagine the roles that will follow the AI revolution.",
+    "difficulty": "medium"
   },
   {
     "question": "Irrational Optimism",
@@ -36,7 +38,8 @@
       "Because optimism is required to raise venture capital from USVC."
     ],
     "answer": "Because you must imagine the 'rising up' scenario to build a way out of problems.",
-    "explanation": "Naval believes that unless you can nurture the creativity to see a positive outcome, you won't take the actions necessary to achieve it."
+    "explanation": "Naval believes that unless you can nurture the creativity to see a positive outcome, you won't take the actions necessary to achieve it.",
+    "difficulty": "medium"
   },
   {
     "question": "Crabs in a Bucket",
@@ -49,7 +52,8 @@
       "Hire doomers to manage your risk department."
     ],
     "answer": "Ignore them and reward optimism, as doomers don't help matters in a crisis.",
-    "explanation": "While doomers might be right about specific risks, Naval argues their mindset is unhelpful for those tasked with actually building the future."
+    "explanation": "While doomers might be right about specific risks, Naval argues their mindset is unhelpful for those tasked with actually building the future.",
+    "difficulty": "hard"
   },
   {
     "question": "The 'Nothing Ever Happens' Meme",
@@ -62,7 +66,8 @@
       "Because more people are moving to the first world."
     ],
     "answer": "Because post-COVID, the world has shifted into an accelerated phase of technological and geopolitical change.",
-    "explanation": "Naval believes a phase shift has occurred where 'sci-fi technologies' are now in high demand and things are moving faster than ever."
+    "explanation": "Naval believes a phase shift has occurred where 'sci-fi technologies' are now in high demand and things are moving faster than ever.",
+    "difficulty": "hard"
   },
   {
     "question": "Environmental Catastrophes vs. Reality",
@@ -75,7 +80,8 @@
       "As a reason to stop investing in venture capital."
     ],
     "answer": "As legible scenarios that people fixate on because they are easier to imagine than progress.",
-    "explanation": "Naval observes that we focus on the 'catastrophe' because the 'rising up' (the innovation that solves the catastrophe) hasn't been invented yet."
+    "explanation": "Naval observes that we focus on the 'catastrophe' because the 'rising up' (the innovation that solves the catastrophe) hasn't been invented yet.",
+    "difficulty": "hard"
   },
   {
     "question": "The Supply of 'Sci-Fi' Authors and Engineers",
@@ -88,7 +94,8 @@
       "AI will have to start writing all the science fiction books."
     ],
     "answer": "It slows down our ability to turn imaginative futures into practical realities.",
-    "explanation": "To build the future, you need both the engineer who can do the work and the 'sci-fi' mind that can imagine the target."
+    "explanation": "To build the future, you need both the engineer who can do the work and the 'sci-fi' mind that can imagine the target.",
+    "difficulty": "hard"
   },
   {
     "question": "Optimism as a Survival Tool",
@@ -101,7 +108,8 @@
       "Moving to a hierarchical organizational structure."
     ],
     "answer": "Irrational optimism and rewarding the builders.",
-    "explanation": "Naval concludes that since we are in the 'foxhole,' the only productive path is to imagine and work toward the 'rising up' scenario."
+    "explanation": "Naval concludes that since we are in the 'foxhole,' the only productive path is to imagine and work toward the 'rising up' scenario.",
+    "difficulty": "hard"
   },
   {
     "question": "The Blind Optimist",
@@ -114,7 +122,8 @@
       "He believes that AI will automatically fix all problems without human help."
     ],
     "answer": "He believes it is much harder to imagine the positive 'rising up,' so we must intentionally focus on it to make it happen.",
-    "explanation": "Optimization for the positive requires a conscious, creative effort because the negative is already 'legible' and obvious."
+    "explanation": "Optimization for the positive requires a conscious, creative effort because the negative is already 'legible' and obvious.",
+    "difficulty": "hard"
   },
   {
     "question": "Rewarding Creativity",
@@ -127,6 +136,7 @@
       "We should stop funding hardware and focus only on software."
     ],
     "answer": "We should nurture, reward, and encourage optimism and creative building.",
-    "explanation": "To build a better future, society must celebrate the people who have the 'irrational' belief that a better future is buildable."
+    "explanation": "To build a better future, society must celebrate the people who have the 'irrational' belief that a better future is buildable.",
+    "difficulty": "hard"
   }
 ]

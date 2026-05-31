@@ -10,7 +10,8 @@
       "LSTMs do not require any historical data to make a prediction."
     ],
     "answer": "LSTMs can capture 'temporal dependencies,' meaning they understand how the order and timing of past prices affect the future.",
-    "explanation": "Financial markets are 'path-dependent.' LSTMs are specifically built to track sequences and time-series data, whereas linear regression treats each data point as an independent event."
+    "explanation": "Financial markets are 'path-dependent.' LSTMs are specifically built to track sequences and time-series data, whereas linear regression treats each data point as an independent event.",
+    "difficulty": "easy"
   },
   {
     "question": "Combining LLM Sentiment with LSTM Inputs",
@@ -23,7 +24,8 @@
       "Discard the price data and only use the Twitter sentiment for the LSTM."
     ],
     "answer": "Input both the fear index and the volatility as parallel features (time-series) into the LSTM layers.",
-    "explanation": "LSTMs are multimodal—they can handle multiple 'streams' of data at once. By feeding it both sentiment and price, the model can learn how sentiment shocks specifically lead to price changes."
+    "explanation": "LSTMs are multimodal—they can handle multiple 'streams' of data at once. By feeding it both sentiment and price, the model can learn how sentiment shocks specifically lead to price changes.",
+    "difficulty": "easy"
   },
   {
     "question": "The Vanishing Gradient Problem",
@@ -36,7 +38,8 @@
       "The data from 10 years ago has been automatically deleted by the network."
     ],
     "answer": "The model is experiencing a 'Vanishing Gradient' where early data loses its influence.",
-    "explanation": "Standard RNNs 'forget' the beginning of long sequences. LSTMs were specifically engineered with 'gates' to prevent this loss of long-term memory."
+    "explanation": "Standard RNNs 'forget' the beginning of long sequences. LSTMs were specifically engineered with 'gates' to prevent this loss of long-term memory.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Forget Gate' in Financial Sequences",
@@ -49,7 +52,8 @@
       "The Prediction Layer"
     ],
     "answer": "The Forget Gate",
-    "explanation": "The Forget Gate allows the model to 'prune' its memory. When the market regime changes, the gate helps the model discard old correlations that would lead to incorrect predictions in the new environment."
+    "explanation": "The Forget Gate allows the model to 'prune' its memory. When the market regime changes, the gate helps the model discard old correlations that would lead to incorrect predictions in the new environment.",
+    "difficulty": "easy"
   },
   {
     "question": "Hybrid Architectures: CNN-LSTM",
@@ -62,7 +66,8 @@
       "Because CNNs are only used for identifying photos of cats and dogs."
     ],
     "answer": "To automatically extract visual features or 'shapes' from the price action before analyzing their sequence in time.",
-    "explanation": "CNNs are elite at 'spatial' recognition (patterns in a window), while LSTMs are elite at 'temporal' recognition (patterns over time). Combining them covers both bases."
+    "explanation": "CNNs are elite at 'spatial' recognition (patterns in a window), while LSTMs are elite at 'temporal' recognition (patterns over time). Combining them covers both bases.",
+    "difficulty": "easy"
   },
   {
     "question": "Normalization and Scaling in Time-Series",
@@ -75,7 +80,8 @@
       "The price of the stock is too high to be calculated."
     ],
     "answer": "You forgot to scale/normalize your features to a similar range.",
-    "explanation": "Neural networks are mathematical; they don't know the difference between 'dollars' and 'sentiment.' Without scaling, the larger numerical values (prices) will naturally dominate the model's weights."
+    "explanation": "Neural networks are mathematical; they don't know the difference between 'dollars' and 'sentiment.' Without scaling, the larger numerical values (prices) will naturally dominate the model's weights.",
+    "difficulty": "easy"
   },
   {
     "question": "Sliding Windows for Training",
@@ -88,7 +94,8 @@
       "The model will start predicting prices for 10 years in the future."
     ],
     "answer": "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
-    "explanation": "Window size defines the model's 'perspective.' Too small, and it misses the 'big picture'; too large, and it might get bogged down in irrelevant historical noise."
+    "explanation": "Window size defines the model's 'perspective.' Too small, and it misses the 'big picture'; too large, and it might get bogged down in irrelevant historical noise.",
+    "difficulty": "medium"
   },
   {
     "question": "Many-to-One vs. Many-to-Many",
@@ -101,7 +108,8 @@
       "One-to-Many"
     ],
     "answer": "Many-to-Many",
-    "explanation": "A Many-to-Many architecture is used when both the input and the output are sequences. This is ideal for predicting a 'path' rather than just a single target price."
+    "explanation": "A Many-to-Many architecture is used when both the input and the output are sequences. This is ideal for predicting a 'path' rather than just a single target price.",
+    "difficulty": "medium"
   },
   {
     "question": "Overfitting in LSTMs (Dropout)",
@@ -114,7 +122,8 @@
       "Stop trading entirely."
     ],
     "answer": "Implement Dropout layers to force the model to learn more robust, general patterns.",
-    "explanation": "High training accuracy paired with low test accuracy is the classic definition of overfitting. Dropout helps the model generalize so it can perform better on data it has never seen before."
+    "explanation": "High training accuracy paired with low test accuracy is the classic definition of overfitting. Dropout helps the model generalize so it can perform better on data it has never seen before.",
+    "difficulty": "medium"
   },
   {
     "question": "Backtesting with LSTM Predictions",
@@ -127,6 +136,7 @@
       "The model needs more layers."
     ],
     "answer": "The 30% of wrong trades are much larger losses than the 70% of winning trades, or fees are eating the profits.",
-    "explanation": "In trading, 'Expectancy' (how much you win vs. how much you lose) is more important than raw accuracy. A model can be right often but still lose money if the rare losses are catastrophic or if transaction costs are high."
+    "explanation": "In trading, 'Expectancy' (how much you win vs. how much you lose) is more important than raw accuracy. A model can be right often but still lose money if the rare losses are catastrophic or if transaction costs are high.",
+    "difficulty": "medium"
   }
 ]

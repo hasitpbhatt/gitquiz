@@ -10,7 +10,8 @@
       "REST APIs allow the AI more time to 'think' about the data."
     ],
     "answer": "WebSockets provide a real-time, persistent connection that pushes news to your AI the millisecond it's published.",
-    "explanation": "In live markets, 60 seconds is an eternity. WebSockets 'push' data instantly, ensuring your GenAI model isn't processing 'old news' while the market has already moved."
+    "explanation": "In live markets, 60 seconds is an eternity. WebSockets 'push' data instantly, ensuring your GenAI model isn't processing 'old news' while the market has already moved.",
+    "difficulty": "easy"
   },
   {
     "question": "Preventing Model Drift and Staleness",
@@ -23,7 +24,8 @@
       "If the exchange has changed its logo."
     ],
     "answer": "If the market 'regime' has shifted, causing model drift where the AI's training data no longer matches reality.",
-    "explanation": "Markets evolve. If the underlying correlations the AI learned (like 'Tech stocks go up when rates are low') are no longer true, the model is 'drifting' from reality and needs adjustment."
+    "explanation": "Markets evolve. If the underlying correlations the AI learned (like 'Tech stocks go up when rates are low') are no longer true, the model is 'drifting' from reality and needs adjustment.",
+    "difficulty": "easy"
   },
   {
     "question": "Concept of 'Online Learning'",
@@ -36,7 +38,8 @@
       "Manual Data Entry"
     ],
     "answer": "Online Learning (Incremental Updates)",
-    "explanation": "Online learning allows for 'continuous' improvement. By updating the model's weights with just the newest data points, the bot stays current without the computational cost of a full retrain."
+    "explanation": "Online learning allows for 'continuous' improvement. By updating the model's weights with just the newest data points, the bot stays current without the computational cost of a full retrain.",
+    "difficulty": "medium"
   },
   {
     "question": "Latency and GenAI Processing",
@@ -49,7 +52,8 @@
       "Model A, but only if you use it on a faster computer."
     ],
     "answer": "Model B, because the 5-second delay in Model A would mean the trade opportunity has already passed.",
-    "explanation": "In trading, 'Good and Fast' beats 'Perfect and Slow.' High latency is a 'strategy-killer' for bots that need to react to rapid price fluctuations."
+    "explanation": "In trading, 'Good and Fast' beats 'Perfect and Slow.' High latency is a 'strategy-killer' for bots that need to react to rapid price fluctuations.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Cold Start' Problem in Live Trading",
@@ -62,7 +66,8 @@
       "Tell the AI to be patient in the system prompt."
     ],
     "answer": "Feed it the last 30 days of historical data (warm-up) before enabling live trading.",
-    "explanation": "A 'Warm-up' period ensures the bot's indicators and memory are populated with relevant context before it begins risking real capital."
+    "explanation": "A 'Warm-up' period ensures the bot's indicators and memory are populated with relevant context before it begins risking real capital.",
+    "difficulty": "medium"
   },
   {
     "question": "Implementing 'Circuit Breakers' for AI",
@@ -75,7 +80,8 @@
       "Restart the AI and let it keep trading."
     ],
     "answer": "Trigger a circuit breaker to pause trading and alert a human to check for a potential data feed error.",
-    "explanation": "If a model gives an 'extreme' or unusual output, it's often a data error or a hallucination. A circuit breaker prevents these digital errors from turning into financial disasters."
+    "explanation": "If a model gives an 'extreme' or unusual output, it's often a data error or a hallucination. A circuit breaker prevents these digital errors from turning into financial disasters.",
+    "difficulty": "medium"
   },
   {
     "question": "Data Pre-Processing in Production",
@@ -88,7 +94,8 @@
       "Ask the LLM to fix the HTML before it analyzes the sentiment."
     ],
     "answer": "Use a 'Cleaner' function to sanitize and normalize the text before the LLM sees it.",
-    "explanation": "Raw data is messy. Sanitizing data ensures your LLM stays focused on the *meaning* of the news rather than being confused by technical 'noise' or formatting errors."
+    "explanation": "Raw data is messy. Sanitizing data ensures your LLM stays focused on the *meaning* of the news rather than being confused by technical 'noise' or formatting errors.",
+    "difficulty": "medium"
   },
   {
     "question": "Rate Limiting and API Quotas",
@@ -101,7 +108,8 @@
       "There is no risk; the bot will just wait."
     ],
     "answer": "The bot will go 'blind' and miss critical news events while it is being blocked.",
-    "explanation": "Missing a signal because you are 'rate-limited' is a major operational risk. Live bots must prioritize which news to analyze or use higher-tier API limits to stay 'sighted' during busy periods."
+    "explanation": "Missing a signal because you are 'rate-limited' is a major operational risk. Live bots must prioritize which news to analyze or use higher-tier API limits to stay 'sighted' during busy periods.",
+    "difficulty": "medium"
   },
   {
     "question": "Asynchronous Processing",
@@ -114,7 +122,8 @@
       "It allows the bot to work without a battery."
     ],
     "answer": "It allows Agent A to analyze news while Agent B is simultaneously checking for stop-losses, preventing the system from freezing.",
-    "explanation": "In a 'synchronous' system, if an LLM takes 3 seconds to respond, the bot's risk management system is 'frozen' for those 3 seconds. Async processing keeps the safety checks running at all times."
+    "explanation": "In a 'synchronous' system, if an LLM takes 3 seconds to respond, the bot's risk management system is 'frozen' for those 3 seconds. Async processing keeps the safety checks running at all times.",
+    "difficulty": "hard"
   },
   {
     "question": "Logging and Audit Trails",
@@ -127,6 +136,7 @@
       "Show them the AI's training data from three years ago."
     ],
     "answer": "Check your persistent logs that recorded the specific news headlines and confidence scores the AI had at exactly 2:00 PM.",
-    "explanation": "Accountability is vital. A detailed log provides a 'black box' recording of the bot's brain at the moment of the trade, proving that the decision was based on logic rather than random error."
+    "explanation": "Accountability is vital. A detailed log provides a 'black box' recording of the bot's brain at the moment of the trade, proving that the decision was based on logic rather than random error.",
+    "difficulty": "hard"
   }
 ]

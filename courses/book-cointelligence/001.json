@@ -10,7 +10,8 @@
       "Because early machines like the Turk were more reliable than LLMs."
     ],
     "answer": "Because we must realize the AI is a statistical mirror, not a sentient being with its own soul.",
-    "explanation": "Modern AI predicts the next word based on patterns. Recognizing it as a 'mirror' of human data helps us use it as a tool without attributing human morals or intent to it."
+    "explanation": "Modern AI predicts the next word based on patterns. Recognizing it as a 'mirror' of human data helps us use it as a tool without attributing human morals or intent to it.",
+    "difficulty": "easy"
   },
   {
     "question": "The Transformer Breakthrough",
@@ -23,7 +24,8 @@
       "It replaced mathematical algorithms with biological neural tissue."
     ],
     "answer": "It allowed the AI to focus on the most relevant parts of an input to understand context.",
-    "explanation": "The 'Attention' mechanism in Transformers allows the model to weigh the importance of different words in a sentence, leading to much more human-like understanding."
+    "explanation": "The 'Attention' mechanism in Transformers allows the model to weigh the importance of different words in a sentence, leading to much more human-like understanding.",
+    "difficulty": "easy"
   },
   {
     "question": "AI as an 'Alien' Intelligence",
@@ -36,7 +38,8 @@
       "The AI's desire to confuse and frustrate human travelers."
     ],
     "answer": "The 'alien' nature of machine intelligence finding patterns humans overlook.",
-    "explanation": "Because AI isn't limited by human intuition or 'common sense' habits, it can discover highly efficient, non-traditional solutions."
+    "explanation": "Because AI isn't limited by human intuition or 'common sense' habits, it can discover highly efficient, non-traditional solutions.",
+    "difficulty": "easy"
   },
   {
     "question": "The Concept of the 'Co-Pilot'",
@@ -49,7 +52,8 @@
       "The software will crash from over-use."
     ],
     "answer": "You lose the ability to catch 'hallucinations' or errors in judgment.",
-    "explanation": "Without the 'Human in the Loop' providing oversight, the AI's errors (hallucinations) go unchecked, leading to potentially disastrous results."
+    "explanation": "Without the 'Human in the Loop' providing oversight, the AI's errors (hallucinations) go unchecked, leading to potentially disastrous results.",
+    "difficulty": "easy"
   },
   {
     "question": "The Latent Space",
@@ -62,7 +66,8 @@
       "It is asking a human moderator for the next word."
     ],
     "answer": "It is navigating the 'Latent Space' to find words mathematically related to those concepts.",
-    "explanation": "AI doesn't 'know' things in the human sense; it uses the mathematical proximity of concepts in its latent space to generate contextually relevant content."
+    "explanation": "AI doesn't 'know' things in the human sense; it uses the mathematical proximity of concepts in its latent space to generate contextually relevant content.",
+    "difficulty": "easy"
   },
   {
     "question": "Prediction as Creativity",
@@ -75,7 +80,8 @@
       "Using a random word generator to fill space."
     ],
     "answer": "Statistically predicting which words frequently appear together in poetic structures.",
-    "explanation": "Creativity in LLMs is an emergent property of sophisticated statistical prediction, not a result of the machine 'feeling' the art."
+    "explanation": "Creativity in LLMs is an emergent property of sophisticated statistical prediction, not a result of the machine 'feeling' the art.",
+    "difficulty": "easy"
   },
   {
     "question": "The Illusion of Knowledge",
@@ -88,7 +94,8 @@
       "The AI is programmed to lie to non-experts."
     ],
     "answer": "It prioritized linguistic fluency and probability over factual truth.",
-    "explanation": "The AI is designed to produce convincing language. If a false fact 'sounds' like a likely part of a sentence, the AI will generate it confidently."
+    "explanation": "The AI is designed to produce convincing language. If a false fact 'sounds' like a likely part of a sentence, the AI will generate it confidently.",
+    "difficulty": "easy"
   },
   {
     "question": "Anthropomorphism as a Tool",
@@ -101,7 +108,8 @@
       "Because the AI's internal sensors respond to flattery."
     ],
     "answer": "To narrow the AI's 'latent space' focus toward high-quality, relevant patterns.",
-    "explanation": "Giving the AI a persona provides a 'frame' that helps it prioritize specific types of vocabulary and logic from its vast training data."
+    "explanation": "Giving the AI a persona provides a 'frame' that helps it prioritize specific types of vocabulary and logic from its vast training data.",
+    "difficulty": "easy"
   },
   {
     "question": "The Speed of Adaptation",
@@ -114,7 +122,8 @@
       "Hire an expert to use the AI for you."
     ],
     "answer": "Adopt a mindset of 'constant experimentation' alongside the AI.",
-    "explanation": "Since the 'Jagged Frontier' is always moving, the only way to stay ahead is to constantly test what the AI can and cannot do in your specific field."
+    "explanation": "Since the 'Jagged Frontier' is always moving, the only way to stay ahead is to constantly test what the AI can and cannot do in your specific field.",
+    "difficulty": "easy"
   },
   {
     "question": "The End of the 'Expert' Monopoly",
@@ -127,6 +136,7 @@
       "Learning how to code the AI software from scratch."
     ],
     "answer": "The ability to synthesize AI data with the patient's unique physical and emotional state.",
-    "explanation": "The AI handles the 'data,' but the human expert handles the 'synthesis'—applying that data to complex, real-world human situations."
+    "explanation": "The AI handles the 'data,' but the human expert handles the 'synthesis'—applying that data to complex, real-world human situations.",
+    "difficulty": "easy"
   }
 ]

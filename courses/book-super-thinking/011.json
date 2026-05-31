@@ -10,7 +10,8 @@
       "Perform the piece in public more often"
     ],
     "answer": "Focus on the hardest sections, get feedback from a teacher, and repeatedly correct mistakes",
-    "explanation": "Deliberate practice is not mere repetition. It requires focused attention on weaknesses, immediate feedback, and repeated refinement. Mindless repetition reinforces existing habits rather than building new capabilities."
+    "explanation": "Deliberate practice is not mere repetition. It requires focused attention on weaknesses, immediate feedback, and repeated refinement. Mindless repetition reinforces existing habits rather than building new capabilities.",
+    "difficulty": "medium"
   },
   {
     "question": "Flow State",
@@ -23,7 +24,8 @@
       "You stop playing the game entirely"
     ],
     "answer": "The challenge closely matches your skill level, creating engagement",
-    "explanation": "Flow requires a balance between perceived challenges and skills. When both are high and matched, you enter a state of deep focus where time distorts, self-consciousness fades, and performance peaks."
+    "explanation": "Flow requires a balance between perceived challenges and skills. When both are high and matched, you enter a state of deep focus where time distorts, self-consciousness fades, and performance peaks.",
+    "difficulty": "medium"
   },
   {
     "question": "Growth Mindset",
@@ -36,7 +38,8 @@
       "Math is not important for my future anyway"
     ],
     "answer": "I need to study different strategies, ask for help, and practice more",
-    "explanation": "A growth mindset sees failure as information about what to improve, not as a verdict on fixed ability. This leads to resilience, embracing challenges, and ultimately higher achievement over time."
+    "explanation": "A growth mindset sees failure as information about what to improve, not as a verdict on fixed ability. This leads to resilience, embracing challenges, and ultimately higher achievement over time.",
+    "difficulty": "medium"
   },
   {
     "question": "Peter Principle",
@@ -49,7 +52,8 @@
       "The salesperson stopped trying after the promotion"
     ],
     "answer": "The Peter Principle - skills for selling differ from skills for managing sellers",
-    "explanation": "The Peter Principle: people are promoted based on success in their current role, but each promotion requires different skills. Eventually, everyone reaches a role they cannot master, and the organization fills with incompetent managers."
+    "explanation": "The Peter Principle: people are promoted based on success in their current role, but each promotion requires different skills. Eventually, everyone reaches a role they cannot master, and the organization fills with incompetent managers.",
+    "difficulty": "hard"
   },
   {
     "question": "Organizational Culture",
@@ -62,7 +66,8 @@
       "Quit the company due to ethical concerns"
     ],
     "answer": "Follow the cultural norms because social pressure is stronger than formal policy",
-    "explanation": "Culture eats strategy for breakfast. Formal rules define minimum acceptable behavior, but culture shapes what actually happens day-to-day. Social norms, peer pressure, and unspoken expectations often override official policies."
+    "explanation": "Culture eats strategy for breakfast. Formal rules define minimum acceptable behavior, but culture shapes what actually happens day-to-day. Social norms, peer pressure, and unspoken expectations often override official policies.",
+    "difficulty": "hard"
   },
   {
     "question": "Product/Market Fit",
@@ -75,7 +80,8 @@
       "The marketing budget is too small"
     ],
     "answer": "The app lacks Product/Market Fit - the market does not need what they built",
-    "explanation": "Product/Market Fit is the only thing that matters for early-stage startups. Without it, better design, more features, or more marketing cannot compensate. The product must solve a real, painful problem that enough people share."
+    "explanation": "Product/Market Fit is the only thing that matters for early-stage startups. Without it, better design, more features, or more marketing cannot compensate. The product must solve a real, painful problem that enough people share.",
+    "difficulty": "hard"
   },
   {
     "question": "Switching Costs / Lock-In Effect",
@@ -88,7 +94,8 @@
       "They signed a lifetime contract with their current bank"
     ],
     "answer": "Switching costs are high - updating auto-payments, direct deposits, and re-establishing credit history takes significant effort",
-    "explanation": "Switching costs create lock-in. Even when a competitor offers a better product, the hassle of switching (re-entering data, learning new systems, transferring accounts) keeps customers stuck. Companies exploit this to retain customers."
+    "explanation": "Switching costs create lock-in. Even when a competitor offers a better product, the hassle of switching (re-entering data, learning new systems, transferring accounts) keeps customers stuck. Companies exploit this to retain customers.",
+    "difficulty": "hard"
   },
   {
     "question": "Platform Strategy",
@@ -101,7 +108,8 @@
       "A government transportation program"
     ],
     "answer": "A platform strategy leveraging cross-side network effects between two groups",
-    "explanation": "Platforms create multi-sided markets where each group's participation adds value for the other group (cross-side network effects). This differs from linear businesses that simply make and sell products."
+    "explanation": "Platforms create multi-sided markets where each group's participation adds value for the other group (cross-side network effects). This differs from linear businesses that simply make and sell products.",
+    "difficulty": "hard"
   },
   {
     "question": "Moral Hazard",
@@ -114,7 +122,8 @@
       "The bank is being innovative with its lending strategy"
     ],
     "answer": "Moral hazard - the bank takes excessive risk because the downside is covered by taxpayers",
-    "explanation": "Moral hazard arises when protection from consequences encourages riskier behavior. If losses are socialized (taxpayer bailout) while profits are privatized, the party making decisions has no incentive to avoid excessive risk."
+    "explanation": "Moral hazard arises when protection from consequences encourages riskier behavior. If losses are socialized (taxpayer bailout) while profits are privatized, the party making decisions has no incentive to avoid excessive risk.",
+    "difficulty": "hard"
   },
   {
     "question": "Secret Model",
@@ -127,6 +136,7 @@
       "Technologies that did not exist before"
     ],
     "answer": "Secret opportunities - valuable businesses that seemed like bad ideas at first",
-    "explanation": "Great opportunities often look like bad ideas because they violate conventional wisdom. The Secret Model means finding something valuable that few people are working on, often because it seems counterintuitive or risky."
+    "explanation": "Great opportunities often look like bad ideas because they violate conventional wisdom. The Secret Model means finding something valuable that few people are working on, often because it seems counterintuitive or risky.",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "Because the Soviet Union was the wealthiest nation at the time."
     ],
     "answer": "Because it had the most dominant economic, military, and gold-backed financial position.",
-    "explanation": "In Dalio's model, the winner of the previous conflict establishes the new order. In 1945, the US was the only major power with an intact economy and the vast majority of the world's 'hard' money (gold)."
+    "explanation": "In Dalio's model, the winner of the previous conflict establishes the new order. In 1945, the US was the only major power with an intact economy and the vast majority of the world's 'hard' money (gold).",
+    "difficulty": "easy"
   },
   {
     "question": "The Era of Peace and Prosperity (1945–1960s)",
@@ -23,7 +24,8 @@
       "A decline in the use of the US Dollar for global trade."
     ],
     "answer": "A focus on productivity and a strong 'virtuous cycle' of growth.",
-    "explanation": "During Stage 3, a nation is competitive and productive. Growth is fueled by real innovation and hard work rather than debt, leading to broad-based prosperity."
+    "explanation": "During Stage 3, a nation is competitive and productive. Growth is fueled by real innovation and hard work rather than debt, leading to broad-based prosperity.",
+    "difficulty": "medium"
   },
   {
     "question": "The 1971 'Nixon Shock'",
@@ -36,7 +38,8 @@
       "A global agreement to use a digital currency instead."
     ],
     "answer": "A 'run on the bank' as foreign nations tried to trade their excess paper dollars for gold.",
-    "explanation": "As the US printed more money to cover deficits, other countries (like France) realized there wasn't enough gold to back the paper. To prevent the US gold vault from being emptied, Nixon broke the link to gold."
+    "explanation": "As the US printed more money to cover deficits, other countries (like France) realized there wasn't enough gold to back the paper. To prevent the US gold vault from being emptied, Nixon broke the link to gold.",
+    "difficulty": "medium"
   },
   {
     "question": "The Rise of Debt and Financialization",
@@ -49,7 +52,8 @@
       "It becomes immune to inflation and currency devaluation."
     ],
     "answer": "It moves into the late-stage 'Top' where competitiveness begins to fade.",
-    "explanation": "Financialization is a late-stage symptom. When a nation finds it easier to create 'paper' wealth through debt than 'real' wealth through manufacturing and innovation, its relative power begins to decline."
+    "explanation": "Financialization is a late-stage symptom. When a nation finds it easier to create 'paper' wealth through debt than 'real' wealth through manufacturing and innovation, its relative power begins to decline.",
+    "difficulty": "medium"
   },
   {
     "question": "The Widening Wealth Gap",
@@ -62,7 +66,8 @@
       "Because it prevents a country from entering a trade war."
     ],
     "answer": "Because it leads to political polarization as different groups feel the system is 'unfair.'",
-    "explanation": "Extreme wealth gaps create social tension. When people feel the system no longer works for them, they move toward populism and radical change, threatening the stability of the Internal Order."
+    "explanation": "Extreme wealth gaps create social tension. When people feel the system no longer works for them, they move toward populism and radical change, threatening the stability of the Internal Order.",
+    "difficulty": "medium"
   },
   {
     "question": "The Challenge from China",
@@ -75,7 +80,8 @@
       "The risk that gold will become the only form of money again."
     ],
     "answer": "The high probability of a conflict or war as the two powers struggle for dominance.",
-    "explanation": "History shows that when a rising power threatens a ruling power, the friction often leads to war. This is the 'External Disorder' phase of the Big Cycle."
+    "explanation": "History shows that when a rising power threatens a ruling power, the friction often leads to war. This is the 'External Disorder' phase of the Big Cycle.",
+    "difficulty": "medium"
   },
   {
     "question": "The 2008 Financial Crisis and Quantitative Easing",
@@ -88,7 +94,8 @@
       "A reduction in all government spending to zero."
     ],
     "answer": "Massive money printing and the monetization of debt.",
-    "explanation": "When interest rates hit 0%, printing money is the only tool left. Late-stage empires use this to keep the economy going, though it devalues the currency over time."
+    "explanation": "When interest rates hit 0%, printing money is the only tool left. Late-stage empires use this to keep the economy going, though it devalues the currency over time.",
+    "difficulty": "medium"
   },
   {
     "question": "Political Polarization (The 2020s)",
@@ -101,7 +108,8 @@
       "A decline in the number of political parties."
     ],
     "answer": "A move toward Stage 6: Civil war or a radical revolution.",
-    "explanation": "When people stop respecting the 'Rules of the Game' and the middle ground disappears, the risk of a violent or radical restructuring of the internal order (Stage 6) becomes very high."
+    "explanation": "When people stop respecting the 'Rules of the Game' and the middle ground disappears, the risk of a violent or radical restructuring of the internal order (Stage 6) becomes very high.",
+    "difficulty": "hard"
   },
   {
     "question": "The US Dollar as a Lagging Indicator",
@@ -114,7 +122,8 @@
       "Because the Big Cycle has been permanently paused."
     ],
     "answer": "Because of the 'stickiness' of global habits and the lack of a viable alternative.",
-    "explanation": "Reserve currency status is the last thing to go. Because global systems are built on the dollar, it takes a major 'shock' or the rise of a clear alternative to finally shift the world to a new currency."
+    "explanation": "Reserve currency status is the last thing to go. Because global systems are built on the dollar, it takes a major 'shock' or the rise of a clear alternative to finally shift the world to a new currency.",
+    "difficulty": "hard"
   },
   {
     "question": "The Choice: Reform or Decline",
@@ -127,6 +136,7 @@
       "Stop educating the population to save money."
     ],
     "answer": "Increase productivity and find a way to work across the political aisle.",
-    "explanation": "Productivity and internal unity are the only sustainable ways to stay powerful. If a nation can't fix its own house (Internal Order), it cannot maintain its position in the world (External Order)."
+    "explanation": "Productivity and internal unity are the only sustainable ways to stay powerful. If a nation can't fix its own house (Internal Order), it cannot maintain its position in the world (External Order).",
+    "difficulty": "hard"
   }
 ]

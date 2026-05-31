@@ -3,80 +3,140 @@
     "question": "The Efficiency of Saving",
     "content": "Building wealth has little to do with your income or investment returns, and lots to do with your savings rate. You can build wealth without a high income, but you have no chance of building wealth without a high savings rate.",
     "description": "Which of these factors is the most 'controllable' and impactful for long-term wealth building according to Housel?",
-    "options": ["Picking the next viral cryptocurrency", "Your personal savings rate", "Predicting when the next recession will start", "Finding a job that pays over $200k immediately"],
+    "options": [
+      "Picking the next viral cryptocurrency",
+      "Your personal savings rate",
+      "Predicting when the next recession will start",
+      "Finding a job that pays over $200k immediately"
+    ],
     "answer": "Your personal savings rate",
-    "explanation": "Investment returns and income are often influenced by luck and external factors, but your savings rate is a direct result of your choices and your ego."
+    "explanation": "Investment returns and income are often influenced by luck and external factors, but your savings rate is a direct result of your choices and your ego.",
+    "difficulty": "easy"
   },
   {
     "question": "The Power of Humility",
     "content": "Savings is the gap between your ego and your income. Past a certain level of income, what you need is just what sits below your ego. People who save money are essentially those who have a healthy level of humility.",
     "description": "Why does Housel argue that 'spending money to show people how much money you have is the fastest way to have less money'?",
-    "options": ["Because people will try to borrow money from you.", "Because it shows your ego is larger than your desire for future freedom.", "Because luxury goods are poorly made.", "Because the government monitors high spenders for audits."],
+    "options": [
+      "Because people will try to borrow money from you.",
+      "Because it shows your ego is larger than your desire for future freedom.",
+      "Because luxury goods are poorly made.",
+      "Because the government monitors high spenders for audits."
+    ],
     "answer": "Because it shows your ego is larger than your desire for future freedom.",
-    "explanation": "Wealth is the money you don't spend. When you spend to impress, you are effectively trading your future autonomy for a temporary social signal."
+    "explanation": "Wealth is the money you don't spend. When you spend to impress, you are effectively trading your future autonomy for a temporary social signal.",
+    "difficulty": "easy"
   },
   {
     "question": "Saving Without a Goal",
     "content": "Most people save for a specific goal like a down payment or a new car. However, saving for no reason at all is one of the smartest things you can do because it buys you 'optionality' in an unpredictable world.",
     "description": "What is the primary benefit of 'saving for a rainy day' even if the weather looks clear right now?",
-    "options": ["You will earn more interest than someone with a specific goal.", "It gives you the flexibility to pivot when the world changes unexpectedly.", "It makes you more likely to win the lottery.", "There is no benefit; you should only save for specific purchases."],
+    "options": [
+      "You will earn more interest than someone with a specific goal.",
+      "It gives you the flexibility to pivot when the world changes unexpectedly.",
+      "It makes you more likely to win the lottery.",
+      "There is no benefit; you should only save for specific purchases."
+    ],
     "answer": "It gives you the flexibility to pivot when the world changes unexpectedly.",
-    "explanation": "Saving without a goal provides a 'margin of safety' for life's surprises, allowing you to wait for better opportunities or handle sudden crises."
+    "explanation": "Saving without a goal provides a 'margin of safety' for life's surprises, allowing you to wait for better opportunities or handle sudden crises.",
+    "difficulty": "easy"
   },
   {
     "question": "The Invisible Return on Savings",
     "content": "Cash in a bank account yields low interest, but its 'hidden' return is massive. It gives you the ability to wait for a better job, the ability to avoid panicking during a market crash, and the power to say 'no' to things you dislike.",
     "description": "How should we measure the 'return' on a liquid emergency fund?",
-    "options": ["By comparing its interest rate to the S&P 500.", "By the amount of stress it prevents and the options it provides during a crisis.", "By how many luxury items it could buy in an emergency.", "By its ability to beat inflation every single month."],
+    "options": [
+      "By comparing its interest rate to the S&P 500.",
+      "By the amount of stress it prevents and the options it provides during a crisis.",
+      "By how many luxury items it could buy in an emergency.",
+      "By its ability to beat inflation every single month."
+    ],
     "answer": "By the amount of stress it prevents and the options it provides during a crisis.",
-    "explanation": "The value of cash isn't just the interest; it's the 'optionality dividend'—the freedom to make choices on your own terms."
+    "explanation": "The value of cash isn't just the interest; it's the 'optionality dividend'—the freedom to make choices on your own terms.",
+    "difficulty": "easy"
   },
   {
     "question": "The Wealth Equation",
     "content": "Wealth is simply the accumulated leftovers after you spend what you take in. Since you can't always control your income, focusing on the 'leftovers' (your spending) is the most efficient path to wealth.",
     "description": "If your goal is to double your wealth, which is mathematically more certain to work?",
-    "options": ["Taking high risks in the stock market to double your returns.", "Lowering your lifestyle expectations and doubling your savings rate.", "Waiting for a promotion that may or may not happen.", "Moving to a city with a higher cost of living to find a better job."],
+    "options": [
+      "Taking high risks in the stock market to double your returns.",
+      "Lowering your lifestyle expectations and doubling your savings rate.",
+      "Waiting for a promotion that may or may not happen.",
+      "Moving to a city with a higher cost of living to find a better job."
+    ],
     "answer": "Lowering your lifestyle expectations and doubling your savings rate.",
-    "explanation": "Lowering your lifestyle is within your control and has a 100% success rate, whereas increasing investment returns involves risk and uncertainty."
+    "explanation": "Lowering your lifestyle is within your control and has a 100% success rate, whereas increasing investment returns involves risk and uncertainty.",
+    "difficulty": "medium"
   },
   {
     "question": "Flexibility as a Competitive Advantage",
     "content": "In a world where everyone is becoming more technically skilled, the person with the most 'flexibility' (time and options) has a competitive advantage because they can wait for the best opportunities.",
     "description": "How does having a high savings rate make you a more 'competitive' person in the job market?",
-    "options": ["It makes you look more professional in interviews.", "It allows you to wait for a great job instead of being forced to take the first one that pays the bills.", "It allows you to work for free to get your foot in the door.", "It shows that you are good at accounting."],
+    "options": [
+      "It makes you look more professional in interviews.",
+      "It allows you to wait for a great job instead of being forced to take the first one that pays the bills.",
+      "It allows you to work for free to get your foot in the door.",
+      "It shows that you are good at accounting."
+    ],
     "answer": "It allows you to wait for a great job instead of being forced to take the first one that pays the bills.",
-    "explanation": "Intelligence and hard work are common; the ability to be patient because you have savings is a rare and powerful edge."
+    "explanation": "Intelligence and hard work are common; the ability to be patient because you have savings is a rare and powerful edge.",
+    "difficulty": "medium"
   },
   {
     "question": "The Cost of 'More'",
     "content": "Once your basic needs are met, every dollar spent on a lifestyle upgrade is effectively a tax on your future freedom.",
     "description": "An individual decides to keep their older car instead of financing a new one. According to Chapter 10, what are they 'buying'?",
-    "options": ["A future of mechanical problems.", "A higher social status among environmentalists.", "Time and options that the car payment would have stolen from them.", "Nothing, because they are still spending money on maintenance."],
+    "options": [
+      "A future of mechanical problems.",
+      "A higher social status among environmentalists.",
+      "Time and options that the car payment would have stolen from them.",
+      "Nothing, because they are still spending money on maintenance."
+    ],
     "answer": "Time and options that the car payment would have stolen from them.",
-    "explanation": "By avoiding the debt of a new car, they keep their income 'free' to be used for things that build wealth and autonomy."
+    "explanation": "By avoiding the debt of a new car, they keep their income 'free' to be used for things that build wealth and autonomy.",
+    "difficulty": "medium"
   },
   {
     "question": "The Relative Nature of Wealth",
     "content": "You can be wealthy on a small income if your needs are low, and you can be 'poor' on a huge income if your needs are even higher. Savings is the only true bridge to independence.",
     "description": "What defines 'financial independence' in the context of this chapter?",
-    "options": ["Having $1 million in the bank.", "Earning more than your neighbors.", "Having enough savings that your income no longer dictates your life choices.", "Being completely debt-free with no credit cards."],
+    "options": [
+      "Having $1 million in the bank.",
+      "Earning more than your neighbors.",
+      "Having enough savings that your income no longer dictates your life choices.",
+      "Being completely debt-free with no credit cards."
+    ],
     "answer": "Having enough savings that your income no longer dictates your life choices.",
-    "explanation": "Independence is reached when your savings (and the options they provide) give you more control than your employer or your bills."
+    "explanation": "Independence is reached when your savings (and the options they provide) give you more control than your employer or your bills.",
+    "difficulty": "medium"
   },
   {
     "question": "The Psychological Buffer",
     "content": "Having savings is like having a buffer between you and the 'punch' of life. It makes you less vulnerable to the whims of the economy or a bad boss.",
     "description": "Why does Housel suggest that saving is more of a 'psychological' act than a 'financial' one?",
-    "options": ["Because you have to be crazy to save money in a consumer world.", "Because it requires the mental strength to prioritize your future self over your current ego.", "Because savings accounts are designed by psychologists.", "Because the math of saving is too complex for most people."],
+    "options": [
+      "Because you have to be crazy to save money in a consumer world.",
+      "Because it requires the mental strength to prioritize your future self over your current ego.",
+      "Because savings accounts are designed by psychologists.",
+      "Because the math of saving is too complex for most people."
+    ],
     "answer": "Because it requires the mental strength to prioritize your future self over your current ego.",
-    "explanation": "Saving is an act of discipline and self-awareness. It requires ignoring social pressure to spend in order to secure mental peace."
+    "explanation": "Saving is an act of discipline and self-awareness. It requires ignoring social pressure to spend in order to secure mental peace.",
+    "difficulty": "medium"
   },
   {
     "question": "The Ultimate Takeaway on Saving",
     "content": "Savings are a hedge against life's ability to surprise you at the worst possible moment. The only way to survive the 'un-plannable' is to have capital that isn't already committed to something else.",
     "description": "What is Housel's final advice regarding the 'reason' to save?",
-    "options": ["Only save if you have a specific goal like retirement.", "Save as much as possible until you are the richest person you know.", "Save simply because you can, to gain a sense of control and preparedness.", "Don't save; it's better to invest everything in the stock market."],
+    "options": [
+      "Only save if you have a specific goal like retirement.",
+      "Save as much as possible until you are the richest person you know.",
+      "Save simply because you can, to gain a sense of control and preparedness.",
+      "Don't save; it's better to invest everything in the stock market."
+    ],
     "answer": "Save simply because you can, to gain a sense of control and preparedness.",
-    "explanation": "The value of 'just having money' is that it allows you to remain calm and opportunistic when everyone else is reacting to chaos."
+    "explanation": "The value of 'just having money' is that it allows you to remain calm and opportunistic when everyone else is reacting to chaos.",
+    "difficulty": "medium"
   }
 ]

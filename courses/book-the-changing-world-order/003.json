@@ -10,7 +10,8 @@
       "The country enters the 'Decline' phase instantly."
     ],
     "answer": "Economic activity increases temporarily, creating a 'boom' phase.",
-    "explanation": "Credit acts as an accelerator. By spending money they haven't earned yet, people increase demand and growth in the short term, pushing the cycle upward toward its peak."
+    "explanation": "Credit acts as an accelerator. By spending money they haven't earned yet, people increase demand and growth in the short term, pushing the cycle upward toward its peak.",
+    "difficulty": "easy"
   },
   {
     "question": "The Three Types of Money",
@@ -23,7 +24,8 @@
       "The nation is returning to a barter system."
     ],
     "answer": "From Type 2 to Type 3 money.",
-    "explanation": "When a government 'breaks the link' between paper notes and a physical commodity like gold, they are moving from Type 2 (claims on hard money) to Type 3 (fiat money)."
+    "explanation": "When a government 'breaks the link' between paper notes and a physical commodity like gold, they are moving from Type 2 (claims on hard money) to Type 3 (fiat money).",
+    "difficulty": "easy"
   },
   {
     "question": "Debt Restructuring vs. Money Printing",
@@ -36,7 +38,8 @@
       "Restructuring debt is the only way to stay in the 'Rise' phase."
     ],
     "answer": "Restructuring debt is immediate and visible, whereas the pain of inflation is gradual.",
-    "explanation": "Defaulting on debt causes an immediate crash and visible losers. Printing money spreads the pain out over time through rising prices, which is easier for politicians to manage even though it devalues the currency."
+    "explanation": "Defaulting on debt causes an immediate crash and visible losers. Printing money spreads the pain out over time through rising prices, which is easier for politicians to manage even though it devalues the currency.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Beautiful Deleveraging'",
@@ -49,7 +52,8 @@
       "They need to increase interest rates to 20%."
     ],
     "answer": "They need the central bank to print enough money to offset the deflationary pressure.",
-    "explanation": "Spending cuts and tax hikes are 'deflationary' (they slow things down). To keep the economy stable, the government must provide a 'stimulus' by printing some money to keep growth from crashing."
+    "explanation": "Spending cuts and tax hikes are 'deflationary' (they slow things down). To keep the economy stable, the government must provide a 'stimulus' by printing some money to keep growth from crashing.",
+    "difficulty": "easy"
   },
   {
     "question": "The Value of 'Real' Assets",
@@ -62,7 +66,8 @@
       "In cash hidden under a mattress."
     ],
     "answer": "In physical gold or real estate.",
-    "explanation": "Cash and bonds are 'promises' to be paid in currency. If the currency is being devalued by printing, those promises become worthless. Real assets have intrinsic value that isn't tied to the printing press."
+    "explanation": "Cash and bonds are 'promises' to be paid in currency. If the currency is being devalued by printing, those promises become worthless. Real assets have intrinsic value that isn't tied to the printing press.",
+    "difficulty": "easy"
   },
   {
     "question": "The Short-Term vs. Long-Term Debt Cycle",
@@ -75,7 +80,8 @@
       "The country has successfully avoided the 'Big Reset'."
     ],
     "answer": "The economy is moving toward the 'peak' of the Long-Term Debt Cycle.",
-    "explanation": "In each short-term cycle, the 'bottom' usually has more debt than the previous one. This stacking of debt eventually creates the massive bubble that leads to the end of the Long-Term cycle."
+    "explanation": "In each short-term cycle, the 'bottom' usually has more debt than the previous one. This stacking of debt eventually creates the massive bubble that leads to the end of the Long-Term cycle.",
+    "difficulty": "easy"
   },
   {
     "question": "Internal Wealth Gaps and Debt",
@@ -88,7 +94,8 @@
       "Because the rising power of the currency makes people want a new leader."
     ],
     "answer": "Because the 'wealth gap' becomes intolerable when the economy stops growing.",
-    "explanation": "When the 'economic pie' stops growing due to a debt crisis, people fight more fiercely over how to divide it. This tension fuels populism and the demand for radical political change."
+    "explanation": "When the 'economic pie' stops growing due to a debt crisis, people fight more fiercely over how to divide it. This tension fuels populism and the demand for radical political change.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Exorbitant Privilege' of Reserve Currency",
@@ -101,7 +108,8 @@
       "Neither, because debt is an illusion in modern economics."
     ],
     "answer": "Country Y, because they cannot print the money that the rest of the world accepts.",
-    "explanation": "Reserve currency nations can 'export' their inflation by printing money that other nations hold. Non-reserve nations must pay their debts in 'harder' currency they don't control, making them much more fragile."
+    "explanation": "Reserve currency nations can 'export' their inflation by printing money that other nations hold. Non-reserve nations must pay their debts in 'harder' currency they don't control, making them much more fragile.",
+    "difficulty": "easy"
   },
   {
     "question": "Inflation vs. Deflation in a Crisis",
@@ -114,7 +122,8 @@
       "The prices will be regulated by the gold standard."
     ],
     "answer": "The prices will rise significantly as the currency loses value.",
-    "explanation": "While the 'crash' itself is deflationary, the massive printing of money is 'inflationary.' If the printing outweighs the crash, the cost of living skyrockets as the currency's value is diluted."
+    "explanation": "While the 'crash' itself is deflationary, the massive printing of money is 'inflationary.' If the printing outweighs the crash, the cost of living skyrockets as the currency's value is diluted.",
+    "difficulty": "medium"
   },
   {
     "question": "Signs of the 'End' of the Money Cycle",
@@ -127,6 +136,7 @@
       "In a permanent 'Peak' that will never end."
     ],
     "answer": "In the late-stage 'Decline' or 'Restructuring' phase of the money cycle.",
-    "explanation": "When interest rates hit zero, the government's traditional tools for managing the economy are gone. They are forced to print money to survive, which is the 'last resort' of a failing monetary order."
+    "explanation": "When interest rates hit zero, the government's traditional tools for managing the economy are gone. They are forced to print money to survive, which is the 'last resort' of a failing monetary order.",
+    "difficulty": "medium"
   }
 ]

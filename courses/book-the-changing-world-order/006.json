@@ -10,7 +10,8 @@
       "A long history of isolationism."
     ],
     "answer": "Superior education and breakthrough financial innovations.",
-    "explanation": "The Dutch were the most educated people of their time. This led to innovations in shipbuilding and finance (like the invention of the joint-stock company), which allowed them to out-compete much larger nations."
+    "explanation": "The Dutch were the most educated people of their time. This led to innovations in shipbuilding and finance (like the invention of the joint-stock company), which allowed them to out-compete much larger nations.",
+    "difficulty": "easy"
   },
   {
     "question": "The Dutch Guilder as Reserve Currency",
@@ -23,7 +24,8 @@
       "A decrease in the total amount of debt held by the country."
     ],
     "answer": "Shifting from hard work and innovation to living off interest and lending money to others.",
-    "explanation": "In late-stage empires, the focus shifts from 'making things' to 'moving money.' The Dutch began lending to their rivals (like the British) to get a return, rather than reinvesting in their own technology."
+    "explanation": "In late-stage empires, the focus shifts from 'making things' to 'moving money.' The Dutch began lending to their rivals (like the British) to get a return, rather than reinvesting in their own technology.",
+    "difficulty": "easy"
   },
   {
     "question": "The British Challenge",
@@ -36,7 +38,8 @@
       "The British had a smaller, more defensive military."
     ],
     "answer": "The Dutch had more debt and a less competitive workforce by the time of the conflict.",
-    "explanation": "By the time the major wars arrived, the Dutch were overextended and burdened by debt, while the British were in their 'Rise' phase—more productive, innovative, and fiscally sound."
+    "explanation": "By the time the major wars arrived, the Dutch were overextended and burdened by debt, while the British were in their 'Rise' phase—more productive, innovative, and fiscally sound.",
+    "difficulty": "easy"
   },
   {
     "question": "The British Empire's 'Big Cycle'",
@@ -49,7 +52,8 @@
       "A decision by the Queen to retire from global politics."
     ],
     "answer": "The massive debt incurred during World War I and World War II.",
-    "explanation": "The costs of the World Wars were so high that Britain had to borrow heavily from the US. This debt, combined with the loss of its colonies, broke the British 'Big Cycle' and shifted the order to the US."
+    "explanation": "The costs of the World Wars were so high that Britain had to borrow heavily from the US. This debt, combined with the loss of its colonies, broke the British 'Big Cycle' and shifted the order to the US.",
+    "difficulty": "easy"
   },
   {
     "question": "The US Dollar and the 1944 New Order",
@@ -62,7 +66,8 @@
       "Because there were no other countries left on the map."
     ],
     "answer": "Because it had the most gold and the most dominant military/economic position.",
-    "explanation": "A New World Order is set by the winner of the previous conflict. In 1944, the US was the clear dominant power, allowing it to define the global financial and political systems."
+    "explanation": "A New World Order is set by the winner of the previous conflict. In 1944, the US was the clear dominant power, allowing it to define the global financial and political systems.",
+    "difficulty": "easy"
   },
   {
     "question": "The Shift to Fiat (1971)",
@@ -75,7 +80,8 @@
       "It made inflation disappear for the next 50 years."
     ],
     "answer": "It allowed the US to create massive amounts of debt and credit, accelerating the cycle.",
-    "explanation": "Moving to fiat money removed the 'leash' on debt. This allowed for a massive boom in credit and spending, which moved the US further into the 'Late-Stage' of its debt cycle."
+    "explanation": "Moving to fiat money removed the 'leash' on debt. This allowed for a massive boom in credit and spending, which moved the US further into the 'Late-Stage' of its debt cycle.",
+    "difficulty": "medium"
   },
   {
     "question": "The Rise of China",
@@ -88,7 +94,8 @@
       "They are waiting for the US to voluntarily give up its power."
     ],
     "answer": "They are using a 'virtuous cycle' of education and productivity to gain trade share.",
-    "explanation": "China's rise is a textbook example of the early Big Cycle phase: focusing on productivity, education, and competitive manufacturing to build wealth and influence."
+    "explanation": "China's rise is a textbook example of the early Big Cycle phase: focusing on productivity, education, and competitive manufacturing to build wealth and influence.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Late-Stage' Symptoms",
@@ -101,7 +108,8 @@
       "The disappearance of all global trade wars."
     ],
     "answer": "Extreme political polarization and massive government deficits.",
-    "explanation": "Large debts (deficits) and internal conflict (polarization) are key indicators that an empire is in the 'Decline' phase of its internal and financial cycles."
+    "explanation": "Large debts (deficits) and internal conflict (polarization) are key indicators that an empire is in the 'Decline' phase of its internal and financial cycles.",
+    "difficulty": "medium"
   },
   {
     "question": "The Nature of 'Transitions'",
@@ -114,7 +122,8 @@
       "The total end of the Big Cycle forever."
     ],
     "answer": "Increased volatility in markets and more frequent international disputes.",
-    "explanation": "Transition periods are by definition unstable. As the old 'Rules of the Game' lose their power and the new ones aren't yet set, conflict and volatility become the norm."
+    "explanation": "Transition periods are by definition unstable. As the old 'Rules of the Game' lose their power and the new ones aren't yet set, conflict and volatility become the norm.",
+    "difficulty": "medium"
   },
   {
     "question": "Learning from the 'Archetypes'",
@@ -127,6 +136,7 @@
       "The US is the only empire that has ever faced a debt crisis."
     ],
     "answer": "Cycles are inevitable, and we must adapt to the phase we are in.",
-    "explanation": "Dalio's central thesis is that these cycles are a part of human history. By recognizing where we are in the cycle, individuals and leaders can make better decisions to navigate the inevitable changes."
+    "explanation": "Dalio's central thesis is that these cycles are a part of human history. By recognizing where we are in the cycle, individuals and leaders can make better decisions to navigate the inevitable changes.",
+    "difficulty": "medium"
   }
 ]

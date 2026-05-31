@@ -10,7 +10,8 @@
       "Ask a peer to tell the subordinate to stop questioning you in public."
     ],
     "answer": "Analyze your own need for 'expert status' and why being questioned feels like a personal threat.",
-    "explanation": "Diagnosing the self means looking inward to understand your emotional reactions. Defensiveness usually signals a 'hunger' or a fear that is being triggered by the external environment."
+    "explanation": "Diagnosing the self means looking inward to understand your emotional reactions. Defensiveness usually signals a 'hunger' or a fear that is being triggered by the external environment.",
+    "difficulty": "easy"
   },
   {
     "question": "Identifying Your 'Hungers'",
@@ -23,7 +24,8 @@
       "It will lead to higher employee retention because everyone feels happy."
     ],
     "answer": "It might stop you from raising 'the heat' or making unpopular decisions necessary for growth.",
-    "explanation": "If you need to be liked, you will avoid the 'disequilibrium' required for adaptation. Adaptive leadership often requires making people uncomfortable, which is the opposite of seeking affirmation."
+    "explanation": "If you need to be liked, you will avoid the 'disequilibrium' required for adaptation. Adaptive leadership often requires making people uncomfortable, which is the opposite of seeking affirmation.",
+    "difficulty": "easy"
   },
   {
     "question": "Understanding Your 'Tuning'",
@@ -36,7 +38,8 @@
       "A technical approach to conflict resolution."
     ],
     "answer": "Your personal 'tuning' dictating how you manage the organizational 'heat.'",
-    "explanation": "Your tuning determines your 'comfort zone.' In this case, your past makes you interpret productive tension as 'danger,' causing you to prematurely lower the heat."
+    "explanation": "Your tuning determines your 'comfort zone.' In this case, your past makes you interpret productive tension as 'danger,' causing you to prematurely lower the heat.",
+    "difficulty": "easy"
   },
   {
     "question": "Distinguishing Self from Role",
@@ -49,7 +52,8 @@
       "Identify the ringleader of the protest and move them to a different department."
     ],
     "answer": "Remind yourself that they are attacking the 'agent of change' (the role), not your personal character.",
-    "explanation": "If you take it personally, you become defensive and lose your 'balcony' perspective. Distinguishing 'self from role' allows you to stay focused on the work despite the heat."
+    "explanation": "If you take it personally, you become defensive and lose your 'balcony' perspective. Distinguishing 'self from role' allows you to stay focused on the work despite the heat.",
+    "difficulty": "easy"
   },
   {
     "question": "Knowing Your 'Scope of Authority'",
@@ -62,7 +66,8 @@
       "You should wait until you are promoted to VP before making suggestions to other departments."
     ],
     "answer": "You are working outside your formal authority and must rely entirely on your informal influence and trust.",
-    "explanation": "When you step outside your 'lane,' you no longer have the protection of your title. You must be aware that you are now 'leading' in a way that the system might try to reject."
+    "explanation": "When you step outside your 'lane,' you no longer have the protection of your title. You must be aware that you are now 'leading' in a way that the system might try to reject.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Holding Environment' for Yourself",
@@ -75,7 +80,8 @@
       "To have someone who will always agree with your decisions."
     ],
     "answer": "To create a personal holding environment where you can process the 'heat' of leadership.",
-    "explanation": "A confidant provides the emotional safety needed to stay in the game. Without a personal holding environment, leaders often burn out or act out their frustrations destructively."
+    "explanation": "A confidant provides the emotional safety needed to stay in the game. Without a personal holding environment, leaders often burn out or act out their frustrations destructively.",
+    "difficulty": "easy"
   },
   {
     "question": "Integrating Your 'Shadow' Side",
@@ -88,7 +94,8 @@
       "Focusing too much on the past instead of the future."
     ],
     "answer": "Integrating your shadow so you can choose a more adaptive response in the future.",
-    "explanation": "Self-awareness is power. Once you know 'why' you behave a certain way, you are no longer a slave to that impulse and can act in the interest of the challenge instead."
+    "explanation": "Self-awareness is power. Once you know 'why' you behave a certain way, you are no longer a slave to that impulse and can act in the interest of the challenge instead.",
+    "difficulty": "easy"
   },
   {
     "question": "Listening as a Diagnostic Tool",
@@ -101,7 +108,8 @@
       "Explain to the peer that you only talk because no one else has good ideas."
     ],
     "answer": "Analyze the feedback to see if your 'hunger for control' is indeed preventing others from contributing.",
-    "explanation": "Using 'painful' feedback as a diagnostic tool allows you to adjust your behavior to be more effective. It’s about using the system's reaction to 'tune' your own leadership instrument."
+    "explanation": "Using 'painful' feedback as a diagnostic tool allows you to adjust your behavior to be more effective. It’s about using the system's reaction to 'tune' your own leadership instrument.",
+    "difficulty": "easy"
   },
   {
     "question": "The Temptation of the 'Savior' Complex",
@@ -114,7 +122,8 @@
       "There is no risk; a parent's job is to protect their child from all frustration."
     ],
     "answer": "You are satisfying your own 'hunger' while failing to build the child's problem-solving capacity.",
-    "explanation": "While 'saving' the day feels good (satisfying a hunger), it prevents the child from learning how to handle frustration and solve problems themselves, which is the actual adaptive challenge."
+    "explanation": "While 'saving' the day feels good (satisfying a hunger), it prevents the child from learning how to handle frustration and solve problems themselves, which is the actual adaptive challenge.",
+    "difficulty": "medium"
   },
   {
     "question": "Staying Reflective in Action",
@@ -127,6 +136,7 @@
       "Giving the work back."
     ],
     "answer": "Reflection-in-action.",
-    "explanation": "Reflection-in-action is the 'balcony' view of your own internal state. It gives you the split-second of freedom needed to lead rather than just react."
+    "explanation": "Reflection-in-action is the 'balcony' view of your own internal state. It gives you the split-second of freedom needed to lead rather than just react.",
+    "difficulty": "medium"
   }
 ]

@@ -10,7 +10,8 @@
       "You overheard them discussing vitamins with colleagues"
     ],
     "answer": "The lab coat serves as a symbol of authority",
-    "explanation": "Symbols of authority like titles, clothing (lab coats, uniforms), or trappings trigger automatic deference, even when the actual expertise is questionable."
+    "explanation": "Symbols of authority like titles, clothing (lab coats, uniforms), or trappings trigger automatic deference, even when the actual expertise is questionable.",
+    "difficulty": "easy"
   },
   {
     "question": "Titles and Authority",
@@ -23,7 +24,8 @@
       "The phone number matched the bank's official line"
     ],
     "answer": "The title 'Doctor' triggers authority perception",
-    "explanation": "Titles like 'Doctor' create an automatic assumption of expertise and trustworthiness, increasing compliance even when the claim is fraudulent."
+    "explanation": "Titles like 'Doctor' create an automatic assumption of expertise and trustworthiness, increasing compliance even when the claim is fraudulent.",
+    "difficulty": "easy"
   },
   {
     "question": "Clothing and Authority",
@@ -36,7 +38,8 @@
       "The lobby clearly displays 'No Loitering' signs"
     ],
     "answer": "The uniform triggers automatic authority response",
-    "explanation": "Uniforms and clothing associated with authority trigger compliance through learned associations, regardless of the individual's actual authority or intentions."
+    "explanation": "Uniforms and clothing associated with authority trigger compliance through learned associations, regardless of the individual's actual authority or intentions.",
+    "difficulty": "easy"
   },
   {
     "question": "Trappings of Authority",
@@ -49,7 +52,8 @@
       "The office is closer to the clients' homes"
     ],
     "answer": "The trappings signal success and authority",
-    "explanation": "Status symbols like luxury items create perceptions of success and expertise that enhance persuasive influence, even when not directly related to actual competence."
+    "explanation": "Status symbols like luxury items create perceptions of success and expertise that enhance persuasive influence, even when not directly related to actual competence.",
+    "difficulty": "easy"
   },
   {
     "question": "Boundaries of Obedience",
@@ -62,7 +66,8 @@
       "Scarcity — fewer participants are available to complete the experiment"
     ],
     "answer": "Social proof of disobedience overriding the authority figure's commands",
-    "explanation": "When a peer refuses to obey, it provides powerful social proof that disobedience is acceptable and safe, breaking the authority spell. This demonstrates that authority is not absolute — it can be overridden by social proof from similar others. Milgram's variations showed this was one of the most powerful conditions for reducing obedience."
+    "explanation": "When a peer refuses to obey, it provides powerful social proof that disobedience is acceptable and safe, breaking the authority spell. This demonstrates that authority is not absolute — it can be overridden by social proof from similar others. Milgram's variations showed this was one of the most powerful conditions for reducing obedience.",
+    "difficulty": "medium"
   },
   {
     "question": "Legitimate Authority vs. Appearance",
@@ -75,7 +80,8 @@
       "You believe they're actually a real officer"
     ],
     "answer": "You recognize they lack legitimate authority symbols",
-    "explanation": "Defending against authority influence involves checking for legitimate authority credentials rather than relying solely on symbols like uniforms or confident demeanor."
+    "explanation": "Defending against authority influence involves checking for legitimate authority credentials rather than relying solely on symbols like uniforms or confident demeanor.",
+    "difficulty": "medium"
   },
   {
     "question": "Authority in Advertising",
@@ -88,7 +94,8 @@
       "The product is the cheapest option available"
     ],
     "answer": "The white coat triggers authority perception",
-    "explanation": "The white coat serves as a symbol of medical authority, increasing perceived credibility and trust in the product recommendation regardless of the individual's actual expertise."
+    "explanation": "The white coat serves as a symbol of medical authority, increasing perceived credibility and trust in the product recommendation regardless of the individual's actual expertise.",
+    "difficulty": "medium"
   },
   {
     "question": "Defending Against Authority Exploitation",
@@ -101,6 +108,7 @@
       "Checking whether the caller sounds professional and knowledgeable"
     ],
     "answer": "Hanging up and independently calling Microsoft using their official number",
-    "explanation": "The strongest defense is to break contact and independently verify the authority through trusted channels. Asking for credentials is weak (scammers can fabricate IDs), and judging professionalism is unreliable. This demonstrates the general strategy: pause, verify through independent channels, then respond."
+    "explanation": "The strongest defense is to break contact and independently verify the authority through trusted channels. Asking for credentials is weak (scammers can fabricate IDs), and judging professionalism is unreliable. This demonstrates the general strategy: pause, verify through independent channels, then respond.",
+    "difficulty": "medium"
   }
 ]

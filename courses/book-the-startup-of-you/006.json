@@ -10,7 +10,8 @@
       "It isn't risky; a stable job is always the safest option"
     ],
     "answer": "Because you are accumulating 'career debt' and losing your competitive edge in the broader market",
-    "explanation": "Stagnation is a hidden risk. If your industry shifts and you haven't kept your skills sharp, you'll be unprepared for a forced transition."
+    "explanation": "Stagnation is a hidden risk. If your industry shifts and you haven't kept your skills sharp, you'll be unprepared for a forced transition.",
+    "difficulty": "easy"
   },
   {
     "question": "Risk vs. Uncertainty",
@@ -23,7 +24,8 @@
       "Wait until a major network offers you a contract to start"
     ],
     "answer": "Record five episodes using your smartphone to test the concept with a small audience",
-    "explanation": "Intelligent risk involves low-cost experimentation. By testing the idea cheaply, you address the uncertainty without a catastrophic financial downside."
+    "explanation": "Intelligent risk involves low-cost experimentation. By testing the idea cheaply, you address the uncertainty without a catastrophic financial downside.",
+    "difficulty": "easy"
   },
   {
     "question": "The Downside and the Upside",
@@ -36,7 +38,8 @@
       "No, because startups are always more work than corporate jobs"
     ],
     "answer": "Yes, because the downside (living on savings) is survivable, and the upside is transformative",
-    "explanation": "Intelligent risks have 'asymmetric' returns: a limited, survivable loss versus a potentially massive gain."
+    "explanation": "Intelligent risks have 'asymmetric' returns: a limited, survivable loss versus a potentially massive gain.",
+    "difficulty": "medium"
   },
   {
     "question": "Resilience through Small Failures",
@@ -49,7 +52,8 @@
       "As a reason to give up on writing forever"
     ],
     "answer": "As a data point that helps you refine your next submission and builds your 'rejection muscle'",
-    "explanation": "Small failures provide essential feedback and toughen you up for larger challenges. They are 'vaccinations' against major career catastrophes."
+    "explanation": "Small failures provide essential feedback and toughen you up for larger challenges. They are 'vaccinations' against major career catastrophes.",
+    "difficulty": "medium"
   },
   {
     "question": "The Danger of 'Short-Term' Safety",
@@ -62,7 +66,8 @@
       "An employee who never talks to anyone outside their own department"
     ],
     "answer": "A consultant who works with five different clients and is constantly learning new software",
-    "explanation": "The consultant is 'anti-fragile.' Their income is diversified, and their skills are constantly updated, making them less vulnerable to a single point of failure."
+    "explanation": "The consultant is 'anti-fragile.' Their income is diversified, and their skills are constantly updated, making them less vulnerable to a single point of failure.",
+    "difficulty": "medium"
   },
   {
     "question": "Assessing Risk with Plan Z",
@@ -75,7 +80,8 @@
       "It doesn't affect your mindset at all"
     ],
     "answer": "It allows you to focus 100% on the business because the fear of homelessness is removed",
-    "explanation": "Plan Z provides the psychological floor. When you aren't managing 'survival fear,' you can manage 'business risk' more effectively."
+    "explanation": "Plan Z provides the psychological floor. When you aren't managing 'survival fear,' you can manage 'business risk' more effectively.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Safe' Career Path Fallacy",
@@ -88,7 +94,8 @@
       "Assume that law is a 'protected' profession and do nothing"
     ],
     "answer": "Proactively learn how to use those AI tools to become 10x more efficient than other junior lawyers",
-    "explanation": "Embracing the disruption (taking the risk to change your workflow) is safer than ignoring it. You become the person who manages the technology rather than the one replaced by it."
+    "explanation": "Embracing the disruption (taking the risk to change your workflow) is safer than ignoring it. You become the person who manages the technology rather than the one replaced by it.",
+    "difficulty": "medium"
   },
   {
     "question": "Risk is a Skill",
@@ -101,7 +108,8 @@
       "Doing exactly what you did last week"
     ],
     "answer": "Inviting a stranger in your industry to a 15-minute virtual coffee to ask for advice",
-    "explanation": "A micro-risk has a very small downside (the person says no) but helps you practice the 'outreach' and 'uncertainty' required for bigger moves."
+    "explanation": "A micro-risk has a very small downside (the person says no) but helps you practice the 'outreach' and 'uncertainty' required for bigger moves.",
+    "difficulty": "medium"
   },
   {
     "question": "Opportunity Cost",
@@ -114,7 +122,8 @@
       "There is no cost if you aren't losing money"
     ],
     "answer": "The salary and experience you *could* have gained by joining that high-growth startup you passed on",
-    "explanation": "Cost isn't just about what you spend; it's also about what you miss out on. In 'Permanent Beta,' staying still is a massive cost."
+    "explanation": "Cost isn't just about what you spend; it's also about what you miss out on. In 'Permanent Beta,' staying still is a massive cost.",
+    "difficulty": "hard"
   },
   {
     "question": "Collective Risk-Taking",
@@ -127,6 +136,7 @@
       "Because you can split the cost of the office snacks"
     ],
     "answer": "Because it provides 'safety in numbers' and combines your collective network intelligence to improve the proposal",
-    "explanation": "Alliances allow for bolder risk-taking. A shared proposal is often more robust and less professionally dangerous than one person acting alone."
+    "explanation": "Alliances allow for bolder risk-taking. A shared proposal is often more robust and less professionally dangerous than one person acting alone.",
+    "difficulty": "hard"
   }
 ]

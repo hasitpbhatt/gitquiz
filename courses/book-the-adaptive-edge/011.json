@@ -10,7 +10,8 @@
       "Because the employees don't have the technical skills to understand new concepts."
     ],
     "answer": "Because innovation requires people to risk their personal security and change their habits.",
-    "explanation": "Adaptive challenges are rooted in people's hearts and minds. No matter how good the external advice is, change won't happen until the people within the system choose to let go of their old ways of thinking."
+    "explanation": "Adaptive challenges are rooted in people's hearts and minds. No matter how good the external advice is, change won't happen until the people within the system choose to let go of their old ways of thinking.",
+    "difficulty": "easy"
   },
   {
     "question": "Conflict as an Indicator",
@@ -23,7 +24,8 @@
       "As a technical error in the workflow software that needs to be debugged."
     ],
     "answer": "As a necessary conflict that highlights a lack of trust and shared vision between the teams.",
-    "explanation": "In an adaptive framework, conflict isn't the problem; it’s the signal. It points you toward the 'deep work' of relationship building and alignment that must happen for the system to evolve."
+    "explanation": "In an adaptive framework, conflict isn't the problem; it’s the signal. It points you toward the 'deep work' of relationship building and alignment that must happen for the system to evolve.",
+    "difficulty": "medium"
   },
   {
     "question": "The Holding Environment (Advanced)",
@@ -36,7 +38,8 @@
       "By making a final decision yourself to relieve the group of the burden of choice."
     ],
     "answer": "By acknowledging the fear in the room while insisting that the group stays to finish the agenda.",
-    "explanation": "A leader maintains the holding environment by validating the emotional difficulty (the pressure) while keeping the boundaries firm (the containment) so the work actually gets done."
+    "explanation": "A leader maintains the holding environment by validating the emotional difficulty (the pressure) while keeping the boundaries firm (the containment) so the work actually gets done.",
+    "difficulty": "medium"
   },
   {
     "question": "Intervening with Intent",
@@ -49,7 +52,8 @@
       "Give you more time to gather technical evidence of their silos."
     ],
     "answer": "Intervene at a moment when the group is already gathered and the 'heat' can be managed.",
-    "explanation": "Effective intervention requires a 'holding environment' (the meeting). By timing the disruption when everyone is present, you ensure the 'work' is shared and the reaction is visible."
+    "explanation": "Effective intervention requires a 'holding environment' (the meeting). By timing the disruption when everyone is present, you ensure the 'work' is shared and the reaction is visible.",
+    "difficulty": "medium"
   },
   {
     "question": "Distinguishing 'Work' from 'Reaction'",
@@ -62,7 +66,8 @@
       "Explaining the logic of each rule until they understand it."
     ],
     "answer": "Helping your teenager find healthy ways to exercise independence within the new boundaries.",
-    "explanation": "The 'reaction' is the complaint about unfairness. The 'work' is the loss of autonomy. An adaptive parent addresses the root cause of the pain rather than just 'fixing' the surface complaint."
+    "explanation": "The 'reaction' is the complaint about unfairness. The 'work' is the loss of autonomy. An adaptive parent addresses the root cause of the pain rather than just 'fixing' the surface complaint.",
+    "difficulty": "medium"
   },
   {
     "question": "The Power of Silence as an Intervention",
@@ -75,7 +80,8 @@
       "To see who the 'weakest link' on the board is based on who speaks first."
     ],
     "answer": "To allow the 'heat' of the question to sit with the board until they are forced to engage.",
-    "explanation": "Silence is a 'pressure' tactic. It prevents the board from escaping the uncomfortable truth and requires them to generate their own adaptive response."
+    "explanation": "Silence is a 'pressure' tactic. It prevents the board from escaping the uncomfortable truth and requires them to generate their own adaptive response.",
+    "difficulty": "medium"
   },
   {
     "question": "Protecting the Outsider",
@@ -88,7 +94,8 @@
       "Tell the new manager to spend six months 'learning how we do things' before criticizing."
     ],
     "answer": "Stop the laughter and ask: 'What specifically have you seen that makes you say that?'",
-    "explanation": "By validating the outsider's perspective, you prevent the system from 'neutralizing' the inconvenient truth they are presenting."
+    "explanation": "By validating the outsider's perspective, you prevent the system from 'neutralizing' the inconvenient truth they are presenting.",
+    "difficulty": "medium"
   },
   {
     "question": "Pacing the Loss",
@@ -101,7 +108,8 @@
       "A failure to be decisive and make the hard choices quickly."
     ],
     "answer": "Pacing the loss to allow your parents to process memories and let go at their own speed.",
-    "explanation": "Gradual transition isn't just about logistics; it's about the 'human' pace of change. It allows your parents to slowly let go of the old 'DNA' of their lifelong home while adapting to the new phase of life."
+    "explanation": "Gradual transition isn't just about logistics; it's about the 'human' pace of change. It allows your parents to slowly let go of the old 'DNA' of their lifelong home while adapting to the new phase of life.",
+    "difficulty": "hard"
   },
   {
     "question": "Leading with a 'Holding' Mindset",
@@ -114,7 +122,8 @@
       "A default response to stress that shuts down communication."
     ],
     "answer": "An act of 'holding' the team's responsibility and pushing them toward self-organization.",
-    "explanation": "By being 'unhelpful' (not giving the answer), you are 'holding' the team in the space where they must develop their own prioritization skills—an adaptive leap for the group."
+    "explanation": "By being 'unhelpful' (not giving the answer), you are 'holding' the team in the space where they must develop their own prioritization skills—an adaptive leap for the group.",
+    "difficulty": "hard"
   },
   {
     "question": "The Reward of Adaptation",
@@ -127,6 +136,7 @@
       "The previous crisis was not actually resolved if they are still 'analyzing' things."
     ],
     "answer": "They have developed high adaptive capacity and are now a thriving system.",
-    "explanation": "The sign of a successful adaptive leader is that they eventually become less 'necessary' for daily survival. The system has learned how to lead itself through the 'dance' of change."
+    "explanation": "The sign of a successful adaptive leader is that they eventually become less 'necessary' for daily survival. The system has learned how to lead itself through the 'dance' of change.",
+    "difficulty": "hard"
   }
 ]

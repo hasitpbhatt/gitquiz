@@ -10,7 +10,8 @@
       "To hide the model's logic from regulators."
     ],
     "answer": "To verify if the signal is based on a logical data point or a 'glitch' in the input data.",
-    "explanation": "XAI allows you to see the 'why' behind the 'what.' If the 'Sell' signal is based on a data error (like a missing price decimal), you can avoid a costly mistake."
+    "explanation": "XAI allows you to see the 'why' behind the 'what.' If the 'Sell' signal is based on a data error (like a missing price decimal), you can avoid a costly mistake.",
+    "difficulty": "easy"
   },
   {
     "question": "Identifying Signal vs. Noise",
@@ -23,7 +24,8 @@
       "As a signal that the company has secretly become successful."
     ],
     "answer": "As likely 'noise' or a technical liquidity event rather than a fundamental shift.",
-    "explanation": "When price moves without a corresponding 'narrative' or fundamental driver, it is often noise. GenAI's inability to find a reason is, in itself, a helpful piece of information."
+    "explanation": "When price moves without a corresponding 'narrative' or fundamental driver, it is often noise. GenAI's inability to find a reason is, in itself, a helpful piece of information.",
+    "difficulty": "easy"
   },
   {
     "question": "Confidence Scoring for AI Predictions",
@@ -36,7 +38,8 @@
       "Ignore both because models are never 100% sure."
     ],
     "answer": "Allocate more capital to the Silver trade because the model is more certain of the outcome.",
-    "explanation": "Confidence-based position sizing is a key part of risk management. You want to bet heavier when the model's 'conviction' is high."
+    "explanation": "Confidence-based position sizing is a key part of risk management. You want to bet heavier when the model's 'conviction' is high.",
+    "difficulty": "easy"
   },
   {
     "question": "Feature Importance in Trading Models",
@@ -49,7 +52,8 @@
       "Change the model to a different asset class."
     ],
     "answer": "Focus your research on refining macro-economic interest rate data, as it is the primary driver of your model.",
-    "explanation": "By understanding feature importance, you can prioritize high-impact data and avoid wasting resources on 'features' that don't actually help the model predict accurately."
+    "explanation": "By understanding feature importance, you can prioritize high-impact data and avoid wasting resources on 'features' that don't actually help the model predict accurately.",
+    "difficulty": "easy"
   },
   {
     "question": "Translating Signals into Human-Readable Reports",
@@ -62,7 +66,8 @@
       "It translates the report into 50 different languages."
     ],
     "answer": "It synthesizes the complex math into a clear, logical argument that humans can debate and approve.",
-    "explanation": "Communication is key in institutional trading. GenAI bridges the gap between the 'quant' (math) and the 'portfolio manager' (strategy)."
+    "explanation": "Communication is key in institutional trading. GenAI bridges the gap between the 'quant' (math) and the 'portfolio manager' (strategy).",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Hallucination' Risk in Interpretation",
@@ -74,8 +79,9 @@
       "Treat it as a hallucination and verify with an official SEC filing or a trusted news terminal.",
       "Wait for the AI to realize it made a mistake and apologize."
     ],
-    "answer": "Treat it as a hallucination and verify with an official SEC filings or a trusted news terminal.",
-    "explanation": "LLMs do not have 'secret' info; they only process what they've been given or trained on. Extraordinary claims require extraordinary evidence from primary sources."
+    "answer": "Treat it as a hallucination and verify with an official SEC filing or a trusted news terminal.",
+    "explanation": "LLMs do not have 'secret' info; they only process what they've been given or trained on. Extraordinary claims require extraordinary evidence from primary sources.",
+    "difficulty": "medium"
   },
   {
     "question": "Visualizing Model Logic",
@@ -88,7 +94,8 @@
       "It doesn't matter what the model looks at as long as the price is right."
     ],
     "answer": "No, it suggests the model is focusing on 'boilerplate' text rather than the meaningful financial discussion.",
-    "explanation": "Interpretation tools help you debug the model. If the AI is paying attention to the wrong things, its predictions are likely based on 'spurious correlations' (luck) rather than logic."
+    "explanation": "Interpretation tools help you debug the model. If the AI is paying attention to the wrong things, its predictions are likely based on 'spurious correlations' (luck) rather than logic.",
+    "difficulty": "medium"
   },
   {
     "question": "Confidence Intervals in Price Forecasting",
@@ -101,7 +108,8 @@
       "Neither; you should only trade if there is no range."
     ],
     "answer": "Model A, because the narrow range indicates higher precision and lower uncertainty.",
-    "explanation": "Narrower confidence intervals indicate that the model has found a stronger, more consistent pattern in the data, making it easier to set stop-loss levels."
+    "explanation": "Narrower confidence intervals indicate that the model has found a stronger, more consistent pattern in the data, making it easier to set stop-loss levels.",
+    "difficulty": "medium"
   },
   {
     "question": "Backtesting Interpretation Accuracy",
@@ -114,7 +122,8 @@
       "It means the model is too smart for the researcher to understand."
     ],
     "answer": "It indicates that the model's success was lucky, and it will likely fail when the 'real' driver (interest rates) changes.",
-    "explanation": "If a model's underlying logic is flawed, its profitability is unsustainable. True interpretability ensures that the model is capturing the actual causal drivers of the market."
+    "explanation": "If a model's underlying logic is flawed, its profitability is unsustainable. True interpretability ensures that the model is capturing the actual causal drivers of the market.",
+    "difficulty": "medium"
   },
   {
     "question": "Sensitivity Analysis",
@@ -127,6 +136,7 @@
       "The model is broken and should be deleted."
     ],
     "answer": "Your strategy is highly sensitive (and potentially fragile) to energy costs.",
-    "explanation": "Sensitivity analysis reveals the 'hidden risks' in a strategy. If one small variable can break the whole plan, you need to hedge that specific risk or find a more stable signal."
+    "explanation": "Sensitivity analysis reveals the 'hidden risks' in a strategy. If one small variable can break the whole plan, you need to hedge that specific risk or find a more stable signal.",
+    "difficulty": "medium"
   }
 ]

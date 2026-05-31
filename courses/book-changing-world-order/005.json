@@ -10,7 +10,8 @@
       "All five"
     ],
     "answer": "All five",
-    "explanation": "Tariffs = trade war, technology restrictions = tech war, asset freezes = capital war, diplomatic expulsions = geopolitical war, troops = military confrontation. All five types are present."
+    "explanation": "Tariffs = trade war, technology restrictions = tech war, asset freezes = capital war, diplomatic expulsions = geopolitical war, troops = military confrontation. All five types are present.",
+    "difficulty": "easy"
   },
   {
     "question": "Rising vs. Established Power Dynamics",
@@ -23,7 +24,8 @@
       "No risk because nuclear weapons prevent all wars"
     ],
     "answer": "The greatest risk of major conflict, as seen repeatedly in history",
-    "explanation": "Dalio shows that when a rising power nears parity with the established power and the two have irreconcilable differences, the historical track record for peaceful resolution is very poor."
+    "explanation": "Dalio shows that when a rising power nears parity with the established power and the two have irreconcilable differences, the historical track record for peaceful resolution is very poor.",
+    "difficulty": "medium"
   },
   {
     "question": "The Transition Period",
@@ -36,7 +38,8 @@
       "50-100 years"
     ],
     "answer": "10-20 years",
-    "explanation": "Dalio's research shows that the transition period when a new world order replaces an old one typically spans one to two decades of intensifying conflict before a new equilibrium emerges."
+    "explanation": "Dalio's research shows that the transition period when a new world order replaces an old one typically spans one to two decades of intensifying conflict before a new equilibrium emerges.",
+    "difficulty": "medium"
   },
   {
     "question": "Two Certainties About War",
@@ -49,7 +52,8 @@
       "War outcomes are determined by international law"
     ],
     "answer": "War will not go as planned and will be worse than imagined",
-    "explanation": "Dalio's study of history shows this pattern repeats: leaders enter wars expecting quick, manageable victories, but wars invariably spiral beyond initial expectations in cost, duration, and destructiveness."
+    "explanation": "Dalio's study of history shows this pattern repeats: leaders enter wars expecting quick, manageable victories, but wars invariably spiral beyond initial expectations in cost, duration, and destructiveness.",
+    "difficulty": "medium"
   },
   {
     "question": "Capital Wars",
@@ -62,7 +66,8 @@
       "A diplomatic dispute"
     ],
     "answer": "A capital war",
-    "explanation": "Capital wars use financial tools as weapons. Dalio notes they have grown more prominent in recent decades and are often a precursor to more direct forms of conflict."
+    "explanation": "Capital wars use financial tools as weapons. Dalio notes they have grown more prominent in recent decades and are often a precursor to more direct forms of conflict.",
+    "difficulty": "medium"
   },
   {
     "question": "Win-Win vs. Lose-Lose Relationships",
@@ -75,7 +80,8 @@
       "Cultural incompatibility"
     ],
     "answer": "The cyclical nature of win-win vs. lose-lose relationships between nations",
-    "explanation": "Dalio emphasizes that win-win relationships are not permanent. They shift to lose-lose as resources become scarce and existential competition intensifies, especially during power transitions."
+    "explanation": "Dalio emphasizes that win-win relationships are not permanent. They shift to lose-lose as resources become scarce and existential competition intensifies, especially during power transitions.",
+    "difficulty": "hard"
   },
   {
     "question": "Military and Domestic Power",
@@ -88,6 +94,7 @@
       "Military strength can be maintained indefinitely"
     ],
     "answer": "Military power depends on economic strength, and losing one leads to losing the other",
-    "explanation": "Dalio highlights this interdependence. A strong economy funds a strong military, which protects trade and resources, which in turn sustains the economy. When this cycle reverses, decline accelerates."
+    "explanation": "Dalio highlights this interdependence. A strong economy funds a strong military, which protects trade and resources, which in turn sustains the economy. When this cycle reverses, decline accelerates.",
+    "difficulty": "hard"
   }
 ]

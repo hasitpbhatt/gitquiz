@@ -10,7 +10,8 @@
       "The example uses unrealistic assumptions about market returns"
     ],
     "answer": "Modest consistent saving combined with time can build significant wealth",
-    "explanation": "This integrates compounding (the eighth wonder of the world), the power of the savings rate, and room for error. The librarian did nothing extraordinary except start early, save consistently, and stay patient for four decades."
+    "explanation": "This integrates compounding (the eighth wonder of the world), the power of the savings rate, and room for error. The librarian did nothing extraordinary except start early, save consistently, and stay patient for four decades.",
+    "difficulty": "medium"
   },
   {
     "question": "High Income vs. Behavioral Discipline",
@@ -23,7 +24,8 @@
       "A $50 million contract is too small to build lasting wealth"
     ],
     "answer": "High income does not guarantee wealth without behavioral discipline",
-    "explanation": "This integrates the lessons of Never Enough, Wealth Is What You Don’t See, and Getting Wealthy vs. Staying Wealthy. The athlete had the income but lacked the behavioral skills to preserve it. Earnings alone do not create lasting wealth."
+    "explanation": "This integrates the lessons of Never Enough, Wealth Is What You Don’t See, and Getting Wealthy vs. Staying Wealthy. The athlete had the income but lacked the behavioral skills to preserve it. Earnings alone do not create lasting wealth.",
+    "difficulty": "medium"
   },
   {
     "question": "Savings Buy Freedom",
@@ -36,7 +38,8 @@
       "Relocation is always worth it for long-term career growth"
     ],
     "answer": "Their savings have purchased the freedom to choose what matters most",
-    "explanation": "This combines Freedom (time control), Wealth Is What You Don’t See (invisible assets creating options), and Save Money (saving builds optionality). Their savings do not just sit in an account—they actively fund a better life."
+    "explanation": "This combines Freedom (time control), Wealth Is What You Don’t See (invisible assets creating options), and Save Money (saving builds optionality). Their savings do not just sit in an account—they actively fund a better life.",
+    "difficulty": "medium"
   },
   {
     "question": "Peace of Mind as a Strategy",
@@ -49,7 +52,8 @@
       "Nurses should take more risk since they have smaller nest eggs"
     ],
     "answer": "Her strategy prioritizes peace of mind over maximum theoretical returns",
-    "explanation": "This integrates Reasonable Over Rational, Room for Error, and Staying Wealthy. The nurse has designed a plan that accounts for her own psychology. It may not maximize returns, but it maximizes the probability she will stick with it."
+    "explanation": "This integrates Reasonable Over Rational, Room for Error, and Staying Wealthy. The nurse has designed a plan that accounts for her own psychology. It may not maximize returns, but it maximizes the probability she will stick with it.",
+    "difficulty": "hard"
   },
   {
     "question": "Navigating Uncertainty",
@@ -62,7 +66,8 @@
       "This crisis is different from all previous ones"
     ],
     "answer": "Pessimistic predictions grab attention but patient optimism has historically won",
-    "explanation": "This integrates The Seduction of Pessimism, When You’ll Believe Anything, and Surprise! Housel shows that markets have recovered from every crisis in history. The hardest part is ignoring the noise and trusting the long-term pattern."
+    "explanation": "This integrates The Seduction of Pessimism, When You’ll Believe Anything, and Surprise! Housel shows that markets have recovered from every crisis in history. The hardest part is ignoring the noise and trusting the long-term pattern.",
+    "difficulty": "hard"
   },
   {
     "question": "There Is No One Right Answer",
@@ -75,7 +80,8 @@
       "Both approaches are wrong; there is a middle ground neither considered"
     ],
     "answer": "The right approach depends on personal psychology and goals, not just math",
-    "explanation": "This integrates You and Me and Reasonable Over Rational. Housel would say both choices can be correct. The mathematical answer and the behavioral answer can differ. The best financial decision is one that aligns with your values and temperament."
+    "explanation": "This integrates You and Me and Reasonable Over Rational. Housel would say both choices can be correct. The mathematical answer and the behavioral answer can differ. The best financial decision is one that aligns with your values and temperament.",
+    "difficulty": "hard"
   },
   {
     "question": "Tail Events and Long-Term Thinking",
@@ -88,7 +94,8 @@
       "Streaming royalties are not a reliable source of retirement income"
     ],
     "answer": "A single tail event can make up for many ordinary outcomes if you stay in the game",
-    "explanation": "This combines Tails, You Win with Staying Wealthy (survival). The singer could not predict which song would hit. She succeeded by producing consistently and staying in the game long enough for the tail event to strike."
+    "explanation": "This combines Tails, You Win with Staying Wealthy (survival). The singer could not predict which song would hit. She succeeded by producing consistently and staying in the game long enough for the tail event to strike.",
+    "difficulty": "hard"
   },
   {
     "question": "Rich vs. Wealthy Revisited",
@@ -101,7 +108,8 @@
       "The executive because her spending power is far greater"
     ],
     "answer": "The carpenter because wealth is measured by accumulated savings, not income",
-    "explanation": "This combines Wealth Is What You Don’t See, Man in the Car Paradox, and Never Enough. The executive looks rich but has little saved. The carpenter looks ordinary but has real wealth. Income is what you earn; wealth is what you keep."
+    "explanation": "This combines Wealth Is What You Don’t See, Man in the Car Paradox, and Never Enough. The executive looks rich but has little saved. The carpenter looks ordinary but has real wealth. Income is what you earn; wealth is what you keep.",
+    "difficulty": "hard"
   },
   {
     "question": "Calculated Risk-Taking",
@@ -114,7 +122,8 @@
       "Accountants should never leave their profession"
     ],
     "answer": "Her buffer allows her to take a calculated risk instead of a desperate gamble",
-    "explanation": "This integrates Room for Error, You’ll Change, and Freedom. The accountant has used savings to create optionality. She is not being reckless—she is using her margin of safety to pursue something meaningful without risking ruin."
+    "explanation": "This integrates Room for Error, You’ll Change, and Freedom. The accountant has used savings to create optionality. She is not being reckless—she is using her margin of safety to pursue something meaningful without risking ruin.",
+    "difficulty": "hard"
   },
   {
     "question": "The One Principle",
@@ -127,6 +136,7 @@
       "Buy a house as soon as possible since real estate always appreciates"
     ],
     "answer": "Build savings habits early, avoid lifestyle inflation, and give compounding decades to work",
-    "explanation": "This capstone question synthesizes every major principle in the book: No One’s Crazy (your habits matter more than math), Compounding (start early), Save Money (discipline over income), Wealth is Invisible (avoid lifestyle inflation), Room for Error (build buffers), and Reasonable Over Rational (simple and sustainable beats complex and abandoned)."
+    "explanation": "This capstone question synthesizes every major principle in the book: No One’s Crazy (your habits matter more than math), Compounding (start early), Save Money (discipline over income), Wealth is Invisible (avoid lifestyle inflation), Room for Error (build buffers), and Reasonable Over Rational (simple and sustainable beats complex and abandoned).",
+    "difficulty": "hard"
   }
 ]

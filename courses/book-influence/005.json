@@ -10,7 +10,8 @@
       "You checked their sales credentials beforehand"
     ],
     "answer": "You perceive them as more trustworthy due to similarity and praise",
-    "explanation": "Similarity and compliments increase liking, which makes us more inclined to trust and comply with requests from those we like, even when objective factors don't justify it."
+    "explanation": "Similarity and compliments increase liking, which makes us more inclined to trust and comply with requests from those we like, even when objective factors don't justify it.",
+    "difficulty": "easy"
   },
   {
     "question": "Physical Attractiveness Halo Effect",
@@ -23,7 +24,8 @@
       "The product is specifically designed for attractive people"
     ],
     "answer": "Attractiveness creates a halo effect assuming other positive traits",
-    "explanation": "We generalize from physical attractiveness to other unrelated positive traits, making attractive people more persuasive communicators regardless of actual expertise."
+    "explanation": "We generalize from physical attractiveness to other unrelated positive traits, making attractive people more persuasive communicators regardless of actual expertise.",
+    "difficulty": "easy"
   },
   {
     "question": "Similarity and Liking",
@@ -36,7 +38,8 @@
       "They are required to find common ground by company policy"
     ],
     "answer": "Similarity increases liking and trust",
-    "explanation": "Finding common ground increases liking, which makes us more open to influence from those we perceive as similar to ourselves."
+    "explanation": "Finding common ground increases liking, which makes us more open to influence from those we perceive as similar to ourselves.",
+    "difficulty": "medium"
   },
   {
     "question": "Familiarity and Liking",
@@ -49,7 +52,8 @@
       "The store only carries that brand of cereal"
     ],
     "answer": "Familiarity from repeated exposure increases liking",
-    "explanation": "The mere exposure effect shows that repeated contact increases liking, making familiar brands more appealing even without objective superiority."
+    "explanation": "The mere exposure effect shows that repeated contact increases liking, making familiar brands more appealing even without objective superiority.",
+    "difficulty": "medium"
   },
   {
     "question": "The Multiple Routes of Compliments",
@@ -62,7 +66,8 @@
       "All three mechanisms likely contributed to some degree"
     ],
     "answer": "All three mechanisms likely contributed to some degree",
-    "explanation": "Compliments work through multiple psychological channels simultaneously: they increase liking (we like people who appreciate us), trigger reciprocity (praise feels like a gift), and boost self-esteem (which temporarily increases agreeableness). This multi-channel effect is why compliments are so effective at increasing compliance."
+    "explanation": "Compliments work through multiple psychological channels simultaneously: they increase liking (we like people who appreciate us), trigger reciprocity (praise feels like a gift), and boost self-esteem (which temporarily increases agreeableness). This multi-channel effect is why compliments are so effective at increasing compliance.",
+    "difficulty": "medium"
   },
   {
     "question": "Contact and Cooperation",
@@ -75,7 +80,8 @@
       "Complain to management about each other"
     ],
     "answer": "Have increased liking due to cooperative contact",
-    "explanation": "Cooperative contact toward shared goals can transform relationships by increasing liking through shared effort and achievement."
+    "explanation": "Cooperative contact toward shared goals can transform relationships by increasing liking through shared effort and achievement.",
+    "difficulty": "medium"
   },
   {
     "question": "Association or Evaluative Conditioning?",
@@ -88,7 +94,8 @@
       "Social proof — the mountains suggest other people enjoy this car"
     ],
     "answer": "Evaluative conditioning — positive feelings from mountains have transferred to the car through repeated pairing",
-    "explanation": "Evaluative conditioning is distinct from simple association because it involves the automatic transfer of affect through repeated pairing, not just a conscious mental link. The customer feels good seeing the car because positive emotion from the mountains has been conditioned to the car stimulus. Mere exposure would involve seeing the car alone, not paired with mountains."
+    "explanation": "Evaluative conditioning is distinct from simple association because it involves the automatic transfer of affect through repeated pairing, not just a conscious mental link. The customer feels good seeing the car because positive emotion from the mountains has been conditioned to the car stimulus. Mere exposure would involve seeing the car alone, not paired with mountains.",
+    "difficulty": "medium"
   },
   {
     "question": "Liking in Sales and Marketing",
@@ -101,6 +108,7 @@
       "You checked their sales license and ratings"
     ],
     "answer": "Multiple liking factors increase compliance likelihood",
-    "explanation": "Combining similarity (same-aged children), compliments (taste in neighborhoods), and familiarity (regular contact) creates powerful liking-based influence."
+    "explanation": "Combining similarity (same-aged children), compliments (taste in neighborhoods), and familiarity (regular contact) creates powerful liking-based influence.",
+    "difficulty": "hard"
   }
 ]

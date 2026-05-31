@@ -10,7 +10,8 @@
       "A secret whistleblower."
     ],
     "answer": "A personal coach.",
-    "explanation": "AI acting as a coach allows for safe, repetitive practice of high-stakes human interactions, helping you refine your 'soft skills' before the real event."
+    "explanation": "AI acting as a coach allows for safe, repetitive practice of high-stakes human interactions, helping you refine your 'soft skills' before the real event.",
+    "difficulty": "easy"
   },
   {
     "question": "The Non-Judgmental Mirror",
@@ -23,7 +24,8 @@
       "The AI charges more for the service, making it feel more elite."
     ],
     "answer": "The AI provides a 'psychologically safe' and non-judgmental environment to admit vulnerability.",
-    "explanation": "The lack of human ego in the AI allows users to be vulnerable, which is often the first necessary step for effective coaching and improvement."
+    "explanation": "The lack of human ego in the AI allows users to be vulnerable, which is often the first necessary step for effective coaching and improvement.",
+    "difficulty": "medium"
   },
   {
     "question": "Breaking the 'Expertise' Barrier",
@@ -36,7 +38,8 @@
       "A violation of company hierarchy."
     ],
     "answer": "Democratizing access to high-level professional coaching.",
-    "explanation": "AI makes elite coaching methodologies available to everyone, regardless of their rank or income level, allowing for self-directed professional growth."
+    "explanation": "AI makes elite coaching methodologies available to everyone, regardless of their rank or income level, allowing for self-directed professional growth.",
+    "difficulty": "medium"
   },
   {
     "question": "Simulating the 'Other'",
@@ -49,7 +52,8 @@
       "Check for spelling errors."
     ],
     "answer": "Identify blind spots through simulated perspective-taking.",
-    "explanation": "Coaching involves seeing things from a different angle. AI can instantly adopt any persona to challenge your assumptions and help you prepare for counter-arguments."
+    "explanation": "Coaching involves seeing things from a different angle. AI can instantly adopt any persona to challenge your assumptions and help you prepare for counter-arguments.",
+    "difficulty": "medium"
   },
   {
     "question": "The Gap Between Knowing and Doing",
@@ -62,7 +66,8 @@
       "Outsource your friendships."
     ],
     "answer": "Bridge the 'Knowing-Doing Gap' with actionable micro-steps.",
-    "explanation": "Coaching isn't just about big ideas; it's about execution. AI helps by making the 'doing' feel manageable through small, specific tasks."
+    "explanation": "Coaching isn't just about big ideas; it's about execution. AI helps by making the 'doing' feel manageable through small, specific tasks.",
+    "difficulty": "medium"
   },
   {
     "question": "Critical Reflection and the 'Rubber Duck'",
@@ -75,7 +80,8 @@
       "The 'Centaur' method."
     ],
     "answer": "Critical reflection (or Rubber Ducking).",
-    "explanation": "The AI serves as a sounding board. The process of organizing your thoughts to 'coach' the AI on your problem often leads to your own 'aha' moment."
+    "explanation": "The AI serves as a sounding board. The process of organizing your thoughts to 'coach' the AI on your problem often leads to your own 'aha' moment.",
+    "difficulty": "medium"
   },
   {
     "question": "Real-time Feedback vs. Delayed Review",
@@ -88,7 +94,8 @@
       "Digital eavesdropping."
     ],
     "answer": "Real-time performance coaching.",
-    "explanation": "The AI acts as an 'on-demand' coach that provides feedback exactly when you need it, which is far more effective for behavior change than a review a week later."
+    "explanation": "The AI acts as an 'on-demand' coach that provides feedback exactly when you need it, which is far more effective for behavior change than a review a week later.",
+    "difficulty": "medium"
   },
   {
     "question": "Avoiding the 'Coach' Hallucination",
@@ -101,7 +108,8 @@
       "Ask a different AI and do whatever the second one says."
     ],
     "answer": "Critically evaluate the advice and reject it if it contradicts your human understanding of the team.",
-    "explanation": "You are the 'Human in the Loop.' Coaching is a suggestion, not a command. You must always be the final judge of the advice provided by the AI."
+    "explanation": "You are the 'Human in the Loop.' Coaching is a suggestion, not a command. You must always be the final judge of the advice provided by the AI.",
+    "difficulty": "hard"
   },
   {
     "question": "The Future of Mentorship",
@@ -114,7 +122,8 @@
       "The junior employee becomes smarter than the leader immediately."
     ],
     "answer": "The junior employee uses AI for daily skill questions, so their time with the leader is spent on high-level career vision.",
-    "explanation": "By offloading 'technical' coaching to AI, human mentorship becomes more focused on high-value, personal, and strategic connections."
+    "explanation": "By offloading 'technical' coaching to AI, human mentorship becomes more focused on high-value, personal, and strategic connections.",
+    "difficulty": "hard"
   },
   {
     "question": "Personalized Development Paths",
@@ -127,6 +136,7 @@
       "Linear progression."
     ],
     "answer": "Adaptive coaching.",
-    "explanation": "Unlike a static textbook, the AI coach 'adapts' to your specific performance, focusing energy where you need it most to ensure efficient growth."
+    "explanation": "Unlike a static textbook, the AI coach 'adapts' to your specific performance, focusing energy where you need it most to ensure efficient growth.",
+    "difficulty": "hard"
   }
 ]

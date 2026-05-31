@@ -10,7 +10,8 @@
       "To avoid being sued by the government for having a monopoly."
     ],
     "answer": "Because open-source models make their hardware more useful and increase chip sales.",
-    "explanation": "Naval explains that hardware players like Nvidia and manufacturers in China benefit when software is 'commoditized' because it removes the barriers to buying and using their hardware."
+    "explanation": "Naval explains that hardware players like Nvidia and manufacturers in China benefit when software is 'commoditized' because it removes the barriers to buying and using their hardware.",
+    "difficulty": "easy"
   },
   {
     "question": "The Software 'Unlock' for Hardware",
@@ -23,7 +24,8 @@
       "It makes hardware more expensive because of the cost of AI tokens."
     ],
     "answer": "It allows them to build functional products without needing a world-class software team to write the 'glue' code.",
-    "explanation": "Naval suggests that AI handles the 'software problem' that used to kill hardware companies, allowing for a renaissance in physical device innovation."
+    "explanation": "Naval suggests that AI handles the 'software problem' that used to kill hardware companies, allowing for a renaissance in physical device innovation.",
+    "difficulty": "easy"
   },
   {
     "question": "Optimism as a Creative Requirement",
@@ -36,7 +38,8 @@
       "Because AI can only be used by people who are creative."
     ],
     "answer": "Because you must imagine solutions and jobs that do not yet exist, which is harder than seeing what might break.",
-    "explanation": "Naval posits that while we can easily see how a job might be lost, we have to be creative to see how new, better jobs will inevitably arise."
+    "explanation": "Naval posits that while we can easily see how a job might be lost, we have to be creative to see how new, better jobs will inevitably arise.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Crabs in a Bucket' Philosophy",
@@ -49,7 +52,8 @@
       "Because AI performs better when the prompts are written with an optimistic tone."
     ],
     "answer": "Because it is the only mindset that allows us to find a way out of our problems and build the future.",
-    "explanation": "Naval argues that while doomers may have valid points, their mindset doesn't help solve anything; building the future requires the 'irrational' belief that it can be done."
+    "explanation": "Naval argues that while doomers may have valid points, their mindset doesn't help solve anything; building the future requires the 'irrational' belief that it can be done.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Next Job' Inevitability",
@@ -62,7 +66,8 @@
       "He thinks people will eventually stop wanting to work and will live in the metaverse."
     ],
     "answer": "He points to history, noting that while old jobs vanish, 'inevitably there's always a next job.'",
-    "explanation": "Using the '200 years ago on the farm' analogy, Naval explains that humans are remarkably consistent at inventing new ways to provide value."
+    "explanation": "Using the '200 years ago on the farm' analogy, Naval explains that humans are remarkably consistent at inventing new ways to provide value.",
+    "difficulty": "medium"
   },
   {
     "question": "Hyperscalers and the Incentive for Open Source",
@@ -75,7 +80,8 @@
       "Because they believe that software should be free for everyone."
     ],
     "answer": "Because open-source models drive more traffic and hardware consumption on their cloud platforms.",
-    "explanation": "Naval notes that open-source software 'commoditizes the complement,' making the underlying cloud hardware more valuable."
+    "explanation": "Naval notes that open-source software 'commoditizes the complement,' making the underlying cloud hardware more valuable.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Jagged' Intelligence Trap",
@@ -88,7 +94,8 @@
       "That AI is becoming smarter at an uneven, unpredictable speed."
     ],
     "answer": "That AI is smart in specific, narrow ways but still lacks a holistic 'world model' to replace many human roles.",
-    "explanation": "Naval highlights that AI is bad at multimodal reasoning and world models, which are key components of many 'real-world' jobs."
+    "explanation": "Naval highlights that AI is bad at multimodal reasoning and world models, which are key components of many 'real-world' jobs.",
+    "difficulty": "medium"
   },
   {
     "question": "The Supply of 'Sci-Fi' Engineers",
@@ -101,7 +108,8 @@
       "High demand for social media apps, but a low supply of users."
     ],
     "answer": "High demand for sci-fi technologies, but a low supply of the engineers and scientists who can build them.",
-    "explanation": "Naval points out that we are moving into an era of 'hard tech' where the required skills are much rarer than standard web development."
+    "explanation": "Naval points out that we are moving into an era of 'hard tech' where the required skills are much rarer than standard web development.",
+    "difficulty": "medium"
   },
   {
     "question": "The China/Nvidia Open Source Alignment",
@@ -114,7 +122,8 @@
       "Both want to prevent the United States from developing AGI."
     ],
     "answer": "Both want to commoditize software to protect and grow their hardware dominance.",
-    "explanation": "Naval identifies this as a 'nationalist' and 'economic' pride point—using open source to bridge gaps and drive hardware sales."
+    "explanation": "Naval identifies this as a 'nationalist' and 'economic' pride point—using open source to bridge gaps and drive hardware sales.",
+    "difficulty": "medium"
   },
   {
     "question": "Irrational Optimism in the 'Foxhole'",
@@ -127,6 +136,7 @@
       "Because doomers prefer to work alone in hierarchies."
     ],
     "answer": "Because they focus on the end of the world rather than the creative work of survival and rising up.",
-    "explanation": "Naval emphasizes that optimism is a 'survival' tool; we have to be 'irrationally optimistic' to keep moving forward when things get difficult."
+    "explanation": "Naval emphasizes that optimism is a 'survival' tool; we have to be 'irrationally optimistic' to keep moving forward when things get difficult.",
+    "difficulty": "hard"
   }
 ]

@@ -10,7 +10,8 @@
       "The color of the file folders"
     ],
     "answer": "How the time required to find files grows with the number of files - look for logarithmic or linear growth rather than quadratic or worse",
-    "explanation": "Big-O notation helps you understand how an algorithm\\'s performance scales. For searching, you want O(log n) (binary search) or O(n) (linear search), not O(n^2) or worse which would become unusably slow at scale."
+    "explanation": "Big-O notation helps you understand how an algorithm\\'s performance scales. For searching, you want O(log n) (binary search) or O(n) (linear search), not O(n^2) or worse which would become unusably slow at scale.",
+    "difficulty": "easy"
   },
   {
     "question": "Bubble Sort",
@@ -23,7 +24,8 @@
       "Wear all clothes at once to avoid sorting"
     ],
     "answer": "Compare each pair of adjacent items and swap them if they\\'re in the wrong color order, repeating passes through the pile until no swaps are needed",
-    "explanation": "Bubble Sort works by repeatedly swapping adjacent elements that are out of order. For laundry, you\\'d compare each pair of adjacent items and swap them if, for example, a darker item is before a lighter one when sorting light to dark."
+    "explanation": "Bubble Sort works by repeatedly swapping adjacent elements that are out of order. For laundry, you\\'d compare each pair of adjacent items and swap them if, for example, a darker item is before a lighter one when sorting light to dark.",
+    "difficulty": "easy"
   },
   {
     "question": "Insertion Sort",
@@ -36,7 +38,8 @@
       "Leave books wherever they fall when you put them down"
     ],
     "answer": "Place each new book in its correct alphabetical position among the books already on the shelf",
-    "explanation": "Insertion Sort is like organizing books as you get them: for each new book, you compare it to the books already on the shelf from right to left until you find where it belongs, then insert it there."
+    "explanation": "Insertion Sort is like organizing books as you get them: for each new book, you compare it to the books already on the shelf from right to left until you find where it belongs, then insert it there.",
+    "difficulty": "easy"
   },
   {
     "question": "Merge Sort",
@@ -49,7 +52,8 @@
       "Do all tasks in alphabetical order by task name"
     ],
     "answer": "Divide the project into independent pods, have each pod complete their work, then integrate (merge) the completed components",
-    "explanation": "Merge Sort\\'s divide-and-conquer approach maps to project management: split work into independent chunks (divide), let each team complete their chunk (conquer/sort), then combine the finished work (merge)."
+    "explanation": "Merge Sort\\'s divide-and-conquer approach maps to project management: split work into independent chunks (divide), let each team complete their chunk (conquer/sort), then combine the finished work (merge).",
+    "difficulty": "easy"
   },
   {
     "question": "Search Costs",
@@ -62,7 +66,8 @@
       "The phase of the moon"
     ],
     "answer": "How frequently you need to find specific items - if retrieval is rare, organizing may not be worth the effort",
-    "explanation": "The sort/search tradeoff: organizing (sorting) has upfront cost but reduces future search cost. If you rarely need to find specific items, the effort of organizing may exceed the time saved from faster searches."
+    "explanation": "The sort/search tradeoff: organizing (sorting) has upfront cost but reduces future search cost. If you rarely need to find specific items, the effort of organizing may exceed the time saved from faster searches.",
+    "difficulty": "easy"
   },
   {
     "question": "Linear Search",
@@ -75,7 +80,8 @@
       "Waiting for the screwdriver to float to the top of the pile"
     ],
     "answer": "Checking each tool one by one until you find the right screwdriver",
-    "explanation": "In an unsorted collection with no indexing, Linear Search (checking each item sequentially) is your only option. You examine each tool until you find the target screwdriver."
+    "explanation": "In an unsorted collection with no indexing, Linear Search (checking each item sequentially) is your only option. You examine each tool until you find the target screwdriver.",
+    "difficulty": "easy"
   },
   {
     "question": "Binary Search",
@@ -88,7 +94,8 @@
       "Lick your finger and hold it up to see which way the wind blows"
     ],
     "answer": "Open the book to the middle, check if the name comes before or after that point, then repeat the process in the relevant half",
-    "explanation": "Binary Search works on sorted data: check the middle item, eliminate half the remaining possibilities based on comparison, and repeat. For an alphabetized list, you compare alphabetically to decide which half to search next."
+    "explanation": "Binary Search works on sorted data: check the middle item, eliminate half the remaining possibilities based on comparison, and repeat. For an alphabetized list, you compare alphabetically to decide which half to search next.",
+    "difficulty": "medium"
   },
   {
     "question": "Inversion Count",
@@ -101,7 +108,8 @@
       "See how many songs start with the letter \\'A\\'"
     ],
     "answer": "Count how many pairs of songs are in the wrong order relative to the intended sequence",
-    "explanation": "An inversion is a pair of elements that are out of their natural order. The total inversion count quantifies how disordered a sequence is - a sorted list has zero inversions, a reverse-sorted list has maximum inversions."
+    "explanation": "An inversion is a pair of elements that are out of their natural order. The total inversion count quantifies how disordered a sequence is - a sorted list has zero inversions, a reverse-sorted list has maximum inversions.",
+    "difficulty": "medium"
   },
   {
     "question": "Social Hierarchies",
@@ -114,7 +122,8 @@
       "By forcing chickens to wear blindfolds"
     ],
     "answer": "By allowing chickens to assess dominance visually without fighting, once the hierarchy was established",
-    "explanation": "Once a pecking order is established through initial confrontations, chickens can recognize their relative positions and avoid fights by yielding to higher-ranked individuals, reducing the need for ongoing violence."
+    "explanation": "Once a pecking order is established through initial confrontations, chickens can recognize their relative positions and avoid fights by yielding to higher-ranked individuals, reducing the need for ongoing violence.",
+    "difficulty": "medium"
   },
   {
     "question": "Pre-Sorting Value",
@@ -127,6 +136,7 @@
       "Always sort immediately regardless of circumstances"
     ],
     "answer": "Whether sorting now reduces overall effort compared to sorting later, considering factors like order frequency and item similarity",
-    "explanation": "The decision depends on comparing total effort: if you sort items once when they\\'ll be needed in sorted order multiple times, pre-sorting wins. If items ship in unsorted orders frequently, post-sorting or no sorting may be better."
+    "explanation": "The decision depends on comparing total effort: if you sort items once when they\\'ll be needed in sorted order multiple times, pre-sorting wins. If items ship in unsorted orders frequently, post-sorting or no sorting may be better.",
+    "difficulty": "medium"
   }
 ]

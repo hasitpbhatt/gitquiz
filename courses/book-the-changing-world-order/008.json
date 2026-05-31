@@ -10,7 +10,8 @@
       "Random spikes of power that have no correlation with debt or trade."
     ],
     "answer": "A series of overlapping arcs where one empire rises as the previous one peaks and begins to decline.",
-    "explanation": "The 'Big Cycle' is visualized as a series of overlapping waves. As the dominant power (like the Dutch) starts to decline due to debt and overextension, the next power (like the British) is already on its upward trajectory."
+    "explanation": "The 'Big Cycle' is visualized as a series of overlapping waves. As the dominant power (like the Dutch) starts to decline due to debt and overextension, the next power (like the British) is already on its upward trajectory.",
+    "difficulty": "easy"
   },
   {
     "question": "The Speed of Change",
@@ -23,7 +24,8 @@
       "Because the indicators of decline are invisible until the day of the collapse."
     ],
     "answer": "Because the rise is so slow that they assume the peak will last forever, and the final break happens relatively quickly.",
-    "explanation": "Stability creates a false sense of security. Because the 'Rise' and 'Peak' phases last longer than a human lifetime, people lose the 'muscle memory' of what a transition looks like, making the relatively fast 'Decline' phase feel like a sudden shock."
+    "explanation": "Stability creates a false sense of security. Because the 'Rise' and 'Peak' phases last longer than a human lifetime, people lose the 'muscle memory' of what a transition looks like, making the relatively fast 'Decline' phase feel like a sudden shock.",
+    "difficulty": "easy"
   },
   {
     "question": "The Continuity of Productivity",
@@ -36,7 +38,8 @@
       "It declined and never recovered to 17th-century levels."
     ],
     "answer": "It continued to grow and was eventually adopted and improved upon by the next leading power.",
-    "explanation": "Productivity is cumulative. While an empire may fall, its innovations (like the Dutch stock exchange or British steam engine) are passed on to the next dominant power, contributing to the long-term upward trend of human standard of living."
+    "explanation": "Productivity is cumulative. While an empire may fall, its innovations (like the Dutch stock exchange or British steam engine) are passed on to the next dominant power, contributing to the long-term upward trend of human standard of living.",
+    "difficulty": "easy"
   },
   {
     "question": "The Evolution of 'The Great Powers'",
@@ -49,7 +52,8 @@
       "Because the Big Cycle only started applying to the world in 1945."
     ],
     "answer": "Because today's 'Great Powers' are more consolidated and their economies are globally intertwined.",
-    "explanation": "As the world has moved from many small powers to a few 'super-powers,' the systems (trade, finance, tech) have become global. A break in the order today ripples through every nation simultaneously."
+    "explanation": "As the world has moved from many small powers to a few 'super-powers,' the systems (trade, finance, tech) have become global. A break in the order today ripples through every nation simultaneously.",
+    "difficulty": "easy"
   },
   {
     "question": "The Cycle of 'Wealth Concentration'",
@@ -62,7 +66,8 @@
       "A sign that the country has just started its 'Rise' phase."
     ],
     "answer": "A natural 'feature' or outcome of a stable system where some succeed more than others over time.",
-    "explanation": "Dalio argues that in any competitive system, wealth naturally concentrates over time. Without periodic 'resets' (taxes, crises, or revolutions), this concentration eventually reaches a tipping point that the system can no longer sustain."
+    "explanation": "Dalio argues that in any competitive system, wealth naturally concentrates over time. Without periodic 'resets' (taxes, crises, or revolutions), this concentration eventually reaches a tipping point that the system can no longer sustain.",
+    "difficulty": "medium"
   },
   {
     "question": "The Role of Debt in Every Empire",
@@ -75,7 +80,8 @@
       "Only if they lose a war to a smaller nation."
     ],
     "answer": "In the late-stage Decline, when their debts exceed their ability to pay with 'hard' money.",
-    "explanation": "Printing money is the 'universal' solution empires use when they have overextended themselves. It allows them to fulfill nominal obligations while devaluing the actual cost of the debt."
+    "explanation": "Printing money is the 'universal' solution empires use when they have overextended themselves. It allows them to fulfill nominal obligations while devaluing the actual cost of the debt.",
+    "difficulty": "medium"
   },
   {
     "question": "Innovation as the Differentiator",
@@ -88,7 +94,8 @@
       "The one that has the most historical monuments."
     ],
     "answer": "The one with the highest level of education and technological breakthrough.",
-    "explanation": "In Dalio's model, education and innovation are the primary drivers. They lead to competitiveness, which leads to trade, which leads to the wealth and military power needed to sustain a World Order."
+    "explanation": "In Dalio's model, education and innovation are the primary drivers. They lead to competitiveness, which leads to trade, which leads to the wealth and military power needed to sustain a World Order.",
+    "difficulty": "medium"
   },
   {
     "question": "The Stability of 'World Orders'",
@@ -101,7 +108,8 @@
       "Because the world stops needing rules during the 'Decline' phase."
     ],
     "answer": "Because the 'balance of power' has shifted, but the rules are still based on the winners of the last war.",
-    "explanation": "Institutions reflect the power dynamics of the year they were created. As new powers rise and old ones fade, the rules feel 'unfair' or 'outdated' to the new players, leading to the breakdown of the international order."
+    "explanation": "Institutions reflect the power dynamics of the year they were created. As new powers rise and old ones fade, the rules feel 'unfair' or 'outdated' to the new players, leading to the breakdown of the international order.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Testing' of the Leader",
@@ -114,7 +122,8 @@
       "The dominant power will gain more respect from its allies."
     ],
     "answer": "The rising power will be emboldened to test the leader on a larger scale.",
-    "explanation": "History shows that 'testing' is a diagnostic tool for rising powers. If they perceive weakness or a lack of resolve, they will increase the pressure, accelerating the transition to a new order."
+    "explanation": "History shows that 'testing' is a diagnostic tool for rising powers. If they perceive weakness or a lack of resolve, they will increase the pressure, accelerating the transition to a new order.",
+    "difficulty": "medium"
   },
   {
     "question": "Why We Study the Last 500 Years",
@@ -127,6 +136,7 @@
       "It helps you predict the exact day the stock market will bottom out."
     ],
     "answer": "It helps you recognize that current 'extreme' events are part of a repeating pattern, allowing for better preparation.",
-    "explanation": "Perspective takes the 'shock' out of the cycle. By understanding that we are in a 'Late-Stage' period, individuals can make more rational, less emotional decisions about their safety and wealth."
+    "explanation": "Perspective takes the 'shock' out of the cycle. By understanding that we are in a 'Late-Stage' period, individuals can make more rational, less emotional decisions about their safety and wealth.",
+    "difficulty": "hard"
   }
 ]

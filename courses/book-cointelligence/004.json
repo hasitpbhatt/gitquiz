@@ -10,7 +10,8 @@
       "Because keywords are intentionally blocked by safety filters."
     ],
     "answer": "Because the AI's 'social interface' is designed to trigger specific linguistic patterns based on human-like interaction.",
-    "explanation": "Since LLMs are trained on human dialogue, engaging them socially helps the model 'locate' the most relevant and helpful patterns in its training data."
+    "explanation": "Since LLMs are trained on human dialogue, engaging them socially helps the model 'locate' the most relevant and helpful patterns in its training data.",
+    "difficulty": "easy"
   },
   {
     "question": "The Power of Persona",
@@ -23,7 +24,8 @@
       "Make this proposal longer so it looks more impressive to the committee."
     ],
     "answer": "Act as a skeptical city council member. Tear this proposal apart and find every logical weakness.",
-    "explanation": "Giving the AI a specific, high-stakes persona (the council member) forces it to adopt a specific critical lens that a generic 'rewrite' request would miss."
+    "explanation": "Giving the AI a specific, high-stakes persona (the council member) forces it to adopt a specific critical lens that a generic 'rewrite' request would miss.",
+    "difficulty": "easy"
   },
   {
     "question": "The IKEA Effect and AI",
@@ -36,7 +38,8 @@
       "The plan is likely too long for anyone to read."
     ],
     "answer": "The 'IKEA Effect' may be causing you to overrate the quality because of your personal involvement in the prompting process.",
-    "explanation": "Because prompting feels like 'work' and 'creation,' we are naturally biased toward liking the result, making objective editing more difficult."
+    "explanation": "Because prompting feels like 'work' and 'creation,' we are naturally biased toward liking the result, making objective editing more difficult.",
+    "difficulty": "easy"
   },
   {
     "question": "AI as a 'Mirror' of the User",
@@ -49,7 +52,8 @@
       "Ask the AI why it is being so boring."
     ],
     "answer": "Inject more creativity, specific constraints, and energy into your own prompts.",
-    "explanation": "Because AI is a statistical reflection of the input it receives, increasing the 'energy' and 'depth' of your prompt usually results in more dynamic output."
+    "explanation": "Because AI is a statistical reflection of the input it receives, increasing the 'energy' and 'depth' of your prompt usually results in more dynamic output.",
+    "difficulty": "easy"
   },
   {
     "question": "Theory of Mind and AI",
@@ -62,7 +66,8 @@
       "Algorithmic bias."
     ],
     "answer": "Simulated Theory of Mind.",
-    "explanation": "AI can 'role-play' different perspectives, allowing humans to test how their actions might be perceived by various 'personae' without real-world risk."
+    "explanation": "AI can 'role-play' different perspectives, allowing humans to test how their actions might be perceived by various 'personae' without real-world risk.",
+    "difficulty": "easy"
   },
   {
     "question": "The Danger of 'AI Flattery'",
@@ -75,7 +80,8 @@
       "The AI's superior strategic insight."
     ],
     "answer": "AI Sycophancy (flattery) resulting from its training to be helpful.",
-    "explanation": "AI often prioritizes 'helpfulness' and 'agreement' over 'correctness' because its training rewards positive human feedback."
+    "explanation": "AI often prioritizes 'helpfulness' and 'agreement' over 'correctness' because its training rewards positive human feedback.",
+    "difficulty": "easy"
   },
   {
     "question": "Emotional Contagion",
@@ -88,7 +94,8 @@
       "To make the message sound like it was written by an administrator."
     ],
     "answer": "To prevent 'emotional contagion' where the AI's generated panic spreads to the school community.",
-    "explanation": "The tone the AI uses has a psychological impact on the reader; controlling that tone is essential for effective communication."
+    "explanation": "The tone the AI uses has a psychological impact on the reader; controlling that tone is essential for effective communication.",
+    "difficulty": "medium"
   },
   {
     "question": "Trust vs. Over-Trust",
@@ -101,7 +108,8 @@
       "I will only use AI for tasks that don't matter."
     ],
     "answer": "The AI is a brilliant but unreliable partner; I will use its ideas but check its facts.",
-    "explanation": "Calibrated trust means recognizing both the immense power of the tool and its inherent flaws (hallucinations and bias)."
+    "explanation": "Calibrated trust means recognizing both the immense power of the tool and its inherent flaws (hallucinations and bias).",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Invisibility' of AI Work",
@@ -114,7 +122,8 @@
       "The user's poor internet speed."
     ],
     "answer": "The 'invisibility' of the AI's limits and the user's treatement of it as an all-knowing oracle.",
-    "explanation": "When we anthropomorphize AI too much, we forget that it is still a tool with limits based on its training data and processing logic."
+    "explanation": "When we anthropomorphize AI too much, we forget that it is still a tool with limits based on its training data and processing logic.",
+    "difficulty": "medium"
   },
   {
     "question": "The Social 'Co' in Co-Intelligence",
@@ -127,6 +136,7 @@
       "From offline work to 100% cloud-based work."
     ],
     "answer": "From commanding a machine to managing a social-linguistic partnership.",
-    "explanation": "Co-Intelligence is characterized by the interactive, conversational, and 'social' way we direct the AI to achieve complex goals."
+    "explanation": "Co-Intelligence is characterized by the interactive, conversational, and 'social' way we direct the AI to achieve complex goals.",
+    "difficulty": "medium"
   }
 ]

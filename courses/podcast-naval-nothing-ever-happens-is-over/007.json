@@ -10,7 +10,8 @@
       "There is no difference; they are two names for the same technology."
     ],
     "answer": "A world model allows an agent to take actions, predict consequences, and adjust behavior via a feedback loop.",
-    "explanation": "Naval emphasizes that a world model is an active internal representation used by an agent to navigate reality, not just a passive visual generation."
+    "explanation": "Naval emphasizes that a world model is an active internal representation used by an agent to navigate reality, not just a passive visual generation.",
+    "difficulty": "easy"
   },
   {
     "question": "Drone Warfare and the Defense Gap",
@@ -23,7 +24,8 @@
       "Attack drones are faster than defense drones because they carry more fuel."
     ],
     "answer": "The defender is always spread thin, while the attacker can mass all drones in one area.",
-    "explanation": "This asymmetry is a core part of Naval's 'logic of violence'—the attacker chooses the time and place of the strike, overwhelming the spread-out defender."
+    "explanation": "This asymmetry is a core part of Naval's 'logic of violence'—the attacker chooses the time and place of the strike, overwhelming the spread-out defender.",
+    "difficulty": "easy"
   },
   {
     "question": "The Democratization of Lethality",
@@ -36,7 +38,8 @@
       "Drones are so expensive that only individuals like Elon Musk can afford them."
     ],
     "answer": "Any individual can potentially be made 'deadly' to another specific person they hate.",
-    "explanation": "Naval argues that the democratization of cheap, autonomous drones allows the same logic of deterrence and threat found between nations to manifest between individuals."
+    "explanation": "Naval argues that the democratization of cheap, autonomous drones allows the same logic of deterrence and threat found between nations to manifest between individuals.",
+    "difficulty": "easy"
   },
   {
     "question": "The 'Jagged' Multi-Modal Gap",
@@ -49,7 +52,8 @@
       "Translating a news article from French to English."
     ],
     "answer": "Predicting the physical consequences of pushing a glass off a table in a complex environment.",
-    "explanation": "This requires 'world modeling' and physical reasoning, areas where Naval notes current AI is still 'pretty bad' compared to its symbolic/textual strengths."
+    "explanation": "This requires 'world modeling' and physical reasoning, areas where Naval notes current AI is still 'pretty bad' compared to its symbolic/textual strengths.",
+    "difficulty": "easy"
   },
   {
     "question": "The Bioweapon 'Expertise Barrier'",
@@ -62,7 +66,8 @@
       "It automatically bypasses all medical regulations in the US."
     ],
     "answer": "It democratizes the expertise needed to engineer biological agents, much like it democratized coding.",
-    "explanation": "Naval's fear is that the 'democratization of power' seen in software development will inevitably spread to more dangerous fields like virology."
+    "explanation": "Naval's fear is that the 'democratization of power' seen in software development will inevitably spread to more dangerous fields like virology.",
+    "difficulty": "easy"
   },
   {
     "question": "Emergency Research vs. Bureaucracy",
@@ -75,7 +80,8 @@
       "They only support research that is funded by the 'Mag 7' companies."
     ],
     "answer": "They slow down 'good guy' research while threats (like viruses or bad actors) operate without rules.",
-    "explanation": "Naval believes that the 'good guys' are hindered by too many people who can say 'no,' while the actual viruses have no such limitations on their speed."
+    "explanation": "Naval believes that the 'good guys' are hindered by too many people who can say 'no,' while the actual viruses have no such limitations on their speed.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Stable Equilibrium' Shift",
@@ -88,7 +94,8 @@
       "That people are no longer interested in working at startups."
     ],
     "answer": "That we have entered a phase where technological and geopolitical shifts are happening much faster.",
-    "explanation": "Naval argues that anyone paying attention can see that post-COVID, the world has entered a period of 'living in interesting times' where change is constant."
+    "explanation": "Naval argues that anyone paying attention can see that post-COVID, the world has entered a period of 'living in interesting times' where change is constant.",
+    "difficulty": "medium"
   },
   {
     "question": "World Models and Reinforcement Learning",
@@ -101,7 +108,8 @@
       "To explain how Nvidia's hardware works."
     ],
     "answer": "To highlight emerging efforts to build true world models and agents.",
-    "explanation": "Naval identifies these new architectures as the potential next step beyond the 'jagged' text-based intelligence we see today."
+    "explanation": "Naval identifies these new architectures as the potential next step beyond the 'jagged' text-based intelligence we see today.",
+    "difficulty": "medium"
   },
   {
     "question": "Anonymized Data for AI Medicine",
@@ -114,7 +122,8 @@
       "A connection to every individual's smartphone via the cloud."
     ],
     "answer": "Access to massive, anonymized datasets of medical history and outcomes.",
-    "explanation": "Data is the barrier. Naval believes that if we could unlock these 'silos,' AI could find cures and defenses far faster than human bureaucrats."
+    "explanation": "Data is the barrier. Naval believes that if we could unlock these 'silos,' AI could find cures and defenses far faster than human bureaucrats.",
+    "difficulty": "medium"
   },
   {
     "question": "The Logic of Individual Deterrence",
@@ -127,6 +136,7 @@
       "Drones are only going to be used by the 'Mag 7' to deliver packages."
     ],
     "answer": "Drones democratize the power of lethal violence to the individual level.",
-    "explanation": "Naval's core geopolitical concern is that drones change the 'who' and 'how' of violence, potentially making state protection less relevant than it was in the era of rifles."
+    "explanation": "Naval's core geopolitical concern is that drones change the 'who' and 'how' of violence, potentially making state protection less relevant than it was in the era of rifles.",
+    "difficulty": "medium"
   }
 ]

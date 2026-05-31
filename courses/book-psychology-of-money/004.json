@@ -10,7 +10,8 @@
       "Economic growth is a myth invented by the financial industry"
     ],
     "answer": "Pessimism captures attention but does not accurately reflect long-term reality",
-    "explanation": "Housel notes that pessimism is seductive because it sounds prudent and sophisticated. But our bias toward negative information causes us to overweight bad news. Despite constant crises, long-term progress has been remarkable."
+    "explanation": "Housel notes that pessimism is seductive because it sounds prudent and sophisticated. But our bias toward negative information causes us to overweight bad news. Despite constant crises, long-term progress has been remarkable.",
+    "difficulty": "medium"
   },
   {
     "question": "The Seduction of Pessimism — Long View",
@@ -23,7 +24,8 @@
       "Living standards only improved for the wealthiest segment of society"
     ],
     "answer": "Long-term optimism has been justified despite frequent short-term calamities",
-    "explanation": "Housel argues that humans are wired to overreact to negative events while underappreciating quiet, steady progress. The evidence shows that patient optimists have been rewarded. Pessimism feels smart, but optimism has been correct."
+    "explanation": "Housel argues that humans are wired to overreact to negative events while underappreciating quiet, steady progress. The evidence shows that patient optimists have been rewarded. Pessimism feels smart, but optimism has been correct.",
+    "difficulty": "medium"
   },
   {
     "question": "When You Will Believe Anything",
@@ -36,7 +38,8 @@
       "Investors should only fund companies that already have revenue"
     ],
     "answer": "Compelling narratives can override rational analysis of hard facts",
-    "explanation": "Housel warns that humans are storytelling creatures. A good narrative is emotionally satisfying and easier to process than complex data. This makes us vulnerable to believing compelling stories without examining the underlying evidence."
+    "explanation": "Housel warns that humans are storytelling creatures. A good narrative is emotionally satisfying and easier to process than complex data. This makes us vulnerable to believing compelling stories without examining the underlying evidence.",
+    "difficulty": "medium"
   },
   {
     "question": "When You Will Believe Anything — Desire",
@@ -49,7 +52,8 @@
       "A trusted friend would never recommend a bad investment"
     ],
     "answer": "The more you want something to be true, the more vulnerable you are to believing it",
-    "explanation": "Housel explains that desire is the enemy of objectivity. When we want a particular outcome, we unconsciously filter evidence to support our wish. The solution is to deliberately seek out contrary viewpoints before making decisions."
+    "explanation": "Housel explains that desire is the enemy of objectivity. When we want a particular outcome, we unconsciously filter evidence to support our wish. The solution is to deliberately seek out contrary viewpoints before making decisions.",
+    "difficulty": "medium"
   },
   {
     "question": "Overconfidence — Luck vs. Skill",
@@ -62,7 +66,8 @@
       "Regional tournaments are always easier than national ones"
     ],
     "answer": "Attributing success entirely to skill while ignoring luck leads to overconfidence",
-    "explanation": "Housel warns against the asymmetry of attribution. Success is usually a mix of skill and luck, but we claim full credit. This overconfidence causes us to take excessive risks, forgetting that luck played a part in our wins."
+    "explanation": "Housel warns against the asymmetry of attribution. Success is usually a mix of skill and luck, but we claim full credit. This overconfidence causes us to take excessive risks, forgetting that luck played a part in our wins.",
+    "difficulty": "medium"
   },
   {
     "question": "Social Comparison — Envy",
@@ -75,7 +80,8 @@
       "Your apartment was always inadequate; you just did not realize it"
     ],
     "answer": "Social comparison can make you feel poor regardless of your actual circumstances",
-    "explanation": "Housel observes that financial satisfaction is mostly relative. Our reference point shifts when we compare upward. The apartment did not change—only your perception did. Recognizing this relativity is the first step to contentment."
+    "explanation": "Housel observes that financial satisfaction is mostly relative. Our reference point shifts when we compare upward. The apartment did not change—only your perception did. Recognizing this relativity is the first step to contentment.",
+    "difficulty": "medium"
   },
   {
     "question": "Ego and Money",
@@ -88,7 +94,8 @@
       "All successful bakers have failing locations at some point"
     ],
     "answer": "Ego can cause people to throw good money after bad to avoid admitting failure",
-    "explanation": "Housel warns that ego is one of the most destructive forces in financial decision-making. The baker is not investing in success—she is investing in avoiding the pain of admitting a mistake. The hardest skill is knowing when to cut losses."
+    "explanation": "Housel warns that ego is one of the most destructive forces in financial decision-making. The baker is not investing in success—she is investing in avoiding the pain of admitting a mistake. The hardest skill is knowing when to cut losses.",
+    "difficulty": "medium"
   },
   {
     "question": "The Narrative Fallacy",
@@ -101,7 +108,8 @@
       "Cryptocurrency is the best investment opportunity of our generation"
     ],
     "answer": "A single compelling story often outweighs statistical evidence in our minds",
-    "explanation": "Housel warns about the narrative fallacy: vivid, personal stories are processed more easily than abstract statistics. One neighbor’s success feels representative even when it is a rare exception. Base decisions on broad patterns, not compelling anecdotes."
+    "explanation": "Housel warns about the narrative fallacy: vivid, personal stories are processed more easily than abstract statistics. One neighbor’s success feels representative even when it is a rare exception. Base decisions on broad patterns, not compelling anecdotes.",
+    "difficulty": "hard"
   },
   {
     "question": "Recency Bias",
@@ -114,7 +122,8 @@
       "They should borrow even more to maximize their real estate investment"
     ],
     "answer": "Recent trends can create false confidence that the future will mirror the recent past",
-    "explanation": "Housel highlights recency bias: our tendency to project the most recent experience forward indefinitely. This couple assumes the last five years predict the next five. In reality, recent trends are unreliable guides to the future."
+    "explanation": "Housel highlights recency bias: our tendency to project the most recent experience forward indefinitely. This couple assumes the last five years predict the next five. In reality, recent trends are unreliable guides to the future.",
+    "difficulty": "hard"
   },
   {
     "question": "Confirmation Bias",
@@ -127,6 +136,7 @@
       "Retirees should only invest in physical assets like gold"
     ],
     "answer": "Seeking only confirming information reinforces potentially flawed beliefs",
-    "explanation": "Housel warns that confirmation bias is particularly dangerous in finance because markets are complex. The retiree is not researching—he is collecting evidence for a conclusion he already reached. True objectivity requires seeking disconfirming evidence."
+    "explanation": "Housel warns that confirmation bias is particularly dangerous in finance because markets are complex. The retiree is not researching—he is collecting evidence for a conclusion he already reached. True objectivity requires seeking disconfirming evidence.",
+    "difficulty": "hard"
   }
 ]

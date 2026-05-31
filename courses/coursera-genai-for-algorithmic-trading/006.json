@@ -10,7 +10,8 @@
       "Average the RSI and the sentiment score to create a new price target."
     ],
     "answer": "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
-    "explanation": "Combining indicators acts as a 'confirmation' mechanism. If the technicals say 'buy' but the fundamentals (sentiment) are toxic, the technical signal is high-risk and likely a 'falling knife'."
+    "explanation": "Combining indicators acts as a 'confirmation' mechanism. If the technicals say 'buy' but the fundamentals (sentiment) are toxic, the technical signal is high-risk and likely a 'falling knife'.",
+    "difficulty": "easy"
   },
   {
     "question": "Multi-Factor Model Weighting",
@@ -23,7 +24,8 @@
       "Delete the Momentum factor entirely from your code."
     ],
     "answer": "Dynamically increase the weight of the Sentiment factor and decrease the weight of the Momentum factor.",
-    "explanation": "Adaptive weighting allows a strategy to lean on what is currently working. In earnings season, qualitative news often overrides technical momentum, making sentiment a more reliable driver."
+    "explanation": "Adaptive weighting allows a strategy to lean on what is currently working. In earnings season, qualitative news often overrides technical momentum, making sentiment a more reliable driver.",
+    "difficulty": "easy"
   },
   {
     "question": "Blending Mean Reversion with AI Signals",
@@ -36,7 +38,8 @@
       "The stock is now a 'Value' play for the next 10 years."
     ],
     "answer": "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
-    "explanation": "If the price moves significantly without a clear 'narrative' catalyst identified by the AI, it is more likely to be a temporary imbalance rather than a permanent change in value."
+    "explanation": "If the price moves significantly without a clear 'narrative' catalyst identified by the AI, it is more likely to be a temporary imbalance rather than a permanent change in value.",
+    "difficulty": "easy"
   },
   {
     "question": "Signal Blending and Correlation",
@@ -49,7 +52,8 @@
       "It means you have found the 'Holy Grail' of trading."
     ],
     "answer": "It provides no 'diversification' of insight; the news is just reflecting the price action that has already happened.",
-    "explanation": "Effective signal blending requires 'orthogonal' (independent) data. If your AI signal just follows the price, it isn't giving you a 'lead'—it's just a 'lagging' confirmation."
+    "explanation": "Effective signal blending requires 'orthogonal' (independent) data. If your AI signal just follows the price, it isn't giving you a 'lead'—it's just a 'lagging' confirmation.",
+    "difficulty": "medium"
   },
   {
     "question": "Using LLMs for Regime Detection",
@@ -62,7 +66,8 @@
       "Penny stock speculation."
     ],
     "answer": "Defensive strategies focusing on short-term yields and value commodities.",
-    "explanation": "Regime detection informs the 'style' of trading. In a hawkish/inflationary environment, growth stocks typically struggle, so the AI signal helps you pivot to factors that historically perform better."
+    "explanation": "Regime detection informs the 'style' of trading. In a hawkish/inflationary environment, growth stocks typically struggle, so the AI signal helps you pivot to factors that historically perform better.",
+    "difficulty": "medium"
   },
   {
     "question": "Alpha Decay in GenAI Strategies",
@@ -75,7 +80,8 @@
       "You are using the wrong font in your trading dashboard."
     ],
     "answer": "Alpha decay: other traders are likely using similar AI models, causing the market to react instantly to sentiment.",
-    "explanation": "As technology spreads, the 'speed' of information integration increases. To maintain an edge, you must find more unique data sources or more complex ways to blend signals than your competitors."
+    "explanation": "As technology spreads, the 'speed' of information integration increases. To maintain an edge, you must find more unique data sources or more complex ways to blend signals than your competitors.",
+    "difficulty": "medium"
   },
   {
     "question": "Filtering Technical Indicators with GenAI",
@@ -88,7 +94,8 @@
       "Wait for the MACD to turn red before buying."
     ],
     "answer": "Skip the trade or reduce position size, as the technical signal lacks fundamental 'fuel'.",
-    "explanation": "GenAI provides the 'context' for a move. A technical breakout without a strong fundamental story is often a 'bull trap'—a brief rise before a sharp fall."
+    "explanation": "GenAI provides the 'context' for a move. A technical breakout without a strong fundamental story is often a 'bull trap'—a brief rise before a sharp fall.",
+    "difficulty": "medium"
   },
   {
     "question": "Sentiment Lag in Trend Following",
@@ -101,7 +108,8 @@
       "It should be used to sell the stocks before the research becomes common knowledge."
     ],
     "answer": "It acts as a 'Leading Indicator,' suggesting a trend is likely to form soon.",
-    "explanation": "Information flow usually starts in specialized circles (patents/research) before hitting mainstream news and finally the price. GenAI helps you capture this 'Early Alpha'."
+    "explanation": "Information flow usually starts in specialized circles (patents/research) before hitting mainstream news and finally the price. GenAI helps you capture this 'Early Alpha'.",
+    "difficulty": "medium"
   },
   {
     "question": "The 'Crowdedness' Factor",
@@ -114,7 +122,8 @@
       "That the news sentiment is finally accurate."
     ],
     "answer": "That there are no more buyers left to push the price higher.",
-    "explanation": "When sentiment is at its maximum, it often indicates a 'blow-off top.' In quant models, extreme sentiment is frequently treated as a warning that a reversal is imminent."
+    "explanation": "When sentiment is at its maximum, it often indicates a 'blow-off top.' In quant models, extreme sentiment is frequently treated as a warning that a reversal is imminent.",
+    "difficulty": "medium"
   },
   {
     "question": "Handling Contradictory Signals",
@@ -127,6 +136,7 @@
       "Don't trade at all; only trade when all factors agree."
     ],
     "answer": "Follow the Sentiment signal because its confidence score is significantly higher.",
-    "explanation": "Confidence-weighting is the standard way to resolve conflict. You prioritize the signal that the model is most 'certain' about based on its underlying data quality and historical performance."
+    "explanation": "Confidence-weighting is the standard way to resolve conflict. You prioritize the signal that the model is most 'certain' about based on its underlying data quality and historical performance.",
+    "difficulty": "medium"
   }
 ]
