@@ -1,6 +1,6 @@
 [
   {
-    "question": "The Reinforcement Learning Loop",
+    "question": "Reinforcement Learning and World Models",
     "content": "A true 'World Model' requires a reinforcement learning loop. This is a process where an agent takes an action, predicts the outcome, observes the actual consequence, and then adjusts its internal model based on that feedback. Without this loop, an AI is just 'hallucinating' a sequence of pixels or words without a grounding in cause and effect.",
     "description": "According to Naval, what is the primary difference between a 'generated video' and a 'world model'?",
     "options": [

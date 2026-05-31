@@ -99,16 +99,16 @@
   },
   {
     "question": "Competing Signals in Emergencies",
-    "content": "In emergencies, multiple influence principles may provide conflicting guidance. Social proof may suggest inaction (others are calm), while authority may suggest action (a directive). Understanding which principle dominates is critical.",
-    "description": "In a crowded theater, smoke appears near the exit. Most people stay seated, looking around. One person in an usher uniform stands up and says calmly, 'Everyone please move to the side exits.' People begin moving. The switch from inaction to action is best explained by:",
+    "content": "In emergencies, social proof may suggest inaction (others are calm, so it must be fine). However, when one person defies the prevailing social proof and acts, it provides new social proof that action is appropriate, breaking the spell of pluralistic ignorance.",
+    "description": "In a crowded theater, smoke appears near the exit. Most people stay seated, looking around. One audience member stands up and calmly says, \"Everyone please move to the side exits.\" People begin moving. The switch from inaction to action is best explained by:",
     "options": [
-      "Social proof overriding authority when the crowd finally moves as a group",
-      "Authority (usher uniform) breaking the social proof of inaction",
-      "Scarcity of time creating urgency to act regardless of principles",
-      "Reciprocity for the usher's past service to the audience"
+      "Social proof of inaction being replaced by social proof of action from the first mover",
+      "The audience recognizing the smoke as a genuine emergency on their own",
+      "Scarcity of time creating urgency to act regardless of the crowd",
+      "Reciprocity toward the person who spoke up for being helpful"
     ],
-    "answer": "Authority (usher uniform) breaking the social proof of inaction",
-    "explanation": "Initially, social proof keeps everyone seated (others are calm, so it must be fine). But the usher's uniform provides an authority signal that overrides the social proof. This shows how competing principles interact: authority can break the spell of pluralistic ignorance by offering a credible directive that counters the inaction of the crowd.",
-    "difficulty": "medium"
+    "answer": "Social proof of inaction being replaced by social proof of action from the first mover",
+    "explanation": "Initially, social proof keeps everyone seated (others are calm, so it must be fine). But when one person acts, it provides new social proof that action is appropriate, breaking the pluralistic ignorance that kept everyone frozen. The first mover creates a new social proof signal that overrides the old one.",
+    "difficulty": "hard"
   }
 ]

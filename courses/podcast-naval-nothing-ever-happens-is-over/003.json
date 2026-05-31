@@ -98,7 +98,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "The Reinforcement Learning Loop",
+    "question": "Reinforcement Learning in World Models",
     "content": "Reinforcement learning (RL) is a training method where an AI (an agent) takes actions in an environment and receives rewards or penalties. This loop allows the agent to adjust its behavior and build a better internal model of how the world works.",
     "description": "Why is the reinforcement learning loop essential for a 'World Model' in Naval’s framework?",
     "options": [

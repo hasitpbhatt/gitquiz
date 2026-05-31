@@ -1,16 +1,16 @@
 [
   {
-    "question": "Understanding Scale and Limits",
-    "content": "Scale matters. What works at one size often fails at another. Systems that function well at small scale can break down catastrophically when scaled up without accounting for changed dynamics.",
-    "description": "A small bakery provides fresh bread to its neighborhood. When a national corporation tries to replicate this model across 500 locations using centralized baking, quality drops and local competitors outperform them. This demonstrates:",
+    "question": "Understanding Scale and Probability",
+    "content": "Understanding scale is critical in probability and statistics. Outcomes that are rare at small scales become almost certain at large scales. The law of large numbers ensures that as sample size grows, observed outcomes converge on expected probabilities.",
+    "description": "A bakery chain expands from one successful location to 500 locations worldwide. Quality becomes inconsistent and the brand suffers. This illustrates that processes that work at small scale do not always scale linearly because:",
     "options": [
-      "The corporation poor management choices",
-      "That scale changes system dynamics in ways that may not transfer",
-      "Small businesses always being superior to large ones",
-      "The bakery secret recipe being impossible to copy"
+      "Large numbers make rare failures nearly certain, while small operations may never encounter them",
+      "The founder should have personally managed every new location",
+      "Scaling always reduces quality regardless of systems in place",
+      "Customers at new locations have different tastes than original customers"
     ],
-    "answer": "That scale changes system dynamics in ways that may not transfer",
-    "explanation": "What works at small scale often fails when scaled because new factors emerge. Logistics, quality control, and local preferences become critical. Ignoring scale effects is a common source of business mistakes.",
+    "answer": "Large numbers make rare failures nearly certain, while small operations may never encounter them",
+    "explanation": "The law of large numbers means events with small probability become almost guaranteed at scale. A one-in-a-thousand failure rate may never happen at a single bakery, but at 500 locations, it happens regularly. This is a probabilistic/statistical concept, not a systems dynamics one.",
     "difficulty": "easy"
   },
   {
@@ -138,5 +138,19 @@
     "answer": "A statistically expected occurrence given enough opportunities",
     "explanation": "With millions of lottery players and repeated drawings, a double winner is not miraculous but statistically expected. The law of large numbers ensures rare events eventually occur.",
     "difficulty": "medium"
+  },
+  {
+    "question": "Gambler Fallacy",
+    "content": "The gambler fallacy is the mistaken belief that past independent events affect the probability of future independent events. For example, believing that after ten coin flips landing heads, tails is \"due\" to occur next.",
+    "description": "After flipping a coin and getting heads five times in a row, you believe tails is \"due\" to come up next. This thinking demonstrates the:",
+    "options": [
+      "Gambler fallacy — the mistaken belief that independent events are influenced by past outcomes",
+      "Law of large numbers — which predicts tails must appear soon to balance the sequence",
+      "Base rate neglect — ignoring the 50% probability of each individual flip",
+      "Regression to the mean — every streak must eventually return to average"
+    ],
+    "answer": "Gambler fallacy — the mistaken belief that independent events are influenced by past outcomes",
+    "explanation": "Each coin flip is independent with a 50% probability. Past flips do not affect future ones. The belief that tails is \"due\" is the classic gambler fallacy — confusing the law of large numbers (which applies to many trials) with the independence of individual events.",
+    "difficulty": "easy"
   }
 ]

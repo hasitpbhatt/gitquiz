@@ -28,8 +28,8 @@
     "difficulty": "medium"
   },
   {
-    "question": "Checklists as Decision Tools",
-    "content": "Checklists force systematic consideration of critical factors and protect against omission errors. They are especially valuable in high-stakes situations where memory or judgment may fail.",
+    "question": "Mental Checklists for Investment Decisions",
+    "content": "Charlie Munger advocates using mental checklists before making significant decisions. Unlike procedural checklists (like pilots use), mental checklists for investing include prompts to check for common psychological biases, incentive misalignments, and overlooked second-order effects.",
     "description": "Before major investment decisions, Munger uses a mental checklist of questions about the business, management, and risks. This practice helps:",
     "options": [
       "Automate decision-making without thinking",
@@ -53,20 +53,6 @@
     ],
     "answer": "The specific causes of accidents that can be addressed",
     "explanation": "By inverting the problem, the city identifies failure modes, poor signage, confusing intersections, lack of enforcement. Addressing these specific causes is more effective than a vague goal of improving safety.",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Gambler Fallacy",
-    "content": "Understanding probability mathematics, including Bayes theorem, expected value, and regression to the mean, is essential for rational decision-making in uncertain environments.",
-    "description": "A gambler believes that after five coin flips landing on heads, the next flip is more likely to be tails because it is due. This mistake is called:",
-    "options": [
-      "Statistical literacy ensuring fair games",
-      "The gambler fallacy because each flip is independent",
-      "Understanding probability distributions",
-      "Regression to the mean in action"
-    ],
-    "answer": "The gambler fallacy because each flip is independent",
-    "explanation": "Coins have no memory. Each flip is independent with a 50 percent probability. The belief that past outcomes affect future independent events is the gambler fallacy, a common probability misunderstanding.",
     "difficulty": "hard"
   },
   {

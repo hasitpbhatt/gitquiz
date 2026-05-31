@@ -56,7 +56,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "Natural Selection",
+    "question": "Natural Selection and Camouflage",
     "content": "Natural selection favors traits that increase reproductive success in a given environment, not necessarily 'better' or 'stronger' traits in absolute terms.",
     "description": "In an environment with predators that hunt by sight, which rabbit trait would natural selection most likely favor?",
     "options": [
@@ -98,7 +98,7 @@
     "difficulty": "medium"
   },
   {
-    "question": "Natural Selection",
+    "question": "Sexual Selection and Peacock Tails",
     "content": "Sexual selection is a special case of natural selection where traits evolve because they increase mating success, even if they reduce survival.",
     "description": "Male peacocks have elaborate, colorful tails that make them more visible to predators. This trait persists because:",
     "options": [
