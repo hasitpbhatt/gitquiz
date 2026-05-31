@@ -86,16 +86,16 @@
   {
     "question": "Faith (Shraddha)",
     "content": "Shraddha is sincere faith or trust that supports spiritual practice, even before complete intellectual understanding is achieved.",
-    "description": "A person new to meditation does not fully understand how it works but trusts enough to practice regularly for 30 days. After a month, they notice subtle positive changes in their wellbeing. What role did shraddha play?",
+    "description": "Two friends are introduced to meditation. Friend A says: 'I will only meditate after science conclusively proves all its benefits and I fully understand the mechanism.' Friend B says: 'Meditation has been practiced for thousands of years and many credible people report benefits. I will commit to 30 days of practice and evaluate my own experience.' According to the Gita, which approach reflects shraddha, and why?",
     "options": [
-      "It was blind superstition that happened to work",
-      "Shraddha provided the foundation to begin practice before full understanding",
-      "The meditation would have worked without any faith",
-      "Faith has no role in spiritual practice"
+      "Friend A, because true faith requires absolute intellectual certainty before action",
+      "Friend B, because shraddha is a reasonable trust that allows experiential verification — it is not blind belief but a willingness to test through practice",
+      "Both equally, since faith is irrelevant to spiritual practice",
+      "Neither, because meditation must be practiced without any expectations or beliefs"
     ],
-    "answer": "Shraddha provided the foundation to begin practice before full understanding",
-    "explanation": "The Gita values shraddha - a trust that allows one to begin practice before complete intellectual understanding. This faith is not blind but reasonable, providing the motivational foundation for experiential learning.",
-    "difficulty": "easy"
+    "answer": "Friend B, because shraddha is a reasonable trust that allows experiential verification — it is not blind belief but a willingness to test through practice",
+    "explanation": "Shraddha in the Gita is not blind faith (unfounded belief despite evidence) nor is it demand for absolute proof before any action. It is a middle path — reasonable trust based on credible testimony and tradition, sufficient to begin practice. Friend B's approach mirrors this: she trusts enough to try, then verifies through direct experience. This is the epistemological foundation of all spiritual practice in the Gita tradition, distinguishing it from both naive credulity and sterile skepticism.",
+    "difficulty": "hard"
   },
   {
     "question": "The Steady-Witted Person (Sthitaprajna)",
