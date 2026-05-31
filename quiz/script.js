@@ -61,7 +61,11 @@ function renderCatalogOptions(items) {
         const opt = document.createElement('option');
         opt.value = name;
         opt.className = "p-3 border-b border-slate-100 dark:border-slate-800 cursor-pointer hover:bg-blue-50 dark:hover:bg-slate-800";
-        opt.innerText = name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        let prefix = '📖';
+        if (name.startsWith('book-')) prefix = '📘';
+        else if (name.startsWith('podcast-')) prefix = '🎙';
+        else if (name.startsWith('coursera-')) prefix = '📚';
+        opt.innerHTML = `${prefix} ${name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}`;
         dropdown.appendChild(opt);
     });
     if (items.length > 0) dropdown.selectedIndex = 0;
@@ -144,6 +148,7 @@ async function initializeQuiz(url) {
         document.getElementById('score-val').innerText = '0';
         document.getElementById('streak-val').innerText = '0';
         document.getElementById('progress-fill').style.width = '0%';
+        document.getElementById('question-counter').innerText = `1 / ${quizData.length}`;
         
         startTimer();
         const urlParts = url.split('/');
@@ -186,8 +191,9 @@ function renderQuestion() {
     }
     questionStartTime = Date.now();
     
-    const prog = ((currentIdx) / quizData.length) * 100;
-    document.getElementById('progress-fill').style.width = prog + '%';
+    const progPct = ((currentIdx + 1) / quizData.length) * 100;
+    document.getElementById('progress-fill').style.width = progPct + '%';
+    document.getElementById('question-counter').innerText = `${currentIdx + 1} / ${quizData.length}`;
 
     const topicTitle = document.getElementById('topic-title');
     topicTitle.textContent = q.question || "Step " + (currentIdx + 1);
@@ -208,13 +214,14 @@ function renderQuestion() {
     if (aiResponse) aiResponse.classList.add('hidden');
 
     if (q.options) {
+        const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
         const randomizedOptions = shuffleArray(q.options);
         const correctAnswer = q.answer.trim();
 
-        randomizedOptions.forEach(opt => {
+        randomizedOptions.forEach((opt, idx) => {
             const btn = document.createElement('button');
             btn.className = 'option-btn w-full p-5 text-left border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 shadow-sm';
-            btn.innerText = opt;
+            btn.innerHTML = `<span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0">${letters[idx] || (idx + 1)}</span><span class="flex-1">${escapeHtml(opt)}</span>`;
             btn.onclick = () => {
                 const btns = document.querySelectorAll('.option-btn');
                 btns.forEach(b => b.disabled = true);
@@ -228,7 +235,11 @@ function renderQuestion() {
                     const streakBonus = streak > 2 ? 20 : 0;
                     score += (100 + speedBonus + streakBonus);
                     
-                    document.getElementById('score-val').innerText = score.toLocaleString();
+                    const scoreEl = document.getElementById('score-val');
+                    scoreEl.innerText = score.toLocaleString();
+                    scoreEl.classList.remove('score-pop');
+                    void scoreEl.offsetWidth;
+                    scoreEl.classList.add('score-pop');
                     document.getElementById('streak-val').innerText = streak;
                 } else {
                     btn.classList.add('wrong');
@@ -470,10 +481,10 @@ function downloadPromoImage(btn) {
     container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:600px;';
     container.innerHTML = `
         <div style="font-size:80px;margin-bottom:16px;">🎯</div>
-        <div style="font-size:36px;font-weight:800;margin-bottom:8px;">Quiz Portal Pro</div>
-        <div style="font-size:16px;opacity:0.6;max-width:400px;margin-bottom:40px;">Master your knowledge with interactive modules.</div>
+        <div style="font-size:36px;font-weight:800;margin-bottom:8px;">LearnLeap</div>
+        <div style="font-size:16px;opacity:0.6;max-width:400px;margin-bottom:40px;">Read. Retain. Rise.</div>
         <div style="font-size:13px;font-family:monospace;padding:14px 24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:12px;color:#60a5fa;max-width:100%;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(shareUrl)}</div>
-        <div style="margin-top:auto;font-size:14px;opacity:0.4;">hasit.in/quiz</div>
+        <div style="margin-top:auto;font-size:14px;opacity:0.4;">LearnLeap • hasit.in/quiz</div>
     `;
     document.body.appendChild(container);
     if (typeof html2canvas !== 'function') {
@@ -523,7 +534,7 @@ function captureAndShareImage(element, filename) {
                 try {
                     await navigator.share({
                         files: [file],
-                        title: 'Quiz Portal Pro',
+                        title: 'LearnLeap',
                         text: getShareUrl()
                     });
                     element.remove();
@@ -562,7 +573,7 @@ function shareQuestion() {
         ${q.question ? `<div class="qc-title">${escapeHtml(q.question)}</div>` : ''}
         ${q.description ? `<div class="qc-description">${escapeHtml(q.description)}</div>` : ''}
         <div class="qc-options"></div>
-        <div style="text-align:center;margin-top:auto;" class="qc-footer">Quiz Portal Pro</div>
+        <div style="text-align:center;margin-top:auto;" class="qc-footer">LearnLeap</div>
     `;
     const optsDiv = container.querySelector('.qc-options');
     if (q.options) {
@@ -625,7 +636,7 @@ function shareCertificate() {
                 <span class="ach-stat-lab">Date Verified</span>
             </div>
         </div>
-        <div class="ach-footer">Verified by Pro Quiz Portal • hasit.in</div>
+        <div class="ach-footer">Verified by LearnLeap • hasit.in</div>
     `;
     document.body.appendChild(container);
     captureAndShareImage(container, `Achievement_${courseFolderName}_M${moduleNum}.png`);

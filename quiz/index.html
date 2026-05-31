@@ -42,7 +42,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="min-h-screen p-4 md:p-8 flex flex-col items-center">
+<body class="min-h-screen p-4 md:p-8 flex flex-col items-center transition-colors duration-300">
 
     <div id="app-container" class="w-full max-w-2xl mt-4">
         <!-- Share Button (Fixed Position) -->
@@ -98,8 +98,11 @@
         </div>
 
         <div id="quiz-container" class="hidden">
-            <div class="w-full h-2 bg-slate-200 dark:bg-slate-800 rounded-full mb-6 overflow-hidden">
-                <div id="progress-fill" class="h-full bg-blue-500 w-0 transition-all duration-500"></div>
+            <div class="flex items-center gap-3 mb-6">
+                <div class="flex-1 h-2 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+                    <div id="progress-fill" class="h-full bg-blue-500 w-0 transition-all duration-500"></div>
+                </div>
+                <span id="question-counter" class="text-xs font-700 text-slate-400 whitespace-nowrap">0 / 0</span>
             </div>
 
             <div class="grid grid-cols-3 gap-4 mb-6">

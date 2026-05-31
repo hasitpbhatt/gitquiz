@@ -22,8 +22,22 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 .glass-card { background-color: var(--card-bg); border: 1px solid rgba(148, 163, 184, 0.1); }
 
 .option-btn {
+    position: relative;
+    padding-right: 3.5rem;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
+.option-btn.correct::after,
+.option-btn.wrong::after {
+    position: absolute;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1;
+}
+.option-btn.correct::after { content: '✓'; color: #166534; }
+.option-btn.wrong::after { content: '✗'; color: #dc2626; }
 .option-btn:hover:not(:disabled) {
     transform: translateX(4px);
     border-color: var(--accent);
@@ -105,3 +119,12 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 /* Custom Scrollbar for Catalog */
 #course-dropdown::-webkit-scrollbar { width: 6px; }
 #course-dropdown::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 10px; }
+
+@keyframes score-pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.25); }
+    100% { transform: scale(1); }
+}
+.score-pop {
+    animation: score-pop 0.35s ease-out;
+}
