@@ -25,13 +25,20 @@ let previewData = null;
   const params = new URLSearchParams(window.location.search);
   const courseParam = params.get('course');
   const qParam = params.get('q');
+  const chParam = params.get('c');
   if (courseParam && fullCatalog.includes(courseParam)) {
     const dropdown = document.getElementById('course-dropdown');
     dropdown.value = courseParam;
+    let ch = '001';
+    if (chParam) {
+      const chNum = parseInt(chParam, 10);
+      if (!isNaN(chNum) && chNum >= 1) ch = String(chNum).padStart(3, '0');
+    }
+    const moduleUrl = `${BASE_URL}${courseParam}/${ch}.json`;
     if (qParam) {
-      await showPreviewScreen(`${BASE_URL}${courseParam}/001.json`, parseInt(qParam, 10) - 1);
+      await showPreviewScreen(moduleUrl, parseInt(qParam, 10) - 1);
     } else {
-      await initializeQuiz(`${BASE_URL}${courseParam}/001.json`);
+      await initializeQuiz(moduleUrl);
     }
   }
 })();
@@ -157,8 +164,12 @@ async function showPreviewScreen(url, previewIndex = 0) {
     document.getElementById('preview-badge').innerText = courseName || 'Module';
     document.getElementById('preview-title').innerText = courseName ? `${courseName} \u2022 ${filename}` : filename;
     document.getElementById('preview-meta').innerText = 'Loading...';
-    document.getElementById('preview-question').innerText = '';
-    document.getElementById('preview-options').innerHTML = '';
+    document.getElementById('preview-topic-title').classList.add('hidden');
+    document.getElementById('preview-topic-title').innerText = '';
+    document.getElementById('preview-content-box').classList.add('hidden');
+    document.getElementById('preview-content-box').innerText = '';
+    document.getElementById('preview-description-text').innerText = '';
+    document.getElementById('preview-options-bin').innerHTML = '';
 
     try {
         const res = await fetch(url);
@@ -171,23 +182,23 @@ async function showPreviewScreen(url, previewIndex = 0) {
         document.getElementById('preview-meta').innerText = `${data.length} question${data.length > 1 ? 's' : ''}`;
 
         const targetQ = data[previewIndex] || data[0];
-        document.getElementById('preview-question').innerText = targetQ.question || 'No question available';
+        document.getElementById('preview-description-text').innerText = targetQ.description || targetQ.question || 'No question available';
 
-        const bin = document.getElementById('preview-options');
+        const bin = document.getElementById('preview-options-bin');
         bin.innerHTML = '';
         if (targetQ.options) {
             const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
             targetQ.options.forEach((opt, idx) => {
                 const div = document.createElement('div');
-                div.className = 'preview-option w-full p-3 text-left border border-slate-200 dark:border-slate-700 rounded-xl font-500 bg-white dark:bg-slate-800';
-                div.innerHTML = `<span class="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0 mr-3">${letters[idx] || (idx + 1)}</span><span class="text-sm text-slate-600 dark:text-slate-400">${escapeHtml(opt)}</span>`;
+                div.className = 'preview-option w-full p-5 text-left border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 shadow-sm flex items-center gap-3';
+                div.innerHTML = `<span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0">${letters[idx] || (idx + 1)}</span><span class="flex-1">${escapeHtml(opt)}</span>`;
                 bin.appendChild(div);
             });
         }
     } catch (err) {
         previewData = null;
         document.getElementById('preview-meta').innerText = 'Failed to load';
-        document.getElementById('preview-question').innerText = err.message;
+        document.getElementById('preview-description-text').innerText = err.message;
         document.getElementById('preview-container').classList.add('hidden');
         document.getElementById('setup-container').classList.remove('hidden');
         showNotify('Load Failed', 'Could not fetch module data for preview.');

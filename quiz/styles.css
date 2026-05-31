@@ -147,5 +147,13 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 
 /* Preview Screen */
 #preview-container { transition: all 0.3s ease; }
-.preview-option { transition: all 0.2s ease; }
-.preview-option:hover { border-color: var(--accent); transform: translateX(4px); cursor: default; }
+.preview-option {
+    position: relative;
+    padding-right: 3.5rem;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.preview-option:hover {
+    transform: translateX(4px);
+    border-color: var(--accent);
+    cursor: default;
+}
