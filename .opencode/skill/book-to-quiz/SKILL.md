@@ -63,35 +63,60 @@ mkdir -p courses/course-identifier/
 Where `course-identifier` follows the pattern: `book-title-in-kebab-case` for books, `podcast-title-in-kebab-case` for podcasts, etc.
 
 ### 4. Create Chapter JSON Files
-For each chapter (001.json, 002.json, etc.), create a file with this format:
+
+Each JSON file is an array of question objects. Every question must have **exactly 7 fields**:
+
+#### Field Reference
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `question` | `string` | Short concept name (e.g., "Opportunity Cost") |
+| `content` | `string` | Brief 1-2 sentence explanation of the concept |
+| `description` | `string` | Real-world scenario ending with a question (e.g., "This illustrates:") |
+| `options` | `string[]` | Array of **exactly 4** plausible answer strings. Must not reference other options by position. |
+| `answer` | `string` | Correct answer — must be **identical** (case, punctuation, whitespace) to one of the `options` entries |
+| `explanation` | `string` | Teaching explanation of why this is correct and the others are not |
+| `difficulty` | `string` | One of: `"easy"`, `"medium"`, `"hard"` |
+
+#### Template
 
 ```json
 [
   {
     "question": "Concept Name",
-    "content": "Brief explanation of the concept (1-2 sentences)",
-    "description": "Real-world scenario that illustrates the concept",
+    "content": "Brief explanation of the concept (1-2 sentences).",
+    "description": "Real-world scenario that illustrates the concept. What does this demonstrate?",
     "options": [
       "Incorrect option 1",
-      "Incorrect option 2", 
-      "Correct option",
+      "Incorrect option 2",
+      "Correct option — exact text repeated in answer field",
       "Incorrect option 4"
     ],
-    "answer": "Correct option (exact text from options)",
-    "explanation": "Clear explanation of why this is correct and others are not"
-  },
-  // ... 7-12 questions per chapter
+    "answer": "Correct option — exact text repeated in options",
+    "explanation": "Clear explanation of why this is correct and the others are not.",
+    "difficulty": "easy"
+  }
 ]
 ```
 
-Follow these content conventions for each field:
-- **Question**: Concept/model name (e.g., "Occam's Razor", "Confirmation Bias")
-- **Content**: Concise definition/explanation of the concept
-- **Description**: Scenario setup ending with a question (e.g., "This illustrates:")
-- **Options**: 4 plausible options, only one correct
+#### Content Conventions
+
+- **question**: Concept/model name (e.g., "Occam's Razor", "Confirmation Bias")
+- **content**: Concise definition/explanation of the concept
+- **description**: Scenario setup ending with a question (e.g., "This illustrates:")
+- **options**: 4 plausible options, only one correct
   - **CRITICAL**: Options must NOT reference **other options** by letter (e.g., "Both B and C", "A & C", "B & D", "All of the above"). Options are shuffled at runtime, so positional letter references become meaningless. Use standalone text instead. — Letters used as **content** (e.g. "A and E" for a question about vowels) are fine since they're the actual answer, not a reference to another option's position.
-- **Answer**: Must match exactly one option string
-- **Explanation**: Teaching moment explaining the reasoning
+- **answer**: Must match exactly one option string
+- **explanation**: Teaching moment explaining the reasoning
+- **difficulty**: Must be `"easy"`, `"medium"`, or `"hard"` — lowercase, no other values
+
+#### Constraints
+
+- **7 fields required**: All fields above are mandatory in every question. Missing or extra fields will fail validation.
+- **Answer match**: `answer` must match one `options` entry character-for-character. Common pitfalls: trailing spaces, mismatched punctuation, capitalization differences.
+- **4 options**: Exactly 4 strings in `options`. No fewer, no more.
+- **No positional references**: Options must not reference other options by letter (e.g., "Both A and B", "All of the above", "A & C"). These break when options are shuffled at runtime.
+- **Difficulty enum**: Must be `"easy"`, `"medium"`, or `"hard"` — lowercase only.
 
 ### 5. Maintain Difficulty and Coverage
 - Earlier chapters: Foundational concepts
@@ -150,8 +175,9 @@ Write all questions first with whatever scenarios come naturally. Then do a deli
 Before completing:
 
 Field-level checks (every question):
-- [ ] Every question has all five required fields: `question`, `content`, `description`, `options` (array of 4), `answer`, `explanation` (watch for typos like `"context"` instead of `"content"`)
+- [ ] Every question has all 7 required fields: `question`, `content`, `description`, `options` (array of 4), `answer`, `explanation`, `difficulty` (watch for typos like `"context"` instead of `"content"`)
 - [ ] `answer` text matches exactly one entry in `options` (watch for typos: "unpredictable" vs "unexpected")
+- [ ] `difficulty` is one of `"easy"`, `"medium"`, `"hard"` (lowercase only)
 - [ ] Options are mutually exclusive
 - [ ] No option references other options by position (grep for `"Both [A-D]`, `"All of the above`, `[A-D] & [A-D]`)
 - [ ] Explanations teach, don't just state

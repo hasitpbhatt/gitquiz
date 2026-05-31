@@ -1,128 +1,142 @@
 [
   {
-    "question": "According to Naval, what is the primary economic consequence of AI coding tools?",
-    "content": "AI coding tools lower the marginal cost of software production toward zero, fundamentally changing the economics of building software products.",
-    "description": "The core economic shift that AI introduces to software development",
+    "question": "Software Factories",
+    "content": "Guillermo Rauch describes a fundamental shift in how engineers are evaluated. The old framing was the '10x engineer' — someone who produces ten times the output of an average engineer. The new framing moves beyond individual multipliers to something more systemic.",
+    "description": "You are a CTO evaluating your engineering team's performance now that AI handles most implementation work. A board member asks how you measure whether an engineer is 'good enough' in the AI age. Using Guillermo Rauch's framework, what should you look for?",
     "options": [
-      "Software becomes more expensive to maintain",
-      "The marginal cost of software production approaches zero",
-      "Developers become unnecessary",
-      "Code quality automatically improves"
+      "How many pull requests they close per week with AI assistance",
+      "Whether they are producing the factory that will produce multiplicative outputs B through Z",
+      "How many tokens they consume from the AI model each day",
+      "How quickly they can debug production issues using AI"
     ],
-    "answer": "The marginal cost of software production approaches zero",
-    "explanation": "Naval argues that AI turns software development into a factory where the marginal cost of producing a new line of code, a new feature, or even a new product drops toward zero, similar to what happened with manufacturing.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which real-world example does Marc Andreessen cite to illustrate AI replacing traditional software functionality?",
-    "content": "Marc Andreessen points to specific products that can now be built or replicated using AI rather than traditional hand-coded software.",
-    "description": "Real-world validation of AI's ability to replace conventionally built software",
-    "options": [
-      "Microsoft Office being rewritten with AI",
-      "Adobe Photoshop features being replicated by asking an AI model",
-      "Google Search being replaced by chatbots",
-      "Uber's routing algorithm being open sourced"
-    ],
-    "answer": "Adobe Photoshop features being replicated by asking an AI model",
-    "explanation": "Marc Andreessen gives the example that someone recently replicated a key Photoshop feature simply by prompting an AI model, demonstrating how AI can replace what previously required years of engineering effort.",
+    "answer": "Whether they are producing the factory that will produce multiplicative outputs B through Z",
+    "explanation": "Guillermo Rauch says the shift is from 'you are a 10x engineer' to judging whether 'you are producing the factory that will produce multiplicative outputs B through Z.' It's not about individual output; it's about creating the systems that compound output.",
     "difficulty": "medium"
   },
   {
-    "question": "What does Naval mean by 'software is getting eaten'?",
-    "content": "Naval inverts Marc Andreessen's famous 'software is eating the world' thesis to describe what AI is doing to software itself.",
-    "description": "Understanding the inversion of a classic Silicon Valley thesis",
+    "question": "The 1000x Engineer",
+    "content": "Naval reflects on the long-running controversy around the concept of 10x engineers — developers who produce vastly more value than their peers. He cites famous examples to make his point and then explains what has changed in the AI era.",
+    "description": "A founder on your team argues that '10x engineers don't really exist' and that everyone is roughly equally productive. You recall Naval's perspective on this debate. What does Naval say is the actual productivity spread, and why is it now less controversial?",
     "options": [
-      "Software companies are being acquired by AI firms",
-      "AI is consuming and replacing traditionally written software",
-      "Software developers are losing their jobs to automation",
-      "The software industry is shrinking"
+      "10x engineers exist, but the spread is only noticeable in large companies",
+      "Productivity differences are at most 2x because tools equalize skill gaps",
+      "It's not even 10x — it's 100x or 1000x, and AI leverage now makes it obvious",
+      "10x engineers existed before cloud computing but not anymore"
     ],
-    "answer": "AI is consuming and replacing traditionally written software",
-    "explanation": "Naval says 'software is getting eaten' meaning AI is now consuming software itself — the very tool that was eating the world is now being consumed by a more powerful abstraction.",
+    "answer": "It's not even 10x — it's 100x or 1000x, and AI leverage now makes it obvious",
+    "explanation": "Naval says he used to get flamed for claiming 10x engineers exist, citing Satoshi and John Carmack as examples of 1000x programmers. AI leverage now makes extreme productivity differences less controversial and more visible.",
     "difficulty": "medium"
   },
   {
-    "question": "How does Naval describe the current state of software development in terms of production?",
-    "content": "Naval uses a manufacturing metaphor to describe what AI does to the software development process.",
-    "description": "Manufacturing metaphor for AI-driven development",
+    "question": "The New Lines of Code",
+    "content": "As companies adopt AI coding tools, managers look for new metrics to measure productivity. Token consumption and model usage are common candidates. Blake Scholl offers a historical analogy for why this is misguided.",
+    "description": "Your VP of Engineering proposes tracking AI token spend per developer as a key productivity metric, arguing that more tokens means more done. What would Blake Scholl say about token consumption as a measure of output?",
     "options": [
-      "A craft industry",
-      "A design studio",
-      "A software factory",
-      "A research laboratory"
+      "Token consumption is the most objective measure of AI productivity available",
+      "Token consumption is like the old measuring of lines of code — a vanity metric",
+      "Token consumption should be minimized because it directly correlates with cost",
+      "High token consumption always indicates a developer is struggling with the AI"
     ],
-    "answer": "A software factory",
-    "explanation": "Naval describes the new paradigm as a software factory where AI agents function as assembly-line workers rapidly producing code, turning what was a bespoke craft into automated manufacturing.",
+    "answer": "Token consumption is like the old measuring of lines of code — a vanity metric",
+    "explanation": "Blake Scholl directly says measuring by token consumption is 'like the old measuring of lines of code' — a proxy that doesn't capture true output, quality, or value.",
     "difficulty": "easy"
   },
   {
-    "question": "Marc Andreessen suggests that with AI, the velocity of software creation allows for what kind of testing strategy?",
-    "content": "When code can be generated faster than ever, the approach to quality assurance shifts toward a different paradigm.",
-    "description": "Testing strategy in the age of rapid AI code generation",
+    "question": "The Competence Mirror",
+    "content": "Max Hodak observes that team members experience AI coding tools very differently depending on their skill level. This creates a puzzle for managers: the same tool gets radically different reviews from different engineers.",
+    "description": "A junior engineer on your team says Claude isn't that helpful — it gives vague answers and wastes time. A senior engineer insists Claude is the most powerful tool they've ever used. According to Max Hodak, what explains this discrepancy?",
     "options": [
-      "More thorough manual code reviews",
-      "Throw-it-away-and-start-over prototyping",
-      "Formal verification of every function",
-      "Slower but more deliberate development cycles"
+      "The senior engineer has access to a more capable model subscription plan",
+      "AI models reflect back the competence of the user — they are as good as you are in the domain",
+      "The junior engineer is using the wrong programming language for their AI queries",
+      "The AI model has stale training data and only works well with older frameworks"
     ],
-    "answer": "Throw-it-away-and-start-over prototyping",
-    "explanation": "Andreessen notes that because AI can generate code so quickly, teams can adopt a 'throw it away and start over' approach to prototyping, iterating through designs faster than ever before.",
+    "answer": "AI models reflect back the competence of the user — they are as good as you are in the domain",
+    "explanation": "Max Hodak explains: 'Claude or ChatGPT is basically as good as you are in a domain. If you're a really capable developer, these things are really powerful. If you're a junior developer, you'll find it to be more of a junior developer.'",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The New Support Skill",
+    "content": "Guillermo Rauch describes a new kind of help he now provides to colleagues who struggle with AI tools. The bottleneck is no longer access to the model — it's knowing how to communicate with it effectively.",
+    "description": "A teammate comes to you frustrated because they spent an hour prompting the AI model and got unusable results. They ask for your help. According to Guillermo Rauch, what form should your help take in the age of AI?",
+    "options": [
+      "Take over and write the implementation yourself to save time",
+      "Recommend they switch to a different AI model that is more reliable",
+      "Tell them what to prompt the model with — the quality of reprompting is critical",
+      "Suggest they abandon the AI approach and write the code manually"
+    ],
+    "answer": "Tell them what to prompt the model with — the quality of reprompting is critical",
+    "explanation": "Guillermo Rauch says: 'There's a new kind of support I give now — you come to me, you didn't get good output out of the model, and I tell you what to prompt the model with. The quality of the reprompting is extremely important.'",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Waste Tokens, Save Time",
+    "content": "Naval describes his deliberately low-effort approach to using AI models. Instead of optimizing prompts and carefully crafting queries, he takes a completely different philosophy that prioritizes time over token cost.",
+    "description": "You find yourself spending 15 minutes carefully crafting the perfect prompt to minimize token usage and API costs. Naval would say your focus is misplaced. What does he recommend instead?",
+    "options": [
+      "Study advanced prompt engineering techniques and frameworks to maximize efficiency",
+      "Waste tokens to save time — tokens are way cheaper than a human and you can always buy more",
+      "Cache common responses locally to reduce API calls",
+      "Use only open-source models that have zero per-token cost"
+    ],
+    "answer": "Waste tokens to save time — tokens are way cheaper than a human and you can always buy more",
+    "explanation": "Naval says: 'I just assumed the model is going to get better faster than I would figure out how to use it... Just waste tokens to save time. No matter how expensive these models might seem, they're still way cheaper than a human.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Principal Engineer Model",
+    "content": "Guillermo Rauch describes a recent inflection point in how AI models interact with developers. The models no longer just execute — they push back, suggest alternatives, and evaluate trade-offs, which changes the human-AI dynamic entirely.",
+    "description": "You notice that your AI coding assistant no longer just implements what you ask. Instead, it frequently responds with 'Here's what I'd recommend, but there are trade-offs to consider...' and lists alternatives. How does Guillermo Rauch characterize this shift?",
+    "options": [
+      "The model is hallucinating more than usual and needs stricter constraints",
+      "The model has graduated from a junior engineer to a principal engineer level",
+      "This is a temporary glitch from a bad model update that will be patched",
+      "The model is trying to avoid work by overcomplicating simple requests"
+    ],
+    "answer": "The model has graduated from a junior engineer to a principal engineer level",
+    "explanation": "Guillermo Rauch observes: 'The models at some point graduated. They used to be junior engineers. Now they're principal engineers, because they come back to you with a set of trade-offs and plans before starting.'",
+    "difficulty": "medium"
+  },
+  {
+    "question": "You Don't Get Stuck Anymore",
+    "content": "Max Hodak describes the most profound change AI has brought to building software. Every developer knows the frustration of hitting a wall for hours or days on a seemingly small problem. AI agents fundamentally change this dynamic.",
+    "description": "You remember spending three days debugging a race condition in your first job — reading docs, searching Stack Overflow, trying random permutations. Max Hodak argues this painful experience is now optional. What changed?",
+    "options": [
+      "Programming languages have become simpler and eliminated race conditions entirely",
+      "Modern debuggers have built-in AI that automatically fixes concurrency bugs",
+      "With agents, you just don't get stuck anymore — they can quickly find the right way to do things",
+      "Error messages have become so descriptive that no debugging is necessary"
+    ],
+    "answer": "With agents, you just don't get stuck anymore — they can quickly find the right way to do things",
+    "explanation": "Max Hodak says: 'It used to be you could build a lot, a lot would go straightforward, but then you'd hit some random thing and you could spend an indefinite period of time debugging some narrow thing. Now, with agents, you just don't get stuck anymore.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Vibe Coding Through People",
+    "content": "Guillermo Rauch and Naval discuss a parallel between how engineering leaders have always operated and how people now interact with AI agents. The description of working through agents sounds familiar to anyone who has led teams.",
+    "description": "Someone watches you iterating with an AI agent — describing what you want, reviewing the output, giving feedback in natural language — and calls it 'vibe coding.' Naval and Guillermo recognize this pattern from something else. What?",
+    "options": [
+      "It mirrors how junior developers learn from senior code reviews",
+      "Engineering leaders have always been vibe coding through people on Slack",
+      "It's the same as pair programming but with a faster partner",
+      "It resembles how founders pitch to venture capitalists for feedback"
+    ],
+    "answer": "Engineering leaders have always been vibe coding through people on Slack",
+    "explanation": "Guillermo Rauch and Naval point out that engineering leaders have described what they do as 'vibe coding through people on Slack' — telling people what to do, reviewing output, iterating. The only change is the agent replaces the human executor.",
     "difficulty": "hard"
   },
   {
-    "question": "According to the podcast, what happens to the role of the software architect when AI handles implementation details?",
-    "content": "As AI takes over more coding tasks, the human role shifts toward higher-level responsibilities.",
-    "description": "The evolving role of software architects in AI-driven development",
+    "question": "Is Pure Software Dead?",
+    "content": "Naval poses a provocative question about the future of software as a business. When AI models can write code as easily as humans speak English, the traditional moats of software engineering may dissolve. This forces a rethinking of what is actually valuable.",
+    "description": "A founder pitches you a pure SaaS product whose only competitive advantage is the codebase. Naval would likely question this pitch. What foundational question is Naval asking about the software industry that applies here?",
     "options": [
-      "Architects become obsolete",
-      "Architects focus more on system design and intent specification",
-      "Architects must learn to code in multiple languages",
-      "Architects are replaced by product managers"
+      "When will AI replace all software engineers and make coding obsolete?",
+      "Is pure software dead — is classic software engineering becoming an obsolete thing?",
+      "Should all startups pivot to selling AI models instead of building products?",
+      "Will open-source eventually make commercial software illegal?"
     ],
-    "answer": "Architects focus more on system design and intent specification",
-    "explanation": "When AI can generate the implementation code, architects and senior developers spend more time on system design, specifying what they want the system to do rather than writing every line of code themselves.",
+    "answer": "Is pure software dead — is classic software engineering becoming an obsolete thing?",
+    "explanation": "Naval asks: 'Is pure software dead? Is pure software engineering an obsolete thing? It's like saying speaking English — the models now speak English.' He suggests hardware moats and model-building may be the new durable advantages.",
     "difficulty": "hard"
-  },
-  {
-    "question": "What does Naval say is the biggest bottleneck in AI-driven software development?",
-    "content": "Even with powerful AI tools, certain constraints continue to limit development speed.",
-    "description": "The primary constraint in AI-accelerated development",
-    "options": [
-      "Token context windows",
-      "GPU availability",
-      "Human specification and verification",
-      "Internet bandwidth"
-    ],
-    "answer": "Human specification and verification",
-    "explanation": "Naval argues that the bottleneck shifts from writing code to humans specifying what they want and verifying the AI's output is correct, making human judgment the rate-limiting factor.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Marc Andreessen compares the current AI coding tools to what historical productivity leap?",
-    "content": "Andreessen draws a parallel between AI-assisted coding and a previous transformation in how software was produced.",
-    "description": "Historical analogy for the AI coding productivity leap",
-    "options": [
-      "The transition from punch cards to terminals",
-      "The shift from assembly language to high-level compilers",
-      "The move from on-premise servers to cloud computing",
-      "The adoption of agile development methodologies"
-    ],
-    "answer": "The shift from assembly language to high-level compilers",
-    "explanation": "Andreessen compares AI coding tools to the leap from writing assembly to using compilers — a massive abstraction jump that dramatically increased what a single developer could produce.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "In the software factory model, what does Naval identify as the key advantage AI agents have over human developers?",
-    "content": "AI agents bring specific capabilities that differ from human developers in meaningful ways.",
-    "description": "Key advantage of AI agents in software factories",
-    "options": [
-      "They can work 24/7 without breaks",
-      "They can hold the entire codebase in context at once",
-      "They never introduce bugs",
-      "They are cheaper than any human developer"
-    ],
-    "answer": "They can hold the entire codebase in context at once",
-    "explanation": "Naval points out that unlike human developers who can only hold a small portion of a codebase in working memory, AI agents can theoretically process and understand the entire codebase simultaneously, enabling more holistic reasoning.",
-    "difficulty": "medium"
   }
 ]

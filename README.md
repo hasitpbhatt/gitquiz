@@ -28,26 +28,48 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 
 ## Course Format
 
-Each course folder contains numbered chapter files (`001.json`, `002.json`, ...). Each file is a JSON array of question objects:
+Each course folder contains numbered chapter files (`001.json`, `002.json`, ...). Each file is a JSON array of question objects with **exactly 7 fields**:
+
+### Field Reference
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `question` | `string` | Short concept name (e.g., "Opportunity Cost") |
+| `content` | `string` | Brief 1-2 sentence explanation of the concept |
+| `description` | `string` | Real-world scenario ending with a question (e.g., "This illustrates:") |
+| `options` | `string[]` | Array of **exactly 4** plausible answer strings. Must not reference other options by position (no "Both B and C", "All of the above"). |
+| `answer` | `string` | Correct answer — must be **identical** (case, punctuation, whitespace) to one of the `options` entries |
+| `explanation` | `string` | Teaching explanation of why this answer is correct and the others are not |
+| `difficulty` | `string` | One of: `"easy"`, `"medium"`, `"hard"` |
+
+### Template
 
 ```json
 [
   {
-    "question": "Concept Title",
-    "content": "Brief explanation of the concept.",
-    "description": "Scenario-based question text.",
+    "question": "Concept Name",
+    "content": "Brief explanation of the concept (1-2 sentences).",
+    "description": "Real-world scenario that illustrates the concept. What does this demonstrate?",
     "options": [
-      "First answer option",
-      "Second answer option",
-      "Third answer option",
-      "Fourth answer option"
+      "Incorrect option 1",
+      "Incorrect option 2",
+      "Correct option — exact text repeated in answer field",
+      "Incorrect option 4"
     ],
-    "answer": "Correct answer (matches one option exactly)",
-    "explanation": "Why this answer is correct.",
-    "difficulty": "easy | medium | hard"
+    "answer": "Correct option — exact text repeated in options",
+    "explanation": "Clear explanation of why this is correct and the others are not.",
+    "difficulty": "easy"
   }
 ]
 ```
+
+### Constraints
+
+- **7 fields required**: All fields above are mandatory in every question object. Missing or extra fields will fail validation.
+- **Answer match**: `answer` must match one `options` entry character-for-character. Common pitfalls: trailing spaces, mismatched punctuation, capitalization differences.
+- **4 options**: Exactly 4 strings in `options`. No fewer, no more.
+- **No positional references**: Options must not reference other options by letter (e.g., "Both A and B", "All of the above", "A & C"). These break when options are shuffled at runtime.
+- **Difficulty enum**: Must be `"easy"`, `"medium"`, or `"hard"` — lowercase, no other values.
 
 ### Difficulty Distribution
 
