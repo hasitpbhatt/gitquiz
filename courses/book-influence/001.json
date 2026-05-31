@@ -1,31 +1,31 @@
 [
   {
-    "question": "The Rule of Reciprocity",
-    "content": "The rule of reciprocity states that we should try to repay, in kind, what another person has provided us. This powerful social norm governs human behavior across all societies and creates a sense of obligation when someone gives us something.",
-    "description": "A waiter brings a small complimentary dessert to your table after your meal. Later, when suggesting a more expensive bottle of wine, you're more likely to agree. This illustrates:",
+    "question": "Reciprocity Saturation",
+    "content": "Reciprocity has an upper limit: excessively generous gifts can feel manipulative rather than genuine, triggering suspicion and reducing compliance rather than increasing it.",
+    "description": "A financial advisor sends you a $500 gift basket before a first meeting. Rather than feeling grateful and obligated, you feel suspicious and cancel the meeting. This demonstrates:",
     "options": [
-      "The waiter's expertise in wine selection",
-      "Your genuine desire for expensive wine",
-      "The reciprocity trigger from the complimentary dessert",
-      "The restaurant's overall excellent service"
+      "Reciprocity always strengthens with gift value — more expense creates more obligation",
+      "Excessive gifts can trigger suspicion that overrides the reciprocity response",
+      "The reciprocity norm does not apply to financial advisors or professional relationships",
+      "The gift was not personalized enough to create a genuine obligation"
     ],
-    "answer": "The reciprocity trigger from the complimentary dessert",
-    "explanation": "The small gift creates a feeling of indebtedness, making you more likely to comply with the subsequent request for a larger purchase, demonstrating the reciprocity principle in action.",
-    "difficulty": "easy"
+    "answer": "Excessive gifts can trigger suspicion that overrides the reciprocity response",
+    "explanation": "Reciprocity has a boundary condition: when a gift is disproportionately generous compared to the expected return, it can feel manipulative rather than genuine. The recipient questions the giver's motives rather than feeling obligated. This is the reciprocity saturation point — beyond it, more giving paradoxically reduces compliance because the gift signals a transaction, not generosity.",
+    "difficulty": "hard"
   },
   {
-    "question": "Reject-Then-Retreat Technique",
-    "content": "The reject-then-retreat technique (also called the door-in-the-face technique) involves making an initial large request that is likely to be rejected, followed by a smaller, more reasonable request. The contrast makes the second request seem more acceptable.",
-    "description": "A kid asks to borrow your car for the weekend. You say no. They then ask to borrow your bicycle for an hour instead. You're more likely to agree to the bicycle request because:",
+    "question": "Dual Mechanics of Reciprocity",
+    "content": "The reject-then-retreat (door-in-the-face) technique works through two mechanisms simultaneously: the contrast principle (second request seems smaller) and reciprocal concessions (their concession obligates yours). Both operate together, making the technique more powerful than either mechanism alone.",
+    "description": "A student asks a professor to raise a B to an A. The professor refuses. The student then asks to raise a B+ to an A-. The professor agrees, despite a policy that says no grade changes are allowed after two weeks. The professor's compliance is best explained by:",
     "options": [
-      "You feel guilty saying no twice",
-      "The bicycle request seems reasonable by comparison",
-      "You like the kid more after they lowered their request",
-      "You think they deserve a reward for being polite"
+      "Contrast effect only — the second request seemed reasonable compared to the first",
+      "Reciprocal concessions only — the professor felt obligated to concede something in return",
+      "Both contrast and reciprocal concession operating simultaneously",
+      "Liking — the professor admired the student's persistence and determination"
     ],
-    "answer": "The bicycle request seems reasonable by comparison",
-    "explanation": "After refusing the large request (car for weekend), the smaller request (bicycle for hour) appears more reasonable by contrast, making compliance more likely. This is the reject-then-retreat application of reciprocity.",
-    "difficulty": "easy"
+    "answer": "Both contrast and reciprocal concession operating simultaneously",
+    "explanation": "The reject-then-retreat technique activates two mechanisms at once. The second request (B+ to A-) seems smaller by contrast with the first (B to A). Simultaneously, the professor perceives the student's reduction as a concession, triggering reciprocal pressure to concede in return. Neither mechanism alone is as powerful as their combination. Liking is not the primary driver — the compliance occurs even if the professor finds the student annoying.",
+    "difficulty": "hard"
   },
   {
     "question": "Uninvited First Strike",

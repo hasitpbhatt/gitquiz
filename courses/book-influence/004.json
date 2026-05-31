@@ -1,31 +1,31 @@
 [
   {
-    "question": "Authority Principle",
-    "content": "We tend to obey authority figures, even when we might otherwise question their requests. This deep-seated tendency stems from socialization and the perception that authorities possess knowledge, wisdom, or power.",
-    "description": "A person in a white lab coat approaches you in a store and recommends a particular brand of vitamins. You're more likely to trust their advice because:",
+    "question": "When Authority Fails",
+    "content": "Authority influence is domain-specific: it only transfers to areas where the authority figure is perceived to have relevant expertise. When an authority steps outside their domain, their persuasive power drops significantly.",
+    "description": "A Nobel Prize-winning physicist appears in a commercial recommending a specific brand of toothpaste. Most consumers find this less persuasive than a dentist's recommendation because:",
     "options": [
-      "They actually work for the vitamin company",
-      "The lab coat serves as a symbol of authority",
-      "You checked their credentials beforehand",
-      "You overheard them discussing vitamins with colleagues"
+      "Physicists are generally less trustworthy than dentists",
+      "The physicist's authority in physics does not transfer to dental health",
+      "Nobel laureates only endorse luxury products, not everyday consumer goods",
+      "The commercial failed to display the physicist's credentials prominently"
     ],
-    "answer": "The lab coat serves as a symbol of authority",
-    "explanation": "Symbols of authority like titles, clothing (lab coats, uniforms), or trappings trigger automatic deference, even when the actual expertise is questionable.",
-    "difficulty": "easy"
+    "answer": "The physicist's authority in physics does not transfer to dental health",
+    "explanation": "Authority is domain-specific. A Nobel Prize in physics confers expertise in physics, not dentistry. Consumers intuitively recognize this mismatch, reducing the authority transfer. This is a boundary condition: authority only works within the domain of perceived expertise. A dentist, even without a Nobel Prize, has relevant domain authority for dental health.",
+    "difficulty": "hard"
   },
   {
-    "question": "Titles and Authority",
-    "content": "Titles such as 'Doctor', 'Professor', or 'Officer' automatically trigger perceptions of authority and expertise, making people more compliant with requests from those holding such titles.",
-    "description": "You receive a call from someone claiming to be 'Doctor Smith' from your bank's fraud department asking for your account verification. You're more likely to comply because:",
+    "question": "Conflicting Authorities",
+    "content": "When authorities give conflicting advice, the appropriate response is to evaluate their relative domain expertise. The more specific and relevant the expertise, the more weight it should carry, regardless of general prestige or title.",
+    "description": "Two doctors give conflicting advice about your chronic back pain. Dr. A is a Chief of Staff at a major hospital with decades of experience. Dr. B is a junior specialist in sports medicine who has published five papers on back pain specifically. The more reliable authority to follow is:",
     "options": [
-      "You verified their employee number",
-      "The title 'Doctor' triggers authority perception",
-      "You remember giving them permission to call",
-      "The phone number matched the bank's official line"
+      "Dr. A — the Chief of Staff title carries more authority than any specialisation",
+      "Dr. B — domain-specific expertise trumps general prestige for this condition",
+      "Neither — always get a third opinion when authorities disagree",
+      "Both equally — all medical doctors have the same authority on any health topic"
     ],
-    "answer": "The title 'Doctor' triggers authority perception",
-    "explanation": "Titles like 'Doctor' create an automatic assumption of expertise and trustworthiness, increasing compliance even when the claim is fraudulent.",
-    "difficulty": "easy"
+    "answer": "Dr. B — domain-specific expertise trumps general prestige for this condition",
+    "explanation": "This question tests the distinction between general authority (prestige, title) and domain-specific authority (relevant expertise). Dr. A has more general prestige as Chief of Staff, but Dr. B's expertise directly matches the condition. In evaluating conflicting authorities, the more specific and relevant expertise should carry more weight. Option 4 is wrong because authority is not uniform across all domains — a cardiologist has no special authority in dermatology.",
+    "difficulty": "hard"
   },
   {
     "question": "Clothing and Authority",

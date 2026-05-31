@@ -14,18 +14,18 @@
     "difficulty": "easy"
   },
   {
-    "question": "Foot-in-the-Door Technique",
-    "content": "The foot-in-the-door technique involves getting a person to agree to a small request first, increasing the likelihood they will agree to a larger request later. The initial commitment creates consistency pressure.",
-    "description": "A volunteer asks if you'll display a small 'Be a Safe Driver' sign in your window. You agree. Two weeks later, they ask if you'll install a large, unattractive billboard in your yard. You're more likely to say yes because:",
+    "question": "The Limits of Consistency Transfer",
+    "content": "Consistency pressure is strongest when the second request is closely related to the first commitment. When requests span very different domains or scales, the self-image created by the first act may not carry over, weakening the foot-in-the-door effect.",
+    "description": "A canvasser asks you to sign a petition supporting clean water. You agree. The next day, they ask you to sponsor a child overseas at $50/month. You refuse. Your refusal is best explained by:",
     "options": [
-      "You now care deeply about traffic safety",
-      "The small commitment created consistency pressure for the larger request",
-      "You feel guilty refusing after already agreeing once",
-      "You think the volunteer is being persistent"
+      "You never truly believed in clean water access despite signing",
+      "The gap between signing a petition and monthly sponsorship is too large for consistency to bridge",
+      "You suspect the charity is fraudulent despite having signed their petition",
+      "Reciprocity would have been more persuasive than consistency in this situation"
     ],
-    "answer": "The small commitment created consistency pressure for the larger request",
-    "explanation": "Agreeing to the small sign request commits you to seeing yourself as someone who supports safe driving, making refusal of the larger billboard request inconsistent with that self-image.",
-    "difficulty": "easy"
+    "answer": "The gap between signing a petition and monthly sponsorship is too large for consistency to bridge",
+    "explanation": "Consistency transfer depends on the similarity between the initial and subsequent requests. Signing a petition (one-time, effort-free) creates the self-image of 'someone who supports clean water.' But monthly sponsorship (ongoing, costly) requires a different level of commitment. The identity created by the small act does not extend far enough to compel the larger one. This is a boundary condition: foot-in-the-door works best with graduated, same-domain requests.",
+    "difficulty": "hard"
   },
   {
     "question": "Public Commitments",
@@ -56,18 +56,18 @@
     "difficulty": "easy"
   },
   {
-    "question": "Lowball Technique",
-    "content": "The lowball technique involves getting commitment by offering favorable terms, then changing the terms to be less favorable after commitment is secured. People often stick with the decision due to commitment consistency.",
-    "description": "A car salesman offers a great price on a vehicle. After you agree to buy, they announce the price was a mistake and it's actually higher. You're likely to still buy because:",
+    "question": "Escalating Commitment vs. Sunk Cost",
+    "content": "Escalating commitment and the sunk cost fallacy are closely related but distinct. Escalating commitment is driven by consistency with past decisions and promises. The sunk cost fallacy is driven by reluctance to waste past investment. Both cause continued investment in failing courses but through different mechanisms.",
+    "description": "A startup founder has invested 3 years and $500,000 in a product with no market fit. When a mentor advises shutting down, the founder responds: \"I cannot stop now — I said I would see this through.\" This is best explained by:",
     "options": [
-      "You don't want to admit you made a bad decision",
-      "You've already committed and want to be consistent",
-      "You think the salesman is being honest now",
-      "You believe no better deal exists elsewhere"
+      "Sunk cost fallacy — the founder does not want to waste the $500,000 already spent",
+      "Escalating commitment driven by consistency with the promise to see it through",
+      "Overconfidence bias — the founder genuinely believes success is imminent",
+      "Social proof — other startups in the same space also continued despite losses"
     ],
-    "answer": "You've already committed and want to be consistent",
-    "explanation": "Once you've committed to buying the car, backing out would require admitting inconsistency with your decision. Most people choose to stick with the commitment even when terms change unfavorably.",
-    "difficulty": "easy"
+    "answer": "Escalating commitment driven by consistency with the promise to see it through",
+    "explanation": "The key phrase is 'I said I would see this through' — the driver is identity-consistency with a public commitment. The sunk cost fallacy would focus on 'we have already invested too much to stop.' While both often co-occur, the justification here is about keeping a promise, not avoiding waste. This distinction matters: defending against consistency-driven escalation requires questioning the original commitment, while defending against sunk cost requires evaluating future costs independently of past spending.",
+    "difficulty": "hard"
   },
   {
     "question": "Consistency vs. Cognitive Dissonance",

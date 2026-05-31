@@ -67,7 +67,7 @@
     ],
     "answer": "Seek actual medical advice about the vitamins",
     "explanation": "While the actor may portray authority, their expertise is in acting, not medicine. Ethical deference to authority requires verifying that the authority is legitimate in the relevant domain.",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "question": "Scarcity and Actual Value",
@@ -81,7 +81,7 @@
     ],
     "answer": "Whether the limited features actually benefit you",
     "explanation": "Scarcity tactics should not override basic evaluation of whether a product meets your actual needs and preferences at a reasonable cost.",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "question": "Commitment and Flexibility",
@@ -95,7 +95,7 @@
     ],
     "answer": "Communicate the new information and adjust the commitment",
     "explanation": "Ethical consistency involves honoring the spirit of commitments while being willing to adjust specifics when circumstances change significantly, maintaining integrity through transparency rather than rigidity.",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "question": "Social Proof and Personal Judgment",
@@ -109,7 +109,7 @@
     ],
     "answer": "Consider why each is busy or empty alongside the social proof",
     "explanation": "Social proof provides useful information about popularity but should be evaluated alongside other factors like menu preferences, dietary restrictions, or actual food quality assessments.",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
     "question": "Healthy vs. Toxic Reciprocity",
@@ -137,6 +137,6 @@
     ],
     "answer": "Recognize when principles are being used on you and pause before responding",
     "explanation": "The protective power of influence knowledge lies in creating awareness that allows conscious choice rather than automatic compliance, enabling alignment with one's true interests and values.",
-    "difficulty": "hard"
+    "difficulty": "medium"
   }
 ]
