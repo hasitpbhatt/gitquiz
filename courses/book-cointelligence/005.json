@@ -2,16 +2,16 @@
   {
     "question": "AI as the Ultimate Muse",
     "content": "In Chapter 5, AI is presented as 'The Muse'—a tool that excels at overcoming the 'blank page' problem. While humans often struggle to generate the first dozen ideas, AI can generate hundreds of varied, novel concepts instantly. This shifts the human's role from 'creator of ideas' to 'curator of possibilities.'",
-    "description": "A charity team is stuck on a slogan for a holiday food drive. According to the 'AI as Muse' concept, how should they proceed?",
+    "description": "A design team uses AI to generate 100 logo concepts for a client who demands something 'truly original.' They crafted highly specific, unusual prompts with deliberately contradictory constraints. The client still says every option 'feels derivative.' According to Co-Intelligence principles about AI creativity, what is the most likely root cause?",
     "options": [
-      "Ask the AI to pick the final slogan and launch the campaign immediately.",
-      "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
-      "Avoid AI because it isn't truly 'creative' in the biological sense.",
-      "Wait for a human creative director to have a breakthrough moment without tools."
+      "The team's prompts were not long enough to activate the AI's full creative capacity.",
+      "Because AI creativity is fundamentally combinatorial, even creative prompts cannot make it produce paradigm-shifting novelty outside its training distribution.",
+      "The client's personal taste is simply too refined for any AI-generated design work.",
+      "The AI's 'latent space' was corrupted by the contradictory constraints in the prompt."
     ],
-    "answer": "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
-    "explanation": "The 'Muse' role uses AI's speed to provide a wide range of 'seeds,' which humans then cultivate. This overcomes creative blocks and expands the search space for good ideas.",
-    "difficulty": "easy"
+    "answer": "Because AI creativity is fundamentally combinatorial, even creative prompts cannot make it produce paradigm-shifting novelty outside its training distribution.",
+    "explanation": "AI's Muse role excels at generating volume and surprising combinations within known patterns, but its creativity is bounded by the conceptual space of its training data. Truly paradigm-shifting originality requires breaking entirely new ground, which AI cannot do because it can only interpolate between what it has already seen. The 'Curator's Burden' here is recognizing that even the best prompting has fundamental limits.",
+    "difficulty": "hard"
   },
   {
     "question": "Combinatorial Creativity",

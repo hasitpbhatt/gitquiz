@@ -11,7 +11,7 @@
     ],
     "answer": "Because the AI's 'social interface' is designed to trigger specific linguistic patterns based on human-like interaction.",
     "explanation": "Since LLMs are trained on human dialogue, engaging them socially helps the model 'locate' the most relevant and helpful patterns in its training data.",
-    "difficulty": "easy"
+    "difficulty": "hard"
   },
   {
     "question": "The Power of Persona",
