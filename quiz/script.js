@@ -162,7 +162,9 @@ async function showPreviewScreen(url, previewIndex = 0) {
         .replace(/\b\w/g, c => c.toUpperCase());
 
     document.getElementById('preview-badge').innerText = courseName || 'Module';
-    document.getElementById('preview-title').innerText = courseName ? `${courseName} \u2022 ${filename}` : filename;
+    document.getElementById('preview-badge').title = courseName || 'Module';
+    document.getElementById('preview-title').innerText = courseName ? `${courseName} • ${filename}` : filename;
+    document.getElementById('preview-title').title = courseName ? `${courseName} • ${filename}` : filename;
     document.getElementById('preview-meta').innerText = 'Loading...';
     document.getElementById('preview-topic-title').classList.add('hidden');
     document.getElementById('preview-topic-title').innerText = '';
@@ -267,6 +269,9 @@ async function initializeQuiz(url, prefetchedData) {
             .replace(/-/g, ' ')
             .replace(/\b\w/g, c => c.toUpperCase());
         document.getElementById('module-label').innerText = courseName
+            ? `${courseName} • ${filename}`
+            : filename;
+        document.getElementById('module-label').title = courseName
             ? `${courseName} • ${filename}`
             : filename;
         renderQuestion();

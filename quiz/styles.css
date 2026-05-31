@@ -157,3 +157,17 @@ body { background-color: var(--bg-main); color: var(--text-main); }
     transform: translateX(4px);
     border-color: var(--accent);
 }
+
+@media (max-width: 640px) {
+    #preview-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #module-label {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 140px;
+    }
+}

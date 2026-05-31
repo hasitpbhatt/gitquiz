@@ -312,3 +312,26 @@ test('catalog type filter button active state toggles', async ({ page }) => {
   await expect(page.locator('.type-filter-btn[data-type="all"]')).toHaveClass(/active/);
   await expect(page.locator('.type-filter-btn[data-type="book"]')).not.toHaveClass(/active/);
 });
+
+test('preview-badge has title attribute with course name', async ({ page }) => {
+  await page.goto('/?course=test-course&q=1');
+
+  const badge = page.locator('#preview-badge');
+  await expect(badge).toHaveAttribute('title', 'Test Course');
+});
+
+test('preview-title has title attribute with course name and filename', async ({ page }) => {
+  await page.goto('/?course=test-course&q=1');
+
+  const title = page.locator('#preview-title');
+  await expect(title).toHaveAttribute('title', 'Test Course • 001');
+});
+
+test('module-label has title attribute after quiz starts', async ({ page }) => {
+  await page.goto('/?course=test-course&q=1');
+
+  await page.click('text=Start Quiz');
+
+  const label = page.locator('#module-label');
+  await expect(label).toHaveAttribute('title', 'Test Course • 001');
+});
