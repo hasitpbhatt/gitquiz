@@ -6,7 +6,6 @@ const CATALOG_URL = "https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/
 let quizData = [];
 let currentIdx = 0;
 let currentUrl = "";
-let activeMode = "code";
 let userName = localStorage.getItem('quizUserName') || "Explorer";
 let score = 0;
 let streak = 0;
@@ -14,6 +13,7 @@ let secondsElapsed = 0;
 let timerInterval = null;
 let questionStartTime = 0;
 let fullCatalog = [];
+let activeTypeFilter = 'all';
 let MISTRAL_PROXY_URL = 'https://quiz-ai-proxy.hasit-p-bhatt.workers.dev/';
 let lastSelectedAnswer = '';
 let lastAnswerCorrect = false;
@@ -38,6 +38,8 @@ function escapeHtml(str) {
 
 function fillExample() {
     document.getElementById('quiz-url').value = document.getElementById('example-link').innerText;
+    const section = document.getElementById('url-section');
+    if (section.classList.contains('hidden')) toggleUrlInput();
 }
 
 async function loadCatalog() {
@@ -73,24 +75,29 @@ function renderCatalogOptions(items) {
     if (items.length > 0) dropdown.selectedIndex = 0;
 }
 
+function setTypeFilter(type) {
+    activeTypeFilter = type;
+    document.querySelectorAll('.type-filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.type === type);
+    });
+    filterCatalog();
+}
+
 function filterCatalog() {
     const query = document.getElementById('catalog-search').value.toLowerCase();
-    const filtered = fullCatalog.filter(name => 
-        name.toLowerCase().replace(/-/g, ' ').includes(query)
-    );
+    const filtered = fullCatalog.filter(name => {
+        const matchesType = activeTypeFilter === 'all' || name.startsWith(activeTypeFilter + '-');
+        const matchesSearch = name.toLowerCase().replace(/-/g, ' ').includes(query);
+        return matchesType && matchesSearch;
+    });
     renderCatalogOptions(filtered);
 }
 
-function switchMode(mode) {
-    activeMode = mode;
-    const tabCode = document.getElementById('tab-code');
-    const tabUrl = document.getElementById('tab-url');
-    
-    tabCode.className = mode === 'code' ? 'flex-1 py-2 px-4 rounded-lg font-600 transition-all bg-white dark:bg-slate-700 shadow-sm text-blue-600' : 'flex-1 py-2 px-4 rounded-lg font-600 transition-all text-slate-500';
-    tabUrl.className = mode === 'url' ? 'flex-1 py-2 px-4 rounded-lg font-600 transition-all bg-white dark:bg-slate-700 shadow-sm text-blue-600' : 'flex-1 py-2 px-4 rounded-lg font-600 transition-all text-slate-500';
-    
-    document.getElementById('mode-code').classList.toggle('hidden', mode !== 'code');
-    document.getElementById('mode-url').classList.toggle('hidden', mode !== 'url');
+function toggleUrlInput() {
+    const section = document.getElementById('url-section');
+    const btn = document.getElementById('url-toggle-btn');
+    section.classList.toggle('hidden');
+    btn.innerText = section.classList.contains('hidden') ? '\uD83D\uDD17 Custom URL' : '\u2715 Custom URL';
 }
 
 function startTimer() {
@@ -106,15 +113,16 @@ function startTimer() {
 
 async function handleStart() {
     let finalUrl = "";
-    if (activeMode === 'code') {
+    const urlVal = document.getElementById('quiz-url').value.trim();
+    if (urlVal) {
+        finalUrl = urlVal;
+    } else {
         const val = document.getElementById('course-dropdown').value;
         if (!val) {
             showNotify("Selection Required", "Please choose a module from the list.");
             return;
         }
         finalUrl = `${BASE_URL}${val}/001.json`;
-    } else {
-        finalUrl = document.getElementById('quiz-url').value.trim();
     }
     if (finalUrl) await showPreviewScreen(finalUrl);
 }

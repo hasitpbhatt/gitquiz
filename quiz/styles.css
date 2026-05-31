@@ -21,6 +21,22 @@ body { font-family: 'Inter', sans-serif; }
 body { background-color: var(--bg-main); color: var(--text-main); }
 .glass-card { background-color: var(--card-bg); border: 1px solid rgba(148, 163, 184, 0.1); }
 
+.type-filter-btn {
+    flex: 1;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1.5px solid transparent;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: transparent;
+    color: var(--text-main);
+    opacity: 0.6;
+}
+.type-filter-btn:hover { opacity: 0.85; border-color: var(--accent); }
+.type-filter-btn.active { opacity: 1; background: var(--accent); color: #fff; border-color: var(--accent); }
+
 .option-btn {
     position: relative;
     padding-right: 3.5rem;

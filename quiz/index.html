@@ -68,26 +68,34 @@
 
              <div class="space-y-6">
 
-                <div class="flex gap-2 p-1 bg-slate-100 dark:bg-slate-800 rounded-xl">
-                    <button id="tab-code" onclick="switchMode('code')" class="flex-1 py-2 px-4 rounded-lg font-600 transition-all bg-white dark:bg-slate-700 shadow-sm text-blue-600">Catalog</button>
-                    <button id="tab-url" onclick="switchMode('url')" class="flex-1 py-2 px-4 rounded-lg font-600 transition-all text-slate-500">Custom URL</button>
-                </div>
-
                 <div id="mode-code" class="space-y-2">
-                    <input type="text" id="catalog-search" oninput="filterCatalog()" placeholder="🔍 Search modules..." 
-                        class="w-full p-3 rounded-t-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500 border-b-0">
+                    <div class="border-2 border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden">
+                        <input type="text" id="catalog-search" oninput="filterCatalog()" placeholder="🔍 Search modules..." 
+                            class="w-full p-3 border-0 outline-none bg-transparent focus:ring-0">
+                        <div class="type-filter-container flex gap-2 px-3 pb-3">
+                            <button class="type-filter-btn active" data-type="all" onclick="setTypeFilter('all')">All</button>
+                            <button class="type-filter-btn" data-type="book" onclick="setTypeFilter('book')">📘 Books</button>
+                            <button class="type-filter-btn" data-type="podcast" onclick="setTypeFilter('podcast')">🎙 Podcasts</button>
+                            <button class="type-filter-btn" data-type="coursera" onclick="setTypeFilter('coursera')">📚 Courses</button>
+                        </div>
+                    </div>
                     <select id="course-dropdown" size="6" 
-                        class="w-full p-2 rounded-b-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500 appearance-none">
+                        class="w-full p-2 rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500 appearance-none">
                         <option value="" disabled selected>Connecting to vault...</option>
                     </select>
                 </div>
 
-                <div id="mode-url" class="hidden space-y-4">
+                <div class="text-center">
+                    <button onclick="toggleUrlInput()" id="url-toggle-btn" class="text-xs text-slate-400 hover:text-blue-500 transition-colors cursor-pointer">
+                        🔗 Custom URL
+                    </button>
+                </div>
+                <div id="url-section" class="hidden space-y-2 -mt-4">
                     <input type="text" id="quiz-url" placeholder="https://.../module.json" 
-                        class="w-full p-4 rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500">
-                    <div class="p-4 bg-slate-100 dark:bg-slate-800/50 rounded-xl border border-dashed border-slate-300 dark:border-slate-600">
-                        <span class="text-xs font-700 text-slate-400 uppercase">Pro Tip:</span>
-                        <code id="example-link" onclick="fillExample()" class="block mt-2 text-xs text-blue-500 cursor-pointer break-all hover:underline">https://raw.githubusercontent.com/hasitpbhatt/gitquiz/refs/heads/main/courses/book-atomic-habits/001.json</code>
+                        class="w-full p-3 rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500">
+                    <div class="p-2 bg-slate-100 dark:bg-slate-800/50 rounded-lg border border-dashed border-slate-300 dark:border-slate-600">
+                        <span class="text-[10px] font-700 text-slate-400 uppercase">Tip:</span>
+                        <code id="example-link" onclick="fillExample()" class="text-[11px] text-blue-500 cursor-pointer hover:underline">https://raw.githubusercontent.com/hasitpbhatt/gitquiz/refs/heads/main/courses/book-atomic-habits/001.json</code>
                     </div>
                 </div>
 
