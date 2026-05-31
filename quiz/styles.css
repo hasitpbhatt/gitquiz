@@ -128,3 +128,8 @@ body { background-color: var(--bg-main); color: var(--text-main); }
 .score-pop {
     animation: score-pop 0.35s ease-out;
 }
+
+/* Preview Screen */
+#preview-container { transition: all 0.3s ease; }
+.preview-option { transition: all 0.2s ease; }
+.preview-option:hover { border-color: var(--accent); transform: translateX(4px); cursor: default; }

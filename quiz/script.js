@@ -17,6 +17,8 @@ let fullCatalog = [];
 let MISTRAL_PROXY_URL = 'https://quiz-ai-proxy.hasit-p-bhatt.workers.dev/';
 let lastSelectedAnswer = '';
 let lastAnswerCorrect = false;
+let previewUrl = '';
+let previewData = null;
 
 ;(async () => {
   await loadCatalog();
@@ -102,7 +104,7 @@ function startTimer() {
     }, 1000);
 }
 
-function handleStart() {
+async function handleStart() {
     let finalUrl = "";
     if (activeMode === 'code') {
         const val = document.getElementById('course-dropdown').value;
@@ -114,10 +116,85 @@ function handleStart() {
     } else {
         finalUrl = document.getElementById('quiz-url').value.trim();
     }
-    if (finalUrl) initializeQuiz(finalUrl);
+    if (finalUrl) await showPreviewScreen(finalUrl);
 }
 
-async function initializeQuiz(url) {
+async function showPreviewScreen(url) {
+    if (url.includes("github.com") && !url.includes("raw.githubusercontent.com")) {
+        url = url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/").replace("/tree/", "/");
+    }
+    if (!url.toLowerCase().endsWith('.json')) {
+        url = url.endsWith('/') ? url + '001.json' : url + '/001.json';
+    }
+    previewUrl = url;
+    previewData = null;
+
+    document.getElementById('setup-container').classList.add('hidden');
+    document.getElementById('preview-container').classList.remove('hidden');
+
+    const parts = url.split('/');
+    const filename = parts.pop().replace('.json', '');
+    const parentFolder = parts.pop() || '';
+    let courseName = parentFolder
+        .replace(/^(book|podcast|coursera|course)-/i, '')
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, c => c.toUpperCase());
+
+    document.getElementById('preview-badge').innerText = courseName || 'Module';
+    document.getElementById('preview-title').innerText = courseName ? `${courseName} \u2022 ${filename}` : filename;
+    document.getElementById('preview-meta').innerText = 'Loading...';
+    document.getElementById('preview-question').innerText = '';
+    document.getElementById('preview-options').innerHTML = '';
+
+    try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`Status ${res.status}`);
+        const raw = await res.json();
+        const data = Array.isArray(raw) ? raw : [raw];
+        if (data.length === 0) throw new Error('Empty module data.');
+        previewData = data;
+
+        document.getElementById('preview-meta').innerText = `${data.length} question${data.length > 1 ? 's' : ''}`;
+
+        const firstQ = data[0];
+        document.getElementById('preview-question').innerText = firstQ.question || 'No question available';
+
+        const bin = document.getElementById('preview-options');
+        bin.innerHTML = '';
+        if (firstQ.options) {
+            const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
+            firstQ.options.forEach((opt, idx) => {
+                const div = document.createElement('div');
+                div.className = 'preview-option w-full p-3 text-left border border-slate-200 dark:border-slate-700 rounded-xl font-500 bg-white dark:bg-slate-800';
+                div.innerHTML = `<span class="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0 mr-3">${letters[idx] || (idx + 1)}</span><span class="text-sm text-slate-600 dark:text-slate-400">${escapeHtml(opt)}</span>`;
+                bin.appendChild(div);
+            });
+        }
+    } catch (err) {
+        previewData = null;
+        document.getElementById('preview-meta').innerText = 'Failed to load';
+        document.getElementById('preview-question').innerText = err.message;
+        document.getElementById('preview-container').classList.add('hidden');
+        document.getElementById('setup-container').classList.remove('hidden');
+        showNotify('Load Failed', 'Could not fetch module data for preview.');
+    }
+}
+
+function startFromPreview() {
+    if (previewUrl && previewData) {
+        document.getElementById('preview-container').classList.add('hidden');
+        initializeQuiz(previewUrl, previewData);
+    }
+}
+
+function cancelPreview() {
+    previewUrl = '';
+    previewData = null;
+    document.getElementById('preview-container').classList.add('hidden');
+    document.getElementById('setup-container').classList.remove('hidden');
+}
+
+async function initializeQuiz(url, prefetchedData) {
     if (url.includes("github.com") && !url.includes("raw.githubusercontent.com")) {
         url = url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/").replace("/tree/", "/");
     }
@@ -127,15 +204,21 @@ async function initializeQuiz(url) {
     currentUrl = url;
 
     document.getElementById('setup-container').classList.add('hidden');
+    document.getElementById('preview-container').classList.add('hidden');
     document.getElementById('quiz-container').classList.remove('hidden');
     document.getElementById('quiz-flow').classList.remove('hidden');
     document.getElementById('completion-screen').classList.add('hidden');
     document.getElementById('error-overlay').classList.add('hidden');
 
     try {
-        const res = await fetch(currentUrl);
-        if (!res.ok) throw new Error(`Status ${res.status}: Failed to load file.`);
-        const raw = await res.json();
+        let raw;
+        if (prefetchedData) {
+            raw = prefetchedData;
+        } else {
+            const res = await fetch(currentUrl);
+            if (!res.ok) throw new Error(`Status ${res.status}: Failed to load file.`);
+            raw = await res.json();
+        }
         quizData = Array.isArray(raw) ? raw : [raw];
         if (quizData.length === 0) throw new Error('Empty module data.');
         quizData.forEach((q, i) => {
