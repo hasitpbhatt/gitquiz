@@ -78,7 +78,8 @@ function renderCatalogOptions(items) {
         const opt = document.createElement('option');
         opt.value = name;
         opt.className = "p-3 border-b border-slate-100 dark:border-slate-800 cursor-pointer hover:bg-blue-50 dark:hover:bg-slate-800";
-        let displayName = name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        const cleanName = name.replace(/^(book|podcast|coursera|course)-/i, '');
+        let displayName = cleanName.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
         if (activeTypeFilter === 'all') {
             let prefix = '📖';
             if (name.startsWith('book-')) prefix = '📘';
