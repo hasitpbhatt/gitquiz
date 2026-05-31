@@ -1,0 +1,128 @@
+[
+  {
+    "question": "According to Naval, what is the primary economic consequence of AI coding tools?",
+    "content": "AI coding tools lower the marginal cost of software production toward zero, fundamentally changing the economics of building software products.",
+    "description": "The core economic shift that AI introduces to software development",
+    "options": [
+      "Software becomes more expensive to maintain",
+      "The marginal cost of software production approaches zero",
+      "Developers become unnecessary",
+      "Code quality automatically improves"
+    ],
+    "answer": "The marginal cost of software production approaches zero",
+    "explanation": "Naval argues that AI turns software development into a factory where the marginal cost of producing a new line of code, a new feature, or even a new product drops toward zero, similar to what happened with manufacturing.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which real-world example does Marc Andreessen cite to illustrate AI replacing traditional software functionality?",
+    "content": "Marc Andreessen points to specific products that can now be built or replicated using AI rather than traditional hand-coded software.",
+    "description": "Real-world validation of AI's ability to replace conventionally built software",
+    "options": [
+      "Microsoft Office being rewritten with AI",
+      "Adobe Photoshop features being replicated by asking an AI model",
+      "Google Search being replaced by chatbots",
+      "Uber's routing algorithm being open sourced"
+    ],
+    "answer": "Adobe Photoshop features being replicated by asking an AI model",
+    "explanation": "Marc Andreessen gives the example that someone recently replicated a key Photoshop feature simply by prompting an AI model, demonstrating how AI can replace what previously required years of engineering effort.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does Naval mean by 'software is getting eaten'?",
+    "content": "Naval inverts Marc Andreessen's famous 'software is eating the world' thesis to describe what AI is doing to software itself.",
+    "description": "Understanding the inversion of a classic Silicon Valley thesis",
+    "options": [
+      "Software companies are being acquired by AI firms",
+      "AI is consuming and replacing traditionally written software",
+      "Software developers are losing their jobs to automation",
+      "The software industry is shrinking"
+    ],
+    "answer": "AI is consuming and replacing traditionally written software",
+    "explanation": "Naval says 'software is getting eaten' meaning AI is now consuming software itself — the very tool that was eating the world is now being consumed by a more powerful abstraction.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does Naval describe the current state of software development in terms of production?",
+    "content": "Naval uses a manufacturing metaphor to describe what AI does to the software development process.",
+    "description": "Manufacturing metaphor for AI-driven development",
+    "options": [
+      "A craft industry",
+      "A design studio",
+      "A software factory",
+      "A research laboratory"
+    ],
+    "answer": "A software factory",
+    "explanation": "Naval describes the new paradigm as a software factory where AI agents function as assembly-line workers rapidly producing code, turning what was a bespoke craft into automated manufacturing.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Marc Andreessen suggests that with AI, the velocity of software creation allows for what kind of testing strategy?",
+    "content": "When code can be generated faster than ever, the approach to quality assurance shifts toward a different paradigm.",
+    "description": "Testing strategy in the age of rapid AI code generation",
+    "options": [
+      "More thorough manual code reviews",
+      "Throw-it-away-and-start-over prototyping",
+      "Formal verification of every function",
+      "Slower but more deliberate development cycles"
+    ],
+    "answer": "Throw-it-away-and-start-over prototyping",
+    "explanation": "Andreessen notes that because AI can generate code so quickly, teams can adopt a 'throw it away and start over' approach to prototyping, iterating through designs faster than ever before.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to the podcast, what happens to the role of the software architect when AI handles implementation details?",
+    "content": "As AI takes over more coding tasks, the human role shifts toward higher-level responsibilities.",
+    "description": "The evolving role of software architects in AI-driven development",
+    "options": [
+      "Architects become obsolete",
+      "Architects focus more on system design and intent specification",
+      "Architects must learn to code in multiple languages",
+      "Architects are replaced by product managers"
+    ],
+    "answer": "Architects focus more on system design and intent specification",
+    "explanation": "When AI can generate the implementation code, architects and senior developers spend more time on system design, specifying what they want the system to do rather than writing every line of code themselves.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does Naval say is the biggest bottleneck in AI-driven software development?",
+    "content": "Even with powerful AI tools, certain constraints continue to limit development speed.",
+    "description": "The primary constraint in AI-accelerated development",
+    "options": [
+      "Token context windows",
+      "GPU availability",
+      "Human specification and verification",
+      "Internet bandwidth"
+    ],
+    "answer": "Human specification and verification",
+    "explanation": "Naval argues that the bottleneck shifts from writing code to humans specifying what they want and verifying the AI's output is correct, making human judgment the rate-limiting factor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Marc Andreessen compares the current AI coding tools to what historical productivity leap?",
+    "content": "Andreessen draws a parallel between AI-assisted coding and a previous transformation in how software was produced.",
+    "description": "Historical analogy for the AI coding productivity leap",
+    "options": [
+      "The transition from punch cards to terminals",
+      "The shift from assembly language to high-level compilers",
+      "The move from on-premise servers to cloud computing",
+      "The adoption of agile development methodologies"
+    ],
+    "answer": "The shift from assembly language to high-level compilers",
+    "explanation": "Andreessen compares AI coding tools to the leap from writing assembly to using compilers — a massive abstraction jump that dramatically increased what a single developer could produce.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In the software factory model, what does Naval identify as the key advantage AI agents have over human developers?",
+    "content": "AI agents bring specific capabilities that differ from human developers in meaningful ways.",
+    "description": "Key advantage of AI agents in software factories",
+    "options": [
+      "They can work 24/7 without breaks",
+      "They can hold the entire codebase in context at once",
+      "They never introduce bugs",
+      "They are cheaper than any human developer"
+    ],
+    "answer": "They can hold the entire codebase in context at once",
+    "explanation": "Naval points out that unlike human developers who can only hold a small portion of a codebase in working memory, AI agents can theoretically process and understand the entire codebase simultaneously, enabling more holistic reasoning.",
+    "difficulty": "medium"
+  }
+]
