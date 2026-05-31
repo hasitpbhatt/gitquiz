@@ -3,7 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Portal Pro | Learning Management</title>
+    <title>LearnLeap</title>
+    <meta name="description" content="LearnLeap helps you review consumed content and quickly grasp new concepts through interactive quizzes. Master knowledge with active recall and spaced repetition.">
+    <link rel="canonical" href="https://hasit.in/quiz/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hasit.in/quiz/">
+    <meta property="og:title" content="LearnLeap | Review, Recall & Master Knowledge">
+    <meta property="og:description" content="Review what you've learned and grasp new concepts fast with interactive quizzes. Powered by active recall and spaced repetition.">
+    <meta property="og:site_name" content="LearnLeap">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="LearnLeap | Review, Recall & Master Knowledge">
+    <meta property="twitter:description" content="Review what you've learned and grasp new concepts fast with interactive quizzes. Powered by active recall and spaced repetition.">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalResource",
+        "name": "LearnLeap",
+        "description": "Interactive quiz platform for reviewing previously consumed content and rapid acquisition of new concepts through active recall and spaced repetition.",
+        "learningResourceType": "Interactive Quiz",
+        "educationalAlignment": {
+            "@type": "AlignmentObject",
+            "alignmentType": "educationalSubject",
+            "targetName": "Knowledge Mastery"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Hasit Bhatt"
+        },
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Lifelong learners"
+        }
+    }
+    </script>
     <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7046934020222763" crossorigin="anonymous"></script> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -25,9 +57,14 @@
         <!-- Setup Screen -->
         <div id="setup-container" class="glass-card rounded-3xl p-8 shadow-2xl animate-in fade-in slide-in-from-bottom-4 duration-500">
             <header class="mb-8">
-                <h1 class="text-3xl font-800 tracking-tight mb-2">Quiz Portal Pro</h1>
-                <p class="text-slate-500 dark:text-slate-400">Master your knowledge with interactive modules.</p>
+                <h1 class="text-3xl font-800 tracking-tight mb-2">LearnLeap</h1>
+                <p class="text-slate-500 dark:text-slate-400">Read. Retain. Rise.</p>
             </header>
+
+            <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded-r-xl p-3 mb-6">
+                <p class="text-xs text-slate-600 dark:text-slate-300 italic leading-relaxed">"Retrieval practice — recalling facts or concepts from memory — is a more effective learning strategy than review by rereading."</p>
+                <p class="text-[10px] text-blue-500 mt-1 font-700 uppercase tracking-wider">— Make It Stick · Harvard University Press</p>
+            </div>
 
              <div class="space-y-6">
 
@@ -90,7 +127,10 @@
 
                 <div id="quiz-flow" class="space-y-6">
                     <div class="flex justify-between items-center">
-                        <span id="module-label" class="text-[10px] font-800 uppercase tracking-widest text-slate-400">Loading...</span>
+                        <div class="flex items-center gap-3">
+                            <button onclick="window.location.href = window.location.pathname" class="text-xs font-700 text-slate-400 hover:text-blue-500 transition-colors">&larr; Menu</button>
+                            <span id="module-label" class="text-[10px] font-800 uppercase tracking-widest text-slate-400">Loading...</span>
+                        </div>
                         <button onclick="directSkipModule()" class="text-xs font-700 text-slate-500 hover:text-blue-500 transition-colors">Skip Module ⏭</button>
                     </div>
 
@@ -182,7 +222,7 @@
         </div>
 
              <div class="ach-footer">
-                 Verified by Pro Quiz Portal • hasit.in
+                 Verified by LearnLeap • hasit.in
              </div>
     </div>
 
