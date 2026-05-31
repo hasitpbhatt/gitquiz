@@ -57,17 +57,17 @@
   },
   {
     "question": "Sensible Optimism",
-    "content": "Optimism is the belief that things will get better over time, but survival requires being a 'short-term pessimist.' You must be paranoid enough to survive the short-term hurdles so you can enjoy the long-term growth.",
-    "description": "How can an investor be both an optimist and a pessimist at the same time?",
+    "content": "A sensible optimist understands that things will get better in the long run, even though they will be tough in the short run.",
+    "description": "You are the CFO of a mid-size manufacturing firm. Your CEO wants to build a new factory in a politically unstable region because 'the long-term growth story is incredible.' The board is split—some call it reckless, others call it visionary. Using Housel's framework of 'sensible optimism,' what decision process should you design for the board to distinguish between naive optimism (ignoring short-term risk) and sensible optimism (accepting short-term risk with a buffer)?",
     "options": [
-      "By hoping for the best but constantly complaining about the market.",
-      "By believing the economy will grow over decades while keeping enough cash to survive a 3-year recession.",
-      "By investing in stocks and gold simultaneously.",
-      "By only investing half of their money and hiding the other half."
+      "Run a 10-year NPV model; if the net present value is positive, approve the factory immediately regardless of short-term volatility.",
+      "Build the factory only if the company has enough cash reserves and operational redundancy to survive a 3-year disruption; if yes, proceed with eyes open about short-term pain while betting on long-term growth.",
+      "Reject the proposal because any political instability makes the investment too risky for a prudent company.",
+      "Compromise by building a smaller factory with half the capacity, which eliminates the need for any risk assessment."
     ],
-    "answer": "By believing the economy will grow over decades while keeping enough cash to survive a 3-year recession.",
-    "explanation": "This 'barbell' approach allows you to stay in the game during downturns (pessimism/survival) so you are still there when the market recovers (optimism).",
-    "difficulty": "easy"
+    "answer": "Build the factory only if the company has enough cash reserves and operational redundancy to survive a 3-year disruption; if yes, proceed with eyes open about short-term pain while betting on long-term growth.",
+    "explanation": "Housel distinguishes between naive optimism (believing nothing bad will happen) and sensible optimism (knowing bad things will happen but having the resilience to survive them). The key is not to avoid risk but to build margin for error. Sensible optimists look at worst-case scenarios, plan for them, and then proceed with long-term conviction—exactly as the decision process here describes.",
+    "difficulty": "hard"
   },
   {
     "question": "The Power of a Cash Cushion",

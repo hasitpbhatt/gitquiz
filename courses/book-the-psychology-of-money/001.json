@@ -44,16 +44,16 @@
   {
     "question": "Generational Gaps",
     "content": "Inflation, unemployment, and stock returns vary wildly decade by decade. If you were 20 years old in 1968, the stock market went nowhere for the next 10 years. If you were 20 in 1988, it skyrocketed.",
-    "description": "How does the 'luck of birth' affect an individual's long-term financial worldview?",
+    "description": "A 70-year-old retiree lives through a mild recession and stays calm. Her 35-year-old son, who grew up during the 2008 crisis, sells all his stocks in a panic during the same recession. Her 25-year-old daughter, who entered the workforce during a boom, doubles down on buying the dip. Using Housel's framework, how would you evaluate these three responses, and what distinguishes the retiree's behavior from both of her children's?",
     "options": [
-      "It doesn't; smart people always figure out the right way to invest.",
-      "It creates a subconscious bias that dictates how they view the safety of the market.",
-      "It ensures that older generations are always more conservative.",
-      "It makes younger generations more likely to save money."
+      "The retiree is wiser; the son is traumatized; the daughter is greedy — each is purely a personality trait.",
+      "All three are acting rationally given their unique generational anchor points, but the retiree's longer time horizon gives her a wider 'margin of safety' against short-term volatility.",
+      "The son is the most rational because he cut losses; the daughter is reckless; the retiree is complacent.",
+      "The retiree is indifferent because she has less time left; the others care more because they have longer careers ahead."
     ],
-    "answer": "It creates a subconscious bias that dictates how they view the safety of the market.",
-    "explanation": "We are all prisoners of our own history; someone who saw their parents lose everything in a bank run will never view banks the same way as someone who didn't.",
-    "difficulty": "easy"
+    "answer": "All three are acting rationally given their unique generational anchor points, but the retiree's longer time horizon gives her a wider 'margin of safety' against short-term volatility.",
+    "explanation": "Housel argues that each person's financial worldview is shaped by the market conditions of their formative years. The retiree (who saw recoveries) has no reason to panic. The son (scarred by 2008) is in survival mode. The daughter (boom-era) sees opportunity. None is 'crazy' — they just have different anchors. The retiree's advantage is that her remaining horizon shortens the effective cost of a downturn.",
+    "difficulty": "hard"
   },
   {
     "question": "The Role of Education",

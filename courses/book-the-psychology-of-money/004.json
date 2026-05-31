@@ -29,17 +29,17 @@
   },
   {
     "question": "The Ice Age Analogy",
-    "content": "Geologists discovered that Ice Ages aren't caused by exceptionally cold winters, but rather by cool summers where the snow from the previous winter never melts. This small amount of leftover snow compounds over centuries into massive glaciers.",
-    "description": "How does the 'cool summer' analogy apply to your personal savings?",
+    "content": "Housel says that the stock market in 2021 was like a cool summer in an ice age. The long-term trend (ice age) is growth. The short-term (cool summer) is a dip.",
+    "description": "It is 2023. Global markets are down 15% from their peak. Your 65-year-old father-in-law, who lived through the 2008 crash, tells you he is pulling all his money out of equities because 'this is the start of another lost decade.' Based on Housel's ice-age analogy, how would you construct a counter-argument that distinguishes between a 'cool summer' and the onset of a new ice age? What specific indicators should you reference to differentiate a temporary dip from a structural regime change?",
     "options": [
-      "You should only save money during the summer months",
-      "Small, consistent savings that never 'melt away' lead to massive wealth over time",
-      "You need a massive 'winter' of income to start building wealth",
-      "Savings are like ice; they eventually disappear due to inflation"
+      "Agree with him, because 2008 was also preceded by a drop and it took 5 years to recover, proving the pattern repeats.",
+      "Point out that a cool summer sits inside a multi-decade ice age (bull market); check whether corporate earnings, GDP, and innovation trends remain intact—if yes, the long-term trend still points up, and selling locks in losses during a temporary blip.",
+      "Recommend he move entirely to cash for the next 3 years while the market finds its bottom, then re-enter.",
+      "Tell him that the ice age has ended because interest rates are rising, so equities are permanently dangerous now."
     ],
-    "answer": "Small, consistent savings that never 'melt away' lead to massive wealth over time",
-    "explanation": "Success comes from not interrupting the compounding process. Keeping what you have allows the next layer of growth to build on top of the old one.",
-    "difficulty": "easy"
+    "answer": "Point out that a cool summer sits inside a multi-decade ice age (bull market); check whether corporate earnings, GDP, and innovation trends remain intact—if yes, the long-term trend still points up, and selling locks in losses during a temporary blip.",
+    "explanation": "The ice-age analogy illustrates time-scale awareness. A 'cool summer' is a temporary dip within a secular bull market (ice age). The key analytical skill is distinguishing transient volatility from structural decline—by looking at underlying fundamentals (earnings, GDP, innovation pipeline), not just price action. Housel warns that recency bias makes people mistake short-term noise for a permanent shift.",
+    "difficulty": "hard"
   },
   {
     "question": "The Price of Interruption",

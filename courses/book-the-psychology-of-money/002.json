@@ -86,16 +86,16 @@
   {
     "question": "The Seduction of 'Nothing is Impossible'",
     "content": "Many people see a billionaire who took a massive, uncalculated risk and won, and they assume that 'taking massive risks' is the secret. They ignore the thousands who took that same risk and were wiped out.",
-    "description": "What is the 'Survivor Bias' mentioned implicitly in the context of luck and risk?",
+    "description": "You run a popular business podcast. One episode features an entrepreneur who dropped out of college, gambled his tuition money on a single product, and is now a multimillionaire. Listeners flood your inbox asking for advice on whether they should quit school to follow the same path. How should you evaluate the hidden flaw in the story you told, and what would a 'survivorship-bias-corrected' response look like?",
     "options": [
-      "Only the strongest survive the stock market.",
-      "We only see the winners who got lucky, so we think their path was easy or repeatable.",
-      "Risk is only for people who don't have families to support.",
-      "Luck only happens to those who work 100 hours a week."
+      "Apologize for featuring him, as his story is a dangerous outlier that misrepresents the base rate of success.",
+      "Frame his story as one data point, then explicitly note the thousands who tried the same bet and failed—and emphasize that you cannot interview them because they are broke.",
+      "Double down by producing a follow-up episode with five more 'dropout millionaires' to prove the pattern is real.",
+      "Tell listeners the real lesson is that they should launch products while still in school so they have a safety net."
     ],
-    "answer": "We only see the winners who got lucky, so we think their path was easy or repeatable.",
-    "explanation": "For every 'bold' person who succeeded, there is often a 'bold' person who failed. We only hear the stories of the former.",
-    "difficulty": "easy"
+    "answer": "Frame his story as one data point, then explicitly note the thousands who tried the same bet and failed—and emphasize that you cannot interview them because they are broke.",
+    "explanation": "Housel's key point: survivor bias makes us overestimate the probability of extreme success. The silent graveyard of failures is invisible. A responsible storyteller must acknowledge the denominator problem—for every one visible winner, hundreds of identical strategies ended in ruin.",
+    "difficulty": "hard"
   },
   {
     "question": "Focusing on the Controllable",
