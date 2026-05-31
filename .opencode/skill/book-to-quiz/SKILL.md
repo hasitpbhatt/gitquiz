@@ -7,6 +7,16 @@ description: Converts books or summaries into scenario-based quiz courses for th
 
 This skill helps you convert a book or its summary into a scenario-based quiz course for the gitquiz system, following the established format and conventions.
 
+## Continuous Improvement
+
+This skill improves with every use. After completing a task using this skill, update it with any new learnings:
+- Add new scripts or patterns that emerged during the work
+- Document edge cases, bugs, or pitfalls you encountered
+- Refine thresholds, workflows, or heuristics that proved inaccurate
+- Add new scenario domains, techniques, or fixes uncovered
+
+Keep the skill as a living document — each run should leave it more capable than before.
+
 ## When to Use
 
 Use this skill when you:
@@ -234,158 +244,39 @@ Set-Content -Path "$env:TEMP\gen_chapter.js" -Value $script -Encoding UTF8
 node "$env:TEMP\gen_chapter.js"
 ```
 
-### Comprehensive Validation Script
+### Validation Script (see `validation.js` in this directory)
 
-Validates all requirements in one command. Edit the `dir` variable to point to your course directory:
+Edit `dir` inside `validation.js` to point to your course, then run:
 ```bash
-node -e "
-const fs=require('fs');
-const dir='courses/course-identifier';
-const files=fs.readdirSync(dir).filter(f=>f.endsWith('.json')).sort();
-let total=0,errs=[];
-const REQUIRED_FIELDS=['question','content','description','options','answer','explanation'];
-console.log('=== FILE NAMING ===');
-files.forEach(f=>console.log(f.match(/^\d{3}\.json$/)?'  OK: '+f:'  BAD: '+f));
-console.log('=== QUESTION COUNTS ===');
-files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));total+=d.length;console.log('  '+f+': '+d.length+' q');if(d.length<7||d.length>12)errs.push(f+' has '+d.length+' questions')});
-console.log('Total: '+total);
-console.log('=== FIELD CHECK ===');
-files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));d.forEach((q,i)=>{REQUIRED_FIELDS.forEach(fld=>{if(!(fld in q))errs.push(f+' Q'+(i+1)+': missing field \"'+fld+'\"')})})});
-console.log('=== ANSWER/OPTION CHECK ===');
-files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));d.forEach((q,i)=>{if(!q.options.includes(q.answer))errs.push(f+' Q'+(i+1)+': answer not in options. Answer: '+q.answer);if(q.options.length!==4)errs.push(f+' Q'+(i+1)+': has '+q.options.length+' options')})});
-console.log('=== POSITIONAL REF CHECK (case-sensitive, flags uppercase only) ===');
-files.forEach(f=>{const d=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));d.forEach((q,i)=>{q.options.forEach(o=>{if(o.match(/(Both [A-D]\b|All of the above\b|[A-D]\s*&\s*[A-D]\b)/))errs.push(f+' Q'+(i+1)+': positional ref: '+o)})})});
-console.log('=== COURSES LIST SORT ===');
-const lines=fs.readFileSync('courses/courses_list.txt','utf8').trim().split(/\r?\n/);
-const sorted=[...lines].sort();
-lines.forEach((l,i)=>{if(l!==sorted[i])errs.push('courses_list.txt not sorted at line '+(i+1)+': '+l)});
-console.log('Course list has '+lines.length+' entries');
-if(errs.length>0){errs.forEach(e=>console.log('ERROR: '+e));process.exit(1)}
-else console.log('=== ALL CHECKS PASSED ===');
-"
+node .opencode/skill/book-to-quiz/validation.js
 ```
+Checks: JSON parseability, 7-12 questions per file, all fields present, answer in options, no positional refs, courses list sorted.
 
-**Note on the positional ref regex**: This uses a case-sensitive match in the Node.js script (no `/i` flag) so only uppercase option letters like "Both A and B" or "A & C" are caught. Common English words like "Both are" or "Both do" (lowercase) will not trigger false positives. The PowerShell `Select-String` version on Windows is case-insensitive by default and may still generate false positives; add `-CaseSensitive` flag to suppress them.
+For multi-course validation, use `validate_all.js` instead (no dir edit needed).
 
-### Review-Only Chapter Detection Script
+### Review-Only Chapter Detection (see `review_detection.js` in this directory)
 
-Run this to find chapters that mostly repeat concepts from prior files. Edit the `dir` variable. Requires fuzzy concept mapping via the conceptGroups object — customize the groups for your course:
-
-```javascript
-// review_detection.js
-const fs = require('fs');
-const dir = 'courses/course-identifier';
-const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
-const all = {};
-files.forEach(f => { all[f] = JSON.parse(fs.readFileSync(dir + '/' + f, 'utf8')); });
-
-// Define canonical concept groups (customize for your course)
-const conceptGroups = {
-  'Example Concept': ['example concept', 'alt name', 'another name'],
-  // ... add your own groups
-};
-
-function findConcept(text) {
-  const t = text.toLowerCase();
-  for (const [concept, patterns] of Object.entries(conceptGroups))
-    for (const pat of patterns)
-      if (t.includes(pat)) return concept;
-  return null;
-}
-
-const conceptChapters = {};
-files.forEach(f => all[f].forEach(q => {
-  const c = findConcept(q.question + ' ' + q.content);
-  if (c) { if (!conceptChapters[c]) conceptChapters[c] = new Set(); conceptChapters[c].add(f); }
-}));
-
-files.forEach(f => {
-  const prior = files.slice(0, files.indexOf(f));
-  let repeat = 0, total = 0;
-  all[f].forEach(q => {
-    const c = findConcept(q.question + ' ' + q.content);
-    if (c && conceptChapters[c] && [...conceptChapters[c]].some(pf => prior.includes(pf))) repeat++;
-    total++;
-  });
-  const pct = (repeat / total * 100).toFixed(0);
-  const tag = pct >= 65 ? 'REVIEW-ONLY' : (pct >= 35 ? 'MIXED' : 'FRESH');
-  console.log(f + ': ' + repeat + '/' + total + ' repeated (' + pct + '%) [' + tag + ']');
-});
+Edit `dir` and `conceptGroups` inside `review_detection.js`, then run:
+```bash
+node .opencode/skill/book-to-quiz/review_detection.js
 ```
+**Thresholds**: ≥65% = review-only (delete), 35-64% = mixed (consider consolidating), <35% = fresh.
 
-**Thresholds**: ≥65% = review-only (delete or consolidate), 35-64% = mixed (consider consolidating), <35% = fresh.
+### Cross-Chapter Repetition Detection (see `cross_chapter_repetition.js` in this directory)
 
-### Cross-Chapter Repetition Detection Script
-
-Run this after creation to flag concepts that appear across too many chapters. Edit `conceptGroups` to match your course:
-
-```javascript
-// cross_chapter_repetition.js
-const fs = require('fs');
-const dir = 'courses/course-identifier';
-const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
-const all = {};
-files.forEach(f => { all[f] = JSON.parse(fs.readFileSync(dir + '/' + f, 'utf8')); });
-
-// Define canonical concept groups (customize for your course)
-const conceptGroups = { /* same as review detection */ };
-
-function findConcept(text) {
-  const t = text.toLowerCase();
-  for (const [concept, patterns] of Object.entries(conceptGroups))
-    for (const pat of patterns)
-      if (t.includes(pat)) return concept;
-  return null;
-}
-
-const conceptChapters = {};
-files.forEach(f => all[f].forEach(q => {
-  const c = findConcept(q.question + ' ' + q.content);
-  if (c) { if (!conceptChapters[c]) conceptChapters[c] = new Set(); conceptChapters[c].add(f); }
-}));
-
-let found = 0;
-Object.entries(conceptChapters)
-  .filter(([_, chs]) => chs.size >= 3)
-  .sort((a, b) => b[1].size - a[1].size)
-  .forEach(([concept, chapters]) => {
-    found++;
-    console.log('"' + concept + '" appears in ' + chapters.size + ' chapters: ' + [...chapters].sort().join(', '));
-  });
-
-if (found === 0) console.log('No concept appears in 3+ chapters. Good repetition control.');
-else console.log('Total: ' + found + ' over-repeated concepts — consider consolidating.');
+Edit `dir` and `conceptGroups` inside `cross_chapter_repetition.js`, then run:
+```bash
+node .opencode/skill/book-to-quiz/cross_chapter_repetition.js
 ```
+**Threshold**: any concept in 3+ chapters → consolidate.
 
-**Threshold**: any concept appearing in 3+ chapters should be consolidated — keep the best question and eliminate the duplicates.
+### Coverage Verification Script (see `coverage_check.js` in this directory)
 
-### Coverage Verification Script
-
-Use this to verify every concept from your inventory (Step 1) is covered. Add your concept keywords to the `inventory` array:
-
-```javascript
-// coverage_check.js
-const fs = require('fs');
-const dir = 'courses/course-identifier';
-const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
-const allText = files.flatMap(f => JSON.parse(fs.readFileSync(dir + '/' + f, 'utf8')))
-  .map(q => (q.question + ' ' + q.content + ' ' + q.description + ' ' + q.explanation).toLowerCase())
-  .join(' ');
-
-const inventory = [
-  ['Concept Name', 'keyword1', 'keyword2'],
-  // ... add from your concept inventory (Step 1)
-];
-
-let found = 0, missing = 0;
-inventory.forEach(([concept, ...kw]) => {
-  if (kw.some(k => allText.includes(k))) { found++; console.log('  ✓ ' + concept); }
-  else { missing++; console.log('  ✗ MISSING: ' + concept); }
-});
-console.log(found + '/' + (found + missing) + ' covered, ' + missing + ' gaps');
+Edit `dir` and the `inventory` array inside `coverage_check.js`, then run:
+```bash
+node .opencode/skill/book-to-quiz/coverage_check.js
 ```
-
-Save as `coverage_check.js` and run with `node coverage_check.js`. Add keyword variations as needed — the script is case-insensitive.
+Add keyword variations as needed — the script is case-insensitive.
 
 ### Difficulty Audit Script (see `difficulty_audit.js` in this directory)
 
@@ -407,6 +298,39 @@ When a chapter has 0 hard questions, edit the `replacements` map in `refactor_di
 5. Run `node refactor_difficulty.js`
 6. Re-run the difficulty tally to confirm 15-25% hard per chapter
 7. Run the comprehensive validation script to catch any answer/option mismatches
+
+### Multi-Course Comprehensive Validation (see `validate_all.js` in this directory)
+
+Run `node .opencode/skill/book-to-quiz/validate_all.js` from the gitquiz root to validate **every course** in `courses_list.txt` at once. It auto-discovers courses and runs all structural checks:
+- JSON parseability
+- 7-12 questions per chapter
+- All 6 required fields present
+- Answer matches exactly one option
+- No positional option references (Both A-D, All of the above, A & B)
+- File naming convention (001.json format)
+
+This is useful as a final sanity check after any batch of changes.
+
+### Bulk Fix Pattern Scripts (see `fix_influence.js` and `fix_remaining.js`)
+
+When auditing reveals issues across a course, use a `.js` script to batch-fix rather than editing files one by one. The two scripts in this directory demonstrate:
+
+**`fix_influence.js`** — Batch fixer for difficulty labels + question reframing:
+- Reads a chapter file, modifies specific questions by index, writes back
+- Demonstrates how to reframe a question (replace an entire object) when the original has a structural issue
+- Pattern: `f = JSON.parse(fs.readFileSync(...))` → modify `f[idx]` → `fs.writeFileSync(...)`
+
+**`fix_remaining.js`** — Cross-course batch fixer demonstrating:
+- Renaming duplicate question names across different chapter files
+- Moving a question from one chapter to another (splice from source, push to target)
+- Differentiating overlapping concepts by renaming + updating content
+- Handling multiple courses in a single script run
+
+Use these as templates when you need to apply systematic fixes across courses. The general flow:
+1. Create a `.js` script in `$env:TEMP\opencode\` or in the skill directory
+2. Hardcode the specific fixes (course paths, question indices, new content)
+3. Run with `node path/to/script.js`
+4. Verify with `validate_all.js`
 
 ## Technical Learnings
 
