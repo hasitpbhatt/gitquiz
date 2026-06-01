@@ -14,7 +14,7 @@ const MAPPING = [
   { path: 'quiz/lib/quiz.js', test: 'quiz.spec.mjs navigation.spec.mjs' },
   { path: 'quiz/lib/ai.js', test: 'ai.spec.mjs' },
   { path: 'quiz/lib/sharing.js', test: 'ui.spec.mjs unit.spec.mjs' },
-  { path: 'courses/', test: '' },
+  { path: 'courses/', test: 'schema.spec.mjs' },
   { path: 'quiz/tests/test-utils.mjs', test: '' },
   { path: 'quiz/tests/setup.spec.mjs', test: 'setup.spec.mjs' },
   { path: 'quiz/tests/catalog.spec.mjs', test: 'catalog.spec.mjs' },
@@ -87,5 +87,7 @@ if (tests.length === 0) {
   process.exit(0);
 }
 
-const cmd = `npx playwright test ${tests.join(' ')}`;
+const cmd = tests.some(t => t.includes('schema.spec.mjs'))
+  ? `npx playwright test schema.spec.mjs --config schema.config.mjs`
+  : `npx playwright test ${tests.join(' ')}`;
 console.log(cmd);

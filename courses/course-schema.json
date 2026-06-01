@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GitQuiz Course Chapter",
+  "description": "A chapter file is an array of question objects with exactly 7 fields each",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["question", "content", "description", "options", "answer", "explanation", "difficulty"],
+    "properties": {
+      "question":    { "type": "string", "description": "Short concept name" },
+      "content":     { "type": "string", "description": "Brief 1-2 sentence explanation" },
+      "description": { "type": "string", "description": "Real-world scenario ending with a question" },
+      "options":     { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": "string" }, "description": "Exactly 4 plausible answer strings" },
+      "answer":      { "type": "string", "description": "Must be identical to one of the options entries" },
+      "explanation": { "type": "string", "description": "Teaching explanation" },
+      "difficulty":  { "type": "string", "enum": ["easy", "medium", "hard"] }
+    },
+    "additionalProperties": false
+  }
+}

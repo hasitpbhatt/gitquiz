@@ -22,6 +22,7 @@ See `.opencode/skill/syllabus-to-quiz/SKILL.md` for quiz creation workflow, fiel
   - `npm run test:ai` — `quiz/lib/ai.js`
   - `npm run test:unit` — `quiz/lib/state.js`, `quiz/lib/catalog.js`, `quiz/lib/sharing.js` (isolated function tests)
   - `npm run test:visual` — visual-only changes
+  - `npm run test:schema` — `courses/**/*.json`, `courses/course-schema.json`
   - `npm run test:affected` — auto-detect based on `git diff`
 - **Catalog test conventions**: `CATALOG_CONTENT` = `\n`-joined course IDs. Use `toHaveAttribute('value', …)` for `<option>`. Type filter buttons use `data-type` (e.g., `.type-filter-btn[data-type="book"]`). `#course-dropdown` has `w-full`.
 
