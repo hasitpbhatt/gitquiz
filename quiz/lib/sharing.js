@@ -51,10 +51,23 @@ function downloadScreenshot() {
 
 function getShareUrl() {
     const base = window.location.origin + window.location.pathname;
-    if (!currentUrl) return base;
-    const parts = currentUrl.split('/');
-    const courseFolderName = parts[parts.length - 2];
-    return base + '?course=' + encodeURIComponent(courseFolderName);
+    const url = currentUrl || previewUrl;
+    if (!url) return base;
+    const parts = url.split('/');
+    const modFile = parts.pop();
+    const courseFolderName = parts.pop();
+    const chapterNum = modFile.replace('.json', '');
+
+    let questionIdx = 1;
+    const isQuizActive = !document.getElementById('quiz-container').classList.contains('hidden')
+        && !document.getElementById('quiz-flow').classList.contains('hidden');
+    if (isQuizActive && quizData.length > 0 && currentIdx < quizData.length) {
+        questionIdx = currentIdx + 1;
+    } else if (!document.getElementById('preview-container').classList.contains('hidden') && previewData) {
+        questionIdx = previewQuestionIdx + 1;
+    }
+
+    return base + '?course=' + encodeURIComponent(courseFolderName) + '&c=' + chapterNum + '&q=' + questionIdx;
 }
 
 function shareHandler() {
@@ -117,7 +130,7 @@ function downloadPromoImage(btn) {
         <div style="font-size:36px;font-weight:800;margin-bottom:8px;">LearnLeap</div>
         <div style="font-size:16px;opacity:0.6;max-width:400px;margin-bottom:40px;">Read. Retain. Rise.</div>
         <div style="font-size:13px;font-family:monospace;padding:14px 24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:12px;color:#60a5fa;max-width:100%;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(shareUrl)}</div>
-        <div style="margin-top:auto;font-size:14px;opacity:0.4;">LearnLeap • quiz.hasit.in</div>
+        <div style="margin-top:auto;font-size:14px;opacity:0.4;">LearnLeap ï¿½ quiz.hasit.in</div>
     `;
     document.body.appendChild(container);
     if (typeof html2canvas !== 'function') {
@@ -268,7 +281,7 @@ function shareCertificate() {
                 <span class="ach-stat-lab">Date Verified</span>
             </div>
         </div>
-        <div class="ach-footer">Verified by LearnLeap • quiz.hasit.in</div>
+        <div class="ach-footer">Verified by LearnLeap ï¿½ quiz.hasit.in</div>
     `;
     document.body.appendChild(container);
     captureAndShareImage(container, `Achievement_${courseFolderName}_M${moduleNum}.png`);

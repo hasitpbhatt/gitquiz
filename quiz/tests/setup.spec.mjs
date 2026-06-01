@@ -48,3 +48,17 @@ test('handleStart shows notification when no selection and no URL', async ({ pag
   await expect(notification).toBeVisible();
   await expect(notification).toContainText('Selection Required');
 });
+
+test('custom URL loads quiz from pasted GitHub URL', async ({ page }) => {
+  await page.goto('/');
+  await page.waitForSelector('#course-dropdown option:not([disabled])');
+
+  await page.click('#url-toggle-btn', { force: true });
+  await expect(page.locator('#url-section')).toBeVisible();
+
+  await page.fill('#quiz-url', 'https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/test-course/001.json');
+  await page.evaluate(() => handleStart());
+
+  await page.waitForSelector('.option-btn');
+  await expect(page.locator('#question-counter')).toContainText('1 / 2');
+});

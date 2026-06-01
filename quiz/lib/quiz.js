@@ -141,6 +141,7 @@ function renderQuestion() {
     bin.innerHTML = '';
     document.getElementById('explanation').classList.add('hidden');
     document.getElementById('next-btn').classList.add('hidden');
+    document.getElementById('next-btn-wrapper').classList.remove('visible');
     const aiSection = document.getElementById('ai-section');
     if (aiSection) aiSection.classList.add('hidden');
     const aiResponse = document.getElementById('ai-response');
@@ -189,6 +190,7 @@ function renderQuestion() {
                 expEl.innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4><p class="text-sm font-500">${escapeHtml(expText)}</p>`;
                 expEl.classList.remove('hidden');
                 setTimeout(() => expEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
+                document.getElementById('next-btn-wrapper').classList.add('visible');
                 document.getElementById('next-btn').classList.remove('hidden');
                 topicTitle.classList.remove('hidden');
                 if (cb.textContent.trim()) cb.classList.remove('hidden');

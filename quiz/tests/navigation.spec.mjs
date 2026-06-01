@@ -72,6 +72,25 @@ test('download achievement card button visible on completion', { tag: '@navigati
   await expect(page.locator('text=Download Achievement Card')).toBeVisible();
 });
 
+test('module chaining loads next module after completion', { tag: '@navigation' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('.option-btn', { hasText: 'A container orchestrator' }).click();
+  await page.click('#next-btn');
+  await page.locator('.option-btn', { hasText: 'A group of containers' }).click();
+  await page.click('#next-btn');
+
+  await expect(page.locator('#completion-screen')).toBeVisible();
+  await expect(page.locator('#transition-actions')).toContainText('Start Next Module');
+
+  await page.locator('text=Start Next Module').click();
+  await page.waitForSelector('.option-btn', { timeout: 5000 });
+
+  await expect(page.locator('#description-text')).toContainText('stable networking');
+  await expect(page.locator('#question-counter')).toContainText('1 / 1');
+});
+
 test('return to catalog button visible on completion', { tag: '@navigation' }, async ({ page }) => {
   await page.goto('/?course=test-course');
   await page.waitForSelector('.option-btn');

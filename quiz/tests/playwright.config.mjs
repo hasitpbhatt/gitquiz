@@ -4,12 +4,12 @@ export default defineConfig({
   testDir: '.',
   testMatch: '*.spec.mjs',
   timeout: 30000,
-  fullyParallel: false,
-  workers: 1,
+  fullyParallel: true,
+  workers: 4,
   retries: 0,
   use: {
     baseURL: 'http://localhost:8765',
-    screenshot: 'on',
+    screenshot: 'only-on-failure',
   },
   projects: [
     {
@@ -29,9 +29,9 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'python -m http.server 8765 --directory ../../quiz',
+    command: 'node serve.mjs',
     port: 8765,
-    reuseExistingServer: false,
+    reuseExistingServer: true,
     timeout: 10000,
   },
 });

@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { setupLocalMocks } from './test-utils.mjs';
 
 const CATALOG_CONTENT = [
   'book-atomic-habits',
@@ -61,6 +62,7 @@ function setupMocks(page) {
 
 test.beforeEach(async ({ page }) => {
   await setupMocks(page);
+  await setupLocalMocks(page);
 });
 
 test('setup screen shows when no params given', { tag: '@visual' }, async ({ page }) => {
@@ -334,4 +336,18 @@ test('module-label has title attribute after quiz starts', { tag: ['@visual', '@
 
   const label = page.locator('#module-label');
   await expect(label).toHaveAttribute('title', 'Test Course • 001');
+});
+
+test('correct/wrong option colors are dark-appropriate in dark mode', { tag: '@visual' }, async ({ page }) => {
+  await page.emulateMedia({ colorScheme: 'dark' });
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('.option-btn', { hasText: 'A VM manager' }).click();
+
+  const correctBg = await page.locator('.option-btn.correct').evaluate(el => getComputedStyle(el).backgroundColor);
+  const wrongBg = await page.locator('.option-btn.wrong').evaluate(el => getComputedStyle(el).backgroundColor);
+
+  expect(correctBg).not.toBe('rgb(220, 252, 231)');
+  expect(wrongBg).not.toBe('rgb(254, 226, 226)');
 });

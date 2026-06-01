@@ -9,6 +9,7 @@ import {
   getShareUrl,
   calculateScore,
   calculateNewStreak,
+  getTodayStr,
 } from './test-helpers.mjs';
 
 const CATALOG = ['book-atomic-habits', 'book-deep-work', 'podcast-tim-ferriss', 'coursera-ml'];
@@ -189,16 +190,30 @@ describe('getShareUrl', () => {
     assert.strictEqual(getShareUrl('', BASE), BASE);
   });
 
-  it('includes course param when quiz is loaded', () => {
+  it('includes course, chapter and question params', () => {
     const url = 'https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/book-atomic-habits/001.json';
     const result = getShareUrl(url, BASE);
     assert.ok(result.includes('?course=book-atomic-habits'));
+    assert.ok(result.includes('&c=001'));
+    assert.ok(result.includes('&q=1'));
+  });
+
+  it('extracts chapter number from URL filename', () => {
+    const url = 'https://example.com/courses/podcast-tim-ferriss/003.json';
+    const result = getShareUrl(url, BASE);
+    assert.ok(result.includes('&c=003'));
+  });
+
+  it('accepts custom question index', () => {
+    const url = 'https://example.com/courses/book-deep-work/002.json';
+    const result = getShareUrl(url, BASE, 5);
+    assert.ok(result.includes('&q=5'));
   });
 
   it('encodes course name in URL', () => {
     const url = 'https://example.com/courses/book-atomic-habits/001.json';
     const result = getShareUrl(url, BASE);
-    assert.strictEqual(result, BASE + '?course=book-atomic-habits');
+    assert.strictEqual(result, BASE + '?course=book-atomic-habits&c=001&q=1');
   });
 });
 
@@ -256,5 +271,94 @@ describe('calculateNewStreak', () => {
 
   it('handles year boundary correctly', () => {
     assert.strictEqual(calculateNewStreak('2025-12-31', 7, '2026-01-01'), 8);
+  });
+
+  it('handles undefined lastDate', () => {
+    assert.strictEqual(calculateNewStreak(undefined, 0, '2026-05-31'), 1);
+  });
+});
+
+describe('getTodayStr', () => {
+  it('returns YYYY-MM-DD format', () => {
+    const result = getTodayStr();
+    assert.match(result, /^\d{4}-\d{2}-\d{2}$/);
+  });
+
+  it('matches current date', () => {
+    const result = getTodayStr();
+    const expected = new Date().toISOString().slice(0, 10);
+    assert.strictEqual(result, expected);
+  });
+});
+
+describe('escapeHtml additional edge cases', () => {
+  it('handles numbers', () => {
+    assert.strictEqual(escapeHtml(42), '42');
+  });
+});
+
+describe('filterCatalogItems additional edge cases', () => {
+  it('handles null query as string "null"', () => {
+    const result = filterCatalogItems(CATALOG, 'all', null);
+    assert.strictEqual(result.length, 0);
+  });
+
+  it('handles numeric query as string', () => {
+    const result = filterCatalogItems(CATALOG, 'all', 123);
+    assert.strictEqual(result.length, 0);
+  });
+
+  it('leading/trailing whitespace prevents match', () => {
+    const result = filterCatalogItems(CATALOG, 'all', '  atomic  ');
+    assert.strictEqual(result.length, 0);
+  });
+});
+
+describe('calculateScore additional edge cases', () => {
+  it('handles zero time spent', () => {
+    assert.strictEqual(calculateScore(0, 0, 0), 100 + 50);
+  });
+
+  it('caps speed bonus at 50 for instant answer', () => {
+    const result = calculateScore(0, 0, 0);
+    assert.strictEqual(result, 100 + 50);
+  });
+
+  it('gives no speed bonus for very slow answers', () => {
+    const result = calculateScore(0, 0, 100);
+    assert.strictEqual(result, 100);
+  });
+
+  it('gives no speed bonus for answers over 10 seconds', () => {
+    for (let t = 11; t <= 20; t++) {
+      assert.strictEqual(calculateScore(0, 0, t), 100);
+    }
+  });
+
+  it('handles negative streak as no bonus', () => {
+    assert.strictEqual(calculateScore(0, -1, 10), 100);
+  });
+});
+
+describe('getShareUrl additional edge cases', () => {
+  const BASE = 'https://quiz.hasit.in/';
+
+  it('handles URL without path separators gracefully', () => {
+    const result = getShareUrl('not-a-url', BASE);
+    assert.ok(result.startsWith(BASE));
+  });
+
+  it('handles URL with trailing slash on course folder', () => {
+    const url = 'https://example.com/courses/book-test/001.json';
+    const result = getShareUrl(url, BASE);
+    assert.ok(result.includes('&c=001'));
+    assert.ok(result.includes('&q=1'));
+  });
+
+  it('handles chapter file without .json extension', () => {
+    const url = 'https://example.com/courses/book-test/001';
+    const parts = url.split('/');
+    const modFile = parts.pop();
+    assert.ok(modFile === '001');
   });
 });

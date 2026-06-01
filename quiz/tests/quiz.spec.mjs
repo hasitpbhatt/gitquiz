@@ -172,3 +172,25 @@ test('score increases by base 100 points for correct answer', { tag: '@quiz' }, 
   expect(scoreNum).toBeGreaterThanOrEqual(100);
   expect(scoreNum).toBeLessThanOrEqual(150);
 });
+
+test('daily streak badge shows persisted streak on page load', { tag: '@quiz' }, async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem('quizDailyStreak', JSON.stringify({ lastDate: '2026-06-01', count: 3 }));
+  });
+
+  await page.goto('/');
+  await page.waitForSelector('#course-dropdown option:not([disabled])');
+
+  await expect(page.locator('#daily-streak-badge')).toBeVisible();
+  await expect(page.locator('#daily-streak-count')).toHaveText('3');
+});
+
+test('daily streak updated in localStorage after quiz starts', { tag: '@quiz' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  const data = await page.evaluate(() => JSON.parse(localStorage.getItem('quizDailyStreak')));
+  expect(data).not.toBeNull();
+  expect(data.count).toBe(1);
+  expect(data.lastDate).toBe('2026-06-01');
+});

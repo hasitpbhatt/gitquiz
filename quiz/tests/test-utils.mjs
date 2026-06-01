@@ -1,4 +1,20 @@
 import { expect } from '@playwright/test';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const quizRoot = path.resolve(__dirname, '../../quiz');
+
+const MIME = {
+  '.js': 'application/javascript',
+  '.css': 'text/css',
+  '.html': 'text/html',
+  '.json': 'application/json',
+  '.png': 'image/png',
+  '.svg': 'image/svg+xml',
+  '.ico': 'image/x-icon',
+};
 
 const CATALOG_CONTENT = [
   'book-atomic-habits',
@@ -53,8 +69,22 @@ const SINGLE_QUESTION_MODULE = [
   },
 ];
 
-function setupMocks(page) {
-  return page.route('**/raw.githubusercontent.com/**', async (route) => {
+function setupLocalMocks(page) {
+  return page.route('http://localhost:8765/**', async (route) => {
+    const url = new URL(route.request().url());
+    let filePath = path.join(quizRoot, url.pathname);
+    if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
+      filePath = path.join(quizRoot, 'index.html');
+    }
+    const data = fs.readFileSync(filePath);
+    const ext = path.extname(filePath);
+    return route.fulfill({ body: data.toString(), contentType: MIME[ext] || 'text/plain' });
+  });
+}
+
+async function setupMocks(page) {
+  await setupLocalMocks(page);
+  await page.route('**/raw.githubusercontent.com/**', async (route) => {
     const url = route.request().url();
 
     if (url.includes('courses_list.txt')) {
@@ -75,8 +105,9 @@ function setupMocks(page) {
   });
 }
 
-function setupSingleQuestionMock(page) {
-  return page.route('**/raw.githubusercontent.com/**', async (route) => {
+async function setupSingleQuestionMock(page) {
+  await setupLocalMocks(page);
+  await page.route('**/raw.githubusercontent.com/**', async (route) => {
     const url = route.request().url();
     if (url.includes('courses_list.txt')) {
       return route.fulfill({ body: CATALOG_CONTENT, contentType: 'text/plain' });
@@ -88,4 +119,4 @@ function setupSingleQuestionMock(page) {
   });
 }
 
-export { CATALOG_CONTENT, MOCK_MODULES, SINGLE_QUESTION_MODULE, setupMocks, setupSingleQuestionMock };
+export { CATALOG_CONTENT, MOCK_MODULES, SINGLE_QUESTION_MODULE, setupMocks, setupSingleQuestionMock, setupLocalMocks };

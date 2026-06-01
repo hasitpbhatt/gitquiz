@@ -9,6 +9,7 @@ async function showPreviewScreen(url, previewIndex = 0) {
     }
     previewUrl = url;
     previewData = null;
+    previewQuestionIdx = previewIndex;
 
     document.getElementById('setup-container').classList.add('hidden');
     document.getElementById('preview-container').classList.remove('hidden');

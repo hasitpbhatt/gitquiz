@@ -53,11 +53,13 @@ export function buildCatalogOptions(items, typeFilter) {
   });
 }
 
-export function getShareUrl(currentUrl, baseUrl) {
+export function getShareUrl(currentUrl, baseUrl, questionIdx = 1) {
   if (!currentUrl) return baseUrl;
   const parts = currentUrl.split('/');
-  const courseFolderName = parts[parts.length - 2];
-  return baseUrl + '?course=' + encodeURIComponent(courseFolderName);
+  const modFile = parts.pop();
+  const courseFolderName = parts.pop();
+  const chapterNum = modFile.replace('.json', '');
+  return baseUrl + '?course=' + encodeURIComponent(courseFolderName) + '&c=' + chapterNum + '&q=' + questionIdx;
 }
 
 export function calculateScore(currentScore, streak, timeSpent) {

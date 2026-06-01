@@ -19,6 +19,7 @@ let lastSelectedAnswer = '';
 let lastAnswerCorrect = false;
 let previewUrl = '';
 let previewData = null;
+let previewQuestionIdx = 0;
 
 function escapeHtml(str) {
     const div = document.createElement('div');
