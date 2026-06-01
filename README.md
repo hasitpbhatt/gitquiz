@@ -17,9 +17,12 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   ├── index.html                    # Single-page quiz app (vanilla JS + Tailwind)
 │   ├── lib/                          # Modular JS (state, catalog, preview, quiz, etc.)
 │   ├── styles.css                    # Custom styling
-│   ├── tests/                        # Playwright end-to-end tests
-│   │   ├── visual.spec.mjs           # Visual and behavior tests
-│   │   └── playwright.config.mjs     # Playwright config (screenshots on)
+│   ├── tests/                        # Playwright tests + schema validation
+│   │   ├── *.spec.mjs                # Domain-split test files (10 specs)
+│   │   ├── test-utils.mjs            # Shared mock data & route setup
+│   │   ├── affected-tests.mjs        # Git-diff-based test selector
+│   │   ├── schema.config.mjs         # Lightweight config for schema tests
+│   │   └── playwright.config.mjs     # Main Playwright config
 │   └── proxy/                        # Cloudflare Worker for AI explanations
     │       └── worker.js                 # Mistral AI proxy
 ├── .opencode/
