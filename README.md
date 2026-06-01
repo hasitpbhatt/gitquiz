@@ -21,8 +21,7 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   │   ├── visual.spec.mjs           # Visual and behavior tests
 │   │   └── playwright.config.mjs     # Playwright config (screenshots on)
 │   └── proxy/                        # Cloudflare Worker for AI explanations
-│       ├── worker.js                 # Mistral AI proxy
-│       └── wrangler.toml             # CF Worker config
+    │       └── worker.js                 # Mistral AI proxy
 ├── .opencode/
 │   ├── skill/hasits-plan/SKILL.md        # Plan persistence for LLM context survival
 │   └── skill/syllabus-to-quiz/SKILL.md   # Workflow for converting courses to quizzes
@@ -148,7 +147,7 @@ Screenshots are captured after every test and saved to `quiz/tests/test-results/
 
 ## AI Explain Feature
 
-The "AI Explain More" button in the quiz calls a Mistral AI API via a Cloudflare Worker proxy (`quiz/proxy/`). Deploy with `wrangler deploy`.
+The "AI Explain More" button in the quiz calls a Mistral AI API via a Cloudflare Worker proxy (`quiz/proxy/`).
 
 ## Tech Stack
 
