@@ -1,0 +1,25 @@
+#!/bin/sh
+
+staged_courses=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^courses/' | head -1)
+if [ -z "$staged_courses" ]; then
+    exit 0
+fi
+
+echo "→ Validating course content before commit..."
+
+node quiz/scripts/validate-all.js
+rc1=$?
+if [ $rc1 -ne 0 ]; then
+    echo "✗ validate-all.js failed. Fix errors before committing."
+    exit 1
+fi
+
+cd quiz/tests && npx playwright test schema.spec.mjs --config schema.config.mjs
+rc2=$?
+if [ $rc2 -ne 0 ]; then
+    echo "✗ Schema tests failed. Fix errors before committing."
+    exit 1
+fi
+
+echo "✓ Course validation passed."
+exit 0
