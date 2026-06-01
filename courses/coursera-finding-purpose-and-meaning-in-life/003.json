@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Value Internalization",
+    "content": "Many people mistake the values of their culture, peers, or parents for their own authentic values rather than examining them critically.",
+    "description": "Your friend became a wealthy corporate lawyer because his family valued prestige but feels empty. What concept describes this?",
+    "options": [
+      "Value internalization",
+      "Value clarification",
+      "Peak experience analysis",
+      "Conflict resolution"
+    ],
+    "answer": "Value internalization",
+    "explanation": "Value internalization means adopting others values without examination leading to emptiness after achieving imposed goals.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Peak Experience Analysis",
+    "content": "Value Architecture Excavation uses Peak Experience Analysis, Value Extraction, and Conflict Clarification as its three steps.",
+    "description": "Your therapist asks you to describe three moments of intense fulfillment then extract the values honored. Which step is this?",
+    "options": [
+      "Peak Experience Analysis",
+      "Value Extraction",
+      "Conflict Clarification",
+      "Value Internalization"
+    ],
+    "answer": "Peak Experience Analysis",
+    "explanation": "Peak Experience Analysis is the first step identifying moments of alignment before extracting values.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Forced-Choice Values",
+    "content": "True values are defined by what you sacrifice. Forced-choice scenarios pit competing principles against each other to reveal your hierarchy.",
+    "description": "You claim to value adventure and security equally but choose a stable boring job over a risky startup. What does this reveal?",
+    "options": [
+      "Security ranks higher in your actual value hierarchy",
+      "You have not done proper value excavation",
+      "Adventure was never a real value",
+      "You need more peak experiences"
+    ],
+    "answer": "Security ranks higher in your actual value hierarchy",
+    "explanation": "Conflict Clarification reveals true hierarchy through behavior in forced choices showing what you value in practice.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Talents vs Skills",
+    "content": "A skill is learned through training while a talent is an innate neurological pattern of thought, feeling, or behavior.",
+    "description": "You trained months for Excel but your colleague naturally grasps complex systems. How would you classify these?",
+    "options": [
+      "Excel is a skill; systems thinking is a talent",
+      "Both are skills",
+      "Both are talents",
+      "Excel is a talent; systems thinking is a skill"
+    ],
+    "answer": "Excel is a skill; systems thinking is a talent",
+    "explanation": "Skills are learned through deliberate training. Talents are innate patterns of thought or behavior.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Characteristics of Flow",
+    "content": "Flow identified by Csikszentmihalyi is a state where skills match challenge causing time distortion, loss of self-consciousness, and peak performance.",
+    "description": "You lose track of time while coding, feel fully immersed, and produce your best work. What state is this?",
+    "options": [
+      "Flow",
+      "Cognitive crafting",
+      "Eudaimonia",
+      "Peak experience"
+    ],
+    "answer": "Flow",
+    "explanation": "Flow matches skill to challenge with time distortion as identified by Csikszentmihalyi.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Passion as Engine",
+    "content": "The course warns against follow-your-passion because passion is fickle and self-absorbed. It should function as an engine sustaining engagement through difficulty.",
+    "description": "Your sister wants to quit her job because she is not passionate anymore. How should you counsel her?",
+    "options": [
+      "Passion fuels effort through difficulty but should not dictate every decision",
+      "She should quit immediately to find true passion",
+      "Passion is irrelevant to career decisions",
+      "She should pursue only what she consumes enthusiastically"
+    ],
+    "answer": "Passion fuels effort through difficulty but should not dictate every decision",
+    "explanation": "Passion is fickle and self-absorbed. It should fuel sustained effort not serve as the sole compass.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Clues of Authentic Passion",
+    "content": "Look at what you naturally obsess over when no one is watching and what problems stir your moral outrage or deep sorrow.",
+    "description": "To identify authentic passion what should you examine instead of what you enjoy consuming?",
+    "options": [
+      "What you obsess over when no one is watching",
+      "What your parents advised",
+      "What pays the highest salary",
+      "What comes easiest to you"
+    ],
+    "answer": "What you obsess over when no one is watching",
+    "explanation": "Authentic passion reveals itself through private obsessions and what provokes moral outrage.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Signs of Natural Talent",
+    "content": "Talents show through spontaneous reaction, rapid learning curves, intense satisfaction, and flow.",
+    "description": "Your manager notices you pick up programming languages faster than anyone and enjoy it. What does this indicate?",
+    "options": [
+      "A natural talent for programming logic",
+      "Excellent formal training",
+      "High motivation only",
+      "A learned skill from practice"
+    ],
+    "answer": "A natural talent for programming logic",
+    "explanation": "Rapid learning and intense satisfaction during activity are key clues of natural talent.",
+    "difficulty": "medium"
+  }
+]

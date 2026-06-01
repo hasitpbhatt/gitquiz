@@ -1,0 +1,100 @@
+[
+  {
+    "question": "Socrates Challenge",
+    "content": "Socrates argued that the unexamined life is not worth living, meaning a life without critical self-reflection lacks true value.",
+    "description": "You are giving a commencement speech and want to quote the philosopher who argued that living without questioning your assumptions is not truly living. Which philosopher famous declaration encapsulates this idea?",
+    "options": [
+      "Socrates",
+      "Aristotle",
+      "Viktor Frankl",
+      "Plato"
+    ],
+    "answer": "Socrates",
+    "explanation": "Socrates made this statement during his trial as recorded in Plato Apology. It serves as the course foundational call to examine one life for purpose.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Three Elements of Purpose",
+    "content": "Purpose is a stable generalized intention to accomplish something simultaneously meaningful to the self and consequential for the world beyond the self.",
+    "description": "Your friend claims she has a purpose because she set a goal to run a marathon this year. According to the course definition why might this goal not qualify as a true purpose?",
+    "options": [
+      "It lacks a beyond-the-self orientation",
+      "It is not specific enough",
+      "It is too focused on physical health",
+      "It requires professional training"
+    ],
+    "answer": "It lacks a beyond-the-self orientation",
+    "explanation": "True purpose requires three elements: stability/generality, personal meaningfulness, and a beyond-the-self orientation. A marathon goal is an ambition unless it serves external impact.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Purpose vs Ambition",
+    "content": "True purpose always interfaces with the external world to alleviate a grievance or solve a problem whereas simple ambition focuses on egoistic achievement.",
+    "description": "Your colleague wants a promotion to partner. You want to build a scholarship fund for underprivileged students. What distinguishes your goal from hers?",
+    "options": [
+      "Your goal has a beyond-the-self orientation",
+      "Your goal is more measurable",
+      "Her goal lacks personal meaningfulness",
+      "Her goal is not stable over time"
+    ],
+    "answer": "Your goal has a beyond-the-self orientation",
+    "explanation": "The beyond-the-self orientation is the key demarcation between simple ambition and true purpose.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hedonia vs Eudaimonia",
+    "content": "Aristotle distinguished hedonic well-being based on pleasure from eudaimonic well-being based on human flourishing through virtue and actualizing potential.",
+    "description": "In a philosophy seminar a student argues the goal of life is to maximize pleasure and minimize pain. Which of Aristotle categories does this represent?",
+    "options": [
+      "Hedonic well-being",
+      "Eudaimonic well-being",
+      "Logotherapeutic well-being",
+      "Empathetic well-being"
+    ],
+    "answer": "Hedonic well-being",
+    "explanation": "Hedonic well-being centers on pleasure and pain avoidance. Eudaimonic well-being is about living virtuously and actualizing potential.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Will to Meaning",
+    "content": "Viktor Frankl founded Logotherapy on the premise that the primary human drive is not pleasure or power but the will to meaning.",
+    "description": "Which 20th-century psychiatrist argued the fundamental human motivation is the will to meaning, not the will to pleasure or power?",
+    "options": [
+      "Viktor Frankl",
+      "Sigmund Freud",
+      "Alfred Adler",
+      "Carl Jung"
+    ],
+    "answer": "Viktor Frankl",
+    "explanation": "Frankl developed Logotherapy from his concentration camp observations arguing meaning is the primary human drive.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Frankl Three Pathways",
+    "content": "Meaning is discovered through creating a work, experiencing something or someone, and the attitude we take toward unavoidable suffering.",
+    "description": "Your friend was a professional dancer until a spinal injury ended her career. Which Frankl pathway is most relevant to her situation?",
+    "options": [
+      "The attitude we take toward unavoidable suffering",
+      "Creating a work or doing a deed",
+      "Experiencing something or encountering someone",
+      "The will to pleasure"
+    ],
+    "answer": "The attitude we take toward unavoidable suffering",
+    "explanation": "When circumstances remove the first two pathways Frankl emphasized we can still choose our attitude toward suffering as a path to meaning.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Purpose as Narrative Arc",
+    "content": "Purpose is an enduring theme that organizes subordinate goals serving as the narrative arc of your life story.",
+    "description": "Your roommate declares a new purpose every week: chef, Peace Corps, podcast. Which essential quality of purpose is missing?",
+    "options": [
+      "Stability and generality",
+      "Personal meaningfulness",
+      "Beyond-the-self orientation",
+      "Financial viability"
+    ],
+    "answer": "Stability and generality",
+    "explanation": "Purpose must be a stable enduring theme that organizes subordinate goals over time.",
+    "difficulty": "medium"
+  }
+]

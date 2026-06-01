@@ -1,0 +1,100 @@
+[
+  {
+    "question": "Ryff Well-Being Framework",
+    "content": "Carol Ryff identified Purpose in Life as one of the six fundamental pillars of psychological well-being.",
+    "description": "Your psychology textbook mentions a well-being framework with six pillars including Purpose in Life. Which researcher developed this framework?",
+    "options": [
+      "Carol Ryff",
+      "Steven Cole",
+      "Viktor Frankl",
+      "Mihaly Csikszentmihalyi"
+    ],
+    "answer": "Carol Ryff",
+    "explanation": "Ryff model includes self-acceptance, positive relations, autonomy, environmental mastery, personal growth, and purpose in life.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Gene Expression and Purpose",
+    "content": "Steven Cole UCLA research showed eudaimonic well-being correlates with down-regulation of pro-inflammatory genes and up-regulation of antiviral response genes.",
+    "description": "Research shows purpose-driven individuals have lower inflammation and stronger antiviral defenses at the genetic level. Which scientist work aligns with this?",
+    "options": [
+      "Steven Cole",
+      "Carol Ryff",
+      "Viktor Frankl",
+      "Amy Wrzesniewski"
+    ],
+    "answer": "Steven Cole",
+    "explanation": "Cole research demonstrates purpose acts as an epigenetic dimmer switch on gene expression.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Epigenetic Dimmer Switch",
+    "content": "Purpose acts as an epigenetic dimmer switch turning down pro-inflammatory gene expression and turning up antiviral responses.",
+    "description": "Your biology professor describes a psychological factor that can turn down inflammatory gene expression. What metaphor does the course use?",
+    "options": [
+      "An epigenetic dimmer switch",
+      "A genetic firewall",
+      "A cellular thermostat",
+      "A transcriptional volume knob"
+    ],
+    "answer": "An epigenetic dimmer switch",
+    "explanation": "Purpose is described as an epigenetic dimmer switch modulating inflammatory and antiviral gene expression.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Diurnal Cortisol Curve",
+    "content": "High purpose correlates with a healthy diurnal cortisol curve that peaks after waking and tapers off while low purpose leads to flattened dysregulated patterns.",
+    "description": "Your patient has a flattened cortisol curve, chronic exhaustion, and insulin resistance. Which psychological factor is most relevant to investigate?",
+    "options": [
+      "Level of life purpose",
+      "Sleep quality alone",
+      "Exercise frequency",
+      "Social media usage"
+    ],
+    "answer": "Level of life purpose",
+    "explanation": "Purpose correlates with healthier cortisol regulation. A flattened curve is associated with low purpose.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Neurological Resilience",
+    "content": "Purpose-driven individuals show greater gray matter volume in the insula and prefrontal cortex with rapid amygdala recovery after stress.",
+    "description": "Brain scans show some participants amygdalae recover quickly from stress while others stay activated. What factor correlates with faster recovery?",
+    "options": [
+      "High sense of purpose",
+      "High IQ scores",
+      "Younger age",
+      "Regular meditation practice"
+    ],
+    "answer": "High sense of purpose",
+    "explanation": "Purpose-driven brains show rapid amygdala recovery via prefrontal cortex regulation of threat detection.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Cognitive Reserve",
+    "content": "High purpose reduces all-cause mortality by over 20% and heart attack risk by up to 50% while providing cognitive reserve against decline.",
+    "description": "An autopsy reveals Alzheimer plaques in an elderly brain yet the patient showed no cognitive decline in life. What concept explains this?",
+    "options": [
+      "Cognitive reserve",
+      "Neuroplasticity",
+      "Amygdala recovery",
+      "Epigenetic regulation"
+    ],
+    "answer": "Cognitive reserve",
+    "explanation": "High-purpose individuals demonstrate cognitive reserve maintaining function despite brain pathology.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Longitudinal Evidence",
+    "content": "The Rush Memory and Aging Project shows purpose-in-life scores predict reduced stroke, heart attack, and all-cause mortality.",
+    "description": "Which longitudinal study provides the strongest evidence that purpose reduces all-cause mortality and heart attack risk?",
+    "options": [
+      "The Rush Memory and Aging Project",
+      "The Framingham Heart Study",
+      "The Nurses Health Study",
+      "The Blue Zones Project"
+    ],
+    "answer": "The Rush Memory and Aging Project",
+    "explanation": "The Rush Memory and Aging Project tracked purpose-in-life scores and found dramatic reductions in mortality, stroke, and heart attack risk.",
+    "difficulty": "hard"
+  }
+]

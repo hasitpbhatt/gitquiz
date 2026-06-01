@@ -1,0 +1,170 @@
+[
+  {
+    "question": "Job Crafting",
+    "content": "Job Crafting pioneered by Amy Wrzesniewski and Jane Dutton is the systematic remodeling of an existing job from within to generate more meaning.",
+    "description": "Your friend hates her accounting job but cannot afford to quit. What approach could help her find meaning without leaving?",
+    "options": [
+      "Job Crafting",
+      "The Empathy Audit",
+      "The Ikigai framework",
+      "Value Architecture Excavation"
+    ],
+    "answer": "Job Crafting",
+    "explanation": "Job Crafting allows employees to remodel current roles to increase meaning without quitting.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Task Crafting",
+    "content": "Task Crafting alters the structural boundaries of daily responsibilities by changing their form, scope, or sequence.",
+    "description": "An accountant volunteers to design onboarding training for interns. Which Job Crafting type is this?",
+    "options": [
+      "Task Crafting",
+      "Relational Crafting",
+      "Cognitive Crafting",
+      "Structural Crafting"
+    ],
+    "answer": "Task Crafting",
+    "explanation": "Task Crafting changes what you do: the form, scope, or sequence of responsibilities.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Relational Crafting",
+    "content": "Relational Crafting transforms the nature, frequency, and quality of social interactions within the workplace.",
+    "description": "A developer connects with customer service to hear user stories directly. Which crafting dimension is this?",
+    "options": [
+      "Relational Crafting",
+      "Task Crafting",
+      "Cognitive Crafting",
+      "Emotional Crafting"
+    ],
+    "answer": "Relational Crafting",
+    "explanation": "Relational Crafting changes who you interact with and the quality of those interactions.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Cognitive Crafting",
+    "content": "Cognitive Crafting shifts your internal mental frame regarding the purpose and value of your labor.",
+    "description": "A janitor reframes his job from cleaning floors to maintaining a sterile environment that saves lives. What type of crafting is this?",
+    "options": [
+      "Cognitive Crafting",
+      "Task Crafting",
+      "Relational Crafting",
+      "Physical Crafting"
+    ],
+    "answer": "Cognitive Crafting",
+    "explanation": "Cognitive Crafting changes how you think about your work, not the tasks themselves.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Strategic Patience",
+    "content": "The naive response to discovering purpose is to quit immediately. The intelligent approach uses Job Crafting while maintaining financial stability.",
+    "description": "Your colleague wants to quit her stable job after discovering her purpose. What is the primary danger?",
+    "options": [
+      "Financial catastrophe triggers survival instincts that smother purpose",
+      "Her employer will sue her",
+      "She will lose her professional network",
+      "Purpose requires a stable routine"
+    ],
+    "answer": "Financial catastrophe triggers survival instincts that smother purpose",
+    "explanation": "Erratic leaps cause financial catastrophe triggering survival responses that overwhelm purpose.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Inner Critic",
+    "content": "The Inner Critic generates imposter syndrome, procrastination, and self-doubt. The course advises acknowledging it without arguing.",
+    "description": "Every time you work on your purpose a voice says you are not qualified. How should you respond?",
+    "options": [
+      "Acknowledge the voice without arguing and move forward anyway",
+      "Argue back with evidence of your qualifications",
+      "Stop until the voice disappears",
+      "Ignore the voice completely"
+    ],
+    "answer": "Acknowledge the voice without arguing and move forward anyway",
+    "explanation": "Fighting the Inner Critic grants it power. Acknowledge it like a backseat passenger but keep driving.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Systemic Social Resistance",
+    "content": "When you change your behavior, social circles may push back because your growth forces them to confront their own unexamined choices.",
+    "description": "Since pursuing her purpose, your friend old friends mock her new focus. Why does this happen?",
+    "options": [
+      "Her growth highlights their unexamined choices",
+      "They genuinely want to protect her",
+      "They simply do not understand",
+      "She is being unreasonable"
+    ],
+    "answer": "Her growth highlights their unexamined choices",
+    "explanation": "Intentional living shines a light on others stagnation provoking defensiveness.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Mindful Meta-Awareness",
+    "content": "Mindful meta-awareness involves observing Inner Critic thoughts without engagement, treating them as passengers while you remain the driver.",
+    "description": "You notice anxious thoughts about your purpose project during meditation but simply observe and return to your breath. What skill is this?",
+    "options": [
+      "Mindful meta-awareness",
+      "Cognitive crafting",
+      "Task crafting",
+      "Value extraction"
+    ],
+    "answer": "Mindful meta-awareness",
+    "explanation": "Mindful meta-awareness is observing thoughts without engagement to manage the Inner Critic.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Council of Alignment",
+    "content": "The Council of Alignment is a curated accountability network, a personal board of directors committed to a deliberate life.",
+    "description": "You form a small group meeting regularly to share failures, celebrate wins, and recalibrate direction. What does the course call this?",
+    "options": [
+      "The Council of Alignment",
+      "The Empathy Audit Circle",
+      "The Ikigai Board",
+      "The Value Architecture Group"
+    ],
+    "answer": "The Council of Alignment",
+    "explanation": "The Council of Alignment is a curated accountability network for a deliberate life.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Biological Foundations",
+    "content": "Your mind is anchored in a biological container. Sleep deprivation, poor nutrition, and sedentary lifestyle impair prefrontal cortex function.",
+    "description": "After months of sleep deprivation you snap at colleagues, make poor decisions, and struggle to focus on your purpose. What is the most direct cause?",
+    "options": [
+      "Your prefrontal cortex lost regulation ability due to poor biological foundations",
+      "You lost your passion for the purpose",
+      "The Inner Critic won",
+      "You need a new purpose statement"
+    ],
+    "answer": "Your prefrontal cortex lost regulation ability due to poor biological foundations",
+    "explanation": "The prefrontal cortex requires adequate sleep, nutrition, and activity. Self-care powers purpose.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Digital Sunset",
+    "content": "Micro-doses of recovery include the Pomodoro technique, digital sunset to protect sleep, and mindfulness to reset the nervous system.",
+    "description": "The course recommends a strict digital sunset at night. What is the purpose of this practice?",
+    "options": [
+      "To protect sleep architecture and reset the nervous system",
+      "To reduce screen time for eye health",
+      "To detox from social media",
+      "To increase productivity"
+    ],
+    "answer": "To protect sleep architecture and reset the nervous system",
+    "explanation": "A digital sunset helps shift from sympathetic to parasympathetic recovery mode.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Purpose as Marathon",
+    "content": "A life of purpose is a marathon not a sprint. Many burn out within 18 months working at unsustainable intensity.",
+    "description": "Your friend worked 90-hour weeks on her purpose project and after 14 months is exhausted, bitter, and wants to quit. What lesson applies?",
+    "options": [
+      "Purpose requires sustainable pace over decades not sprint intensity",
+      "She lacked passion",
+      "She needs a new purpose",
+      "She should work harder"
+    ],
+    "answer": "Purpose requires sustainable pace over decades not sprint intensity",
+    "explanation": "Purpose is a marathon. Sustainable pace, rest, and recovery prevent burnout.",
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "The Four Circles",
+    "content": "Ikigai maps four circles: What You Love, What You Are Good At, What the World Needs, and What You Can Be Paid For.",
+    "description": "You are using a Japanese framework asking what you love, what you are good at, what the world needs, and what you can be paid for. What is this framework?",
+    "options": [
+      "Ikigai",
+      "Logotherapy",
+      "Value Architecture Excavation",
+      "The Empathy Audit"
+    ],
+    "answer": "Ikigai",
+    "explanation": "Ikigai is the Okinawan framework that maps four life domains to identify purpose.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Useful but Empty Life",
+    "content": "When you are good at something, the world needs it, and you are paid but do not love it, you experience a useful but empty life.",
+    "description": "A talented surgeon performs life-saving operations but feels uninspired and dead inside. Which Ikigai imbalance is this?",
+    "options": [
+      "The useful but empty life missing what you love",
+      "The satisfied but broke life missing what pays",
+      "The rich but fragile career missing world needs",
+      "The passionate but incompetent dream missing skills"
+    ],
+    "answer": "The useful but empty life missing what you love",
+    "explanation": "When circle 1 (what you love) is missing you have competence and purpose but no inspiration.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Satisfied but Broke",
+    "content": "Passion, talent, and worldly impact without economic viability create the satisfied but broke life.",
+    "description": "Your friend runs a free community arts program that deeply fulfills her but she cannot pay rent. Which imbalance does she face?",
+    "options": [
+      "The satisfied but broke life missing what pays",
+      "The useful but empty life missing what you love",
+      "The rich but fragile career missing world needs",
+      "The passionate but incompetent dream missing skills"
+    ],
+    "answer": "The satisfied but broke life missing what pays",
+    "explanation": "Circle 4 (what you can be paid for) is missing creating existential anxiety despite alignment.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Rich but Fragile Career",
+    "content": "The rich but fragile career combines love, skill, and pay but lacks connection to world needs, leaving a sense of uselessness.",
+    "description": "A hedge fund manager loves his work, excels, and earns millions but wonders if his existence matters. Which circle is missing?",
+    "options": [
+      "What the world needs",
+      "What he loves",
+      "What he is good at",
+      "What he can be paid for"
+    ],
+    "answer": "What the world needs",
+    "explanation": "Circle 3 (what the world needs) is missing creating disconnection from the human fabric.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Passionate but Incompetent Dream",
+    "content": "Love, world need, and payment desire without competence create the passionate but incompetent dream resulting in constant frustration.",
+    "description": "An entrepreneur has a vision to solve water scarcity with passion and market need but lacks engineering skills. What circle is missing?",
+    "options": [
+      "What you are good at",
+      "What you love",
+      "What the world needs",
+      "What you can be paid for"
+    ],
+    "answer": "What you are good at",
+    "explanation": "Circle 2 (what you are good at) is missing leading to frustration and lack of credibility.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Core Sentence Formula",
+    "content": "The purpose statement syntax is: To use my [Tool/Talent] to [Action Verb] [Target Audience] in order to [Ultimate Impact].",
+    "description": "Which follows the four-part purpose statement syntax?",
+    "options": [
+      "To use my data analysis skills to illuminate wasteful spending for nonprofits so they can redirect resources to their mission",
+      "To help people because I care about them",
+      "I want to make the world a better place",
+      "To be happy and successful while contributing to society"
+    ],
+    "answer": "To use my data analysis skills to illuminate wasteful spending for nonprofits so they can redirect resources to their mission",
+    "explanation": "The correct syntax specifies a tool, action verb, target audience, and measurable impact.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Somatic Validation",
+    "content": "A true purpose statement should elicit a subtle physiological response: chest tightening, elevated heart rate, or resonant focus.",
+    "description": "You write three purpose statements. One makes your chest tighten and heart race while others feel flat. What should you conclude?",
+    "options": [
+      "The version with a somatic response likely aligns with your authentic purpose",
+      "A flat response means you need more practice",
+      "Tightening means anxiety so avoid that path",
+      "All three need more revision"
+    ],
+    "answer": "The version with a somatic response likely aligns with your authentic purpose",
+    "explanation": "Somatic markers help validate which purpose statement resonates authentically.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Blue Zones",
+    "content": "Okinawa Japan is a Blue Zone where individuals live past 100 largely credited to their strong sense of daily purpose or Ikigai.",
+    "description": "Researchers studying long-lived populations found Okinawans have a concept for daily purpose contributing to longevity. What is this concept?",
+    "options": [
+      "Ikigai",
+      "Logotherapy",
+      "Eudaimonia",
+      "Cognitive reserve"
+    ],
+    "answer": "Ikigai",
+    "explanation": "Ikigai is the Okinawan concept of reason for being contributing to Blue Zone longevity.",
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Post-Traumatic Growth Defined",
+    "content": "Post-Traumatic Growth describes positive psychological change experienced as a result of adversity or trauma.",
+    "description": "After a severe car accident your client reports greater life appreciation, deeper relationships, and renewed purpose. What phenomenon is this?",
+    "options": [
+      "Post-Traumatic Growth",
+      "Value internalization",
+      "Cognitive crafting",
+      "Hedonic adaptation"
+    ],
+    "answer": "Post-Traumatic Growth",
+    "explanation": "PTG refers to positive transformation after adversity including greater appreciation and renewed purpose.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Biography of Wounds",
+    "content": "Your unique wounds equip you with specific empathy and insight. Surviving a dark corridor means you exit with a map for the next person.",
+    "description": "A recovering addict runs a support group for others. What concept describes how her suffering became her contribution?",
+    "options": [
+      "Biography of Wounds",
+      "Post-Traumatic Growth",
+      "Value Architecture Excavation",
+      "Empathy Audit"
+    ],
+    "answer": "Biography of Wounds",
+    "explanation": "The Biography of Wounds holds that your mess becomes your message and pain becomes contribution.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Outward Pivot",
+    "content": "A purpose that terminates within your own skin is self-improvement. True purpose requires an intentional outward pivot.",
+    "description": "Your goal is to meditate daily for inner peace. Why might this not qualify as a purpose?",
+    "options": [
+      "It terminates within yourself rather than pivoting outward",
+      "It is not challenging enough",
+      "It requires no talent",
+      "It lacks personal meaningfulness"
+    ],
+    "answer": "It terminates within yourself rather than pivoting outward",
+    "explanation": "True purpose must interface with the external world beyond self-improvement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Micro-Sphere Audit",
+    "content": "The Empathy Audit examines Micro (immediate ecosystem), Meso (community), and Macro (global) spheres.",
+    "description": "You notice junior employees at your company lack mentorship. Which Empathy Audit sphere are you observing?",
+    "options": [
+      "Micro-sphere",
+      "Meso-sphere",
+      "Macro-sphere",
+      "Personal sphere"
+    ],
+    "answer": "Micro-sphere",
+    "explanation": "The micro-sphere encompasses your immediate ecosystem including workplace team.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Completing the Empathy Audit",
+    "content": "Find the specific need you are uniquely equipped to feed by auditing across micro, meso, and macro spheres.",
+    "description": "You care about climate change, financial literacy gaps among foster children, and lonely elderly neighbors. How should you prioritize?",
+    "options": [
+      "Find the need you are uniquely equipped to address",
+      "Tackle all three simultaneously",
+      "Always prioritize the macro sphere",
+      "Focus only on the micro sphere"
+    ],
+    "answer": "Find the need you are uniquely equipped to address",
+    "explanation": "The Empathy Audit helps identify where your unique talents intersect with a specific need.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Problems You Suffer For",
+    "content": "Your purpose ties to a problem you care enough to suffer for, identified by which problems haunt you after closing the news.",
+    "description": "You lie awake thinking about educational disparities but forget articles about traffic reform. What does this tell you?",
+    "options": [
+      "Educational disparities may connect to your purpose",
+      "You need to stop reading the news",
+      "Traffic reform is more important",
+      "You should pursue both equally"
+    ],
+    "answer": "Educational disparities may connect to your purpose",
+    "explanation": "Your purpose connects to problems that haunt you after exposure.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Suffering as Expertise",
+    "content": "Surviving a dark corridor of human experience creates a map to hand to others, making your suffering a unique form of expertise.",
+    "description": "A lawyer who faced workplace discrimination now fights employment bias. How does her suffering relate to her purpose?",
+    "options": [
+      "Her suffering gave unique empathy and insight powering her purpose",
+      "Her purpose would be stronger without emotional baggage",
+      "Suffering is irrelevant to work quality",
+      "Her suffering limits her effectiveness"
+    ],
+    "answer": "Her suffering gave unique empathy and insight powering her purpose",
+    "explanation": "The Biography of Wounds teaches that personal suffering creates unique expertise for contribution.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Meso-Sphere Definition",
+    "content": "The meso-sphere covers broader community, city, or professional context including systemic gaps.",
+    "description": "You identify outdated industry practices harming the environment. Which Empathy Audit sphere does this belong to?",
+    "options": [
+      "Meso-sphere",
+      "Micro-sphere",
+      "Macro-sphere",
+      "Personal sphere"
+    ],
+    "answer": "Meso-sphere",
+    "explanation": "The meso-sphere covers your broader professional community and geographic region.",
+    "difficulty": "easy"
+  }
+]

@@ -104,6 +104,13 @@
     "source": null,
     "description": "Robert Shiller's Yale course on financial markets, risk management, and behavioral finance."
   },
+  "coursera-finding-purpose-and-meaning-in-life": {
+    "title": "Finding Purpose and Meaning in Life",
+    "type": "coursera",
+    "chapters": 6,
+    "source": "https://www.coursera.org/learn/finding-purpose-and-meaning-in-life",
+    "description": "Advanced masterclass on the philosophy, science, and practice of discovering and living a life of purpose."
+  },
   "coursera-genai-for-algorithmic-trading": {
     "title": "Generative AI for Algorithmic Trading",
     "type": "coursera",
