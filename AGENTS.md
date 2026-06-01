@@ -93,31 +93,44 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - **Catalog screen** → share portal link
 10. **Achievement card**: Template hidden off-screen at `#achievement-card-template` (CSS `left: -9999px`). Uses `html2canvas` to render to PNG.
 
-### Test Conventions (Playwright, `quiz/tests/`)
+### Test Conventions (`quiz/tests/`)
 
+Two test runners coexist:
+
+- **Node `node:test`** (`.test.mjs` files) — pure function unit tests and schema validation. No browser, no Playwright dependency. Run via `node --test *.test.mjs` or `npm run test:unit` / `npm run test:schema`.
+- **Playwright** (`.spec.mjs` files) — DOM interaction and visual regression tests. Requires `npx playwright test <file>`.
+
+**Node test conventions (`lib-unit.test.mjs`, `schema-valid.test.mjs`):**
+1. Pure functions extracted into `test-helpers.mjs` (imported by unit tests) — duplicates `lib/` logic for testability without refactoring app globals
+2. Uses `node:test` (`describe`/`it`) and `node:assert/strict`
+3. `schema-valid.test.mjs` validates all JSON files dynamically (no Playwright browser, no AJV in this file — uses plain JSON traversal)
+
+**Playwright conventions:**
 1. Opens `file:///.../quiz/index.html` via `page.goto()`
 2. Uses `devices['iPhone X']` for mobile screenshots in visual tests
 3. Common operations: `page.waitForFunction()`, `waitForSelector()`, `el.scrollIntoView()`
 4. Snapshots: `expect(await page.screenshot()).toMatchSnapshot(...)` with `threshold: 0.01`
-5. **Schema config** (`schema.config.mjs`): `fullyParallel: true`, 4 workers, no web server needed
-6. **Main config** (`playwright.config.mjs`): Two projects in sequence (Desktop 1280×800, Mobile Pixel 5), `webServer` on port 8765, `fullyParallel: false`
-7. **Test data helpers** (`test-utils.mjs`):
-    - `CATALOG_CONTENT` = `audit-pilot\nbook-atomic-habits\nbook-beginning-of-infinity\nbook-deep-work\nbook-psychology-of-money\npodcast-naval\npodcast-ai-safety` (newline-separated course IDs)
+5. **Main config** (`playwright.config.mjs`): Two projects in sequence (Desktop 1280×800, Mobile Pixel 5), `webServer` on port 8765, `fullyParallel: false`
+6. **Playwright helpers** (`test-utils.mjs`):
+    - `CATALOG_CONTENT` = `\n`-joined course IDs
     - `MOCK_MODULES` = `{ "001": [...questions...], "002": [...questions...] }`
     - `setupMockRoutes()` = intercepts catalog and module URLs
     - `createMockQuestion()` = generates a question with given overrides
-8. **Affected test mapping** (in `affected-tests.mjs`):
-    - `courses/` → `schema.spec.mjs`
+    - `test-helpers.mjs` also used by Playwright tests that import pure functions directly
+7. **Affected test mapping** (in `affected-tests.mjs`):
+    - `courses/` → `schema-valid.test.mjs`
     - `quiz/lib/main.js` → `setup.spec.mjs`, `url-params.spec.mjs`
-    - `quiz/lib/state.js` → `setup.spec.mjs`, `navigation.spec.mjs`, `unit.spec.mjs`, `quiz.spec.mjs`
-    - `quiz/lib/catalog.js` → `catalog.spec.mjs`, `unit.spec.mjs`
+    - `quiz/lib/state.js` → `setup.spec.mjs`, `navigation.spec.mjs`, `lib-unit.test.mjs`, `quiz.spec.mjs`
+    - `quiz/lib/catalog.js` → `catalog.spec.mjs`, `lib-unit.test.mjs`
     - `quiz/lib/preview.js` → `preview.spec.mjs`
     - `quiz/lib/quiz.js` → `quiz.spec.mjs`, `navigation.spec.mjs`
-    - `quiz/lib/sharing.js` → `ui.spec.mjs`, `unit.spec.mjs`
+    - `quiz/lib/sharing.js` → `ui.spec.mjs`, `lib-unit.test.mjs`
     - `quiz/lib/notifications.js` → `setup.spec.mjs`
     - `quiz/lib/ai.js` → `ai.spec.mjs`
     - `quiz/styles.css` → `visual.spec.mjs`
-    - `quiz/index.html` → all spec files
+    - `quiz/index.html` → all spec and test files
+    - `quiz/tests/test-helpers.mjs` → `lib-unit.test.mjs`
+    - `courses/course-schema.json` → `schema-valid.test.mjs`
 
 ### Course Metadata Conventions
 
@@ -131,7 +144,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 - `.github/workflows/validate.yml` has 3 jobs: `schema`, `validate-all`, `full-suite`
 - `full-suite` uses `dorny/paths-filter` to skip when only `courses/**` or `*.md` changed
 - Node.js version: 24. Cache: `npm` for `quiz/tests/package-lock.json`
-- `npm run test:schema` runs with `--config schema.config.mjs`
+- `npm run test:schema` runs with `node --test schema-valid.test.mjs`
 - Scheduled daily at 11:56 UTC
 
 ### OpenCode Configuration

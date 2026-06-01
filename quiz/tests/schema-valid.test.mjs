@@ -1,4 +1,5 @@
-import { test, expect } from '@playwright/test';
+import { describe, it } from 'node:test';
+import assert from 'node:assert/strict';
 import { readFileSync, readdirSync, statSync } from 'fs';
 import { resolve, join, extname, basename, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -28,21 +29,21 @@ const schema = JSON.parse(readFileSync(SCHEMA_PATH, 'utf-8'));
 const ajv = new Ajv();
 const validate = ajv.compile(schema);
 
-test.describe('Course JSON Schema Validation', () => {
+describe('Course JSON Schema Validation', () => {
   const files = walkJsonFiles(COURSES_DIR);
 
-  test('courses_list.txt matches actual directories and is sorted', () => {
+  it('courses_list.txt matches actual directories and is sorted', () => {
     const lines = readFileSync(LIST_PATH, 'utf-8').trim().split(/\r?\n/);
     const sorted = [...lines].sort((a, b) => a.localeCompare(b));
-    expect(lines).toEqual(sorted);
+    assert.deepStrictEqual(lines, sorted);
 
     const actualDirs = readdirSync(COURSES_DIR)
       .filter(e => statSync(join(COURSES_DIR, e)).isDirectory())
       .sort((a, b) => a.localeCompare(b));
-    expect(lines).toEqual(actualDirs);
+    assert.deepStrictEqual(lines, actualDirs);
   });
 
-  test('courses-meta.json matches courses_list.txt', () => {
+  it('courses-meta.json matches courses_list.txt', () => {
     const lines = readFileSync(LIST_PATH, 'utf-8').trim().split(/\r?\n/);
     let meta;
     try {
@@ -51,17 +52,14 @@ test.describe('Course JSON Schema Validation', () => {
       throw new Error(`courses-meta.json parse error: ${e.message}`);
     }
     const metaKeys = Object.keys(meta).sort((a, b) => a.localeCompare(b));
-    expect(metaKeys).toEqual(lines);
+    assert.deepStrictEqual(metaKeys, lines);
 
     for (const [id, entry] of Object.entries(meta)) {
-      expect(entry).toHaveProperty('title');
-      expect(entry).toHaveProperty('type');
-      expect(entry).toHaveProperty('chapters');
-      expect(typeof entry.title).toBe('string');
-      expect(typeof entry.type).toBe('string');
-      expect(typeof entry.chapters).toBe('number');
-      expect(entry.chapters).toBeGreaterThanOrEqual(1);
-      expect(Number.isInteger(entry.chapters)).toBe(true);
+      assert.ok(entry.title, `[${id}] missing title`);
+      assert.ok(entry.type, `[${id}] missing type`);
+      assert.ok(typeof entry.chapters === 'number', `[${id}] chapters must be a number`);
+      assert.ok(entry.chapters >= 1, `[${id}] chapters must be >= 1`);
+      assert.ok(Number.isInteger(entry.chapters), `[${id}] chapters must be an integer`);
     }
   });
 
@@ -70,7 +68,7 @@ test.describe('Course JSON Schema Validation', () => {
     const course = dirname(relPath);
     const filename = basename(filePath);
 
-    test(`${relPath}`, () => {
+    it(`${relPath}`, () => {
       const raw = readFileSync(filePath, 'utf-8');
       let data;
       try {
@@ -87,17 +85,17 @@ test.describe('Course JSON Schema Validation', () => {
         throw new Error(`Schema violations:\n${msg}`);
       }
 
-      expect(filename).toMatch(/^\d{3}\.json$/);
-      expect(data.length).toBeGreaterThanOrEqual(7);
-      expect(data.length).toBeLessThanOrEqual(12);
+      assert.ok(/^\d{3}\.json$/.test(filename), `Filename ${filename} does not match 3-digit pattern`);
+      assert.ok(data.length >= 7, `Only ${data.length} questions (minimum 7)`);
+      assert.ok(data.length <= 12, `${data.length} questions (maximum 12)`);
 
       for (let i = 0; i < data.length; i++) {
         const q = data[i];
-        expect(q.options).toContain(q.answer);
-        expect(new Set(q.options).size).toBe(4);
+        assert.ok(q.options.includes(q.answer), `[${i}] Answer "${q.answer}" not in options`);
+        assert.strictEqual(new Set(q.options).size, 4, `[${i}] Duplicate options found`);
 
         for (const opt of q.options) {
-          expect(opt).not.toMatch(POSITIONAL_REF_RE);
+          assert.ok(!POSITIONAL_REF_RE.test(opt), `[${i}] Positional reference: "${opt}"`);
         }
       }
     });

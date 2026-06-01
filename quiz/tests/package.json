@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "npx playwright test",
+    "test": "node --test *.test.mjs",
     "test:setup": "npx playwright test setup.spec.mjs",
     "test:catalog": "npx playwright test catalog.spec.mjs",
     "test:preview": "npx playwright test preview.spec.mjs",
@@ -12,8 +12,8 @@
     "test:ui": "npx playwright test ui.spec.mjs",
     "test:ai": "npx playwright test ai.spec.mjs",
     "test:visual": "npx playwright test visual.spec.mjs",
-    "test:unit": "npx playwright test unit.spec.mjs",
-    "test:schema": "npx playwright test schema.spec.mjs --config schema.config.mjs",
+    "test:unit": "node --test lib-unit.test.mjs",
+    "test:schema": "node --test schema-valid.test.mjs",
     "test:affected": "node affected-tests.mjs"
   },
   "devDependencies": {

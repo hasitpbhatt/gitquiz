@@ -1,21 +1,25 @@
 import { execSync } from 'child_process';
 import { existsSync, readFileSync } from 'fs';
 
+const UNIT_TEST_RUNNER = 'node --test';
+const PW_RUNNER = 'npx playwright test';
+
 const MAPPING = [
   { path: 'quiz/index.html', test: '' },
   { path: 'quiz/styles.css', test: '' },
   { path: 'quiz/tests/playwright.config.mjs', test: '' },
   { path: 'quiz/tests/package.json', test: '' },
   { path: 'quiz/lib/main.js', test: 'setup.spec.mjs url-params.spec.mjs' },
-  { path: 'quiz/lib/state.js', test: 'setup.spec.mjs quiz.spec.mjs unit.spec.mjs' },
-  { path: 'quiz/lib/catalog.js', test: 'catalog.spec.mjs unit.spec.mjs' },
+  { path: 'quiz/lib/state.js', test: 'setup.spec.mjs quiz.spec.mjs lib-unit.test.mjs' },
+  { path: 'quiz/lib/catalog.js', test: 'catalog.spec.mjs lib-unit.test.mjs' },
   { path: 'quiz/lib/notifications.js', test: 'setup.spec.mjs' },
   { path: 'quiz/lib/preview.js', test: 'preview.spec.mjs' },
   { path: 'quiz/lib/quiz.js', test: 'quiz.spec.mjs navigation.spec.mjs' },
   { path: 'quiz/lib/ai.js', test: 'ai.spec.mjs' },
-  { path: 'quiz/lib/sharing.js', test: 'ui.spec.mjs unit.spec.mjs' },
-  { path: 'courses/', test: 'schema.spec.mjs' },
+  { path: 'quiz/lib/sharing.js', test: 'ui.spec.mjs lib-unit.test.mjs' },
+  { path: 'courses/', test: 'schema-valid.test.mjs' },
   { path: 'quiz/tests/test-utils.mjs', test: '' },
+  { path: 'quiz/tests/test-helpers.mjs', test: 'lib-unit.test.mjs' },
   { path: 'quiz/tests/setup.spec.mjs', test: 'setup.spec.mjs' },
   { path: 'quiz/tests/catalog.spec.mjs', test: 'catalog.spec.mjs' },
   { path: 'quiz/tests/preview.spec.mjs', test: 'preview.spec.mjs' },
@@ -25,7 +29,8 @@ const MAPPING = [
   { path: 'quiz/tests/ui.spec.mjs', test: 'ui.spec.mjs' },
   { path: 'quiz/tests/ai.spec.mjs', test: 'ai.spec.mjs' },
   { path: 'quiz/tests/visual.spec.mjs', test: 'visual.spec.mjs' },
-  { path: 'quiz/tests/unit.spec.mjs', test: 'unit.spec.mjs' },
+  { path: 'quiz/tests/lib-unit.test.mjs', test: 'lib-unit.test.mjs' },
+  { path: 'quiz/tests/schema-valid.test.mjs', test: 'schema-valid.test.mjs' },
 ];
 
 function getChangedFiles() {
@@ -87,7 +92,10 @@ if (tests.length === 0) {
   process.exit(0);
 }
 
-const cmd = tests.some(t => t.includes('schema.spec.mjs'))
-  ? `npx playwright test schema.spec.mjs --config schema.config.mjs`
-  : `npx playwright test ${tests.join(' ')}`;
-console.log(cmd);
+const unitTests = tests.filter(t => t.endsWith('.test.mjs'));
+const pwTests = tests.filter(t => t.endsWith('.spec.mjs'));
+
+const cmds = [];
+if (unitTests.length > 0) cmds.push(`${UNIT_TEST_RUNNER} ${unitTests.join(' ')}`);
+if (pwTests.length > 0) cmds.push(`${PW_RUNNER} ${pwTests.join(' ')}`);
+console.log(cmds.length > 0 ? cmds.join(' && ') : 'echo "No tests to run"');
