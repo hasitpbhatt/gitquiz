@@ -49,9 +49,10 @@ async function initializeQuiz(url, prefetchedData) {
     document.getElementById('setup-container').classList.add('hidden');
     document.getElementById('preview-container').classList.add('hidden');
     document.getElementById('quiz-container').classList.remove('hidden');
-    document.getElementById('quiz-flow').classList.remove('hidden');
+    document.getElementById('quiz-flow').classList.add('hidden');
     document.getElementById('completion-screen').classList.add('hidden');
     document.getElementById('error-overlay').classList.add('hidden');
+    document.getElementById('loading-overlay').classList.remove('hidden');
     const quizFlow = document.getElementById('quiz-flow');
     quizFlow.classList.remove('screen-enter');
     void quizFlow.offsetWidth;
@@ -94,9 +95,12 @@ async function initializeQuiz(url, prefetchedData) {
         document.getElementById('module-label').title = courseName
             ? `${courseName} • ${filename}`
             : filename;
+        document.getElementById('loading-overlay').classList.add('hidden');
+        document.getElementById('quiz-flow').classList.remove('hidden');
         renderQuestion();
     } catch (err) {
         clearInterval(timerInterval);
+        document.getElementById('loading-overlay').classList.add('hidden');
         document.getElementById('error-message').innerText = err.message;
         document.getElementById('error-overlay').classList.remove('hidden');
         document.getElementById('quiz-flow').classList.add('hidden');
@@ -116,7 +120,11 @@ function renderQuestion() {
     questionStartTime = Date.now();
     
     const progPct = ((currentIdx + 1) / quizData.length) * 100;
-    document.getElementById('progress-fill').style.width = progPct + '%';
+    const fill = document.getElementById('progress-fill');
+    fill.style.width = progPct + '%';
+    const startHue = 217, endHue = 142;
+    const hue = startHue - ((startHue - endHue) * ((currentIdx + 1) / quizData.length));
+    fill.style.background = `linear-gradient(90deg, #3b82f6, hsl(${hue}, 80%, 45%))`;
     document.getElementById('question-counter').innerText = `${currentIdx + 1} / ${quizData.length}`;
 
     const topicTitle = document.getElementById('topic-title');
@@ -146,7 +154,7 @@ function renderQuestion() {
         randomizedOptions.forEach((opt, idx) => {
             const btn = document.createElement('button');
             btn.className = 'option-btn w-full p-5 text-left border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 shadow-sm flex items-center gap-3';
-            btn.innerHTML = `<span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0">${letters[idx] || (idx + 1)}</span><span class="flex-1">${escapeHtml(opt)}</span>`;
+            btn.innerHTML = `<span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0">${letters[idx] || (idx + 1)}</span><span class="flex-1">${escapeHtml(opt)}</span><span class="key-hint">${idx + 1}</span>`;
             btn.dataset.option = opt;
             btn.onclick = () => {
                 const btns = document.querySelectorAll('.option-btn');
@@ -177,8 +185,10 @@ function renderQuestion() {
                 }
                 
                 const expText = q.explanation || "Correct! Moving to next section.";
-                document.getElementById('explanation').innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4><p class="text-sm font-500">${escapeHtml(expText)}</p>`;
-                document.getElementById('explanation').classList.remove('hidden');
+                const expEl = document.getElementById('explanation');
+                expEl.innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4><p class="text-sm font-500">${escapeHtml(expText)}</p>`;
+                expEl.classList.remove('hidden');
+                setTimeout(() => expEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
                 document.getElementById('next-btn').classList.remove('hidden');
                 topicTitle.classList.remove('hidden');
                 if (cb.textContent.trim()) cb.classList.remove('hidden');
@@ -209,6 +219,7 @@ function handleNextClick() {
 
 async function directSkipModule() {
     if (!currentUrl) return;
+    if (!confirm('Skip this module? Your current progress will be lost.')) return;
     const nextUrl = currentUrl.replace(/(\d+)(?=\.json)/, (m) => 
         (parseInt(m) + 1).toString().padStart(m.length, '0')
     );
@@ -252,4 +263,23 @@ async function checkNaturalEnd() {
     } catch (e) {
         box.innerHTML = `<p class="text-slate-500">End of sequence.</p>`;
     }
+}
+
+// Pause timer when tab hidden, resume when visible (without resetting seconds)
+let _timerVisibilityBound = false;
+if (!_timerVisibilityBound) {
+    _timerVisibilityBound = true;
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            clearInterval(timerInterval);
+        } else if (!document.getElementById('quiz-container').classList.contains('hidden')) {
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                secondsElapsed++;
+                const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
+                const secs = (secondsElapsed % 60).toString().padStart(2, '0');
+                document.getElementById('timer-val').innerText = `${mins}:${secs}`;
+            }, 1000);
+        }
+    });
 }
