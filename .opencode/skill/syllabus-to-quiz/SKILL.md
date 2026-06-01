@@ -62,6 +62,7 @@ Vary across professional, personal, creative, social, philosophical domains.
 - **Two-pass**: Write all first, then read descriptions for domain clustering, diversify if 3+ consecutive in same domain
 
 ### 8. Quality Check
+- Run `npm run test:schema` from `quiz/tests/` (validates against `courses/course-schema.json` + content drift + cross-field checks)
 - All 7 fields present, answer matches option, no positional refs
 - Valid JSON, 7-12 questions per file, 001.json format
 - Difficulty mix per chapter (30-40% E, 35-45% M, 15-25% H)
@@ -75,8 +76,8 @@ Scripts are in `.opencode/skill/syllabus-to-quiz/`. Edit `dir` inside each to po
 
 | Script | Purpose |
 |--------|---------|
-| `validation.js` | Validate a single course (JSON, field presence, answer match, positional refs, courses list order) |
-| `validate_all.js` | Validate every course in `courses_list.txt` at once |
+| `validation.js` | Validate a single course (superseded by `npm run test:schema` + `courses/course-schema.json`) |
+| `validate_all.js` | Validate every course (superseded by `npm run test:schema` — all 181 files checked at once) |
 | `review_detection.js` | Detect review-only chapters (≥65% concept repetition from prior chapters) |
 | `cross_chapter_repetition.js` | Detect concepts appearing in 3+ chapters |
 | `coverage_check.js` | Verify concept inventory coverage (edit `inventory` array) |
@@ -95,4 +96,4 @@ Scripts are in `.opencode/skill/syllabus-to-quiz/`. Edit `dir` inside each to po
 ## Example Flow
 1. User provides source material → build concept inventory, group into chapters, present plan
 2. After approval: `mkdir -p courses/book-title/`, create 001-00N.json files
-3. Add to `courses_list.txt` alphabetically, run `validate_all.js`, fix issues, commit
+3. Add to `courses_list.txt` alphabetically, run `npm run test:schema` from `quiz/tests/`, fix issues, commit
