@@ -7,13 +7,13 @@ const MAPPING = [
   { path: 'quiz/tests/playwright.config.mjs', test: '' },
   { path: 'quiz/tests/package.json', test: '' },
   { path: 'quiz/lib/main.js', test: 'setup.spec.mjs url-params.spec.mjs' },
-  { path: 'quiz/lib/state.js', test: 'setup.spec.mjs quiz.spec.mjs' },
-  { path: 'quiz/lib/catalog.js', test: 'catalog.spec.mjs' },
+  { path: 'quiz/lib/state.js', test: 'setup.spec.mjs quiz.spec.mjs unit.spec.mjs' },
+  { path: 'quiz/lib/catalog.js', test: 'catalog.spec.mjs unit.spec.mjs' },
   { path: 'quiz/lib/notifications.js', test: 'setup.spec.mjs' },
   { path: 'quiz/lib/preview.js', test: 'preview.spec.mjs' },
   { path: 'quiz/lib/quiz.js', test: 'quiz.spec.mjs navigation.spec.mjs' },
   { path: 'quiz/lib/ai.js', test: 'ai.spec.mjs' },
-  { path: 'quiz/lib/sharing.js', test: 'ui.spec.mjs' },
+  { path: 'quiz/lib/sharing.js', test: 'ui.spec.mjs unit.spec.mjs' },
   { path: 'courses/', test: '' },
   { path: 'quiz/tests/test-utils.mjs', test: '' },
   { path: 'quiz/tests/setup.spec.mjs', test: 'setup.spec.mjs' },
@@ -25,6 +25,7 @@ const MAPPING = [
   { path: 'quiz/tests/ui.spec.mjs', test: 'ui.spec.mjs' },
   { path: 'quiz/tests/ai.spec.mjs', test: 'ai.spec.mjs' },
   { path: 'quiz/tests/visual.spec.mjs', test: 'visual.spec.mjs' },
+  { path: 'quiz/tests/unit.spec.mjs', test: 'unit.spec.mjs' },
 ];
 
 function getChangedFiles() {

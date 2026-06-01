@@ -12,6 +12,7 @@
     "test:ui": "npx playwright test ui.spec.mjs",
     "test:ai": "npx playwright test ai.spec.mjs",
     "test:visual": "npx playwright test visual.spec.mjs",
+    "test:unit": "npx playwright test unit.spec.mjs",
     "test:affected": "node affected-tests.mjs"
   },
   "devDependencies": {

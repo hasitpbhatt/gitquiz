@@ -24,7 +24,9 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │       ├── worker.js                 # Mistral AI proxy
 │       └── wrangler.toml             # CF Worker config
 ├── .opencode/
+│   ├── skill/hasits-plan/SKILL.md        # Plan persistence for LLM context survival
 │   └── skill/syllabus-to-quiz/SKILL.md   # Workflow for converting courses to quizzes
+├── .hasit/                           # Auto-generated checkpoints (LLM plan tree, do not commit)
 ├── opencode.json                     # OpenCode AI config
 
 ```
@@ -116,19 +118,32 @@ Serve `quiz/` with any static file server. No build step needed.
 
 ## Testing
 
-Playwright end-to-end tests live in `quiz/tests/`.
+Playwright end-to-end tests live in `quiz/tests/`. Tests are domain-split into spec files:
+
+| Test | Command | Module(s) |
+|------|---------|-----------|
+| Setup | `npm run test:setup` | `main.js`, `state.js`, `notifications.js` |
+| Catalog | `npm run test:catalog` | `catalog.js` |
+| Preview | `npm run test:preview` | `preview.js` |
+| Quiz | `npm run test:quiz` | `quiz.js`, `state.js` |
+| URL Params | `npm run test:params` | `main.js` |
+| UI/Sharing | `npm run test:ui` | `sharing.js` |
+| AI | `npm run test:ai` | `ai.js` |
+| Visual | `npm run test:visual` | visual-only |
+| Affected | `npm run test:affected` | (auto-detect via `git diff`) |
+| **All** | `npx playwright test` | — |
+
+First-time setup:
 
 ```bash
 cd quiz/tests
 npm install
-npx playwright test
+npx playwright install chromium
 ```
 
-Screenshots are captured after every test and saved to `quiz/tests/test-results/`. To run a specific test file:
+Screenshots are captured after every test and saved to `quiz/tests/test-results/`.
 
-```bash
-npx playwright test visual.spec.mjs
-```
+> **Note**: All tests are Playwright-based. The modules are vanilla browser scripts (no `export`/`import`), so traditional Node.js unit tests aren't possible without refactoring. `page.evaluate()`-based unit-style tests could be added in the future to test individual functions in isolation.
 
 ## AI Explain Feature
 
