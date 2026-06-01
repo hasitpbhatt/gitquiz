@@ -57,14 +57,31 @@ function filterCatalog() {
     renderCatalogOptions(filtered);
 }
 
+function getOrCreateUrlSection() {
+    let section = document.getElementById('url-section');
+    if (section) return section;
+    section = document.createElement('div');
+    section.id = 'url-section';
+    section.className = 'hidden space-y-2 -mt-3';
+    section.innerHTML = `
+        <input type="text" id="quiz-url" placeholder="https://.../module.json"
+            class="w-full p-3 rounded-xl border-2 border-slate-200 dark:border-slate-700 bg-transparent outline-none focus:border-blue-500">
+        <div class="p-2 bg-slate-100 dark:bg-slate-800/50 rounded-lg border border-dashed border-slate-300 dark:border-slate-600">
+            <span class="text-[10px] font-700 text-slate-400 uppercase">Tip:</span>
+            <code id="example-link" onclick="fillExample()" class="text-[11px] text-blue-500 cursor-pointer hover:underline">https://raw.githubusercontent.com/hasitpbhatt/gitquiz/refs/heads/main/courses/book-atomic-habits/001.json</code>
+        </div>`;
+    document.getElementById('url-toggle-btn').parentElement.after(section);
+    return section;
+}
+
 function fillExample() {
+    const section = getOrCreateUrlSection();
     document.getElementById('quiz-url').value = document.getElementById('example-link').innerText;
-    const section = document.getElementById('url-section');
     if (section.classList.contains('hidden')) toggleUrlInput();
 }
 
 function toggleUrlInput() {
-    const section = document.getElementById('url-section');
+    const section = getOrCreateUrlSection();
     const btn = document.getElementById('url-toggle-btn');
     section.classList.toggle('hidden');
     btn.innerText = section.classList.contains('hidden') ? '\uD83D\uDD17 Custom URL' : '\u2715 Custom URL';

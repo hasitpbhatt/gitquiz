@@ -22,7 +22,8 @@ function shuffleArray(array) {
 
 async function handleStart() {
     let finalUrl = "";
-    const urlVal = document.getElementById('quiz-url').value.trim();
+    const urlInput = document.getElementById('quiz-url');
+    const urlVal = urlInput ? urlInput.value.trim() : '';
     if (urlVal) {
         finalUrl = urlVal;
     } else {

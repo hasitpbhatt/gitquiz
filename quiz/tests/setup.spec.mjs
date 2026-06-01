@@ -17,7 +17,7 @@ test('setup screen shows catalog after load', async ({ page }) => {
 test('custom URL input toggles visibility', async ({ page }) => {
   await page.goto('/');
 
-  await expect(page.locator('#url-section')).toBeHidden();
+  await expect(page.locator('#url-section')).toHaveCount(0);
   await page.click('#url-toggle-btn', { force: true });
   await expect(page.locator('#url-section')).toBeVisible();
   await page.click('#url-toggle-btn', { force: true });
@@ -42,7 +42,7 @@ test('handleStart shows notification when no selection and no URL', async ({ pag
     document.getElementById('course-dropdown').selectedIndex = -1;
   });
 
-  await page.click('text=Begin Challenge');
+  await page.click('text=Open Vault');
 
   const notification = page.locator('.fixed.bottom-4');
   await expect(notification).toBeVisible();
