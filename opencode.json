@@ -12,14 +12,14 @@
         "deepseek-v4-flash-free": {
           "limit": {
             "context": 90000,
-            "input": 50000,
+            "input": 90000,
             "output": 8192
           }
         },
         "nemotron-3-super-free": {
           "limit": {
             "context": 90000,
-            "input": 50000,
+            "input": 90000,
             "output": 8192
           }
         }

@@ -15,7 +15,7 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   └── coursera-<title>/...
 ├── quiz/                             # Frontend application
 │   ├── index.html                    # Single-page quiz app (vanilla JS + Tailwind)
-│   ├── script.js                     # All quiz logic (707 lines)
+│   ├── lib/                          # Modular JS (state, catalog, preview, quiz, etc.)
 │   ├── styles.css                    # Custom styling
 │   ├── tests/                        # Playwright end-to-end tests
 │   │   ├── visual.spec.mjs           # Visual and behavior tests

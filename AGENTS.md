@@ -24,6 +24,9 @@ Catalog → Preview (preview-container) → Quiz (quiz-flow) → Results + Achie
 - `#module-label` — quiz header span between "← Menu" and "Skip Module". Add `max-width: 140px` + mobile truncation; without it "Skip Module" gets pushed off-screen.
 - `#topic-title`, `#description-text`, `#content-box` — wrapping OK, no truncation.
 
+### Course ID conventions
+- IDs follow `{type}-{slug}` (e.g., `book-git-basics`, `podcast-clean-code`). The type prefix is stripped from display via `.replace(/^(book|podcast|coursera|course)-/i, '')` in `renderCatalogOptions()`, `showPreview()`, and quiz headers. Emoji prefix (`📘`/`🎙`/`📖`) shown only when `activeTypeFilter === 'all'`.
+
 ### Styling conventions
 - **Tailwind CSS via CDN** (no build step) — utility classes in HTML.
 - **Custom CSS** (`styles.css`): CSS variables (`--bg-main` etc.) + `@media (prefers-color-scheme: dark)`.

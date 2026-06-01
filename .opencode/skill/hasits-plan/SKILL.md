@@ -64,6 +64,7 @@ Started: 2026-05-31T17:00:00Z
   "sessionId": "a1b2c3d4",
   "version": 1,
   "currentPath": "",
+  "callIndex": 0,
   "status": "in_progress",
   "task": "Deploy microservice",
   "startedAt": "2026-05-31T17:00:00Z",
@@ -72,6 +73,8 @@ Started: 2026-05-31T17:00:00Z
 ```
 
 `sessionId` is a unique identifier generated at task start. `version` is an integer incremented on every state update (detects corruption / partial writes). `currentPath` is the dot-path of the deepest completed step, or `""` at the start. It always points to a **leaf** (a step with no sub-steps).
+
+A `callIndex` field in `state.json` tracks the cumulative call count since task start. On every tool call block (one or more parallel tools), increment it. This is used to enforce the **every-5-calls checkpoint rule**.
 
 > **`plan.md` is the source of truth for progress.** `state.json` is a fast-read hint. If they disagree, trust `plan.md` — scan it depth-first for the first `[ ]` leaf.
 
@@ -83,12 +86,13 @@ Started: 2026-05-31T17:00:00Z
    ```
    Change `[ ]` to `[x]`. A parent is implicitly done when all its children are `[x]` — no need to mark the parent itself.
 
-2. **Update `state.json`** — increment `version`, set `currentPath`:
+2. **Update `state.json`** — increment `version` and `callIndex`, set `currentPath`:
    ```json
    {
      "sessionId": "a1b2c3d4",
      "version": 14,
      "currentPath": "1.2.2",
+     "callIndex": 42,
      "status": "in_progress",
      "task": "Deploy microservice",
      "startedAt": "2026-05-31T17:00:00Z",
@@ -137,7 +141,15 @@ Renumbering rule: when inserting between `1.2.2` and `1.2.3`:
 
 If the plan has many levels, you can also start a new top-level section instead of deep-inserting to avoid cascading renumbers — use judgment.
 
-### 4. On Resume After Compaction
+### 4. After Each Tool-Call Block
+
+After every tool-call block (one or more parallel tools):
+
+1. **Increment `callIndex`** in `state.json` by 1.
+2. **If `callIndex % 5 == 0`**: perform a full periodic checkpoint (see §5 below).
+3. **Otherwise**: just update `callIndex` in `state.json` (no need to rewrite `plan.md` every time).
+
+### 5. On Resume After Compaction
 
 The LLM has lost prior context. Before asking the user anything:
 
@@ -153,7 +165,19 @@ The LLM has lost prior context. Before asking the user anything:
 
 6. Continue from that state without asking the user for further confirmation.
 
-### 5. On Task Completion
+### 5. Periodic Checkpoint (Every 5 Tool Calls)
+
+To survive compaction even between state transitions, checkpoint after every 5 tool-call blocks:
+
+1. **Before the first tool call in a block, check `callIndex`**: if `callIndex % 5 == 0` and `callIndex > 0`, flush state before acting.
+2. **Increment `callIndex`** in `state.json` on every tool-call block (any batch of parallel tool invocations counts as one block).
+3. **Rewrite `plan.md`** with current progress markers (`[x]` for all completed leaves).
+4. **Rewrite `state.json`** with incremented `version` and current `lastAction`.
+5. **No need** to update sub-plan files (those change only on step transitions).
+
+This ensures that even if no step completed, the state is persisted every 5 calls so compaction doesn't lose context.
+
+### 7. On Task Completion
 
 1. Update `state.json`:
    ```json
@@ -172,6 +196,7 @@ The LLM has lost prior context. Before asking the user anything:
 | `sessionId` | string | Unique session ID generated on task start (e.g. short UUID or `<timestamp>-<rand>`) |
 | `version` | int | Monotonic counter incremented on every write. Detects corruption or partial writes. |
 | `currentPath` | string | Dot-path of last completed leaf, e.g. `"3.2.4.5"` or `""` (hint only — trust `plan.md`) |
+| `callIndex` | int | Cumulative tool-call count. Incremented each tool-call block. Used to enforce the every-5-calls checkpoint rule. |
 | `status` | string | `"in_progress"` or `"completed"` |
 | `task` | string | Short task description |
 | `startedAt` | string | ISO 8601 timestamp |
@@ -198,6 +223,7 @@ Detail for any step node (branch or leaf): files to change, commands to run, exp
 - **Depth-first traversal**: when finding the next step, scan `plan.md` depth-first, left-to-right. Pick the first `[ ]` leaf.
 - **Dynamic sub-trees**: appending new children to an existing step is fine. Update `plan.md`, write new sub-plan files, renumber affected siblings.
 - **Keep summaries brief** (1-2 sentences per action) to minimize file size.
+- **Checkpoint every 5 tool calls**: increment `callIndex` in `state.json` after each tool-call block. When `callIndex % 5 == 0`, flush plan.md and state.json. Never let more than 5 consecutive tool-call blocks go without persisting state.
 - **Cleanup is mandatory**: always delete `.hasit/` on completion. Leftover checkpoints confuse future sessions.
 
 ## Integration with opencode Compaction
