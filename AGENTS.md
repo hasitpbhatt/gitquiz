@@ -67,6 +67,8 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - `#preview-badge` — course ID badge. Has `truncate max-w-[200px]`
     - `#preview-title` — course name (`h2`). Add mobile truncation in `styles.css`
     - `#module-label` — quiz header span between "← Menu" and "Skip Module". Add `max-width: 140px` + mobile truncation; without it "Skip Module" gets pushed off-screen
+    - `#course-dropdown option` — truncated with `text-overflow: ellipsis` on mobile; each `<option>` gets a `title` attribute via `renderCatalogOptions()` for full-name hover tooltip
+    - `#begin-btn-wrapper` — `position: fixed; bottom: 0` on mobile with `padding-bottom: env(safe-area-inset-bottom)`; `.glass-card` adds 80px bottom padding to prevent content overlap
     - `#topic-title`, `#description-text`, `#content-box` — wrapping OK, no truncation
 4. **Styling**:
     - Tailwind CSS via CDN (no build step) — utility classes in HTML
@@ -85,7 +87,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 4. **Daily streak**: Stored in localStorage key `quizDailyStreak` as `{ lastDate: "YYYY-MM-DD", count: <number> }`. Updated on quiz start and completion.
 5. **Options shuffling**: Options are shuffled via Fisher-Yates inside `shuffleArray()` in `quiz.js`. Answer matching is done against the original (pre-shuffle) text.
 6. **Module chaining**: After the last question of a chapter, if the course has more chapters, "Start Next Module" button appears. If it was the last chapter, "Return to Catalog" appears with trophy animation.
-7. **Custom URL loading**: If the user pastes a URL, validate it contains `courses` and `gitquiz` in the path. Load JSON directly from that URL.
+7. **Custom URL loading**: The user can paste any JSON URL — no path validation required. The URL section (`#url-section`, `#quiz-url`) is **lazy-created** by `getOrCreateUrlSection()` in `catalog.js` on first `toggleUrlInput()` call — it does not exist in initial HTML. Code that references `#quiz-url` must guard with `document.getElementById('quiz-url')` null check.
 8. **AI Explain flow**: Button `#explain-more-btn` triggers `askAI()`. POSTs to `MISTRAL_PROXY_URL` with question context, user's answer, and correctness. Shows response in `#ai-response`. Falls back gracefully on failure.
 9. **Sharing context**:
     - **Completion screen** → share certificate + score

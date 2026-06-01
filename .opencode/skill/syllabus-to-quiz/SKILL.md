@@ -79,12 +79,12 @@ General-purpose scripts are in `quiz/scripts/`. Run with `node quiz/scripts/<scr
 
 | Script | Purpose |
 |--------|---------|
-| `validate.js` | Validate a single course — edit `dir` inside first (superseded by `npm run test:schema` + `courses/course-schema.json`) |
+| `validate.js` | Validate a single course — arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `validate-all.js` | Validate every course (superseded by `npm run test:schema`) |
 | `difficulty-tally.js` | Auto-tally difficulty distribution across all courses (reads `difficulty` field) |
-| `difficulty-audit.js` | Print all questions with E/M/H blank brackets for labeling — edit `dir` first |
-| `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array and `dir` |
-| `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `dir` and `conceptGroups` |
+| `difficulty-audit.js` | Print all questions with E/M/H blank brackets for labeling — arg: `<course-dir>` (default: `courses/course-identifier`) |
+| `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array; arg: `<course-dir>` (default: `courses/course-identifier`) |
+| `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `conceptGroups`; arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single JSON input and produces properly split `001.json`–`00N.json` files, validates, creates dirs, updates `courses_list.txt` and `courses-meta.json` (including `chapters` count). Supports `--dry-run`. |
 
 ## Technical Notes

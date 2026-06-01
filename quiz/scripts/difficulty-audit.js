@@ -1,5 +1,5 @@
 const fs = require('fs');
-const dir = 'courses/course-identifier';
+const dir = process.argv[2] || 'courses/course-identifier';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
 console.log('=== DIFFICULTY AUDIT ===');
 console.log('Label each question: E (Easy), M (Medium), H (Hard)\n');

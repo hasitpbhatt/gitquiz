@@ -1,5 +1,5 @@
 const fs = require('fs');
-const dir = 'courses/course-identifier';
+const dir = process.argv[2] || 'courses/course-identifier';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
 const allText = files.flatMap(f => JSON.parse(fs.readFileSync(dir + '/' + f, 'utf8')))
   .map(q => (q.question + ' ' + q.content + ' ' + q.description + ' ' + q.explanation).toLowerCase())

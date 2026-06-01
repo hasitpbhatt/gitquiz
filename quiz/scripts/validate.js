@@ -1,5 +1,5 @@
 const fs = require('fs');
-const dir = 'courses/course-identifier';
+const dir = process.argv[2] || 'courses/course-identifier';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
 let total = 0, errs = [];
 const REQUIRED_FIELDS = ['question', 'content', 'description', 'options', 'answer', 'explanation', 'difficulty'];

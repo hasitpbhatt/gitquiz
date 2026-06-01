@@ -1,4 +1,4 @@
-# LearnLeap (gitquiz)
+# MindVault (gitquiz)
 
 Interactive quiz platform for reviewing books, podcasts, and courses through active recall. Live at [quiz.hasit.in](https://quiz.hasit.in/).
 
@@ -37,7 +37,7 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   └── proxy/                        # Cloudflare Worker for AI explanations
 │       └── worker.js                 # Mistral AI proxy (POST, returns model response)
 ├── quiz/scripts/                     # Node.js utility scripts (run from project root)
-│   ├── validate.js                   # Validate a single course (edit `dir` inside first)
+│   ├── validate.js                   # Validate a single course (arg: `<course-dir>`) 
 │   ├── validate-all.js               # Validate all courses: chapter counts, metadata sync, answer-in-options
 │   ├── generate-course.mjs           # CLI generator: input.json → split chapter files + metadata update
 │   ├── difficulty-tally.js           # Tally difficulty distribution (E/M/H) across all courses
@@ -141,12 +141,12 @@ Utility scripts in `quiz/scripts/`. Run with `node quiz/scripts/<name>` from the
 
 | Script | Purpose |
 |--------|---------|
-| `validate.js` | Validate a single course — edit `dir` variable inside first |
+| `validate.js` | Validate a single course — arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `validate-all.js` | Validate every course: chapter counts (7-12), metadata sync, answer-in-options, positional refs, filename format |
 | `difficulty-tally.js` | Auto-tally E/M/H distribution across all courses |
-| `difficulty-audit.js` | Print all questions with blank E/M/H brackets for manual labeling — edit `dir` first |
-| `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array and `dir` |
-| `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `dir` and `conceptGroups` |
+| `difficulty-audit.js` | Print all questions with blank E/M/H brackets for manual labeling — arg: `<course-dir>` (default: `courses/course-identifier`) |
+| `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array; arg: `<course-dir>` (default: `courses/course-identifier`) |
+| `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `conceptGroups`; arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single input JSON (id, chapters[] with title+seq+questions[]), produces split 001-00N.json files, validates, creates dir, updates `courses_list.txt` and `courses-meta.json`. Supports `--dry-run`. |
 
 ## Adding a New Course
@@ -195,7 +195,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 ```
 
 ### Page Screens
-1. **Setup/Catalog Screen** (`#setup-container`): Search bar, type filter buttons (All/Books/Podcasts/Courses), course dropdown, Custom URL toggle, Begin Challenge button, daily streak badge
+1. **Setup/Catalog Screen** (`#setup-container`): Search bar, type filter buttons (All/Books/Podcasts/Courses), course dropdown (options truncated on mobile, title attribute shows full name on hover), Custom URL toggle (lazy-created — not in DOM until first click), Open Vault button (sticky at bottom on mobile with safe-area-inset-bottom), daily streak badge
 2. **Preview Screen** (`#preview-container`): Course badge, title, question count, first question preview with options, Start Quiz / Cancel buttons
 3. **Quiz Screen** (`#quiz-container`): Progress bar, score/streak/timer stat cards, quiz flow with question, options (shuffled), explanation panel, AI Explain button, Continue button
 4. **Completion Screen** (`#completion-screen`): Trophy animation, final score, total time, Download Achievement Card button, Start Next Module / Return to Catalog
@@ -203,7 +203,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 ### Key DOM Elements
 | Element | Purpose |
 |---------|---------|
-| `#course-dropdown` | Course selector (`select[multiple]` with `w-full`, max-height 180px on mobile) |
+| `#course-dropdown` | Course selector (`select[multiple]` with `w-full`, max-height 240px on mobile; text-overflow: ellipsis; overflow-x: hidden; each `<option>` has `title` attribute for full name on hover) |
 | `#catalog-search` | Search input |
 | `.type-filter-btn[data-type]` | Type filter buttons (all, book, podcast, coursera) |
 | `#daily-streak-badge` | Streak notification (hidden when 0) |
