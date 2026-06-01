@@ -35,7 +35,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 
 1. **Skills first**: Load `hasits-plan` for any multi-step task (3+ steps or any task that may trigger compaction). Load `syllabus-to-quiz` for all course content work. Never create/modify quiz JSON outside the skill.
 2. **Generator for 5+ chapters**: Use `node quiz/scripts/generate-course.mjs input.json` to create chapters from a structured input file (avoids PowerShell quoting issues). Supports `--dry-run` for preview. The generator auto-updates `courses_list.txt` and `courses-meta.json`. Delete `input.json` after use.
-3. **Validate before committing**: Run both `node quiz/scripts/validate-all.js` and `npm run test:schema` before committing course content changes.
+3. **Validate before committing**: Run both `node quiz/scripts/validate-all.js` and `npm run test:schema` before committing course content changes. A pre-commit hook (`.githooks/pre-commit`) auto-runs both when course files are staged; enable it with `git config core.hooksPath .githooks` after cloning.
 4. **Don't validate courses for code-only changes**: If no files under `courses/` were touched (`git diff --name-only` has no `courses/` entries), skip `validate-all.js` and `test:schema`. Only run Playwright tests relevant to the changed lib files. Batching schema validation on every code change wastes time.
 5. **PowerShell execution policy**: Prefix failing commands with `powershell -ExecutionPolicy Bypass -Command "..."`.
 6. **All paths relative to project root** unless stated otherwise.
@@ -74,6 +74,8 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - JS toggles classes (`hidden`, `correct`, `wrong`, `screen-enter`, `score-pop`)
     - Mobile overrides use `@media (max-width: 640px)`
 5. **Screen transition animation**: The `screen-enter` CSS class triggers `fadeSlideIn` animation (0.3s ease-out). Applied to preview, quiz-flow, and completion-screen on reveal.
+6. **Progress bar transition**: `#progress-fill` has `transition: width 0.3s ease` for smooth animation.
+7. **Focus indicators**: `:focus-visible` outline (2px `var(--accent)`, offset 2px) on `#catalog-search`, `#quiz-url`, `#share-btn`, `#url-toggle-btn`, `#course-dropdown`.
 
 ### Quiz Engine Conventions
 
