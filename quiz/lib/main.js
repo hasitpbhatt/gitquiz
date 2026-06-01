@@ -24,3 +24,30 @@
 })();
 
 document.getElementById('share-btn')?.addEventListener('click', shareHandler);
+
+document.addEventListener('keydown', (e) => {
+  if (e.target.matches('input, select, textarea')) return;
+  if (document.getElementById('error-overlay')?.classList.contains('hidden') === false) return;
+
+  const quizHidden = document.getElementById('quiz-container')?.classList.contains('hidden');
+  const previewHidden = document.getElementById('preview-container')?.classList.contains('hidden');
+
+  if (!quizHidden) {
+    const opts = document.querySelectorAll('#options-bin .option-btn');
+    const idx = parseInt(e.key, 10) - 1;
+    if (idx >= 0 && idx < opts.length && !opts[idx].disabled) {
+      opts[idx].click();
+      return;
+    }
+    if (e.key === 'Enter') {
+      const nextBtn = document.getElementById('next-btn');
+      if (nextBtn && !nextBtn.classList.contains('hidden')) {
+        nextBtn.click();
+      }
+    }
+  }
+
+  if (!previewHidden && e.key === 'Enter') {
+    document.querySelector('button[onclick="startFromPreview()"]')?.click();
+  }
+});
