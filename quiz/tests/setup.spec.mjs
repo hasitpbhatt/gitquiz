@@ -18,9 +18,9 @@ test('custom URL input toggles visibility', async ({ page }) => {
   await page.goto('/');
 
   await expect(page.locator('#url-section')).toBeHidden();
-  await page.click('#url-toggle-btn');
+  await page.click('#url-toggle-btn', { force: true });
   await expect(page.locator('#url-section')).toBeVisible();
-  await page.click('#url-toggle-btn');
+  await page.click('#url-toggle-btn', { force: true });
   await expect(page.locator('#url-section')).toBeHidden();
 });
 

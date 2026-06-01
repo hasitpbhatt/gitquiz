@@ -170,4 +170,11 @@ body { background-color: var(--bg-main); color: var(--text-main); }
         text-overflow: ellipsis;
         max-width: 140px;
     }
+    #course-dropdown {
+        max-height: 180px;
+    }
+    #url-toggle-btn {
+        position: relative;
+        z-index: 1;
+    }
 }
