@@ -33,6 +33,7 @@ function renderCatalogOptions(items) {
             displayName = `${prefix} ${displayName}`;
         }
         opt.innerHTML = displayName;
+        opt.title = displayName;
         dropdown.appendChild(opt);
     });
     if (items.length > 0) dropdown.selectedIndex = 0;

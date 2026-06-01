@@ -20,6 +20,7 @@ Prioritized by user impact.
 
 ## Tier 3 — UX Polish
 
+- [x] ⚡ **Dark mode toggle** — Manual sun/moon toggle (persisted in localStorage) overrides system preference.
 - [ ] 🔷 **Hints system** — Progressive hints before revealing the answer.
 - [ ] 🔷 **Offline caching** — Service worker for catalog + recently loaded modules.
 

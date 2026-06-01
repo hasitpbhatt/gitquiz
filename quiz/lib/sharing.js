@@ -91,7 +91,7 @@ function shareSetup() {
     modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
     modal.innerHTML = `
         <div class="bg-white dark:bg-slate-800 rounded-xl p-6 max-w-sm w-full mx-4 text-center">
-            <div class="text-4xl mb-3">??</div>
+            <div class="text-4xl mb-3">🧠</div>
             <h3 class="text-lg font-bold mb-1">Share Quiz Portal</h3>
             <p class="text-sm text-slate-500 dark:text-slate-400 mb-6">Share this quiz link or download a promo image</p>
             <div class="space-y-3">
@@ -126,11 +126,11 @@ function downloadPromoImage(btn) {
     const container = document.createElement('div');
     container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:600px;';
     container.innerHTML = `
-        <div style="font-size:80px;margin-bottom:16px;">??</div>
-        <div style="font-size:36px;font-weight:800;margin-bottom:8px;">LearnLeap</div>
-        <div style="font-size:16px;opacity:0.6;max-width:400px;margin-bottom:40px;">Read. Retain. Rise.</div>
+        <div style="font-size:80px;margin-bottom:16px;">🧠</div>
+        <div style="font-size:36px;font-weight:800;margin-bottom:8px;">MindVault</div>
+        <div style="font-size:16px;opacity:0.6;max-width:400px;margin-bottom:40px;">Master. Recall. Succeed.</div>
         <div style="font-size:13px;font-family:monospace;padding:14px 24px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:12px;color:#60a5fa;max-width:100%;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(shareUrl)}</div>
-        <div style="margin-top:auto;font-size:14px;opacity:0.4;">LearnLeap � quiz.hasit.in</div>
+        <div style="margin-top:auto;font-size:14px;opacity:0.4;">MindVault · quiz.hasit.in</div>
     `;
     document.body.appendChild(container);
     if (typeof html2canvas !== 'function') {
@@ -213,12 +213,12 @@ function shareQuestion() {
     const container = document.createElement('div');
     container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:50px 60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:left;display:flex;flex-direction:column;min-height:600px;';
     container.innerHTML = `
-        <div style="text-align:center;"><span class="qc-badge">??</span></div>
+        <div style="text-align:center;"><span class="qc-badge">🧠</span></div>
         <div style="text-align:center;" class="qc-module">${escapeHtml(modLabel)}</div>
         ${q.question ? `<div class="qc-title">${escapeHtml(q.question)}</div>` : ''}
         ${q.description ? `<div class="qc-description">${escapeHtml(q.description)}</div>` : ''}
         <div class="qc-options"></div>
-        <div style="text-align:center;margin-top:auto;" class="qc-footer">LearnLeap</div>
+        <div style="text-align:center;margin-top:auto;" class="qc-footer">MindVault</div>
     `;
     const optsDiv = container.querySelector('.qc-options');
     if (q.options) {
@@ -261,7 +261,7 @@ function shareCertificate() {
     const container = document.createElement('div');
     container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:center;';
     container.innerHTML = `
-        <div class="ach-badge">???</div>
+        <div class="ach-badge">🛡️</div>
         <div class="ach-title">Course Mastery Achieved</div>
         <div style="font-family:'Great Vibes',cursive;font-size:82px;color:#3b82f6;margin:10px 0;display:block;">${escapeHtml(userName)}</div>
         <div style="font-size:16px;opacity:0.6;margin:10px 0;">has successfully completed</div>
@@ -281,7 +281,7 @@ function shareCertificate() {
                 <span class="ach-stat-lab">Date Verified</span>
             </div>
         </div>
-        <div class="ach-footer">Verified by LearnLeap � quiz.hasit.in</div>
+        <div class="ach-footer">Verified by MindVault · quiz.hasit.in</div>
     `;
     document.body.appendChild(container);
     captureAndShareImage(container, `Achievement_${courseFolderName}_M${moduleNum}.png`);
