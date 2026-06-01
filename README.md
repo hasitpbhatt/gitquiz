@@ -130,6 +130,7 @@ Playwright end-to-end tests live in `quiz/tests/`. Tests are domain-split into s
 | UI/Sharing | `npm run test:ui` | `sharing.js` |
 | AI | `npm run test:ai` | `ai.js` |
 | Visual | `npm run test:visual` | visual-only |
+| Unit | `npm run test:unit` | `state.js`, `catalog.js`, `sharing.js` (isolated functions) |
 | Affected | `npm run test:affected` | (auto-detect via `git diff`) |
 | **All** | `npx playwright test` | — |
 
@@ -143,7 +144,7 @@ npx playwright install chromium
 
 Screenshots are captured after every test and saved to `quiz/tests/test-results/`.
 
-> **Note**: All tests are Playwright-based. The modules are vanilla browser scripts (no `export`/`import`), so traditional Node.js unit tests aren't possible without refactoring. `page.evaluate()`-based unit-style tests could be added in the future to test individual functions in isolation.
+> **Note**: All tests are Playwright-based. The modules are vanilla browser scripts (no `export`/`import`), so traditional Node.js unit tests aren't possible without refactoring. `page.evaluate()`-based unit-style tests are used instead to test individual functions in isolation.
 
 ## AI Explain Feature
 
