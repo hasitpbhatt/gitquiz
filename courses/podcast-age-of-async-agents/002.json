@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Devin Commit Percentage Growth",
+    "content": "Devin's share of commits at customer companies grew from approximately 16% in early 2025 to 80% by mid-2026.",
+    "description": "Your CTO is skeptical about adopting Devin and asks what percentage of commits Devin actually produces at companies that use it. According to Cognition's data in mid-2026, what is the typical share?",
+    "options": [
+      "About 10%",
+      "About 40%",
+      "About 60%",
+      "About 80%"
+    ],
+    "answer": "About 80%",
+    "explanation": "Devin's share of commits grew from roughly 16% to 80% as the product matured. This dramatic growth reflects both improving model capabilities and the compounding effect of taking on larger, more complex tasks over time.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Devin 7x PR Growth",
+    "content": "Devin's merged PR volume grew approximately 7x over the course of 2025, from early adoption to widespread usage.",
+    "description": "At a board meeting, Walden Yan reports on Devin's growth trajectory in 2025. What was the magnitude of Devin's merged PR growth?",
+    "options": [
+      "2x",
+      "4x",
+      "7x",
+      "15x"
+    ],
+    "answer": "7x",
+    "explanation": "Devin's merged PR volume grew approximately 7x in 2025, driven by both more customers adopting Devin and each customer using it for increasingly complex tasks.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Cognition Series D Funding",
+    "content": "Cognition raised a $1B Series D round at a $26B valuation, with a $492M annualized run rate.",
+    "description": "You are evaluating Cognition as a potential investment. What were the key metrics from their Series D announcement?",
+    "options": [
+      "$200M Series D at $5B valuation, $100M run rate",
+      "$500M Series D at $15B valuation, $250M run rate",
+      "$1B Series D at $26B valuation, $492M run rate",
+      "$2B Series D at $50B valuation, $800M run rate"
+    ],
+    "answer": "$1B Series D at $26B valuation, $492M run rate",
+    "explanation": "Cognition raised a $1B Series D at a $26B valuation with a $492M annualized run rate. This made it one of the most valuable AI coding tool companies.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What Cognition Sells",
+    "content": "Cognition sells far more than just the Devin product. They sell infrastructure, onboarding, integrations, and enterprise adoption support.",
+    "description": "A competitor asks whether Cognition just sells a $20/month agent tool and how they are worth $26B. What is missing from this assessment of what Cognition actually sells?",
+    "options": [
+      "Cognition only sells Devin licenses",
+      "Cognition sells infrastructure, onboarding, integrations, and enterprise adoption, not just the software",
+      "Cognition makes most of its money from advertising",
+      "Cognition sells hardware servers for running agents"
+    ],
+    "answer": "Cognition sells infrastructure, onboarding, integrations, and enterprise adoption, not just the software",
+    "explanation": "Walden says companies consistently underestimate the work around the product. Cognition sells infrastructure (VMs, networking), onboarding (setting up repos, secrets, policies), integrations (Slack, GitHub, Jira), and consulting to drive adoption.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Twenty Dollar per Seat Difficulty",
+    "content": "Selling Devin at $20/seat is described as the hardest part of the business because enterprise buyers compare it to $10/month GitHub Copilot without understanding the fundamentally different value proposition.",
+    "description": "Your startup builds a background agent tool. An enterprise prospect compares your $20/seat tool to GitHub Copilot at $10/month. According to Walden Yan, what makes this pricing comparison particularly difficult?",
+    "options": [
+      "$20 is too cheap for what the product does",
+      "Enterprise buyers cannot distinguish between tab completion and autonomous agent capabilities",
+      "All agent tools are priced at $20/seat as a standard rate",
+      "The target market is individuals, not companies"
+    ],
+    "answer": "$20 is too cheap for what the product does",
+    "explanation": "Walden Yan acknowledges that $20/seat is the most painful thing, not because it is expensive, but because it is too cheap for the value delivered. The product replaces entire workflows that would cost thousands, but buyers anchor on the familiar $10 Copilot price.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "OpenInspect Origin",
+    "content": "OpenInspect was founded by Cole Murray as an open-source background agent system, inspired by Devin's approach but built for community contribution and transparency.",
+    "description": "A developer wants to contribute to an open-source background agent platform. Which company builds the leading open-source alternative to Devin?",
+    "options": [
+      "Codeium",
+      "OpenInspect",
+      "Sourcegraph",
+      "Replit"
+    ],
+    "answer": "OpenInspect",
+    "explanation": "OpenInspect, founded by Cole Murray, is the open-source background agent system. It provides an alternative to Devin that the community can inspect, modify, and extend.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Open Source vs Commercial Agent Economics",
+    "content": "The economics of open-source agents differ from commercial ones. Open-source requires users to handle their own infrastructure, while commercial agents bundle infrastructure, support, and integration costs.",
+    "description": "Your CTO asks whether you should use OpenInspect (open source) or Devin (commercial). Which is the most important economic consideration in this decision?",
+    "options": [
+      "Open source is always cheaper because there is no license fee",
+      "Commercial agents bundle VM infrastructure, onboarding, and support; open source requires you to manage these yourself",
+      "OpenInspect has more features than Devin",
+      "Devin is free for small teams"
+    ],
+    "answer": "Commercial agents bundle VM infrastructure, onboarding, and support; open source requires you to manage these yourself",
+    "explanation": "The real cost of open-source agents includes managing VM infrastructure, networking, secrets, and ongoing maintenance. Commercial agents like Devin bundle these costs. As Walden notes, the work around the product is where the real cost and value live.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Company Adoption as Distribution",
+    "content": "OpenInspect gains distribution through companies adopting it as their internal agent platform and contributing back improvements, rather than through a direct sales team.",
+    "description": "Cole Murray is asked how OpenInspect competes with Devin's enterprise sales team. What is OpenInspect's primary distribution strategy?",
+    "options": [
+      "Paid advertising on developer blogs",
+      "Companies adopt it internally and contribute improvements back to the project",
+      "A freemium SaaS tier with paid upgrades",
+      "Reselling through cloud marketplaces"
+    ],
+    "answer": "Companies adopt it internally and contribute improvements back to the project",
+    "explanation": "OpenInspect grows through enterprise adoption: companies implement it as their internal agent platform, and their engineering improvements flow back to the open-source project. This community-driven model contrasts with Cognition's direct sales approach.",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "SRE Auto-Triage as Use Case",
+    "content": "SRE auto-triage uses agents to investigate production incidents automatically, analyzing logs, metrics, and recent changes to determine the root cause before alerting human engineers.",
+    "description": "Your SRE team is overwhelmed by alerts. You want an agent that automatically investigates each alert, checks recent deploys, and surfaces the likely cause. What use case does this describe?",
+    "options": [
+      "Automated deployment",
+      "SRE auto-triage, agents investigating incidents before alerting humans",
+      "Chaos engineering",
+      "Capacity planning"
+    ],
+    "answer": "SRE auto-triage, agents investigating incidents before alerting humans",
+    "explanation": "SRE auto-triage has agents automatically investigate alerts by analyzing logs, metrics, recent code changes, and infrastructure state. The agent surfaces a diagnosis with evidence, allowing human SREs to respond faster with more context.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "PMs Shipping Code from Slack",
+    "content": "Product managers can ship code through agents without writing code themselves by describing the desired behavior in Slack, and the agent builds, tests, and creates the PR autonomously.",
+    "description": "A product manager who cannot code wants to make a simple UI change. They describe it in Slack and an agent builds it. What paradigm shift does this represent?",
+    "options": [
+      "No-code platforms are replacing agents",
+      "PMs shipping code from Slack via agents, describing behavior without writing code",
+      "Agents replacing product managers",
+      "Automated code generation from design files"
+    ],
+    "answer": "PMs shipping code from Slack via agents, describing behavior without writing code",
+    "explanation": "This represents a fundamental shift where non-engineers can ship code by describing what they want in natural language. The agent handles implementation, testing, and PR creation. Walden notes that PMs at Cognition ship code this way regularly.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Customer Support via Agents",
+    "content": "Customer support agents can autonomously investigate user-reported bugs, reproduce the issue, and either deploy a fix or escalate with a detailed report to the engineering team.",
+    "description": "A customer reports a bug. An agent reproduces it, finds the root cause, and deploys a fix without human engineers getting involved. What type of agent workflow is this?",
+    "options": [
+      "Automated ticketing",
+      "Customer support via agents, autonomously triaging and fixing reported issues",
+      "Chatbot response",
+      "FAQ generation"
+    ],
+    "answer": "Customer support via agents, autonomously triaging and fixing reported issues",
+    "explanation": "When a customer reports a bug, the agent can reproduce the issue, trace the root cause, implement a fix, run tests, and deploy. If the fix is beyond the agent's confidence threshold, it escalates with a detailed report for human engineers.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Windsurf 2.0 Local-to-Cloud Handoff",
+    "content": "Windsurf 2.0 introduced a local-to-cloud handoff where a developer starts work locally in the IDE and seamlessly transfers the context and session to a cloud agent for continued execution.",
+    "description": "A developer starts debugging locally but realizes the work will take hours. They seamlessly transfer the entire context, including all conversation and open files, to a cloud-based agent. What product introduced this pattern?",
+    "options": [
+      "GitHub Copilot",
+      "Windsurf 2.0 with local-to-cloud handoff",
+      "Claude Code",
+      "Cursor"
+    ],
+    "answer": "Windsurf 2.0 with local-to-cloud handoff",
+    "explanation": "Windsurf 2.0 pioneered the local-to-cloud handoff pattern where a developer can start working in their local IDE and transfer the entire context, conversation history, and workspace state to a cloud-based agent for continued background execution.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Agent Budgets per Engineer",
+    "content": "Agent budgets range from $1,000 to $5,000 per engineer per month as companies allocate specific spending limits for agent usage, separate from traditional SaaS tooling budgets.",
+    "description": "Your CFO asks what companies typically spend on agent tools per engineer. According to industry data shared in the podcast, what is the typical monthly agent budget range?",
+    "options": [
+      "$10 to $50 per engineer per month",
+      "$1,000 to $5,000 per engineer per month",
+      "$100,000 to $500,000 per engineer per month",
+      "$0, agents are free"
+    ],
+    "answer": "$1,000 to $5,000 per engineer per month",
+    "explanation": "Companies are allocating $1,000 to $5,000 per engineer per month for agent usage. This is a new budget category that did not exist before, reflecting the value organizations see in autonomous coding agents.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hybrid Frontier/Sub-Frontier Systems",
+    "content": "Hybrid systems combine expensive frontier models (Opus, GPT-5) for complex reasoning with cheaper sub-frontier models for routine tasks, optimizing cost while maintaining quality on hard problems.",
+    "description": "Your agent budget is $3,000/month but using GPT-5 for every task would cost $10,000. How do hybrid agent systems solve this cost problem?",
+    "options": [
+      "Use only free open-source models",
+      "Use expensive frontier models for complex reasoning and cheaper models for routine tasks",
+      "Reduce the number of agents",
+      "Cache all responses"
+    ],
+    "answer": "Use expensive frontier models for complex reasoning and cheaper models for routine tasks",
+    "explanation": "Hybrid systems route complex reasoning tasks to expensive frontier models while using cheaper sub-frontier models for straightforward tasks like formatting, linting, or simple refactors. This keeps average cost manageable without sacrificing quality on hard problems.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "SmartFind Model Routing",
+    "content": "SmartFind is a model routing system that automatically determines whether a task needs a frontier model or can be handled by a cheaper model, based on the complexity of the specification.",
+    "description": "Your agent platform needs to decide which model to use for each task without human input. What system automatically routes tasks to the right model tier?",
+    "options": [
+      "Load balancer",
+      "SmartFind, which evaluates task complexity and routes to the appropriate model",
+      "Rate limiter",
+      "Model ensemble"
+    ],
+    "answer": "SmartFind, which evaluates task complexity and routes to the appropriate model",
+    "explanation": "SmartFind analyzes each task specification to determine its complexity. Simple tasks (formatting, known patterns) go to cheap models. Complex tasks (new features, architectural changes) go to frontier models. This optimization is key to making agent budgets sustainable.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Autonomous Coding Factories",
+    "content": "Autonomous coding factories are the vision of organizations where agents handle the majority of code production autonomously, with humans focusing on specification, review, and architectural decisions.",
+    "description": "A tech CEO envisions a future where coding is done primarily by agents and humans focus on specs and architecture. What is this organizational model called?",
+    "options": [
+      "DevOps",
+      "Autonomous coding factories with agents handling most code production",
+      "Agile development",
+      "Waterfall development"
+    ],
+    "answer": "Autonomous coding factories with agents handling most code production",
+    "explanation": "The autonomous coding factory is the endpoint of the async agent trend: organizations where agents produce most code independently. Humans shift from writing code to writing specs, reviewing agent output, and making high-level architectural decisions, as described by Michael Truell's factory quote.",
+    "difficulty": "hard"
+  }
+]

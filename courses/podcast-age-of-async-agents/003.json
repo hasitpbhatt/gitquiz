@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Harness in the Box",
+    "content": "Harness in the box means the agent has full control over its environment including networking, infrastructure, and the ability to provision new resources.",
+    "description": "You are architecting an agent system. Your team debates whether the agent should control its own infrastructure. What is the harness in the box approach?",
+    "options": [
+      "The agent runs in a read-only environment",
+      "The agent has full control over its infrastructure including networking and provisioning",
+      "The agent is limited to editing code only",
+      "The agent cannot access the internet"
+    ],
+    "answer": "The agent has full control over its infrastructure including networking and provisioning",
+    "explanation": "Harness in the box gives the agent full control over its environment, including the ability to create VMs, manage networking, install packages, and run arbitrary commands. Devin uses this approach.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Harness out of the Box",
+    "content": "Harness out of the box means the agent gets a restricted, pre-configured harness and can only use tools exposed by the platform, with no control over the underlying infrastructure.",
+    "description": "Your platform team wants to restrict what an agent can do for security reasons. Which approach gives the agent a fixed set of tools with no control over the underlying environment?",
+    "options": [
+      "Harness in the box",
+      "Harness out of the box",
+      "Sandbox escape",
+      "Privilege escalation"
+    ],
+    "answer": "Harness out of the box",
+    "explanation": "Harness out of the box provides the agent with a controlled, pre-configured set of tools. The agent has no ability to modify its environment or access infrastructure not explicitly exposed. This is more secure but limits the agent's capabilities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Brain-Machine Separation",
+    "content": "Brain-machine separation is an architectural principle where the agent's reasoning (brain) runs separately from the execution environment (machine), enabling independent scaling and failure isolation.",
+    "description": "You are designing an agent platform and want to ensure that if the execution environment crashes, the reasoning process survives. Which architectural pattern enables this?",
+    "options": [
+      "Monolithic agent deployment",
+      "Brain-machine separation",
+      "Model parallelism",
+      "Hot swapping"
+    ],
+    "answer": "Brain-machine separation",
+    "explanation": "Brain-machine separation decouples the agent's planning/reasoning (brain) from its execution environment (machine). If a VM or container crashes, the brain persists and can restart or adapt the execution.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Security in In-the-Box Architecture",
+    "content": "The major security concern with harness in the box is that giving the agent full system control means a compromised agent could access or modify anything in the environment.",
+    "description": "Your security team is worried about agents having too much power. What is the primary security risk of the harness in the box architecture?",
+    "options": [
+      "The agent cannot install packages",
+      "A compromised agent has full access to the environment and everything in it",
+      "The agent runs too slowly",
+      "The agent cannot access any network resources"
+    ],
+    "answer": "A compromised agent has full access to the environment and everything in it",
+    "explanation": "With harness in the box, the agent has full system control. If the model is manipulated or goes rogue, it can access any file, secret, or network resource in that environment. This is why scoped secrets and strict isolation are critical.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "State Management Trade-offs",
+    "content": "In-the-box architectures make state management simpler (everything is in one place) but harder to replicate or snapshot. Out-of-the-box makes state explicit but requires more infrastructure.",
+    "description": "Your team needs to decide between architectures. Which is the correct trade-off between the two harness approaches?",
+    "options": [
+      "In-the-box makes state simpler but harder to snapshot; out-of-the-box makes state explicit but requires more scaffolding",
+      "In-the-box is always better for security",
+      "Out-of-the-box has no state management concerns",
+      "Both approaches handle state identically"
+    ],
+    "answer": "In-the-box makes state simpler but harder to snapshot; out-of-the-box makes state explicit but requires more scaffolding",
+    "explanation": "With harness in the box, all state lives inside the environment (simple but hard to replicate/restore). With harness out of the box, state must be explicitly managed and passed between tools (more scaffolding but easier to snapshot and restore).",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Scoped Secrets in Devin",
+    "content": "Devin uses scoped secrets where each repository gets its own set of credentials, preventing agents from accessing secrets from other repos.",
+    "description": "Your company has 50 repos in one Devin instance. An engineer worries about an agent accidentally leaking credentials. How does Devin handle secrets to prevent cross-repo access?",
+    "options": [
+      "All repos share the same global token",
+      "Each repository has its own scoped set of credentials",
+      "Secrets are hardcoded in agent prompts",
+      "Devin does not support secrets at all"
+    ],
+    "answer": "Each repository has its own scoped set of credentials",
+    "explanation": "Devin uses scoped secrets: each repo gets its own isolated credentials. Even if an agent in one repo is compromised, it cannot access tokens from other repositories.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Control Plane vs Worker Plane",
+    "content": "The control plane orchestrates agent tasks and manages state, while the worker plane runs the actual agent execution in isolated environments.",
+    "description": "You are explaining your agent architecture to a new hire. What is the function of the worker plane?",
+    "options": [
+      "It manages user authentication and billing",
+      "It runs the actual agent execution in isolated environments",
+      "It stores training data for the model",
+      "It generates marketing copy"
+    ],
+    "answer": "It runs the actual agent execution in isolated environments",
+    "explanation": "The worker plane is where agent execution happens, running code, installing dependencies, testing. It is separated from the control plane which handles orchestration, routing, and state management.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Reusing Existing Dev Infrastructure",
+    "content": "Instead of building custom agent infrastructure from scratch, many teams reuse their existing Docker setup and simply have the agent run Docker Compose, the same way a developer would locally.",
+    "description": "Your engineering team already has Docker Compose files for local development. How can you leverage this for your agent platform instead of building custom infrastructure?",
+    "options": [
+      "Docker Compose is incompatible with agent platforms",
+      "You can have the agent run Docker Compose just as a developer would on their local machine",
+      "You need to rewrite all Docker Compose files for agents",
+      "Agents cannot use Docker at all"
+    ],
+    "answer": "You can have the agent run Docker Compose just as a developer would on their local machine",
+    "explanation": "Walden's advice is to just use Docker Compose, reuse your existing development infrastructure instead of building agent-specific infrastructure. The agent can run Docker Compose the same way a developer does, minimizing custom platform work.",
+    "difficulty": "hard"
+  }
+]

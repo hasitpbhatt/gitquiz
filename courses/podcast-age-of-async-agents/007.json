@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Original Don't Build Multi-Agents Advice",
+    "content": "The original advice from agent builders was do not build multi-agent systems because the complexity of coordination, debugging, and failure modes outweighed the benefits.",
+    "description": "A colleague says they want to build a system with 10 specialized agents working together. What was the original advice from experienced agent platform builders?",
+    "options": [
+      "Use as many agents as possible for maximum throughput",
+      "Do not build multi-agent systems, the coordination complexity outweighs the benefits",
+      "Build at least 5 agents for any production system",
+      "Multi-agent systems are always more reliable than single agents"
+    ],
+    "answer": "Do not build multi-agent systems, the coordination complexity outweighs the benefits",
+    "explanation": "The original advice was to avoid multi-agent systems entirely. The coordination overhead, debugging difficulty, and emergent failure modes made them harder to manage than a single capable agent. This advice has evolved as agent technology matured.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Shift to Working Multi-Agent Setups",
+    "content": "The industry shifted from don't build multi-agents to practical implementations as models improved and patterns emerged for managing sub-agents, including manager-worker regimes.",
+    "description": "A year later, the same colleague points out that Devin and OpenInspect now use multiple agents. What changed to make multi-agent systems practical?",
+    "options": [
+      "Nothing changed, multi-agent systems are still impractical",
+      "Models improved and patterns for managing sub-agents with manager-worker regimes emerged",
+      "Hardware became cheaper",
+      "The number of programming languages decreased"
+    ],
+    "answer": "Models improved and patterns for managing sub-agents with manager-worker regimes emerged",
+    "explanation": "As models became more reliable (especially after the December 2025 inflection), practical patterns for multi-agent systems emerged. The manager-worker regime, where one agent coordinates sub-agents, proved more manageable than earlier swarm approaches.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sub-Agents and Context Management",
+    "content": "Sub-agents allow breaking large tasks into parallel subtasks, each with its own focused context, preventing the context window from overflowing while maintaining progress across multiple fronts.",
+    "description": "Your agent tries to refactor 50 files but runs out of context window space. How do sub-agents solve the context management problem?",
+    "options": [
+      "Sub-agents each get a larger context window",
+      "Sub-agents break large tasks into focused subtasks, each with its own manageable context",
+      "Sub-agents store context in a database",
+      "Sub-agents do not use context at all"
+    ],
+    "answer": "Sub-agents break large tasks into focused subtasks, each with its own manageable context",
+    "explanation": "Each sub-agent focuses on a specific subtask, so its context window only needs to contain information relevant to that subtask. The parent agent orchestrates results from all sub-agents, keeping its own context manageable.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Manager-Worker vs Swarm Architectures",
+    "content": "Manager-worker regimes have a single coordinating agent that delegates to worker agents, which proved more reliable than swarm architectures where agents communicate peer-to-peer.",
+    "description": "Your architect proposes two designs: one with a coordinating manager agent and workers, another where all agents communicate with each other directly. Which architecture is more reliable for production agent systems?",
+    "options": [
+      "Swarm architecture with peer-to-peer communication",
+      "Manager-worker regime with a single coordinating agent delegating to workers",
+      "Both are equally reliable",
+      "Neither architecture works in practice"
+    ],
+    "answer": "Manager-worker regime with a single coordinating agent delegating to workers",
+    "explanation": "The manager-worker regime has proven more reliable because a single coordinating agent maintains coherent state and makes consistent delegation decisions. Swarm architectures with peer-to-peer agent communication introduce coordination failures and conflicting decisions.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Agent Pushback",
+    "content": "Agent pushback is when an agent refuses or questions a human request because it conflicts with the agent's understanding of the codebase or best practices, rather than blindly executing.",
+    "description": "You ask the agent to implement a feature in a way that would break the existing architecture. To your surprise, the agent refuses and suggests a better approach. What is this behavior called?",
+    "options": [
+      "Bug in the agent",
+      "Agent pushback, the model questioning a human request based on its understanding",
+      "Model hallucination",
+      "Prompt injection"
+    ],
+    "answer": "Agent pushback, the model questioning a human request based on its understanding",
+    "explanation": "Agent pushback is a desirable behavior where the model questions or refuses a human request when it detects a conflict with the codebase's architecture, security best practices, or previously established constraints. It shows the agent has genuine understanding, not just obedience.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Two-Week Vibe Coding Decay Rule",
+    "content": "The two-week vibe coding decay rule states that after about two weeks of unrestricted AI code generation without review, a codebase becomes unmaintainable because the AI introduces inconsistent patterns and technical debt.",
+    "description": "A startup lets their agents write code freely for a month. By week three, the codebase is a mess of inconsistent patterns. What rule predicts this outcome?",
+    "options": [
+      "The Pareto principle",
+      "The two-week vibe coding decay rule",
+      "Brooks' law",
+      "Conway's law"
+    ],
+    "answer": "The two-week vibe coding decay rule",
+    "explanation": "The two-week vibe coding decay rule states that after approximately two weeks of unrestricted AI code generation without human review, the codebase becomes unmaintainable. AI agents introduce inconsistent patterns that compound into unmanageable technical debt.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Codebase Regression to Worst Engineer",
+    "content": "Without review and standards, AI-generated code regresses to the quality of the worst engineer on the team because agents learn from the lowest quality patterns in the codebase and have no inherent quality judgment.",
+    "description": "A team notices their code quality is declining despite using the latest AI models. What phenomenon describes why AI code tends to match the worst rather than the best patterns in a codebase?",
+    "options": [
+      "Selection bias",
+      "Codebase regression to the worst engineer, agents learn from all patterns including the lowest quality ones",
+      "Survivorship bias",
+      "Dunning-Kruger effect"
+    ],
+    "answer": "Codebase regression to the worst engineer, agents learn from all patterns including the lowest quality ones",
+    "explanation": "AI agents learn from the entire codebase, including the worst patterns. Without explicit quality guardrails, agents reproduce and amplify low-quality patterns, effectively regressing the codebase toward the quality of the weakest code present.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Boundary Contracts Between Modules",
+    "content": "Boundary contracts are explicit interface agreements between modules that define what each module expects and guarantees, making it safe for different agents to work on different parts simultaneously.",
+    "description": "Two agents work on connected services independently. One changes an API, the other breaks. How can you prevent this with proper multi-agent architecture?",
+    "options": [
+      "Have only one agent work at a time",
+      "Define boundary contracts with explicit interface agreements between modules",
+      "Use a monorepo",
+      "Write more unit tests"
+    ],
+    "answer": "Define boundary contracts with explicit interface agreements between modules",
+    "explanation": "Boundary contracts are explicit agreements between modules about their interfaces. When each agent works within its own module and respects the contracts, multiple agents can work in parallel without breaking each other's code. Tests should verify contract compliance.",
+    "difficulty": "hard"
+  }
+]
