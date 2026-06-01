@@ -8,7 +8,7 @@ See `.opencode/skill/syllabus-to-quiz/SKILL.md` for quiz creation workflow, fiel
 - **Skills first**: 
   - Use `hasits-plan` at the start of any multi-step task (3+ steps or any task that may trigger compaction). It persists a hierarchical plan tree to `.hasit/` so work survives context compaction.
   - Use `syllabus-to-quiz` for all course content work. Never create/modify quiz JSON outside it.
-- **5+ chapters**: Write a `gen_course.js` at root, delete after use. Avoid PowerShell for JSON generation.
+- **5+ chapters**: Use `node quiz/scripts/generate-course.mjs input.json` to create chapters from a structured input file (avoids PowerShell quoting issues). Supports `--dry-run` for preview. Delete the input file after use.
 - **Single-file edits**: Validate each file before moving to the next. No batch edits across chapters.
 - **All paths relative to project root** unless stated otherwise.
 - **PowerShell execution policy**: Prefix failing commands with `powershell -ExecutionPolicy Bypass -Command "..."`.

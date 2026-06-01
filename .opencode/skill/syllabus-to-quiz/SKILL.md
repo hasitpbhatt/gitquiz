@@ -72,21 +72,19 @@ Vary across professional, personal, creative, social, philosophical domains.
 
 ## Reusable Scripts
 
-Scripts are in `.opencode/skill/syllabus-to-quiz/`. Edit `dir` inside each to point to your course, then run with `node .opencode/skill/syllabus-to-quiz/<script>.js` from the gitquiz root.
+General-purpose scripts are in `quiz/scripts/`. Run with `node quiz/scripts/<script>.js` or `node quiz/scripts/<script>.mjs` from the gitquiz root.
 
 | Script | Purpose |
 |--------|---------|
-| `validation.js` | Validate a single course (superseded by `npm run test:schema` + `courses/course-schema.json`) |
-| `validate_all.js` | Validate every course (superseded by `npm run test:schema` — all 181 files checked at once) |
-| `review_detection.js` | Detect review-only chapters (≥65% concept repetition from prior chapters) |
-| `cross_chapter_repetition.js` | Detect concepts appearing in 3+ chapters |
-| `coverage_check.js` | Verify concept inventory coverage (edit `inventory` array) |
-| `difficulty_audit.js` | Print all questions with E/M/H blank brackets for labeling |
-| `difficulty_tally.js` | Validate difficulty distribution after labeling |
-| `refactor_difficulty.js` | Scaffold for upgrading questions to hard using the five techniques |
-| `fix_influence.js` / `fix_remaining.js` | Batch fix templates (rename, move, replace questions across chapters) |
+| `validate.js` | Validate a single course — edit `dir` inside first (superseded by `npm run test:schema` + `courses/course-schema.json`) |
+| `validate-all.js` | Validate every course (superseded by `npm run test:schema`) |
+| `difficulty-tally.js` | Auto-tally difficulty distribution across all courses (reads `difficulty` field) |
+| `difficulty-audit.js` | Print all questions with E/M/H blank brackets for labeling — edit `dir` first |
+| `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array and `dir` |
+| `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `dir` and `conceptGroups` |
+| `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single JSON input and produces properly split `001.json`–`00N.json` files, validates, creates dirs, updates `courses_list.txt`. Supports `--dry-run`. |
 
-**Generator script**: For courses with 5+ chapters, write a `gen_course.js` file at root to create all chapters at once (avoids PowerShell quoting issues). Delete it after validation.
+Legacy scripts remaining in `.opencode/skill/syllabus-to-quiz/` (historical one-offs, not for general use): `review_detection.js`, `difficulty_tally.js`, `refactor_difficulty.js`, `fix_influence.js`, `fix_remaining.js`.
 
 ## Technical Notes
 - **BOM issue (critical)**: PowerShell `Set-Content -Encoding UTF8` prepends BOM → breaks JSON. Always use `fs.writeFileSync(path, JSON.stringify(data), 'utf8')`.
