@@ -51,6 +51,10 @@ async function initializeQuiz(url, prefetchedData) {
     document.getElementById('quiz-flow').classList.remove('hidden');
     document.getElementById('completion-screen').classList.add('hidden');
     document.getElementById('error-overlay').classList.add('hidden');
+    const quizFlow = document.getElementById('quiz-flow');
+    quizFlow.classList.remove('screen-enter');
+    void quizFlow.offsetWidth;
+    quizFlow.classList.add('screen-enter');
 
     try {
         let raw;
@@ -228,6 +232,10 @@ async function checkNaturalEnd() {
     
     document.getElementById('quiz-flow').classList.add('hidden');
     document.getElementById('completion-screen').classList.remove('hidden');
+    const compEl = document.getElementById('completion-screen');
+    compEl.classList.remove('screen-enter');
+    void compEl.offsetWidth;
+    compEl.classList.add('screen-enter');
     const box = document.getElementById('transition-actions');
     box.innerHTML = '<p class="text-xs text-slate-400 font-600 italic">Scanning for following modules...</p>';
 

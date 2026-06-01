@@ -12,6 +12,10 @@ async function showPreviewScreen(url, previewIndex = 0) {
 
     document.getElementById('setup-container').classList.add('hidden');
     document.getElementById('preview-container').classList.remove('hidden');
+    const previewEl = document.getElementById('preview-container');
+    previewEl.classList.remove('screen-enter');
+    void previewEl.offsetWidth;
+    previewEl.classList.add('screen-enter');
 
     const parts = url.split('/');
     const filename = parts.pop().replace('.json', '');

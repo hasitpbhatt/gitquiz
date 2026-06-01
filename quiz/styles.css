@@ -145,6 +145,14 @@ body { background-color: var(--bg-main); color: var(--text-main); }
     animation: score-pop 0.35s ease-out;
 }
 
+@keyframes fadeSlideIn {
+    0% { opacity: 0; transform: translateY(12px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.screen-enter {
+    animation: fadeSlideIn 0.3s ease-out;
+}
+
 /* Preview Screen */
 #preview-container { transition: all 0.3s ease; }
 .preview-option {
