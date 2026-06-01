@@ -25,3 +25,35 @@ function escapeHtml(str) {
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
 }
+
+function getTodayStr() {
+    return new Date().toISOString().slice(0, 10);
+}
+
+function updateDailyStreak() {
+    const today = getTodayStr();
+    let data;
+    try {
+        data = JSON.parse(localStorage.getItem('quizDailyStreak')) || {};
+    } catch {
+        data = {};
+    }
+    if (data.lastDate === today) {
+        return data.count || 0;
+    }
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    const yesterdayStr = yesterday.toISOString().slice(0, 10);
+    const count = data.lastDate === yesterdayStr ? (data.count || 0) + 1 : 1;
+    localStorage.setItem('quizDailyStreak', JSON.stringify({ lastDate: today, count }));
+    return count;
+}
+
+function getDailyStreak() {
+    try {
+        const data = JSON.parse(localStorage.getItem('quizDailyStreak')) || {};
+        return data.count || 0;
+    } catch {
+        return 0;
+    }
+}

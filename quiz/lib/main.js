@@ -2,6 +2,14 @@
 
 ;(async () => {
   await loadCatalog();
+  const streakCount = getDailyStreak();
+  if (streakCount > 0) {
+    const badge = document.getElementById('daily-streak-badge');
+    if (badge) {
+      document.getElementById('daily-streak-count').textContent = streakCount;
+      badge.classList.remove('hidden');
+    }
+  }
   const params = new URLSearchParams(window.location.search);
   const courseParam = params.get('course');
   const qParam = params.get('q');

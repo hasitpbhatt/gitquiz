@@ -37,6 +37,7 @@ async function handleStart() {
 }
 
 async function initializeQuiz(url, prefetchedData) {
+    updateDailyStreak();
     if (url.includes("github.com") && !url.includes("raw.githubusercontent.com")) {
         url = url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/").replace("/tree/", "/");
     }
@@ -222,6 +223,7 @@ async function directSkipModule() {
 
 async function checkNaturalEnd() {
     clearInterval(timerInterval);
+    updateDailyStreak();
     const finalTime = document.getElementById('timer-val').innerText;
     document.getElementById('final-score-val').innerText = score.toLocaleString();
     document.getElementById('final-timer-val').innerText = finalTime;
