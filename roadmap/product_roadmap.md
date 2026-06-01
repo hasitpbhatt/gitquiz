@@ -11,14 +11,11 @@ Prioritized by user impact.
 
 ## Tier 2 — Engagement & Retention
 
-- [ ] **Daily streaks** — "Study streak: 5 days" to drive habit formation.
 - [ ] **Spaced repetition review** — Schedule re-quizzes of past mistakes (SM-2 / Leitner).
 - [ ] **Difficulty-aware adaptation** — `difficulty` field exists per question but is unused. Adapt based on performance.
 
 ## Tier 3 — UX Polish
 
-- [ ] **Keyboard shortcuts** (1–4 to select, Enter to continue).
-- [ ] **Screen transition animations** — Setup → Preview → Quiz feels abrupt.
 - [ ] **Hints system** — Progressive hints before revealing the answer.
 - [ ] **Offline caching** — Service worker for catalog + recently loaded modules.
 

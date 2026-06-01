@@ -29,7 +29,6 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 ├── .opencode/
 │   ├── skill/hasits-plan/SKILL.md        # Plan persistence for LLM context survival
 │   └── skill/syllabus-to-quiz/SKILL.md   # Workflow for converting courses to quizzes
-├── .hasit/                           # Auto-generated checkpoints (LLM plan tree, do not commit)
 ├── opencode.json                     # OpenCode AI config
 
 ```
@@ -181,6 +180,23 @@ The quiz app is hosted at [quiz.hasit.in](https://quiz.hasit.in/). Content is se
 To deploy the frontend:
 1. Push changes to the `main` branch
 2. If using Cloudflare Pages / GitHub Pages, the site redeploys automatically
+
+## Features
+
+- **Course catalog** with search, type filters (book/podcast/coursera), and type-prefix-stripped display names
+- **Preview screen** showing course description, chapter list, and start button
+- **Quiz flow** with multiple-choice options, letter badges, difficulty-tagged questions, and score tracking
+- **Keyboard shortcuts** (1–4 to select options, Enter to continue/start)
+- **Screen transition animations** between setup → preview → quiz → completion screens
+- **Daily streaks** — localStorage-backed streak count displayed on the setup screen, updated on quiz start and completion
+- **Share scorecards** — Web Share API with auto-generated PNG card via html2canvas
+- **AI Explain** — Mistral API via Cloudflare Worker proxy for question explanations
+- **URL-based sharing** — `?course=`, `?q=`, `?c=` params for deep-linking to specific courses, questions, and chapters
+- **Custom URL input** — Load any quiz JSON from an arbitrary URL
+- **Auto-start from URL** — `?course=` param bypasses the catalog and starts the quiz immediately
+- **Responsive design** — Mobile-first with Tailwind CSS, dark mode support, mobile overflow handling
+- **Schema-validated course format** — 7-field question structure validated via CI
+- **CI pipeline** — GitHub Actions with validate-all, schema, and full Playwright test suite
 
 ## Tech Stack
 

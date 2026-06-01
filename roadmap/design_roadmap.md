@@ -20,7 +20,6 @@ Prioritized by user-facing impact.
 
 ## Tier 3 — Motion & Micro-interactions
 
-- [ ] **Screen transitions** — Setup → Preview → Quiz → Completion should animate (slide, fade, scale).
 - [ ] **Answer feedback animation** — Current correct/wrong is instant color swap. A brief scale + checkmark/cross animation would feel more rewarding.
 - [ ] **Score pop animation** — Exists in CSS (`score-pop`) but could be punchier — particle burst or confetti on streaks.
 - [ ] **Progress bar animation** — Currently snaps to new width. Should tween.
