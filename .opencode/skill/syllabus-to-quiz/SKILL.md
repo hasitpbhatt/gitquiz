@@ -87,7 +87,7 @@ General-purpose scripts are in `quiz/scripts/`. Run with `node quiz/scripts/<scr
 | `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `dir` and `conceptGroups` |
 | `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single JSON input and produces properly split `001.json`–`00N.json` files, validates, creates dirs, updates `courses_list.txt` and `courses-meta.json` (including `chapters` count). Supports `--dry-run`. |
 
-Legacy scripts remaining in `.opencode/skill/syllabus-to-quiz/` (historical one-offs, not for general use): `review_detection.js`, `difficulty_tally.js`, `refactor_difficulty.js`, `fix_influence.js`, `fix_remaining.js`.
+Legacy scripts remaining in `.opencode/skill/syllabus-to-quiz/` (historical one-offs, not for general use): `review_detection.js`, `difficulty_tally.js`, `refactor_difficulty.js`, `fix_influence.js`.
 
 ## Technical Notes
 - **BOM issue (critical)**: PowerShell `Set-Content -Encoding UTF8` prepends BOM → breaks JSON. Always use `fs.writeFileSync(path, JSON.stringify(data), 'utf8')`.
