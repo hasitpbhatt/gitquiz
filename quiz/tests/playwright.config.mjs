@@ -5,6 +5,7 @@ export default defineConfig({
   testMatch: '*.spec.mjs',
   timeout: 30000,
   fullyParallel: false,
+  workers: 1,
   retries: 0,
   use: {
     baseURL: 'http://localhost:8765',
@@ -28,7 +29,7 @@ export default defineConfig({
   webServer: {
     command: 'python -m http.server 8765 --directory ../../quiz',
     port: 8765,
-    reuseExistingServer: true,
+    reuseExistingServer: false,
     timeout: 10000,
   },
 });

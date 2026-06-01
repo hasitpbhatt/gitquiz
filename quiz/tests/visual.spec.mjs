@@ -63,7 +63,7 @@ test.beforeEach(async ({ page }) => {
   await setupMocks(page);
 });
 
-test('setup screen shows when no params given', async ({ page }) => {
+test('setup screen shows when no params given', { tag: '@visual' }, async ({ page }) => {
   await page.goto('/');
 
   await expect(page.locator('#setup-container')).toBeVisible();
@@ -71,7 +71,7 @@ test('setup screen shows when no params given', async ({ page }) => {
   await expect(page.locator('#quiz-container')).toBeHidden();
 });
 
-test('setup screen shows when q param given without course', async ({ page }) => {
+test('setup screen shows when q param given without course', { tag: '@visual' }, async ({ page }) => {
   await page.goto('/?q=1');
 
   await expect(page.locator('#setup-container')).toBeVisible();
@@ -79,7 +79,7 @@ test('setup screen shows when q param given without course', async ({ page }) =>
   await expect(page.locator('#quiz-container')).toBeHidden();
 });
 
-test('setup screen shows when c param given without course', async ({ page }) => {
+test('setup screen shows when c param given without course', { tag: '@visual' }, async ({ page }) => {
   await page.goto('/?c=2');
 
   await expect(page.locator('#setup-container')).toBeVisible();
@@ -87,7 +87,7 @@ test('setup screen shows when c param given without course', async ({ page }) =>
   await expect(page.locator('#quiz-container')).toBeHidden();
 });
 
-test('preview screen shows with course and q param', async ({ page }) => {
+test('preview screen shows with course and q param', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
 
   await expect(page.locator('#preview-container')).toBeVisible();
@@ -105,7 +105,7 @@ test('preview screen shows with course and q param', async ({ page }) => {
   await expect(page.getByRole('button', { name: 'Start Quiz' })).toBeVisible();
 });
 
-test('preview screen shows for different chapter via c param', async ({ page }) => {
+test('preview screen shows for different chapter via c param', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1&c=2');
 
   await expect(page.locator('#preview-container')).toBeVisible();
@@ -116,7 +116,7 @@ test('preview screen shows for different chapter via c param', async ({ page }) 
   await expect(options).toHaveCount(4);
 });
 
-test('quiz screen without q param starts quiz directly', async ({ page }) => {
+test('quiz screen without q param starts quiz directly', { tag: ['@visual', '@quiz'] }, async ({ page }) => {
   await page.goto('/?course=test-course');
 
   await expect(page.locator('#quiz-container')).toBeVisible();
@@ -129,7 +129,7 @@ test('quiz screen without q param starts quiz directly', async ({ page }) => {
   await expect(options).toHaveCount(4);
 });
 
-test('quiz screen with c param starts from chapter 2', async ({ page }) => {
+test('quiz screen with c param starts from chapter 2', { tag: ['@visual', '@quiz', '@params'] }, async ({ page }) => {
   await page.goto('/?course=test-course&c=2');
 
   await expect(page.locator('#quiz-container')).toBeVisible();
@@ -140,7 +140,7 @@ test('quiz screen with c param starts from chapter 2', async ({ page }) => {
   await expect(options).toHaveCount(4);
 });
 
-test('preview Start Quiz button transitions to quiz screen', async ({ page }) => {
+test('preview Start Quiz button transitions to quiz screen', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
 
   await expect(page.locator('#preview-container')).toBeVisible();
@@ -154,7 +154,7 @@ test('preview Start Quiz button transitions to quiz screen', async ({ page }) =>
   await expect(page.locator('#description-text')).toContainText('deploying a microservices');
 });
 
-test('preview Cancel button returns to setup screen', async ({ page }) => {
+test('preview Cancel button returns to setup screen', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
 
   await expect(page.locator('#preview-container')).toBeVisible();
@@ -166,14 +166,14 @@ test('preview Cancel button returns to setup screen', async ({ page }) => {
   await expect(page.locator('#quiz-container')).toBeHidden();
 });
 
-test('preview topic-title and content-box remain hidden', async ({ page }) => {
+test('preview topic-title and content-box remain hidden', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
 
   await expect(page.locator('#preview-topic-title')).toBeHidden();
   await expect(page.locator('#preview-content-box')).toBeHidden();
 });
 
-test('wrong answer highlights correct option and shows explanation', async ({ page }) => {
+test('wrong answer highlights correct option and shows explanation', { tag: ['@visual', '@quiz'] }, async ({ page }) => {
   await page.goto('/?course=test-course');
 
   await expect(page.locator('#quiz-container')).toBeVisible();
@@ -188,7 +188,7 @@ test('wrong answer highlights correct option and shows explanation', async ({ pa
   await expect(page.locator('#score-val')).toHaveText('0');
 });
 
-test('correct answer increases score', async ({ page }) => {
+test('correct answer increases score', { tag: ['@visual', '@quiz'] }, async ({ page }) => {
   await page.goto('/?course=test-course');
 
   await expect(page.locator('#quiz-container')).toBeVisible();
@@ -202,7 +202,7 @@ test('correct answer increases score', async ({ page }) => {
   await expect(page.locator('#score-val')).not.toHaveText('0');
 });
 
-test('catalog loads and shows all options', async ({ page }) => {
+test('catalog loads and shows all options', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
   await expect(page.locator('#setup-container')).toBeVisible();
@@ -215,7 +215,7 @@ test('catalog loads and shows all options', async ({ page }) => {
   await expect(options.nth(3)).toHaveAttribute('value', 'test-course');
 });
 
-test('catalog text search filters options', async ({ page }) => {
+test('catalog text search filters options', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
   const options = page.locator('#course-dropdown option');
@@ -227,7 +227,7 @@ test('catalog text search filters options', async ({ page }) => {
   await expect(options.first()).toHaveAttribute('value', 'book-atomic-habits');
 });
 
-test('catalog type filter shows only matching types', async ({ page }) => {
+test('catalog type filter shows only matching types', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
   const options = page.locator('#course-dropdown option');
@@ -246,7 +246,7 @@ test('catalog type filter shows only matching types', async ({ page }) => {
   await expect(options.first()).toHaveAttribute('value', 'coursera-machine-learning');
 });
 
-test('catalog combined search and type filter', async ({ page }) => {
+test('catalog combined search and type filter', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
   const options = page.locator('#course-dropdown option');
@@ -262,7 +262,7 @@ test('catalog combined search and type filter', async ({ page }) => {
   await expect(page.locator('#course-dropdown')).toContainText('No matches found');
 });
 
-test('catalog no matches shows placeholder', async ({ page }) => {
+test('catalog no matches shows placeholder', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
   const options = page.locator('#course-dropdown option');
@@ -273,7 +273,7 @@ test('catalog no matches shows placeholder', async ({ page }) => {
   await expect(page.locator('#course-dropdown')).toContainText('No matches found');
 });
 
-test('catalog empty search restores all options', async ({ page }) => {
+test('catalog empty search restores all options', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
   const options = page.locator('#course-dropdown option');
@@ -286,7 +286,7 @@ test('catalog empty search restores all options', async ({ page }) => {
   await expect(options).toHaveCount(4);
 });
 
-test('catalog "All" type filter shows everything', async ({ page }) => {
+test('catalog "All" type filter shows everything', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
   const options = page.locator('#course-dropdown option');
@@ -299,7 +299,7 @@ test('catalog "All" type filter shows everything', async ({ page }) => {
   await expect(options).toHaveCount(4);
 });
 
-test('catalog type filter button active state toggles', async ({ page }) => {
+test('catalog type filter button active state toggles', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
   await expect(page.locator('.type-filter-btn[data-type="all"]')).toHaveClass(/active/);
@@ -313,21 +313,21 @@ test('catalog type filter button active state toggles', async ({ page }) => {
   await expect(page.locator('.type-filter-btn[data-type="book"]')).not.toHaveClass(/active/);
 });
 
-test('preview-badge has title attribute with course name', async ({ page }) => {
+test('preview-badge has title attribute with course name', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
 
   const badge = page.locator('#preview-badge');
   await expect(badge).toHaveAttribute('title', 'Test Course');
 });
 
-test('preview-title has title attribute with course name and filename', async ({ page }) => {
+test('preview-title has title attribute with course name and filename', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
 
   const title = page.locator('#preview-title');
   await expect(title).toHaveAttribute('title', 'Test Course • 001');
 });
 
-test('module-label has title attribute after quiz starts', async ({ page }) => {
+test('module-label has title attribute after quiz starts', { tag: ['@visual', '@quiz'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
 
   await page.click('text=Start Quiz');

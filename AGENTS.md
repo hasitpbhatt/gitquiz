@@ -10,7 +10,16 @@ See `.opencode/skill/syllabus-to-quiz/SKILL.md` for quiz creation workflow, fiel
 - **Single-file edits**: Validate each file before moving to the next. No batch edits across chapters.
 - **All paths relative to project root** unless stated otherwise.
 - **PowerShell execution policy**: Prefix failing commands with `powershell -ExecutionPolicy Bypass -Command "..."`.
-- **Run full test suite before commit**: When modifying `quiz/` or `quiz/tests/`, run `npx playwright test` and confirm all pass.
+- **Run affected tests before commit**: Use `node quiz/tests/affected-tests.mjs` to see which tests are relevant to your changes, then run the suggested subset. Run `npx playwright test` (full suite) only when modifying `index.html`, `styles.css`, or test config. Quick reference:
+  - `npm run test:setup` — `quiz/lib/main.js`, `quiz/lib/state.js`, `quiz/lib/notifications.js`
+  - `npm run test:catalog` — `quiz/lib/catalog.js`
+  - `npm run test:preview` — `quiz/lib/preview.js`
+  - `npm run test:quiz` — `quiz/lib/quiz.js`, `quiz/lib/state.js`
+  - `npm run test:params` — `quiz/lib/main.js`
+  - `npm run test:ui` — `quiz/lib/sharing.js`
+  - `npm run test:ai` — `quiz/lib/ai.js`
+  - `npm run test:visual` — visual-only changes
+  - `npm run test:affected` — auto-detect based on `git diff`
 - **Catalog test conventions**: `CATALOG_CONTENT` = `\n`-joined course IDs. Use `toHaveAttribute('value', …)` for `<option>`. Type filter buttons use `data-type` (e.g., `.type-filter-btn[data-type="book"]`). `#course-dropdown` has `w-full`.
 
 ## Frontend Architecture
