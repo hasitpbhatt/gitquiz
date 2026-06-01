@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Why does Daytona use bare metal instead of virtual machines?",
+    "content": "The podcast explains the infrastructure choice that enables Daytona's performance claims.",
+    "description": "Why did Daytona choose bare metal servers over cloud VMs as their foundation?",
+    "options": [
+      "Bare metal eliminates the hypervisor overhead and provides direct hardware access",
+      "Bare metal servers are cheaper to rent than cloud virtual machines",
+      "Cloud providers do not offer virtual machines in Europe",
+      "Bare metal servers are easier to manage without a cloud console"
+    ],
+    "answer": "Bare metal eliminates the hypervisor overhead and provides direct hardware access",
+    "explanation": "By running directly on bare metal, Daytona avoids the performance tax of a hypervisor layer, giving agents direct access to CPU, memory, and NVMe storage.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of Daytona's custom scheduler?",
+    "content": "The architecture includes a specialized component for placing workloads on hardware.",
+    "description": "What does Daytona's custom scheduler do differently from traditional orchestrators like Kubernetes?",
+    "options": [
+      "It can pack sandboxes densely while ensuring predictable performance through kernel-level isolation",
+      "It runs machine learning models to predict future workload patterns",
+      "It only schedules jobs during off-peak hours",
+      "It schedules sandboxes alphabetically by user name"
+    ],
+    "answer": "It can pack sandboxes densely while ensuring predictable performance through kernel-level isolation",
+    "explanation": "Daytona's scheduler packs sandboxes densely on bare metal while using kernel-level isolation to guarantee predictable performance for each sandbox.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does snapshot preloading on NVMe storage work?",
+    "content": "The episode covers the technique Daytona uses to achieve fast sandbox startup times.",
+    "description": "What technique does Daytona use to reduce cold start times for sandbox snapshots?",
+    "options": [
+      "Preloading snapshots from network storage to local NVMe drives before they are requested",
+      "Storing all snapshots in RAM for instant access",
+      "Using tape backup drives for long-term snapshot storage",
+      "Encrypting snapshots so they decompress faster during loading"
+    ],
+    "answer": "Preloading snapshots from network storage to local NVMe drives before they are requested",
+    "explanation": "Daytona predicts which snapshots will be needed and preloads them onto local NVMe storage, dramatically reducing cold start latency.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the target startup time for a Daytona sandbox?",
+    "content": "The podcast states a specific performance target for creating new sandbox environments.",
+    "description": "What startup time does Daytona target for creating a new sandbox environment?",
+    "options": [
+      "60 milliseconds",
+      "500 milliseconds",
+      "1 second",
+      "5 seconds"
+    ],
+    "answer": "60 milliseconds",
+    "explanation": "Daytona targets 60ms sandbox startup time, enabling agents to spin up environments nearly instantly.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What scale of sandbox creation can Daytona handle?",
+    "content": "The episode benchmarks the platform's ability to provision environments in parallel.",
+    "description": "How many sandboxes can Daytona create in 75 seconds according to their benchmarks?",
+    "options": [
+      "50,000 sandboxes",
+      "10,000 sandboxes",
+      "100 sandboxes",
+      "1,000,000 sandboxes"
+    ],
+    "answer": "50,000 sandboxes",
+    "explanation": "Daytona can provision 50,000 sandboxes in 75 seconds, demonstrating massive parallelism capability for agent fleets.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What was the scale of daily sandbox runs mentioned for an early customer?",
+    "content": "The podcast mentions a specific metric from a customer's production usage of Daytona.",
+    "description": "How many daily sandbox runs did a Daytona customer reach in production?",
+    "options": [
+      "850,000 runs per day",
+      "10,000 runs per day",
+      "2 million runs per day",
+      "50 runs per day"
+    ],
+    "answer": "850,000 runs per day",
+    "explanation": "A production customer reached 850,000 sandbox runs per day, with average execution time of 47 seconds per run.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does local NVMe storage improve agent sandbox performance?",
+    "content": "The podcast compares different storage architectures and their impact on agent workloads.",
+    "description": "Why does local NVMe storage outperform network-attached storage for agent sandboxes?",
+    "options": [
+      "Local NVMe provides higher IOPS and lower latency than network storage options",
+      "Local NVMe can store unlimited amounts of data without cost",
+      "Network storage does not work with Linux operating systems",
+      "Local NVMe drives are encrypted by default"
+    ],
+    "answer": "Local NVMe provides higher IOPS and lower latency than network storage options",
+    "explanation": "Local NVMe drives offer dramatically higher IOPS and lower latency compared to network-attached storage like EBS, critical for agent workloads.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What design pattern from 2008 did Daytona re-discover?",
+    "content": "The founders recall an infrastructure architecture pattern they used in the early days of CodeAnywhere.",
+    "description": "What infrastructure design from CodeAnywhere's 2008 era did Daytona revive?",
+    "options": [
+      "The use of a centralized scheduler with local storage instead of network storage for each compute node",
+      "A peer-to-peer network where all nodes communicate directly",
+      "A mainframe terminal model with thin clients",
+      "A serverless architecture using AWS Lambda exclusively"
+    ],
+    "answer": "The use of a centralized scheduler with local storage instead of network storage for each compute node",
+    "explanation": "Daytona revived the architecture pattern of putting compute and storage together with a central scheduler, which they first used at CodeAnywhere in 2008.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What are the three key performance metrics Daytona tracks?",
+    "content": "The episode summarizes the platform performance with three main numbers.",
+    "description": "Which three metrics are most important for measuring Daytona's sandbox performance?",
+    "options": [
+      "Startup time, concurrent sandbox count, and daily run volume",
+      "Latency, throughput, and availability",
+      "Code compilation speed, test pass rate, and deployment frequency",
+      "Memory usage, disk space, and network bandwidth"
+    ],
+    "answer": "Startup time, concurrent sandbox count, and daily run volume",
+    "explanation": "Daytona focuses on how fast sandboxes start, how many can run concurrently, and total daily execution volume.",
+    "difficulty": "easy"
+  }
+]

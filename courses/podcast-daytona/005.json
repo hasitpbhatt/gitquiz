@@ -1,0 +1,128 @@
+[
+  {
+    "question": "What open source license does Daytona use?",
+    "content": "The podcast discusses the licensing strategy that balances community adoption with commercial sustainability.",
+    "description": "What open source license has Daytona chosen for its platform?",
+    "options": [
+      "AGPL 3.0",
+      "MIT",
+      "Apache 2.0",
+      "GPL 2.0"
+    ],
+    "answer": "AGPL 3.0",
+    "explanation": "Daytona uses AGPL 3.0, a strong copyleft license that ensures improvements are shared back while allowing commercial use.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Daytona view the CLI versus MCP debate?",
+    "content": "The episode explores the tension between command-line interfaces and newer agent protocols.",
+    "description": "What is Daytona's position on CLI versus MCP for agent tooling?",
+    "options": [
+      "They believe CLI is the appropriate interface for agents because it is universal and well-understood",
+      "They are building their own proprietary protocol to replace both CLI and MCP",
+      "They believe MCP will completely replace CLI within six months",
+      "MCP is superior because agents cannot parse command-line output"
+    ],
+    "answer": "They believe CLI is the appropriate interface for agents because it is universal and well-understood",
+    "explanation": "Daytona argues that CLI is the right abstraction because every agent framework already knows how to use a command line, making it more universally compatible.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is Daytona's 'cold shower' take on token resale?",
+    "content": "The podcast discusses a controversial opinion about how AI companies should make money.",
+    "description": "What is Daytona's view on the business model of reselling LLM tokens to customers?",
+    "options": [
+      "Token resale has almost no margin and is a losing business model long-term",
+      "Token resale is the most profitable business model in AI",
+      "Token resale should be the primary revenue driver for infrastructure companies",
+      "Token resale works well but only for text generation models"
+    ],
+    "answer": "Token resale has almost no margin and is a losing business model long-term",
+    "explanation": "Daytona believes reselling tokens with a markup is a low-margin trap — the real value is in the infrastructure layer, not token arbitrage.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What approach does Daytona take to pricing inspired by Salesforce?",
+    "content": "The company's pricing model is compared to a well-known enterprise software company.",
+    "description": "How does Daytona's approach to pricing resemble Salesforce's strategy?",
+    "options": [
+      "They believe in charging for the platform infrastructure while treating compute as a pass-through cost",
+      "They charge per user per month regardless of usage",
+      "They give away the product for free and make money from advertising",
+      "They charge based on the number of lines of code executed"
+    ],
+    "answer": "They believe in charging for the platform infrastructure while treating compute as a pass-through cost",
+    "explanation": "Like Salesforce charging for the CRM platform while passing through infrastructure costs, Daytona charges for its platform value rather than marking up compute.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Daytona's go-to-market strategy?",
+    "content": "The podcast outlines how Daytona reaches its customers in the AI ecosystem.",
+    "description": "How does Daytona describe its go-to-market approach for reaching AI companies?",
+    "options": [
+      "A B2B2C model where open source adoption drives enterprise cloud sales",
+      "A direct enterprise sales force calling Fortune 500 companies",
+      "An advertising-based model selling ad space on their dashboard",
+      "A retail model selling hardware through Amazon"
+    ],
+    "answer": "A B2B2C model where open source adoption drives enterprise cloud sales",
+    "explanation": "Developers adopt Daytona's open source project, which creates organizational demand for the managed cloud service — a classic B2B2C motion.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does Daytona view the AI cloud market — is it Stripe or AWS?",
+    "content": "The episode draws an analogy between AI cloud infrastructure and earlier platform shifts.",
+    "description": "What analogy does the podcast use to describe the current AI cloud infrastructure market opportunity?",
+    "options": [
+      "AI cloud is more like Stripe — a thin layer on top of existing infrastructure providers — than like AWS",
+      "AI cloud is more like AWS — building everything from the ground up including data centers",
+      "AI cloud is more like Netflix — purely focused on content delivery",
+      "AI cloud is more like Shopify — enabling e-commerce for AI agents"
+    ],
+    "answer": "AI cloud is more like Stripe — a thin layer on top of existing infrastructure providers — than like AWS",
+    "explanation": "The podcast argues that AI cloud companies should be the 'Stripe of compute' — a value-add layer on existing infrastructure — rather than trying to become the next AWS.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Why does the podcast predict CPU will become a bottleneck for agent workloads?",
+    "content": "The conversation looks ahead to future infrastructure constraints as agent adoption grows.",
+    "description": "What reasoning supports the prediction that CPU will bottleneck agent infrastructure?",
+    "options": [
+      "Agent workloads are compute-intensive for planning and reasoning, not just inference",
+      "GPU supply chains have fully caught up with demand and are no longer constrained",
+      "CPUs have not improved in performance since 2010",
+      "Agent frameworks do not support GPU acceleration at all"
+    ],
+    "answer": "Agent workloads are compute-intensive for planning and reasoning, not just inference",
+    "explanation": "As agents perform more planning, reasoning, and code execution (not just inference), CPU demand will surge and potentially become the primary bottleneck.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What market growth rate is mentioned for agent infrastructure?",
+    "content": "The podcast cites a specific growth metric for the agent infrastructure market.",
+    "description": "What month-over-month growth rate is cited for the agent infrastructure market?",
+    "options": [
+      "74% month-over-month growth",
+      "10% month-over-month growth",
+      "200% month-over-month growth",
+      "5% month-over-month growth"
+    ],
+    "answer": "74% month-over-month growth",
+    "explanation": "The agent infrastructure market is growing at 74% month-over-month, indicating explosive demand.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Why does open source help Daytona with agent integration?",
+    "content": "The podcast explains the strategic advantage of being open source for AI agent adoption.",
+    "description": "How does being open source simplify integration with AI agent frameworks?",
+    "options": [
+      "Agent frameworks can embed the Daytona SDK directly rather than calling an external API",
+      "Open source licenses make the product free for all agent frameworks",
+      "Agent frameworks require all infrastructure to be open source to comply with regulations",
+      "Open source code compiles faster than proprietary code"
+    ],
+    "answer": "Agent frameworks can embed the Daytona SDK directly rather than calling an external API",
+    "explanation": "Because Daytona is open source, agent frameworks like CrewAI or AutoGen can embed the SDK directly, making integration simpler than calling a proprietary API.",
+    "difficulty": "medium"
+  }
+]

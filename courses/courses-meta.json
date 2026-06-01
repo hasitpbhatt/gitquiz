@@ -118,6 +118,13 @@
     "source": "https://www.latent.space/p/cognition",
     "description": "Swyx hosts Walden Yan (Cognition/Devin) and Cole Murray (OpenInspect) on the three waves of AI coding tools and async agent architectures."
   },
+  "podcast-daytona": {
+    "title": "Giving Agents Computers",
+    "type": "podcast",
+    "chapters": 5,
+    "source": "https://www.latent.space/p/daytona",
+    "description": "Dive into 'Giving Agents Computers' from the Latent Space podcast with Ivan Burazin of Daytona. Covers the End of Localhost thesis, composable sandbox architecture for AI agents, bare-metal performance engineering, agent workload patterns, and the business landscape of agent infrastructure — including the debate over agents as the final nail in localhost's coffin."
+  },
   "podcast-nothing-ever-happens-is-over": {
     "title": "Nothing Ever Happens Is Over",
     "type": "podcast",
