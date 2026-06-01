@@ -70,7 +70,7 @@ function getOrCreateUrlSection() {
             <span class="text-[10px] font-700 text-slate-400 uppercase">Tip:</span>
             <code id="example-link" onclick="fillExample()" class="text-[11px] text-blue-500 cursor-pointer hover:underline">https://raw.githubusercontent.com/hasitpbhatt/gitquiz/refs/heads/main/courses/book-atomic-habits/001.json</code>
         </div>`;
-    document.getElementById('url-toggle-btn').parentElement.after(section);
+    document.getElementById('begin-btn-wrapper').before(section);
     return section;
 }
 
@@ -84,5 +84,5 @@ function toggleUrlInput() {
     const section = getOrCreateUrlSection();
     const btn = document.getElementById('url-toggle-btn');
     section.classList.toggle('hidden');
-    btn.innerText = section.classList.contains('hidden') ? '\uD83D\uDD17 Custom URL' : '\u2715 Custom URL';
+    btn.innerText = section.classList.contains('hidden') ? '\uD83D\uDD17 Custom Quiz' : '\u2715 Custom Quiz';
 }

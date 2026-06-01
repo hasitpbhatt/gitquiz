@@ -195,7 +195,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 ```
 
 ### Page Screens
-1. **Setup/Catalog Screen** (`#setup-container`): Search bar, type filter buttons (All/Books/Podcasts/Courses), course dropdown (options truncated on mobile, title attribute shows full name on hover), Custom URL toggle (lazy-created — not in DOM until first click), daily streak badge
+1. **Setup/Catalog Screen** (`#setup-container`): Search bar, type filter buttons (All/Books/Podcasts/Courses), course dropdown (options truncated on mobile, title attribute shows full name on hover), Custom Quiz toggle in footer (lazy-created — not in DOM until first click), daily streak badge
 2. **Preview Screen** (`#preview-container`): Course badge, title, question count, first question preview with options, Start Quiz / Cancel buttons
 3. **Quiz Screen** (`#quiz-container`): Progress bar, score/streak/timer stat cards, quiz flow with question, options (shuffled), explanation panel, AI Explain button, Continue button
 4. **Completion Screen** (`#completion-screen`): Trophy animation, final score, total time, Download Achievement Card button, Start Next Module / Return to Catalog

@@ -77,7 +77,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - Mobile overrides use `@media (max-width: 640px)`
 5. **Screen transition animation**: The `screen-enter` CSS class triggers `fadeSlideIn` animation (0.3s ease-out). Applied to preview, quiz-flow, and completion-screen on reveal.
 6. **Progress bar transition**: `#progress-fill` has `transition: width 0.3s ease` for smooth animation.
-7. **Focus indicators**: `:focus-visible` outline (2px `var(--accent)`, offset 2px) on `#catalog-search`, `#quiz-url`, `#share-btn`, `#url-toggle-btn`, `#course-dropdown`.
+7. **Focus indicators**: `:focus-visible` outline (2px `var(--accent)`, offset 2px) on `#catalog-search`, `#share-btn`, `#course-dropdown`.
 
 ### Quiz Engine Conventions
 
@@ -87,7 +87,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 4. **Daily streak**: Stored in localStorage key `quizDailyStreak` as `{ lastDate: "YYYY-MM-DD", count: <number> }`. Updated on quiz start and completion.
 5. **Options shuffling**: Options are shuffled via Fisher-Yates inside `shuffleArray()` in `quiz.js`. Answer matching is done against the original (pre-shuffle) text.
 6. **Module chaining**: After the last question of a chapter, if the course has more chapters, "Start Next Module" button appears. If it was the last chapter, "Return to Catalog" appears with trophy animation.
-7. **Custom URL loading**: The user can paste any JSON URL — no path validation required. The URL section (`#url-section`, `#quiz-url`) is **lazy-created** by `getOrCreateUrlSection()` in `catalog.js` on first `toggleUrlInput()` call — it does not exist in initial HTML. Code that references `#quiz-url` must guard with `document.getElementById('quiz-url')` null check.
+7. **Custom URL loading**: The user can paste any JSON URL — no path validation required. The URL section (`#url-section`, `#quiz-url`) is **lazy-created** by `getOrCreateUrlSection()` in `catalog.js` on first `toggleUrlInput()` call — not in initial HTML. The toggle button sits in the footer as `🔗 Custom Quiz`. Code that references `#quiz-url` must guard with `document.getElementById('quiz-url')` null check.
 8. **AI Explain flow**: Button `#explain-more-btn` triggers `askAI()`. POSTs to `MISTRAL_PROXY_URL` with question context, user's answer, and correctness. Shows response in `#ai-response`. Falls back gracefully on failure.
 9. **Sharing context**:
     - **Completion screen** → share certificate + score
