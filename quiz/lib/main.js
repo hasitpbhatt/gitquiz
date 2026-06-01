@@ -1,6 +1,7 @@
 // @ts-check
 
 ;(async () => {
+  initTheme();
   await loadCatalog();
   const streakCount = getDailyStreak();
   if (streakCount > 0) {
@@ -32,6 +33,7 @@
 })();
 
 document.getElementById('share-btn')?.addEventListener('click', shareHandler);
+document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
 
 document.addEventListener('keydown', (e) => {
   if (e.target.matches('input, select, textarea')) return;

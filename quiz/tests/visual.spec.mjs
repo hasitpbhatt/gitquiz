@@ -345,9 +345,85 @@ test('correct/wrong option colors are dark-appropriate in dark mode', { tag: '@v
 
   await page.locator('.option-btn', { hasText: 'A VM manager' }).click();
 
-  const correctBg = await page.locator('.option-btn.correct').evaluate(el => getComputedStyle(el).backgroundColor);
-  const wrongBg = await page.locator('.option-btn.wrong').evaluate(el => getComputedStyle(el).backgroundColor);
+  const correctBtn = page.locator('.option-btn.correct');
+  const wrongBtn = page.locator('.option-btn.wrong');
+
+  const correctBg = await correctBtn.evaluate(el => getComputedStyle(el).backgroundColor);
+  const wrongBg = await wrongBtn.evaluate(el => getComputedStyle(el).backgroundColor);
 
   expect(correctBg).not.toBe('rgb(220, 252, 231)');
   expect(wrongBg).not.toBe('rgb(254, 226, 226)');
+
+  // Label badges (A/B/C/D) should use dark-appropriate colors too, not light-mode gray
+  const correctBadge = correctBtn.locator('> span:first-child');
+  const wrongBadge = wrongBtn.locator('> span:first-child');
+  const correctBadgeBg = await correctBadge.evaluate(el => getComputedStyle(el).backgroundColor);
+  const wrongBadgeBg = await wrongBadge.evaluate(el => getComputedStyle(el).backgroundColor);
+  expect(correctBadgeBg).toBe('rgb(6, 78, 59)');
+  expect(wrongBadgeBg).toBe('rgb(127, 29, 29)');
+
+  // Key-hints should also be dark-appropriate
+  const correctHint = correctBtn.locator('.key-hint');
+  const wrongHint = wrongBtn.locator('.key-hint');
+  const correctHintColor = await correctHint.evaluate(el => getComputedStyle(el).color);
+  const wrongHintColor = await wrongHint.evaluate(el => getComputedStyle(el).color);
+  expect(correctHintColor).toBe('rgb(110, 231, 183)');
+  expect(wrongHintColor).toBe('rgb(252, 165, 165)');
+});
+
+test('theme toggle button exists and toggles data-theme and dark class', { tag: '@visual' }, async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('#theme-toggle')).toBeVisible();
+
+  const html = page.locator('html');
+
+  await page.locator('#theme-toggle').click();
+  const theme1 = await html.getAttribute('data-theme');
+  expect(['dark', 'light']).toContain(theme1);
+  const hasDark1 = await html.evaluate(el => el.classList.contains('dark'));
+  expect(hasDark1).toBe(theme1 === 'dark');
+
+  await page.locator('#theme-toggle').click();
+  const theme2 = await html.getAttribute('data-theme');
+  expect(theme2).not.toBe(theme1);
+  const hasDark2 = await html.evaluate(el => el.classList.contains('dark'));
+  expect(hasDark2).toBe(theme2 === 'dark');
+
+  const saved = await page.evaluate(() => localStorage.getItem('quizTheme'));
+  expect(saved).toBe(theme2);
+});
+
+test('theme toggle persists across page reload', { tag: '@visual' }, async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#theme-toggle').click();
+  const theme = await page.locator('html').getAttribute('data-theme');
+  const hasDark = await page.locator('html').evaluate(el => el.classList.contains('dark'));
+  expect(hasDark).toBe(theme === 'dark');
+
+  await page.reload();
+  await expect(page.locator('#theme-toggle')).toBeVisible();
+  const persisted = await page.locator('html').getAttribute('data-theme');
+  expect(persisted).toBe(theme);
+  const persistedDark = await page.locator('html').evaluate(el => el.classList.contains('dark'));
+  expect(persistedDark).toBe(theme === 'dark');
+});
+
+test('subtitle text is visible after toggling to light mode in dark system', { tag: '@visual' }, async ({ page }) => {
+  await page.emulateMedia({ colorScheme: 'dark' });
+  await page.goto('/');
+  await expect(page.locator('#setup-container')).toBeVisible();
+
+  const subtitle = page.locator('#setup-container header p');
+
+  // Initially in dark mode, subtitle should be light (slate-400)
+  const initialColor = await subtitle.evaluate(el => getComputedStyle(el).color);
+  expect(initialColor).toBe('rgb(148, 163, 184)');
+
+  // Toggle to light mode
+  await page.locator('#theme-toggle').click();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+
+  // Should now be dark text visible on light bg (slate-500)
+  const toggledColor = await subtitle.evaluate(el => getComputedStyle(el).color);
+  expect(toggledColor).toBe('rgb(100, 116, 139)');
 });

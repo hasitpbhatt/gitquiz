@@ -58,3 +58,39 @@ function getDailyStreak() {
         return 0;
     }
 }
+
+function applyTheme(isDark) {
+    const html = document.documentElement;
+    if (isDark) {
+        html.classList.add('dark');
+        html.setAttribute('data-theme', 'dark');
+    } else {
+        html.classList.remove('dark');
+        html.setAttribute('data-theme', 'light');
+    }
+}
+
+function initTheme() {
+    const saved = localStorage.getItem('quizTheme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = saved === 'dark' || (saved !== 'light' && prefersDark);
+    applyTheme(isDark);
+    updateThemeIcon(isDark ? 'dark' : 'light');
+}
+
+function toggleTheme() {
+    const html = document.documentElement;
+    const current = html.getAttribute('data-theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const newTheme = current ? (current === 'dark' ? 'light' : 'dark') : (prefersDark ? 'light' : 'dark');
+    const isDark = newTheme === 'dark';
+    applyTheme(isDark);
+    localStorage.setItem('quizTheme', newTheme);
+    updateThemeIcon(newTheme);
+}
+
+function updateThemeIcon(theme) {
+    const icon = document.getElementById('theme-icon');
+    if (!icon) return;
+    icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+}
