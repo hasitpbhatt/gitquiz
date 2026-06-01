@@ -1,2 +1,5 @@
 test-results/
 .hasit/
+node_modules/
+.opencode/node_modules/
+quiz/tests/node_modules/

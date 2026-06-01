@@ -9,7 +9,7 @@ let changes = 0;
 // D4: "The 'Crabs in a Bucket' Mentality" appears in 006.json Q7 and 010.json Q10
 
 // Fix D1: Rename 007.json Q1
-let dir = 'courses/podcast-naval-nothing-ever-happens-is-over';
+let dir = 'courses/podcast-nothing-ever-happens-is-over';
 let f = JSON.parse(fs.readFileSync(dir + '/003.json', 'utf8'));
 f[7].question = 'Reinforcement Learning in World Models';
 fs.writeFileSync(dir + '/003.json', JSON.stringify(f, null, 2) + '\n', 'utf8');

@@ -58,6 +58,45 @@ dirs.forEach(dir => {
   }
 });
 
+// --- Metadata sync check ---
+const metaPath = 'courses/courses-meta.json';
+if (fs.existsSync(metaPath)) {
+  let meta;
+  try { meta = JSON.parse(fs.readFileSync(metaPath, 'utf8')); } catch (e) {
+    console.log('ERROR: courses-meta.json parse error - ' + e.message);
+    allOk = false; totalErrs++;
+  }
+  if (meta) {
+    const metaKeys = Object.keys(meta).sort((a, b) => a.localeCompare(b));
+    if (JSON.stringify(dirs) !== JSON.stringify(metaKeys)) {
+      allOk = false;
+      const listOnly = dirs.filter(d => !metaKeys.includes(d));
+      const metaOnly = metaKeys.filter(k => !dirs.includes(k));
+      if (listOnly.length) { totalErrs += listOnly.length; console.log('ERROR: In courses_list.txt but not in courses-meta.json:'); listOnly.forEach(d => console.log('  ' + d)); }
+      if (metaOnly.length) { totalErrs += metaOnly.length; console.log('ERROR: In courses-meta.json but not in courses_list.txt:'); metaOnly.forEach(d => console.log('  ' + d)); }
+    } else {
+      console.log('--- Metadata/courses_list.txt sync --- OK');
+    }
+
+    // --- Metadata chapter count check ---
+    let chapterErrors = 0;
+    dirs.forEach(dir => {
+      const entry = meta[dir];
+      if (!entry || typeof entry.chapters !== 'number') return;
+      const actualFiles = fs.readdirSync('courses/' + dir).filter(f => f.endsWith('.json')).length;
+      if (entry.chapters !== actualFiles) {
+        allOk = false; chapterErrors++; totalErrs++;
+        console.log('ERROR: ' + dir + ' — metadata says ' + entry.chapters + ' chapters, actual: ' + actualFiles);
+      }
+    });
+    if (chapterErrors === 0) {
+      console.log('--- Metadata chapter counts --- OK');
+    }
+  }
+} else {
+  console.log('--- courses-meta.json not found --- skipping meta sync check');
+}
+
 console.log('\n=== TOTAL ERRORS: ' + totalErrs + ' ===');
 if (allOk) console.log('=== ALL CHECKS PASSED ===');
 else process.exit(1);

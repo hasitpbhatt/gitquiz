@@ -53,8 +53,10 @@ Each question has **exactly 7 fields**:
 
 Hard techniques: trapdoor option, reverse application, boundary case, competing principles, option symmetry.
 
-### 6. Update Courses List
+### 6. Update Courses List & Metadata
 Add to `courses/courses_list.txt` alphabetically, kebab-case, one per line.
+Add a corresponding entry to `courses/courses-meta.json` with `title`, `type`, `chapters`, `source`, `description`. The entry keys must match `courses_list.txt` exactly.
+When using `generate-course.mjs`, both files are updated automatically.
 
 ### 7. Scenario Diversity
 Vary across professional, personal, creative, social, philosophical domains.
@@ -63,6 +65,7 @@ Vary across professional, personal, creative, social, philosophical domains.
 
 ### 8. Quality Check
 - Run `npm run test:schema` from `quiz/tests/` (validates against `courses/course-schema.json` + content drift + cross-field checks)
+- Run `node quiz/scripts/validate-all.js` from root (comprehensive: chapter counts, metadata sync, directory structure)
 - All 7 fields present, answer matches option, no positional refs
 - Valid JSON, 7-12 questions per file, 001.json format
 - Difficulty mix per chapter (30-40% E, 35-45% M, 15-25% H)
@@ -82,7 +85,7 @@ General-purpose scripts are in `quiz/scripts/`. Run with `node quiz/scripts/<scr
 | `difficulty-audit.js` | Print all questions with E/M/H blank brackets for labeling — edit `dir` first |
 | `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array and `dir` |
 | `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `dir` and `conceptGroups` |
-| `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single JSON input and produces properly split `001.json`–`00N.json` files, validates, creates dirs, updates `courses_list.txt`. Supports `--dry-run`. |
+| `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single JSON input and produces properly split `001.json`–`00N.json` files, validates, creates dirs, updates `courses_list.txt` and `courses-meta.json` (including `chapters` count). Supports `--dry-run`. |
 
 Legacy scripts remaining in `.opencode/skill/syllabus-to-quiz/` (historical one-offs, not for general use): `review_detection.js`, `difficulty_tally.js`, `refactor_difficulty.js`, `fix_influence.js`, `fix_remaining.js`.
 
@@ -94,4 +97,5 @@ Legacy scripts remaining in `.opencode/skill/syllabus-to-quiz/` (historical one-
 ## Example Flow
 1. User provides source material → build concept inventory, group into chapters, present plan
 2. After approval: `mkdir -p courses/book-title/`, create 001-00N.json files
-3. Add to `courses_list.txt` alphabetically, run `npm run test:schema` from `quiz/tests/`, fix issues, commit
+3. Add to `courses_list.txt` alphabetically, add entry to `courses-meta.json` with `title`, `type`, `chapters`, `source`, `description`
+4. Run `npm run test:schema` from `quiz/tests/` and `node quiz/scripts/validate-all.js` from root, fix issues, commit

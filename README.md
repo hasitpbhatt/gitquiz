@@ -6,7 +6,8 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 
 ```
 ├── courses/                          # Quiz content (JSON)
-│   ├── courses_list.txt              # Catalog of all course folders
+│   ├── courses_list.txt              # Catalog of all course folders (IDs only)
+│   ├── courses-meta.json             # Course metadata (title, type, chapters, source, description)
 │   ├── book-<title>/                 # One folder per book/course
 │   │   ├── 001.json                  # Chapter 1 questions
 │   │   ├── 002.json                  # Chapter 2 questions
@@ -102,7 +103,8 @@ Quizzes aim for ~40% easy, ~40% medium, ~20% hard across each course.
 | book-the-startup-of-you | 9 | The Startup of You |
 | coursera-financial-markets-global | 12 | Coursera: Financial Markets |
 | coursera-genai-for-algorithmic-trading | 11 | Coursera: GenAI for Algorithmic Trading |
-| podcast-naval-nothing-ever-happens-is-over | 14 | Naval Podcast |
+| podcast-age-of-async-agents | 8 | Latent Space Podcast |
+| podcast-nothing-ever-happens-is-over | 14 | Naval Podcast |
 | podcast-regulatory-frontier | 1 | Naval Podcast (Blake Scholl) |
 | podcast-vibe-coding-hardware | 2 | Naval Podcast |
 | podcast-waste-tokens-save-time | 1 | Naval Podcast (Guillermo Rauch) |
@@ -113,6 +115,20 @@ Quizzes aim for ~40% easy, ~40% medium, ~20% hard across each course.
 2. Add chapter files `001.json`, `002.json`, etc. using the format above
 3. Add the folder name to `courses/courses_list.txt`
 4. The frontend loads courses from GitHub Raw, so changes are live on next deploy
+
+## Metadata
+
+Each course has a metadata entry in `courses/courses-meta.json`:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `title` | `string` | Human-readable course name |
+| `type` | `string` | `"book"`, `"podcast"`, or `"coursera"` |
+| `chapters` | `number` | Number of chapter JSON files |
+| `source` | `string\|null` | URL to original content (podcasts) or `null` |
+| `description` | `string` | One-line summary with host/author and topic |
+
+Keys in `courses-meta.json` must match `courses_list.txt` exactly. This is validated by `npm run test:schema` and `node quiz/scripts/validate-all.js`.
 
 ## Running Locally
 
@@ -150,7 +166,21 @@ Screenshots are captured after every test and saved to `quiz/tests/test-results/
 
 ## AI Explain Feature
 
-The "AI Explain More" button in the quiz calls a Mistral AI API via a Cloudflare Worker proxy (`quiz/proxy/`).
+The "AI Explain More" button in the quiz calls a Mistral AI API via a Cloudflare Worker proxy (`quiz/proxy/worker.js`).
+
+### Setup
+
+1. Edit `quiz/proxy/worker.js` and set your Mistral API key as `MISTRAL_API_KEY`
+2. Deploy to Cloudflare Workers via `wrangler deploy`
+3. Update the worker URL in `quiz/lib/ai.js`
+
+## Deployment
+
+The quiz app is hosted at [quiz.hasit.in](https://quiz.hasit.in/). Content is served via GitHub Raw URLs, so course updates are live as soon as they're pushed to `main`.
+
+To deploy the frontend:
+1. Push changes to the `main` branch
+2. If using Cloudflare Pages / GitHub Pages, the site redeploys automatically
 
 ## Tech Stack
 

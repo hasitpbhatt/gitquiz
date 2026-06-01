@@ -8,6 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const COURSES_DIR = resolve(__dirname, '../../courses');
 const SCHEMA_PATH = resolve(__dirname, '../../courses/course-schema.json');
 const LIST_PATH = resolve(__dirname, '../../courses/courses_list.txt');
+const META_PATH = resolve(__dirname, '../../courses/courses-meta.json');
 const POSITIONAL_REF_RE = /(Both [A-D]\b|All of the above\b|[A-D]\s*&\s*[A-D]\b)/;
 
 function walkJsonFiles(dir) {
@@ -16,7 +17,7 @@ function walkJsonFiles(dir) {
     const full = join(dir, entry);
     if (statSync(full).isDirectory()) {
       files.push(...walkJsonFiles(full));
-    } else if (entry !== 'course-schema.json' && extname(full) === '.json') {
+    } else if (entry !== 'course-schema.json' && entry !== 'courses-meta.json' && extname(full) === '.json') {
       files.push(full);
     }
   }
@@ -39,6 +40,29 @@ test.describe('Course JSON Schema Validation', () => {
       .filter(e => statSync(join(COURSES_DIR, e)).isDirectory())
       .sort((a, b) => a.localeCompare(b));
     expect(lines).toEqual(actualDirs);
+  });
+
+  test('courses-meta.json matches courses_list.txt', () => {
+    const lines = readFileSync(LIST_PATH, 'utf-8').trim().split(/\r?\n/);
+    let meta;
+    try {
+      meta = JSON.parse(readFileSync(META_PATH, 'utf-8'));
+    } catch (e) {
+      throw new Error(`courses-meta.json parse error: ${e.message}`);
+    }
+    const metaKeys = Object.keys(meta).sort((a, b) => a.localeCompare(b));
+    expect(metaKeys).toEqual(lines);
+
+    for (const [id, entry] of Object.entries(meta)) {
+      expect(entry).toHaveProperty('title');
+      expect(entry).toHaveProperty('type');
+      expect(entry).toHaveProperty('chapters');
+      expect(typeof entry.title).toBe('string');
+      expect(typeof entry.type).toBe('string');
+      expect(typeof entry.chapters).toBe('number');
+      expect(entry.chapters).toBeGreaterThanOrEqual(1);
+      expect(Number.isInteger(entry.chapters)).toBe(true);
+    }
   });
 
   for (const filePath of files) {

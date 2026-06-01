@@ -67,6 +67,39 @@ function insertIntoCoursesList(id) {
   console.log(`Added "${id}" to courses_list.txt`);
 }
 
+function writeMetadataEntry(id, input) {
+  const metaPath = join(ROOT, 'courses', 'courses-meta.json');
+  let meta = {};
+  if (existsSync(metaPath)) {
+    try { meta = JSON.parse(readFileSync(metaPath, 'utf8')); }
+    catch (e) { err(`Parse error in courses-meta.json: ${e.message}`); }
+  }
+
+  const type = input.id.match(/^([^-]+)/)?.[1] || 'unknown';
+  const prev = meta[id];
+  meta[id] = {
+    title: input.title || prev?.title || id,
+    type: input.type || prev?.type || type,
+    chapters: input.chapters?.length || prev?.chapters || 0,
+    source: input.source || prev?.source || null,
+    description: input.description || prev?.description || `Quiz course for ${input.title || id}.`
+  };
+
+  // Re-sort keys to match courses_list.txt ordering
+  const listPath = join(ROOT, 'courses', 'courses_list.txt');
+  if (existsSync(listPath)) {
+    const lines = readFileSync(listPath, 'utf8').trim().split(/\r?\n/);
+    const ordered = {};
+    lines.forEach(k => { if (meta[k]) ordered[k] = meta[k]; });
+    Object.keys(meta).sort((a, b) => a.localeCompare(b)).forEach(k => { if (!ordered[k]) ordered[k] = meta[k]; });
+    writeFileSync(metaPath, JSON.stringify(ordered, null, 2) + '\n');
+  } else {
+    writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');
+  }
+  const label = prev ? 'Updated' : 'Created';
+  console.log(`${label} metadata entry for "${id}" in courses-meta.json`);
+}
+
 function main() {
   const args = process.argv.slice(2);
   if (!args.length) err('Usage: node quiz/scripts/generate-course.mjs <input.json> [--dry-run]');
@@ -107,6 +140,7 @@ function main() {
   });
 
   insertIntoCoursesList(input.id);
+  writeMetadataEntry(input.id, input);
   console.log('Done.');
 }
 

@@ -1,0 +1,149 @@
+{
+  "book-algorithms-to-live-by": {
+    "title": "Algorithms to Live By",
+    "type": "book",
+    "chapters": 7,
+    "source": null,
+    "description": "Brian Christian and Tom Griffiths on applying computer science algorithms to everyday human decisions."
+  },
+  "book-atomic-habits": {
+    "title": "Atomic Habits",
+    "type": "book",
+    "chapters": 11,
+    "source": null,
+    "description": "James Clear on how small daily habits compound into remarkable results."
+  },
+  "book-beginning-of-infinity": {
+    "title": "The Beginning of Infinity",
+    "type": "book",
+    "chapters": 8,
+    "source": null,
+    "description": "David Deutsch on the power of good explanations and the unlimited potential of human knowledge."
+  },
+  "book-bhagavad-gita": {
+    "title": "The Bhagavad Gita",
+    "type": "book",
+    "chapters": 11,
+    "source": null,
+    "description": "Ancient Indian philosophical text on duty, righteousness, and self-realization through the dialogue between Krishna and Arjuna."
+  },
+  "book-cointelligence": {
+    "title": "Co-Intelligence",
+    "type": "book",
+    "chapters": 10,
+    "source": null,
+    "description": "Ethan Mollick on how to live and work with AI as a partner rather than a tool."
+  },
+  "book-deep-work": {
+    "title": "Deep Work",
+    "type": "book",
+    "chapters": 7,
+    "source": null,
+    "description": "Cal Newport on the value of focused, distraction-free concentration in a distracted world."
+  },
+  "book-get-better-at-anything": {
+    "title": "Get Better at Anything",
+    "type": "book",
+    "chapters": 8,
+    "source": null,
+    "description": "Scott H. Young on the science of learning and how to master any skill."
+  },
+  "book-influence": {
+    "title": "Influence",
+    "type": "book",
+    "chapters": 8,
+    "source": null,
+    "description": "Robert Cialdini on the psychology of persuasion and the six principles of influence."
+  },
+  "book-seeking-wisdom-darwin-to-munger": {
+    "title": "Seeking Wisdom: From Darwin to Munger",
+    "type": "book",
+    "chapters": 8,
+    "source": null,
+    "description": "Peter Bevelin on mental models and decision-making drawn from biology, psychology, and philosophy."
+  },
+  "book-super-thinking": {
+    "title": "Super Thinking",
+    "type": "book",
+    "chapters": 11,
+    "source": null,
+    "description": "Gabriel Weinberg and Lauren McCann on mental models for better reasoning and decision-making."
+  },
+  "book-the-adaptive-edge": {
+    "title": "The Adaptive Edge",
+    "type": "book",
+    "chapters": 16,
+    "source": null,
+    "description": "Leadership frameworks for navigating complexity and driving organizational change."
+  },
+  "book-the-changing-world-order": {
+    "title": "The Changing World Order",
+    "type": "book",
+    "chapters": 15,
+    "source": null,
+    "description": "Ray Dalio on the repeating cycles of empires, economies, and the big cycle of history."
+  },
+  "book-the-psychology-of-money": {
+    "title": "The Psychology of Money",
+    "type": "book",
+    "chapters": 20,
+    "source": null,
+    "description": "Morgan Housel on the emotional and behavioral side of financial decision-making."
+  },
+  "book-the-startup-of-you": {
+    "title": "The Startup of You",
+    "type": "book",
+    "chapters": 9,
+    "source": null,
+    "description": "Reid Hoffman and Ben Casnocha on applying startup principles to career building."
+  },
+  "coursera-financial-markets-global": {
+    "title": "Financial Markets",
+    "type": "coursera",
+    "chapters": 12,
+    "source": null,
+    "description": "Robert Shiller's Yale course on financial markets, risk management, and behavioral finance."
+  },
+  "coursera-genai-for-algorithmic-trading": {
+    "title": "Generative AI for Algorithmic Trading",
+    "type": "coursera",
+    "chapters": 11,
+    "source": null,
+    "description": "Integrating large language models and generative AI into quantitative trading strategies."
+  },
+  "podcast-age-of-async-agents": {
+    "title": "The Age of Async Agents",
+    "type": "podcast",
+    "chapters": 8,
+    "source": "https://www.latent.space/p/cognition",
+    "description": "Swyx hosts Walden Yan (Cognition/Devin) and Cole Murray (OpenInspect) on the three waves of AI coding tools and async agent architectures."
+  },
+  "podcast-nothing-ever-happens-is-over": {
+    "title": "Nothing Ever Happens Is Over",
+    "type": "podcast",
+    "chapters": 14,
+    "source": "https://nav.al/over",
+    "description": "Naval Ravikant and Nivi on startup design, AI-native org structure, drone warfare, and the hardware renaissance."
+  },
+  "podcast-regulatory-frontier": {
+    "title": "The Regulatory Frontier",
+    "type": "podcast",
+    "chapters": 1,
+    "source": "https://nav.al/regulatory",
+    "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on battling red tape at scale with AI."
+  },
+  "podcast-vibe-coding-hardware": {
+    "title": "Vibe Coding Hardware",
+    "type": "podcast",
+    "chapters": 2,
+    "source": "https://nav.al/hardware",
+    "description": "Nivi, Naval, Blake Scholl (Boom Supersonic), Guillermo Rauch (Vercel), and Max Hodak (Science Corp) on AI transforming hardware engineering."
+  },
+  "podcast-waste-tokens-save-time": {
+    "title": "Waste Tokens, Save Time",
+    "type": "podcast",
+    "chapters": 1,
+    "source": "https://nav.al/tokens",
+    "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on software factories, tokenmaxxing, and AI-native engineering."
+  }
+}
