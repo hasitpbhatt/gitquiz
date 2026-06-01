@@ -68,7 +68,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - `#preview-title` — course name (`h2`). Add mobile truncation in `styles.css`
     - `#module-label` — quiz header span between "← Menu" and "Skip Module". Add `max-width: 140px` + mobile truncation; without it "Skip Module" gets pushed off-screen
     - `#course-dropdown option` — truncated with `text-overflow: ellipsis` on mobile; each `<option>` gets a `title` attribute via `renderCatalogOptions()` for full-name hover tooltip
-    - `#begin-btn-wrapper` — `position: fixed; bottom: 0` on mobile with `padding-bottom: env(safe-area-inset-bottom)`; `.glass-card` adds 80px bottom padding to prevent content overlap
+    - `#begin-btn-wrapper` — normal flow on mobile (not sticky)
     - `#topic-title`, `#description-text`, `#content-box` — wrapping OK, no truncation
 4. **Styling**:
     - Tailwind CSS via CDN (no build step) — utility classes in HTML

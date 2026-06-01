@@ -524,21 +524,6 @@ html[data-theme="dark"] .key-hint {
         text-overflow: ellipsis;
         max-width: 100%;
     }
-    .glass-card {
-        padding-bottom: 80px;
-    }
-    #begin-btn-wrapper {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: 40;
-        background: var(--card-bg);
-        padding: 12px 16px;
-        padding-bottom: max(12px, env(safe-area-inset-bottom));
-        box-shadow: 0 -4px 20px rgba(0,0,0,0.12);
-        border-top: 1px solid rgba(148, 163, 184, 0.15);
-    }
     #url-toggle-btn {
         position: relative;
         z-index: 1;
