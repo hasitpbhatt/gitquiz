@@ -95,8 +95,7 @@ html[data-theme="dark"] #setup-container header h1 {
     font-weight: 700 !important;
     letter-spacing: 0.18em !important;
     text-transform: uppercase !important;
-    color: #64748b;
-    opacity: 0.85;
+    color: #475569;
     margin-top: 0.25rem;
     display: flex;
     align-items: center;
@@ -104,7 +103,7 @@ html[data-theme="dark"] #setup-container header h1 {
 }
 
 html[data-theme="dark"] #setup-container header p {
-    color: #94a3b8;
+    color: #cbd5e1;
 }
 
 #setup-container header p::after {
@@ -118,22 +117,31 @@ html[data-theme="dark"] #setup-container header p {
     margin-left: 2px;
 }
 
-/* Celebration streak badge */
+@keyframes streakSlideIn {
+    0% { opacity: 0; transform: translateY(-8px) scale(0.95); }
+    100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+#daily-streak-badge.streak-enter {
+    animation: streakSlideIn 0.4s ease-out;
+}
+
+/* Celebration streak badge — unified amber F59E0B */
 #daily-streak-badge {
-    background: linear-gradient(to right, rgba(249, 115, 22, 0.08), rgba(245, 158, 11, 0.08));
-    border: 1.5px solid rgba(249, 115, 22, 0.2);
-    box-shadow: 0 0 15px rgba(249, 115, 22, 0.04);
-    color: #c2410c;
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid #F59E0B;
+    color: #F59E0B;
+    font-weight: 600;
 }
 html[data-theme="light"] #daily-streak-badge {
-    background: #fff7ed;
-    border-color: #ffedd5;
-    color: #c2410c;
+    background: rgba(245, 158, 11, 0.08);
+    border-color: #F59E0B;
+    color: #F59E0B;
 }
 html[data-theme="dark"] #daily-streak-badge {
-    background: rgba(249, 115, 22, 0.08);
-    border-color: rgba(249, 115, 22, 0.25);
-    color: #fdba74;
+    background: rgba(245, 158, 11, 0.1);
+    border-color: #F59E0B;
+    box-shadow: 0 0 16px rgba(245, 158, 11, 0.15);
+    color: #F59E0B;
 }
 
 .type-filter-container {
@@ -158,7 +166,7 @@ html[data-theme="dark"] #daily-streak-badge {
     transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     background: transparent;
     color: var(--text-main);
-    opacity: 0.6;
+    opacity: 0.75;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,22 +188,44 @@ html[data-theme="dark"] #daily-streak-badge {
     border-color: var(--accent);
 }
 
+/* NEW badge — blue pill */
+.new-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 7px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4;
+    background: rgba(59, 130, 246, 0.2);
+    color: #60A5FA;
+    margin-left: 8px;
+    letter-spacing: 0.02em;
+    flex-shrink: 0;
+}
+html[data-theme="dark"] .new-badge {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60A5FA;
+}
+
 /* Focus-visible ring for interactive elements */
 [type="text"][id="catalog-search"]:focus-visible,
 #share-btn:focus-visible,
-#course-dropdown:focus-visible {
+.list-box:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
 }
 
 /* Force Inter on all form elements */
-select, option, input, button, textarea {
+input, button, textarea {
     font-family: 'Inter', sans-serif !important;
 }
 
 /* Search input polish */
 #catalog-search {
     font-size: 14px;
+    padding-left: 20px;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 #catalog-search:focus {
@@ -208,72 +238,119 @@ div:has(> #catalog-search:focus) {
     border-color: var(--accent) !important;
 }
 
-/* Elegant Multi-Row Select styling */
-#course-dropdown {
+/* List container — subtle border + scrollbar breathing room */
+.list-container {
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding-right: 4px;
+    overflow: hidden;
+}
+
+/* Custom list-box dropdown */
+.list-box {
     width: 100%;
     border: none;
     font-family: 'Inter', sans-serif !important;
     background-color: var(--card-bg);
-    color: var(--text-main);
     font-size: 14px;
-    font-weight: 500;
     padding: 8px;
     outline: none;
-    box-shadow: none;
     cursor: pointer;
+    max-height: 320px;
     overflow-y: auto;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    scrollbar-gutter: stable;
 }
-#course-dropdown::-webkit-scrollbar { width: 6px; }
-#course-dropdown::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
-#course-dropdown::-webkit-scrollbar-track { background: transparent; }
+.list-box::-webkit-scrollbar { width: 6px; }
+.list-box::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+.list-box::-webkit-scrollbar-track { background: transparent; }
 
-html[data-theme="dark"] #course-dropdown {
+html[data-theme="dark"] .list-box {
     scrollbar-color: #475569 transparent;
 }
-html[data-theme="dark"] #course-dropdown::-webkit-scrollbar-thumb {
+html[data-theme="dark"] .list-box::-webkit-scrollbar-thumb {
     background: #475569;
 }
 
-#course-dropdown option {
-    font-family: 'Inter', sans-serif !important;
-    padding: 14px 16px;
+/* REFINED GRID & ELEMENT STRUCTURAL ASSIGNMENT FOR ROW UNIFICATION */
+.list-item {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 12px !important;
+    padding: 12px 16px;
     margin-bottom: 4px;
-    border-radius: 10px;
-    color: var(--text-main);
-    background-color: transparent;
-    transition: all 0.2s ease-in-out;
+    border-radius: 6px;
+    color: #64748B; /* High-contrast unselected text for light mode */
+    font-weight: 500;
+    font-size: 14px;
     cursor: pointer;
-    border: none !important;
+    transition: all 0.15s ease;
+    border-left: 3px solid transparent;
 }
-
-#course-dropdown option:last-child {
+html[data-theme="dark"] .list-item {
+    color: #94A3B8; /* High-contrast unselected text for dark mode */
+}
+.list-item:last-child {
     margin-bottom: 0;
 }
-
-#course-dropdown option:hover,
-#course-dropdown option:focus,
-#course-dropdown option:active {
-    background-color: rgba(37, 99, 235, 0.08) !important;
-    color: var(--accent);
+.list-item:hover {
+    background-color: rgba(59, 130, 246, 0.06);
+    color: var(--text-main);
 }
-
-#course-dropdown option:checked {
-    background: rgba(37, 99, 235, 0.15) !important;
-    color: var(--accent) !important;
+html[data-theme="dark"] .list-item:hover {
+    color: #FFFFFF;
+}
+.list-item.selected {
+    background: #1E293B;
+    color: #FFFFFF;
     font-weight: 700;
-    border-left: 4px solid var(--accent) !important;
-    border-radius: 4px 10px 10px 4px;
+    border-left: 3px solid #3B82F6;
+    border-radius: 0 6px 6px 0;
+}
+html[data-theme="light"] .list-item.selected {
+    background: #F1F5F9;
+    color: #1E293B;
+    border-left: 3px solid #2563EB;
 }
 
-#course-dropdown:focus {
-    outline: none;
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.08);
+/* Overrides inner inline elements from forcing accidental line breaks */
+.list-item > * {
+    display: inline-block !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
 }
 
+.list-item-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    display: inline-block !important;
+}
+.list-item.selected .list-item-icon {
+    opacity: 1;
+}
+
+/* Explicit scaling assignment for dynamically targeted title nodes */
+.list-item .list-item-text, 
+.list-item span:not(.new-badge):not(.list-item-icon),
+.list-item div:not(.new-badge):not(.list-item-icon) {
+    flex: 1 !important;
+    display: block !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    text-align: left !important;
+}
+
+.list-empty {
+    padding: 24px 16px;
+    text-align: center;
+    color: #64748B;
+    font-size: 13px;
+    font-weight: 500;
+}
 
 .option-btn {
     position: relative;
@@ -520,6 +597,20 @@ html[data-theme="dark"] .key-hint {
 }
 
 @media (max-width: 640px) {
+    #theme-toggle {
+        top: 8px;
+        left: 8px;
+        width: 36px;
+        height: 36px;
+        padding: 6px;
+    }
+    #share-btn {
+        top: 8px;
+        right: 8px;
+        width: 36px;
+        height: 36px;
+        padding: 6px;
+    }
     #preview-title {
         white-space: nowrap;
         overflow: hidden;
@@ -531,17 +622,8 @@ html[data-theme="dark"] .key-hint {
         text-overflow: ellipsis;
         max-width: 140px;
     }
-    #course-dropdown {
+    .list-box {
         max-height: 240px;
-        overflow-x: hidden;
-        overflow-y: auto;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    #course-dropdown option {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 100%;
     }
     #next-btn-wrapper {
         position: fixed;
