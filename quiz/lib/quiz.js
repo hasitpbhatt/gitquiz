@@ -32,6 +32,10 @@ async function handleStart() {
             showNotify("Selection Required", "Please choose a module from the list.");
             return;
         }
+        if (val.startsWith('book-') || val.startsWith('podcast-') || val.startsWith('coursera-') || val.startsWith('course-')) {
+            showCoursePreview(val);
+            return;
+        }
         finalUrl = `${BASE_URL}${val}/001.json`;
     }
     if (finalUrl) await initializeQuiz(finalUrl);

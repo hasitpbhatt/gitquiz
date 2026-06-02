@@ -23,6 +23,13 @@ const CATALOG_CONTENT = [
   'test-course',
 ].join('\n');
 
+const MOCK_META = {
+  'book-atomic-habits': { title: 'Atomic Habits', type: 'book', chapters: 2, source: null, description: 'Build better habits.' },
+  'podcast-tim-ferriss': { title: 'Tim Ferriss Show', type: 'podcast', chapters: 2, source: null, description: 'Interviews with world-class performers.' },
+  'coursera-machine-learning': { title: 'Machine Learning', type: 'coursera', chapters: 2, source: null, description: 'ML fundamentals.' },
+  'test-course': { title: 'Test Course', type: 'course', chapters: 2, source: null, description: 'A test course.' },
+};
+
 const MOCK_MODULES = {
   '001.json': [
     {
@@ -91,6 +98,10 @@ async function setupMocks(page) {
       return route.fulfill({ body: CATALOG_CONTENT, contentType: 'text/plain' });
     }
 
+    if (url.includes('courses-meta.json')) {
+      return route.fulfill({ body: JSON.stringify(MOCK_META), contentType: 'application/json' });
+    }
+
     for (const [file, data] of Object.entries(MOCK_MODULES)) {
       if (url.includes(file)) {
         return route.fulfill({ body: JSON.stringify(data), contentType: 'application/json' });
@@ -112,6 +123,9 @@ async function setupSingleQuestionMock(page) {
     if (url.includes('courses_list.txt')) {
       return route.fulfill({ body: CATALOG_CONTENT, contentType: 'text/plain' });
     }
+    if (url.includes('courses-meta.json')) {
+      return route.fulfill({ body: JSON.stringify(MOCK_META), contentType: 'application/json' });
+    }
     if (url.includes('001.json')) {
       return route.fulfill({ body: JSON.stringify(SINGLE_QUESTION_MODULE), contentType: 'application/json' });
     }
@@ -119,4 +133,4 @@ async function setupSingleQuestionMock(page) {
   });
 }
 
-export { CATALOG_CONTENT, MOCK_MODULES, SINGLE_QUESTION_MODULE, setupMocks, setupSingleQuestionMock, setupLocalMocks };
+export { CATALOG_CONTENT, MOCK_META, MOCK_MODULES, SINGLE_QUESTION_MODULE, setupMocks, setupSingleQuestionMock, setupLocalMocks };

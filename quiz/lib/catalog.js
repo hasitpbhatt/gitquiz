@@ -3,9 +3,15 @@
 async function loadCatalog() {
     const dropdown = document.getElementById('course-dropdown');
     try {
-        const response = await fetch(CATALOG_URL);
-        const text = await response.text();
+        const [catalogRes, metaRes] = await Promise.all([
+            fetch(CATALOG_URL),
+            fetch(META_URL)
+        ]);
+        const text = await catalogRes.text();
         fullCatalog = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
+        if (metaRes.ok) {
+            coursesMeta = await metaRes.json();
+        }
         renderCatalogOptions(fullCatalog);
     } catch (err) {
         dropdown.innerHTML = '<option value="" disabled>Error connecting to catalog vault.</option>';

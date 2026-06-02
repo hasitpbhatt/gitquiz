@@ -485,6 +485,40 @@ html[data-theme="dark"] .key-hint {
     border-color: var(--accent);
 }
 
+/* Chapter Grid */
+.chapter-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(148, 163, 184, 0.2);
+    background: var(--card-bg);
+    color: var(--text-main);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.chapter-btn:hover {
+    border-color: var(--accent);
+    background: rgba(37, 99, 235, 0.06);
+    transform: translateY(-2px);
+}
+.chapter-btn:active {
+    transform: scale(0.95);
+}
+.chapter-btn-active {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: #fff;
+}
+.chapter-btn-active:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
 @media (max-width: 640px) {
     #preview-title {
         white-space: nowrap;

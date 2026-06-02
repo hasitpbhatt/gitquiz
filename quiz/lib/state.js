@@ -2,6 +2,7 @@
 
 const BASE_URL = "https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/";
 const CATALOG_URL = "https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/courses_list.txt";
+const META_URL = "https://raw.githubusercontent.com/hasitpbhatt/gitquiz/main/courses/courses-meta.json";
 
 let quizData = [];
 let currentIdx = 0;
@@ -20,6 +21,7 @@ let lastAnswerCorrect = false;
 let previewUrl = '';
 let previewData = null;
 let previewQuestionIdx = 0;
+let coursesMeta = {};
 
 function escapeHtml(str) {
     const div = document.createElement('div');
