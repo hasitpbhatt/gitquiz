@@ -25,7 +25,12 @@ function renderCatalogOptions(items) {
         dropdown.innerHTML = '<option value="" disabled>No matches found.</option>';
         return;
     }
-    items.forEach(name => {
+    const sorted = [...items].sort((a, b) => {
+        const aNew = isCourseNew(a) ? 0 : 1;
+        const bNew = isCourseNew(b) ? 0 : 1;
+        return aNew - bNew;
+    });
+    sorted.forEach(name => {
         const opt = document.createElement('option');
         opt.value = name;
         opt.className = "p-3 border-b border-slate-100 dark:border-slate-800 cursor-pointer hover:bg-blue-50 dark:hover:bg-slate-800";
@@ -37,6 +42,9 @@ function renderCatalogOptions(items) {
             else if (name.startsWith('podcast-')) prefix = '🎙';
             else if (name.startsWith('coursera-')) prefix = '📚';
             displayName = `${prefix} ${displayName}`;
+        }
+        if (isCourseNew(name)) {
+            displayName = displayName + ' 🆕';
         }
         opt.innerHTML = displayName;
         opt.title = displayName;

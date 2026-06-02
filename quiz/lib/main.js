@@ -16,6 +16,7 @@
   const qParam = params.get('q');
   const chParam = params.get('c');
   if (courseParam && fullCatalog.includes(courseParam)) {
+    markCourseSeen(courseParam);
     const dropdown = document.getElementById('course-dropdown');
     dropdown.value = courseParam;
     let ch = '001';

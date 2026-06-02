@@ -33,6 +33,7 @@ async function handleStart() {
             return;
         }
         if (val.startsWith('book-') || val.startsWith('podcast-') || val.startsWith('coursera-') || val.startsWith('course-')) {
+            markCourseSeen(val);
             showCoursePreview(val);
             return;
         }
@@ -50,6 +51,12 @@ async function initializeQuiz(url, prefetchedData) {
         url = url.endsWith('/') ? url + '001.json' : url + '/001.json';
     }
     currentUrl = url;
+    if (url.startsWith(BASE_URL)) {
+        const parts = url.split('/');
+        parts.pop();
+        const parentFolder = parts.pop() || '';
+        if (parentFolder) markCourseSeen(parentFolder);
+    }
 
     document.getElementById('setup-container').classList.add('hidden');
     document.getElementById('preview-container').classList.add('hidden');

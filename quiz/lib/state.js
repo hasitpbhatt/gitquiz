@@ -61,6 +61,28 @@ function getDailyStreak() {
     }
 }
 
+const SEEN_COURSES_KEY = 'quizSeenCourses';
+
+function getSeenCourses() {
+    try {
+        return JSON.parse(localStorage.getItem(SEEN_COURSES_KEY)) || [];
+    } catch {
+        return [];
+    }
+}
+
+function markCourseSeen(courseId) {
+    const seen = getSeenCourses();
+    if (!seen.includes(courseId)) {
+        seen.push(courseId);
+        localStorage.setItem(SEEN_COURSES_KEY, JSON.stringify(seen));
+    }
+}
+
+function isCourseNew(courseId) {
+    return !getSeenCourses().includes(courseId);
+}
+
 function applyTheme(isDark) {
     const html = document.documentElement;
     if (isDark) {
