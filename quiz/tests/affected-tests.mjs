@@ -10,7 +10,7 @@ const MAPPING = [
   { path: 'quiz/tests/playwright.config.mjs', test: '' },
   { path: 'quiz/tests/package.json', test: '' },
   { path: 'quiz/lib/main.js', test: 'setup.spec.mjs url-params.spec.mjs' },
-  { path: 'quiz/lib/state.js', test: 'setup.spec.mjs quiz.spec.mjs lib-unit.test.mjs' },
+  { path: 'quiz/lib/state.js', test: 'setup.spec.mjs quiz.spec.mjs lib-unit.test.mjs catalog.spec.mjs preview.spec.mjs' },
   { path: 'quiz/lib/catalog.js', test: 'catalog.spec.mjs lib-unit.test.mjs' },
   { path: 'quiz/lib/notifications.js', test: 'setup.spec.mjs' },
   { path: 'quiz/lib/preview.js', test: 'preview.spec.mjs' },

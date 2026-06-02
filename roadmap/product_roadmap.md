@@ -7,14 +7,14 @@ Prioritized by user impact.
 ## Tier 1 — Core Experience
 
 - [ ] 🔷 **Progress persistence (localStorage)** — Save quiz progress across sessions. Close tab, resume where you left off.
-- [ ] ⚡ **Course curriculum view** — Show chapter list before starting. Let users jump to any chapter.
+- [x] ⚡ **Course curriculum view** — Show chapter list before starting. Let users jump to any chapter.
 - [ ] ⚡ **Resume from last uncompleted chapter** — Auto-detect last position instead of always starting at chapter 001.
 - [ ] ⚡ **Hide completed toggle** — Toggle to filter out fully completed courses from the catalog; when active, auto-scroll to the first incomplete course/module.
 - [ ] 🔷 **Wrong-answer review deck** — Revisit missed questions after completing a module.
 
 ## Tier 2 — Engagement & Retention
 
-- [ ] ⚡ **New course indicator** — Show a "🆕 New" badge on courses added since the user's last visit (tracked via localStorage). Sort new courses to the top of the catalog for priority discovery.
+- [x] ⚡ **New course indicator** — Show a "🆕 New" badge on courses added since the user's last visit (tracked via localStorage). Sort new courses to the top of the catalog for priority discovery.
 - [ ] 🏗️ **Spaced repetition review** — Schedule re-quizzes of past mistakes (SM-2 / Leitner).
 - [ ] 🔷 **Difficulty-aware adaptation** — `difficulty` field exists per question but is unused. Adapt based on performance.
 

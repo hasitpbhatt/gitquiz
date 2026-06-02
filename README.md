@@ -196,7 +196,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 
 ### Page Screens
 1. **Setup/Catalog Screen** (`#setup-container`): Search bar, type filter buttons (All/Books/Podcasts/Courses), course dropdown (options truncated on mobile, title attribute shows full name on hover), Custom Quiz toggle in footer (lazy-created — not in DOM until first click), daily streak badge
-2. **Preview Screen** (`#preview-container`): Course badge, title, question count, first question preview with options, Start Quiz / Cancel buttons
+2. **Preview Screen** (`#preview-container`): Course badge, title, question count + chapter count, first question preview with options, chapter grid for multi-chapter navigation, Start Quiz / Cancel buttons
 3. **Quiz Screen** (`#quiz-container`): Progress bar, score/streak/timer stat cards, quiz flow with question, options (shuffled), explanation panel, AI Explain button, Continue button
 4. **Completion Screen** (`#completion-screen`): Trophy animation, final score, total time, Download Achievement Card button, Start Next Module / Return to Catalog
 
@@ -209,6 +209,8 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 | `#daily-streak-badge` | Streak notification (hidden when 0) |
 | `#preview-badge` | Course ID badge (`truncate max-w-[200px]`) |
 | `#preview-title` | Course name (`h2`, mobile truncation) |
+| `#preview-meta` | Preview stats text (question count + chapter count) |
+| `#preview-chapter-grid` | Chapter navigation grid (flex-wrap, `.chapter-btn` / `.chapter-btn-active`) |
 | `#module-label` | Quiz header label between "← Menu" and "Skip Module" (`max-width: 140px` + mobile truncation) |
 | `#topic-title`, `#description-text`, `#content-box` | Question content (wrapping OK, no truncation) |
 | `#options-bin` | Shuffled multiple-choice buttons |
@@ -390,8 +392,8 @@ To deploy the frontend:
 
 ## Features
 
-- **Course catalog** with search, type filters (book/podcast/coursera), and type-prefix-stripped display names
-- **Preview screen** showing course description, chapter list, and first question preview
+- **Course catalog** with search, type filters (book/podcast/coursera), type-prefix-stripped display names, and new course indicator (🆕 badge + unseen-first sort)
+- **Preview screen** showing course description, chapter grid for multi-chapter navigation, and first question preview
 - **Quiz flow** with multiple-choice options, letter badges (A/B/C/D), difficulty-tagged questions, and score tracking
 - **Keyboard shortcuts** (1–4 to select options, Enter to continue/start)
 - **Screen transition animations** between setup → preview → quiz → completion screens (`fadeSlideIn`)
