@@ -259,6 +259,20 @@ async function directSkipModule() {
 async function checkNaturalEnd() {
     clearInterval(timerInterval);
     updateDailyStreak();
+
+    // Mark chapter as complete
+    let courseDone = false;
+    if (currentUrl) {
+        const parts = currentUrl.split('/');
+        const filename = parts.pop().replace('.json', '');
+        const courseId = parts.pop() || '';
+        const chNum = parseInt(filename, 10);
+        if (courseId && !isNaN(chNum)) {
+            markChapterComplete(courseId, chNum);
+            courseDone = isCourseComplete(courseId);
+        }
+    }
+
     const finalTime = document.getElementById('timer-val').innerText;
     document.getElementById('final-score-val').innerText = score.toLocaleString();
     document.getElementById('final-timer-val').innerText = finalTime;
@@ -287,7 +301,9 @@ async function checkNaturalEnd() {
             box.appendChild(btn);
         } else {
             box.innerHTML = `<p class="font-800 text-emerald-500">Mastery Complete: No further modules detected in this track.</p>`;
-            document.getElementById('completion-title').innerText = "Course Track Completed!";
+            document.getElementById('completion-title').innerText = courseDone
+                ? "🏆 Course Complete!"
+                : "Course Track Completed!";
         }
     } catch (e) {
         box.innerHTML = `<p class="text-slate-500">End of sequence.</p>`;

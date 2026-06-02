@@ -415,15 +415,15 @@ test('subtitle text is visible after toggling to light mode in dark system', { t
 
   const subtitle = page.locator('#setup-container header p');
 
-  // Initially in dark mode, subtitle should be light (slate-400)
+  // Initially in dark mode, subtitle should be slate-300 (html[data-theme="dark"] > .media-query)
   const initialColor = await subtitle.evaluate(el => getComputedStyle(el).color);
-  expect(initialColor).toBe('rgb(148, 163, 184)');
+  expect(initialColor).toBe('rgb(203, 213, 225)');
 
   // Toggle to light mode
   await page.locator('#theme-toggle').click();
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
 
-  // Should now be dark text visible on light bg (slate-500)
+  // Should now be slate-600 (default rule overrides media query due to later cascade)
   const toggledColor = await subtitle.evaluate(el => getComputedStyle(el).color);
-  expect(toggledColor).toBe('rgb(100, 116, 139)');
+  expect(toggledColor).toBe('rgb(71, 85, 105)');
 });

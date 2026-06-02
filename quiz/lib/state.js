@@ -61,6 +61,47 @@ function getDailyStreak() {
     }
 }
 
+const CHAPTER_PROGRESS_KEY = 'quizChapterProgress';
+const HIDE_COMPLETED_KEY = 'quizHideCompleted';
+
+function getChapterProgress() {
+    try {
+        return JSON.parse(localStorage.getItem(CHAPTER_PROGRESS_KEY)) || {};
+    } catch {
+        return {};
+    }
+}
+
+function markChapterComplete(courseId, chapterNum) {
+    const progress = getChapterProgress();
+    if (!progress[courseId]) {
+        progress[courseId] = [];
+    }
+    if (!progress[courseId].includes(chapterNum)) {
+        progress[courseId].push(chapterNum);
+        localStorage.setItem(CHAPTER_PROGRESS_KEY, JSON.stringify(progress));
+    }
+}
+
+function isCourseComplete(courseId) {
+    const meta = coursesMeta[courseId];
+    if (!meta || !meta.chapters) return false;
+    const progress = getChapterProgress();
+    const completed = progress[courseId] || [];
+    return completed.length >= meta.chapters;
+}
+
+function getFirstIncompleteChapter(courseId) {
+    const meta = coursesMeta[courseId];
+    if (!meta || !meta.chapters) return 1;
+    const progress = getChapterProgress();
+    const completed = new Set(progress[courseId] || []);
+    for (let i = 1; i <= meta.chapters; i++) {
+        if (!completed.has(i)) return i;
+    }
+    return null;
+}
+
 const SEEN_COURSES_KEY = 'quizSeenCourses';
 
 function getSeenCourses() {

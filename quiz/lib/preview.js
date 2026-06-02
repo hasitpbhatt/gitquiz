@@ -3,11 +3,14 @@
 async function showCoursePreview(courseId) {
     const meta = coursesMeta[courseId];
     const chapterCount = meta ? meta.chapters : 0;
-    const url = `${BASE_URL}${courseId}/001.json`;
-    await showPreviewScreen(url, 0, chapterCount);
+    const resumeCh = getFirstIncompleteChapter(courseId);
+    const ch = resumeCh !== null ? resumeCh : 1;
+    const chPadded = String(ch).padStart(3, '0');
+    const url = `${BASE_URL}${courseId}/${chPadded}.json`;
+    await showPreviewScreen(url, 0, chapterCount, courseId);
 }
 
-async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0) {
+async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0, courseId = '') {
     if (url.includes("github.com") && !url.includes("raw.githubusercontent.com")) {
         url = url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/").replace("/tree/", "/");
     }
@@ -28,6 +31,7 @@ async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0) {
     const parts = url.split('/');
     const filename = parts.pop().replace('.json', '');
     const parentFolder = parts.pop() || '';
+    if (!courseId) courseId = parentFolder;
     if (chapterCount === 0 && coursesMeta[parentFolder]) {
         chapterCount = coursesMeta[parentFolder].chapters || 0;
     }
@@ -43,9 +47,9 @@ async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0) {
     const displayName = typeEmoji + ' ' + (courseName || 'Module');
 
     document.getElementById('preview-badge').innerText = displayName;
-    document.getElementById('preview-badge').title = displayName;
+    document.getElementById('preview-badge').title = courseName || 'Module';
     document.getElementById('preview-title').innerText = courseName ? `${displayName} • ${filename}` : filename;
-    document.getElementById('preview-title').title = courseName ? `${displayName} • ${filename}` : filename;
+    document.getElementById('preview-title').title = courseName ? `${courseName} • ${filename}` : filename;
     document.getElementById('preview-meta').innerText = 'Loading...';
     document.getElementById('preview-topic-title').classList.add('hidden');
     document.getElementById('preview-topic-title').innerText = '';
@@ -82,16 +86,20 @@ async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0) {
         }
 
         // Render chapter grid for course curriculum
+        const currentChapter = parseInt(filename, 10);
         const grid = document.getElementById('preview-chapter-grid');
         grid.classList.toggle('hidden', chapterCount <= 1);
         if (chapterCount > 1) {
-            const currentChapter = parseInt(filename, 10);
+            const progress = getChapterProgress();
+            const completed = progress[courseId] || [];
             for (let i = 1; i <= chapterCount; i++) {
                 const ch = String(i).padStart(3, '0');
                 const btn = document.createElement('button');
-                btn.className = `chapter-btn ${i === currentChapter ? 'chapter-btn-active' : ''}`;
-                btn.textContent = i;
-                btn.title = `Chapter ${i}`;
+                const isCompleted = completed.includes(i);
+                const isActive = i === currentChapter;
+                btn.className = `chapter-btn${isActive ? ' chapter-btn-active' : ''}${isCompleted ? ' chapter-btn-completed' : ''}`;
+                btn.textContent = isCompleted ? '✓' : i;
+                btn.title = isCompleted ? `Chapter ${i} ✓` : `Chapter ${i}`;
                 btn.dataset.chapter = ch;
                 btn.onclick = () => {
                     const chUrl = `${BASE_URL}${parentFolder}/${ch}.json`;
@@ -100,6 +108,14 @@ async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0) {
                 };
                 grid.appendChild(btn);
             }
+        }
+        // Show resume badge when starting from a non-first chapter
+        if (currentChapter > 1) {
+            const metaEl = document.getElementById('preview-meta');
+            const resumeBadge = document.createElement('span');
+            resumeBadge.className = 'ml-2 inline-flex items-center gap-1 text-[10px] font-700 text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full';
+            resumeBadge.textContent = `↻ Resume from Ch ${currentChapter}`;
+            metaEl.appendChild(resumeBadge);
         }
     } catch (err) {
         previewData = null;
