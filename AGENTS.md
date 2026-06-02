@@ -101,6 +101,8 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - **Quiz active** → share question + user's answer
     - **Catalog screen** → share portal link
 12. **Achievement card**: Template hidden off-screen at `#achievement-card-template` (CSS `left: -9999px`). Uses `html2canvas` to render to PNG.
+13. **XSS hazard: no URL interpolation into inline handlers**: `quiz.js:272` built `<button onclick="initializeQuiz('${nextUrl}')">` via `innerHTML` — a crafted URL with `'` breaks the string boundary and enables arbitrary JS execution. Completion-screen code must use `addEventListener` / `document.createElement`, never string interpolation into `onclick` (or similar) attributes.
+14. **Options trailing-whitespace edge case**: `quiz.js:196` compares `correctAnswer` (trimmed via `.trim()`) against `dataset.option` (untrimmed). If any option in a JSON file has trailing whitespace, the correct-answer highlight after a wrong answer silently fails. Validate that `answer` and its matching `options` entry are exactly identical with no leading/trailing whitespace (reinforces rule 2 above).
 
 ### Test Conventions (`quiz/tests/`)
 
