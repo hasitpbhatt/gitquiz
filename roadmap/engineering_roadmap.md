@@ -18,7 +18,6 @@ Prioritized by risk reduction and developer impact.
 - [ ] 🔷 **Linting + formatting** (ESLint + Prettier) — No code standards enforced across contributions.
 - [ ] 🔷 **Local dev server with live reload** — Python `http.server` works but no HMR, no watch mode.
 - [ ] ⚡ **Pre-commit hooks** — Commits can ship without tests, lint, or validation.
-- [ ] ⚡ **Fix pre-commit hook for Windows + align with CI** — `.githooks/pre-commit` uses `#!/bin/sh` + `grep` (fails silently on Windows PowerShell) and runs `schema.spec.mjs` (Playwright) while CI runs `schema-valid.test.mjs` (node:test). Developers get divergent validation signals between local and CI.
 - [ ] 🔷 **Eliminate test-helpers.mjs duplication** — 7+ production functions (`escapeHtml`, `shuffleArray`, `filterCatalogItems`, `formatCourseName`, `buildCatalogOptions`, `getShareUrl`, `calculateScore`, `calculateNewStreak`, `getTodayStr`) are duplicated in `test-helpers.mjs` because lib/ uses globals instead of exports. Refactor lib/ to export pure functions so tests can import them directly, removing the parallel-codebase maintenance burden.
 - [ ] 🔷 **Faster CI (caching + parallelization)** — Schema tests run serially across 4 workers; 21 courses × AJV validations could cache.
 - [ ] ⚡ **Unify test runner** — `npm run test:*` scripts are useful but no single `npm test` entry point.
@@ -36,7 +35,6 @@ Prioritized by risk reduction and developer impact.
 - [ ] 🔷 **Error tracking (e.g., Sentry)** — No visibility into failures in production.
 - [ ] ⚡ **CSP headers** — No Content-Security-Policy. CDN-loaded scripts are unvalidated.
 - [ ] 🔷 **Audit XSS surfaces** — `sharing.js` concatenates HTML strings with `escapeHtml` calls — easy to miss one.
-- [ ] ⚡ **Fix innerHTML injection of `nextUrl` in quiz completion** — `quiz.js:272` interpolates a user-supplied URL into `<button onclick="initializeQuiz('...')">`. A crafted URL with `'` breaks the string boundary, enabling arbitrary JS execution. Replace with `document.createElement` + `addEventListener`.
 
 ## Tier 5 — Platform Extensibility
 

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-staged_courses=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^courses/' | head -1)
-if [ -z "$staged_courses" ]; then
+staged=$(git diff --cached --name-only --diff-filter=ACM -- 'courses/')
+if [ -z "$staged" ]; then
     exit 0
 fi
 
@@ -14,7 +14,7 @@ if [ $rc1 -ne 0 ]; then
     exit 1
 fi
 
-cd quiz/tests && npx playwright test schema.spec.mjs --config schema.config.mjs
+cd quiz/tests && npm run test:schema
 rc2=$?
 if [ $rc2 -ne 0 ]; then
     echo "✗ Schema tests failed. Fix errors before committing."

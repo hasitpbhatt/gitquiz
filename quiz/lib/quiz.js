@@ -269,7 +269,12 @@ async function checkNaturalEnd() {
     try {
         const res = await fetch(nextUrl);
         if (res.ok) {
-            box.innerHTML = `<button onclick="initializeQuiz('${nextUrl}')" class="w-full p-4 bg-slate-900 dark:bg-white dark:text-slate-900 text-white rounded-xl font-800 shadow-xl">Start Next Module →</button>`;
+            box.innerHTML = '';
+            const btn = document.createElement('button');
+            btn.className = 'w-full p-4 bg-slate-900 dark:bg-white dark:text-slate-900 text-white rounded-xl font-800 shadow-xl';
+            btn.textContent = 'Start Next Module →';
+            btn.addEventListener('click', () => initializeQuiz(nextUrl));
+            box.appendChild(btn);
         } else {
             box.innerHTML = `<p class="font-800 text-emerald-500">Mastery Complete: No further modules detected in this track.</p>`;
             document.getElementById('completion-title').innerText = "Course Track Completed!";
