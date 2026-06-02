@@ -209,56 +209,56 @@ test('catalog loads and shows all options', { tag: ['@visual', '@catalog'] }, as
 
   await expect(page.locator('#setup-container')).toBeVisible();
 
-  const options = page.locator('#course-dropdown option');
+  const options = page.locator('#course-dropdown .list-item');
   await expect(options).toHaveCount(4);
-  await expect(options.nth(0)).toHaveAttribute('value', 'book-atomic-habits');
-  await expect(options.nth(1)).toHaveAttribute('value', 'podcast-tim-ferriss');
-  await expect(options.nth(2)).toHaveAttribute('value', 'coursera-machine-learning');
-  await expect(options.nth(3)).toHaveAttribute('value', 'test-course');
+  await expect(options.nth(0)).toHaveAttribute('data-value', 'book-atomic-habits');
+  await expect(options.nth(1)).toHaveAttribute('data-value', 'podcast-tim-ferriss');
+  await expect(options.nth(2)).toHaveAttribute('data-value', 'coursera-machine-learning');
+  await expect(options.nth(3)).toHaveAttribute('data-value', 'test-course');
 });
 
 test('catalog text search filters options', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
-  const options = page.locator('#course-dropdown option');
+  const options = page.locator('#course-dropdown .list-item');
   await expect(options).toHaveCount(4);
 
   await page.fill('#catalog-search', 'atomic');
 
   await expect(options).toHaveCount(1);
-  await expect(options.first()).toHaveAttribute('value', 'book-atomic-habits');
+  await expect(options.first()).toHaveAttribute('data-value', 'book-atomic-habits');
 });
 
 test('catalog type filter shows only matching types', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
-  const options = page.locator('#course-dropdown option');
+  const options = page.locator('#course-dropdown .list-item');
   await expect(options).toHaveCount(4);
 
   await page.click('.type-filter-btn[data-type="book"]');
   await expect(options).toHaveCount(1);
-  await expect(options.first()).toHaveAttribute('value', 'book-atomic-habits');
+  await expect(options.first()).toHaveAttribute('data-value', 'book-atomic-habits');
 
   await page.click('.type-filter-btn[data-type="podcast"]');
   await expect(options).toHaveCount(1);
-  await expect(options.first()).toHaveAttribute('value', 'podcast-tim-ferriss');
+  await expect(options.first()).toHaveAttribute('data-value', 'podcast-tim-ferriss');
 
   await page.click('.type-filter-btn[data-type="coursera"]');
   await expect(options).toHaveCount(1);
-  await expect(options.first()).toHaveAttribute('value', 'coursera-machine-learning');
+  await expect(options.first()).toHaveAttribute('data-value', 'coursera-machine-learning');
 });
 
 test('catalog combined search and type filter', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
-  const options = page.locator('#course-dropdown option');
+  const options = page.locator('#course-dropdown .list-item');
   await expect(options).toHaveCount(4);
 
   await page.click('.type-filter-btn[data-type="coursera"]');
   await page.fill('#catalog-search', 'learning');
 
   await expect(options).toHaveCount(1);
-  await expect(options.first()).toHaveAttribute('value', 'coursera-machine-learning');
+  await expect(options.first()).toHaveAttribute('data-value', 'coursera-machine-learning');
 
   await page.fill('#catalog-search', 'atomic');
   await expect(page.locator('#course-dropdown')).toContainText('No matches found');
@@ -267,7 +267,7 @@ test('catalog combined search and type filter', { tag: ['@visual', '@catalog'] }
 test('catalog no matches shows placeholder', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
-  const options = page.locator('#course-dropdown option');
+  const options = page.locator('#course-dropdown .list-item');
   await expect(options).toHaveCount(4);
 
   await page.fill('#catalog-search', 'zzzdoesnotexist');
@@ -278,7 +278,7 @@ test('catalog no matches shows placeholder', { tag: ['@visual', '@catalog'] }, a
 test('catalog empty search restores all options', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
-  const options = page.locator('#course-dropdown option');
+  const options = page.locator('#course-dropdown .list-item');
   await expect(options).toHaveCount(4);
 
   await page.fill('#catalog-search', 'tim');
@@ -291,7 +291,7 @@ test('catalog empty search restores all options', { tag: ['@visual', '@catalog']
 test('catalog "All" type filter shows everything', { tag: ['@visual', '@catalog'] }, async ({ page }) => {
   await page.goto('/');
 
-  const options = page.locator('#course-dropdown option');
+  const options = page.locator('#course-dropdown .list-item');
   await expect(options).toHaveCount(4);
 
   await page.click('.type-filter-btn[data-type="book"]');

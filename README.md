@@ -195,7 +195,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 ```
 
 ### Page Screens
-1. **Setup/Catalog Screen** (`#setup-container`): Search bar, type filter buttons (All/Books/Podcasts/Courses), course dropdown (options truncated on mobile, title attribute shows full name on hover), Custom Quiz toggle in footer (lazy-created — not in DOM until first click), daily streak badge
+1. **Setup/Catalog Screen** (`#setup-container`): Search bar, SVG type filter buttons (All/Books/Podcasts/Courses), custom `<div>`-based course list with row icons, NEW pill badge on unseen courses, Custom Quiz toggle in footer (lazy-created — not in DOM until first click), daily streak badge
 2. **Preview Screen** (`#preview-container`): Course badge, title, question count + chapter count, first question preview with options, chapter grid for multi-chapter navigation, Start Quiz / Cancel buttons
 3. **Quiz Screen** (`#quiz-container`): Progress bar, score/streak/timer stat cards, quiz flow with question, options (shuffled), explanation panel, AI Explain button, Continue button
 4. **Completion Screen** (`#completion-screen`): Trophy animation, final score, total time, Download Achievement Card button, Start Next Module / Return to Catalog
@@ -203,7 +203,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 ### Key DOM Elements
 | Element | Purpose |
 |---------|---------|
-| `#course-dropdown` | Course selector (`select[multiple]` with `w-full`, max-height 240px on mobile; text-overflow: ellipsis; overflow-x: hidden; each `<option>` has `title` attribute for full name on hover) |
+| `#course-dropdown` | Course selector (`div`-based custom list with `.list-item` rows, SVG type icons, NEW pill badge, `data-value` attribute, selected state with blue left border) |
 | `#catalog-search` | Search input |
 | `.type-filter-btn[data-type]` | Type filter buttons (all, book, podcast, coursera) |
 | `#daily-streak-badge` | Streak notification (hidden when 0) |
@@ -392,7 +392,7 @@ To deploy the frontend:
 
 ## Features
 
-- **Course catalog** with search, type filters (book/podcast/coursera), type-prefix-stripped display names, and new course indicator (🆕 badge + unseen-first sort)
+- **Course catalog** with search, type filters (book/podcast/coursera), `<div>`-based custom list with SVG type icons per row, type-prefix-stripped display names, and new course indicator (NEW pill badge + unseen-first sort)
 - **Preview screen** showing course description, chapter grid for multi-chapter navigation, and first question preview
 - **Quiz flow** with multiple-choice options, letter badges (A/B/C/D), difficulty-tagged questions, and score tracking
 - **Keyboard shortcuts** (1–4 to select options, Enter to continue/start)

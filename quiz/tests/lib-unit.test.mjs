@@ -134,20 +134,20 @@ describe('formatCourseName', () => {
     assert.strictEqual(formatCourseName('coursera-machine-learning', false), 'Machine Learning');
   });
 
-  it('shows emoji for book when showEmoji is true', () => {
-    assert.strictEqual(formatCourseName('book-atomic-habits', true), '📘 Atomic Habits');
+  it('returns plain name even when showEmoji is true', () => {
+    assert.strictEqual(formatCourseName('book-atomic-habits', true), 'Atomic Habits');
   });
 
-  it('shows emoji for podcast when showEmoji is true', () => {
-    assert.strictEqual(formatCourseName('podcast-tim-ferriss', true), '🎙 Tim Ferriss');
+  it('returns plain name for podcast with showEmoji', () => {
+    assert.strictEqual(formatCourseName('podcast-tim-ferriss', true), 'Tim Ferriss');
   });
 
-  it('shows emoji for coursera when showEmoji is true', () => {
-    assert.strictEqual(formatCourseName('coursera-machine-learning', true), '📚 Machine Learning');
+  it('returns plain name for coursera with showEmoji', () => {
+    assert.strictEqual(formatCourseName('coursera-machine-learning', true), 'Machine Learning');
   });
 
-  it('handles unknown type with default emoji', () => {
-    assert.strictEqual(formatCourseName('course-test', true), '📖 Test');
+  it('handles unknown type with no emoji', () => {
+    assert.strictEqual(formatCourseName('course-test', true), 'Test');
   });
 });
 
@@ -162,14 +162,14 @@ describe('buildCatalogOptions', () => {
     assert.strictEqual(result.length, 0);
   });
 
-  it('includes emoji in html when typeFilter is all', () => {
+  it('html equals plain name without emoji', () => {
     const result = buildCatalogOptions(['book-atomic-habits'], 'all');
-    assert.ok(result[0].html.includes('📘'));
+    assert.strictEqual(result[0].html, 'Atomic Habits');
   });
 
-  it('omits emoji from html when typeFilter is specific', () => {
+  it('typeFilter param does not affect html output', () => {
     const result = buildCatalogOptions(['book-atomic-habits'], 'book');
-    assert.ok(!result[0].html.includes('📘'));
+    assert.strictEqual(result[0].html, 'Atomic Habits');
   });
 
   it('formats display text as title case', () => {

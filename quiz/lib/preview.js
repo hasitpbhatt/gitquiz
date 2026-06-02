@@ -36,10 +36,16 @@ async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0) {
         .replace(/-/g, ' ')
         .replace(/\b\w/g, c => c.toUpperCase());
 
-    document.getElementById('preview-badge').innerText = courseName || 'Module';
-    document.getElementById('preview-badge').title = courseName || 'Module';
-    document.getElementById('preview-title').innerText = courseName ? `${courseName} • ${filename}` : filename;
-    document.getElementById('preview-title').title = courseName ? `${courseName} • ${filename}` : filename;
+    let typeEmoji = '📖';
+    if (parentFolder.startsWith('book-')) typeEmoji = '📘';
+    else if (parentFolder.startsWith('podcast-')) typeEmoji = '🎙';
+    else if (parentFolder.startsWith('coursera-')) typeEmoji = '📚';
+    const displayName = typeEmoji + ' ' + (courseName || 'Module');
+
+    document.getElementById('preview-badge').innerText = displayName;
+    document.getElementById('preview-badge').title = displayName;
+    document.getElementById('preview-title').innerText = courseName ? `${displayName} • ${filename}` : filename;
+    document.getElementById('preview-title').title = courseName ? `${displayName} • ${filename}` : filename;
     document.getElementById('preview-meta').innerText = 'Loading...';
     document.getElementById('preview-topic-title').classList.add('hidden');
     document.getElementById('preview-topic-title').innerText = '';

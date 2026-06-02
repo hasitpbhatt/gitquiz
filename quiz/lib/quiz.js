@@ -27,7 +27,7 @@ async function handleStart() {
     if (urlVal) {
         finalUrl = urlVal;
     } else {
-        const val = document.getElementById('course-dropdown').value;
+        const val = document.getElementById('course-dropdown').dataset.selectedValue || '';
         if (!val) {
             showNotify("Selection Required", "Please choose a module from the list.");
             return;
@@ -131,6 +131,16 @@ function renderQuestion() {
     }
     questionStartTime = Date.now();
     
+    const difficultyBadge = document.getElementById('difficulty-badge');
+    if (q.difficulty) {
+        const colors = { easy: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300', medium: 'bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300', hard: 'bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-300' };
+        difficultyBadge.textContent = q.difficulty;
+        difficultyBadge.className = 'inline text-[10px] font-800 uppercase tracking-wider px-2 py-0.5 rounded-full ml-2 ' + (colors[q.difficulty] || colors.medium);
+        difficultyBadge.classList.remove('hidden');
+    } else {
+        difficultyBadge.classList.add('hidden');
+    }
+
     const progPct = ((currentIdx + 1) / quizData.length) * 100;
     const fill = document.getElementById('progress-fill');
     fill.style.width = progPct + '%';
@@ -264,7 +274,7 @@ async function checkNaturalEnd() {
     void compEl.offsetWidth;
     compEl.classList.add('screen-enter');
     const box = document.getElementById('transition-actions');
-    box.innerHTML = '<p class="text-xs text-slate-400 font-600 italic">Scanning for following modules...</p>';
+    box.innerHTML = '<div class="flex items-center justify-center gap-2 text-xs text-slate-400 font-600 italic"><div class="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>Scanning for following modules...</div>';
 
     try {
         const res = await fetch(nextUrl);

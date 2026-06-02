@@ -26,13 +26,6 @@ export function filterCatalogItems(catalog, typeFilter, searchQuery) {
 export function formatCourseName(name, showEmoji) {
   const cleanName = name.replace(/^(book|podcast|coursera|course)-/i, '');
   const displayName = cleanName.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-  if (showEmoji) {
-    let prefix = '📖';
-    if (name.startsWith('book-')) prefix = '📘';
-    else if (name.startsWith('podcast-')) prefix = '🎙';
-    else if (name.startsWith('coursera-')) prefix = '📚';
-    return `${prefix} ${displayName}`;
-  }
   return displayName;
 }
 
@@ -42,13 +35,6 @@ export function buildCatalogOptions(items, typeFilter) {
     const cleanName = name.replace(/^(book|podcast|coursera|course)-/i, '');
     const displayName = cleanName.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
     let html = displayName;
-    if (typeFilter === 'all') {
-      let prefix = '📖';
-      if (name.startsWith('book-')) prefix = '📘';
-      else if (name.startsWith('podcast-')) prefix = '🎙';
-      else if (name.startsWith('coursera-')) prefix = '📚';
-      html = `${prefix} ${displayName}`;
-    }
     return { value: name, text: displayName, html };
   });
 }

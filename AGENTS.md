@@ -58,20 +58,20 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - `CATALOG_CONTENT` = `\n`-joined course IDs
     - `MOCK_META` = mock `courses-meta.json` object with `{ chapters, title, type, source, description }`
     - `MOCK_MODULES` = `{ "001.json": [...], "002.json": [...] }` for multi-chapter testing
-    - Use `toHaveAttribute('value', …)` for `<option>`
+    - Use `toHaveAttribute('data-value', …)` for `.list-item`
     - Type filter buttons use `data-type` (e.g., `.type-filter-btn[data-type="book"]`)
     - `#course-dropdown` has `w-full` class
-    - New course indicator tests: set `quizSeenCourses` localStorage, check 🆕 badge visibility, sort order (unseen first)
+    - New course indicator tests: set `quizSeenCourses` localStorage, check `NEW` pill badge visibility (`.new-badge`), sort order (unseen first)
 2. **Course ID display**:
     - Type prefix stripped via `/^(book|podcast|coursera|course)-/i`
     - Emoji prefix (`📘`/`🎙`/`📖`) shown only when `activeTypeFilter === 'all'`
     - Kebab-case → Title Case for display
-    - New courses (not yet seen) append ` 🆕` badge; sort order: unseen first
+    - New courses (not yet seen) append `NEW` pill badge (`.new-badge`); sort order: unseen first
 3. **Overflow-prone DOM elements** (must not push content off-screen):
     - `#preview-badge` — course ID badge. Has `truncate max-w-[200px]`
     - `#preview-title` — course name (`h2`). Add mobile truncation in `styles.css`
     - `#module-label` — quiz header span between "← Menu" and "Skip Module". Add `max-width: 140px` + mobile truncation; without it "Skip Module" gets pushed off-screen
-    - `#course-dropdown option` — truncated with `text-overflow: ellipsis` on mobile; each `<option>` gets a `title` attribute via `renderCatalogOptions()` for full-name hover tooltip
+    - `#course-dropdown .list-item` — flex row with type SVG icon, title, and optional `NEW` pill badge; overflow hidden on text, item gets `title` attribute via `renderCatalogOptions()` for full-name hover tooltip
     - `#begin-btn-wrapper` — normal flow on mobile (not sticky)
     - `#preview-chapter-grid` — flex-wrap chapter buttons, no truncation needed
     - `#topic-title`, `#description-text`, `#content-box` — wrapping OK, no truncation
@@ -91,7 +91,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 3. **Timer**: `secondsElapsed` increments every second during quiz. Shown in `#timer-val`.
 4. **Daily streak**: Stored in localStorage key `quizDailyStreak` as `{ lastDate: "YYYY-MM-DD", count: <number> }`. Updated on quiz start and completion.
 5. **Course metadata**: `coursesMeta` (loaded from `META_URL` via `loadCatalog()`) stores per-course `{ chapters, title, type, source, description }`. Used by preview to show chapter count and chapter grid.
-6. **New course tracking**: Stored in localStorage key `quizSeenCourses` via `markCourseSeen(id)`, queried by `isCourseNew(id)`. Unseen courses show `🆕` badge and sort before seen ones in the dropdown.
+6. **New course tracking**: Stored in localStorage key `quizSeenCourses` via `markCourseSeen(id)`, queried by `isCourseNew(id)`. Unseen courses show `NEW` pill badge (`.new-badge`) and sort before seen ones in the dropdown.
 7. **Options shuffling**: Options are shuffled via Fisher-Yates inside `shuffleArray()` in `quiz.js`. Answer matching is done against the original (pre-shuffle) text.
 8. **Module chaining**: After the last question of a chapter, if the course has more chapters, "Start Next Module" button appears. If it was the last chapter, "Return to Catalog" appears with trophy animation.
 9. **Custom URL loading**: The user can paste any JSON URL — no path validation required. The URL section (`#url-section`, `#quiz-url`) is **lazy-created** by `getOrCreateUrlSection()` in `catalog.js` on first `toggleUrlInput()` call — not in initial HTML. The toggle button sits in the footer as `🔗 Custom Quiz`. Code that references `#quiz-url` must guard with `document.getElementById('quiz-url')` null check.

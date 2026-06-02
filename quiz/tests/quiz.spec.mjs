@@ -179,7 +179,7 @@ test('daily streak badge shows persisted streak on page load', { tag: '@quiz' },
   });
 
   await page.goto('/');
-  await page.waitForSelector('#course-dropdown option:not([disabled])');
+  await page.waitForSelector('#course-dropdown .list-item');
 
   await expect(page.locator('#daily-streak-badge')).toBeVisible();
   await expect(page.locator('#daily-streak-count')).toHaveText('3');

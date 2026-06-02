@@ -7,10 +7,10 @@ test.beforeEach(async ({ page }) => {
 
 test('setup screen shows catalog after load', async ({ page }) => {
   await page.goto('/');
-  await page.waitForSelector('#course-dropdown option:not([disabled])');
+  await page.waitForSelector('#course-dropdown .list-item');
 
   await expect(page.locator('#setup-container')).toBeVisible();
-  await expect(page.locator('#course-dropdown option')).toHaveCount(4);
+  await expect(page.locator('#course-dropdown .list-item')).toHaveCount(4);
   await expect(page.locator('#course-dropdown')).not.toContainText('Connecting to vault');
 });
 
@@ -36,10 +36,12 @@ test('fill example populates URL and shows section if hidden', async ({ page }) 
 test('handleStart shows notification when no selection and no URL', async ({ page }) => {
   await page.goto('/');
   await page.waitForFunction(() =>
-    document.getElementById('course-dropdown').options.length > 0
+    document.getElementById('course-dropdown').querySelectorAll('.list-item').length > 0
   );
   await page.evaluate(() => {
-    document.getElementById('course-dropdown').selectedIndex = -1;
+    const dd = document.getElementById('course-dropdown');
+    dd.dataset.selectedValue = '';
+    dd.querySelectorAll('.list-item').forEach(el => el.classList.remove('selected'));
   });
 
   await page.click('text=Open Vault');
@@ -51,7 +53,7 @@ test('handleStart shows notification when no selection and no URL', async ({ pag
 
 test('custom URL loads quiz from pasted GitHub URL', async ({ page }) => {
   await page.goto('/');
-  await page.waitForSelector('#course-dropdown option:not([disabled])');
+  await page.waitForSelector('#course-dropdown .list-item');
 
   await page.click('#url-toggle-btn', { force: true });
   await expect(page.locator('#url-section')).toBeVisible();

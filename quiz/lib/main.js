@@ -9,6 +9,9 @@
     if (badge) {
       document.getElementById('daily-streak-count').textContent = streakCount;
       badge.classList.remove('hidden');
+      badge.classList.remove('streak-enter');
+      void badge.offsetWidth;
+      badge.classList.add('streak-enter');
     }
   }
   const params = new URLSearchParams(window.location.search);
@@ -17,8 +20,7 @@
   const chParam = params.get('c');
   if (courseParam && fullCatalog.includes(courseParam)) {
     markCourseSeen(courseParam);
-    const dropdown = document.getElementById('course-dropdown');
-    dropdown.value = courseParam;
+    selectCourseItem(courseParam);
     let ch = '001';
     if (chParam) {
       const chNum = parseInt(chParam, 10);
