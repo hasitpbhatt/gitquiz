@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Specific Knowledge",
+    "content": "Specific knowledge is knowledge that cannot be trained or taught in a standardized curriculum. It is found by pursuing natural curiosity and talent rather than trending fields.",
+    "description": "A college student is choosing a career path. She excels at identifying patterns in chaotic data and loves studying ancient history, but her parents urge her to pursue a generic computer science degree because 'that is where the jobs are.' What would Naval advise?",
+    "options": [
+      "Pursue computer science because it offers the most job security",
+      "Find a way to combine pattern recognition and history into a unique skill set that cannot be easily commoditized",
+      "Study both fields equally to maximize employment options",
+      "Choose whichever field has the highest average starting salary"
+    ],
+    "answer": "Find a way to combine pattern recognition and history into a unique skill set that cannot be easily commoditized",
+    "explanation": "Naval emphasizes that specific knowledge is found by pursuing authentic curiosity and talent rather than what is trending. If society can train you in a standardized curriculum, it can train someone else to replace you. Combining her unique interests creates a skill set that is idiosyncratic, experiential, and difficult to replicate.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Radical Accountability",
+    "content": "Taking personal accountability under your own name is a high-risk, high-reward strategy that signals confidence and builds trust by putting skin in the game.",
+    "description": "A freelance graphic designer is deciding whether to brand himself personally or work through a large agency that shields his identity. He believes his work is exceptional but fears the reputational risk of failing publicly. What does the principle of radical accountability suggest?",
+    "options": [
+      "Work through the agency to protect against reputational damage",
+      "Brand himself personally, as putting his name on the line signals confidence and attracts higher-quality clients",
+      "Use the agency initially and switch to personal branding after gaining experience",
+      "Avoid both options and seek a full-time salaried position instead"
+    ],
+    "answer": "Brand himself personally, as putting his name on the line signals confidence and attracts higher-quality clients",
+    "explanation": "Naval advocates for radical accountability—putting your real name and reputation behind your work. This 'skin in the game' mechanism dramatically lowers transaction costs and builds trust. The designer's personal brand, backed by accountability, creates a differentiated position in the market.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Productization Formula",
+    "content": "Naval's career philosophy equation is: Authenticity multiplied by Leverage equals Productivity and Wealth. You must productize yourself by wrapping your unique abilities in accountability and applying leverage.",
+    "description": "A musician is an exceptional guitarist but is struggling financially playing cover songs at local bars. She has a unique style of blending flamenco with electronic music. She considers recording a YouTube channel teaching her technique. How does the productization formula apply?",
+    "options": [
+      "She should focus on mastering more cover songs since that is what pays currently",
+      "Her authentic style is the foundation, and YouTube provides permissionless leverage to scale her unique skills",
+      "She should abandon music for a more reliable income source",
+      "YouTube success depends entirely on luck, so the formula does not apply"
+    ],
+    "answer": "Her authentic style is the foundation, and YouTube provides permissionless leverage to scale her unique skills",
+    "explanation": "The productization formula says Authenticity times Leverage equals Wealth. Her authentic flamenco-electronic style is her specific knowledge. YouTube (media leverage) allows her skills to reach a global audience at near-zero marginal cost, productizing her unique talent into a scalable asset.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Inimitable Skill Sets",
+    "content": "Specific knowledge creates a personal monopoly because it is built on unique combinations of innate talents, experiences, and curiosities that cannot be replicated.",
+    "description": "A financial analyst spent years developing expertise in valuing distressed technology patents, drawing on a background in both engineering and copyright law. A competitor tries to replicate her success by hiring two separate specialists—one engineer and one lawyer. What explains the difficulty in replicating her results?",
+    "options": [
+      "The competitor made a strategic error in hiring two people instead of one",
+      "Specific knowledge is built on integrated, experiential understanding that cannot be duplicated by combining separate expertise",
+      "Patent valuation is purely formulaic and any expert can learn it with enough time",
+      "The analyst is simply more intelligent than the competitor's team"
+    ],
+    "answer": "Specific knowledge is built on integrated, experiential understanding that cannot be duplicated by combining separate expertise",
+    "explanation": "Specific knowledge is highly idiosyncratic and experiential. The analyst's unique combination of engineering and legal expertise, developed through years of integrated experience, creates a personal monopoly. Hiring two separate specialists cannot replicate the synthesized judgment that comes from having both frameworks internally integrated.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Accountability as Skin in the Game",
+    "content": "Accountability functions as a skin-in-the-game mechanism that signals confidence, lowers transaction costs, and builds trust in economic relationships.",
+    "description": "A startup founder invests his entire life savings into his company and works full-time without taking a salary for two years. An angel investor is trying to decide whether to fund him. How does the founder's accountability affect the investor's decision?",
+    "options": [
+      "The investor should be wary because the founder seems desperate",
+      "The founder's personal investment signals extreme confidence and alignment, reducing the perceived risk",
+      "The founder should have kept his savings separate to appear more professional",
+      "Accountability only matters after the business is profitable"
+    ],
+    "answer": "The founder's personal investment signals extreme confidence and alignment, reducing the perceived risk",
+    "explanation": "Naval and Taleb describe skin in the game as a powerful trust signal. The founder putting his own capital and time at risk demonstrates radical accountability, dramatically lowering transaction costs and signaling that he will act in the best interest of the venture's success.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Effortless Competence as a Signal",
+    "content": "Your natural talents—things you did effortlessly as a teenager that felt like play to you but looked like work to others—are strong signals of your specific knowledge.",
+    "description": "Growing up, Priya loved organizing community events, coordinating schedules, and bringing different friend groups together for activities. Her friends found this exhausting, but it felt effortless to her. As an adult, she is unsure what career to pursue. What does this suggest about her specific knowledge?",
+    "options": [
+      "Her organizational hobby is irrelevant to professional success",
+      "Her natural talent for coordination and community-building is a clue to her specific knowledge and potential career direction",
+      "She should suppress these tendencies to focus on more marketable technical skills",
+      "Event planning is a low-value skill with limited earning potential"
+    ],
+    "answer": "Her natural talent for coordination and community-building is a clue to her specific knowledge and potential career direction",
+    "explanation": "Naval advises auditing what you did effortlessly as a teenager—activities that felt like play but looked like work to others. These are powerful signals of authentic talent and potential specific knowledge. Priya's natural coordination ability, wrapped in accountability and leverage, could become a valuable career asset.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Avoiding Commoditized Labor",
+    "content": "Specific knowledge protects you from being a commoditized cog in a system by making your skills difficult to replace or automate.",
+    "description": "A factory worker operates a specialized machine that assembles components. The factory owner announces plans to install fully automated robots that can perform the same task faster and cheaper. What does this scenario reveal about the worker's situation?",
+    "options": [
+      "The worker should accept the change since automation benefits society",
+      "The worker lacks specific knowledge because his skill can be standardized and automated",
+      "The worker's expertise makes him irreplaceable regardless of automation",
+      "The factory owner is making a short-sighted decision"
+    ],
+    "answer": "The worker lacks specific knowledge because his skill can be standardized and automated",
+    "explanation": "If a skill can be trained in a standardized curriculum and replicated by a machine or another person, it is not specific knowledge. Naval warns that commoditized labor is replaceable. The worker's machine operation, being codifiable and automatable, lacks the idiosyncratic, experiential quality of true specific knowledge.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Accountability in Creative Work",
+    "content": "Signing your real name to creative work increases accountability and creates a differentiated personal brand that stands out in a crowded market.",
+    "description": "A writer publishes thought-provoking articles but uses a pseudonym because he fears backlash from controversial opinions. His articles gain moderate traction. A friend suggests he publish under his real name. What is the likely outcome of publishing under his real name?",
+    "options": [
+      "His readership will decline because anonymity is preferred online",
+      "His accountability will increase trust and attract a more engaged audience willing to take him seriously",
+      "The content quality matters more than whether he uses his real name",
+      "He will face legal consequences for his opinions"
+    ],
+    "answer": "His accountability will increase trust and attract a more engaged audience willing to take him seriously",
+    "explanation": "Putting your real name on your work is radical accountability. It signals that you stand behind your ideas and are willing to bear social consequences. This dramatically increases trust and engagement because readers know you have skin in the game, rather than being an anonymous commentator.",
+    "difficulty": "medium"
+  }
+]

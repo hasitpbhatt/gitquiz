@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Read What You Love Until You Love to Read",
+    "content": "Naval advises reading whatever you genuinely enjoy, even if it seems frivolous, because building the habit of regular reading is more important than the specific material.",
+    "description": "A teenager feels guilty because he only reads science fiction novels while his friends read biographies and self-help books. He considers giving up reading entirely because he thinks his choices are not educational. What would Naval tell him?",
+    "options": [
+      "He should switch to biographies to develop more intellectual taste",
+      "He should read whatever he enjoys because building the habit of reading is what matters",
+      "He should read a mix of fiction and non-fiction in equal measure",
+      "He should stop reading altogether until he finds something more serious"
+    ],
+    "answer": "He should read whatever he enjoys because building the habit of reading is what matters",
+    "explanation": "Naval emphasizes that the most important thing is to love reading itself. Reading science fiction builds the habit of reading, which eventually leads to more diverse material. Forcing yourself to read things you hate kills the reading habit entirely.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Foundational Principles Over Superficial Bestsellers",
+    "content": "Naval recommends studying foundational scientific and philosophical principles rather than chasing popular business books that often repackage elementary ideas with new terminology.",
+    "description": "A young entrepreneur reads every new business bestseller but feels like he is learning the same concepts repeatedly under different names. A mentor suggests spending time on physics, economics, and philosophy instead. Why would this be more valuable according to Naval?",
+    "options": [
+      "Because physics and philosophy are more prestigious subjects to study",
+      "Because bestsellers contain too much filler material and are poorly written",
+      "Because most business bestsellers just repackage foundational principles that are better learned from their original sources",
+      "Because entrepreneurs need a formal academic education to succeed"
+    ],
+    "answer": "Because most business bestsellers just repackage foundational principles that are better learned from their original sources",
+    "explanation": "Naval observes that popular business books often dress up simple, timeless principles in new packaging. Learning the foundational ideas from their source—whether in physics, economics, or philosophy—gives you a deeper, more accurate understanding that isn't diluted by reinterpretation.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Gutenberg Privilege",
+    "content": "We live in an era of unprecedented access to knowledge, where the scarce resource is not information but the desire and discipline to learn from it.",
+    "description": "A college student complains that he cannot find good resources to learn about artificial intelligence, despite having free access to his university's library, the internet, online courses, and research papers. What concept explains the flaw in his complaint?",
+    "options": [
+      "Information asymmetry, because experts know where the best resources are",
+      "The Dunning-Kruger effect, because he overestimates his knowledge",
+      "Gutenberg privilege, because the abundance of learning materials makes lack of desire the real bottleneck",
+      "The Lindy effect, because only old books on AI are worth reading"
+    ],
+    "answer": "Gutenberg privilege, because the abundance of learning materials makes lack of desire the real bottleneck",
+    "explanation": "Naval coined the term Gutenberg privilege to highlight that after Gutenberg's printing press, knowledge became abundant. Today, with the internet, we have more free learning resources than ever before. The limiting factor is no longer access to information but the personal desire and discipline to engage with it.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "First-Principles Thinking",
+    "content": "First-principles thinking means breaking down a complex problem into its most fundamental truths and reasoning upward from there, rather than reasoning by analogy from existing solutions.",
+    "description": "Instead of improving existing horse-drawn carriages by making them faster or more comfortable, the inventors of the automobile asked: what is the fundamental purpose of transportation? They broke it down to moving a mass from point A to point B, then built a completely new solution. What thinking approach does this exemplify?",
+    "options": [
+      "Incremental innovation, because they built on carriage technology",
+      "First-principles thinking, because they broke the problem down to basic physics and built up from there",
+      "Analogical thinking, because they compared transportation to other domains",
+      "Reverse engineering, because they copied nature's locomotion methods"
+    ],
+    "answer": "First-principles thinking, because they broke the problem down to basic physics and built up from there",
+    "explanation": "Naval advocates first-principles thinking, which involves decomposing a problem into its fundamental elements and reasoning about them from the ground up. The automobile inventors didn't try to make better carriages—they asked what moving something from A to B fundamentally requires and engineered a novel solution.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Lindy Effect in Reading",
+    "content": "The Lindy effect states that a book's future lifespan is proportional to its current age—books that have survived for decades or centuries are likely to remain relevant for much longer than recent publications.",
+    "description": "A reader is deciding between two books on investing: one published last year that topped bestseller lists, and another written in 1949 that is still in print and widely recommended by experienced investors. According to the Lindy effect, which book is more likely to contain timeless wisdom?",
+    "options": [
+      "The new bestseller, because it covers current market conditions",
+      "The 1949 book, because its long survival suggests it contains durable truths",
+      "Both equally, because all investing books contain similar advice",
+      "Neither, because investing knowledge becomes obsolete too quickly"
+    ],
+    "answer": "The 1949 book, because its long survival suggests it contains durable truths",
+    "explanation": "The Lindy effect holds that for non-perishable things like books and ideas, every additional year of survival extends the expected remaining lifespan. A book that has been relevant for over 70 years has proven its ideas are not mere fads. Naval recommends prioritizing older books because time has already filtered out the noise.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Musk and Munger as Broad Readers",
+    "content": "Elon Musk and Charlie Munger exemplify how broad, multidisciplinary reading enables innovative thinking by allowing connections between seemingly unrelated fields.",
+    "description": "A computer science student worries that reading outside his field—such as philosophy, biology, and history—is a waste of time that slows his progress in programming. What would the examples of Musk and Munger suggest?",
+    "options": [
+      "They specialized narrowly in their fields before expanding their reading",
+      "Broad reading across disciplines helps make unique connections that drive innovation",
+      "They only read books directly related to their businesses",
+      "Broad reading is useful only after achieving career success"
+    ],
+    "answer": "Broad reading across disciplines helps make unique connections that drive innovation",
+    "explanation": "Naval points to Musk and Munger as examples of how reading broadly across disciplines creates a latticework of mental models that enables innovative connections. Musk's knowledge of physics, engineering, and energy helped him build SpaceX and Tesla; Munger's multidisciplinary approach is central to his investing philosophy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Dropping Boring Books Immediately",
+    "content": "Naval advises that if a book is boring or not delivering value, you should stop reading it immediately rather than forcing yourself to finish out of obligation.",
+    "description": "A reader is 100 pages into a highly recommended business book but finds it repetitive and unengaging. She feels guilty about quitting partway through because she was taught to always finish what she starts. What would Naval advise?",
+    "options": [
+      "She should finish the book because the best insights are usually in the final chapters",
+      "She should put the book aside and read something that genuinely captures her interest",
+      "She should skim the remaining chapters rather than reading them fully",
+      "She should re-read the first 100 pages more carefully to find what she missed"
+    ],
+    "answer": "She should put the book aside and read something that genuinely captures her interest",
+    "explanation": "Naval believes life is too short to read books you don't enjoy. He advocates dropping unengaging books immediately because forcing yourself through them builds resentment toward reading. There are thousands of great books—find the ones that excite you and your reading habit will flourish.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Eighty Percent Reading Budget on Foundations",
+    "content": "Naval recommends allocating approximately 80% of reading time to foundational works and only 20% to contemporary books, because timeless knowledge has been tested by time.",
+    "description": "An aspiring investor has time to read 50 books this year. She plans to read 40 books from a curated list of classic works in economics, history, and philosophy, and 10 books published in the last two years on current market trends. How does this allocation align with Naval's reading philosophy?",
+    "options": [
+      "It is badly unbalanced because contemporary books are more relevant to investing",
+      "It matches his recommendation of roughly 80% foundational and 20% contemporary reading",
+      "It should reverse to 40 contemporary and 10 foundational for practical results",
+      "It wastes time on foundational works because modern knowledge supersedes old books"
+    ],
+    "answer": "It matches his recommendation of roughly 80% foundational and 20% contemporary reading",
+    "explanation": "Naval suggests dedicating about 80% of reading to foundational works that have stood the test of time and only 20% to current publications. The classics contain durable, first-principles knowledge, while contemporary books often track temporary trends. This reader's 40-to-10 split perfectly reflects that ratio.",
+    "difficulty": "hard"
+  }
+]

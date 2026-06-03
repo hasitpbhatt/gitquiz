@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Internal vs External Locus of Control",
+    "content": "An internal locus of control means you derive your sense of worth from your own values and judgment, while an external locus of control makes you dependent on approval and validation from others.",
+    "description": "Two artists sell paintings at a market. One feels elated when customers praise her work and devastated when they walk past without looking. The other evaluates her work against her own standards of craftsmanship and creativity, regardless of sales. What distinguishes these two approaches?",
+    "options": [
+      "The first artist is more talented than the second",
+      "The difference is internal versus external locus of control over self-worth",
+      "The second artist does not care about money",
+      "The first artist is more likely to succeed commercially"
+    ],
+    "answer": "The difference is internal versus external locus of control over self-worth",
+    "explanation": "Naval advocates shifting from an external locus of control (where others determine your happiness through praise or criticism) to an internal one (where you set your own standards). The first artist's emotional state is at the mercy of random external feedback, while the second artist maintains autonomy over her self-assessment.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Social Comparison Theory",
+    "content": "Social comparison theory describes the human tendency to determine our own worth based on how we measure up against others, often leading to unnecessary dissatisfaction when we compare upward.",
+    "description": "A graphic designer earns $80,000 per year and felt content until he learned that a former classmate now earns $120,000 in a different field. Suddenly his salary feels inadequate, even though it still covers his needs and he enjoys his work more. What psychological phenomenon explains this sudden dissatisfaction?",
+    "options": [
+      "Inflation anxiety, because his salary loses purchasing power",
+      "Social comparison, where his satisfaction depends on how he stacks up against a peer",
+      "Burnout from his current job",
+      "Market adjustment, because he should be earning more"
+    ],
+    "answer": "Social comparison, where his satisfaction depends on how he stacks up against a peer",
+    "explanation": "Naval notes that happiness is often relative—we compare ourselves to those around us. The designer's salary did not change, but his perception of it did because he introduced a new reference point. This illustrates why external metrics are unreliable guides to satisfaction: they depend on who you compare yourself to.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Eliminating Status Anxiety",
+    "content": "Status anxiety is the fear of being judged negatively by others, leading people to make decisions based on how things will look rather than what they actually want.",
+    "description": "A talented musician loves playing jazz in small clubs but feels embarrassed that his friends are all climbing corporate ladders. He considers abandoning his passion for a more respectable office job, even though it would make him miserable. What is driving this conflict?",
+    "options": [
+      "Impostor syndrome about his musical talent",
+      "Status anxiety, where his concern about how others perceive him overrides his genuine preferences",
+      "Financial necessity, since corporate jobs pay more",
+      "Burnout from the late-night jazz schedule"
+    ],
+    "answer": "Status anxiety, where his concern about how others perceive him overrides his genuine preferences",
+    "explanation": "Naval emphasizes that freedom from external metrics includes shedding status anxiety—the fear of being seen as unsuccessful. The musician's conflict is not about his actual preferences or financial need, but about the imagined judgment of his peers. Eliminating status anxiety frees him to pursue genuine fulfillment without being held hostage by social expectations.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Illusion of Envy",
+    "content": "Envy is a form of perspective distortion where you compare your entire reality against another person's highlight reel, cherry-picking their desirable traits while ignoring their full life.",
+    "description": "A software engineer envies his friend who quit corporate work to become a travel photographer, posting stunning images from exotic locations. The engineer does not see the friend's mounting credit card debt, unstable income, and loneliness from constant travel. What psychological distortion is at play?",
+    "options": [
+      "The engineer is experiencing impostor syndrome about his own career",
+      "The engineer is engaging in selective comparison, idealizing the friend's life while filtering out the negative aspects",
+      "The friend's Instagram feed is an accurate representation of his life",
+      "The engineer should quit his job immediately to match his friend's lifestyle"
+    ],
+    "answer": "The engineer is engaging in selective comparison, idealizing the friend's life while filtering out the negative aspects",
+    "explanation": "Naval explains that envy arises from cherry-picking the positive traits of others while ignoring their full reality. No one shows their bad days on Instagram. The engineer compares his whole life (including struggles) against his friend's curated highlights, creating an unfair and distorting comparison.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Feynman's Internal Scoreboard",
+    "content": "Richard Feynman famously ignored external recognition and careerist games, choosing instead to follow his genuine curiosity and judge his work by his own intellectual standards.",
+    "description": "A young physicist is at a conference where everyone is networking aggressively, angling for prestigious collaborations and high-impact journal placements. She notices an older Nobel laureate sitting alone, deeply engrossed in a seemingly obscure calculation that interests no one else. The laureate later says he works on problems because they fascinate him, not because they are fashionable. Which approach does this exemplify?",
+    "options": [
+      "Strategic career management, because the laureate has already secured his legacy",
+      "An internal scoreboard, where the laureate measures success by his own curiosity and standards rather than external validation",
+      "Academic isolationism, which is detrimental to scientific progress",
+      "False humility, since Nobel laureates obviously care about recognition"
+    ],
+    "answer": "An internal scoreboard, where the laureate measures success by his own curiosity and standards rather than external validation",
+    "explanation": "Naval admires Feynman's approach of keeping an internal scoreboard—judging himself by his own standards, not by what others deem important. The laureate works on fascinating problems regardless of prestige, embodying freedom from the external metrics that trap most academics in status games.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The 100% Molecular Swap Test",
+    "content": "The 100% molecular swap test is a thought experiment where you imagine swapping every molecule of your life with someone you envy, revealing that you would not actually want their entire reality.",
+    "description": "A junior associate at a law firm envies the managing partner's corner office, six-figure bonus, and board membership. She imagines a magic swap that would give her all of that—but she would also inherit his divorce proceedings, his strained relationship with his children, his high blood pressure, and his 60-hour work weeks. What insight does this thought experiment reveal?",
+    "options": [
+      "The associate should work harder to earn the partner's position",
+      "Envy is irrational because you would never accept a complete swap of lives, only the cherry-picked highlights",
+      "The partner's struggles are irrelevant to whether the associate should envy him",
+      "The associate would be happy if she simply got the bonus and corner office without the personal costs"
+    ],
+    "answer": "Envy is irrational because you would never accept a complete swap of lives, only the cherry-picked highlights",
+    "explanation": "Naval's 100% molecular swap test reveals the irrationality of envy. When you consider swapping your entire life with someone else's entire life, the desire to trade usually vanishes. Your envy was for a curated highlight reel, not for their complete reality. This test dissolves envy by forcing holistic comparison.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Copycat Games in Game Theory",
+    "content": "Copycat games occur when someone imitates another's strategy without understanding the underlying context, leading to suboptimal outcomes because the conditions that made the original strategy successful may not apply.",
+    "description": "A founder sees that a competitor raised $50 million in venture funding and built a massive sales team. She mimics this approach for her own bootstrapped company, taking on debt she cannot service and hiring expensive salespeople before her product is ready. What game theory trap has she fallen into?",
+    "options": [
+      "Winner's curse, because she overpaid for resources",
+      "A copycat game, where she imitated a strategy suited for a different resource profile without adapting it",
+      "Sunken cost fallacy, because she already invested in hiring",
+      "The prisoner's dilemma, because she should have cooperated with the competitor"
+    ],
+    "answer": "A copycat game, where she imitated a strategy suited for a different resource profile without adapting it",
+    "explanation": "Naval warns against playing copycat games—blindly replicating what others do without understanding their position, resources, or context. The competitor had $50 million in funding and a mature product, while her bootstrapped, pre-product company faces completely different constraints. Copying a strategy without understanding the underlying conditions is a recipe for failure.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Building Private Metrics",
+    "content": "Private metrics are personal measures of success that are meaningful to you but invisible to others, such as hours spent in flow, quality of relationships, or personal growth milestones.",
+    "description": "An entrepreneur is constantly stressed by public metrics: monthly active users, revenue growth, social media followers, and press mentions. A mentor suggests she track private metrics like the number of deep conversations she had with customers, how much she learned that week, and whether she felt genuinely excited about the product direction. Why might private metrics lead to greater satisfaction?",
+    "options": [
+      "Private metrics are easier to fake than public ones",
+      "Private metrics align with intrinsic motivation and reduce sensitivity to external volatility and social comparison",
+      "Public metrics should always be ignored because they are meaningless",
+      "Private metrics guarantee business success"
+    ],
+    "answer": "Private metrics align with intrinsic motivation and reduce sensitivity to external volatility and social comparison",
+    "explanation": "Naval advocates building private metrics because they keep you grounded in what actually matters. Public metrics (revenue, followers, press) fluctuate based on factors outside your control and invite constant comparison. Private metrics tie satisfaction to your own effort, learning, and values—creating an internal scoreboard that no one else can manipulate or judge.",
+    "difficulty": "hard"
+  }
+]

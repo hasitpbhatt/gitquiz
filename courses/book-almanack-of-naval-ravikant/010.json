@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Radical Authenticity",
+    "content": "Radical authenticity means presenting yourself exactly as you are, eliminating the cognitive burden of maintaining facades and social masks.",
+    "description": "An executive spends significant mental energy remembering which version of himself he showed to different colleagues — the tough boss to his team, the agreeable peer to other executives, the humble subordinate to his board. What solution would Naval recommend?",
+    "options": [
+      "Maintain separate personas for different contexts as a professional skill",
+      "Practice radical authenticity so there is nothing to remember or maintain",
+      "Hire a coach to help manage the different personas more effectively",
+      "Reduce interactions to only one group to simplify the mental load"
+    ],
+    "answer": "Practice radical authenticity so there is nothing to remember or maintain",
+    "explanation": "Naval argues that maintaining different facades for different people consumes enormous cognitive energy. Radical authenticity eliminates this overhead because you present the same person to everyone — there is nothing to keep track of.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Compound Interest of Integrity",
+    "content": "Integrity compounds like interest — each honest act builds trust capital that pays dividends in future opportunities and reduced transaction costs.",
+    "description": "A freelancer consistently delivers high-quality work, communicates honestly about timelines even when it means disappointing clients, and never cuts corners. Over five years, she gets more referrals than she can handle and clients prepay without contracts. What principle explains her success?",
+    "options": [
+      "She benefited from luck and market timing",
+      "Her technical skills are simply superior to competitors",
+      "She earned the compound interest of integrity, building trust that reduced transaction costs",
+      "She exploited client goodwill before competitors caught up"
+    ],
+    "answer": "She earned the compound interest of integrity, building trust that reduced transaction costs",
+    "explanation": "Naval describes integrity as compound interest: each honest decision builds reputational capital that accumulates over time. Eventually, high trust eliminates friction — no contracts, no negotiation, no verification — making every interaction more efficient and lucrative.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Living in the Present Moment",
+    "content": "The present moment is the only place where life actually happens — the past is memory and the future is imagination, so true peace comes from being fully here now.",
+    "description": "A professional spends her commute worrying about yesterday's presentation mistakes and planning tonight's dinner conversation. She feels perpetually anxious and disconnected. What shift would Naval recommend?",
+    "options": [
+      "Plan her schedule more efficiently to reduce anxiety",
+      "Practice being fully present in each moment rather than living in past or future",
+      "Eliminate social dinners to remove social anxiety triggers",
+      "Review past mistakes more thoroughly to avoid repeating them"
+    ],
+    "answer": "Practice being fully present in each moment rather than living in past or future",
+    "explanation": "Naval teaches that suffering comes from being mentally anywhere except the present moment. The past is a memory reconstructed by the mind, and the future is pure imagination. Peace is found by anchoring attention in the present, which is the only time that actually exists.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Integrity as an Immutable Signature",
+    "content": "Naval uses a cryptography analogy: integrity is like a public-key signature — once you establish a reputation for certain behaviors, that signature becomes immutable and precedes you everywhere.",
+    "description": "A business owner who has always treated suppliers fairly and paid promptly finds that new partners reach out proactively with better terms, having heard about her reputation through industry networks. What does this illustrate?",
+    "options": [
+      "Brand marketing is the most important business investment",
+      "Integrity creates an immutable reputation that functions like a cryptographic signature",
+      "Supplier relationships are the key to business success",
+      "Networking events are where real business value is created"
+    ],
+    "answer": "Integrity creates an immutable reputation that functions like a cryptographic signature",
+    "explanation": "Naval compares integrity to a cryptographic signature: once your reputation for trustworthy behavior is established, it cannot be forged or separated from you. This trust signature travels through networks and opens doors without you having to prove yourself again.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Buffett-Munger Partnership",
+    "content": "Warren Buffett and Charlie Munger have operated for decades on handshake deals with no written contracts, demonstrating that extreme trust eliminates transaction costs entirely.",
+    "description": "Two business partners have worked together for forty years. They make multi-billion dollar decisions with a brief phone call, never use written contracts between themselves, and have never had a dispute. What does their partnership demonstrate?",
+    "options": [
+      "Successful partnerships require both parties to be equally wealthy",
+      "High trust eliminates transaction costs and enables rapid decision-making",
+      "Long partnerships succeed because of complementary skills, not trust",
+      "Handshake deals only work in industries with simple business models"
+    ],
+    "answer": "High trust eliminates transaction costs and enables rapid decision-making",
+    "explanation": "Buffett and Munger exemplify Naval's point that high trust removes friction. Without contracts, lawyers, or negotiation overhead, they can make complex decisions in minutes. This trust was earned through decades of consistent integrity and represents the ultimate efficiency gain.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Trust as Governance in Complex Systems",
+    "content": "In complex adaptive systems, high trust acts as a decentralized governance mechanism that reduces overhead and enables faster adaptation compared to rigid rules and verification.",
+    "description": "A growing organization of 500 people faces a choice: implement detailed policies, compliance checks, and approvals for every decision, or hire people of high integrity and give them autonomy. Which approach aligns with Naval's view of complex systems?",
+    "options": [
+      "Detailed policies are necessary because people cannot be trusted at scale",
+      "Both approaches are equally effective in different contexts",
+      "Hiring high-integrity people and using trust as governance reduces overhead and enables faster adaptation",
+      "Compliance checks are the only way to prevent fraud in large organizations"
+    ],
+    "answer": "Hiring high-integrity people and using trust as governance reduces overhead and enables faster adaptation",
+    "explanation": "Naval sees organizations as complex adaptive systems where excessive rules and verification layers create drag. High-trust environments with autonomous, principled people adapt faster because decisions do not bottleneck through approval chains. Integrity is the most scalable governance mechanism.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Alignment of Private and Public Self",
+    "content": "True integrity means your private thoughts, words, and public actions are in alignment — there is no gap between who you are when alone and who you present to the world.",
+    "description": "A professional presents herself as environmentally conscious at work while privately disposing of waste irresponsibly at home. She feels increasingly stressed maintaining this inconsistency. What would Naval identify as the root cause?",
+    "options": [
+      "She needs better environmental knowledge to make consistent choices",
+      "The gap between her public persona and private behavior creates cognitive dissonance and stress",
+      "She should simply stop caring about environmental issues entirely",
+      "Her workplace is pressuring her into performative environmentalism"
+    ],
+    "answer": "The gap between her public persona and private behavior creates cognitive dissonance and stress",
+    "explanation": "Naval argues that maintaining a gap between your public and private self creates internal friction. The solution is not to pretend less in public, but to align your private actions with your stated values. When both match, the cognitive overhead of maintaining facades disappears.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Truth Without Social Terror",
+    "content": "Speaking the truth is liberating once you accept that social disapproval is not life-threatening, even though evolution wired us to fear ostracism as a survival risk.",
+    "description": "An employee disagrees with a popular project in a meeting but stays silent, fearing colleagues will think less of him. Later, the project fails and he regrets not speaking up. What barrier prevented him from sharing his perspective?",
+    "options": [
+      "He lacked domain expertise to evaluate the project",
+      "Evolutionary fear of social disapproval overrode his rational judgment",
+      "The project was actually good but badly executed",
+      "Management discouraged dissenting opinions explicitly"
+    ],
+    "answer": "Evolutionary fear of social disapproval overrode his rational judgment",
+    "explanation": "Naval explains that humans evolved in small tribes where ostracism meant death, so our brains treat social disapproval as a survival threat. Overcoming this requires recognizing that modern social consequences are not life-threatening, and that speaking truth even when uncomfortable is ultimately liberating.",
+    "difficulty": "medium"
+  }
+]
