@@ -17,7 +17,9 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   └── coursera-<title>/...
 ├── quiz/                             # Frontend application
 │   ├── index.html                    # Single-page quiz app (vanilla JS + Tailwind CDN)
-│   ├── styles.css                    # Custom CSS (variables, dark mode, animations, mobile)
+│   ├── styles-theme.css              # CSS variables, theme definitions, reset
+│   ├── styles.css                    # Component styles (UI, animations, cards)
+│   ├── styles-responsive.css         # Mobile media queries
 │   ├── lib/                          # Modular JS (loaded via <script> tags, no bundler)
 │   │   ├── state.js                  # Global state, BASE_URL, CATALOG_URL, streak utils
 │   │   ├── catalog.js                # Course catalog: load, filter, render, type filters
@@ -292,7 +294,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 ## Styling Conventions
 
 - **Tailwind CSS via CDN** (no build step) — utility classes in HTML
-- **Custom CSS** (`styles.css`): CSS variables (`--bg-main`, `--card-bg`, `--text-main`, `--accent`, `--progress-bg`) + `@media (prefers-color-scheme: dark)` media query
+- **Custom CSS** (3 files): `styles-theme.css` (variables, reset, dark/light themes), `styles.css` (component styles, animations, cards), `styles-responsive.css` (mobile media queries)
 - **Dark mode**: automatic via system preference; variables swap to dark palette
 - **JavaScript** toggles classes: `hidden`, `correct`, `wrong`, `screen-enter`, `score-pop`
 - **Mobile**: `@media (max-width: 640px)` overrides for truncation, dropdown height, z-index

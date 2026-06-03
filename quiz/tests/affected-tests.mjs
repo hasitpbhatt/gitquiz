@@ -7,6 +7,8 @@ const PW_RUNNER = 'npx playwright test';
 const MAPPING = [
   { path: 'quiz/index.html', test: '' },
   { path: 'quiz/styles.css', test: '' },
+  { path: 'quiz/styles-theme.css', test: '' },
+  { path: 'quiz/styles-responsive.css', test: '' },
   { path: 'quiz/tests/playwright.config.mjs', test: '' },
   { path: 'quiz/tests/package.json', test: '' },
   { path: 'quiz/lib/main.js', test: 'setup.spec.mjs url-params.spec.mjs' },

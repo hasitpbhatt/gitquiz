@@ -69,7 +69,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - New courses (not yet seen) append `NEW` pill badge (`.new-badge`); sort order: unseen first
 3. **Overflow-prone DOM elements** (must not push content off-screen):
     - `#preview-badge` — course ID badge. Has `truncate max-w-[200px]`
-    - `#preview-title` — course name (`h2`). Add mobile truncation in `styles.css`
+    - `#preview-title` — course name (`h2`). Add mobile truncation in `styles-responsive.css`
     - `#module-label` — quiz header span between "← Menu" and "Skip Module". Add `max-width: 140px` + mobile truncation; without it "Skip Module" gets pushed off-screen
     - `#course-dropdown .list-item` — flex row with type SVG icon, title, and optional `NEW` pill badge; overflow hidden on text, item gets `title` attribute via `renderCatalogOptions()` for full-name hover tooltip
     - `#begin-btn-wrapper` — normal flow on mobile (not sticky)
@@ -77,7 +77,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
     - `#topic-title`, `#description-text`, `#content-box` — wrapping OK, no truncation
 4. **Styling**:
     - Tailwind CSS via CDN (no build step) — utility classes in HTML
-    - Custom CSS (`styles.css`): CSS variables (`--bg-main` etc.) + `@media (prefers-color-scheme: dark)`
+    - Custom CSS (3 files): `styles-theme.css` (variables), `styles.css` (components), `styles-responsive.css` (media queries)
     - JS toggles classes (`hidden`, `correct`, `wrong`, `screen-enter`, `score-pop`)
     - Mobile overrides use `@media (max-width: 640px)`
 5. **Screen transition animation**: The `screen-enter` CSS class triggers `fadeSlideIn` animation (0.3s ease-out). Applied to preview, quiz-flow, and completion-screen on reveal.
@@ -139,7 +139,7 @@ Two test runners coexist:
     - `quiz/lib/sharing.js` → `ui.spec.mjs`, `lib-unit.test.mjs`
     - `quiz/lib/notifications.js` → `setup.spec.mjs`
     - `quiz/lib/ai.js` → `ai.spec.mjs`
-    - `quiz/styles.css` → `visual.spec.mjs`
+    - `quiz/styles.css`, `quiz/styles-theme.css`, `quiz/styles-responsive.css` → `visual.spec.mjs`
     - `quiz/index.html` → all spec and test files
     - `quiz/tests/test-helpers.mjs` → `lib-unit.test.mjs`
     - `quiz/tests/test-utils.mjs` → `catalog.spec.mjs`, `preview.spec.mjs`, `setup.spec.mjs`, `quiz.spec.mjs`
