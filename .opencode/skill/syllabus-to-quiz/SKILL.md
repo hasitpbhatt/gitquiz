@@ -85,6 +85,7 @@ General-purpose scripts are in `quiz/scripts/`. Run with `node quiz/scripts/<scr
 | `difficulty-audit.js` | Print all questions with E/M/H blank brackets for labeling — arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array; arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `conceptGroups`; arg: `<course-dir>` (default: `courses/course-identifier`) |
+| `assemble-course.mjs` | **Assembly helper**: `node quiz/scripts/assemble-course.mjs <course-id>` — reads `ch-*.json` files from `courses/<id>/` and outputs `input.json` for the generator. |
 | `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single JSON input and produces properly split `001.json`–`00N.json` files, validates, creates dirs, updates `courses_list.txt` and `courses-meta.json` (including `chapters` count). Supports `--dry-run`. |
 
 ## Technical Notes

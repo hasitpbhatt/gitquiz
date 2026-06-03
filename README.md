@@ -125,6 +125,7 @@ Hard question techniques: trapdoor option, reverse application, boundary case, c
 | book-super-thinking | 11 | Super Thinking |
 | book-the-adaptive-edge | 16 | The Adaptive Edge |
 | book-the-changing-world-order | 15 | The Changing World Order |
+| book-the-great-mental-models-v1 | 11 | The Great Mental Models Volume 1 |
 | book-the-psychology-of-money | 20 | The Psychology of Money |
 | book-the-startup-of-you | 9 | The Startup of You |
 | coursera-financial-markets-global | 12 | Coursera: Financial Markets |
@@ -149,11 +150,39 @@ Utility scripts in `quiz/scripts/`. Run with `node quiz/scripts/<name>` from the
 | `difficulty-audit.js` | Print all questions with blank E/M/H brackets for manual labeling — arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array; arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `conceptGroups`; arg: `<course-dir>` (default: `courses/course-identifier`) |
+| `assemble-course.mjs` | **Assembly helper**: `node quiz/scripts/assemble-course.mjs <course-id>` — reads `ch-*.json` files from `courses/<id>/` and outputs an `input.json` for the generator. Deletes `input.json` after use. |
 | `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single input JSON (id, chapters[] with title+seq+questions[]), produces split 001-00N.json files, validates, creates dir, updates `courses_list.txt` and `courses-meta.json`. Supports `--dry-run`. |
 
 ## Adding a New Course
 
-**Preferred method** — use the generator:
+### For 5+ chapters: ch-* → assemble → generate
+
+For courses with many chapters, use the intermediate `ch-*.json` workflow to avoid monolithic file management:
+
+1. Create `courses/<course-id>/`
+2. Write intermediate chapter files as `ch-001.json`, `ch-002.json`, etc., each with the format:
+   ```json
+   {
+     "title": "Chapter Name",
+     "questions": [ /* question objects with 7 fields each */ ]
+   }
+   ```
+3. Assemble into generator input:
+   ```bash
+   node quiz/scripts/assemble-course.mjs <course-id>
+   ```
+   This reads `ch-*.json` files and writes `input.json` at the project root.
+4. Generate final chapter files:
+   ```bash
+   node quiz/scripts/generate-course.mjs input.json
+   ```
+   This creates `001-00N.json` files, updates `courses_list.txt` and `courses-meta.json`.
+5. Delete intermediate files:
+   ```bash
+   rm courses/<course-id>/ch-*.json input.json
+   ```
+
+**Preferred method** — use the generator directly (for ≤4 chapters or structured input):
 
 ```bash
 node quiz/scripts/generate-course.mjs input.json

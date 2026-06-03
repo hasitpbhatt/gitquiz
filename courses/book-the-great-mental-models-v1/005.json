@@ -1,0 +1,114 @@
+[
+  {
+    "question": "First vs Second Order Definition",
+    "content": "First-order thinking looks at immediate, obvious consequences of an action. Second-order thinking maps cascading ripple effects, feedback loops, and downstream consequences over time.",
+    "description": "A city council cuts funding for preventive mental health services to balance this year's budget, saving money immediately. What level of thinking are they using?",
+    "options": [
+      "Second-order thinking — considering long-term effects",
+      "First-order thinking — focused only on the immediate budget benefit without considering downstream costs",
+      "Probabilistic thinking",
+      "Inversion"
+    ],
+    "answer": "First-order thinking — focused only on the immediate budget benefit without considering downstream costs",
+    "explanation": "First-order thinking sees only the immediate, direct result (saved money this year). Second-order thinking would ask: \"And then what?\" — emergency room costs, increased homelessness, and higher long-term social services spending.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Cobra Effect",
+    "content": "The British government offered a bounty for dead cobras in Delhi. Citizens bred cobras to collect the bounty. When the program was canceled, breeders released worthless captive cobras, drastically increasing the wild population.",
+    "description": "A company offers a bonus per bug fixed to improve software quality. Developers start introducing minor bugs just to fix them for the bonus. What does this perverse outcome demonstrate?",
+    "options": [
+      "Effective incentive design",
+      "The Cobra Effect — a solution that creates an incentive to produce more of the problem it aimed to solve",
+      "The Peter Principle",
+      "Hanlon's Razor"
+    ],
+    "answer": "The Cobra Effect — a solution that creates an incentive to produce more of the problem it aimed to solve",
+    "explanation": "The Cobra Effect occurs when a well-intentioned solution creates perverse incentives that make the original problem worse. The British cobra bounty incentivized cobra breeding. The bug bounty incentivized bug creation.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Cane Toads in Australia",
+    "content": "Australian officials imported cane toads to eat sugar cane beetles. The toads could not reach the beetles, but found an ecosystem with no predators and explosive reproduction, creating an irreversible ecological crisis.",
+    "description": "A city introduces a non-native fish species to control algae in a lake without studying the full ecosystem. The fish eats the algae but also decimates native species and breeds uncontrollably. What case study parallels this?",
+    "options": [
+      "The Cobra Effect in India",
+      "The Cane Toads in Australia — introducing a solution whose second-order effects were catastrophic and unanticipated",
+      "The Maginot Line",
+      "The LTCM collapse"
+    ],
+    "answer": "The Cane Toads in Australia — introducing a solution whose second-order effects were catastrophic and unanticipated",
+    "explanation": "The cane toad introduction failed because nobody asked \"And then what?\" beyond the first level. The toads didn't eat the beetles but destroyed the ecosystem. Second-order thinking would have revealed the ecological risks before introduction.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Incentive Misalignment",
+    "content": "First-order consequences often feel great immediately but lead to long-term disaster. Conversely, choices with excellent second-order outcomes often carry painful first-order costs, which human psychology avoids.",
+    "description": "A sales team is paid entirely on new customer acquisition. They sign up low-quality customers who churn quickly, inflating short-term revenue but destroying long-term profitability. What explains this behavior?",
+    "options": [
+      "The sales team is incompetent",
+      "Incentive misalignment — first-order rewards (commission) incentivize behavior that creates terrible second-order consequences (high churn)",
+      "The product is not good enough",
+      "Customers are irrational"
+    ],
+    "answer": "Incentive misalignment — first-order rewards (commission) incentivize behavior that creates terrible second-order consequences (high churn)",
+    "explanation": "When first-order incentives reward immediate results, people optimize for those results even if they create disastrous downstream effects. Aligning incentives with second-order outcomes — like retention bonuses — solves this.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Consequence Tree Framework",
+    "content": "A consequence tree maps 3-5 first-order outcomes, then applies the \"And then what?\" filter to each — considering competitor responses, behavioral shifts, and systemic stress over time.",
+    "description": "Your company plans to dramatically undercut competitor pricing. Using a proper second-order thinking tool, what should you analyze beyond the immediate sales boost?",
+    "options": [
+      "Nothing — lower prices always increase sales",
+      "How competitors will respond, how customer behavior will shift, and what systemic stresses will emerge over time",
+      "Only the impact on this quarter's revenue",
+      "Whether the CEO approves the price change"
+    ],
+    "answer": "How competitors will respond, how customer behavior will shift, and what systemic stresses will emerge over time",
+    "explanation": "The consequence tree examines each first-order outcome and asks \"And then what?\" across three dimensions: competitor responses, user/client behavioral shifts, and systemic stress on dependencies.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "And Then What Method",
+    "content": "The core practice of second-order thinking is relentlessly asking \"And then what?\" — tracing the chain of consequences through multiple rounds to reveal hidden downstream effects.",
+    "description": "A product manager says, \"If we add a referral bonus, users will invite their friends.\" A systems thinker responds with a single follow-up question. What is it?",
+    "options": [
+      "\"How much will the bonus cost?\"",
+      "\"And then what?\" — tracing what happens after the initial referral to uncover cascading effects",
+      "\"Which competitors use referral bonuses?\"",
+      "\"Will the CEO approve this?\""
+    ],
+    "answer": "\"And then what?\" — tracing what happens after the initial referral to uncover cascading effects",
+    "explanation": "The relentless \"And then what?\" is the engine of second-order thinking. First order: users invite friends. Second order: those friends may be less engaged. Third order: your original user base becomes incentivized to spam. Each layer reveals new dynamics.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Third-Order Consequences",
+    "content": "Third-order consequences are systemic, permanent changes to the environment itself — the point where the system reorganizes around the initial action in ways that are hard to reverse.",
+    "description": "A company automates customer service entirely with AI to cut costs. First order: costs drop. Second order: customers frustrated by poor AI escalate. Third order: the brand becomes known for terrible support, permanently losing market share to competitors. What level of thinking identified the final risk?",
+    "options": [
+      "First-order thinking",
+      "Second-order thinking",
+      "Third-order thinking — recognizing systemic, permanent changes to the competitive environment",
+      "Probabilistic thinking"
+    ],
+    "answer": "Third-order thinking — recognizing systemic, permanent changes to the competitive environment",
+    "explanation": "Third-order consequences reshape the system itself — here, the brand's reputation permanently shifts in the market. This level of consequence is harder to trace but often the most impactful.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Competitor Response Blindness",
+    "content": "A common failure of second-order thinking is ignoring how competitors will adapt to your move, leading to strategies that work only if rivals remain passive.",
+    "description": "An airline cuts fares to gain market share, expecting sustained profits from higher volume. It fails to anticipate that competitors will immediately match the lower prices, triggering a price war that hurts everyone. What was missed?",
+    "options": [
+      "The airline needed better marketing",
+      "The airline ignored the second-order consequence of competitor responses, assuming rivals would remain passive",
+      "Price cuts never work in any industry",
+      "The airline should have cut prices even more"
+    ],
+    "answer": "The airline ignored the second-order consequence of competitor responses, assuming rivals would remain passive",
+    "explanation": "Second-order thinking requires modeling how competitors, users, and regulators will adapt. Assuming rivals stay passive is a classic blind spot. When everyone responds, the expected benefit evaporates.",
+    "difficulty": "hard"
+  }
+]

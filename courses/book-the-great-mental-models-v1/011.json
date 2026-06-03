@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Latticework of Mental Models",
+    "content": "Charlie Munger's latticework concept: you need multiple mental models from different disciplines to understand reality. A single model creates bias and blind spots — you become the man with a hammer seeing everything as a nail.",
+    "description": "A manager relies exclusively on financial incentives (carrots and sticks) to solve every problem. When team culture declines, offering bonuses fails. What is the root issue?",
+    "options": [
+      "The team is ungrateful",
+      "The manager has only one tool — financial incentives — and lacks the latticework of models needed to diagnose cultural, psychological, and organizational factors",
+      "Bonuses should be larger",
+      "The manager should fire the team"
+    ],
+    "answer": "The manager has only one tool — financial incentives — and lacks the latticework of models needed to diagnose cultural, psychological, and organizational factors",
+    "explanation": "A person who knows only one mental model tries to force every problem through that lens. Building a latticework means acquiring models from multiple disciplines so you can match the right model to the right situation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Interdisciplinary Borrowing",
+    "content": "Mental models from biology (evolution, ecosystems), physics (critical mass, inertia), and mathematics (probability, feedback loops) apply directly to business and human behavior. The best thinkers borrow freely across fields.",
+    "description": "A product manager studies how predator-prey population cycles work in ecology and applies that insight to platform market dynamics. What best practice are they following?",
+    "options": [
+      "Wasting time on irrelevant science",
+      "Interdisciplinary borrowing — the best mental models transcend their original domain and apply broadly across fields",
+      "Ecology has nothing to do with business",
+      "Stick to business books only"
+    ],
+    "answer": "Interdisciplinary borrowing — the best mental models transcend their original domain and apply broadly across fields",
+    "explanation": "Munger advises gathering models from all major disciplines because the same fundamental patterns repeat across domains. Predator-prey dynamics (biology) map directly to platform marketplace dynamics (business), giving the product manager a deeper framework.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Man with a Hammer Syndrome",
+    "content": "Having only one mental model distorts perception: every problem looks like a nail. Building a latticework prevents this by giving you multiple lenses to view the same situation.",
+    "description": "A software developer who only knows agile methodology tries to apply stand-ups, sprints, and retrospectives to planning a wedding. What is the underlying problem?",
+    "options": [
+      "Weddings should be planned with agile",
+      "The man with a hammer syndrome — applying a single familiar model to every situation, even where it fits poorly",
+      "Agile is universally applicable to everything",
+      "The wedding will fail without daily stand-ups"
+    ],
+    "answer": "The man with a hammer syndrome — applying a single familiar model to every situation, even where it fits poorly",
+    "explanation": "When you only have one model, you become its prisoner. Agile is powerful for software but applying sprints to wedding planning shows the rigidity of single-model thinking. Multiple models let you pick the right tool for each task.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Synthesis Over Memorization",
+    "content": "The goal is not to memorize 100 models but to internalize the 15-20 most broadly useful ones deeply enough that they combine automatically when analyzing real problems.",
+    "description": "A student asks Munger: \"Which 100 mental models should I memorize?\" He replies there are really only a few dozen essential ones. What key insight about latticeworks is he making?",
+    "options": [
+      "More models are always better",
+      "Mastery of the 15-20 most powerful models with deep interconnections beats shallow memorization of hundreds",
+      "Mental models are useless",
+      "Only business models matter"
+    ],
+    "answer": "Mastery of the 15-20 most powerful models with deep interconnections beats shallow memorization of hundreds",
+    "explanation": "A latticework is not a list. The power comes from models interacting — the combinatorial effect of applying multiple models to the same problem. Deep understanding of fewer models enables richer synthesis than superficial knowledge of many.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Redundancy Modeling",
+    "content": "When multiple independent mental models all point to the same conclusion, confidence in that conclusion should be high. Convergent evidence from different frameworks is exponentially more reliable.",
+    "description": "When evaluating an investment, both Circle of Competence and Probabilistic Thinking suggest it is a good bet. What does this convergence mean?",
+    "options": [
+      "The models are redundant and one should be discarded",
+      "Confidence should be higher — when independent models converge on the same conclusion, the evidence is far stronger than any single model provides",
+      "The investment is definitely a good bet",
+      "More models just create confusion"
+    ],
+    "answer": "Confidence should be higher — when independent models converge on the same conclusion, the evidence is far stronger than any single model provides",
+    "explanation": "Independent mental models analyzing the same situation provide triangulation. If Circle of Competence says \"you understand this deeply enough\" and Probabilistic Thinking says \"the odds are in your favor,\" the convergence justifies high conviction.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Contradiction Resolution",
+    "content": "Sometimes models conflict: Occam's Razor suggests a simple explanation while Inversion warns that oversimplification misses risks. The latticework approach resolves this by weighing models based on context and stakes.",
+    "description": "Occam's Razor suggests a simple root cause for a system failure. Inversion reveals that assuming a single root cause might miss backup failure modes. How should you decide?",
+    "options": [
+      "Always pick Occam's Razor",
+      "Use both models contextually — start with the simple explanation but use inversion's insight to verify you are not missing secondary risks",
+      "Always pick Inversion",
+      "Ignore both and guess"
+    ],
+    "answer": "Use both models contextually — start with the simple explanation but use inversion's insight to verify you are not missing secondary risks",
+    "explanation": "Models can point in different directions, but that is the value of a latticework. Apply the models in sequence: start with Occam's Razor to generate hypotheses, then use Inversion to stress-test them. The tension between models produces better decisions than either alone.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Emotional vs Rational Use",
+    "content": "Mental models are most powerful when used for important decisions but least likely to be applied when emotions run high. The latticework must be practiced in calm moments to be available in crisis.",
+    "description": "During a market crash, a rational investor runs through mental models: Circle of Competence (am I qualified to act?), Second-Order Thinking (what will happen after the crash?), Inversion (what would guarantee losses?). What are they doing?",
+    "options": [
+      "Panicking irrationally",
+      "Using the latticework under pressure — applying multiple models sequentially to override emotional panic and make a calculated decision",
+      "Overthinking the situation",
+      "Following the crowd"
+    ],
+    "answer": "Using the latticework under pressure — applying multiple models sequentially to override emotional panic and make a calculated decision",
+    "explanation": "The true test of a latticework is whether it activates when you need it most. Training yourself to run through relevant models during calm periods builds the neural pathways that can fire during high-stakes, emotional situations.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Lifelong Latticework Building",
+    "content": "Building a latticework is a lifelong process. Every significant failure or surprising outcome reveals gaps in your model collection. Treat each surprise as a signal to acquire a new model.",
+    "description": "An entrepreneur's startup fails despite good execution. After deep reflection, they realize they lacked models for understanding market timing and regulatory dynamics. What should they do?",
+    "options": [
+      "Give up on mental models — they failed once",
+      "Treat the failure as curriculum — the missing models identified by the failure become the next learning priorities",
+      "Blame the market and move on",
+      "Only build companies in industries they already understand"
+    ],
+    "answer": "Treat the failure as curriculum — the missing models identified by the failure become the next learning priorities",
+    "explanation": "Every failure reveals a gap in your latticework. The entrepreneur now knows they need models for timing, adoption curves, and regulatory cycles. A latticework is never complete — each gap you discover is a specific opportunity to grow.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Models in Pairs",
+    "content": "The most powerful latticework practice: always use mental models in pairs or triads. A single model can mislead, but two or three models applied to the same problem create a self-correcting system.",
+    "description": "When evaluating a new business strategy, you check: \"Does this fit our Circle of Competence?\" (yes) and \"What would Inversion reveal about failure modes?\" (critical flaw found). What does this demonstrate?",
+    "options": [
+      "The strategy is perfect",
+      "Using models in pairs creates checks and balances — Inversion caught what Circle of Competence alone missed",
+      "Inversion is more important than Circle of Competence",
+      "Only use one model at a time"
+    ],
+    "answer": "Using models in pairs creates checks and balances — Inversion caught what Circle of Competence alone missed",
+    "explanation": "The real power of the latticework is combinatorial. Circle of Competence said \"yes, this fits.\" Inversion said \"here is the failure mode.\" Together they provide a richer, safer analysis than either would alone. Model pairing creates built-in error correction.",
+    "difficulty": "medium"
+  }
+]

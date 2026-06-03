@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Mental Model Definition",
+    "content": "A mental model is a simplified representation of how something works, stripping away irrelevant noise to reveal underlying mechanics.",
+    "description": "You are training a new analyst on your team. They ask, \"When you say 'mental model,' what exactly do you mean in practical terms?\" How do you define it?",
+    "options": [
+      "A detailed step-by-step checklist for solving any problem",
+      "A simplified representation of how something works that reveals underlying mechanics",
+      "A mathematical formula for calculating risk in financial markets",
+      "A personality test that categorizes how people think"
+    ],
+    "answer": "A simplified representation of how something works that reveals underlying mechanics",
+    "explanation": "Mental models strip away irrelevant noise to reveal how a system actually operates. They are not checklists, formulas, or personality tests — they are conceptual frameworks that help you understand the essential mechanics of a situation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Maslow's Hammer",
+    "content": "When you rely on a single perspective or mental model, you develop severe intellectual blind spots and try to solve every problem using the familiar tools of your specialized domain.",
+    "description": "Your engineering department has a brilliant optimization expert who applies cost-cutting algorithms to every company problem — from marketing strategy to HR policies — with poor results. What concept explains this failure?",
+    "options": [
+      "Groupthink",
+      "Maslow's hammer — over-reliance on a single tool",
+      "The Dunning-Kruger effect",
+      "Survivorship bias"
+    ],
+    "answer": "Maslow's hammer — over-reliance on a single tool",
+    "explanation": "Maslow's hammer describes the cognitive bias of over-relying on a familiar tool or model. When you only have one mental model, you apply it indiscriminately, ignoring other relevant perspectives that better fit the problem.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Latticework of Mental Models",
+    "content": "A latticework is an interconnected toolkit of diverse mental models from multiple disciplines that you weave together to understand complex situations from multiple angles.",
+    "description": "Your friend says, \"I just study finance deeply — that's enough for any business decision.\" According to the latticework philosophy, what is the flaw in this approach?",
+    "options": [
+      "Finance is too quantitative for strategic decisions",
+      "The world is multi-disciplinary and no single field covers all relevant forces in a situation",
+      "Financial models are always backward-looking and therefore useless",
+      "You should study marketing instead of finance for better results"
+    ],
+    "answer": "The world is multi-disciplinary and no single field covers all relevant forces in a situation",
+    "explanation": "A latticework combines models from physics, biology, psychology, history, and other fields. The real world does not respect academic boundaries — using only financial models misses psychological, historical, and biological forces at play.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Intellectual Humility",
+    "content": "Intellectual humility means actively hunting for your own errors and testing where your models fail, because knowing where a model stops working is more valuable than dogmatically applying it everywhere.",
+    "description": "You have used a particular market prediction model successfully for years. A colleague suggests it has hidden failure modes. According to mental model foundations, how should you respond?",
+    "options": [
+      "Defend the model aggressively since it has a proven track record",
+      "Acknowledge the possibility and actively investigate the model's boundary conditions",
+      "Ignore the criticism from someone less experienced",
+      "Create a new model from scratch every quarter"
+    ],
+    "answer": "Acknowledge the possibility and actively investigate the model's boundary conditions",
+    "explanation": "Intellectual humility requires you to hunt for errors and test failure points. The person who knows where their model stops working is more capable than someone who applies it everywhere without question.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Rationalization vs Objective Reality",
+    "content": "When people make choices rooted in ego, emotion, or bias, their brains immediately construct a logical-sounding narrative to justify the choice after the fact, rather than basing it on structural objective reality.",
+    "description": "After a project fails, your team member insists they \"knew it was risky all along\" even though their original notes show they advocated enthusiastically. What psychological mechanism best explains this?",
+    "options": [
+      "Confirmation bias",
+      "Hindsight bias and post-hoc rationalization",
+      "The halo effect",
+      "Cognitive dissonance about team dynamics"
+    ],
+    "answer": "Hindsight bias and post-hoc rationalization",
+    "explanation": "The human mind is a master of rationalization. When a decision goes bad, the brain rewrites the narrative to make it appear as if the failure was predictable. Anchoring thinking in structural frameworks — not post-hoc stories — is the antidote.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Multi-Disciplinary Thinking",
+    "content": "Specialized domains like finance or engineering provide narrow toolkits, but real-world problems involve forces from physics, psychology, biology, and history simultaneously.",
+    "description": "A brilliant surgeon is asked to advise a venture capital firm on a biotech investment but overlooks market incentives and competitive dynamics. What foundational concept warns against this narrow perspective?",
+    "options": [
+      "The Peter Principle",
+      "The danger of operating with a single-disciplinary toolkit when problems are multi-dimensional",
+      "The law of diminishing returns",
+      "Status quo bias in professional settings"
+    ],
+    "answer": "The danger of operating with a single-disciplinary toolkit when problems are multi-dimensional",
+    "explanation": "Real problems don't respect academic boundaries. A surgeon may understand the biology of a drug but miss the economic, regulatory, and competitive landscape. Multi-disciplinary thinking fills blind spots that pure specialization creates.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "High-Leverage Concepts",
+    "content": "Timeless, high-leverage concepts from major disciplines like physics, biology, psychology, systems thinking, and history do most of the heavy lifting in everyday decision-making.",
+    "description": "You want to improve your decision-making but have limited time to study. Which category of models should you prioritize first?",
+    "options": [
+      "Obscure mathematical theorems used by quantitative hedge funds",
+      "Timeless, high-leverage concepts from major disciplines like physics, biology, and psychology",
+      "The latest business management fads from popular blogs",
+      "Detailed programming language syntax guides"
+    ],
+    "answer": "Timeless, high-leverage concepts from major disciplines like physics, biology, and psychology",
+    "explanation": "The most practical approach is to focus on foundational, interdisciplinary models that apply across many situations. A few core models handle the vast majority of everyday decisions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Building vs Memorizing Models",
+    "content": "True mastery involves understanding how models interact, when each applies, and where each model fails, rather than just knowing vocabulary.",
+    "description": "An interviewee lists 50 mental model names during a consulting interview but cannot explain when Occam's Razor would be dangerous to apply. What gap does this reveal?",
+    "options": [
+      "A memory deficiency that can be fixed with practice",
+      "They lack deep understanding of model boundaries and interactions — the essence of a true latticework",
+      "They are too specialized in one discipline",
+      "They need to read more books on mental models"
+    ],
+    "answer": "They lack deep understanding of model boundaries and interactions — the essence of a true latticework",
+    "explanation": "A genuine latticework requires knowing not just what a model says, but when it breaks down and how it conflicts with other models. Memorizing names without understanding boundaries and interactions is surface-level knowledge.",
+    "difficulty": "hard"
+  }
+]

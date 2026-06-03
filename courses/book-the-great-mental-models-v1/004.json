@@ -1,0 +1,114 @@
+[
+  {
+    "question": "First Principles Definition",
+    "content": "First principles thinking breaks down a complex problem into its most fundamental, immutable truths and builds a novel solution upward from there, rather than copying existing approaches.",
+    "description": "Your team is designing a new delivery service. Instead of studying competitors and copying their model, you ask: \"What is the fundamental physics of moving a package from point A to point B?\" What thinking approach is this?",
+    "options": [
+      "Competitive benchmarking",
+      "First principles thinking — decomposing to foundational truths and building up",
+      "Reverse engineering",
+      "Trial and error experimentation"
+    ],
+    "answer": "First principles thinking — decomposing to foundational truths and building up",
+    "explanation": "First principles thinking starts with what is undeniably true (physics, geometry, fundamental constraints) and builds a solution from there, rather than copying existing solutions with minor tweaks.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Reasoning by Analogy",
+    "content": "Reasoning by analogy copies existing forms, processes, or beliefs with minor iterative modifications. It is computationally cheap but preserves hidden flaws, legacy inefficiencies, and outdated assumptions.",
+    "description": "A young company sets its pricing by looking at what competitors charge and charging 10% less. What mode of thinking does this represent?",
+    "options": [
+      "First principles thinking",
+      "Reasoning by analogy — copying existing approaches with minor tweaks instead of rebuilding from fundamentals",
+      "Bayesian updating",
+      "Inversion"
+    ],
+    "answer": "Reasoning by analogy — copying existing approaches with minor tweaks instead of rebuilding from fundamentals",
+    "explanation": "Reasoning by analogy is the default mode: see what others do, then copy with small changes. It's efficient but preserves all the hidden assumptions and inefficiencies embedded in the existing approach.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "SpaceX Rocket Costs",
+    "content": "Elon Musk discovered raw material costs for a rocket were only 2% of the retail price. SpaceX vertically integrated manufacturing, dropping launch costs by an order of magnitude through first principles thinking.",
+    "description": "A startup's software project is estimated to cost $500,000 using a standard cloud provider. The founder breaks down the actual computing power needed and finds bare-metal hardware costs would be $20,000. What model does this illustrate?",
+    "options": [
+      "Economies of scale",
+      "First principles thinking — deconstructing cost to raw fundamentals instead of accepting industry pricing by analogy",
+      "Loss leader pricing strategy",
+      "The map is not the territory"
+    ],
+    "answer": "First principles thinking — deconstructing cost to raw fundamentals instead of accepting industry pricing by analogy",
+    "explanation": "Like Musk's rocket cost analysis, the founder broke the problem to its raw components instead of accepting industry-standard pricing. By questioning every cost assumption, they found a dramatically cheaper path.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Gutenberg Printing Press",
+    "content": "Gutenberg broke text reproduction into components — movable type from goldsmithing, screw press from wine production — and combined existing elements from separate industries to create a revolutionary invention.",
+    "description": "A chef creates a breakthrough kitchen tool by combining a syringe mechanism from medical devices with a heating element from laboratory equipment. What principle does this lateral combination reflect?",
+    "options": [
+      "Incremental improvement of an existing tool",
+      "First principles deconstruction — identifying core components and recombining solutions from unrelated domains",
+      "Trial and error without any underlying framework",
+      "Accidental discovery"
+    ],
+    "answer": "First principles deconstruction — identifying core components and recombining solutions from unrelated domains",
+    "explanation": "Gutenberg didn't improve the quill — he decomposed text reproduction into fundamental components and borrowed solutions from unrelated fields. This is the essence of first principles innovation: recombine at the component level.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Socratic Questioning Method",
+    "content": "Socratic questioning is the practical methodology for first principles thinking: clarify core assumptions, challenge why they must be true, drill down to bedrock truth, and reconstruct the solution from scratch.",
+    "description": "Your boss says, \"We cannot launch this feature because it requires a $100,000 annual server budget.\" Using the first principles framework, what is your first step?",
+    "options": [
+      "Accept the constraint and cancel the feature",
+      "Clarify the core assumption — why must servers cost $100,000? What drives that figure?",
+      "Ask for more budget from the finance department",
+      "Build the feature anyway and hope servers cost less"
+    ],
+    "answer": "Clarify the core assumption — why must servers cost $100,000? What drives that figure?",
+    "explanation": "The first step of Socratic questioning is to clarify the core assumption and challenge it. By asking \"Why must that be true?\" you can drill down to find the actual physical or logical constraints behind the number.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Social Convention vs Physical Law",
+    "content": "First principles requires distinguishing between physical or mathematical laws (which are immutable) and social conventions (which are habits that can be changed). Mistaking convention for truth blocks innovation.",
+    "description": "An executive argues: \"We must keep physical retail stores because people will always want to browse products in person.\" How would a first principles thinker evaluate this claim?",
+    "options": [
+      "Accept it as an undeniable truth about human nature",
+      "Identify it as a social convention, not a physical law — people shop in person because of current habits and infrastructure, not immutable physics",
+      "Invest more in retail stores to prove the executive right",
+      "Close all stores immediately without analysis"
+    ],
+    "answer": "Identify it as a social convention, not a physical law — people shop in person because of current habits and infrastructure, not immutable physics",
+    "explanation": "First principles thinkers distinguish between what is physically necessary and what is merely habitual. \"People will always buy from physical stores\" is a social convention, not a law of physics. Conventions can be disrupted.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Just Enough Deconstruction",
+    "content": "First principles thinking requires drilling down far enough to reach true fundamentals. Stopping too early — at the level of convention or industry norm — produces pseudo-first-principles solutions.",
+    "description": "A team claims to use first principles but only challenges one level of assumptions (their supplier's pricing) without questioning their core architecture. What mistake are they making?",
+    "options": [
+      "They are being too thorough",
+      "They stopped drilling too early — hitting a convention rather than a true fundamental truth",
+      "They are using inversion instead of first principles",
+      "Supplier pricing is always a fundamental constraint"
+    ],
+    "answer": "They stopped drilling too early — hitting a convention rather than a true fundamental truth",
+    "explanation": "True first principles requires pushing through multiple layers of assumptions until you reach physical or logical bedrock. Stopping at the first level of questioning — supplier pricing — misses deeper architectural assumptions that may be the real constraint.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Vertical Integration Insight",
+    "content": "SpaceX's first principles analysis revealed that 98% of rocket cost was driven by manufacturing inefficiencies and outsourcing, leading to a strategy of vertical integration of material processing and manufacturing.",
+    "description": "A furniture company discovers that 80% of its sofa cost comes from middlemen and logistics, not raw materials or labor. What first principles-inspired strategy would address this?",
+    "options": [
+      "Increase prices to cover the middleman costs",
+      "Vertically integrate — own more of the supply chain to eliminate intermediary markups",
+      "Outsource more manufacturing to reduce costs",
+      "Reduce the quality of materials used"
+    ],
+    "answer": "Vertically integrate — own more of the supply chain to eliminate intermediary markups",
+    "explanation": "SpaceX discovered that vertical integration — controlling the manufacturing process from raw materials to finished product — eliminated the massive inefficiencies embedded in the traditional aerospace supply chain. The same principle applies across industries.",
+    "difficulty": "medium"
+  }
+]

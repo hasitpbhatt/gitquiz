@@ -1,6 +1,6 @@
 # gitquiz — Agent Instructions
 
-See `README.md` for repository structure, course catalog, and quiz JSON format.
+Interactive quiz platform for reviewing books, podcasts, and courses. Live at [quiz.hasit.in](https://quiz.hasit.in/).
 
 ## Skills
 
@@ -12,6 +12,89 @@ Load the relevant skill before starting a domain-specific task:
 | Starting a multi-step task that may trigger compaction | `hasits-plan` |
 
 Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter>name</parameter>syllabus-to-quiz</use_opencode_tool>`.
+
+## Repository Structure
+
+```
+├── courses/                          # Quiz content (JSON)
+│   ├── courses_list.txt              # Catalog of all course folders (IDs only, alphabetically sorted)
+│   ├── courses-meta.json             # Course metadata (title, type, chapters, source, description)
+│   ├── course-schema.json            # JSON Schema for chapter validation
+│   ├── book-<title>/                 # One folder per book/course
+│   │   ├── 001.json                  # Chapter 1 questions (array of 7-field objects)
+│   │   ├── 002.json                  # Chapter 2 questions
+│   │   └── ...
+│   ├── podcast-<title>/...
+│   └── coursera-<title>/...
+├── quiz/                             # Frontend application
+│   ├── index.html                    # Single-page quiz app (vanilla JS + Tailwind CDN)
+│   ├── styles.css                    # Custom CSS (variables, dark mode, animations, mobile)
+│   ├── lib/                          # Modular JS (loaded via <script> tags, no bundler)
+│   │   ├── state.js                  # Global state, BASE_URL, CATALOG_URL, streak utils
+│   │   ├── catalog.js                # Course catalog: load, filter, render, type filters
+│   │   ├── preview.js                # Preview screen: fetch module, show first question
+│   │   ├── quiz.js                   # Quiz engine: timer, scoring, render, skip, completion
+│   │   ├── sharing.js                # Share modal, download PNG (html2canvas), Web Share API
+│   │   ├── notifications.js          # Toast notifications (showNotify, showNotifyWithAction)
+│   │   ├── ai.js                     # AI Explain: calls Mistral via Cloudflare Worker proxy
+│   │   └── main.js                   # Entry point: loads catalog, handles URL params, keyboard shortcuts
+│   ├── tests/                        # Playwright end-to-end + schema tests
+│   │   ├── *.spec.mjs                # Domain-split spec files
+│   │   ├── test-utils.mjs            # Shared mock data & route setup
+│   │   ├── affected-tests.mjs        # Git-diff-based test selector
+│   │   ├── schema.config.mjs         # Lightweight config for schema tests
+│   │   ├── playwright.config.mjs     # Main Playwright config
+│   │   └── package.json              # Test dependencies
+│   └── proxy/                        # Cloudflare Worker for AI explanations
+│       └── worker.js                 # Mistral AI proxy
+├── quiz/scripts/                     # Node.js utility scripts
+│   ├── validate.js                   # Validate a single course
+│   ├── validate-all.js               # Validate all courses comprehensively
+│   ├── generate-course.mjs           # CLI generator: input.json → split chapter files + metadata
+│   ├── assemble-course.mjs           # Assembly helper: ch-*.json → input.json
+│   ├── difficulty-tally.js           # Tally difficulty distribution
+│   ├── difficulty-audit.js           # Print questions for difficulty labeling
+│   ├── coverage-check.js             # Verify concept coverage
+│   └── cross-chapter-repetition.js   # Detect repeated concepts
+├── .opencode/                        # OpenCode AI agent configuration
+├── .github/workflows/validate.yml    # CI: schema, validate-all, full Playwright suite
+├── opencode.json                     # OpenCode AI config
+├── AGENTS.md                         # This file
+└── README.md                         # Full reference documentation
+```
+
+## Quiz JSON Format
+
+Each course folder contains numbered chapter files (`001.json`, `002.json`, ...). Each file is a JSON array of question objects with **exactly 7 fields**:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `question` | `string` | Short concept name (e.g., "Opportunity Cost") |
+| `content` | `string` | Brief 1-2 sentence explanation of the concept |
+| `description` | `string` | Real-world scenario ending with a question |
+| `options` | `string[]` | Array of **exactly 4** plausible answer strings. No positional refs. |
+| `answer` | `string` | Correct answer — must be **identical** (case, punctuation, whitespace) to one option |
+| `explanation` | `string` | Teaching explanation |
+| `difficulty` | `string` | `"easy"`, `"medium"`, or `"hard"` |
+
+```json
+[
+  {
+    "question": "Concept Name",
+    "content": "Brief explanation (1-2 sentences).",
+    "description": "Real-world scenario. What does this demonstrate?",
+    "options": [
+      "Incorrect option 1",
+      "Incorrect option 2",
+      "Correct option",
+      "Incorrect option 4"
+    ],
+    "answer": "Correct option",
+    "explanation": "Why this is correct and the others are not.",
+    "difficulty": "easy"
+  }
+]
+```
 
 ## Rules
 
@@ -34,7 +117,7 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 ### Workflow Rules
 
 1. **Skills first**: Load `hasits-plan` for any multi-step task (3+ steps or any task that may trigger compaction). Load `syllabus-to-quiz` for all course content work. Never create/modify quiz JSON outside the skill.
-2. **Generator for 5+ chapters**: Use `node quiz/scripts/generate-course.mjs input.json` to create chapters from a structured input file (avoids PowerShell quoting issues). Supports `--dry-run` for preview. The generator auto-updates `courses_list.txt` and `courses-meta.json`. Delete `input.json` after use.
+2. **Generator for 5+ chapters**: Use `node quiz/scripts/generate-course.mjs input.json` to create chapters from a structured input file (avoids PowerShell quoting issues). Supports `--dry-run` for preview. The generator auto-updates `courses_list.txt` and `courses-meta.json`. Delete `input.json` after use. For courses with many chapters, use the intermediate `ch-*.json` workflow: write `ch-001.json`–`ch-00N.json` files in the course directory, then `node quiz/scripts/assemble-course.mjs <course-id>` to produce `input.json` for the generator.
 3. **Validate before committing**: Run both `node quiz/scripts/validate-all.js` and `npm run test:schema` before committing course content changes. A pre-commit hook (`.githooks/pre-commit`) auto-runs both when course files are staged; enable it with `git config core.hooksPath .githooks` after cloning.
 4. **Don't validate courses for code-only changes**: If no files under `courses/` were touched (`git diff --name-only` has no `courses/` entries), skip `validate-all.js` and `test:schema`. Only run Playwright tests relevant to the changed lib files. Batching schema validation on every code change wastes time.
 5. **PowerShell execution policy**: Prefix failing commands with `powershell -ExecutionPolicy Bypass -Command "..."`.
