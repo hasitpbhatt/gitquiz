@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Expected Value Definition",
+    "content": "Expected value (EV) predicts the long-run average outcome of a decision by multiplying each outcome's value by its probability and summing the results: EV = Σ P(X_i) × X_i.",
+    "description": "A game offers a 50% chance to win $200 and a 50% chance to lose $100. What is the expected value of playing this game once?",
+    "options": [
+      "$50 — the average of winning and losing",
+      "$100 — because you could win $200",
+      "$0 — because gains and losses cancel out",
+      "-$25 — because the loss is more painful than the gain"
+    ],
+    "answer": "$50 — the average of winning and losing",
+    "explanation": "EV = (0.50 × $200) + (0.50 × -$100) = $100 - $50 = $50. A positive EV means this game is favorable on average over many plays.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Merger Arbitrage EV",
+    "content": "Wall Street arbitrageurs calculate expected value when evaluating corporate mergers, weighing the probability of deal closure against the downside risk of regulatory rejection.",
+    "description": "Company A announces acquisition of Company B at $100/share. B trades at $90. If the deal closes, the gain is $10/share. If regulators block it, the stock drops to $60 (a $30 loss). The arbitrageur estimates a 90% chance of success. What is the EV?",
+    "options": [
+      "+$6/share, so the arbitrageur should invest aggressively",
+      "+$10/share, assuming the deal will close",
+      "-$3/share, because the loss is larger than the gain",
+      "$0/share, because the market has already priced in the risk"
+    ],
+    "answer": "+$6/share, so the arbitrageur should invest aggressively",
+    "explanation": "EV = (0.90 × $10) + (0.10 × -$30) = $9 - $3 = +$6. A positive EV justifies capital allocation despite the 10% risk of a large loss.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "EV in Startup Investing",
+    "content": "Venture capital firms invest in many startups knowing most will fail, but a few outsized successes generate portfolio-level positive expected value.",
+    "description": "A VC invests $1M in 20 startups. 15 fail completely ($0 return), 4 return 2x the investment, and 1 returns 50x. What is the total expected outcome?",
+    "options": [
+      "The VC loses money because most startups fail",
+      "The single 50x return (worth $50M) more than offsets the $20M invested and the modest returns, producing a positive portfolio EV",
+      "The VC should only invest in the startup with the highest individual probability of success",
+      "The expected value is $2.5M per startup on average"
+    ],
+    "answer": "The single 50x return (worth $50M) more than offsets the $20M invested and the modest returns, producing a positive portfolio EV",
+    "explanation": "Total investment: $20M. Returns: 4 × $2M = $8M + 1 × $50M = $58M. Net: +$38M. This demonstrates why VCs focus on portfolio EV, not individual startup success rates.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Insurance as Negative EV",
+    "content": "Insurance typically has negative expected value for the buyer (the premium exceeds the actuarial value of the coverage), but people buy it to eliminate catastrophic downside risk.",
+    "description": "Homeowners insurance costs $1,200/year. The actuarial probability of a total loss ($300,000) is 0.2% per year. The EV of the coverage is -$600/year. Why do rational people still buy it?",
+    "options": [
+      "They do not understand expected value math",
+      "The negative EV is acceptable because insurance eliminates a catastrophic, non-recoverable loss that would destroy their financial stability",
+      "Insurance companies always lose money in the long run",
+      "The expected value calculation is wrong because it uses probabilities"
+    ],
+    "answer": "The negative EV is acceptable because insurance eliminates a catastrophic, non-recoverable loss that would destroy their financial stability",
+    "explanation": "EV of coverage = (0.002 × $300,000) = $600, but you pay $1,200. The -$600 EV is the 'peace of mind premium' for converting a 0.2% chance of ruin into a certain small annual cost.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Multiple Scenario EV",
+    "content": "Assign explicit, reasoned probabilities to multiple scenarios and focus capital on initiatives yielding positive expected value, even if they carry baseline risk.",
+    "description": "An oil company evaluates drilling a new well. Best case (20% chance): $50M profit. Moderate case (60% chance): $10M profit. Worst case (20% chance): -$30M loss. What should they do?",
+    "options": [
+      "Drill immediately — the best case profit is $50M",
+      "Abandon the project — the worst case loss is too large",
+      "Calculate EV: (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = $10M + $6M - $6M = +$10M. The positive EV justifies drilling.",
+      "Only drill if the worst case loss can be eliminated entirely"
+    ],
+    "answer": "Calculate EV: (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = $10M + $6M - $6M = +$10M. The positive EV justifies drilling.",
+    "explanation": "The EV Decision Rule requires considering all scenarios with their probabilities, not just the best or worst case. Despite a 20% chance of loss, the positive EV supports proceeding.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "EV and Sample Size",
+    "content": "Expected value describes long-run averages. In the short run, variance can produce outcomes far from the EV, especially with small sample sizes.",
+    "description": "A casino offers a game with EV = +$5 per play. A player tries it 3 times and loses all three. What mistake would the player make by concluding the EV calculation is wrong?",
+    "options": [
+      "The player miscalculated the probabilities of each outcome",
+      "Short-run variance can mask the long-run expected value — 3 trials is too small a sample to reveal the true EV",
+      "The casino must have cheated",
+      "The game has a negative EV for beginners"
+    ],
+    "answer": "Short-run variance can mask the long-run expected value — 3 trials is too small a sample to reveal the true EV",
+    "explanation": "EV is a long-run mathematical expectation. Individual short sequences can deviate significantly due to random variance. Only over many iterations does average outcome converge toward EV.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "EV in Career Decisions",
+    "content": "Expected value applies beyond finance. Career choices, relationship decisions, and personal risks can all be evaluated through an EV lens by estimating probabilities and payoffs.",
+    "description": "A software engineer considers joining a startup. 30% chance it succeeds (equity worth $500K), 70% chance it fails (salary was 20% below market, a $20K loss vs. a stable job). How should they evaluate this decision?",
+    "options": [
+      "Never join startups — most fail",
+      "Always join startups — the upside is $500K",
+      "Calculate EV: (0.3 × $500K) + (0.7 × -$20K) = $150K - $14K = +$136K. The positive EV supports joining, but the 70% failure risk must be emotionally tolerable.",
+      "The EV calculation cannot apply to career decisions because they are one-time events"
+    ],
+    "answer": "Calculate EV: (0.3 × $500K) + (0.7 × -$20K) = $150K - $14K = +$136K. The positive EV supports joining, but the 70% failure risk must be emotionally tolerable.",
+    "explanation": "Even one-time decisions benefit from EV thinking. The positive EV suggests the startup is a good bet mathematically, but the individual must also weigh their personal risk tolerance for the 70% failure scenario.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Probability Calibration",
+    "content": "Accurate probability estimation is essential for useful EV calculations. Overconfidence in probabilities produces misleading EV results and poor decisions.",
+    "description": "A manager estimates a 95% chance their project will finish on time, but historical data shows only 60% of similar projects in their company meet deadlines. What bias is affecting their EV calculation?",
+    "options": [
+      "The manager is correctly accounting for their team's superior skills",
+      "Overconfidence bias — the manager is inflating the probability of success, which overstates the project's true expected value",
+      "The EV formula only applies to financial decisions",
+      "Historical data is irrelevant because every project is unique"
+    ],
+    "answer": "Overconfidence bias — the manager is inflating the probability of success, which overstates the project's true expected value",
+    "explanation": "Garbage in, garbage out. If probability estimates are biased, the resulting EV is unreliable. Using base rates and historical data improves probability calibration.",
+    "difficulty": "medium"
+  }
+]
