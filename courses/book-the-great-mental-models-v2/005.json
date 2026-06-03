@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Speed vs Velocity",
+    "content": "Speed is a scalar measuring how fast something moves. Velocity is a vector measuring both speed and direction. In life and business, busyness is speed, but progress requires velocity.",
+    "description": "A startup ships 50 features in a quarter, works 80-hour weeks, and holds daily standup meetings. Yet the company's key growth metric has not moved in six months. What explains this paradox?",
+    "options": [
+      "The features were low quality and customers did not use them",
+      "The team has high speed but low velocity — their efforts are scattered in different directions instead of aligned toward a single goal",
+      "The market is simply not ready for this product",
+      "The company needs to hire more engineers to increase output"
+    ],
+    "answer": "The team has high speed but low velocity — their efforts are scattered in different directions instead of aligned toward a single goal",
+    "explanation": "Speed measures activity; velocity measures progress toward a specific destination. A team can be frantically busy (high speed) but going nowhere if their efforts lack coherent direction. Velocity requires strategic alignment — ensuring every vector points the same way.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Strategic Alignment",
+    "content": "Strategic alignment means ensuring every individual's effort vector is pointing toward the same coordinate. The aggregate velocity of an organization is the sum of aligned vectors, not the sum of individual speeds.",
+    "description": "Company A gives each department its own goals — product ships features, sales closes deals, marketing generates leads — but the departments rarely coordinate. Company B aligns every team around a single quarterly metric. What happens?",
+    "options": [
+      "Company A produces more innovation because departments have freedom",
+      "Company B's teams may move slower individually, but their aggregate velocity toward the shared goal is much higher",
+      "Company A's decentralized approach is always superior for long-term growth",
+      "Company B will miss important opportunities that independent departments would catch"
+    ],
+    "answer": "Company B's teams may move slower individually, but their aggregate velocity toward the shared goal is much higher",
+    "explanation": "Individual speed vectors pointing in different directions cancel each other out. When all vectors align, even moderate speeds produce high net velocity. Strategic alignment is the process of getting everyone pulling in the same direction.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Busyness Trap",
+    "content": "Busyness is frequently confused with productivity, and movement is routinely mistaken for achievement. High speed with zero velocity feels productive but produces no progress.",
+    "description": "A manager praises an employee who responds to emails within minutes, attends every meeting, and works late every night. Yet the employee's key projects are perpetually behind schedule. What is happening?",
+    "options": [
+      "The employee is not intelligent enough to manage their workload",
+      "The employee has high speed (rapid task completion) but low velocity (tasks do not move toward important outcomes)",
+      "The manager's praise is misplaced but has no real consequences",
+      "The employee should delegate more work to junior team members"
+    ],
+    "answer": "The employee has high speed (rapid task completion) but low velocity (tasks do not move toward important outcomes)",
+    "explanation": "Responding to emails and attending meetings creates high speed — lots of activity. But if these activities do not advance key projects, velocity is near zero. The busyness trap is mistaking visible activity for meaningful progress.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Direction Over Speed",
+    "content": "It is far better to move slowly in the correct direction than to move at lightning speed in the wrong direction or in circles.",
+    "description": "Two product teams compete to launch a new feature. Team A launches in two weeks but builds the wrong feature. Team B takes six weeks but ships exactly what customers need. Which team was more effective?",
+    "options": [
+      "Team A — they launched faster and can iterate based on feedback",
+      "Team B — they had lower speed but higher velocity because their output moved in the correct strategic direction",
+      "Both teams were equally effective — speed and accuracy balance out",
+      "Neither was effective because the six-week delay made Team B miss the market window"
+    ],
+    "answer": "Team B — they had lower speed but higher velocity because their output moved in the correct strategic direction",
+    "explanation": "Velocity = speed × direction. Team A had high speed but moved in the wrong direction (zero relevant progress). Team B had lower speed but their output created real value. Going fast in the wrong direction still leaves you at the wrong destination.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Vector Cancellation",
+    "content": "When multiple forces act on an object in different directions, they can cancel each other out, resulting in zero net velocity despite considerable energy being expended.",
+    "description": "A company simultaneously: expands into Asia, launches a new product line, undergoes a rebranding, and implements a new ERP system. At the end of the year, revenue is flat. What principle explains this?",
+    "options": [
+      "Poor execution across all four initiatives",
+      "The four major initiatives are vector forces pulling in different directions, canceling out the organization's net velocity",
+      "The economy was in a recession during the year",
+      "Each initiative was underfunded and therefore failed individually"
+    ],
+    "answer": "The four major initiatives are vector forces pulling in different directions, canceling out the organization's net velocity",
+    "explanation": "Each initiative requires organizational energy, management attention, and resources. When they pull in different strategic directions, the vectors cancel out. The result is tremendous effort (high speed) with zero progress (zero velocity). Focus reduces the number of vectors but increases net velocity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Measuring the Right Metric",
+    "content": "Organizations often measure and reward speed (lines of code, emails sent, meetings held) rather than velocity (customer outcomes, revenue, strategic progress). What gets measured gets optimized.",
+    "description": "A software team is measured by story points completed per sprint. They game the system by breaking work into tiny, easy stories and avoiding complex bugs. Productivity metrics look great, but the product deteriorates. What went wrong?",
+    "options": [
+      "The developers are not skilled enough to handle complex bugs",
+      "The team is measuring speed (story point throughput) instead of velocity (product quality and customer value)",
+      "Agile methodology inherently encourages gaming the system",
+      "The product manager should assign larger stories to prevent gaming"
+    ],
+    "answer": "The team is measuring speed (story point throughput) instead of velocity (product quality and customer value)",
+    "explanation": "Story points measure speed — how fast you move through the backlog. They do not measure velocity — whether the product is improving. When you optimize for the wrong metric, you get high speed in a direction that may not matter. Align metrics with true north.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Vector Sum of Orgs",
+    "content": "An organization's net velocity is the vector sum of all individual and team efforts. Misaligned incentives create counterproductive vectors that reduce total velocity.",
+    "description": "Bonus structures pay the sales team for new customer acquisition, the product team for feature launches, and the support team for closing tickets quickly. Customer retention drops sharply. What is the root cause?",
+    "options": [
+      "Customers are naturally prone to churn after the first year",
+      "The three teams' incentives create counteracting vectors — sales overpromises, product ships half-baked features, support rushes through tickets",
+      "The product is fundamentally flawed and needs to be rebuilt",
+      "The company has not invested enough in customer success"
+    ],
+    "answer": "The three teams' incentives create counteracting vectors — sales overpromises, product ships half-baked features, support rushes through tickets",
+    "explanation": "Each team's incentives point in a different direction. Sales pushes for new logos (quality be damned), product pushes for features (retention be damned), support pushes for closure speed (satisfaction be damned). The vector sum of these forces produces negative retention velocity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Deceleration is Not Failure",
+    "content": "Reducing speed to check direction is not failure — it is strategic calibration. Slowing down to realign vectors can dramatically increase net velocity.",
+    "description": "A startup has been shipping continuously for two years but growth is flat. The CEO proposes a 'ship nothing quarter' — just customer research, refactoring, and strategic planning. Investors are skeptical. What physics-based argument supports this pause?",
+    "options": [
+      "The startup needs to conserve cash, so reduced output makes financial sense",
+      "The team is burned out and needs a rest period to recover productivity",
+      "Slowing down to recalibrate direction will increase future velocity because current efforts may be pointed in the wrong direction",
+      "The investors should trust the CEO's intuition without needing a justification"
+    ],
+    "answer": "Slowing down to recalibrate direction will increase future velocity because current efforts may be pointed in the wrong direction",
+    "explanation": "If you are running fast in the wrong direction, stopping to reorient is the fastest path to your goal. The 'ship nothing quarter' is a course correction. Once vectors are realigned, even moderate speed will produce higher velocity than frantic misdirected effort ever could.",
+    "difficulty": "medium"
+  }
+]

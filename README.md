@@ -126,6 +126,7 @@ Hard question techniques: trapdoor option, reverse application, boundary case, c
 | book-the-adaptive-edge | 16 | The Adaptive Edge |
 | book-the-changing-world-order | 15 | The Changing World Order |
 | book-the-great-mental-models-v1 | 11 | The Great Mental Models Volume 1 |
+| book-the-great-mental-models-v2 | 15 | The Great Mental Models Volume 2 |
 | book-the-psychology-of-money | 20 | The Psychology of Money |
 | book-the-startup-of-you | 9 | The Startup of You |
 | coursera-financial-markets-global | 12 | Coursera: Financial Markets |

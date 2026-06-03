@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Concentration",
+    "content": "The rate of a chemical reaction depends on the concentration of reactants — more molecules in a given space means more frequent collisions. In strategy, diffuse effort yields no reaction because resources are too spread out to reach critical density.",
+    "description": "A startup has $100,000 for marketing. They spread it across Facebook, Google, LinkedIn, TikTok, podcast sponsorships, and billboards. No single channel generates enough traction to be measurable. What went wrong?",
+    "options": [
+      "The startup chose the wrong channels for their audience",
+      "Online advertising is generally ineffective for early-stage startups",
+      "The capital was spread too thin — no single channel had sufficient concentration to trigger the adoption reaction",
+      "The startup should have spent more total budget on marketing"
+    ],
+    "answer": "The capital was spread too thin — no single channel had sufficient concentration to trigger the adoption reaction",
+    "explanation": "Reaction rate depends on concentration. Spreading $100k across six channels puts ~$16k per channel — below the threshold needed to generate measurable results in any of them. Concentrating the full $100k into one channel creates enough density to cross the activation barrier and generate real traction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Saturation Point",
+    "content": "Every solvent has a saturation point beyond which no additional solute can dissolve. In markets, audiences, and minds, there is a point where additional input yields no additional absorption.",
+    "description": "A company runs the same ad campaign on a saturated channel. Each additional dollar spent generates less and less incremental revenue. Eventually, additional spending produces zero new customers. What does this illustrate?",
+    "options": [
+      "The ad creative is ineffective and needs to be redesigned",
+      "The market for the product is too small for the campaign to matter",
+      "The channel has reached saturation — no matter how much more money is pumped in, no additional customers can be absorbed",
+      "The company needs to hire better media buyers"
+    ],
+    "answer": "The channel has reached saturation — no matter how much more money is pumped in, no additional customers can be absorbed",
+    "explanation": "Just as a saturated solution cannot dissolve more solute, a saturated market channel cannot absorb more advertising. Once you have reached everyone in that channel who could convert, additional spending is pure waste — it precipitates as useless spending with no return.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Diminishing Returns",
+    "content": "Before full saturation, returns diminish gradually. Each additional unit of input yields less output than the previous unit. Recognizing the diminishing zone helps you pivot before hitting full saturation.",
+    "description": "A B2B sales team doubles its outreach volume. In month one, 100 calls generated 10 meetings. In month two, 200 calls generated 14 meetings. In month three, 400 calls generated 16 meetings. What trend does this reveal?",
+    "options": [
+      "The sales team is not working hard enough on their calls",
+      "Only a fixed number of potential customers exist in the market",
+      "The market is approaching saturation — doubling effort yields diminishing incremental returns, signaling that the team should explore new channels",
+      "The sales team needs better training on phone scripts"
+    ],
+    "answer": "The market is approaching saturation — doubling effort yields diminishing incremental returns, signaling that the team should explore new channels",
+    "explanation": "From 100 to 200 calls, adding 10 meetings. From 200 to 400 calls (doubling again), adding only 2 meetings. This is the diminishing returns zone — the channel is nearing saturation. Continuing to pour effort into a saturating channel wastes energy that could open new channels.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Precipitate",
+    "content": "When a solution is saturated and more solute is added, it does not dissolve — it sinks to the bottom as useless precipitate. Extra effort past saturation produces nothing of value.",
+    "description": "A manager demands that her team work 60-hour weeks instead of 40. Output increases for two weeks, then plateaus. Bugs, errors, and sick days increase. The extra 20 hours of effort produce zero net value. What happened?",
+    "options": [
+      "The team is not working efficiently enough during the extra hours",
+      "The team's cognitive capacity is saturated; additional hours precipitate as errors, burnout, and rework — not productive output",
+      "The manager should have threatened to fire underperformers to maintain output",
+      "Sixty-hour weeks are sustainable for high-performing teams"
+    ],
+    "answer": "The team's cognitive capacity is saturated; additional hours precipitate as errors, burnout, and rework — not productive output",
+    "explanation": "Human cognitive capacity has a saturation point. After 40-50 hours, additional time input does not dissolve into productive output. Instead, it precipitates as errors, reduced quality, and health costs. The extra time is not just wasted — it actively reduces existing output through rework and mistakes.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Concentration at Point of Impact",
+    "content": "To make an impact, you must concentrate resources at the exact point where the reaction needs to occur. Diffuse effort across the entire system yields no change anywhere.",
+    "description": "A government wants to reduce traffic fatalities. It spreads funding across driver education, road signage, police enforcement, vehicle safety standards, and public awareness campaigns. Fatality rates barely change. What principle explains the failure?",
+    "options": [
+      "Traffic fatalities are an unsolvable problem in modern societies",
+      "The funding was too concentrated and should have been spread even wider",
+      "The resources were spread too thin across many initiatives; none received sufficient concentration to trigger a measurable reduction anywhere",
+      "Driver education is the only effective intervention for traffic safety"
+    ],
+    "answer": "The resources were spread too thin across many initiatives; none received sufficient concentration to trigger a measurable reduction anywhere",
+    "explanation": "Each initiative received a fraction of the total budget — too little to cross the threshold of effectiveness in any single area. Concentrating all resources on one high-leverage intervention (e.g., redesigning dangerous intersections) would likely produce a measurable reduction in fatalities.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Reading Saturation Signals",
+    "content": "Saturation gives clear signals: flattening curves, rising cost per acquisition, declining engagement, or feedback that 'we have heard this before.' Recognizing these signals allows timely resource reallocation.",
+    "description": "A content creator's first 10 YouTube videos each attracted more subscribers. Videos 11-20 attracted roughly the same number per video. Videos 21-30 each attracted fewer new subscribers despite improving quality. What should the creator conclude?",
+    "options": [
+      "The creator's content quality is declining",
+      "The audience is saturated — the existing subscriber base has been reached and the content is no longer reaching new viewers; the creator should explore new platforms or topics",
+      "YouTube's algorithm has stopped recommending the creator's content",
+      "The creator needs to post more frequently to regain momentum"
+    ],
+    "answer": "The audience is saturated — the existing subscriber base has been reached and the content is no longer reaching new viewers; the creator should explore new platforms or topics",
+    "explanation": "Flat then declining subscriber growth despite improving quality is a clear saturation signal. The existing addressable audience has been fully absorbed. Pumping more content into the same channel yields diminishing returns. The creator needs to find a new, unsaturated channel or topic.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Concentration and Critical Mass",
+    "content": "Some reactions only occur once a minimum concentration threshold is reached. Below this critical mass, the reaction rate is essentially zero regardless of how long you wait.",
+    "description": "A community platform has 50 active users. The experience feels empty — no content, no discussions, no reason to return. A competing platform reaches 500 active users and suddenly takes off. Below 500 users, the platform was effectively useless. What does this describe?",
+    "options": [
+      "The first platform had a worse user interface",
+      "Network effects have a critical mass threshold — below it, concentration is too low for the community reaction to occur",
+      "Users prefer larger platforms regardless of features",
+      "500 is the maximum number of users a community platform can support"
+    ],
+    "answer": "Network effects have a critical mass threshold — below it, concentration is too low for the community reaction to occur",
+    "explanation": "Network effects require a minimum concentration of users before the value proposition becomes real. The first platform had too few users (low concentration) for the community reaction to trigger. Once a platform crosses the critical mass threshold, the reaction becomes self-sustaining.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Pivot When Saturated",
+    "content": "Once a channel, market, or resource is saturated, continuing to invest is wasteful. The rational move is to pivot to a new, unsaturated medium or market where concentration can again produce results.",
+    "description": "A door-to-door sales team has called every household in a suburban area three times. Conversion rate per call has dropped from 8% to 0.5%. What should the sales manager do?",
+    "options": [
+      "Call every household a fourth time — persistence usually pays off",
+      "Direct the team to a new geographic area where the market is unsaturated and concentration can produce results again",
+      "Fire the sales team and hire a new one that is more persuasive",
+      "Reduce the price of the product to increase conversion rates"
+    ],
+    "answer": "Direct the team to a new geographic area where the market is unsaturated and concentration can produce results again",
+    "explanation": "The current area is saturated — every household has been contacted multiple times. Additional calls precipitate as wasted effort with near-zero return. Moving to a fresh area recreates the conditions for high-concentration impact: new households, no prior saturation, full reaction potential.",
+    "difficulty": "easy"
+  }
+]

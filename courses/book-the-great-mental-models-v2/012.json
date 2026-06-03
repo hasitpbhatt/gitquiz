@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Keystone Species Definition",
+    "content": "A keystone species has a disproportionately large impact on its ecosystem relative to its abundance. If removed, the ecosystem undergoes catastrophic collapse or transformation.",
+    "description": "A mid-level engineer does not write the most code or have the fanciest title. But when she leaves, three junior engineers struggle to get traction, two projects stall from lost institutional knowledge, and team morale drops. What was she?",
+    "options": [
+      "She was a high-performer who was not appropriately compensated",
+      "She was a keystone species — her mentorship, institutional memory, and cultural presence held the team ecosystem together",
+      "She was the only person who understood the codebase",
+      "The team was overly dependent on one person, which is always a management failure"
+    ],
+    "answer": "She was a keystone species — her mentorship, institutional memory, and cultural presence held the team ecosystem together",
+    "explanation": "Her individual output was not the point — her role in the ecosystem was. She provided mentorship, stability, and knowledge transfer that kept the entire team functioning. Removing a keystone, even if it seems cost-effective, triggers systemic collapse.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Revenue Keystone",
+    "content": "A single client that accounts for a large percentage of revenue but demands extensive customization is a keystone. Losing them destroys the financial framework that supports other initiatives.",
+    "description": "A startup has 20 clients, but one client generates 40% of revenue. The startup dedicates 60% of engineering resources to this client's custom features. A new CEO suggests firing the client to 'focus on the core product.' What should they consider first?",
+    "options": [
+      "The CEO is right — custom features for one client are a distraction",
+      "The client is a revenue keystone — losing them would collapse the financial foundation that funds all other product development",
+      "Firing the client would free up 60% of engineering resources for product work",
+      "The startup should diversify its client base before making any changes"
+    ],
+    "answer": "The client is a revenue keystone — losing them would collapse the financial foundation that funds all other product development",
+    "explanation": "That one client funds 40% of revenue and absorbs 60% of engineering. Losing them is not a 'focus' move — it is a keystone removal that would force cutting other initiatives, laying off staff, or abandoning the core product entirely. Protect the keystone while gradually reducing dependency.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Invisible Keystones",
+    "content": "Keystone species are not always the most visible or prominent members of the ecosystem. In organizations, the keystone might be a quiet operator whose stabilizing influence is only recognized after they leave.",
+    "description": "After a long-time administrative assistant retires, the executive team notices that meeting coordination falls apart, expense reports are chronically delayed, and cross-department communication breaks down. No one had realized how much she did. What does this reveal?",
+    "options": [
+      "The company should have hired multiple assistants to cover her workload",
+      "She was an invisible keystone — her low-profile coordination work held the executive ecosystem together, and her removal triggered cascading operational failures",
+      "The executive team should have been handling their own administrative tasks",
+      "The company's processes were insufficiently documented"
+    ],
+    "answer": "She was an invisible keystone — her low-profile coordination work held the executive ecosystem together, and her removal triggered cascading operational failures",
+    "explanation": "Keystones are not always the loudest or highest-paid. Often they are invisible — the person who quietly coordinates, mediates, and stabilizes. Their value is only recognized after removal triggers cascading failure. Identify and protect these invisible keystones before they leave.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Keystone Removal Cascade",
+    "content": "Removing a keystone species does not cause a proportional loss — it triggers a cascade of secondary extinctions as other species dependent on the keystone also fail.",
+    "description": "A company removes a long-standing team lead to 'save costs.' Within three months, two senior engineers on her team quit, project velocity drops by 50%, and the client relationship she managed deteriorates. What describes this chain reaction?",
+    "options": [
+      "The two senior engineers were disloyal and should have stayed",
+      "The company should have hired a replacement before removing her",
+      "The keystone removal triggered a cascade — her departure caused secondary losses (engineers quitting, client churn) that multiplied the initial damage",
+      "Team leads are generally replaceable with minimal disruption"
+    ],
+    "answer": "The keystone removal triggered a cascade — her departure caused secondary losses (engineers quitting, client churn) that multiplied the initial damage",
+    "explanation": "Keystones do not just provide their own output — they enable others' output. Remove the keystone, and the dependencies collapse sequentially. The engineers she mentored lose their anchor and leave. The client she managed loses trust and churns. Each failure amplifies the next.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Identify and Protect Keystones",
+    "content": "The strategic imperative is to explicitly identify keystone individuals, clients, or values and protect them at all costs, because their removal triggers a systemic chain reaction that cannot be easily reversed.",
+    "description": "A private equity firm acquires a company and plans to cut costs by removing the highest-paid employees. Which question should they ask before making cuts?",
+    "options": [
+      "Which employees have the highest salaries?",
+      "Which employees have been at the company the longest?",
+      "Which individuals function as keystones — whose removal would trigger cascading failure across the ecosystem?",
+      "Which employees have the least technical skills?"
+    ],
+    "answer": "Which individuals function as keystones — whose removal would trigger cascading failure across the ecosystem?",
+    "explanation": "Cost-cutting by salary alone is linear thinking in an ecosystem. The highest-paid employee might be a keystone whose removal triggers a cascade of secondary losses worth far more than the salary saved. Identify keystones first, then optimize around protecting them.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Keystone Values",
+    "content": "Certain core values act as keystones in organizational culture. Removing or weakening them destabilizes the entire cultural ecosystem, even if the values seem abstract.",
+    "description": "A company prides itself on 'radical transparency' — all decisions are shared openly. A new CEO decides that some strategic information should be confidential. Within months, trust erodes, collaboration drops, and decision quality declines. What was radical transparency?",
+    "options": [
+      "A nice-to-have cultural perk that was not essential",
+      "A cultural keystone — removing it destabilized the collaborative ecosystem that depended on it",
+      "A policy that was bound to cause problems eventually",
+      "A competitive disadvantage that should have been removed years ago"
+    ],
+    "answer": "A cultural keystone — removing it destabilized the collaborative ecosystem that depended on it",
+    "explanation": "Radical transparency was not just a policy — it was a keystone value that enabled collaboration, trust, and decision quality. Removing it did not just affect information flow; it cascaded into broader cultural damage. Keystone values, like keystone species, hold the entire ecosystem together.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Depends on the Keystone",
+    "content": "Organizations often become dependent on keystones without realizing it. This dependency is itself a vulnerability — if the keystone leaves or fails, the system is fragile.",
+    "description": "A small company's entire sales process depends on one charismatic founder who closes every major deal. The business is growing, but a board member expresses concern. What is the board member worried about?",
+    "options": [
+      "The founder is spending too much time on sales instead of strategy",
+      "The company's sales ecosystem is overly dependent on a single keystone — if the founder leaves or burns out, the entire revenue engine collapses",
+      "Charismatic founders are usually bad at closing deals",
+      "The company should stop growing to reduce dependency on the founder"
+    ],
+    "answer": "The company's sales ecosystem is overly dependent on a single keystone — if the founder leaves or burns out, the entire revenue engine collapses",
+    "explanation": "While the founder is a keystone, dependency on a single keystone is itself a fragility. The wise strategy is to protect the keystone while reducing dependency — document their process, train successors, and distribute keystone functions across multiple people.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Protect at All Costs",
+    "content": "Once a keystone is identified, the calculus changes. The cost of protecting them is always less than the cost of losing them and dealing with the cascading collapse.",
+    "description": "A top performer asks for a flexible work arrangement that goes against company policy. A rigid manager denies the request. The top performer leaves, and three projects subsequently fail. What principle did the manager violate?",
+    "options": [
+      "Company policy should never be broken for any individual",
+      "The manager should have enforced the policy and hired a replacement",
+      "The manager failed to recognize the employee as a keystone — the cost of accommodation was trivial compared to the cascading cost of losing them",
+      "Flexible work arrangements reduce productivity across the team"
+    ],
+    "answer": "The manager failed to recognize the employee as a keystone — the cost of accommodation was trivial compared to the cascading cost of losing them",
+    "explanation": "When someone is a keystone, the standard rules may not apply. The cost of accommodation (a flexible schedule) was minimal. The cost of losing them cascaded into three failed projects — far exceeding any policy benefit. Keystone protection sometimes requires exceptions.",
+    "difficulty": "easy"
+  }
+]
