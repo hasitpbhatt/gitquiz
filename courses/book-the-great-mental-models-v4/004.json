@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Audience Awareness",
+    "content": "The reception of creative work depends on the recipient's cognitive baseline and expectations.",
+    "description": "A venture capitalist creates a pitch deck for a portfolio review meeting with LPs who have no technical background. After the meeting, several LPs admit they could not follow the technical jargon in the slides. Which mental model did the VC fail to apply?",
+    "options": [
+      "Audience",
+      "Genre",
+      "Contrast",
+      "Inversion"
+    ],
+    "answer": "Audience",
+    "explanation": "The VC failed to consider the Audience model. Had they tailored the presentation to what their LPs could understand—similar to how Buffett writes for his intelligent non-professional sisters—the jargon would have been translated into accessible concepts.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Audience-Driven Design",
+    "content": "Products and communications should be shaped by the audience's existing knowledge, anxieties, and incentives.",
+    "description": "A SaaS company redesigns its dashboard to include advanced analytics features praised by industry analysts. However, user engagement drops sharply after the launch and churn increases. Post-launch surveys reveal that core users found the new interface overwhelming and confusing. What does this best illustrate?",
+    "options": [
+      "The contrast effect in pricing",
+      "Failure to consider audience",
+      "Genre convention violation",
+      "Status quo bias"
+    ],
+    "answer": "Failure to consider audience",
+    "explanation": "The company prioritized impressing analysts over serving their actual users' needs. The Audience model teaches that reception depends on the recipient's baseline—ignoring what core users could process led to the engagement drop.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Buffett's Sister Test",
+    "content": "Warren Buffett writes annual letters assuming his intelligent but non-professional sisters are the audience, forcing clarity and accessibility.",
+    "description": "A hedge fund manager drafts a quarterly letter to investors filled with alpha, beta, Sharpe ratios, and options strategies. Her mentor advises her to rewrite it so her college-aged nephew could understand it. She resists, arguing that sophisticated investors expect technical detail. What principle is the mentor trying to apply?",
+    "options": [
+      "Genre conformity",
+      "Contrast framing",
+      "The audience model",
+      "Cognitive ease"
+    ],
+    "answer": "The audience model",
+    "explanation": "The mentor is applying Buffett's Audience model approach—writing for an intelligent non-professional. The manager's technical jargon may impress peers but fails to communicate with the actual audience, which includes investors of varying sophistication. The goal is accessibility, not demonstrating expertise.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Genre as Cognitive Contract",
+    "content": "Genre creates a shared set of expectations between creator and observer, providing cognitive ease through familiarity.",
+    "description": "A director releases a film marketed as a romantic comedy. In the final act, the protagonist dies tragically and the love interest moves to another country. Audiences walk out of theaters angry and ratings plummet. What mental model explains this reaction?",
+    "options": [
+      "Contrast",
+      "Audience",
+      "Genre",
+      "Network effects"
+    ],
+    "answer": "Genre",
+    "explanation": "The audience walked in expecting romantic comedy conventions—a happy ending and emotional resolution—and the film violated that cognitive contract. Genre creates expectations; breaking them without warning feels like a betrayal.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Genre Conventions",
+    "content": "Genre conventions are socially constructed norms that help observers quickly understand what they are experiencing.",
+    "description": "A jazz musician joins a classical string quartet for a performance. During rehearsal, she insists on improvising her solos instead of playing the written score. The quartet members, trained in strict adherence to notation, become visibly frustrated. Which concept is being overlooked?",
+    "options": [
+      "Contrast",
+      "Audience",
+      "Genre",
+      "Scarcity"
+    ],
+    "answer": "Genre",
+    "explanation": "The musician overlooked Genre conventions. Classical quartet performance follows a genre where playing the score as written is the norm. Jazz follows a different genre where improvisation is expected. Neither approach is wrong—they belong to different genres with different rules.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Strategic Genre Violation",
+    "content": "Master genre conventions before consciously violating them for artistic or rhetorical effect.",
+    "description": "An independent game studio creates a survival horror game. Playtesting reveals that players expect health packs in brightly lit rooms—a standard genre convention. The designers place a health pack in a dark room that triggers a monster encounter when picked up. Players report this as the most memorable moment in the game. What does this exemplify?",
+    "options": [
+      "Audience-driven design",
+      "Contrast amplification",
+      "Strategic genre violation",
+      "Cognitive overload"
+    ],
+    "answer": "Strategic genre violation",
+    "explanation": "The designers first understood the genre convention (health packs in safe, bright areas) and deliberately violated it to create surprise and tension. This is a textbook case of mastering the rules before breaking them—a mere violation without understanding would feel arbitrary and unfair.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Contrast Effect in Pricing",
+    "content": "The contrast effect causes the perceived value of an item to shift depending on what it is compared against.",
+    "description": "A furniture store places a $4,000 sofa next to a $400 armchair. Customers perceive the armchair as an exceptional bargain purely because of the price difference. Which mental model does this pricing strategy rely on?",
+    "options": [
+      "Audience",
+      "Genre",
+      "Contrast",
+      "Scarcity"
+    ],
+    "answer": "Contrast",
+    "explanation": "The high-priced sofa creates a contrast anchor that makes the armchair seem like a great deal by comparison. This is the contrast effect—the armchair's perceived value shifts because it appears alongside a much more expensive item.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Chiaroscuro and Visual Contrast",
+    "content": "Contrast uses proximity of opposites to amplify the impact of both elements.",
+    "description": "A photographer editing a portrait increases the shadows under the subject's jaw while brightening the highlights on the cheekbones. The result makes the face appear dramatically more three-dimensional and striking. What artistic technique rooted in contrast does this describe?",
+    "options": [
+      "Genre conformity",
+      "Audience accommodation",
+      "Chiaroscuro",
+      "Cognitive reframing"
+    ],
+    "answer": "Chiaroscuro",
+    "explanation": "Chiaroscuro uses strong contrasts between light and dark to create depth and drama. By amplifying both ends of the lighting spectrum in proximity, the photographer makes the face more dimensional. This demonstrates how placing divergent elements together amplifies both.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Framing Change Against Status Quo",
+    "content": "Presenting a change in contrast to the existing baseline makes its magnitude and direction more perceptible.",
+    "description": "A CEO proposes a restructuring that will reduce departmental budgets by 15%. To gain board approval, the CEO opens by describing current workflow chaos, missed deadlines, and declining customer satisfaction. Only then does the CEO present the restructuring plan. What mental model is the CEO leveraging?",
+    "options": [
+      "Audience",
+      "Genre",
+      "Contrast",
+      "Loss aversion"
+    ],
+    "answer": "Contrast",
+    "explanation": "The CEO uses Contrast by first establishing the painful status quo baseline, making the proposed change appear more necessary and beneficial in comparison. The gap between how bad things are now and how the restructuring will improve things amplifies the perceived value of the change.",
+    "difficulty": "medium"
+  }
+]

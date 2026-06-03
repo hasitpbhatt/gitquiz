@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Representation vs. Reality",
+    "content": "Representations are symbols or metaphors that stand in for reality, not the thing itself.",
+    "description": "Rene Magritte's famous painting 'The Treachery of Images' depicts a pipe with the words 'Ceci n'est pas une pipe.' An art critic insists the painting is wrong because it clearly shows a pipe. What fundamental concept about representation does the critic fail to grasp?",
+    "options": [
+      "The painting is a representation of a pipe, not an actual pipe",
+      "The artist lacked technical skill to paint realistically",
+      "The words are in French so the meaning is lost",
+      "The painting was meant to be a photograph"
+    ],
+    "answer": "The painting is a representation of a pipe, not an actual pipe",
+    "explanation": "Magritte's point is that a depiction of a thing is not the thing itself. The critic mistakes the representation for reality. A painting of a pipe cannot be smoked; it is merely a visual symbol. This illustrates the fundamental principle that all representations — images, maps, words — are symbolic stand-ins, not literal truths.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Brand Identity as Representation",
+    "content": "Corporate brand identities distill complex organizational missions into memorable symbols.",
+    "description": "A startup's marketing team proposes a new logo: a simple geometric tree. The CEO worries it oversimplifies their sophisticated AI-driven sustainability platform. The designer argues that the logo is not meant to describe every feature. What principle of representation supports the designer's argument?",
+    "options": [
+      "A logo is a symbol that represents the company's essence, not a detailed specification",
+      "Simple logos are always better than complex ones",
+      "Customers prefer geometric shapes over realistic images",
+      "The CEO should design the logo themselves"
+    ],
+    "answer": "A logo is a symbol that represents the company's essence, not a detailed specification",
+    "explanation": "The designer is correct because brand logos are representations — symbolic distillations, not literal descriptions. Just as Magritte's painting is not a pipe, a tree logo is not the company itself. It stands for the company's mission in a memorable, simplified form. The CEO confuses the representation with the need for comprehensive detail.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Map Is Not the Territory",
+    "content": "Any model or representation of reality is inherently incomplete and should not be confused with reality itself.",
+    "description": "A city planner relies exclusively on a digital traffic simulation to design new road infrastructure, ignoring on-the-ground feedback from residents about local driving habits. What concept does this mistake best illustrate?",
+    "options": [
+      "Confirmation bias",
+      "The map is not the territory",
+      "Sunk cost fallacy",
+      "Survivorship bias"
+    ],
+    "answer": "The map is not the territory",
+    "explanation": "The planner treats the traffic simulation (a representation) as if it were complete reality, ignoring that no model captures every nuance. 'The map is not the territory' reminds us that representations are selective abstractions. Confirmation bias is about favoring confirming evidence; sunk cost is about irretrievable investments; survivorship bias focuses on survivors only.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Subjective Worldviews as Representations",
+    "content": "Each person's internal worldview is a unique representation shaped by their experiences, not an objective picture of reality.",
+    "description": "Two analysts review the same quarterly earnings report. One sees a company in decline due to shrinking margins; the other sees a growth opportunity because R&D spending has doubled. Both have access to identical data. What best explains their divergent conclusions?",
+    "options": [
+      "One analyst made a mathematical error",
+      "Each analyst's internal mental model is a representation filtered through different experience and expertise",
+      "The earnings report contains hidden information only one could detect",
+      "Corporate communication was deliberately ambiguous"
+    ],
+    "answer": "Each analyst's internal mental model is a representation filtered through different experience and expertise",
+    "explanation": "Both analysts see the same data, but each constructs a different internal representation based on their background, expertise, and mental models. This illustrates that our worldviews are representations — not reality itself. The other options assume an objective truth one analyst misses, which misses the point that interpretation itself is shaped by our internal maps.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "User Personas in Design",
+    "content": "User personas are fictional characters that represent target user segments, anchoring abstract demographic data to a relatable human story.",
+    "description": "A product design team is building a fitness app. They create 'Marathon Maria,' a detailed persona with goals, frustrations, and daily habits, rather than just listing 'target age 25-40, active lifestyle.' Why is this character-driven approach effective?",
+    "options": [
+      "Personas make data easier to ignore",
+      "Characters anchor abstract user needs to a specific human perspective, driving empathy and better design decisions",
+      "Fictional characters are legally safer than using real customer data",
+      "It simplifies the design process by reducing all users to one type"
+    ],
+    "answer": "Characters anchor abstract user needs to a specific human perspective, driving empathy and better design decisions",
+    "explanation": "Creating a detailed character like 'Marathon Maria' transforms abstract demographic data into a relatable human perspective. This narrative technique leverages our brain's natural empathy for specific individuals, making it easier to imagine how design choices affect real users. The other options misunderstand the purpose: personas illuminate needs, they do not hide data or reduce complexity to a single type.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Red Team Exercises",
+    "content": "Red team exercises adopt an adversarial perspective to challenge assumptions and expose blind spots in plans or strategies.",
+    "description": "A government cybersecurity team has spent months designing a new secure communication system. Before deployment, they hire an independent ethical hacking firm to try to break into it. What does this adversarial perspective achieve?",
+    "options": [
+      "It proves the system is unhackable",
+      "It forces the design team to see the system from an attacker's perspective, revealing vulnerabilities the builders overlooked",
+      "It provides legal protection against future lawsuits",
+      "It is a mandatory compliance requirement"
+    ],
+    "answer": "It forces the design team to see the system from an attacker's perspective, revealing vulnerabilities the builders overlooked",
+    "explanation": "Red team exercises are a perfect example of leveraging an alternative character perspective. Builders naturally develop blind spots about their own work — they see it as intended, not as it could be exploited. By adopting the adversary's perspective, the red team uncovers assumptions and weaknesses that the original team could not see. The other options misrepresent the purpose: no system is unhackable, and while compliance may apply, the core value is perspective-shifting.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Bull and Bear Debates in Investing",
+    "content": "Extreme value investors use structured bull-bear debates to stress-test their thesis from opposing character perspectives.",
+    "description": "A hedge fund manager holds a large position in a struggling retail chain. She assigns one analyst to argue why the stock will go to zero and another to argue why it will tenfold, then listens to both before deciding. What narrative technique is she using?",
+    "options": [
+      "Confirmation bias reinforcement",
+      "Character-driven perspective switching to challenge her own assumptions",
+      "Diversification strategy",
+      "Market timing prediction"
+    ],
+    "answer": "Character-driven perspective switching to challenge her own assumptions",
+    "explanation": "By assigning analysts to embody different perspectives — the optimist and the pessimist — the manager uses characters to force herself to see the investment from opposing viewpoints. This is a direct application of using characters and perspectives to overcome confirmation bias. The other options miss the point: she is deliberately challenging her thesis, not reinforcing it, diversifying, or predicting timing.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Narrative Engine of Empathy",
+    "content": "Stories drive human empathy by anchoring abstract concepts to specific agents, making the intangible feel personally relevant.",
+    "description": "A nonprofit reports that '5 million children lack access to clean water.' Donations remain flat. They then run a campaign featuring 'Amina,' a 7-year-old girl with a name, face, and story about walking three hours daily for water. Donations surge. Why does the specific character succeed where the statistic failed?",
+    "options": [
+      "People are irrational and prefer fiction over facts",
+      "Statistics trigger analytical thinking while characters trigger emotional empathy, making the problem feel personal and urgent",
+      "The first campaign had poor graphic design",
+      "Amina's story was more entertaining than the statistics"
+    ],
+    "answer": "Statistics trigger analytical thinking while characters trigger emotional empathy, making the problem feel personal and urgent",
+    "explanation": "This demonstrates the narrative power of characters to drive empathy. Abstract numbers engage the analytical brain, which often leads to detachment. A specific character like Amina activates emotional empathy by giving the abstract problem a human face and story — our brains are wired to care about individual people more than statistics. The other options dismiss the phenomenon as irrationality or poor design when it is actually a well-understood psychological effect.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Cognitive Empathy in Negotiation",
+    "content": "Cognitive empathy is the ability to understand another person's perspective and predict their reactions, without necessarily sharing their emotions.",
+    "description": "A sales negotiator prepares for a meeting by writing a detailed diary entry from the client's point of view, imagining their pressures, motivations, and fears. What skill is the negotiator practicing?",
+    "options": [
+      "Emotional manipulation",
+      "Cognitive empathy through perspective-taking",
+      "Sales script memorization",
+      "Competitive analysis"
+    ],
+    "answer": "Cognitive empathy through perspective-taking",
+    "explanation": "By writing from the client's perspective, the negotiator practices cognitive empathy — understanding another's mental state without necessarily adopting their emotions. This character-based technique allows her to anticipate objections and tailor her approach. The other options mischaracterize the intent: it is not manipulation (which implies deceit), script memorization, or purely competitive analysis.",
+    "difficulty": "easy"
+  }
+]

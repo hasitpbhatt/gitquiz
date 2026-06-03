@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Scarcity",
+    "content": "Scarcity is the fundamental economic problem arising from unlimited human desires in a world of finite resources.",
+    "description": "A government must decide how to allocate its annual budget among healthcare, education, defense, and infrastructure, knowing it cannot fund all requests fully. What core economic concept does this dilemma illustrate?",
+    "options": [
+      "Opportunity cost",
+      "Scarcity",
+      "Supply and demand",
+      "Optimization"
+    ],
+    "answer": "Scarcity",
+    "explanation": "Scarcity is correct because the government faces unlimited wants but has a finite budget, which is the essence of scarcity. Opportunity cost is a consequence of scarcity, not the root problem. Supply and demand describes market pricing, not resource allocation dilemmas. Optimization is a response to scarcity, not the underlying condition itself.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Time Scarcity",
+    "content": "When people perceive time as scarce, their cognitive bandwidth narrows, leading to tunnel vision that impairs long-term decision-making.",
+    "description": "A factory worker pulling double shifts to meet a deadline skips lunch, forgets to pay a bill, and snaps at a colleague because she is constantly racing the clock. What phenomenon explains her deteriorating judgment under time pressure?",
+    "options": [
+      "Opportunity cost",
+      "The scarcity heuristic",
+      "Cognitive tunneling",
+      "Diminishing returns"
+    ],
+    "answer": "Cognitive tunneling",
+    "explanation": "Cognitive tunneling is correct because time scarcity narrows mental bandwidth, causing the worker to focus only on the immediate task while neglecting other responsibilities. Opportunity cost is the value of forgone alternatives, not a mental effect. The scarcity heuristic is a shortcut about quantity, not cognitive narrowing. Diminishing returns describes declining marginal output, not impaired judgment.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Artificial Scarcity",
+    "content": "Artificial scarcity is the deliberate limitation of supply or access to a resource to maintain price premiums, even when abundance is possible.",
+    "description": "A pharmaceutical company holds a patent on a life-saving drug and produces only enough to keep prices high, despite having the capacity to manufacture far more. What economic strategy does this represent?",
+    "options": [
+      "Supply and demand",
+      "Optimization",
+      "Artificial scarcity",
+      "Opportunity cost"
+    ],
+    "answer": "Artificial scarcity",
+    "explanation": "Artificial scarcity is correct because the company deliberately limits supply to maintain high prices despite having the capacity to produce more, a classic example of manufacturing scarcity for profit. Supply and demand describes natural market forces, not intentional restriction. Optimization involves maximizing under constraints, not creating them. Opportunity cost is about choices, not supply manipulation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Market-Clearing Price",
+    "content": "The market-clearing price is the equilibrium point where quantity supplied equals quantity demanded, resulting in no surplus or shortage.",
+    "description": "A bakery sells 200 loaves daily at $4 each. At $6, only 120 loaves sell. At $2, demand surges to 320 loaves but the bakery runs out by noon. At what price does the market clear most efficiently?",
+    "options": [
+      "$2",
+      "$4",
+      "$6",
+      "There is no clear answer"
+    ],
+    "answer": "$4",
+    "explanation": "$4 is the market-clearing price because at this point the bakery sells exactly the 200 loaves it produces with no surplus and no shortage. At $2, demand exceeds supply causing a shortage. At $6, supply exceeds demand creating a surplus. There is indeed a clear answer, making that option incorrect.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Supply Elasticity",
+    "content": "Supply elasticity measures how responsive quantity supplied is to a change in price; inelastic supply amplifies price volatility during demand shocks.",
+    "description": "A hurricane destroys citrus crops in Florida, causing orange juice prices to spike 300% while the quantity available drops only 10%. What does this reveal about the short-term supply of oranges?",
+    "options": [
+      "Supply is perfectly elastic",
+      "Supply is highly elastic",
+      "Supply is inelastic",
+      "Demand is inelastic"
+    ],
+    "answer": "Supply is inelastic",
+    "explanation": "Supply is inelastic is correct because a 300% price increase led to only a 10% quantity change, meaning supply is highly unresponsive to price in the short term. Perfectly elastic supply would mean any price drop causes quantity to fall to zero. Highly elastic supply would mean quantity changes significantly with price, the opposite of what happened. Demand inelasticity describes consumer behavior, not producer responsiveness.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Scarcity Heuristic",
+    "content": "The scarcity heuristic is a mental shortcut where people assign higher value to items that are rare or in limited supply, often leading to irrational purchasing decisions.",
+    "description": "A clothing brand announces a limited edition collection with only 500 pieces worldwide, and customers line up for hours to buy even though the quality is identical to the regular line. What cognitive bias is driving this behavior?",
+    "options": [
+      "Cognitive tunneling",
+      "Confirmation bias",
+      "The scarcity heuristic",
+      "Loss aversion"
+    ],
+    "answer": "The scarcity heuristic",
+    "explanation": "The scarcity heuristic is correct because customers assign higher value to the limited edition items solely due to their perceived rarity, despite identical quality. Cognitive tunneling is narrowed attention under time pressure, not value perception. Confirmation bias is favoring information that confirms existing beliefs. Loss aversion is the tendency to prefer avoiding losses over acquiring gains.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Opportunity Cost",
+    "content": "Opportunity cost is the value of the next best alternative forgone when making a choice — every decision implicitly rejects other uses of the same resources.",
+    "description": "Maria has $10,000 in savings. She can invest in a business earning 8% annually or leave the money in a savings account earning 2%. She chooses the business. What is her opportunity cost?",
+    "options": [
+      "$800",
+      "$200",
+      "$600",
+      "$80"
+    ],
+    "answer": "$200",
+    "explanation": "$200 is correct because the opportunity cost is the return on the next best alternative (the savings account at 2% = $200) that she gave up. $800 is the return she actually earned, not what she gave up. $600 is the difference between the two returns, not the opportunity cost itself. $80 is an incorrect calculation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Opportunity Cost Calculation",
+    "content": "Opportunity cost is calculated as the return of the forgone option minus the return of the chosen option (OC = FO − CO), measuring what you give up relative to what you gain.",
+    "description": "An entrepreneur invests $50,000 in a café that earns $2,000 in its first year. The next best alternative was a bond yielding 5%. What is the opportunity cost using OC = FO − CO?",
+    "options": [
+      "$2,000",
+      "-$500",
+      "$500",
+      "$2,500"
+    ],
+    "answer": "$500",
+    "explanation": "$500 is correct. The forgone option (bond) would have earned $50,000 × 5% = $2,500, while the chosen option (café) earned $2,000. Using OC = FO − CO gives $2,500 − $2,000 = $500, meaning she effectively lost $500 in potential earnings by choosing the café. $2,000 is the café's actual earnings, not the opportunity cost. -$500 would result if the café outperformed the bond. $2,500 is just the bond return without subtracting the chosen return.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Satisficing",
+    "content": "Satisficing is a decision-making strategy that aims for a good enough outcome rather than the optimal one, accepting a satisfactory solution that meets minimum criteria.",
+    "description": "Instead of interviewing every candidate nationwide to find the perfect hire, a manager reviews five local applicants, picks a qualified one, and fills the position within a week. What decision strategy is she using?",
+    "options": [
+      "Optimization",
+      "Satisficing",
+      "Maximization",
+      "Diminishing returns"
+    ],
+    "answer": "Satisficing",
+    "explanation": "Satisficing is correct because the manager settles for a good enough candidate rather than exhausting all possibilities to find the absolute best. Optimization involves systematically finding the best solution under constraints, which is different from settling for satisfactory. Maximization is the opposite — seeking the single best option regardless of effort. Diminishing returns describes declining marginal output, not a decision strategy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Over-Optimization",
+    "content": "Over-optimization occurs when fine-tuning a system for peak efficiency removes redundancy and buffers, making the system fragile and prone to catastrophic failure under unexpected conditions.",
+    "description": "A manufacturing plant implements lean inventory practices that reduce waste to near zero, but when a single supplier faces a minor disruption, the entire production line shuts down for two weeks. What does this scenario illustrate?",
+    "options": [
+      "Supply elasticity",
+      "Satisficing",
+      "Over-optimization",
+      "Economies of scale"
+    ],
+    "answer": "Over-optimization",
+    "explanation": "Over-optimization is correct because the plant eliminated all redundancy in pursuit of efficiency, creating a fragile system that collapsed under a minor shock. Supply elasticity describes how responsive supply is to price changes, not system fragility. Satisficing is a decision strategy of seeking good enough solutions, the opposite of over-optimizing. Economies of scale describe cost advantages from increased production volume.",
+    "difficulty": "hard"
+  }
+]

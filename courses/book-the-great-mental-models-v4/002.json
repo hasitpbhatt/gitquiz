@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Specialization (Division of Labor)",
+    "content": "Adam Smith observed that productivity surges when workers focus on narrow, specific tasks rather than producing entire goods alone. Henry Ford's assembly line slashed Model T assembly time from 12 hours to 93 minutes.",
+    "description": "A small bakery owner is struggling to meet daily orders. Each baker currently measures ingredients, kneads dough, bakes, and packages their own loaves from start to finish. Which application of specialization would most increase the bakery's total output?",
+    "options": [
+      "Assign each baker to a single stage of production so they become faster at that task",
+      "Have every baker continue making whole loaves but work longer shifts each day",
+      "Hire a manager to supervise all baking and leave the bakers to work as they see fit",
+      "Reduce the variety of bread offered and ask each baker to memorize fewer recipes"
+    ],
+    "answer": "Assign each baker to a single stage of production so they become faster at that task",
+    "explanation": "Assigning each baker to one stage (mixing, shaping, baking, packaging) applies division of labor — repetition builds speed and skill at that specific task, so total throughput rises. Working longer shifts ignores the productivity gain from focus. Hiring a manager adds overhead without restructuring work. Reducing recipe variety is product simplification, not specialization of labor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Specialization (Division of Labor)",
+    "content": "Specialization enables elite expert intuition through deliberate practice — the same repetitive, focused effort that turns a novice chess player into a grandmaster or a surgeon into a top diagnostician.",
+    "description": "A hospital wants to improve diagnostic accuracy in its emergency department. Generalist physicians currently handle all incoming cases across every body system. What approach best applies the principle that specialization develops elite expert intuition?",
+    "options": [
+      "Assign each doctor to a specific domain such as cardiac, neurological, or trauma cases for extended rotations",
+      "Rotate every doctor through a different specialty each week to maximize breadth of exposure",
+      "Require all doctors to attend monthly cross-specialty seminars while retaining generalist duties",
+      "Have each doctor spend half the shift on their specialty and half on general cases to stay well-rounded"
+    ],
+    "answer": "Assign each doctor to a specific domain such as cardiac, neurological, or trauma cases for extended rotations",
+    "explanation": "Extended, focused repetition in a single domain allows doctors to build pattern recognition and expert intuition — the hallmark of deliberate practice. Rotating weekly prevents deep skill accumulation. Seminars provide knowledge but not the repeated hands-on experience needed for intuitive diagnosis. Splitting time dilutes the focused repetition that builds elite intuition.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Specialization (Division of Labor)",
+    "content": "Organizations benefit when they concentrate on their core competencies and outsource non-core functions to specialized partners who can perform those tasks more efficiently.",
+    "description": "A mid-sized software company with a strong engineering team is spending heavily on maintaining its own internal payroll, benefits administration, and compliance systems. These systems are not part of the product and distract engineers from feature development. According to the specialization principle, what should the company do?",
+    "options": [
+      "Outsource payroll, benefits, and compliance to a specialized HR services firm",
+      "Build a custom HR software suite to improve the internal tools over time",
+      "Train existing engineers in HR compliance so they can handle both roles",
+      "Hire a full-time HR manager but keep the in-house systems unchanged"
+    ],
+    "answer": "Outsource payroll, benefits, and compliance to a specialized HR services firm",
+    "explanation": "Outsourcing non-core functions to specialized firms lets the software company concentrate engineering talent on its core competency — building great software. Building an HR suite diverts resources from the product. Training engineers in compliance dilutes their specialization. Hiring an HR manager without restructuring still leaves engineers maintaining non-core systems.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Interdependence",
+    "content": "Leonard Read's essay 'I, Pencil' illustrates that no single person on Earth possesses the knowledge to make even a simple pencil — it requires a global network of specialized miners, loggers, chemists, and factory workers coordinating spontaneously without central direction.",
+    "description": "A CEO argues that her company is fully self-sufficient because it owns its factories, warehouses, and distribution fleet. What does the 'I, Pencil' insight reveal about this claim?",
+    "options": [
+      "Even a self-contained company depends on external specialists for raw materials, energy, tools, and infrastructure",
+      "Owning factories and warehouses eliminates all reliance on external suppliers and partners",
+      "Vertical integration makes a company immune to supply chain disruptions from other firms",
+      "Self-sufficiency is achievable if a company owns every stage of production under one roof"
+    ],
+    "answer": "Even a self-contained company depends on external specialists for raw materials, energy, tools, and infrastructure",
+    "explanation": "The 'I, Pencil' essay shows that no entity is truly self-sufficient — every organization depends on a vast, invisible network of specialists for raw materials, energy, machine parts, transportation, and more. Owning factories does not eliminate that interdependence. Vertical integration reduces some dependencies but cannot eliminate them, and it introduces new coordination challenges.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Interdependence",
+    "content": "When specialized actors depend on a single external source for a critical component, the entire system becomes vulnerable to disruption — a single-point-of-failure risk that can halt production across an entire industry.",
+    "description": "A car manufacturer relies exclusively on a sole supplier in a different country for a specialized microchip used in every vehicle's braking system. A labor dispute shuts down that supplier's only factory. What does this scenario best demonstrate about interdependence?",
+    "options": [
+      "Single-point dependencies in specialized networks create systemic vulnerability to disruption",
+      "Interdependence always strengthens supply chains by concentrating expertise in one location",
+      "The manufacturer should have vertically integrated by building its own chip fabrication plant years ago",
+      "Specialization reduces risk because a single supplier can monitor quality more consistently"
+    ],
+    "answer": "Single-point dependencies in specialized networks create systemic vulnerability to disruption",
+    "explanation": "The single-supplier dependency means a disruption at one node cascades through the entire network — this is the dark side of specialization and interdependence. Vertical integration might reduce this specific risk but introduces its own costs and complexities. The concentration of expertise does not compensate for the catastrophic failure risk when that single source goes down.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Interdependence",
+    "content": "Spontaneous coordination — the phenomenon where specialized actors independently make decisions that align into a functioning whole without any central planner — is a hallmark of market economies. Prices, not directives, serve as the signaling mechanism.",
+    "description": "A city experiences an unexpected heat wave, and within hours bottled water appears on store shelves even though no government agency issued a production quota. Which economic concept best explains this outcome?",
+    "options": [
+      "Spontaneous coordination through price signals — rising demand signals suppliers to redirect water shipments to the affected area",
+      "Corporate altruism — water companies anticipated the heat wave and donated extra inventory out of goodwill",
+      "Central planning — the local government pre-arranged emergency water deliveries for all heat wave scenarios",
+      "Random chance — the timing of a routine water delivery happened to coincide with the heat wave"
+    ],
+    "answer": "Spontaneous coordination through price signals — rising demand signals suppliers to redirect water shipments to the affected area",
+    "explanation": "No central planner ordered the water — rising prices (or expected profit from scarcity) incentivized suppliers to redirect shipments spontaneously. This is the same coordination principle from 'I, Pencil' where thousands of specialists align without a master plan. Corporate altruism and random chance ignore the systematic, predictable nature of market coordination. Central planning contradicts the absence of government quotas in the scenario.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Efficiency (Law of Diminishing Returns)",
+    "content": "The law of diminishing returns states that adding more of one variable input while holding other inputs fixed will eventually yield smaller and smaller increases in output.",
+    "description": "A farmer applies increasing amounts of fertilizer to a fixed plot of land. The first 10 kg yields an extra 30 bushels of corn, the next 10 kg yields 20 extra bushels, and the third 10 kg yields only 8 extra bushels. What economic principle does this pattern illustrate?",
+    "options": [
+      "Law of Diminishing Returns",
+      "Economies of Scale",
+      "Comparative Advantage",
+      "Opportunity Cost"
+    ],
+    "answer": "Law of Diminishing Returns",
+    "explanation": "Each additional unit of fertilizer produces less additional output than the previous unit — the classic pattern of diminishing returns because the land (fixed input) cannot be expanded. Economies of scale describe falling per-unit costs with higher volume, not declining marginal output. Comparative advantage is about trade between parties. Opportunity cost is the value of the next best alternative foregone.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Efficiency (Law of Diminishing Returns)",
+    "content": "Satisficing — choosing an option that meets a minimum acceptable threshold — is often more efficient than maximizing, which exhausts time and cognitive energy chasing the perfect choice that may not exist.",
+    "description": "A job seeker spends three months researching every possible employer, reading reviews, and ranking hundreds of openings before applying anywhere, while a friend applies to roles that meet a few key criteria and accepts a solid offer within weeks. Which approach reflects the efficiency insight of satisficing over maximizing?",
+    "options": [
+      "The friend who applied after identifying a few acceptable criteria and accepted a good-enough offer",
+      "The exhaustive researcher who seeks the perfect employer no matter how long it takes",
+      "Both approaches are equally efficient because both may end up with a satisfactory job offer",
+      "Neither approach reflects satisficing because job searching always requires some trade-off"
+    ],
+    "answer": "The friend who applied after identifying a few acceptable criteria and accepted a good-enough offer",
+    "explanation": "Satisficing means stopping once a threshold of 'good enough' is met — this saves time and cognitive energy. The exhaustive researcher is maximizing, which incurs high search costs for a marginal gain that may never materialize. Satisficing is not laziness; it is a deliberate efficiency strategy when the cost of additional searching outweighs the potential improvement.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Efficiency (Law of Diminishing Returns)",
+    "content": "Cognitive fatigue from extended work hours follows the law of diminishing returns — beyond a certain point, each additional hour of work produces less and lower-quality output, and eventually becomes counterproductive.",
+    "description": "A graphic designer works 14-hour days during a project deadline. In the first four hours she produces four high-quality concepts. The next four hours yield one usable revision. The final six hours produce nothing but deleted drafts and errors she must fix the next morning. What does this pattern best illustrate about diminishing returns in knowledge work?",
+    "options": [
+      "Marginal output per hour declines and eventually becomes negative as cognitive fatigue accumulates",
+      "Working longer hours ensures higher total output because more time always means more work completed",
+      "The designer should take a short break every hour to reset her diminishing returns curve",
+      "Diminishing returns applies only to physical labor and manufacturing, not to creative cognitive work"
+    ],
+    "answer": "Marginal output per hour declines and eventually becomes negative as cognitive fatigue accumulates",
+    "explanation": "The designer's marginal output per hour falls from four concepts to one to zero to negative (errors needing correction) — a textbook illustration of diminishing returns applied to cognitive labor. Breaks may help but do not eliminate the fundamental diminishing returns pattern. Total output can still rise with more hours but at a decreasing and eventually negative marginal rate. The law applies to all productive activity, including creative work.",
+    "difficulty": "medium"
+  }
+]

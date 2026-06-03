@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Pure Monopoly Pricing Power",
+    "content": "A pure monopoly exists when a single firm is the sole provider of a product or service, giving it complete control over pricing due to the absence of competition.",
+    "description": "A pharmaceutical company holds the exclusive patent for a life-saving drug. Despite production costs of $2 per dose, it sets the price at $200,000 per year and patients have no alternative supplier. What market structure does this describe?",
+    "options": [
+      "Monopolistic Competition",
+      "Pure Monopoly",
+      "Oligopoly",
+      "Perfect Competition"
+    ],
+    "answer": "Pure Monopoly",
+    "explanation": "In a pure monopoly, a single seller controls the entire market. The patent grants exclusive production rights, eliminating competition and giving the company complete pricing power. Patients cannot switch to another provider, making demand highly inelastic. Monopolistic competition involves many sellers with differentiated products, oligopoly involves a few dominant firms, and perfect competition has many undifferentiated sellers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Natural Monopoly Infrastructure",
+    "content": "A natural monopoly arises when a single firm can serve the entire market at a lower cost than multiple competing firms, typically due to high infrastructure costs that make duplication wasteful.",
+    "description": "A city's water utility requires an underground pipe network costing $500 million to build. Two competing companies would each need their own parallel network, doubling the total infrastructure expense. Economists argue that efficiency favors a single regulated provider in this scenario. What type of monopoly is this?",
+    "options": [
+      "Legal Monopoly",
+      "Natural Monopoly",
+      "Technological Monopoly",
+      "Geographic Monopoly"
+    ],
+    "answer": "Natural Monopoly",
+    "explanation": "Natural monopolies occur when fixed infrastructure costs are so high that duplication by competitors is economically wasteful. Water, electricity, and gas utilities are classic examples. Governments often regulate natural monopolies to prevent price gouging while preserving single-provider efficiency. A legal monopoly arises from government mandate, a technological monopoly from proprietary knowledge, and a geographic monopoly from location constraints.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Network Effects as a Structural Moat",
+    "content": "Network effects occur when a product or service becomes more valuable as more people use it, creating a powerful competitive advantage that is difficult for rivals to overcome.",
+    "description": "A startup tries to launch a new social platform. The incumbent has 2 billion users, making it the default place to find friends and family. New users choose the incumbent because that is where their network already exists. What structural moat protects the incumbent?",
+    "options": [
+      "Proprietary Data",
+      "Switching Costs",
+      "Network Effects",
+      "Economies of Scale"
+    ],
+    "answer": "Network Effects",
+    "explanation": "Network effects create a self-reinforcing advantage: more users attract more users, making the incumbent's massive user base itself the product. New entrants face a chicken-and-egg problem — users will not join without other users. This is distinct from switching costs (the cost of leaving), proprietary data (a unique information asset), or economies of scale (cost advantages from size).",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Blue Ocean Strategy",
+    "content": "Blue ocean strategy involves creating a new market space rather than competing in an existing crowded one, making competition irrelevant by defining entirely new rules.",
+    "description": "Instead of competing with established cola giants, a company launches a premium kombucha brand in a category that barely existed. Within five years, they dominate a new market segment with no direct competition. This approach exemplifies which strategy?",
+    "options": [
+      "Red Ocean Competition",
+      "Blue Ocean Strategy",
+      "Predatory Pricing",
+      "Horizontal Integration"
+    ],
+    "answer": "Blue Ocean Strategy",
+    "explanation": "Blue ocean strategy avoids competing in saturated markets (red oceans where competitors fight over shrinking profits) and instead creates uncontested market space. The kombucha company did not try to beat Coke and Pepsi; it created a new category where the rules had yet to be written. Predatory pricing involves undercutting rivals, and horizontal integration involves merging with competitors.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Authority Bias from Monopoly Power",
+    "content": "When a single entity dominates a market, its pronouncements can carry undue authority, causing consumers and even regulators to defer to its expertise and recommendations without proper scrutiny.",
+    "description": "A dominant search engine controls 90% of global search traffic. When it ranks its own comparison shopping service first in results while relegating competitors to page two, users assume the ranking reflects quality rather than self-preference. Most never question the results. What cognitive bias does this dynamic best illustrate?",
+    "options": [
+      "Confirmation Bias",
+      "Authority Bias Amplified by Monopoly",
+      "Herd Mentality",
+      "Anchoring Effect"
+    ],
+    "answer": "Authority Bias Amplified by Monopoly",
+    "explanation": "Authority bias is the tendency to overvalue the opinions of perceived authorities. A monopoly platform compounds this bias because its dominance creates an aura of inevitability and expertise. Users trust the ranking because the platform is the unquestioned default. In competitive markets, users can cross-check across providers, but monopoly eliminates that check, amplifying the bias. Confirmation bias seeks evidence for existing beliefs, herd mentality follows the crowd, and anchoring fixates on initial information.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Schumpeterian Creative Destruction",
+    "content": "Joseph Schumpeter described capitalism as an evolutionary process where innovation constantly destroys old economic structures and creates new ones, driving long-term growth through perpetual disruption.",
+    "description": "Taxi drivers protest ride-sharing apps that have decimated the value of taxi medallions. Yet the new model has created millions of flexible driving jobs, reduced drunk driving, and made transportation cheaper in underserved areas. How would Schumpeter characterize this cycle?",
+    "options": [
+      "Market Failure Requiring Regulation",
+      "Creative Destruction Driving Progress",
+      "A Zero-Sum Transfer of Wealth",
+      "Temporary Disruption Before Equilibrium"
+    ],
+    "answer": "Creative Destruction Driving Progress",
+    "explanation": "Schumpeter saw creative destruction not as a bug but as the essential feature of capitalism. The taxi industry's loss is real and painful, but the net societal gain from the innovation — lower costs, new jobs, safer roads — represents the evolutionary process that grows the economic pie. Blocking disruption preserves incumbents at the expense of overall progress.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Corporate Self-Cannibalization",
+    "content": "Self-cannibalization is the strategic choice to disrupt your own product or business model before a competitor does, accepting short-term revenue loss for long-term survival.",
+    "description": "Netflix was a DVD-by-mail company generating billions in revenue. CEO Reed Hastings launched streaming, knowing it would destroy the DVD business. DVD revenue cratered, but streaming eventually grew to ten times what DVD ever was. Why do most executives in Hastings's position avoid this path despite the potential long-term payoff?",
+    "options": [
+      "They lack the technology to stream content",
+      "They prioritize quarterly earnings over long-term survival",
+      "Their customers prefer physical media overwhelmingly",
+      "Regulatory barriers prevent business model transitions"
+    ],
+    "answer": "They prioritize quarterly earnings over long-term survival",
+    "explanation": "The core challenge of self-cannibalization is that it looks terrible on quarterly reports. DVD revenue falls immediately, while streaming revenue takes years to mature. Most executives are incentivized to protect existing profit centers because bonuses, stock prices, and analyst ratings reward current performance. Hastings chose long-term survival over short-term optics, a decision most leaders cannot make due to incentive misalignment.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Personal Creative Destruction",
+    "content": "Just as economies must destroy old structures to grow, individuals must shed outdated mental models, beliefs, and habits to make room for new, more effective frameworks.",
+    "description": "A manager has always believed that the best employees are those who never ask questions. After studying growth mindset research, they realize this belief is suppressing innovation on their team. They consciously replace it with a new framework that rewards curiosity and challenge. This personal transformation parallels which economic concept?",
+    "options": [
+      "Creative Destruction Applied to Personal Growth",
+      "Opportunity Cost",
+      "Sunk Cost Fallacy",
+      "The Paradox of Thrift"
+    ],
+    "answer": "Creative Destruction Applied to Personal Growth",
+    "explanation": "Personal creative destruction mirrors the economic concept exactly: old mental structures must be actively dismantled to allow new ones to grow. The manager's old belief provided comfort and simplicity, but it constrained team potential. Shedding it was uncomfortable yet necessary — the same dynamic Schumpeter described for economies. Opportunity cost, sunk cost fallacy, and the paradox of thrift are unrelated economic concepts.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Incumbent Inertia",
+    "content": "Incumbent inertia describes the tendency of established market leaders to resist disruptive innovation, often because their existing business model is too profitable to abandon until it is too late.",
+    "description": "Kodak invented the digital camera in 1975 but suppressed the technology to protect its film business. By the time digital cameras became mainstream, Kodak had lost its lead and eventually filed for bankruptcy. What force best explains Kodak's failure to act on its own invention?",
+    "options": [
+      "Lack of Technical Expertise",
+      "Incumbent Inertia from a Profitable Legacy Model",
+      "Government Regulations",
+      "Insufficient Market Research"
+    ],
+    "answer": "Incumbent Inertia from a Profitable Legacy Model",
+    "explanation": "Kodak's dilemma is the classic case of incumbent inertia. Film was an extraordinarily profitable business with 70% margins. Digital cameras offered lower margins and would cannibalize that revenue. Leadership chose to protect the present rather than build the future. Ironically, Kodak had the technology first but lacked the willingness to disrupt itself. The failure was not technical but structural and psychological.",
+    "difficulty": "medium"
+  }
+]

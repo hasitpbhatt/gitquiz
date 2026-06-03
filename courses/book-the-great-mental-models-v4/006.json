@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Contextual Architecture",
+    "content": "Environmental frameworks transmit implicit rules and emotional cues that precondition behavior.",
+    "description": "A hospital redesigns its waiting room with softer lighting, living plants, and curved seating. Patients report feeling calmer and more trusting before their appointment. What concept does this illustrate?",
+    "options": [
+      "Contextual Architecture",
+      "Emotional Contagion",
+      "Performance Delivery",
+      "Cognitive Dissonance"
+    ],
+    "answer": "Contextual Architecture",
+    "explanation": "Contextual Architecture (Setting) refers to how environmental frameworks transmit implicit rules and emotional cues that precondition behavior. The redesigned waiting room uses physical cues to shape patient emotions. Emotional Contagion involves the spread of emotions between people, Performance Delivery is about communicating ideas, and Cognitive Dissonance involves conflicting beliefs.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Forced Serendipity",
+    "content": "Steve Jobs designed Pixar's central atrium to house the only restrooms, mailboxes, and meeting rooms, forcing cross-departmental encounters.",
+    "description": "A CEO redesigns the office layout so that the cafeteria, coffee stations, and breakout areas sit in a single central hub rather than being distributed across floors. Cross-team collaboration increases noticeably. What principle is being applied?",
+    "options": [
+      "Operant Conditioning",
+      "Contextual Architecture",
+      "Sunk Cost Fallacy",
+      "Network Effects"
+    ],
+    "answer": "Contextual Architecture",
+    "explanation": "This is Contextual Architecture (Setting) in action. By centralizing shared amenities, the CEO creates an environmental framework that encourages serendipitous encounters between teams. Operant Conditioning involves rewards and punishments, Sunk Cost Fallacy is about irrecoverable investments, and Network Effects describe how value increases with user adoption.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Context-Dependent Memory",
+    "content": "Information recall is enhanced when the environmental context at retrieval matches the context at encoding, because settings act as retrieval cues.",
+    "description": "A student studies for an exam at a quiet corner table in a coffee shop. On exam day, the answers come more easily than when studying at home in bed. What phenomenon explains this?",
+    "options": [
+      "Muscle Memory",
+      "Spaced Repetition",
+      "Context-Dependent Memory",
+      "The Zeigarnik Effect"
+    ],
+    "answer": "Context-Dependent Memory",
+    "explanation": "Context-Dependent Memory shows that recall improves when the retrieval environment matches the encoding environment. The coffee shop setting became a retrieval cue for learned information. Muscle Memory involves procedural physical tasks, Spaced Repetition is about timing study sessions, and the Zeigarnik Effect describes better memory for interrupted tasks.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Behavioral Priming Through Setting",
+    "content": "Environmental cues can non-consciously activate associated mental constructs, influencing subsequent behavior without the person's awareness.",
+    "description": "A company notices that employees collaborate more freely in a warm orange room with round tables than in a gray rectangular conference room, despite identical agendas. What psychological mechanism is at work?",
+    "options": [
+      "Confirmation Bias",
+      "Behavioral Priming",
+      "The Hawthorne Effect",
+      "Loss Aversion"
+    ],
+    "answer": "Behavioral Priming",
+    "explanation": "Behavioral Priming through Setting explains how environmental cues non-consciously activate mental constructs. Round tables and warm colors prime collaborative behavior, while gray geometry primes formality and hierarchy. Confirmation Bias is selective information seeking, the Hawthorne Effect is behavior change from being observed, and Loss Aversion is the tendency to prefer avoiding losses over acquiring gains.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Digital Contextual Architecture",
+    "content": "Matching the physical or digital environment to the desired psychological outcome can improve focus, creativity, or relaxation.",
+    "description": "A writer uses a distraction-free editor with a typewriter sound effect for deep work, but switches to a different browser profile with multiple tabs open for administrative tasks. What principle is being practiced?",
+    "options": [
+      "Multitasking Optimization",
+      "Digital Contextual Architecture",
+      "Pomodoro Technique",
+      "Decision Fatigue"
+    ],
+    "answer": "Digital Contextual Architecture",
+    "explanation": "The writer applies Digital Contextual Architecture by matching the digital environment to the desired psychological outcome. The minimal editor signals deep focus, while the browser profile signals administrative mode. Multitasking Optimization suggests doing multiple things at once, the Pomodoro Technique is a time-management method, and Decision Fatigue describes the deteriorating quality of decisions after many decisions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Performance and Idea Valuation",
+    "content": "The value of an idea is linked to the clarity, presence, and conviction of its delivery, not just its intrinsic merit.",
+    "description": "Two founders pitch identical business plans. The first speaks with hesitation and reads from slides. The second tells a compelling story with eye contact and conviction. The second founder receives funding. What does this illustrate?",
+    "options": [
+      "Halo Effect",
+      "Performance in Idea Valuation",
+      "Survivorship Bias",
+      "The Availability Heuristic"
+    ],
+    "answer": "Performance in Idea Valuation",
+    "explanation": "This illustrates Performance in Idea Valuation — the value of an idea is linked to the clarity, presence, and conviction of its delivery. The same content produced different outcomes because of how it was delivered. The Halo Effect is when one positive trait influences perception of other traits, Survivorship Bias focuses on successful examples that survived, and the Availability Heuristic judges likelihood based on how easily examples come to mind.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Emotional Contagion in Leadership",
+    "content": "Emotions spread from person to person, especially from leaders to their teams, and this contagion is amplified during crises.",
+    "description": "A CEO walks into a tense all-hands meeting looking visibly anxious and delivers a vague update with trembling hands. Within minutes, the room's energy shifts to fear and team members begin whispering anxiously. What phenomenon is occurring?",
+    "options": [
+      "Groupthink",
+      "Emotional Contagion",
+      "Social Loafing",
+      "The Spotlight Effect"
+    ],
+    "answer": "Emotional Contagion",
+    "explanation": "Emotional Contagion explains how emotions spread from person to person, especially from leaders to teams, and is amplified during crises. The CEO's visible anxiety triggered a cascade of fear through the room. Groupthink is the desire for harmony overriding realistic appraisal, Social Loafing is exerting less effort in a group, and the Spotlight Effect is overestimating how much others notice us.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Performance as Theater",
+    "content": "Tableside food preparation and similar rituals transform a functional transaction into a memorable experience, demonstrating that how something is done can be as important as what is done.",
+    "description": "A steakhouse has servers prepare Caesar salad and flambé desserts at the customer's table, explaining ingredients and techniques. Customers rate the experience as more enjoyable than if the same food were prepared in the kitchen. What concept does this exemplify?",
+    "options": [
+      "The Hawthorne Effect",
+      "Performance as Theater",
+      "Sensory Marketing",
+      "The Mere Exposure Effect"
+    ],
+    "answer": "Performance as Theater",
+    "explanation": "This exemplifies Performance as Theater — transforming a functional transaction into a memorable experience through theatrical delivery. The tableside preparation makes the meal an event rather than just sustenance. The Hawthorne Effect involves behavior change from observation, Sensory Marketing focuses on engaging the senses, and the Mere Exposure Effect is developing preference from repeated exposure.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Allocating Preparation to Rollout",
+    "content": "Great work does not speak for itself; creators must allocate preparation time to the mechanics of how their work is introduced and delivered to the world.",
+    "description": "A research team submits a groundbreaking paper with a poorly written abstract and confusing title. It is rejected, while lesser work from a different team with a compelling narrative and strategic media outreach gets published and widely cited. What principle did the first team neglect?",
+    "options": [
+      "The Matthew Effect",
+      "Allocation to Rollout Mechanics",
+      "Occam's Razor",
+      "The Peter Principle"
+    ],
+    "answer": "Allocation to Rollout Mechanics",
+    "explanation": "The first team neglected to allocate preparation time to rollout mechanics — the how of presenting their work. Great work does not speak for itself, and clarity, framing, and narrative of delivery dramatically affect reception. The Matthew Effect describes accumulated advantage, Occam's Razor favors simpler explanations, and the Peter Principle states people rise to their level of incompetence.",
+    "difficulty": "hard"
+  }
+]
