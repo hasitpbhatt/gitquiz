@@ -1,5 +1,7 @@
 // @ts-check
 
+const MAX_TURNS = 5;
+
 const PERSONAS = {
   child: {
     label: 'Like I\'m 10',
@@ -23,6 +25,21 @@ const PERSONAS = {
   }
 };
 
+function buildInitialPrompt(persona) {
+  const q = quizData[currentIdx];
+  if (!q) return '';
+  return 'The student just answered a quiz question and needs an explanation.\n\n' +
+    'Question: ' + q.question + '\n' +
+    'Context: ' + (q.content || 'N/A') + '\n' +
+    'Scenario: ' + (q.description || 'N/A') + '\n' +
+    'Correct Answer: ' + q.answer + '\n\n' +
+    'The student selected: "' + lastSelectedAnswer + '" and was ' +
+    (lastAnswerCorrect ? 'CORRECT' : 'INCORRECT') + '.\n\n' +
+    (persona !== 'socratic'
+      ? 'Provide a concise explanation (2-3 paragraphs).'
+      : 'Respond with 2-3 Socratic questions to guide the student.');
+}
+
 async function askAI(persona) {
   if (!MISTRAL_PROXY_URL) return;
 
@@ -33,30 +50,27 @@ async function askAI(persona) {
   const responseDiv = document.getElementById('ai-response');
   if (!btn || !responseDiv) return;
 
+  const q = quizData[currentIdx];
+  if (!q) {
+    responseDiv.classList.remove('hidden');
+    responseDiv.innerHTML = 'No question data available.';
+    return;
+  }
+
+  currentAiPersona = persona;
+  aiConversation = {
+    messages: [
+      { role: 'system', content: personaDef.system },
+      { role: 'user', content: buildInitialPrompt(persona) }
+    ],
+    turn: 0
+  };
+
   btn.disabled = true;
   btn.innerHTML = '<span class="inline-block animate-spin mr-1">?</span> Thinking...';
   responseDiv.innerHTML = '';
   responseDiv.classList.remove('hidden');
-
-  const q = quizData[currentIdx];
-  if (!q) {
-    responseDiv.innerHTML = 'No question data available.';
-    btn.disabled = false;
-    btn.innerHTML = personaDef.icon + ' ' + personaDef.label;
-    return;
-  }
-
-  const prompt = personaDef.system + '\n\n' +
-    'The student just answered a quiz question and needs an explanation.\n\n' +
-    'Question: ' + q.question + '\n' +
-    'Context: ' + (q.content || 'N/A') + '\n' +
-    'Scenario: ' + (q.description || 'N/A') + '\n' +
-    'Correct Answer: ' + q.answer + '\n\n' +
-    'The student selected: "' + lastSelectedAnswer + '" and was ' +
-    (lastAnswerCorrect ? 'CORRECT' : 'INCORRECT') + '.\n\n' +
-    (persona !== 'socratic'
-      ? 'Provide a concise explanation (2-3 paragraphs).'
-      : 'Respond with 2-3 Socratic questions to guide the student.');
+  hideChatInput();
 
   try {
     const res = await fetch(MISTRAL_PROXY_URL, {
@@ -64,7 +78,7 @@ async function askAI(persona) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         model: 'mistral-small-latest',
-        messages: [{ role: 'user', content: prompt }]
+        messages: aiConversation.messages
       })
     });
 
@@ -74,11 +88,10 @@ async function askAI(persona) {
     const content = data.choices?.[0]?.message?.content || data.content || '';
 
     if (content) {
-      const formatted = content
-        .split(/\n\n+/)
-        .map(p => '<p class="mb-2 last:mb-0">' + p.replace(/\n/g, '<br>') + '</p>')
-        .join('');
-      responseDiv.innerHTML = '<span class="font-700 text-xs uppercase tracking-wider text-indigo-400">' + personaDef.icon + ' ' + personaDef.label + '</span><div class="mt-2 space-y-2">' + formatted + '</div>';
+      aiConversation.messages.push({ role: 'assistant', content });
+      aiConversation.turn = 1;
+      renderConversation();
+      updateChatUI();
     } else {
       throw new Error('Empty response');
     }
@@ -88,4 +101,130 @@ async function askAI(persona) {
     btn.disabled = false;
     btn.innerHTML = personaDef.icon + ' ' + personaDef.label;
   }
+}
+
+async function sendFollowUp() {
+  const input = document.getElementById('chat-input');
+  const sendBtn = document.getElementById('chat-send-btn');
+  const text = input ? input.value.trim() : '';
+  if (!text || !currentAiPersona || !sendBtn) return;
+
+  const conv = aiConversation;
+  if (!conv || conv.turn >= MAX_TURNS) return;
+
+  input.value = '';
+  input.disabled = true;
+  sendBtn.disabled = true;
+
+  conv.messages.push({ role: 'user', content: text });
+  renderConversation();
+
+  try {
+    const res = await fetch(MISTRAL_PROXY_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'mistral-small-latest',
+        messages: conv.messages
+      })
+    });
+
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+
+    const data = await res.json();
+    const content = data.choices?.[0]?.message?.content || data.content || '';
+
+    if (content) {
+      conv.messages.push({ role: 'assistant', content });
+      conv.turn++;
+      renderConversation();
+      updateChatUI();
+    } else {
+      throw new Error('Empty response');
+    }
+  } catch (err) {
+    const responseDiv = document.getElementById('ai-response');
+    if (responseDiv) {
+      responseDiv.innerHTML += '<div class="chat-bubble error">AI explainer is not available right now. Please try again.</div>';
+    }
+  } finally {
+    input.disabled = false;
+    sendBtn.disabled = false;
+    input.focus();
+  }
+}
+
+function renderConversation() {
+  const responseDiv = document.getElementById('ai-response');
+  if (!responseDiv) return;
+
+  const conv = aiConversation;
+  if (!conv || conv.messages.length === 0) return;
+
+  responseDiv.classList.remove('hidden');
+
+  let html = '';
+  let started = false;
+
+  for (const msg of conv.messages) {
+    if (msg.role === 'system') continue;
+    if (!started) {
+      if (msg.role === 'assistant') started = true;
+      else continue;
+    }
+
+    if (msg.role === 'user') {
+      html += `<div class="chat-bubble user"><span class="font-700 text-xs uppercase tracking-wider text-slate-400">You</span><p class="mt-1">${escapeHtml(msg.content)}</p></div>`;
+    } else {
+      const formatted = msg.content
+        .split(/\n\n+/)
+        .map(p => '<p class="mb-2 last:mb-0">' + p.replace(/\n/g, '<br>') + '</p>')
+        .join('');
+      html += `<div class="chat-bubble assistant"><span class="font-700 text-xs uppercase tracking-wider text-indigo-400">${PERSONAS[currentAiPersona]?.icon || ''} ${PERSONAS[currentAiPersona]?.label || currentAiPersona}</span><div class="mt-2 space-y-2">${formatted}</div></div>`;
+    }
+  }
+
+  responseDiv.innerHTML = html;
+  responseDiv.scrollTop = responseDiv.scrollHeight;
+}
+
+function updateChatUI() {
+  const conv = aiConversation;
+  const inputArea = document.getElementById('chat-input-area');
+  const turnInfo = document.getElementById('chat-turn-info');
+  const input = document.getElementById('chat-input');
+  const sendBtn = document.getElementById('chat-send-btn');
+
+  if (!conv || conv.turn === 0 || !inputArea || !turnInfo) return;
+
+  inputArea.classList.remove('hidden');
+  turnInfo.classList.remove('hidden');
+
+  if (conv.turn >= MAX_TURNS) {
+    if (input) input.disabled = true;
+    if (sendBtn) sendBtn.disabled = true;
+    turnInfo.textContent = 'Conversation limit reached (max ' + MAX_TURNS + ' exchanges)';
+  } else {
+    if (input) input.disabled = false;
+    if (sendBtn) sendBtn.disabled = false;
+    turnInfo.textContent = 'Exchange ' + conv.turn + ' of ' + MAX_TURNS;
+  }
+}
+
+function hideChatInput() {
+  const inputArea = document.getElementById('chat-input-area');
+  const turnInfo = document.getElementById('chat-turn-info');
+  if (inputArea) inputArea.classList.add('hidden');
+  if (turnInfo) turnInfo.classList.add('hidden');
+}
+
+function resetAiChat() {
+  aiConversation = { messages: [], turn: 0 };
+  currentAiPersona = '';
+  const responseDiv = document.getElementById('ai-response');
+  if (responseDiv) {
+    responseDiv.innerHTML = '';
+    responseDiv.classList.add('hidden');
+  }
+  hideChatInput();
 }

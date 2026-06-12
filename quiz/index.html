@@ -251,7 +251,14 @@
                                 ❓ Socratic Tutor
                             </button>
                         </div>
-                        <div id="ai-response" class="hidden p-4 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-100 dark:border-indigo-800 text-indigo-800 dark:text-indigo-300 text-sm leading-relaxed animate-in fade-in slide-in-from-top-2 duration-300"></div>
+                        <div id="ai-response" class="hidden p-4 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-100 dark:border-indigo-800 text-indigo-800 dark:text-indigo-300 text-sm leading-relaxed"></div>
+                        <div id="chat-input-area" class="hidden flex gap-2 items-center mt-3">
+                            <input id="chat-input" type="text" placeholder="Ask a follow-up..." class="flex-1 p-2.5 text-sm rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-400/20 transition-all disabled:opacity-50">
+                            <button id="chat-send-btn" onclick="sendFollowUp()" class="px-4 py-2.5 bg-indigo-500 hover:bg-indigo-600 disabled:bg-indigo-500/50 text-white font-700 text-sm rounded-xl transition-all disabled:cursor-not-allowed whitespace-nowrap">
+                                Send →
+                            </button>
+                        </div>
+                        <div id="chat-turn-info" class="hidden text-[11px] font-600 text-slate-400 mt-1"></div>
                     </div>
 
                     <div id="next-btn-wrapper" class="pt-4 flex justify-end min-h-[60px]">

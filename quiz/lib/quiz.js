@@ -169,6 +169,7 @@ function renderQuestion() {
     if (aiSection) aiSection.classList.add('hidden');
     const aiResponse = document.getElementById('ai-response');
     if (aiResponse) aiResponse.classList.add('hidden');
+    resetAiChat();
 
     if (currentIdx === quizData.length - 1 && currentUrl) {
         const nextUrl = currentUrl.replace(/(\d+)(?=\.json)/, (m) => 
