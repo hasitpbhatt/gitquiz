@@ -4,195 +4,519 @@
     "type": "book",
     "chapters": 7,
     "source": null,
-    "description": "Brian Christian and Tom Griffiths on applying computer science algorithms to everyday human decisions."
+    "description": "Brian Christian and Tom Griffiths on applying computer science algorithms to everyday human decisions.",
+    "chapterDescriptions": {
+      "001": "The 37% Rule — optimal stopping theory for when to commit in decisions from apartment hunting to dating.",
+      "002": "Explore/exploit tradeoffs and the multi-armed bandit problem applied to restaurant choices and career paths.",
+      "003": "Algorithmic efficiency and Big-O notation as a mental model for prioritising what deserves your attention.",
+      "004": "Caching, memory hierarchies, and why organising your physical and digital space by frequency of use saves time.",
+      "005": "Scheduling algorithms — earliest due date, shortest processing time, and how to manage deadlines and interruptions.",
+      "006": "Overfitting, bias-variance tradeoff, and why more data or more complexity can hurt decision quality.",
+      "007": "Game theory, Nash equilibrium, and competitive dynamics in auctions, negotiations, and social dilemmas."
+    }
   },
   "book-almanack-of-naval-ravikant": {
     "title": "The Almanack of Naval Ravikant",
     "type": "book",
     "chapters": 10,
     "source": null,
-    "description": "Naval Ravikant on wealth creation, happiness as a skill, and the philosophy of self-reliance through leverage, judgment, and integrity."
+    "description": "Naval Ravikant on wealth creation, happiness as a skill, and the philosophy of self-reliance through leverage, judgment, and integrity.",
+    "chapterDescriptions": {
+      "001": "Wealth vs. Money vs. Status — distinguishing real wealth creation from zero-sum status games.",
+      "002": "Specific knowledge — the unique, authentic expertise that cannot be trained but must be built through curiosity and obsession.",
+      "003": "Permissionless leverage — capital, code, and media as force multipliers that let you create value without anyone's approval.",
+      "004": "Judgment over effort — why leverage amplifies bad decisions and how to cultivate better judgment through mental models.",
+      "005": "Happiness as absence of desire — the Buddhist insight that happiness is the default state when you stop craving.",
+      "006": "Internal vs external locus of control — taking radical responsibility for your emotional state and circumstances.",
+      "007": "Choice-less awareness — observing thoughts without identification and the practice of mindfulness as a meta-skill.",
+      "008": "Reading as the ultimate meta-skill — how to build a reading habit, choose books, and synthesise knowledge across fields.",
+      "009": "Health as the foundational layer — sleep, nutrition, and exercise as non-negotiable prerequisites for wealth and happiness.",
+      "010": "Radical authenticity — the power of being yourself in business and life as a competitive advantage."
+    }
   },
   "book-atomic-habits": {
     "title": "Atomic Habits",
     "type": "book",
     "chapters": 11,
     "source": null,
-    "description": "James Clear on how small daily habits compound into remarkable results."
+    "description": "James Clear on how small daily habits compound into remarkable results.",
+    "chapterDescriptions": {
+      "001": "The power of tiny gains — how 1% improvements compound into extraordinary results over time.",
+      "002": "The three layers of behaviour change — identity, process, and outcome; why identity-based habits stick.",
+      "003": "The four-step habit loop — cue, craving, response, reward as the neurological backbone of every habit.",
+      "004": "The habit scorecard — becoming aware of your automatic behaviours before trying to change them.",
+      "005": "The power of context — how environment design makes good habits inevitable and bad habits impossible.",
+      "006": "The role of dopamine — how anticipation drives action and the strategy of temptation bundling.",
+      "007": "Social norms and the power of mimicry — joining cultures where your desired behaviour is the normal behaviour.",
+      "008": "Motion vs. action — the trap of planning without doing and the importance of the habit of showing up.",
+      "009": "The cardinal rule of behaviour change — making habits immediately satisfying to reinforce repetition.",
+      "010": "The Goldilocks Rule — working on tasks of just-manageable difficulty to stay in the flow state.",
+      "011": "Genetics and habit alignment — why your genes don't determine your destiny but do point to your niche."
+    }
   },
   "book-beginning-of-infinity": {
     "title": "The Beginning of Infinity",
     "type": "book",
     "chapters": 8,
     "source": null,
-    "description": "David Deutsch on the power of good explanations and the unlimited potential of human knowledge."
+    "description": "David Deutsch on the power of good explanations and the unlimited potential of human knowledge.",
+    "chapterDescriptions": {
+      "001": "Good explanations — why the defining feature of scientific knowledge is that it is hard to vary while remaining correct.",
+      "002": "Fallibilism — the recognition that all knowledge is conjectural and that growth comes from criticism, not certainty.",
+      "003": "The infinite reach of explanation — how abstract knowledge enables unlimited progress beyond direct experience.",
+      "004": "Knowledge in evolution — how biological evolution creates knowledge without a knower, and what it shares with science.",
+      "005": "The many-worlds interpretation — Deutsch's argument that quantum theory implies a multiverse that is real and testable.",
+      "006": "The Enlightenment — the moment when systematic criticism and problem-solving became institutionalised as progress.",
+      "007": "The human universal — the unique human capacity for creative explanation and why it is both universal and unlimited.",
+      "008": "The beginning of infinity — why civilisation is at the start, not the end, of its potential for growth and discovery."
+    }
   },
   "book-bhagavad-gita": {
     "title": "The Bhagavad Gita",
     "type": "book",
     "chapters": 11,
     "source": null,
-    "description": "Ancient Indian philosophical text on duty, righteousness, and self-realization through the dialogue between Krishna and Arjuna."
+    "description": "Ancient Indian philosophical text on duty, righteousness, and self-realization through the dialogue between Krishna and Arjuna.",
+    "chapterDescriptions": {
+      "001": "The battlefield of life — Arjuna's moral crisis and the setting of the Gita as a metaphor for inner conflict.",
+      "002": "Karma Yoga — the path of selfless action; doing your duty without attachment to outcomes.",
+      "003": "The three gunas — sattva, rajas, and tamas as the fundamental qualities that shape all behaviour and thought.",
+      "004": "The genesis of anger — how unchecked desire leads to anger, clouded judgment, and spiritual downfall.",
+      "005": "The universal form — Krishna's revelation as Vishvarupa, the cosmic form containing all of existence.",
+      "006": "Equanimity in achievement — the practical meaning of success as maintaining balance in both gain and loss.",
+      "007": "Divine nature — the daivi sampat or divine qualities that elevate human character and action.",
+      "008": "Samatva — skill in action defined as perfect evenness of mind in success and failure.",
+      "009": "The divine descent — the concept of avatar and the purpose of divine intervention across ages.",
+      "010": "Remembering at the final moment — the teaching that your last thought is shaped by your lifelong habits.",
+      "011": "Austerity of the body — the discipline of physical, verbal, and mental austerity for self-purification."
+    }
   },
   "book-cointelligence": {
     "title": "Co-Intelligence",
     "type": "book",
     "chapters": 10,
     "source": null,
-    "description": "Ethan Mollick on how to live and work with AI as a partner rather than a tool."
+    "description": "Ethan Mollick on how to live and work with AI as a partner rather than a tool.",
+    "chapterDescriptions": {
+      "001": "The Mechanical Turk legacy — why AI is not just another technology but a fundamentally new kind of intelligence.",
+      "002": "The jagged frontier — where AI excels, where it fails, and why the boundaries are constantly shifting.",
+      "003": "Always be using AI — the first rule of co-intelligence is deep, continuous engagement to understand the technology.",
+      "004": "The social interface of AI — how AI changes collaboration, team dynamics, and the nature of work relationships.",
+      "005": "AI as the ultimate muse — using generative AI for creativity, ideation, and breaking creative blocks.",
+      "006": "The coworker paradigm — treating AI as a collaborator rather than a tool for delegation or automation.",
+      "007": "The homework apocalypse — how AI disrupts education and assessment, and what meaningful learning looks like next.",
+      "008": "AI as the personal coach — leveraging AI for personalised learning, skill development, and reflective practice.",
+      "009": "The future of co-intelligence — emerging capabilities and the long-term trajectory of human-AI partnership.",
+      "010": "The great disruption — societal implications, inequality risks, and the choices that will shape our AI future."
+    }
   },
   "book-deep-work": {
     "title": "Deep Work",
     "type": "book",
     "chapters": 7,
     "source": null,
-    "description": "Cal Newport on the value of focused, distraction-free concentration in a distracted world."
+    "description": "Cal Newport on the value of focused, distraction-free concentration in a distracted world.",
+    "chapterDescriptions": {
+      "001": "Deep work defined — professional activities performed in a state of distraction-free concentration that push cognitive capabilities.",
+      "002": "The neurological argument for depth — how deep work rewires the brain for attention, meaning, and satisfaction.",
+      "003": "The monastic philosophy — eliminating shallow obligations entirely to maximise depth, and who this suits.",
+      "004": "Don't take breaks from distraction — training attention by scheduling distraction instead of scheduling focus.",
+      "005": "The craftsman approach to tool selection — choosing digital tools based on their impact on deep work, not their novelty.",
+      "006": "Schedule every minute of your day — the time-blocking method for making deep work a non-negotiable part of your routine.",
+      "007": "The deep work equation — turning deep work into a measurable, repeatable practice through metrics and ritual."
+    }
   },
   "book-get-better-at-anything": {
     "title": "Get Better at Anything",
     "type": "book",
     "chapters": 8,
     "source": null,
-    "description": "Scott H. Young on the science of learning and how to master any skill."
+    "description": "Scott H. Young on the science of learning and how to master any skill.",
+    "chapterDescriptions": {
+      "001": "Problem solving is search — why learning something new is like navigating an unfamiliar space, and how to explore efficiently.",
+      "002": "Success is the best teacher — the role of prior knowledge and why you learn faster by building on what you already know.",
+      "003": "Difficulty has a sweet spot — the Goldilocks zone of challenge where learning accelerates most rapidly.",
+      "004": "Variability over repetition — why varied practice builds transferable skills better than rote repetition.",
+      "005": "Experience does not reliably ensure expertise — the difference between mere time spent and deliberate practice.",
+      "006": "Practice must meet reality — why learning in context and testing yourself under realistic conditions matters.",
+      "007": "Fears fade with exposure — the psychology of anxiety in learning and how graded exposure builds confidence.",
+      "008": "Learning through multiple principles — synthesising different strategies to accelerate mastery across domains."
+    }
   },
   "book-influence": {
     "title": "Influence",
     "type": "book",
     "chapters": 8,
     "source": null,
-    "description": "Robert Cialdini on the psychology of persuasion and the six principles of influence."
+    "description": "Robert Cialdini on the psychology of persuasion and the six principles of influence.",
+    "chapterDescriptions": {
+      "001": "Reciprocity — the rule that we feel obligated to return favours, and how savvy persuaders use it to gain compliance.",
+      "002": "Commitment and consistency — once we take a stand, we tend to behave in ways consistent with that commitment.",
+      "003": "Social proof — the tendency to see an action as correct when others are doing it, especially in uncertainty.",
+      "004": "Authority — the deep-seated sense of duty to authority figures and the dangers of blind obedience.",
+      "005": "Liking — people prefer to say yes to those they like; physical attractiveness, similarity, and compliments drive this.",
+      "006": "Scarcity — opportunities seem more valuable when they are less available; the limited-number and deadline tactics.",
+      "007": "Integrated influence tactics — how professional compliance professionals combine multiple principles for maximum effect.",
+      "008": "Identifying the core principle — recognising which influence principle is being used in real-world persuasion attempts."
+    }
   },
   "book-seeking-wisdom-darwin-to-munger": {
     "title": "Seeking Wisdom: From Darwin to Munger",
     "type": "book",
     "chapters": 8,
     "source": null,
-    "description": "Peter Bevelin on mental models and decision-making drawn from biology, psychology, and philosophy."
+    "description": "Peter Bevelin on mental models and decision-making drawn from biology, psychology, and philosophy.",
+    "chapterDescriptions": {
+      "001": "Anatomy shapes behaviour — how biological structure and evolution constrain and direct human decision-making.",
+      "002": "Confirmation bias — the tendency to seek evidence that confirms existing beliefs and how to counteract it.",
+      "003": "Understanding scale and probability — how misjudging scale, risk, and probability leads to systematic errors.",
+      "004": "Systems thinking — seeing the interconnectedness of variables and avoiding narrow, linear cause-effect reasoning.",
+      "005": "Latticework of mental models — building an interconnected network of models from multiple disciplines for better reasoning.",
+      "006": "Opportunity cost — recognising that every choice excludes alternatives and that tradeoffs are universal.",
+      "007": "Lollapalooza effect — the confluence of multiple biases and tendencies that produces extreme, non-linear outcomes.",
+      "008": "Munger prescriptions for misery — inversion as a practical tool: studying failure to learn what to avoid."
+    }
   },
   "book-super-thinking": {
     "title": "Super Thinking",
     "type": "book",
     "chapters": 11,
     "source": null,
-    "description": "Gabriel Weinberg and Lauren McCann on mental models for better reasoning and decision-making."
+    "description": "Gabriel Weinberg and Lauren McCann on mental models for better reasoning and decision-making.",
+    "chapterDescriptions": {
+      "001": "Occam's Razor and the simplest explanation — why parsimony is a useful heuristic and when it fails.",
+      "002": "Confirmation bias and motivated reasoning — how our desires distort perception and how to build debiasing habits.",
+      "003": "Circle of competence — knowing the boundaries of your knowledge and why operating outside them is dangerous.",
+      "004": "Thermodynamics and entropy — physical laws as mental models for understanding energy, order, and decay in systems.",
+      "005": "Natural selection and adaptation — evolutionary thinking applied to competition, innovation, and organisational change.",
+      "006": "Microeconomics and incentives — supply, demand, and the power of incentives in shaping behaviour at scale.",
+      "007": "Climate change through mental models — applying multiple frameworks to understand a complex, systemic challenge.",
+      "008": "Complexity bias vs Occam's Razor — when simple explanations mislead and the world truly requires nuanced models.",
+      "009": "Parkinson's Law — work expands to fill the time available; how constraints improve productivity and focus.",
+      "010": "Game theory and strategic interaction — Nash equilibrium, prisoner's dilemma, and co-operation in competitive settings.",
+      "011": "Deliberate practice and the learning curve — the mental models behind skill acquisition and mastery."
+    }
   },
   "book-the-adaptive-edge": {
     "title": "The Adaptive Edge",
     "type": "book",
     "chapters": 16,
     "source": null,
-    "description": "Leadership frameworks for navigating complexity and driving organizational change."
+    "description": "Leadership frameworks for navigating complexity and driving organizational change.",
+    "chapterDescriptions": {
+      "001": "The illusion of the broken system — reframing organisational problems as adaptive challenges rather than technical failures.",
+      "002": "The view from above — developing the balcony perspective to see patterns and dynamics beyond the dance floor.",
+      "003": "The goal of diagnosis — distinguishing technical problems from adaptive challenges before prescribing solutions.",
+      "004": "Diagnosing the self — turning the diagnostic lens inward to examine your own assumptions and leadership biases.",
+      "005": "The nature of interventions — why small, well-timed interventions can create outsized impact in complex systems.",
+      "006": "The danger of leading — the risks leaders take when they challenge the status quo and how to manage exposure.",
+      "007": "Thriving through change — building resilience and adaptive capacity in yourself and your organisation.",
+      "008": "The myth of the fix-it leader — letting go of the saviour mindset and empowering distributed problem-solving.",
+      "009": "The discipline of self-correction — creating feedback loops that allow you to course-correct before failure.",
+      "010": "The essence of adaptive leadership — mobilising people to tackle tough challenges and thrive in uncertainty.",
+      "011": "The nature of adaptive challenges — why adaptive problems require changes in values, beliefs, and behaviours.",
+      "012": "The danger of misinterpretation — how misdiagnosing adaptive challenges as technical problems leads to failure.",
+      "013": "The integration of adaptive leadership — weaving adaptive principles into daily leadership practice.",
+      "014": "Technical vs adaptive misdiagnosis — deeper exploration of the most common and costly leadership error.",
+      "015": "Leading beyond boundaries — applying adaptive leadership across organisational and cultural boundaries.",
+      "016": "The daily balcony — the discipline of stepping back regularly to reflect, reframe, and recalibrate your leadership."
+    }
   },
   "book-the-changing-world-order": {
     "title": "The Changing World Order",
     "type": "book",
     "chapters": 15,
     "source": null,
-    "description": "Ray Dalio on the repeating cycles of empires, economies, and the big cycle of history."
+    "description": "Ray Dalio on the repeating cycles of empires, economies, and the big cycle of history.",
+    "chapterDescriptions": {
+      "001": "The Big Cycle — how empires rise and fall in predictable patterns over decades and centuries.",
+      "002": "The determinants of power — the eight key metrics that measure a nation's strength and trajectory.",
+      "003": "The long-term debt cycle — how debt accumulation and deleveraging drive the rise and fall of empires.",
+      "004": "The six stages of internal order — the predictable phases from new order to revolution within a nation.",
+      "005": "The external order and the Thucydides Trap — what happens when a rising power challenges an established one.",
+      "006": "The rise and fall of the Dutch Empire — the first modern empire's ascent and decline as a case study in the big cycle.",
+      "007": "The future of the US and China — applying the framework to forecast the next phase of the great power competition.",
+      "008": "The last 500 years in a nutshell — a condensed tour of the big cycle across Dutch, British, American, and Chinese history.",
+      "009": "The Dutch Golden Age and education — how universal literacy and printing fuelled the Dutch economic miracle.",
+      "010": "The British rise and the Industrial Revolution — the confluence of finance, coal, and navigation that built the British Empire.",
+      "011": "The 1945 new world order — the post-war settlement that established American dominance and the global institutions we know today.",
+      "012": "The long history of Chinese cycles — how China's dynastic cycles map onto the big cycle framework across millennia.",
+      "013": "The three determinants of the future — wealth, power, and the internal order as the pillars shaping what comes next.",
+      "014": "The wealth gap and the internal cycle — how inequality drives the internal cycle of populism, conflict, and revolution.",
+      "015": "The Mandate of Heaven and cyclical history — the ancient Chinese concept of dynastic legitimacy and its resonance with modern cycles."
+    }
   },
   "book-the-great-mental-models-v1": {
     "title": "The Great Mental Models Volume 1",
     "type": "book",
     "chapters": 11,
     "source": null,
-    "description": "Shane Parrish and Rhiannon Beaubien on the fundamental mental models from physics, biology, and systems thinking that improve decision-making."
+    "description": "Shane Parrish and Rhiannon Beaubien on the fundamental mental models from physics, biology, and systems thinking that improve decision-making.",
+    "chapterDescriptions": {
+      "001": "Mental model definition — what mental models are and why building a latticework of them improves decision-making.",
+      "002": "Map as abstraction — recognising that every map (model) is a simplification and that the territory is always more complex.",
+      "003": "Circle of competence — knowing the boundaries of your expertise and operating only where you have genuine insight.",
+      "004": "First principles reasoning — breaking problems down to their fundamental truths and rebuilding from there.",
+      "005": "First vs second-order thinking — anticipating the knock-on effects of decisions beyond the immediate consequences.",
+      "006": "Probabilistic thinking — embracing uncertainty by thinking in probabilities rather than certainties.",
+      "007": "Inversion — approaching problems backwards by asking what you want to avoid or what could cause failure.",
+      "008": "Occam's Razor — the principle that simpler explanations are generally more likely to be correct.",
+      "009": "Hanlon's Razor — not attributing to malice what can be adequately explained by ignorance or incompetence.",
+      "010": "The Pareto Principle — the 80/20 rule that a minority of inputs produce the majority of outcomes.",
+      "011": "Latticework of mental models — the value of having a diverse toolkit of models from multiple disciplines."
+    }
   },
   "book-the-great-mental-models-v2": {
     "title": "The Great Mental Models Volume 2",
     "type": "book",
     "chapters": 15,
     "source": null,
-    "description": "Shane Parrish and Rhiannon Beaubien on mental models from chemistry, mathematics, and systems thinking for better decision-making."
+    "description": "Shane Parrish and Rhiannon Beaubien on mental models from chemistry, mathematics, and systems thinking for better decision-making.",
+    "chapterDescriptions": {
+      "001": "Relativity and frames of reference — how your perspective shapes reality and the power of shifting your reference point.",
+      "002": "Inertia — the tendency of systems and people to resist change unless sufficient force is applied.",
+      "003": "Friction — the hidden forces that slow progress and how identifying them reveals the path to improvement.",
+      "004": "Leverage — using small forces at the right point to create disproportionate impact across systems.",
+      "005": "Speed vs velocity — the difference between mere activity (speed) and purposeful progress toward a goal (velocity).",
+      "006": "Conservation of energy — the principle that energy is never lost, only transformed, as a lens for understanding tradeoffs.",
+      "007": "Activation energy — the initial hurdle that must be overcome before a reaction or habit takes hold.",
+      "008": "Catalysts — agents that accelerate change without being consumed, and how they apply to organisations and relationships.",
+      "009": "Alloys — how combining elements creates materials stronger than any individual component, applied to teams and ideas.",
+      "010": "Concentration — the power of focus and the insight that depth beats breadth for achieving mastery and results.",
+      "011": "Ecosystems and interconnectedness — understanding that everything is connected and that isolated interventions have ripple effects.",
+      "012": "Keystone species — the critical entities whose presence disproportionately shapes and stabilises entire systems.",
+      "013": "Natural selection — the engine of evolution as a mental model for competition, adaptation, and survival.",
+      "014": "The Red Queen Effect — the need to keep running just to stay in place when competitors are also improving.",
+      "015": "Competitive exclusion — the principle that two competitors cannot occupy the same niche indefinitely."
+    }
   },
   "book-the-great-mental-models-v3": {
     "title": "The Great Mental Models Volume 3",
     "type": "book",
     "chapters": 17,
     "source": null,
-    "description": "Shane Parrish and Rhiannon Beaubien on mental models from systems thinking and mathematics for better decision-making."
+    "description": "Shane Parrish and Rhiannon Beaubien on mental models from systems thinking and mathematics for better decision-making.",
+    "chapterDescriptions": {
+      "001": "Reinforcing feedback loops — how small changes can amplify themselves, driving growth or collapse in systems.",
+      "002": "Homeostasis — the tendency of systems to self-regulate and resist change, and how to work with or around it.",
+      "003": "The theory of constraints — identifying the single bottleneck that limits a system's throughput and focusing there.",
+      "004": "Margin of safety — building buffers and redundancy to protect against uncertainty and worst-case scenarios.",
+      "005": "Churn — the rate at which participants leave a system, and why reducing churn is often more effective than acquiring new ones.",
+      "006": "Irreducibility — recognising phenomena that cannot be simplified without losing their essential nature.",
+      "007": "Compounding — the exponential growth that results when gains accumulate on previous gains across any domain.",
+      "008": "The law of diminishing returns — the point at which additional input yields progressively smaller output.",
+      "009": "Regression to the mean — why extreme outcomes tend to be followed by more average ones, and the trap of misattribution.",
+      "010": "Sampling — how representative samples reveal population truths and the dangers of biased or small samples.",
+      "011": "The normal distribution — understanding bell curves, standard deviations, and where most outcomes cluster.",
+      "012": "Algorithms — step-by-step procedures that guarantee correct outcomes, and when to use them versus heuristics.",
+      "013": "Permutations — counting arrangements and possibilities as a foundation for understanding probability and risk.",
+      "014": "Expected value — weighing outcomes by their probability to make rational decisions under uncertainty.",
+      "015": "Correlation vs causation — the classic statistical trap of mistaking relationships for causes.",
+      "016": "Critical mass — the threshold beyond which a system undergoes a self-sustaining transformation.",
+      "017": "Structure determines behaviour — the systems thinking insight that patterns of behaviour are built into system design."
+    }
   },
   "book-the-great-mental-models-v4": {
     "title": "The Great Mental Models Volume 4",
     "type": "book",
     "chapters": 6,
     "source": null,
-    "description": "Shane Parrish and Rhiannon Beaubien on mental models from economics and art for better decision-making."
+    "description": "Shane Parrish and Rhiannon Beaubien on mental models from economics and art for better decision-making.",
+    "chapterDescriptions": {
+      "001": "Scarcity — the fundamental economic problem of unlimited wants versus limited resources and its psychological effects.",
+      "002": "Specialisation and division of labour — how focused expertise drives productivity gains and economic complexity.",
+      "003": "Pure monopoly pricing power — what happens when a single seller controls a market and how monopolies set prices.",
+      "004": "Audience awareness — the artist's skill of anticipating how an audience will perceive and interpret a work.",
+      "005": "Representation vs reality — the gap between how things are presented and how they truly are, across art and life.",
+      "006": "Contextual architecture — how the physical and social environment shapes behaviour and meaning."
+    }
   },
   "book-the-psychology-of-money": {
     "title": "The Psychology of Money",
     "type": "book",
     "chapters": 20,
     "source": null,
-    "description": "Morgan Housel on the emotional and behavioral side of financial decision-making."
+    "description": "Morgan Housel on the emotional and behavioral side of financial decision-making.",
+    "chapterDescriptions": {
+      "001": "The lens of experience — why your personal financial history shapes your money decisions more than any textbook.",
+      "002": "The invisible siblings — the role of luck and risk in financial outcomes and why we ignore outcomes that didn't happen.",
+      "003": "The moving goalpost — the hedonic treadmill that makes enough never feel like enough after you reach it.",
+      "004": "The unintuitive nature of math — why compounding returns are hard to grasp and why our intuition about growth is wrong.",
+      "005": "The dual skillset — the separation of knowing what to do (financial intelligence) from doing it (behavioural discipline).",
+      "006": "Tail events — the few extreme events that drive the majority of outcomes across investing, business, and life.",
+      "007": "The highest form of wealth — the freedom to do what you want, when you want, with whom you want.",
+      "008": "The paradox of admiration — why we respect wealth in others but rarely consider what they sacrificed to get it.",
+      "009": "Wealth is what you don't see — the difference between visible spending (income) and invisible assets (wealth).",
+      "010": "The efficiency of saving — how the single most controllable variable in financial success is your savings rate.",
+      "011": "Rational vs reasonable — why being mathematically rational with money is less important than being psychologically reasonable.",
+      "012": "The problem with history as a map — why past financial data is an imperfect guide to future outcomes.",
+      "013": "The margin of safety — the power of having enough room for error to survive when things go wrong.",
+      "014": "The end of history illusion — the tendency to underestimate how much our future selves will change from who we are now.",
+      "015": "The hidden price tag — the real costs of investing: volatility, uncertainty, and the emotional toll of being wrong.",
+      "016": "The game selection — choosing the financial game that suits your personality rather than chasing everyone else's.",
+      "017": "The popularity of pessimism — why bad news sells and why pessimism sounds smarter than optimism in finance.",
+      "018": "The power of narrative — how compelling stories drive economic and market behaviour more than cold numbers.",
+      "019": "The goal of financial decisions — defining what money is actually for: control over your time and life.",
+      "020": "The post-war reset — how the post-war generation's experience of scarcity shaped a uniquely cautious financial psychology."
+    }
   },
   "book-the-startup-of-you": {
     "title": "The Startup of You",
     "type": "book",
     "chapters": 9,
     "source": null,
-    "description": "Reid Hoffman and Ben Casnocha on applying startup principles to career building."
+    "description": "Reid Hoffman and Ben Casnocha on applying startup principles to career building.",
+    "chapterDescriptions": {
+      "001": "Permanent beta — treating your career as a product that is never finished, always iterating and improving.",
+      "002": "The three pieces of the puzzle — your assets, aspirations, and market realities as the framework for career strategy.",
+      "003": "ABZ planning — having an A plan (current path), B plan (pivot), and Z plan (safety net) for career resilience.",
+      "004": "The 'I' is 'We' — why your professional network is your most valuable asset and how to invest in it systematically.",
+      "005": "Breakout opportunities — recognising the rare moments that combine high potential with a unique fit for your skills.",
+      "006": "Redefining risk — why the most risky career move is often playing it safe in a rapidly changing economy.",
+      "007": "Network intelligence — the ability to tap into your network for information, introductions, and serendipitous opportunities.",
+      "008": "The entrepreneurship of life — applying startup principles to every domain from career to health to relationships.",
+      "009": "The intersection of the three pieces — finding the sweet spot where your assets, aspirations, and market realities converge."
+    }
   },
   "coursera-financial-markets-global": {
     "title": "Financial Markets",
     "type": "coursera",
     "chapters": 12,
     "source": null,
-    "description": "Robert Shiller's Yale course on financial markets, risk management, and behavioral finance."
+    "description": "Robert Shiller's Yale course on financial markets, risk management, and behavioral finance.",
+    "chapterDescriptions": {
+      "001": "The law of large numbers — how insurance works by pooling risk across many independent events.",
+      "002": "The concept of equity and ownership — what it means to own a share of a company and the rights that come with it.",
+      "003": "Loss aversion — the psychological finding that losses hurt roughly twice as much as equivalent gains feel good.",
+      "004": "The mechanics of a bond — how fixed-income securities work, from coupons to yield to maturity.",
+      "005": "The nature of a mortgage — the structure of real estate debt and how securitisation transforms it into traded assets.",
+      "006": "Fractional reserve banking — how banks create money by lending more than they hold in reserves.",
+      "007": "The definition of a derivative — a financial contract whose value derives from an underlying asset or benchmark.",
+      "008": "The social purpose of finance — the role of financial markets in allocating capital to productive uses across the economy.",
+      "009": "The mechanics of exchange rates — how currency values are determined by supply, demand, and central bank policy.",
+      "010": "The rise of robo-advisors — how algorithms are democratising investment advice and portfolio management.",
+      "011": "The nature of a financial crisis — the anatomy of systemic collapse from asset bubbles to contagion.",
+      "012": "Systematic vs unsystematic risk — the distinction between market-wide risk that cannot be diversified away and asset-specific risk."
+    }
   },
   "coursera-finding-purpose-and-meaning-in-life": {
     "title": "Finding Purpose and Meaning in Life",
     "type": "coursera",
     "chapters": 6,
     "source": "https://www.coursera.org/learn/finding-purpose-and-meaning-in-life",
-    "description": "Advanced masterclass on the philosophy, science, and practice of discovering and living a life of purpose."
+    "description": "Advanced masterclass on the philosophy, science, and practice of discovering and living a life of purpose.",
+    "chapterDescriptions": {
+      "001": "Socrates' challenge — the examined life as the foundation of meaning and the question of what makes life worth living.",
+      "002": "The Ryff well-being framework — the six dimensions of psychological well-being from autonomy to personal growth.",
+      "003": "Value internalisation — the difference between goals that are truly yours and goals adopted from others' expectations.",
+      "004": "Post-traumatic growth — the discovery that adversity can be a catalyst for deepened meaning and personal transformation.",
+      "005": "The four circles — mapping your life into relationships, work, self, and spirituality to find balance and purpose.",
+      "006": "Job crafting — reshaping your work role to better align with your strengths, values, and sense of meaning."
+    }
   },
   "coursera-genai-for-algorithmic-trading": {
     "title": "Generative AI for Algorithmic Trading",
     "type": "coursera",
     "chapters": 11,
     "source": null,
-    "description": "Integrating large language models and generative AI into quantitative trading strategies."
+    "description": "Integrating large language models and generative AI into quantitative trading strategies.",
+    "chapterDescriptions": {
+      "001": "Integrating LLMs with quantitative strategies — the architecture of combining large language models with traditional quant methods.",
+      "002": "Sentiment extraction from financial news — how NLP pipelines turn unstructured news text into tradeable sentiment signals.",
+      "003": "Pattern recognition with GenAI — using generative models to identify market patterns that traditional quant models miss.",
+      "004": "Understanding LSTM memory in trading — how long short-term memory networks capture temporal dependencies in price data.",
+      "005": "The goal of explainable AI in finance — why black-box models are problematic for regulated financial decisions.",
+      "006": "The role of sentiment scores in quantitative models — combining fundamental data with sentiment for richer trading signals.",
+      "007": "Handling live streaming data — the architecture for processing real-time market data with AI models.",
+      "008": "The architecture of a GenAI trading pipeline — end-to-end design from data ingestion to order execution.",
+      "009": "AI-driven efficient frontier — using generative models to optimise portfolio allocation along the risk-return curve.",
+      "010": "Detecting tail risk via linguistic cues — how language patterns in news and reports can predict rare market events.",
+      "011": "The anatomy of an autonomous trading agent — the components of a self-contained AI system that makes and executes trades."
+    }
   },
   "podcast-age-of-async-agents": {
     "title": "The Age of Async Agents",
     "type": "podcast",
     "chapters": 8,
     "source": "https://www.latent.space/p/cognition",
-    "description": "Swyx hosts Walden Yan (Cognition/Devin) and Cole Murray (OpenInspect) on the three waves of AI coding tools and async agent architectures."
+    "description": "Swyx hosts Walden Yan (Cognition/Devin) and Cole Murray (OpenInspect) on the three waves of AI coding tools and async agent architectures.",
+    "chapterDescriptions": {
+      "001": "Three waves of AI coding tools — from copilots to agents to autonomous systems, tracing the evolution of AI-assisted development.",
+      "002": "Devin's commit percentage growth — how AI coding agents improve over time and what the learning curve looks like.",
+      "003": "Harness in the box — the architecture of sandboxed execution environments for safe agent deployment.",
+      "004": "Docker limitations for agents — why container-based isolation falls short for long-running, stateful agent workloads.",
+      "005": "Testing vs computer use — the tradeoffs between unit testing and end-to-end computer-use testing for AI agents.",
+      "006": "MCP limitations — the constraints of the Model Context Protocol for agent-to-tool communication at scale.",
+      "007": "Don't build multi-agent systems — the advice to start simple with single agents and why premature multi-agent complexity is harmful.",
+      "008": "SRE auto-triage as a use case — how AI agents handle automated site reliability incident triage in production."
+    }
   },
   "podcast-daytona": {
     "title": "Giving Agents Computers",
     "type": "podcast",
     "chapters": 5,
     "source": "https://www.latent.space/p/daytona",
-    "description": "Dive into 'Giving Agents Computers' from the Latent Space podcast with Ivan Burazin of Daytona. Covers the End of Localhost thesis, composable sandbox architecture for AI agents, bare-metal performance engineering, agent workload patterns, and the business landscape of agent infrastructure — including the debate over agents as the final nail in localhost's coffin."
+    "description": "Dive into 'Giving Agents Computers' from the Latent Space podcast with Ivan Burazin of Daytona. Covers the End of Localhost thesis, composable sandbox architecture for AI agents, bare-metal performance engineering, agent workload patterns, and the business landscape of agent infrastructure — including the debate over agents as the final nail in localhost's coffin.",
+    "chapterDescriptions": {
+      "001": "CodeAnywhere's origin — the founding story of the cloud IDE platform that evolved into Daytona's infrastructure vision.",
+      "002": "Composable computer architecture — how Daytona breaks down development environments into modular, reusable components.",
+      "003": "Bare metal vs virtual machines — why Daytona chooses bare-metal performance for agent workloads over VM abstraction.",
+      "004": "Background agent workloads — the characteristics of long-running, async agent processes and their infrastructure needs.",
+      "005": "Daytona's open source license — the business model and community strategy behind open-sourcing agent infrastructure."
+    }
   },
   "podcast-nothing-ever-happens-is-over": {
     "title": "Nothing Ever Happens Is Over",
     "type": "podcast",
     "chapters": 14,
     "source": "https://nav.al/over",
-    "description": "Naval Ravikant and Nivi on startup design, AI-native org structure, drone warfare, and the hardware renaissance."
+    "description": "Naval Ravikant and Nivi on startup design, AI-native org structure, drone warfare, and the hardware renaissance.",
+    "chapterDescriptions": {
+      "001": "The hub and spoke model — how AI-native organisations structure themselves with small core teams and outsourced execution.",
+      "002": "Implicit vs explicit AI — the distinction between AI embedded in products versus AI as a standalone explicit interface.",
+      "003": "The monopoly vs commodity debate — identifying which layers of the AI stack will consolidate and which will fragment.",
+      "004": "The logic of violence — the historical relationship between technology, war, and the changing nature of conflict.",
+      "005": "The hardware renaissance — the resurgence of physical hardware innovation driven by AI's insatiable compute demands.",
+      "006": "The cognitive labour of coordination — how AI reduces the overhead of managing people and processes at scale.",
+      "007": "Reinforcement learning and world models — the frontier of AI systems that learn cause-and-effect models of reality.",
+      "008": "Commoditising the complement in AI — the strategy of making complementary goods cheap while capturing value in scarce layers.",
+      "009": "The rise of the generalist — why AI favours adaptable generalists over narrow specialists in the evolving job market.",
+      "010": "Nuclear umbrella vs drone logic — the shift from deterrence-based military strategy to precision-enabled drone warfare.",
+      "011": "The reports on demand model — how AI enables instant, personalised analytics and reporting without human analysts.",
+      "012": "The phase shift post-COVID — how the pandemic permanently accelerated remote work, digital infrastructure, and AI adoption.",
+      "013": "The historical logic of violence — the recurring pattern of technological innovation outpacing the laws of war.",
+      "014": "The democratisation of bioweapons — the dual-use risk of AI-accelerated biotechnology and its implications for global security."
+    }
   },
   "podcast-regulatory-frontier": {
     "title": "The Regulatory Frontier",
     "type": "podcast",
     "chapters": 1,
     "source": "https://nav.al/regulatory",
-    "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on battling red tape at scale with AI."
+    "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on battling red tape at scale with AI.",
+    "chapterDescriptions": {
+      "001": "An airplane takes a lightning strike — using the Concorde's regulatory battle as a case study for AI's compliance challenges."
+    }
   },
   "podcast-vibe-coding-hardware": {
     "title": "Vibe Coding Hardware",
     "type": "podcast",
     "chapters": 2,
     "source": "https://nav.al/hardware",
-    "description": "Nivi, Naval, Blake Scholl (Boom Supersonic), Guillermo Rauch (Vercel), and Max Hodak (Science Corp) on AI transforming hardware engineering."
+    "description": "Nivi, Naval, Blake Scholl (Boom Supersonic), Guillermo Rauch (Vercel), and Max Hodak (Science Corp) on AI transforming hardware engineering.",
+    "chapterDescriptions": {
+      "001": "Vibe coding a turbine blade — how generative AI is being used to design and optimise physical hardware components.",
+      "002": "China goes all in on open source — the strategic calculus behind China's embrace of open source AI and hardware ecosystems."
+    }
   },
   "podcast-waste-tokens-save-time": {
     "title": "Waste Tokens, Save Time",
     "type": "podcast",
     "chapters": 1,
     "source": "https://nav.al/tokens",
-    "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on software factories, tokenmaxxing, and AI-native engineering."
+    "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on software factories, tokenmaxxing, and AI-native engineering.",
+    "chapterDescriptions": {
+      "001": "Software factories — the concept of treating AI-generated code as a scalable production pipeline rather than handcrafted art."
+    }
   }
 }
