@@ -45,6 +45,20 @@ dirs.forEach(dir => {
       }
       if (q.answer && q.options && Array.isArray(q.options) && !q.options.includes(q.answer))
         errs.push(f + ' Q' + qi + ': answer not in options. Answer="' + q.answer + '"');
+
+      // Answer length bias check (warning only — not a hard error)
+      if (q.answer && Array.isArray(q.options) && q.options.length === 4) {
+        const answerLen = q.answer.length;
+        const otherLens = q.options.filter(o => o !== q.answer).map(o => o.length);
+        if (otherLens.length === 3) {
+          const otherMax = Math.max(...otherLens);
+          const otherMean = otherLens.reduce((a, b) => a + b, 0) / 3;
+          if (answerLen > 60 && answerLen > otherMax * 1.5 && answerLen > otherMean + 50) {
+            const diff = (answerLen - otherMean).toFixed(0);
+            errs.push(f + ' Q' + qi + ': WARNING — answer length bias (+' + diff + ' chars vs mean of other options)');
+          }
+        }
+      }
     });
   });
 

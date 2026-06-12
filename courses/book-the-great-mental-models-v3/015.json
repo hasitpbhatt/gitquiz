@@ -47,11 +47,11 @@
     "description": "A company observes that employees who take more vacation days receive higher performance ratings. Should they mandate more vacation to improve performance?",
     "options": [
       "Yes — the data clearly shows vacation improves performance",
-      "No — a confounding variable (e.g., higher-performing employees may feel more comfortable taking vacation) could explain the correlation without vacation causing better performance",
+      "No — a confounder (e.g., high performers take more vacation) could explain the correlation",
       "Yes, but only if the vacation is taken during non-peak seasons",
       "No, because vacation always reduces productivity"
     ],
-    "answer": "No — a confounding variable (e.g., higher-performing employees may feel more comfortable taking vacation) could explain the correlation without vacation causing better performance",
+    "answer": "No — a confounder (e.g., high performers take more vacation) could explain the correlation",
     "explanation": "Confounding variables can reverse the apparent direction of causality. Without controlling for confounders, the observed correlation may be misleading. A randomized experiment would be needed to establish causation.",
     "difficulty": "hard"
   },

@@ -90,10 +90,10 @@
     "options": [
       "Never join startups — most fail",
       "Always join startups — the upside is $500K",
-      "Calculate EV: (0.3 × $500K) + (0.7 × -$20K) = $150K - $14K = +$136K. The positive EV supports joining, but the 70% failure risk must be emotionally tolerable.",
+      "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70% failure risk must be tolerable.",
       "The EV calculation cannot apply to career decisions because they are one-time events"
     ],
-    "answer": "Calculate EV: (0.3 × $500K) + (0.7 × -$20K) = $150K - $14K = +$136K. The positive EV supports joining, but the 70% failure risk must be emotionally tolerable.",
+    "answer": "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70% failure risk must be tolerable.",
     "explanation": "Even one-time decisions benefit from EV thinking. The positive EV suggests the startup is a good bet mathematically, but the individual must also weigh their personal risk tolerance for the 70% failure scenario.",
     "difficulty": "hard"
   },

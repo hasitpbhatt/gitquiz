@@ -46,6 +46,8 @@ Each question has **exactly 7 fields**:
 
 **Constraints**: All 7 fields required. Answer must match one option exactly (copy-paste to avoid mismatches). 4 options only. No positional references (`"Both A and B"`, `"All of the above"`). Difficulty lowercase only.
 
+**Answer length balance**: All 4 options should be of similar length (within ~40 characters of each other). The correct answer should NOT be visually identifiable as the longest option. If the answer is 50%+ longer than the next-longest option, the distractors need more detail.
+
 ### 5a. Difficulty Distribution
 - Easy (30-40%): Straightforward recall
 - Medium (35-45%): Apply to unfamiliar scenario, all options plausible
@@ -85,6 +87,7 @@ General-purpose scripts are in `quiz/scripts/`. Run with `node quiz/scripts/<scr
 | `difficulty-audit.js` | Print all questions with E/M/H blank brackets for labeling — arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array; arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `conceptGroups`; arg: `<course-dir>` (default: `courses/course-identifier`) |
+| `answer-length-audit.js` | **Bias report**: flags questions where the answer is egregiously longer than the other options. Run `node quiz/scripts/answer-length-audit.js` to get per-course and per-question breakdown. |
 | `assemble-course.mjs` | **Assembly helper**: `node quiz/scripts/assemble-course.mjs <course-id>` — reads `ch-*.json` files from `courses/<id>/` and outputs `input.json` for the generator. |
 | `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single JSON input and produces properly split `001.json`–`00N.json` files, validates, creates dirs, updates `courses_list.txt` and `courses-meta.json` (including `chapters` count). Supports `--dry-run`. |
 

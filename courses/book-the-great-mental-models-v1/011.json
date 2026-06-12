@@ -5,11 +5,11 @@
     "description": "A manager relies exclusively on financial incentives (carrots and sticks) to solve every problem. When team culture declines, offering bonuses fails. What is the root issue?",
     "options": [
       "The team is ungrateful",
-      "The manager has only one tool — financial incentives — and lacks the latticework of models needed to diagnose cultural, psychological, and organizational factors",
+      "The manager relies only on financial incentives and lacks the latticework to diagnose cultural and psychological factors",
       "Bonuses should be larger",
       "The manager should fire the team"
     ],
-    "answer": "The manager has only one tool — financial incentives — and lacks the latticework of models needed to diagnose cultural, psychological, and organizational factors",
+    "answer": "The manager relies only on financial incentives and lacks the latticework to diagnose cultural and psychological factors",
     "explanation": "A person who knows only one mental model tries to force every problem through that lens. Building a latticework means acquiring models from multiple disciplines so you can match the right model to the right situation.",
     "difficulty": "easy"
   },

@@ -33,11 +33,11 @@
     "description": "A call center rewards agents for minimizing call duration. Average call time drops, but customer satisfaction plummets and repeat calls increase. What went wrong?",
     "options": [
       "The agents are lazy and need better training",
-      "The incentive structure rewards fast calls, but the desired outcome is customer satisfaction — agents optimize the metric they are measured on, not the actual goal",
+      "The incentive rewards fast calls, not satisfaction — agents optimize the metric, not the goal",
       "Customers are becoming more demanding over time",
       "Call duration and satisfaction are naturally inversely correlated"
     ],
-    "answer": "The incentive structure rewards fast calls, but the desired outcome is customer satisfaction — agents optimize the metric they are measured on, not the actual goal",
+    "answer": "The incentive rewards fast calls, not satisfaction — agents optimize the metric, not the goal",
     "explanation": "Goodhart's Law in action: when a measure becomes a target, it ceases to be a good measure. The system structure (incentive on call duration) drives behavior (rushing customers) that undermines the true goal.",
     "difficulty": "medium"
   },

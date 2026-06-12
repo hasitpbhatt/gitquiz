@@ -97,6 +97,18 @@ describe('Course JSON Schema Validation', () => {
         for (const opt of q.options) {
           assert.ok(!POSITIONAL_REF_RE.test(opt), `[${i}] Positional reference: "${opt}"`);
         }
+
+        // Soft warn on answer length bias (does not fail the test)
+        const answerLen = q.answer.length;
+        const otherLens = q.options.filter(o => o !== q.answer).map(o => o.length);
+        if (otherLens.length === 3) {
+          const otherMax = Math.max(...otherLens);
+          const otherMean = otherLens.reduce((a, b) => a + b, 0) / 3;
+          if (answerLen > 60 && answerLen > otherMax * 1.5 && answerLen > otherMean + 50) {
+            const diff = (answerLen - otherMean).toFixed(0);
+            console.warn(`  ⚠ [${relPath} Q${i}] Answer length bias (+${diff} chars vs mean of other options)`);
+          }
+        }
       }
     });
   }

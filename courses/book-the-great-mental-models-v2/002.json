@@ -73,14 +73,13 @@
     "question": "Force Magnitude Mismatch",
     "content": "Leaders often underestimate the magnitude of force required to change an organization's trajectory, applying small nudges when structural force is needed.",
     "description": "A CEO sends a strongly worded email about reducing bureaucracy but sees no change in decision-making speed six months later. What went wrong?",
-    "answer": "The CEO applied a small rhetorical force, but changing an entrenched organizational process requires structural force — redesigning approval hierarchies, changing incentives, and removing legacy steps",
     "options": [
       "The CEO did not follow up with enough emails to reinforce the message",
-      "The CEO applied a small rhetorical force, but changing an entrenched organizational process requires structural force — redesigning approval hierarchies, changing incentives, and removing legacy steps",
+      "Rhetorical force cannot change entrenched processes — structural changes to hierarchies and incentives are required",
       "Middle managers actively sabotaged the CEO's directive",
       "Bureaucracy is an unavoidable feature of any large organization"
     ],
-    "answer": "The CEO applied a small rhetorical force, but changing an entrenched organizational process requires structural force — redesigning approval hierarchies, changing incentives, and removing legacy steps",
+    "answer": "Rhetorical force cannot change entrenched processes — structural changes to hierarchies and incentives are required",
     "explanation": "Inertia is proportional to mass. Entrenched bureaucracy has high social mass accumulated over years. A single email is negligible force. Structural change requires structural force: redesigning systems, realigning incentives, and physically removing friction points.",
     "difficulty": "hard"
   },

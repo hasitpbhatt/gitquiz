@@ -32,12 +32,12 @@
     "content": "Cache performance depends on access patterns. Conflict misses occur when multiple frequently-used memory locations map to the same cache line. Capacity misses occur when the working set exceeds cache size. The 'working set' is the set of pages a process accesses in a given time window.",
     "description": "A database server suddenly slows down after running fine for weeks. Investigation reveals that a routine software update increased the size of the database connection pool data structures by 15%. Under the working set model, why might adding 15% more memory cause a disproportionate (>10x) performance degradation?",
     "options": [
-      "The 15% increase caused the working set to exceed a critical cache size boundary, meaning the entire working set no longer fits in cache and nearly every access now results in a cache miss (capacity misses spike from ~0% to ~100% for that data)",
+      "The small increase pushed the working set past a critical cache boundary, causing near-total cache misses for that data",
       "The software update introduced a memory leak that progressively consumes all available memory",
       "The 15% increase directly causes a 15% slowdown because more data must be processed linearly",
       "The new data structures contain corrupted pointers that crash the cache controller"
     ],
-    "answer": "The 15% increase caused the working set to exceed a critical cache size boundary, meaning the entire working set no longer fits in cache and nearly every access now results in a cache miss (capacity misses spike from ~0% to ~100% for that data)",
+    "answer": "The small increase pushed the working set past a critical cache boundary, causing near-total cache misses for that data",
     "explanation": "Cache performance follows threshold behavior rather than linear scaling. When a working set fits entirely in cache, hit rates can be near 100%. When it exceeds the cache size by even a small amount, the cache becomes ineffective because every access evicts data that will be needed again soon. This 'critical working set size' boundary means a small increase in data size can cause a dramatic non-linear collapse in cache performance, explaining the 10x+ slowdown from a 15% memory increase.",
     "difficulty": "hard"
   },

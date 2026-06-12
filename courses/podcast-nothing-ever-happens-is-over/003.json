@@ -5,11 +5,11 @@
     "description": "You advise a mid-sized hospital network choosing between (A) a closed-source central AI from a big lab that is smarter today, and (B) an open-source model that is 80% as capable but fully private and customizable. Your CEO is leaning toward (A) because 'we need the best diagnostic accuracy.' Using Naval's monopoly-vs-commodity framework, construct the argument for (B) that accounts for both capability and long-term strategic positioning. What hidden cost of choosing the 'smartest' model does Naval identify that the CEO may be ignoring?",
     "options": [
       "The smartest model is actually less reliable in medical contexts because it was trained on general internet data rather than medical data.",
-      "Choosing the centralized model creates vendor lock-in and data dependency on a single lab; Naval warns that the 'smartest' model often requires surrendering privacy and control, which for a hospital creates unacceptable long-term risk as AI becomes commoditized.",
+      "Choosing the centralized model creates vendor lock-in and data dependency; Naval warns the 'smartest' model requires surrendering privacy, creating unacceptable long-term risk for a hospital.",
       "The open-source model is actually smarter but the CEO does not know how to evaluate model benchmarks correctly.",
       "The difference in diagnostic accuracy is negligible, so the decision does not matter strategically."
     ],
-    "answer": "Choosing the centralized model creates vendor lock-in and data dependency on a single lab; Naval warns that the 'smartest' model often requires surrendering privacy and control, which for a hospital creates unacceptable long-term risk as AI becomes commoditized.",
+    "answer": "Choosing the centralized model creates vendor lock-in and data dependency; Naval warns the 'smartest' model requires surrendering privacy, creating unacceptable long-term risk for a hospital.",
     "explanation": "Naval frames the monopoly-commodity debate as a strategic bet. The centralized lab's model is the smartest today, but if open source catches up (as Naval suspects it will), early adopters of closed models face switching costs, data leakage, and loss of sovereignty. For a hospital handling sensitive patient data, the '80% capable + full privacy' trade-off may be the wiser long-term move—especially since commoditization tends to narrow capability gaps over time.",
     "difficulty": "hard"
   },

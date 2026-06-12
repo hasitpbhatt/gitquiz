@@ -5,11 +5,11 @@
     "description": "A small secessionist group acquires a swarm of AI-guided drones capable of targeting specific infrastructure. Applying Naval's 'logic of violence' framework, analyze how the state's structural response might differ from the historical rifle case. The rifle forced centralization into nation-states. What makes the drone case potentially produce the opposite effect—decentralization or fragmentation of state power?",
     "options": [
       "Drones are less deadly than rifles, so states will simply ignore the threat and no structural change will occur.",
-      "The rifle required mass industrialization to produce, which only nation-states could afford; drones are cheap and can be manufactured or bought by small groups, meaning the state no longer holds a monopoly on lethal force, which could fragment centralized power.",
+      "Rifles centralized power by requiring state-scale factories; drones are cheap and accessible, breaking the state's monopoly on lethal force and fragmenting centralized power",
       "Drones will lead to even more powerful nation-states because only states can afford the AI computing power to run drone swarms.",
       "The logic of violence has nothing to do with economics; it is purely about weapons technology, and all weapons lead to more centralization."
     ],
-    "answer": "The rifle required mass industrialization to produce, which only nation-states could afford; drones are cheap and can be manufactured or bought by small groups, meaning the state no longer holds a monopoly on lethal force, which could fragment centralized power.",
+    "answer": "Rifles centralized power by requiring state-scale factories; drones are cheap and accessible, breaking the state's monopoly on lethal force and fragmenting centralized power",
     "explanation": "Naval's key insight is that the 'logic of violence' follows the economics of the weapon. Rifles centralized power because mass production required state-scale factories. Drones reverse this: they are cheap, accessible, and can be operated by individuals or small groups. This democratization of lethal force scales MAD down to the individual level, potentially fragmenting the nation-state's monopoly on violence and forcing a new societal architecture.",
     "difficulty": "hard"
   },

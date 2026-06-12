@@ -60,12 +60,12 @@
     "content": "When collecting data for strategic decisions, prioritize the integrity and randomness of the sample over its sheer size. Ensure test cohorts accurately mirror the diverse profiles of the actual end-user base.",
     "description": "A company wants to launch a product globally but only surveys existing customers in San Francisco. According to the representation rule, what is the problem?",
     "options": [
-      "San Francisco customers are likely more tech-savvy, affluent, and culturally different from the global target market \u2014 the sample is systematically unrepresentative",
+      "San Francisco customers differ from the global market \u2014 the sample is biased",
       "San Francisco is too expensive for survey research",
       "Existing customers cannot provide reliable feedback",
       "The sample size from a single city is too small"
     ],
-    "answer": "San Francisco customers are likely more tech-savvy, affluent, and culturally different from the global target market \u2014 the sample is systematically unrepresentative",
+    "answer": "San Francisco customers differ from the global market \u2014 the sample is biased",
     "explanation": "If your target population is global buyers, sampling only from San Francisco introduces geographic, economic, and cultural selection bias. The conclusions cannot be generalized beyond that narrow segment.",
     "difficulty": "medium"
   },

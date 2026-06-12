@@ -19,11 +19,11 @@
     "description": "A CEO rolls out a new remote-work policy designed to boost productivity. She is baffled when middle managers resist it. What is the most likely explanation?",
     "options": [
       "Middle managers are inherently resistant to change",
-      "The policy threatens the managers' frame of reference — their ability to monitor and coordinate teams — even though it benefits the CEO's productivity goal",
+      "The policy threatens the managers' frame — harms monitoring while aiding CEO productivity",
       "The policy was poorly written and confusing",
       "The managers didn't understand the data behind the decision"
     ],
-    "answer": "The policy threatens the managers' frame of reference — their ability to monitor and coordinate teams — even though it benefits the CEO's productivity goal",
+    "answer": "The policy threatens the managers' frame — harms monitoring while aiding CEO productivity",
     "explanation": "From the CEO's frame, productivity is the metric. From a middle manager's frame, team visibility and control are paramount. Both frames are valid. The CEO fell into the management trap by assuming a single objective reality.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A product manager and an engineer are arguing about a tight deadline. The PM sees market opportunity; the engineer sees technical debt risk. What is the most effective way to resolve this?",
     "options": [
       "Escalate to the VP who has the final say",
-      "Each party should calculate how the situation looks from the other's frame and then synthesize both views into a unified picture",
+      "Each party should see the situation from the other's frame and synthesize a unified view",
       "Run an anonymous vote to determine the right path forward",
       "Delay the project until both parties fully agree on all details"
     ],
-    "answer": "Each party should calculate how the situation looks from the other's frame and then synthesize both views into a unified picture",
+    "answer": "Each party should see the situation from the other's frame and synthesize a unified view",
     "explanation": "Frame transformation means actively stepping into another's reference frame. The PM needs to understand the engineer's code-quality concerns; the engineer needs to understand the market-window pressure. Only by holding both frames simultaneously can you find a solution that respects both realities.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A global team launches a marketing campaign that performs brilliantly in Brazil but flops in Japan. The creative team is confused — the visuals and copy were identical. What explains the disconnect?",
     "options": [
       "The Brazilian team executed the campaign better",
-      "The campaign was designed within a Western cultural frame and did not translate to Japan's cultural reference frame",
+      "The campaign was designed in a Western cultural frame and did not translate to Japan's frame",
       "The product was not available in Japan at the right price point",
       "The Japanese market was saturated by competing campaigns"
     ],
-    "answer": "The campaign was designed within a Western cultural frame and did not translate to Japan's cultural reference frame",
+    "answer": "The campaign was designed in a Western cultural frame and did not translate to Japan's frame",
     "explanation": "Cultural frames shape how people interpret symbols, humor, authority, and value. A message crafted in one cultural reference frame can land completely differently in another. Effective global strategy requires seeing the campaign from each local frame before launching.",
     "difficulty": "easy"
   },

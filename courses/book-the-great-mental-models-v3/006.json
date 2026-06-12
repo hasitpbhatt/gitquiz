@@ -61,11 +61,11 @@
     "description": "A cross-functional team is underperforming. The VP wants to fire the project manager and replace them with someone more aggressive. According to the irreducibility model, why might this fail?",
     "options": [
       "The new project manager will need time to learn the team\u2019s processes",
-      "Team performance is an emergent property of how roles, incentives, and communication patterns interact \u2014 swapping one person rarely fixes a broken system",
+      "Team performance emerges from system interactions \u2014 swapping one person rarely fixes the system",
       "The VP should fire the entire team and start fresh",
       "Project managers have the least impact on team performance"
     ],
-    "answer": "Team performance is an emergent property of how roles, incentives, and communication patterns interact \u2014 swapping one person rarely fixes a broken system",
+    "answer": "Team performance emerges from system interactions \u2014 swapping one person rarely fixes the system",
     "explanation": "When a system is irreducible, blaming individuals misses the structural dynamics. Map the relationships, information flows, and incentive structures before concluding the problem is a person.",
     "difficulty": "hard"
   },

@@ -5,11 +5,11 @@
     "description": "Your startup has grown from 5 to 40 people in six months. You currently operate as a hub-and-spoke with you as the CEO-hub, reviewing every decision. You notice shipping speed has collapsed—you are the bottleneck. Using Naval's framework from the podcast, evaluate the trade-off: should you try to maintain hub-and-spoke as CEO, or does growth force a structural change? What would Naval recommend and why?",
     "options": [
       "Hire more middle managers to distribute the hub load while keeping the same architecture.",
-      "Transition toward a fully interconnected graph: hire senior, self-navigating talent and let go of anyone who cannot operate without your direction, accepting that hub-and-spoke does not scale beyond a handful of people.",
+      "Transition to a fully interconnected graph: hire self-navigating talent, let go of those who need direction — hub-and-spoke doesn't scale past a handful.",
       "Keep hub-and-spoke but use AI to automate your coordination role so you can handle 40 people alone.",
       "Formalize a tree hierarchy with department heads so you only talk to four direct reports and lose visibility into details."
     ],
-    "answer": "Transition toward a fully interconnected graph: hire senior, self-navigating talent and let go of anyone who cannot operate without your direction, accepting that hub-and-spoke does not scale beyond a handful of people.",
+    "answer": "Transition to a fully interconnected graph: hire self-navigating talent, let go of those who need direction — hub-and-spoke doesn't scale past a handful.",
     "explanation": "Naval argues hub-and-spoke works when the team is very small and the hub holds all context, but it breaks down as the team grows because the hub itself becomes the bottleneck. His solution: hire people who can self-navigate in a fully interconnected graph, where any node communicates directly with any other. Those who cannot operate this way 'don't belong in this kind of an organization.' This is a structural, not a tooling, change.",
     "difficulty": "hard"
   },

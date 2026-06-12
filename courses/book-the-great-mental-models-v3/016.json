@@ -33,11 +33,11 @@
     "description": "A new payment app has high fixed costs (building infrastructure) and its value depends on how many merchants and consumers use it. Why is reaching critical mass especially hard for such platforms?",
     "options": [
       "Payment apps are inherently less useful than social media",
-      "Two-sided marketplaces face a chicken-and-egg problem: merchants join when consumers are present, and consumers join when merchants are present — both sides must reach critical mass simultaneously",
+      "Both sides — merchants and consumers — must reach critical mass simultaneously, creating a chicken-and-egg problem",
       "Payment regulation prevents rapid user acquisition",
       "The app has diminishing returns on user growth"
     ],
-    "answer": "Two-sided marketplaces face a chicken-and-egg problem: merchants join when consumers are present, and consumers join when merchants are present — both sides must reach critical mass simultaneously",
+    "answer": "Both sides — merchants and consumers — must reach critical mass simultaneously, creating a chicken-and-egg problem",
     "explanation": "Two-sided platforms require coordinated ignition: subsidizing both sides until each is large enough to attract the other organically. This is why Uber subsidized both riders and drivers in each city.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Remote work was a niche practice for decades. During the pandemic, adoption suddenly crossed a threshold. After the pandemic, despite many return-to-office mandates, remote work remained far more common than pre-2020. What explains this?",
     "options": [
       "People simply preferred remote work all along",
-      "Remote work reached critical mass — once enough companies and employees had experience with it, removing the infrastructure and cultural norms became harder than maintaining them",
+      "Remote work reached critical mass — past the tipping point, the new norm became self-reinforcing",
       "The pandemic permanently destroyed office infrastructure",
       "This is an example of regression to the mean"
     ],
-    "answer": "Remote work reached critical mass — once enough companies and employees had experience with it, removing the infrastructure and cultural norms became harder than maintaining them",
+    "answer": "Remote work reached critical mass — past the tipping point, the new norm became self-reinforcing",
     "explanation": "Critical mass in social systems creates a new equilibrium. Past the tipping point, the new behavior becomes self-reinforcing through infrastructure, norms, and expectations that did not previously exist.",
     "difficulty": "hard"
   },
