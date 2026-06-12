@@ -178,7 +178,7 @@ Each course folder contains numbered chapter files (`001.json`, `002.json`, ...)
 7. **Options shuffling**: Options are shuffled via Fisher-Yates inside `shuffleArray()` in `quiz.js`. Answer matching is done against the original (pre-shuffle) text.
 8. **Module chaining**: After the last question of a chapter, if the course has more chapters, "Start Next Module" button appears. If it was the last chapter, "Return to Catalog" appears with trophy animation.
 9. **Custom URL loading**: The user can paste any JSON URL — no path validation required. The URL section (`#url-section`, `#quiz-url`) is **lazy-created** by `getOrCreateUrlSection()` in `catalog.js` on first `toggleUrlInput()` call — not in initial HTML. The toggle button sits in the footer as `🔗 Custom Quiz`. Code that references `#quiz-url` must guard with `document.getElementById('quiz-url')` null check.
-10. **AI Explain flow**: Button `#explain-more-btn` triggers `askAI()`. POSTs to `MISTRAL_PROXY_URL` with question context, user's answer, and correctness. Shows response in `#ai-response`. Falls back gracefully on failure.
+10. **AI Explain flow**: 4 persona buttons (`.ai-persona-btn[data-persona]`) trigger `askAI(persona)`. Personas: `child` (simple), `deep` (expert), `first-principles` (fundamental truths), `socratic` (guiding questions). POSTs to `MISTRAL_PROXY_URL` with persona-specific system prompt. Shows response in `#ai-response`. Falls back gracefully on failure.
 11. **Sharing context**:
     - **Completion screen** → share certificate + score
     - **Quiz active** → share question + user's answer

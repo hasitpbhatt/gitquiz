@@ -213,11 +213,21 @@
                     <div id="explanation" class="hidden p-6 bg-emerald-50 dark:bg-emerald-900/20 rounded-2xl border border-emerald-100 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 animate-in fade-in slide-in-from-top-2 duration-300"></div>
 
                     <div id="ai-section" class="hidden space-y-3">
-                        <button id="explain-more-btn" onclick="askAI()" 
-                            class="w-full p-3 bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 border-2 border-indigo-200 dark:border-indigo-800 rounded-2xl font-700 text-sm flex items-center justify-center gap-2 transition-all disabled:opacity-50 disabled:cursor-not-allowed">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2 7h7l-5.5 4.5L17 21l-5-3.5L7 21l1.5-7.5L3 9h7z"/></svg>
-                            Explain More with AI
-                        </button>
+                        <p class="text-[10px] font-700 uppercase tracking-widest text-slate-500 dark:text-slate-400">Explain with AI:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="ai-persona-btn" data-persona="child" onclick="askAI('child')">
+                                🧒 Like I'm 10
+                            </button>
+                            <button class="ai-persona-btn" data-persona="deep" onclick="askAI('deep')">
+                                🔬 Deep Dive
+                            </button>
+                            <button class="ai-persona-btn" data-persona="first-principles" onclick="askAI('first-principles')">
+                                🧠 First Principles
+                            </button>
+                            <button class="ai-persona-btn" data-persona="socratic" onclick="askAI('socratic')">
+                                ❓ Socratic Tutor
+                            </button>
+                        </div>
                         <div id="ai-response" class="hidden p-4 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-100 dark:border-indigo-800 text-indigo-800 dark:text-indigo-300 text-sm leading-relaxed animate-in fade-in slide-in-from-top-2 duration-300"></div>
                     </div>
 

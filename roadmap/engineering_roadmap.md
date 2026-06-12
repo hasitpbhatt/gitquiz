@@ -41,3 +41,11 @@ Prioritized by risk reduction and developer impact.
 - [ ] 🏗️ **Plugin / middleware for question types** — Adding multi-select or fill-in-the-blank requires rewriting core quiz.js logic.
 - [ ] 🔷 **Course metadata API endpoint** — Frontend fetches `courses_list.txt` directly — fragile, no versioning.
 - [ ] 🏗️ **Webhook on completion** — Could trigger notifications, email summaries, or spaced-rep scheduling.
+
+## Tier 6 — UX & Feature Improvements
+
+- [ ] 🔷 **Preview summary card** — Replace question preview (readonly description + static options) with a course-level summary card. Shows: course title + description + source, progress bar (X/Y chapters), resume chapter info, difficulty tally (easy/medium/hard counts from loaded module), estimated time (length × 45s), and optional chapter description if `courses-meta.json` gains a `chapterDescriptions` field. Applies to both catalog→preview and direct-link flows. Subtasks:
+  - Add `#preview-summary` DOM section to `index.html` (progress bar, difficulty mix, time estimate, chapter description placeholder)
+  - Implement `showSummaryCard()` in `preview.js` to populate from `coursesMeta` + `previewData`, hide question-specific elements (`#preview-description-text`, `#preview-options-bin`)
+  - Optionally extend `courses-meta.json` schema with `chapterDescriptions` map
+  - Update `preview.spec.mjs` to test summary card elements instead of question content
