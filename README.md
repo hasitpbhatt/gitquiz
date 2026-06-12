@@ -255,7 +255,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 ### State Flow
 - `quizData[]` — questions for current module
 - `currentIdx` — current question index
-- `score` — cumulative points (100 base + speed bonus + streak bonus)
+- `score` — cumulative points (100 base + streak bonus)
 - `streak` — consecutive correct answers (resets on wrong)
 - `secondsElapsed` — timer counter
 - `userName` — stored in localStorage (`quizUserName`)
@@ -282,9 +282,8 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 
 ### Scoring
 - Base: **100 points** per correct answer
-- Speed bonus: `max(0, 50 - timeSpent * 5)` points (time in seconds)
 - Streak bonus: **+20 points** when streak > 2
-- Total: `score += 100 + speedBonus + streakBonus`
+- Total: `score += 100 + (streak > 2 ? 20 : 0)`
 - Wrong answer: streak resets to 0
 
 ### Daily Streak
@@ -294,7 +293,8 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 - Consecutive day logic: if `lastDate === yesterday` → increment; if `lastDate === today` → no change; else → reset to 1
 
 ### AI Explain
-- Button `#explain-more-btn` triggers `askAI()` in `ai.js`
+- 4 persona buttons (`.ai-persona-btn[data-persona]`) trigger `askAI(persona)` in `ai.js`
+- Personas: `child` (simple), `deep` (expert), `first-principles` (fundamental truths), `socratic` (guiding questions)
 - POSTs to `MISTRAL_PROXY_URL` (Cloudflare Worker) with question context, user's answer, and correctness
 - Worker URL: `https://quiz-ai-proxy.hasit-p-bhatt.workers.dev/`
 - Shows response in `#ai-response` div
@@ -425,7 +425,7 @@ To deploy the frontend:
 ## Features
 
 - **Course catalog** with search, type filters (book/podcast/coursera), `<div>`-based custom list with SVG type icons per row, type-prefix-stripped display names, and new course indicator (NEW pill badge + unseen-first sort)
-- **Preview screen** showing course description, chapter grid for multi-chapter navigation, and first question preview
+- **Preview screen** showing summary card (course description, progress, difficulty tally, time estimate), chapter grid, and first question preview
 - **Quiz flow** with multiple-choice options, letter badges (A/B/C/D), difficulty-tagged questions, and score tracking
 - **Keyboard shortcuts** (1–4 to select options, Enter to continue/start)
 - **Screen transition animations** between setup → preview → quiz → completion screens (`fadeSlideIn`)
@@ -435,7 +435,7 @@ To deploy the frontend:
 - **URL-based deep linking** — `?course=`, `?q=`, `?c=` params for linking to specific courses, questions, and chapters
 - **Custom URL input** — Load any quiz JSON from an arbitrary URL
 - **Auto-start from URL** — `?course=` param bypasses the catalog and starts the quiz immediately
-- **Scoring system** — base 100pts + speed bonus + streak bonus
+- **Scoring system** — base 100pts + streak bonus
 - **Module chaining** — auto-detects and offers next module on completion
 - **Error handling** — overlay on load failures, toast notifications for operational errors
 - **Responsive design** — Mobile-first with Tailwind CSS, dark mode support, mobile overflow handling

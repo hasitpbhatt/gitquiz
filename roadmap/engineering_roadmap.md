@@ -41,6 +41,8 @@ Prioritized by risk reduction and developer impact.
 - [ ] 🏗️ **Plugin / middleware for question types** — Adding multi-select or fill-in-the-blank requires rewriting core quiz.js logic.
 - [ ] 🔷 **Course metadata API endpoint** — Frontend fetches `courses_list.txt` directly — fragile, no versioning.
 - [ ] 🏗️ **Webhook on completion** — Could trigger notifications, email summaries, or spaced-rep scheduling.
+- [ ] 🔷 **SM-2 algorithm module** — Implement SuperMemo SM-2 as a pure JS module. Store ease factor, interval, next review date per question in localStorage alongside existing progress data. Expose `getDueReviews()`, `processAnswer(questionId, quality)`, `getRetentionScore()`. All 5 design critiques identified this as the single highest-impact change for retention.
+- [ ] 🔷 **Concept tags JSON schema extension** — Add optional `tags` field (array of strings) to `course-schema.json`. Update `validate-all.js` to accept `tags` as valid extra field. No breaking changes — existing courses without tags continue to validate.
 
 ## Tier 6 — UX & Feature Improvements
 
