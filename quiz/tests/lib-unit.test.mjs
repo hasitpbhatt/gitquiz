@@ -218,18 +218,13 @@ describe('getShareUrl', () => {
 });
 
 describe('calculateScore', () => {
-  it('adds base 100 points for correct answer with no speed bonus', () => {
+  it('adds base 100 points for correct answer', () => {
     assert.strictEqual(calculateScore(0, 0, 10), 100);
   });
 
-  it('adds speed bonus for quick answers', () => {
-    const result = calculateScore(0, 0, 2);
-    assert.strictEqual(result, 100 + 40);
-  });
-
-  it('no negative speed bonus for slow answers', () => {
-    const result = calculateScore(0, 0, 20);
-    assert.strictEqual(result, 100);
+  it('ignores time spent (no speed bonus)', () => {
+    assert.strictEqual(calculateScore(0, 0, 2), 100);
+    assert.strictEqual(calculateScore(0, 0, 20), 100);
   });
 
   it('adds streak bonus when streak > 2', () => {
@@ -237,9 +232,9 @@ describe('calculateScore', () => {
     assert.strictEqual(result, 100 + 20);
   });
 
-  it('combines all bonuses', () => {
+  it('combines base and streak bonus', () => {
     const result = calculateScore(0, 5, 1);
-    assert.strictEqual(result, 100 + 45 + 20);
+    assert.strictEqual(result, 120);
   });
 
   it('accumulates with existing score', () => {
@@ -315,24 +310,9 @@ describe('filterCatalogItems additional edge cases', () => {
 });
 
 describe('calculateScore additional edge cases', () => {
-  it('handles zero time spent', () => {
-    assert.strictEqual(calculateScore(0, 0, 0), 100 + 50);
-  });
-
-  it('caps speed bonus at 50 for instant answer', () => {
-    const result = calculateScore(0, 0, 0);
-    assert.strictEqual(result, 100 + 50);
-  });
-
-  it('gives no speed bonus for very slow answers', () => {
-    const result = calculateScore(0, 0, 100);
-    assert.strictEqual(result, 100);
-  });
-
-  it('gives no speed bonus for answers over 10 seconds', () => {
-    for (let t = 11; t <= 20; t++) {
-      assert.strictEqual(calculateScore(0, 0, t), 100);
-    }
+  it('always gives base 100 regardless of time', () => {
+    assert.strictEqual(calculateScore(0, 0, 0), 100);
+    assert.strictEqual(calculateScore(0, 0, 100), 100);
   });
 
   it('handles negative streak as no bonus', () => {

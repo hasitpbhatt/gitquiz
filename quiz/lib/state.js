@@ -12,7 +12,6 @@ let score = 0;
 let streak = 0;
 let secondsElapsed = 0;
 let timerInterval = null;
-let questionStartTime = 0;
 let fullCatalog = [];
 let activeTypeFilter = 'all';
 let MISTRAL_PROXY_URL = 'https://quiz-ai-proxy.hasit-p-bhatt.workers.dev/';

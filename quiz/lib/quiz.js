@@ -1,5 +1,7 @@
 // @ts-check
 
+let prefetchedNextModulePromise = null;
+
 function startTimer() {
     secondsElapsed = 0;
     clearInterval(timerInterval);
@@ -88,6 +90,7 @@ async function initializeQuiz(url, prefetchedData) {
         score = 0;
         streak = 0;
         currentIdx = 0;
+        prefetchedNextModulePromise = null;
         document.getElementById('score-val').innerText = '0';
         document.getElementById('streak-val').innerText = '0';
         document.getElementById('progress-fill').style.width = '0%';
@@ -129,7 +132,6 @@ function renderQuestion() {
         checkNaturalEnd();
         return;
     }
-    questionStartTime = Date.now();
     
     const difficultyBadge = document.getElementById('difficulty-badge');
     if (q.difficulty) {
@@ -151,11 +153,9 @@ function renderQuestion() {
 
     const topicTitle = document.getElementById('topic-title');
     topicTitle.textContent = q.question || "Step " + (currentIdx + 1);
-    topicTitle.classList.add('hidden');
     
     const cb = document.getElementById('content-box');
     cb.textContent = q.content || "";
-    cb.classList.add('hidden');
     
     document.getElementById('description-text').textContent = q.description || "";
     
@@ -168,6 +168,15 @@ function renderQuestion() {
     if (aiSection) aiSection.classList.add('hidden');
     const aiResponse = document.getElementById('ai-response');
     if (aiResponse) aiResponse.classList.add('hidden');
+
+    if (currentIdx === quizData.length - 1 && currentUrl) {
+        const nextUrl = currentUrl.replace(/(\d+)(?=\.json)/, (m) => 
+            (parseInt(m) + 1).toString().padStart(m.length, '0')
+        );
+        prefetchedNextModulePromise = fetch(nextUrl, { method: 'HEAD' })
+            .then(res => res.ok ? nextUrl : null)
+            .catch(() => null);
+    }
 
     if (q.options) {
         const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
@@ -183,14 +192,11 @@ function renderQuestion() {
                 const btns = document.querySelectorAll('.option-btn');
                 btns.forEach(b => b.disabled = true);
                 
-                const timeSpent = (Date.now() - questionStartTime) / 1000;
-                
                 if (opt.trim() === correctAnswer) {
                     btn.classList.add('correct');
                     streak++;
-                    const speedBonus = Math.max(0, Math.round(50 - (timeSpent * 5)));
                     const streakBonus = streak > 2 ? 20 : 0;
-                    score += (100 + speedBonus + streakBonus);
+                    score += (100 + streakBonus);
                     
                     const scoreEl = document.getElementById('score-val');
                     scoreEl.innerText = score.toLocaleString();
@@ -214,8 +220,6 @@ function renderQuestion() {
                 setTimeout(() => expEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
                 document.getElementById('next-btn-wrapper').classList.add('visible');
                 document.getElementById('next-btn').classList.remove('hidden');
-                topicTitle.classList.remove('hidden');
-                if (cb.textContent.trim()) cb.classList.remove('hidden');
                 
                 lastSelectedAnswer = opt;
                 lastAnswerCorrect = opt.trim() === correctAnswer;
@@ -276,10 +280,6 @@ async function checkNaturalEnd() {
     const finalTime = document.getElementById('timer-val').innerText;
     document.getElementById('final-score-val').innerText = score.toLocaleString();
     document.getElementById('final-timer-val').innerText = finalTime;
-
-    const nextUrl = currentUrl ? currentUrl.replace(/(\d+)(?=\.json)/, (m) => 
-        (parseInt(m) + 1).toString().padStart(m.length, '0')
-    ) : '';
     
     document.getElementById('quiz-flow').classList.add('hidden');
     document.getElementById('completion-screen').classList.remove('hidden');
@@ -288,25 +288,20 @@ async function checkNaturalEnd() {
     void compEl.offsetWidth;
     compEl.classList.add('screen-enter');
     const box = document.getElementById('transition-actions');
-    box.innerHTML = '<div class="flex items-center justify-center gap-2 text-xs text-slate-400 font-600 italic"><div class="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>Scanning for following modules...</div>';
 
-    try {
-        const res = await fetch(nextUrl);
-        if (res.ok) {
-            box.innerHTML = '';
-            const btn = document.createElement('button');
-            btn.className = 'w-full p-4 bg-slate-900 dark:bg-white dark:text-slate-900 text-white rounded-xl font-800 shadow-xl';
-            btn.textContent = 'Start Next Module →';
-            btn.addEventListener('click', () => initializeQuiz(nextUrl));
-            box.appendChild(btn);
-        } else {
-            box.innerHTML = `<p class="font-800 text-emerald-500">Mastery Complete: No further modules detected in this track.</p>`;
-            document.getElementById('completion-title').innerText = courseDone
-                ? "🏆 Course Complete!"
-                : "Course Track Completed!";
-        }
-    } catch (e) {
-        box.innerHTML = `<p class="text-slate-500">End of sequence.</p>`;
+    const nextUrl = prefetchedNextModulePromise ? await prefetchedNextModulePromise : null;
+    if (nextUrl) {
+        box.innerHTML = '';
+        const btn = document.createElement('button');
+        btn.className = 'w-full p-4 bg-slate-900 dark:bg-white dark:text-slate-900 text-white rounded-xl font-800 shadow-xl';
+        btn.textContent = 'Start Next Module →';
+        btn.addEventListener('click', () => initializeQuiz(nextUrl));
+        box.appendChild(btn);
+    } else {
+        box.innerHTML = `<p class="font-800 text-emerald-500">Mastery Complete: No further modules detected in this track.</p>`;
+        document.getElementById('completion-title').innerText = courseDone
+            ? "🏆 Course Complete!"
+            : "Course Track Completed!";
     }
 }
 

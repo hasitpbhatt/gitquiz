@@ -48,11 +48,10 @@ export function getShareUrl(currentUrl, baseUrl, questionIdx = 1) {
   return baseUrl + '?course=' + encodeURIComponent(courseFolderName) + '&c=' + chapterNum + '&q=' + questionIdx;
 }
 
-export function calculateScore(currentScore, streak, timeSpent) {
+export function calculateScore(currentScore, streak, _timeSpent) {
   const basePoints = 100;
-  const speedBonus = Math.max(0, Math.round(50 - (timeSpent * 5)));
   const streakBonus = streak > 2 ? 20 : 0;
-  return currentScore + basePoints + speedBonus + streakBonus;
+  return currentScore + basePoints + streakBonus;
 }
 
 export function getTodayStr() {
