@@ -155,28 +155,10 @@ async function sendFollowUp() {
 }
 
 function mdToHtml(text) {
-  const blocks = [];
-  text = text.replace(/```(\w*)\n?([\s\S]*?)```/g, (_, lang, code) => {
-    const idx = blocks.length;
-    blocks.push('<pre><code>' + code + '</code></pre>');
-    return '%%CB' + idx + '%%';
-  });
-
-  text = text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-
-  text = text
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.+?)\*/g, '<em>$1</em>')
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" class="text-indigo-400 underline">$1</a>');
-
-  text = text.replace(/%%CB(\d+)%%/g, (_, idx) => blocks[parseInt(idx)]);
-
-  return text;
+  if (typeof marked !== 'undefined' && marked.parse) {
+    return marked.parse(text, { breaks: true });
+  }
+  return text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 function renderConversation() {
@@ -201,11 +183,7 @@ function renderConversation() {
     if (msg.role === 'user') {
       html += `<div class="chat-bubble user"><span class="font-700 text-xs uppercase tracking-wider text-slate-400">You</span><p class="mt-1">${escapeHtml(msg.content)}</p></div>`;
     } else {
-      const formatted = mdToHtml(msg.content)
-        .split(/\n\n+/)
-        .map(p => '<p class="mb-2 last:mb-0">' + p + '</p>')
-        .join('');
-      html += `<div class="chat-bubble assistant"><span class="font-700 text-xs uppercase tracking-wider text-indigo-400">${PERSONAS[currentAiPersona]?.icon || ''} ${PERSONAS[currentAiPersona]?.label || currentAiPersona}</span><div class="mt-2 space-y-2">${formatted}</div></div>`;
+      html += `<div class="chat-bubble assistant"><span class="font-700 text-xs uppercase tracking-wider text-indigo-400">${PERSONAS[currentAiPersona]?.icon || ''} ${PERSONAS[currentAiPersona]?.label || currentAiPersona}</span><div class="mt-2">${mdToHtml(msg.content)}</div></div>`;
     }
   }
 
