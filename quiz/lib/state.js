@@ -15,6 +15,7 @@ let timerInterval = null;
 let fullCatalog = [];
 let activeTypeFilter = 'all';
 let MISTRAL_PROXY_URL = 'https://quiz-ai-proxy.hasit-p-bhatt.workers.dev/';
+let correctCount = 0;
 let lastSelectedAnswer = '';
 let lastAnswerCorrect = false;
 let previewUrl = '';

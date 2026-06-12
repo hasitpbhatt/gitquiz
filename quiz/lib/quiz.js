@@ -89,6 +89,7 @@ async function initializeQuiz(url, prefetchedData) {
         
         score = 0;
         streak = 0;
+        correctCount = 0;
         currentIdx = 0;
         prefetchedNextModulePromise = null;
         document.getElementById('score-val').innerText = '0';
@@ -179,14 +180,13 @@ function renderQuestion() {
     }
 
     if (q.options) {
-        const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
         const randomizedOptions = shuffleArray(q.options);
         const correctAnswer = q.answer.trim();
 
         randomizedOptions.forEach((opt, idx) => {
             const btn = document.createElement('button');
             btn.className = 'option-btn w-full p-5 text-left border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 shadow-sm flex items-center gap-3';
-            btn.innerHTML = `<span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0">${letters[idx] || (idx + 1)}</span><span class="flex-1">${escapeHtml(opt)}</span><span class="key-hint">${idx + 1}</span>`;
+            btn.innerHTML = `<span class="flex-1">${escapeHtml(opt)}</span><span class="key-hint">${idx + 1}</span>`;
             btn.dataset.option = opt;
             btn.onclick = () => {
                 const btns = document.querySelectorAll('.option-btn');
@@ -194,6 +194,7 @@ function renderQuestion() {
                 
                 if (opt.trim() === correctAnswer) {
                     btn.classList.add('correct');
+                    correctCount++;
                     streak++;
                     const streakBonus = streak > 2 ? 20 : 0;
                     score += (100 + streakBonus);
@@ -217,6 +218,8 @@ function renderQuestion() {
                 const expEl = document.getElementById('explanation');
                 expEl.innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4><p class="text-sm font-500">${escapeHtml(expText)}</p>`;
                 expEl.classList.remove('hidden');
+                document.getElementById('topic-title').classList.remove('hidden');
+                document.getElementById('content-box').classList.remove('hidden');
                 setTimeout(() => expEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
                 document.getElementById('next-btn-wrapper').classList.add('visible');
                 document.getElementById('next-btn').classList.remove('hidden');
@@ -278,8 +281,13 @@ async function checkNaturalEnd() {
     }
 
     const finalTime = document.getElementById('timer-val').innerText;
+    const totalQ = quizData.length;
     document.getElementById('final-score-val').innerText = score.toLocaleString();
     document.getElementById('final-timer-val').innerText = finalTime;
+    document.getElementById('final-correct-val').innerText = `${correctCount}/${totalQ}`;
+    const avgSecs = totalQ > 0 ? Math.round(secondsElapsed / totalQ) : 0;
+    document.getElementById('final-avg-val').innerText = `${avgSecs}s`;
+    document.getElementById('completion-subtitle').innerText = `You strengthened your understanding of ${correctCount} concept${correctCount !== 1 ? 's' : ''}.`;
     
     document.getElementById('quiz-flow').classList.add('hidden');
     document.getElementById('completion-screen').classList.remove('hidden');

@@ -262,17 +262,30 @@
 
                 <!-- Completion Screen -->
                 <div id="completion-screen" class="hidden text-center py-6 space-y-6">
-                    <div class="text-7xl animate-bounce">🏆</div>
-                    <h2 id="completion-title" class="text-3xl font-800">Module Mastered!</h2>
+                    <div class="text-6xl">🏅</div>
+                    <h2 id="completion-title" class="text-2xl font-800">Module Complete!</h2>
+                    <p id="completion-subtitle" class="text-sm font-600 text-slate-500 dark:text-slate-400 -mt-4"></p>
                     
-                    <div class="grid grid-cols-2 gap-4 max-w-sm mx-auto">
-                        <div class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-700">
-                            <div class="text-[10px] font-800 uppercase text-slate-400 mb-1">Final Score</div>
-                            <div id="final-score-val" class="text-2xl font-800 text-blue-500">0</div>
+                    <div class="grid grid-cols-2 gap-3 max-w-xs mx-auto">
+                        <div class="p-3 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-700">
+                            <div class="text-[10px] font-800 uppercase text-slate-400 mb-1">Score</div>
+                            <div id="final-score-val" class="text-xl font-800 text-blue-500">0</div>
                         </div>
-                        <div class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-700">
-                            <div class="text-[10px] font-800 uppercase text-slate-400 mb-1">Total Time</div>
-                            <div id="final-timer-val" class="text-2xl font-800 text-blue-500">00:00</div>
+                        <div class="p-3 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-700">
+                            <div class="text-[10px] font-800 uppercase text-slate-400 mb-1">Time</div>
+                            <div id="final-timer-val" class="text-xl font-800 text-blue-500">00:00</div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center gap-6 text-sm">
+                        <div>
+                            <div id="final-correct-val" class="text-2xl font-800 text-emerald-500">0/0</div>
+                            <div class="text-[10px] font-800 uppercase text-slate-400 mt-1">Correct</div>
+                        </div>
+                        <div class="w-px bg-slate-200 dark:bg-slate-700"></div>
+                        <div>
+                            <div id="final-avg-val" class="text-2xl font-800 text-indigo-500">--</div>
+                            <div class="text-[10px] font-800 uppercase text-slate-400 mt-1">Avg / Q</div>
                         </div>
                     </div>
 
