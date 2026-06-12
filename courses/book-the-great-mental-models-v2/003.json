@@ -19,11 +19,11 @@
     "description": "Two mid-sized companies try to adopt AI tools. Company A rolls out a company-wide AI policy in six weeks. Company B is still in the 'approval committee formation' phase after six months. What distinguishes them?",
     "options": [
       "Company A had a larger budget for AI tools",
-      "Company A has low organizational viscosity — decisions flow easily; Company B has high viscosity where internal resistance blocks motion regardless of input force",
+      "decisions flow easily; Company B has high viscosity where internal resistance",
       "Company A's employees are more technically skilled",
       "Company B's industry is more regulated"
     ],
-    "answer": "Company A has low organizational viscosity — decisions flow easily; Company B has high viscosity where internal resistance blocks motion regardless of input force",
+    "answer": "decisions flow easily; Company B has high viscosity where internal resistance",
     "explanation": "Viscosity describes how easily an organization flows. High-viscosity cultures grind initiatives to a halt through endless committees, sign-offs, and red tape. Low-viscosity organizations move quickly because internal resistance is minimal.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Build the AI bot — automation is always the right solution",
       "Hire more support agents to handle the ticket volume",
-      "First conduct a friction audit: investigate why users need to reset passwords so often and address the root cause",
+      "investigate why users need to reset passwords so often and address the root cause",
       "Outsource password reset support to a third-party vendor"
     ],
-    "answer": "First conduct a friction audit: investigate why users need to reset passwords so often and address the root cause",
+    "answer": "investigate why users need to reset passwords so often and address the root cause",
     "explanation": "Adding AI force treats the symptom, not the cause. A friction audit would examine why password resets are frequent — perhaps the expiration policy is too aggressive, or the reset flow itself is confusing. Removing the underlying friction eliminates the problem entirely.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A company splits into eight micro-teams each owning a small piece of the product. Feature delivery slows dramatically despite all teams being fully staffed. What explains this?",
     "options": [
       "Micro-teams are inherently less productive than larger teams",
-      "The increased surface area between teams creates more coordination friction, wasting energy on handoffs and alignment",
+      "The increased surface area between teams creates more coordination friction,",
       "Developers in micro-teams lose their specialization",
       "The product architecture does not support micro-team ownership"
     ],
-    "answer": "The increased surface area between teams creates more coordination friction, wasting energy on handoffs and alignment",
+    "answer": "The increased surface area between teams creates more coordination friction,",
     "explanation": "Each handoff between teams is a contact surface that generates friction. More teams mean more surfaces, more meetings, more context-switching, and more energy lost to coordination. Sometimes reducing the number of interfaces improves total system throughput.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "The sales team is not motivated enough and needs better incentives",
       "The sales reps are not sufficiently trained on product features",
-      "There is likely friction in the sales process — poor lead quality, cumbersome CRM workflows, or misaligned compensation — that force alone cannot fix",
+      "poor lead quality, cumbersome CRM workflows, or misaligned compensation — that force alone cannot fix",
       "The market has shifted and the product is no longer viable"
     ],
-    "answer": "There is likely friction in the sales process — poor lead quality, cumbersome CRM workflows, or misaligned compensation — that force alone cannot fix",
+    "answer": "poor lead quality, cumbersome CRM workflows, or misaligned compensation — that force alone cannot fix",
     "explanation": "Adding more force (more reps, more calls) to a high-friction system yields diminishing returns. A friction audit would reveal the actual bottlenecks — perhaps reps waste hours on CRM data entry or receive low-quality leads. Removing those friction points increases output without more force.",
     "difficulty": "hard"
   },

@@ -84,7 +84,7 @@ if (totalFlagged > 0) {
     console.log(`\n  ${c.dir}:`);
     c.flagged.forEach(q => {
       console.log(`    ${q.file} Q${q.qi} — "${q.question}"`);
-      console.log(`      Answer length: ${q.answerLen} | Other lengths: ${q.lengths.filter((l, i) => !(q.options ? q.options.filter((o, j) => j === i)[0] === null : true)).join(', ')}`);
+      console.log(`      Answer length: ${q.answerLen} | Option lengths: ${q.lengths.join(', ')}`);
       console.log(`      Bias: +${q.diff} chars vs mean | "${q.answerPreview}"`);
     });
   });

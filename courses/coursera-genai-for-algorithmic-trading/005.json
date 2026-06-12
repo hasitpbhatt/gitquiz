@@ -5,11 +5,11 @@
     "description": "Your model suddenly issues a 'Strong Sell' signal for a stock that has been performing well. Why is it important to use an XAI tool like SHAP or LIME before executing the trade?",
     "options": [
       "To convince the model to change its mind.",
-      "To verify if the signal is based on a logical data point or a 'glitch' in the input data.",
+      "To verify if the signal is based on a logical data point or a data glitch.",
       "To make the trade execute faster.",
       "To hide the model's logic from regulators."
     ],
-    "answer": "To verify if the signal is based on a logical data point or a 'glitch' in the input data.",
+    "answer": "To verify if the signal is based on a logical data point or a data glitch.",
     "explanation": "XAI allows you to see the 'why' behind the 'what.' If the 'Sell' signal is based on a data error (like a missing price decimal), you can avoid a costly mistake.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "After analyzing your model, you realize that 'Twitter Sentiment' has a feature importance of 0.01, while 'Interest Rate Changes' has 0.85. What should you do?",
     "options": [
       "Spend more time gathering Twitter data.",
-      "Focus your research on refining macro-economic interest rate data, as it is the primary driver of your model.",
+      "Focus your research on interest rate data, as it is the primary driver of your model.",
       "Delete the interest rate data to give Twitter a chance.",
       "Change the model to a different asset class."
     ],
-    "answer": "Focus your research on refining macro-economic interest rate data, as it is the primary driver of your model.",
+    "answer": "Focus your research on interest rate data, as it is the primary driver of your model.",
     "explanation": "By understanding feature importance, you can prioritize high-impact data and avoid wasting resources on 'features' that don't actually help the model predict accurately.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "Why is being 'right for the wrong reasons' a problem for a long-term trading strategy?",
     "options": [
       "It isn't a problem as long as you make money.",
-      "It indicates that the model's success was lucky, and it will likely fail when the 'real' driver (interest rates) changes.",
+      "It indicates the model's success was lucky and will likely fail when the real driver changes.",
       "It makes the tax reporting more difficult.",
       "It means the model is too smart for the researcher to understand."
     ],
-    "answer": "It indicates that the model's success was lucky, and it will likely fail when the 'real' driver (interest rates) changes.",
+    "answer": "It indicates the model's success was lucky and will likely fail when the real driver changes.",
     "explanation": "If a model's underlying logic is flawed, its profitability is unsustainable. True interpretability ensures that the model is capturing the actual causal drivers of the market.",
     "difficulty": "medium"
   },

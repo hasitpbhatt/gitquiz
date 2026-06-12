@@ -33,11 +33,11 @@
     "description": "You bought a stock because of a rumored merger. An LLM detects a verified report that the merger has been called off. The price hasn't moved yet. What should your AI-driven risk protocol do?",
     "options": [
       "Wait for the price to drop 5% to hit the mechanical stop-loss.",
-      "Exit the position immediately based on 'Narrative Failure' because the thesis for the trade is no longer valid.",
+      "Exit immediately based on 'Narrative Failure' since the trade thesis is no longer valid.",
       "Buy more shares because the price is still high.",
       "Ask the AI to find a new reason to stay in the trade."
     ],
-    "answer": "Exit the position immediately based on 'Narrative Failure' because the thesis for the trade is no longer valid.",
+    "answer": "Exit immediately based on 'Narrative Failure' since the trade thesis is no longer valid.",
     "explanation": "Narrative-based exits allow you to leave a trade the moment the fundamental logic breaks, often saving you from the 'slippage' and panic selling that occurs when the rest of the market catches up.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Your sentiment engine sees a massive spike in 'CEO Resignation' news from an unverified social media account. What is the safest programmed response?",
     "options": [
       "Trust the AI's sentiment score and sell immediately.",
-      "Cross-verify the news against a 'whitelist' of trusted sources (Bloomberg, Reuters, SEC filings) before allowing the trade.",
+      "Cross-verify the news against a whitelist of trusted sources before allowing the trade.",
       "Wait for the stock to hit zero to confirm the news was true.",
       "Ignore the news and buy more to fight the 'fake news'."
     ],
-    "answer": "Cross-verify the news against a 'whitelist' of trusted sources (Bloomberg, Reuters, SEC filings) before allowing the trade.",
+    "answer": "Cross-verify the news against a whitelist of trusted sources before allowing the trade.",
     "explanation": "Source verification is a critical layer of defense. Without it, your AI-driven strategy is vulnerable to 'market manipulation' from automated bots spreading misinformation.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "The market is falling rapidly, and your AI is screaming 'Sell' because everyone else is selling. Why might you program a 'Contrarian Filter' during extreme volatility?",
     "options": [
       "To save the world from a crash.",
-      "To prevent your bot from selling at the absolute bottom of a 'liquidity vacuum' created by other AI bots.",
+      "To prevent your bot from selling at the bottom of a liquidity vacuum created by other AI bots.",
       "Because your bot needs to be different to be 'cool'.",
       "Because the AI is likely to be happier if it doesn't sell."
     ],
-    "answer": "To prevent your bot from selling at the absolute bottom of a 'liquidity vacuum' created by other AI bots.",
+    "answer": "To prevent your bot from selling at the bottom of a liquidity vacuum created by other AI bots.",
     "explanation": "During flash crashes, 'uninformed' selling by thousands of bots creates temporary price distortions. A risk-managed bot recognizes 'over-crowded' signals and avoids selling into a panic.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A regulator asks why your AI sold a stock five minutes before a major scandal broke. How do you prove you weren't 'insider trading'?",
     "options": [
       "Tell them the AI is a 'black box' and you don't know.",
-      "Produce the AI's logs showing it identified 'unusual executive behavior' from public earnings call transcripts two weeks prior.",
+      "Produce the AI logs showing it flagged unusual executive behavior from public transcripts.",
       "Delete the logs so there is no evidence.",
       "Argue that the AI is its own legal entity."
     ],
-    "answer": "Produce the AI's logs showing it identified 'unusual executive behavior' from public earnings call transcripts two weeks prior.",
+    "answer": "Produce the AI logs showing it flagged unusual executive behavior from public transcripts.",
     "explanation": "Transparency is your best defense. Being able to show a logical, data-driven 'audit trail' proves that the trade was based on public data and AI analysis rather than illegal information.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "The AI sentiment service is offline. Your bot is currently holding 10 volatile positions. What is the safest 'Fail-Safe' protocol?",
     "options": [
       "Do nothing and hope for the best.",
-      "Immediately switch to a hard-coded 'Trailing Stop-Loss' or move to cash to ensure the positions aren't left unmonitored.",
+      "Switch to a hard-coded trailing stop-loss or move to cash to keep positions safe.",
       "Keep sending requests until the service comes back up.",
       "Delete the positions and the bot."
     ],
-    "answer": "Immediately switch to a hard-coded 'Trailing Stop-Loss' or move to cash to ensure the positions aren't left unmonitored.",
+    "answer": "Switch to a hard-coded trailing stop-loss or move to cash to keep positions safe.",
     "explanation": "A 'Fail-Safe' ensures that you are never 'flying blind.' If the high-tech AI brain fails, the 'primitive' but reliable code brain takes over to protect the portfolio.",
     "difficulty": "hard"
   }

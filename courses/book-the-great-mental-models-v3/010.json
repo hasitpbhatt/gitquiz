@@ -19,11 +19,11 @@
     "description": "In 1936, The Literary Digest polled over 2 million people and predicted Alf Landon would win the presidency. Franklin D. Roosevelt won in a landslide. What went wrong despite the massive sample?",
     "options": [
       "2 million is not a large enough sample for a national election",
-      "The sample was drawn from telephone directories and car registrations \u2014 skewing wealthy during the Great Depression \u2014 creating massive selection bias",
+      "The sample drew from phone directories and car registrations, skewing toward the wealthy \u2014 massive selection bias",
       "People lied to the pollsters about their voting intentions",
       "The poll was conducted too far before the election"
     ],
-    "answer": "The sample was drawn from telephone directories and car registrations \u2014 skewing wealthy during the Great Depression \u2014 creating massive selection bias",
+    "answer": "The sample drew from phone directories and car registrations, skewing toward the wealthy \u2014 massive selection bias",
     "explanation": "No amount of sample size can fix a biased sampling method. The Literary Digest\u2019s sample was unrepresentative because only wealthier citizens had phones and cars in 1936. Selection bias rendered the data worthless.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A population of website visit durations is highly skewed \u2014 most visits are under 2 minutes but a few last hours. Yet if you take many samples of 30+ visits and plot their averages, the averages form a bell curve. What theorem explains this?",
     "options": [
       "The law of diminishing returns",
-      "The Central Limit Theorem \u2014 sample means tend toward normality regardless of population shape",
+      "The Central Limit Theorem \u2014 sample means approach normality regardless of population shape",
       "Regression to the mean of visit durations",
       "The law of large numbers only applies to large samples"
     ],
-    "answer": "The Central Limit Theorem \u2014 sample means tend toward normality regardless of population shape",
+    "answer": "The Central Limit Theorem \u2014 sample means approach normality regardless of population shape",
     "explanation": "The Central Limit Theorem is what makes sampling work. Even from a skewed or bizarrely shaped population, the averages of sufficiently large samples will be approximately normally distributed.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A website changes its checkout button color from blue to green. Week one uses green and conversions drop 10%. Week two reverts to blue and conversions return to normal. What is missing from this test?",
     "options": [
       "The test ran for too short a duration",
-      "There was no simultaneous control group \u2014 differences could be due to day-of-week effects, not the color change",
+      "No simultaneous control group \u2014 day-of-week effects could explain the difference, not the color change",
       "Green is an objectively worse color for buttons",
       "The conversion metric was miscalculated"
     ],
-    "answer": "There was no simultaneous control group \u2014 differences could be due to day-of-week effects, not the color change",
+    "answer": "No simultaneous control group \u2014 day-of-week effects could explain the difference, not the color change",
     "explanation": "True A/B testing requires random assignment of users to both versions simultaneously. Sequential testing confounds the change with time-based factors. Proper sampling requires concurrent control and treatment groups.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A bulletproof vest manufacturer must test that vests stop bullets. Each test destroys a vest. How should they determine the number of vests to test from each production batch?",
     "options": [
       "Test every single vest to guarantee quality",
-      "Use statistical sampling \u2014 test a carefully chosen random sample to estimate the failure rate with acceptable confidence",
+      "Use statistical sampling \u2014 test a random sample to estimate the failure rate with acceptable confidence",
       "Test only one vest per batch to minimize waste",
       "Do not test any vests and rely on the manufacturing process"
     ],
-    "answer": "Use statistical sampling \u2014 test a carefully chosen random sample to estimate the failure rate with acceptable confidence",
+    "answer": "Use statistical sampling \u2014 test a random sample to estimate the failure rate with acceptable confidence",
     "explanation": "When testing destroys the product, sampling is the only option. Statistical methods determine the minimum sample size needed to achieve a given confidence level in the quality estimate.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A poll of 1,000 voters reports a 3% margin of error. What does the 3% represent?",
     "options": [
       "The pollsters made a mistake in 3% of the calls",
-      "The true population value is within 3% of the reported number 95% of the time, accounting for sampling error",
+      "The true population value lies within 3% of the reported number 95% of the time",
       "3% of voters are undecided and could change the outcome",
       "The poll is 97% accurate and 3% inaccurate"
     ],
-    "answer": "The true population value is within 3% of the reported number 95% of the time, accounting for sampling error",
+    "answer": "The true population value lies within 3% of the reported number 95% of the time",
     "explanation": "Margin of error quantifies sampling uncertainty. It means if the same poll were repeated 100 times, the result would fall within \u00b13% of the true population value 95 times. It is a measure of precision, not accuracy.",
     "difficulty": "hard"
   }

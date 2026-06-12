@@ -47,11 +47,11 @@
     "description": "Homeowners insurance costs $1,200/year. The actuarial probability of a total loss ($300,000) is 0.2% per year. The EV of the coverage is -$600/year. Why do rational people still buy it?",
     "options": [
       "They do not understand expected value math",
-      "The negative EV is acceptable because insurance eliminates a catastrophic, non-recoverable loss that would destroy their financial stability",
+      "The negative EV is acceptable because insurance eliminates a catastrophic loss that would cause financial ruin",
       "Insurance companies always lose money in the long run",
       "The expected value calculation is wrong because it uses probabilities"
     ],
-    "answer": "The negative EV is acceptable because insurance eliminates a catastrophic, non-recoverable loss that would destroy their financial stability",
+    "answer": "The negative EV is acceptable because insurance eliminates a catastrophic loss that would cause financial ruin",
     "explanation": "EV of coverage = (0.002 × $300,000) = $600, but you pay $1,200. The -$600 EV is the 'peace of mind premium' for converting a 0.2% chance of ruin into a certain small annual cost.",
     "difficulty": "hard"
   },
@@ -62,10 +62,10 @@
     "options": [
       "Drill immediately — the best case profit is $50M",
       "Abandon the project — the worst case loss is too large",
-      "Calculate EV: (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = $10M + $6M - $6M = +$10M. The positive EV justifies drilling.",
+      "EV = (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = +$10M, which justifies drilling",
       "Only drill if the worst case loss can be eliminated entirely"
     ],
-    "answer": "Calculate EV: (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = $10M + $6M - $6M = +$10M. The positive EV justifies drilling.",
+    "answer": "EV = (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = +$10M, which justifies drilling",
     "explanation": "The EV Decision Rule requires considering all scenarios with their probabilities, not just the best or worst case. Despite a 20% chance of loss, the positive EV supports proceeding.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A casino offers a game with EV = +$5 per play. A player tries it 3 times and loses all three. What mistake would the player make by concluding the EV calculation is wrong?",
     "options": [
       "The player miscalculated the probabilities of each outcome",
-      "Short-run variance can mask the long-run expected value — 3 trials is too small a sample to reveal the true EV",
+      "Short-run variance masks long-run EV — 3 trials is too small a sample to reveal the true value",
       "The casino must have cheated",
       "The game has a negative EV for beginners"
     ],
-    "answer": "Short-run variance can mask the long-run expected value — 3 trials is too small a sample to reveal the true EV",
+    "answer": "Short-run variance masks long-run EV — 3 trials is too small a sample to reveal the true value",
     "explanation": "EV is a long-run mathematical expectation. Individual short sequences can deviate significantly due to random variance. Only over many iterations does average outcome converge toward EV.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A manager estimates a 95% chance their project will finish on time, but historical data shows only 60% of similar projects in their company meet deadlines. What bias is affecting their EV calculation?",
     "options": [
       "The manager is correctly accounting for their team's superior skills",
-      "Overconfidence bias — the manager is inflating the probability of success, which overstates the project's true expected value",
+      "Overconfidence bias — inflating the success probability overstates the project's true expected value",
       "The EV formula only applies to financial decisions",
       "Historical data is irrelevant because every project is unique"
     ],
-    "answer": "Overconfidence bias — the manager is inflating the probability of success, which overstates the project's true expected value",
+    "answer": "Overconfidence bias — inflating the success probability overstates the project's true expected value",
     "explanation": "Garbage in, garbage out. If probability estimates are biased, the resulting EV is unreliable. Using base rates and historical data improves probability calibration.",
     "difficulty": "medium"
   }

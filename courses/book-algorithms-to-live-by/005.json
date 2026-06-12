@@ -4,12 +4,12 @@
     "content": "Earliest Due Date schedules tasks in order of their deadlines, starting with the task that is due soonest.",
     "description": "You're a tax accountant in early April with multiple client returns to file before the April 15 deadline. How should you prioritize your work using EDD?",
     "options": [
-      "Work on the returns with the earliest deadlines first, regardless of how long they take to complete",
+      "Work on the returns with the earliest deadlines first,",
       "Start with the easiest returns to build momentum",
       "Focus only on the returns for your largest clients",
       "Work on all returns simultaneously"
     ],
-    "answer": "Work on the returns with the earliest deadlines first, regardless of how long they take to complete",
+    "answer": "Work on the returns with the earliest deadlines first,",
     "explanation": "EDD minimizes maximum lateness by always working on the most urgent task (closest deadline). This ensures you're least likely to miss any deadlines, even if some tasks take longer than expected.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "Moore's Algorithm is a variation of Earliest Due Date that minimizes the number of late tasks by selectively dropping (skipping) the longest tasks when necessary.",
     "description": "You're managing a software release and realize you won't finish all planned features by the deadline. How should Moore's Algorithm guide your decision?",
     "options": [
-      "Identify the feature that will take longest to complete and consider dropping it to save the broader release",
+      "Identify the feature that will take longest to complete and consider dropping it to save the",
       "Work overtime to finish every feature regardless of cost",
       "Release the product with known bugs to meet the deadline",
       "Ignore the deadline and take as long as needed"
     ],
-    "answer": "Identify the feature that will take longest to complete and consider dropping it to save the broader release",
+    "answer": "Identify the feature that will take longest to complete and consider dropping it to save the",
     "explanation": "Moore's Algorithm minimizes the number of late tasks by being willing to skip (not complete) certain tasks. When facing overload, it's better to finish most tasks on time than to complete all tasks late.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Thread thrashing occurs when a system spends more time switching between tasks than executing them, leading to severe performance degradation.",
     "description": "You've created an ambitious weekend chore list but find yourself spending hours just deciding what to do next instead of actually doing chores. What phenomenon might this illustrate?",
     "options": [
-      "Thread thrashing - excessive time spent on decision-making and task-switching rather than execution",
+      "Thread thrashing - excessive time spent on decision-making and task-switching rather",
       "You're unusually efficient at multitasking",
       "Chores are actually enjoyable when constantly switching",
       "You have too much free time on weekends"
     ],
-    "answer": "Thread thrashing - excessive time spent on decision-making and task-switching rather than execution",
+    "answer": "Thread thrashing - excessive time spent on decision-making and task-switching rather",
     "explanation": "Just like in computing systems, when you spend more time organizing, deciding, and switching between tasks than actually doing them, you're experiencing thrashing - the overhead outweighs the productive work.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "Preemption allows a higher-priority task to interrupt and take precedence over a currently running lower-priority task.",
     "description": "An urgent care clinic has a patient with a broken bone waiting alongside someone there for a routine checkup. How should preemption principles apply?",
     "options": [
-      "Treat the broken bone first because it's more urgent and time-sensitive, even though the other patient arrived first",
+      "Treat the broken bone first because it's more urgent and time-sensitive,",
       "Always see patients in strict order of arrival",
       "Have both patients seen simultaneously by splitting the doctor's attention",
       "Make the broken bone patient wait until the checkup is completely finished"
     ],
-    "answer": "Treat the broken bone first because it's more urgent and time-sensitive, even though the other patient arrived first",
+    "answer": "Treat the broken bone first because it's more urgent and time-sensitive,",
     "explanation": "Preemption allows urgent, high-priority tasks to interrupt lower-priority ones. In medical triage, life-threatening or time-sensitive conditions take precedence over routine matters regardless of arrival order.",
     "difficulty": "medium"
   },

@@ -5,11 +5,11 @@
     "description": "A startup ships 50 features in a quarter, works 80-hour weeks, and holds daily standup meetings. Yet the company's key growth metric has not moved in six months. What explains this paradox?",
     "options": [
       "The features were low quality and customers did not use them",
-      "The team has high speed but low velocity — their efforts are scattered in different directions instead of aligned toward a single goal",
+      "their efforts are scattered in different directions instead of aligned toward a single goal",
       "The market is simply not ready for this product",
       "The company needs to hire more engineers to increase output"
     ],
-    "answer": "The team has high speed but low velocity — their efforts are scattered in different directions instead of aligned toward a single goal",
+    "answer": "their efforts are scattered in different directions instead of aligned toward a single goal",
     "explanation": "Speed measures activity; velocity measures progress toward a specific destination. A team can be frantically busy (high speed) but going nowhere if their efforts lack coherent direction. Velocity requires strategic alignment — ensuring every vector points the same way.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A manager praises an employee who responds to emails within minutes, attends every meeting, and works late every night. Yet the employee's key projects are perpetually behind schedule. What is happening?",
     "options": [
       "The employee is not intelligent enough to manage their workload",
-      "The employee has high speed (rapid task completion) but low velocity (tasks do not move toward important outcomes)",
+      "The employee has high speed (rapid task completion) but low velocity",
       "The manager's praise is misplaced but has no real consequences",
       "The employee should delegate more work to junior team members"
     ],
-    "answer": "The employee has high speed (rapid task completion) but low velocity (tasks do not move toward important outcomes)",
+    "answer": "The employee has high speed (rapid task completion) but low velocity",
     "explanation": "Responding to emails and attending meetings creates high speed — lots of activity. But if these activities do not advance key projects, velocity is near zero. The busyness trap is mistaking visible activity for meaningful progress.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A company simultaneously: expands into Asia, launches a new product line, undergoes a rebranding, and implements a new ERP system. At the end of the year, revenue is flat. What principle explains this?",
     "options": [
       "Poor execution across all four initiatives",
-      "The four major initiatives are vector forces pulling in different directions, canceling out the organization's net velocity",
+      "The four major initiatives are vector forces pulling in different directions,",
       "The economy was in a recession during the year",
       "Each initiative was underfunded and therefore failed individually"
     ],
-    "answer": "The four major initiatives are vector forces pulling in different directions, canceling out the organization's net velocity",
+    "answer": "The four major initiatives are vector forces pulling in different directions,",
     "explanation": "Each initiative requires organizational energy, management attention, and resources. When they pull in different strategic directions, the vectors cancel out. The result is tremendous effort (high speed) with zero progress (zero velocity). Focus reduces the number of vectors but increases net velocity.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Bonus structures pay the sales team for new customer acquisition, the product team for feature launches, and the support team for closing tickets quickly. Customer retention drops sharply. What is the root cause?",
     "options": [
       "Customers are naturally prone to churn after the first year",
-      "The three teams' incentives create counteracting vectors — sales overpromises, product ships half-baked features, support rushes through tickets",
+      "sales overpromises, product ships half-baked features, support rushes through tickets",
       "The product is fundamentally flawed and needs to be rebuilt",
       "The company has not invested enough in customer success"
     ],
-    "answer": "The three teams' incentives create counteracting vectors — sales overpromises, product ships half-baked features, support rushes through tickets",
+    "answer": "sales overpromises, product ships half-baked features, support rushes through tickets",
     "explanation": "Each team's incentives point in a different direction. Sales pushes for new logos (quality be damned), product pushes for features (retention be damned), support pushes for closure speed (satisfaction be damned). The vector sum of these forces produces negative retention velocity.",
     "difficulty": "hard"
   },
@@ -104,10 +104,10 @@
     "options": [
       "The startup needs to conserve cash, so reduced output makes financial sense",
       "The team is burned out and needs a rest period to recover productivity",
-      "Slowing down to recalibrate direction will increase future velocity because current efforts may be pointed in the wrong direction",
+      "Slowing down to recalibrate direction will increase future velocity because current efforts may be pointed in the",
       "The investors should trust the CEO's intuition without needing a justification"
     ],
-    "answer": "Slowing down to recalibrate direction will increase future velocity because current efforts may be pointed in the wrong direction",
+    "answer": "Slowing down to recalibrate direction will increase future velocity because current efforts may be pointed in the",
     "explanation": "If you are running fast in the wrong direction, stopping to reorient is the fastest path to your goal. The 'ship nothing quarter' is a course correction. Once vectors are realigned, even moderate speed will produce higher velocity than frantic misdirected effort ever could.",
     "difficulty": "medium"
   }

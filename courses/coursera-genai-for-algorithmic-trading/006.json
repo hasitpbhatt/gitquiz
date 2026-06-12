@@ -19,11 +19,11 @@
     "description": "During a high-volatility earnings season, you notice your 'Momentum' factor is failing, but your 'GenAI Earnings Sentiment' factor is highly accurate. What is the most logical adjustment?",
     "options": [
       "Keep all weights equal to maintain a balanced perspective.",
-      "Dynamically increase the weight of the Sentiment factor and decrease the weight of the Momentum factor.",
+      "Dynamically increase the Sentiment factor weight and decrease the Momentum factor weight.",
       "Turn off the model until the volatility passes.",
       "Delete the Momentum factor entirely from your code."
     ],
-    "answer": "Dynamically increase the weight of the Sentiment factor and decrease the weight of the Momentum factor.",
+    "answer": "Dynamically increase the Sentiment factor weight and decrease the Momentum factor weight.",
     "explanation": "Adaptive weighting allows a strategy to lean on what is currently working. In earnings season, qualitative news often overrides technical momentum, making sentiment a more reliable driver.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "Mean reversion is the theory that prices eventually return to their long-term average. GenAI can help determine if a price drop is an 'overreaction' (good for mean reversion) or a 'fundamental shift' (bad for mean reversion).",
     "description": "A stock price drops 10% instantly. Your GenAI tool analyzes 1,000 social media posts and news wires but finds no specific bad news. What does this suggest for a mean reversion trader?",
     "options": [
-      "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
+      "The drop is likely a liquidity overreaction, so the price will probably revert.",
       "The price will never return to its average because the AI found nothing.",
       "You should wait for the AI to make up a reason for the drop.",
       "The stock is now a 'Value' play for the next 10 years."
     ],
-    "answer": "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
+    "answer": "The drop is likely a liquidity overreaction, so the price will probably revert.",
     "explanation": "If the price moves significantly without a clear 'narrative' catalyst identified by the AI, it is more likely to be a temporary imbalance rather than a permanent change in value.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "You add a 'News Sentiment' signal to your model, but you find it is 95% correlated with your 'Price Momentum' indicator. Why is this a problem?",
     "options": [
       "The model will run too slowly.",
-      "It provides no 'diversification' of insight; the news is just reflecting the price action that has already happened.",
+      "It offers no diversification; the news just reflects price action that already happened.",
       "The correlation is too high for the computer to calculate.",
       "It means you have found the 'Holy Grail' of trading."
     ],
-    "answer": "It provides no 'diversification' of insight; the news is just reflecting the price action that has already happened.",
+    "answer": "It offers no diversification; the news just reflects price action that already happened.",
     "explanation": "Effective signal blending requires 'orthogonal' (independent) data. If your AI signal just follows the price, it isn't giving you a 'lead'—it's just a 'lagging' confirmation.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "You notice your sentiment-based strategy is becoming less profitable even though the AI is still accurate. What is the likely cause?",
     "options": [
       "The AI has become 'too smart' for the market.",
-      "Alpha decay: other traders are likely using similar AI models, causing the market to react instantly to sentiment.",
+      "Alpha decay: other traders use similar AI models, causing the market to react instantly to sentiment.",
       "The stock market has decided to stop reacting to news.",
       "You are using the wrong font in your trading dashboard."
     ],
-    "answer": "Alpha decay: other traders are likely using similar AI models, causing the market to react instantly to sentiment.",
+    "answer": "Alpha decay: other traders use similar AI models, causing the market to react instantly to sentiment.",
     "explanation": "As technology spreads, the 'speed' of information integration increases. To maintain an edge, you must find more unique data sources or more complex ways to blend signals than your competitors.",
     "difficulty": "medium"
   },

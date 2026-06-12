@@ -5,11 +5,11 @@
     "description": "A company runs 20 marketing experiments per month. Most fail. The few that succeed get more budget. Over a year, marketing efficiency doubles. What evolutionary process is at work?",
     "options": [
       "The marketing team got smarter through training",
-      "Variation (20 experiments), selection (budget allocated to winners), and retention (scaling what works) — this is natural selection applied to marketing strategy",
+      "this is natural selection applied to marketing strategy",
       "The experiments were designed by a genius marketing consultant",
       "Marketing efficiency naturally improves with experience"
     ],
-    "answer": "Variation (20 experiments), selection (budget allocated to winners), and retention (scaling what works) — this is natural selection applied to marketing strategy",
+    "answer": "this is natural selection applied to marketing strategy",
     "explanation": "The three elements of natural selection are all present: variation (many experiments), selection (budget follows results), and retention (successful approaches are scaled). The system evolves without anyone needing to know the right answer in advance — the environment selects it.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "The templates were not well-designed for the target audience",
       "The marketing team lacks experienced talent",
-      "The organization has suppressed variation — without diverse experiments, natural selection has no material to work with, and the company cannot find new winning strategies",
+      "without diverse experiments, natural selection has no material to work with,",
       "Template-based marketing is always ineffective"
     ],
-    "answer": "The organization has suppressed variation — without diverse experiments, natural selection has no material to work with, and the company cannot find new winning strategies",
+    "answer": "without diverse experiments, natural selection has no material to work with,",
     "explanation": "Natural selection requires variation. If every campaign looks the same, there is no diversity for the market to select from. The company cannot evolve its marketing because it has eliminated the raw material of evolution. Variation is not waste — it is the fuel for adaptation.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A startup runs 100 experiments and finds one that generates 10x the customer acquisition of all others. Instead of doubling down, the team moves on to the next 100 experiments. What evolutionary step did they skip?",
     "options": [
       "They skipped variation — they did not run enough experiments",
-      "They skipped retention — finding a winning trait is useless if you do not retain and amplify it through the organization",
+      "finding a winning trait is useless if you do not retain and amplify it through the organization",
       "They skipped selection — they did not measure which experiments worked",
       "They should have run 200 experiments instead of 100"
     ],
-    "answer": "They skipped retention — finding a winning trait is useless if you do not retain and amplify it through the organization",
+    "answer": "finding a winning trait is useless if you do not retain and amplify it through the organization",
     "explanation": "Natural selection has three steps: variation, selection, and retention. The startup did variation (100 experiments) and selection (identified the winner) but failed at retention. Without scaling the successful approach, the evolutionary cycle is incomplete. Success must be retained and propagated.",
     "difficulty": "hard"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Blockbuster's management failed to innovate because they were not technical",
       "Blockbuster should have invested in streaming earlier, like Netflix did",
-      "Traits that are adaptive in one environment become maladaptive when the environment shifts — Blockbuster was perfectly adapted for a world that ceased to exist",
+      "Blockbuster was perfectly adapted for a world that ceased to exist",
       "Streaming services are always more profitable than physical rental stores"
     ],
-    "answer": "Traits that are adaptive in one environment become maladaptive when the environment shifts — Blockbuster was perfectly adapted for a world that ceased to exist",
+    "answer": "Blockbuster was perfectly adapted for a world that ceased to exist",
     "explanation": "Blockbuster was not stupid or badly managed — it was exquisitely adapted to the pre-streaming environment. When the environment changed, its core adaptations (stores, late fees) became anchors. This is why adaptability matters more than optimization for the current environment.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "Forward-thinking organizations build internal selection mechanisms that rapidly test ideas, kill failures, and scale successes — before market selection forces them to do it painfully.",
     "description": "Amazon uses internal 'working backwards' press releases, experiments with real customers, and has a culture of rapid experimentation. Failed projects are killed quickly; successful ones receive massive investment. What evolutionary mechanism have they institutionalized?",
     "options": [
-      "They have institutionalized internal natural selection — rapid variation (experiments), selection (kill failures fast), and retention (double down on winners)",
+      "rapid variation (experiments), selection (kill failures fast), and retention",
       "They rely on Jeff Bezos's intuition to select the right projects",
       "They outsource selection pressure to venture capital firms",
       "They acquire startups that have already been selected by the market"
     ],
-    "answer": "They have institutionalized internal natural selection — rapid variation (experiments), selection (kill failures fast), and retention (double down on winners)",
+    "answer": "rapid variation (experiments), selection (kill failures fast), and retention",
     "explanation": "Amazon has built the three elements of evolution into its operating system. Low-cost variation (experiments), fast selection (kill what fails), and aggressive retention (invest heavily in what works). This allows them to evolve faster than the external market does.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A highly experienced travel agent insists that personal service will always beat online booking. She refuses to adapt to digital tools. Over five years, her client base shrinks by 80%. What evolutionary principle is at work?",
     "options": [
       "Personal service is overrated in the travel industry",
-      "The market environment has shifted to digital booking; her refusal to adapt is being selected against, regardless of her past success or effort",
+      "The market environment has shifted to digital booking; her refusal to adapt is being selected against,",
       "Online booking agencies provide worse service than human agents",
       "The travel industry is cyclical and will eventually return to human agents"
     ],
-    "answer": "The market environment has shifted to digital booking; her refusal to adapt is being selected against, regardless of her past success or effort",
+    "answer": "The market environment has shifted to digital booking; her refusal to adapt is being selected against,",
     "explanation": "Natural selection is indifferent. The environment (customer preference for digital booking) has shifted. Her past success and effort do not matter — she is not adapted to the current environment. The only path to survival is adaptation, not defending the old ways.",
     "difficulty": "easy"
   }

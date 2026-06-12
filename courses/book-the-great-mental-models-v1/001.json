@@ -75,11 +75,11 @@
     "description": "A brilliant surgeon is asked to advise a venture capital firm on a biotech investment but overlooks market incentives and competitive dynamics. What foundational concept warns against this narrow perspective?",
     "options": [
       "The Peter Principle",
-      "The danger of operating with a single-disciplinary toolkit when problems are multi-dimensional",
+      "A single-disciplinary toolkit for multi-dimensional problems",
       "The law of diminishing returns",
       "Status quo bias in professional settings"
     ],
-    "answer": "The danger of operating with a single-disciplinary toolkit when problems are multi-dimensional",
+    "answer": "A single-disciplinary toolkit for multi-dimensional problems",
     "explanation": "Real problems don't respect academic boundaries. A surgeon may understand the biology of a drug but miss the economic, regulatory, and competitive landscape. Multi-disciplinary thinking fills blind spots that pure specialization creates.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "An interviewee lists 50 mental model names during a consulting interview but cannot explain when Occam's Razor would be dangerous to apply. What gap does this reveal?",
     "options": [
       "A memory deficiency that can be fixed with practice",
-      "They lack deep understanding of model boundaries and interactions — the essence of a true latticework",
+      "They lack model boundaries and interactions — the latticework essence",
       "They are too specialized in one discipline",
       "They need to read more books on mental models"
     ],
-    "answer": "They lack deep understanding of model boundaries and interactions — the essence of a true latticework",
+    "answer": "They lack model boundaries and interactions — the latticework essence",
     "explanation": "A genuine latticework requires knowing not just what a model says, but when it breaks down and how it conflicts with other models. Memorizing names without understanding boundaries and interactions is surface-level knowledge.",
     "difficulty": "hard"
   }

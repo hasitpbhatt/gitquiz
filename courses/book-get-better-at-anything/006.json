@@ -6,10 +6,10 @@
     "options": [
       "The pilot did not train enough hours",
       "Simulators are useless for flight training",
-      "Practice Must Meet Reality: if the simulator lacks real-world stressors, the skill does not fully transfer",
-      "The pilot has a fear of flying that training cannot address"
+      "If the simulator lacks real-world stressors, the skill does not fully transfer",
+      "The pilot has a fear of flying that no amount of simulator training can ever fully address"
     ],
-    "answer": "Practice Must Meet Reality: if the simulator lacks real-world stressors, the skill does not fully transfer",
+    "answer": "If the simulator lacks real-world stressors, the skill does not fully transfer",
     "explanation": "Skills are context-dependent. When practice conditions differ from real conditions, learners may struggle to transfer their knowledge. Realistic practice conditions are crucial for effective learning.",
     "difficulty": "easy"
   },
@@ -21,7 +21,7 @@
       "The student has a learning disability",
       "Multiple-choice questions do not replicate real engineering challenges",
       "The student did not study hard enough for exams",
-      "Engineering knowledge cannot be tested through exams"
+      "Engineering knowledge cannot be tested through any form of written examination at all"
     ],
     "answer": "Multiple-choice questions do not replicate real engineering challenges",
     "explanation": "Practice Must Meet Reality: multiple-choice tests measure recognition, not the application skills needed in engineering. The practice format did not match the performance context.",
@@ -32,12 +32,12 @@
     "content": "Skills learned in artificial settings often fail to transfer to real situations. Effective practice replicates the conditions where the skill will actually be used.",
     "description": "A salesperson practices a pitch alone in front of a mirror. In real calls, they freeze when customers ask unexpected questions. This illustrates:",
     "options": [
-      "The salesperson is not cut out for sales",
-      "Practice Must Meet Reality: practicing without real customer interactions does not prepare for the unpredictability of actual sales",
+      "The salesperson is simply not cut out for a career in sales and should consider other options",
+      "Practicing without customers does not prepare for real sales situations and objections",
       "Mirror practice is the gold standard for sales training",
       "The salesperson needs more mirror practice time"
     ],
-    "answer": "Practice Must Meet Reality: practicing without real customer interactions does not prepare for the unpredictability of actual sales",
+    "answer": "Practicing without customers does not prepare for real sales situations and objections",
     "explanation": "Practicing only the ideal scenario misses the complexity of real interactions. Realistic practice includes handling objections, interruptions, and unexpected questions.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Medical training is fundamentally flawed",
       "The student was never truly qualified",
-      "Practice Must Meet Reality: mannequins do not replicate the sensory complexity and pressure of real surgery",
-      "Mannequins are outdated training tools"
+      "Mannequins do not replicate the sensory complexity and pressure of real surgery",
+      "Mannequins are outdated training tools that do not reflect modern medical practice"
     ],
-    "answer": "Practice Must Meet Reality: mannequins do not replicate the sensory complexity and pressure of real surgery",
+    "answer": "Mannequins do not replicate the sensory complexity and pressure of real surgery",
     "explanation": "Real surgery involves tissue response, bleeding, time pressure, and team coordination that mannequins cannot fully replicate. Practice conditions must approximate real conditions.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Skills learned in artificial settings often fail to transfer to real situations. Effective practice replicates the conditions where the skill will actually be used.",
     "description": "A musician practices alone in a soundproof room but struggles during live performances with a band. This demonstrates:",
     "options": [
-      "The musician is not talented enough to perform live",
-      "Practice Must Meet Reality: solo practice does not prepare for the dynamics, timing, and distractions of group performance",
+      "The musician is simply not talented enough to perform live with a band on stage",
+      "Solo practice does not prepare for the dynamics and timing of playing with a band",
       "Live performance is impossible to prepare for",
       "The musician needs a different instrument"
     ],
-    "answer": "Practice Must Meet Reality: solo practice does not prepare for the dynamics, timing, and distractions of group performance",
+    "answer": "Solo practice does not prepare for the dynamics and timing of playing with a band",
     "explanation": "Playing with a band requires listening to others, keeping tempo together, and handling stage dynamics. These skills only develop through practice conditions that match real performance.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "The speaker has stage fright that cannot be overcome",
       "Public speaking requires a photographic memory",
-      "Practice Must Meet Reality: practicing without an audience, lights, and pressure does not transfer to real speaking conditions",
-      "The speaker did not memorize the speech well enough"
+      "Practicing without an audience, lights, and pressure does not transfer to real speaking",
+      "The speaker did not memorize the speech well enough to deliver it confidently on stage"
     ],
-    "answer": "Practice Must Meet Reality: practicing without an audience, lights, and pressure does not transfer to real speaking conditions",
+    "answer": "Practicing without an audience, lights, and pressure does not transfer to real speaking",
     "explanation": "Nervousness, lighting, and audience reactions create a different cognitive context. Realistic practice conditions help build comfort with the actual performance environment.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "Skills learned in artificial settings often fail to transfer to real situations. Effective practice replicates the conditions where the skill will actually be used.",
     "description": "A programmer learns coding through guided tutorials that provide step-by-step instructions. They cannot build projects from scratch on their own. This illustrates:",
     "options": [
-      "The programmer lacks natural coding ability",
-      "Practice Must Meet Reality: following tutorials does not replicate the problem-solving and debugging required in real development",
+      "The programmer simply lacks natural coding ability and should consider a different career path",
+      "Following tutorials does not teach the real debugging and problem-solving skills required",
       "Tutorials are the best way to learn programming",
       "Real programming is easier than tutorials"
     ],
-    "answer": "Practice Must Meet Reality: following tutorials does not replicate the problem-solving and debugging required in real development",
+    "answer": "Following tutorials does not teach the real debugging and problem-solving skills required",
     "explanation": "Tutorials remove the cognitive load of figuring out what to build. Real coding requires problem decomposition, debugging, and decision-making that only develop through independent project work.",
     "difficulty": "hard"
   }

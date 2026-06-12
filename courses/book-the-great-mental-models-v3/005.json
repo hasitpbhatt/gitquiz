@@ -33,11 +33,11 @@
     "description": "A startup has 20% monthly customer churn. Their board demands doubling the marketing budget to accelerate growth. What should the CEO argue?",
     "options": [
       "Doubling marketing will offset the churn with more volume",
-      "First fix the product and retention \u2014 doubling marketing spend on a leaky bucket merely doubles wasted spend",
+      "Fix product and retention first \u2014 doubling marketing on a leaky bucket doubles waste",
       "Hire a better marketing team to improve conversion rates",
       "Reduce prices to retain more customers"
     ],
-    "answer": "First fix the product and retention \u2014 doubling marketing spend on a leaky bucket merely doubles wasted spend",
+    "answer": "Fix product and retention first \u2014 doubling marketing on a leaky bucket doubles waste",
     "explanation": "20% monthly churn means losing almost all customers within 5 months. No amount of acquisition spend can outrun that leak. The structural problem must be fixed first.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "Netflix reduced churn by analyzing viewing patterns and introducing personalized recommendations and original content, turning new subscriber growth into compounding gains.",
     "description": "After implementing personalized recommendation algorithms and releasing original content like House of Cards, Netflix saw subscriber retention improve dramatically. What was the systemic effect on their growth?",
     "options": [
-      "Reduced churn meant each acquired subscriber stayed longer, allowing compounding growth from acquisitions",
+      "Lower churn meant each subscriber stayed longer, enabling compounding growth",
       "Recommendations reduced the need for marketing entirely",
       "Original content was more expensive than licensed content",
       "Personalization only worked for certain demographics"
     ],
-    "answer": "Reduced churn meant each acquired subscriber stayed longer, allowing compounding growth from acquisitions",
+    "answer": "Lower churn meant each subscriber stayed longer, enabling compounding growth",
     "explanation": "Fixing the leak in the bucket transformed every dollar of acquisition spend into lasting value. Lower churn is a leverage point that multiplies the effectiveness of all growth investments.",
     "difficulty": "hard"
   },

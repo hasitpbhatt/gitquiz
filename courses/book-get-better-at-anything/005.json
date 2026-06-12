@@ -4,12 +4,12 @@
     "content": "Years of experience alone do not guarantee expertise. Without deliberate practice and quality feedback, professionals can plateau at a moderate skill level for decades.",
     "description": "A doctor with 20 years of experience makes the same diagnostic errors as a doctor with 5 years. This suggests:",
     "options": [
-      "The experienced doctor was never properly trained",
-      "Experience Does Not Reliably Ensure Expertise: without feedback on errors, experience alone does not improve judgment",
+      "The experienced doctor was never properly trained in modern diagnostic techniques",
+      "Without feedback on errors, experience alone does not improve judgment",
       "Medicine is too complex for any doctor to master",
       "The younger doctor is naturally more talented"
     ],
-    "answer": "Experience Does Not Reliably Ensure Expertise: without feedback on errors, experience alone does not improve judgment",
+    "answer": "Without feedback on errors, experience alone does not improve judgment",
     "explanation": "Repeating the same practices for 20 years without accurate feedback does not build expertise. Improvement requires feedback that reveals errors and guides adjustment.",
     "difficulty": "easy"
   },
@@ -18,7 +18,7 @@
     "content": "Years of experience alone do not guarantee expertise. Without deliberate practice and quality feedback, professionals can plateau at a moderate skill level for decades.",
     "description": "A veteran stock trader has been investing for 30 years but consistently underperforms the market average. Why might experience not translate to expertise?",
     "options": [
-      "Stock trading is completely random and skill is irrelevant",
+      "Stock trading is completely random and no amount of skill can ever predict market movements at all",
       "Without systematic feedback and strategy adjustment, the same mistakes compound over decades",
       "The trader simply needs more years of experience",
       "Market performance is always unpredictable for everyone"
@@ -33,11 +33,11 @@
     "description": "A teacher has taught the same curriculum for 15 years. New teachers sometimes get better student results. This exemplifies:",
     "options": [
       "The new teachers have more energy than experienced ones",
-      "Experience Does Not Reliably Ensure Expertise: teaching the same material yearly without seeking improvement leads to stagnation",
-      "Student results depend entirely on the students themselves",
+      "Teaching the same material yearly without seeking improvement leads to stagnation",
+      "Student results depend entirely on the students themselves and their motivation levels",
       "The experienced teacher is clearly burned out"
     ],
-    "answer": "Experience Does Not Reliably Ensure Expertise: teaching the same material yearly without seeking improvement leads to stagnation",
+    "answer": "Teaching the same material yearly without seeking improvement leads to stagnation",
     "explanation": "Repeating the same lesson plan for 15 years is one year of experience repeated 15 times, not 15 years of growth. Improvement requires actively seeking and integrating feedback.",
     "difficulty": "medium"
   },
@@ -47,7 +47,7 @@
     "description": "You learn guitar for 3 months and improve quickly. For the next month you feel stuck at the same level. What does Improvement is Not a Straight Line suggest?",
     "options": [
       "You have reached your natural limit and should quit",
-      "You are practicing incorrectly and need to start over",
+      "You are practicing everything incorrectly and need to completely start over from the very beginning",
       "Plateaus are a normal part of learning that precede the next breakthrough",
       "Your guitar is not good enough for advanced playing"
     ],
@@ -61,11 +61,11 @@
     "description": "A runner trains for a marathon. Some weeks they get faster, other weeks they feel slower. The runner should understand that:",
     "options": [
       "Training is clearly not working",
-      "They should only run on days when they feel fast",
-      "Improvement is Not a Straight Line: performance fluctuates due to fatigue, recovery, and adaptation cycles",
+      "They should only train on days when they are feeling fast and well rested",
+      "Performance fluctuates due to fatigue, recovery, and adaptation cycles",
       "Marathon training requires a different sport"
     ],
-    "answer": "Improvement is Not a Straight Line: performance fluctuates due to fatigue, recovery, and adaptation cycles",
+    "answer": "Performance fluctuates due to fatigue, recovery, and adaptation cycles",
     "explanation": "Physical training follows cycles of stress and recovery. Performance dips are often followed by adaptation and breakthroughs. The downward trend before improvement is normal.",
     "difficulty": "medium"
   },
@@ -77,7 +77,7 @@
       "Shut down immediately to cut losses",
       "Analyze the dip for learning, adjust strategy, and persist through the natural fluctuation",
       "Ignore the data and keep doing the same thing",
-      "Success should be immediate if the idea is good"
+      "Any good business idea should show success immediately without needing time to develop"
     ],
     "answer": "Analyze the dip for learning, adjust strategy, and persist through the natural fluctuation",
     "explanation": "Business growth is rarely a straight line. Down periods provide valuable feedback. The key is learning from the dip rather than being demoralized by the lack of linear progress.",
@@ -88,12 +88,12 @@
     "content": "Progress in learning is rarely linear. It involves plateaus, dips, and sudden breakthroughs. Understanding this prevents discouragement during inevitable learning plateaus.",
     "description": "A chess player wins several games in a row, then loses five straight. Discouraged, they want to quit. What should they understand about learning?",
     "options": [
-      "They have clearly gotten worse at chess",
+      "They have clearly gotten worse at chess and should take a break from playing for a while",
       "They should only play opponents they can beat",
-      "Improvement is Not a Straight Line: losing streaks often precede breakthroughs as old patterns break down to make way for new strategies",
+      "Losing streaks often precede breakthroughs as old strategies break down",
       "Chess skill is determined by natural talent alone"
     ],
-    "answer": "Improvement is Not a Straight Line: losing streaks often precede breakthroughs as old patterns break down to make way for new strategies",
+    "answer": "Losing streaks often precede breakthroughs as old strategies break down",
     "explanation": "When learning new tactics, your performance may temporarily drop as you abandon familiar but limited strategies. This dip is a sign of progress, not regression.",
     "difficulty": "medium"
   }

@@ -47,11 +47,11 @@
     "description": "A CEO issues a memo declaring \u201cOur culture will be innovative and collaborative!\u201d and creates a new values poster for every wall. A year later, nothing has changed. Why?",
     "options": [
       "The CEO did not communicate the values clearly enough",
-      "Culture is an irreducible property that emerges from systems, incentives, and interactions \u2014 memos cannot create it",
+      "Culture emerges from systems, incentives, and interactions, not from memos",
       "Employees are resistant to change and need to be replaced",
       "The values were not catchy enough to be memorable"
     ],
-    "answer": "Culture is an irreducible property that emerges from systems, incentives, and interactions \u2014 memos cannot create it",
+    "answer": "Culture emerges from systems, incentives, and interactions, not from memos",
     "explanation": "Culture cannot be engineered by decree. It emerges from who gets hired, promoted, and rewarded; how decisions are actually made; and what behaviors are tolerated. Changing culture requires changing the underlying system.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A struggling company hires a branding agency to design a new logo and tagline, expecting it to revitalize their reputation. When sales do not improve, they blame the agency. What went wrong?",
     "options": [
       "The agency designed a logo that did not resonate with customers",
-      "Brand reputation is an irreducible emergent property of the entire customer experience \u2014 a logo alone cannot change it",
+      "Brand reputation emerges from the entire customer experience, not from a logo",
       "The company should have spent more on the branding campaign",
       "Logo design requires more market research"
     ],
-    "answer": "Brand reputation is an irreducible emergent property of the entire customer experience \u2014 a logo alone cannot change it",
+    "answer": "Brand reputation emerges from the entire customer experience, not from a logo",
     "explanation": "A great logo cannot compensate for a mediocre product, poor customer service, or broken operations. Brand is the result of the whole system working well, not a magic sticker you apply.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A mechanic can fix a car engine by identifying a faulty piston (reductionism), but cannot explain why a specific car brand inspires more loyalty than another by examining individual components. What does this contrast illustrate?",
     "options": [
       "Cars are too complex for reductionist analysis",
-      "Reductionism works for mechanical systems where behavior is linear, but systems with emergent properties require holistic analysis",
+      "Reductionism works for linear mechanical systems; emergent systems need holistic analysis",
       "Loyalty is an irrational emotion unrelated to the car",
       "Mechanics should study marketing to understand brand loyalty"
     ],
-    "answer": "Reductionism works for mechanical systems where behavior is linear, but systems with emergent properties require holistic analysis",
+    "answer": "Reductionism works for linear mechanical systems; emergent systems need holistic analysis",
     "explanation": "Not all systems are irreducible. The key skill is knowing which problems yield to reductionist analysis and which require a holistic approach that considers emergent properties.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A high-performing software team delivers 3x more than another team with similarly skilled individuals. When management tries to scale this success by splitting the team and adding new members, performance drops. Why?",
     "options": [
       "The original team had unusually talented individuals who cannot be replaced",
-      "The team\u2019s performance was an emergent property of specific interpersonal dynamics and shared context that cannot be replicated by reassignment",
+      "Team performance is an emergent property of interpersonal dynamics and shared context, not reassignment",
       "New members are always less productive initially",
       "Management should have hired more experienced developers"
     ],
-    "answer": "The team\u2019s performance was an emergent property of specific interpersonal dynamics and shared context that cannot be replicated by reassignment",
+    "answer": "Team performance is an emergent property of interpersonal dynamics and shared context, not reassignment",
     "explanation": "High-performing teams are irreducible. Their magic emerges from trust, shared mental models, and communication patterns built over time. Breaking them apart destroys the emergent capability.",
     "difficulty": "hard"
   }

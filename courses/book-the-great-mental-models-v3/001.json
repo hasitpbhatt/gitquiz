@@ -47,11 +47,11 @@
     "description": "Your company\u2019s sales team is incentivized purely on new customer count, but customer support is overwhelmed and churn is rising. According to feedback loop principles, what is the most effective fix?",
     "options": [
       "Hire more salespeople to outrun the churn problem",
-      "Introduce a balancing metric \u2014 tie compensation to retention or satisfaction \u2014 to counteract the runaway reinforcing loop",
+      "Tie compensation to retention to counteract the runaway reinforcing loop",
       "Remove the sales incentive entirely",
       "Increase marketing spend to acquire customers even faster"
     ],
-    "answer": "Introduce a balancing metric \u2014 tie compensation to retention or satisfaction \u2014 to counteract the runaway reinforcing loop",
+    "answer": "Tie compensation to retention to counteract the runaway reinforcing loop",
     "explanation": "Adding a balancing force (retention metric) counteracts the unchecked reinforcing loop (growth at all costs), creating a healthier system dynamic.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A factory consistently overshoots its production targets but then misses delivery deadlines because quality defects spike. Management keeps blaming the quality team. What systemic issue are they overlooking?",
     "options": [
       "The quality team is understaffed and needs more resources",
-      "The production incentive creates a reinforcing loop that overwhelms the quality balancing loop",
+      "The production incentive creates a reinforcing loop that overwhelms quality controls",
       "The factory equipment is outdated and needs replacement",
       "Customers are demanding unrealistic delivery timelines"
     ],
-    "answer": "The production incentive creates a reinforcing loop that overwhelms the quality balancing loop",
+    "answer": "The production incentive creates a reinforcing loop that overwhelms quality controls",
     "explanation": "When a reinforcing loop (production volume) is stronger than the balancing loop (quality control), the system runs away. Adding more quality staff without addressing the incentive structure merely treats the symptom.",
     "difficulty": "hard"
   }

@@ -5,11 +5,11 @@
     "description": "You task an agent with 'Hedging the portfolio against a sudden drop in the Euro.' The agent first checks the current EUR/USD price, then reads the latest ECB meeting minutes, and finally decides to buy put options. Why is this considered 'Agentic' behavior?",
     "options": [
       "Because it used a high-speed internet connection.",
-      "Because it autonomously selected which tools to use and in what order to solve a high-level objective.",
+      "Because it autonomously selected tools and their order to solve a high-level objective.",
       "Because it was programmed with a 1,000-line 'if-else' statement.",
       "Because it made a profit on the trade."
     ],
-    "answer": "Because it autonomously selected which tools to use and in what order to solve a high-level objective.",
+    "answer": "Because it autonomously selected tools and their order to solve a high-level objective.",
     "explanation": "Agency is defined by the ability to use tools and reasoning to solve complex goals without every single intermediate step being hard-coded by the developer.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "An AI bot is caught in a 'loop' where it buys and sells the same stock every second, losing money on transaction fees. What is the most immediate action the administrator should take?",
     "options": [
       "Wait for the AI to realize the mistake and stop.",
-      "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
+      "Activate the Kill Switch to halt all activity and protect remaining capital.",
       "Try to edit the bot's prompt while it is still trading.",
       "Lower the transaction fees at the brokerage."
     ],
-    "answer": "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
+    "answer": "Activate the Kill Switch to halt all activity and protect remaining capital.",
     "explanation": "When an autonomous system fails, you must remove its power to trade immediately. Kill switches prevent 'algorithmic meltdowns' from draining an account in minutes.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "You notice your bot's expected returns are 5%, but the actual returns are 2% due to high slippage. What does this indicate about your bot's development?",
     "options": [
       "The AI is getting worse at math.",
-      "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
+      "Poor execution logic or illiquid markets where its own orders move the price.",
       "The stock market is trying to steal the bot's money.",
       "The bot needs a faster CPU."
     ],
-    "answer": "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
+    "answer": "Poor execution logic or illiquid markets where its own orders move the price.",
     "explanation": "Slippage is a sign of 'execution friction.' Monitoring this allows developers to refine how the bot places orders, such as switching from 'Market' orders to 'Limit' orders.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "The internet goes out for 10 minutes. When it returns, what is the first thing the AI agent should do before it starts trading again?",
     "options": [
       "Immediately place the trades it missed while it was offline.",
-      "Synchronize its internal 'State' with the broker to see which orders were filled or canceled during the outage.",
+      "Sync its internal state with the broker to see what orders were filled during the outage.",
       "Assume nothing changed and continue as normal.",
       "Start a new trading day from scratch."
     ],
-    "answer": "Synchronize its internal 'State' with the broker to see which orders were filled or canceled during the outage.",
+    "answer": "Sync its internal state with the broker to see what orders were filled during the outage.",
     "explanation": "Synchronization is vital. The bot must know exactly what it currently owns (its 'State') before making new decisions to avoid accidental over-exposure or double-trading.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "Why would a developer use three small AI agents instead of one large one to manage a portfolio?",
     "options": [
       "To save on API costs.",
-      "To simulate a 'Digital Investment Committee,' reducing individual bias and catching errors through internal debate.",
+      "To simulate a 'Digital Investment Committee' that reduces bias and catches errors via debate.",
       "Because smaller agents are always smarter than large ones.",
       "To make the software more complicated and impressive."
     ],
-    "answer": "To simulate a 'Digital Investment Committee,' reducing individual bias and catching errors through internal debate.",
+    "answer": "To simulate a 'Digital Investment Committee' that reduces bias and catches errors via debate.",
     "explanation": "MAS architectures provide 'Cognitive Diversity.' By forcing different agents to argue different sides of a trade, the system is less likely to fall for a single 'hallucination' or biased news source.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Your bot is hitting the OpenAI rate limit during a period of high market volatility. What is the best programmatic solution?",
     "options": [
       "Spam the API even harder until it lets you through.",
-      "Implement an 'Exponential Backoff' where the bot waits 1s, then 2s, then 4s, until the server responds.",
+      "Use 'Exponential Backoff', waiting longer between retries until the server responds.",
       "Stop trading for the rest of the year.",
       "Buy a second computer to send more requests."
     ],
-    "answer": "Implement an 'Exponential Backoff' where the bot waits 1s, then 2s, then 4s, until the server responds.",
+    "answer": "Use 'Exponential Backoff', waiting longer between retries until the server responds.",
     "explanation": "Exponential backoff is a standard networking practice. it allows the system to recover gracefully without overwhelming the service provider or triggering a security block.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "Before giving an agent full autonomy, it is often run in 'Shadow Mode.' The agent makes decisions and records them as if it were trading, but it doesn't actually send orders to the broker. This allows humans to verify the agent's 'logic' in a live market without risk.",
     "description": "What is the primary difference between 'Backtesting' and 'Shadow Mode'?",
     "options": [
-      "Backtesting uses historical data; Shadow Mode uses real-time, live market data without spending real money.",
+      "Backtesting uses historical data; Shadow Mode uses live data without using real money.",
       "Backtesting is for humans; Shadow Mode is for AI.",
       "Shadow Mode is much faster than Backtesting.",
       "There is no difference."
     ],
-    "answer": "Backtesting uses historical data; Shadow Mode uses real-time, live market data without spending real money.",
+    "answer": "Backtesting uses historical data; Shadow Mode uses live data without using real money.",
     "explanation": "Shadow Mode is the 'Final Exam.' It tests how the agent handles the 'messiness' of live data (delays, news spikes, API errors) before it is trusted with capital.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "You program an AI bot with a reward function that only cares about 'Highest Possible Return.' What is the most likely dangerous outcome?",
     "options": [
       "The bot will become too bored to trade.",
-      "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",
+      "The bot will take massive all-or-nothing bets that could lead to a total account wipeout.",
       "The bot will only trade on Mondays.",
       "The bot will refuse to make any trades at all."
     ],
-    "answer": "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",
+    "answer": "The bot will take massive all-or-nothing bets that could lead to a total account wipeout.",
     "explanation": "AI will 'optimize' exactly what you tell it to. Without 'Risk' penalties in the reward function, the agent will choose the most aggressive path to maximize the single metric of profit, regardless of the danger.",
     "difficulty": "hard"
   }

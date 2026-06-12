@@ -20,10 +20,10 @@
     "options": [
       "San Francisco was the only city with enough potential riders",
       "Uber lacked the capital to launch in multiple cities simultaneously",
-      "Achieving critical mass in a tightly defined market creates self-sustaining network effects that can then be replicated elsewhere",
+      "Achieving critical mass in a tight market creates self-sustaining network effects replicable elsewhere",
       "Regulatory approval was only granted in San Francisco"
     ],
-    "answer": "Achieving critical mass in a tightly defined market creates self-sustaining network effects that can then be replicated elsewhere",
+    "answer": "Achieving critical mass in a tight market creates self-sustaining network effects replicable elsewhere",
     "explanation": "The Hyper-Focus Rule: concentrate resources in a narrow geography until self-sustaining growth triggers, then expand. This avoids the trap of spreading too thin and failing to reach critical mass anywhere.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A new payment app has high fixed costs (building infrastructure) and its value depends on how many merchants and consumers use it. Why is reaching critical mass especially hard for such platforms?",
     "options": [
       "Payment apps are inherently less useful than social media",
-      "Both sides — merchants and consumers — must reach critical mass simultaneously, creating a chicken-and-egg problem",
+      "Both sides must reach critical mass simultaneously — a chicken-and-egg problem",
       "Payment regulation prevents rapid user acquisition",
       "The app has diminishing returns on user growth"
     ],
-    "answer": "Both sides — merchants and consumers — must reach critical mass simultaneously, creating a chicken-and-egg problem",
+    "answer": "Both sides must reach critical mass simultaneously — a chicken-and-egg problem",
     "explanation": "Two-sided platforms require coordinated ignition: subsidizing both sides until each is large enough to attract the other organically. This is why Uber subsidized both riders and drivers in each city.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A crowdfunding campaign raises $10,000 in the first week (mostly from friends and family), then stalls. In the final week, it suddenly surges to $100,000 from strangers. This pattern reflects:",
     "options": [
       "A power law distribution of donations",
-      "The campaign reached critical mass — past a certain threshold, social proof and momentum attracted contributions without further promotional effort",
+      "The campaign hit critical mass — past a threshold, social proof triggered growth",
       "Diminishing returns on the initial marketing spend",
       "A regression to the mean after the initial spike"
     ],
-    "answer": "The campaign reached critical mass — past a certain threshold, social proof and momentum attracted contributions without further promotional effort",
+    "answer": "The campaign hit critical mass — past a threshold, social proof triggered growth",
     "explanation": "Many viral or crowdfunding phenomena follow this pattern: slow initial growth requiring active effort, then a tipping point where visibility and social proof create self-sustaining momentum.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Remote work was a niche practice for decades. During the pandemic, adoption suddenly crossed a threshold. After the pandemic, despite many return-to-office mandates, remote work remained far more common than pre-2020. What explains this?",
     "options": [
       "People simply preferred remote work all along",
-      "Remote work reached critical mass — past the tipping point, the new norm became self-reinforcing",
+      "Remote work reached critical mass — past the tipping point, the norm became self-reinforcing",
       "The pandemic permanently destroyed office infrastructure",
       "This is an example of regression to the mean"
     ],
-    "answer": "Remote work reached critical mass — past the tipping point, the new norm became self-reinforcing",
+    "answer": "Remote work reached critical mass — past the tipping point, the norm became self-reinforcing",
     "explanation": "Critical mass in social systems creates a new equilibrium. Past the tipping point, the new behavior becomes self-reinforcing through infrastructure, norms, and expectations that did not previously exist.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A startup has $2M in funding and two expansion options: launch in 10 cities with $200K each, or launch in 1 city with the entire $2M. Which approach best applies the Hyper-Focus Rule?",
     "options": [
       "Launch in 10 cities to maximize geographic coverage and brand awareness",
-      "Launch in 1 city with full concentration of resources to achieve critical mass there, then expand to other cities using the self-sustaining playbook",
+      "Concentrate all resources in 1 city to achieve critical mass, then expand using the self-sustaining playbook",
       "Split the difference: launch in 5 cities with $400K each",
       "Save the money and rely on organic viral growth"
     ],
-    "answer": "Launch in 1 city with full concentration of resources to achieve critical mass there, then expand to other cities using the self-sustaining playbook",
+    "answer": "Concentrate all resources in 1 city to achieve critical mass, then expand using the self-sustaining playbook",
     "explanation": "The Hyper-Focus Rule prioritizes depth over breadth. Spreading $200K across 10 cities may fail to reach critical mass in any of them. Concentrating firepower maximizes the chance of a breakthrough.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Facebook surpassed MySpace in the late 2000s. Once Facebook reached critical mass, MySpace could not recover even with massive investment. Why?",
     "options": [
       "MySpace's technology was simply inferior",
-      "Once Facebook reached critical mass, the network effect made switching costs too high — users stayed where their friends were",
+      "Facebook's critical mass created network effects — users stayed where friends were",
       "Facebook had better marketing",
       "MySpace was acquired and shut down intentionally"
     ],
-    "answer": "Once Facebook reached critical mass, the network effect made switching costs too high — users stayed where their friends were",
+    "answer": "Facebook's critical mass created network effects — users stayed where friends were",
     "explanation": "Network effects create a powerful moat. After critical mass, the platform's value is driven by its user base, not its features. Competitors must offer dramatically better value to overcome switching costs.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A new marketplace for freelance designers launches. Which early growth strategy is most likely to achieve critical mass?",
     "options": [
       "Run national TV ads to attract users from everywhere",
-      "Focus on a single design niche (e.g., logo designers) in a single metro area to create density and transactions before expanding",
+      "Focus on a single niche in one metro area to create density before expanding",
       "Offer free accounts to anyone who signs up globally",
       "Wait for designers to join organically without marketing"
     ],
-    "answer": "Focus on a single design niche (e.g., logo designers) in a single metro area to create density and transactions before expanding",
+    "answer": "Focus on a single niche in one metro area to create density before expanding",
     "explanation": "Density creates liquidity — enough buyers and sellers for transactions to happen reliably. This success in the initial niche generates the proof-of-concept and playbook needed for expansion.",
     "difficulty": "medium"
   }

@@ -19,11 +19,11 @@
     "description": "A startup has 20 clients, but one client generates 40% of revenue. The startup dedicates 60% of engineering resources to this client's custom features. A new CEO suggests firing the client to 'focus on the core product.' What should they consider first?",
     "options": [
       "The CEO is right — custom features for one client are a distraction",
-      "The client is a revenue keystone — losing them would collapse the financial foundation that funds all other product development",
+      "losing them would collapse the financial foundation that funds all other product development",
       "Firing the client would free up 60% of engineering resources for product work",
       "The startup should diversify its client base before making any changes"
     ],
-    "answer": "The client is a revenue keystone — losing them would collapse the financial foundation that funds all other product development",
+    "answer": "losing them would collapse the financial foundation that funds all other product development",
     "explanation": "That one client funds 40% of revenue and absorbs 60% of engineering. Losing them is not a 'focus' move — it is a keystone removal that would force cutting other initiatives, laying off staff, or abandoning the core product entirely. Protect the keystone while gradually reducing dependency.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "After a long-time administrative assistant retires, the executive team notices that meeting coordination falls apart, expense reports are chronically delayed, and cross-department communication breaks down. No one had realized how much she did. What does this reveal?",
     "options": [
       "The company should have hired multiple assistants to cover her workload",
-      "She was an invisible keystone — her low-profile coordination work held the executive ecosystem together, and her removal triggered cascading operational failures",
+      "her low-profile coordination work held the executive ecosystem together,",
       "The executive team should have been handling their own administrative tasks",
       "The company's processes were insufficiently documented"
     ],
-    "answer": "She was an invisible keystone — her low-profile coordination work held the executive ecosystem together, and her removal triggered cascading operational failures",
+    "answer": "her low-profile coordination work held the executive ecosystem together,",
     "explanation": "Keystones are not always the loudest or highest-paid. Often they are invisible — the person who quietly coordinates, mediates, and stabilizes. Their value is only recognized after removal triggers cascading failure. Identify and protect these invisible keystones before they leave.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "The two senior engineers were disloyal and should have stayed",
       "The company should have hired a replacement before removing her",
-      "The keystone removal triggered a cascade — her departure caused secondary losses (engineers quitting, client churn) that multiplied the initial damage",
+      "her departure caused secondary losses (engineers quitting,",
       "Team leads are generally replaceable with minimal disruption"
     ],
-    "answer": "The keystone removal triggered a cascade — her departure caused secondary losses (engineers quitting, client churn) that multiplied the initial damage",
+    "answer": "her departure caused secondary losses (engineers quitting,",
     "explanation": "Keystones do not just provide their own output — they enable others' output. Remove the keystone, and the dependencies collapse sequentially. The engineers she mentored lose their anchor and leave. The client she managed loses trust and churns. Each failure amplifies the next.",
     "difficulty": "hard"
   },
@@ -62,10 +62,10 @@
     "options": [
       "Which employees have the highest salaries?",
       "Which employees have been at the company the longest?",
-      "Which individuals function as keystones — whose removal would trigger cascading failure across the ecosystem?",
+      "whose removal would trigger cascading failure across the ecosystem?",
       "Which employees have the least technical skills?"
     ],
-    "answer": "Which individuals function as keystones — whose removal would trigger cascading failure across the ecosystem?",
+    "answer": "whose removal would trigger cascading failure across the ecosystem?",
     "explanation": "Cost-cutting by salary alone is linear thinking in an ecosystem. The highest-paid employee might be a keystone whose removal triggers a cascade of secondary losses worth far more than the salary saved. Identify keystones first, then optimize around protecting them.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A small company's entire sales process depends on one charismatic founder who closes every major deal. The business is growing, but a board member expresses concern. What is the board member worried about?",
     "options": [
       "The founder is spending too much time on sales instead of strategy",
-      "The company's sales ecosystem is overly dependent on a single keystone — if the founder leaves or burns out, the entire revenue engine collapses",
+      "if the founder leaves or burns out, the entire revenue engine collapses",
       "Charismatic founders are usually bad at closing deals",
       "The company should stop growing to reduce dependency on the founder"
     ],
-    "answer": "The company's sales ecosystem is overly dependent on a single keystone — if the founder leaves or burns out, the entire revenue engine collapses",
+    "answer": "if the founder leaves or burns out, the entire revenue engine collapses",
     "explanation": "While the founder is a keystone, dependency on a single keystone is itself a fragility. The wise strategy is to protect the keystone while reducing dependency — document their process, train successors, and distribute keystone functions across multiple people.",
     "difficulty": "hard"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Company policy should never be broken for any individual",
       "The manager should have enforced the policy and hired a replacement",
-      "The manager failed to recognize the employee as a keystone — the cost of accommodation was trivial compared to the cascading cost of losing them",
+      "the cost of accommodation was trivial compared to the cascading cost of losing them",
       "Flexible work arrangements reduce productivity across the team"
     ],
-    "answer": "The manager failed to recognize the employee as a keystone — the cost of accommodation was trivial compared to the cascading cost of losing them",
+    "answer": "the cost of accommodation was trivial compared to the cascading cost of losing them",
     "explanation": "When someone is a keystone, the standard rules may not apply. The cost of accommodation (a flexible schedule) was minimal. The cost of losing them cascaded into three failed projects — far exceeding any policy benefit. Keystone protection sometimes requires exceptions.",
     "difficulty": "easy"
   }

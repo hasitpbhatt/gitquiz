@@ -5,11 +5,11 @@
     "description": "A colleague says, \"This startup will either succeed or fail — it's a coin flip.\" What flaw does this framing reveal?",
     "options": [
       "It is accurate — binary outcomes are the only thing that matters",
-      "It ignores the grayscale of probability — success and failure are not equally likely, and the actual odds matter for decision quality",
+      "Ignores probability grayscale — odds matter for decision quality",
       "Startups always succeed with enough effort",
       "Coin flips are a valid way to make business decisions"
     ],
-    "answer": "It ignores the grayscale of probability — success and failure are not equally likely, and the actual odds matter for decision quality",
+    "answer": "Ignores probability grayscale — odds matter for decision quality",
     "explanation": "Framing uncertain outcomes as binary \"success or failure\" ignores the critical dimension of probability. Two investments may both succeed or fail, but one with 80% odds and another with 20% odds require completely different capital allocation.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A startup offers a 10% chance of a $1 million return, or you can keep $50,000 guaranteed. What framework helps you decide?",
     "options": [
       "Go with your gut feeling",
-      "Calculate expected value: 10% of $1M = $100,000 expected value, which exceeds the guaranteed $50,000",
+      "10% of $1M = $100K expected value > guaranteed $50K",
       "Always take the guaranteed money",
       "Always take the risk for a chance at millions"
     ],
-    "answer": "Calculate expected value: 10% of $1M = $100,000 expected value, which exceeds the guaranteed $50,000",
+    "answer": "10% of $1M = $100K expected value > guaranteed $50K",
     "explanation": "Expected value = (probability of outcome) x (value of outcome). Here, 0.10 x $1,000,000 = $100,000 expected value, which is higher than the $50,000 guaranteed. The probabilistic choice is mathematically superior, though risk tolerance still matters.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A trader finds a strategy with a 99% chance of a 10% gain and a 1% chance of losing everything. Applying probabilistic thinking, why should they reject it?",
     "options": [
       "A 99% success rate is actually terrible",
-      "The 1% risk of total ruin will eventually hit if the strategy is repeated enough times, wiping out all prior gains",
+      "1% ruin risk eventually hits with repetition, wiping out prior gains",
       "Gambling is always bad",
       "The 10% gain is too small to matter"
     ],
-    "answer": "The 1% risk of total ruin will eventually hit if the strategy is repeated enough times, wiping out all prior gains",
+    "answer": "1% ruin risk eventually hits with repetition, wiping out prior gains",
     "explanation": "Risk of ruin is the non-negotiable constraint in probabilistic thinking. Even with 99% favorable odds, a 1% bankruptcy risk is unacceptable because over many repetitions, the probability of hitting that 1% approaches certainty. Never take a bet that risks everything.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "A hedge fund models portfolio risk using standard bell-curve assumptions, concluding a crash across multiple markets is virtually impossible. They leverage heavily. Why is this dangerous?",
     "options": [
       "Bell curves are always wrong for financial data",
-      "Financial markets have fat tails — extreme correlated events happen far more often than normal distribution models predict",
+      "Fat tails — extreme correlated events far more common than normal models predict",
       "Leverage is always bad",
       "The fund needs better mathematicians"
     ],
-    "answer": "Financial markets have fat tails — extreme correlated events happen far more often than normal distribution models predict",
+    "answer": "Fat tails — extreme correlated events far more common than normal models predict",
     "explanation": "LTCM's Nobel laureates assumed markets followed thin-tailed normal distributions. In reality, markets have fat tails where extreme, correlated events occur much more frequently than Gaussian models predict. A fat-tailed model would have shown the risk as real, not impossible.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A logistics company plans warehouse capacity based on average daily package volume. During holiday peaks, volume spikes to 5x the average and packages overflow. What probabilistic concept did they ignore?",
     "options": [
       "The law of large numbers",
-      "The flaw of averages — planning around the mean ignores extreme but consequential volatility",
+      "Flaw of averages — mean-based planning ignores extreme volatility",
       "Regression to the mean",
       "Normal distribution of demand"
     ],
-    "answer": "The flaw of averages — planning around the mean ignores extreme but consequential volatility",
+    "answer": "Flaw of averages — mean-based planning ignores extreme volatility",
     "explanation": "The flaw of averages occurs when decisions are based on the average while ignoring the distribution of outcomes. The average river depth being 3 feet is irrelevant if there are 15-foot holes. Similarly, average package volume is irrelevant if peak days overflow capacity.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "An investor makes a well-researched bet with 80% odds of success, but it fails due to an unforeseeable regulatory change. Critics call them incompetent. What probabilistic principle are the critics missing?",
     "options": [
       "The investor should have done more research",
-      "A good decision can produce a bad outcome — the process was sound even if this particular roll of the dice went against the odds",
+      "Good decisions can produce bad outcomes — judge the process, not a single roll",
       "Regulatory changes are always predictable",
       "If it failed, the odds were never really 80%"
     ],
-    "answer": "A good decision can produce a bad outcome — the process was sound even if this particular roll of the dice went against the odds",
+    "answer": "Good decisions can produce bad outcomes — judge the process, not a single roll",
     "explanation": "In a probabilistic world, good decisions sometimes fail and bad decisions sometimes succeed. The 20% failure probability means one in five good decisions will fail. Judge the process, not the outcome of a single trial.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Your project sponsor demands a single delivery date. Applying probabilistic thinking, how should you respond?",
     "options": [
       "Give them the most likely date as a firm commitment",
-      "Give a range: optimistic (10% chance), most likely (60% chance), and pessimistic (30% chance) dates",
+      "Three-tier range: optimistic (10%), most likely (60%), pessimistic (30%)",
       "Refuse to estimate at all",
       "Double the most likely estimate to be safe"
     ],
-    "answer": "Give a range: optimistic (10% chance), most likely (60% chance), and pessimistic (30% chance) dates",
+    "answer": "Three-tier range: optimistic (10%), most likely (60%), pessimistic (30%)",
     "explanation": "Single-point estimates create false certainty. A three-tier range acknowledges uncertainty, forces thinking about the full distribution of outcomes, and provides decision-makers with the probabilistic information they need to plan.",
     "difficulty": "hard"
   }

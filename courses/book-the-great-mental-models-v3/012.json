@@ -19,11 +19,11 @@
     "description": "An experienced doctor in an emergency room quickly assesses a patient and makes a treatment decision in seconds based on pattern recognition rather than exhaustive testing. What are they using?",
     "options": [
       "A detailed diagnostic algorithm",
-      "A heuristic \u2014 a rapid mental shortcut based on experience that is fast but not guaranteed correct",
+      "A heuristic \u2014 a rapid mental shortcut that is fast but not guaranteed correct",
       "A power law prediction model",
       "A sampling-based statistical inference"
     ],
-    "answer": "A heuristic \u2014 a rapid mental shortcut based on experience that is fast but not guaranteed correct",
+    "answer": "A heuristic \u2014 a rapid mental shortcut that is fast but not guaranteed correct",
     "explanation": "Heuristics trade certainty for speed. In the ER, speed can be life-saving. The doctor\u2019s shortcut may occasionally be wrong, but it is faster than running through the full diagnostic algorithm.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Amazon\u2019s fulfillment network uses exact optimization algorithms to route packages globally. But when a warehouse conveyor breaks unexpectedly, managers use rules of thumb like \u201cprioritize high-velocity lanes\u201d instead of waiting for a recalculated algorithm. Why?",
     "options": [
       "The managers are ignoring the company\u2019s standard operating procedures",
-      "During unexpected disruptions, there is no time to compute the optimal solution \u2014 heuristics provide fast, good-enough decisions",
+      "During disruptions, heuristics offer fast, good-enough decisions when optimal computation is infeasible",
       "Amazon has not invested enough in automation",
       "Conveyor breakdowns are too rare to need algorithmic solutions"
     ],
-    "answer": "During unexpected disruptions, there is no time to compute the optimal solution \u2014 heuristics provide fast, good-enough decisions",
+    "answer": "During disruptions, heuristics offer fast, good-enough decisions when optimal computation is infeasible",
     "explanation": "Algorithms are optimal but slow to compute. During disruptions requiring immediate action, heuristics fill the gap. The skill is knowing which situations demand algorithmic precision and which accept heuristic speed.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "An airline pre-flight checklist is followed exactly the same way every time, with no shortcuts or skipping steps. Why are heuristic shortcuts inappropriate here?",
     "options": [
       "Pilots are not trained to use heuristics",
-      "The cost of an error is catastrophic (plane crash), so the guarantee of correctness from an algorithm is essential",
+      "The cost of an error is catastrophic, so an algorithm's guarantee of correctness is essential",
       "Checklists are required by regulations but are not operationally necessary",
       "Heuristics would be faster but pilots prefer checklists out of habit"
     ],
-    "answer": "The cost of an error is catastrophic (plane crash), so the guarantee of correctness from an algorithm is essential",
+    "answer": "The cost of an error is catastrophic, so an algorithm's guarantee of correctness is essential",
     "explanation": "When failure cost is extreme, algorithmic procedures are mandatory. The time saved by a heuristic is not worth the increased risk of a fatal mistake.",
     "difficulty": "medium"
   },

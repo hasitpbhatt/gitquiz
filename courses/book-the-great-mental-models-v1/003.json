@@ -5,11 +5,11 @@
     "description": "A colleague claims expertise in quantum computing investing because they once read a book on physics. According to the Circle of Competence model, what is missing from their claim?",
     "options": [
       "They need a PhD in quantum physics",
-      "Genuine expertise requires rigorous study, hands-on experience, and skin in the game — not just casual reading",
+      "Genuine expertise requires rigorous study, hands-on experience, and skin in the game",
       "Anyone can invest in any field with enough confidence",
       "Quantum computing is too complex for anyone to understand"
     ],
-    "answer": "Genuine expertise requires rigorous study, hands-on experience, and skin in the game — not just casual reading",
+    "answer": "Genuine expertise requires rigorous study, hands-on experience, and skin in the game",
     "explanation": "A true Circle of Competence is earned through deep, documented experience and feedback loops. Casual exposure or reading alone does not qualify. You must have tested your knowledge against reality through repeated, high-stakes application.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A novice investor manages a small portfolio well. They are offered a chance to invest in a complex derivatives strategy they do not fully understand. What should guide their decision?",
     "options": [
       "Their small portfolio size means they have little to lose",
-      "The clarity of their boundary — they should decline because derivatives sit outside their known competence",
+      "The clarity of their boundary — decline because derivatives sit outside known competence",
       "They should invest because the potential returns are high",
       "They should ask their wealthy friend for advice"
     ],
-    "answer": "The clarity of their boundary — they should decline because derivatives sit outside their known competence",
+    "answer": "The clarity of their boundary — decline because derivatives sit outside known competence",
     "explanation": "Knowing the exact edge of your competence is more important than the size of your circle. Charlie Munger and Warren Buffett emphasize that the boundary — not the area — is the critical safeguard.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A fund manager is pressured to buy cryptocurrency for clients because competitors are making huge profits. The manager admits they do not deeply understand blockchain valuation. What principle does their honesty reflect?",
     "options": [
       "Lack of ambition",
-      "Warren Buffett's principle of staying within one's Circle of Competence even when others profit outside it",
+      "Buffett's Circle of Competence — stay within it despite others' gains",
       "Risk aversion that leads to mediocrity",
       "Market timing strategy"
     ],
-    "answer": "Warren Buffett's principle of staying within one's Circle of Competence even when others profit outside it",
+    "answer": "Buffett's Circle of Competence — stay within it despite others' gains",
     "explanation": "Buffett sat out the Dot-Com boom while being heavily criticized. When the bubble burst, Berkshire Hathaway emerged unscathed. The principle: resist the pressure to operate outside your competence, no matter how tempting the short-term gains.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A startup CEO pressures the engineering team to add a complex AI feature that the team has never built before, six weeks before a major demo. The engineers comply despite knowing the risks. What historical disaster parallels this situation?",
     "options": [
       "The Maginot Line",
-      "The Vasa warship — building outside your circle of competence out of pressure from above",
+      "The Vasa warship — built outside competence due to pressure from above",
       "The Cuban Missile Crisis",
       "The LTCM hedge fund collapse"
     ],
-    "answer": "The Vasa warship — building outside your circle of competence out of pressure from above",
+    "answer": "The Vasa warship — built outside competence due to pressure from above",
     "explanation": "The Vasa sank because the shipwrights built outside their competence due to royal pressure. Similarly, engineers pressured to deliver features beyond their expertise risk catastrophic failure. Knowing when to say no is a critical competence boundary skill.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A famous heart surgeon decides to launch a hedge fund, believing their intelligence and discipline guarantee success in finance. What pitfall does this represent?",
     "options": [
       "The Dunning-Kruger effect",
-      "Competence creep — mistaking success in one domain for expertise in an unrelated field",
+      "Competence creep — domain success mistaken for unrelated expertise",
       "Impostor syndrome",
       "The Peter Principle"
     ],
-    "answer": "Competence creep — mistaking success in one domain for expertise in an unrelated field",
+    "answer": "Competence creep — domain success mistaken for unrelated expertise",
     "explanation": "Competence creep occurs when excellence in one area creates an illusion of universal competence. An elite surgeon's skills do not transfer to venture capital or finance. True competence in a new domain requires dedicated, domain-specific feedback loops.",
     "difficulty": "hard"
   },

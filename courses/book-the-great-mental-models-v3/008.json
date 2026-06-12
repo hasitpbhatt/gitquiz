@@ -4,12 +4,12 @@
     "content": "As additional units of a variable input are added to a fixed factor of production, the marginal output from each additional unit will eventually decrease.",
     "description": "A farmer applies fertilizer to a field. The first bag increases yield by 30 bushels, the second by 20 bushels, the third by 10 bushels, and the fourth by 2 bushels. What economic principle does this demonstrate?",
     "options": [
-      "The law of diminishing returns \u2014 each additional unit of input produces less marginal output",
+      "Diminishing returns \u2014 each additional input yields less marginal output",
       "Reinforcing feedback in agricultural systems",
       "The margin of safety in fertilizer application",
       "Churn in soil nutrient levels"
     ],
-    "answer": "The law of diminishing returns \u2014 each additional unit of input produces less marginal output",
+    "answer": "Diminishing returns \u2014 each additional input yields less marginal output",
     "explanation": "With land fixed (the constraint), each additional bag of fertilizer yields less incremental benefit. Eventually, adding more fertilizer would actually reduce yield.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A project behind schedule adds 10 more developers. Instead of accelerating, completion time increases due to coordination meetings, merge conflicts, and onboarding. What concept explains this?",
     "options": [
       "The developers were not skilled enough",
-      "Hiring can experience negative marginal returns due to coordination overhead overwhelming any additional capacity",
+      "Negative returns from hiring when coordination costs exceed added capacity",
       "The project should have been cancelled",
       "More project managers were needed"
     ],
-    "answer": "Hiring can experience negative marginal returns due to coordination overhead overwhelming any additional capacity",
+    "answer": "Negative returns from hiring when coordination costs exceed added capacity",
     "explanation": "Diminishing returns can go negative. Adding people to a late project increases communication paths (n(n-1)/2), creating more overhead than productive work \u2014 Brooks\u2019 Law in action.",
     "difficulty": "hard"
   },
@@ -47,11 +47,11 @@
     "description": "A student studies for 8 hours straight for an exam. The first 3 hours are highly productive, hours 4-5 show declining comprehension, and hours 6-8 result in rereading the same paragraphs without retention. What would be a better approach?",
     "options": [
       "Study 10 hours to compensate for the low-productivity hours",
-      "Study in focused blocks with breaks \u2014 recognizing that marginal returns diminish sharply after peak focus duration",
+      "Study in focused blocks with breaks to avoid diminishing returns from fatigue",
       "Drink caffeine to extend productive study time",
       "Only study the easy topics during long sessions"
     ],
-    "answer": "Study in focused blocks with breaks \u2014 recognizing that marginal returns diminish sharply after peak focus duration",
+    "answer": "Study in focused blocks with breaks to avoid diminishing returns from fatigue",
     "explanation": "Beyond a certain threshold, additional study time yields zero or negative returns. The optimal approach is shorter, focused sessions where marginal returns remain high.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A startup scales its Google Ads daily budget from $100 to $5,000. Initially, cost per acquisition was $20. At $5,000/day, CPA rises to $150. What causes this?",
     "options": [
       "Google is overcharging them",
-      "The highest-intent audience converts first; scaling forces targeting lower-intent users with diminishing returns",
+      "Scaling ads exhausts the highest-intent audience, then hits diminishing returns",
       "The ad creative is getting stale and needs to be refreshed",
       "Their landing page conversion rate is declining"
     ],
-    "answer": "The highest-intent audience converts first; scaling forces targeting lower-intent users with diminishing returns",
+    "answer": "Scaling ads exhausts the highest-intent audience, then hits diminishing returns",
     "explanation": "Advertising platforms bid for audience segments. The first dollars capture those actively searching \u2014 high intent. As budget scales, the system reaches people who are less interested, driving CPA up as marginal returns fall.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "Your sales team makes 100 calls per day and closes 10 deals. When they make 200 calls, they close 15 deals. When they make 300 calls, they close 16 deals. According to the threshold rule, what should you do?",
     "options": [
       "Push the team to make 400 calls to get more deals",
-      "Keep calling volume at around 200 and invest remaining effort into improving conversion rate or lead quality",
+      "Keep calls at ~200 and redirect effort to improving conversion rate or lead quality",
       "Reduce calling to 100 since the additional calls are wasted",
       "Fire underperforming salespeople and hire better ones"
     ],
-    "answer": "Keep calling volume at around 200 and invest remaining effort into improving conversion rate or lead quality",
+    "answer": "Keep calls at ~200 and redirect effort to improving conversion rate or lead quality",
     "explanation": "The first 100 calls produce 10 deals (0.10/deal). The next 100 produce 5 (0.05/deal). The next 100 produce 1 (0.01/deal). Beyond 200 calls, the marginal return is negligible \u2014 pivot resources elsewhere.",
     "difficulty": "hard"
   },

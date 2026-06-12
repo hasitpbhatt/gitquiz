@@ -20,10 +20,10 @@
     "options": [
       "Users do not care about privacy",
       "The company has excellent public relations",
-      "Network effects and user base mass create an inertia of motion that resists deceleration",
+      "Network effects and user base mass create an inertia of motion that resists",
       "Regulatory fines are too small to matter"
     ],
-    "answer": "Network effects and user base mass create an inertia of motion that resists deceleration",
+    "answer": "Network effects and user base mass create an inertia of motion that resists",
     "explanation": "Once a platform reaches critical mass, its own momentum carries it forward. New users join because existing users are there. This inertia of motion makes it extremely difficult to halt or redirect, regardless of external shocks.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A value investor refuses to buy a stock that has already doubled, believing it is 'too late.' The stock doubles again in the next year. What mental model could have predicted this continued rise?",
     "options": [
       "Mean reversion — what goes up must come down",
-      "Inertia of motion — once an asset gains momentum, it tends to continue until acted upon by a strong counterforce",
+      "once an asset gains momentum, it tends to continue until acted upon by a strong counterforce",
       "The efficient market hypothesis — all information is already priced in",
       "Loss aversion — investors are afraid of buying at the top"
     ],
-    "answer": "Inertia of motion — once an asset gains momentum, it tends to continue until acted upon by a strong counterforce",
+    "answer": "once an asset gains momentum, it tends to continue until acted upon by a strong counterforce",
     "explanation": "Momentum is a real force in markets. Once a trend is established — driven by capital inflows, analyst coverage, and investor enthusiasm — it takes significant contrary force to stop it. Betting against momentum without a clear catalyst is fighting inertia.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A CEO sends a strongly worded email about reducing bureaucracy but sees no change in decision-making speed six months later. What went wrong?",
     "options": [
       "The CEO did not follow up with enough emails to reinforce the message",
-      "Rhetorical force cannot change entrenched processes — structural changes to hierarchies and incentives are required",
+      "structural changes to hierarchies and incentives are required",
       "Middle managers actively sabotaged the CEO's directive",
       "Bureaucracy is an unavoidable feature of any large organization"
     ],
-    "answer": "Rhetorical force cannot change entrenched processes — structural changes to hierarchies and incentives are required",
+    "answer": "structural changes to hierarchies and incentives are required",
     "explanation": "Inertia is proportional to mass. Entrenched bureaucracy has high social mass accumulated over years. A single email is negligible force. Structural change requires structural force: redesigning systems, realigning incentives, and physically removing friction points.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A car manufacturer has been building large SUVs for twenty years. Despite launching a small electric car division, 95% of revenue still comes from large trucks. What principle explains this persistence?",
     "options": [
       "The small car division lacks marketing budget",
-      "The company's trajectory is determined by the inertia of its core business — the EV division is too small a force to redirect the entire organizational mass",
+      "the EV division is too small a force to redirect the entire organizational mass",
       "Customers do not want small electric cars from this brand",
       "Electric cars are not profitable for the company"
     ],
-    "answer": "The company's trajectory is determined by the inertia of its core business — the EV division is too small a force to redirect the entire organizational mass",
+    "answer": "the EV division is too small a force to redirect the entire organizational mass",
     "explanation": "An organization's trajectory is the vector of its total mass. A small division is a minor force that cannot significantly redirect a large, moving organization. Truly changing direction requires applying force proportional to the entire mass, not just adding a side project.",
     "difficulty": "hard"
   }

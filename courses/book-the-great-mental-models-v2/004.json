@@ -5,11 +5,11 @@
     "description": "Two founders work equally hard. Founder A builds a software product that serves 10,000 customers with a team of 10. Founder B runs a consulting firm serving 20 clients with a team of 50. What explains the difference in output?",
     "options": [
       "Founder A is a more talented programmer",
-      "Founder A built a product with code leverage that scales without proportional increases in labor",
+      "Founder A built a product with code leverage that scales without proportional",
       "Founder B chose a less profitable industry",
       "Founder A had more venture capital funding"
     ],
-    "answer": "Founder A built a product with code leverage that scales without proportional increases in labor",
+    "answer": "Founder A built a product with code leverage that scales without proportional",
     "explanation": "Code is a high-leverage asset: once written, software can serve millions of users at near-zero marginal cost. Consulting is labor-leverage: each additional client requires proportional human time. The leverage multiplier determines how much output you get per unit of input force.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A YouTuber spends 40 hours producing a video that gets 2 million views. A consultant spends 40 hours advising a single client. What accounts for the vastly different reach?",
     "options": [
       "The YouTuber is more talented at content creation",
-      "Media leverage — the video replicates at zero marginal cost, while the consultant's time is inherently one-to-one",
+      "the video replicates at zero marginal cost, while the consultant's time is inherently",
       "The consultant should switch careers to content creation",
       "YouTube's algorithm promotes videos regardless of quality"
     ],
-    "answer": "Media leverage — the video replicates at zero marginal cost, while the consultant's time is inherently one-to-one",
+    "answer": "the video replicates at zero marginal cost, while the consultant's time is inherently",
     "explanation": "Media is a high-leverage asset. Content created once can reach millions with no additional time investment. The consultant's time is one-to-one — each additional hour of consulting requires exactly one hour of their life. The leverage multiplier determines the output per unit of input.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A product manager is trying to shift her team's focus from building features to improving reliability. Despite her efforts, the team keeps prioritizing new features. What would increase her torque on this decision?",
     "options": [
       "Work longer hours to personally fix reliability issues",
-      "Find a longer lever arm — align reliability with executive incentives, tie it to team OKRs, and give the team a direct reliability mandate",
+      "align reliability with executive incentives, tie it to team OKRs,",
       "Complain more loudly in team meetings about reliability",
       "Build a competing product that demonstrates the value of reliability"
     ],
-    "answer": "Find a longer lever arm — align reliability with executive incentives, tie it to team OKRs, and give the team a direct reliability mandate",
+    "answer": "align reliability with executive incentives, tie it to team OKRs,",
     "explanation": "Torque depends on both force and lever arm length. The PM's direct input (complaints, requests) is a short lever arm. Attaching reliability to executive OKRs and incentive structures is a much longer lever arm that multiplies the same input force.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A trader uses 10x leverage on a position. The stock moves 5% against him. His entire position is wiped out. What does this illustrate about leverage?",
     "options": [
       "The trader chose the wrong stock and should have done more research",
-      "Leverage amplifies both outcomes — a small loss on the underlying asset becomes a catastrophic loss for the leveraged position",
+      "a small loss on the underlying asset becomes a catastrophic loss for the leveraged position",
       "Stock trading is inherently too risky for individual investors",
       "The trader should have used 5x leverage instead of 10x"
     ],
-    "answer": "Leverage amplifies both outcomes — a small loss on the underlying asset becomes a catastrophic loss for the leveraged position",
+    "answer": "a small loss on the underlying asset becomes a catastrophic loss for the leveraged position",
     "explanation": "Leverage is a double-edged sword. It magnifies gains, but it also amplifies losses. The same mechanical advantage that allows a small force to lift a heavy load also means a small misstep can cause disproportionate damage. Respect the risk side of leverage.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Two salespeople work 50-hour weeks. One makes cold calls all day. The other builds a referral system, writes LinkedIn content, and creates automated email sequences. The second closes 5x more deals. What explains the difference?",
     "options": [
       "The second salesperson is naturally more persuasive on calls",
-      "The second salesperson uses media and system leverage — her output continues generating leads even when she is not actively working",
+      "her output continues generating leads even when she is not actively working",
       "Cold calling is an ineffective sales channel in any industry",
       "The first salesperson was assigned a worse territory"
     ],
-    "answer": "The second salesperson uses media and system leverage — her output continues generating leads even when she is not actively working",
+    "answer": "her output continues generating leads even when she is not actively working",
     "explanation": "Both work the same hours, but the second has built leverage assets (content, automated systems, referrals) that generate output continuously. The first is trading time for money directly. Leverage is what separates linear effort from exponential results.",
     "difficulty": "medium"
   },

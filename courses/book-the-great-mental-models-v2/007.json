@@ -19,11 +19,11 @@
     "description": "A startup's co-founders budget $50,000 per month for operations. They spend $200,000 in the first month on legal, branding, hiring, and setup. They panic about the overspend and cut back to $50,000 in month two. The project dies. What concept explains this?",
     "options": [
       "The founders overspent on non-essential items and should have been more frugal",
-      "The first month's $200,000 was the activation energy required; cutting back before the new equilibrium was established caused the project to collapse back to the starting state",
+      "The first month's $200,000 was the activation energy required; cutting back before the new equilibrium was",
       "The startup should have raised more money before launching",
       "The founders lacked financial discipline and are not suited to run a business"
     ],
-    "answer": "The first month's $200,000 was the activation energy required; cutting back before the new equilibrium was established caused the project to collapse back to the starting state",
+    "answer": "The first month's $200,000 was the activation energy required; cutting back before the new equilibrium was",
     "explanation": "The high initial cost was not waste — it was the activation energy needed to clear the barrier. Once the system is running in its new state, maintenance costs drop. Pulling energy before the barrier is fully crossed causes the system to revert to its original state, wasting all previous investment.",
     "difficulty": "medium"
   },
@@ -34,10 +34,10 @@
     "options": [
       "The CRM was not a good fit for the sales team's workflow",
       "The sales team was not disciplined enough to complete the training",
-      "The training investment crossed only 80% of the activation energy threshold — insufficient to trigger the permanent adoption reaction",
+      "insufficient to trigger the permanent adoption reaction",
       "CRMs are generally not useful for sales teams of this size"
     ],
-    "answer": "The training investment crossed only 80% of the activation energy threshold — insufficient to trigger the permanent adoption reaction",
+    "answer": "insufficient to trigger the permanent adoption reaction",
     "explanation": "Activation energy is all-or-nothing. Getting to 80% of the barrier does not give you 80% of the result — it gives you zero. All the energy invested in training is wasted because the new CRM habit never formed. You must cross the entire threshold or nothing happens.",
     "difficulty": "hard"
   },
@@ -48,10 +48,10 @@
     "options": [
       "The startup's product is not actually better than the legacy product",
       "The startup's marketing is ineffective",
-      "The status quo has high activation energy — customers must invest significant effort to switch, and the startup has not supplied enough energy to overcome it",
+      "customers must invest significant effort to switch,",
       "Legacy products always beat new entrants regardless of quality"
     ],
-    "answer": "The status quo has high activation energy — customers must invest significant effort to switch, and the startup has not supplied enough energy to overcome it",
+    "answer": "customers must invest significant effort to switch,",
     "explanation": "Existing solutions have already cleared their adoption barrier. Switching to a new solution requires the customer to invest activation energy — data migration, retraining, risk assessment. The startup must supply enough total energy (marketing, onboarding support, migration tools) to help customers cross that barrier.",
     "difficulty": "hard"
   },
@@ -62,10 +62,10 @@
     "options": [
       "The person became more disciplined and developed willpower",
       "The person found a more enjoyable form of exercise",
-      "The initial suffering was the activation energy; once the habit equilibrium was established, maintenance energy dropped significantly",
+      "The initial suffering was the activation energy; once the habit equilibrium was established,",
       "The body adapted to running and stopped producing pain signals"
     ],
-    "answer": "The initial suffering was the activation energy; once the habit equilibrium was established, maintenance energy dropped significantly",
+    "answer": "The initial suffering was the activation energy; once the habit equilibrium was established,",
     "explanation": "Habit formation follows an activation energy curve. The first week's misery is the energy required to break the old equilibrium (not running) and establish the new one (running daily). Once the new habit is stable, maintaining it requires much less conscious effort.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "A city launches a bike-sharing program. The planning documents assume ongoing costs but the first-month costs are projected to be only 2x the monthly maintenance. What is likely wrong with this plan?",
     "options": [
       "The plan is realistic because bike-sharing is simple to implement",
-      "The planners underestimated activation energy — infrastructure setup, permitting, public education, and station installation likely make the first month 5-10x the ongoing cost",
+      "infrastructure setup, permitting, public education, and station installation likely make the first month",
       "The project is overfunded and should be cheaper to launch",
       "First-month costs are irrelevant because the city can spread them over multiple years"
     ],
-    "answer": "The planners underestimated activation energy — infrastructure setup, permitting, public education, and station installation likely make the first month 5-10x the ongoing cost",
+    "answer": "infrastructure setup, permitting, public education, and station installation likely make the first month",
     "explanation": "Launching any new initiative has a fundamentally different cost structure than running it. Infrastructure, approvals, manufacturing tooling, training, and market education are all activation energy costs. Plans that assume a 2:1 launch-to-sustain ratio are almost certainly missing key activation costs.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A company spends six months implementing a new ERP system. When the project is 80% complete, leadership halts it to reallocate budget. A year later, the company is still on the old system. What happened to the six months of work?",
     "options": [
       "The company can resume the ERP project anytime and retain the 80% progress",
-      "The partial implementation was completely lost because the activation threshold was never crossed; the system reverted to baseline",
+      "The partial implementation was completely lost because the activation threshold was never",
       "The company saved money by halting the project",
       "The 80% completion delivered 80% of the benefits"
     ],
-    "answer": "The partial implementation was completely lost because the activation threshold was never crossed; the system reverted to baseline",
+    "answer": "The partial implementation was completely lost because the activation threshold was never",
     "explanation": "Activation energy is a cliff, not a slope. 80% across the barrier is the same as 0% — the reaction did not occur. The old system remains the equilibrium state. All the energy invested in the partial implementation is lost because the system reverted to its original state.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "An experienced leader takes over a struggling division. She requests triple the normal budget for the first quarter. Her boss questions why. What is the best justification?",
     "options": [
       "The division's struggles require more resources because the team is incompetent",
-      "The first quarter requires activation-level investment to break the current negative equilibrium; subsequent quarters will revert to normal maintenance levels",
+      "The first quarter requires activation-level investment to break the current negative equilibrium;",
       "Triple budget is standard for any leadership transition",
       "She wants to build a personal war chest for unforeseen emergencies"
     ],
-    "answer": "The first quarter requires activation-level investment to break the current negative equilibrium; subsequent quarters will revert to normal maintenance levels",
+    "answer": "The first quarter requires activation-level investment to break the current negative equilibrium;",
     "explanation": "The leader understands that turning around a struggling division requires crossing an activation energy barrier. She needs heavy upfront investment to break the current failing patterns, establish new processes, and build momentum. Once the division is running in its new state, normal maintenance budgets will suffice.",
     "difficulty": "medium"
   }

@@ -5,11 +5,11 @@
     "description": "Three different managers run the same inventory ordering system with the same rules and communication delays. All three produce the same erratic boom-bust ordering cycles. What principle does this demonstrate?",
     "options": [
       "All three managers are equally incompetent",
-      "The system's structure, not individual manager skill, drives the behavioral outcome",
+      "System structure, not individual skill, drives the behavioral outcome",
       "Inventory systems are inherently unpredictable",
       "Each manager independently chose the same bad strategy"
     ],
-    "answer": "The system's structure, not individual manager skill, drives the behavioral outcome",
+    "answer": "System structure, not individual skill, drives the behavioral outcome",
     "explanation": "This is the foundational principle of systems thinking: structure drives behavior. If the same structural conditions produce the same results regardless of who operates within them, the problem is structural, not personal.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "In MIT's Beer Distribution Game simulation, retailers, wholesalers, distributors, and factories all respond to a small, one-time increase in consumer demand by progressively over-ordering. This creates a massive inventory swing. What causes this behavior?",
     "options": [
       "The participants are not intelligent enough to make good decisions",
-      "Communication delays and long lead times in the system structure amplify small demand signals into large ordering swings",
+      "Long lead times and delays amplify small demand signals into ordering swings",
       "The beer market follows a power law distribution",
       "The simulation was designed to be impossible to win"
     ],
-    "answer": "Communication delays and long lead times in the system structure amplify small demand signals into large ordering swings",
+    "answer": "Long lead times and delays amplify small demand signals into ordering swings",
     "explanation": "The Beer Game shows that structural features — delayed information, long lead times, lack of visibility across tiers — cause the bullwhip effect. Smart individuals acting rationally within a poor structure still produce poor outcomes.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A call center rewards agents for minimizing call duration. Average call time drops, but customer satisfaction plummets and repeat calls increase. What went wrong?",
     "options": [
       "The agents are lazy and need better training",
-      "The incentive rewards fast calls, not satisfaction — agents optimize the metric, not the goal",
+      "Rewarding speed, not satisfaction — agents optimize the metric, not the goal",
       "Customers are becoming more demanding over time",
       "Call duration and satisfaction are naturally inversely correlated"
     ],
-    "answer": "The incentive rewards fast calls, not satisfaction — agents optimize the metric, not the goal",
+    "answer": "Rewarding speed, not satisfaction — agents optimize the metric, not the goal",
     "explanation": "Goodhart's Law in action: when a measure becomes a target, it ceases to be a good measure. The system structure (incentive on call duration) drives behavior (rushing customers) that undermines the true goal.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Hire even more talented engineers",
       "Replace the entire team",
-      "Audit the system structure: look at estimation practices, dependency chains, stakeholder interruption patterns, and communication silos",
+      "Audit estimation, dependencies, interruptions, and silos",
       "Increase the sprint length to give more time"
     ],
-    "answer": "Audit the system structure: look at estimation practices, dependency chains, stakeholder interruption patterns, and communication silos",
+    "answer": "Audit estimation, dependencies, interruptions, and silos",
     "explanation": "If performance is consistent across different team leads, the cause is structural, not personal. The Structural Overhaul Rule says to redesign the underlying system to make correct behavior the path of least resistance.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A company adjusts its marketing spend based on quarterly revenue reports. Because of the 3-month reporting delay, by the time they see a revenue drop and increase spend, the market has already recovered, causing wasteful overspend. What structural feature causes this?",
     "options": [
       "The marketing team is incompetent at forecasting",
-      "The 3-month information delay between action and feedback causes the company to react to outdated conditions, producing oscillation",
+      "The 3-month delay makes the company react to outdated info, causing oscillation",
       "The market is following a normal distribution",
       "Marketing spend has diminishing returns regardless of timing"
     ],
-    "answer": "The 3-month information delay between action and feedback causes the company to react to outdated conditions, producing oscillation",
+    "answer": "The 3-month delay makes the company react to outdated info, causing oscillation",
     "explanation": "Information delays are a structural feature. Shortening the feedback loop (e.g., real-time dashboards) reduces oscillation. The delay, not poor decision-making, is the root cause of the wasteful cycle.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A manufacturing company's procurement team buys raw materials in bulk to minimize per-unit cost. Meanwhile, the warehouse team runs out of storage space and the finance team struggles with cash flow. What structural issue is at play?",
     "options": [
       "The procurement team is not working hard enough",
-      "Each department optimizes its own metric (low procurement cost) without visibility into how it affects other departments' constraints",
+      "Each department optimizes its own metric in isolation",
       "The warehouse should be expanded immediately",
       "Bulk purchasing is always a bad strategy"
     ],
-    "answer": "Each department optimizes its own metric (low procurement cost) without visibility into how it affects other departments' constraints",
+    "answer": "Each department optimizes its own metric in isolation",
     "explanation": "Silos create local optimization that ignores global system effects. The structural fix is cross-functional visibility and shared metrics that align departmental incentives with overall system performance.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A 5% dip in retail sales causes a 10% order reduction at the wholesaler, a 25% reduction at the distributor, and a 40% production cut at the factory. What is this phenomenon?",
     "options": [
       "The factory is overreacting to normal market fluctuations",
-      "The bullwhip effect — structural amplification of demand signals through each supply chain tier due to information delays and safety stock policies",
+      "Bullwhip effect — delays amplify demand through the supply chain",
       "A normal distribution of inventory levels",
       "Critical mass in reverse — the system is collapsing"
     ],
-    "answer": "The bullwhip effect — structural amplification of demand signals through each supply chain tier due to information delays and safety stock policies",
+    "answer": "Bullwhip effect — delays amplify demand through the supply chain",
     "explanation": "Each tier adds safety stock buffers and reacts to order patterns rather than actual consumer demand. These structural features amplify small fluctuations. Solutions include information sharing and reducing lead times.",
     "difficulty": "hard"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Hire even more doctors and nurses to increase capacity",
       "Fire the department head and bring in new leadership",
-      "Map patient flow, identify structural bottlenecks (e.g., lab results take 2 hours, bed assignment is manual), and redesign the intake and handoff processes",
+      "Map patient flow, find structural bottlenecks, and redesign processes",
       "Reduce the number of patients admitted to the ER"
     ],
-    "answer": "Map patient flow, identify structural bottlenecks (e.g., lab results take 2 hours, bed assignment is manual), and redesign the intake and handoff processes",
+    "answer": "Map patient flow, find structural bottlenecks, and redesign processes",
     "explanation": "Adding more staff to a structurally flawed system only increases the chaos faster. The Structural Overhaul Rule requires analyzing the system architecture and removing structural barriers to performance.",
     "difficulty": "hard"
   }

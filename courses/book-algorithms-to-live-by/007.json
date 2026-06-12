@@ -18,12 +18,12 @@
     "content": "A dominant strategy is one that provides the best outcome for a player regardless of what the other players do.",
     "description": "You're invited to an event with ambiguous dress code ('come as you are'). Why might you choose to dress formally anyway?",
     "options": [
-      "Dressing up is never harmful and avoids the risk of being underdressed if others interpret the event as formal",
+      "Dressing up is never harmful and avoids the risk of being underdressed if",
       "You're trying to make a fashion statement",
       "The invitation secretly requires formal attire",
       "You've never owned casual clothing"
     ],
-    "answer": "Dressing up is never harmful and avoids the risk of being underdressed if others interpret the event as formal",
+    "answer": "Dressing up is never harmful and avoids the risk of being underdressed if",
     "explanation": "Dressing formally is a dominant strategy: if the event is casual, you're slightly overdressed but not inappropriate; if it's formal, you're correctly dressed. Casual attire risks being underdressed if others treat it as formal.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "A Vickrey auction (second-price sealed-bid) incentivizes bidders to bid their true maximum value because the winner pays the second-highest bid.",
     "description": "How do automated online auction systems prevent last-second bidding snipers from gaining an unfair advantage?",
     "options": [
-      "By using second-price auction mechanics where the winner pays the second-highest bid, not their own bid",
+      "By using second-price auction mechanics where the winner pays the second-highest",
       "By allowing only one bid per user",
       "By revealing all bids immediately as they come in",
       "By auctioning items only during business hours"
     ],
-    "answer": "By using second-price auction mechanics where the winner pays the second-highest bid, not their own bid",
+    "answer": "By using second-price auction mechanics where the winner pays the second-highest",
     "explanation": "In a Vickrey auction, bidding your true maximum is optimal regardless of when you bid. There's no benefit to waiting until the last second because you'll never pay more than the second-highest bid, making sniping ineffective.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "The Tragedy of the Commons occurs when individuals acting in self-interest deplete a shared limited resource, even when it's against everyone's long-term interest.",
     "description": "A shared office refrigerator becomes messy and spoiled food accumulates because nobody takes responsibility for cleaning it. What social dilemma does this illustrate?",
     "options": [
-      "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the collective mess",
+      "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the",
       "The refrigerator's cooling system is broken",
       "Someone is deliberately sabotaging the refrigerator",
       "The office has hired maids who are not doing their job"
     ],
-    "answer": "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the collective mess",
+    "answer": "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the",
     "explanation": "Each person reasons that's not their responsibility to clean, saving themselves effort. But when everyone thinks this way, the refrigerator becomes unusable for all - a classic Tragedy of the Commons scenario.",
     "difficulty": "hard"
   },

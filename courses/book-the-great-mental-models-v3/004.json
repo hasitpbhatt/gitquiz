@@ -103,11 +103,11 @@
     "description": "A financial advisor recommends keeping 6 months of living expenses in cash rather than investing it in the stock market. According to the margin of safety principle, why?",
     "options": [
       "Cash always earns a better return than stocks in the short term",
-      "The cash buffer protects against forced asset sales during a market downturn when you lose your job simultaneously",
+      "Cash buffer prevents forced asset sales during a simultaneous downturn and job loss",
       "Investing in stocks is too risky for any purpose",
       "The advisor does not understand investing"
     ],
-    "answer": "The cash buffer protects against forced asset sales during a market downturn when you lose your job simultaneously",
+    "answer": "Cash buffer prevents forced asset sales during a simultaneous downturn and job loss",
     "explanation": "Without the cash buffer, a job loss during a bear market would force selling investments at depressed prices \u2014 precisely the worst time. The margin of safety prevents this double hit.",
     "difficulty": "medium"
   }

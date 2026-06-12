@@ -4,12 +4,12 @@
     "content": "Overfitting occurs when a model learns the training data too well, including noise and random fluctuations, resulting in poor generalization to new data.",
     "description": "A startup is optimizing its product based solely on feedback from its most vocal power user. What risk does this approach pose?",
     "options": [
-      "The product may become overfitted to that user's specific needs, making it less appealing to the broader market",
+      "The product may become overfitted to that user's specific needs,",
       "The startup will definitely succeed because they're listening to a user",
       "Power users never represent the broader market",
       "The product will be perfect for everyone"
     ],
-    "answer": "The product may become overfitted to that user's specific needs, making it less appealing to the broader market",
+    "answer": "The product may become overfitted to that user's specific needs,",
     "explanation": "Just like in machine learning, optimizing too narrowly to one data point (or user) captures that user's peculiarities rather than general patterns. The product may work perfectly for that user but fail to appeal to others with different needs.",
     "difficulty": "medium"
   },
@@ -18,12 +18,12 @@
     "content": "Regularization techniques add a penalty for model complexity to prevent overfitting, encouraging simpler models that generalize better.",
     "description": "A web designer is considering removing decorative animations and complex interactions from an interface to improve usability. What principle are they applying?",
     "options": [
-      "Regularization - removing unnecessary complexity to improve general usability and performance",
+      "Regularization - removing unnecessary complexity to improve general usability and",
       "Always adding more features makes things better",
       "Users prefer the most complex possible interface",
       "Animation is never problematic"
     ],
-    "answer": "Regularization - removing unnecessary complexity to improve general usability and performance",
+    "answer": "Regularization - removing unnecessary complexity to improve general usability and",
     "explanation": "Like L1/L2 regularization in machine learning that penalizes complexity, the designer is applying Occam's Razor principle: preferring simpler solutions that work well over complex ones that may be brittle or confusing to most users.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "Constraint relaxation involves temporarily removing or loosening a problem's constraints to find a solution, then adapting that solution back to the original constraints.",
     "description": "A's project is stalled because of a rigid budget limit that's preventing purchase of a critical software license. What approach could help?",
     "options": [
-      "Temporarily ease the budget constraint to explore solutions, then adjust the findings to fit the original limit",
+      "Temporarily ease the budget constraint to explore solutions,",
       "Abandon the project immediately because of the budget constraint",
       "Ignore the budget constraint completely and overspend",
       "Hope the constraint disappears on its own"
     ],
-    "answer": "Temporarily ease the budget constraint to explore solutions, then adjust the findings to fit the original limit",
+    "answer": "Temporarily ease the budget constraint to explore solutions,",
     "explanation": "Like relaxation techniques in optimization, temporarily loosening a constraint can reveal solution paths that are invisible when the constraint is held strictly. The relaxed solution can then be adapted or projected back to fit the original constraints.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Continuous relaxation replaces discrete or integer variables with continuous ones to make a problem tractable, then rounds or adjusts the solution.",
     "description": "You're planning a multi-city trip and want to minimize travel time. How could continuous relaxation help?",
     "options": [
-      "Treat travel times as flexible blocks that can be adjusted, then fix them to specific schedules afterward",
+      "Treat travel times as flexible blocks that can be adjusted,",
       "Only visit cities that are alphabetically consecutive",
       "Always take the longest possible route between cities",
       "Never plan any trips because they're too complex"
     ],
-    "answer": "Treat travel times as flexible blocks that can be adjusted, then fix them to specific schedules afterward",
+    "answer": "Treat travel times as flexible blocks that can be adjusted,",
     "explanation": "Instead of agonizing over exact minute-by-minute scheduling, treat time allocations as adjustable blocks. Find a good overall distribution, then refine to specific times - similar to how integer programming uses continuous relaxation.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "\"Gradually, then Suddenly\" shifts describe systems where incremental changes accumulate until reaching a tipping point that triggers abrupt, large-scale change.",
     "description": "You've noticed increasing friction in a work approval process where each step requires slightly more documentation. What might happen eventually?",
     "options": [
-      "Small increases in required documentation could eventually cause massive backlogs and process gridlock",
+      "Small increases in required documentation could eventually cause massive backlogs and",
       "The process will become perfectly efficient over time",
       "People will stop working altogether immediately",
       "The documentation will spontaneously disappear"
     ],
-    "answer": "Small increases in required documentation could eventually cause massive backlogs and process gridlock",
+    "answer": "Small increases in required documentation could eventually cause massive backlogs and",
     "explanation": "Like phase transitions in physics, gradual increases in friction or requirements can accumulate until a critical threshold is reached, after which the system behavior changes dramatically and suddenly - often to a much worse state.",
     "difficulty": "hard"
   },

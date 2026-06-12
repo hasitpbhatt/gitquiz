@@ -47,11 +47,11 @@
     "description": "You have 5,000 PDFs of analyst research reports. You want to extract the 'Price Target' from each. What is the most efficient GenAI approach?",
     "options": [
       "Manually open every PDF and type the numbers into Excel.",
-      "Use an LLM with OCR (Optical Character Recognition) capabilities to identify and extract the price target field into a structured table.",
+      "Use an LLM with OCR to identify and extract the price target field into a structured table.",
       "Run a keyword search for the word 'Price' and hope for the best.",
       "Train a model from scratch to recognize the font used by analysts."
     ],
-    "answer": "Use an LLM with OCR (Optical Character Recognition) capabilities to identify and extract the price target field into a structured table.",
+    "answer": "Use an LLM with OCR to identify and extract the price target field into a structured table.",
     "explanation": "GenAI is highly effective at 'schema extraction'—finding specific pieces of data within unstructured text and organizing them for quantitative analysis.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "You want to analyze a 200-page merger agreement. The document exceeds your model's context window. What is the best strategy?",
     "options": [
       "Delete the middle 100 pages and hope they aren't important.",
-      "Use a 'Chunking' strategy: break the document into smaller sections, process each, and then summarize the summaries.",
+      "Chunk the document into smaller sections, process each, then summarize the results.",
       "Wait for a more powerful model to be invented next year.",
       "Read the first page and the last page only."
     ],
-    "answer": "Use a 'Chunking' strategy: break the document into smaller sections, process each, and then summarize the summaries.",
+    "answer": "Chunk the document into smaller sections, process each, then summarize the results.",
     "explanation": "Chunking allows you to process massive documents systematically without hitting the technical limits of the model's memory.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "You notice your trading bot is consistently buying on 'neutral' news during a market crash. What is the most likely cause?",
     "options": [
       "The bot is smarter than the market.",
-      "Training data bias; the model hasn't seen enough 'crash' scenarios to recognize true bearishness.",
+      "Training data bias: the model lacks enough crash scenarios to recognize bearish signals.",
       "The internet connection is slow.",
       "The model is trying to be helpful and cheer you up."
     ],
-    "answer": "Training data bias; the model hasn't seen enough 'crash' scenarios to recognize true bearishness.",
+    "answer": "Training data bias: the model lacks enough crash scenarios to recognize bearish signals.",
     "explanation": "Models are products of their training data. If the data is skewed toward growth and optimism, the model's 'judgment' will be similarly skewed unless corrected.",
     "difficulty": "medium"
   }

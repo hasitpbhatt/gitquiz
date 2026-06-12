@@ -29,6 +29,7 @@ dirs.forEach(dir => {
     if (!Array.isArray(data)) { errs.push(f + ': not an array'); return; }
     if (data.length < 7 || data.length > 12) errs.push(f + ': ' + data.length + ' questions (need 7-12)');
     total += data.length;
+    let chShortest = 0, chLongest = 0, chTotal = 0;
 
     data.forEach((q, idx) => {
       const qi = idx + 1;
@@ -46,20 +47,27 @@ dirs.forEach(dir => {
       if (q.answer && q.options && Array.isArray(q.options) && !q.options.includes(q.answer))
         errs.push(f + ' Q' + qi + ': answer not in options. Answer="' + q.answer + '"');
 
-      // Answer length bias check (warning only — not a hard error)
+      // Detect if correct answer is consistently shortest or longest (heuristic)
       if (q.answer && Array.isArray(q.options) && q.options.length === 4) {
+        const lengths = q.options.map(o => o.length);
         const answerLen = q.answer.length;
-        const otherLens = q.options.filter(o => o !== q.answer).map(o => o.length);
-        if (otherLens.length === 3) {
-          const otherMax = Math.max(...otherLens);
-          const otherMean = otherLens.reduce((a, b) => a + b, 0) / 3;
-          if (answerLen > 60 && answerLen > otherMax * 1.5 && answerLen > otherMean + 50) {
-            const diff = (answerLen - otherMean).toFixed(0);
-            errs.push(f + ' Q' + qi + ': WARNING — answer length bias (+' + diff + ' chars vs mean of other options)');
-          }
-        }
+        const minLen = Math.min(...lengths);
+        const maxLen = Math.max(...lengths);
+        const uniqueMin = lengths.filter(l => l === minLen).length === 1;
+        const uniqueMax = lengths.filter(l => l === maxLen).length === 1;
+        if (uniqueMin && answerLen === minLen) chShortest++;
+        else if (uniqueMax && answerLen === maxLen) chLongest++;
+        chTotal++;
       }
     });
+    if (chTotal > 0) {
+      const shortestPct = (chShortest / chTotal * 100).toFixed(0);
+      const longestPct = (chLongest / chTotal * 100).toFixed(0);
+      if (chShortest > chTotal / 2)
+        errs.push(f + ': HEURISTIC — answer is shortest in ' + chShortest + '/' + chTotal + ' (' + shortestPct + '%)');
+      if (chLongest > chTotal / 2)
+        errs.push(f + ': HEURISTIC — answer is longest in ' + chLongest + '/' + chTotal + ' (' + longestPct + '%)');
+    }
   });
 
   if (errs.length > 0) {

@@ -19,11 +19,11 @@
     "description": "Your bot keeps buying a stock every time a specific influencer tweets 'This company is fire!' (slang for great), but the stock price is actually falling. How do you debug this?",
     "options": [
       "Rewrite the entire Python script from scratch.",
-      "Check the LLM logs to see if it interpreted 'fire' as a literal disaster or a positive recommendation.",
+      "Check the LLM logs to see if it interpreted 'fire' as a disaster or a positive recommendation.",
       "Assume the influencer is wrong and unfollow them.",
       "Increase the trading volume to force the price up."
     ],
-    "answer": "Check the LLM logs to see if it interpreted 'fire' as a literal disaster or a positive recommendation.",
+    "answer": "Check the LLM logs to see if it interpreted 'fire' as a disaster or a positive recommendation.",
     "explanation": "In custom strategies, 'Semantic Debugging' is key. You need to see the AI's internal reasoning to know if it's failing because of its language model or because of your trading rules.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "Why is it better to force your LLM to output `{\"action\": \"BUY\", \"size\": 100}` rather than 'I think you should buy 100 shares'?",
     "options": [
       "JSON is more professional than English.",
-      "It allows your execution script to reliably 'grab' the values and act on them without the risk of misinterpreting the AI's grammar.",
+      "It lets your execution script reliably grab the values and act without misinterpreting grammar.",
       "JSON takes up less space on your hard drive.",
       "AI models are naturally better at math if they use curly braces."
     ],
-    "answer": "It allows your execution script to reliably 'grab' the values and act on them without the risk of misinterpreting the AI's grammar.",
+    "answer": "It lets your execution script reliably grab the values and act without misinterpreting grammar.",
     "explanation": "Trading scripts need precision. Structured data (JSON) eliminates the ambiguity of natural language, making the bridge between the AI's 'thought' and the broker's 'API' robust.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "State management involves keeping track of what the bot is currently doing (e.g., 'Currently holding 50 shares of TSLA'). Without proper state management, a bot might 'forget' it already bought a stock and keep buying it over and over every time the news repeats.",
     "description": "Your bot receives the same 'Positive' news headline three times from three different sources. How do you prevent it from triple-buying the stock?",
     "options": [
-      "Use a 'State Database' to track that an order has already been placed for this news event/ticker.",
+      "Use a 'State Database' to track if an order was already placed for this news event.",
       "Tell the AI to only buy things once.",
       "Disconnect two of the news sources.",
       "Program the bot to only trade once per day."
     ],
-    "answer": "Use a 'State Database' to track that an order has already been placed for this news event/ticker.",
+    "answer": "Use a 'State Database' to track if an order was already placed for this news event.",
     "explanation": "A trading bot must have a 'memory' of its own actions. By checking its current 'State' (positions and recent orders), it can avoid redundant and expensive mistakes.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "You notice your pipeline latency has jumped from 200ms to 4000ms (4 seconds). What is the most likely culprit in a GenAI pipeline?",
     "options": [
       "The price of the stock increased.",
-      "The LLM provider is experiencing slow response times or your prompt has become too long.",
+      "The LLM provider is slow or the prompt is too long.",
       "The Python script is bored.",
       "The market has more traders than usual."
     ],
-    "answer": "The LLM provider is experiencing slow response times or your prompt has become too long.",
+    "answer": "The LLM provider is slow or the prompt is too long.",
     "explanation": "The LLM is almost always the 'bottleneck' in a GenAI pipeline. Monitoring this specific latency helps you decide when to switch to a faster model or optimize your prompt.",
     "difficulty": "hard"
   }

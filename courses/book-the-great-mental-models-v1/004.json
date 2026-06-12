@@ -5,11 +5,11 @@
     "description": "Your team is designing a new delivery service. Instead of studying competitors and copying their model, you ask: \"What is the fundamental physics of moving a package from point A to point B?\" What thinking approach is this?",
     "options": [
       "Competitive benchmarking",
-      "First principles thinking — decomposing to foundational truths and building up",
+      "First principles thinking — decompose to foundational truths and build up",
       "Reverse engineering",
       "Trial and error experimentation"
     ],
-    "answer": "First principles thinking — decomposing to foundational truths and building up",
+    "answer": "First principles thinking — decompose to foundational truths and build up",
     "explanation": "First principles thinking starts with what is undeniably true (physics, geometry, fundamental constraints) and builds a solution from there, rather than copying existing solutions with minor tweaks.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A young company sets its pricing by looking at what competitors charge and charging 10% less. What mode of thinking does this represent?",
     "options": [
       "First principles thinking",
-      "Reasoning by analogy — copying existing approaches with minor tweaks instead of rebuilding from fundamentals",
+      "Reasoning by analogy — copy existing approaches with minor tweaks",
       "Bayesian updating",
       "Inversion"
     ],
-    "answer": "Reasoning by analogy — copying existing approaches with minor tweaks instead of rebuilding from fundamentals",
+    "answer": "Reasoning by analogy — copy existing approaches with minor tweaks",
     "explanation": "Reasoning by analogy is the default mode: see what others do, then copy with small changes. It's efficient but preserves all the hidden assumptions and inefficiencies embedded in the existing approach.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A startup's software project is estimated to cost $500,000 using a standard cloud provider. The founder breaks down the actual computing power needed and finds bare-metal hardware costs would be $20,000. What model does this illustrate?",
     "options": [
       "Economies of scale",
-      "First principles thinking — deconstructing cost to raw fundamentals instead of accepting industry pricing by analogy",
+      "First principles — deconstruct cost to fundamentals, not industry pricing",
       "Loss leader pricing strategy",
       "The map is not the territory"
     ],
-    "answer": "First principles thinking — deconstructing cost to raw fundamentals instead of accepting industry pricing by analogy",
+    "answer": "First principles — deconstruct cost to fundamentals, not industry pricing",
     "explanation": "Like Musk's rocket cost analysis, the founder broke the problem to its raw components instead of accepting industry-standard pricing. By questioning every cost assumption, they found a dramatically cheaper path.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A chef creates a breakthrough kitchen tool by combining a syringe mechanism from medical devices with a heating element from laboratory equipment. What principle does this lateral combination reflect?",
     "options": [
       "Incremental improvement of an existing tool",
-      "First principles deconstruction — identifying core components and recombining solutions from unrelated domains",
+      "First principles — recombine components from different domains",
       "Trial and error without any underlying framework",
       "Accidental discovery"
     ],
-    "answer": "First principles deconstruction — identifying core components and recombining solutions from unrelated domains",
+    "answer": "First principles — recombine components from different domains",
     "explanation": "Gutenberg didn't improve the quill — he decomposed text reproduction into fundamental components and borrowed solutions from unrelated fields. This is the essence of first principles innovation: recombine at the component level.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "An executive argues: \"We must keep physical retail stores because people will always want to browse products in person.\" How would a first principles thinker evaluate this claim?",
     "options": [
       "Accept it as an undeniable truth about human nature",
-      "Identify it as a social convention, not a physical law — people shop in person because of current habits and infrastructure, not immutable physics",
+      "Convention, not physical law — habits and infrastructure change, physics doesn't",
       "Invest more in retail stores to prove the executive right",
       "Close all stores immediately without analysis"
     ],
-    "answer": "Identify it as a social convention, not a physical law — people shop in person because of current habits and infrastructure, not immutable physics",
+    "answer": "Convention, not physical law — habits and infrastructure change, physics doesn't",
     "explanation": "First principles thinkers distinguish between what is physically necessary and what is merely habitual. \"People will always buy from physical stores\" is a social convention, not a law of physics. Conventions can be disrupted.",
     "difficulty": "hard"
   },

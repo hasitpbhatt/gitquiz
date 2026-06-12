@@ -5,11 +5,11 @@
     "description": "Why would you choose an LSTM over a simple Linear Regression model to predict the price of Bitcoin?",
     "options": [
       "LSTMs are faster to train on small datasets.",
-      "LSTMs can capture 'temporal dependencies,' meaning they understand how the order and timing of past prices affect the future.",
+      "LSTMs capture temporal dependencies, understanding how the order and timing of past prices affect the future.",
       "Linear Regression is better at handling 'messy' data like news sentiment.",
       "LSTMs do not require any historical data to make a prediction."
     ],
-    "answer": "LSTMs can capture 'temporal dependencies,' meaning they understand how the order and timing of past prices affect the future.",
+    "answer": "LSTMs capture temporal dependencies, understanding how the order and timing of past prices affect the future.",
     "explanation": "Financial markets are 'path-dependent.' LSTMs are specifically built to track sequences and time-series data, whereas linear regression treats each data point as an independent event.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Why would you add a CNN layer before your LSTM for a technical analysis strategy?",
     "options": [
       "To make the model run 10x faster.",
-      "To automatically extract visual features or 'shapes' from the price action before analyzing their sequence in time.",
+      "To automatically extract visual features from price action before analyzing their sequence in time.",
       "To translate the price charts into different languages.",
       "Because CNNs are only used for identifying photos of cats and dogs."
     ],
-    "answer": "To automatically extract visual features or 'shapes' from the price action before analyzing their sequence in time.",
+    "answer": "To automatically extract visual features from price action before analyzing their sequence in time.",
     "explanation": "CNNs are elite at 'spatial' recognition (patterns in a window), while LSTMs are elite at 'temporal' recognition (patterns over time). Combining them covers both bases.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You want to predict the stock market's closing price. If your 'window size' is too small (e.g., only 2 days), what is the risk?",
     "options": [
       "The model will take too long to train.",
-      "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
+      "The model won't have enough context to see weekly trends, making it too reactive.",
       "The model will run out of memory.",
       "The model will start predicting prices for 10 years in the future."
     ],
-    "answer": "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
+    "answer": "The model won't have enough context to see weekly trends, making it too reactive.",
     "explanation": "Window size defines the model's 'perspective.' Too small, and it misses the 'big picture'; too large, and it might get bogged down in irrelevant historical noise.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Your LSTM is 70% accurate at predicting price direction, but your backtest shows you are losing money. What is a likely reason?",
     "options": [
       "The model is lying to you.",
-      "The 30% of wrong trades are much larger losses than the 70% of winning trades, or fees are eating the profits.",
+      "The 30% wrong trades lose more than the 70% win, or fees are eating profits.",
       "Accuracy doesn't matter in trading.",
       "The model needs more layers."
     ],
-    "answer": "The 30% of wrong trades are much larger losses than the 70% of winning trades, or fees are eating the profits.",
+    "answer": "The 30% wrong trades lose more than the 70% win, or fees are eating profits.",
     "explanation": "In trading, 'Expectancy' (how much you win vs. how much you lose) is more important than raw accuracy. A model can be right often but still lose money if the rare losses are catastrophic or if transaction costs are high.",
     "difficulty": "medium"
   }

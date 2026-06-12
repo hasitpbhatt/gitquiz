@@ -4,12 +4,12 @@
     "content": "Problem solving involves searching through a space of possible solutions rather than following a single predetermined path. Effective problem solvers explore multiple approaches and learn from failed attempts.",
     "description": "Your car will not start. You turn the key and hear a clicking sound. Applying Problem Solving as Search, your first step should be:",
     "options": [
-      "Call a tow truck immediately",
-      "Keep turning the key hoping it will work eventually",
-      "Identify possible causes systematically: battery, starter, fuel, or ignition",
-      "Ask a friend to look at it without telling them what happened"
+      "Call a tow truck immediately without trying anything else first",
+      "Keep turning the key hoping it will work eventually if you just keep trying",
+      "Check possible causes: battery, starter, fuel, or ignition",
+      "Ask a friend to look at the car without telling them what happened or what the problem could be"
     ],
-    "answer": "Identify possible causes systematically: battery, starter, fuel, or ignition",
+    "answer": "Check possible causes: battery, starter, fuel, or ignition",
     "explanation": "Problem solving as search means exploring the solution space systematically. You start by identifying possible causes, then test each one in turn. Each failed attempt narrows the search space and informs the next try.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "Problem solving involves searching through a space of possible solutions rather than following a single predetermined path. Effective problem solvers explore multiple approaches and learn from failed attempts.",
     "description": "A chef develops a new dessert that ends up too sweet. Which approach best applies Problem Solving as Search?",
     "options": [
-      "Serve it anyway and hope customers do not notice",
-      "Reduce sugar in the next batch and adjust other ingredients based on what is overpowered",
-      "Throw out the recipe and start over from scratch",
-      "Add more sugar to make the sweetness consistent"
+      "Serve it anyway and hope customers do not notice how overly sweet it is",
+      "Reduce sugar and adjust other ingredients that are overpowering the dessert",
+      "Throw out the entire recipe and start over from scratch without keeping anything at all",
+      "Add more sugar to make the sweetness consistent throughout the entire dessert"
     ],
-    "answer": "Reduce sugar in the next batch and adjust other ingredients based on what is overpowered",
+    "answer": "Reduce sugar and adjust other ingredients that are overpowering the dessert",
     "explanation": "The chef uses feedback from the failed attempt to inform the next search iteration. By identifying the problem and adjusting only that variable, they systematically explore the solution space rather than discarding all progress.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "Problem solving involves searching through a space of possible solutions rather than following a single predetermined path. Effective problem solvers explore multiple approaches and learn from failed attempts.",
     "description": "A student cannot solve a calculus problem. What demonstrates treating problem solving as search?",
     "options": [
-      "Stare at the problem until the answer comes",
-      "Try different approaches: integration by parts, substitution, or partial fractions, learning from each dead end",
-      "Look up the answer and move on",
-      "Skip it and hope it is not on the exam"
+      "Stare at the problem for a long time until the answer comes to you by magic",
+      "Try different integration techniques like parts, substitution, or partial fractions",
+      "Look up the answer in the back of the textbook and then move to the next problem",
+      "Skip the problem entirely and hope it does not appear on the exam at all"
     ],
-    "answer": "Try different approaches: integration by parts, substitution, or partial fractions, learning from each dead end",
+    "answer": "Try different integration techniques like parts, substitution, or partial fractions",
     "explanation": "Search-based problem solving means trying different solution methods, using each failed approach to narrow the possibilities. Each dead end provides information about what the solution is not.",
     "difficulty": "easy"
   },
@@ -46,12 +46,12 @@
     "content": "Creativity often starts with imitation. By copying existing works, we learn the building blocks and techniques that later enable original creation.",
     "description": "A graphic designer wants to develop a unique visual style. What approach best aligns with the idea that Creativity Begins with Copying?",
     "options": [
-      "Never look at other designers work to avoid being influenced",
-      "Recreate influential posters to understand design principles, then develop personal variations",
-      "Only produce generic designs to avoid copyright concerns",
-      "Randomly combine colors and fonts hoping something works"
+      "Never look at other designers work to avoid being influenced by their style or creative approach",
+      "Recreate influential posters to understand design principles, then develop your own variations",
+      "Only produce generic and bland designs to avoid any copyright concerns or legal issues",
+      "Randomly combine different colors and fonts hoping that something looks good eventually"
     ],
-    "answer": "Recreate influential posters to understand design principles, then develop personal variations",
+    "answer": "Recreate influential posters to understand design principles, then develop your own variations",
     "explanation": "By copying master works, designers internalize spacing, color theory, typography, and layout principles. This technical foundation enables them to make intentional creative choices.",
     "difficulty": "easy"
   },
@@ -60,12 +60,12 @@
     "content": "Creativity often starts with imitation. By copying existing works, we learn the building blocks and techniques that later enable original creation.",
     "description": "A child learns to draw by tracing pictures from coloring books. Critics say this stifles creativity. What does Creativity Begins with Copying suggest?",
     "options": [
-      "Tracing will prevent the child from ever being creative",
-      "Tracing helps develop motor control and shape recognition, building skills for future original art",
-      "The child should only draw from imagination without any reference",
-      "Copying is cheating and should be discouraged"
+      "Tracing will prevent the child from ever becoming creative or developing their own unique style",
+      "Tracing builds motor control and shape recognition, developing skills for future original art",
+      "The child should draw from imagination alone without ever looking at any reference or guide",
+      "Copying is cheating and should always be discouraged in any learning or creative setting"
     ],
-    "answer": "Tracing helps develop motor control and shape recognition, building skills for future original art",
+    "answer": "Tracing builds motor control and shape recognition, developing skills for future original art",
     "explanation": "Copying is a legitimate developmental stage. Just as children learn language by imitating sounds before forming original sentences, they learn visual skills by copying before creating original work.",
     "difficulty": "easy"
   },
@@ -74,12 +74,12 @@
     "content": "Creativity often starts with imitation. By copying existing works, we learn the building blocks and techniques that later enable original creation.",
     "description": "A startup founder wants to innovate in the food delivery space. How should they apply Creativity Begins with Copying?",
     "options": [
-      "Avoid studying existing food delivery apps to stay original",
-      "Analyze what successful delivery apps do well, replicate their best features, then add unique improvements",
-      "Copy the most popular app exactly without changes",
-      "Ignore competitors and build something completely unrelated"
+      "Avoid studying existing food delivery apps at all to stay completely original and unique in your approach",
+      "Analyze what successful delivery apps do well and then replicate their best features",
+      "Copy the most popular app exactly as it is without making any changes or improvements",
+      "Ignore competitors entirely and build something completely different and unrelated"
     ],
-    "answer": "Analyze what successful delivery apps do well, replicate their best features, then add unique improvements",
+    "answer": "Analyze what successful delivery apps do well and then replicate their best features",
     "explanation": "Innovation builds on existing solutions. By studying current leaders, founders learn what works and what does not, then use that foundation to create differentiated value.",
     "difficulty": "easy"
   },
@@ -88,12 +88,12 @@
     "content": "Creativity often starts with imitation. By copying existing works, we learn the building blocks and techniques that later enable original creation.",
     "description": "A comedy writer wants to develop their own humorous voice. What best applies Creativity Begins with Copying?",
     "options": [
-      "Write jokes without ever watching other comedians",
-      "Study and perform routines from favorite comedians to understand timing and structure, then develop original material",
-      "Tell other comedians jokes verbatim on stage",
-      "Avoid all comedy to stay pure and original"
+      "Write jokes without ever watching other comedians perform or studying their material",
+      "Study and perform routines from favorite comedians to understand timing and structure",
+      "Tell other comedians jokes word for word on stage without changing anything",
+      "Avoid watching any comedy shows at all to stay purely original and authentic in your work"
     ],
-    "answer": "Study and perform routines from favorite comedians to understand timing and structure, then develop original material",
+    "answer": "Study and perform routines from favorite comedians to understand timing and structure",
     "explanation": "Comedy technique including timing, callbacks, and structure is learned through studying masters. Internalizing these patterns provides the tools needed to craft original humor.",
     "difficulty": "easy"
   }

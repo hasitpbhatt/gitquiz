@@ -89,11 +89,11 @@
     "description": "A call center maintains an average handle time of 8 minutes despite training programs aimed at reducing it to 5 minutes. What approach would actually change this homeostatic set point?",
     "options": [
       "Threaten to fire agents who exceed 6 minutes",
-      "Redesign the metrics and incentives so agents are rewarded for first-call resolution rather than speed",
+      "Reward agents for first-call resolution rather than speed",
       "Hire faster-speaking agents",
       "Add more staff to reduce the call queue"
     ],
-    "answer": "Redesign the metrics and incentives so agents are rewarded for first-call resolution rather than speed",
+    "answer": "Reward agents for first-call resolution rather than speed",
     "explanation": "The handle time is held at 8 minutes because the system\u2019s set point (implicitly defined by existing metrics) keeps it there. Changing the regulatory mechanism \u2014 what is measured and rewarded \u2014 shifts the equilibrium.",
     "difficulty": "hard"
   },
