@@ -2,7 +2,7 @@
   {
     "question": "Memory Hierarchy",
     "content": "The memory hierarchy consists of multiple storage levels with different speeds and sizes, from fastest/smallest (registers) to slowest/largest (disk/tape).",
-    "description": "You\\'re organizing a writer\\'s desk with sticky notes (immediate ideas), filing cabinets (reference materials), and basement archives (old drafts). How does this relate to the memory hierarchy?",
+    "description": "You're organizing a writer's desk with sticky notes (immediate ideas), filing cabinets (reference materials), and basement archives (old drafts). How does this relate to the memory hierarchy?",
     "options": [
       "Sticky notes are like CPU registers (fastest, smallest), filing cabinets like RAM (medium speed/size), basement archives like disk storage (slowest, largest)",
       "All storage locations should be used equally",
@@ -16,15 +16,15 @@
   {
     "question": "Least Recently Used (LRU)",
     "content": "LRU eviction policy removes the item that has been unused for the longest time, based on temporal locality (recently used items are likely to be used again).",
-    "description": "You\\'re using the closet organization trick: hanging recently worn clothes on the leftmost side of your rod. What caching principle does this implement?",
+    "description": "You're using the closet organization trick: hanging recently worn clothes on the leftmost side of your rod. What caching principle does this implement?",
     "options": [
-      "Least Recently Used (LRU) - the leftmost items are most recently worn, so you\\'ll know what\\'s been unused longest on the right",
+      "Least Recently Used (LRU) - the leftmost items are most recently worn, so you'll know what's been unused longest on the right",
       "First-In-First-Out (FIFO)",
       "Random selection",
       "Least Frequently Used (LFU)"
     ],
-    "answer": "Least Recently Used (LRU) - the leftmost items are most recently worn, so you\\'ll know what\\'s been unused longest on the right",
-    "explanation": "By hanging worn clothes on the leftmost side, you\\'re implementing LRU: items migrate left when used, so the leftmost items are most recently used and rightmost items are least recently used (candidates for removal/donation).",
+    "answer": "Least Recently Used (LRU) - the leftmost items are most recently worn, so you'll know what's been unused longest on the right",
+    "explanation": "By hanging worn clothes on the leftmost side, you're implementing LRU: items migrate left when used, so the leftmost items are most recently used and rightmost items are least recently used (candidates for removal/donation).",
     "difficulty": "easy"
   },
   {
@@ -42,17 +42,17 @@
     "difficulty": "hard"
   },
   {
-    "question": "Belady\\'s Anomaly",
-    "content": "Belady\\'s Anomaly is the counterintuitive phenomenon where increasing the number of page frames (cache size) can lead to more page faults (worse performance) for certain page replacement algorithms.",
-    "description": "You\\'ve added more storage space to your computer system but noticed performance actually got worse in some situations. What might explain this?",
+    "question": "Belady's Anomaly",
+    "content": "Belady's Anomaly is the counterintuitive phenomenon where increasing the number of page frames (cache size) can lead to more page faults (worse performance) for certain page replacement algorithms.",
+    "description": "You've added more storage space to your computer system but noticed performance actually got worse in some situations. What might explain this?",
     "options": [
-      "Belady\\'s Anomaly - certain caching algorithms perform worse with more space under specific access patterns",
+      "Belady's Anomaly - certain caching algorithms perform worse with more space under specific access patterns",
       "You have a virus",
       "The new storage is defective",
-      "You\\'re imagining the performance decrease"
+      "You're imagining the performance decrease"
     ],
-    "answer": "Belady\\'s Anomaly - certain caching algorithms perform worse with more space under specific access patterns",
-    "explanation": "With some page replacement algorithms (like FIFO), increasing cache size can paradoxically increase page faults for certain memory access patterns, demonstrating that more resources don\\'t always improve performance.",
+    "answer": "Belady's Anomaly - certain caching algorithms perform worse with more space under specific access patterns",
+    "explanation": "With some page replacement algorithms (like FIFO), increasing cache size can paradoxically increase page faults for certain memory access patterns, demonstrating that more resources don't always improve performance.",
     "difficulty": "medium"
   },
   {
@@ -66,27 +66,27 @@
       "First-In-First-Out (FIFO)"
     ],
     "answer": "Random Eviction - choosing an item to discard without considering usage patterns",
-    "explanation": "Random eviction ignores all usage history and simply picks an item at random to remove. While simple to implement, it doesn\\'t leverage temporal or frequency locality like LRU or LFU do.",
+    "explanation": "Random eviction ignores all usage history and simply picks an item at random to remove. While simple to implement, it doesn't leverage temporal or frequency locality like LRU or LFU do.",
     "difficulty": "medium"
   },
   {
     "question": "Human Forgetting as Optimal Filter",
     "content": "Human forgetting may be adaptive, functioning as an optimal filter that prevents cognitive overload by prioritizing important or frequently used memories.",
-    "description": "You\\'ve noticed that you forget trivial details but remember important life events. How might this be beneficial rather than a flaw?",
+    "description": "You've noticed that you forget trivial details but remember important life events. How might this be beneficial rather than a flaw?",
     "options": [
-      "Forgetting acts as an optimal filter to clear mental clutter and prioritize what\\'s truly important",
+      "Forgetting acts as an optimal filter to clear mental clutter and prioritize what's truly important",
       "It indicates early-stage dementia",
-      "You\\'re not trying hard enough to remember",
+      "You're not trying hard enough to remember",
       "All forgetting is detrimental and should be prevented"
     ],
-    "answer": "Forgetting acts as an optimal filter to clear mental clutter and prioritize what\\'s truly important",
+    "answer": "Forgetting acts as an optimal filter to clear mental clutter and prioritize what's truly important",
     "explanation": "Rather than being a defect, forgetting helps prevent cognitive overload by automatically deprioritizing infrequently used information, similar to how caching algorithms evict less useful data to make room for more relevant information.",
     "difficulty": "medium"
   },
   {
     "question": "Spatial Locality",
     "content": "Spatial locality is the tendency for items whose storage locations are close together to be used in close temporal proximity.",
-    "description": "You\\'re arranging your kitchen counter and considering where to place salt, pepper, and cooking oil. What principle should guide your decision?",
+    "description": "You're arranging your kitchen counter and considering where to place salt, pepper, and cooking oil. What principle should guide your decision?",
     "options": [
       "Store frequently used-together items near each other (spatial locality)",
       "Alphabetize all spices and oils",
@@ -100,7 +100,7 @@
   {
     "question": "\"Flashing the Cache\"",
     "content": "\"Flashing the cache\" refers to completely clearing all cached data, forcing a complete reload from main storage on the next access.",
-    "description": "You\\'re feeling mentally scattered and unfocused after weeks of multitasking. You decide to take a digital detox weekend. What analogy does this represent?",
+    "description": "You're feeling mentally scattered and unfocused after weeks of multitasking. You decide to take a digital detox weekend. What analogy does this represent?",
     "options": [
       "Flashing the cache - completely clearing mental state to reset baseline focus",
       "Only checking email once per day",
