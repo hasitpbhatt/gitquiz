@@ -139,6 +139,28 @@
             <h2 id="preview-title" class="text-2xl font-800 mb-2"></h2>
             <p id="preview-meta" class="text-xs text-slate-500 dark:text-slate-400 mb-6"></p>
             
+            <!-- Preview Summary Card -->
+            <div id="preview-summary" class="hidden space-y-4 mb-8">
+                <!-- Chapter Descriptions (optional, hero position) -->
+                <div id="summary-chapter-desc" class="hidden space-y-2"></div>
+                
+                <!-- Inline difficulty prose + time -->
+                <div id="summary-difficulty" class="hidden text-xs font-600 text-slate-500 dark:text-slate-400">
+                    <span id="summary-difficulty-text"></span>
+                    <span class="mx-2">·</span>
+                    <span>⏱ <span id="summary-time">~0 min</span></span>
+                </div>
+                
+                <!-- Progress + Resume (compact, only when there's progress) -->
+                <div id="summary-progress" class="hidden flex items-center gap-2 text-xs font-600 text-slate-500 dark:text-slate-400">
+                    <span class="h-1.5 w-16 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+                        <span id="summary-progress-fill" class="block h-full bg-emerald-500 rounded-full transition-all duration-500" style="width: 0%"></span>
+                    </span>
+                    <span id="summary-progress-text"></span>
+                    <span id="summary-resume" class="hidden text-[10px] font-700 text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full"></span>
+                </div>
+            </div>
+            
             <div class="space-y-6 mb-8">
                 <h2 id="preview-topic-title" class="text-2xl md:text-3xl font-800 text-blue-600 leading-tight hidden"></h2>
                 

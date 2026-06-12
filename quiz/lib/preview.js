@@ -51,11 +51,14 @@ async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0, course
     document.getElementById('preview-title').innerText = courseName ? `${displayName} • ${filename}` : filename;
     document.getElementById('preview-title').title = courseName ? `${courseName} • ${filename}` : filename;
     document.getElementById('preview-meta').innerText = 'Loading...';
+    document.getElementById('preview-summary').classList.add('hidden');
     document.getElementById('preview-topic-title').classList.add('hidden');
     document.getElementById('preview-topic-title').innerText = '';
     document.getElementById('preview-content-box').classList.add('hidden');
     document.getElementById('preview-content-box').innerText = '';
+    document.getElementById('preview-description-text').classList.add('hidden');
     document.getElementById('preview-description-text').innerText = '';
+    document.getElementById('preview-options-bin').classList.add('hidden');
     document.getElementById('preview-options-bin').innerHTML = '';
     document.getElementById('preview-chapter-grid').innerHTML = '';
 
@@ -67,26 +70,13 @@ async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0, course
         if (data.length === 0) throw new Error('Empty module data.');
         previewData = data;
 
+        const currentChapter = parseInt(filename, 10);
         const totalChapters = chapterCount > 0 ? chapterCount : 1;
         document.getElementById('preview-meta').innerText = `${data.length} question${data.length > 1 ? 's' : ''} in current module • ${totalChapters} chapter${totalChapters > 1 ? 's' : ''} total`;
 
-        const targetQ = data[previewIndex] || data[0];
-        document.getElementById('preview-description-text').innerText = targetQ.description || targetQ.question || 'No question available';
-
-        const bin = document.getElementById('preview-options-bin');
-        bin.innerHTML = '';
-        if (targetQ.options) {
-            const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
-            targetQ.options.forEach((opt, idx) => {
-                const div = document.createElement('div');
-                div.className = 'preview-option w-full p-5 text-left border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 shadow-sm flex items-center gap-3';
-                div.innerHTML = `<span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-700 text-xs font-800 text-slate-500 shrink-0">${letters[idx] || (idx + 1)}</span><span class="flex-1">${escapeHtml(opt)}</span>`;
-                bin.appendChild(div);
-            });
-        }
+        showSummaryCard(data, courseId, currentChapter, totalChapters);
 
         // Render chapter grid for course curriculum
-        const currentChapter = parseInt(filename, 10);
         const grid = document.getElementById('preview-chapter-grid');
         grid.classList.toggle('hidden', chapterCount <= 1);
         if (chapterCount > 1) {
@@ -109,17 +99,12 @@ async function showPreviewScreen(url, previewIndex = 0, chapterCount = 0, course
                 grid.appendChild(btn);
             }
         }
-        // Show resume badge when starting from a non-first chapter
-        if (currentChapter > 1) {
-            const metaEl = document.getElementById('preview-meta');
-            const resumeBadge = document.createElement('span');
-            resumeBadge.className = 'ml-2 inline-flex items-center gap-1 text-[10px] font-700 text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full';
-            resumeBadge.textContent = `↻ Resume from Ch ${currentChapter}`;
-            metaEl.appendChild(resumeBadge);
-        }
+        // Resume badge is now rendered inside showSummaryCard's progress section
     } catch (err) {
         previewData = null;
+        document.getElementById('preview-summary').classList.add('hidden');
         document.getElementById('preview-meta').innerText = 'Failed to load';
+        document.getElementById('preview-description-text').classList.remove('hidden');
         document.getElementById('preview-description-text').innerText = err.message;
         document.getElementById('preview-container').classList.add('hidden');
         document.getElementById('setup-container').classList.remove('hidden');
@@ -139,4 +124,76 @@ function cancelPreview() {
     previewData = null;
     document.getElementById('preview-container').classList.add('hidden');
     document.getElementById('setup-container').classList.remove('hidden');
+}
+
+function showSummaryCard(data, courseId, currentChapter, totalChapters) {
+    const meta = coursesMeta[courseId] || null;
+
+    // Difficulty tally → prose
+    let easy = 0, medium = 0, hard = 0;
+    data.forEach(q => {
+        if (q.difficulty === 'easy') easy++;
+        else if (q.difficulty === 'medium') medium++;
+        else if (q.difficulty === 'hard') hard++;
+    });
+    const totalDiff = easy + medium + hard;
+    const diffEl = document.getElementById('summary-difficulty');
+    const diffText = document.getElementById('summary-difficulty-text');
+    if (totalDiff > 0) {
+        const parts = [];
+        if (easy > 0) parts.push(easy + ' easy');
+        if (medium > 0) parts.push(medium + ' medium');
+        if (hard > 0) parts.push(hard + ' hard');
+        diffText.textContent = parts.join(' · ');
+        diffEl.classList.remove('hidden');
+    } else {
+        diffEl.classList.add('hidden');
+    }
+
+    // Estimated time (45s per question)
+    const minutes = Math.ceil((data.length * 45) / 60);
+    document.getElementById('summary-time').textContent = `~${minutes} min`;
+
+    // Progress + Resume (compact, shown only when there's actual progress)
+    const progress = getChapterProgress();
+    const completed = (progress[courseId] || []).length;
+    const progressEl = document.getElementById('summary-progress');
+    const progressText = document.getElementById('summary-progress-text');
+    const resumeEl = document.getElementById('summary-resume');
+    if (completed > 0) {
+        progressText.textContent = `${completed}/${totalChapters}`;
+        document.getElementById('summary-progress-fill').style.width = totalChapters > 0 ? `${(completed / totalChapters) * 100}%` : '0%';
+        progressEl.classList.remove('hidden');
+        if (currentChapter > 1) {
+            resumeEl.textContent = `↻ Resume from Ch ${currentChapter}`;
+            resumeEl.classList.remove('hidden');
+        } else {
+            resumeEl.classList.add('hidden');
+        }
+    } else {
+        progressEl.classList.add('hidden');
+    }
+
+    // Chapter descriptions (optional, hero position)
+    const descContainer = document.getElementById('summary-chapter-desc');
+    descContainer.innerHTML = '';
+    descContainer.classList.add('hidden');
+    if (meta && meta.chapterDescriptions) {
+        const descs = meta.chapterDescriptions;
+        let hasContent = false;
+        for (let i = 1; i <= totalChapters; i++) {
+            const chKey = String(i).padStart(3, '0');
+            const desc = descs[chKey];
+            if (desc) {
+                hasContent = true;
+                const div = document.createElement('div');
+                div.className = 'text-xs text-slate-500 dark:text-slate-400 p-2 bg-slate-50 dark:bg-slate-800/30 rounded-lg';
+                div.innerHTML = `<span class="font-700 text-slate-600 dark:text-slate-300">Ch ${i}:</span> ${escapeHtml(desc)}`;
+                descContainer.appendChild(div);
+            }
+        }
+        if (hasContent) descContainer.classList.remove('hidden');
+    }
+
+    document.getElementById('preview-summary').classList.remove('hidden');
 }

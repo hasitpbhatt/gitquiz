@@ -12,18 +12,24 @@ test('preview shows correct number of questions', { tag: '@preview' }, async ({ 
   await expect(page.locator('#preview-meta')).toContainText('2 questions');
 });
 
-test('preview shows description from first question with q=1', { tag: '@preview' }, async ({ page }) => {
+test('preview shows summary card with difficulty tally', { tag: '@preview' }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
   await expect(page.locator('#preview-meta')).not.toBeEmpty();
 
-  await expect(page.locator('#preview-description-text')).toContainText('deploying a microservices');
+  await expect(page.locator('#preview-summary')).toBeVisible();
+  // 001.json has 1 easy + 1 medium
+  await expect(page.locator('#summary-difficulty')).toBeVisible();
+  await expect(page.locator('#summary-difficulty-text')).toHaveText('1 easy · 1 medium');
 });
 
-test('preview with q=2 shows second question description', { tag: '@preview' }, async ({ page }) => {
+test('preview summary card shows course-level overview regardless of q param', { tag: '@preview' }, async ({ page }) => {
   await page.goto('/?course=test-course&q=2');
   await expect(page.locator('#preview-meta')).not.toBeEmpty();
 
-  await expect(page.locator('#preview-description-text')).toContainText('tightly-coupled containers');
+  // Summary card is course-level, not question-specific
+  await expect(page.locator('#preview-summary')).toBeVisible();
+  await expect(page.locator('#summary-difficulty')).toBeVisible();
+  await expect(page.locator('#summary-difficulty-text')).toHaveText('1 easy · 1 medium');
 });
 
 test('preview Start Quiz button calls initializeQuiz', { tag: '@preview' }, async ({ page }) => {
@@ -46,22 +52,25 @@ test('preview Cancel returns to setup', { tag: '@preview' }, async ({ page }) =>
   await expect(page.locator('#setup-container')).toBeVisible();
 });
 
-test('preview renders static option styles', { tag: '@preview' }, async ({ page }) => {
+test('preview hides description and options when showing summary card', { tag: '@preview' }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
   await expect(page.locator('#preview-meta')).not.toBeEmpty();
 
-  const options = page.locator('#preview-options-bin .preview-option');
-  await expect(options.first()).toHaveCSS('cursor', 'default');
+  await expect(page.locator('#preview-description-text')).toBeHidden();
+  await expect(page.locator('#preview-options-bin')).toBeHidden();
 });
 
-test('course+c+q params load specific chapter into preview', { tag: '@preview' }, async ({ page }) => {
+test('course+c params load specific chapter summary card', { tag: '@preview' }, async ({ page }) => {
   await page.goto('/?course=test-course&c=002&q=1');
   await expect(page.locator('#preview-meta')).not.toBeEmpty();
 
   await expect(page.locator('#preview-container')).toBeVisible();
   await expect(page.locator('#quiz-container')).toBeHidden();
   await expect(page.locator('#setup-container')).toBeHidden();
-  await expect(page.locator('#preview-description-text')).toContainText('stable networking');
+  await expect(page.locator('#preview-summary')).toBeVisible();
+  // 002.json has 1 easy question
+  await expect(page.locator('#summary-difficulty')).toBeVisible();
+  await expect(page.locator('#summary-difficulty-text')).toHaveText('1 easy');
 });
 
 test('course+c+q params start quiz from correct chapter after clicking Start Quiz', { tag: '@preview' }, async ({ page }) => {

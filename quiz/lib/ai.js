@@ -74,7 +74,11 @@ async function askAI(persona) {
     const content = data.choices?.[0]?.message?.content || data.content || '';
 
     if (content) {
-      responseDiv.innerHTML = '<span class="font-700 text-xs uppercase tracking-wider text-indigo-400">' + personaDef.icon + ' ' + personaDef.label + '</span><div class="mt-2">' + content + '</div>';
+      const formatted = content
+        .split(/\n\n+/)
+        .map(p => '<p class="mb-2 last:mb-0">' + p.replace(/\n/g, '<br>') + '</p>')
+        .join('');
+      responseDiv.innerHTML = '<span class="font-700 text-xs uppercase tracking-wider text-indigo-400">' + personaDef.icon + ' ' + personaDef.label + '</span><div class="mt-2 space-y-2">' + formatted + '</div>';
     } else {
       throw new Error('Empty response');
     }

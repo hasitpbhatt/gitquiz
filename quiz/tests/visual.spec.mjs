@@ -15,6 +15,7 @@ const MOCK_MODULES = {
       options: ['A VM manager', 'A container orchestrator', 'A database', 'A programming language'],
       answer: 'A container orchestrator',
       explanation: 'Kubernetes automates the deployment, scaling, and management of containerized applications.',
+      difficulty: 'easy',
     },
     {
       question: 'What is a Pod?',
@@ -22,6 +23,7 @@ const MOCK_MODULES = {
       options: ['A group of containers', 'A single container', 'A virtual machine', 'A storage volume'],
       answer: 'A group of containers',
       explanation: 'A Pod is the smallest deployable unit that can contain one or more containers.',
+      difficulty: 'medium',
     },
   ],
   '002.json': [
@@ -31,6 +33,7 @@ const MOCK_MODULES = {
       options: ['A pod template', 'A network endpoint', 'A storage class', 'A config map'],
       answer: 'A network endpoint',
       explanation: 'Services provide stable network endpoints for accessing Pods.',
+      difficulty: 'easy',
     },
     {
       question: 'What is a Deployment?',
@@ -38,6 +41,7 @@ const MOCK_MODULES = {
       options: ['A pod scheduler', 'A replica manager', 'A volume controller', 'A service mesh'],
       answer: 'A replica manager',
       explanation: 'Deployments manage desired replica counts with update strategies.',
+      difficulty: 'hard',
     },
   ],
 };
@@ -89,7 +93,7 @@ test('setup screen shows when c param given without course', { tag: '@visual' },
   await expect(page.locator('#quiz-container')).toBeHidden();
 });
 
-test('preview screen shows with course and q param', { tag: ['@visual', '@preview'] }, async ({ page }) => {
+test('preview screen shows summary card with course and q param', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1');
 
   await expect(page.locator('#preview-container')).toBeVisible();
@@ -97,25 +101,25 @@ test('preview screen shows with course and q param', { tag: ['@visual', '@previe
   await expect(page.locator('#quiz-container')).toBeHidden();
 
   await expect(page.locator('#preview-badge')).toContainText(/Test Course/i);
-  await expect(page.locator('#preview-description-text')).toContainText('deploying a microservices');
+  await expect(page.locator('#preview-summary')).toBeVisible();
+  // 001.json has 1 easy + 1 medium
+  await expect(page.locator('#summary-difficulty')).toBeVisible();
+  await expect(page.locator('#summary-difficulty-text')).toHaveText('1 easy · 1 medium');
 
-  const options = page.locator('#preview-options-bin .preview-option');
-  await expect(options).toHaveCount(4);
-
-  await expect(options.first()).toHaveCSS('cursor', 'default');
+  await expect(page.locator('#preview-description-text')).toBeHidden();
+  await expect(page.locator('#preview-options-bin')).toBeHidden();
 
   await expect(page.getByRole('button', { name: 'Start Quiz' })).toBeVisible();
 });
 
-test('preview screen shows for different chapter via c param', { tag: ['@visual', '@preview'] }, async ({ page }) => {
+test('preview summary card shows for different chapter via c param', { tag: ['@visual', '@preview'] }, async ({ page }) => {
   await page.goto('/?course=test-course&q=1&c=2');
 
   await expect(page.locator('#preview-container')).toBeVisible();
-
-  await expect(page.locator('#preview-description-text')).toContainText('stable networking');
-
-  const options = page.locator('#preview-options-bin .preview-option');
-  await expect(options).toHaveCount(4);
+  await expect(page.locator('#preview-summary')).toBeVisible();
+  // 002.json has 1 easy + 1 hard
+  await expect(page.locator('#summary-difficulty')).toBeVisible();
+  await expect(page.locator('#summary-difficulty-text')).toHaveText('1 easy · 1 hard');
 });
 
 test('quiz screen without q param starts quiz directly', { tag: ['@visual', '@quiz'] }, async ({ page }) => {
