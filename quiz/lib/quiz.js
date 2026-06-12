@@ -154,9 +154,11 @@ function renderQuestion() {
 
     const topicTitle = document.getElementById('topic-title');
     topicTitle.textContent = q.question || "Step " + (currentIdx + 1);
+    topicTitle.classList.add('hidden');
     
     const cb = document.getElementById('content-box');
     cb.textContent = q.content || "";
+    cb.classList.add('hidden');
     
     document.getElementById('description-text').textContent = q.description || "";
     
