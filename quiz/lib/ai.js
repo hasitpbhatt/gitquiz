@@ -115,6 +115,8 @@ async function sendFollowUp() {
   input.value = '';
   input.disabled = true;
   sendBtn.disabled = true;
+  sendBtn._origText = sendBtn.innerHTML;
+  sendBtn.innerHTML = '<span class="inline-block animate-spin mr-1">⏳</span> Sending...';
 
   conv.messages.push({ role: 'user', content: text });
   renderConversation();
@@ -145,18 +147,44 @@ async function sendFollowUp() {
   } catch (err) {
     const responseDiv = document.getElementById('ai-response');
     if (responseDiv) {
-      responseDiv.innerHTML += '<div class="chat-bubble error">AI explainer is not available right now. Please try again.</div>';
+      const lastChild = responseDiv.lastElementChild;
+      const isAlreadyError = lastChild && lastChild.classList.contains('error');
+      if (!isAlreadyError) {
+        responseDiv.insertAdjacentHTML('beforeend', '<div class="chat-bubble error">⚠️ AI explainer is not available right now. Please try again.</div>');
+        responseDiv.scrollTop = responseDiv.scrollHeight;
+      }
     }
   } finally {
-    input.disabled = false;
-    sendBtn.disabled = false;
+    const limitReached = conv && conv.turn >= MAX_TURNS;
+    if (!limitReached) {
+      input.disabled = false;
+      sendBtn.disabled = false;
+      sendBtn.innerHTML = sendBtn._origText || 'Send →';
+    }
+    delete sendBtn._origText;
     input.focus();
   }
 }
 
+function sanitizeHtml(html) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, 'text/html');
+  doc.querySelectorAll('script, iframe, object, embed').forEach(el => el.remove());
+  doc.querySelectorAll('*').forEach(el => {
+    for (const attr of [...el.attributes]) {
+      if (attr.name.startsWith('on') ||
+          (attr.name === 'href' && /^\s*javascript\s*:/i.test(attr.value)) ||
+          (attr.name === 'src' && /^\s*javascript\s*:/i.test(attr.value))) {
+        el.removeAttribute(attr.name);
+      }
+    }
+  });
+  return doc.body.innerHTML;
+}
+
 function mdToHtml(text) {
   if (typeof marked !== 'undefined' && marked.parse) {
-    return marked.parse(text, { breaks: true });
+    return sanitizeHtml(marked.parse(text, { breaks: true }));
   }
   return text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
