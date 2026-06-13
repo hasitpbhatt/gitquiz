@@ -76,7 +76,7 @@ document.addEventListener('keydown', (e) => {
     }
 
     // Flashcard: 1 = Got it, 2 = Missed it
-    if (currentMode === 'flashcard' && document.getElementById('flashcard-back') && !document.getElementById('flashcard-back').classList.contains('hidden')) {
+    if (currentMode === 'flashcard' && !document.getElementById('flashcard-ui').classList.contains('hidden')) {
       if (e.key === '1') { document.getElementById('flashcard-got-it')?.click(); return; }
       if (e.key === '2') { document.getElementById('flashcard-missed')?.click(); return; }
     }

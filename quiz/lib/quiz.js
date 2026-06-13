@@ -181,10 +181,6 @@ function renderMC(q) {
 function renderFlashcard(q) {
     document.getElementById('flashcard-ui').classList.remove('hidden');
     document.getElementById('flashcard-question-text').textContent = q.question || "Concept " + (currentIdx + 1);
-    document.getElementById('flashcard-content-text').textContent = q.content || "";
-    document.getElementById('flashcard-answer-text').textContent = "Answer: " + q.answer;
-    document.getElementById('flashcard-front').classList.remove('hidden');
-    document.getElementById('flashcard-back').classList.add('hidden');
     document.getElementById('flashcard-got-it').disabled = false;
     document.getElementById('flashcard-missed').disabled = false;
 }
@@ -258,11 +254,6 @@ function renderFillBlank(q) {
 
 // ---------- Global handlers for new modes ----------
 
-function flipFlashcard() {
-    document.getElementById('flashcard-front').classList.add('hidden');
-    document.getElementById('flashcard-back').classList.remove('hidden');
-}
-
 function flashcardSelfAssess(gotIt) {
     const q = quizData[currentIdx];
     if (!q) return;
@@ -279,6 +270,7 @@ function flashcardSelfAssess(gotIt) {
     }
 
     showExplanationAfterAnswer(q, gotIt, gotIt ? 'Got it' : 'Missed it');
+    document.getElementById('flashcard-ui').classList.add('hidden');
 }
 
 function submitFillBlank() {

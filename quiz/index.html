@@ -236,19 +236,12 @@
                     <div id="options-bin" class="space-y-3"></div>
 
                     <div id="flashcard-ui" class="hidden space-y-4">
-                        <div id="flashcard-front" class="p-8 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border-2 border-slate-200 dark:border-slate-700 text-center cursor-pointer select-none" onclick="flipFlashcard()">
+                        <div class="p-8 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border-2 border-slate-200 dark:border-slate-700 text-center">
                             <p id="flashcard-question-text" class="text-xl font-800 text-blue-600"></p>
-                            <p class="text-xs text-slate-400 mt-4 font-600">Tap to reveal answer</p>
                         </div>
-                        <div id="flashcard-back" class="hidden space-y-4">
-                            <div class="p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-2xl border-l-4 border-indigo-500">
-                                <p id="flashcard-content-text" class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed"></p>
-                                <p id="flashcard-answer-text" class="font-700 text-indigo-600 dark:text-indigo-400 mt-3"></p>
-                            </div>
-                            <div class="flex gap-3">
-                                <button id="flashcard-got-it" class="option-btn flex-1 p-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-800 text-center border-0 shadow-lg shadow-emerald-500/20" onclick="flashcardSelfAssess(true)">Got it ✓</button>
-                                <button id="flashcard-missed" class="option-btn flex-1 p-4 bg-rose-500 hover:bg-rose-600 text-white rounded-2xl font-800 text-center border-0 shadow-lg shadow-rose-500/20" onclick="flashcardSelfAssess(false)">Missed it ✗</button>
-                            </div>
+                        <div class="flex gap-3">
+                            <button id="flashcard-got-it" class="option-btn flex-1 p-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-800 text-center border-0 shadow-lg shadow-emerald-500/20" onclick="flashcardSelfAssess(true)">Got it ✓</button>
+                            <button id="flashcard-missed" class="option-btn flex-1 p-4 bg-rose-500 hover:bg-rose-600 text-white rounded-2xl font-800 text-center border-0 shadow-lg shadow-rose-500/20" onclick="flashcardSelfAssess(false)">Missed it ✗</button>
                         </div>
                     </div>
 
