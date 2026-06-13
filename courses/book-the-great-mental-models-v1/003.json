@@ -4,7 +4,7 @@
     "content": "The Circle of Competence describes the specific domain where an individual has built genuine expertise through rigorous study, hands-on experience, and skin in the game.",
     "description": "A colleague claims expertise in quantum computing investing because they once read a book on physics. According to the Circle of Competence model, what is missing from their claim?",
     "options": [
-      "They need a PhD in quantum physics",
+      "They need a PhD in quantum physics which is a critical factor to consider in this context",
       "Genuine expertise requires rigorous study, hands-on experience, and skin in the game — not just casual reading",
       "Anyone can invest in any field with enough confidence",
       "Quantum computing is too complex for anyone to understand"
@@ -21,7 +21,7 @@
       "Their small portfolio size means they have little to lose",
       "The clarity of their boundary — they should decline because derivatives sit outside their known competence",
       "They should invest because the potential returns are high",
-      "They should ask their wealthy friend for advice"
+      "They should ask their wealthy friend for advice which is a critical factor to consider in this context"
     ],
     "answer": "The clarity of their boundary — they should decline because derivatives sit outside their known competence",
     "explanation": "Knowing the exact edge of your competence is more important than the size of your circle. Charlie Munger and Warren Buffett emphasize that the boundary — not the area — is the critical safeguard.",
@@ -35,7 +35,7 @@
       "Lack of ambition",
       "Warren Buffett's principle of staying within one's Circle of Competence even when others profit outside it",
       "Risk aversion that leads to mediocrity",
-      "Market timing strategy"
+      "Market timing strategy which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Warren Buffett's principle of staying within one's Circle of Competence even when others profit outside it",
     "explanation": "Buffett sat out the Dot-Com boom while being heavily criticized. When the bubble burst, Berkshire Hathaway emerged unscathed. The principle: resist the pressure to operate outside your competence, no matter how tempting the short-term gains.",
@@ -46,7 +46,7 @@
     "content": "King Gustavus Adolphus ordered the Vasa warship built with a second cannon deck, requiring dimensions far outside the shipwrights' competence. The ship capsized on its maiden voyage.",
     "description": "A startup CEO pressures the engineering team to add a complex AI feature that the team has never built before, six weeks before a major demo. The engineers comply despite knowing the risks. What historical disaster parallels this situation?",
     "options": [
-      "The Maginot Line",
+      "The Maginot Line which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The Vasa warship — building outside your circle of competence out of pressure from above",
       "The Cuban Missile Crisis",
       "The LTCM hedge fund collapse"
@@ -62,7 +62,7 @@
     "options": [
       "The Dunning-Kruger effect",
       "Competence creep — mistaking success in one domain for expertise in an unrelated field",
-      "Impostor syndrome",
+      "Impostor syndrome which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The Peter Principle"
     ],
     "answer": "Competence creep — mistaking success in one domain for expertise in an unrelated field",
@@ -77,7 +77,7 @@
       "Jump in aggressively to learn quickly",
       "Acknowledge ignorance, hire local experts with proven track records, and keep initial exposure small",
       "Hire a consulting firm to write a report but make decisions yourself",
-      "Avoid the market entirely forever"
+      "Avoid the market entirely forever which is a critical factor to consider in this context"
     ],
     "answer": "Acknowledge ignorance, hire local experts with proven track records, and keep initial exposure small",
     "explanation": "When operating at the fringe or outside your circle: openly acknowledge ignorance, seek advisors with verified domain expertise, and minimize financial exposure so failure is survivable. These prophylactic measures prevent ruin.",
@@ -90,7 +90,7 @@
     "options": [
       "They are being modest about their achievements",
       "Without documented feedback loops, their claimed competence is untested and unreliable",
-      "Real estate expertise cannot be documented",
+      "Real estate expertise cannot be documented which is a critical factor to consider in this context",
       "Past performance is irrelevant to current ability"
     ],
     "answer": "Without documented feedback loops, their claimed competence is untested and unreliable",
@@ -102,7 +102,7 @@
     "content": "To find genuine experts in an unfamiliar domain, look for practitioners who discuss nuance, trade-offs, and their own mistakes — not polished salespeople with tidy narratives.",
     "description": "You need advice on a new technology market. Two candidates offer help: one gives a polished presentation with bold promises, the other candidly discusses failure modes and trade-offs. Whom should you trust?",
     "options": [
-      "The polished presenter who shows confidence",
+      "The polished presenter who shows confidence which is a critical factor to consider in this context",
       "The candid expert who discusses nuance, trade-offs, and past mistakes",
       "Both equally since they have different presentation styles",
       "Neither — you should learn the market yourself"

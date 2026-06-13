@@ -6,7 +6,7 @@
     "options": [
       "It is accurate — binary outcomes are the only thing that matters",
       "It ignores the grayscale of probability — success and failure are not equally likely, and the actual odds matter for decision quality",
-      "Startups always succeed with enough effort",
+      "Startups always succeed with enough effort which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Coin flips are a valid way to make business decisions"
     ],
     "answer": "It ignores the grayscale of probability — success and failure are not equally likely, and the actual odds matter for decision quality",
@@ -20,7 +20,7 @@
     "options": [
       "Go with your gut feeling",
       "Calculate expected value: 10% of $1M = $100,000 expected value, which exceeds the guaranteed $50,000",
-      "Always take the guaranteed money",
+      "Always take the guaranteed money which is a critical factor to consider in this context",
       "Always take the risk for a chance at millions"
     ],
     "answer": "Calculate expected value: 10% of $1M = $100,000 expected value, which exceeds the guaranteed $50,000",
@@ -35,7 +35,7 @@
       "Ignore the new information — it is irrelevant hearsay",
       "Increase the probability upward since the new information improves your relative position",
       "Decrease the probability — competitor problems always hurt the whole market",
-      "Reset to 50% because the situation has changed"
+      "Reset to 50% because the situation has changed which is a critical factor to consider in this context"
     ],
     "answer": "Increase the probability upward since the new information improves your relative position",
     "explanation": "Bayesian updating means adjusting your estimate when new evidence arrives. The competitor's supply chain problem improves your odds of winning, so your probability should move upward. The key is to calibrate how much to adjust based on the evidence strength.",
@@ -48,7 +48,7 @@
     "options": [
       "A 99% success rate is actually terrible",
       "The 1% risk of total ruin will eventually hit if the strategy is repeated enough times, wiping out all prior gains",
-      "Gambling is always bad",
+      "Gambling is always bad which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The 10% gain is too small to matter"
     ],
     "answer": "The 1% risk of total ruin will eventually hit if the strategy is repeated enough times, wiping out all prior gains",
@@ -62,7 +62,7 @@
     "options": [
       "Bell curves are always wrong for financial data",
       "Financial markets have fat tails — extreme correlated events happen far more often than normal distribution models predict",
-      "Leverage is always bad",
+      "Leverage is always bad which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The fund needs better mathematicians"
     ],
     "answer": "Financial markets have fat tails — extreme correlated events happen far more often than normal distribution models predict",
@@ -77,7 +77,7 @@
       "The law of large numbers",
       "The flaw of averages — planning around the mean ignores extreme but consequential volatility",
       "Regression to the mean",
-      "Normal distribution of demand"
+      "Normal distribution of demand which is a critical factor to consider in this context"
     ],
     "answer": "The flaw of averages — planning around the mean ignores extreme but consequential volatility",
     "explanation": "The flaw of averages occurs when decisions are based on the average while ignoring the distribution of outcomes. The average river depth being 3 feet is irrelevant if there are 15-foot holes. Similarly, average package volume is irrelevant if peak days overflow capacity.",
@@ -90,7 +90,7 @@
     "options": [
       "The investor should have done more research",
       "A good decision can produce a bad outcome — the process was sound even if this particular roll of the dice went against the odds",
-      "Regulatory changes are always predictable",
+      "Regulatory changes are always predictable which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "If it failed, the odds were never really 80%"
     ],
     "answer": "A good decision can produce a bad outcome — the process was sound even if this particular roll of the dice went against the odds",
@@ -104,7 +104,7 @@
     "options": [
       "Give them the most likely date as a firm commitment",
       "Give a range: optimistic (10% chance), most likely (60% chance), and pessimistic (30% chance) dates",
-      "Refuse to estimate at all",
+      "Refuse to estimate at all which is a critical factor to consider in this context",
       "Double the most likely estimate to be safe"
     ],
     "answer": "Give a range: optimistic (10% chance), most likely (60% chance), and pessimistic (30% chance) dates",

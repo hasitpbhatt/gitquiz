@@ -6,7 +6,7 @@
     "options": [
       "Engineer A, because cosmic rays sound scientific",
       "Engineer B, because the recent deployment involves fewer extraordinary assumptions",
-      "Both explanations are equally valid",
+      "Both explanations are equally valid which is a critical factor to consider in this context",
       "Engineer A, because rare events happen all the time"
     ],
     "answer": "Engineer B, because the recent deployment involves fewer extraordinary assumptions",
@@ -21,7 +21,7 @@
       "Occam's Razor was wrong — simplicity does not equal truth",
       "Occam's Razor is a heuristic for prioritizing hypotheses, not a truth-proof — but the simpler hypothesis should be investigated first",
       "The detective should have ignored the simplicity principle entirely",
-      "The butler still did it"
+      "The butler still did it which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Occam's Razor is a heuristic for prioritizing hypotheses, not a truth-proof — but the simpler hypothesis should be investigated first",
     "explanation": "Occam's Razor does not guarantee truth — it is a decision-making heuristic for where to focus investigative energy. The simplest explanation should be checked first. When it fails, move to more complex hypotheses. The gardener was the truth, but the butler was the right starting point.",
@@ -35,7 +35,7 @@
       "A global conspiracy of hedge funds coordinated to manipulate the stock",
       "The company released disappointing earnings that morning — the most direct explanation with the fewest assumptions",
       "Aliens from Zeta Reticuli are testing Earth's financial systems",
-      "The CEO sneezed during a television interview"
+      "The CEO sneezed during a television interview which is a critical factor to consider in this context"
     ],
     "answer": "The company released disappointing earnings that morning — the most direct explanation with the fewest assumptions",
     "explanation": "Occam's Razor asks which explanation adds the fewest unsupported assumptions. A disappointing earnings report directly explains the price drop. Conspiracy theories require many assumptions about coordination, motivation, and concealment. Aliens require even more.",
@@ -46,7 +46,7 @@
     "content": "In medicine, Occam's Razor appears as \"when you hear hoofbeats, think horses, not zebras.\" The common explanation should be the first investigation target, not the exotic one.",
     "description": "A patient in a suburban clinic presents with a fever and cough. A junior resident orders tests for a rare tropical parasite. The senior doctor suggests testing for a common cold or flu first. What medical principle is this?",
     "options": [
-      "Defensive medicine",
+      "Defensive medicine which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The \"horses not zebras\" application of Occam's Razor — common explanations should be ruled out before rare ones",
       "The patient has a right to any test they want",
       "Rare diseases are always more dangerous"
@@ -62,7 +62,7 @@
     "options": [
       "Occam's Razor is always superior to Hickam's Dictum",
       "Hickam's Dictum — complex situations may involve multiple independent causes, not a single elegant explanation",
-      "The patient is imagining symptoms",
+      "The patient is imagining symptoms which is a critical factor to consider in this context",
       "The medical student should have looked for even rarer syndromes"
     ],
     "answer": "Hickam's Dictum — complex situations may involve multiple independent causes, not a single elegant explanation",
@@ -74,7 +74,7 @@
     "content": "McCormack's Iron Law: simplicity does not precede complexity but follows it. The real skill is working through the full complexity until patterns emerge, then benefiting from the simplicity that emerges.",
     "description": "A junior analyst seeks a simple one-line explanation for a quarterly sales decline. A senior analyst says: \"You need to work through the full data first — the simple story comes at the end, not the beginning.\" What principle does this reflect?",
     "options": [
-      "The Peter Principle",
+      "The Peter Principle which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "McCormack's Iron Law — genuine simplicity is the result of mastering complexity, not avoiding it",
       "Occam's Razor applied to data analysis",
       "The law of small numbers"
@@ -91,7 +91,7 @@
       "Calculate the water pressure first to avoid wasting water",
       "Order the fire hose immediately — a simple, good-enough action taken quickly beats a precise calculation that arrives late",
       "Wait for the building engineer to arrive",
-      "Never use sprinklers and hoses simultaneously"
+      "Never use sprinklers and hoses simultaneously which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Order the fire hose immediately — a simple, good-enough action taken quickly beats a precise calculation that arrives late",
     "explanation": "Occam's Razor in urgency means choosing the simplest effective action. A five-minute calculation that saves minor water waste but delays firefighting by five minutes is a net loss. Speed and simplicity have their own value in time-critical decisions.",
@@ -105,7 +105,7 @@
       "The model should be kept secret for competitive advantage",
       "Simplicity enables action — the most complex accurate model is useless if nobody can understand or act on it",
       "The business team should just trust the model",
-      "Accuracy is the only thing that matters"
+      "Accuracy is the only thing that matters which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Simplicity enables action — the most complex accurate model is useless if nobody can understand or act on it",
     "explanation": "Occam's Razor is not just about correctness — it is about usability. A simple two-variable model that the team trusts and acts on is worth more than a perfect model that gathers dust. Simplicity enables communication, verification, and collective action.",

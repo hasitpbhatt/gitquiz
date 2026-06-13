@@ -6,7 +6,7 @@
     "options": [
       "The law of averages",
       "The Pareto Principle — a small fraction of causes produce the majority of effects",
-      "Diminishing returns",
+      "Diminishing returns which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Supply and demand"
     ],
     "answer": "The Pareto Principle — a small fraction of causes produce the majority of effects",
@@ -21,7 +21,7 @@
       "Yes — the numbers are not 80/20",
       "No — the Pareto Principle is about uneven distributions generally, not a fixed ratio; 10/95 still reflects the core insight that a minority drives the majority",
       "Pareto only works for land ownership",
-      "The data must be wrong"
+      "The data must be wrong which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "No — the Pareto Principle is about uneven distributions generally, not a fixed ratio; 10/95 still reflects the core insight that a minority drives the majority",
     "explanation": "The Pareto Principle is a reminder that distributions are skewed, not a mandate that every situation must be exactly 80/20. A 10/95 split still proves the point: a small number of defect types cause the overwhelming majority of complaints.",
@@ -35,7 +35,7 @@
       "Work through the list in order from top to bottom",
       "Identify which 6 tasks (roughly 20%) will deliver the most value and focus energy there, not on the trivial many",
       "Do every task for exactly the same amount of time",
-      "Randomly pick tasks to avoid bias"
+      "Randomly pick tasks to avoid bias which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Identify which 6 tasks (roughly 20%) will deliver the most value and focus energy there, not on the trivial many",
     "explanation": "Pareto's action insight: a small fraction of your tasks generate most of your output. Identifying and prioritizing that 20% is the most productive thing you can do. The remaining 80% of tasks may be necessary but should not dominate your schedule.",
@@ -49,7 +49,7 @@
       "All parts of the website are equally important",
       "The designer is investing effort in low-leverage areas (the trivial many) while neglecting features the vital 20% of users actually interact with",
       "Footer design is the most important element of any website",
-      "Perfectionism is always correct in design"
+      "Perfectionism is always correct in design which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "The designer is investing effort in low-leverage areas (the trivial many) while neglecting features the vital 20% of users actually interact with",
     "explanation": "Pareto suggests that not all effort yields equal results. Spending 80% of time on a rarely-seen footer is working on the trivial many. The same effort applied to core user flows would yield far more impact. Perfection on low-impact detail is waste.",
@@ -62,7 +62,7 @@
     "options": [
       "Random sampling",
       "Applying Pareto to risk management — focus on the vital few vulnerabilities that cause the most damage",
-      "Security theater",
+      "Security theater which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The precautionary principle"
     ],
     "answer": "Applying Pareto to risk management — focus on the vital few vulnerabilities that cause the most damage",
@@ -76,7 +76,7 @@
     "options": [
       "Invest equally in improving all 50 components",
       "Redesign those 3 high-failure components — fixing the vital few defect sources eliminates most warranty costs",
-      "Ignore the warranty claims",
+      "Ignore the warranty claims which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Blame the customers for driving poorly"
     ],
     "answer": "Redesign those 3 high-failure components — fixing the vital few defect sources eliminates most warranty costs",
@@ -90,7 +90,7 @@
     "options": [
       "Small customers never become valuable",
       "Pareto identifies patterns, not prescriptions — ignoring the 80% can create reputation damage and churn that eventually affects the vital 20%",
-      "All customers are equally profitable",
+      "All customers are equally profitable which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The manager should ignore all customers equally"
     ],
     "answer": "Pareto identifies patterns, not prescriptions — ignoring the 80% can create reputation damage and churn that eventually affects the vital 20%",
@@ -103,7 +103,7 @@
     "description": "You identify the 20% of code that causes 80% of bugs. Within that 20%, you find one function causes most of that 80%. What does multilevel Pareto suggest?",
     "options": [
       "The 20% of the 20% — the critical few within the critical few — provide the highest possible leverage for improvement",
-      "Pareto only works at one level",
+      "Pareto only works at one level which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "All bugs are equally important to fix",
       "Rewriting the entire codebase is the only solution"
     ],

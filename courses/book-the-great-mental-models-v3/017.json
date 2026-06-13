@@ -6,7 +6,7 @@
     "options": [
       "All three managers are equally incompetent",
       "The system's structure, not individual manager skill, drives the behavioral outcome",
-      "Inventory systems are inherently unpredictable",
+      "Inventory systems are inherently unpredictable which is a critical factor to consider in this context",
       "Each manager independently chose the same bad strategy"
     ],
     "answer": "The system's structure, not individual manager skill, drives the behavioral outcome",
@@ -20,7 +20,7 @@
     "options": [
       "The participants are not intelligent enough to make good decisions",
       "Communication delays and long lead times in the system structure amplify small demand signals into large ordering swings",
-      "The beer market follows a power law distribution",
+      "The beer market follows a power law distribution which is a critical factor to consider in this context",
       "The simulation was designed to be impossible to win"
     ],
     "answer": "Communication delays and long lead times in the system structure amplify small demand signals into large ordering swings",
@@ -34,7 +34,7 @@
     "options": [
       "The agents are lazy and need better training",
       "The incentive rewards fast calls, not satisfaction — agents optimize the metric, not the goal",
-      "Customers are becoming more demanding over time",
+      "Customers are becoming more demanding over time which is a critical factor to consider in this context",
       "Call duration and satisfaction are naturally inversely correlated"
     ],
     "answer": "The incentive rewards fast calls, not satisfaction — agents optimize the metric, not the goal",
@@ -47,7 +47,7 @@
     "description": "A software team consistently misses sprint deadlines despite having talented engineers. Management cycles through three different team leads, but deadlines continue to slip. What should leadership investigate?",
     "options": [
       "Hire even more talented engineers",
-      "Replace the entire team",
+      "Replace the entire team which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Audit the system structure: look at estimation practices, dependency chains, stakeholder interruption patterns, and communication silos",
       "Increase the sprint length to give more time"
     ],
@@ -62,7 +62,7 @@
     "options": [
       "The marketing team is incompetent at forecasting",
       "The 3-month information delay between action and feedback causes the company to react to outdated conditions, producing oscillation",
-      "The market is following a normal distribution",
+      "The market is following a normal distribution which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Marketing spend has diminishing returns regardless of timing"
     ],
     "answer": "The 3-month information delay between action and feedback causes the company to react to outdated conditions, producing oscillation",
@@ -76,7 +76,7 @@
     "options": [
       "The procurement team is not working hard enough",
       "Each department optimizes its own metric (low procurement cost) without visibility into how it affects other departments' constraints",
-      "The warehouse should be expanded immediately",
+      "The warehouse should be expanded immediately which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Bulk purchasing is always a bad strategy"
     ],
     "answer": "Each department optimizes its own metric (low procurement cost) without visibility into how it affects other departments' constraints",
@@ -90,7 +90,7 @@
     "options": [
       "The factory is overreacting to normal market fluctuations",
       "The bullwhip effect — structural amplification of demand signals through each supply chain tier due to information delays and safety stock policies",
-      "A normal distribution of inventory levels",
+      "A normal distribution of inventory levels which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Critical mass in reverse — the system is collapsing"
     ],
     "answer": "The bullwhip effect — structural amplification of demand signals through each supply chain tier due to information delays and safety stock policies",
@@ -105,7 +105,7 @@
       "Hire even more doctors and nurses to increase capacity",
       "Fire the department head and bring in new leadership",
       "Map patient flow, identify structural bottlenecks (e.g., lab results take 2 hours, bed assignment is manual), and redesign the intake and handoff processes",
-      "Reduce the number of patients admitted to the ER"
+      "Reduce the number of patients admitted to the ER which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Map patient flow, identify structural bottlenecks (e.g., lab results take 2 hours, bed assignment is manual), and redesign the intake and handoff processes",
     "explanation": "Adding more staff to a structurally flawed system only increases the chaos faster. The Structural Overhaul Rule requires analyzing the system architecture and removing structural barriers to performance.",

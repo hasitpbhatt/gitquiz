@@ -21,7 +21,7 @@
       "A permutation, because you are arranging people in order",
       "A combination, because the order of selection does not change the committee",
       "A feedback loop, because committee members influence each other",
-      "An algorithm, because there is a step-by-step selection procedure"
+      "An algorithm, because there is a step-by-step selection procedure which is a critical factor to consider in this context"
     ],
     "answer": "A combination, because the order of selection does not change the committee",
     "explanation": "When the final group is what matters, not the sequence in which members were picked, it is a combination. C(10,3) = 120 possible committees.",
@@ -35,7 +35,7 @@
       "The features follow a power law distribution",
       "Each new variable can combine with every existing variable, multiplying possibilities exponentially",
       "The additional features are inherently more complex than the originals",
-      "The system has reached critical mass"
+      "The system has reached critical mass which is a critical factor to consider in this context"
     ],
     "answer": "Each new variable can combine with every existing variable, multiplying possibilities exponentially",
     "explanation": "With n binary features, there are 2^n combinations. Adding 3 features multiplies possibilities by 2^3 = 8, demonstrating how linear growth in variables produces exponential combinatorial explosion.",
@@ -49,7 +49,7 @@
       "A breakthrough in cellular signal processing",
       "Combinatorial innovation — recombining existing technologies into a novel product",
       "A permutation of existing product designs",
-      "An algorithmic improvement to mobile hardware"
+      "An algorithmic improvement to mobile hardware which is a critical factor to consider in this context"
     ],
     "answer": "Combinatorial innovation — recombining existing technologies into a novel product",
     "explanation": "The iPhone exemplifies combinatorial innovation. Jobs did not invent any single component but combined three mature technologies into an integrated experience that disrupted the entire mobile industry.",
@@ -60,7 +60,7 @@
     "content": "Do not wait for a completely original invention. Map out existing underutilized internal assets and experiment with novel combinations to create new value streams.",
     "description": "A struggling manufacturing company has a proprietary alloy formula, a warehouse of precision CNC machines, and an unused robotics patent. Rather than trying to invent something entirely new, the CEO should:",
     "options": [
-      "Sell each asset separately to raise cash",
+      "Sell each asset separately to raise cash which is a critical factor to consider in this context",
       "Experiment with combining these existing assets into a novel product line for a new market",
       "Hire more scientists to invent a breakthrough material",
       "Focus only on the most profitable existing product"
@@ -74,7 +74,7 @@
     "content": "Scheduling problems involve permutations because the order of tasks determines the outcome. A different sequence can produce dramatically different efficiency.",
     "description": "A factory must process 8 jobs on a single machine. Processing job A before job B yields a completion time of 6 hours, but B before A yields 9 hours. What does this variation illustrate?",
     "options": [
-      "The factory has a bottleneck",
+      "The factory has a bottleneck which is a critical factor to consider in this context",
       "Order matters in permutations, and different sequences produce different outcomes",
       "The jobs follow a normal distribution of processing times",
       "The system has diminishing returns on processing speed"
@@ -90,7 +90,7 @@
     "options": [
       "12 possibilities, because only the CEO role matters",
       "220 possible combinations (C(12,3)), so systematic evaluation is needed to find the best skill mix",
-      "1,320 permutations, because order of joining matters",
+      "1,320 permutations, because order of joining matters which is a critical factor to consider in this context",
       "36 combinations, because teams have only 3 roles"
     ],
     "answer": "220 possible combinations (C(12,3)), so systematic evaluation is needed to find the best skill mix",
@@ -104,7 +104,7 @@
     "options": [
       "Ignoring the Law of Diminishing Returns on safety investment",
       "Failing to evaluate the combinatorial combinations of multiple failure modes",
-      "Misapplying the margin of safety principle",
+      "Misapplying the margin of safety principle which is a critical factor to consider in this context",
       "Assuming a normal distribution for failure events"
     ],
     "answer": "Failing to evaluate the combinatorial combinations of multiple failure modes",

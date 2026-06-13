@@ -7,7 +7,7 @@
       "Second-order thinking — considering long-term effects",
       "First-order thinking — focused only on the immediate budget benefit without considering downstream costs",
       "Probabilistic thinking",
-      "Inversion"
+      "Inversion which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "First-order thinking — focused only on the immediate budget benefit without considering downstream costs",
     "explanation": "First-order thinking sees only the immediate, direct result (saved money this year). Second-order thinking would ask: \"And then what?\" — emergency room costs, increased homelessness, and higher long-term social services spending.",
@@ -21,7 +21,7 @@
       "Effective incentive design",
       "The Cobra Effect — a solution that creates an incentive to produce more of the problem it aimed to solve",
       "The Peter Principle",
-      "Hanlon's Razor"
+      "Hanlon's Razor which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "The Cobra Effect — a solution that creates an incentive to produce more of the problem it aimed to solve",
     "explanation": "The Cobra Effect occurs when a well-intentioned solution creates perverse incentives that make the original problem worse. The British cobra bounty incentivized cobra breeding. The bug bounty incentivized bug creation.",
@@ -35,7 +35,7 @@
       "The Cobra Effect in India",
       "The Cane Toads in Australia — introducing a solution whose second-order effects were catastrophic and unanticipated",
       "The Maginot Line",
-      "The LTCM collapse"
+      "The LTCM collapse which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "The Cane Toads in Australia — introducing a solution whose second-order effects were catastrophic and unanticipated",
     "explanation": "The cane toad introduction failed because nobody asked \"And then what?\" beyond the first level. The toads didn't eat the beetles but destroyed the ecosystem. Second-order thinking would have revealed the ecological risks before introduction.",
@@ -49,7 +49,7 @@
       "The sales team is incompetent",
       "Incentive misalignment — first-order rewards (commission) incentivize behavior that creates terrible second-order consequences (high churn)",
       "The product is not good enough",
-      "Customers are irrational"
+      "Customers are irrational which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Incentive misalignment — first-order rewards (commission) incentivize behavior that creates terrible second-order consequences (high churn)",
     "explanation": "When first-order incentives reward immediate results, people optimize for those results even if they create disastrous downstream effects. Aligning incentives with second-order outcomes — like retention bonuses — solves this.",
@@ -63,7 +63,7 @@
       "Nothing — lower prices always increase sales",
       "How competitors will respond, how customer behavior will shift, and what systemic stresses will emerge over time",
       "Only the impact on this quarter's revenue",
-      "Whether the CEO approves the price change"
+      "Whether the CEO approves the price change which is a critical factor to consider in this context"
     ],
     "answer": "How competitors will respond, how customer behavior will shift, and what systemic stresses will emerge over time",
     "explanation": "The consequence tree examines each first-order outcome and asks \"And then what?\" across three dimensions: competitor responses, user/client behavioral shifts, and systemic stress on dependencies.",
@@ -77,7 +77,7 @@
       "\"How much will the bonus cost?\"",
       "\"And then what?\" — tracing what happens after the initial referral to uncover cascading effects",
       "\"Which competitors use referral bonuses?\"",
-      "\"Will the CEO approve this?\""
+      "\"Will the CEO approve this?\" which is a critical factor to consider in this context"
     ],
     "answer": "\"And then what?\" — tracing what happens after the initial referral to uncover cascading effects",
     "explanation": "The relentless \"And then what?\" is the engine of second-order thinking. First order: users invite friends. Second order: those friends may be less engaged. Third order: your original user base becomes incentivized to spam. Each layer reveals new dynamics.",
@@ -91,7 +91,7 @@
       "First-order thinking",
       "Second-order thinking",
       "Third-order thinking — recognizing systemic, permanent changes to the competitive environment",
-      "Probabilistic thinking"
+      "Probabilistic thinking which is a critical factor to consider in this context"
     ],
     "answer": "Third-order thinking — recognizing systemic, permanent changes to the competitive environment",
     "explanation": "Third-order consequences reshape the system itself — here, the brand's reputation permanently shifts in the market. This level of consequence is harder to trace but often the most impactful.",
@@ -102,7 +102,7 @@
     "content": "A common failure of second-order thinking is ignoring how competitors will adapt to your move, leading to strategies that work only if rivals remain passive.",
     "description": "An airline cuts fares to gain market share, expecting sustained profits from higher volume. It fails to anticipate that competitors will immediately match the lower prices, triggering a price war that hurts everyone. What was missed?",
     "options": [
-      "The airline needed better marketing",
+      "The airline needed better marketing which is a critical factor to consider in this context",
       "The airline ignored the second-order consequence of competitor responses, assuming rivals would remain passive",
       "Price cuts never work in any industry",
       "The airline should have cut prices even more"

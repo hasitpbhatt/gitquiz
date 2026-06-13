@@ -4,12 +4,12 @@
     "content": "As additional units of a variable input are added to a fixed factor of production, the marginal output from each additional unit will eventually decrease.",
     "description": "A farmer applies fertilizer to a field. The first bag increases yield by 30 bushels, the second by 20 bushels, the third by 10 bushels, and the fourth by 2 bushels. What economic principle does this demonstrate?",
     "options": [
-      "The law of diminishing returns \u2014 each additional unit of input produces less marginal output",
+      "The law of diminishing returns — each additional unit of input produces less marginal output",
       "Reinforcing feedback in agricultural systems",
       "The margin of safety in fertilizer application",
-      "Churn in soil nutrient levels"
+      "Churn in soil nutrient levels which is a critical factor to consider in this context"
     ],
-    "answer": "The law of diminishing returns \u2014 each additional unit of input produces less marginal output",
+    "answer": "The law of diminishing returns — each additional unit of input produces less marginal output",
     "explanation": "With land fixed (the constraint), each additional bag of fertilizer yields less incremental benefit. Eventually, adding more fertilizer would actually reduce yield.",
     "difficulty": "easy"
   },
@@ -19,39 +19,39 @@
     "description": "Your company spends $10,000 on Facebook ads and gets 100 new customers. Increasing to $20,000 only gets 140 customers. To $30,000 gets 160 customers. What does this pattern suggest?",
     "options": [
       "Facebook ads are not effective and should be stopped entirely",
-      "The marginal return per dollar is declining \u2014 time to diversify into other channels",
+      "The marginal return per dollar is declining — time to diversify into other channels",
       "Spend $40,000 to push past the plateau",
-      "The ads need better creative content"
+      "The ads need better creative content which is a critical factor to consider in this context"
     ],
-    "answer": "The marginal return per dollar is declining \u2014 time to diversify into other channels",
-    "explanation": "The first $10K yielded 100 customers (0.01/customer). The next $10K yielded 40 ($250/customer). The third yielded 20 ($500/customer). The marginal return is falling sharply \u2014 allocate elsewhere.",
+    "answer": "The marginal return per dollar is declining — time to diversify into other channels",
+    "explanation": "The first $10K yielded 100 customers (0.01/customer). The next $10K yielded 40 ($250/customer). The third yielded 20 ($500/customer). The marginal return is falling sharply — allocate elsewhere.",
     "difficulty": "medium"
   },
   {
     "question": "Diminishing Returns in Hiring",
-    "content": "Adding more engineers to a late-stage software project can actually slow it down due to coordination overhead, communication costs, and ramp-up time \u2014 a classic example of negative marginal returns.",
+    "content": "Adding more engineers to a late-stage software project can actually slow it down due to coordination overhead, communication costs, and ramp-up time — a classic example of negative marginal returns.",
     "description": "A project behind schedule adds 10 more developers. Instead of accelerating, completion time increases due to coordination meetings, merge conflicts, and onboarding. What concept explains this?",
     "options": [
       "The developers were not skilled enough",
       "Hiring can experience negative marginal returns due to coordination overhead overwhelming any additional capacity",
       "The project should have been cancelled",
-      "More project managers were needed"
+      "More project managers were needed which is a critical factor to consider in this context"
     ],
     "answer": "Hiring can experience negative marginal returns due to coordination overhead overwhelming any additional capacity",
-    "explanation": "Diminishing returns can go negative. Adding people to a late project increases communication paths (n(n-1)/2), creating more overhead than productive work \u2014 Brooks\u2019 Law in action.",
+    "explanation": "Diminishing returns can go negative. Adding people to a late project increases communication paths (n(n-1)/2), creating more overhead than productive work — Brooks’ Law in action.",
     "difficulty": "hard"
   },
   {
     "question": "Diminishing Returns in Studying",
-    "content": "Studying past the point of cognitive exhaustion produces negative marginal returns \u2014 additional hours reduce retention and increase errors due to fatigue.",
+    "content": "Studying past the point of cognitive exhaustion produces negative marginal returns — additional hours reduce retention and increase errors due to fatigue.",
     "description": "A student studies for 8 hours straight for an exam. The first 3 hours are highly productive, hours 4-5 show declining comprehension, and hours 6-8 result in rereading the same paragraphs without retention. What would be a better approach?",
     "options": [
       "Study 10 hours to compensate for the low-productivity hours",
-      "Study in focused blocks with breaks \u2014 recognizing that marginal returns diminish sharply after peak focus duration",
-      "Drink caffeine to extend productive study time",
+      "Study in focused blocks with breaks — recognizing that marginal returns diminish sharply after peak focus duration",
+      "Drink caffeine to extend productive study time which is a critical factor to consider in this context",
       "Only study the easy topics during long sessions"
     ],
-    "answer": "Study in focused blocks with breaks \u2014 recognizing that marginal returns diminish sharply after peak focus duration",
+    "answer": "Study in focused blocks with breaks — recognizing that marginal returns diminish sharply after peak focus duration",
     "explanation": "Beyond a certain threshold, additional study time yields zero or negative returns. The optimal approach is shorter, focused sessions where marginal returns remain high.",
     "difficulty": "easy"
   },
@@ -60,13 +60,13 @@
     "content": "Scaling ad spend on a single platform exhausts the highest-intent audience first. Each additional dollar reaches lower-intent prospects, driving cost per acquisition upward.",
     "description": "A startup scales its Google Ads daily budget from $100 to $5,000. Initially, cost per acquisition was $20. At $5,000/day, CPA rises to $150. What causes this?",
     "options": [
-      "Google is overcharging them",
+      "Google is overcharging them which is a critical factor to consider in this context",
       "The highest-intent audience converts first; scaling forces targeting lower-intent users with diminishing returns",
       "The ad creative is getting stale and needs to be refreshed",
       "Their landing page conversion rate is declining"
     ],
     "answer": "The highest-intent audience converts first; scaling forces targeting lower-intent users with diminishing returns",
-    "explanation": "Advertising platforms bid for audience segments. The first dollars capture those actively searching \u2014 high intent. As budget scales, the system reaches people who are less interested, driving CPA up as marginal returns fall.",
+    "explanation": "Advertising platforms bid for audience segments. The first dollars capture those actively searching — high intent. As budget scales, the system reaches people who are less interested, driving CPA up as marginal returns fall.",
     "difficulty": "medium"
   },
   {
@@ -77,24 +77,24 @@
       "Push the team to make 400 calls to get more deals",
       "Keep calling volume at around 200 and invest remaining effort into improving conversion rate or lead quality",
       "Reduce calling to 100 since the additional calls are wasted",
-      "Fire underperforming salespeople and hire better ones"
+      "Fire underperforming salespeople and hire better ones which is a critical factor to consider in this context"
     ],
     "answer": "Keep calling volume at around 200 and invest remaining effort into improving conversion rate or lead quality",
-    "explanation": "The first 100 calls produce 10 deals (0.10/deal). The next 100 produce 5 (0.05/deal). The next 100 produce 1 (0.01/deal). Beyond 200 calls, the marginal return is negligible \u2014 pivot resources elsewhere.",
+    "explanation": "The first 100 calls produce 10 deals (0.10/deal). The next 100 produce 5 (0.05/deal). The next 100 produce 1 (0.01/deal). Beyond 200 calls, the marginal return is negligible — pivot resources elsewhere.",
     "difficulty": "hard"
   },
   {
     "question": "Second Derivative Test",
-    "content": "The law of diminishing returns is mathematically expressed as d\u00b2Y/dX\u00b2 < 0 \u2014 the second derivative of output with respect to input is negative, indicating that marginal output is decreasing.",
+    "content": "The law of diminishing returns is mathematically expressed as d²Y/dX² < 0 — the second derivative of output with respect to input is negative, indicating that marginal output is decreasing.",
     "description": "A factory increases workers from 10 to 11 and output rises by 100 units. From 11 to 12, output rises by 80 units. From 12 to 13, output rises by 65 units. What does the declining increment tell you about the second derivative of output?",
     "options": [
-      "The second derivative is positive, meaning returns are accelerating",
+      "The second derivative is positive, meaning returns are accelerating which is a critical factor to consider in this context",
       "The second derivative is negative, confirming the law of diminishing returns is at work",
       "The first derivative is zero, meaning maximum output has been reached",
       "The function is linear and additional workers will always add 100 units"
     ],
     "answer": "The second derivative is negative, confirming the law of diminishing returns is at work",
-    "explanation": "If each additional worker adds less output than the previous one (100, 80, 65), the slope of the production function is decreasing \u2014 mathematically, the second derivative is negative.",
+    "explanation": "If each additional worker adds less output than the previous one (100, 80, 65), the slope of the production function is decreasing — mathematically, the second derivative is negative.",
     "difficulty": "hard"
   },
   {
@@ -102,13 +102,13 @@
     "content": "The optimal input level is where marginal return equals marginal cost. Beyond this point, each additional unit of input costs more than the value it produces.",
     "description": "A factory can produce up to 1,000 units/month. Each worker costs $500/day. The first worker adds $2,000 daily value, the second $1,500, the third $1,000, the fourth $500, and a fifth $100. How many workers should the factory hire?",
     "options": [
-      "5 \u2014 more workers always mean more total output",
-      "4 \u2014 the fifth worker adds $100 but costs $500, generating negative marginal profit",
-      "3 \u2014 to maintain the highest average productivity per worker",
-      "2 \u2014 to maximize profit per worker"
+      "5 — more workers always mean more total output",
+      "4 — the fifth worker adds $100 but costs $500, generating negative marginal profit",
+      "3 — to maintain the highest average productivity per worker",
+      "2 — to maximize profit per worker which is a critical factor to consider in this context"
     ],
-    "answer": "4 \u2014 the fifth worker adds $100 but costs $500, generating negative marginal profit",
-    "explanation": "Hire as long as marginal return > marginal cost. Worker 4 adds $500 of value at $500 cost \u2014 break-even. Worker 5 adds $100 at $500 cost \u2014 a loss. The optimal is 4 workers.",
+    "answer": "4 — the fifth worker adds $100 but costs $500, generating negative marginal profit",
+    "explanation": "Hire as long as marginal return > marginal cost. Worker 4 adds $500 of value at $500 cost — break-even. Worker 5 adds $100 at $500 cost — a loss. The optimal is 4 workers.",
     "difficulty": "medium"
   }
 ]

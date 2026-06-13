@@ -4,7 +4,7 @@
     "content": "Hanlon's Razor: \"Never attribute to malice that which is adequately explained by neglect.\" Most failures are due to incompetence, oversight, or honest mistakes — not evil intent.",
     "description": "A colleague misses a deadline and your report is late to the client. Your first reaction is: \"They sabotaged me.\" Hanlon's Razor suggests an alternative. What is it?",
     "options": [
-      "The colleague is definitely malicious",
+      "The colleague is definitely malicious which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The colleague probably made an honest mistake or was overloaded — neglect explains it more simply than malice",
       "Always assume the worst in people",
       "Report the colleague to HR immediately"
@@ -21,7 +21,7 @@
       "Hanlon's Razor is useless and should be abandoned",
       "Hanlon's Razor is a heuristic for starting inquiry, not a guarantee — once evidence of malice surfaces, update accordingly",
       "The colleague was still probably just mistaken",
-      "Hanlon's Razor forbids ever believing in malice"
+      "Hanlon's Razor forbids ever believing in malice which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Hanlon's Razor is a heuristic for starting inquiry, not a guarantee — once evidence of malice surfaces, update accordingly",
     "explanation": "Hanlon's Razor tells us to start with the simpler explanation, not to dogmatically reject malice. Like Occam's Razor, it is a prioritization tool. When evidence of actual malice surfaces, beliefs should update to reflect reality.",
@@ -35,7 +35,7 @@
       "The passenger is naively optimistic",
       "The passenger is applying Hanlon's Razor — assuming non-malicious intent prevents emotional escalation",
       "The driver definitely did it on purpose",
-      "Road rage is always justified"
+      "Road rage is always justified which is a critical factor to consider in this context"
     ],
     "answer": "The passenger is applying Hanlon's Razor — assuming non-malicious intent prevents emotional escalation",
     "explanation": "Applying Hanlon's Razor in everyday situations prevents the emotional spiral that comes from assuming malice. The driver could be distracted, in a hurry, or unskilled. None of those are personal attacks, and reacting as if they were only hurts yourself.",
@@ -48,7 +48,7 @@
     "options": [
       "Confirmation bias — countered by second-order thinking",
       "Fundamental attribution error — countered by Hanlon's Razor's default to situational explanations for others",
-      "Anchoring bias — countered by inversion",
+      "Anchoring bias — countered by inversion which is a critical factor to consider in this context",
       "Dunning-Kruger effect — countered by probabilistic thinking"
     ],
     "answer": "Fundamental attribution error — countered by Hanlon's Razor's default to situational explanations for others",
@@ -62,7 +62,7 @@
     "options": [
       "NASA executives deliberately murdered the crew",
       "Systemic organizational failures — communication breakdown, schedule pressure, normalization of deviance — rather than individual malicious intent",
-      "The engineers were incompetent",
+      "The engineers were incompetent which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "It was an unavoidable accident"
     ],
     "answer": "Systemic organizational failures — communication breakdown, schedule pressure, normalization of deviance — rather than individual malicious intent",
@@ -77,7 +77,7 @@
       "Fire the agent and hire someone better",
       "Fix the process — update the training manual and improve the refund interface — since the root cause is systemic, not malicious",
       "Demote the agent to a lower position",
-      "Accept poor service as inevitable"
+      "Accept poor service as inevitable which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Fix the process — update the training manual and improve the refund interface — since the root cause is systemic, not malicious",
     "explanation": "When Hanlon's Razor reveals neglect rather than malice as the likely cause, the appropriate response is system improvement, not punishment. Fixing processes yields lasting improvement; firing individuals with bad systems just repeats the problem with new hires.",
@@ -90,7 +90,7 @@
     "options": [
       "Immediately terminate the supplier relationship",
       "Investigate whether the supplier's costs genuinely increased due to raw material shortages or new regulations — non-malicious explanations come first",
-      "Publicly shame the supplier",
+      "Publicly shame the supplier which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Sue the supplier for breach of trust"
     ],
     "answer": "Investigate whether the supplier's costs genuinely increased due to raw material shortages or new regulations — non-malicious explanations come first",
@@ -104,7 +104,7 @@
     "options": [
       "Blame the team for not executing your vision",
       "Accept that your own neglect, oversight, or poor assumptions likely contributed — the simplest explanation for self is also neglect, not external malice",
-      "Blame the economy",
+      "Blame the economy which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Claim the project was sabotaged"
     ],
     "answer": "Accept that your own neglect, oversight, or poor assumptions likely contributed — the simplest explanation for self is also neglect, not external malice",

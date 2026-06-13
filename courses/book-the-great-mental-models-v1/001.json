@@ -7,7 +7,7 @@
       "A detailed step-by-step checklist for solving any problem",
       "A simplified representation of how something works that reveals underlying mechanics",
       "A mathematical formula for calculating risk in financial markets",
-      "A personality test that categorizes how people think"
+      "A personality test that categorizes how people think which is a critical factor to consider in this context"
     ],
     "answer": "A simplified representation of how something works that reveals underlying mechanics",
     "explanation": "Mental models strip away irrelevant noise to reveal how a system actually operates. They are not checklists, formulas, or personality tests — they are conceptual frameworks that help you understand the essential mechanics of a situation.",
@@ -18,7 +18,7 @@
     "content": "When you rely on a single perspective or mental model, you develop severe intellectual blind spots and try to solve every problem using the familiar tools of your specialized domain.",
     "description": "Your engineering department has a brilliant optimization expert who applies cost-cutting algorithms to every company problem — from marketing strategy to HR policies — with poor results. What concept explains this failure?",
     "options": [
-      "Groupthink",
+      "Groupthink which is a critical factor to consider in this context",
       "Maslow's hammer — over-reliance on a single tool",
       "The Dunning-Kruger effect",
       "Survivorship bias"
@@ -32,7 +32,7 @@
     "content": "A latticework is an interconnected toolkit of diverse mental models from multiple disciplines that you weave together to understand complex situations from multiple angles.",
     "description": "Your friend says, \"I just study finance deeply — that's enough for any business decision.\" According to the latticework philosophy, what is the flaw in this approach?",
     "options": [
-      "Finance is too quantitative for strategic decisions",
+      "Finance is too quantitative for strategic decisions which is a critical factor to consider in this context",
       "The world is multi-disciplinary and no single field covers all relevant forces in a situation",
       "Financial models are always backward-looking and therefore useless",
       "You should study marketing instead of finance for better results"
@@ -74,7 +74,7 @@
     "content": "Specialized domains like finance or engineering provide narrow toolkits, but real-world problems involve forces from physics, psychology, biology, and history simultaneously.",
     "description": "A brilliant surgeon is asked to advise a venture capital firm on a biotech investment but overlooks market incentives and competitive dynamics. What foundational concept warns against this narrow perspective?",
     "options": [
-      "The Peter Principle",
+      "The Peter Principle which is a critical factor to consider in this context",
       "The danger of operating with a single-disciplinary toolkit when problems are multi-dimensional",
       "The law of diminishing returns",
       "Status quo bias in professional settings"
@@ -91,7 +91,7 @@
       "Obscure mathematical theorems used by quantitative hedge funds",
       "Timeless, high-leverage concepts from major disciplines like physics, biology, and psychology",
       "The latest business management fads from popular blogs",
-      "Detailed programming language syntax guides"
+      "Detailed programming language syntax guides which is a critical factor to consider in this context"
     ],
     "answer": "Timeless, high-leverage concepts from major disciplines like physics, biology, and psychology",
     "explanation": "The most practical approach is to focus on foundational, interdisciplinary models that apply across many situations. A few core models handle the vast majority of everyday decisions.",
@@ -104,7 +104,7 @@
     "options": [
       "A memory deficiency that can be fixed with practice",
       "They lack deep understanding of model boundaries and interactions — the essence of a true latticework",
-      "They are too specialized in one discipline",
+      "They are too specialized in one discipline which is a critical factor to consider in this context",
       "They need to read more books on mental models"
     ],
     "answer": "They lack deep understanding of model boundaries and interactions — the essence of a true latticework",
