@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Vertical Integration by Necessity",
+    "content": "Max Hodak describes his approach to building Science's biohybrid brain interface: when critical components can't be bought off the shelf, you have to build them yourself. This means owning a MEMS foundry on the East Coast because no vendor could do the type of packaging and assembly required.",
+    "description": "Your hardware startup needs a custom sensor that no existing vendor can manufacture to your specifications. The board suggests outsourcing the design and accepting compromises. Based on Max Hodak's approach at Science, what alternative strategy should you consider?",
+    "options": [
+      "Accept vendor compromises to stay focused on your core product",
+      "Vertically integrate — own the manufacturing capability yourself if no",
+      "Redesign your product to work with off-the-shelf components exclusively",
+      "Partner with a larger company that already has the manufacturing capability"
+    ],
+    "answer": "Vertically integrate — own the manufacturing capability yourself if no",
+    "explanation": "Max says: 'We own a captive MEMS foundry on the East Coast. There was no other way to do the type of packaging and assembly we wanted to do.' When components aren't available, vertical integration is the only path to real innovation.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "AI's Hidden Impact: Regulatory",
+    "content": "Max Hodak reveals that one of the biggest impacts AI has had inside Science is not in engineering but in regulatory interactions. AI can navigate the thousands of ISO standards that apply to a product, something that used to require a whole regulatory and quality team for several months.",
+    "description": "Your medical device company is preparing for FDA audit. The regulatory team estimates six months to trace which ISO standards apply to your new product. Based on Max Hodak's experience at Science, where should you look for a faster solution?",
+    "options": [
+      "Hire a larger regulatory team to parallelize the standards research",
+      "Deploy AI to trace applicable standards — it can navigate the regulatory",
+      "Ignore the standards that don't seem directly relevant to save time",
+      "Outsource the compliance work to a European notified body"
+    ],
+    "answer": "Deploy AI to trace applicable standards — it can navigate the regulatory",
+    "explanation": "Max says: 'If we can generate documentation, or if we can ask — we want to evolve this product, there are thousands of ISO standards that might apply, which ones do we have to comply with — that used to require a whole regulatory and quality team for several months. Now the AI just kind of knows.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Software Still Needs Hands",
+    "content": "Max Hodak argues that even as AI becomes smarter than humans, there are real boundaries created by the physical world. AI can design a perfect chip or surgical device, but it still needs human hands — or robotic hands — to fabricate it in the physical world.",
+    "description": "Your AI designs an optimal surgical tool with perfect simulations, but the design exists only as digital files. According to Max Hodak, what is the critical boundary that limits AI's impact in the physical world?",
+    "options": [
+      "AI cannot generate valid STEP files or PCB layouts yet",
+      "The software still needs hands — if AI can't make things, that's",
+      "Physical world designs must always be reviewed by licensed engineers",
+      "AI designs are always inferior to human-designed physical products"
+    ],
+    "answer": "The software still needs hands — if AI can't make things, that's",
+    "explanation": "Max says: 'Ultimately the software still needs hands. It's going to be smarter than us, but if it can't make things, those are real boundaries.' Even superhuman AI is constrained by its inability to manipulate the physical world.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Humans Become Verifiers",
+    "content": "Naval synthesizes a pattern across engineering, law, and operations: humans are moving from being the primary doers of work to being verifiers of AI-generated output. The same way AI models are trained with human verification data, organizations now need human verifiers for AI output.",
+    "description": "Your engineering team generates code through AI agents and then reviews the output before shipping. A board member asks why you still need engineers if AI does the coding. According to Naval's framework, what is the engineers' new primary function?",
+    "options": [
+      "Engineers are now primarily prompt engineers who refine AI inputs",
+      "Engineers are becoming verifiers — standing behind the output",
+      "Engineers are transitioning to a project management role",
+      "Engineers are needed only for legacy system maintenance"
+    ],
+    "answer": "Engineers are becoming verifiers — standing behind the output",
+    "explanation": "Naval says: 'Humans are becoming verifiers. That's how we train these models — with good verification data — and now we need human verifiers.' The human's role shifts from writing code to verifying AI output and taking responsibility for it.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Great Promotion",
+    "content": "Naval draws a parallel between software engineering and law: AI doesn't eliminate jobs — it eliminates the junior version of the job, effectively promoting everyone. Junior engineers become senior engineers; paralegals become lawyers — because the grunt work is now handled by AI.",
+    "description": "Your law firm is debating whether to lay off junior associates after adopting an AI that can draft basic legal documents. A partner argues the AI makes junior lawyers obsolete. Based on Naval's 'great promotion' reframe, what is the alternative perspective?",
+    "options": [
+      "Junior lawyers should be fired because their work can be done cheaper",
+      "Paralegals just got promoted to senior lawyers and can now spend",
+      "AI will replace all lawyers within five years regardless of seniority",
+      "Junior lawyers should shift to a career in software engineering instead"
+    ],
+    "answer": "Paralegals just got promoted to senior lawyers and can now spend",
+    "explanation": "Naval says: 'Paralegals just got fired, or paralegals just got promoted to senior lawyers, and now they can spend their time thinking about the law.' The grunt work is gone; the human moves up the value chain to higher-order thinking and judgment.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Trusted Authority",
+    "content": "Guillermo Rauch draws a parallel between law and software: what you value in a lawyer is their willingness to put their reputation on the line. The same is becoming true for engineers — their value is not in writing code but in signing off on the consequences of deploying code.",
+    "description": "A client asks your engineering firm to verify that a critical infrastructure deployment is safe. They don't ask to see every line of code — they ask for your personal sign-off. What does Guillermo Rauch identify as the parallel between this scenario and legal practice?",
+    "options": [
+      "Clients always want to read every line of code, just like every line of a contract",
+      "What you're valuing is a trusted authority who puts their reputation on the line",
+      "Engineers should never sign off on code they didn't personally write",
+      "The law requires engineers to provide a full code audit in every contract"
+    ],
+    "answer": "What you're valuing is a trusted authority who puts their reputation on the line",
+    "explanation": "Guillermo draws the parallel: 'What you're valuing in the relationship with a lawyer is that they're a trusted authority. They went to law school. They're putting their reputation on the line.' The same applies to engineers verifying AI output.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Mountain of Slop",
+    "content": "Guillermo Rauch identifies a major problem in the age of AI-generated code: the mountain of PR slop. Engineers receive pull requests where AI has generated most of the code, and the traditional expectation of reading every line becomes impractical.",
+    "description": "Your team receives a 2000-line pull request that was 90% generated by AI. A senior engineer insists on reading every single line before approving. According to Guillermo Rauch, what is a more practical approach to code review in the AI era?",
+    "options": [
+      "Every line of code must be read and understood before approval — no shortcuts",
+      "Engineers should write test harnesses, simulations, and proofs that",
+      "AI-generated code doesn't need review because the model is accountable",
+      "Only review the files that the AI model flagged as high-risk"
+    ],
+    "answer": "Engineers should write test harnesses, simulations, and proofs that",
+    "explanation": "Guillermo says: 'I wrote the test harness, the simulations, the proofs, the type-checkers — even without reading this, I have confidence I can sign off that it'll be safe in production.' The confidence comes from the testing infrastructure, not line-by-line reading.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "1000 Days From Now",
+    "content": "Guillermo Rauch warns that while AI makes creating software incredibly easy, the hard part is maintaining it for the long term. Creating software is zero to one, but what does the software look like 1000 days later? Is it secure, tested, production-grade, performant?",
+    "description": "Your team churns out features rapidly using AI coding tools. After six months, the codebase is a tangled mess with no tests and no documentation. According to Guillermo Rauch, what aspect of software engineering is being dangerously neglected?",
+    "options": [
+      "The team should switch to a different AI coding tool for better output",
+      "Creating software is easy — the hard part is maintaining it for 1000",
+      "The codebase quality doesn't matter as long as features ship on time",
+      "AI will automatically refactor and maintain the codebase without human input"
+    ],
+    "answer": "Creating software is easy — the hard part is maintaining it for 1000",
+    "explanation": "Guillermo asks: 'Think about a thousand days from now. What does your software look like? Is it secure? Is it tested? Is it production-grade? Is it performant?' The ease of creation masks the long-term burden of maintenance.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Someone Gets Paged",
+    "content": "Guillermo Rauch emphasizes that while AI can create software, someone still has to be responsible when things go wrong in production. The infrastructure production engineer who gets paged at 3 AM is the ultimate human accountability layer.",
+    "description": "Your startup deploys AI-generated code directly to production without a dedicated operations team. A board member asks who is responsible when a deployment causes an outage. What does Guillermo Rauch argue is the human cost of AI-generated software?",
+    "options": [
+      "The AI model provider is contractually liable for production outages",
+      "Someone is going to get paged if your systems go down — there is no",
+      "Production outages are acceptable in the age of rapid AI iteration",
+      "AI agents will self-heal production systems without human intervention"
+    ],
+    "answer": "Someone is going to get paged if your systems go down — there is no",
+    "explanation": "Guillermo says: 'Someone is going to get paged if your systems go down.' The human accountability layer — the person who gets woken up at 3 AM — remains essential even as AI generates more of the code.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Knowledge Gap in N-of-1 Medicine",
+    "content": "Guillermo Rauch connects the democratization of AI to personalized medicine. Sid's story of N-of-1 cancer treatment required tremendous patient agency at a moment of weakness. AI could democratize access to this kind of personalized medical knowledge.",
+    "description": "A family member is diagnosed with a rare condition and the standard treatment options are limited. You have resources to explore personalized approaches but lack medical expertise. How does Guillermo Rauch see AI changing this situation?",
+    "options": [
+      "AI should not be trusted with medical decisions because of hallucination risks",
+      "AI could democratize the knowledge and research that goes into personalized",
+      "Personalized medicine will always require a team of specialist doctors",
+      "The FDA strictly prohibits AI involvement in any medical treatment decisions"
+    ],
+    "answer": "AI could democratize the knowledge and research that goes into personalized",
+    "explanation": "Guillermo says about Sid's story: 'It requires a ton of agency from the patient in a moment where they're at their weakest. This is where AI should really shine, and democratize what you can actually do.' AI could make N-of-1 medicine accessible beyond the wealthy.",
+    "difficulty": "hard"
+  }
+]

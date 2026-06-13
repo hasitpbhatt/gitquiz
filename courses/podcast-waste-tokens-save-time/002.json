@@ -1,0 +1,128 @@
+[
+  {
+    "question": "The Reverse Prompt",
+    "content": "Guillermo Rauch observes that the relationship between human and AI model is starting to invert. Instead of humans completing the model's output, the model is increasingly telling humans what to do — fetching API keys, getting capital, performing physical tasks the model can't do itself.",
+    "description": "You ask your AI coding assistant to implement a feature, and it responds: 'I need you to go get me an API key from the AWS console first, then I can proceed.' According to Guillermo Rauch, what is happening here?",
+    "options": [
+      "The model is experiencing a hallucination and doesn't know how to proceed",
+      "The model is testing whether you have sufficient permissions to run its code",
+      "The human is still completing the model, but we're approaching the inflection",
+      "The model is being lazy and trying to shift its work onto you"
+    ],
+    "answer": "The human is still completing the model, but we're approaching the inflection",
+    "explanation": "Guillermo Rauch asks: 'Clearly the human is still completing the model. At what point is it the other way around?' The model telling you 'go get me this API key' is the early sign of the inversion — where the human starts executing physical actions the model requires.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Don't Use Postgres for That",
+    "content": "Guillermo describes a recent shift in model capability: when asked to put high-cardinality telemetry data into Postgres, the model now pushes back and recommends the right tool for the job instead of blindly executing.",
+    "description": "You tell your AI coding assistant to store time-series analytics data in PostgreSQL. The AI responds: 'No, bro. We don't put that kind of data into Postgres. You should consider ClickHouse or Athena.' What does Guillermo Rauch see as significant about this interaction?",
+    "options": [
+      "The model is wasting tokens by arguing instead of coding",
+      "The model has developed an irrational preference against PostgreSQL",
+      "The model now has enough architectural judgment to recommend the",
+      "This is a bug caused by the model's training data being out of date"
+    ],
+    "answer": "The model now has enough architectural judgment to recommend the",
+    "explanation": "Guillermo is impressed that the model now says 'No, bro. We don't put that kind of data into Postgres' — it has enough architectural judgment to push back on a bad technical decision and recommend the right tool (ClickHouse, Athena) instead of blindly executing.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Building Block Economy",
+    "content": "Mitchell Hashimoto's concept argues that AI agents will be most powerful when they have access to reusable building blocks — pre-built infrastructure components — rather than reinventing everything from scratch for every task.",
+    "description": "Your AI agent needs to send email notifications. Instead of writing an entire email queue system from scratch, you want it to pull in a pre-built solution. What framework does Mitchell Hashimoto's 'Building Block Economy' provide for this decision?",
+    "options": [
+      "Agents should always build from scratch to avoid dependency vulnerabilities",
+      "Agents should use the right-sized reusable building block rather than",
+      "Agents should use the most popular library regardless of performance",
+      "Agents should avoid external dependencies entirely for security reasons"
+    ],
+    "answer": "Agents should use the right-sized reusable building block rather than",
+    "explanation": "Guillermo explains Mitchell Hashimoto's argument: you wouldn't expect your agent to 'reinvent a queue infrastructure system every time it needs to send an email.' It needs the right building block, right-sized for the task — like BullMQ for queuing.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Infrastructure as Token Cache",
+    "content": "Guillermo Rauch introduces a metaphor for reusing existing code and infrastructure: anything that's already been created and can be reused by AI models acts like a cache that prevents wasting tokens on reproducing what already exists.",
+    "description": "Your engineering team debates whether AI agents should be allowed to use existing npm packages or should be constrained to a whitelist. Using Guillermo Rauch's 'token cache' metaphor, what is the most efficient approach?",
+    "options": [
+      "Agents should never use existing packages to ensure maximum originality",
+      "Existing code acts as a token cache — agents should reuse what's already",
+      "Agents should be limited to a small whitelist of government-approved packages",
+      "Every agent should build its own dependencies to avoid supply chain attacks"
+    ],
+    "answer": "Existing code acts as a token cache — agents should reuse what's already",
+    "explanation": "Guillermo says: 'Anything that's already been created that the models can reuse is like a token cache. You don't want to churn through a trillion tokens to reproduce what's already existing.' Reuse is efficiency.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Cooperation at Scale",
+    "content": "Despite the theoretical appeal of agents reinventing everything from first principles, Guillermo argues there is enormous value in standardized infrastructure that everyone shares — the fact that 'we're both depending on Postgres 13.2' creates compatibility and shared understanding.",
+    "description": "A team proposes that their AI agent should build a custom database engine optimized specifically for their use case, rejecting PostgreSQL because a custom solution could be 20% faster. What counter-argument would Guillermo make?",
+    "options": [
+      "Building a custom database engine is illegal due to database software patents",
+      "The 20% performance gain isn't worth losing the cooperation-at-large-scale",
+      "PostgreSQL 13.2 is the only database licensed for commercial use",
+      "AI agents cannot build custom database engines that are actually reliable"
+    ],
+    "answer": "The 20% performance gain isn't worth losing the cooperation-at-large-scale",
+    "explanation": "Guillermo argues: 'Even if there's potential for extra optimization, there's still cooperation-at-large-scale value of saying we're both depending on Postgres 13.2.' Shared infrastructure enables collaboration, knowledge sharing, and ecosystem benefits.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Model Will Hack Its Own API",
+    "content": "Naval predicts that the current need for humans to perform physical actions for models is a temporary limitation. Models will soon have direct access to APIs, CLIs, and crypto wallets — enabling them to operate autonomously in the digital and financial world.",
+    "description": "Your AI agent currently needs you to manually deploy code to production because it doesn't have production access. Naval argues this is a temporary situation. What does he predict will replace the need for human intermediaries?",
+    "options": [
+      "Every SaaS company will provide CLI and API interfaces that models can",
+      "Human oversight of AI deployments will be legally mandated forever",
+      "Models will eventually be granted full autonomy through constitutional AI",
+      "The need for human intermediaries will grow as systems become more complex"
+    ],
+    "answer": "Every SaaS company will provide CLI and API interfaces that models can",
+    "explanation": "Naval says: 'Pretty soon every good SaaS company or hosting provider will have a CLI and API interface the models can use directly. They don't even necessarily need an API. As long as it's text-based, Unix-based — the agent can hack its own API.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Crypto Tokens for Model Agency",
+    "content": "Naval extends the vision of autonomous models to include financial autonomy. Models need access to capital to pay for the resources they consume, and crypto tokens provide a programmable, machine-readable payment mechanism.",
+    "description": "Your AI agent needs to spin up cloud compute resources to run a batch job, but it has no way to pay for them. According to Naval, what solution will enable models to handle their own finances?",
+    "options": [
+      "All AI models will be given free unlimited compute by cloud providers",
+      "Companies will assign human accountants to approve every model expense",
+      "Models will use crypto tokens to pay for whatever they need",
+      "Models will mine cryptocurrency to fund their own compute needs"
+    ],
+    "answer": "Models will use crypto tokens to pay for whatever they need",
+    "explanation": "Naval says: 'And the money part — you insert crypto tokens, put in Bitcoin, put in whatever, and the model goes and pays for whatever it needs. People are working on this.' Crypto provides a machine-native payment rail.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Agent Libraries and Dependencies",
+    "content": "Naval reframes Guillermo's 'building block economy' and 'token cache' concepts into traditional software engineering terms: what agents need are simply libraries and dependencies, but designed for how AI agents consume and compose them.",
+    "description": "A colleague struggles to understand what Guillermo means by 'token cache' and 'building blocks for agents.' How does Naval simplify this concept for someone coming from a traditional software engineering background?",
+    "options": [
+      "These are like libraries and dependencies, but for agents instead of",
+      "These are entirely new concepts with no parallel in traditional software",
+      "These are marketing terms with no practical implementation yet",
+      "These refer to physical hardware tokens that store AI model weights"
+    ],
+    "answer": "These are like libraries and dependencies, but for agents instead of",
+    "explanation": "Naval responds to Guillermo's metaphor by saying: 'So these are like libraries and dependencies, but for models.' A straightforward reframing — agents need the same composable building blocks that human developers have always used.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hardware Is the New Moat",
+    "content": "Naval argues that with AI making software development trivially easy, the durable competitive advantage for startups shifts from software to hardware. If anyone can generate software on demand, the ability to build physical things becomes the real moat.",
+    "description": "You're advising a startup founder who has a pure software product with no hardware component. The founder believes the codebase is their competitive advantage. How would Naval challenge this assumption?",
+    "options": [
+      "Software patents will protect the codebase from competitors indefinitely",
+      "If software becomes trivially easy to generate with AI, hardware becomes",
+      "The founder should pivot to selling consulting services instead of software",
+      "The codebase is still the best moat because AI cannot replicate complex logic"
+    ],
+    "answer": "If software becomes trivially easy to generate with AI, hardware becomes",
+    "explanation": "Naval asks: 'Is pure software dead? Where's the moat for a founder? Hardware. As a hardware founder — great, you can have really good software developed fairly quickly.' Software moats dissolve; hardware moats strengthen.",
+    "difficulty": "hard"
+  }
+]

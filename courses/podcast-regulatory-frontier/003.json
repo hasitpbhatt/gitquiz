@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Perfectly Safe If We Never Build",
+    "content": "Max Hodak describes the NRC's approach to nuclear safety: their job was to make sure nuclear energy was safe, and they accomplished this by permitting zero nuclear plants from the 1970s until recently. The 'safety' was achieved by preventing construction entirely.",
+    "description": "A regulator boasts that their agency has achieved a perfect safety record with zero incidents in the last 40 years. Based on Max Hodak's NRC analysis, what is the most likely explanation for this perfect record?",
+    "options": [
+      "The regulator's safety protocols are world-class and should be adopted globally",
+      "The agency achieved perfect safety by simply not permitting any new",
+      "Technology has improved so much that accidents are now impossible",
+      "The regulator has been defunded and lacks capacity to inspect facilities"
+    ],
+    "answer": "The agency achieved perfect safety by simply not permitting any new",
+    "explanation": "Max says about the NRC: 'Their job was to make sure nuclear energy was safe, and they did this by permitting zero plants from the seventies until I think a year ago. It will be perfectly safe if we never build any of it.' Perfect safety through zero activity is a pyrrhic victory.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The 57% They Don't Notice",
+    "content": "Naval points to a French entrepreneur lamenting that 57% of GDP is consumed by the government, making it nearly impossible to create companies. Yet to the average French citizen, this loss is invisible — they only perceive being slightly poorer than Americans.",
+    "description": "You're debating with someone who claims France has a high quality of life with strong social services, and they don't see a problem with 57% government spending. What would Naval identify as the hidden cost that most citizens fail to notice?",
+    "options": [
+      "French citizens pay more in taxes than Americans despite receiving worse services",
+      "People don't notice what they're missing — the companies that were never",
+      "France's social services are actually lower quality than America's private alternatives",
+      "The 57% figure is an exaggeration and actual government spending is much lower"
+    ],
+    "answer": "People don't notice what they're missing — the companies that were never",
+    "explanation": "Naval says: 'Culturally it's very hard for most people to understand what we lost, what we missed... To the average French citizen, that's not visible. They don't notice what they're missing. They just know they're slightly poorer than the US.'",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Fifty-State Experiment",
+    "content": "Naval proposes a true experiment among the fifty US states with different regulations and tax structures. Blake Scholl adds the concept of opt-in YIMBY innovation zones where people consent to different rules. The successes can then spread to other states.",
+    "description": "A policy maker argues that a single national regulatory framework is essential for safety and consistency. What counter-argument would Naval and Blake make in favor of competing state-level experiments?",
+    "options": [
+      "National frameworks are unconstitutional and violate states' rights",
+      "Different rules across states create a laboratory of experimentation where",
+      "State-level experiments always lead to a race to the bottom on safety",
+      "The federal government should eliminate all regulations and let states decide everything"
+    ],
+    "answer": "Different rules across states create a laboratory of experimentation where",
+    "explanation": "Naval says: 'I would love to see a true experiment among the fifty states. Different regulations, different tax structures.' Blake adds that opt-in YIMBY zones create an experimentation framework where successes can spread to other areas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Right to Try Catch-22",
+    "content": "Max Hodak explains a hidden obstacle in drug access: the Right to Try Act and Single Patient IND pathway get approved over 99% of the time, but the problem is manufacturing. Only the IP owner has clinical-grade drug, and they won't supply it because the FDA draws adverse inferences from any bad outcome in an uncontrolled setting.",
+    "description": "A terminally ill patient qualifies for the Right to Try Act, and their doctor gets FDA approval over the phone. Yet the drug company refuses to supply the drug. According to Max Hodak, what is the drug company's real concern?",
+    "options": [
+      "The drug company doesn't have enough manufacturing capacity for single-patient requests",
+      "The FDA will draw an adverse inference if something bad happens, potentially",
+      "The drug company is legally prohibited from supplying drugs for experimental use",
+      "The patient's insurance won't cover the cost of manufacturing the drug"
+    ],
+    "answer": "The FDA will draw an adverse inference if something bad happens, potentially",
+    "explanation": "Max explains: 'The FDA will draw an adverse inference if something bad happens to your patient who's probably really sick to begin with, and that's seen as a property of the drug, which is global.' The IP owner won't risk their clinical trial over one patient's outcome.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Adverse Inference Problem",
+    "content": "Max Hodak identifies a specific fix for accelerating medical innovation: the FDA must be prohibited from drawing adverse inferences across different users of the same drug or therapy. This would allow patients to access experimental treatments without threatening clinical trials.",
+    "description": "A policy advisor suggests that making the Right to Try Act work just requires more funding for drug manufacturing. Based on Max Hodak's analysis, what regulatory change would actually unlock patient access to experimental treatments?",
+    "options": [
+      "More funding for the FDA to hire additional manufacturing inspectors",
+      "The FDA should be prohibited from drawing adverse inferences across",
+      "The Right to Try Act should be repealed and replaced with faster clinical trials",
+      "Drug companies should be legally required to supply any patient who qualifies"
+    ],
+    "answer": "The FDA should be prohibited from drawing adverse inferences across",
+    "explanation": "Max says: 'The FDA has to be prohibited from drawing adverse inferences across different users of a capsid, for example. There are specific ways you could really accelerate innovation with a relatively light regulatory touch by just preventing this paranoia from driving our decisions.'",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Sid's Story: N-of-1 Medicine",
+    "content": "Max Hodak shares Sid's story from GitLab: diagnosed with a rare cancer, lived past his prognosis through frontline chemo and an experimental alternative, then exhausted standard options. Through his own research and agency, Sid created a personalized treatment plan, and now multiple companies have emerged from new drugs in his escalation ladder.",
+    "description": "A friend is diagnosed with a rare cancer and told by their doctors that no treatment options remain after standard protocols are exhausted. Based on Max Hodak's recounting of Sid's story, what is the most important lesson about cutting-edge medicine?",
+    "options": [
+      "Doctors always know the full range of options and their prognosis is definitive",
+      "At the high end, with enough resources and agency, outcomes are possible",
+      "Rare cancers are universally fatal and experimental treatments never work",
+      "The best option is to join a clinical trial regardless of the drug being tested"
+    ],
+    "answer": "At the high end, with enough resources and agency, outcomes are possible",
+    "explanation": "Max says: 'It is really clear to me that at the high end — if you're not dealing with insurance, you have the resources... outcomes are possible that are crazy. This type of N-of-1 medicine is going to end up being a really rich source of research.'",
+    "difficulty": "medium"
+  },
+  {
+    "question": "AI Democratizes N-of-1 Medicine",
+    "content": "Guillermo Rauch connects AI to Sid's story: N-of-1 medicine requires tremendous patient agency at the worst moment of their life. AI could democratize the knowledge and research that goes into personalized treatment, making it accessible beyond the wealthy and well-connected.",
+    "description": "A patient advocate argues that personalized N-of-1 medicine will always be a luxury for the wealthy because it requires expert knowledge and custom manufacturing. How would Guillermo Rauch challenge this assumption using AI?",
+    "options": [
+      "AI cannot be trusted with medical decisions due to hallucination and liability risks",
+      "AI could democratize access to N-of-1 knowledge, making personalized research",
+      "Personalized medicine will always require a team of specialist doctors regardless of AI",
+      "The FDA will never approve AI-driven personalized medicine recommendations"
+    ],
+    "answer": "AI could democratize access to N-of-1 knowledge, making personalized research",
+    "explanation": "Guillermo says: 'This is where AI should really shine, and democratize what you can actually do when you find yourself in that situation. It's kind of crazy how few people get access to this, just from a knowledge perspective, not just monetarily.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Deregulation Through Lower Costs",
+    "content": "Max Hodak argues that the fundamental problem with healthcare is that it costs too much to bring products to market. China is winning by making things cheaper — selling for $10,000 instead of $100,000. The real deregulation is reducing the cost of market entry.",
+    "description": "A healthcare policy debate centers on whether to adopt single-payer or expand private insurance. Max Hodak would argue both miss the point. What does he identify as the actual path to healthcare innovation?",
+    "options": [
+      "Single-payer systems always produce better outcomes than private insurance",
+      "Bring down the costs of bringing products to market so someone can buy",
+      "Nationalize all pharmaceutical manufacturing to eliminate profit margins",
+      "Expand FDA funding to accelerate clinical trial approvals for new drugs"
+    ],
+    "answer": "Bring down the costs of bringing products to market so someone can buy",
+    "explanation": "Max says: 'The way out of this is not single-payer or some revision to health insurance. It's to bring down the costs so that someone can buy this with a credit card, finance it, maybe like a car... To do that, we have to make it cheaper to bring these things to market. That is deregulation.'",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Blake's Traffic Lesson",
+    "content": "When Naval says healthcare is a communist society inside capitalism, Blake Scholl points out the same logic applies to roads: there's no variable pricing for highway access, which is why traffic is always clogged. The absence of price signals creates shortages in both systems.",
+    "description": "A city planner proposes building more highways to solve traffic congestion. Based on Blake Scholl's extension of Naval's healthcare analogy, what is the fundamental flaw in this approach?",
+    "options": [
+      "More highways always lead to more traffic due to induced demand, making the problem worse",
+      "There's no variable pricing for highway access, so there's no feedback loop for efficient",
+      "Construction costs have risen so high that building highways is no longer economically viable",
+      "Autonomous vehicles will solve traffic congestion within the next decade without new roads"
+    ],
+    "answer": "There's no variable pricing for highway access, so there's no feedback loop for efficient",
+    "explanation": "Blake says: 'It's also what we're doing on roads, which is why we have traffic. There's no variable pricing for getting on the highway, which is why it's always clogged.' The absence of price signals means demand is never rationed by cost.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Economist Won't Say Capitalism",
+    "content": "Naval notes that economists acknowledge the US is outstripping other economies in growth but attribute it to geography and natural resources rather than capitalism. He observes that magazines that should advocate for free markets have become reluctant to use the 'C-word.'",
+    "description": "A news article celebrates US economic outperformance but credits 'natural resources' and 'geographic luck' while avoiding any mention of free markets. What would Naval say explains this reluctance to credit capitalism?",
+    "options": [
+      "Capitalism is actually not responsible for US economic growth",
+      "Economists and magazines became reluctant to credit capitalism, even though it is the real",
+      "Natural resources genuinely explain most of the US economic advantage over Europe",
+      "The US has less capitalism than Europe despite growing faster"
+    ],
+    "answer": "Economists and magazines became reluctant to credit capitalism, even though it is the real",
+    "explanation": "Naval says: 'They don't want to say the dirty C-word, because for some reason all these magazines became Marxists at some point. They can't envision or imagine what could have been if we had just been a little more laissez-faire, a little more open.'",
+    "difficulty": "medium"
+  }
+]

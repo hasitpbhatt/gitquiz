@@ -1,0 +1,128 @@
+[
+  {
+    "question": "SRE Anomaly Detection",
+    "content": "Guillermo Rauch describes how Vercel uses anomaly detection for site reliability: automated systems monitor production proactively and often know about problems (like failure rate changes) before human engineers do. The system detects, diagnoses, and sometimes resolves issues autonomously.",
+    "description": "Your production system has a sudden spike in error rates at 3 AM. A human engineer would need to be paged, wake up, investigate, and then mitigate. According to Guillermo Rauch's approach at Vercel, what should the ideal infrastructure do instead?",
+    "options": [
+      "Automatically detect the anomaly, diagnose the cause, and in some cases",
+      "Alert a rotating team of on-call engineers via pager for manual investigation",
+      "Roll back the most recent deployment regardless of whether it caused the issue",
+      "Escalate to the VP of Engineering who decides whether to wake the team"
+    ],
+    "answer": "Automatically detect the anomaly, diagnose the cause, and in some cases",
+    "explanation": "Guillermo says: 'They were able to tell us about problems way before we would catch them just by automating that detection.' The system 'not only identifies that there's an anomaly, but also goes through the process of diagnosing it and in some cases resolving it.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Deepsec Security Automation",
+    "content": "Guillermo describes deepsec as a tool that scans Vercel's entire production environment for security vulnerabilities automatically. It finds holes, classifies them by severity, and even writes fixes that only require human review rather than human discovery.",
+    "description": "A small startup cannot afford a dedicated security team but wants to secure their production environment. Based on Guillermo Rauch's description of deepsec, what is the most effective approach?",
+    "options": [
+      "Hire a part-time security contractor to do quarterly penetration tests",
+      "Use automated security scanning tools that not only detect vulnerabilities but",
+      "Rely on the cloud provider's default security settings and hope for the best",
+      "Ask the development team to review code manually for security issues during sprints"
+    ],
+    "answer": "Use automated security scanning tools that not only detect vulnerabilities but",
+    "explanation": "Guillermo describes deepsec: 'It has this suite of agents that look at our entire production environment and find security vulnerabilities. And it classifies them. And it even writes the pull request as well.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Bug-Fixing Daemon",
+    "content": "Naval envisions a daemon that continuously scans code in production for bugs, fixes them autonomously, and ships the fixes without human intervention. This would eliminate the vast backlog of bugs that companies accept as inevitable technical debt.",
+    "description": "Your engineering team has a growing backlog of 200+ non-critical bugs that nobody has time to fix. How would Naval's envisioned bug-fixing daemon fundamentally change this situation?",
+    "options": [
+      "It would prioritize the bugs by severity and assign them to the right developers automatically",
+      "It would continuously scan for bugs, fix them autonomously, and ship fixes without human",
+      "It would generate documentation so future developers can find and fix bugs more easily",
+      "It would rewrite the entire codebase from scratch to eliminate all existing bugs"
+    ],
+    "answer": "It would continuously scan for bugs, fix them autonomously, and ship fixes without human",
+    "explanation": "Naval says: 'If you have a daemon constantly scanning your code in the background, finding bugs and patches, which are quite good at it, and shipping them, then you've collapsed iteration time.'",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Homer Simpson Car Problem",
+    "content": "Naval uses the Homer Simpson-designed car as a parable: when everyone has the ability to create, they still won't because they lack the true desire. He observes that 0.01% of humanity actually wants to build things with their own hands, even when tools make it easy.",
+    "description": "A company provides employees with powerful no-code tools so anyone can build internal apps. After six months, barely anyone has used them. What would Naval's 'Homer Simpson car' parable suggest is the real barrier?",
+    "options": [
+      "The no-code tools are not powerful enough for real business applications",
+      "Most people do not truly want to build things themselves even when tools",
+      "The company failed to provide adequate training on how to use the tools",
+      "Employees are too busy with their existing work to learn new tools"
+    ],
+    "answer": "Most people do not truly want to build things themselves even when tools",
+    "explanation": "Naval says: 'You're like, okay, let everyone build their own car. And then you realize, oh wait, in the episode, Homer builds a car, not because he wants a car, but because he wanted to be seen as the guy who built a car.' Most people don't intrinsically want to build.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Autonomous Optimization",
+    "content": "Naval describes autonomous optimization as a system that continuously monitors a process, finds optimal configurations, and adjusts in real time. The system itself learns what works best without needing a human to analyze dashboards or run experiments.",
+    "description": "Your company's cloud infrastructure spending has grown unmanageably complex with hundreds of services. A human team struggles to optimize costs. What does Naval mean by applying autonomous optimization to this problem?",
+    "options": [
+      "Hire a dedicated FinOps team to manually review and optimize cloud spending monthly",
+      "Negotiate better enterprise discounts with the cloud provider to reduce per-unit costs",
+      "Build an autonomous system that continuously monitors usage and adjusts resources",
+      "Migrate all services to a single cheaper cloud provider for a fixed discount"
+    ],
+    "answer": "Build an autonomous system that continuously monitors usage and adjusts resources",
+    "explanation": "Naval says: 'Autonomous optimization is a system that continuously monitors a process, finds optimal configurations, and adjusts in real time.' The system learns what works best without human dashboard analysis.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Cybersecurity Nightmare",
+    "content": "Naval flags a frightening implication: if autonomous agents write code and deploy it, and a bad agent buries a subtle exploit in one of the thousands of autonomous fixes, finding it becomes nearly impossible. Companies will need to invest heavily in proactive security rather than reactive patching.",
+    "description": "An executive wants to deploy autonomous bug-fixing agents across the entire codebase to accelerate development. Based on Naval's cybersecurity concern, what countermeasure should be mandatory before proceeding?",
+    "options": [
+      "Autonomous agents should be restricted to non-production environments only",
+      "Heavy proactive security investment to detect exploits buried in autonomous code becomes",
+      "All autonomous fixes should be reviewed by a human security engineer before deployment",
+      "The company should accept the risk since autonomous fixes are generally more secure than human code"
+    ],
+    "answer": "Heavy proactive security investment to detect exploits buried in autonomous code becomes",
+    "explanation": "Naval says: 'You better also be investing very heavily in proactive cybersecurity, because you're going to have bad agents that will burrow and hide things inside those autonomous systems, and you'll never find them.'",
+    "difficulty": "hard"
+  },
+  {
+    "question": "TestFlight With Real Users",
+    "content": "Naval tells the story of a friend who used vibe coding to build an app but couldn't find people willing to install and test it, despite widespread complaints about the problem the app solved. Users said they'd use the app once it was 'ready' but wouldn't help get it there.",
+    "description": "You've vibe-coded a solution to a problem that hundreds of people complain about online. Yet when you ask them to install and test the alpha version, almost nobody agrees. What does Naval's TestFlight story suggest about why?",
+    "options": [
+      "The app is not visible enough and needs better marketing",
+      "People say they want solutions but very few are willing to invest the",
+      "The problem is not actually important enough for people to care about",
+      "Vibe-coded apps are inherently unreliable and users can sense the low quality"
+    ],
+    "answer": "People say they want solutions but very few are willing to invest the",
+    "explanation": "Naval says: 'He's like, nobody will install the app. People complain about the problem, but then they won't install the test to use it.' This reveals the gap between stated demand and actual willingness to participate in creation.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "From Root Cause to Correction",
+    "content": "Naval proposes a fully autonomous software lifecycle: AI finds a bug in production (not just in theory, but in actual running code), determines the root cause, writes a fix, runs it through the test suite, and deploys it. The human is only needed at the review step.",
+    "description": "A bug is discovered in production code by monitoring systems. In a traditional workflow, an engineer writes a fix, tests it, and deploys it. What is the key difference in Naval's vision of a fully autonomous software lifecycle?",
+    "options": [
+      "The AI finds the bug in production code, determines root cause, writes a fix,",
+      "The AI only finds and prioritizes bugs while humans continue to write all fixes",
+      "The AI rewrites the entire application when a critical bug is discovered",
+      "The AI prevents bugs entirely by writing perfect code the first time"
+    ],
+    "answer": "The AI finds the bug in production code, determines root cause, writes a fix,",
+    "explanation": "Naval says: 'The next step is it goes all the way from root cause to correction to testing and shipping.' The full cycle from production bug detection to deployed fix, with humans only in review.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Iceberg of Technical Debt",
+    "content": "Naval observes that every company accepts a massive iceberg of technical debt — thousands of known bugs and imperfections that are never prioritized. An autonomous bug-fixing daemon would collapse this latent backlog by fixing issues the moment they appear.",
+    "description": "A CTO defends their team's large bug backlog by saying all companies have technical debt and it's normal to accept some imperfection. Based on Naval's analysis, what does this acceptance really represent?",
+    "options": [
+      "A responsible triage decision to focus developer time on high-value features",
+      "An implicit acceptance of massive inefficiency that an autonomous fixer",
+      "The natural and unavoidable consequence of all software development at scale",
+      "A sign that the engineering team is understaffed and needs more headcount"
+    ],
+    "answer": "An implicit acceptance of massive inefficiency that an autonomous fixer",
+    "explanation": "Naval says: 'Every company has an iceberg of technical debt that they accept. An autonomous bug-fixing daemon would collapse this latent backlog by fixing issues the moment they appear.'",
+    "difficulty": "medium"
+  }
+]

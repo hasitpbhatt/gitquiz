@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Blake's Company-Wide Hackathon",
+    "content": "Blake Scholl ran a hackathon at Boom Supersonic where around 40 people participated. The winning project was created by two people in under 24 hours using vibe coding: an internal tool that would normally take a team weeks to build. Non-engineers participated and shipped real features.",
+    "description": "Your company has dozens of internal tools that could improve team productivity, but the engineering team is too busy with customer-facing features to build them. Based on Blake Scholl's hackathon experiment, what is the most effective approach to solving this?",
+    "options": [
+      "Hire a dedicated internal tools team and prioritize their backlog quarterly",
+      "Run a company-wide hackathon where non-engineers can vibe-code internal",
+      "Outsource internal tool development to a third-party consulting firm",
+      "Ask engineers to spend Fridays building internal tools as a rotation"
+    ],
+    "answer": "Run a company-wide hackathon where non-engineers can vibe-code internal",
+    "explanation": "Blake says: 'We had a company hackathon... Non-engineers were involved and built things that are shipping to production. The winning hack was an internal tool done by two people in less than 24 hours that would have taken us weeks to build.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Receptionist Who Wasn't Hired",
+    "content": "Blake gives an example of automating the ship-and-receive function — what he calls the 'receptionist' of physical goods. His team used optical character recognition to process shipping labels automatically. He observes that most people don't automate because they don't realize something like that is automatable.",
+    "description": "A small manufacturing company has an employee whose full-time job is manually typing shipping labels into their system. The owner assumes this is necessary work that can't be automated. What would Blake Scholl say about this assumption?",
+    "options": [
+      "Some manual data entry is unavoidable in physical manufacturing businesses",
+      "Most people don't realize something like that is automatable, so they never try",
+      "Shipping label processing is too complex for current AI tools to handle reliably",
+      "Automating that task would cost more than the employee's annual salary"
+    ],
+    "answer": "Most people don't realize something like that is automatable, so they never try",
+    "explanation": "Blake says: 'There's this receptionist that we never had, which is the person who ships and receives packages... It turned into this whole thing with optical character recognition and automation.' Most people just don't realize it's automatable.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Everybody Has Ideas But Can't Project Them Out",
+    "content": "Blake Scholl makes an observation: everyone working in a business knows what could be improved, but they literally cannot 'project' their ideas out into the world because they lack technical skills. AI removes this projection barrier.",
+    "description": "A warehouse worker has been thinking for years about a better way to organize inventory but doesn't know how to code. According to Blake Scholl's observation, what has changed that makes this worker's ideas finally actionable?",
+    "options": [
+      "The company has finally started listening to frontline employee suggestions",
+      "AI removes the projection barrier by letting anyone describe what they want",
+      "Modern warehouse management systems now include brainstorming features",
+      "The worker could have always hired a developer to build their idea"
+    ],
+    "answer": "AI removes the projection barrier by letting anyone describe what they want",
+    "explanation": "Blake says: 'Everyone has ideas. Everyone has ways they think the world could be better or their business could run better. But they literally cannot project those ideas out into the world. And that is a new thing that AI enables.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Train the Agent",
+    "content": "Guillermo Rauch says that most people's job is shifting from being the agent to training the agent. They won't execute tasks themselves with AI — they'll specify outcomes and let autonomous systems figure out the implementation. The skill becomes teaching and refining rather than doing.",
+    "description": "A financial analyst spends 60% of their time building spreadsheet models to forecast revenue. With the shift Guillermo describes, how would their role change?",
+    "options": [
+      "They would be replaced entirely since AI can do all forecasting",
+      "They would train an agent to build the models while focusing on interpreting",
+      "They would spend more time manually building more complex models than before",
+      "They would need to learn to code to stay relevant in the AI era"
+    ],
+    "answer": "They would train an agent to build the models while focusing on interpreting",
+    "explanation": "Guillermo says: 'Your job is to train the agent. And that is an interesting reframing because you're not the one writing the SQL queries or building the model; you're training an agent to do it.'",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The All-Seeing Agent",
+    "content": "Naval envisions an autonomous agent that has read every Slack message, every email, and every document the company has ever produced. It understands the full context of the business and can propose improvements that no single human could see because no one has complete information.",
+    "description": "Two different teams in your company independently built similar internal tools without knowing about each other's work. A human manager discovers this months later. What would Naval's all-seeing agent prevent?",
+    "options": [
+      "It would prevent duplicate work by having read all cross-team communications and",
+      "It would automatically merge both tools into one without telling either team",
+      "It would report the teams to leadership for poor communication",
+      "It would prevent either team from building tools they haven't cleared with management"
+    ],
+    "answer": "It would prevent duplicate work by having read all cross-team communications and",
+    "explanation": "Naval says: 'An agent that's read every Slack message, every email, every document the company has ever produced... can see across the entire context of the business and propose improvements that no single person could see.'",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Skill Extraction From Success",
+    "content": "Guillermo describes agents that observe successful patterns in a company's operations and extract them into reusable skills. When an engineer does something effective, the agent captures the approach and makes it available to the whole organization.",
+    "description": "A senior engineer develops an efficient debugging workflow for a specific type of production issue. Based on Guillermo's concept of skill extraction, how could an autonomous agent amplify the impact of this expertise?",
+    "options": [
+      "The agent would document the workflow and assign it as training for junior engineers",
+      "The agent would observe the successful pattern and extract it as a reusable skill for",
+      "The agent would automate the senior engineer's entire job and make the role redundant",
+      "The agent would share a recording of the engineer's screen for others to watch"
+    ],
+    "answer": "The agent would observe the successful pattern and extract it as a reusable skill for",
+    "explanation": "Guillermo says: 'Agents can observe successful patterns in a company and extract them into reusable skills. When someone does something effective, the agent captures the approach.' This institutionalizes expertise across the team.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Working at Creative Maximum",
+    "content": "Naval reflects that there's not much left to automate in his own work because he is already working at his creative maximum — he spends his time on what only he can do. The bottleneck is not execution capacity but ideas and judgment.",
+    "description": "A founder says they feel constantly busy but still can't get through their to-do list. They look for AI tools to speed things up. Based on Naval's concept of working at creative maximum, what question should they ask first?",
+    "options": [
+      "Which AI tool is the fastest for completing their current type of tasks",
+      "Which parts of their work are below their creative maximum and could be",
+      "How many hours per day they should work to maximize output with AI assistance",
+      "Whether their to-do list contains tasks that could be delegated to a human assistant"
+    ],
+    "answer": "Which parts of their work are below their creative maximum and could be",
+    "explanation": "Naval says: 'One of the reasons why there's not much left for me to automate in my own work is I'm already working at my creative maximum. I'm already doing what only I can do.' The bottleneck is ideas, not execution.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Invisible Automatable Work",
+    "content": "Multiple guests observe that the biggest automation opportunities are invisible: things people do by habit that they don't realize an AI could do. Blake's shipping label example and Guillermo's point about the 'receptionist you never had' both illustrate this blind spot.",
+    "description": "A business owner insists their company has nothing left to automate after implementing a CRM and accounting software. Based on the panel's observations about invisible automatable work, what is the most likely reality?",
+    "options": [
+      "The business genuinely has no remaining opportunities for automation",
+      "The owner has blind spots about routine tasks they've normalized that could be",
+      "Automation only works for large enterprises, not small businesses",
+      "The existing CRM and accounting software already covers all possible automation"
+    ],
+    "answer": "The owner has blind spots about routine tasks they've normalized that could be",
+    "explanation": "Both Blake's shipping label example and Guillermo's 'unconscious autopilot' point show that the biggest automation opportunities are invisible habits people don't question. Most people simply 'don't realize something like that is automatable.'",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Delegating to AI vs Hiring",
+    "content": "Blake argues that the most important impact of AI is not replacing engineers but enabling companies to operate with fewer people overall. Non-technical team members can automate their own workflows, reducing the need to hire for every small need.",
+    "description": "A startup with 5 people needs to build an internal dashboard, a customer support bot, and automate invoice processing. Previously they would need to hire. According to Blake Scholl, what changes with AI availability?",
+    "options": [
+      "AI allows each existing team member to automate their own workflows, reducing",
+      "The startup should still hire because AI cannot handle complex business logic",
+      "AI replaces the need for any human involvement in these tasks entirely",
+      "The startup should grow to 20 people first before attempting any automation"
+    ],
+    "answer": "AI allows each existing team member to automate their own workflows, reducing",
+    "explanation": "Blake says: 'The most important impact of AI is enabling companies to operate with fewer people. Non-technical team members can automate their own workflows, reducing the need to hire for every small need.'",
+    "difficulty": "easy"
+  }
+]
