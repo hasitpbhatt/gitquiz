@@ -4,7 +4,7 @@
     "content": "Authority influence is domain-specific: it only transfers to areas where the authority figure is perceived to have relevant expertise. When an authority steps outside their domain, their persuasive power drops significantly.",
     "description": "A Nobel Prize-winning physicist appears in a commercial recommending a specific brand of toothpaste. Most consumers find this less persuasive than a dentist's recommendation because:",
     "options": [
-      "Physicists are generally less trustworthy than dentists",
+      "Physicists are generally less trustworthy than dentists which is a critical factor to consider in this context",
       "The physicist's authority in physics does not transfer to dental health",
       "Nobel laureates only endorse luxury products, not everyday consumer goods",
       "The commercial failed to display the physicist's credentials prominently"
@@ -105,7 +105,7 @@
       "Hanging up immediately to avoid further persuasion attempts",
       "Asking for their name, employee ID, and callback number",
       "Hanging up and independently calling Microsoft using their official number",
-      "Checking whether the caller sounds professional and knowledgeable"
+      "Checking whether the caller sounds professional and knowledgeable which is a critical factor to consider in this context"
     ],
     "answer": "Hanging up and independently calling Microsoft using their official number",
     "explanation": "The strongest defense is to break contact and independently verify the authority through trusted channels. Asking for credentials is weak (scammers can fabricate IDs), and judging professionalism is unreliable. This demonstrates the general strategy: pause, verify through independent channels, then respond.",

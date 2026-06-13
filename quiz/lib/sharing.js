@@ -209,11 +209,16 @@ function shareQuestion() {
     const q = quizData[currentIdx];
     if (!q) return;
     const modLabel = document.getElementById('module-label')?.textContent || 'MODULE';
+    const mode = currentMode || 'mc';
+    const modeLabels = { 'mc': 'Multiple Choice', 'flashcard': 'Recall (Flashcard)', 'truefalse': 'True / False', 'fillblank': 'Fill in the Blank' };
     const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
     const container = document.createElement('div');
     container.style.cssText = 'position:fixed;top:0;left:0;z-index:-1;width:800px;padding:50px 60px;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;border-radius:40px;text-align:left;display:flex;flex-direction:column;min-height:600px;';
     container.innerHTML = `
-        <div style="text-align:center;"><span class="qc-badge">🧠</span></div>
+        <div style="display:flex;align-items:center;gap:12px;justify-content:center;margin-bottom:4px;">
+            <span class="qc-badge" style="display:inline-block;font-size:28px;">🧠</span>
+            <span style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 10px;background:rgba(99,102,241,0.15);border-radius:6px;color:#818cf8;">${modeLabels[mode] || 'Multiple Choice'}</span>
+        </div>
         <div style="text-align:center;" class="qc-module">${escapeHtml(modLabel)}</div>
         ${q.question ? `<div class="qc-title">${escapeHtml(q.question)}</div>` : ''}
         ${q.description ? `<div class="qc-description">${escapeHtml(q.description)}</div>` : ''}
@@ -221,13 +226,19 @@ function shareQuestion() {
         <div style="text-align:center;margin-top:auto;" class="qc-footer">MindVault</div>
     `;
     const optsDiv = container.querySelector('.qc-options');
-    if (q.options) {
+    if (q.options && mode !== 'flashcard') {
         q.options.forEach((opt, i) => {
             const d = document.createElement('div');
             d.className = 'qc-option';
             d.innerHTML = `<span class="qc-opt-letter">${letters[i] || (i + 1)}.</span><span>${escapeHtml(opt)}</span>`;
             optsDiv.appendChild(d);
         });
+    } else if (mode === 'flashcard') {
+        const d = document.createElement('div');
+        d.className = 'qc-option';
+        d.style.cssText = 'font-style:italic;opacity:0.6;font-size:14px;';
+        d.textContent = 'Self-assess your recall of this concept.';
+        optsDiv.appendChild(d);
     }
     document.body.appendChild(container);
     const idxStr = (currentIdx + 1).toString().padStart(3, '0');

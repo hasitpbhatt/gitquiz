@@ -25,6 +25,50 @@ let previewData = null;
 let previewQuestionIdx = 0;
 let coursesMeta = {};
 
+// Mode state
+let currentMode = 'mc'; // 'mc' | 'flashcard' | 'truefalse' | 'fillblank'
+let sessionQuestionCount = 0;
+
+const CONCEPT_MASTERY_KEY = 'quizConceptMastery';
+
+function getCourseKey() {
+    if (!currentUrl) return '';
+    const parts = currentUrl.split('/');
+    const filename = parts.pop().replace('.json', '');
+    const courseId = parts.pop() || '';
+    return `${courseId}_${filename}`;
+}
+
+function getConceptMasteryData() {
+    try {
+        return JSON.parse(localStorage.getItem(CONCEPT_MASTERY_KEY)) || {};
+    } catch {
+        return {};
+    }
+}
+
+function markConceptCorrect(courseKey, idx) {
+    const mastery = getConceptMasteryData();
+    const key = `${courseKey}_${idx}`;
+    if (!mastery[key]) mastery[key] = { correctMC: 0, flashcardMissed: false };
+    mastery[key].correctMC = (mastery[key].correctMC || 0) + 1;
+    mastery[key].flashcardMissed = false;
+    localStorage.setItem(CONCEPT_MASTERY_KEY, JSON.stringify(mastery));
+}
+
+function markFlashcardMissed(courseKey, idx) {
+    const mastery = getConceptMasteryData();
+    const key = `${courseKey}_${idx}`;
+    if (!mastery[key]) mastery[key] = { correctMC: 0, flashcardMissed: false };
+    mastery[key].flashcardMissed = true;
+    localStorage.setItem(CONCEPT_MASTERY_KEY, JSON.stringify(mastery));
+}
+
+function getConceptMastery(courseKey, idx) {
+    const mastery = getConceptMasteryData();
+    return mastery[`${courseKey}_${idx}`] || { correctMC: 0, flashcardMissed: false };
+}
+
 function escapeHtml(str) {
     const div = document.createElement('div');
     div.appendChild(document.createTextNode(str));

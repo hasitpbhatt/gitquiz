@@ -57,10 +57,9 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 │   ├── assemble-course.mjs           # Assembly helper: ch-*.json → input.json
 │   ├── difficulty-tally.js           # Tally difficulty distribution
 │   ├── difficulty-audit.js           # Print questions for difficulty labeling
-│   ├── answer-length-audit.js        # Detect answer-length bias (shortest/longest)
+│   ├── answer-length-audit.js        # Detect answer-length bias by word count
 │   ├── coverage-check.js             # Verify concept coverage
 │   ├── cross-chapter-repetition.js   # Detect repeated concepts
-│   └── fix-length-bias.mjs           # Auto-fix longest-answer bias
 ├── .opencode/                        # OpenCode AI agent configuration
 ├── .github/workflows/validate.yml    # CI: schema, validate-all, full Playwright suite
 ├── opencode.json                     # OpenCode AI config
@@ -118,7 +117,7 @@ Each course folder contains numbered chapter files (`001.json`, `002.json`, ...)
 8. **Chapter files numbered 001.json, 002.json, etc.**: Zero-padded 3-digit numbers in filenames.
 9. **`courses_list.txt` alphabetically sorted**: After adding a new course, insert its ID in alphabetical order among existing entries.
 10. **`courses-meta.json` keys match `courses_list.txt`**: Every key in `courses-meta.json` must appear in `courses_list.txt` and vice versa. Both must be sorted identically. The `chapters` field must match `Get-ChildItem courses/<id>/*.json | Measure-Object | Select-Object -ExpandProperty Count`.
-11. **No answer-length bias**: The `answer` must not be uniquely longer or shorter than all other options. An answer that is strictly longer (or shorter) than every other option creates a gamable length hint. If all four options are within 3 characters of each other, this rule is satisfied. Use `node quiz/scripts/answer-length-audit.js <course-id>` to detect bias and `node quiz/scripts/fix-length-bias.mjs <course-id>` to auto-fix longest-answer bias.
+11. **No answer-length bias**: The `answer` must not be uniquely longer or shorter than all other options. An answer that is strictly longer (or shorter) than every other option creates a gamable length hint. Bias is measured by **word count** (whitespace-delimited). Use `node quiz/scripts/answer-length-audit.js` to detect bias across all courses. Fixing bias requires intelligently expanding short wrong options — mechanical template-based padding does not count. Use an LLM to generate context-appropriate expansions.
 
 ### Workflow Rules
 

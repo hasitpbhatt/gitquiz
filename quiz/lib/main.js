@@ -52,6 +52,35 @@ document.addEventListener('keydown', (e) => {
       opts[idx].click();
       return;
     }
+
+    // True/False keyboard shortcuts (T for True, F for False)
+    if (currentMode === 'truefalse') {
+      const tfBtns = document.querySelectorAll('.tf-btn');
+      if (e.key.toLowerCase() === 't' && tfBtns[0] && !tfBtns[0].disabled) {
+        tfBtns[0].click();
+        return;
+      }
+      if (e.key.toLowerCase() === 'f' && tfBtns[1] && !tfBtns[1].disabled) {
+        tfBtns[1].click();
+        return;
+      }
+    }
+
+    // Fill-blank: Enter submits
+    if (currentMode === 'fillblank' && e.key === 'Enter') {
+      const fillBtn = document.getElementById('fillblank-submit');
+      if (fillBtn && !fillBtn.disabled) {
+        fillBtn.click();
+        return;
+      }
+    }
+
+    // Flashcard: 1 = Got it, 2 = Missed it
+    if (currentMode === 'flashcard' && document.getElementById('flashcard-back') && !document.getElementById('flashcard-back').classList.contains('hidden')) {
+      if (e.key === '1') { document.getElementById('flashcard-got-it')?.click(); return; }
+      if (e.key === '2') { document.getElementById('flashcard-missed')?.click(); return; }
+    }
+
     if (e.key === 'Enter') {
       const nextBtn = document.getElementById('next-btn');
       if (nextBtn && !nextBtn.classList.contains('hidden')) {

@@ -4,7 +4,7 @@
     "content": "Biological evolution creates knowledge through blind variation and selection - adaptations encode information about how to survive in specific environments.",
     "description": "A polar bear's white fur encodes knowledge about snowy environments. A human engineer designs white camouflage for arctic soldiers by studying the environment and running experiments. Deutsch argues both are 'knowledge,' but they differ in a crucial way. What is the fundamental difference between adaptive knowledge in evolution and human explanatory knowledge?",
     "options": [
-      "There is no fundamental difference; both arise through trial and error",
+      "There is no fundamental difference; both arise through trial and error which is a critical factor to consider in this context",
       "Evolutionary knowledge is encoded in DNA; human knowledge is encoded in brains — same mechanism, different substrate",
       "Evolutionary knowledge is blind and lacks understanding of why it works; human explanatory knowledge includes comprehension of causal mechanisms",
       "Human knowledge is fallible; evolutionary knowledge is always optimal for the environment"
@@ -49,7 +49,7 @@
       "Why Darwin was actually a cook",
       "How conjecture and refutation mirrors biological evolution",
       "That scientific progress is random",
-      "Why evidence comes before ideas"
+      "Why evidence comes before ideas which is a critical factor to consider in this context"
     ],
     "answer": "How conjecture and refutation mirrors biological evolution",
     "explanation": "In both processes: blind variation occurs (genetic mutations / scientific conjectures), followed by selection (natural selection / criticism and refutation). Survivors reproduce (pass on genes / gain acceptance), creating cumulative adaptation over time.",
@@ -74,7 +74,7 @@
     "content": "Biological adaptations are knowledge - they encode information about environmental challenges and solutions that increase reproductive success.",
     "description": "A cactus 'knows' how to store water in the desert — encoded in its DNA. This illustrates:",
     "options": [
-      "Why cacti enjoy deserts",
+      "Why cacti enjoy deserts which is a critical factor to consider in this context",
       "How biological adaptations embody environmental problem-solving knowledge",
       "That plants don't need water",
       "Why all plants should be cacti"
@@ -119,7 +119,7 @@
       "Why giraffes actually wanted long necks",
       "That evolution has no goals or foresight",
       "Why giraffes are actually poorly designed",
-      "That evolution always produces perfect outcomes"
+      "That evolution always produces perfect outcomes which is a critical factor to consider in this context"
     ],
     "answer": "That evolution has no goals or foresight",
     "explanation": "Evolution doesn't 'plan' giraffe necks to reach leaves. Longer necks arose through random variation and were selected because they conferred survival advantages - not because evolution 'goal-directed' the outcome.",

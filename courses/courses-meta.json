@@ -451,6 +451,18 @@
       "008": "SRE auto-triage as a use case — how AI agents handle automated site reliability incident triage in production."
     }
   },
+  "podcast-autonomous-company": {
+    "title": "The AI Industrial Revolution",
+    "type": "podcast",
+    "chapters": 3,
+    "source": "https://nav.al/industrial",
+    "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on autonomous engineering teams, AI-native creativity, vibe coding adoption, and the shift from doing to directing.",
+    "chapterDescriptions": {
+      "001": "Autonomous engineering — SRE anomaly detection, deepsec security automation, bug-fixing daemons, autonomous optimization, and the Homer Simpson problem of desire vs tools.",
+      "002": "Democratizing creation — company-wide hackathons, training agents instead of doing, invisible automation blind spots, the all-seeing agent, skill extraction from success, and working at creative maximum.",
+      "003": "Agency and creativity — agency as scarce output vs abundant intelligence, vibe coding adoption explosion, AI-generated media, defining art, out-of-distribution creativity, generalists thriving, and human-plus-AI beating pure AI."
+    }
+  },
   "podcast-daytona": {
     "title": "Giving Agents Computers",
     "type": "podcast",
@@ -491,7 +503,7 @@
   "podcast-regulatory-frontier": {
     "title": "The Regulatory Frontier",
     "type": "podcast",
-    "chapters": 1,
+    "chapters": 3,
     "source": "https://nav.al/regulatory",
     "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on battling red tape at scale with AI.",
     "chapterDescriptions": {
@@ -501,7 +513,7 @@
   "podcast-vibe-coding-hardware": {
     "title": "Vibe Coding Hardware",
     "type": "podcast",
-    "chapters": 2,
+    "chapters": 3,
     "source": "https://nav.al/hardware",
     "description": "Nivi, Naval, Blake Scholl (Boom Supersonic), Guillermo Rauch (Vercel), and Max Hodak (Science Corp) on AI transforming hardware engineering.",
     "chapterDescriptions": {
@@ -512,7 +524,7 @@
   "podcast-waste-tokens-save-time": {
     "title": "Waste Tokens, Save Time",
     "type": "podcast",
-    "chapters": 1,
+    "chapters": 2,
     "source": "https://nav.al/tokens",
     "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on software factories, tokenmaxxing, and AI-native engineering.",
     "chapterDescriptions": {

@@ -7,7 +7,9 @@ if (!fs.existsSync(listPath)) {
 }
 const dirs = fs.readFileSync(listPath, 'utf8').trim().split(/\r?\n/).filter(Boolean);
 
-let grandTotalQ = 0, grandTotalBiased = 0;
+const wordCount = s => s.split(/\s+/).length;
+
+let grandTotalQ = 0, grandTotalLongest = 0, grandTotalShortest = 0;
 const courseResults = [];
 
 dirs.forEach(dir => {
@@ -15,81 +17,79 @@ dirs.forEach(dir => {
   if (!fs.existsSync(path) || !fs.statSync(path).isDirectory()) return;
 
   const files = fs.readdirSync(path).filter(f => f.endsWith('.json')).sort();
-  let totalQ = 0, biasedQ = 0, sumDiff = 0, maxDiff = 0;
-  const flagged = [];
+  const fileResults = [];
 
   files.forEach(f => {
     let data;
     try { data = JSON.parse(fs.readFileSync(path + '/' + f, 'utf8')); } catch (_) { return; }
     if (!Array.isArray(data)) return;
-    totalQ += data.length;
 
-    data.forEach((q, idx) => {
+    let longest = 0, shortest = 0, total = 0;
+    data.forEach(q => {
       if (!q.answer || !Array.isArray(q.options) || q.options.length !== 4) return;
-      const answerLen = q.answer.length;
-      const otherLens = q.options.filter(o => o !== q.answer).map(o => o.length);
-      if (otherLens.length !== 3) return;
-
-      const otherMax = Math.max(...otherLens);
-      const otherMean = otherLens.reduce((a, b) => a + b, 0) / 3;
-      const diff = answerLen - otherMean;
-
-      if (diff > maxDiff) maxDiff = diff;
-      sumDiff += diff;
-
-      if (answerLen > 60 && answerLen > otherMax * 1.5 && answerLen > otherMean + 50) {
-        biasedQ++;
-        flagged.push({
-          file: f,
-          qi: idx + 1,
-          question: q.question || '(untitled)',
-          lengths: q.options.map(o => o.length),
-          answerLen,
-          otherMax,
-          otherMean: otherMean.toFixed(0),
-          diff: diff.toFixed(0),
-          answerPreview: q.answer.length > 60 ? q.answer.slice(0, 57) + '...' : q.answer
-        });
-      }
+      const lengths = q.options.map(wordCount);
+      const answerLen = wordCount(q.answer);
+      const minLen = Math.min(...lengths);
+      const maxLen = Math.max(...lengths);
+      const uniqueMin = lengths.filter(l => l === minLen).length === 1;
+      const uniqueMax = lengths.filter(l => l === maxLen).length === 1;
+      if (uniqueMin && answerLen === minLen) shortest++;
+      else if (uniqueMax && answerLen === maxLen) longest++;
+      total++;
     });
+
+    if (total > 0) {
+      grandTotalQ += total;
+      grandTotalLongest += longest;
+      grandTotalShortest += shortest;
+      const longestPct = ((longest / total) * 100).toFixed(0);
+      const shortestPct = ((shortest / total) * 100).toFixed(0);
+      fileResults.push({
+        file: f,
+        total,
+        longest,
+        longestPct,
+        shortest,
+        shortestPct,
+        flagged: longest > total / 2 || shortest > total / 2
+      });
+    }
   });
 
-  if (totalQ > 0) {
-    const pct = ((biasedQ / totalQ) * 100).toFixed(1);
-    const avgDiff = (sumDiff / totalQ).toFixed(1);
-    courseResults.push({ dir, totalQ, biasedQ, pct, avgDiff, maxDiff: maxDiff.toFixed(0), flagged });
-    grandTotalQ += totalQ;
-    grandTotalBiased += biasedQ;
+  if (fileResults.length > 0) {
+    courseResults.push({ dir, fileResults });
   }
 });
 
-console.log('=== ANSWER LENGTH BIAS AUDIT ===');
+console.log('=== ANSWER LENGTH BIAS AUDIT (word-count) ===');
 console.log(`Scanned ${grandTotalQ} questions across ${courseResults.length} courses.\n`);
 
-console.log('--- Per-Course Summary ---');
-console.log('Course'.padEnd(50) + 'Qs'.padEnd(6) + 'Biased'.padEnd(8) + '%'.padEnd(8) + 'AvgΔ'.padEnd(8) + 'MaxΔ');
-console.log('-'.repeat(80));
-courseResults.sort((a, b) => b.pct - a.pct || b.biasedQ - a.biasedQ).forEach(c => {
-  const name = (c.dir.length > 47 ? c.dir.slice(0, 44) + '...' : c.dir).padEnd(50);
-  console.log(`${name}${String(c.totalQ).padEnd(6)}${String(c.biasedQ).padEnd(8)}${c.pct.padEnd(8)}${c.avgDiff.padEnd(8)}${c.maxDiff}`);
+console.log('--- Per-File Summary (flagged if >50% of questions have answer uniquely longest/shortest) ---');
+console.log('');
+courseResults.forEach(c => {
+  const flagged = c.fileResults.filter(f => f.flagged);
+  if (flagged.length > 0) {
+    console.log(`  ${c.dir} — WARN: ${flagged.length} file(s) exceed 50% threshold`);
+    flagged.forEach(f => {
+      const reasons = [];
+      if (f.longest > f.total / 2) reasons.push(`longest ${f.longest}/${f.total} (${f.longestPct}%)`);
+      if (f.shortest > f.total / 2) reasons.push(`shortest ${f.shortest}/${f.total} (${f.shortestPct}%)`);
+      console.log(`    ${f.file}: ${reasons.join(', ')}`);
+    });
+  } else {
+    const allLongest = c.fileResults.reduce((s, f) => s + f.longest, 0);
+    const allShortest = c.fileResults.reduce((s, f) => s + f.shortest, 0);
+    const allTotal = c.fileResults.reduce((s, f) => s + f.total, 0);
+    const pctLong = ((allLongest / allTotal) * 100).toFixed(1);
+    const pctShort = ((allShortest / allTotal) * 100).toFixed(1);
+    console.log(`  ${c.dir} — OK (longest ${allLongest}/${allTotal} = ${pctLong}%, shortest ${allShortest}/${allTotal} = ${pctShort}%)`);
+  }
 });
 
-console.log(`\nTotal: ${grandTotalBiased}/${grandTotalQ} biased (${((grandTotalBiased / grandTotalQ) * 100).toFixed(1)}%)`);
+const grandPctLong = ((grandTotalLongest / grandTotalQ) * 100).toFixed(1);
+const grandPctShort = ((grandTotalShortest / grandTotalQ) * 100).toFixed(1);
+console.log(`\nTotal: ${grandTotalLongest}/${grandTotalQ} longest (${grandPctLong}%), ${grandTotalShortest}/${grandTotalQ} shortest (${grandPctShort}%)`);
 
-const totalFlagged = courseResults.reduce((s, c) => s + c.flagged.length, 0);
-if (totalFlagged > 0) {
-  console.log(`\n--- Flagged Questions (${totalFlagged}) ---`);
-  courseResults.forEach(c => {
-    if (c.flagged.length === 0) return;
-    console.log(`\n  ${c.dir}:`);
-    c.flagged.forEach(q => {
-      console.log(`    ${q.file} Q${q.qi} — "${q.question}"`);
-      console.log(`      Answer length: ${q.answerLen} | Option lengths: ${q.lengths.join(', ')}`);
-      console.log(`      Bias: +${q.diff} chars vs mean | "${q.answerPreview}"`);
-    });
-  });
-} else {
-  console.log('\n--- No questions exceed the bias threshold ---');
-}
-
-process.exit(0);
+const totalFlagged = courseResults.reduce((s, c) => s + c.fileResults.filter(f => f.flagged).length, 0);
+console.log(`Files exceeding 50% threshold: ${totalFlagged}`);
+process.exit(totalFlagged > 0 ? 1 : 0);

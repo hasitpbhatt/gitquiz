@@ -529,6 +529,74 @@ html[data-theme="dark"] .key-hint {
     color: #fff;
 }
 
+/* Mode badge positioning */
+#mode-badge {
+    display: inline;
+    white-space: nowrap;
+}
+
+/* Flashcard styles */
+#flashcard-front {
+    transition: all 0.3s ease;
+}
+#flashcard-front:hover {
+    border-color: var(--accent);
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.08);
+    transform: translateY(-2px);
+}
+#flashcard-front:active {
+    transform: scale(0.98);
+}
+
+/* True/False buttons */
+.tf-btn {
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+.tf-btn:hover:not(:disabled) {
+    transform: translateX(4px);
+}
+.tf-btn:active:not(:disabled) {
+    transform: scale(0.99) translateX(4px);
+}
+.tf-btn.correct {
+    background: #dcfce7 !important;
+    border-color: #22c55e !important;
+    color: #166534 !important;
+}
+.tf-btn.wrong {
+    background: #fee2e2 !important;
+    border-color: #ef4444 !important;
+    color: #991b1b !important;
+}
+.tf-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Fill-blank input */
+#fillblank-input {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+#fillblank-input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+#fillblank-input.correct {
+    border-color: #22c55e !important;
+    background: #f0fdf4 !important;
+}
+#fillblank-input.wrong {
+    border-color: #ef4444 !important;
+    background: #fef2f2 !important;
+}
+html[data-theme="dark"] #fillblank-input.correct {
+    background: rgba(34, 197, 94, 0.1) !important;
+}
+html[data-theme="dark"] #fillblank-input.wrong {
+    background: rgba(239, 68, 68, 0.1) !important;
+}
+
 /* Hide Completed icon button */
 .hide-completed-btn {
     display: inline-flex;

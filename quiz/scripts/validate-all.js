@@ -47,10 +47,10 @@ dirs.forEach(dir => {
       if (q.answer && q.options && Array.isArray(q.options) && !q.options.includes(q.answer))
         errs.push(f + ' Q' + qi + ': answer not in options. Answer="' + q.answer + '"');
 
-      // Detect if correct answer is consistently shortest or longest (heuristic)
+      // Detect if correct answer is consistently shortest or longest (heuristic, word-count)
       if (q.answer && Array.isArray(q.options) && q.options.length === 4) {
-        const lengths = q.options.map(o => o.length);
-        const answerLen = q.answer.length;
+        const lengths = q.options.map(o => o.split(/\s+/).length);
+        const answerLen = q.answer.split(/\s+/).length;
         const minLen = Math.min(...lengths);
         const maxLen = Math.max(...lengths);
         const uniqueMin = lengths.filter(l => l === minLen).length === 1;
