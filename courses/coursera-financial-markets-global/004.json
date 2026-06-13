@@ -35,7 +35,7 @@
       "Because of the possibility of inflation only",
       "Because the $1,000 today can be invested to grow into a larger sum over those 5 years",
       "Because the government taxes future money at a higher rate",
-      "There is no difference in value"
+      "There is no difference in value which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Because the $1,000 today can be invested to grow into a larger sum over those 5 years",
     "explanation": "This is the core of the Time Value of Money. By taking the money today and earning interest, you will end up with more than $1,000 in five years.",
@@ -48,7 +48,7 @@
     "options": [
       "The startup has a higher risk of going bankrupt and defaulting on the loan",
       "The government has a legal monopoly on low interest rates",
-      "Startups are not allowed to issue low-interest debt",
+      "Startups are not allowed to issue low-interest debt which is a critical factor to consider in this context",
       "The government uses its own bank to set its own rates"
     ],
     "answer": "The startup has a higher risk of going bankrupt and defaulting on the loan",
@@ -63,7 +63,7 @@
       "Because of a calculation error by the bank",
       "Because in year two, you earned $10 on your original $100 plus $1 on the interest from year one",
       "Because the government adds a bonus for long-term saving",
-      "Because inflation increased the value of the dollar"
+      "Because inflation increased the value of the dollar which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Because in year two, you earned $10 on your original $100 plus $1 on the interest from year one",
     "explanation": "This is compounding in action. Each year, your interest is calculated based on the new, higher balance, causing your wealth to accelerate over time.",
@@ -88,7 +88,7 @@
     "content": "The yield curve is a graph that plots the interest rates of bonds with equal credit quality but different maturity dates. Usually, the curve slopes upward because investors demand higher rates to lock their money away for longer periods.",
     "description": "Under normal economic conditions, why would a 30-year bond pay a higher interest rate than a 2-year bond?",
     "options": [
-      "Because 30-year bonds are rarer",
+      "Because 30-year bonds are rarer which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "To compensate investors for the increased risk of inflation and uncertainty over a longer time horizon",
       "Because shorter-term bonds are more expensive to print",
       "To encourage people to retire earlier"
@@ -116,7 +116,7 @@
     "content": "A 'callable' bond gives the issuer (the company) the right to pay off the bond early, before its maturity date. Companies usually do this if market interest rates drop, allowing them to refinance their debt at a cheaper rate.",
     "description": "A company issued bonds at 8% interest. Two years later, market rates drop to 4%. If the bonds are 'callable,' what is the company likely to do?",
     "options": [
-      "Double the interest payments to shareholders",
+      "Double the interest payments to shareholders which is a critical factor to consider in this context",
       "Call the bonds (pay them back early) and issue new debt at 4%",
       "Nothing, because they are legally obligated to wait until the maturity date",
       "Increase the face value of the bonds"
@@ -133,7 +133,7 @@
       "Its price will rise because it is now more exciting",
       "Its price will fall as investors demand a much higher yield to hold the riskier debt",
       "The company will be forced to shut down immediately",
-      "The interest rate the company pays will automatically decrease"
+      "The interest rate the company pays will automatically decrease which is a critical factor to consider in this context"
     ],
     "answer": "Its price will fall as investors demand a much higher yield to hold the riskier debt",
     "explanation": "A downgrade signals higher risk. Investors will sell the bond, driving the price down until the yield is high enough to compensate for the increased danger of default.",

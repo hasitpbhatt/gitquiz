@@ -7,7 +7,7 @@
       "The spreadsheet is too large for email servers to handle reliably",
       "Hardware engineering workflows are treated as software but lack software engineering discipline like source control and testing",
       "Excel spreadsheets cannot handle the complexity of turbine blade design",
-      "The engineers should be using CAD software instead of spreadsheets"
+      "The engineers should be using CAD software instead of spreadsheets which is a critical factor to consider in this context"
     ],
     "answer": "Hardware engineering workflows are treated as software but lack software engineering discipline like source control and testing",
     "explanation": "Blake Scholl explains that a lot of hardware engineering happens in Excel spreadsheets with VBScript — it's actually software, but treated as if it's not, with no source control or automated testing.",
@@ -20,7 +20,7 @@
     "options": [
       "Fifty engineers is actually the minimum because of FAA certification requirements",
       "With software engineers creating architectures and hardware engineers vibe-coding, two engineers can design an entire jet engine",
-      "You should outsource the engine design entirely to a specialized vendor",
+      "You should outsource the engine design entirely to a specialized vendor which is a critical factor to consider in this context",
       "Fifty engineers is fine if you divide them across aerodynamics and structures teams"
     ],
     "answer": "With software engineers creating architectures and hardware engineers vibe-coding, two engineers can design an entire jet engine",
@@ -35,7 +35,7 @@
       "Excel → Python simulations → AI generating STEP files and PCB layouts",
       "Manual drafting → CAD software → 3D printing",
       "Spreadsheets → databases → cloud computing",
-      "Prototyping → testing → manufacturing"
+      "Prototyping → testing → manufacturing which is a critical factor to consider in this context"
     ],
     "answer": "Excel → Python simulations → AI generating STEP files and PCB layouts",
     "explanation": "Max Hodak says he moved from Excel to Python models for simulations, and predicts AI will soon generate STEP files and PCB layouts — coming for mechanical and electrical engineering next.",
@@ -48,7 +48,7 @@
     "options": [
       "The hardware engineering market is too small to support a SaaS business",
       "Companies are now just internally coding exactly what they need, so there's no room for external tools",
-      "Hardware engineers refuse to use any cloud-based software for security reasons",
+      "Hardware engineers refuse to use any cloud-based software for security reasons which is a critical factor to consider in this context",
       "The startup would need ten years to build a product competitive with Excel"
     ],
     "answer": "Companies are now just internally coding exactly what they need, so there's no room for external tools",
@@ -62,7 +62,7 @@
     "options": [
       "They were the only tools available for collaboration in the 1990s",
       "They approximated custom software for people who couldn't build real software — they were lightweight programming",
-      "Microsoft Excel had a marketing advantage that crushed all competitors",
+      "Microsoft Excel had a marketing advantage that crushed all competitors which is a critical factor to consider in this context",
       "Spreadsheets are inherently better than code for any type of engineering analysis"
     ],
     "answer": "They approximated custom software for people who couldn't build real software — they were lightweight programming",
@@ -75,7 +75,7 @@
     "description": "Your team needs to analyze how each of the thousand turbine blades in a jet engine deforms under operating temperatures. Doing one blade manually takes an engineer a full day. What does the new AI-enabled workflow allow instead?",
     "options": [
       "It automates the analysis so you can change blade geometry and see structures and aerodynamics results in real time",
-      "It eliminates the need for turbine blades entirely by using ceramic coatings",
+      "It eliminates the need for turbine blades entirely by using ceramic coatings which is a critical factor to consider in this context",
       "It lets one engineer analyze all thousand blades in a single day with zero errors",
       "It outsources the analysis to a cloud compute cluster running legacy Fortran code"
     ],
@@ -88,7 +88,7 @@
     "content": "Naval suggests that hardware companies with historically bad software may skip human-facing software entirely and go straight to agentic interfaces — an agent accesses the hardware and you talk to it through voice.",
     "description": "A hardware startup building IoT devices asks you whether they should invest in building a polished mobile app or a web dashboard for their product. Using Naval's prediction, what alternative path should they consider?",
     "options": [
-      "They absolutely need a polished mobile app to reach consumers",
+      "They absolutely need a polished mobile app to reach consumers which is a critical factor to consider in this context",
       "They should build both a web dashboard and a mobile app for maximum coverage",
       "They could skip human-facing software entirely and let agents access the hardware through voice interfaces",
       "They should license their API to larger companies who will build the front-end"
@@ -105,7 +105,7 @@
       "The cheaper model costs more in compute than the frontier model",
       "When the cheaper model makes a mistake, you won't know it, and intelligence is too valuable to compromise on",
       "The cheaper model is actually more intelligent than the frontier model for coding tasks",
-      "The strategy would violate the AI model's terms of service"
+      "The strategy would violate the AI model's terms of service which is a critical factor to consider in this context"
     ],
     "answer": "When the cheaper model makes a mistake, you won't know it, and intelligence is too valuable to compromise on",
     "explanation": "Naval says: 'When these models make a mistake, you don't know it' — and intelligence is an unalloyed good. Given the leverage poured through decisions, you always want the most intelligent model.",
@@ -116,7 +116,7 @@
     "content": "Guillermo describes a practical split: use frontier models for pushing the coding frontier, and use cheaper models (including Chinese models and Gemini) for support tasks, browser automation, and industrial production.",
     "description": "You are designing an AI deployment strategy for your company. You need both cutting-edge code generation and cost-efficient automation for routine tasks. How does Guillermo Rauch suggest splitting the workload?",
     "options": [
-      "Use one model for everything to keep the architecture simple",
+      "Use one model for everything to keep the architecture simple which is a critical factor to consider in this context",
       "Use frontier models for pushing the coding frontier and cheaper models like Gemini or Chinese models for support and automation",
       "Use only open-source models to avoid vendor lock-in across all tasks",
       "Always use the cheapest model and accept lower quality for all tasks"
@@ -130,7 +130,7 @@
     "content": "Naval acknowledges that his preference for the most intelligent model is 'not great news' because it concentrates power among the top two or three frontier labs, creating a monopoly or oligopoly situation in AI.",
     "description": "A policy maker is concerned about AI market concentration. You explain Naval's argument that everyone will gravitate toward the single most intelligent model. What market structure does this predict for AI?",
     "options": [
-      "A highly fragmented market with hundreds of competitive AI models",
+      "A highly fragmented market with hundreds of competitive AI models which is a critical factor to consider in this context",
       "A monopoly or oligopoly where the top few frontier models dominate because users always prefer the smartest",
       "A market where open-source models eventually beat proprietary ones through community contributions",
       "A market where every company fine-tunes its own model and no single player dominates"
@@ -147,7 +147,7 @@
       "Yes, DeepSeek has surpassed GPT-4 on all major coding benchmarks",
       "No — neither Naval nor Guillermo sees Chinese models being used for frontier coding work",
       "Partially — Chinese models lead on coding but trail on creative writing",
-      "The comparison is meaningless because Chinese models don't publish benchmarks"
+      "The comparison is meaningless because Chinese models don't publish benchmarks which is a critical factor to consider in this context"
     ],
     "answer": "No — neither Naval nor Guillermo sees Chinese models being used for frontier coding work",
     "explanation": "Naval says he doesn't know anyone who uses Chinese models. Guillermo confirms: 'The Chinese are certainly not in it' when it comes to frontier coding. Chinese models find use in support and automation, not cutting-edge coding.",

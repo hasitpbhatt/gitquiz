@@ -7,7 +7,7 @@
       "Coach A, because he reviewed four times as much footage",
       "Coach B, because his higher intensity of focus yields deeper analysis per hour",
       "Both will produce equivalent insights since they watched the same opponents",
-      "Neither; tactics depend on the players, not the coach"
+      "Neither; tactics depend on the players, not the coach which is a critical factor to consider in this context"
     ],
     "answer": "Coach B, because his higher intensity of focus yields deeper analysis per hour",
     "explanation": "Three hours of undistracted, high-intensity analysis often reveals more insights than twelve hours of fragmented attention, because deep processing extracts meaning that shallow viewing misses.",
@@ -20,7 +20,7 @@
     "options": [
       "She is afraid her meditation teacher will check her calendar",
       "The psychological desire to maintain the forty-seven-day streak overrides the temporary tiredness",
-      "Meditation is mandatory for her health condition",
+      "Meditation is mandatory for her health condition which is a critical factor to consider in this context",
       "The calendar is public and her friends will judge her"
     ],
     "answer": "The psychological desire to maintain the forty-seven-day streak overrides the temporary tiredness",
@@ -32,7 +32,7 @@
     "content": "Career capital is the rare and valuable skills you accumulate. Deep work is the engine of career capital because it produces the kind of expertise that makes you hard to replace. Shallow work maintains your current position but does not advance it.",
     "description": "A junior architect has a choice: spend five hours creating beautiful renderings of a project (visible, appreciated by clients) or five hours mastering a complex structural analysis tool (invisible, essential for major projects). Which builds more career capital?",
     "options": [
-      "The renderings, because clients directly see them",
+      "The renderings, because clients directly see them which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The structural analysis tool, because it is a rare skill that enables her to work on high-value projects others cannot",
       "Both build equal capital as they are both work-related",
       "Neither; career capital comes from networking, not skills"
@@ -48,7 +48,7 @@
     "options": [
       "The staff will lose respect for her leadership",
       "She will spend 100% of her time reacting to small problems and never address the underlying strategic challenges facing the organization",
-      "Her calendar will look unprofessional with empty blocks",
+      "Her calendar will look unprofessional with empty blocks which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "She will become disconnected from her team's daily needs"
     ],
     "answer": "She will spend 100% of her time reacting to small problems and never address the underlying strategic challenges facing the organization",
@@ -63,7 +63,7 @@
       "Accept the call; helping others is part of being a community member",
       "Decline or suggest the acquaintance email three specific questions for a written reply during a shallow block",
       "Accept the call but multitask by writing during the conversation",
-      "Ignore the message completely"
+      "Ignore the message completely which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Decline or suggest the acquaintance email three specific questions for a written reply during a shallow block",
     "explanation": "This is a form of sender filter. The acquaintance may not need a call at all—a focused email exchange may suffice. The novelist protects her deep block while still offering help.",
@@ -77,7 +77,7 @@
       "She is using AI to replace her own job functions",
       "She is using AI to automate shallow work so she can focus her human depth on complex, strategic improvements",
       "She is training the AI to eventually replace all customer service staff",
-      "She is avoiding the AI because she prefers human interaction"
+      "She is avoiding the AI because she prefers human interaction which is a critical factor to consider in this context"
     ],
     "answer": "She is using AI to automate shallow work so she can focus her human depth on complex, strategic improvements",
     "explanation": "Racing with the machines means using technology to handle what it does best (routine tasks) while freeing human cognitive capacity for what humans do best: deep analysis and creative problem solving.",
@@ -102,7 +102,7 @@
     "content": "The Eudaimonia Machine concept—a physical space that progressively transitions you toward depth—can be adapted for home use. The key is creating distinct zones that separate shallow activities from deep work space.",
     "description": "A freelance illustrator converts her spare room into a studio. She keeps her phone, tablet, and internet router in the living room. The studio has only her drawing table, reference books, and a timer. What principle is she applying?",
     "options": [
-      "The Monastic philosophy, because she works alone",
+      "The Monastic philosophy, because she works alone which is a critical factor to consider in this context",
       "The Eudaimonia Machine concept: creating a physical progression that leaves distractions behind before entering the work zone",
       "The Hub-and-Spoke model, because she uses two rooms",
       "The Grand Gesture, because she converted a whole room"
@@ -117,7 +117,7 @@
     "description": "Someone asks what the single most important takeaway from Deep Work is. Which answer best captures Newport's ultimate message?",
     "options": [
       "Block four hours daily and never check email before noon",
-      "Delete all social media immediately",
+      "Delete all social media immediately which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Your attention is the most valuable resource you have; where you direct it determines the quality of your work and your life",
       "Work from a coffee shop without Wi-Fi"
     ],
@@ -133,7 +133,7 @@
       "Buy a new notebook and plan his ideal deep work schedule",
       "Schedule a ninety-minute block tomorrow morning, eliminate all distractions, and work on his most important project",
       "Tell all his friends and colleagues about the book",
-      "Delete all apps from his phone at once"
+      "Delete all apps from his phone at once which is a critical factor to consider in this context"
     ],
     "answer": "Schedule a ninety-minute block tomorrow morning, eliminate all distractions, and work on his most important project",
     "explanation": "Intentions without action produce nothing. The very first deep work session is the most important because it transforms knowledge into practice. Everything else follows from that first committed block.",

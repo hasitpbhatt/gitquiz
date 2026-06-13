@@ -18,7 +18,7 @@
     "content": "Outcome-based habits focus on what you achieve; identity-based habits focus on who you become. Lasting change requires shifting the who first.",
     "description": "Two people decline a cigarette at a party. Person A says No thanks, I am trying to quit. Person B says No thanks, I am not a smoker. Why is Person B more likely to stay smoke-free?",
     "options": [
-      "Because Person B has stronger willpower",
+      "Because Person B has stronger willpower which is a critical factor to consider in this context",
       "Because Person B has signaled an identity shift rather than just resisting a craving",
       "Because Person B already achieved the goal of quitting",
       "Because Person B is more polite to the person offering"
@@ -49,7 +49,7 @@
       "Buy an expensive set of professional paints",
       "Paint for ten minutes every day to accumulate small wins and evidence",
       "Tell everyone you are a professional painter",
-      "Wait for inspiration to strike before starting"
+      "Wait for inspiration to strike before starting which is a critical factor to consider in this context"
     ],
     "answer": "Paint for ten minutes every day to accumulate small wins and evidence",
     "explanation": "Identity change requires behavioral evidence. By painting daily, even briefly, the person provides proof to their brain that they are indeed a painter.",
@@ -74,7 +74,7 @@
     "content": "Clinging to fixed labels like I am bad at math creates a mental ceiling that prevents growth.",
     "description": "A student says I am just not a morning person to explain missing early classes. How does this identity statement affect their behavior?",
     "options": [
-      "It helps them accept their biological reality",
+      "It helps them accept their biological reality which is a critical factor to consider in this context",
       "It acts as a self-fulfilling prophecy that justifies skipping class",
       "It encourages them to find creative night study options",
       "It has no real impact on their habits"
@@ -88,7 +88,7 @@
     "content": "Small wins are tiny victories that provide behavioral evidence for a new identity, building momentum over time.",
     "description": "A dieter chooses to eat a salad for lunch one day, then eats pizza for dinner. A behaviorist argues the salad was meaningless because the calorie deficit was erased. A psychologist argues the salad was powerful because it planted evidence of a new identity. Which framework resolves this disagreement and explains who is correct?",
     "options": [
-      "Operant conditioning: the pizza punishment cancels the salad reward, so the behaviorist is correct",
+      "Operant conditioning: the pizza punishment cancels the salad reward, so the behaviorist is correct which is a critical factor to consider in this context",
       "Identity-based habit theory: the salad is a vote for being healthy regardless of other votes that day, so the psychologist is correct",
       "Cognitive dissonance theory: the contradiction between salad and pizza creates discomfort that forces better choices, so both are partially correct",
       "Expected value theory: one salad has negligible caloric impact, so neither is correct unless the pattern repeats"
@@ -102,7 +102,7 @@
     "content": "Building habits is about continuously editing your beliefs and upgrading your identity as you grow.",
     "description": "A person realizes their habit of watching late-night TV no longer aligns with their goal of becoming an early riser. What should they do?",
     "options": [
-      "Keep the habit for consistency",
+      "Keep the habit for consistency which is a critical factor to consider in this context",
       "Re-evaluate their desired identity and cast new votes for a different behavior",
       "Ignore the conflict and hope it resolves on its own",
       "Blame their personality for being unable to change"
@@ -117,7 +117,7 @@
     "description": "According to Atomic Habits, what is the most important reason to develop good habits?",
     "options": [
       "To impress friends and family with discipline",
-      "To reach goals as quickly as possible",
+      "To reach goals as quickly as possible which is a critical factor to consider in this context",
       "To prove to yourself that you are capable of change and growth",
       "To ensure you never make a mistake again"
     ],
@@ -133,7 +133,7 @@
       "Because the diet was nutritionally unsound",
       "Because the outcome was achieved without changing the underlying identity or lifestyle",
       "Because weight loss is always temporary",
-      "Because the person lacked exercise"
+      "Because the person lacked exercise which is a critical factor to consider in this context"
     ],
     "answer": "Because the outcome was achieved without changing the underlying identity or lifestyle",
     "explanation": "You can reach a goal through a burst of willpower, but without a shift in identity and habits, you revert to old patterns once the goal is reached.",

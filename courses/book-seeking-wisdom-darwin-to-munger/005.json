@@ -4,7 +4,7 @@
     "content": "Mental models are simplified representations of how the world works. Building a latticework of models from multiple disciplines helps us understand complex situations and make better decisions.",
     "description": "A CEO insists on using only financial models to understand her business, ignoring psychology, biology, and systems thinking. Her approach is limited because:",
     "options": [
-      "Financial models are always inaccurate",
+      "Financial models are always inaccurate which is a critical factor to consider in this context",
       "No single discipline provides a complete view of reality",
       "CEOs should focus exclusively on numbers",
       "Psychology and biology are irrelevant in business"
@@ -20,7 +20,7 @@
     "options": [
       "Always reveals true market causes",
       "Helps us find meaning but may oversimplify complex events",
-      "Is unique to financial journalism",
+      "Is unique to financial journalism which is a critical factor to consider in this context",
       "Should be eliminated entirely from thinking"
     ],
     "answer": "Helps us find meaning but may oversimplify complex events",
@@ -35,7 +35,7 @@
       "A sophisticated hacker disabled your phone remotely",
       "The battery ran out or the software needs a restart",
       "Electromagnetic solar flares interfered with the circuits",
-      "The manufacturer deliberately programmed obsolescence"
+      "The manufacturer deliberately programmed obsolescence which is a critical factor to consider in this context"
     ],
     "answer": "The battery ran out or the software needs a restart",
     "explanation": "The simplest explanation requiring the fewest assumptions, battery drain or software glitch, is most likely. More complex explanations add unnecessary assumptions without evidence.",
@@ -63,7 +63,7 @@
       "The first, because flexibility leads to better outcomes",
       "The second, because specific, measurable goals improve focus and effort",
       "Both equally, since the intention is the same",
-      "Neither, since fitness goals are rarely achieved"
+      "Neither, since fitness goals are rarely achieved which is a critical factor to consider in this context"
     ],
     "answer": "The second, because specific, measurable goals improve focus and effort",
     "explanation": "Clear goals provide a target to aim for and criteria for success. Vague goals lack the specificity needed to design an effective plan and measure progress.",
@@ -76,7 +76,7 @@
     "options": [
       "Focus only on negative possibilities",
       "Identify and prevent major sources of failure",
-      "Expect the worst to happen",
+      "Expect the worst to happen which is a critical factor to consider in this context",
       "Avoid making any decisions at all"
     ],
     "answer": "Identify and prevent major sources of failure",
@@ -89,7 +89,7 @@
     "description": "A venture capitalist rejects any pitch that does not address a clear customer pain point, without even reading the financial projections. This filter helps:",
     "options": [
       "Save time by eliminating fundamentally flawed opportunities early",
-      "Ignore important financial details",
+      "Ignore important financial details which is a critical factor to consider in this context",
       "Make decisions based on one criterion only",
       "Avoid meeting with ambitious entrepreneurs"
     ],
@@ -105,7 +105,7 @@
       "Follow his gut feeling since emotional connections matter",
       "Recognize the emotional influence and evaluate the stock objectively",
       "Hold forever since his father had good judgment",
-      "Double down since emotions often signal hidden value"
+      "Double down since emotions often signal hidden value which is a critical factor to consider in this context"
     ],
     "answer": "Recognize the emotional influence and evaluate the stock objectively",
     "explanation": "Emotional attachments to investments are common but dangerous. Recognizing this influence allows the investor to step back and evaluate the stock prospects independently of sentiment.",
@@ -116,7 +116,7 @@
     "content": "Maps are simplified representations of reality, not reality itself. Our mental models and theories must be updated as the territory changes, or we risk outdated decisions.",
     "description": "A manager relies on last year market research report to make strategy decisions, ignoring new competitors and changing customer preferences. This mistake exemplifies:",
     "options": [
-      "Thorough reliance on documented research",
+      "Thorough reliance on documented research which is a critical factor to consider in this context",
       "Confusing the map, the past report, with the territory, current reality",
       "Effective use of historical data for planning",
       "Proper risk management through established procedures"
@@ -130,7 +130,7 @@
     "content": "Probabilistic thinking means acknowledging uncertainty by expressing beliefs as probabilities rather than certainties. It avoids the trap of yes-or-no binary thinking in an uncertain world.",
     "description": "A weather forecaster says There is a 40 percent chance of rain. A binary thinker says Either it will rain or it will not, so the forecast is useless. The probabilistic thinker understands:",
     "options": [
-      "The forecaster is guessing without confidence",
+      "The forecaster is guessing without confidence which is a critical factor to consider in this context",
       "40 percent means that in similar conditions, rain occurs 40 percent of the time",
       "Probability forecasts are meaningless for daily planning",
       "The forecaster should always commit to rain or no rain"

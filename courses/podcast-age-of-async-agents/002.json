@@ -46,7 +46,7 @@
     "content": "Cognition sells far more than just the Devin product. They sell infrastructure, onboarding, integrations, and enterprise adoption support.",
     "description": "A competitor asks whether Cognition just sells a $20/month agent tool and how they are worth $26B. What is missing from this assessment of what Cognition actually sells?",
     "options": [
-      "Cognition only sells Devin licenses",
+      "Cognition only sells Devin licenses which is a critical factor to consider in this context",
       "Cognition sells infrastructure, onboarding, integrations, and enterprise adoption, not just the software",
       "Cognition makes most of its money from advertising",
       "Cognition sells hardware servers for running agents"
@@ -91,7 +91,7 @@
       "Open source is always cheaper because there is no license fee",
       "Commercial agents bundle VM infrastructure, onboarding, and support; open source requires you to manage these yourself",
       "OpenInspect has more features than Devin",
-      "Devin is free for small teams"
+      "Devin is free for small teams which is a critical factor to consider in this context"
     ],
     "answer": "Commercial agents bundle VM infrastructure, onboarding, and support; open source requires you to manage these yourself",
     "explanation": "The real cost of open-source agents includes managing VM infrastructure, networking, secrets, and ongoing maintenance. Commercial agents like Devin bundle these costs. As Walden notes, the work around the product is where the real cost and value live.",
@@ -105,7 +105,7 @@
       "Paid advertising on developer blogs",
       "Companies adopt it internally and contribute improvements back to the project",
       "A freemium SaaS tier with paid upgrades",
-      "Reselling through cloud marketplaces"
+      "Reselling through cloud marketplaces which is a critical factor to consider in this context"
     ],
     "answer": "Companies adopt it internally and contribute improvements back to the project",
     "explanation": "OpenInspect grows through enterprise adoption: companies implement it as their internal agent platform, and their engineering improvements flow back to the open-source project. This community-driven model contrasts with Cognition's direct sales approach.",

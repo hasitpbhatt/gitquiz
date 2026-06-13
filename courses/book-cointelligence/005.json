@@ -6,7 +6,7 @@
     "options": [
       "Ask the AI to pick the final slogan and launch the campaign immediately.",
       "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
-      "Avoid AI because it isn't truly 'creative' in the biological sense.",
+      "Avoid AI because it isn't truly 'creative' in the biological sense. which is a critical factor to consider in this context",
       "Wait for a human creative director to have a breakthrough moment without tools."
     ],
     "answer": "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
@@ -48,7 +48,7 @@
     "options": [
       "Providing a cheaper alternative to building.",
       "Breaking 'functional fixedness' and allowing for divergent thinking.",
-      "Automating the construction process.",
+      "Automating the construction process. which is a critical factor to consider in this context",
       "Reducing the need for human architects."
     ],
     "answer": "Breaking 'functional fixedness' and allowing for divergent thinking.",
@@ -60,7 +60,7 @@
     "content": "When 'content generation' becomes free and instant, the value of the 'creator' drops while the value of the 'curator' rises. High-quality creativity now depends on the human's ability to recognize what is 'good' and 'meaningful' among the thousands of options AI provides.",
     "description": "If everyone has access to an AI that can write a decent novel, what will differentiate a best-selling author in the future?",
     "options": [
-      "Their ability to type faster than others.",
+      "Their ability to type faster than others. which is a critical factor to consider in this context",
       "Their ability to curate, edit, and inject unique human meaning into the AI's output.",
       "Their ability to keep the AI's use a secret.",
       "The amount of money they spend on AI subscriptions."
@@ -74,7 +74,7 @@
     "content": "In Chapter 5, prompting is described more like 'sculpting' than 'ordering.' You don't just give one prompt and stop; you give a prompt, see the 'block of marble' the AI gives you, and then 'chip away' by giving more specific feedback until the 'statue' is revealed.",
     "description": "An AI generates a story that you like, but the ending is too happy. What is the most 'Co-Intelligent' creative action?",
     "options": [
-      "Rewrite the ending yourself from scratch.",
+      "Rewrite the ending yourself from scratch. which is a critical factor to consider in this context",
       "Tell the AI: 'The tone is great, but make the ending more bittersweet and realistic.'",
       "Ask the AI to start the whole story over.",
       "Accept the happy ending because the AI 'knows best.'"
@@ -88,7 +88,7 @@
     "content": "AI is trained on the 'average' of all human knowledge. If you give it a boring prompt, it will give you a boring, 'middle-of-the-road' answer. To get true creativity, you must push the AI toward the 'edges' of its training data using constraints and unusual personas.",
     "description": "Why do many people complain that AI-generated art or writing feels 'generic'?",
     "options": [
-      "Because the AI is broken.",
+      "Because the AI is broken. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Because the user provided a generic prompt that pushed the AI to the statistical average of its training.",
       "Because the AI doesn't have a high enough resolution.",
       "Because the AI is trying to avoid offending anyone."
@@ -102,7 +102,7 @@
     "content": "We often think AI isn't creative because it doesn't have 'feelings.' But Mollick argues that if an AI provides an idea that a human finds useful and novel, it has passed a 'Creative Turing Test.' The 'process' matters less than the 'outcome' for the person using the tool.",
     "description": "An AI suggests a melody that makes a songwriter cry. Does it matter that the AI didn't 'feel' the sadness itself?",
     "options": [
-      "Yes, because art without suffering isn't real.",
+      "Yes, because art without suffering isn't real. which is a critical factor to consider in this context",
       "No, because the creativity is realized in the human's emotional response and the utility of the idea.",
       "Yes, because the AI is just tricking the human.",
       "No, because the AI probably copied that melody from a sad song."
@@ -116,7 +116,7 @@
     "content": "AI works better when it is 'boxed in.' Asking an AI for 'an idea' is hard for it. Asking for 'an idea for a kitchen gadget that uses magnets, costs under $5, and is themed like a dinosaur' forces the AI to find a very specific, often more creative, solution.",
     "description": "Which prompt is likely to yield a more 'creative' school fundraiser idea?",
     "options": [
-      "Give me a new fundraiser idea.",
+      "Give me a new fundraiser idea. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Give me a fundraiser idea for a school that involves the whole neighborhood, uses no food, and costs less than $50 to start.",
       "What is a profitable way to raise money?",
       "List 10 ways to make money quickly."
@@ -130,7 +130,7 @@
     "content": "As AI takes over the 'production' of creative assets (images, text, music), 'craft' will shift from 'technical execution' (how well you can draw a circle) to 'conceptual depth' (why the circle needs to be there in the first place).",
     "description": "In a world of AI-generated movies, what becomes the most important skill for a director?",
     "options": [
-      "Knowing how to operate a physical camera.",
+      "Knowing how to operate a physical camera. which is a critical factor to consider in this context",
       "Vision, storytelling, and the ability to direct the AI to capture specific emotional nuances.",
       "Being able to draw every frame by hand.",
       "Memorizing the names of every actor in history."

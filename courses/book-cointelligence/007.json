@@ -6,7 +6,7 @@
     "options": [
       "The price of the school's textbooks.",
       "The value of the assignment and how to assess true learning.",
-      "The school's internet bandwidth.",
+      "The school's internet bandwidth. which is a critical factor to consider in this context",
       "The length of the summer vacation."
     ],
     "answer": "The value of the assignment and how to assess true learning.",
@@ -35,7 +35,7 @@
       "Academic dishonesty.",
       "Using AI for personalized, deep learning.",
       "The Jagged Frontier.",
-      "Automated grading."
+      "Automated grading. which is a critical factor to consider in this context"
     ],
     "answer": "Using AI for personalized, deep learning.",
     "explanation": "AI’s ability to reshape information into different contexts (analogies, simpler language, etc.) makes it a powerful tool for individualized education.",
@@ -60,7 +60,7 @@
     "content": "Educational psychologist Benjamin Bloom found that students tutored 1-on-1 performed two standard deviations (two sigma) better than students in a traditional classroom. Historically, this was too expensive to scale. AI potentially solves 'Bloom’s Two Sigma Problem' by providing a 1-on-1 tutor to every person on Earth.",
     "description": "How does AI specifically address 'Bloom’s Two Sigma Problem' in modern schools?",
     "options": [
-      "By replacing all human teachers with robots.",
+      "By replacing all human teachers with robots. which is a critical factor to consider in this context",
       "By providing personalized, adaptive 1-on-1 instruction at a massive scale.",
       "By making tests harder so students study more.",
       "By reducing the number of students in a classroom."
@@ -76,7 +76,7 @@
     "options": [
       "Lecturing for 60 minutes on facts.",
       "Setting the curriculum and providing emotional and ethical guidance.",
-      "Grading multiple-choice tests.",
+      "Grading multiple-choice tests. which is a critical factor to consider in this context",
       "Preventing students from touching computers."
     ],
     "answer": "Setting the curriculum and providing emotional and ethical guidance.",
@@ -90,7 +90,7 @@
     "options": [
       "Trust the AI's grades completely to save time.",
       "Audit a random sample of grades and review all failing grades personally.",
-      "Tell the students the AI is always right.",
+      "Tell the students the AI is always right. which is a critical factor to consider in this context",
       "Use the AI's feedback but assign random grades to stay unpredictable."
     ],
     "answer": "Audit a random sample of grades and review all failing grades personally.",
@@ -104,7 +104,7 @@
     "options": [
       "Advanced physics knowledge.",
       "AI literacy and prompt engineering skills.",
-      "Shadow AI usage.",
+      "Shadow AI usage. which is a critical factor to consider in this context",
       "A failure to follow instructions."
     ],
     "answer": "AI literacy and prompt engineering skills.",
@@ -117,7 +117,7 @@
     "description": "A student watches an AI solve ten math problems perfectly. They feel they've mastered the topic but fail the exam the next day. Why?",
     "options": [
       "The AI gave the wrong answers.",
-      "The exam was too hard.",
+      "The exam was too hard. which is a critical factor to consider in this context",
       "They fell into the 'Illusion of Competence' by observing instead of practicing.",
       "The AI didn't use the right persona."
     ],

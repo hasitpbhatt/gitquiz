@@ -6,7 +6,7 @@
     "options": [
       "Inside the Data Ingestion stage to filter out bad news.",
       "Immediately before the Execution stage to serve as a final gatekeeper for all orders.",
-      "Deep inside the LLM prompt instructions.",
+      "Deep inside the LLM prompt instructions. which is a critical factor to consider in this context",
       "After the trade has been executed to review what happened."
     ],
     "answer": "Immediately before the Execution stage to serve as a final gatekeeper for all orders.",
@@ -18,7 +18,7 @@
     "content": "Debugging AI is different from traditional code because the 'error' might not be a crash, but a logical failure (e.g., the AI misunderstood a joke in a tweet). Developers use 'Traceability'—tagging each trade with the specific prompt and response that triggered it—to find these flaws.",
     "description": "Your bot keeps buying a stock every time a specific influencer tweets 'This company is fire!' (slang for great), but the stock price is actually falling. How do you debug this?",
     "options": [
-      "Rewrite the entire Python script from scratch.",
+      "Rewrite the entire Python script from scratch. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Check the LLM logs to see if it interpreted 'fire' as a literal disaster or a positive recommendation.",
       "Assume the influencer is wrong and unfollow them.",
       "Increase the trading volume to force the price up."
@@ -32,7 +32,7 @@
     "content": "Modern pipelines use 'JSON Mode' in LLMs to ensure the AI returns data in a structured format. This allows a standard Python script to easily read the AI's 'Decision' (e.g., BUY) and 'Confidence' (e.g., 0.85) without needing to parse a long paragraph of text.",
     "description": "Why is it better to force your LLM to output `{\"action\": \"BUY\", \"size\": 100}` rather than 'I think you should buy 100 shares'?",
     "options": [
-      "JSON is more professional than English.",
+      "JSON is more professional than English. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "It allows your execution script to reliably 'grab' the values and act on them without the risk of misinterpreting the AI's grammar.",
       "JSON takes up less space on your hard drive.",
       "AI models are naturally better at math if they use curly braces."
@@ -60,7 +60,7 @@
     "content": "Paper trading is a simulated environment where you trade with 'fake money' using real-time data. It is the 'production rehearsal' for your pipeline, allowing you to find bugs in your custom code without losing real capital.",
     "description": "You've finished building your GenAI pipeline. Why should you paper trade for at least two weeks before going live?",
     "options": [
-      "To wait for the market to become more predictable.",
+      "To wait for the market to become more predictable. which is a critical factor to consider in this context",
       "To see if your pipeline's latency or API handling causes issues that didn't appear in backtests.",
       "Because brokers require a two-week waiting period for AI bots.",
       "To give the AI time to get to know the 'feel' of the market."
@@ -76,7 +76,7 @@
     "options": [
       "Use a 'State Database' to track that an order has already been placed for this news event/ticker.",
       "Tell the AI to only buy things once.",
-      "Disconnect two of the news sources.",
+      "Disconnect two of the news sources. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Program the bot to only trade once per day."
     ],
     "answer": "Use a 'State Database' to track that an order has already been placed for this news event/ticker.",
@@ -91,7 +91,7 @@
       "Try to write a new prompt to fix the current one.",
       "Revert the pipeline to the 'v1.0' prompt file in your version control system (like Git).",
       "Apologize to the AI and ask it to be nicer.",
-      "Delete the prompt and let the AI decide for itself."
+      "Delete the prompt and let the AI decide for itself. which is a critical factor to consider in this context"
     ],
     "answer": "Revert the pipeline to the 'v1.0' prompt file in your version control system (like Git).",
     "explanation": "Treating prompts like code (PromptOps) allows for safety and reproducibility. Version control ensures you can always go back to a 'known good' state if an experiment fails.",
@@ -105,7 +105,7 @@
       "Keep trying to send orders until the API works again.",
       "Pause all logic, log the error, and send a high-priority notification to the developer.",
       "Try to trade on a different exchange instead.",
-      "Delete its own training data to protect itself."
+      "Delete its own training data to protect itself. which is a critical factor to consider in this context"
     ],
     "answer": "Pause all logic, log the error, and send a high-priority notification to the developer.",
     "explanation": "In trading, 'doing nothing' is better than 'doing the wrong thing' during a technical failure. Stopping and alerting a human prevents uncontrolled behavior during a crisis.",
@@ -118,7 +118,7 @@
     "options": [
       "To see if the new formatting accidentally made all headlines look 'Neutral' to the AI.",
       "To make sure the AI still likes you.",
-      "To increase the speed of the news feed.",
+      "To increase the speed of the news feed. which is a critical factor to consider in this context",
       "Unit tests are only for traditional math, not for AI."
     ],
     "answer": "To see if the new formatting accidentally made all headlines look 'Neutral' to the AI.",
@@ -132,7 +132,7 @@
     "options": [
       "The price of the stock increased.",
       "The LLM provider is experiencing slow response times or your prompt has become too long.",
-      "The Python script is bored.",
+      "The Python script is bored. which is a critical factor to consider in this context",
       "The market has more traders than usual."
     ],
     "answer": "The LLM provider is experiencing slow response times or your prompt has become too long.",

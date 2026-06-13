@@ -6,7 +6,7 @@
     "options": [
       "You should never make long-term plans because they are useless.",
       "You should pick a strategy that is flexible enough to account for the fact that your goals will change.",
-      "You should only invest in things that 18-year-olds like.",
+      "You should only invest in things that 18-year-olds like. which is a critical factor to consider in this context",
       "Financial planning is only for people over the age of 40."
     ],
     "answer": "You should pick a strategy that is flexible enough to account for the fact that your goals will change.",
@@ -21,7 +21,7 @@
       "They are being responsible by honoring their past investment.",
       "They should treat the past cost as 'sunk' and make the best decision for their future self.",
       "They should work harder to make the degree 'worth it'.",
-      "Changing careers is a sign of financial failure."
+      "Changing careers is a sign of financial failure. which is a critical factor to consider in this context"
     ],
     "answer": "They should treat the past cost as 'sunk' and make the best decision for their future self.",
     "explanation": "To avoid being a prisoner of your past decisions, you must be willing to abandon a path that no longer serves the person you have become.",
@@ -49,7 +49,7 @@
       "Because the stock market is too confusing for most people.",
       "Because your life circumstances, family needs, and personal values will shift many times during those 30 years.",
       "Because compounding only works for the first 10 years.",
-      "Because most people forget their bank passwords."
+      "Because most people forget their bank passwords. which is a critical factor to consider in this context"
     ],
     "answer": "Because your life circumstances, family needs, and personal values will shift many times during those 30 years.",
     "explanation": "The 'psychological' price of compounding is the discipline to stick to a plan even when the 'you' who started the plan feels like a stranger.",
@@ -62,7 +62,7 @@
     "options": [
       "By having no debt and high liquidity to allow for a period of lower income.",
       "By picking one career and forcing yourself to stick to it until retirement.",
-      "By only working jobs that require no training.",
+      "By only working jobs that require no training. which is a critical factor to consider in this context",
       "By assuming you will always earn more every single year."
     ],
     "answer": "By having no debt and high liquidity to allow for a period of lower income.",
@@ -74,7 +74,7 @@
     "content": "Many people feel guilty for 'quitting' a strategy or a goal they once held dear. Housel argues that 'quitting' is often just a rational response to the fact that you are no longer the person who set that goal.",
     "description": "Which of these is a sign of financial maturity, according to Chapter 14?",
     "options": [
-      "Never changing your mind about an investment.",
+      "Never changing your mind about an investment. which is a critical factor to consider in this context",
       "Being willing to abandon a strategy when it no longer aligns with your current life values.",
       "Only following the advice of your younger self.",
       "Ignoring all new information to stay focused on an old goal."
@@ -91,7 +91,7 @@
       "They might become too rich and bored.",
       "They might reach 60 and realize they saved for a life they no longer have the energy to live.",
       "They will be audited for not spending enough.",
-      "There is no risk to extreme saving."
+      "There is no risk to extreme saving. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "They might reach 60 and realize they saved for a life they no longer have the energy to live.",
     "explanation": "Wealth is a tool for a happy life. If you sacrifice your entire youth for a future 'you' who might have different health or interests, you've taken an uncompensated risk.",
@@ -105,7 +105,7 @@
       "Never; a good plan lasts forever.",
       "Every single day based on the stock market.",
       "Periodically, to ensure your money is still serving the person you are becoming.",
-      "Only when you lose your job."
+      "Only when you lose your job. which is a critical factor to consider in this context"
     ],
     "answer": "Periodically, to ensure your money is still serving the person you are becoming.",
     "explanation": "Regularly checking in with your 'current self' prevents you from operating on autopilot using the logic of your 'past self'.",
@@ -119,7 +119,7 @@
       "Because the stock market is guaranteed to return to the price you paid.",
       "Because the market doesn't know or care what price you paid; your decision should be based on future potential.",
       "Because breaking even is the only way to avoid taxes.",
-      "Because it shows you are a loyal investor."
+      "Because it shows you are a loyal investor. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Because the market doesn't know or care what price you paid; your decision should be based on future potential.",
     "explanation": "The person who bought the stock at a high price is 'past you.' 'Present you' should only care about where the money is best utilized moving forward.",
@@ -130,7 +130,7 @@
     "content": "The only constant in life is change. The best financial strategy is one that acknowledges your own fallibility and the certainty that your future self will want something different than you do today.",
     "description": "In one sentence, what is the 'Psychology of Money' solution to the fact that 'You'll Change'?",
     "options": [
-      "Don't commit to anything.",
+      "Don't commit to anything. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Embrace 'room for error' and 'moderation' as your primary shields against your future self's regret.",
       "Try to predict exactly how you will feel in 20 years.",
       "Follow the lifestyle of people who never change their minds."

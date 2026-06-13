@@ -7,7 +7,7 @@
       "You will finish in two days and have extra time",
       "The report will take most or all of the two weeks despite minimal actual work",
       "You will need more than two weeks because it expands further",
-      "The quality will be much higher with more time"
+      "The quality will be much higher with more time which is a critical factor to consider in this context"
     ],
     "answer": "The report will take most or all of the two weeks despite minimal actual work",
     "explanation": "Parkinson's Law: work expands to fill available time. With two weeks, you will procrastinate, add unnecessary polish, and stretch the work rather than finishing efficiently in three days.",
@@ -49,7 +49,7 @@
       "Shoppers prefer less variety in general",
       "The Paradox of Choice - too many options overwhelm and paralyze",
       "The store lowered prices with fewer options",
-      "The 50 varieties were low quality"
+      "The 50 varieties were low quality which is a critical factor to consider in this context"
     ],
     "answer": "The Paradox of Choice - too many options overwhelm and paralyze",
     "explanation": "More options create higher expectations and fear of making the wrong choice, leading to paralysis (no purchase) or post-choice regret. Fewer options make decisions easier and increase satisfaction.",
@@ -60,7 +60,7 @@
     "content": "Decision fatigue is the deteriorating quality of decisions after a long session of decision-making. The brain's energy for making choices depletes over time.",
     "description": "Judges are more likely to grant parole early in the day than after lunch. This pattern is best explained by:",
     "options": [
-      "Judges are lazier in the afternoon",
+      "Judges are lazier in the afternoon which is a critical factor to consider in this context",
       "Decision fatigue - mental resources deplete over repeated decisions",
       "Morning cases are more deserving of parole",
       "Lawyers present better arguments in the morning"
@@ -76,7 +76,7 @@
     "options": [
       "The food quality is lower with more items",
       "Hick's Law - decision time increases with more choices",
-      "Customers read slower on longer menus",
+      "Customers read slower on longer menus which is a critical factor to consider in this context",
       "Chefs take longer to cook with more options"
     ],
     "answer": "Hick's Law - decision time increases with more choices",
@@ -90,7 +90,7 @@
     "options": [
       "Reasonable - aesthetics matter for employee morale",
       "Bike-shedding - trivial issues get more attention because everyone has an opinion",
-      "The reactor design was already perfect",
+      "The reactor design was already perfect which is a critical factor to consider in this context",
       "The board members have expertise in paint colors"
     ],
     "answer": "Bike-shedding - trivial issues get more attention because everyone has an opinion",
@@ -104,7 +104,7 @@
     "options": [
       "Happier because they found the objectively best apartment",
       "Less satisfied due to higher regret and opportunity cost of time",
-      "Saving money from thorough comparison shopping",
+      "Saving money from thorough comparison shopping which is a critical factor to consider in this context",
       "Finding the exact same apartment as the satisficer"
     ],
     "answer": "Less satisfied due to higher regret and opportunity cost of time",
@@ -119,7 +119,7 @@
       "Citizens in opt-out countries care more about organ donation",
       "The default effect - people stick with the pre-set option due to inertia",
       "Opt-out countries have better healthcare education",
-      "Religious beliefs differ between the countries"
+      "Religious beliefs differ between the countries which is a critical factor to consider in this context"
     ],
     "answer": "The default effect - people stick with the pre-set option due to inertia",
     "explanation": "The default effect leverages inertia and the status quo bias. People do not actively opt out even if they support donation, because changing the default requires effort and overcoming procrastination.",
@@ -130,7 +130,7 @@
     "content": "The Regret Minimization Framework asks: 'When I am 80 years old, will I regret doing this or not doing this more?' It cuts through analysis paralysis by focusing on long-term regret.",
     "description": "You are considering quitting your stable job to start a business. Using the Regret Minimization Framework, you ask:",
     "options": [
-      "What would maximize my income this year?",
+      "What would maximize my income this year? which is a critical factor to consider in this context",
       "Will my 80-year-old self regret not trying this more than trying and failing?",
       "What do my family and friends think I should do?",
       "How much savings do I need for a comfortable life?"

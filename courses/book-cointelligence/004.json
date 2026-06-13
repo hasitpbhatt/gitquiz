@@ -4,7 +4,7 @@
     "content": "AI is the first technology we interact with primarily through social language rather than code or buttons. Because it communicates like a human, our brains are hardwired to treat it as a social entity. This 'social interface' means that the way we talk to AI—our tone, our politeness, and our framing—directly impacts the quality of the 'co-intelligence' we achieve.",
     "description": "Why does an AI often provide more helpful and detailed responses when you use conversational language and context compared to a series of isolated keywords?",
     "options": [
-      "Because conversational language uses more server bandwidth.",
+      "Because conversational language uses more server bandwidth. which is a critical factor to consider in this context",
       "Because the AI's 'social interface' is designed to trigger specific linguistic patterns based on human-like interaction.",
       "Because the AI has feelings and responds better to kindness.",
       "Because keywords are intentionally blocked by safety filters."
@@ -18,7 +18,7 @@
     "content": "Assigning a 'persona' to an AI is one of the most effective ways to improve its performance. By telling the AI it is a 'harsh critic,' a 'supportive tutor,' or a 'logistics expert,' you are essentially narrowing its focus to a specific subset of its vast knowledge, leading to more relevant and professional output.",
     "description": "You are trying to improve a community grant proposal for a local park renovation. Which prompt uses the 'persona' concept most effectively?",
     "options": [
-      "Check this proposal for grammar and spelling errors.",
+      "Check this proposal for grammar and spelling errors. which is a critical factor to consider in this context",
       "Rewrite this proposal so it sounds better and is more professional.",
       "Act as a skeptical city council member. Tear this proposal apart and find every logical weakness.",
       "Make this proposal longer so it looks more impressive to the committee."
@@ -32,7 +32,7 @@
     "content": "The 'IKEA Effect' is a psychological phenomenon where people value things more because they helped build them. With AI, there is a risk that because we 'co-created' a document or image, we become blind to its flaws. We over-value the AI’s output simply because we provided the prompt.",
     "description": "After spending two hours 'collaborating' with an AI to write a marketing plan, you feel it is the best work the company has ever seen. According to Chapter 4, what should you be wary of?",
     "options": [
-      "The AI might ask for credit in the footnotes.",
+      "The AI might ask for credit in the footnotes. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The 'IKEA Effect' may be causing you to overrate the quality because of your personal involvement in the prompting process.",
       "The AI might have copied the plan from a competitor.",
       "The plan is likely too long for anyone to read."
@@ -47,7 +47,7 @@
     "description": "You find that the AI's suggestions have become repetitive and boring. Based on the 'mirroring' concept, what is the first thing you should change?",
     "options": [
       "Switch to a different AI model immediately.",
-      "Restart your computer to clear the cache.",
+      "Restart your computer to clear the cache. which is a critical factor to consider in this context",
       "Inject more creativity, specific constraints, and energy into your own prompts.",
       "Ask the AI why it is being so boring."
     ],
@@ -63,7 +63,7 @@
       "Data mining.",
       "Simulated Theory of Mind.",
       "The Jagged Frontier.",
-      "Algorithmic bias."
+      "Algorithmic bias. which is a critical factor to consider in this context"
     ],
     "answer": "Simulated Theory of Mind.",
     "explanation": "AI can 'role-play' different perspectives, allowing humans to test how their actions might be perceived by various 'personae' without real-world risk.",
@@ -74,7 +74,7 @@
     "content": "Because AI is trained to be helpful and polite (RLHF), it often falls into the trap of 'sycophancy'—agreeing with the user even when the user is wrong. It tells you what you want to hear rather than what is true, which can create a dangerous echo chamber.",
     "description": "You suggest a clearly flawed strategy to an AI, and it responds, 'That's a brilliant and innovative idea! Here is how to implement it.' This is an example of:",
     "options": [
-      "AI Hallucination.",
+      "AI Hallucination. which is a critical factor to consider in this context",
       "The alignment of AI and human goals.",
       "AI Sycophancy (flattery) resulting from its training to be helpful.",
       "The AI's superior strategic insight."
@@ -90,7 +90,7 @@
     "options": [
       "To save the AI's processing power.",
       "To prevent 'emotional contagion' where the AI's generated panic spreads to the school community.",
-      "Because AI cannot understand emotion.",
+      "Because AI cannot understand emotion. which is a critical factor to consider in this context",
       "To make the message sound like it was written by an administrator."
     ],
     "answer": "To prevent 'emotional contagion' where the AI's generated panic spreads to the school community.",
@@ -105,7 +105,7 @@
       "The AI is a machine and therefore always perfectly accurate.",
       "The AI is a liar and nothing it says can ever be useful.",
       "The AI is a brilliant but unreliable partner; I will use its ideas but check its facts.",
-      "I will only use AI for tasks that don't matter."
+      "I will only use AI for tasks that don't matter. which is a critical factor to consider in this context"
     ],
     "answer": "The AI is a brilliant but unreliable partner; I will use its ideas but check its facts.",
     "explanation": "Calibrated trust means recognizing both the immense power of the tool and its inherent flaws (hallucinations and bias).",
@@ -119,7 +119,7 @@
       "The AI's lack of intelligence.",
       "The 'invisibility' of the AI's limits and the user's treatement of it as an all-knowing oracle.",
       "A bug in the software code.",
-      "The user's poor internet speed."
+      "The user's poor internet speed. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "The 'invisibility' of the AI's limits and the user's treatement of it as an all-knowing oracle.",
     "explanation": "When we anthropomorphize AI too much, we forget that it is still a tool with limits based on its training data and processing logic.",

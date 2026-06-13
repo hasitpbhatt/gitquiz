@@ -7,7 +7,7 @@
       "The smartest model is actually less reliable in medical contexts because it was trained on general internet data rather than medical data.",
       "Choosing the centralized model creates vendor lock-in and data dependency; Naval warns the 'smartest' model requires surrendering privacy, creating unacceptable long-term risk for a hospital.",
       "The open-source model is actually smarter but the CEO does not know how to evaluate model benchmarks correctly.",
-      "The difference in diagnostic accuracy is negligible, so the decision does not matter strategically."
+      "The difference in diagnostic accuracy is negligible, so the decision does not matter strategically. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Choosing the centralized model creates vendor lock-in and data dependency; Naval warns the 'smartest' model requires surrendering privacy, creating unacceptable long-term risk for a hospital.",
     "explanation": "Naval frames the monopoly-commodity debate as a strategic bet. The centralized lab's model is the smartest today, but if open source catches up (as Naval suspects it will), early adopters of closed models face switching costs, data leakage, and loss of sovereignty. For a hospital handling sensitive patient data, the '80% capable + full privacy' trade-off may be the wiser long-term move—especially since commoditization tends to narrow capability gaps over time.",
@@ -32,7 +32,7 @@
     "content": "A true world model is not just a 3D simulation or a realistic video. It is an 'agent' with an internal model of the world that can predict the consequences of its actions and adjust its behavior based on a reinforcement learning loop. It understands cause and effect.",
     "description": "Why does Naval dismiss the idea that generating a 'world you can wander around in' is a true world model?",
     "options": [
-      "Because the graphics aren't realistic enough yet.",
+      "Because the graphics aren't realistic enough yet. which is a critical factor to consider in this context",
       "Because it lacks an agent that predicts consequences and adjusts via a feedback loop.",
       "Because world models must be built using specialized hardware like Japa.",
       "Because true world models can only be created by humans, not AIs."
@@ -46,7 +46,7 @@
     "content": "Artificial General Intelligence (AGI) refers to AI that can perform any intellectual task a human can. Naval is skeptical of current progress toward AGI because he observes 'jagged intelligence'—AI is brilliant at math or code but fails at multimodal reasoning or having a coherent model of the world.",
     "description": "What specific limitation does Naval point out in current AI that makes him doubt we are at AGI yet?",
     "options": [
-      "AI is too slow at generating text.",
+      "AI is too slow at generating text. which is a critical factor to consider in this context",
       "AI has 'jagged intelligence' and is poor at multimodal reasoning.",
       "AI cannot be accessed by enough people yet.",
       "AI is too expensive for most companies to afford."
@@ -74,7 +74,7 @@
     "content": "As venture capitalists (VCs) shift from funding simple apps to funding 'sci-fi' technologies like drones, rockets, and AI, a talent gap has emerged. There is a high demand for 'sci-fi' engineers and scientists, but they remain in very low supply.",
     "description": "According to the transcript, what is the current situation regarding 'sci-fi' technologies in the VC world?",
     "options": [
-      "VCs are refusing to fund hardware because it's too risky.",
+      "VCs are refusing to fund hardware because it's too risky. which is a critical factor to consider in this context",
       "There is a surplus of sci-fi engineers but no demand for their work.",
       "Sci-fi technologies are in high demand, but the talent to build them is in low supply.",
       "Sci-fi authors are now the most well-paid people in Silicon Valley."
@@ -91,7 +91,7 @@
       "AI has already mastered it, which is why we have AGI.",
       "AI is currently 'pretty bad' at it, which is part of its 'jagged intelligence.'",
       "Multimodal reasoning is a technical distraction that doesn't matter for AI labs.",
-      "Only hardware companies like Nvidia can perform multimodal reasoning."
+      "Only hardware companies like Nvidia can perform multimodal reasoning. which is a critical factor to consider in this context"
     ],
     "answer": "AI is currently 'pretty bad' at it, which is part of its 'jagged intelligence.'",
     "explanation": "Naval explicitly mentions that current AI is poor at multimodal reasoning, which prevents it from having a true world model or achieving AGI.",
@@ -103,7 +103,7 @@
     "description": "Why is the reinforcement learning loop essential for a 'World Model' in Naval’s framework?",
     "options": [
       "It allows the agent to predict consequences and adjust behavior based on what it learned.",
-      "It makes the AI generate images faster.",
+      "It makes the AI generate images faster. which is a critical factor to consider in this context",
       "It reduces the amount of electricity needed to train the model.",
       "It ensures that only the CEO can control the AI's actions."
     ],

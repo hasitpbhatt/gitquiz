@@ -6,7 +6,7 @@
     "options": [
       "The first artist is more talented than the second",
       "The difference is internal versus external locus of control over self-worth",
-      "The second artist does not care about money",
+      "The second artist does not care about money which is a critical factor to consider in this context",
       "The first artist is more likely to succeed commercially"
     ],
     "answer": "The difference is internal versus external locus of control over self-worth",
@@ -20,7 +20,7 @@
     "options": [
       "Inflation anxiety, because his salary loses purchasing power",
       "Social comparison, where his satisfaction depends on how he stacks up against a peer",
-      "Burnout from his current job",
+      "Burnout from his current job which is a critical factor to consider in this context",
       "Market adjustment, because he should be earning more"
     ],
     "answer": "Social comparison, where his satisfaction depends on how he stacks up against a peer",
@@ -35,7 +35,7 @@
       "Impostor syndrome about his musical talent",
       "Status anxiety, where his concern about how others perceive him overrides his genuine preferences",
       "Financial necessity, since corporate jobs pay more",
-      "Burnout from the late-night jazz schedule"
+      "Burnout from the late-night jazz schedule which is a critical factor to consider in this context"
     ],
     "answer": "Status anxiety, where his concern about how others perceive him overrides his genuine preferences",
     "explanation": "Naval emphasizes that freedom from external metrics includes shedding status anxiety—the fear of being seen as unsuccessful. The musician's conflict is not about his actual preferences or financial need, but about the imagined judgment of his peers. Eliminating status anxiety frees him to pursue genuine fulfillment without being held hostage by social expectations.",
@@ -46,7 +46,7 @@
     "content": "Envy is a form of perspective distortion where you compare your entire reality against another person's highlight reel, cherry-picking their desirable traits while ignoring their full life.",
     "description": "A software engineer envies his friend who quit corporate work to become a travel photographer, posting stunning images from exotic locations. The engineer does not see the friend's mounting credit card debt, unstable income, and loneliness from constant travel. What psychological distortion is at play?",
     "options": [
-      "The engineer is experiencing impostor syndrome about his own career",
+      "The engineer is experiencing impostor syndrome about his own career which is a critical factor to consider in this context",
       "The engineer is engaging in selective comparison, idealizing the friend's life while filtering out the negative aspects",
       "The friend's Instagram feed is an accurate representation of his life",
       "The engineer should quit his job immediately to match his friend's lifestyle"
@@ -62,7 +62,7 @@
     "options": [
       "Strategic career management, because the laureate has already secured his legacy",
       "An internal scoreboard, where the laureate measures success by his own curiosity and standards rather than external validation",
-      "Academic isolationism, which is detrimental to scientific progress",
+      "Academic isolationism, which is detrimental to scientific progress which is a critical factor to consider in this context",
       "False humility, since Nobel laureates obviously care about recognition"
     ],
     "answer": "An internal scoreboard, where the laureate measures success by his own curiosity and standards rather than external validation",
@@ -88,7 +88,7 @@
     "content": "Copycat games occur when someone imitates another's strategy without understanding the underlying context, leading to suboptimal outcomes because the conditions that made the original strategy successful may not apply.",
     "description": "A founder sees that a competitor raised $50 million in venture funding and built a massive sales team. She mimics this approach for her own bootstrapped company, taking on debt she cannot service and hiring expensive salespeople before her product is ready. What game theory trap has she fallen into?",
     "options": [
-      "Winner's curse, because she overpaid for resources",
+      "Winner's curse, because she overpaid for resources which is a critical factor to consider in this context",
       "A copycat game, where she imitated a strategy suited for a different resource profile without adapting it",
       "Sunken cost fallacy, because she already invested in hiring",
       "The prisoner's dilemma, because she should have cooperated with the competitor"
@@ -105,7 +105,7 @@
       "Private metrics are easier to fake than public ones",
       "Private metrics align with intrinsic motivation and reduce sensitivity to external volatility and social comparison",
       "Public metrics should always be ignored because they are meaningless",
-      "Private metrics guarantee business success"
+      "Private metrics guarantee business success which is a critical factor to consider in this context"
     ],
     "answer": "Private metrics align with intrinsic motivation and reduce sensitivity to external volatility and social comparison",
     "explanation": "Naval advocates building private metrics because they keep you grounded in what actually matters. Public metrics (revenue, followers, press) fluctuate based on factors outside your control and invite constant comparison. Private metrics tie satisfaction to your own effort, learning, and values—creating an internal scoreboard that no one else can manipulate or judge.",

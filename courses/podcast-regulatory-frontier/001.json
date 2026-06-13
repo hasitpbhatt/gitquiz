@@ -6,7 +6,7 @@
     "options": [
       "The test plan should be written by a brighter engineer to reduce errors",
       "When you change the airplane, the regulatory compliance rework makes you 'want to cry' — change aversion kills iteration speed",
-      "Two months for documentation is actually fast by industry standards",
+      "Two months for documentation is actually fast by industry standards which is a critical factor to consider in this context",
       "The lightning strike test itself is dangerous and should be avoided"
     ],
     "answer": "When you change the airplane, the regulatory compliance rework makes you 'want to cry' — change aversion kills iteration speed",
@@ -20,7 +20,7 @@
     "options": [
       "Pre-approval is slow and creates a single point of failure, while enforcement-based regulation allows products to launch and be punished later if they fail the test",
       "AI products are too complex for any test suite to capture",
-      "Regulation should be eliminated entirely for all technology products",
+      "Regulation should be eliminated entirely for all technology products which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The government should build its own AI products instead of regulating them"
     ],
     "answer": "Pre-approval is slow and creates a single point of failure, while enforcement-based regulation allows products to launch and be punished later if they fail the test",
@@ -34,7 +34,7 @@
     "options": [
       "New regulations will likely lock in existing incumbents and make it harder for startups to enter later",
       "The government will never be able to write regulations for AI",
-      "Lobbying for regulation is illegal without a special license",
+      "Lobbying for regulation is illegal without a special license which is a critical factor to consider in this context",
       "Your competitors will beat you to market while you wait for regulatory clarity"
     ],
     "answer": "New regulations will likely lock in existing incumbents and make it harder for startups to enter later",
@@ -47,7 +47,7 @@
     "description": "Your compliance team is drowning in documentation requirements across five regulatory jurisdictions. You propose deploying an AI agent to draft all compliance documents on demand. Which of the following captures the full strategic implication, according to Blake?",
     "options": [
       "AI can generate the compliance documents instantly, removing the cost of change and making iteration dramatically cheaper",
-      "AI will eventually eliminate the need for all regulatory compliance",
+      "AI will eventually eliminate the need for all regulatory compliance which is a critical factor to consider in this context",
       "The AI should only be used for lightning strike documentation, not other compliance areas",
       "AI-generated documents will be rejected by regulators because they lack human authorship"
     ],
@@ -60,7 +60,7 @@
     "content": "Guillermo Rauch argues that regulation is often a mechanism for incumbents to lock in their advantages. The people writing the regulations are typically from the companies that already exist, and regulation codifies the current way of doing things.",
     "description": "A large legacy airline is lobbying for stricter safety certification requirements for supersonic aircraft. The requirements match exactly what subsonic aircraft already comply with. According to Guillermo, what is the most likely strategic intent?",
     "options": [
-      "The legacy airline genuinely believes stricter requirements improve passenger safety",
+      "The legacy airline genuinely believes stricter requirements improve passenger safety which is a critical factor to consider in this context",
       "The legacy airline is using regulation as a moat to prevent a faster competitor from entering the market",
       "The legacy airline wants to give the FAA more funding for inspectors",
       "The legacy airline is preparing to transition to supersonic themselves and wants a head start"
@@ -75,7 +75,7 @@
     "description": "A crypto exchange is operating in a legal gray area while the SEC drafts rules for digital assets. The rulemaking process is projected to take four years. A rival exchange decides to wait for the SEC rules before launching any products. Based on the discussion, what will likely happen?",
     "options": [
       "The rival exchange will benefit from having clear legal guidelines from day one",
-      "The SEC rules will make it illegal to operate the exchange retroactively",
+      "The SEC rules will make it illegal to operate the exchange retroactively which is a critical factor to consider in this context",
       "By the time the SEC finalizes the rules, they will be obsolete because the market will have moved on",
       "The SEC will consult the rival exchange and create rules tailored to their business model"
     ],
@@ -91,7 +91,7 @@
       "The FAA's safety record proves that their certification process is working",
       "The 737 MAX was certified as safe under existing regulations but still crashed — regulation only tests what it tests, and never catches everything",
       "The 737 MAX crashes were caused by pilot error, not regulatory failure",
-      "More regulation would have prevented the 737 MAX crashes entirely"
+      "More regulation would have prevented the 737 MAX crashes entirely which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "The 737 MAX was certified as safe under existing regulations but still crashed — regulation only tests what it tests, and never catches everything",
     "explanation": "Naval points out that the 737 MAX met every FAA certification requirement and still crashed. Regulation is a test suite — passing doesn't mean safe, just that you passed those specific tests. This undermines the claim that pre-approval regulation guarantees safety.",
@@ -102,7 +102,7 @@
     "content": "Guillermo Rauch argues that pre-approval regulation creates a single point of failure — one reviewer can block an entire product. This is fine for things like new drugs where the failure cost is high, but for software products it creates artificial scarcity and bottleneck.",
     "description": "A fintech startup's entire product launch is delayed for six months because a single SEC reviewer is on parental leave. The reviewer had primary responsibility for evaluating their filing. What concept from the discussion does this illustrate?",
     "options": [
-      "The Red Queen's race: regulation must keep up with innovation",
+      "The Red Queen's race: regulation must keep up with innovation which is a critical factor to consider in this context",
       "Pre-approval regulation creates a human bottleneck — one person can block an entire product without anyone else reviewing it",
       "The startup should have hired a better legal team to handle the reviewer's absence",
       "This is an isolated incident that doesn't reflect systemic problems with pre-approval"

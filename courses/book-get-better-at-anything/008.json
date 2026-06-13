@@ -7,7 +7,7 @@
       "Only practice and repetition",
       "See, Do, and Feedback working together for comprehensive skill development",
       "Just watching and listening without any action",
-      "Only feedback and correction"
+      "Only feedback and correction which is a critical factor to consider in this context"
     ],
     "answer": "See, Do, and Feedback working together for comprehensive skill development",
     "explanation": "The player sees correct form (See), practices the swing (Do), and receives error correction (Feedback). All three ingredients are necessary for optimal learning.",
@@ -18,7 +18,7 @@
     "content": "Mastering complex skills often requires applying several learning principles simultaneously rather than relying on any single approach.",
     "description": "You want to learn to play jazz piano. You listen to jazz greats, practice scales with variations, record yourself, and perform with a band. This applies:",
     "options": [
-      "Only the principle of Variability Over Repetition",
+      "Only the principle of Variability Over Repetition which is a critical factor to consider in this context",
       "Multiple principles: Copying, Variability, Feedback, and Practice Must Meet Reality working together",
       "Only the principle of Practice Must Meet Reality",
       "Only the principle of Creativity Begins with Copying"
@@ -32,7 +32,7 @@
     "content": "When learning stalls, identifying which ingredient is missing can help you adjust your approach and resume progress.",
     "description": "You have been practicing coding challenges for months but see no improvement. You never look at example solutions or get code reviews. The missing ingredient is:",
     "options": [
-      "You are not practicing enough hours",
+      "You are not practicing enough hours which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "You lack the See and Feedback ingredients: you are not learning from examples or getting error correction",
       "You chose the wrong programming language to learn",
       "You have reached your natural talent limit"
@@ -46,7 +46,7 @@
     "content": "Optimal challenge levels vary by individual and change as skills develop. Regular adjustment keeps learning efficient.",
     "description": "A beginner weightlifter uses the same weight for 6 months and stops gaining strength. What principle is being violated?",
     "options": [
-      "Quality Comes from Quantity: they need more reps",
+      "Quality Comes from Quantity: they need more reps which is a critical factor to consider in this context",
       "Difficulty Has a Sweet Spot: they are no longer challenged, so no further adaptation occurs",
       "The Mind is Not a Muscle: weightlifting is not mental work",
       "Improvement is Not a Straight Line: they are in a dip"
@@ -63,7 +63,7 @@
       "Younger people are naturally more creative",
       "Experience Does Not Reliably Ensure Expertise combined with insufficient feedback and variety in practice",
       "Architecture has become easier over time",
-      "Innovation and experience are mutually exclusive"
+      "Innovation and experience are mutually exclusive which is a critical factor to consider in this context"
     ],
     "answer": "Experience Does Not Reliably Ensure Expertise combined with insufficient feedback and variety in practice",
     "explanation": "Without seeking feedback and varying approaches, decades of experience can be one year repeated thirty times. Innovation requires exposure to new ideas and critical feedback.",
@@ -77,7 +77,7 @@
       "Read more Spanish books to build vocabulary",
       "Your practice does not meet reality: you need conversational practice with native speakers to develop speaking skills",
       "You have reached your language learning limit",
-      "Spanish is harder than other languages"
+      "Spanish is harder than other languages which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Your practice does not meet reality: you need conversational practice with native speakers to develop speaking skills",
     "explanation": "Reading practice does not transfer to speaking skills because the conditions are different. Your practice must match the real performance context for the skill to transfer.",
@@ -91,7 +91,7 @@
       "Read a textbook, take notes, and review them weekly",
       "Watch expert demonstrations, practice with gradually increasing difficulty, get feedback, and practice in realistic conditions",
       "Practice every day for at least one hour without fail",
-      "Take an online course with multiple-choice quizzes"
+      "Take an online course with multiple-choice quizzes which is a critical factor to consider in this context"
     ],
     "answer": "Watch expert demonstrations, practice with gradually increasing difficulty, get feedback, and practice in realistic conditions",
     "explanation": "A complete system integrates See (demonstrations), Do (practice with proper difficulty), Feedback (error correction), and Reality (realistic conditions). Each element serves a distinct purpose.",
@@ -102,7 +102,7 @@
     "content": "Imitation as a learning strategy applies across fields. Understanding what to copy and when to innovate is a key skill.",
     "description": "A junior architect wants to develop their design skills. How should they combine Creativity Begins with Copying with other principles?",
     "options": [
-      "Copy famous buildings without modification",
+      "Copy famous buildings without modification which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Study great buildings, practice designing variations, get feedback from senior architects, and work on real projects",
       "Avoid studying others work to focus on originality",
       "Only work on theoretical designs without real constraints"
@@ -119,7 +119,7 @@
       "Success is the Best Teacher and Fears Fade with Exposure: start with achievable projects to build confidence and increase exposure gradually",
       "The Mind is Not a Muscle and Variability Over Repetition",
       "Experience and expertise are the only paths to confidence",
-      "Practice Must Meet Reality and Quality Comes from Quantity"
+      "Practice Must Meet Reality and Quality Comes from Quantity which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Success is the Best Teacher and Fears Fade with Exposure: start with achievable projects to build confidence and increase exposure gradually",
     "explanation": "Fear of looking stupid reduces with exposure to manageable situations. Meanwhile, small successes build self-efficacy, creating a positive cycle of confidence and motivation.",
@@ -130,7 +130,7 @@
     "content": "Expert performers integrate all twelve maxims into their learning approach, adjusting which principles to emphasize based on their current stage and goals.",
     "description": "An expert violin teacher designs a curriculum that includes listening to recordings, practicing scales with variations, performing in recitals, and recording for self-review. This demonstrates:",
     "options": [
-      "Only the importance of Variability Over Repetition",
+      "Only the importance of Variability Over Repetition which is a critical factor to consider in this context",
       "Integrated application of Copying, Variability, Meeting Reality, and Feedback working together as a system",
       "That talent alone determines who becomes a great musician",
       "Only the importance of Practice Must Meet Reality"
@@ -146,7 +146,7 @@
     "options": [
       "Learning is about natural talent and finding what you are good at",
       "Getting better at anything requires understanding the principles of seeing, doing, and feedback, and applying them persistently through ups and downs",
-      "Only certain people can master difficult skills",
+      "Only certain people can master difficult skills which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The best way to learn is to find a great teacher and follow their instructions exactly"
     ],
     "answer": "Getting better at anything requires understanding the principles of seeing, doing, and feedback, and applying them persistently through ups and downs",

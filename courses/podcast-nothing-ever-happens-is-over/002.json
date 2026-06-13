@@ -7,7 +7,7 @@
       "The explicit approach adds overhead and creates a centralized bottleneck; it is justified only when AI is the core product, not just a support tool.",
       "The explicit approach is always better because it signals to investors that the company is 'AI-first'; the VP just fears losing power.",
       "The implicit approach is always superior; Naval would say explicit AI is never justified because it creates too much bureaucracy.",
-      "Both approaches are identical in outcome; the real question is whether the CEO or VP has more political influence."
+      "Both approaches are identical in outcome; the real question is whether the CEO or VP has more political influence. which is a critical factor to consider in this context"
     ],
     "answer": "The explicit approach adds overhead and creates a centralized bottleneck; it is justified only when AI is the core product, not just a support tool.",
     "explanation": "Naval distinguishes implicit AI (tools teams adopt naturally, like AI code summarization or data analysis) from explicit AI (restructuring the org around AI). He suggests explicit restructuring risks recreating the very hierarchies and bottlenecks that small, fast teams avoid. The condition for going explicit: when AI is your product, not just a productivity multiplier. For a logistics company, implicit AI is lower-risk and preserves the agility that Naval values.",
@@ -35,7 +35,7 @@
       "It makes the software people obsolete so only hardware people are needed.",
       "It allows hardware people to write their own software harnesses for testing without waiting.",
       "It prevents software and hardware teams from talking to each other at all.",
-      "It ensures that all hardware is now manufactured entirely by AI agents."
+      "It ensures that all hardware is now manufactured entirely by AI agents. which is a critical factor to consider in this context"
     ],
     "answer": "It allows hardware people to write their own software harnesses for testing without waiting.",
     "explanation": "AI acts as a force multiplier, enabling team members to do 'a little bit of everything' and test their own work without being blocked by cross-functional dependencies.",
@@ -49,7 +49,7 @@
       "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
       "The manager would use a crystal ball; the AI would ask the employees to work 24/7.",
       "The manager would fire the slowest division; the AI would hire more people automatically.",
-      "There is no difference; both rely on employees lying about their progress."
+      "There is no difference; both rely on employees lying about their progress. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
     "explanation": "Naval suggests that AI can analyze the email flow, code, and estimates to create its own Gantt chart and tell you who is ahead or behind, bypassing manual status reports.",
@@ -62,7 +62,7 @@
     "options": [
       "It forces every employee to wear a badge listing their skills.",
       "It scans the codebase and documents to guide you to the person likely to be an expert.",
-      "It randomly assigns a person to answer your questions.",
+      "It randomly assigns a person to answer your questions. which is a critical factor to consider in this context",
       "It makes the CEO answer every question so nobody else has to."
     ],
     "answer": "It scans the codebase and documents to guide you to the person likely to be an expert.",
@@ -74,7 +74,7 @@
     "content": "Naval mentions 'vibe coding'—a term for using AI to generate code via natural language and intuition rather than manual syntax. This democratizes technical power, as the number of people who can build software becomes hundreds of times greater than before.",
     "description": "What is the primary consequence of 'vibe coding' being democratized according to Naval?",
     "options": [
-      "The price of computers will drop significantly.",
+      "The price of computers will drop significantly. which is a critical factor to consider in this context",
       "The number of people who can build and build and build increases exponentially.",
       "Professional coders will stop working and become AI researchers.",
       "People will no longer need to know how to read or write."
@@ -91,7 +91,7 @@
       "It requires everyone to use the exact same coding style.",
       "It can discover an API or create its own connection directly into the database.",
       "It deletes any code that doesn't have a manual API.",
-      "It forces developers to meet daily to agree on interfaces."
+      "It forces developers to meet daily to agree on interfaces. which is a critical factor to consider in this context"
     ],
     "answer": "It can discover an API or create its own connection directly into the database.",
     "explanation": "Naval explains that AI can 'discover an API' or connect directly at whatever level it needs, removing the bottleneck of waiting for someone to write a custom interface.",
@@ -102,7 +102,7 @@
     "content": "Managing vendors and suppliers often involves digging through folders of messy contracts and documents. By 'unleashing' AI on these folders, a company can quickly answer questions about where their hardware stands or what their current contractual obligations are.",
     "description": "What is a specific example Naval gives for using AI in hardware operations?",
     "options": [
-      "AI can design a factory in seconds.",
+      "AI can design a factory in seconds. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?'",
       "AI can replace the need for physical hardware entirely.",
       "AI can negotiate lower prices by threatening to quit."

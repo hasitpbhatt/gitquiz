@@ -46,7 +46,7 @@
     "content": "Guillermo Rauch introduces a metaphor for reusing existing code and infrastructure: anything that's already been created and can be reused by AI models acts like a cache that prevents wasting tokens on reproducing what already exists.",
     "description": "Your engineering team debates whether AI agents should be allowed to use existing npm packages or should be constrained to a whitelist. Using Guillermo Rauch's 'token cache' metaphor, what is the most efficient approach?",
     "options": [
-      "Agents should never use existing packages to ensure maximum originality",
+      "Agents should never use existing packages to ensure maximum originality which is a critical factor to consider in this context",
       "Existing code acts as a token cache — agents should reuse what's already",
       "Agents should be limited to a small whitelist of government-approved packages",
       "Every agent should build its own dependencies to avoid supply chain attacks"

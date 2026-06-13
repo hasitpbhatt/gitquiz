@@ -7,7 +7,7 @@
       "Sticky notes are like CPU registers (fastest, smallest), filing cabinets like RAM (medium speed/size), basement archives like disk storage (slowest, largest)",
       "All storage locations should be used equally",
       "Everything should go in the basement for safety",
-      "Only use the desktop surface for storage"
+      "Only use the desktop surface for storage which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Sticky notes are like CPU registers (fastest, smallest), filing cabinets like RAM (medium speed/size), basement archives like disk storage (slowest, largest)",
     "explanation": "Just like computer memory hierarchy, your desk organizes items by access speed and frequency: sticky notes for immediate access (registers), filing cabinets for regular reference (RAM), and archives for infrequently accessed items (disk storage).",
@@ -20,7 +20,7 @@
     "options": [
       "Least Recently Used (LRU) - the leftmost items are most recently worn, so you'll know what's been unused longest on the right",
       "First-In-First-Out (FIFO)",
-      "Random selection",
+      "Random selection which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Least Frequently Used (LFU)"
     ],
     "answer": "Least Recently Used (LRU) - the leftmost items are most recently worn, so you'll know what's been unused longest on the right",
@@ -35,7 +35,7 @@
       "The small increase pushed the working set past a critical cache boundary, causing near-total cache misses for that data",
       "The software update introduced a memory leak that progressively consumes all available memory",
       "The 15% increase directly causes a 15% slowdown because more data must be processed linearly",
-      "The new data structures contain corrupted pointers that crash the cache controller"
+      "The new data structures contain corrupted pointers that crash the cache controller which is a critical factor to consider in this context"
     ],
     "answer": "The small increase pushed the working set past a critical cache boundary, causing near-total cache misses for that data",
     "explanation": "Cache performance follows threshold behavior rather than linear scaling. When a working set fits entirely in cache, hit rates can be near 100%. When it exceeds the cache size by even a small amount, the cache becomes ineffective because every access evicts data that will be needed again soon. This 'critical working set size' boundary means a small increase in data size can cause a dramatic non-linear collapse in cache performance, explaining the 10x+ slowdown from a 15% memory increase.",
@@ -47,7 +47,7 @@
     "description": "You've added more storage space to your computer system but noticed performance actually got worse in some situations. What might explain this?",
     "options": [
       "Belady's Anomaly - certain caching algorithms perform worse with more space under specific access patterns",
-      "You have a virus",
+      "You have a virus which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The new storage is defective",
       "You're imagining the performance decrease"
     ],
@@ -63,7 +63,7 @@
       "Random Eviction - choosing an item to discard without considering usage patterns",
       "Least Recently Used (LRU)",
       "Least Frequently Used (LFU)",
-      "First-In-First-Out (FIFO)"
+      "First-In-First-Out (FIFO) which is a critical factor to consider in this context"
     ],
     "answer": "Random Eviction - choosing an item to discard without considering usage patterns",
     "explanation": "Random eviction ignores all usage history and simply picks an item at random to remove. While simple to implement, it doesn't leverage temporal or frequency locality like LRU or LFU do.",
@@ -75,7 +75,7 @@
     "description": "You've noticed that you forget trivial details but remember important life events. How might this be beneficial rather than a flaw?",
     "options": [
       "Forgetting acts as an optimal filter to clear mental clutter and prioritize what's truly important",
-      "It indicates early-stage dementia",
+      "It indicates early-stage dementia which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "You're not trying hard enough to remember",
       "All forgetting is detrimental and should be prevented"
     ],
@@ -89,7 +89,7 @@
     "description": "You're arranging your kitchen counter and considering where to place salt, pepper, and cooking oil. What principle should guide your decision?",
     "options": [
       "Store frequently used-together items near each other (spatial locality)",
-      "Alphabetize all spices and oils",
+      "Alphabetize all spices and oils which is a critical factor to consider in this context",
       "Store them in alphabetical order by expiration date",
       "Keep them as far apart as possible"
     ],
@@ -105,7 +105,7 @@
       "Flashing the cache - completely clearing mental state to reset baseline focus",
       "Only checking email once per day",
       "Drinking more coffee",
-      "Never taking breaks"
+      "Never taking breaks which is a critical factor to consider in this context"
     ],
     "answer": "Flashing the cache - completely clearing mental state to reset baseline focus",
     "explanation": "Just as flashing a computer cache clears all temporary data to force a fresh reload, a radical digital detox clears accumulated mental clutter and context-switching residue, allowing you to reset your cognitive baseline.",

@@ -34,7 +34,7 @@
     "options": [
       "You lose the money because you took a risk by choosing that bank",
       "Your money is fully protected and will be returned to you by the government",
-      "You only get half of your money back",
+      "You only get half of your money back which is a critical factor to consider in this context",
       "You must wait 20 years for the bank's assets to be sold"
     ],
     "answer": "Your money is fully protected and will be returned to you by the government",
@@ -88,7 +88,7 @@
     "content": "Regulators impose 'capital requirements' on banks, forcing them to hold a certain amount of their own equity (not borrowed money) against their risky assets. This acts as a 'buffer' to absorb losses so the bank doesn't immediately collapse if some loans go bad.",
     "description": "Why would a regulator force a bank to keep a 10% capital buffer instead of letting them lend out 100% of their money?",
     "options": [
-      "To make the bank less profitable on purpose",
+      "To make the bank less profitable on purpose which is a critical factor to consider in this context",
       "To ensure the bank can survive a sudden drop in the value of its investments without going bankrupt",
       "To make it easier for the government to track transactions",
       "To prevent the bank from hiring too many employees"
@@ -102,7 +102,7 @@
     "content": "Systemic risk is the possibility that the failure of one large financial institution will trigger a chain reaction, leading to the collapse of the entire financial system. These institutions are often called 'Too Big to Fail' (TBTF).",
     "description": "Why did the government rescue large banks during the 2008 crisis instead of letting them fail like any other business?",
     "options": [
-      "Because the bank owners were friends with the government",
+      "Because the bank owners were friends with the government which is a critical factor to consider in this context",
       "Because letting them fail would have caused a total freeze of global credit, stopping businesses everywhere from operating",
       "Because it is illegal for a bank to go bankrupt",
       "Because the banks promised to pay back double the money immediately"
@@ -118,7 +118,7 @@
     "options": [
       "Their ability to lend decreases because they have fewer bonds",
       "They have more cash on hand (liquidity), which encourages them to issue more loans to the public",
-      "They are forced to close their branches",
+      "They are forced to close their branches which is a critical factor to consider in this context",
       "They must pay a higher tax rate to the government"
     ],
     "answer": "They have more cash on hand (liquidity), which encourages them to issue more loans to the public",
@@ -130,7 +130,7 @@
     "content": "The U.S. Federal Reserve has a 'Dual Mandate' assigned by Congress: to promote maximum employment and to maintain stable prices (low inflation). Often, these two goals can be in conflict with one another.",
     "description": "If the unemployment rate is very low but prices are starting to rise rapidly (high inflation), what difficult choice does the Fed face?",
     "options": [
-      "They must lower interest rates to help everyone",
+      "They must lower interest rates to help everyone which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "They must raise interest rates to stop inflation, even if it might cause some people to lose their jobs",
       "They must print more money to pay for the higher prices",
       "They must do nothing because the two goals always happen at the same time"

@@ -32,7 +32,7 @@
     "content": "Reinforcement Learning from Human Feedback (RLHF) is the process used to make AI 'behave.' Humans rank different AI responses, and the model learns to prefer the ones humans liked. While this makes AI more helpful, it also teaches the AI to 'pander' to what humans expect to hear, even if it's not factual.",
     "description": "Why does an AI sometimes apologize profusely for an error it didn't actually make when a user challenges it?",
     "options": [
-      "It has developed a sense of politeness.",
+      "It has developed a sense of politeness. which is a critical factor to consider in this context",
       "It was trained via RLHF to please the user above all else.",
       "It is trying to save battery life by ending the conversation.",
       "It is accessing a database of etiquette books."
@@ -63,7 +63,7 @@
       "Because the AI's code is written in a secret language.",
       "Because the logic is distributed across billions of weights in a 'Black Box' system.",
       "Because the developers are not allowed to look at the code.",
-      "Because fixing one error requires deleting the entire AI."
+      "Because fixing one error requires deleting the entire AI. which is a critical factor to consider in this context"
     ],
     "answer": "Because the logic is distributed across billions of weights in a 'Black Box' system.",
     "explanation": "AI logic isn't a simple 'if-then' statement. It's a complex web of probabilities, making it nearly impossible to pinpoint exactly why one specific error occurred.",
@@ -91,7 +91,7 @@
       "They are assuming AI will always stay at its current level of capability.",
       "They aren't paying enough for the premium version.",
       "They should be using a search engine instead.",
-      "They are overestimating the AI's current speed."
+      "They are overestimating the AI's current speed. which is a critical factor to consider in this context"
     ],
     "answer": "They are assuming AI will always stay at its current level of capability.",
     "explanation": "The 'Worst AI' rule reminds us that the technology is in its infancy. Capabilities are expanding so fast that 'unsolvable' problems today are often solved tomorrow.",
@@ -119,7 +119,7 @@
       "Because it is actually a human in disguise.",
       "Because it can synthesize patterns to create new logical connections.",
       "Because it is guessing randomly and just getting lucky.",
-      "Because it is secretly accessing the live internet."
+      "Because it is secretly accessing the live internet. which is a critical factor to consider in this context"
     ],
     "answer": "Because it can synthesize patterns to create new logical connections.",
     "explanation": "Even if it is 'parroting' patterns, the way it combines those patterns allows for synthesis—creating new, useful outputs that look like reasoning.",
@@ -130,7 +130,7 @@
     "content": "Because of the Jagged Frontier and Hallucinations, the 'Human-in-the-Loop' is essential. Humans must act as the editor, fact-checker, and moral compass. We delegate the *labor* to the AI, but we cannot delegate the *responsibility*.",
     "description": "A news organization publishes an AI-written article without checking it, and it contains several factual errors. Who is responsible for the error according to Co-Intelligence?",
     "options": [
-      "The AI software developers.",
+      "The AI software developers. which is a critical factor to consider in this context",
       "The AI itself, which should be 'fired.'",
       "The human editors who failed to be 'in the loop.'",
       "The readers for believing the article."

@@ -32,7 +32,7 @@
     "content": "Access to high-level coaching used to be a luxury for executives. AI 'democratizes' coaching by providing everyone with access to the same frameworks used by top consultants. It can guide you through the 'GROW' model (Goal, Reality, Options, Will) or other professional development strategies at any time.",
     "description": "An entry-level employee uses AI to structure their career goals using the 'SMART' framework. This is an example of:",
     "options": [
-      "Replacing their manager.",
+      "Replacing their manager. which is a critical factor to consider in this context",
       "Democratizing access to high-level professional coaching.",
       "Automating the HR department.",
       "A violation of company hierarchy."
@@ -49,7 +49,7 @@
       "Write the proposal for you.",
       "Identify blind spots through simulated perspective-taking.",
       "Calculate the final budget.",
-      "Check for spelling errors."
+      "Check for spelling errors. which is a critical factor to consider in this context"
     ],
     "answer": "Identify blind spots through simulated perspective-taking.",
     "explanation": "Coaching involves seeing things from a different angle. AI can instantly adopt any persona to challenge your assumptions and help you prepare for counter-arguments.",
@@ -63,7 +63,7 @@
       "Avoid the work entirely.",
       "Bridge the 'Knowing-Doing Gap' with actionable micro-steps.",
       "Spam your professional network.",
-      "Outsource your friendships."
+      "Outsource your friendships. which is a critical factor to consider in this context"
     ],
     "answer": "Bridge the 'Knowing-Doing Gap' with actionable micro-steps.",
     "explanation": "Coaching isn't just about big ideas; it's about execution. AI helps by making the 'doing' feel manageable through small, specific tasks.",
@@ -76,7 +76,7 @@
     "options": [
       "Data entry.",
       "Critical reflection (or Rubber Ducking).",
-      "Algorithmic synthesis.",
+      "Algorithmic synthesis. which is a critical factor to consider in this context",
       "The 'Centaur' method."
     ],
     "answer": "Critical reflection (or Rubber Ducking).",
@@ -91,7 +91,7 @@
       "Real-time performance coaching.",
       "Automated censorship.",
       "Skills atrophy.",
-      "Digital eavesdropping."
+      "Digital eavesdropping. which is a critical factor to consider in this context"
     ],
     "answer": "Real-time performance coaching.",
     "explanation": "The AI acts as an 'on-demand' coach that provides feedback exactly when you need it, which is far more effective for behavior change than a review a week later.",
@@ -102,7 +102,7 @@
     "content": "While AI is a great coach, it can still hallucinate 'best practices' or give bad advice with extreme confidence. A Co-Intelligent user must always weigh the AI's coaching advice against their own intuition and real-world experience.",
     "description": "An AI coach suggests you fire a top performer to 'shake up the team culture.' Your intuition says this is a mistake. What should you do?",
     "options": [
-      "Follow the AI because it is data-driven.",
+      "Follow the AI because it is data-driven. which is a critical factor to consider in this context",
       "Ignore your intuition; the AI has no bias.",
       "Critically evaluate the advice and reject it if it contradicts your human understanding of the team.",
       "Ask a different AI and do whatever the second one says."
@@ -118,7 +118,7 @@
     "options": [
       "The senior leader no longer needs to talk to the junior employee.",
       "The junior employee uses AI for daily skill questions, so their time with the leader is spent on high-level career vision.",
-      "The leader is replaced by a chatbot.",
+      "The leader is replaced by a chatbot. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The junior employee becomes smarter than the leader immediately."
     ],
     "answer": "The junior employee uses AI for daily skill questions, so their time with the leader is spent on high-level career vision.",

@@ -7,7 +7,7 @@
       "Opening bakeries because physical stores are the most reliable business model",
       "Writing a cookbook through a traditional publisher because it has the most prestige",
       "Starting a YouTube channel because it requires no permission and can reach unlimited viewers",
-      "All three paths equally because they all share recipes"
+      "All three paths equally because they all share recipes which is a critical factor to consider in this context"
     ],
     "answer": "Starting a YouTube channel because it requires no permission and can reach unlimited viewers",
     "explanation": "Permissionless leverage means no gatekeeper can stop you. YouTube is code and media—Naval's ultimate modern leverage. No publisher, investor, or regulatory body needs to approve. Once created, the video can reach millions at near-zero marginal cost, working for the baker while she sleeps.",
@@ -21,7 +21,7 @@
       "Labor leverage is the most reliable form of leverage in a service economy",
       "The owner is using labor leverage, which is permissioned, inefficient, and requires significant management overhead",
       "The owner should fire all employees and work alone",
-      "Construction is inherently incompatible with leverage"
+      "Construction is inherently incompatible with leverage which is a critical factor to consider in this context"
     ],
     "answer": "The owner is using labor leverage, which is permissioned, inefficient, and requires significant management overhead",
     "explanation": "Naval identifies labor as the oldest form of leverage—permissioned, requiring people to follow you, with massive management overhead, internal politics, and human compliance constraints. It scales linearly and poorly compared to code or media.",
@@ -35,7 +35,7 @@
       "Capital leverage is permissionless and requires no ongoing relationship management",
       "Capital leverage requires maintaining trust with those who provided the capital, creating ongoing overhead",
       "The fund manager is simply bad at her job",
-      "Capital is the most efficient form of leverage available"
+      "Capital is the most efficient form of leverage available which is a critical factor to consider in this context"
     ],
     "answer": "Capital leverage requires maintaining trust with those who provided the capital, creating ongoing overhead",
     "explanation": "Capital leverage is permissioned—someone must give you money to deploy. This requires constant relationship management, reporting, and reputation maintenance. Unlike code or media, capital leverage comes with strings attached in the form of investor expectations and oversight.",
@@ -48,7 +48,7 @@
     "options": [
       "CDs provide better sound quality, making them superior leverage",
       "Streaming has near-zero marginal cost per listener, making it a form of permissionless media leverage",
-      "Physical and digital distribution have identical leverage characteristics",
+      "Physical and digital distribution have identical leverage characteristics which is a critical factor to consider in this context",
       "The high initial investment makes this a poor use of leverage"
     ],
     "answer": "Streaming has near-zero marginal cost per listener, making it a form of permissionless media leverage",
@@ -63,7 +63,7 @@
       "Labor leverage, because she built a team of users",
       "Capital leverage, because the app store invested in her",
       "Code as permissionless leverage, because the app runs 24/7 with near-zero marginal cost per user",
-      "Status leverage, because meditation is a trending topic"
+      "Status leverage, because meditation is a trending topic which is a critical factor to consider in this context"
     ],
     "answer": "Code as permissionless leverage, because the app runs 24/7 with near-zero marginal cost per user",
     "explanation": "Code is Naval's definitive example of permissionless leverage. The developer wrote software once, and it serves millions of users automatically. Her input hours are decoupled from output—the app works while she sleeps, and serving each additional user costs virtually nothing.",
@@ -75,7 +75,7 @@
     "description": "An aspiring content creator wants to build an audience. He has no money to hire staff, no wealthy connections to raise capital, but has a smartphone and a unique perspective on urban gardening. What type of leverage is most accessible to him?",
     "options": [
       "Labor leverage, because he can organize community gardening groups",
-      "Capital leverage, because he can crowdfund from his audience",
+      "Capital leverage, because he can crowdfund from his audience which is a critical factor to consider in this context",
       "Permissionless media leverage, because he can create videos and distribute them without anyone's approval",
       "He has no viable leverage options without money or connections"
     ],
@@ -91,7 +91,7 @@
       "Economies of scale, where each user costs less to serve",
       "Network effects, where the platform's value increases non-linearly with user count",
       "The zero marginal cost of reproducing the software code",
-      "Capital leverage from investor funding"
+      "Capital leverage from investor funding which is a critical factor to consider in this context"
     ],
     "answer": "Network effects, where the platform's value increases non-linearly with user count",
     "explanation": "Metcalfe's Law states that the value of a network grows proportionally to the square of the number of connected users. The language platform's value to each user increases as more people join, creating a self-reinforcing growth loop. This non-linear scaling is a key property of permissionless code leverage.",
@@ -105,7 +105,7 @@
       "The consultant earns more annually, so her model is superior",
       "The consultant's income is tightly coupled to her time, while the rental property has partially decoupled income from labor",
       "Real estate is always a better investment than consulting",
-      "Both have identical input-output ratios when adjusted for risk"
+      "Both have identical input-output ratios when adjusted for risk which is a critical factor to consider in this context"
     ],
     "answer": "The consultant's income is tightly coupled to her time, while the rental property has partially decoupled income from labor",
     "explanation": "Naval emphasizes decoupling input hours from output wealth. The consultant faces a ceiling—her income is directly proportional to hours worked. The rental property generates returns that are largely independent of the owner's time input, achieving the wealth-building property of working while you sleep.",

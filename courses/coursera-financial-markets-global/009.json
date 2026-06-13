@@ -4,7 +4,7 @@
     "content": "An exchange rate is the price of one currency in terms of another. These rates are determined by the supply and demand for currencies in the foreign exchange (Forex) market, influenced by trade, investment flows, and interest rate differences between countries.",
     "description": "If the U.S. dollar becomes 'stronger' compared to the Euro, what is the most likely immediate effect for an American tourist traveling to Paris?",
     "options": [
-      "Their vacation will become more expensive",
+      "Their vacation will become more expensive which is a critical factor to consider in this context",
       "Their dollars will buy more Euros, making the trip cheaper",
       "They will be unable to use their credit cards",
       "The price of flights will automatically double"
@@ -35,7 +35,7 @@
       "They lose control over their own domestic monetary policy",
       "Their currency will become worthless immediately",
       "They will be banned from international trade",
-      "Inflation will drop to zero forever"
+      "Inflation will drop to zero forever which is a critical factor to consider in this context"
     ],
     "answer": "They lose control over their own domestic monetary policy",
     "explanation": "To maintain a peg, the country must mirror the interest rate changes of the U.S. Fed. If the U.S. raises rates to fight inflation, the small nation must do the same, even if their own economy is in a recession and needs lower rates.",
@@ -49,7 +49,7 @@
       "By printing an infinite amount of money",
       "By selling assets (like land or stocks) or borrowing from foreign investors",
       "By stopping all international travel",
-      "By increasing the minimum wage"
+      "By increasing the minimum wage which is a critical factor to consider in this context"
     ],
     "answer": "By selling assets (like land or stocks) or borrowing from foreign investors",
     "explanation": "A trade deficit in goods must be balanced by a surplus in the capital account. Effectively, the country is 'paying' for its extra imports by sending currency or ownership of assets back to the exporting nations.",
@@ -61,7 +61,7 @@
     "description": "A country announces it may default on its national debt. Suddenly, local investors start moving their savings into Swiss bank accounts. What is the likely result for the local currency's value?",
     "options": [
       "It will strengthen because there is less of it in the country",
-      "It will stay the same",
+      "It will stay the same which is a critical factor to consider in this context",
       "It will crash as everyone sells the local currency to buy foreign ones",
       "The government will give everyone free gold"
     ],
@@ -119,7 +119,7 @@
       "A Letter of Credit issued by a bank",
       "A verbal promise over the phone",
       "A high-interest credit card",
-      "A government tax credit"
+      "A government tax credit which is a critical factor to consider in this context"
     ],
     "answer": "A Letter of Credit issued by a bank",
     "explanation": "A Letter of Credit is a bank's guarantee that the seller will receive payment as long as the shipping documents are in order. This reduces the risk for the seller and facilitates international trade.",
@@ -133,7 +133,7 @@
       "Only the governments of the two countries",
       "The consumers and businesses in both countries who buy those products",
       "No one; the money is simply deleted",
-      "Only the shipping companies"
+      "Only the shipping companies which is a critical factor to consider in this context"
     ],
     "answer": "The consumers and businesses in both countries who buy those products",
     "explanation": "Tariffs are almost always passed on to the buyer. The local construction company will pay more for steel, and the local grocery shopper will pay more for food, as businesses raise prices to cover the tax.",

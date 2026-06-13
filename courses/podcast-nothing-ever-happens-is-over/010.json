@@ -6,7 +6,7 @@
     "options": [
       "They will lead to a single global empire that controls all air traffic.",
       "They bring the logic of mutually assured destruction (MAD) down to the individual level.",
-      "They are a technical failure because they are too easily jammed.",
+      "They are a technical failure because they are too easily jammed. which is a critical factor to consider in this context",
       "They will force everyone to live in a single, perfectly flat hierarchy."
     ],
     "answer": "They bring the logic of mutually assured destruction (MAD) down to the individual level.",
@@ -33,7 +33,7 @@
     "description": "Why does Naval believe current AI systems are 'pretty bad' at multimodal reasoning?",
     "options": [
       "Because they lack a coherent model of the world inside their heads to predict actions.",
-      "Because the hardware provided by Nvidia is too slow.",
+      "Because the hardware provided by Nvidia is too slow. which is a critical factor to consider in this context",
       "Because they spend too much time reading papers and not enough time coding.",
       "Because the AI labs are too centralized to allow for multimodal thinking."
     ],
@@ -62,7 +62,7 @@
     "options": [
       "AI will refuse to work on vaccines because it is too difficult.",
       "The number of people who can access or create bioweapons will increase by hundreds or thousands of times.",
-      "AI will eventually replace all human doctors, leading to unemployment.",
+      "AI will eventually replace all human doctors, leading to unemployment. which is a critical factor to consider in this context",
       "Biological data is so well-guarded that AI will never be able to read it."
     ],
     "answer": "The number of people who can access or create bioweapons will increase by hundreds or thousands of times.",
@@ -77,7 +77,7 @@
       "They want to be the world leaders in software ethics.",
       "Open source commoditizes the 'complement' (software) and supports their dominance in hardware manufacturing.",
       "They want to prevent Nvidia from selling more GPU cards.",
-      "They believe closed-source models are inherently more dangerous."
+      "They believe closed-source models are inherently more dangerous. which is a critical factor to consider in this context"
     ],
     "answer": "Open source commoditizes the 'complement' (software) and supports their dominance in hardware manufacturing.",
     "explanation": "For a hardware-centric economy like China, making software free and open makes their physical products more usable and valuable.",
@@ -90,7 +90,7 @@
     "options": [
       "Because being a doomer is the only way to get funding from VCs.",
       "Because optimism is the only mindset that allows for the creativity needed to find a way out of problems.",
-      "Because AI is programmed to only follow optimistic instructions.",
+      "Because AI is programmed to only follow optimistic instructions. which is a critical factor to consider in this context",
       "Because the 'doom scenarios' are actually impossible according to physics."
     ],
     "answer": "Because optimism is the only mindset that allows for the creativity needed to find a way out of problems.",
@@ -102,7 +102,7 @@
     "content": "Naval references the shift from an agricultural society to an industrial one. 200 years ago, people couldn't imagine modern jobs. Similarly, while we can see the current jobs AI will destroy, we cannot yet imagine the 'next jobs' that will inevitably emerge.",
     "description": "What is the core takeaway from Naval's example of the 200-year-old farm worker?",
     "options": [
-      "Farming is the only truly stable job in human history.",
+      "Farming is the only truly stable job in human history. which is a critical factor to consider in this context",
       "We shouldn't worry about job loss because we lack the current creativity to see the future's 'next jobs.'",
       "Technology will eventually lead us all back to working on farms.",
       "AI will only be able to perform 10% of today's jobs."
@@ -116,7 +116,7 @@
     "content": "Naval fears that while 'bad actors' can use AI to innovate quickly, 'good actors' are slowed by 'bioethicists' and medical regulations. This creates a dangerous imbalance where the defense is too slow to respond to a democratized threat.",
     "description": "What does Naval identify as a 'real opportunity' that is currently being blocked by data silos?",
     "options": [
-      "Using AI to manage social media passwords.",
+      "Using AI to manage social media passwords. which is a critical factor to consider in this context",
       "Using AI to solve medicine and biology through massive, anonymized datasets.",
       "Creating a centralized AI that manages all company emails.",
       "Building a robot that can manufacture hardware without humans."
@@ -130,7 +130,7 @@
     "content": "In a fast-changing world, many people fixate on doom as a way to pull others back down, similar to 'crabs in a bucket.' Naval argues that doomers 'might be right,' but they are not the people you want in a foxhole because they don't help build solutions.",
     "description": "According to Naval, what is the role of an optimist in a 'foxhole' situation?",
     "options": [
-      "To ignore the danger entirely.",
+      "To ignore the danger entirely. which is a critical factor to consider in this context",
       "To nurture creativity and imagine the 'rising up' scenario to build a way out.",
       "To follow the instructions of a hierarchical manager.",
       "To use AI to predict exactly when the world will end."

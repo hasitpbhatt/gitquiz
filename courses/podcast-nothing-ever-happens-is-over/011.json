@@ -32,7 +32,7 @@
     "content": "An API (Application Programming Interface) is an explicit set of rules for how two pieces of software interact. Naval suggests AI can 'discover' or 'create' its own API, allowing one person's work to connect to another's at the database or code level without a human having to write an explicit interface first.",
     "description": "What is the primary benefit of an AI 'discovering' an API for a team?",
     "options": [
-      "It makes the code more secure from outside hackers.",
+      "It makes the code more secure from outside hackers. which is a critical factor to consider in this context",
       "It removes the need to wait for another person to write an explicit interface to work with their code.",
       "It ensures that everyone is using the exact same hardware.",
       "It allows the CEO to monitor every line of code written."
@@ -46,7 +46,7 @@
     "content": "Instead of asking employees for subjective progress updates, AI can analyze work product (emails, code, designs) to determine 'where are we actually?' It can predict timelines and draw its own Gantt charts based on real-world activity rather than optimistic human estimates.",
     "description": "What specific example does Naval give for how AI could determine the actual progress toward shipping a product?",
     "options": [
-      "It can conduct 1-on-1 interviews with every employee.",
+      "It can conduct 1-on-1 interviews with every employee. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "It can analyze the company email and codebase to draw a Gantt chart based on current estimates and activity.",
       "It can read the minds of the hardware engineers.",
       "It can predict the shipping date based on the current weather in China."
@@ -63,7 +63,7 @@
       "Because they are too small and rely on a 'fully interconnected graph' of smart individuals.",
       "Because they believe AI is not smart enough to manage humans.",
       "Because they cannot afford the high cost of enterprise AI tools.",
-      "Because they prefer to use Slack and project management software."
+      "Because they prefer to use Slack and project management software. which is a critical factor to consider in this context"
     ],
     "answer": "Because they are too small and rely on a 'fully interconnected graph' of smart individuals.",
     "explanation": "Naval notes that they are 'a bunch of brilliant independent contributors' who communicate directly, so they use AI as a tool for work rather than a method for management.",
@@ -74,7 +74,7 @@
     "content": "A 'force multiplier' is any tool that significantly increases the output of a single person. Naval views AI not just as a better search engine, but as a mechanism that allows individuals to bypass the traditional bottlenecks of management, specialized interfaces, and data siloing.",
     "description": "What does Naval conclude about AI as a 'force multiplier' in his current setup?",
     "options": [
-      "It is a distraction that they try to avoid.",
+      "It is a distraction that they try to avoid. which is a critical factor to consider in this context",
       "It is naturally a force multiplier, even though they haven't done anything 'explicit' with it.",
       "It is only a force multiplier for the hardware team, not software.",
       "It is only useful if the company grows to over 1,000 people."
@@ -88,7 +88,7 @@
     "content": "Hardware 'bring-up'—the process of getting new hardware to communicate with software for the first time—is notoriously difficult. Naval suggests that AI allows hardware engineers to write their own basic bring-up code, bypassing the 'software gatekeeper' that often slows down hardware projects.",
     "description": "In Naval's example, how does an AI-enabled hardware person speed up their work?",
     "options": [
-      "The AI manufactures the prototype hardware instantly.",
+      "The AI manufactures the prototype hardware instantly. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "They write a little bit of software to bring up a new device instead of waiting for a software person to come by.",
       "The AI convinces the software person to work harder.",
       "The AI replaces the need for physical hardware entirely."
@@ -102,7 +102,7 @@
     "content": "In a modern company, knowledge is often 'buried' in codebases, designs, or old emails. AI acts as an automated archaeologist, digging through these artifacts to find answers and guide you to the right people, reducing the need for 'explicit marking down of things' (documentation).",
     "description": "According to the transcript, why is 'explicit marking down of things' becoming less necessary?",
     "options": [
-      "Because nobody reads documentation anymore.",
+      "Because nobody reads documentation anymore. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Because AI can figure out where you are by digging through the codebase and designs itself.",
       "Because documentation is now considered illegal in most startups.",
       "Because the CEO keeps the whole project in his head anyway."
@@ -119,7 +119,7 @@
       "Monitoring employee social media for 'quiet quitting.'",
       "Performing data analysis, digging, and reporting for the team on demand.",
       "Writing marketing emails to all the suppliers.",
-      "Designing new hardware without human input."
+      "Designing new hardware without human input. which is a critical factor to consider in this context"
     ],
     "answer": "Performing data analysis, digging, and reporting for the team on demand.",
     "explanation": "Naval sees AI as an active analyst that can produce 'reports on demand' rather than a passive system of static dashboards.",

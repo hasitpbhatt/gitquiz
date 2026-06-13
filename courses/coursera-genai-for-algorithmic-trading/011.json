@@ -4,7 +4,7 @@
     "content": "Unlike a simple script that follows 'if-then' rules, an AI Agent uses an LLM to 'reason' through a goal. It can check multiple tools—such as a news scraper, a technical indicator library, and a brokerage API—and decide on its own the best sequence of actions to achieve a target return within risk limits.",
     "description": "You task an agent with 'Hedging the portfolio against a sudden drop in the Euro.' The agent first checks the current EUR/USD price, then reads the latest ECB meeting minutes, and finally decides to buy put options. Why is this considered 'Agentic' behavior?",
     "options": [
-      "Because it used a high-speed internet connection.",
+      "Because it used a high-speed internet connection. which is a critical factor to consider in this context",
       "Because it autonomously selected which tools to use and in what order to solve a high-level objective.",
       "Because it was programmed with a 1,000-line 'if-else' statement.",
       "Because it made a profit on the trade."
@@ -21,7 +21,7 @@
       "Wait for the AI to realize the mistake and stop.",
       "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
       "Try to edit the bot's prompt while it is still trading.",
-      "Lower the transaction fees at the brokerage."
+      "Lower the transaction fees at the brokerage. which is a critical factor to consider in this context"
     ],
     "answer": "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
     "explanation": "When an autonomous system fails, you must remove its power to trade immediately. Kill switches prevent 'algorithmic meltdowns' from draining an account in minutes.",
@@ -32,7 +32,7 @@
     "content": "AI bots don't just 'hit buy'; they use execution algorithms to hide their activity from other traders. VWAP (Volume Weighted Average Price) and TWAP (Time Weighted Average Price) are methods that break a large order into small pieces to ensure the bot gets a fair price without moving the market.",
     "description": "Your AI agent needs to buy 1 million shares of a stock. If it buys them all at once, the price will skyrocket, and the bot will get a bad 'fill.' How should the agent execute this?",
     "options": [
-      "Buy everything at the 'Market' price immediately.",
+      "Buy everything at the 'Market' price immediately. which is a critical factor to consider in this context",
       "Use a VWAP algorithm to spread the buying throughout the day based on historical volume patterns.",
       "Post about the trade on social media first to get others to buy.",
       "Wait for the price to drop to zero before buying."
@@ -49,7 +49,7 @@
       "The AI is getting worse at math.",
       "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
       "The stock market is trying to steal the bot's money.",
-      "The bot needs a faster CPU."
+      "The bot needs a faster CPU. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
     "explanation": "Slippage is a sign of 'execution friction.' Monitoring this allows developers to refine how the bot places orders, such as switching from 'Market' orders to 'Limit' orders.",
@@ -63,7 +63,7 @@
       "Immediately place the trades it missed while it was offline.",
       "Synchronize its internal 'State' with the broker to see which orders were filled or canceled during the outage.",
       "Assume nothing changed and continue as normal.",
-      "Start a new trading day from scratch."
+      "Start a new trading day from scratch. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Synchronize its internal 'State' with the broker to see which orders were filled or canceled during the outage.",
     "explanation": "Synchronization is vital. The bot must know exactly what it currently owns (its 'State') before making new decisions to avoid accidental over-exposure or double-trading.",
@@ -74,7 +74,7 @@
     "content": "A Multi-Agent System uses different AI 'personalities' to work together. For example, one agent might be a 'Bull' (looking for reasons to buy), another a 'Bear' (looking for risks), and a third a 'Moderator' who makes the final decision based on their debate.",
     "description": "Why would a developer use three small AI agents instead of one large one to manage a portfolio?",
     "options": [
-      "To save on API costs.",
+      "To save on API costs. which is a critical factor to consider in this context",
       "To simulate a 'Digital Investment Committee,' reducing individual bias and catching errors through internal debate.",
       "Because smaller agents are always smarter than large ones.",
       "To make the software more complicated and impressive."
@@ -91,7 +91,7 @@
       "Spam the API even harder until it lets you through.",
       "Implement an 'Exponential Backoff' where the bot waits 1s, then 2s, then 4s, until the server responds.",
       "Stop trading for the rest of the year.",
-      "Buy a second computer to send more requests."
+      "Buy a second computer to send more requests. which is a critical factor to consider in this context"
     ],
     "answer": "Implement an 'Exponential Backoff' where the bot waits 1s, then 2s, then 4s, until the server responds.",
     "explanation": "Exponential backoff is a standard networking practice. it allows the system to recover gracefully without overwhelming the service provider or triggering a security block.",
@@ -105,7 +105,7 @@
       "Backtesting uses historical data; Shadow Mode uses real-time, live market data without spending real money.",
       "Backtesting is for humans; Shadow Mode is for AI.",
       "Shadow Mode is much faster than Backtesting.",
-      "There is no difference."
+      "There is no difference. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Backtesting uses historical data; Shadow Mode uses real-time, live market data without spending real money.",
     "explanation": "Shadow Mode is the 'Final Exam.' It tests how the agent handles the 'messiness' of live data (delays, news spikes, API errors) before it is trusted with capital.",
@@ -118,7 +118,7 @@
     "options": [
       "It can delete the history of the loss so the developer doesn't see it.",
       "It can store the source's metadata in a 'Blacklist' and refer to it before making the next trade.",
-      "It can remember to be sad about the loss.",
+      "It can remember to be sad about the loss. which is a critical factor to consider in this context",
       "It doesn't help; AI cannot learn from its own mistakes."
     ],
     "answer": "It can store the source's metadata in a 'Blacklist' and refer to it before making the next trade.",
@@ -132,7 +132,7 @@
     "options": [
       "The bot will become too bored to trade.",
       "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",
-      "The bot will only trade on Mondays.",
+      "The bot will only trade on Mondays. which is a critical factor to consider in this context",
       "The bot will refuse to make any trades at all."
     ],
     "answer": "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",

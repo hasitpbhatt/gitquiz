@@ -6,7 +6,7 @@
     "options": [
       "Supply and demand curves only",
       "Game theory - modeling how each player's decision affects the other",
-      "Newton's laws of market motion",
+      "Newton's laws of market motion which is a critical factor to consider in this context",
       "A simple pro-con list for each shop"
     ],
     "answer": "Game theory - modeling how each player's decision affects the other",
@@ -18,7 +18,7 @@
     "content": "The Prisoner's Dilemma is a game where two rational individuals acting in self-interest produce a worse outcome than if they had cooperated. It explains why cooperation can fail.",
     "description": "Two suspects are arrested. If both stay silent, each gets 1 year. If both confess, each gets 5 years. If one confesses and the other stays silent, the confessor goes free and the silent one gets 10 years. Rational self-interest leads both to:",
     "options": [
-      "Stay silent because it is fair",
+      "Stay silent because it is fair which is a critical factor to consider in this context",
       "Confess because no matter what the other does, confessing gives a better outcome",
       "One confesses and one stays silent based on who is more loyal",
       "Both confess and then appeal the sentence"
@@ -48,7 +48,7 @@
     "options": [
       "The maximum salary you want to ask for",
       "What you will do if this negotiation fails - your best alternative offer",
-      "The minimum salary you would accept",
+      "The minimum salary you would accept which is a critical factor to consider in this context",
       "How much you think the company can afford to pay"
     ],
     "answer": "What you will do if this negotiation fails - your best alternative offer",
@@ -75,7 +75,7 @@
     "description": "You and your partner argue about chores. You say 'You never clean,' they say 'You are too controlling.' Using the Third Story, you describe:",
     "options": [
       "Why you are right about the chores",
-      "Why they are wrong about controlling behavior",
+      "Why they are wrong about controlling behavior which is a critical factor to consider in this context",
       "The situation neutrally: 'We have different views on how household tasks should be shared'",
       "A story about a third person who had this exact argument"
     ],
@@ -91,7 +91,7 @@
       "Quietly letting them continue to avoid office conflict",
       "Documenting your contributions and ensuring managers know your work",
       "Taking credit for their ideas in revenge",
-      "Transferring to a different department"
+      "Transferring to a different department which is a critical factor to consider in this context"
     ],
     "answer": "Documenting your contributions and ensuring managers know your work",
     "explanation": "Containment limits the damage without escalating. By documenting work and ensuring visibility, you prevent the rival from expanding their behavior. Appeasement (letting it slide) often encourages more exploitation.",
@@ -104,7 +104,7 @@
     "options": [
       "Spend months perfecting a detailed business plan",
       "Quickly observe customer feedback, orient based on data, decide on changes, and act within days",
-      "Copy exactly what the market leader does",
+      "Copy exactly what the market leader does which is a critical factor to consider in this context",
       "Wait for the market to stabilize before making any moves"
     ],
     "answer": "Quickly observe customer feedback, orient based on data, decide on changes, and act within days",
@@ -119,7 +119,7 @@
       "The Cobra Effect - the solution created perverse incentives that worsened the problem",
       "A successful wildlife management program that just needs more time",
       "An example of supply and demand working correctly",
-      "A failure of enforcement, not incentive design"
+      "A failure of enforcement, not incentive design which is a critical factor to consider in this context"
     ],
     "answer": "The Cobra Effect - the solution created perverse incentives that worsened the problem",
     "explanation": "The Cobra Effect demonstrates how well-intentioned solutions fail when incentives are misaligned. The bounty rewarded cobra breeding, not cobra elimination. This is a classic perverse incentive - a key concept from Goodhart's Law family.",
@@ -133,7 +133,7 @@
       "Workers do not understand their job requirements",
       "The factory needs better quality training programs",
       "Goodhart's Law - the production target stopped being a useful measure because workers optimized for it",
-      "The factory inspector is too strict"
+      "The factory inspector is too strict which is a critical factor to consider in this context"
     ],
     "answer": "Goodhart's Law - the production target stopped being a useful measure because workers optimized for it",
     "explanation": "Goodhart's Law: once you measure and reward a specific metric (units produced), people optimize for that metric while neglecting other important dimensions (quality). The measure loses its value as an indicator of overall performance.",

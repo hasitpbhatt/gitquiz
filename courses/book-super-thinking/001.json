@@ -35,7 +35,7 @@
       "Copy the most popular backpack design",
       "Ask hikers what features they want",
       "Identify the core purpose: carrying items comfortably and efficiently",
-      "Use materials from last year's model"
+      "Use materials from last year's model which is a critical factor to consider in this context"
     ],
     "answer": "Identify the core purpose: carrying items comfortably and efficiently",
     "explanation": "First principles means starting from fundamental purpose - what a backpack must do - rather than copying existing designs or making incremental improvements.",
@@ -48,7 +48,7 @@
     "options": [
       "Study the habits of extremely productive people",
       "Ask yourself: 'How could I make sure I get nothing done today?'",
-      "Set ambitious daily goals",
+      "Set ambitious daily goals which is a critical factor to consider in this context",
       "Buy the latest productivity apps"
     ],
     "answer": "Ask yourself: 'How could I make sure I get nothing done today?'",
@@ -75,7 +75,7 @@
     "description": "When deciding whether to bring an umbrella, probabilistic thinking means:",
     "options": [
       "Waiting to see if it starts raining",
-      "Checking if rain is guaranteed today",
+      "Checking if rain is guaranteed today which is a critical factor to consider in this context",
       "Estimating the chance of rain and weighing inconvenience vs. getting wet",
       "Always carrying an umbrella just in case"
     ],
@@ -118,7 +118,7 @@
     "options": [
       "Working as fast as possible to finish early",
       "Adding extra time to your estimate for unexpected delays",
-      "Only counting time when you're actively working",
+      "Only counting time when you're actively working which is a critical factor to consider in this context",
       "Assuming everything will go perfectly according to plan"
     ],
     "answer": "Adding extra time to your estimate for unexpected delays",

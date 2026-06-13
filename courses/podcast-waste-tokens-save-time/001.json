@@ -7,7 +7,7 @@
       "How many pull requests they close per week with AI assistance",
       "Whether they are producing the factory that will produce multiplicative outputs B through Z",
       "How many tokens they consume from the AI model each day",
-      "How quickly they can debug production issues using AI"
+      "How quickly they can debug production issues using AI which is a critical factor to consider in this context"
     ],
     "answer": "Whether they are producing the factory that will produce multiplicative outputs B through Z",
     "explanation": "Guillermo Rauch says the shift is from 'you are a 10x engineer' to judging whether 'you are producing the factory that will produce multiplicative outputs B through Z.' It's not about individual output; it's about creating the systems that compound output.",
@@ -21,7 +21,7 @@
       "10x engineers exist, but the spread is only noticeable in large companies",
       "Productivity differences are at most 2x because tools equalize skill gaps",
       "It's not even 10x — it's 100x or 1000x, and AI leverage now makes it obvious",
-      "10x engineers existed before cloud computing but not anymore"
+      "10x engineers existed before cloud computing but not anymore which is a critical factor to consider in this context"
     ],
     "answer": "It's not even 10x — it's 100x or 1000x, and AI leverage now makes it obvious",
     "explanation": "Naval says he used to get flamed for claiming 10x engineers exist, citing Satoshi and John Carmack as examples of 1000x programmers. AI leverage now makes extreme productivity differences less controversial and more visible.",
@@ -34,7 +34,7 @@
     "options": [
       "Token consumption is the most objective measure of AI productivity available",
       "Token consumption is like the old measuring of lines of code — a vanity metric",
-      "Token consumption should be minimized because it directly correlates with cost",
+      "Token consumption should be minimized because it directly correlates with cost which is a critical factor to consider in this context",
       "High token consumption always indicates a developer is struggling with the AI"
     ],
     "answer": "Token consumption is like the old measuring of lines of code — a vanity metric",
@@ -46,7 +46,7 @@
     "content": "Max Hodak observes that team members experience AI coding tools very differently depending on their skill level. This creates a puzzle for managers: the same tool gets radically different reviews from different engineers.",
     "description": "A junior engineer on your team says Claude isn't that helpful — it gives vague answers and wastes time. A senior engineer insists Claude is the most powerful tool they've ever used. According to Max Hodak, what explains this discrepancy?",
     "options": [
-      "The senior engineer has access to a more capable model subscription plan",
+      "The senior engineer has access to a more capable model subscription plan which is a critical factor to consider in this context",
       "AI models reflect back the competence of the user — they are as good as you are in the domain",
       "The junior engineer is using the wrong programming language for their AI queries",
       "The AI model has stale training data and only works well with older frameworks"
@@ -60,7 +60,7 @@
     "content": "Guillermo Rauch describes a new kind of help he now provides to colleagues who struggle with AI tools. The bottleneck is no longer access to the model — it's knowing how to communicate with it effectively.",
     "description": "A teammate comes to you frustrated because they spent an hour prompting the AI model and got unusable results. They ask for your help. According to Guillermo Rauch, what form should your help take in the age of AI?",
     "options": [
-      "Take over and write the implementation yourself to save time",
+      "Take over and write the implementation yourself to save time which is a critical factor to consider in this context",
       "Recommend they switch to a different AI model that is more reliable",
       "Tell them what to prompt the model with — the quality of reprompting is critical",
       "Suggest they abandon the AI approach and write the code manually"
@@ -76,7 +76,7 @@
     "options": [
       "Study advanced prompt engineering techniques and frameworks to maximize efficiency",
       "Waste tokens to save time — tokens are way cheaper than a human and you can always buy more",
-      "Cache common responses locally to reduce API calls",
+      "Cache common responses locally to reduce API calls which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Use only open-source models that have zero per-token cost"
     ],
     "answer": "Waste tokens to save time — tokens are way cheaper than a human and you can always buy more",
@@ -103,7 +103,7 @@
     "description": "You remember spending three days debugging a race condition in your first job — reading docs, searching Stack Overflow, trying random permutations. Max Hodak argues this painful experience is now optional. What changed?",
     "options": [
       "Programming languages have become simpler and eliminated race conditions entirely",
-      "Modern debuggers have built-in AI that automatically fixes concurrency bugs",
+      "Modern debuggers have built-in AI that automatically fixes concurrency bugs which is a critical factor to consider in this context",
       "With agents, you just don't get stuck anymore — they can quickly find the right way to do things",
       "Error messages have become so descriptive that no debugging is necessary"
     ],
@@ -133,7 +133,7 @@
       "When will AI replace all software engineers and make coding obsolete?",
       "Is pure software dead — is classic software engineering becoming an obsolete thing?",
       "Should all startups pivot to selling AI models instead of building products?",
-      "Will open-source eventually make commercial software illegal?"
+      "Will open-source eventually make commercial software illegal? which is a critical factor to consider in this context"
     ],
     "answer": "Is pure software dead — is classic software engineering becoming an obsolete thing?",
     "explanation": "Naval asks: 'Is pure software dead? Is pure software engineering an obsolete thing? It's like saying speaking English — the models now speak English.' He suggests hardware moats and model-building may be the new durable advantages.",

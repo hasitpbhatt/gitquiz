@@ -6,7 +6,7 @@
     "options": [
       "Poor construction quality of the sea walls",
       "Systems thinking ignored because the wall changed behavior throughout the system",
-      "The storm being historically unprecedented",
+      "The storm being historically unprecedented which is a critical factor to consider in this context",
       "City planners making reasonable short-term decisions"
     ],
     "answer": "Systems thinking ignored because the wall changed behavior throughout the system",
@@ -62,7 +62,7 @@
     "options": [
       "Online polls are always unreliable",
       "The sample is limited to tech-savvy website visitors, not the general population",
-      "Cryptocurrency regulation is universally supported",
+      "Cryptocurrency regulation is universally supported which is a critical factor to consider in this context",
       "The poll questions were too difficult to understand"
     ],
     "answer": "The sample is limited to tech-savvy website visitors, not the general population",
@@ -74,7 +74,7 @@
     "content": "Feedback loops occur when the output of a system feeds back as input. Positive feedback amplifies change with a snowball effect, while negative feedback dampens it with a stabilizing effect.",
     "description": "A social media post gets a few early likes, causing the algorithm to show it to more people, generating more engagement in a self-reinforcing cycle. This is an example of:",
     "options": [
-      "Negative feedback maintaining system stability",
+      "Negative feedback maintaining system stability which is a critical factor to consider in this context",
       "A positive feedback loop amplifying initial success",
       "Random variation in social media algorithms",
       "Direct user intervention boosting the post"
@@ -119,7 +119,7 @@
       "Build redundancy against single points of failure",
       "Negotiate lower prices with the supplier",
       "Train workers for multiple roles",
-      "Automate the production process"
+      "Automate the production process which is a critical factor to consider in this context"
     ],
     "answer": "Build redundancy against single points of failure",
     "explanation": "Depending on a single supplier creates a critical vulnerability. Redundancy, multiple suppliers, safety stock, or alternatives, would protect against this failure mode.",

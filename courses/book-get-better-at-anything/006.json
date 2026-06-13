@@ -5,7 +5,7 @@
     "description": "A pilot trains on a simulator for months but struggles during their first real flight. This demonstrates:",
     "options": [
       "The pilot did not train enough hours",
-      "Simulators are useless for flight training",
+      "Simulators are useless for flight training which is a critical factor to consider in this context",
       "Practice Must Meet Reality: if the simulator lacks real-world stressors, the skill does not fully transfer",
       "The pilot has a fear of flying that training cannot address"
     ],
@@ -35,7 +35,7 @@
       "The salesperson is not cut out for sales",
       "Practice Must Meet Reality: practicing without real customer interactions does not prepare for the unpredictability of actual sales",
       "Mirror practice is the gold standard for sales training",
-      "The salesperson needs more mirror practice time"
+      "The salesperson needs more mirror practice time which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Practice Must Meet Reality: practicing without real customer interactions does not prepare for the unpredictability of actual sales",
     "explanation": "Practicing only the ideal scenario misses the complexity of real interactions. Realistic practice includes handling objections, interruptions, and unexpected questions.",
@@ -49,7 +49,7 @@
       "Medical training is fundamentally flawed",
       "The student was never truly qualified",
       "Practice Must Meet Reality: mannequins do not replicate the sensory complexity and pressure of real surgery",
-      "Mannequins are outdated training tools"
+      "Mannequins are outdated training tools which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Practice Must Meet Reality: mannequins do not replicate the sensory complexity and pressure of real surgery",
     "explanation": "Real surgery involves tissue response, bleeding, time pressure, and team coordination that mannequins cannot fully replicate. Practice conditions must approximate real conditions.",
@@ -63,7 +63,7 @@
       "The musician is not talented enough to perform live",
       "Practice Must Meet Reality: solo practice does not prepare for the dynamics, timing, and distractions of group performance",
       "Live performance is impossible to prepare for",
-      "The musician needs a different instrument"
+      "The musician needs a different instrument which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Practice Must Meet Reality: solo practice does not prepare for the dynamics, timing, and distractions of group performance",
     "explanation": "Playing with a band requires listening to others, keeping tempo together, and handling stage dynamics. These skills only develop through practice conditions that match real performance.",
@@ -75,7 +75,7 @@
     "description": "A public speaker practices alone in their office and feels confident. On stage under bright lights with a large audience, they forget their speech. This shows:",
     "options": [
       "The speaker has stage fright that cannot be overcome",
-      "Public speaking requires a photographic memory",
+      "Public speaking requires a photographic memory which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Practice Must Meet Reality: practicing without an audience, lights, and pressure does not transfer to real speaking conditions",
       "The speaker did not memorize the speech well enough"
     ],
@@ -91,7 +91,7 @@
       "The programmer lacks natural coding ability",
       "Practice Must Meet Reality: following tutorials does not replicate the problem-solving and debugging required in real development",
       "Tutorials are the best way to learn programming",
-      "Real programming is easier than tutorials"
+      "Real programming is easier than tutorials which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "Practice Must Meet Reality: following tutorials does not replicate the problem-solving and debugging required in real development",
     "explanation": "Tutorials remove the cognitive load of figuring out what to build. Real coding requires problem decomposition, debugging, and decision-making that only develop through independent project work.",

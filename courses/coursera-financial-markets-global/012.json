@@ -4,7 +4,7 @@
     "content": "Total risk is composed of two parts: Unsystematic risk (specific to a single company) and Systematic risk (market-wide risks like inflation or war). While you can 'diversify away' company-specific risk, you cannot escape the risk of the overall market moving.",
     "description": "An investor owns 50 different stocks across various industries. A sudden global oil shortage causes the entire stock market to drop by 10%. Why didn't the investor's large number of stocks protect them from this loss?",
     "options": [
-      "Because they didn't own enough stocks",
+      "Because they didn't own enough stocks which is a critical factor to consider in this context",
       "Because the oil shortage is a Systematic Risk that affects the entire economy",
       "Because they forgot to buy insurance on their portfolio",
       "Because diversification only works in a bull market"
@@ -32,7 +32,7 @@
     "content": "CAPM is a formula used to determine the required return on an investment. It suggests that investors should be compensated for the time value of money and for taking on market risk.",
     "description": "According to the CAPM formula, if an investment has a Beta of 0, what should its expected return be?",
     "options": [
-      "Zero percent",
+      "Zero percent which is a critical factor to consider in this context",
       "The Risk-Free Rate (e.g., the return on a Treasury Bond)",
       "The same as the Stock Market return",
       "An infinite return"
@@ -75,7 +75,7 @@
     "description": "A fund manager charges a 2% fee to try and beat the market, but underperforms the market index which has a 0.05% fee. What is the primary lesson?",
     "options": [
       "High fees always guarantee better results",
-      "Active management is always illegal",
+      "Active management is always illegal which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Fees and market efficiency make it very difficult for active managers to provide value over the long term",
       "The manager should have traded more frequently"
     ],
@@ -88,7 +88,7 @@
     "content": "Rebalancing is the process of selling high-performing assets and buying under-performing ones to bring your portfolio back to its original intended mix.",
     "description": "After a massive stock market rally, your 50/50 portfolio is now 80% Stocks and 20% Bonds. Why is it important to rebalance?",
     "options": [
-      "To pay more in taxes",
+      "To pay more in taxes which is a critical factor to consider in this context",
       "To prevent your portfolio from becoming much riskier than you originally intended",
       "Because you are required to by law",
       "To make sure you never make a profit"
@@ -116,7 +116,7 @@
     "content": "Asset allocation is the strategy of dividing a portfolio among different asset categories. This mix is the single most important factor in long-term returns.",
     "description": "Which of the following decisions will have the greatest impact on long-term wealth?",
     "options": [
-      "Picking the perfect single tech stock",
+      "Picking the perfect single tech stock which is a critical factor to consider in this context",
       "The overall percentage of savings kept in stocks versus a savings account",
       "The specific day of the week they choose to invest",
       "Which bank they use for their checking account"

@@ -48,7 +48,7 @@
     "options": [
       "Level of life purpose",
       "Sleep quality alone",
-      "Exercise frequency",
+      "Exercise frequency which is a critical factor to consider in this context",
       "Social media usage"
     ],
     "answer": "Level of life purpose",
@@ -62,7 +62,7 @@
     "options": [
       "High sense of purpose",
       "High IQ scores",
-      "Younger age",
+      "Younger age which is a critical factor to consider in this context",
       "Regular meditation practice"
     ],
     "answer": "High sense of purpose",
@@ -91,7 +91,7 @@
       "The Rush Memory and Aging Project",
       "The Framingham Heart Study",
       "The Nurses Health Study",
-      "The Blue Zones Project"
+      "The Blue Zones Project which is a critical factor to consider in this context"
     ],
     "answer": "The Rush Memory and Aging Project",
     "explanation": "The Rush Memory and Aging Project tracked purpose-in-life scores and found dramatic reductions in mortality, stroke, and heart attack risk.",

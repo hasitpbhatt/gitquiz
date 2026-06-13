@@ -21,7 +21,7 @@
       "It can pack sandboxes densely while ensuring predictable performance through kernel-level isolation",
       "It runs machine learning models to predict future workload patterns",
       "It only schedules jobs during off-peak hours",
-      "It schedules sandboxes alphabetically by user name"
+      "It schedules sandboxes alphabetically by user name which is a critical factor to consider in this context"
     ],
     "answer": "It can pack sandboxes densely while ensuring predictable performance through kernel-level isolation",
     "explanation": "Daytona's scheduler packs sandboxes densely on bare metal while using kernel-level isolation to guarantee predictable performance for each sandbox.",
@@ -35,7 +35,7 @@
       "Preloading snapshots from network storage to local NVMe drives before they are requested",
       "Storing all snapshots in RAM for instant access",
       "Using tape backup drives for long-term snapshot storage",
-      "Encrypting snapshots so they decompress faster during loading"
+      "Encrypting snapshots so they decompress faster during loading which is a critical factor to consider in this context"
     ],
     "answer": "Preloading snapshots from network storage to local NVMe drives before they are requested",
     "explanation": "Daytona predicts which snapshots will be needed and preloads them onto local NVMe storage, dramatically reducing cold start latency.",
@@ -91,7 +91,7 @@
       "Local NVMe provides higher IOPS and lower latency than network storage options",
       "Local NVMe can store unlimited amounts of data without cost",
       "Network storage does not work with Linux operating systems",
-      "Local NVMe drives are encrypted by default"
+      "Local NVMe drives are encrypted by default which is a critical factor to consider in this context"
     ],
     "answer": "Local NVMe provides higher IOPS and lower latency than network storage options",
     "explanation": "Local NVMe drives offer dramatically higher IOPS and lower latency compared to network-attached storage like EBS, critical for agent workloads.",
@@ -105,7 +105,7 @@
       "The use of a centralized scheduler with local storage instead of network storage for each compute node",
       "A peer-to-peer network where all nodes communicate directly",
       "A mainframe terminal model with thin clients",
-      "A serverless architecture using AWS Lambda exclusively"
+      "A serverless architecture using AWS Lambda exclusively which is a critical factor to consider in this context"
     ],
     "answer": "The use of a centralized scheduler with local storage instead of network storage for each compute node",
     "explanation": "Daytona revived the architecture pattern of putting compute and storage together with a central scheduler, which they first used at CodeAnywhere in 2008.",

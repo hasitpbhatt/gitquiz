@@ -19,7 +19,7 @@
     "description": "A mentor asks where you see yourself in a decade. How do you answer in a way that reflects the 'Startup of You' philosophy?",
     "options": [
       "I have a specific job title and company in mind and won't deviate from it",
-      "I don't believe in the future; I only focus on what I'm doing today",
+      "I don't believe in the future; I only focus on what I'm doing today which is a critical factor to consider in this context",
       "I have a general direction based on my values, but I am staying in Permanent Beta to pivot as the market evolves",
       "I am waiting for a large company to provide me with a pre-defined career path"
     ],
@@ -34,7 +34,7 @@
     "options": [
       "Check the founder's personal social media to see if they look successful",
       "Ask a shared connection or a former employee for an 'off-the-record' perspective on the founder’s leadership style",
-      "Read the founder's biography on the company website",
+      "Read the founder's biography on the company website which is a critical factor to consider in this context",
       "Ask the founder directly if they are a good person to work for"
     ],
     "answer": "Ask a shared connection or a former employee for an 'off-the-record' perspective on the founder’s leadership style",
@@ -48,7 +48,7 @@
     "options": [
       "It ensures the book will be a bestseller",
       "It acts as a 'lifeboat' (e.g., six months of savings or a guaranteed part-time job) that eliminates the fear of absolute failure",
-      "It provides a marketing plan for the book",
+      "It provides a marketing plan for the book which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "It is a secondary book idea in case the first one isn't good"
     ],
     "answer": "It acts as a 'lifeboat' (e.g., six months of savings or a guaranteed part-time job) that eliminates the fear of absolute failure",
@@ -62,7 +62,7 @@
     "options": [
       "Keep asking your best friends; they have your best interests at heart",
       "Reach out to an acquaintance who lives in that city and works in a different industry",
-      "Stop networking and just use automated job boards",
+      "Stop networking and just use automated job boards which is a critical factor to consider in this context",
       "Move to the city first and then start looking for friends"
     ],
     "answer": "Reach out to an acquaintance who lives in that city and works in a different industry",
@@ -74,7 +74,7 @@
     "content": "Luck isn't just random; it's something you can attract by increasing your 'surface area.' This is done by being active, being visible, and being in 'the flow' where opportunities and people intersect.",
     "description": "Two designers have the same skill level. Designer A works in private. Designer B posts a 'design tip' daily on LinkedIn and attends one industry meetup a month. Who has a larger luck surface area?",
     "options": [
-      "Designer A, because they aren't distracted by social media",
+      "Designer A, because they aren't distracted by social media which is a critical factor to consider in this context",
       "Designer B, because they are creating more 'hooks' for opportunities to find them",
       "They are the same; luck is purely based on talent",
       "Designer A, because they have more time to perfect their craft"
@@ -104,7 +104,7 @@
     "options": [
       "Join the complaints to fit in with the group",
       "Master the watch over the weekend and become the group’s go-to expert on it",
-      "Wait for the watch manufacturer to offer a tutorial",
+      "Wait for the watch manufacturer to offer a tutorial which is a critical factor to consider in this context",
       "Switch back to your old watch and ignore the new one"
     ],
     "answer": "Master the watch over the weekend and become the group’s go-to expert on it",
@@ -118,7 +118,7 @@
     "options": [
       "Ask them to be your mentor and meet with you every week",
       "Send them a link to a high-quality article or tool that solves a problem they recently mentioned in a post",
-      "Email them your resume just in case they have openings",
+      "Email them your resume just in case they have openings which is a critical factor to consider in this context",
       "Wait until you are more successful so you don't feel 'inferior' talking to them"
     ],
     "answer": "Send them a link to a high-quality article or tool that solves a problem they recently mentioned in a post",

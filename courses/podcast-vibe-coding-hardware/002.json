@@ -7,7 +7,7 @@
       "China wants to win the Nobel Prize for AI research",
       "China has hardware superiority and complex supply chains — generating software on demand removes their software disadvantage against Silicon Valley",
       "China is simply copying whatever the US does in AI research",
-      "Open-source AI is cheaper than developing proprietary models in-house"
+      "Open-source AI is cheaper than developing proprietary models in-house which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
     "answer": "China has hardware superiority and complex supply chains — generating software on demand removes their software disadvantage against Silicon Valley",
     "explanation": "Naval explains China is going all in on open source because they have hardware superiority and complex supply chains — if they can generate software on demand, they don't have the software disadvantage against Silicon Valley anymore.",
@@ -20,7 +20,7 @@
     "options": [
       "The open-source AI community is actually dying because no one contributes anymore",
       "OpenAI, Anthropic, and Google don't publish competitive open models — nearly all open-source heft is coming from China",
-      "All major labs publish their models openly, the journalist is correct",
+      "All major labs publish their models openly, the journalist is correct which is a critical factor to consider in this context",
       "Only Meta contributes to open-source AI, and they are based in the US"
     ],
     "answer": "OpenAI, Anthropic, and Google don't publish competitive open models — nearly all open-source heft is coming from China",
@@ -35,7 +35,7 @@
       "The manufacturer hired a professional software team to rewrite their stack",
       "China's investment in open-source AI models has dramatically improved the quality of software that ships with hardware gadgets",
       "Temperature sensors have always had great software, you just never noticed",
-      "The government mandated minimum software quality standards for IoT devices"
+      "The government mandated minimum software quality standards for IoT devices which is a critical factor to consider in this context"
     ],
     "answer": "China's investment in open-source AI models has dramatically improved the quality of software that ships with hardware gadgets",
     "explanation": "Naval says all the 'crappy little software' that goes with random hardware gadgets is getting much better quickly because AI can generate decent software on demand — and China's open-source push accelerates this.",
@@ -46,7 +46,7 @@
     "content": "Guillermo Rauch warns that without great frontier coding models, a nation loses self-improvement capability. Software generation underpins every piece of the hardware pipeline.",
     "description": "A policy maker argues that a country can excel in hardware manufacturing even if it falls behind in AI coding models. How would Guillermo Rauch respond based on the hardware pipeline argument?",
     "options": [
-      "Hardware manufacturing and AI software are completely separate industries",
+      "Hardware manufacturing and AI software are completely separate industries which is a critical factor to consider in this context",
       "If you fall behind in your ability to generate software, you fall behind in your ability to generate everything",
       "A country only needs good hardware engineers, software can be imported",
       "Coding models only matter for consumer software, not industrial hardware"
@@ -62,7 +62,7 @@
     "options": [
       "Because the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses",
       "Because single champions always fail due to lack of competition",
-      "Because open source is cheaper than funding a single company",
+      "Because open source is cheaper than funding a single company which is a critical factor to consider in this context",
       "Because the Chinese government has never funded any technology companies directly"
     ],
     "answer": "Because the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses",
@@ -76,7 +76,7 @@
     "options": [
       "Open-source models might contain backdoors installed by the Chinese government",
       "While the models help US founders, they help Chinese hardware founders and factories that much more because they already have supply chain advantages",
-      "Chinese open-source models will eventually become proprietary and expensive",
+      "Chinese open-source models will eventually become proprietary and expensive which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The US government will likely ban the use of Chinese AI models in commercial products"
     ],
     "answer": "While the models help US founders, they help Chinese hardware founders and factories that much more because they already have supply chain advantages",
@@ -90,7 +90,7 @@
     "options": [
       "The only path is to match US spending dollar for dollar on frontier research",
       "Pool resources, collaborate on models, distill existing work, and leverage government ecosystem funding to catch up",
-      "Developing countries should avoid AI entirely and focus on agriculture",
+      "Developing countries should avoid AI entirely and focus on agriculture which is a critical factor to consider in this context",
       "The best strategy is to wait until AI technology is mature and then license it"
     ],
     "answer": "Pool resources, collaborate on models, distill existing work, and leverage government ecosystem funding to catch up",

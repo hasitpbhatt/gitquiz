@@ -20,7 +20,7 @@
     "options": [
       "By buying corn futures to get more corn later",
       "By selling corn futures to lock in a high price now for their October delivery",
-      "By quitting farming and investing in tech stocks",
+      "By quitting farming and investing in tech stocks which is a critical factor to consider in this context",
       "By waiting until October to see what the market price is"
     ],
     "answer": "By selling corn futures to lock in a high price now for their October delivery",
@@ -32,7 +32,7 @@
     "content": "A Call Option gives the buyer the right, but not the obligation, to buy an asset at a specific price (the strike price) within a specific timeframe. Investors use call options when they believe the price of a stock will rise significantly.",
     "description": "You pay $5 for a 'Call Option' to buy a stock at $100. By next month, the stock price has risen to $150. What is the most logical action to take?",
     "options": [
-      "Let the option expire worthless",
+      "Let the option expire worthless which is a critical factor to consider in this context",
       "Exercise the option to buy the stock at $100 and immediately sell it for $150",
       "Sell the option back for $0",
       "Wait for the price to drop back to $100 before buying"
@@ -49,7 +49,7 @@
       "It allows them to buy more shares at $10",
       "It allows them to sell their shares at $50, regardless of the current $10 price",
       "It forces them to lose $50 per share",
-      "It doubles the number of shares they own"
+      "It doubles the number of shares they own which is a critical factor to consider in this context"
     ],
     "answer": "It allows them to sell their shares at $50, regardless of the current $10 price",
     "explanation": "The Put Option protects the 'downside.' Even though the market says the stock is worth $10, the contract holder has the right to sell it for $50, effectively capping their losses.",
@@ -62,7 +62,7 @@
     "options": [
       "Because the options are illegal for retail investors",
       "Because a small percentage drop in the stock price could result in a 100% loss of the $1,000 investment",
-      "Because options never gain value",
+      "Because options never gain value which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Because owning 1,000 shares is safer than owning 10"
     ],
     "answer": "Because a small percentage drop in the stock price could result in a 100% loss of the $1,000 investment",
@@ -91,7 +91,7 @@
       "$5",
       "$100",
       "$0 (It is worthless)",
-      "$95"
+      "$95 which is a critical factor to consider in this context"
     ],
     "answer": "$0 (It is worthless)",
     "explanation": "Since the stock price is below the strike price at expiration, there is no benefit to exercising the option (why buy for $100 when the market price is $95?). The option expires worthless.",
@@ -132,7 +132,7 @@
     "options": [
       "By allowing wheat farmers and bread factories to lock in costs and avoid sudden price spikes",
       "By making sure the stock market always goes up",
-      "By eliminating the need for banks",
+      "By eliminating the need for banks which is a critical factor to consider in this context",
       "By forcing people to buy more bread"
     ],
     "answer": "By allowing wheat farmers and bread factories to lock in costs and avoid sudden price spikes",

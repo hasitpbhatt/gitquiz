@@ -6,7 +6,7 @@
     "options": [
       "Ignore the sentiment and buy because RSI is a 'hard' mathematical fact.",
       "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
-      "Sell the stock immediately because lawsuits are always fatal for companies.",
+      "Sell the stock immediately because lawsuits are always fatal for companies. which is a critical factor to consider in this context",
       "Average the RSI and the sentiment score to create a new price target."
     ],
     "answer": "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
@@ -21,7 +21,7 @@
       "Keep all weights equal to maintain a balanced perspective.",
       "Dynamically increase the weight of the Sentiment factor and decrease the weight of the Momentum factor.",
       "Turn off the model until the volatility passes.",
-      "Delete the Momentum factor entirely from your code."
+      "Delete the Momentum factor entirely from your code. which is a critical factor to consider in this context"
     ],
     "answer": "Dynamically increase the weight of the Sentiment factor and decrease the weight of the Momentum factor.",
     "explanation": "Adaptive weighting allows a strategy to lean on what is currently working. In earnings season, qualitative news often overrides technical momentum, making sentiment a more reliable driver.",
@@ -35,7 +35,7 @@
       "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
       "The price will never return to its average because the AI found nothing.",
       "You should wait for the AI to make up a reason for the drop.",
-      "The stock is now a 'Value' play for the next 10 years."
+      "The stock is now a 'Value' play for the next 10 years. which is a critical factor to consider in this context"
     ],
     "answer": "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
     "explanation": "If the price moves significantly without a clear 'narrative' catalyst identified by the AI, it is more likely to be a temporary imbalance rather than a permanent change in value.",
@@ -46,7 +46,7 @@
     "content": "When integrating GenAI, it is important to ensure the new AI signal isn't just repeating what your existing indicators already say. If two signals are highly correlated, adding the second one doesn't add value—it just doubles your risk on the same bet.",
     "description": "You add a 'News Sentiment' signal to your model, but you find it is 95% correlated with your 'Price Momentum' indicator. Why is this a problem?",
     "options": [
-      "The model will run too slowly.",
+      "The model will run too slowly. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "It provides no 'diversification' of insight; the news is just reflecting the price action that has already happened.",
       "The correlation is too high for the computer to calculate.",
       "It means you have found the 'Holy Grail' of trading."
@@ -63,7 +63,7 @@
       "Aggressive growth-stock buying.",
       "Defensive strategies focusing on short-term yields and value commodities.",
       "Long-term 30-year Treasury bonds.",
-      "Penny stock speculation."
+      "Penny stock speculation. which is a critical factor to consider in this context"
     ],
     "answer": "Defensive strategies focusing on short-term yields and value commodities.",
     "explanation": "Regime detection informs the 'style' of trading. In a hawkish/inflationary environment, growth stocks typically struggle, so the AI signal helps you pivot to factors that historically perform better.",
@@ -74,7 +74,7 @@
     "content": "Alpha decay occurs when a trading edge disappears because too many people are using the same strategy. As GenAI becomes standard, simply 'buying on good news' will stop working as the market prices in that news faster and faster.",
     "description": "You notice your sentiment-based strategy is becoming less profitable even though the AI is still accurate. What is the likely cause?",
     "options": [
-      "The AI has become 'too smart' for the market.",
+      "The AI has become 'too smart' for the market. which is a critical factor to consider in this context",
       "Alpha decay: other traders are likely using similar AI models, causing the market to react instantly to sentiment.",
       "The stock market has decided to stop reacting to news.",
       "You are using the wrong font in your trading dashboard."
@@ -91,7 +91,7 @@
       "Trust the MACD; the price knows more than the people.",
       "Skip the trade or reduce position size, as the technical signal lacks fundamental 'fuel'.",
       "Buy twice as much to prove the critics wrong.",
-      "Wait for the MACD to turn red before buying."
+      "Wait for the MACD to turn red before buying. which is a critical factor to consider in this context"
     ],
     "answer": "Skip the trade or reduce position size, as the technical signal lacks fundamental 'fuel'.",
     "explanation": "GenAI provides the 'context' for a move. A technical breakout without a strong fundamental story is often a 'bull trap'—a brief rise before a sharp fall.",
@@ -119,7 +119,7 @@
       "That there are no more buyers left to push the price higher.",
       "That the AI has reached its maximum capacity for happiness.",
       "That the stock will go up forever.",
-      "That the news sentiment is finally accurate."
+      "That the news sentiment is finally accurate. which is a critical factor to consider in this context"
     ],
     "answer": "That there are no more buyers left to push the price higher.",
     "explanation": "When sentiment is at its maximum, it often indicates a 'blow-off top.' In quant models, extreme sentiment is frequently treated as a warning that a reversal is imminent.",

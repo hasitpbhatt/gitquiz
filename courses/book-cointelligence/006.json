@@ -7,7 +7,7 @@
       "Replacing your role entirely.",
       "The 'AI as Coworker' model of delegation.",
       "A violation of office privacy protocols.",
-      "Linear task automation."
+      "Linear task automation. which is a critical factor to consider in this context"
     ],
     "answer": "The 'AI as Coworker' model of delegation.",
     "explanation": "Treating AI as a coworker involves delegating cognitively demanding but time-consuming tasks while maintaining the role of the 'lead' who makes the final decisions.",
@@ -21,7 +21,7 @@
       "Cyborg interaction.",
       "The Centaur model.",
       "Autonomous processing.",
-      "Manual redundancy."
+      "Manual redundancy. which is a critical factor to consider in this context"
     ],
     "answer": "The Centaur model.",
     "explanation": "Centaurs divide tasks based on who is best suited for them. The human does the 'human parts' and the AI does the 'machine parts' without blending them.",
@@ -46,7 +46,7 @@
     "content": "Research mentioned in Chapter 6 shows that AI can significantly raise the 'floor' of productivity. Lower-performing workers often see the biggest gains (up to 40% improvement), while top-tier workers see smaller gains. AI acts as an equalizer, bringing everyone closer to the top performance level.",
     "description": "A community center introduces AI to help its volunteer-run helpline. The newest volunteers see a massive jump in how quickly they can find answers, while the longtime volunteers see only a slight increase. This illustrates:",
     "options": [
-      "The AI is biased against longtime volunteers.",
+      "The AI is biased against longtime volunteers. which is a critical factor to consider in this context",
       "The AI's ability to raise the performance 'floor' for everyone.",
       "The failure of the AI to help experienced people.",
       "A technical glitch in the veteran volunteers' software."
@@ -76,7 +76,7 @@
     "options": [
       "The AI might charge more for its services.",
       "The lawyer has 'checked out' and is susceptible to an AI hallucination.",
-      "The AI prefers shorter cases.",
+      "The AI prefers shorter cases. which is a critical factor to consider in this context",
       "Other lawyers will be jealous of their speed."
     ],
     "answer": "The lawyer has 'checked out' and is susceptible to an AI hallucination.",
@@ -91,7 +91,7 @@
       "Optimized efficiency.",
       "Shadow AI usage.",
       "Academic sabotage.",
-      "Strategic rest."
+      "Strategic rest. which is a critical factor to consider in this context"
     ],
     "answer": "Shadow AI usage.",
     "explanation": "Shadow AI is the 'hidden' use of these tools. It creates an illusion of learning that prevents the student from truly building skills.",
@@ -105,7 +105,7 @@
       "You didn't pay for the pro version.",
       "You provided a low-context 'brief' that didn't specify tone, audience, or goal.",
       "You were too polite to the machine.",
-      "The AI is having a bad day."
+      "The AI is having a bad day. which is a critical factor to consider in this context"
     ],
     "answer": "You provided a low-context 'brief' that didn't specify tone, audience, or goal.",
     "explanation": "Successful 'AI as Coworker' interaction depends on the quality of the instruction. Specificity and context are the management tools of the future.",
@@ -119,7 +119,7 @@
       "Wasting the AI's efficiency.",
       "Reinvesting the productivity dividend into human-centric value.",
       "A Centaur model of scheduling.",
-      "Automating leadership."
+      "Automating leadership. which is a critical factor to consider in this context"
     ],
     "answer": "Reinvesting the productivity dividend into human-centric value.",
     "explanation": "The value of AI is that it clears the 'drudge work,' allowing humans to focus on the high-impact emotional and strategic work that machines cannot replicate.",
@@ -133,7 +133,7 @@
       "Because prompting is just coding by another name.",
       "Because you are coordinating the efforts of an 'alien' intelligence toward a human goal.",
       "Because it requires a degree in business administration.",
-      "Because the AI will eventually become the boss."
+      "Because the AI will eventually become the boss. which is a critical factor to consider in this context"
     ],
     "answer": "Because you are coordinating the efforts of an 'alien' intelligence toward a human goal.",
     "explanation": "Managing AI involves setting vision, checking quality, and iterating on results—the core functions of a traditional manager, now applied to machine collaborators.",

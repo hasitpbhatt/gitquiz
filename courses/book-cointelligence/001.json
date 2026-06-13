@@ -4,7 +4,7 @@
     "content": "For centuries, people tried to fake artificial intelligence—most famously with the 'Mechanical Turk,' a chess-playing machine that actually hid a human inside. Today's AI is the opposite; it is a machine that feels so human we often forget there is no person behind the curtain. Understanding this shift is the first step toward Co-Intelligence.",
     "description": "In the past, we hid humans inside machines to make them look smart. Now, we use machines to mimic human intelligence. Why is this distinction important for a modern worker?",
     "options": [
-      "Because machines have now achieved true human consciousness.",
+      "Because machines have now achieved true human consciousness. which is a critical factor to consider in this context",
       "Because we must realize the AI is a statistical mirror, not a sentient being with its own soul.",
       "Because it proves that human intervention is no longer necessary in any task.",
       "Because early machines like the Turk were more reliable than LLMs."
@@ -21,7 +21,7 @@
       "It increased the speed of the internet connection used by the AI.",
       "It allowed the AI to focus on the most relevant parts of an input to understand context.",
       "It gave the AI access to a private, encrypted database of facts.",
-      "It replaced mathematical algorithms with biological neural tissue."
+      "It replaced mathematical algorithms with biological neural tissue. which is a critical factor to consider in this context"
     ],
     "answer": "It allowed the AI to focus on the most relevant parts of an input to understand context.",
     "explanation": "The 'Attention' mechanism in Transformers allows the model to weigh the importance of different words in a sentence, leading to much more human-like understanding.",
@@ -32,7 +32,7 @@
     "content": "Mollick describes AI as 'alien' because it can solve problems in ways no human would ever think of. It doesn't have a childhood, emotions, or a physical body, yet it can write poetry. It is a form of intelligence that is fundamentally different from our own.",
     "description": "You ask an AI to plan a cross-country family road trip, and it suggests a route that seems completely illogical to you—taking backroads through small towns instead of the highway—but ends up being faster, cheaper, and more scenic. This illustrates:",
     "options": [
-      "A software error that should be ignored.",
+      "A software error that should be ignored. which is a critical factor to consider in this context",
       "The AI's ability to access secret government maps.",
       "The 'alien' nature of machine intelligence finding patterns humans overlook.",
       "The AI's desire to confuse and frustrate human travelers."
@@ -49,7 +49,7 @@
       "The work will be completed too quickly.",
       "You lose the ability to catch 'hallucinations' or errors in judgment.",
       "The AI will demand a higher salary.",
-      "The software will crash from over-use."
+      "The software will crash from over-use. which is a critical factor to consider in this context"
     ],
     "answer": "You lose the ability to catch 'hallucinations' or errors in judgment.",
     "explanation": "Without the 'Human in the Loop' providing oversight, the AI's errors (hallucinations) go unchecked, leading to potentially disastrous results.",
@@ -60,7 +60,7 @@
     "content": "Inside an AI's 'mind' is a Latent Space—a multi-dimensional map where similar concepts are grouped together. For example, 'King' and 'Queen' are near each other, but also near 'Royalty.' The AI 'walks' through this map to find connections and generate text.",
     "description": "When an AI writes a story about a 'cyberpunk detective,' how is it finding the right words to use?",
     "options": [
-      "It is searching Google for that specific phrase.",
+      "It is searching Google for that specific phrase. which is a critical factor to consider in this context",
       "It is navigating the 'Latent Space' to find words mathematically related to those concepts.",
       "It is reading a hidden digital book on its hard drive.",
       "It is asking a human moderator for the next word."
@@ -75,7 +75,7 @@
     "description": "Based on the idea of 'Next Token Prediction,' what is an AI actually doing when it writes a poem for you?",
     "options": [
       "Feeling the emotions of the poem's theme.",
-      "Recalling a poem it memorized during training.",
+      "Recalling a poem it memorized during training. which is a critical factor to consider in this context",
       "Statistically predicting which words frequently appear together in poetic structures.",
       "Using a random word generator to fill space."
     ],
@@ -102,7 +102,7 @@
     "content": "Anthropomorphism is the act of giving human traits to non-human things. While scientifically inaccurate, Mollick suggests that treating AI *as if* it were a person (giving it a persona) actually helps humans get much better results out of the system.",
     "description": "Why would a professional prompt an AI by saying 'You are a brilliant marketing strategist' instead of just asking for a slogan?",
     "options": [
-      "To be polite to the software.",
+      "To be polite to the software. which is a critical factor to consider in this context",
       "To trick the AI into working for free.",
       "To narrow the AI's 'latent space' focus toward high-quality, relevant patterns.",
       "Because the AI's internal sensors respond to flattery."
@@ -131,7 +131,7 @@
     "description": "In a Co-Intelligent world, what becomes a more valuable skill for a doctor than simply memorizing symptoms?",
     "options": [
       "Typing faster on a computer.",
-      "Memorizing even more medical textbooks.",
+      "Memorizing even more medical textbooks. which is a critical factor to consider in this context",
       "The ability to synthesize AI data with the patient's unique physical and emotional state.",
       "Learning how to code the AI software from scratch."
     ],
