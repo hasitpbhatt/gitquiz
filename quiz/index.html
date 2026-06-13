@@ -247,7 +247,11 @@
 
                     <div id="fillblank-ui" class="hidden space-y-3">
                         <input id="fillblank-input" type="text" placeholder="Type your answer..." class="w-full p-4 border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all">
-                        <button id="fillblank-submit" class="w-full p-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-800 shadow-lg shadow-blue-500/20 active:scale-[0.98] transition-all" onclick="submitFillBlank()">Submit Answer</button>
+                        <div class="flex gap-2">
+                            <button id="fillblank-submit" class="flex-1 p-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-800 shadow-lg shadow-blue-500/20 active:scale-[0.98] transition-all" onclick="submitFillBlank()">Submit Answer</button>
+                            <button id="fillblank-hint-btn" class="p-4 bg-amber-100 dark:bg-amber-800/40 hover:bg-amber-200 dark:hover:bg-amber-700/60 text-amber-700 dark:text-amber-300 rounded-2xl font-800 text-xl shadow-sm active:scale-[0.95] transition-all" onclick="showHint()" title="Get a hint">💡</button>
+                        </div>
+                        <div id="fillblank-hint" class="hidden text-sm font-500 text-slate-600 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/60 p-3 rounded-xl"></div>
                     </div>
 
                     <div id="explanation" class="hidden p-6 bg-emerald-50 dark:bg-emerald-900/20 rounded-2xl border border-emerald-100 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 animate-in fade-in slide-in-from-top-2 duration-300"></div>

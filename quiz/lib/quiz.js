@@ -54,6 +54,46 @@ function fuzzyMatch(input, target) {
     return levenshteinDistance(a, b) <= 2;
 }
 
+async function checkAnswerWithLLM(q, userAnswer) {
+    if (!MISTRAL_PROXY_URL || !q) return null;
+    try {
+        const res = await fetch(MISTRAL_PROXY_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                model: 'mistral-small-latest',
+                messages: [
+                    {
+                        role: 'system',
+                        content: 'You are evaluating a fill-in-the-blank quiz answer. Compare the student\'s answer to the expected answer. Reply with EXACTLY one word: "CORRECT" or "INCORRECT". Be generous: accept synonyms, rephrasing, minor typos, and equivalent concepts. Do not add any explanation.'
+                    },
+                    {
+                        role: 'user',
+                        content: `Question concept: ${q.question}\nContext: ${q.content || 'N/A'}\nExpected answer: ${q.answer}\nStudent's answer: ${userAnswer}`
+                    }
+                ]
+            })
+        });
+        if (!res.ok) return null;
+        const data = await res.json();
+        const content = data.choices?.[0]?.message?.content || data.content || '';
+        return content.trim().toUpperCase().startsWith('CORRECT');
+    } catch {
+        return null;
+    }
+}
+
+function showHint() {
+    const q = quizData[currentIdx];
+    if (!q) return;
+    const hintEl = document.getElementById('fillblank-hint');
+    if (!hintEl) return;
+    const words = q.answer.split(/\s+/).filter(w => w.length > 0);
+    const firstLetter = [...q.answer][0].toUpperCase();
+    hintEl.innerHTML = '💡 Starts with <strong>' + escapeHtml(firstLetter) + '</strong> · <strong>' + words.length + '</strong> word' + (words.length > 1 ? 's' : '');
+    hintEl.classList.remove('hidden');
+}
+
 function determineMode(q, idx) {
     sessionQuestionCount++;
     if (sessionQuestionCount <= 3) return 'mc';
@@ -138,6 +178,8 @@ function disableAllInteractive() {
     if (fillSubmit) { fillSubmit.disabled = true; }
     const fillInput = document.getElementById('fillblank-input');
     if (fillInput) { fillInput.disabled = true; }
+    const hintBtn = document.getElementById('fillblank-hint-btn');
+    if (hintBtn) hintBtn.disabled = true;
 }
 
 // ---------- Mode renderers ----------
@@ -248,7 +290,12 @@ function renderFillBlank(q) {
     input.value = '';
     input.className = 'w-full p-4 border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-600 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all';
     input.disabled = false;
-    document.getElementById('fillblank-submit').disabled = false;
+    const submitBtn = document.getElementById('fillblank-submit');
+    if (submitBtn) { submitBtn.textContent = 'Submit Answer'; submitBtn.disabled = false; }
+    const hintBtn = document.getElementById('fillblank-hint-btn');
+    if (hintBtn) hintBtn.disabled = false;
+    const hintEl = document.getElementById('fillblank-hint');
+    if (hintEl) hintEl.classList.add('hidden');
     input.focus();
 }
 
@@ -273,18 +320,29 @@ function flashcardSelfAssess(gotIt) {
     document.getElementById('flashcard-ui').classList.add('hidden');
 }
 
-function submitFillBlank() {
+async function submitFillBlank() {
     const q = quizData[currentIdx];
     if (!q) return;
     const input = document.getElementById('fillblank-input');
-    const userAnswer = input.value;
-    if (!userAnswer.trim()) {
+    const userAnswer = input.value.trim();
+    if (!userAnswer) {
         showNotify("Answer Required", "Please type your answer before submitting.");
         return;
     }
 
     disableAllInteractive();
-    const isCorrect = fuzzyMatch(userAnswer, q.answer);
+
+    let isCorrect = fuzzyMatch(userAnswer, q.answer);
+
+    if (!isCorrect) {
+        const submitBtn = document.getElementById('fillblank-submit');
+        if (submitBtn) submitBtn.textContent = 'Checking with AI...⏳';
+
+        const llmResult = await checkAnswerWithLLM(q, userAnswer);
+        if (llmResult !== null) {
+            isCorrect = llmResult;
+        }
+    }
 
     if (isCorrect) {
         input.classList.add('correct');
