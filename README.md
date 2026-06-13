@@ -39,13 +39,16 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   └── proxy/                        # Cloudflare Worker for AI explanations
 │       └── worker.js                 # Mistral AI proxy (POST, returns model response)
 ├── quiz/scripts/                     # Node.js utility scripts (run from project root)
-│   ├── validate.js                   # Validate a single course (arg: `<course-dir>`) 
-│   ├── validate-all.js               # Validate all courses: chapter counts, metadata sync, answer-in-options
-│   ├── generate-course.mjs           # CLI generator: input.json → split chapter files + metadata update
-│   ├── difficulty-tally.js           # Tally difficulty distribution (E/M/H) across all courses
-│   ├── difficulty-audit.js           # Print all questions with blank E/M/H brackets for labeling
+│   ├── answer-length-audit.js        # Detect answer-length bias (shortest/longest %)
+│   ├── assemble-course.mjs           # Assembly helper: ch-*.json → input.json
 │   ├── coverage-check.js             # Verify concept coverage against keyword inventory
-│   └── cross-chapter-repetition.js   # Detect concepts appearing in 3+ chapters
+│   ├── cross-chapter-repetition.js   # Detect concepts appearing in 3+ chapters
+│   ├── difficulty-audit.js           # Print all questions with blank E/M/H brackets for labeling
+│   ├── difficulty-tally.js           # Tally difficulty distribution (E/M/H) across all courses
+│   ├── fix-length-bias.mjs           # Auto-fix longest-answer bias by truncating conjunctions
+│   ├── generate-course.mjs           # CLI generator: input.json → split chapter files + metadata update
+│   ├── validate-all.js               # Validate all courses: chapter counts, metadata sync, bias checks
+│   └── validate.js                   # Validate a single course (arg: `<course-dir>`)
 ├── .opencode/                        # OpenCode AI agent configuration
 │   ├── skill/hasits-plan/SKILL.md    # Plan persistence for LLM context survival
 │   └── skill/syllabus-to-quiz/SKILL.md # Workflow for converting courses to quizzes
@@ -99,6 +102,7 @@ Each course folder contains numbered chapter files (`001.json`, `002.json`, ...)
 - **4 options**: Exactly 4 strings in `options`. No fewer, no more.
 - **No positional references**: Options must not reference other options by letter (e.g., "Both A and B", "All of the above", "A & C"). These break when options are shuffled at runtime.
 - **Difficulty enum**: Must be `"easy"`, `"medium"`, or `"hard"` — lowercase, no other values.
+- **No answer-length bias**: The answer must not be uniquely longer or shorter than all other options. Use `answer-length-audit.js` to detect bias and `fix-length-bias.mjs` to auto-fix.
 
 ### Difficulty Distribution
 
@@ -114,6 +118,7 @@ Hard question techniques: trapdoor option, reverse application, boundary case, c
 | Course | Chapters | Source |
 |--------|----------|--------|
 | book-algorithms-to-live-by | 7 | Algorithms to Live By |
+| book-almanack-of-naval-ravikant | 10 | The Almanack of Naval Ravikant |
 | book-atomic-habits | 11 | Atomic Habits |
 | book-beginning-of-infinity | 8 | The Beginning of Infinity |
 | book-bhagavad-gita | 11 | Bhagavad Gita |
@@ -127,6 +132,8 @@ Hard question techniques: trapdoor option, reverse application, boundary case, c
 | book-the-changing-world-order | 15 | The Changing World Order |
 | book-the-great-mental-models-v1 | 11 | The Great Mental Models Volume 1 |
 | book-the-great-mental-models-v2 | 15 | The Great Mental Models Volume 2 |
+| book-the-great-mental-models-v3 | 17 | The Great Mental Models Volume 3 |
+| book-the-great-mental-models-v4 | 6 | The Great Mental Models Volume 4 |
 | book-the-psychology-of-money | 20 | The Psychology of Money |
 | book-the-startup-of-you | 9 | The Startup of You |
 | coursera-financial-markets-global | 12 | Coursera: Financial Markets |
@@ -145,13 +152,15 @@ Utility scripts in `quiz/scripts/`. Run with `node quiz/scripts/<name>` from the
 
 | Script | Purpose |
 |--------|---------|
+| `answer-length-audit.js` | Detect answer-length bias (shortest/longest %) — arg: `<course-id>` (default: all courses) |
 | `validate.js` | Validate a single course — arg: `<course-dir>` (default: `courses/course-identifier`) |
-| `validate-all.js` | Validate every course: chapter counts (7-12), metadata sync, answer-in-options, positional refs, filename format |
+| `validate-all.js` | Validate every course: chapter counts (7-12), metadata sync, answer-in-options, positional refs, filename format, answer-length bias |
 | `difficulty-tally.js` | Auto-tally E/M/H distribution across all courses |
 | `difficulty-audit.js` | Print all questions with blank E/M/H brackets for manual labeling — arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `coverage-check.js` | Verify concept inventory coverage — edit `inventory` array; arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `cross-chapter-repetition.js` | Detect concepts appearing in 3+ chapters — edit `conceptGroups`; arg: `<course-dir>` (default: `courses/course-identifier`) |
 | `assemble-course.mjs` | **Assembly helper**: `node quiz/scripts/assemble-course.mjs <course-id>` — reads `ch-*.json` files from `courses/<id>/` and outputs an `input.json` for the generator. Deletes `input.json` after use. |
+| `fix-length-bias.mjs` | **Auto-fix longest-answer bias**: `node quiz/scripts/fix-length-bias.mjs <course-id>` — reduces over-long answers by truncating conjunction clauses ("because", "which"). Run after `answer-length-audit.js` detects bias. |
 | `generate-course.mjs` | **CLI generator**: `node quiz/scripts/generate-course.mjs input.json` — reads a single input JSON (id, chapters[] with title+seq+questions[]), produces split 001-00N.json files, validates, creates dir, updates `courses_list.txt` and `courses-meta.json`. Supports `--dry-run`. |
 
 ## Adding a New Course
