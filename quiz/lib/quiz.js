@@ -117,7 +117,8 @@ function showExplanationAfterAnswer(q, isCorrect, selectedAnswer) {
 
     const expText = q.explanation || "Correct! Moving to next section.";
     const expEl = document.getElementById('explanation');
-    expEl.innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4><p class="text-sm font-500">${escapeHtml(expText)}</p>`;
+    const answerReveal = isCorrect ? '' : `<p class="text-sm font-700 text-emerald-600 dark:text-emerald-400 mb-2">Correct answer: ${escapeHtml(q.answer)}</p>`;
+    expEl.innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4>${answerReveal}<p class="text-sm font-500">${escapeHtml(expText)}</p>`;
     expEl.classList.remove('hidden');
     document.getElementById('topic-title').classList.remove('hidden');
     document.getElementById('content-box').classList.remove('hidden');
