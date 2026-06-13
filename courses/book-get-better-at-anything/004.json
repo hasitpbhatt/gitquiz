@@ -103,11 +103,11 @@
     "description": "Thomas Edison conducted thousands of experiments before creating a working light bulb. When asked about failures he said he found thousands of ways that did not work. This best illustrates:",
     "options": [
       "Edison was inefficient and should have spent more time theorizing before experimenting",
-      "Massive experimentation generates the data and insights needed for breakthrough success",
+      "Massive experimentation generates the data and insights needed for breakthrough",
       "Luck is the most important factor in invention",
       "Persistence without direction is pointless"
     ],
-    "answer": "Massive experimentation generates the data and insights needed for breakthrough success",
+    "answer": "Massive experimentation generates the data and insights needed for breakthrough",
     "explanation": "Edison volume of experiments meant he explored the solution space thoroughly. Each failed experiment provided information that guided subsequent attempts, ultimately leading to success.",
     "difficulty": "medium"
   }

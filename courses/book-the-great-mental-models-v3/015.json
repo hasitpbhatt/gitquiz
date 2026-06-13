@@ -6,10 +6,10 @@
     "options": [
       "Eating ice cream causes people to drown",
       "Drowning causes people to buy more ice cream",
-      "A third variable causes both increases — not causation",
+      "A third variable causes both increases — not",
       "The correlation is strong enough to prove causation"
     ],
-    "answer": "A third variable causes both increases — not causation",
+    "answer": "A third variable causes both increases — not",
     "explanation": "This classic spurious correlation illustrates that correlation alone does not establish causation. A confounding variable — summer heat — drives both ice cream consumption and swimming activity.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A pharmaceutical company runs a randomized controlled trial: 1,000 patients receive a new drug, 1,000 receive a placebo. The drug group recovers 30% faster. What makes this evidence of causation rather than mere correlation?",
     "options": [
       "The sample size is large enough to detect any correlation",
-      "Random assignment controls for confounders, isolating the drug as the cause",
+      "Random assignment controls for confounders, isolating the",
       "The pharmaceutical company's reputation validates the result",
       "Correlation always implies causation in medical research"
     ],
-    "answer": "Random assignment controls for confounders, isolating the drug as the cause",
+    "answer": "Random assignment controls for confounders, isolating the",
     "explanation": "Randomized controlled trials are the gold standard for establishing causation because random assignment eliminates confounding variables, allowing the treatment to be isolated as the causal factor.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "In its early days, Facebook noticed users who added more friends in their first week were more likely to stay active. Rather than pushing automated friend matching, they discovered the real causal driver was reaching 7 friends to trigger a personalized news feed. What does this teach us?",
     "options": [
       "More friends directly cause higher retention through social pressure",
-      "Correlation points to a relationship; controlled experiments reveal the causal mechanism",
+      "Correlation points to a relationship; controlled experiments reveal",
       "The number of friends is irrelevant to user retention",
       "Facebook should have focused only on acquiring more users"
     ],
-    "answer": "Correlation points to a relationship; controlled experiments reveal the causal mechanism",
+    "answer": "Correlation points to a relationship; controlled experiments reveal",
     "explanation": "The raw correlation (more friends = better retention) could have led to a suboptimal strategy. Only by investigating the causal mechanism — the 7-friend threshold activating the news feed — did Facebook find the true lever.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A company observes that employees who take more vacation days receive higher performance ratings. Should they mandate more vacation to improve performance?",
     "options": [
       "Yes — the data clearly shows vacation improves performance",
-      "No — a confounder (like high performers taking more vacation) explains the correlation",
+      "No — a confounder (like high performers taking more vacation)",
       "Yes, but only if the vacation is taken during non-peak seasons",
       "No, because vacation always reduces productivity"
     ],
-    "answer": "No — a confounder (like high performers taking more vacation) explains the correlation",
+    "answer": "No — a confounder (like high performers taking more vacation)",
     "explanation": "Confounding variables can reverse the apparent direction of causality. Without controlling for confounders, the observed correlation may be misleading. A randomized experiment would be needed to establish causation.",
     "difficulty": "hard"
   },
@@ -61,26 +61,25 @@
     "description": "An e-commerce site changes its checkout button from blue to green and sees a 5% conversion increase. Why can they be confident the color change caused the improvement?",
     "options": [
       "Green is universally more appealing than blue in web design",
-      "The A/B test's random assignment made the button color the only difference, isolating the cause",
+      "The A/B test's random assignment made the button color the only difference,",
       "Correlation between color change and conversion rate is sufficient proof",
       "The 5% increase is statistically significant, so no further validation is needed"
     ],
-    "answer": "The A/B test's random assignment made the button color the only difference, isolating the cause",
+    "answer": "The A/B test's random assignment made the button color the only difference,",
     "explanation": "A properly designed A/B test with random assignment eliminates confounders. If the only difference between groups is the button color, the conversion difference must be caused by that change.",
     "difficulty": "easy"
   },
   {
     "question": "Spurious Correlations in Data Science",
     "content": "When analyzing large datasets, spurious correlations appear frequently by chance. The more variables you test, the higher the probability of finding statistically significant but meaningless correlations.",
-    "description": "A data scientist tests 1,000 different variable pairs and finds 50 statistically significant correlations. How should they interpret this?",
     "description": "A data scientist tests 1,000 different variable pairs and finds 50 statistically significant correlations (p < 0.05). What is the most likely explanation?",
     "options": [
       "All 50 correlations represent genuine causal relationships ripe for exploitation",
-      "At a 5% significance level, 50 false positives are expected by chance — most are spurious",
+      "At a 5% significance level, 50 false positives are expected by chance — most are",
       "The data scientist used the wrong statistical test",
       "The dataset is too small for meaningful analysis"
     ],
-    "answer": "At a 5% significance level, 50 false positives are expected by chance — most are spurious",
+    "answer": "At a 5% significance level, 50 false positives are expected by chance — most are",
     "explanation": "With 1,000 tests at α = 0.05, we expect 50 significant results purely by chance (1,000 × 0.05 = 50). This is the multiple comparisons problem. Adjustments like Bonferroni correction are needed.",
     "difficulty": "hard"
   },
@@ -91,10 +90,10 @@
     "options": [
       "Exercise improves mental health through endorphin release and stress reduction",
       "Good mental health increases motivation to exercise",
-      "Both directions are plausible — correlation alone cannot reveal direction or bidirectionality",
+      "Both directions are plausible — correlation alone cannot reveal direction or",
       "The correlation is definitely spurious because mental health is subjective"
     ],
-    "answer": "Both directions are plausible — correlation alone cannot reveal direction or bidirectionality",
+    "answer": "Both directions are plausible — correlation alone cannot reveal direction or",
     "explanation": "Bidirectional causality (feedback loops) is common in complex systems. Exercise boosts mood, and better mood increases exercise frequency. Correlation alone cannot disentangle this bidirectional relationship.",
     "difficulty": "medium"
   },
@@ -104,11 +103,11 @@
     "description": "A SaaS company notices that customers who attend a product webinar in their first week have 40% higher lifetime value. Which action correctly applies the Causal Proof Rule?",
     "options": [
       "Immediately double the webinar marketing budget based on this clear signal",
-      "Run a randomized experiment: invite some users and exclude others, then compare lifetime value",
+      "Run a randomized experiment: invite some users and exclude others, then",
       "Ignore the correlation because it is probably spurious",
       "Replace the webinar with a different customer engagement strategy entirely"
     ],
-    "answer": "Run a randomized experiment: invite some users and exclude others, then compare lifetime value",
+    "answer": "Run a randomized experiment: invite some users and exclude others, then",
     "explanation": "The correlation may be driven by a confounder (highly engaged customers self-select into webinars). Only a randomized experiment can isolate whether the webinar itself causes higher value.",
     "difficulty": "hard"
   }

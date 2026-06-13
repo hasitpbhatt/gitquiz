@@ -5,11 +5,11 @@
     "description": "A pianist plays the same piece they have mastered for years without improving. To improve through deliberate practice, they should:",
     "options": [
       "Practice more hours of the same piece",
-      "Focus on the hardest sections, get feedback from a teacher, and repeatedly correct mistakes",
+      "Focus on the hardest sections, get",
       "Switch to a different instrument entirely",
       "Perform the piece in public more often"
     ],
-    "answer": "Focus on the hardest sections, get feedback from a teacher, and repeatedly correct mistakes",
+    "answer": "Focus on the hardest sections, get",
     "explanation": "Deliberate practice is not mere repetition. It requires focused attention on weaknesses, immediate feedback, and repeated refinement. Mindless repetition reinforces existing habits rather than building new capabilities.",
     "difficulty": "medium"
   },
@@ -20,10 +20,10 @@
     "options": [
       "The challenge is far above your skill level, pushing growth",
       "The challenge is far below your skill level, ensuring success",
-      "The challenge closely matches your skill level, creating engagement",
+      "The challenge closely matches your skill level, creating",
       "You stop playing the game entirely"
     ],
-    "answer": "The challenge closely matches your skill level, creating engagement",
+    "answer": "The challenge closely matches your skill level, creating",
     "explanation": "Flow requires a balance between perceived challenges and skills. When both are high and matched, you enter a state of deep focus where time distorts, self-consciousness fades, and performance peaks.",
     "difficulty": "medium"
   },
@@ -34,10 +34,10 @@
     "options": [
       "I am just not good at math and never will be",
       "The test was unfair and the teacher is biased",
-      "I need to study different strategies, ask for help, and practice more",
+      "I need to study different strategies, ask for",
       "Math is not important for my future anyway"
     ],
-    "answer": "I need to study different strategies, ask for help, and practice more",
+    "answer": "I need to study different strategies, ask for",
     "explanation": "A growth mindset sees failure as information about what to improve, not as a verdict on fixed ability. This leads to resilience, embracing challenges, and ultimately higher achievement over time.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A top salesperson gets promoted to sales manager and struggles terribly. This is predicted by:",
     "options": [
       "The salesperson did not want the promotion",
-      "The Peter Principle - skills for selling differ from skills for managing sellers",
+      "The Peter Principle - skills for selling differ",
       "The company did not provide enough training",
       "The salesperson stopped trying after the promotion"
     ],
-    "answer": "The Peter Principle - skills for selling differ from skills for managing sellers",
+    "answer": "The Peter Principle - skills for selling differ",
     "explanation": "The Peter Principle: people are promoted based on success in their current role, but each promotion requires different skills. Eventually, everyone reaches a role they cannot master, and the organization fills with incompetent managers.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "A company has strict rules against corruption but a culture where bribes are expected. Most employees will:",
     "options": [
       "Follow the official rules because they are written down",
-      "Follow the cultural norms because social pressure is stronger than formal policy",
+      "Follow the cultural norms because social pressure is",
       "Report violations to authorities immediately",
       "Quit the company due to ethical concerns"
     ],
-    "answer": "Follow the cultural norms because social pressure is stronger than formal policy",
+    "answer": "Follow the cultural norms because social pressure is",
     "explanation": "Culture eats strategy for breakfast. Formal rules define minimum acceptable behavior, but culture shapes what actually happens day-to-day. Social norms, peer pressure, and unspoken expectations often override official policies.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A startup has a beautifully designed app, but only 50 users sign up despite months of effort. The likely problem is:",
     "options": [
       "The app has too many bugs",
-      "The app lacks Product/Market Fit - the market does not need what they built",
+      "The app lacks Product/Market Fit",
       "The price is too high",
       "The marketing budget is too small"
     ],
-    "answer": "The app lacks Product/Market Fit - the market does not need what they built",
+    "answer": "The app lacks Product/Market Fit",
     "explanation": "Product/Market Fit is the only thing that matters for early-stage startups. Without it, better design, more features, or more marketing cannot compensate. The product must solve a real, painful problem that enough people share.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Why do many people stay with a bank they dislike despite better alternatives being available?",
     "options": [
       "They enjoy complaining about their bank",
-      "Switching costs are high - updating auto-payments, direct deposits, and re-establishing credit history takes significant effort",
+      "Switching costs are high - updating auto-payments,",
       "Better banks do not actually exist",
       "They signed a lifetime contract with their current bank"
     ],
-    "answer": "Switching costs are high - updating auto-payments, direct deposits, and re-establishing credit history takes significant effort",
+    "answer": "Switching costs are high - updating auto-payments,",
     "explanation": "Switching costs create lock-in. Even when a competitor offers a better product, the hassle of switching (re-entering data, learning new systems, transferring accounts) keeps customers stuck. Companies exploit this to retain customers.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A ride-sharing app connects drivers and riders. The more riders join, the more drivers are needed. The more drivers join, the faster rides come for riders. This is:",
     "options": [
       "A traditional linear business model",
-      "A platform strategy leveraging cross-side network effects between two groups",
+      "A platform strategy leveraging",
       "A charity service for transportation",
       "A government transportation program"
     ],
-    "answer": "A platform strategy leveraging cross-side network effects between two groups",
+    "answer": "A platform strategy leveraging",
     "explanation": "Platforms create multi-sided markets where each group's participation adds value for the other group (cross-side network effects). This differs from linear businesses that simply make and sell products.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "A bank makes risky loans knowing the government will bail it out if they fail. This behavior is called:",
     "options": [
       "Prudent risk management in pursuit of profit",
-      "Moral hazard - the bank takes excessive risk because the downside is covered by taxpayers",
+      "Moral hazard - the bank takes excessive risk because",
       "Market efficiency at work",
       "The bank is being innovative with its lending strategy"
     ],
-    "answer": "Moral hazard - the bank takes excessive risk because the downside is covered by taxpayers",
+    "answer": "Moral hazard - the bank takes excessive risk because",
     "explanation": "Moral hazard arises when protection from consequences encourages riskier behavior. If losses are socialized (taxpayer bailout) while profits are privatized, the party making decisions has no incentive to avoid excessive risk.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "Airbnb succeeded because people thought strangers staying in homes was a bad idea. Uber succeeded despite people thinking ride-sharing was unsafe. These companies found:",
     "options": [
       "Obvious business opportunities that everyone saw",
-      "Secret opportunities - valuable businesses that seemed like bad ideas at first",
+      "Secret opportunities - valuable businesses that",
       "Government contracts that guaranteed success",
       "Technologies that did not exist before"
     ],
-    "answer": "Secret opportunities - valuable businesses that seemed like bad ideas at first",
+    "answer": "Secret opportunities - valuable businesses that",
     "explanation": "Great opportunities often look like bad ideas because they violate conventional wisdom. The Secret Model means finding something valuable that few people are working on, often because it seems counterintuitive or risky.",
     "difficulty": "hard"
   }

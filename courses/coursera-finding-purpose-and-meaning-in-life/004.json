@@ -32,12 +32,12 @@
     "content": "A purpose that terminates within your own skin is self-improvement. True purpose requires an intentional outward pivot.",
     "description": "Your goal is to meditate daily for inner peace. Why might this not qualify as a purpose?",
     "options": [
-      "It terminates within yourself rather than pivoting outward",
+      "It terminates within yourself",
       "It is not challenging enough",
       "It requires no talent",
       "It lacks personal meaningfulness"
     ],
-    "answer": "It terminates within yourself rather than pivoting outward",
+    "answer": "It terminates within yourself",
     "explanation": "True purpose must interface with the external world beyond self-improvement.",
     "difficulty": "easy"
   },
@@ -60,12 +60,12 @@
     "content": "Find the specific need you are uniquely equipped to feed by auditing across micro, meso, and macro spheres.",
     "description": "You care about climate change, financial literacy gaps among foster children, and lonely elderly neighbors. How should you prioritize?",
     "options": [
-      "Find the need you are uniquely equipped to address",
+      "Find the need you are uniquely",
       "Tackle all three simultaneously",
       "Always prioritize the macro sphere",
       "Focus only on the micro sphere"
     ],
-    "answer": "Find the need you are uniquely equipped to address",
+    "answer": "Find the need you are uniquely",
     "explanation": "The Empathy Audit helps identify where your unique talents intersect with a specific need.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "Your purpose ties to a problem you care enough to suffer for, identified by which problems haunt you after closing the news.",
     "description": "You lie awake thinking about educational disparities but forget articles about traffic reform. What does this tell you?",
     "options": [
-      "Educational disparities may connect to your purpose",
+      "Educational disparities may",
       "You need to stop reading the news",
       "Traffic reform is more important",
       "You should pursue both equally"
     ],
-    "answer": "Educational disparities may connect to your purpose",
+    "answer": "Educational disparities may",
     "explanation": "Your purpose connects to problems that haunt you after exposure.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "Surviving a dark corridor of human experience creates a map to hand to others, making your suffering a unique form of expertise.",
     "description": "A lawyer who faced workplace discrimination now fights employment bias. How does her suffering relate to her purpose?",
     "options": [
-      "Her suffering gave unique empathy and insight powering her purpose",
+      "Her suffering gave unique empathy and insight powering",
       "Her purpose would be stronger without emotional baggage",
       "Suffering is irrelevant to work quality",
       "Her suffering limits her effectiveness"
     ],
-    "answer": "Her suffering gave unique empathy and insight powering her purpose",
+    "answer": "Her suffering gave unique empathy and insight powering",
     "explanation": "The Biography of Wounds teaches that personal suffering creates unique expertise for contribution.",
     "difficulty": "hard"
   },

@@ -4,12 +4,12 @@
     "content": "The memory hierarchy consists of multiple storage levels with different speeds and sizes, from fastest/smallest (registers) to slowest/largest (disk/tape).",
     "description": "You're organizing a writer's desk with sticky notes (immediate ideas), filing cabinets (reference materials), and basement archives (old drafts). How does this relate to the memory hierarchy?",
     "options": [
-      "Sticky notes are like CPU registers (fastest, smallest),",
+      "Sticky notes are like CPU registers (fastest,",
       "All storage locations should be used equally",
       "Everything should go in the basement for safety",
       "Only use the desktop surface for storage"
     ],
-    "answer": "Sticky notes are like CPU registers (fastest, smallest),",
+    "answer": "Sticky notes are like CPU registers (fastest,",
     "explanation": "Just like computer memory hierarchy, your desk organizes items by access speed and frequency: sticky notes for immediate access (registers), filing cabinets for regular reference (RAM), and archives for infrequently accessed items (disk storage).",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "LRU eviction policy removes the item that has been unused for the longest time, based on temporal locality (recently used items are likely to be used again).",
     "description": "You're using the closet organization trick: hanging recently worn clothes on the leftmost side of your rod. What caching principle does this implement?",
     "options": [
-      "Least Recently Used (LRU) - the leftmost items are most",
+      "Least Recently Used (LRU) -",
       "First-In-First-Out (FIFO)",
       "Random selection",
       "Least Frequently Used (LFU)"
     ],
-    "answer": "Least Recently Used (LRU) - the leftmost items are most",
+    "answer": "Least Recently Used (LRU) -",
     "explanation": "By hanging worn clothes on the leftmost side, you're implementing LRU: items migrate left when used, so the leftmost items are most recently used and rightmost items are least recently used (candidates for removal/donation).",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "Cache performance depends on access patterns. Conflict misses occur when multiple frequently-used memory locations map to the same cache line. Capacity misses occur when the working set exceeds cache size. The 'working set' is the set of pages a process accesses in a given time window.",
     "description": "A database server suddenly slows down after running fine for weeks. Investigation reveals that a routine software update increased the size of the database connection pool data structures by 15%. Under the working set model, why might adding 15% more memory cause a disproportionate (>10x) performance degradation?",
     "options": [
-      "The small increase pushed the working set past a critical cache boundary, causing near-total cache misses for that data",
+      "The small increase pushed the working set past a critical cache boundary, causing near-total",
       "The software update introduced a memory leak that progressively consumes all available memory",
       "The 15% increase directly causes a 15% slowdown because more data must be processed linearly",
       "The new data structures contain corrupted pointers that crash the cache controller"
     ],
-    "answer": "The small increase pushed the working set past a critical cache boundary, causing near-total cache misses for that data",
+    "answer": "The small increase pushed the working set past a critical cache boundary, causing near-total",
     "explanation": "Cache performance follows threshold behavior rather than linear scaling. When a working set fits entirely in cache, hit rates can be near 100%. When it exceeds the cache size by even a small amount, the cache becomes ineffective because every access evicts data that will be needed again soon. This 'critical working set size' boundary means a small increase in data size can cause a dramatic non-linear collapse in cache performance, explaining the 10x+ slowdown from a 15% memory increase.",
     "difficulty": "hard"
   },
@@ -46,12 +46,12 @@
     "content": "Belady's Anomaly is the counterintuitive phenomenon where increasing the number of page frames (cache size) can lead to more page faults (worse performance) for certain page replacement algorithms.",
     "description": "You've added more storage space to your computer system but noticed performance actually got worse in some situations. What might explain this?",
     "options": [
-      "Belady's Anomaly - certain caching algorithms perform worse with",
+      "Belady's Anomaly - certain caching",
       "You have a virus",
       "The new storage is defective",
       "You're imagining the performance decrease"
     ],
-    "answer": "Belady's Anomaly - certain caching algorithms perform worse with",
+    "answer": "Belady's Anomaly - certain caching",
     "explanation": "With some page replacement algorithms (like FIFO), increasing cache size can paradoxically increase page faults for certain memory access patterns, demonstrating that more resources don't always improve performance.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Random eviction policy selects an item uniformly at random for removal when space is needed, providing simplicity but no optimization for access patterns.",
     "description": "Your storage bin is overflowing with craft supplies. You decide to throw away a random item to make space. What caching principle are you applying?",
     "options": [
-      "Random Eviction - choosing an item to discard without considering",
+      "Random Eviction - choosing",
       "Least Recently Used (LRU)",
       "Least Frequently Used (LFU)",
       "First-In-First-Out (FIFO)"
     ],
-    "answer": "Random Eviction - choosing an item to discard without considering",
+    "answer": "Random Eviction - choosing",
     "explanation": "Random eviction ignores all usage history and simply picks an item at random to remove. While simple to implement, it doesn't leverage temporal or frequency locality like LRU or LFU do.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "Human forgetting may be adaptive, functioning as an optimal filter that prevents cognitive overload by prioritizing important or frequently used memories.",
     "description": "You've noticed that you forget trivial details but remember important life events. How might this be beneficial rather than a flaw?",
     "options": [
-      "Forgetting acts as an optimal filter to clear mental clutter and prioritize",
+      "Forgetting acts as an optimal filter to clear mental",
       "It indicates early-stage dementia",
       "You're not trying hard enough to remember",
       "All forgetting is detrimental and should be prevented"
     ],
-    "answer": "Forgetting acts as an optimal filter to clear mental clutter and prioritize",
+    "answer": "Forgetting acts as an optimal filter to clear mental",
     "explanation": "Rather than being a defect, forgetting helps prevent cognitive overload by automatically deprioritizing infrequently used information, similar to how caching algorithms evict less useful data to make room for more relevant information.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "Spatial locality is the tendency for items whose storage locations are close together to be used in close temporal proximity.",
     "description": "You're arranging your kitchen counter and considering where to place salt, pepper, and cooking oil. What principle should guide your decision?",
     "options": [
-      "Store frequently used-together items near each other (spatial locality)",
+      "Store frequently used-together items near each",
       "Alphabetize all spices and oils",
       "Store them in alphabetical order by expiration date",
       "Keep them as far apart as possible"
     ],
-    "answer": "Store frequently used-together items near each other (spatial locality)",
+    "answer": "Store frequently used-together items near each",
     "explanation": "Spatial locality suggests storing items that are used together or in sequence near each other. Since you often use salt, pepper, and oil together when cooking, keeping them adjacent reduces retrieval time and effort.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "\"Flashing the cache\" refers to completely clearing all cached data, forcing a complete reload from main storage on the next access.",
     "description": "You're feeling mentally scattered and unfocused after weeks of multitasking. You decide to take a digital detox weekend. What analogy does this represent?",
     "options": [
-      "Flashing the cache - completely clearing mental state to reset",
+      "Flashing the cache - completely",
       "Only checking email once per day",
       "Drinking more coffee",
       "Never taking breaks"
     ],
-    "answer": "Flashing the cache - completely clearing mental state to reset",
+    "answer": "Flashing the cache - completely",
     "explanation": "Just as flashing a computer cache clears all temporary data to force a fresh reload, a radical digital detox clears accumulated mental clutter and context-switching residue, allowing you to reset your cognitive baseline.",
     "difficulty": "medium"
   }

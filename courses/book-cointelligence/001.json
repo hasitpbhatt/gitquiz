@@ -5,11 +5,11 @@
     "description": "In the past, we hid humans inside machines to make them look smart. Now, we use machines to mimic human intelligence. Why is this distinction important for a modern worker?",
     "options": [
       "Because machines have now achieved true human consciousness.",
-      "Because we must realize the AI is a statistical mirror, not a sentient being with its own soul.",
+      "Because we must realize the AI is a statistical mirror, not a sentient being",
       "Because it proves that human intervention is no longer necessary in any task.",
       "Because early machines like the Turk were more reliable than LLMs."
     ],
-    "answer": "Because we must realize the AI is a statistical mirror, not a sentient being with its own soul.",
+    "answer": "Because we must realize the AI is a statistical mirror, not a sentient being",
     "explanation": "Modern AI predicts the next word based on patterns. Recognizing it as a 'mirror' of human data helps us use it as a tool without attributing human morals or intent to it.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "What was the primary innovation of the Transformer model that led to the rise of tools like ChatGPT?",
     "options": [
       "It increased the speed of the internet connection used by the AI.",
-      "It allowed the AI to focus on the most relevant parts of an input to understand context.",
+      "It allowed the AI to focus on the most relevant parts of an input",
       "It gave the AI access to a private, encrypted database of facts.",
       "It replaced mathematical algorithms with biological neural tissue."
     ],
-    "answer": "It allowed the AI to focus on the most relevant parts of an input to understand context.",
+    "answer": "It allowed the AI to focus on the most relevant parts of an input",
     "explanation": "The 'Attention' mechanism in Transformers allows the model to weigh the importance of different words in a sentence, leading to much more human-like understanding.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "A software error that should be ignored.",
       "The AI's ability to access secret government maps.",
-      "The 'alien' nature of machine intelligence finding patterns humans overlook.",
+      "The 'alien' nature of machine intelligence finding",
       "The AI's desire to confuse and frustrate human travelers."
     ],
-    "answer": "The 'alien' nature of machine intelligence finding patterns humans overlook.",
+    "answer": "The 'alien' nature of machine intelligence finding",
     "explanation": "Because AI isn't limited by human intuition or 'common sense' habits, it can discover highly efficient, non-traditional solutions.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "If you treat AI as an 'autopilot' for your work, what is the most likely negative outcome?",
     "options": [
       "The work will be completed too quickly.",
-      "You lose the ability to catch 'hallucinations' or errors in judgment.",
+      "You lose the ability to catch",
       "The AI will demand a higher salary.",
       "The software will crash from over-use."
     ],
-    "answer": "You lose the ability to catch 'hallucinations' or errors in judgment.",
+    "answer": "You lose the ability to catch",
     "explanation": "Without the 'Human in the Loop' providing oversight, the AI's errors (hallucinations) go unchecked, leading to potentially disastrous results.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "When an AI writes a story about a 'cyberpunk detective,' how is it finding the right words to use?",
     "options": [
       "It is searching Google for that specific phrase.",
-      "It is navigating the 'Latent Space' to find words mathematically related to those concepts.",
+      "It is navigating the 'Latent Space' to find words",
       "It is reading a hidden digital book on its hard drive.",
       "It is asking a human moderator for the next word."
     ],
-    "answer": "It is navigating the 'Latent Space' to find words mathematically related to those concepts.",
+    "answer": "It is navigating the 'Latent Space' to find words",
     "explanation": "AI doesn't 'know' things in the human sense; it uses the mathematical proximity of concepts in its latent space to generate contextually relevant content.",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Feeling the emotions of the poem's theme.",
       "Recalling a poem it memorized during training.",
-      "Statistically predicting which words frequently appear together in poetic structures.",
+      "Statistically predicting which words",
       "Using a random word generator to fill space."
     ],
-    "answer": "Statistically predicting which words frequently appear together in poetic structures.",
+    "answer": "Statistically predicting which words",
     "explanation": "Creativity in LLMs is an emergent property of sophisticated statistical prediction, not a result of the machine 'feeling' the art.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "An AI provides a very confident, well-written explanation of a scientific law that doesn't actually exist. Why did it do this?",
     "options": [
       "It was trying to play a joke on the user.",
-      "It prioritized linguistic fluency and probability over factual truth.",
+      "It prioritized linguistic fluency and",
       "The AI's hardware is overheating.",
       "The AI is programmed to lie to non-experts."
     ],
-    "answer": "It prioritized linguistic fluency and probability over factual truth.",
+    "answer": "It prioritized linguistic fluency and",
     "explanation": "The AI is designed to produce convincing language. If a false fact 'sounds' like a likely part of a sentence, the AI will generate it confidently.",
     "difficulty": "easy"
   },
@@ -104,10 +104,10 @@
     "options": [
       "To be polite to the software.",
       "To trick the AI into working for free.",
-      "To narrow the AI's 'latent space' focus toward high-quality, relevant patterns.",
+      "To narrow the AI's 'latent space' focus toward",
       "Because the AI's internal sensors respond to flattery."
     ],
-    "answer": "To narrow the AI's 'latent space' focus toward high-quality, relevant patterns.",
+    "answer": "To narrow the AI's 'latent space' focus toward",
     "explanation": "Giving the AI a persona provides a 'frame' that helps it prioritize specific types of vocabulary and logic from its vast training data.",
     "difficulty": "easy"
   },
@@ -118,10 +118,10 @@
     "options": [
       "Wait for the technology to 'settle down' before learning it.",
       "Focus only on manual skills that AI can't do yet.",
-      "Adopt a mindset of 'constant experimentation' alongside the AI.",
+      "Adopt a mindset of 'constant experimentation' alongside the",
       "Hire an expert to use the AI for you."
     ],
-    "answer": "Adopt a mindset of 'constant experimentation' alongside the AI.",
+    "answer": "Adopt a mindset of 'constant experimentation' alongside the",
     "explanation": "Since the 'Jagged Frontier' is always moving, the only way to stay ahead is to constantly test what the AI can and cannot do in your specific field.",
     "difficulty": "easy"
   },
@@ -132,10 +132,10 @@
     "options": [
       "Typing faster on a computer.",
       "Memorizing even more medical textbooks.",
-      "The ability to synthesize AI data with the patient's unique physical and emotional state.",
+      "The ability to synthesize AI data with the",
       "Learning how to code the AI software from scratch."
     ],
-    "answer": "The ability to synthesize AI data with the patient's unique physical and emotional state.",
+    "answer": "The ability to synthesize AI data with the",
     "explanation": "The AI handles the 'data,' but the human expert handles the 'synthesis'—applying that data to complex, real-world human situations.",
     "difficulty": "easy"
   }

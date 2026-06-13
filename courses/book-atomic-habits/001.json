@@ -18,12 +18,12 @@
     "content": "Results often lag behind effort because habits compound invisibly until crossing a critical threshold.",
     "description": "A dieter eats clean for three weeks with no weight change, then loses four pounds in the fourth week. The invisible progress of the first three weeks best illustrates:",
     "options": [
-      "The Plateau of Latent Potential",
+      "The Plateau of Latent",
       "The Diderot Effect",
       "Cue-Induced Wanting",
       "The Premack Principle"
     ],
-    "answer": "The Plateau of Latent Potential",
+    "answer": "The Plateau of Latent",
     "explanation": "Like heating an ice cube from 25 to 31 degrees shows no visible change, the early work was not wasted. At 32 degrees the melt happens. Results lag behind effort, so persistence through the plateau is essential.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Two aspiring authors both want to write a novel. One visualizes the bestseller list daily. The other writes 300 words every morning before work. The second finishes the novel. This illustrates:",
     "options": [
       "The Power of Habit Stacking",
-      "The Difference Between Goals and Systems",
+      "The Difference Between",
       "The Goldilocks Rule",
       "The Two-Minute Rule"
     ],
-    "answer": "The Difference Between Goals and Systems",
+    "answer": "The Difference Between",
     "explanation": "Goals set direction but systems make progress. The daily writing habit is a controllable system; the bestseller list is an uncontrollable outcome. Focusing on the system ensures consistent action.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A programmer commits to writing one unit test daily. The action feels trivial in isolation but over a year builds a robust test suite. Why is the term atomic used for such habits?",
     "options": [
       "Because habits should produce explosive, immediate results",
-      "Because they are tiny yet serve as the fundamental building blocks of larger systems",
+      "Because they are tiny yet serve as the fundamental building",
       "Because they require atomic-level discipline to maintain",
       "Because they remain invisible until triggered by external events"
     ],
-    "answer": "Because they are tiny yet serve as the fundamental building blocks of larger systems",
+    "answer": "Because they are tiny yet serve as the fundamental building",
     "explanation": "Atomic captures the duality of being tiny in scale yet foundational in power. Just as atoms form molecules, atomic habits are small actions that build into remarkable systems.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "A marathon runner trains for months, completes the race, and feels empty the next day, stopping running altogether. How could a systems-first mindset have prevented this?",
     "options": [
       "By setting a harder goal like an ultramarathon",
-      "By focusing on the identity of being a runner rather than the finish line",
+      "By focusing on the identity of being a runner",
       "By hiring a personal coach",
       "By ignoring the race results entirely"
     ],
-    "answer": "By focusing on the identity of being a runner rather than the finish line",
+    "answer": "By focusing on the identity of being a runner",
     "explanation": "Systems-first thinking means loving the process. If the daily run is itself the goal, satisfaction comes every day the system runs, not just on race day.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "A language learner studies 15 minutes daily for two months, can barely order coffee, and quits in frustration. They never reach the six-month point where conversational fluency clicks. This illustrates:",
     "options": [
       "The Diderot Effect",
-      "The Importance of Long-Term Persistence",
+      "The Importance of",
       "Cue-Induced Wanting",
       "The Premack Principle"
     ],
-    "answer": "The Importance of Long-Term Persistence",
+    "answer": "The Importance of",
     "explanation": "Human nature craves immediate results, but habits compound slowly. Most people abandon their system before compounding has a chance to produce visible results.",
     "difficulty": "easy"
   },
@@ -116,12 +116,12 @@
     "content": "Habits are a double-edged sword: good habits build you up, bad habits cut you down, both through the same compounding mechanism.",
     "description": "A young professional starts each day by listing three goals. Over a year this accumulates into a clear career direction. Meanwhile their colleague starts each day scrolling social media, which compounds into chronic distraction. This illustrates:",
     "options": [
-      "The Feedback Loop of Habits (double-edged nature)",
+      "The Feedback Loop of",
       "The Habit Scorecard",
       "Implementation Intentions",
       "Temptation Bundling"
     ],
-    "answer": "The Feedback Loop of Habits (double-edged nature)",
+    "answer": "The Feedback Loop of",
     "explanation": "The same mechanism works in both directions. Daily actions, positive or negative, reinforce themselves through repetition. Understanding this dual nature is essential for taking control.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "A basketball coach obsessed with league standings loses every game. Another coach who focuses on perfecting daily shooting drills and conditioning wins the championship. This difference illustrates:",
     "options": [
       "The Habit Scorecard",
-      "Systems vs. Goals in Practice",
+      "Systems vs. Goals",
       "The Two-Minute Rule",
       "Temptation Bundling"
     ],
-    "answer": "Systems vs. Goals in Practice",
+    "answer": "Systems vs. Goals",
     "explanation": "The scoreboard is the goal reflecting past system performance. Obsessing over it does not improve future results, but refining the daily practice system does.",
     "difficulty": "easy"
   },
@@ -160,10 +160,10 @@
     "options": [
       "The Diderot Effect",
       "The Habit Loop",
-      "The aggregation of marginal gains",
+      "The aggregation of",
       "Implementation Intentions"
     ],
-    "answer": "The aggregation of marginal gains",
+    "answer": "The aggregation of",
     "explanation": "The British Cycling story is the flagship case study of atomic habits. No single change was revolutionary, but the aggregation of dozens of 1% improvements across many domains created a breakthrough in performance.",
     "difficulty": "easy"
   }

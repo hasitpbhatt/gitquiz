@@ -5,11 +5,11 @@
     "description": "A startup's app isn't gaining users. The team proposes adding AI, blockchain, and VR features. Occam's Razor suggests first:",
     "options": [
       "Immediately implement all three technologies",
-      "Conduct user interviews to identify core usability issues",
+      "Conduct user interviews to identify core",
       "Rebrand the entire company",
       "Seek venture capital for the tech overhaul"
     ],
-    "answer": "Conduct user interviews to identify core usability issues",
+    "answer": "Conduct user interviews to identify core",
     "explanation": "Occam's Razor says to look for the simplest explanation first - likely usability or value proposition issues - before assuming complex technological solutions are needed.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "You're confident your investment strategy works. To combat confirmation bias using inversion, you should:",
     "options": [
       "Only read news that supports your strategy",
-      "Ask: 'How could this strategy lose all my money?'",
+      "Ask: 'How could this strategy lose all my",
       "Increase your investment amount",
       "Ignore all market data"
     ],
-    "answer": "Ask: 'How could this strategy lose all my money?'",
+    "answer": "Ask: 'How could this strategy lose all my",
     "explanation": "Inversion for investment means considering failure scenarios to overcome confirmation bias - identifying risks like market crashes, sector declines, or execution flaws.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A sudden oil shortage increases gasoline prices. The opportunity cost of driving now includes:",
     "options": [
       "Only the higher gas price",
-      "The higher gas price plus what else you could do with that money",
+      "The higher gas price plus",
       "The wear and tear on your car",
       "The time spent driving"
     ],
-    "answer": "The higher gas price plus what else you could do with that money",
+    "answer": "The higher gas price plus",
     "explanation": "Opportunity cost includes both the explicit cost (higher gas price) and the implicit cost (forgone alternatives like saving, entertainment, or other purchases).",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A new professional networking site launches. It will succeed if it achieves:",
     "options": [
       "Perfect features before any users join",
-      "Enough users that professionals find it valuable for career opportunities",
+      "Enough users that professionals find",
       "Venture capital funding for 10 years",
       "Celebrity endorsements"
     ],
-    "answer": "Enough users that professionals find it valuable for career opportunities",
+    "answer": "Enough users that professionals find",
     "explanation": "Success depends on reaching critical mass - sufficient users that the network provides value (job leads, connections) that outweighs the cost of joining (time, privacy).",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "Tragedy of commons: shared resources depleted by individual self-interest. Externalities: costs/benefits affecting third parties not involved in the transaction.",
     "description": "Multiple factories polluting a river illustrates both tragedy of the commons and negative externalities because:",
     "options": [
-      "Each factory saves money by not treating waste (self-interest), harming others who use the river (externalities)",
+      "Each factory saves money by not treating waste",
       "The river is privately owned by one factory",
       "Pollution actually improves the river ecosystem",
       "Factories voluntarily cooperate to clean the river"
     ],
-    "answer": "Each factory saves money by not treating waste (self-interest), harming others who use the river (externalities)",
+    "answer": "Each factory saves money by not treating waste",
     "explanation": "Each factory benefits individually from not treating waste (self-interest), but the shared river resource gets degraded (tragedy of commons), imposing costs on downstream users like fishermen and communities (negative externalities).",
     "difficulty": "medium"
   },
@@ -90,10 +90,10 @@
     "options": [
       "Spending 2 hours daily at the gym",
       "Following every health trend you see online",
-      "Identifying high-leverage actions (like sleep) and building in consistency buffers",
+      "Identifying high-leverage actions (like",
       "Only focusing on diet and ignoring exercise"
     ],
-    "answer": "Identifying high-leverage actions (like sleep) and building in consistency buffers",
+    "answer": "Identifying high-leverage actions (like",
     "explanation": "Leverage: Sleep affects hormones, cognition, immunity, and recovery - high impact. Margin of safety: Planning for 4 workouts/week but accepting 3 creates sustainability buffer.",
     "difficulty": "medium"
   },
@@ -146,10 +146,10 @@
     "options": [
       "Rely on gut feeling alone",
       "Follow what worked for a friend or family member",
-      "Apply relevant models from physics, psychology, economics, and systems theory to examine the decision from multiple angles",
+      "Apply relevant models from physics, psychology,",
       "Make the quickest decision to avoid overthinking"
     ],
-    "answer": "Apply relevant models from physics, psychology, economics, and systems theory to examine the decision from multiple angles",
+    "answer": "Apply relevant models from physics, psychology,",
     "explanation": "Super thinking means using a latticework of models: opportunity cost (what you're giving up), inversion (what could go wrong), circle of competence (do you have expertise?), systems thinking (second/order effects), and more to gain multidimensional understanding.",
     "difficulty": "hard"
   }

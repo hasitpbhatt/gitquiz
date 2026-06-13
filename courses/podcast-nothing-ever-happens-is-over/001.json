@@ -5,11 +5,11 @@
     "description": "Your startup has grown from 5 to 40 people in six months. You currently operate as a hub-and-spoke with you as the CEO-hub, reviewing every decision. You notice shipping speed has collapsed—you are the bottleneck. Using Naval's framework from the podcast, evaluate the trade-off: should you try to maintain hub-and-spoke as CEO, or does growth force a structural change? What would Naval recommend and why?",
     "options": [
       "Hire more middle managers to distribute the hub load while keeping the same architecture.",
-      "Transition to a fully interconnected graph: hire self-navigating talent, let go of those who need direction — hub-and-spoke doesn't scale past a handful.",
+      "Transition to a fully interconnected graph: hire self-navigating talent, let go of those who need direction —",
       "Keep hub-and-spoke but use AI to automate your coordination role so you can handle 40 people alone.",
       "Formalize a tree hierarchy with department heads so you only talk to four direct reports and lose visibility into details."
     ],
-    "answer": "Transition to a fully interconnected graph: hire self-navigating talent, let go of those who need direction — hub-and-spoke doesn't scale past a handful.",
+    "answer": "Transition to a fully interconnected graph: hire self-navigating talent, let go of those who need direction —",
     "explanation": "Naval argues hub-and-spoke works when the team is very small and the hub holds all context, but it breaks down as the team grows because the hub itself becomes the bottleneck. His solution: hire people who can self-navigate in a fully interconnected graph, where any node communicates directly with any other. Those who cannot operate this way 'don't belong in this kind of an organization.' This is a structural, not a tooling, change.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "Naval mentions that in large hierarchies, a CEO often isn't 'allowed' to talk to someone three levels below them. What does he suggest is the primary driver for this rigid structure?",
     "options": [
       "A lack of intelligent employees at the lower levels.",
-      "The sheer requirement of size and the need to march in one direction.",
+      "The sheer requirement of size and the need to march in one",
       "A preference for complex project management software.",
       "The inherent efficiency of middle-management communication."
     ],
-    "answer": "The sheer requirement of size and the need to march in one direction.",
+    "answer": "The sheer requirement of size and the need to march in one",
     "explanation": "Naval notes that while stifling and political, hierarchy is often a 'requirement of size' to keep massive organizations organized, even though he personally avoids it.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Every employee must use the same project management software.",
       "The company must have at least 500 employees to create enough connections.",
-      "Every node (person) in the graph must be highly intelligent and capable of self-navigating.",
+      "Every node (person) in the graph must be highly intelligent and capable of",
       "The CEO must oversee every single conversation that happens."
     ],
-    "answer": "Every node (person) in the graph must be highly intelligent and capable of self-navigating.",
+    "answer": "Every node (person) in the graph must be highly intelligent and capable of",
     "explanation": "Naval explains that for a fully interconnected graph to work, you must hire highly intelligent people who can find the right person to solve a problem themselves.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Naval's company 'Impossible' avoids traditional communication tools. Which of the following best describes their approach to minimizing overhead?",
     "options": [
       "They use AI to write all internal emails and reports.",
-      "They don't use Slack or project management software; they just text or talk one-on-one.",
+      "They don't use Slack or project management software; they just text or",
       "They have mandatory daily meetings to ensure everyone is on the same page.",
       "They route all messages through a central AI clearinghouse."
     ],
-    "answer": "They don't use Slack or project management software; they just text or talk one-on-one.",
+    "answer": "They don't use Slack or project management software; they just text or",
     "explanation": "Naval explicitly states they don't use Slack or project management software. Instead, people operate independently and text each other as needed to keep overhead low.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "What happens to a person in Naval's preferred organization if they can't navigate their way to the right person to solve a problem?",
     "options": [
       "They are assigned a dedicated mentor to help them navigate.",
-      "They are encouraged to find a hierarchical organization where they'll be more comfortable.",
+      "They are encouraged to find a hierarchical organization where",
       "The CEO creates a custom org chart just for them.",
       "They are given access to a more advanced AI communication tool."
     ],
-    "answer": "They are encouraged to find a hierarchical organization where they'll be more comfortable.",
+    "answer": "They are encouraged to find a hierarchical organization where",
     "explanation": "Naval suggests that if someone can't operate in a fully interconnected graph, they 'don't belong in this kind of an organization' and should seek a traditional hierarchy.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Naval describes venture capital as 'the money you don't need tomorrow.' Why does he use this phrasing?",
     "options": [
       "Because VC investments are extremely safe and reliable.",
-      "Because the money is tied up in private companies and cannot be withdrawn quickly.",
+      "Because the money is tied up in private companies and cannot be withdrawn",
       "Because the government takes a large percentage of VC profits immediately.",
       "Because AI will eventually make money obsolete."
     ],
-    "answer": "Because the money is tied up in private companies and cannot be withdrawn quickly.",
+    "answer": "Because the money is tied up in private companies and cannot be withdrawn",
     "explanation": "Venture capital involves investing in young companies that may take years to reach a valuation or go public, making the investment 'illiquid' and risky.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Naval is sarcastic about 'Founder Mode.' What is his actual critique of this management style as a 'wonderful achievement'?",
     "options": [
       "He thinks CEOs shouldn't be allowed to talk to engineers at all.",
-      "He thinks it’s ridiculous that a CEO needs a special 'mode' just to talk to their own employees.",
+      "He thinks it’s ridiculous that a CEO needs a special 'mode' just",
       "He believes 'Founder Mode' is too expensive to implement.",
       "He argues that only AI should be allowed to talk to engineers."
     ],
-    "answer": "He thinks it’s ridiculous that a CEO needs a special 'mode' just to talk to their own employees.",
+    "answer": "He thinks it’s ridiculous that a CEO needs a special 'mode' just",
     "explanation": "Naval finds it ironic that it's celebrated as an achievement when a CEO talks to an engineer, as he believes direct communication should be the default, not an exception.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "Naval compares his small company to a computer network. In this analogy, what increases the 'communication overhead'?",
     "options": [
       "Adding more highly intelligent nodes to the network.",
-      "A structure where everyone has to talk through too many middle-layers.",
+      "A structure where everyone has to talk through too",
       "Using text messages instead of email.",
       "Reducing the number of people in the company."
     ],
-    "answer": "A structure where everyone has to talk through too many middle-layers.",
+    "answer": "A structure where everyone has to talk through too",
     "explanation": "In a network, the overhead increases when data (or information) has to hop through many points (hierarchy) to get to its destination, slowing down the system.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "Why does Naval say he 'hates' organizational management?",
     "options": [
       "Because it requires too much knowledge of AI.",
-      "Because large groups always involve politics and you aren't dealing with the best and brightest.",
+      "Because large groups always involve politics and",
       "Because he prefers using Slack and Jira.",
       "Because it makes it too easy to get things done."
     ],
-    "answer": "Because large groups always involve politics and you aren't dealing with the best and brightest.",
+    "answer": "Because large groups always involve politics and",
     "explanation": "Naval's dislike for management stems from the belief that large organizations inevitably become political and inefficient, losing the speed found in small, elite groups.",
     "difficulty": "easy"
   }

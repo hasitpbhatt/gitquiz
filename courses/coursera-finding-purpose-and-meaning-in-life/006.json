@@ -33,7 +33,7 @@
     "description": "A developer connects with customer service to hear user stories directly. Which crafting dimension is this?",
     "options": [
       "Relational Crafting",
-      "Task Crafting",
+      "Task Crafting Method",
       "Cognitive Crafting",
       "Emotional Crafting"
     ],
@@ -60,12 +60,12 @@
     "content": "The naive response to discovering purpose is to quit immediately. The intelligent approach uses Job Crafting while maintaining financial stability.",
     "description": "Your colleague wants to quit her stable job after discovering her purpose. What is the primary danger?",
     "options": [
-      "Financial catastrophe triggers survival instincts that smother purpose",
+      "Financial catastrophe triggers",
       "Her employer will sue her",
       "She will lose her professional network",
       "Purpose requires a stable routine"
     ],
-    "answer": "Financial catastrophe triggers survival instincts that smother purpose",
+    "answer": "Financial catastrophe triggers",
     "explanation": "Erratic leaps cause financial catastrophe triggering survival responses that overwhelm purpose.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "The Inner Critic generates imposter syndrome, procrastination, and self-doubt. The course advises acknowledging it without arguing.",
     "description": "Every time you work on your purpose a voice says you are not qualified. How should you respond?",
     "options": [
-      "Acknowledge the voice without arguing and move forward anyway",
+      "Acknowledge the voice without arguing and move",
       "Argue back with evidence of your qualifications",
       "Stop until the voice disappears",
       "Ignore the voice completely"
     ],
-    "answer": "Acknowledge the voice without arguing and move forward anyway",
+    "answer": "Acknowledge the voice without arguing and move",
     "explanation": "Fighting the Inner Critic grants it power. Acknowledge it like a backseat passenger but keep driving.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "When you change your behavior, social circles may push back because your growth forces them to confront their own unexamined choices.",
     "description": "Since pursuing her purpose, your friend old friends mock her new focus. Why does this happen?",
     "options": [
-      "Her growth highlights their unexamined choices",
+      "Her growth highlights their",
       "They genuinely want to protect her",
       "They simply do not understand",
       "She is being unreasonable"
     ],
-    "answer": "Her growth highlights their unexamined choices",
+    "answer": "Her growth highlights their",
     "explanation": "Intentional living shines a light on others stagnation provoking defensiveness.",
     "difficulty": "medium"
   },
@@ -103,7 +103,7 @@
     "description": "You notice anxious thoughts about your purpose project during meditation but simply observe and return to your breath. What skill is this?",
     "options": [
       "Mindful meta-awareness",
-      "Cognitive crafting",
+      "Cognitive crafting approach",
       "Task crafting",
       "Value extraction"
     ],
@@ -130,12 +130,12 @@
     "content": "Your mind is anchored in a biological container. Sleep deprivation, poor nutrition, and sedentary lifestyle impair prefrontal cortex function.",
     "description": "After months of sleep deprivation you snap at colleagues, make poor decisions, and struggle to focus on your purpose. What is the most direct cause?",
     "options": [
-      "Your prefrontal cortex lost regulation ability due to poor biological foundations",
+      "Your prefrontal cortex lost",
       "You lost your passion for the purpose",
       "The Inner Critic won",
       "You need a new purpose statement"
     ],
-    "answer": "Your prefrontal cortex lost regulation ability due to poor biological foundations",
+    "answer": "Your prefrontal cortex lost",
     "explanation": "The prefrontal cortex requires adequate sleep, nutrition, and activity. Self-care powers purpose.",
     "difficulty": "hard"
   },
@@ -144,12 +144,12 @@
     "content": "Micro-doses of recovery include the Pomodoro technique, digital sunset to protect sleep, and mindfulness to reset the nervous system.",
     "description": "The course recommends a strict digital sunset at night. What is the purpose of this practice?",
     "options": [
-      "To protect sleep architecture and reset the nervous system",
+      "To protect sleep architecture and",
       "To reduce screen time for eye health",
       "To detox from social media",
       "To increase productivity"
     ],
-    "answer": "To protect sleep architecture and reset the nervous system",
+    "answer": "To protect sleep architecture and",
     "explanation": "A digital sunset helps shift from sympathetic to parasympathetic recovery mode.",
     "difficulty": "easy"
   },
@@ -158,12 +158,12 @@
     "content": "A life of purpose is a marathon not a sprint. Many burn out within 18 months working at unsustainable intensity.",
     "description": "Your friend worked 90-hour weeks on her purpose project and after 14 months is exhausted, bitter, and wants to quit. What lesson applies?",
     "options": [
-      "Purpose requires sustainable pace over decades not sprint intensity",
+      "Purpose requires",
       "She lacked passion",
       "She needs a new purpose",
       "She should work harder"
     ],
-    "answer": "Purpose requires sustainable pace over decades not sprint intensity",
+    "answer": "Purpose requires",
     "explanation": "Purpose is a marathon. Sustainable pace, rest, and recovery prevent burnout.",
     "difficulty": "medium"
   }

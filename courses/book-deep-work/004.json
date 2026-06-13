@@ -5,11 +5,11 @@
     "description": "A telemarketer decides she will check social media only during her designated fifteen-minute breaks. During her work calls, she feels a strong urge to glance at her phone but resists. What is happening according to deep work principles?",
     "options": [
       "She is harming her productivity by denying herself small rewards",
-      "She is retraining her brain to treat focus as the default state and distraction as the exception",
+      "She is retraining her brain to treat focus as the default state",
       "She should schedule more breaks to maintain her energy",
       "Checking social media during calls would help her relax"
     ],
-    "answer": "She is retraining her brain to treat focus as the default state and distraction as the exception",
+    "answer": "She is retraining her brain to treat focus as the default state",
     "explanation": "By inverting the usual pattern—focus as default, distraction as scheduled exception—you slowly wean your brain off the constant need for novelty and strengthen your concentration capacity.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A blogger usually takes three hours to write a post. She sets a timer for sixty minutes and writes without stopping, not allowing herself to check anything until the timer rings. What is the primary benefit of this technique?",
     "options": [
       "It guarantees the post will be her best work",
-      "It creates time pressure that eliminates the possibility of minor distractions",
+      "It creates time pressure that eliminates the",
       "It allows her to publish more posts per week",
       "It improves her typing speed"
     ],
-    "answer": "It creates time pressure that eliminates the possibility of minor distractions",
+    "answer": "It creates time pressure that eliminates the",
     "explanation": "Severe time pressure leaves no gap for the mind to wander. The intensity required to meet the deadline trains the brain to reach deeper levels of focus more quickly.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "While walking her dog, a landscape architect tries to figure out how to incorporate a drainage solution into a garden design. Her mind keeps drifting to what to make for dinner. What is the correct response?",
     "options": [
       "Let her mind wander; the dog walk is supposed to be relaxing",
-      "Gently redirect her attention back to the drainage problem each time she notices the drift",
+      "Gently redirect her attention back to the drainage problem each time she",
       "Stop walking and write down the dinner thought so she does not forget it",
       "Switch to thinking about an easier design problem"
     ],
-    "answer": "Gently redirect her attention back to the drainage problem each time she notices the drift",
+    "answer": "Gently redirect her attention back to the drainage problem each time she",
     "explanation": "The 'rep' in productive meditation is the act of noticing the distraction and deliberately returning focus to the problem. Each redirection strengthens executive control.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A high school student is trying to plan a science fair project while jogging. She keeps worrying about whether she will win. How should she structure her thinking productively?",
     "options": [
       "Think about all possible projects at once to find the best one",
-      "Start by defining the variables: available materials, timeline, and her interests, then choose one specific project to work through",
+      "Start by defining the variables: available materials,",
       "Focus on winning the competition and work backward",
       "Stop thinking and just enjoy the jog"
     ],
-    "answer": "Start by defining the variables: available materials, timeline, and her interests, then choose one specific project to work through",
+    "answer": "Start by defining the variables: available materials,",
     "explanation": "Structured thinking breaks a large problem into manageable layers. Defining the variables gives you concrete elements to work with, preventing the mind from looping on vague worries.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A project manager starts practicing the Method of Loci, memorizing the order of a shuffled deck each morning. How does this help her professional deep work?",
     "options": [
       "It directly improves her ability to remember project deadlines",
-      "It trains her to hold complex mental structures in mind, which is the same skill required for deep concentration",
+      "It trains her to hold complex mental structures in mind, which",
       "It is only useful if she works in a memory-related field",
       "It wastes time that could be spent on actual work"
     ],
-    "answer": "It trains her to hold complex mental structures in mind, which is the same skill required for deep concentration",
+    "answer": "It trains her to hold complex mental structures in mind, which",
     "explanation": "Memory techniques require intense, sustained mental imagery and organization. Practicing them builds the same cognitive capacity needed to hold and manipulate complex ideas during deep work.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A college freshman complains that he 'just cannot focus' on reading assignments for more than five minutes. Based on the muscle metaphor, what is the most likely cause?",
     "options": [
       "He has an attention disorder that requires medication",
-      "His brain has atrophied from years of constant phone checking and needs gradual retraining",
+      "His brain has atrophied from years of constant phone checking",
       "Reading is simply not his preferred learning style",
       "The assignments are too difficult for his current academic level"
     ],
-    "answer": "His brain has atrophied from years of constant phone checking and needs gradual retraining",
+    "answer": "His brain has atrophied from years of constant phone checking",
     "explanation": "Focus is not a fixed trait but a trainable skill. A lifetime of multitasking has weakened his concentration, but like any muscle, it can be rebuilt through consistent, deliberate practice.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A commuter's train is delayed by twenty minutes. He feels the familiar impulse to scroll social media. What action best aligns with the 'embrace boredom' principle?",
     "options": [
       "Scroll social media; the delay is not his fault and he deserves a break",
-      "Sit with the boredom without reaching for his phone, letting his mind be still",
+      "Sit with the boredom without reaching for his phone, letting his mind",
       "Call a colleague to discuss a work project productively",
       "Read the news to stay informed during the delay"
     ],
-    "answer": "Sit with the boredom without reaching for his phone, letting his mind be still",
+    "answer": "Sit with the boredom without reaching for his phone, letting his mind",
     "explanation": "The ability to tolerate boredom is foundational to deep work. Every time you resist the urge to distract yourself, you weaken the neural pathway that demands constant novelty.",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Two hours, because she was at her desk the whole time",
       "Approximately ninety minutes, because the checks were very brief",
-      "Almost none, because each check reset her twenty-minute ramp-up to depth",
+      "Almost none, because each check reset her twenty-minute ramp-up",
       "One hour, because the first hour was warm-up"
     ],
-    "answer": "Almost none, because each check reset her twenty-minute ramp-up to depth",
+    "answer": "Almost none, because each check reset her twenty-minute ramp-up",
     "explanation": "Each interruption resets the concentration timer. With checks every ten minutes, she never completed the twenty-minute ramp-up needed to reach a deep state.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "A blogger schedules internet use only from 12-12:30 PM and 5-5:30 PM. At 2 PM, she needs to look up a fact for her article. What should she do according to this technique?",
     "options": [
       "Quickly look up the fact; it is work-related research",
-      "Note the question and wait until her next internet block at 5 PM to look it up",
+      "Note the question and wait until her next internet block at 5 PM",
       "Move her internet block to 2 PM since the need is legitimate",
       "Use her phone instead of her computer to avoid breaking the rule"
     ],
-    "answer": "Note the question and wait until her next internet block at 5 PM to look it up",
+    "answer": "Note the question and wait until her next internet block at 5 PM",
     "explanation": "The rule is not about the type of task but about breaking the cycle of immediate gratification. Waiting until the scheduled block teaches your brain that focus time is not negotiable.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Someone who has practiced deep work for six months notices they are also eating healthier, spending less money impulsively, and exercising more regularly. What best explains this spillover effect?",
     "options": [
       "Deep work burns enough calories to cause weight loss",
-      "Practicing concentration strengthens the underlying executive function used for all forms of self-discipline",
+      "Practicing concentration strengthens the underlying executive",
       "They have more free time now that they are more productive at work",
       "The correlation is coincidental"
     ],
-    "answer": "Practicing concentration strengthens the underlying executive function used for all forms of self-discipline",
+    "answer": "Practicing concentration strengthens the underlying executive",
     "explanation": "Executive function is a general resource. Training it through deep work improves your capacity for discipline across domains, from diet to exercise to spending.",
     "difficulty": "medium"
   }

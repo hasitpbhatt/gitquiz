@@ -19,11 +19,11 @@
     "description": "Kodak invented the digital camera but failed to adapt to the digital photography market. The company filed for bankruptcy while a technology it created destroyed its film business. What explains this failure?",
     "options": [
       "Kodak's digital camera technology was inferior to competitors' offerings",
-      "Kodak's past success in film created a structural inability to adapt to a new environment, even when it had the technology to lead",
+      "Kodak's past success in film created a structural inability to adapt to a new",
       "The digital camera market grew too quickly for any company to keep up",
       "Kodak's management was not technically literate enough to understand digital photography"
     ],
-    "answer": "Kodak's past success in film created a structural inability to adapt to a new environment, even when it had the technology to lead",
+    "answer": "Kodak's past success in film created a structural inability to adapt to a new",
     "explanation": "Kodak failed the adaptation imperative. Their film success was a liability in a digital world because the organizational adaptations that made them powerful in the old environment (film manufacturing, chemical processing) became anchors in the new one. Adaptation requires overcoming your own past success.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "The templates were not well-designed for the target audience",
       "The marketing team lacks experienced talent",
-      "without diverse experiments, natural selection has no material to work with,",
+      "without diverse experiments, natural selection has no",
       "Template-based marketing is always ineffective"
     ],
-    "answer": "without diverse experiments, natural selection has no material to work with,",
+    "answer": "without diverse experiments, natural selection has no",
     "explanation": "Natural selection requires variation. If every campaign looks the same, there is no diversity for the market to select from. The company cannot evolve its marketing because it has eliminated the raw material of evolution. Variation is not waste — it is the fuel for adaptation.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A protected monopoly has no competitors for decades. Its products stagnate, customer service is terrible, and costs are bloated. When deregulation introduces competitors, the monopoly collapses within five years. What changed?",
     "options": [
       "The monopoly's management team became incompetent after years of easy profits",
-      "Without selection pressure (competition), the company had no evolutionary driver to optimize — it devolved into inefficiency",
+      "Without selection pressure (competition), the company had no evolutionary",
       "Deregulation always harms formerly protected industries",
       "The new competitors were unfairly subsidized by the government"
     ],
-    "answer": "Without selection pressure (competition), the company had no evolutionary driver to optimize — it devolved into inefficiency",
+    "answer": "Without selection pressure (competition), the company had no evolutionary",
     "explanation": "Selection pressure is what drives evolution. Without it — no competition, no customer choice — there is no force eliminating inefficiency. Organizations devolve into complacency and bloat. Introducing selection pressure forces adaptation, but the shock is often too severe for long-protected organisms.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A startup runs 100 experiments and finds one that generates 10x the customer acquisition of all others. Instead of doubling down, the team moves on to the next 100 experiments. What evolutionary step did they skip?",
     "options": [
       "They skipped variation — they did not run enough experiments",
-      "finding a winning trait is useless if you do not retain and amplify it through the organization",
+      "finding a winning trait is useless if you do not retain and amplify it",
       "They skipped selection — they did not measure which experiments worked",
       "They should have run 200 experiments instead of 100"
     ],
-    "answer": "finding a winning trait is useless if you do not retain and amplify it through the organization",
+    "answer": "finding a winning trait is useless if you do not retain and amplify it",
     "explanation": "Natural selection has three steps: variation, selection, and retention. The startup did variation (100 experiments) and selection (identified the winner) but failed at retention. Without scaling the successful approach, the evolutionary cycle is incomplete. Success must be retained and propagated.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "Forward-thinking organizations build internal selection mechanisms that rapidly test ideas, kill failures, and scale successes — before market selection forces them to do it painfully.",
     "description": "Amazon uses internal 'working backwards' press releases, experiments with real customers, and has a culture of rapid experimentation. Failed projects are killed quickly; successful ones receive massive investment. What evolutionary mechanism have they institutionalized?",
     "options": [
-      "rapid variation (experiments), selection (kill failures fast), and retention",
+      "rapid variation (experiments), selection (kill failures fast), and",
       "They rely on Jeff Bezos's intuition to select the right projects",
       "They outsource selection pressure to venture capital firms",
       "They acquire startups that have already been selected by the market"
     ],
-    "answer": "rapid variation (experiments), selection (kill failures fast), and retention",
+    "answer": "rapid variation (experiments), selection (kill failures fast), and",
     "explanation": "Amazon has built the three elements of evolution into its operating system. Low-cost variation (experiments), fast selection (kill what fails), and aggressive retention (invest heavily in what works). This allows them to evolve faster than the external market does.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A highly experienced travel agent insists that personal service will always beat online booking. She refuses to adapt to digital tools. Over five years, her client base shrinks by 80%. What evolutionary principle is at work?",
     "options": [
       "Personal service is overrated in the travel industry",
-      "The market environment has shifted to digital booking; her refusal to adapt is being selected against,",
+      "The market environment has shifted to digital booking; her refusal to",
       "Online booking agencies provide worse service than human agents",
       "The travel industry is cyclical and will eventually return to human agents"
     ],
-    "answer": "The market environment has shifted to digital booking; her refusal to adapt is being selected against,",
+    "answer": "The market environment has shifted to digital booking; her refusal to",
     "explanation": "Natural selection is indifferent. The environment (customer preference for digital booking) has shifted. Her past success and effort do not matter — she is not adapted to the current environment. The only path to survival is adaptation, not defending the old ways.",
     "difficulty": "easy"
   }

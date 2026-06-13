@@ -5,11 +5,11 @@
     "description": "Your team is struggling to adopt a new project management tool. A senior developer builds a simple migration script that converts all old data into the new format automatically. Adoption skyrockets. What role did the developer play?",
     "options": [
       "The developer was the project manager for the migration initiative",
-      "the migration script lowered the activation energy of adoption without being consumed by the process",
+      "the migration script lowered the activation energy of adoption without being",
       "The developer should have been building product features instead of tooling scripts",
       "The migration script reduced the quality of the data transfer"
     ],
-    "answer": "the migration script lowered the activation energy of adoption without being consumed by the process",
+    "answer": "the migration script lowered the activation energy of adoption without being",
     "explanation": "The migration script is the catalyst. It lowers the barrier to adoption (eliminating manual data entry) and is not consumed — it can be reused for future migrations. After adoption, the script remains unchanged. The team crossed the activation barrier more easily because of this catalyst.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A consultant designs a new operating model for a company, trains the leadership team, and leaves. Two years later, the operating model is still running successfully. How does this illustrate catalysis?",
     "options": [
       "The consultant was overpaid for a relatively simple deliverable",
-      "she introduced a framework that lowered the activation energy for better operations, and was not consumed",
+      "she introduced a framework that lowered the activation energy for better",
       "The company would have adopted the operating model even without the consultant",
       "The consultant should have stayed longer to ensure continued success"
     ],
-    "answer": "she introduced a framework that lowered the activation energy for better operations, and was not consumed",
+    "answer": "she introduced a framework that lowered the activation energy for better",
     "explanation": "The consultant functioned as a true catalyst: she provided an alternative pathway (the new operating model) that lowered the barrier to better performance, and she was not consumed by the process — she left the organization intact. The new model became self-sustaining.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Increase the penalty until compliance reaches 100%",
       "Fire the partners who refuse to comply with the new policy",
-      "perhaps a simple mobile app or email-based reminder that makes daily submission effortless",
+      "perhaps a simple mobile app or email-based reminder that makes daily",
       "Accept weekly submissions since the policy change was not worth the conflict"
     ],
-    "answer": "perhaps a simple mobile app or email-based reminder that makes daily submission effortless",
+    "answer": "perhaps a simple mobile app or email-based reminder that makes daily",
     "explanation": "Threats are raw force — they consume management energy and generate resentment. A catalyst (like a simple submission tool) permanently lowers the barrier to compliance without ongoing force. Once introduced, the catalyst continues working without consuming additional energy.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "Stripe publishes standardized API documentation for online payments. Thousands of businesses build payment flows faster as a result. Stripe is not consumed by these integrations. What role does the API documentation play?",
     "options": [
       "It is a marketing tool to attract more customers to Stripe",
-      "it lowers the activation energy for online payment integration for every business that uses it,",
+      "it lowers the activation energy for online payment integration for every",
       "API documentation is a legal requirement for payment processors",
       "It is a competitive advantage that only benefits Stripe's enterprise clients"
     ],
-    "answer": "it lowers the activation energy for online payment integration for every business that uses it,",
+    "answer": "it lowers the activation energy for online payment integration for every",
     "explanation": "Well-designed API documentation is a systemic catalyst. It exists in the environment and lowers the barrier to payment integration for all developers. Stripe recovers no energy from the reaction — the catalyst remains unchanged. This is why platform companies invest heavily in developer experience.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Install a strict ticketing system with a three-day SLA for all requests",
       "Hold a meeting to explain why interruptions are harmful to productivity",
-      "perhaps a self-service tool that lets product run common experiments without engineering involvement,",
+      "perhaps a self-service tool that lets product run common experiments",
       "Escalate the issue to the VP of Engineering to enforce better boundaries"
     ],
-    "answer": "perhaps a self-service tool that lets product run common experiments without engineering involvement,",
+    "answer": "perhaps a self-service tool that lets product run common experiments",
     "explanation": "Saying 'no' is brute force that must be reapplied constantly. A self-service tool is a catalyst — it lowers the barrier for product to get what they need without engineering involvement, and it is not consumed. The tool solves the problem permanently rather than requiring ongoing force.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A cross-functional team has been deadlocked on a strategic decision for weeks. A respected senior leader who has no direct stake in the outcome joins one meeting, asks three questions, and the team reaches consensus within an hour. What happened?",
     "options": [
       "The senior leader forced the team to agree by exercising authority",
-      "their neutral credibility and framing questions lowered the barrier to consensus without being",
+      "their neutral credibility and framing questions lowered the",
       "The team was ready to agree and just needed any external input",
       "The senior leader made the decision for the team"
     ],
-    "answer": "their neutral credibility and framing questions lowered the barrier to consensus without being",
+    "answer": "their neutral credibility and framing questions lowered the",
     "explanation": "Some people are social catalysts. Their mere presence lowers the activation energy for alignment — they ask the right questions, reduce political risk, and provide psychological safety. Like chemical catalysts, they enable the reaction without being changed by it.",
     "difficulty": "medium"
   },

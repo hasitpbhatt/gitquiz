@@ -6,10 +6,10 @@
     "options": [
       "Military Strength, because power starts with force.",
       "Reserve Currency Status, because it shows who has the most money.",
-      "Education and Innovation, because they are the earliest leading indicators.",
+      "Education and Innovation, because they are the earliest leading",
       "Equity Markets, because they reflect current profits."
     ],
-    "answer": "Education and Innovation, because they are the earliest leading indicators.",
+    "answer": "Education and Innovation, because they are the earliest leading",
     "explanation": "Education is the first determinant to rise. It produces the thinkers and creators who drive innovation, which eventually builds the economic and military power that follows much later.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Why does 'Success' often sow the seeds of 'Decline' in an empire?",
     "options": [
       "Success leads to better education, which makes people too smart to work.",
-      "Success often leads to over-borrowing and a loss of the competitive edge that caused the rise.",
+      "Success often leads to over-borrowing and a loss of the competitive edge",
       "Success forces a country to stop trading with rivals to protect its secrets.",
       "Success causes a nation to naturally return to a gold standard."
     ],
-    "answer": "Success often leads to over-borrowing and a loss of the competitive edge that caused the rise.",
+    "answer": "Success often leads to over-borrowing and a loss of the competitive edge",
     "explanation": "As empires succeed, they become expensive. To maintain their standard of living and global reach, they start borrowing against their future, leading to the debt problems of the next phase.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "To make the currency more valuable and attractive to foreign buyers.",
       "To encourage people to save more money in their bank accounts.",
-      "To gain the freedom to print money and pay off debts with cheaper currency.",
+      "To gain the freedom to print money and pay off debts with cheaper",
       "To simplify the tax code and reduce government bureaucracy."
     ],
-    "answer": "To gain the freedom to print money and pay off debts with cheaper currency.",
+    "answer": "To gain the freedom to print money and pay off debts with cheaper",
     "explanation": "De-linking from a commodity allows the central bank to create money at will. This 'prints' the country out of a nominal debt crisis but usually leads to inflation and the loss of purchasing power.",
     "difficulty": "easy"
   },
@@ -62,10 +62,10 @@
     "options": [
       "It narrows the gap by giving everyone more cash.",
       "It has no effect on the gap as long as taxes are high.",
-      "It widens the gap because asset prices (owned by the wealthy) rise faster than wages.",
+      "It widens the gap because asset prices (owned by the wealthy) rise",
       "It encourages the wealthy to give more to charity, reducing tension."
     ],
-    "answer": "It widens the gap because asset prices (owned by the wealthy) rise faster than wages.",
+    "answer": "It widens the gap because asset prices (owned by the wealthy) rise",
     "explanation": "When money is printed, it flows into assets like stocks and real estate. Since the wealthy own most of these assets, their net worth grows, while the working class struggles with the rising cost of living.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "What is the 'tipping point' that signals an empire has lost its global financial dominance?",
     "options": [
       "When the country stops exporting goods entirely.",
-      "When other countries and investors stop using its currency as a store of value.",
+      "When other countries and investors stop using its currency as a",
       "When the country's leader is replaced in a peaceful election.",
       "When the country increases its interest rates to attract investors."
     ],
-    "answer": "When other countries and investors stop using its currency as a store of value.",
+    "answer": "When other countries and investors stop using its currency as a",
     "explanation": "Once a currency loses its status as a safe 'store of value,' the empire can no longer print money to solve its problems without causing hyper-inflation, marking the end of its global order.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Why does Dalio believe we can use history to predict the future even though today's technology is so different?",
     "options": [
       "Because humans will eventually stop using technology and return to the past.",
-      "Because the 'cause-effect' relationships driven by human psychology don't change.",
+      "Because the 'cause-effect' relationships driven by human psychology don't",
       "Because history repeats itself exactly every 100 years.",
       "Because modern computers have finally mapped out all possible human choices."
     ],
-    "answer": "Because the 'cause-effect' relationships driven by human psychology don't change.",
+    "answer": "Because the 'cause-effect' relationships driven by human psychology don't",
     "explanation": "Human psychology—greed, fear, and the drive for power—reacts to economic and social pressures in the same way today as it did 500 years ago, leading to the same cyclical results.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Country A has a 2% growth rate, while Country B has a 7% growth rate. According to Dalio, why should Country A be concerned?",
     "options": [
       "Because 2% is a negative growth rate in the Big Cycle.",
-      "Because their 'Relative Power' is shrinking, making them vulnerable to Country B.",
+      "Because their 'Relative Power' is shrinking, making them",
       "Because Country B will eventually run out of resources first.",
       "Because growth rates are a lagging indicator of military power."
     ],
-    "answer": "Because their 'Relative Power' is shrinking, making them vulnerable to Country B.",
+    "answer": "Because their 'Relative Power' is shrinking, making them",
     "explanation": "In geopolitics, power is a zero-sum game. If a rival gains strength faster, they will eventually have more resources to spend on innovation, trade influence, and military strength, shifting the world order.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "Which of these scenarios best describes 'Imperial Overstretch'?",
     "options": [
       "A country withdrawing its troops to save money for domestic issues.",
-      "A country having so many military bases that it must print money to fund them.",
+      "A country having so many military bases that it must print money to",
       "A country that refuses to join international trade organizations.",
       "A country with a very small military but a huge economy."
     ],
-    "answer": "A country having so many military bases that it must print money to fund them.",
+    "answer": "A country having so many military bases that it must print money to",
     "explanation": "Imperial overstretch occurs when the military obligations of an empire become so large that they drain the national treasury, forcing the nation to take on unsustainable debt.",
     "difficulty": "easy"
   },

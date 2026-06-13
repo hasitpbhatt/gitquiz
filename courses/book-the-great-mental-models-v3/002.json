@@ -2,14 +2,14 @@
   {
     "question": "Homeostasis",
     "content": "Homeostasis is the active maintenance of a stable internal environment despite fluctuating external conditions, governed by interconnected regulatory networks.",
-    "description": "The human body maintains a core temperature of approximately 98.6\u00b0F through sweating, shivering, and blood flow adjustments, even when outside temperatures vary from 30\u00b0F to 100\u00b0F. What concept does this illustrate?",
+    "description": "The human body maintains a core temperature of approximately 98.6°F through sweating, shivering, and blood flow adjustments, even when outside temperatures vary from 30°F to 100°F. What concept does this illustrate?",
     "options": [
       "Reinforcing feedback leading to temperature change",
-      "Homeostasis \u2014 active maintenance of stability despite external fluctuation",
+      "Homeostasis — active maintenance of stability despite",
       "A bottleneck where temperature regulation limits performance",
-      "Churn in the body\u2019s thermal regulation system"
+      "Churn in the body’s thermal regulation system"
     ],
-    "answer": "Homeostasis \u2014 active maintenance of stability despite external fluctuation",
+    "answer": "Homeostasis — active maintenance of stability despite",
     "explanation": "Homeostasis describes how systems actively regulate internal conditions through feedback mechanisms to remain stable despite changing external environments.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A drought reduces wheat supply, causing prices to rise. Higher prices lead some buyers to reduce purchases and some farmers to increase production, eventually stabilizing at a new price. What is this stabilizing price point called?",
     "options": [
       "The marginal cost of production",
-      "The market-clearing equilibrium price",
+      "The market-clearing equilibrium",
       "The inflationary price floor",
       "The break-even threshold"
     ],
-    "answer": "The market-clearing equilibrium price",
+    "answer": "The market-clearing equilibrium",
     "explanation": "The market-clearing price is where supply and demand balance. It shifts when external conditions change but always represents the temporary point of equilibrium.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Inflation is rising rapidly and the economy is overheating. The Fed raises the federal funds rate to increase borrowing costs. What homeostasis mechanism does this represent?",
     "options": [
       "A reinforcing loop that accelerates inflation further",
-      "A balancing intervention to cool excessive economic activity",
+      "A balancing intervention to cool excessive economic",
       "A bottleneck created by high interest rates",
       "An emergent property of the banking system"
     ],
-    "answer": "A balancing intervention to cool excessive economic activity",
+    "answer": "A balancing intervention to cool excessive economic",
     "explanation": "Raising rates is a balancing force that counteracts inflationary pressure, steering the economy back toward target growth and employment bands.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A CEO demands 30% more output from teams. In the first week, output jumps 15%, but by week three it settles back to the original level as employees unconsciously pace themselves. What systemic force is at work?",
     "options": [
       "Employee laziness and lack of motivation",
-      "Organizational homeostasis \u2014 invisible balancing forces resisting change",
+      "Organizational homeostasis — invisible",
       "A bottleneck in the management hierarchy",
       "Churn from employee turnover"
     ],
-    "answer": "Organizational homeostasis \u2014 invisible balancing forces resisting change",
+    "answer": "Organizational homeostasis — invisible",
     "explanation": "Organizations have self-regulating mechanisms that resist shocks. Pushing harder without changing the underlying structure (incentives, capacity, tools) triggers balancing forces that restore the old equilibrium.",
     "difficulty": "medium"
   },
@@ -61,12 +61,12 @@
     "description": "Your company has tried for years to shift from quarterly to monthly product releases, but every attempt reverts within two cycles. According to the equilibrium model, what is the most effective approach?",
     "options": [
       "Set more aggressive deadlines and hold managers accountable",
-      "Identify and systematically remove the structural barriers that maintain the quarterly cadence",
+      "Identify and systematically remove the structural barriers",
       "Fire underperforming team members and hire new talent",
       "Move to weekly releases to overshoot the target"
     ],
-    "answer": "Identify and systematically remove the structural barriers that maintain the quarterly cadence",
-    "explanation": "Pushing harder against an existing homeostasis is futile. You must dismantle the specific mechanisms \u2014 approval chains, testing bottlenecks, incentive mismatches \u2014 that hold the old equilibrium in place.",
+    "answer": "Identify and systematically remove the structural barriers",
+    "explanation": "Pushing harder against an existing homeostasis is futile. You must dismantle the specific mechanisms — approval chains, testing bottlenecks, incentive mismatches — that hold the old equilibrium in place.",
     "difficulty": "hard"
   },
   {
@@ -75,39 +75,39 @@
     "description": "Remote work became widespread after a pandemic. Initially productivity dipped, then rose, then stabilized at a level different from the pre-pandemic office baseline. What does this describe?",
     "options": [
       "A temporary reinforcing loop that eventually faded",
-      "A permanent equilibrium shift to a new stable operating point",
+      "A permanent equilibrium shift to a new stable",
       "A bottleneck in communication technology",
       "A regression to the mean of workplace productivity"
     ],
-    "answer": "A permanent equilibrium shift to a new stable operating point",
+    "answer": "A permanent equilibrium shift to a new stable",
     "explanation": "When external conditions structurally change, systems move to a new equilibrium. The transition may be turbulent, but the system settles into a different stable state reflecting the new conditions.",
     "difficulty": "medium"
   },
   {
     "question": "Homeostasis Change Strategy",
-    "content": "To change a homeostatic system, do not apply force to the output metric. Instead, alter the regulatory mechanism itself \u2014 the sensors, set points, or response rules.",
+    "content": "To change a homeostatic system, do not apply force to the output metric. Instead, alter the regulatory mechanism itself — the sensors, set points, or response rules.",
     "description": "A call center maintains an average handle time of 8 minutes despite training programs aimed at reducing it to 5 minutes. What approach would actually change this homeostatic set point?",
     "options": [
       "Threaten to fire agents who exceed 6 minutes",
-      "Reward agents for first-call resolution rather than speed",
+      "Reward agents for first-call resolution",
       "Hire faster-speaking agents",
       "Add more staff to reduce the call queue"
     ],
-    "answer": "Reward agents for first-call resolution rather than speed",
-    "explanation": "The handle time is held at 8 minutes because the system\u2019s set point (implicitly defined by existing metrics) keeps it there. Changing the regulatory mechanism \u2014 what is measured and rewarded \u2014 shifts the equilibrium.",
+    "answer": "Reward agents for first-call resolution",
+    "explanation": "The handle time is held at 8 minutes because the system’s set point (implicitly defined by existing metrics) keeps it there. Changing the regulatory mechanism — what is measured and rewarded — shifts the equilibrium.",
     "difficulty": "hard"
   },
   {
     "question": "Dynamic Equilibrium",
-    "content": "Many systems are not static but maintain a dynamic equilibrium \u2014 constantly fluctuating around a stable average as opposing forces push and pull.",
+    "content": "Many systems are not static but maintain a dynamic equilibrium — constantly fluctuating around a stable average as opposing forces push and pull.",
     "description": "A predator-prey relationship in an ecosystem shows both populations oscillating: when prey increases, predators increase, which reduces prey, which reduces predators, and the cycle repeats. What kind of equilibrium is this?",
     "options": [
       "A static equilibrium with no net change",
-      "A dynamic equilibrium with ongoing oscillations around a stable average",
+      "A dynamic equilibrium with ongoing oscillations",
       "A reinforcing loop driving predator extinction",
       "A bottleneck controlled by the predator population"
     ],
-    "answer": "A dynamic equilibrium with ongoing oscillations around a stable average",
+    "answer": "A dynamic equilibrium with ongoing oscillations",
     "explanation": "Dynamic equilibrium involves continuous oscillation as opposing forces alternately dominate, but the system remains bounded within a stable range over time.",
     "difficulty": "medium"
   }

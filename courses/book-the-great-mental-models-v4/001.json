@@ -33,7 +33,7 @@
     "description": "A pharmaceutical company holds a patent on a life-saving drug and produces only enough to keep prices high, despite having the capacity to manufacture far more. What economic strategy does this represent?",
     "options": [
       "Supply and demand",
-      "Optimization",
+      "Process optimization",
       "Artificial scarcity",
       "Opportunity cost"
     ],
@@ -76,10 +76,10 @@
     "options": [
       "Cognitive tunneling",
       "Confirmation bias",
-      "The scarcity heuristic",
+      "The scarcity",
       "Loss aversion"
     ],
-    "answer": "The scarcity heuristic",
+    "answer": "The scarcity",
     "explanation": "The scarcity heuristic is correct because customers assign higher value to the limited edition items solely due to their perceived rarity, despite identical quality. Cognitive tunneling is narrowed attention under time pressure, not value perception. Confirmation bias is favoring information that confirms existing beliefs. Loss aversion is the tendency to prefer avoiding losses over acquiring gains.",
     "difficulty": "medium"
   },

@@ -5,11 +5,11 @@
     "description": "A city builds taller sea walls to prevent flooding, which encourages more development in flood-prone areas. When a storm eventually exceeds the walls, damage is far worse than before. This outcome reflects:",
     "options": [
       "Poor construction quality of the sea walls",
-      "Systems thinking ignored because the wall changed behavior throughout the system",
+      "Systems thinking ignored because the wall changed",
       "The storm being historically unprecedented",
       "City planners making reasonable short-term decisions"
     ],
-    "answer": "Systems thinking ignored because the wall changed behavior throughout the system",
+    "answer": "Systems thinking ignored because the wall changed",
     "explanation": "The sea wall seemed like a simple solution but altered the broader system by encouraging risky development. Systems thinking would have anticipated how the intervention would change behavior and create new vulnerabilities.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A pharmaceutical company publishes only the clinical trials where their drug worked, hiding the three trials where it performed worse than placebo. This is:",
     "options": [
       "Standard industry publishing practices",
-      "Misrepresentative evidence through selective reporting",
+      "Misrepresentative evidence through selective",
       "Saving costs by not publishing unnecessary data",
       "Scientific peer review catching bad research"
     ],
-    "answer": "Misrepresentative evidence through selective reporting",
+    "answer": "Misrepresentative evidence through selective",
     "explanation": "Selectively reporting only favorable results makes the drug appear more effective than it truly is. This publication bias distorts the scientific literature and can lead to harmful medical decisions.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "An online poll on a tech website finds that 95 percent of respondents support cryptocurrency regulation. The conclusion may be misleading because:",
     "options": [
       "Online polls are always unreliable",
-      "The sample is limited to tech-savvy website visitors, not the general population",
+      "The sample is limited to tech-savvy website",
       "Cryptocurrency regulation is universally supported",
       "The poll questions were too difficult to understand"
     ],
-    "answer": "The sample is limited to tech-savvy website visitors, not the general population",
+    "answer": "The sample is limited to tech-savvy website",
     "explanation": "The poll sample, tech website visitors, is not representative of the general population, which has different demographics and perspectives. Sampling bias makes the result unreliable for broader conclusions.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A social media post gets a few early likes, causing the algorithm to show it to more people, generating more engagement in a self-reinforcing cycle. This is an example of:",
     "options": [
       "Negative feedback maintaining system stability",
-      "A positive feedback loop amplifying initial success",
+      "A positive feedback loop amplifying initial",
       "Random variation in social media algorithms",
       "Direct user intervention boosting the post"
     ],
-    "answer": "A positive feedback loop amplifying initial success",
+    "answer": "A positive feedback loop amplifying initial",
     "explanation": "The early engagement creates more visibility, which creates more engagement. This is a positive feedback loop. Small initial advantages can snowball into large outcomes through this mechanism.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Ice cream sales and drowning incidents both rise in summer. Concluding that ice cream causes drowning would ignore:",
     "options": [
       "The statistical significance of the correlation",
-      "The confounding factor of hot weather causing both",
+      "The confounding factor of hot weather causing",
       "The large sample size making the data reliable",
       "Government regulations on ice cream sales"
     ],
-    "answer": "The confounding factor of hot weather causing both",
+    "answer": "The confounding factor of hot weather causing",
     "explanation": "A third variable, hot summer weather, independently increases both ice cream sales, more people buy it, and drowning incidents, more people swim. Observing correlation alone can lead to false causal conclusions.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Two identical twins start identical businesses in different cities. One thrives, the other fails despite equal effort and skill. The difference may stem from:",
     "options": [
       "One twin being secretly more talented",
-      "Small initial differences amplified by complex system dynamics",
+      "Small initial differences amplified by complex",
       "The failing twin making one obvious mistake",
       "The twins not truly being identical in ability"
     ],
-    "answer": "Small initial differences amplified by complex system dynamics",
+    "answer": "Small initial differences amplified by complex",
     "explanation": "In complex systems like markets, tiny differences in starting conditions, a key contact met, a lease signed a day earlier, can cascade into dramatically different outcomes, making prediction unreliable.",
     "difficulty": "medium"
   },
@@ -116,12 +116,12 @@
     "content": "Reliable systems build in redundancy and backup mechanisms. When a single point of failure exists, the entire system is vulnerable to collapse from one unexpected event.",
     "description": "A factory sources its only critical component from a single supplier. When that supplier factory floods, the entire production line stops. This demonstrates failure to:",
     "options": [
-      "Build redundancy against single points of failure",
+      "Build redundancy against single points",
       "Negotiate lower prices with the supplier",
       "Train workers for multiple roles",
       "Automate the production process"
     ],
-    "answer": "Build redundancy against single points of failure",
+    "answer": "Build redundancy against single points",
     "explanation": "Depending on a single supplier creates a critical vulnerability. Redundancy, multiple suppliers, safety stock, or alternatives, would protect against this failure mode.",
     "difficulty": "medium"
   }

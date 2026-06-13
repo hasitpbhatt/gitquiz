@@ -5,11 +5,11 @@
     "description": "Before: 'the king says so.' After: 'let's test it empirically'. This illustrates:",
     "options": [
       "Why we should return to medieval thinking",
-      "How the Enlightenment shifted from authority to reason and evidence",
+      "How the Enlightenment shifted from",
       "That kings actually knew best",
       "Why empiricism doesn't work"
     ],
-    "answer": "How the Enlightenment shifted from authority to reason and evidence",
+    "answer": "How the Enlightenment shifted from",
     "explanation": "The Enlightenment replaced deference to authority (kings, priests, ancient texts) with the idea that claims should be tested against evidence and reasoned about critically - creating the conditions for unbounded scientific and moral progress.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A company where anyone can criticize the CEO's strategy vs. one where they can't. This shows:",
     "options": [
       "Why CEOs should never be questioned",
-      "How openness to criticism enables error correction and progress",
+      "How openness to criticism enables",
       "That all criticism is actually helpful",
       "Why hierarchies prevent innovation"
     ],
-    "answer": "How openness to criticism enables error correction and progress",
+    "answer": "How openness to criticism enables",
     "explanation": "In an open society, flawed policies and ideas can be identified and corrected through criticism. Closed societies suppress criticism, allowing errors to persist and compound - preventing the error correction essential for progress.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "\"We've always done it this way\" vs. \"the data shows a better way\". This illustrates:",
     "options": [
       "Why tradition is always better than innovation",
-      "How reason should trump mere tradition when evidence contradicts it",
+      "How reason should trump mere tradition when",
       "That data is actually irrelevant to decisions",
       "Why we should never change established practices"
     ],
-    "answer": "How reason should trump mere tradition when evidence contradicts it",
+    "answer": "How reason should trump mere tradition when",
     "explanation": "When tradition and evidence conflict, reason demands we follow the evidence. Blindly following tradition prevents adopting better methods - while reasoned evaluation allows us to keep what works and improve what doesn't.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Code review improves software; same with ideas. This demonstrates:",
     "options": [
       "Why we should avoid sharing our work",
-      "How criticism improves ideas and products through error correction",
+      "How criticism improves ideas and",
       "That reviewers are usually wrong",
       "Why first drafts are always best"
     ],
-    "answer": "How criticism improves ideas and products through error correction",
+    "answer": "How criticism improves ideas and",
     "explanation": "Just as code review catches bugs before they cause problems, criticism of ideas identifies flaws before they lead to bad outcomes. This error correction process is how knowledge improves over time through conjecture and refutation.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "The medical establishment laughed at hand-washing; now it's standard. This illustrates:",
     "options": [
       "Why we should always trust medical authorities",
-      "How science progresses by correcting authorities through evidence",
+      "How science progresses by correcting",
       "That hand-washing is actually harmful",
       "Why laughter is the best medicine"
     ],
-    "answer": "How science progresses by correcting authorities through evidence",
+    "answer": "How science progresses by correcting",
     "explanation": "When Semmelweis proposed hand-washing to prevent childbed fever, medical authorities rejected it despite evidence. Later, overwhelming evidence forced acceptance - showing how science advances by correcting even respected authorities through evidence and criticism.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A student asks 'why is that law fair?' in a society that doesn't question laws. This illustrates:",
     "options": [
       "Why we should never question authority",
-      "How taboo-breaking enables moral and social progress",
+      "How taboo-breaking enables moral and",
       "That questioning laws is always disloyal",
       "Why traditions should never be examined"
     ],
-    "answer": "How taboo-breaking enables moral and social progress",
+    "answer": "How taboo-breaking enables moral and",
     "explanation": "When questioning is taboo, mistaken or unjust beliefs and laws go unchallenged. Breaking taboos allows criticism to identify flaws, leading to reforms - whether correcting scientific misunderstandings or improving unjust laws and social practices.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "How we transitioned from alchemy (secret recipes) to chemistry (open methods). This demonstrates:",
     "options": [
       "Why secrecy actually improves knowledge",
-      "How open criticism enables cumulative knowledge",
+      "How open criticism enables cumulative",
       "That alchemists were better scientists",
       "Why we should return to secret knowledge"
     ],
-    "answer": "How open criticism enables cumulative knowledge",
+    "answer": "How open criticism enables cumulative",
     "explanation": "Alchemy relied on secret knowledge, preventing cumulative progress. Chemistry's open sharing of methods and results allowed scientists to build on each other's work through criticism and refinement - creating the cumulative knowledge essential for scientific progress.",
     "difficulty": "hard"
   }

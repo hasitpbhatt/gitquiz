@@ -5,11 +5,11 @@
     "description": "According to Naval, what is a primary characteristic of the 'post-COVID' world?",
     "options": [
       "A return to the slow, stable growth of the early 2000s.",
-      "A phase shift where the world moves at a much faster pace across all sectors.",
+      "A phase shift where the world moves at a much faster pace across all",
       "A total collapse of the venture capital market for hardware.",
       "A decrease in the demand for sci-fi technologies like rockets and drones."
     ],
-    "answer": "A phase shift where the world moves at a much faster pace across all sectors.",
+    "answer": "A phase shift where the world moves at a much faster pace across all",
     "explanation": "Naval argues that the world has transitioned out of its previous stagnation and into a period of rapid, multi-dimensional acceleration.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "What does Naval believe is 'unlocking' hardware and making it more usable today?",
     "options": [
       "The discovery of new ways to mine rare earth minerals.",
-      "The fact that software is now 'figured out' enough via AI that hardware can finally function well.",
+      "The fact that software is now 'figured out' enough via AI",
       "A global decrease in the price of manufacturing in China.",
       "Government mandates requiring all hardware to be open source."
     ],
-    "answer": "The fact that software is now 'figured out' enough via AI that hardware can finally function well.",
+    "answer": "The fact that software is now 'figured out' enough via AI",
     "explanation": "Naval’s core point about hardware is that 'software figured out' removes the primary reason why hardware products used to fail or be difficult to use.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Why does China have a 'nationalist pride' interest in open-source AI, according to Naval?",
     "options": [
       "They want to prove they are the most altruistic nation in the world.",
-      "It plays into their hardware dominance by providing the necessary software to unlock their electronic goods.",
+      "It plays into their hardware dominance by providing the necessary",
       "They want to stop their own scientists from working at American AI labs.",
       "They believe open-source models are easier for a government to control."
     ],
-    "answer": "It plays into their hardware dominance by providing the necessary software to unlock their electronic goods.",
+    "answer": "It plays into their hardware dominance by providing the necessary",
     "explanation": "Naval explains that open source is a tool for China to commoditize software, which in turn makes their dominant hardware manufacturing more valuable.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "What is Nvidia's primary incentive for supporting open-source AI models?",
     "options": [
       "To transition from a hardware company to a software company.",
-      "To commoditize the 'complement' (software) so they can sell as many hardware cards as possible.",
+      "To commoditize the 'complement' (software) so they can sell as many hardware",
       "To ensure that only the smartest people in the world can use their chips.",
       "To follow international laws that require all GPU companies to be open source."
     ],
-    "answer": "To commoditize the 'complement' (software) so they can sell as many hardware cards as possible.",
+    "answer": "To commoditize the 'complement' (software) so they can sell as many hardware",
     "explanation": "Nvidia benefits from the proliferation of AI; open-source software lowers the barrier for users to consume more of Nvidia's hardware.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Why is it 'much easier to imagine doom scenarios than it is to imagine positive scenarios'?",
     "options": [
       "Because doom is more likely to happen than success.",
-      "Because optimism requires creativity to imagine the unknown, whereas doom fixates on the destruction of the known.",
+      "Because optimism requires creativity to imagine the unknown, whereas doom",
       "Because people are naturally pessimistic and hate technology.",
       "Because there is more data available for doom scenarios than for positive ones."
     ],
-    "answer": "Because optimism requires creativity to imagine the unknown, whereas doom fixates on the destruction of the known.",
+    "answer": "Because optimism requires creativity to imagine the unknown, whereas doom",
     "explanation": "Naval notes that we hold doom scenarios closer because they are 'legible' to the mind, while the next great human advancement is currently unimaginable.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "What is Naval's critique of the 'crabs in a bucket' mentality in the tech world?",
     "options": [
       "It’s an effective way to keep companies from taking too much risk.",
-      "It doesn't help matters; you don't want to be in a 'foxhole' with someone who only sees the end of the world.",
+      "It doesn't help matters; you don't want to be in a 'foxhole' with",
       "It ensures that only the best ideas survive the 'doom' testing.",
       "It is a necessary part of the biological evolution of society."
     ],
-    "answer": "It doesn't help matters; you don't want to be in a 'foxhole' with someone who only sees the end of the world.",
+    "answer": "It doesn't help matters; you don't want to be in a 'foxhole' with",
     "explanation": "Naval emphasizes that even if doomers have points, their mindset is fundamentally unconstructive for those actually trying to build a way out of problems.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "What is the lesson of Naval’s '200 years ago' farm analogy?",
     "options": [
       "We should prepare for a future where everyone returns to manual labor.",
-      "Technology doesn't end work; it evolves it into forms that are currently impossible to imagine.",
+      "Technology doesn't end work; it evolves it into forms that are currently",
       "Farming was the only time in history where humans were truly productive.",
       "AI will eventually make it impossible for anyone to produce food."
     ],
-    "answer": "Technology doesn't end work; it evolves it into forms that are currently impossible to imagine.",
+    "answer": "Technology doesn't end work; it evolves it into forms that are currently",
     "explanation": "Naval uses this historical perspective to counter the fear of mass unemployment, suggesting that 'there's always a next job' that we just can't visualize yet.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "Why does Naval believe we must be 'irrationally optimistic'?",
     "options": [
       "Because it is the only way to ignore the facts of the situation.",
-      "Because it is the only way out of our current problems; we must imagine the 'rising up' scenario.",
+      "Because it is the only way out of our current problems; we must",
       "Because AI systems work better when the humans using them are happy.",
       "Because it makes it easier to raise money from venture capitalists."
     ],
-    "answer": "Because it is the only way out of our current problems; we must imagine the 'rising up' scenario.",
+    "answer": "Because it is the only way out of our current problems; we must",
     "explanation": "Naval argues that optimism is a creative requirement; to find the 'next job' or the 'next defense,' we must believe that such things are possible and buildable.",
     "difficulty": "hard"
   }

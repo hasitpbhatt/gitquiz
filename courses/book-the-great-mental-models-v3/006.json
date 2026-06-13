@@ -5,25 +5,25 @@
     "description": "Scientists can map every neuron in a brain but cannot explain how consciousness arises from those neurons. What concept does this illustrate?",
     "options": [
       "The brain is too complex to ever be understood",
-      "Irreducibility \u2014 the whole has emergent properties not present in any individual part",
+      "Irreducibility — the whole has emergent",
       "The bottleneck is in our measurement technology",
       "Consciousness operates independently of the brain"
     ],
-    "answer": "Irreducibility \u2014 the whole has emergent properties not present in any individual part",
+    "answer": "Irreducibility — the whole has emergent",
     "explanation": "Consciousness is an emergent property of neural interactions. No single neuron is conscious, yet the system of billions of neurons produces awareness. You cannot find consciousness by dissecting a brain.",
     "difficulty": "easy"
   },
   {
     "question": "Toyota Production System",
     "content": "The Toyota Production System (TPS) cannot be cloned by copying its visible components (Kanban, Andon cords) because its efficiency emerges from a deeply embedded culture of kaizen and frontline trust.",
-    "description": "Many automakers in the 1980s and 1990s tried to copy Toyota\u2019s Kanban cards and Andon cords but failed to achieve Toyota\u2019s quality levels. Why?",
+    "description": "Many automakers in the 1980s and 1990s tried to copy Toyota’s Kanban cards and Andon cords but failed to achieve Toyota’s quality levels. Why?",
     "options": [
       "Toyota had better robots and automation technology",
-      "TPS is an irreducible system \u2014 its performance emerges from cultural philosophy, not isolated tools",
+      "TPS is an irreducible system — its performance emerges from",
       "Competitors did not invest enough money in copying the system",
       "Toyota had patents protecting its manufacturing methods"
     ],
-    "answer": "TPS is an irreducible system \u2014 its performance emerges from cultural philosophy, not isolated tools",
+    "answer": "TPS is an irreducible system — its performance emerges from",
     "explanation": "The tools are visible but the underlying philosophy of continuous improvement (kaizen) and empowering frontline workers to stop the line is invisible and culturally embedded. Copying the parts without the whole fails.",
     "difficulty": "medium"
   },
@@ -33,25 +33,25 @@
     "description": "Water (H2O) has the property of wetness, but neither hydrogen nor oxygen atoms individually are wet. What does this illustrate?",
     "options": [
       "Chemical reactions are difficult to predict",
-      "Emergence \u2014 the whole has properties that do not exist in any individual part",
+      "Emergence — the whole has properties that do not exist in any",
       "Water is a special molecule with unique properties",
       "Hydrogen and oxygen combine to cancel out their individual properties"
     ],
-    "answer": "Emergence \u2014 the whole has properties that do not exist in any individual part",
+    "answer": "Emergence — the whole has properties that do not exist in any",
     "explanation": "Wetness emerges from the collective behavior of H2O molecules. No single molecule is wet. This is a textbook example of an emergent property of an irreducible system.",
     "difficulty": "easy"
   },
   {
     "question": "Corporate Culture as Emergent",
     "content": "Company culture is an emergent property of interactions between individuals, policies, incentives, and history. It cannot be imposed top-down or reduced to any single factor.",
-    "description": "A CEO issues a memo declaring \u201cOur culture will be innovative and collaborative!\u201d and creates a new values poster for every wall. A year later, nothing has changed. Why?",
+    "description": "A CEO issues a memo declaring “Our culture will be innovative and collaborative!” and creates a new values poster for every wall. A year later, nothing has changed. Why?",
     "options": [
       "The CEO did not communicate the values clearly enough",
-      "Culture emerges from systems, incentives, and interactions, not from memos",
+      "Culture emerges from systems, incentives, and",
       "Employees are resistant to change and need to be replaced",
       "The values were not catchy enough to be memorable"
     ],
-    "answer": "Culture emerges from systems, incentives, and interactions, not from memos",
+    "answer": "Culture emerges from systems, incentives, and",
     "explanation": "Culture cannot be engineered by decree. It emerges from who gets hired, promoted, and rewarded; how decisions are actually made; and what behaviors are tolerated. Changing culture requires changing the underlying system.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "When a malfunctioning system is irreducible, avoid reductionist errors like replacing isolated individuals. Instead, map relationships and behavioral dynamics between components.",
     "description": "A cross-functional team is underperforming. The VP wants to fire the project manager and replace them with someone more aggressive. According to the irreducibility model, why might this fail?",
     "options": [
-      "The new project manager will need time to learn the team\u2019s processes",
-      "Team performance emerges from system interactions \u2014 swapping one person rarely fixes the system",
+      "The new project manager will need time to learn the team’s processes",
+      "Team performance emerges from system interactions — swapping one",
       "The VP should fire the entire team and start fresh",
       "Project managers have the least impact on team performance"
     ],
-    "answer": "Team performance emerges from system interactions \u2014 swapping one person rarely fixes the system",
+    "answer": "Team performance emerges from system interactions — swapping one",
     "explanation": "When a system is irreducible, blaming individuals misses the structural dynamics. Map the relationships, information flows, and incentive structures before concluding the problem is a person.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A struggling company hires a branding agency to design a new logo and tagline, expecting it to revitalize their reputation. When sales do not improve, they blame the agency. What went wrong?",
     "options": [
       "The agency designed a logo that did not resonate with customers",
-      "Brand reputation emerges from the entire customer experience, not from a logo",
+      "Brand reputation emerges from the entire customer experience,",
       "The company should have spent more on the branding campaign",
       "Logo design requires more market research"
     ],
-    "answer": "Brand reputation emerges from the entire customer experience, not from a logo",
+    "answer": "Brand reputation emerges from the entire customer experience,",
     "explanation": "A great logo cannot compensate for a mediocre product, poor customer service, or broken operations. Brand is the result of the whole system working well, not a magic sticker you apply.",
     "difficulty": "hard"
   },
@@ -89,25 +89,25 @@
     "description": "A mechanic can fix a car engine by identifying a faulty piston (reductionism), but cannot explain why a specific car brand inspires more loyalty than another by examining individual components. What does this contrast illustrate?",
     "options": [
       "Cars are too complex for reductionist analysis",
-      "Reductionism works for linear mechanical systems; emergent systems need holistic analysis",
+      "Reductionism works for linear mechanical systems; emergent",
       "Loyalty is an irrational emotion unrelated to the car",
       "Mechanics should study marketing to understand brand loyalty"
     ],
-    "answer": "Reductionism works for linear mechanical systems; emergent systems need holistic analysis",
+    "answer": "Reductionism works for linear mechanical systems; emergent",
     "explanation": "Not all systems are irreducible. The key skill is knowing which problems yield to reductionist analysis and which require a holistic approach that considers emergent properties.",
     "difficulty": "medium"
   },
   {
     "question": "Agile Teams as Irreducible",
-    "content": "High-performing agile teams generate emergent capabilities \u2014 collective intelligence, trust, and flow \u2014 that cannot exist in any individual member or be created by rearranging individuals arbitrarily.",
+    "content": "High-performing agile teams generate emergent capabilities — collective intelligence, trust, and flow — that cannot exist in any individual member or be created by rearranging individuals arbitrarily.",
     "description": "A high-performing software team delivers 3x more than another team with similarly skilled individuals. When management tries to scale this success by splitting the team and adding new members, performance drops. Why?",
     "options": [
       "The original team had unusually talented individuals who cannot be replaced",
-      "Team performance is an emergent property of interpersonal dynamics and shared context, not reassignment",
+      "Team performance is an emergent property of interpersonal dynamics and",
       "New members are always less productive initially",
       "Management should have hired more experienced developers"
     ],
-    "answer": "Team performance is an emergent property of interpersonal dynamics and shared context, not reassignment",
+    "answer": "Team performance is an emergent property of interpersonal dynamics and",
     "explanation": "High-performing teams are irreducible. Their magic emerges from trust, shared mental models, and communication patterns built over time. Breaking them apart destroys the emergent capability.",
     "difficulty": "hard"
   }

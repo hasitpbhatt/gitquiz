@@ -5,11 +5,11 @@
     "description": "You want your AI to identify if the current market volatility resembles the '2008 Financial Crisis' or the '2020 Flash Crash.' Which approach leverages GenAI best?",
     "options": [
       "Hard-code the exact price drops of 2008 into a Python script.",
-      "Use an LLM to analyze macro-economic descriptions and volatility clusters to find historical analogies.",
+      "Use an LLM to analyze macro-economic descriptions and",
       "Ask the AI to flip a coin to decide which era it is.",
       "Only look at the current day's price action and ignore history."
     ],
-    "answer": "Use an LLM to analyze macro-economic descriptions and volatility clusters to find historical analogies.",
+    "answer": "Use an LLM to analyze macro-economic descriptions and",
     "explanation": "GenAI is excellent at 'high-dimensional' pattern matching—looking at many qualitative and quantitative factors at once to find the closest historical precedent.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "You are researching the Impact of AI chips on the tech sector. How can GenAI help you form a trading hypothesis?",
     "options": [
       "By automatically placing trades on NVDA.",
-      "By synthesizing supply chain news and earnings to find potential under-the-radar winners.",
+      "By synthesizing supply chain news and earnings to find potential",
       "By telling you exactly what the price of every stock will be tomorrow.",
       "By deleting all data that contradicts your personal opinion."
     ],
-    "answer": "By synthesizing supply chain news and earnings to find potential under-the-radar winners.",
+    "answer": "By synthesizing supply chain news and earnings to find potential",
     "explanation": "GenAI helps you find 'second-order' effects—links between companies and news events that aren't immediately obvious but form a logical trading thesis.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "You have a database of 10,000 tweets about a new EV launch. You want to add this to your quantitative model. What is the GenAI role here?",
     "options": [
       "To read every tweet aloud to the trading team.",
-      "To convert the collective sentiment and volume of 'hype' keywords into a numerical 0-1 score.",
+      "To convert the collective sentiment and volume of 'hype'",
       "To ban all users who tweet negative things about the stock.",
       "To reply to every tweet with a buy recommendation."
     ],
-    "answer": "To convert the collective sentiment and volume of 'hype' keywords into a numerical 0-1 score.",
+    "answer": "To convert the collective sentiment and volume of 'hype'",
     "explanation": "This is the essence of feature engineering: taking raw, unstructured information and turning it into a structured 'signal' that a math model can understand.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Immediately buy coffee futures.",
       "Ignore it; AI can't know anything about the weather.",
-      "Run a historical correlation test of Brazil rainfall vs coffee stock prices over 20 years.",
+      "Run a historical correlation test of Brazil rainfall vs coffee",
       "Wait for it to rain in Brazil and then check the price manually."
     ],
-    "answer": "Run a historical correlation test of Brazil rainfall vs coffee stock prices over 20 years.",
+    "answer": "Run a historical correlation test of Brazil rainfall vs coffee",
     "explanation": "Trust but verify. Always validate an AI-generated hypothesis with historical statistical analysis to avoid trading on 'hallucinated' correlations.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Why would a developer generate a fake 'World War III' news headline for their trading bot?",
     "options": [
       "To spread rumors on social media.",
-      "To test if the bot's 'Panic Sell' or 'Hedging' logic activates in a simulated disaster.",
+      "To test if the bot's 'Panic Sell' or 'Hedging' logic",
       "To make the bot feel more stressed so it works harder.",
       "To trick the bot into giving them money."
     ],
-    "answer": "To test if the bot's 'Panic Sell' or 'Hedging' logic activates in a simulated disaster.",
+    "answer": "To test if the bot's 'Panic Sell' or 'Hedging' logic",
     "explanation": "Synthetic scenarios (stress testing) allow you to observe your bot's behavior in 'tail risk' events that haven't happened recently but are possible.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You’ve found a prompt that perfectly 'predicted' the 2021 Bitcoin peak. When you use it for 2024, it fails miserably. What is the most likely problem?",
     "options": [
       "The AI is tired of Bitcoin.",
-      "The prompt was 'overfitted' to 2021 conditions and lacks general logic.",
+      "The prompt was 'overfitted' to 2021",
       "Bitcoin is no longer a real asset.",
       "You didn't use enough emojis in the prompt."
     ],
-    "answer": "The prompt was 'overfitted' to 2021 conditions and lacks general logic.",
+    "answer": "The prompt was 'overfitted' to 2021",
     "explanation": "If a strategy only works on one specific slice of history, it's not a robust strategy—it's just a coincidence that you've 'tuned' for.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Inflation comes in at 3.0%. The previous month was 3.5%. The market expected 2.8%. How does GenAI help you research the 'surprise'?",
     "options": [
       "By stating that 3.0 is a smaller number than 3.5.",
-      "By analyzing analyst reports to explain why the 0.2% 'miss' vs expectations is the key factor.",
+      "By analyzing analyst reports to explain why the 0.2%",
       "By recalculating the math to make 3.0 look like 2.8.",
       "By ignoring the numbers and looking at chart colors."
     ],
-    "answer": "By analyzing analyst reports to explain why the 0.2% 'miss' vs expectations is the key factor.",
+    "answer": "By analyzing analyst reports to explain why the 0.2%",
     "explanation": "Markets trade on 'surprises' (Actual vs. Expected). GenAI helps quantify the 'magnitude' of the surprise by reading the context around the consensus.",
     "difficulty": "easy"
   },
@@ -118,10 +118,10 @@
     "options": [
       "The AI is definitely wrong.",
       "The price is wrong and must go up immediately.",
-      "A potential 'bull trap' where smart money sells to the excited public.",
+      "A potential 'bull trap' where smart money sells to",
       "The company has been deleted from the stock exchange."
     ],
-    "answer": "A potential 'bull trap' where smart money sells to the excited public.",
+    "answer": "A potential 'bull trap' where smart money sells to",
     "explanation": "Divergence is a classic signal. When sentiment is high but price is low, it suggests that the 'good news' is already fully priced in and the trend may be ending.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "How does an LLM help a researcher move from 'Correlation' to 'Causality' in a trading strategy?",
     "options": [
       "By guessing randomly.",
-      "By providing a logical chain of events from news and reports that explains the connection.",
+      "By providing a logical chain of events from news and reports",
       "By drawing a straight line on a chart between two points.",
       "By making sure both stock prices move at exactly the same time."
     ],
-    "answer": "By providing a logical chain of events from news and reports that explains the connection.",
+    "answer": "By providing a logical chain of events from news and reports",
     "explanation": "LLMs can 'reason' through text to explain the mechanism behind a price move, helping traders understand if a relationship is likely to continue or if it was just a fluke.",
     "difficulty": "medium"
   }

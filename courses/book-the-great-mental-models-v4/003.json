@@ -61,11 +61,11 @@
     "description": "A dominant search engine controls 90% of global search traffic. When it ranks its own comparison shopping service first in results while relegating competitors to page two, users assume the ranking reflects quality rather than self-preference. Most never question the results. What cognitive bias does this dynamic best illustrate?",
     "options": [
       "Confirmation Bias",
-      "Authority Bias Amplified by Monopoly",
+      "Authority Bias",
       "Herd Mentality",
       "Anchoring Effect"
     ],
-    "answer": "Authority Bias Amplified by Monopoly",
+    "answer": "Authority Bias",
     "explanation": "Authority bias is the tendency to overvalue the opinions of perceived authorities. A monopoly platform compounds this bias because its dominance creates an aura of inevitability and expertise. Users trust the ranking because the platform is the unquestioned default. In competitive markets, users can cross-check across providers, but monopoly eliminates that check, amplifying the bias. Confirmation bias seeks evidence for existing beliefs, herd mentality follows the crowd, and anchoring fixates on initial information.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Netflix was a DVD-by-mail company generating billions in revenue. CEO Reed Hastings launched streaming, knowing it would destroy the DVD business. DVD revenue cratered, but streaming eventually grew to ten times what DVD ever was. Why do most executives in Hastings's position avoid this path despite the potential long-term payoff?",
     "options": [
       "They lack the technology to stream content",
-      "They prioritize quarterly earnings over long-term survival",
+      "They prioritize quarterly earnings over long-term",
       "Their customers prefer physical media overwhelmingly",
       "Regulatory barriers prevent business model transitions"
     ],
-    "answer": "They prioritize quarterly earnings over long-term survival",
+    "answer": "They prioritize quarterly earnings over long-term",
     "explanation": "The core challenge of self-cannibalization is that it looks terrible on quarterly reports. DVD revenue falls immediately, while streaming revenue takes years to mature. Most executives are incentivized to protect existing profit centers because bonuses, stock prices, and analyst ratings reward current performance. Hastings chose long-term survival over short-term optics, a decision most leaders cannot make due to incentive misalignment.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "Just as economies must destroy old structures to grow, individuals must shed outdated mental models, beliefs, and habits to make room for new, more effective frameworks.",
     "description": "A manager has always believed that the best employees are those who never ask questions. After studying growth mindset research, they realize this belief is suppressing innovation on their team. They consciously replace it with a new framework that rewards curiosity and challenge. This personal transformation parallels which economic concept?",
     "options": [
-      "Creative Destruction Applied to Personal Growth",
+      "Creative Destruction",
       "Opportunity Cost",
       "Sunk Cost Fallacy",
       "The Paradox of Thrift"
     ],
-    "answer": "Creative Destruction Applied to Personal Growth",
+    "answer": "Creative Destruction",
     "explanation": "Personal creative destruction mirrors the economic concept exactly: old mental structures must be actively dismantled to allow new ones to grow. The manager's old belief provided comfort and simplicity, but it constrained team potential. Shedding it was uncomfortable yet necessary — the same dynamic Schumpeter described for economies. Opportunity cost, sunk cost fallacy, and the paradox of thrift are unrelated economic concepts.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "Kodak invented the digital camera in 1975 but suppressed the technology to protect its film business. By the time digital cameras became mainstream, Kodak had lost its lead and eventually filed for bankruptcy. What force best explains Kodak's failure to act on its own invention?",
     "options": [
       "Lack of Technical Expertise",
-      "Incumbent Inertia from a Profitable Legacy Model",
+      "Incumbent Inertia from a",
       "Government Regulations",
       "Insufficient Market Research"
     ],
-    "answer": "Incumbent Inertia from a Profitable Legacy Model",
+    "answer": "Incumbent Inertia from a",
     "explanation": "Kodak's dilemma is the classic case of incumbent inertia. Film was an extraordinarily profitable business with 70% margins. Digital cameras offered lower margins and would cannibalize that revenue. Leadership chose to protect the present rather than build the future. Ironically, Kodak had the technology first but lacked the willingness to disrupt itself. The failure was not technical but structural and psychological.",
     "difficulty": "medium"
   }

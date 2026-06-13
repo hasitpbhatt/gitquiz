@@ -5,53 +5,53 @@
     "description": "Human height follows a bell curve: most people are near the average height, and someone 8 feet tall is as rare as someone 3 feet tall. What type of distribution is this?",
     "options": [
       "A power law distribution",
-      "A normal distribution \u2014 clustering around a mean with symmetric, thin tails",
+      "A normal distribution — clustering around a mean with",
       "A uniform distribution where all heights are equally likely",
       "A binomial distribution from binary genetic factors"
     ],
-    "answer": "A normal distribution \u2014 clustering around a mean with symmetric, thin tails",
+    "answer": "A normal distribution — clustering around a mean with",
     "explanation": "Height is governed by many independent additive genetic and nutritional factors. The result is a classic bell curve where extreme values are exponentially unlikely.",
     "difficulty": "easy"
   },
   {
     "question": "Power Law Distribution",
     "content": "A power law (Pareto) distribution is governed by interdependent, multiplicative events where a tiny fraction accounts for the vast majority of outcomes, creating a long tail of extreme outliers.",
-    "description": "In venture capital, a handful of investments (Airbnb, Stripe, Dropbox) generate the entire fund\u2019s returns while most startups fail or return only capital. What distribution governs venture outcomes?",
+    "description": "In venture capital, a handful of investments (Airbnb, Stripe, Dropbox) generate the entire fund’s returns while most startups fail or return only capital. What distribution governs venture outcomes?",
     "options": [
-      "A normal distribution \u2014 most returns cluster around the average",
-      "A power law \u2014 a tiny number of winners dominate the entire return distribution",
-      "A uniform distribution \u2014 all outcomes are equally likely",
-      "A Poisson distribution \u2014 rare events occur at a fixed rate"
+      "A normal distribution — most returns cluster around the average",
+      "A power law — a tiny number of winners dominate the entire",
+      "A uniform distribution — all outcomes are equally likely",
+      "A Poisson distribution — rare events occur at a fixed rate"
     ],
-    "answer": "A power law \u2014 a tiny number of winners dominate the entire return distribution",
+    "answer": "A power law — a tiny number of winners dominate the entire",
     "explanation": "VC returns follow a power law: 5-10% of investments generate 90%+ of returns. The average outcome is misleading because it is dominated by extreme outliers that are far from the mean.",
     "difficulty": "easy"
   },
   {
     "question": "Y Combinator Power Law",
-    "content": "Y Combinator\u2019s model relies on the power law: most startups fail, but a few successes like Airbnb and Stripe generate returns that dwarf all losses combined.",
+    "content": "Y Combinator’s model relies on the power law: most startups fail, but a few successes like Airbnb and Stripe generate returns that dwarf all losses combined.",
     "description": "Y Combinator funds hundreds of startups knowing most will fail. The returns from Airbnb, Stripe, and Dropbox alone more than cover all the losses and generate massive fund outperformance. What does this validate?",
     "options": [
       "Y Combinator is better at selecting startups than other accelerators",
-      "The power law \u2014 in such environments, maximize exposure to rare high-upside outcomes",
+      "The power law — in such environments, maximize exposure to rare",
       "Most startups should not be funded at all",
       "Diversification is useless in venture capital"
     ],
-    "answer": "The power law \u2014 in such environments, maximize exposure to rare high-upside outcomes",
+    "answer": "The power law — in such environments, maximize exposure to rare",
     "explanation": "In a power law world, the correct strategy is not to pick only winners (impossible) but to maximize the number of bets so you capture the rare home runs that dominate the distribution.",
     "difficulty": "medium"
   },
   {
     "question": "Mistaking Power Law for Normal",
-    "content": "Applying Gaussian assumptions to a power law environment leads to catastrophic errors because extreme events that are \u201cimpossible\u201d under a normal distribution are routine under a power law.",
-    "description": "A hedge fund built models assuming stock market returns follow a normal distribution. They suffered massive losses during the 2008 financial crisis when markets moved 7+ standard deviations \u2014 events their models said could not happen in the lifetime of the universe. What went wrong?",
+    "content": "Applying Gaussian assumptions to a power law environment leads to catastrophic errors because extreme events that are “impossible” under a normal distribution are routine under a power law.",
+    "description": "A hedge fund built models assuming stock market returns follow a normal distribution. They suffered massive losses during the 2008 financial crisis when markets moved 7+ standard deviations — events their models said could not happen in the lifetime of the universe. What went wrong?",
     "options": [
       "The models had bugs in the statistical calculations",
-      "Financial returns follow a power law \u2014 extreme events are routine, not Gaussian-impossible",
+      "Financial returns follow a power law — extreme events are",
       "2008 was a one-in-a-trillion event that no model could predict",
       "The fund managers overrode the models"
     ],
-    "answer": "Financial returns follow a power law \u2014 extreme events are routine, not Gaussian-impossible",
+    "answer": "Financial returns follow a power law — extreme events are",
     "explanation": "Financial markets exhibit power law characteristics (leptokurtosis / fat tails). Using Gaussian models that assume extreme events are near-impossible is a recipe for blow-up when the routine extreme occurs.",
     "difficulty": "hard"
   },
@@ -60,26 +60,26 @@
     "question": "Distribution Rule",
     "description": "A content creator can either (A) produce average-quality content daily and build a steady audience, or (B) invest months into a single potentially viral piece. According to the distribution rule, which strategy is correct?",
     "options": [
-      "Strategy A is always correct \u2014 consistency beats virality",
-      "Strategy B is always correct \u2014 only viral content matters",
-      "It depends on the distribution \u2014 if power law, maximize exposure to rare viral hits",
+      "Strategy A is always correct — consistency beats virality",
+      "Strategy B is always correct — only viral content matters",
+      "It depends on the distribution — if power law, maximize",
       "Both strategies produce identical long-term results"
     ],
-    "answer": "It depends on the distribution \u2014 if power law, maximize exposure to rare viral hits",
+    "answer": "It depends on the distribution — if power law, maximize",
     "explanation": "In a power law environment (content virality), average content produces average results. The winners are the rare viral hits. Strategy must align with the underlying distribution of the domain.",
     "difficulty": "medium"
   },
   {
-    "content": "Normal distributions arise from additive, independent processes. Power laws arise from multiplicative, interdependent processes where \u201crich get richer\u201d dynamics amplify early advantages.",
+    "content": "Normal distributions arise from additive, independent processes. Power laws arise from multiplicative, interdependent processes where “rich get richer” dynamics amplify early advantages.",
     "question": "Origin of Distributions",
     "description": "Why does wealth follow a power law while height follows a normal distribution?",
     "options": [
-      "Wealth is multiplicative (returns on returns); height is additive (sum of genetic factors)",
+      "Wealth is multiplicative (returns on returns); height is additive (sum of",
       "Wealth is measured in dollars while height is measured in inches",
       "Height has a biological maximum while wealth does not",
       "Wealth distribution is controlled by government policy while height is not"
     ],
-    "answer": "Wealth is multiplicative (returns on returns); height is additive (sum of genetic factors)",
+    "answer": "Wealth is multiplicative (returns on returns); height is additive (sum of",
     "explanation": "The underlying generative process determines the distribution. Additive independent processes produce normal curves. Multiplicative processes with preferential attachment produce power laws. This is the fundamental reason for the difference.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "question": "Power Law Strategy Shift",
     "description": "An angel investor has $1 million to deploy. In a normal distribution world, they would diversify evenly across 100 startups. In a power law world, what strategy should they use?",
     "options": [
-      "Same strategy \u2014 diversification is always optimal",
+      "Same strategy — diversification is always optimal",
       "Invest $1 million in one startup to maximize upside if it hits",
-      "Invest in 50-100 startups \u2014 maximize shots on goal to catch rare power law winners",
+      "Invest in 50-100 startups — maximize shots on goal to catch",
       "Keep the cash and wait for the perfect opportunity"
     ],
-    "answer": "Invest in 50-100 startups \u2014 maximize shots on goal to catch rare power law winners",
+    "answer": "Invest in 50-100 startups — maximize shots on goal to catch",
     "explanation": "In a power law environment, you cannot predict which startup will be the outlier. The strategy is to maximize the number of independent bets so that the law of large numbers works for you in capturing the rare huge winners.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A company finds that 80% of its revenue comes from 20% of its customers. What distribution characteristic does this reflect?",
     "options": [
       "A normal distribution with all customers equally valuable",
-      "The Pareto principle as a power law \u2014 a small fraction drives most outcomes",
+      "The Pareto principle as a power law — a small fraction",
       "A uniform distribution of customer spending",
       "Sampling bias in customer selection"
     ],
-    "answer": "The Pareto principle as a power law \u2014 a small fraction drives most outcomes",
+    "answer": "The Pareto principle as a power law — a small fraction",
     "explanation": "The 80/20 rule is a hallmark of power law distributions. The strategic implication: identify and focus on the vital few (the 20%) rather than treating all customers or activities equally.",
     "difficulty": "easy"
   }

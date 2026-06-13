@@ -5,11 +5,11 @@
     "description": "Two soccer coaches prepare for a big match. Coach A watches twelve hours of game footage while also answering emails and taking calls. Coach B watches three hours in complete silence, taking detailed notes. Who will likely produce better tactical insights?",
     "options": [
       "Coach A, because he reviewed four times as much footage",
-      "Coach B, because his higher intensity of focus yields deeper analysis per hour",
+      "Coach B, because his higher intensity of focus yields deeper analysis per",
       "Both will produce equivalent insights since they watched the same opponents",
       "Neither; tactics depend on the players, not the coach"
     ],
-    "answer": "Coach B, because his higher intensity of focus yields deeper analysis per hour",
+    "answer": "Coach B, because his higher intensity of focus yields deeper analysis per",
     "explanation": "Three hours of undistracted, high-intensity analysis often reveals more insights than twelve hours of fragmented attention, because deep processing extracts meaning that shallow viewing misses.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "A meditator puts a red dot on her wall calendar for every day she meditates for fifteen minutes. On day forty-seven, she feels tired and wants to skip. Why might the chain motivate her to meditate anyway?",
     "options": [
       "She is afraid her meditation teacher will check her calendar",
-      "The psychological desire to maintain the forty-seven-day streak overrides the temporary tiredness",
+      "The psychological desire to maintain the forty-seven-day",
       "Meditation is mandatory for her health condition",
       "The calendar is public and her friends will judge her"
     ],
-    "answer": "The psychological desire to maintain the forty-seven-day streak overrides the temporary tiredness",
+    "answer": "The psychological desire to maintain the forty-seven-day",
     "explanation": "Visual progress creates momentum. The prospect of breaking a long streak becomes more painful than the temporary effort required to continue, making the habit self-sustaining.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A junior architect has a choice: spend five hours creating beautiful renderings of a project (visible, appreciated by clients) or five hours mastering a complex structural analysis tool (invisible, essential for major projects). Which builds more career capital?",
     "options": [
       "The renderings, because clients directly see them",
-      "The structural analysis tool, because it is a rare skill that enables her to work on high-value projects others cannot",
+      "The structural analysis tool, because it is a rare skill",
       "Both build equal capital as they are both work-related",
       "Neither; career capital comes from networking, not skills"
     ],
-    "answer": "The structural analysis tool, because it is a rare skill that enables her to work on high-value projects others cannot",
+    "answer": "The structural analysis tool, because it is a rare skill",
     "explanation": "Renderings are visible but common; many architects can produce them. Mastering a difficult tool is rare and valuable—it produces career capital that makes her harder to replace and opens doors to elite projects.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A nonprofit director blocks Tuesday and Thursday mornings as 'no-meeting strategic thinking time.' Her staff worry she is becoming unavailable. What is the risk of canceling these blocks?",
     "options": [
       "The staff will lose respect for her leadership",
-      "She will spend 100% of her time reacting to small problems and never address the underlying strategic challenges facing the organization",
+      "She will spend 100% of her time reacting to small",
       "Her calendar will look unprofessional with empty blocks",
       "She will become disconnected from her team's daily needs"
     ],
-    "answer": "She will spend 100% of her time reacting to small problems and never address the underlying strategic challenges facing the organization",
+    "answer": "She will spend 100% of her time reacting to small",
     "explanation": "Without protected depth, leaders become 'human routers'—passing information without adding strategic value. The organization suffers because long-term problems go unaddressed amid daily firefighting.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "An acquaintance asks a novelist for a 'quick Zoom call to pick your brain about publishing.' The novelist has her daily writing block from 9-12. What is the appropriate Deep Work response?",
     "options": [
       "Accept the call; helping others is part of being a community member",
-      "Decline or suggest the acquaintance email three specific questions for a written reply during a shallow block",
+      "Decline or suggest the acquaintance email three specific questions",
       "Accept the call but multitask by writing during the conversation",
       "Ignore the message completely"
     ],
-    "answer": "Decline or suggest the acquaintance email three specific questions for a written reply during a shallow block",
+    "answer": "Decline or suggest the acquaintance email three specific questions",
     "explanation": "This is a form of sender filter. The acquaintance may not need a call at all—a focused email exchange may suffice. The novelist protects her deep block while still offering help.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A customer service manager uses AI chatbots to handle routine inquiries. She spends the time she saves analyzing complex customer complaints to redesign the service process. How does this exemplify 'racing with the machines'?",
     "options": [
       "She is using AI to replace her own job functions",
-      "She is using AI to automate shallow work so she can focus her human depth on complex, strategic improvements",
+      "She is using AI to automate shallow work so she can focus her human",
       "She is training the AI to eventually replace all customer service staff",
       "She is avoiding the AI because she prefers human interaction"
     ],
-    "answer": "She is using AI to automate shallow work so she can focus her human depth on complex, strategic improvements",
+    "answer": "She is using AI to automate shallow work so she can focus her human",
     "explanation": "Racing with the machines means using technology to handle what it does best (routine tasks) while freeing human cognitive capacity for what humans do best: deep analysis and creative problem solving.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A bus driver has a fifteen-minute break between routes. He feels a strong urge to check his phone. According to deep work principles, what should he do?",
     "options": [
       "Check his phone; fifteen minutes is too short for anything meaningful",
-      "Resist the urge and practice sitting quietly, strengthening his tolerance for boredom",
+      "Resist the urge and practice sitting quietly, strengthening his tolerance",
       "Use the time to call his family since it is a productive use of the break",
       "Check his phone but set a timer for five minutes"
     ],
-    "answer": "Resist the urge and practice sitting quietly, strengthening his tolerance for boredom",
+    "answer": "Resist the urge and practice sitting quietly, strengthening his tolerance",
     "explanation": "Every moment you resist the urge for digital stimulation is a rep in the concentration workout. Over time, raising your boredom threshold makes it easier to sustain long deep work sessions.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A freelance illustrator converts her spare room into a studio. She keeps her phone, tablet, and internet router in the living room. The studio has only her drawing table, reference books, and a timer. What principle is she applying?",
     "options": [
       "The Monastic philosophy, because she works alone",
-      "The Eudaimonia Machine concept: creating a physical progression that leaves distractions behind before entering the work zone",
+      "The Eudaimonia Machine concept: creating a physical",
       "The Hub-and-Spoke model, because she uses two rooms",
       "The Grand Gesture, because she converted a whole room"
     ],
-    "answer": "The Eudaimonia Machine concept: creating a physical progression that leaves distractions behind before entering the work zone",
+    "answer": "The Eudaimonia Machine concept: creating a physical",
     "explanation": "By physically separating her shallow tools (phone, internet) from her deep space, she creates a ritual transition. The act of walking into the studio signals to her brain that it is time for depth.",
     "difficulty": "hard"
   },
@@ -118,10 +118,10 @@
     "options": [
       "Block four hours daily and never check email before noon",
       "Delete all social media immediately",
-      "Your attention is the most valuable resource you have; where you direct it determines the quality of your work and your life",
+      "Your attention is the most valuable resource you have;",
       "Work from a coffee shop without Wi-Fi"
     ],
-    "answer": "Your attention is the most valuable resource you have; where you direct it determines the quality of your work and your life",
+    "answer": "Your attention is the most valuable resource you have;",
     "explanation": "All the specific rules and techniques serve one core insight: attention management is the meta-skill of the 21st century. The quality of your life is shaped by what you choose to focus on.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "A reader finishes Deep Work and feels inspired but unsure how to start. What is the single most effective first action?",
     "options": [
       "Buy a new notebook and plan his ideal deep work schedule",
-      "Schedule a ninety-minute block tomorrow morning, eliminate all distractions, and work on his most important project",
+      "Schedule a ninety-minute block tomorrow morning,",
       "Tell all his friends and colleagues about the book",
       "Delete all apps from his phone at once"
     ],
-    "answer": "Schedule a ninety-minute block tomorrow morning, eliminate all distractions, and work on his most important project",
+    "answer": "Schedule a ninety-minute block tomorrow morning,",
     "explanation": "Intentions without action produce nothing. The very first deep work session is the most important because it transforms knowledge into practice. Everything else follows from that first committed block.",
     "difficulty": "hard"
   }

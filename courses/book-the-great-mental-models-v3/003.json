@@ -1,15 +1,15 @@
 [
   {
     "question": "Theory of Constraints",
-    "content": "The Theory of Constraints states that any manageable system is limited by a very small number of bottlenecks, and the system\u2019s throughput is determined entirely by its slowest point.",
+    "content": "The Theory of Constraints states that any manageable system is limited by a very small number of bottlenecks, and the system’s throughput is determined entirely by its slowest point.",
     "description": "A software team can write features quickly but is stalled waiting for code reviews that take three days. Even when the team doubles engineering capacity, feature delivery does not improve. What explains this?",
     "options": [
       "The engineers are not productive enough",
-      "The code review step is the bottleneck constraining total throughput",
+      "The code review step is the bottleneck",
       "The feature complexity exceeds team capability",
       "Management is not providing enough direction"
     ],
-    "answer": "The code review step is the bottleneck constraining total throughput",
+    "answer": "The code review step is the bottleneck",
     "explanation": "Throughput is determined by the slowest stage. Doubling capacity upstream of a bottleneck only increases the queue, not the output. The review process must be addressed.",
     "difficulty": "easy"
   },
@@ -18,41 +18,41 @@
     "content": "The throughput of a multi-stage system equals the minimum processing rate across all stages, not the average.",
     "description": "A factory has four stages: cutting (100 units/hr), assembly (80 units/hr), painting (120 units/hr), and packaging (90 units/hr). What is the maximum possible throughput of the entire system?",
     "options": [
-      "100 units/hr \u2014 the average of all stages",
-      "120 units/hr \u2014 the fastest stage",
-      "80 units/hr \u2014 the slowest stage",
-      "90 units/hr \u2014 the packaging rate"
+      "100 units/hr — the average of all stages",
+      "120 units/hr — the fastest stage",
+      "80 units/hr — the slowest stage",
+      "90 units/hr — the packaging rate"
     ],
-    "answer": "80 units/hr \u2014 the slowest stage",
-    "explanation": "Throughput = min(R1, R2, ..., Rn). The assembly stage at 80 units/hr is the bottleneck, limiting the entire line regardless of other stages\u2019 capacities.",
+    "answer": "80 units/hr — the slowest stage",
+    "explanation": "Throughput = min(R1, R2, ..., Rn). The assembly stage at 80 units/hr is the bottleneck, limiting the entire line regardless of other stages’ capacities.",
     "difficulty": "easy"
   },
   {
     "question": "Tesla Model 3 Production Hell",
-    "content": "During the Model 3 launch, Tesla\u2019s bottleneck was the battery module assembly line at the Gigafactory. Because this single stage stalled, the entire factory\u2019s throughput collapsed to zero.",
-    "description": "Tesla\u2019s automated battery assembly line kept jamming, halting the entire Model 3 production while other stages (body stamping, painting, final assembly) were ready to run. What does this illustrate about system design?",
+    "content": "During the Model 3 launch, Tesla’s bottleneck was the battery module assembly line at the Gigafactory. Because this single stage stalled, the entire factory’s throughput collapsed to zero.",
+    "description": "Tesla’s automated battery assembly line kept jamming, halting the entire Model 3 production while other stages (body stamping, painting, final assembly) were ready to run. What does this illustrate about system design?",
     "options": [
-      "The battery assembly was a bottleneck and the entire factory was subordinate to it",
+      "The battery assembly was a bottleneck and the entire",
       "The painting stage needed to be automated first",
       "The factory had too many parallel production lines",
       "Manual assembly is always more reliable than automation"
     ],
-    "answer": "The battery assembly was a bottleneck and the entire factory was subordinate to it",
+    "answer": "The battery assembly was a bottleneck and the entire",
     "explanation": "When a bottleneck stops, everything downstream starves and everything upstream blocks. Tesla had to bypass the automated bottleneck with manual workstations to get production moving.",
     "difficulty": "medium"
   },
   {
     "question": "Five Focusing Steps",
-    "content": "Goldratt\u2019s Five Focusing Steps provide a systematic method: 1) Identify the bottleneck, 2) Exploit it, 3) Subordinate everything else, 4) Elevate it, 5) Repeat with the next constraint.",
+    "content": "Goldratt’s Five Focusing Steps provide a systematic method: 1) Identify the bottleneck, 2) Exploit it, 3) Subordinate everything else, 4) Elevate it, 5) Repeat with the next constraint.",
     "description": "Your customer support team is overwhelmed. You discover that Level 1 agents can handle 50 tickets/day but Level 2 specialists can only process 10 escalated tickets/day. What is the correct first action according to the Five Focusing Steps?",
     "options": [
       "Hire more Level 2 specialists immediately",
-      "Ensure Level 2 specialists work only on escalated tickets and never do Level 1 work",
+      "Ensure Level 2 specialists work only on escalated tickets and never do",
       "Reduce the number of incoming tickets by shutting down support channels",
       "Fire underperforming Level 1 agents"
     ],
-    "answer": "Ensure Level 2 specialists work only on escalated tickets and never do Level 1 work",
-    "explanation": "Step 2 is \u201cexploit the bottleneck\u201d \u2014 maximize the bottleneck\u2019s throughput before investing in more capacity. Make sure specialists focus only on their highest-value work.",
+    "answer": "Ensure Level 2 specialists work only on escalated tickets and never do",
+    "explanation": "Step 2 is “exploit the bottleneck” — maximize the bottleneck’s throughput before investing in more capacity. Make sure specialists focus only on their highest-value work.",
     "difficulty": "medium"
   },
   {
@@ -61,12 +61,12 @@
     "description": "After upgrading the packaging machine to run at 150 units/hr, production throughput only increased to 85 units/hr instead of the expected 150. What most likely happened?",
     "options": [
       "The packaging upgrade was installed incorrectly",
-      "The bottleneck shifted to the next slowest stage \u2014 now assembly at 85 units/hr",
+      "The bottleneck shifted to the next slowest stage — now",
       "Workers are not motivated to use the new machine at full speed",
       "The packaging machine requires more operators than available"
     ],
-    "answer": "The bottleneck shifted to the next slowest stage \u2014 now assembly at 85 units/hr",
-    "explanation": "Elevating one constraint merely reveals the next one. The system\u2019s new throughput is set by the new bottleneck. Step 5 is \u201crepeat the process\u201d for the next constraint.",
+    "answer": "The bottleneck shifted to the next slowest stage — now",
+    "explanation": "Elevating one constraint merely reveals the next one. The system’s new throughput is set by the new bottleneck. Step 5 is “repeat the process” for the next constraint.",
     "difficulty": "hard"
   },
   {
@@ -75,39 +75,39 @@
     "description": "You have blocked out 8 hours daily for deep work but accomplish very little because you feel mentally exhausted after 2 hours. What is likely your real productivity constraint?",
     "options": [
       "You lack sufficient time for your tasks",
-      "Your energy or cognitive capacity is the bottleneck, not time",
+      "Your energy or cognitive capacity is the bottleneck,",
       "You need better project management software",
       "Your tasks are too complex and need to be broken down"
     ],
-    "answer": "Your energy or cognitive capacity is the bottleneck, not time",
+    "answer": "Your energy or cognitive capacity is the bottleneck,",
     "explanation": "When time is abundant but output is low, the bottleneck is likely energy, focus, or skill. Pushing more hours into a tired brain is subordinating to the wrong constraint.",
     "difficulty": "medium"
   },
   {
     "question": "Subordination Principle",
-    "content": "All non-bottleneck stages must operate at the bottleneck\u2019s pace, not at their maximum capacity. Running upstream stages faster than the bottleneck only creates excess inventory and hiding quality problems.",
-    "description": "A factory\u2019s bottleneck runs at 50 units/hr, but the upstream cutting machine runs at 200 units/hr producing a mountain of work-in-progress inventory. What is wrong with this arrangement?",
+    "content": "All non-bottleneck stages must operate at the bottleneck’s pace, not at their maximum capacity. Running upstream stages faster than the bottleneck only creates excess inventory and hiding quality problems.",
+    "description": "A factory’s bottleneck runs at 50 units/hr, but the upstream cutting machine runs at 200 units/hr producing a mountain of work-in-progress inventory. What is wrong with this arrangement?",
     "options": [
       "The cutting machine is operating too slowly",
-      "The upstream stage is not subordinated to the bottleneck, creating waste and hiding defects",
+      "The upstream stage is not subordinated to the bottleneck,",
       "The factory needs more storage space for inventory",
       "The bottleneck should be forced to run faster through overtime"
     ],
-    "answer": "The upstream stage is not subordinated to the bottleneck, creating waste and hiding defects",
-    "explanation": "Subordination means matching all other stages to the bottleneck\u2019s pace. Excess inventory hides quality issues, ties up capital, and increases lead times.",
+    "answer": "The upstream stage is not subordinated to the bottleneck,",
+    "explanation": "Subordination means matching all other stages to the bottleneck’s pace. Excess inventory hides quality issues, ties up capital, and increases lead times.",
     "difficulty": "hard"
   },
   {
     "question": "Bottleneck vs Capacity",
     "content": "Adding capacity everywhere except the bottleneck is wasted investment. Only elevating the bottleneck increases overall system throughput.",
-    "description": "Your company\u2019s sales team generates 200 qualified leads/week, but your onboarding team can only handle 50 new clients/week. The CFO wants to spend $1M on marketing to generate more leads. What would you advise?",
+    "description": "Your company’s sales team generates 200 qualified leads/week, but your onboarding team can only handle 50 new clients/week. The CFO wants to spend $1M on marketing to generate more leads. What would you advise?",
     "options": [
-      "Approve the marketing spend \u2014 more leads always help the business",
-      "Invest the $1M in expanding the onboarding team first, since it is the true bottleneck",
+      "Approve the marketing spend — more leads always help the business",
+      "Invest the $1M in expanding the onboarding team first, since it",
       "Spend half on marketing and half on onboarding",
       "Reject the spend and maintain the status quo"
     ],
-    "answer": "Invest the $1M in expanding the onboarding team first, since it is the true bottleneck",
+    "answer": "Invest the $1M in expanding the onboarding team first, since it",
     "explanation": "Adding capacity to a non-bottleneck (more leads) when the bottleneck (onboarding) is saturated produces zero additional throughput. Elevate the constraint first.",
     "difficulty": "easy"
   }

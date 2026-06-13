@@ -5,11 +5,11 @@
     "description": "If nuclear weapons forced centralization, what is the 'logic' of drones according to Naval?",
     "options": [
       "They will lead to a single global empire that controls all air traffic.",
-      "They bring the logic of mutually assured destruction (MAD) down to the individual level.",
+      "They bring the logic of mutually assured destruction (MAD) down to the",
       "They are a technical failure because they are too easily jammed.",
       "They will force everyone to live in a single, perfectly flat hierarchy."
     ],
-    "answer": "They bring the logic of mutually assured destruction (MAD) down to the individual level.",
+    "answer": "They bring the logic of mutually assured destruction (MAD) down to the",
     "explanation": "Naval posits that drones decentralize the power of violence, allowing individuals or small groups to deter even large states, fundamentally shifting the 'logic' of how society is architected.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "A true world model is more than just a 3D environment. It requires a reinforcement learning (RL) loop where an agent predicts consequences and adjusts behavior based on outcomes. This 'internal world' allows an AI to understand the 'why' of the world, not just the 'what' of the pixels.",
     "description": "Why does Naval believe current AI systems are 'pretty bad' at multimodal reasoning?",
     "options": [
-      "Because they lack a coherent model of the world inside their heads to predict actions.",
+      "Because they lack a coherent model of the world inside their heads to",
       "Because the hardware provided by Nvidia is too slow.",
       "Because they spend too much time reading papers and not enough time coding.",
       "Because the AI labs are too centralized to allow for multimodal thinking."
     ],
-    "answer": "Because they lack a coherent model of the world inside their heads to predict actions.",
+    "answer": "Because they lack a coherent model of the world inside their heads to",
     "explanation": "Naval distinguishes between 'generating' something that looks like a world and having a 'world model' that acts as an agent with a reinforcement learning loop.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "What is the specific 'scary thought' Naval presents regarding the future of AI in biology?",
     "options": [
       "AI will refuse to work on vaccines because it is too difficult.",
-      "The number of people who can access or create bioweapons will increase by hundreds or thousands of times.",
+      "The number of people who can access or create bioweapons will increase by",
       "AI will eventually replace all human doctors, leading to unemployment.",
       "Biological data is so well-guarded that AI will never be able to read it."
     ],
-    "answer": "The number of people who can access or create bioweapons will increase by hundreds or thousands of times.",
+    "answer": "The number of people who can access or create bioweapons will increase by",
     "explanation": "Naval draws a direct parallel between the democratization of coding and the democratization of biological engineering, which creates a decentralized security risk.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "In Naval's view, why is China so incentivized to support open-source AI models?",
     "options": [
       "They want to be the world leaders in software ethics.",
-      "Open source commoditizes the 'complement' (software) and supports their dominance in hardware manufacturing.",
+      "Open source commoditizes the 'complement' (software) and",
       "They want to prevent Nvidia from selling more GPU cards.",
       "They believe closed-source models are inherently more dangerous."
     ],
-    "answer": "Open source commoditizes the 'complement' (software) and supports their dominance in hardware manufacturing.",
+    "answer": "Open source commoditizes the 'complement' (software) and",
     "explanation": "For a hardware-centric economy like China, making software free and open makes their physical products more usable and valuable.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Why does Naval suggest we have to be 'irrationally optimistic' in the current world?",
     "options": [
       "Because being a doomer is the only way to get funding from VCs.",
-      "Because optimism is the only mindset that allows for the creativity needed to find a way out of problems.",
+      "Because optimism is the only mindset that allows for the creativity needed",
       "Because AI is programmed to only follow optimistic instructions.",
       "Because the 'doom scenarios' are actually impossible according to physics."
     ],
-    "answer": "Because optimism is the only mindset that allows for the creativity needed to find a way out of problems.",
+    "answer": "Because optimism is the only mindset that allows for the creativity needed",
     "explanation": "Naval argues that while doom is easier to imagine, optimism is a 'creative duty' required to build the future and solve the very problems doomers fixate on.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "What is the core takeaway from Naval's example of the 200-year-old farm worker?",
     "options": [
       "Farming is the only truly stable job in human history.",
-      "We shouldn't worry about job loss because we lack the current creativity to see the future's 'next jobs.'",
+      "We shouldn't worry about job loss because we lack the current",
       "Technology will eventually lead us all back to working on farms.",
       "AI will only be able to perform 10% of today's jobs."
     ],
-    "answer": "We shouldn't worry about job loss because we lack the current creativity to see the future's 'next jobs.'",
+    "answer": "We shouldn't worry about job loss because we lack the current",
     "explanation": "Naval uses this historical context to show that technology doesn't end work; it just evolves it into forms we can't yet visualize.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "What does Naval identify as a 'real opportunity' that is currently being blocked by data silos?",
     "options": [
       "Using AI to manage social media passwords.",
-      "Using AI to solve medicine and biology through massive, anonymized datasets.",
+      "Using AI to solve medicine and biology through massive,",
       "Creating a centralized AI that manages all company emails.",
       "Building a robot that can manufacture hardware without humans."
     ],
-    "answer": "Using AI to solve medicine and biology through massive, anonymized datasets.",
+    "answer": "Using AI to solve medicine and biology through massive,",
     "explanation": "Naval argues that AI could solve therapies if it could access and clean the massive amounts of medical data currently hidden by regulation.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "According to Naval, what is the role of an optimist in a 'foxhole' situation?",
     "options": [
       "To ignore the danger entirely.",
-      "To nurture creativity and imagine the 'rising up' scenario to build a way out.",
+      "To nurture creativity and imagine the 'rising up'",
       "To follow the instructions of a hierarchical manager.",
       "To use AI to predict exactly when the world will end."
     ],
-    "answer": "To nurture creativity and imagine the 'rising up' scenario to build a way out.",
+    "answer": "To nurture creativity and imagine the 'rising up'",
     "explanation": "Optimism is presented as a survival and building tool. In a crisis, the person who imagines a way out is more valuable than the one who fixates on the catastrophic outcome.",
     "difficulty": "hard"
   }

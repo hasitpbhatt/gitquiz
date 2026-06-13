@@ -46,12 +46,12 @@
     "content": "High purpose correlates with a healthy diurnal cortisol curve that peaks after waking and tapers off while low purpose leads to flattened dysregulated patterns.",
     "description": "Your patient has a flattened cortisol curve, chronic exhaustion, and insulin resistance. Which psychological factor is most relevant to investigate?",
     "options": [
-      "Level of life purpose",
+      "Level of life",
       "Sleep quality alone",
       "Exercise frequency",
       "Social media usage"
     ],
-    "answer": "Level of life purpose",
+    "answer": "Level of life",
     "explanation": "Purpose correlates with healthier cortisol regulation. A flattened curve is associated with low purpose.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "The Rush Memory and Aging Project shows purpose-in-life scores predict reduced stroke, heart attack, and all-cause mortality.",
     "description": "Which longitudinal study provides the strongest evidence that purpose reduces all-cause mortality and heart attack risk?",
     "options": [
-      "The Rush Memory and Aging Project",
+      "The Rush Memory and Aging",
       "The Framingham Heart Study",
       "The Nurses Health Study",
       "The Blue Zones Project"
     ],
-    "answer": "The Rush Memory and Aging Project",
+    "answer": "The Rush Memory and Aging",
     "explanation": "The Rush Memory and Aging Project tracked purpose-in-life scores and found dramatic reductions in mortality, stroke, and heart attack risk.",
     "difficulty": "hard"
   }

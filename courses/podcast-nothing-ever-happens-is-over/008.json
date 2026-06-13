@@ -5,11 +5,11 @@
     "description": "Why would a company like Nvidia want AI models to be open-source rather than proprietary?",
     "options": [
       "To prevent other companies from making money on software.",
-      "Because open-source models make their hardware more useful and increase chip sales.",
+      "Because open-source models make their hardware more useful",
       "Because they believe software is more valuable than hardware.",
       "To avoid being sued by the government for having a monopoly."
     ],
-    "answer": "Because open-source models make their hardware more useful and increase chip sales.",
+    "answer": "Because open-source models make their hardware more useful",
     "explanation": "Naval explains that hardware players like Nvidia and manufacturers in China benefit when software is 'commoditized' because it removes the barriers to buying and using their hardware.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "How does AI change the competitive landscape for a small hardware startup?",
     "options": [
       "It makes it harder because they have to compete with Apple's AI.",
-      "It allows them to build functional products without needing a world-class software team to write the 'glue' code.",
+      "It allows them to build functional products without needing a world-class",
       "It forces them to manufacture everything in the cloud rather than in a factory.",
       "It makes hardware more expensive because of the cost of AI tokens."
     ],
-    "answer": "It allows them to build functional products without needing a world-class software team to write the 'glue' code.",
+    "answer": "It allows them to build functional products without needing a world-class",
     "explanation": "Naval suggests that AI handles the 'software problem' that used to kill hardware companies, allowing for a renaissance in physical device innovation.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Why does Naval say that 'optimism requires creativity'?",
     "options": [
       "Because you have to invent new ways to be happy.",
-      "Because you must imagine solutions and jobs that do not yet exist, which is harder than seeing what might break.",
+      "Because you must imagine solutions and jobs that do not",
       "Because only creative people like artists are optimistic.",
       "Because AI can only be used by people who are creative."
     ],
-    "answer": "Because you must imagine solutions and jobs that do not yet exist, which is harder than seeing what might break.",
+    "answer": "Because you must imagine solutions and jobs that do not",
     "explanation": "Naval posits that while we can easily see how a job might be lost, we have to be creative to see how new, better jobs will inevitably arise.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "According to Naval, why should we 'reward' and 'nurture' optimism in society?",
     "options": [
       "Because it’s the only way to ignore the reality of global warming.",
-      "Because it is the only mindset that allows us to find a way out of our problems and build the future.",
+      "Because it is the only mindset that allows us to find a way out of our problems",
       "Because optimistic people are more likely to buy products from VCs.",
       "Because AI performs better when the prompts are written with an optimistic tone."
     ],
-    "answer": "Because it is the only mindset that allows us to find a way out of our problems and build the future.",
+    "answer": "Because it is the only mindset that allows us to find a way out of our problems",
     "explanation": "Naval argues that while doomers may have valid points, their mindset doesn't help solve anything; building the future requires the 'irrational' belief that it can be done.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "What is Naval's response to the fear of mass unemployment caused by AI?",
     "options": [
       "He believes we should implement Universal Basic Income immediately.",
-      "He points to history, noting that while old jobs vanish, 'inevitably there's always a next job.'",
+      "He points to history, noting that while old jobs vanish, 'inevitably there's always a",
       "He suggests that everyone should become an AI researcher to stay employed.",
       "He thinks people will eventually stop wanting to work and will live in the metaverse."
     ],
-    "answer": "He points to history, noting that while old jobs vanish, 'inevitably there's always a next job.'",
+    "answer": "He points to history, noting that while old jobs vanish, 'inevitably there's always a",
     "explanation": "Using the '200 years ago on the farm' analogy, Naval explains that humans are remarkably consistent at inventing new ways to provide value.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "Why would a large cloud provider support an open-source model that competes with their own proprietary AI?",
     "options": [
       "To look like they care about the public good to avoid regulation.",
-      "Because open-source models drive more traffic and hardware consumption on their cloud platforms.",
+      "Because open-source models drive more traffic and hardware",
       "Because they want to stop Nvidia from selling chips.",
       "Because they believe that software should be free for everyone."
     ],
-    "answer": "Because open-source models drive more traffic and hardware consumption on their cloud platforms.",
+    "answer": "Because open-source models drive more traffic and hardware",
     "explanation": "Naval notes that open-source software 'commoditizes the complement,' making the underlying cloud hardware more valuable.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "What does Naval mean by 'jagged intelligence' in the context of job loss?",
     "options": [
       "That AI will only take jobs that involve sharp objects.",
-      "That AI is smart in specific, narrow ways but still lacks a holistic 'world model' to replace many human roles.",
+      "That AI is smart in specific, narrow ways but still lacks a",
       "That AI intelligence changes depending on the data center it is in.",
       "That AI is becoming smarter at an uneven, unpredictable speed."
     ],
-    "answer": "That AI is smart in specific, narrow ways but still lacks a holistic 'world model' to replace many human roles.",
+    "answer": "That AI is smart in specific, narrow ways but still lacks a",
     "explanation": "Naval highlights that AI is bad at multimodal reasoning and world models, which are key components of many 'real-world' jobs.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "According to the transcript, what is the 'high demand, low supply' problem in the tech world today?",
     "options": [
       "High demand for AI software, low supply of electricity.",
-      "High demand for sci-fi technologies, but a low supply of the engineers and scientists who can build them.",
+      "High demand for sci-fi technologies, but a low supply of the",
       "High demand for cloud storage, low supply of fiber optic cables.",
       "High demand for social media apps, but a low supply of users."
     ],
-    "answer": "High demand for sci-fi technologies, but a low supply of the engineers and scientists who can build them.",
+    "answer": "High demand for sci-fi technologies, but a low supply of the",
     "explanation": "Naval points out that we are moving into an era of 'hard tech' where the required skills are much rarer than standard web development.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "What is the common strategic interest shared by China and Nvidia regarding AI software?",
     "options": [
       "Both want to ensure that AI is only used for peaceful purposes.",
-      "Both want to commoditize software to protect and grow their hardware dominance.",
+      "Both want to commoditize software to protect and grow their hardware",
       "Both are trying to build the single smartest AI model in the world together.",
       "Both want to prevent the United States from developing AGI."
     ],
-    "answer": "Both want to commoditize software to protect and grow their hardware dominance.",
+    "answer": "Both want to commoditize software to protect and grow their hardware",
     "explanation": "Naval identifies this as a 'nationalist' and 'economic' pride point—using open source to bridge gaps and drive hardware sales.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "What does Naval mean when he says a 'doomer' is not the person you want to be in a foxhole with?",
     "options": [
       "Because doomers don't know how to use weapons.",
-      "Because they focus on the end of the world rather than the creative work of survival and rising up.",
+      "Because they focus on the end of the world rather than the",
       "Because doomers are usually not smart enough to build drones.",
       "Because doomers prefer to work alone in hierarchies."
     ],
-    "answer": "Because they focus on the end of the world rather than the creative work of survival and rising up.",
+    "answer": "Because they focus on the end of the world rather than the",
     "explanation": "Naval emphasizes that optimism is a 'survival' tool; we have to be 'irrationally optimistic' to keep moving forward when things get difficult.",
     "difficulty": "hard"
   }

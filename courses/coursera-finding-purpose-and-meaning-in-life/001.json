@@ -18,12 +18,12 @@
     "content": "Purpose is a stable generalized intention to accomplish something simultaneously meaningful to the self and consequential for the world beyond the self.",
     "description": "Your friend claims she has a purpose because she set a goal to run a marathon this year. According to the course definition why might this goal not qualify as a true purpose?",
     "options": [
-      "It lacks a beyond-the-self orientation",
+      "It lacks a beyond-the-self",
       "It is not specific enough",
       "It is too focused on physical health",
       "It requires professional training"
     ],
-    "answer": "It lacks a beyond-the-self orientation",
+    "answer": "It lacks a beyond-the-self",
     "explanation": "True purpose requires three elements: stability/generality, personal meaningfulness, and a beyond-the-self orientation. A marathon goal is an ambition unless it serves external impact.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "True purpose always interfaces with the external world to alleviate a grievance or solve a problem whereas simple ambition focuses on egoistic achievement.",
     "description": "Your colleague wants a promotion to partner. You want to build a scholarship fund for underprivileged students. What distinguishes your goal from hers?",
     "options": [
-      "Your goal has a beyond-the-self orientation",
+      "Your goal has a beyond-the-self",
       "Your goal is more measurable",
       "Her goal lacks personal meaningfulness",
       "Her goal is not stable over time"
     ],
-    "answer": "Your goal has a beyond-the-self orientation",
+    "answer": "Your goal has a beyond-the-self",
     "explanation": "The beyond-the-self orientation is the key demarcation between simple ambition and true purpose.",
     "difficulty": "easy"
   },
@@ -74,12 +74,12 @@
     "content": "Meaning is discovered through creating a work, experiencing something or someone, and the attitude we take toward unavoidable suffering.",
     "description": "Your friend was a professional dancer until a spinal injury ended her career. Which Frankl pathway is most relevant to her situation?",
     "options": [
-      "The attitude we take toward unavoidable suffering",
+      "The attitude we take toward unavoidable",
       "Creating a work or doing a deed",
       "Experiencing something or encountering someone",
       "The will to pleasure"
     ],
-    "answer": "The attitude we take toward unavoidable suffering",
+    "answer": "The attitude we take toward unavoidable",
     "explanation": "When circumstances remove the first two pathways Frankl emphasized we can still choose our attitude toward suffering as a path to meaning.",
     "difficulty": "hard"
   },

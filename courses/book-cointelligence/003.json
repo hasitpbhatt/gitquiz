@@ -20,10 +20,10 @@
     "options": [
       "Ask the AI if the plans are safe.",
       "Trust the AI's math because it is faster than a human.",
-      "Personally verify the structural integrity and sign off on the safety of the design.",
+      "Personally verify the structural integrity and sign off on",
       "Submit the plans and let the city inspector find the errors."
     ],
-    "answer": "Personally verify the structural integrity and sign off on the safety of the design.",
+    "answer": "Personally verify the structural integrity and sign off on",
     "explanation": "Being the 'Human in the Loop' means taking ultimate accountability. The human must check the AI's work for accuracy and ethical standards.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "You tell an AI, 'Imagine you are a tough editor at a top newspaper. Critique my article harshly.' Why is this effective according to Rule 3?",
     "options": [
       "It activates the AI's internal ego.",
-      "It uses a persona to narrow the AI's focus and improve the quality of the critique.",
+      "It uses a persona to narrow the AI's focus and improve",
       "It makes the AI work harder because it feels challenged.",
       "It bypasses the AI's need for a software update."
     ],
-    "answer": "It uses a persona to narrow the AI's focus and improve the quality of the critique.",
+    "answer": "It uses a persona to narrow the AI's focus and improve",
     "explanation": "Treating AI as a 'social actor' (a person with a role) allows it to access specific patterns of language and logic that produce higher-quality results.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "AI is not meant for education.",
       "The teacher should write the essays themselves.",
-      "This is the worst version of the AI they will ever encounter; it will improve.",
+      "This is the worst version of the AI they will ever",
       "The AI is intentionally holding back its best features."
     ],
-    "answer": "This is the worst version of the AI they will ever encounter; it will improve.",
+    "answer": "This is the worst version of the AI they will ever",
     "explanation": "Rule 4 encourages a forward-looking mindset. Current limitations are just 'bugs' in a system that is rapidly becoming more sophisticated.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A pilot uses an advanced AI flight system that works perfectly for hours. Suddenly, a rare sensor error occurs. Why is the pilot at high risk here?",
     "options": [
       "The AI is too fast for the pilot to understand.",
-      "The pilot may have 'checked out' due to the AI's high reliability, slowing their reaction time.",
+      "The pilot may have 'checked out' due to the",
       "The AI is trying to trick the pilot.",
       "The airplane is too old for the AI."
     ],
-    "answer": "The pilot may have 'checked out' due to the AI's high reliability, slowing their reaction time.",
+    "answer": "The pilot may have 'checked out' due to the",
     "explanation": "High reliability leads to human complacency. Co-Intelligence requires the human to stay 'active' even when the machine seems perfect.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Compare two prompts: A) 'Write a speech.' B) 'Write a 5-minute graduation speech for high schoolers, focusing on resilience, in the style of Michelle Obama.' Why is B better?",
     "options": [
       "It uses more words, which makes the AI feel important.",
-      "It provides context and a specific persona to guide the AI's output.",
+      "It provides context and a specific persona to guide",
       "It is easier for the AI to copy from the internet.",
       "It requires less processing power."
     ],
-    "answer": "It provides context and a specific persona to guide the AI's output.",
+    "answer": "It provides context and a specific persona to guide",
     "explanation": "Specific context helps the AI navigate its training data to find the exact tone and structure required, rather than guessing randomly.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "In a future workplace, who is more valuable: the person who can write code manually or the person who can use AI to build a functioning app and verify its security?",
     "options": [
       "The manual coder, because they don't need tools.",
-      "The AI-enabled builder, because they can leverage machine speed with human judgment.",
+      "The AI-enabled builder, because they can",
       "Neither, because the AI will do everything alone.",
       "The person who avoids technology entirely."
     ],
-    "answer": "The AI-enabled builder, because they can leverage machine speed with human judgment.",
+    "answer": "The AI-enabled builder, because they can",
     "explanation": "Co-Intelligence focuses on the 'multiplier effect.' The person who can direct and verify the machine's work becomes the new version of an expert.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "A volunteer coordinator notices that one volunteer is organizing donation drives 3x faster than everyone else. What is the most 'Co-Intelligent' leadership move?",
     "options": [
       "Give that volunteer 3x more tasks to keep them busy.",
-      "Ask the volunteer to teach their AI techniques to the rest of the team.",
+      "Ask the volunteer to teach their AI techniques to the rest of",
       "Ban the use of AI to ensure 'fairness' across the volunteers.",
       "Ignore it as long as the work is good."
     ],
-    "answer": "Ask the volunteer to teach their AI techniques to the rest of the team.",
+    "answer": "Ask the volunteer to teach their AI techniques to the rest of",
     "explanation": "Sharing AI strategies turns individual 'Shadow AI' into collective 'Co-Intelligence,' raising the floor for the entire organization.",
     "difficulty": "easy"
   },
@@ -118,10 +118,10 @@
     "options": [
       "Ask the AI to make it '10% more emotional.'",
       "Send it as is to save time.",
-      "Rewrite sections to include a specific shared memory you have with the recipient.",
+      "Rewrite sections to include a specific",
       "Ask a different AI to write it."
     ],
-    "answer": "Rewrite sections to include a specific shared memory you have with the recipient.",
+    "answer": "Rewrite sections to include a specific",
     "explanation": "Adding personal, lived experience is a 'Human-in-the-Loop' action that provides the emotional depth the machine lacks.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Why does Mollick suggest that being 'too logical' can actually hinder your success with AI?",
     "options": [
       "Because AI is broken and doesn't follow logic.",
-      "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",
+      "Because AI responds to social cues and",
       "Because logic makes the AI's processor run too hot.",
       "Because humans are naturally illogical."
     ],
-    "answer": "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",
+    "answer": "Because AI responds to social cues and",
     "explanation": "Treating AI like a simple 'calculator' ignores its social-actor capabilities. To get the most out of it, you must engage with its 'alien' and 'person-like' qualities simultaneously.",
     "difficulty": "medium"
   }

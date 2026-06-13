@@ -5,11 +5,11 @@
     "description": "Two competing coffee shops must decide whether to raise prices. Each earns more if both raise prices, but each is tempted to undercut. This situation is best analyzed using:",
     "options": [
       "Supply and demand curves only",
-      "Game theory - modeling how each player's decision affects the other",
+      "Game theory - modeling how each",
       "Newton's laws of market motion",
       "A simple pro-con list for each shop"
     ],
-    "answer": "Game theory - modeling how each player's decision affects the other",
+    "answer": "Game theory - modeling how each",
     "explanation": "Game theory captures strategic interdependence: my best move depends on your move. The coffee shop scenario is an iterated game where cooperation (both raise prices) or defection (one undercuts) creates different payoffs.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "Two suspects are arrested. If both stay silent, each gets 1 year. If both confess, each gets 5 years. If one confesses and the other stays silent, the confessor goes free and the silent one gets 10 years. Rational self-interest leads both to:",
     "options": [
       "Stay silent because it is fair",
-      "Confess because no matter what the other does, confessing gives a better outcome",
+      "Confess because no matter what the other does, confessing",
       "One confesses and one stays silent based on who is more loyal",
       "Both confess and then appeal the sentence"
     ],
-    "answer": "Confess because no matter what the other does, confessing gives a better outcome",
+    "answer": "Confess because no matter what the other does, confessing",
     "explanation": "In the Prisoner's Dilemma, confessing is the dominant strategy: if the other confesses, you get 5 instead of 10. If the other stays silent, you go free instead of getting 1. Self-interest leads both to confess, producing a worse collective outcome (5 years each) than cooperation (1 year each).",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "Two neighboring countries negotiate water rights. If they cooperate, they can build dams that benefit both. If they fight, both lose. This is a:",
     "options": [
       "Zero-sum game - one country's water is the other's loss",
-      "Non-zero-sum game - cooperation can create value for both",
+      "Non-zero-sum game - cooperation can create value for",
       "Fixed-pie scenario where neither can gain",
       "Pure competition where only one can win"
     ],
-    "answer": "Non-zero-sum game - cooperation can create value for both",
+    "answer": "Non-zero-sum game - cooperation can create value for",
     "explanation": "Non-zero-sum games allow both sides to benefit through cooperation. Water negotiations can create value via shared infrastructure, coordinated usage, and trade agreements - expanding the pie rather than dividing a fixed one.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "You are negotiating your salary at a job offer. Before negotiating, you should determine your BATNA, which means:",
     "options": [
       "The maximum salary you want to ask for",
-      "What you will do if this negotiation fails - your best alternative offer",
+      "What you will do if this negotiation fails -",
       "The minimum salary you would accept",
       "How much you think the company can afford to pay"
     ],
-    "answer": "What you will do if this negotiation fails - your best alternative offer",
+    "answer": "What you will do if this negotiation fails -",
     "explanation": "BATNA is your fallback if no deal is reached. A strong BATNA (another job offer, staying in current role with options) gives you leverage to walk away. A weak BATNA forces you to accept worse terms.",
     "difficulty": "medium"
   },
@@ -62,10 +62,10 @@
     "options": [
       "They are ignoring you deliberately",
       "They are incompetent at email",
-      "They are probably overwhelmed or the email was buried",
+      "They are probably overwhelmed or the email was",
       "They are testing how you react to being ignored"
     ],
-    "answer": "They are probably overwhelmed or the email was buried",
+    "answer": "They are probably overwhelmed or the email was",
     "explanation": "MRI assumes the most charitable explanation: your colleague is busy, the email got lost, or something else benign occurred. This preserves trust and prevents unnecessary conflict, though it should be balanced with accountability.",
     "difficulty": "hard"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Why you are right about the chores",
       "Why they are wrong about controlling behavior",
-      "The situation neutrally: 'We have different views on how household tasks should be shared'",
+      "The situation neutrally: 'We have different views on how",
       "A story about a third person who had this exact argument"
     ],
-    "answer": "The situation neutrally: 'We have different views on how household tasks should be shared'",
+    "answer": "The situation neutrally: 'We have different views on how",
     "explanation": "The Third Story describes the gap between two perspectives from an outside view. It avoids blame language ('you never') and instead frames the issue as a shared problem ('we have different views'), reducing defensiveness.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A rival at work takes credit for your ideas. Containment means:",
     "options": [
       "Quietly letting them continue to avoid office conflict",
-      "Documenting your contributions and ensuring managers know your work",
+      "Documenting your contributions and ensuring managers",
       "Taking credit for their ideas in revenge",
       "Transferring to a different department"
     ],
-    "answer": "Documenting your contributions and ensuring managers know your work",
+    "answer": "Documenting your contributions and ensuring managers",
     "explanation": "Containment limits the damage without escalating. By documenting work and ensuring visibility, you prevent the rival from expanding their behavior. Appeasement (letting it slide) often encourages more exploitation.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "In a rapidly changing market, a startup using OODA Loop would:",
     "options": [
       "Spend months perfecting a detailed business plan",
-      "Quickly observe customer feedback, orient based on data, decide on changes, and act within days",
+      "Quickly observe customer feedback, orient based on data,",
       "Copy exactly what the market leader does",
       "Wait for the market to stabilize before making any moves"
     ],
-    "answer": "Quickly observe customer feedback, orient based on data, decide on changes, and act within days",
+    "answer": "Quickly observe customer feedback, orient based on data,",
     "explanation": "The OODA Loop emphasizes speed: Observe (gather data), Orient (analyze context), Decide (choose action), Act (execute). Faster cycles create competitive advantage by outpacing slower competitors' decision-making.",
     "difficulty": "hard"
   },
@@ -116,12 +116,12 @@
     "content": "The Cobra Effect occurs when an attempted solution makes a problem worse due to perverse incentives. Named after a colonial bounty program that backfired.",
     "description": "A colonial government offers a bounty for dead cobras to reduce the snake population. People start breeding cobras to claim bounties. When the program ends, breeders release their cobras, increasing the problem. This is:",
     "options": [
-      "The Cobra Effect - the solution created perverse incentives that worsened the problem",
+      "The Cobra Effect - the solution created perverse incentives that",
       "A successful wildlife management program that just needs more time",
       "An example of supply and demand working correctly",
       "A failure of enforcement, not incentive design"
     ],
-    "answer": "The Cobra Effect - the solution created perverse incentives that worsened the problem",
+    "answer": "The Cobra Effect - the solution created perverse incentives that",
     "explanation": "The Cobra Effect demonstrates how well-intentioned solutions fail when incentives are misaligned. The bounty rewarded cobra breeding, not cobra elimination. This is a classic perverse incentive - a key concept from Goodhart's Law family.",
     "difficulty": "hard"
   },
@@ -132,10 +132,10 @@
     "options": [
       "Workers do not understand their job requirements",
       "The factory needs better quality training programs",
-      "Goodhart's Law - the production target stopped being a useful measure because workers optimized for it",
+      "Goodhart's Law - the production target stopped",
       "The factory inspector is too strict"
     ],
-    "answer": "Goodhart's Law - the production target stopped being a useful measure because workers optimized for it",
+    "answer": "Goodhart's Law - the production target stopped",
     "explanation": "Goodhart's Law: once you measure and reward a specific metric (units produced), people optimize for that metric while neglecting other important dimensions (quality). The measure loses its value as an indicator of overall performance.",
     "difficulty": "hard"
   }

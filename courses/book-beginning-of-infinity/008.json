@@ -5,11 +5,11 @@
     "description": "The Enlightenment wasn't the end of progress, but where it began accelerating. This demonstrates:",
     "options": [
       "Why we should have stopped at the Enlightenment",
-      "How the Enlightenment launched unbounded progress through explanation",
+      "How the Enlightenment launched unbounded progress",
       "That progress actually ended in the 18th century",
       "Why we need to return to pre-Enlightenment thinking"
     ],
-    "answer": "How the Enlightenment launched unbounded progress through explanation",
+    "answer": "How the Enlightenment launched unbounded progress",
     "explanation": "Before the Enlightenment, knowledge growth was slow and episodic. Afterward, through institutions that encouraged criticism and explanation, progress became cumulative and potentially unlimited - each generation could build on the last's explanatory knowledge.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "Every new discovery opens more questions — never running out. This illustrates:",
     "options": [
       "Why physics is actually a dead end",
-      "How physics reveals endless frontiers of knowledge",
+      "How physics reveals endless frontiers of",
       "That we already know everything important",
       "Why we should stop funding physics research"
     ],
-    "answer": "How physics reveals endless frontiers of knowledge",
+    "answer": "How physics reveals endless frontiers of",
     "explanation": "Each major physics discovery (relativity, quantum mechanics, cosmology) answered old questions but revealed deeper ones. This endless progression shows how the universe's explanatory depth appears unbounded - we're not approaching a finish line.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A VR simulation feels real; what does that tell us about the nature of reality? This demonstrates:",
     "options": [
       "Why VR is actually useless",
-      "That our experience is shaped by our explanations, not just sensory input",
+      "That our experience is shaped by our",
       "That VR always feels obviously fake",
       "Why we should trust our senses over our theories"
     ],
-    "answer": "That our experience is shaped by our explanations, not just sensory input",
+    "answer": "That our experience is shaped by our",
     "explanation": "In VR, identical sensory input can feel like flying, falling, or standing still based on what you believe you're experiencing. This shows that our conscious experience depends on the explanations we construct to interpret sensory data - not the data alone.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "From the first plane to SpaceX in one lifetime — what's possible in 1000 years? This illustrates:",
     "options": [
       "Why we should focus only on immediate problems",
-      "How knowledge growth enables cosmic-scale engineering",
+      "How knowledge growth enables cosmic-scale",
       "That technological progress has actually stopped",
       "Why space exploration is a waste"
     ],
-    "answer": "How knowledge growth enables cosmic-scale engineering",
+    "answer": "How knowledge growth enables cosmic-scale",
     "explanation": "The Wright brothers to SpaceX in ~120 years shows how rapidly knowledge can grow. Extrapolating this growth rate suggests that with continued progress, humanity could gain the knowledge to engineer at planetary or even stellar scales within millennia.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "Can an AI have a creative breakthrough like Einstein? This gets at:",
     "options": [
       "Why AI will inevitably surpass humans",
-      "The question of whether AI can create genuinely new explanations",
+      "The question of whether AI can create",
       "That AI already understands consciousness",
       "Why we should not develop AI at all"
     ],
-    "answer": "The question of whether AI can create genuinely new explanations",
+    "answer": "The question of whether AI can create",
     "explanation": "Current AI excels at pattern recognition and recombining existing knowledge but shows no evidence of creating deep, novel explanations like Einstein's relativity. Whether AI can achieve true explanatory creativity remains an open question crucial to its potential role in knowledge growth.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "\"We can't keep growing\" — Deutsch's counter: knowledge solves resource limits. This demonstrates:",
     "options": [
       "Why we should stop all economic growth",
-      "How knowledge creates substitutes and improves efficiency",
+      "How knowledge creates substitutes and",
       "That resources are actually unlimited",
       "Why technology always makes problems worse"
     ],
-    "answer": "How knowledge creates substitutes and improves efficiency",
+    "answer": "How knowledge creates substitutes and",
     "explanation": "When whale oil became scarce, knowledge gave us petroleum and later electricity. Knowledge doesn't just use existing resources better - it creates entirely new resources and radically improves efficiency, allowing continued growth despite apparent limits.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Will humanity eventually understand everything? This explores:",
     "options": [
       "Why we should admit defeat now",
-      "Whether the reach of rational explanation is actually unbounded",
+      "Whether the reach of rational",
       "That we already understand everything",
       "Why understanding is actually impossible"
     ],
-    "answer": "Whether the reach of rational explanation is actually unbounded",
+    "answer": "Whether the reach of rational",
     "explanation": "Deutsch argues there's no known barrier to applying explanatory methods to any domain - from physics to consciousness to ethics. Whether this reach is truly infinite remains to be seen, but there's no evidence of fundamental limits in principle.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "Studying one bacteria species opened the entire field of microbiology. This illustrates:",
     "options": [
       "Why we should only study big, important topics",
-      "How small investigations can unlock vast knowledge",
+      "How small investigations can unlock vast",
       "That bacteria are actually unimportant",
       "Why detailed study is a waste of time"
     ],
-    "answer": "How small investigations can unlock vast knowledge",
+    "answer": "How small investigations can unlock vast",
     "explanation": "Antonie van Leeuwenhoek's meticulous observation of pond scum revealed a whole microscopic world. This seemingly trivial investigation founded microbiology - showing how deep examination of small details can yield principles with enormous reach and application.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "Pessimist: 'problems are unsolvable.' Optimist: 'we lack knowledge to solve them'. This shows:",
     "options": [
       "Why we should actually be pessimistic",
-      "How optimism sees problems as knowledge gaps, not impossibilities",
+      "How optimism sees problems as knowledge",
       "That all problems are actually easy to solve",
       "Why knowledge doesn't help solve problems"
     ],
-    "answer": "How optimism sees problems as knowledge gaps, not impossibilities",
+    "answer": "How optimism sees problems as knowledge",
     "explanation": "Pessimism looks at unsolved problems and concludes they're inherently unsolvable. Optimism (as Deutsch defines it) sees them as gaps in our current knowledge - challenges to be overcome through better explanations, not signs of fundamental limits or impossibility.",
     "difficulty": "hard"
   }

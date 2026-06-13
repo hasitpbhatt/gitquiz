@@ -18,12 +18,12 @@
     "content": "The episode explores the tension between command-line interfaces and newer agent protocols.",
     "description": "What is Daytona's position on CLI versus MCP for agent tooling?",
     "options": [
-      "They believe CLI is the appropriate interface for agents because it is universal and well-understood",
+      "They believe CLI is the appropriate interface for agents because it is",
       "They are building their own proprietary protocol to replace both CLI and MCP",
       "They believe MCP will completely replace CLI within six months",
       "MCP is superior because agents cannot parse command-line output"
     ],
-    "answer": "They believe CLI is the appropriate interface for agents because it is universal and well-understood",
+    "answer": "They believe CLI is the appropriate interface for agents because it is",
     "explanation": "Daytona argues that CLI is the right abstraction because every agent framework already knows how to use a command line, making it more universally compatible.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "The company's pricing model is compared to a well-known enterprise software company.",
     "description": "How does Daytona's approach to pricing resemble Salesforce's strategy?",
     "options": [
-      "They believe in charging for the platform infrastructure while treating compute as a pass-through cost",
+      "They believe in charging for the platform infrastructure while",
       "They charge per user per month regardless of usage",
       "They give away the product for free and make money from advertising",
       "They charge based on the number of lines of code executed"
     ],
-    "answer": "They believe in charging for the platform infrastructure while treating compute as a pass-through cost",
+    "answer": "They believe in charging for the platform infrastructure while",
     "explanation": "Like Salesforce charging for the CRM platform while passing through infrastructure costs, Daytona charges for its platform value rather than marking up compute.",
     "difficulty": "easy"
   },
@@ -60,12 +60,12 @@
     "content": "The podcast outlines how Daytona reaches its customers in the AI ecosystem.",
     "description": "How does Daytona describe its go-to-market approach for reaching AI companies?",
     "options": [
-      "A B2B2C model where open source adoption drives enterprise cloud sales",
+      "A B2B2C model where open source adoption drives enterprise",
       "A direct enterprise sales force calling Fortune 500 companies",
       "An advertising-based model selling ad space on their dashboard",
       "A retail model selling hardware through Amazon"
     ],
-    "answer": "A B2B2C model where open source adoption drives enterprise cloud sales",
+    "answer": "A B2B2C model where open source adoption drives enterprise",
     "explanation": "Developers adopt Daytona's open source project, which creates organizational demand for the managed cloud service — a classic B2B2C motion.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "The episode draws an analogy between AI cloud infrastructure and earlier platform shifts.",
     "description": "What analogy does the podcast use to describe the current AI cloud infrastructure market opportunity?",
     "options": [
-      "AI cloud is more like Stripe — a thin layer on top of existing infrastructure providers — than like AWS",
+      "AI cloud is more like Stripe — a thin layer on top of existing infrastructure providers —",
       "AI cloud is more like AWS — building everything from the ground up including data centers",
       "AI cloud is more like Netflix — purely focused on content delivery",
       "AI cloud is more like Shopify — enabling e-commerce for AI agents"
     ],
-    "answer": "AI cloud is more like Stripe — a thin layer on top of existing infrastructure providers — than like AWS",
+    "answer": "AI cloud is more like Stripe — a thin layer on top of existing infrastructure providers —",
     "explanation": "The podcast argues that AI cloud companies should be the 'Stripe of compute' — a value-add layer on existing infrastructure — rather than trying to become the next AWS.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "The conversation looks ahead to future infrastructure constraints as agent adoption grows.",
     "description": "What reasoning supports the prediction that CPU will bottleneck agent infrastructure?",
     "options": [
-      "Agent workloads are compute-intensive for planning and reasoning, not just inference",
+      "Agent workloads are compute-intensive for planning and reasoning, not just",
       "GPU supply chains have fully caught up with demand and are no longer constrained",
       "CPUs have not improved in performance since 2010",
       "Agent frameworks do not support GPU acceleration at all"
     ],
-    "answer": "Agent workloads are compute-intensive for planning and reasoning, not just inference",
+    "answer": "Agent workloads are compute-intensive for planning and reasoning, not just",
     "explanation": "As agents perform more planning, reasoning, and code execution (not just inference), CPU demand will surge and potentially become the primary bottleneck.",
     "difficulty": "hard"
   },

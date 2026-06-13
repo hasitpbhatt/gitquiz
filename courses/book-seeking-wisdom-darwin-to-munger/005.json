@@ -5,11 +5,11 @@
     "description": "A CEO insists on using only financial models to understand her business, ignoring psychology, biology, and systems thinking. Her approach is limited because:",
     "options": [
       "Financial models are always inaccurate",
-      "No single discipline provides a complete view of reality",
+      "No single discipline provides a complete view of",
       "CEOs should focus exclusively on numbers",
       "Psychology and biology are irrelevant in business"
     ],
-    "answer": "No single discipline provides a complete view of reality",
+    "answer": "No single discipline provides a complete view of",
     "explanation": "Munger advocates a latticework of mental models from various disciplines. Relying solely on one perspective, like finance, misses critical insights from psychology, physics, biology, and other fields.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "After a stock market drop, financial news creates a narrative, Investors feared inflation data. In reality, markets move for thousands of simultaneous reasons. The human tendency to create narratives:",
     "options": [
       "Always reveals true market causes",
-      "Helps us find meaning but may oversimplify complex events",
+      "Helps us find meaning but may oversimplify",
       "Is unique to financial journalism",
       "Should be eliminated entirely from thinking"
     ],
-    "answer": "Helps us find meaning but may oversimplify complex events",
+    "answer": "Helps us find meaning but may oversimplify",
     "explanation": "Our brains crave coherent stories, but real-world events often have multiple, contradictory, or random causes. Simplification aids understanding but can create false certainty about complex events.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Pilots use pre-flight checklists even when they have flown the same plane hundreds of times. The primary benefit is:",
     "options": [
       "Training new pilots who may not know the routine",
-      "Protecting against oversight from overconfidence or distraction",
+      "Protecting against oversight from overconfidence",
       "Complying with aviation regulations",
       "Documenting activities for legal purposes"
     ],
-    "answer": "Protecting against oversight from overconfidence or distraction",
+    "answer": "Protecting against oversight from overconfidence",
     "explanation": "Checklists are a filter against human fallibility. Even experts skip steps when overconfident or distracted. A structured checklist ensures critical items are never missed, regardless of experience.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Two friends start fitness programs. One says I want to get in shape, while the other says I want to run a 5K in under 25 minutes within three months. Who is more likely to succeed, and why?",
     "options": [
       "The first, because flexibility leads to better outcomes",
-      "The second, because specific, measurable goals improve focus and effort",
+      "The second, because specific, measurable goals improve",
       "Both equally, since the intention is the same",
       "Neither, since fitness goals are rarely achieved"
     ],
-    "answer": "The second, because specific, measurable goals improve focus and effort",
+    "answer": "The second, because specific, measurable goals improve",
     "explanation": "Clear goals provide a target to aim for and criteria for success. Vague goals lack the specificity needed to design an effective plan and measure progress.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "When planning a wedding, a couple applies inversion by first asking What would make this day a disaster. This approach helps them:",
     "options": [
       "Focus only on negative possibilities",
-      "Identify and prevent major sources of failure",
+      "Identify and prevent major sources",
       "Expect the worst to happen",
       "Avoid making any decisions at all"
     ],
-    "answer": "Identify and prevent major sources of failure",
+    "answer": "Identify and prevent major sources",
     "explanation": "By considering what would cause failure, logistics breakdown, conflicts, poor weather plans, the couple can proactively address these risks. Munger called this avoiding stupidity over seeking brilliance.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "Decision filters are simple criteria that screen out bad choices before deep analysis. They save time and prevent obvious mistakes by eliminating options that fail basic tests.",
     "description": "A venture capitalist rejects any pitch that does not address a clear customer pain point, without even reading the financial projections. This filter helps:",
     "options": [
-      "Save time by eliminating fundamentally flawed opportunities early",
+      "Save time by eliminating fundamentally",
       "Ignore important financial details",
       "Make decisions based on one criterion only",
       "Avoid meeting with ambitious entrepreneurs"
     ],
-    "answer": "Save time by eliminating fundamentally flawed opportunities early",
+    "answer": "Save time by eliminating fundamentally",
     "explanation": "A good filter eliminates options that fail a basic requirement. If there is no customer need, the venture cannot succeed regardless of financial projections. The filter catches this early.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "An investor feels a strong emotional attachment to a stock his father once owned. He refuses to sell even as the company declines. The best course of action is:",
     "options": [
       "Follow his gut feeling since emotional connections matter",
-      "Recognize the emotional influence and evaluate the stock objectively",
+      "Recognize the emotional influence and evaluate the stock",
       "Hold forever since his father had good judgment",
       "Double down since emotions often signal hidden value"
     ],
-    "answer": "Recognize the emotional influence and evaluate the stock objectively",
+    "answer": "Recognize the emotional influence and evaluate the stock",
     "explanation": "Emotional attachments to investments are common but dangerous. Recognizing this influence allows the investor to step back and evaluate the stock prospects independently of sentiment.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "A manager relies on last year market research report to make strategy decisions, ignoring new competitors and changing customer preferences. This mistake exemplifies:",
     "options": [
       "Thorough reliance on documented research",
-      "Confusing the map, the past report, with the territory, current reality",
+      "Confusing the map, the past report, with the",
       "Effective use of historical data for planning",
       "Proper risk management through established procedures"
     ],
-    "answer": "Confusing the map, the past report, with the territory, current reality",
+    "answer": "Confusing the map, the past report, with the",
     "explanation": "The report was a snapshot of past conditions, a map. Using it as if it represents current reality, the territory, ignores that the landscape has changed. Models must be continuously updated.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "A weather forecaster says There is a 40 percent chance of rain. A binary thinker says Either it will rain or it will not, so the forecast is useless. The probabilistic thinker understands:",
     "options": [
       "The forecaster is guessing without confidence",
-      "40 percent means that in similar conditions, rain occurs 40 percent of the time",
+      "40 percent means that in similar conditions, rain occurs",
       "Probability forecasts are meaningless for daily planning",
       "The forecaster should always commit to rain or no rain"
     ],
-    "answer": "40 percent means that in similar conditions, rain occurs 40 percent of the time",
+    "answer": "40 percent means that in similar conditions, rain occurs",
     "explanation": "Probabilistic statements express calibrated uncertainty. Over many days with a 40 percent forecast, it will rain about 40 percent of the time. This is more honest and useful than false certainty.",
     "difficulty": "hard"
   }

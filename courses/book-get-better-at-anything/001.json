@@ -33,11 +33,11 @@
     "description": "A student cannot solve a calculus problem. What demonstrates treating problem solving as search?",
     "options": [
       "Stare at the problem for a long time until the answer comes to you by magic",
-      "Try different integration techniques like parts, substitution, or partial fractions",
+      "Try different integration techniques like parts, substitution, or partial",
       "Look up the answer in the back of the textbook and then move to the next problem",
       "Skip the problem entirely and hope it does not appear on the exam at all"
     ],
-    "answer": "Try different integration techniques like parts, substitution, or partial fractions",
+    "answer": "Try different integration techniques like parts, substitution, or partial",
     "explanation": "Search-based problem solving means trying different solution methods, using each failed approach to narrow the possibilities. Each dead end provides information about what the solution is not.",
     "difficulty": "easy"
   },

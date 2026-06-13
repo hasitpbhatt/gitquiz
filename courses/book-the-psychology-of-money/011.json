@@ -6,10 +6,10 @@
     "options": [
       "A purely rational decision.",
       "A failure of basic financial literacy.",
-      "A reasonable decision that prioritizes peace of mind over spreadsheets.",
+      "A reasonable decision that prioritizes peace of",
       "An irrational mistake that will lead to poverty."
     ],
-    "answer": "A reasonable decision that prioritizes peace of mind over spreadsheets.",
+    "answer": "A reasonable decision that prioritizes peace of",
     "explanation": "While the math says 'keep the mortgage,' the psychological benefit of being debt-free might keep the investor calm and happy, which is a 'reasonable' goal.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Why might a 'rational' investment strategy (like 100% stocks) fail for a typical human being?",
     "options": [
       "Because the stock market is rigged.",
-      "Because most people cannot emotionally handle a 50% drop in their life savings without panicking.",
+      "Because most people cannot emotionally handle a 50% drop",
       "Because stocks always underperform bonds in the long run.",
       "Because 'rational' strategies are illegal in many states."
     ],
-    "answer": "Because most people cannot emotionally handle a 50% drop in their life savings without panicking.",
+    "answer": "Because most people cannot emotionally handle a 50% drop",
     "explanation": "A plan is only as good as your ability to survive the bad times. If a 'perfect' plan causes you to sell at the bottom, it was actually a bad plan for you.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "If investing in local companies you understand keeps you from selling during a market crash, what is the 'reasonable' result?",
     "options": [
       "You will lose money due to a lack of diversification.",
-      "You are more likely to stay the course and benefit from long-term compounding.",
+      "You are more likely to stay the course and benefit from long-term",
       "You will be audited by the government for not investing globally.",
       "You are being patriotic but financially foolish."
     ],
-    "answer": "You are more likely to stay the course and benefit from long-term compounding.",
+    "answer": "You are more likely to stay the course and benefit from long-term",
     "explanation": "The 'best' portfolio is the one you won't abandon. If familiarity provides the comfort needed to stay invested, it serves a vital purpose.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "When planning for retirement, why should you include your spouse's emotional comfort level even if they are 'wrong' about the math?",
     "options": [
       "To avoid an argument in the short term.",
-      "Because a plan that causes family stress is more likely to be abandoned during a crisis.",
+      "Because a plan that causes family stress is more likely to be",
       "Because spouses always have better intuition than spreadsheets.",
       "You shouldn't; math should always come first in finance."
     ],
-    "answer": "Because a plan that causes family stress is more likely to be abandoned during a crisis.",
+    "answer": "Because a plan that causes family stress is more likely to be",
     "explanation": "Investing is a long-term game. If the process is making your household miserable, you won't be able to sustain it for the decades required for compounding.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Why is it dangerous to only look at historical market 'averages' when making a plan?",
     "options": [
       "Because historical averages are usually fake data.",
-      "Because you don't live in an 'average'; you live through specific, painful crashes.",
+      "Because you don't live in an 'average'; you live through",
       "Because the future is guaranteed to be better than the past.",
       "Because averages are too simple for complex investors."
     ],
-    "answer": "Because you don't live in an 'average'; you live through specific, painful crashes.",
+    "answer": "Because you don't live in an 'average'; you live through",
     "explanation": "Knowing that the market returns 10% on average doesn't help you if you lose your job and your portfolio drops 40% in the same month. You need a 'reasonable' plan for the storms.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "According to the book, what is the benefit of 'passion' in investing?",
     "options": [
       "It helps you pick winners more often.",
-      "It acts as an emotional glue that prevents you from quitting when things get ugly.",
+      "It acts as an emotional glue that prevents you from",
       "It makes you more popular in investment forums.",
       "There is no benefit; emotions should be completely removed."
     ],
-    "answer": "It acts as an emotional glue that prevents you from quitting when things get ugly.",
+    "answer": "It acts as an emotional glue that prevents you from",
     "explanation": "Cold logic ('I only care about the numbers') offers no defense when the numbers turn red. A 'reasonable' affection for your strategy provides endurance.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "What does the creator of Modern Portfolio Theory's personal investment choice teach us?",
     "options": [
       "Even geniuses don't understand their own math.",
-      "The psychological 'reasonable' choice often trumps the 'rational' Nobel-winning math.",
+      "The psychological 'reasonable' choice often",
       "Bonds are always better than stocks.",
       "You should never trust a Nobel Prize winner."
     ],
-    "answer": "The psychological 'reasonable' choice often trumps the 'rational' Nobel-winning math.",
+    "answer": "The psychological 'reasonable' choice often",
     "explanation": "Even the man who literally wrote the book on rational investing chose a 'reasonable' path because he knew he was a human subject to fear.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Why should a financial plan have 'flexibility' built in?",
     "options": [
       "To allow you to gamble on new stocks.",
-      "Because your 40-year-old self will likely have different priorities than your 20-year-old self.",
+      "Because your 40-year-old self will likely have different",
       "Because the law requires you to change your plan every 5 years.",
       "To ensure you are always paying the lowest possible fees."
     ],
-    "answer": "Because your 40-year-old self will likely have different priorities than your 20-year-old self.",
+    "answer": "Because your 40-year-old self will likely have different",
     "explanation": "Reasonable people accept that they are 'work in progress' and build plans that can adapt to their changing lives.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "What is the 'cost' of trying to be perfectly rational in an irrational world?",
     "options": [
       "You will earn too much money and be bored.",
-      "You will likely burn out or panic because your plan didn't account for your human emotions.",
+      "You will likely burn out or panic because your plan",
       "You will be praised as the world's best investor.",
       "There is no cost; rationality is always the best path."
     ],
-    "answer": "You will likely burn out or panic because your plan didn't account for your human emotions.",
+    "answer": "You will likely burn out or panic because your plan",
     "explanation": "By ignoring your humanity, you create a plan that is fragile. Being reasonable makes your financial life resilient.",
     "difficulty": "medium"
   }

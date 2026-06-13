@@ -61,11 +61,11 @@
     "description": "A musician practices alone in a soundproof room but struggles during live performances with a band. This demonstrates:",
     "options": [
       "The musician is simply not talented enough to perform live with a band on stage",
-      "Solo practice does not prepare for the dynamics and timing of playing with a band",
+      "Solo practice does not prepare for the dynamics and timing of playing with a",
       "Live performance is impossible to prepare for",
       "The musician needs a different instrument"
     ],
-    "answer": "Solo practice does not prepare for the dynamics and timing of playing with a band",
+    "answer": "Solo practice does not prepare for the dynamics and timing of playing with a",
     "explanation": "Playing with a band requires listening to others, keeping tempo together, and handling stage dynamics. These skills only develop through practice conditions that match real performance.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "The speaker has stage fright that cannot be overcome",
       "Public speaking requires a photographic memory",
-      "Practicing without an audience, lights, and pressure does not transfer to real speaking",
+      "Practicing without an audience, lights, and pressure does not transfer to real",
       "The speaker did not memorize the speech well enough to deliver it confidently on stage"
     ],
-    "answer": "Practicing without an audience, lights, and pressure does not transfer to real speaking",
+    "answer": "Practicing without an audience, lights, and pressure does not transfer to real",
     "explanation": "Nervousness, lighting, and audience reactions create a different cognitive context. Realistic practice conditions help build comfort with the actual performance environment.",
     "difficulty": "hard"
   },

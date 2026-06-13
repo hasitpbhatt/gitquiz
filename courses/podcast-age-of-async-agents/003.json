@@ -5,11 +5,11 @@
     "description": "You are architecting an agent system. Your team debates whether the agent should control its own infrastructure. What is the harness in the box approach?",
     "options": [
       "The agent runs in a read-only environment",
-      "The agent has full control over its infrastructure including networking and provisioning",
+      "The agent has full control over its",
       "The agent is limited to editing code only",
       "The agent cannot access the internet"
     ],
-    "answer": "The agent has full control over its infrastructure including networking and provisioning",
+    "answer": "The agent has full control over its",
     "explanation": "Harness in the box gives the agent full control over its environment, including the ability to create VMs, manage networking, install packages, and run arbitrary commands. Devin uses this approach.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Your platform team wants to restrict what an agent can do for security reasons. Which approach gives the agent a fixed set of tools with no control over the underlying environment?",
     "options": [
       "Harness in the box",
-      "Harness out of the box",
+      "Harness out of the",
       "Sandbox escape",
       "Privilege escalation"
     ],
-    "answer": "Harness out of the box",
+    "answer": "Harness out of the",
     "explanation": "Harness out of the box provides the agent with a controlled, pre-configured set of tools. The agent has no ability to modify its environment or access infrastructure not explicitly exposed. This is more secure but limits the agent's capabilities.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Your security team is worried about agents having too much power. What is the primary security risk of the harness in the box architecture?",
     "options": [
       "The agent cannot install packages",
-      "A compromised agent has full access to the environment and everything in it",
+      "A compromised agent has full access to the",
       "The agent runs too slowly",
       "The agent cannot access any network resources"
     ],
-    "answer": "A compromised agent has full access to the environment and everything in it",
+    "answer": "A compromised agent has full access to the",
     "explanation": "With harness in the box, the agent has full system control. If the model is manipulated or goes rogue, it can access any file, secret, or network resource in that environment. This is why scoped secrets and strict isolation are critical.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "In-the-box architectures make state management simpler (everything is in one place) but harder to replicate or snapshot. Out-of-the-box makes state explicit but requires more infrastructure.",
     "description": "Your team needs to decide between architectures. Which is the correct trade-off between the two harness approaches?",
     "options": [
-      "In-the-box makes state simpler but harder to snapshot; out-of-the-box makes state explicit but requires more scaffolding",
+      "In-the-box makes state simpler but harder to",
       "In-the-box is always better for security",
       "Out-of-the-box has no state management concerns",
       "Both approaches handle state identically"
     ],
-    "answer": "In-the-box makes state simpler but harder to snapshot; out-of-the-box makes state explicit but requires more scaffolding",
+    "answer": "In-the-box makes state simpler but harder to",
     "explanation": "With harness in the box, all state lives inside the environment (simple but hard to replicate/restore). With harness out of the box, state must be explicitly managed and passed between tools (more scaffolding but easier to snapshot and restore).",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "Your company has 50 repos in one Devin instance. An engineer worries about an agent accidentally leaking credentials. How does Devin handle secrets to prevent cross-repo access?",
     "options": [
       "All repos share the same global token",
-      "Each repository has its own scoped set of credentials",
+      "Each repository has its own scoped set",
       "Secrets are hardcoded in agent prompts",
       "Devin does not support secrets at all"
     ],
-    "answer": "Each repository has its own scoped set of credentials",
+    "answer": "Each repository has its own scoped set",
     "explanation": "Devin uses scoped secrets: each repo gets its own isolated credentials. Even if an agent in one repo is compromised, it cannot access tokens from other repositories.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You are explaining your agent architecture to a new hire. What is the function of the worker plane?",
     "options": [
       "It manages user authentication and billing",
-      "It runs the actual agent execution in isolated environments",
+      "It runs the actual agent execution in",
       "It stores training data for the model",
       "It generates marketing copy"
     ],
-    "answer": "It runs the actual agent execution in isolated environments",
+    "answer": "It runs the actual agent execution in",
     "explanation": "The worker plane is where agent execution happens, running code, installing dependencies, testing. It is separated from the control plane which handles orchestration, routing, and state management.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Your engineering team already has Docker Compose files for local development. How can you leverage this for your agent platform instead of building custom infrastructure?",
     "options": [
       "Docker Compose is incompatible with agent platforms",
-      "You can have the agent run Docker Compose just as a developer would on their local machine",
+      "You can have the agent run Docker Compose just as a",
       "You need to rewrite all Docker Compose files for agents",
       "Agents cannot use Docker at all"
     ],
-    "answer": "You can have the agent run Docker Compose just as a developer would on their local machine",
+    "answer": "You can have the agent run Docker Compose just as a",
     "explanation": "Walden's advice is to just use Docker Compose, reuse your existing development infrastructure instead of building agent-specific infrastructure. The agent can run Docker Compose the same way a developer does, minimizing custom platform work.",
     "difficulty": "hard"
   }

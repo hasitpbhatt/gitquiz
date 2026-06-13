@@ -5,11 +5,11 @@
     "description": "A family buys a $300,000 home with a $60,000 down payment and a mortgage for the remainder. If the value of the home suddenly drops to $200,000 and they cannot make payments, why is the bank still at risk of a loss?",
     "options": [
       "Because the home is no longer a physical asset",
-      "Because the value of the collateral is now less than the outstanding loan balance",
+      "Because the value of the collateral is now less",
       "Because down payments are illegal in most states",
       "Because banks are not allowed to sell seized homes"
     ],
-    "answer": "Because the value of the collateral is now less than the outstanding loan balance",
+    "answer": "Because the value of the collateral is now less",
     "explanation": "This is known as being 'underwater.' Since the loan ($240,000) is higher than the home's current value ($200,000), selling the house won't cover the full debt, leaving the bank with a shortfall.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "How does securitization affect a local bank's ability to lend money to new homebuyers in its community?",
     "options": [
       "It limits lending because the bank must keep all loans on its books",
-      "It increases lending capacity by moving old loans off the books and bringing in new capital",
+      "It increases lending capacity by moving old loans off the books and",
       "It has no effect on lending",
       "It forces the bank to only lend to the government"
     ],
-    "answer": "It increases lending capacity by moving old loans off the books and bringing in new capital",
+    "answer": "It increases lending capacity by moving old loans off the books and",
     "explanation": "By selling 'bundles' of mortgages to investors, the bank recovers its cash immediately rather than waiting 30 years for homeowners to pay them back, allowing them to turn around and lend to new borrowers.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Government tax revenue",
       "The profits of the investment bank",
-      "The monthly mortgage payments made by thousands of homeowners",
+      "The monthly mortgage payments made",
       "Stock market dividends"
     ],
-    "answer": "The monthly mortgage payments made by thousands of homeowners",
+    "answer": "The monthly mortgage payments made",
     "explanation": "An MBS passes the payments from borrowers through to investors. If homeowners pay their mortgages, the MBS investor gets paid; if homeowners default, the investor's return drops.",
     "difficulty": "easy"
   },
@@ -62,10 +62,10 @@
     "options": [
       "The homeowners will stop living in their houses",
       "The investor will lose their principal entirely",
-      "The investor receives their cash back early and must now reinvest it at the new, lower 3% rate",
+      "The investor receives their cash back early and",
       "The bank will go out of business"
     ],
-    "answer": "The investor receives their cash back early and must now reinvest it at the new, lower 3% rate",
+    "answer": "The investor receives their cash back early and",
     "explanation": "This is a key risk in real estate finance. When rates drop, 'good' high-interest loans disappear because borrowers pay them off early to get cheaper ones elsewhere.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "During the lead-up to the 2008 financial crisis, there was a massive increase in subprime lending. Why did investors keep buying these risky loans in the form of securities?",
     "options": [
       "They were guaranteed by the government to never fail",
-      "They offered higher yields (returns) than 'prime' loans and were incorrectly rated as safe",
+      "They offered higher yields (returns) than 'prime' loans and were",
       "Subprime borrowers are statistically safer than wealthy borrowers",
       "The investors were forced to buy them by law"
     ],
-    "answer": "They offered higher yields (returns) than 'prime' loans and were incorrectly rated as safe",
+    "answer": "They offered higher yields (returns) than 'prime' loans and were",
     "explanation": "Investors were attracted to the higher interest rates of subprime loans. Many believed that because the loans were 'pooled' together, the risk of everyone failing at once was nearly zero—an assumption that proved wrong.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "You agree to buy a house for $400,000, but the bank's appraiser says it is only worth $350,000. Why will the bank likely refuse to give you the full $400,000 loan?",
     "options": [
       "The bank wants to prevent you from moving in",
-      "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",
+      "The bank needs to ensure that if you default, they can sell the house",
       "Appraisers are not allowed to use round numbers",
       "The bank is legally required to always lend $50,000 less than the price"
     ],
-    "answer": "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",
+    "answer": "The bank needs to ensure that if you default, they can sell the house",
     "explanation": "The bank uses the appraisal to manage its risk. If they lend more than the house is worth, they are 'unsecured' for the difference, which is too risky for a standard mortgage lender.",
     "difficulty": "medium"
   }

@@ -75,11 +75,11 @@
     "description": "Someone wants to journal nightly. Which setup best follows the 3rd Law of making it easy?",
     "options": [
       "Keep the journal locked in a drawer in another room",
-      "Place the journal and pen directly on the pillow each morning",
+      "Place the journal and pen directly on the pillow",
       "Commit to writing five pages every single night",
       "Buy an expensive leather journal to feel motivated"
     ],
-    "answer": "Place the journal and pen directly on the pillow each morning",
+    "answer": "Place the journal and pen directly on the pillow",
     "explanation": "Putting the journal on the pillow reduces friction to nearly zero. The response of writing becomes much easier to initiate when the tools are already in place.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "A person checks email every ten minutes. What are they actually craving?",
     "options": [
       "The physical act of typing on a keyboard",
-      "The feeling of being productive or the relief of reducing uncertainty",
+      "The feeling of being productive or the",
       "The blue light from the screen",
       "The technical process of data transmission"
     ],
-    "answer": "The feeling of being productive or the relief of reducing uncertainty",
+    "answer": "The feeling of being productive or the",
     "explanation": "Cravings are about internal state change. We perform habits to move from a current state to a more desirable one, such as from not knowing to being informed.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "An experienced driver navigates a familiar route on autopilot while holding a conversation. A learner driver must focus entirely on the road and cannot speak. Cognitive load theory explains both scenarios, but it also predicts a hidden danger in the experienced driver's automation. What is the most significant risk of habit-based automation in high-stakes environments?",
     "options": [
       "Habit automation reduces reaction time, causing the driver to brake too late in unexpected situations",
-      "When the environment changes unpredictably, the automated response may be the wrong one, and regaining conscious control has a latency cost",
+      "When the environment changes unpredictably, the automated response may be the wrong one, and regaining",
       "The brain offloads too much processing to habit, leading to micro-sleep episodes behind the wheel",
       "Habit automation only works for positive behaviors; negative behaviors like speeding are never automated"
     ],
-    "answer": "When the environment changes unpredictably, the automated response may be the wrong one, and regaining conscious control has a latency cost",
+    "answer": "When the environment changes unpredictably, the automated response may be the wrong one, and regaining",
     "explanation": "Cognitive efficiency through habit has a trade-off: the brain routes control from slow conscious processing to fast basal ganglia automation. This works perfectly in stable environments but creates vulnerability when conditions shift. If a child runs into the street on a road where the driver habitually expects no pedestrians, the automated non-alert state delays the transition to conscious emergency response. This latency between habit failure and conscious takeover is the hidden cost of automation.",
     "difficulty": "hard"
   },
@@ -132,10 +132,10 @@
     "options": [
       "The Cue (insufficient)",
       "The Craving (insufficient)",
-      "The Response (insufficient)",
+      "The Response",
       "The Reward (insufficient)"
     ],
-    "answer": "The Response (insufficient)",
+    "answer": "The Response",
     "explanation": "The Response is too difficult due to physical friction. Even with a strong cue and craving, the effort required stops the loop from completing.",
     "difficulty": "medium"
   }

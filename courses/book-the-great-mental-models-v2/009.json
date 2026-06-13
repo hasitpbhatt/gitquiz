@@ -5,11 +5,11 @@
     "description": "A brilliant but purely technical engineer struggles to communicate with executives and is passed over for promotion. A colleague with moderate technical skills but strong business acumen and communication skills gets the promotion. What explains this?",
     "options": [
       "The promoted colleague had better connections with senior leaders",
-      "The pure technical skills were soft and weak; the colleague's combination of technical, business,",
+      "The pure technical skills were soft and weak; the colleague's",
       "The company does not value deep technical expertise",
       "The engineer should have focused on networking instead of coding"
     ],
-    "answer": "The pure technical skills were soft and weak; the colleague's combination of technical, business,",
+    "answer": "The pure technical skills were soft and weak; the colleague's",
     "explanation": "A single skill, no matter how strong, is like a pure metal — it has structural weaknesses. Combining skills from different domains creates an intellectual alloy that is more resilient and valuable than any single discipline. Hybrid capability beats hyper-specialization.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "Career diversification — having multiple job options reduces risk",
       "The marketing professional spread herself too thin across unrelated fields",
-      "Her combination of marketing, coding, and psychology forms a unique intellectual alloy that competitors",
+      "Her combination of marketing, coding, and psychology forms a unique",
       "Python is an essential skill for all marketing professionals"
     ],
-    "answer": "Her combination of marketing, coding, and psychology forms a unique intellectual alloy that competitors",
+    "answer": "Her combination of marketing, coding, and psychology forms a unique",
     "explanation": "Just as steel (iron + carbon) is stronger than pure iron, an intellectual alloy of marketing + coding + psychology is stronger than any of those skills alone. The hybrid is rare, difficult to replicate, and creates a professional moat.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "First-mover advantage — Apple entered these markets earliest",
       "Apple has more engineers than any competitor",
-      "Apple's hardware-software-services alloy is extremely difficult for pure competitors to replicate",
+      "Apple's hardware-software-services alloy is extremely",
       "Brand loyalty alone explains Apple's sustained advantage"
     ],
-    "answer": "Apple's hardware-software-services alloy is extremely difficult for pure competitors to replicate",
+    "answer": "Apple's hardware-software-services alloy is extremely",
     "explanation": "Apple's advantage is not any single element but the alloy of all three. A pure hardware company cannot build great software. A pure software company cannot control the hardware experience. The operational alloy creates a moat that pure competitors cannot cross.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A tax accountant who only knows US tax law sees his industry disrupted by AI tax software. He has no other marketable skills. A fellow accountant who also understood financial planning and client relationships adapts successfully. What explains the difference?",
     "options": [
       "The second accountant was naturally smarter",
-      "hyper-specialized in one domain — while the second had an intellectual alloy that survived the",
+      "hyper-specialized in one domain — while the second had an",
       "AI tax software only affects accountants who are not tech-savvy",
       "Tax law changes made the first accountant's knowledge obsolete"
     ],
-    "answer": "hyper-specialized in one domain — while the second had an intellectual alloy that survived the",
+    "answer": "hyper-specialized in one domain — while the second had an",
     "explanation": "Pure specialization is brittle. When one domain is disrupted, the pure specialist has nothing to fall back on. An intellectual alloy spreads resilience across multiple elements — if one weakens, the others provide structural support.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "The second journalist was more talented at storytelling",
       "The first journalist should have saved more money for the transition",
-      "combining writing, video, audio, and digital distribution — made her resilient to shifts in any",
+      "combining writing, video, audio, and digital distribution — made her",
       "Magazine journalism is a dying industry with no future"
     ],
-    "answer": "combining writing, video, audio, and digital distribution — made her resilient to shifts in any",
+    "answer": "combining writing, video, audio, and digital distribution — made her",
     "explanation": "When one medium contracted, the second journalist had adjacent skills that provided alternative pathways. Her alloy of capabilities made her resilient to shocks that devastated pure specialists. Diversification across related but distinct skills creates career antifragility.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "A product manager has studied psychology and statistics but applies them separately: uses psychology for user research and statistics for A/B testing. She never connects the two. Is this an intellectual alloy?",
     "options": [
       "Yes — any combination of skills qualifies as an intellectual alloy",
-      "she is maintaining them as separate toolkits; an alloy requires integration where the elements interact and",
+      "she is maintaining them as separate toolkits; an alloy requires integration where",
       "Psychology and statistics are too different to form an alloy",
       "The combination is still valuable even without integration, so it counts as an alloy"
     ],
-    "answer": "she is maintaining them as separate toolkits; an alloy requires integration where the elements interact and",
+    "answer": "she is maintaining them as separate toolkits; an alloy requires integration where",
     "explanation": "A true intellectual alloy does not just have multiple tools — it fuses them. The integrated insight would be, for example, using psychology to identify which metrics matter and statistics to measure them, then feeding measurement insights back into psychological models. Integration is the defining feature of an alloy.",
     "difficulty": "hard"
   }

@@ -4,12 +4,12 @@
     "content": "A good explanation is hard to vary - it specifies precise mechanisms that would break the explanation if altered. Bad explanations are flexible excuses that fit any outcome.",
     "description": "Two economists are asked why unemployment rose. Economist A: 'A 0.5% interest rate hike reduced corporate borrowing for expansion, eliminating 12,000 construction jobs — a rate cut would reverse the trend.' Economist B: 'Markets lost confidence due to structural uncertainties in the global regulatory environment.' Which explanation better satisfies the hard-to-vary criterion, and what specific change would falsify the weaker one?",
     "options": [
-      "A's is better; B's would survive any outcome by appealing to vague 'uncertainties'",
+      "A's is better; B's would survive any outcome by appealing to vague",
       "B's is better; structural factors are more fundamental than interest rates",
       "Both are equally hard to vary because both reference economics",
       "Neither satisfies hard-to-vary; economics cannot produce good explanations"
     ],
-    "answer": "A's is better; B's would survive any outcome by appealing to vague 'uncertainties'",
+    "answer": "A's is better; B's would survive any outcome by appealing to vague",
     "explanation": "A's explanation specifies a precise causal mechanism (rate hike → reduced borrowing → fewer construction jobs) with a testable prediction (cut rates → jobs return). B's 'structural uncertainties' could explain any economic outcome equally well — whether unemployment rises or falls, one can always claim 'uncertainty' caused it. This makes B's explanation easy to vary and therefore bad by Deutsch's criterion.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "A weather app says 'tomorrow it might rain or it might not' — it's always right but useless. This illustrates:",
     "options": [
       "A good explanation because it's never wrong",
-      "A bad explanation because it fits any outcome",
+      "A bad explanation because it fits any",
       "An explanation with good reach",
       "A conjecture that needs refutation"
     ],
-    "answer": "A bad explanation because it fits any outcome",
+    "answer": "A bad explanation because it fits any",
     "explanation": "The weather app's statement is always correct but provides zero predictive value because it accommodates both rain and no rain equally well. Good explanations constrain what could happen - this one doesn't.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A stock prediction bot that guesses right 60% of the time but can't explain why — is this knowledge? This illustrates:",
     "options": [
       "Good scientific knowledge because it's accurate",
-      "Knowledge without explanation - merely instrumental",
+      "Knowledge without explanation - merely",
       "A conjecture awaiting refutation",
       "An explanation with limited reach"
     ],
-    "answer": "Knowledge without explanation - merely instrumental",
+    "answer": "Knowledge without explanation - merely",
     "explanation": "The bot may predict well but offers no understanding of market mechanisms. Without explanatory power, it's merely a reliable instrument - not scientific knowledge which requires understanding why things happen.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "You assume traffic is due to an accident, but it's actually road construction — you update your belief. This illustrates:",
     "options": [
       "Confirmation bias",
-      "The process of conjecture and refutation",
+      "The process of",
       "Authoritarian thinking",
       "Inductive reasoning"
     ],
-    "answer": "The process of conjecture and refutation",
+    "answer": "The process of",
     "explanation": "You formed a conjecture (accident causing traffic), encountered evidence refuting it (no accident, but construction), and revised your belief. This exemplifies Popper's conjecture-refutation cycle central to knowledge growth.",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Induction is always reliable",
       "Why we need authorities to tell us what's true",
-      "Induction's logical weakness - past patterns don't guarantee futures",
+      "Induction's logical weakness - past patterns",
       "That the sun doesn't actually rise"
     ],
-    "answer": "Induction's logical weakness - past patterns don't guarantee futures",
+    "answer": "Induction's logical weakness - past patterns",
     "explanation": "While the sun has risen every observed day, this doesn't logically guarantee it will rise tomorrow - especially since we know there are places/times where it doesn't. Induction assumes what it tries to prove.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "A celebrity doctor endorses a supplement; you look up studies yourself. This demonstrates:",
     "options": [
       "Blind faith in authority",
-      "Reason overriding authority",
+      "Reason overriding",
       "The problem of induction",
       "Confirmation bias"
     ],
-    "answer": "Reason overriding authority",
+    "answer": "Reason overriding",
     "explanation": "Instead of accepting the celebrity's claim on authority, you seek evidence and explanations yourself. This embodies the Enlightenment ideal of judging ideas by reason and evidence, not status or fame.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "Two sales pitches: 'this product will change your life' vs. 'this product filters 99% of contaminants'. Which is a better explanation and why?",
     "options": [
       "The first, because life change is important",
-      "The second, because it specifies a precise, testable mechanism",
+      "The second, because it specifies a precise,",
       "Neither explanation is better than the other",
       "Neither makes any explanation at all"
     ],
-    "answer": "The second, because it specifies a precise, testable mechanism",
+    "answer": "The second, because it specifies a precise,",
     "explanation": "'Filters 99% of contaminants' is hard to vary - change the percentage or mechanism and the explanation breaks. 'Change your life' is vague and flexible - it could 'explain' any outcome equally well, making it a bad explanation.",
     "difficulty": "easy"
   }

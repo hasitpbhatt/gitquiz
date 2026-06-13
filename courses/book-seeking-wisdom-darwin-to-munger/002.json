@@ -47,11 +47,11 @@
     "description": "A nurse administers a clearly incorrect medication dosage because a doctor insisted on it, despite the nurse training indicating otherwise. This demonstrates:",
     "options": [
       "Proper chain of command in medical settings",
-      "Authority influence overriding personal judgment",
+      "Authority influence overriding personal",
       "The nurse lack of professional competence",
       "Effective teamwork and trust between colleagues"
     ],
-    "answer": "Authority influence overriding personal judgment",
+    "answer": "Authority influence overriding personal",
     "explanation": "The tendency to defer to authority can be dangerous when it bypasses independent critical thinking. The nurse training should prevail, but the authority dynamic made compliance feel mandatory.",
     "difficulty": "easy"
   },
@@ -74,12 +74,12 @@
     "content": "Scarcity creates desire. Opportunities seem more valuable when their availability is limited. The fear of missing out can override rational evaluation of whether we actually need something.",
     "description": "A website displays Only 3 rooms left at this price even though many rooms are available. This triggers:",
     "options": [
-      "The scarcity principle making the offer seem more valuable",
+      "The scarcity principle making the offer seem more",
       "Accurate inventory information helping decision-making",
       "Customers rational price comparison across sites",
       "Legal requirements for hotel booking transparency"
     ],
-    "answer": "The scarcity principle making the offer seem more valuable",
+    "answer": "The scarcity principle making the offer seem more",
     "explanation": "Limited availability creates urgency and increases perceived value. The fear of losing the opportunity can short-circuit rational consideration of whether the deal is actually good.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "A car commercial shows happy people driving through beautiful countryside with uplifting music. The advertiser is relying on:",
     "options": [
       "Detailed technical specifications of the vehicle",
-      "Mere association between the car and positive emotions",
+      "Mere association between the car and positive",
       "Honest demonstrations of the car performance",
       "Customer reviews and satisfaction data"
     ],
-    "answer": "Mere association between the car and positive emotions",
+    "answer": "Mere association between the car and positive",
     "explanation": "By linking the car with pleasant scenery and happy feelings, advertisers transfer those positive associations to the product, making you feel good about it without any logical argument.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "A store displays a $2,000 sofa, then shows a $400 chair. The chair seems like a great deal by comparison, even though $400 is expensive for a basic chair. This is:",
     "options": [
       "Smart pricing based on production costs",
-      "Contrast misjudgment distorting perceived value",
+      "Contrast misjudgment distorting",
       "The customer careful budget planning",
       "Market competition driving fair prices"
     ],
-    "answer": "Contrast misjudgment distorting perceived value",
+    "answer": "Contrast misjudgment distorting",
     "explanation": "The initial high price creates an anchor that makes the second price seem reasonable, even if neither represents good value. Judging items independently would reveal the chair true cost.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "After watching news coverage of a plane crash, people overestimate the risk of flying while underestimating the greater risk of car accidents. This illustrates:",
     "options": [
       "Rational risk assessment based on recent data",
-      "Availability bias making vivid events seem more probable",
+      "Availability bias making vivid events seem more",
       "The media duty to report all transportation news",
       "The actual statistical frequency of plane crashes"
     ],
-    "answer": "Availability bias making vivid events seem more probable",
+    "answer": "Availability bias making vivid events seem more",
     "explanation": "Dramatic, memorable events like plane crashes are easily recalled, available in memory, so we overestimate their frequency. The quieter, more common risks like car accidents are underestimated.",
     "difficulty": "easy"
   },

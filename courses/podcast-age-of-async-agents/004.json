@@ -5,11 +5,11 @@
     "description": "Your infrastructure team initially built agents on Docker but encountered problems. Which is a genuine limitation of Docker for running untrusted agent code?",
     "options": [
       "Docker containers cannot run any commands",
-      "Docker-in-Docker nesting is problematic and containers share the host kernel",
+      "Docker-in-Docker nesting is problematic and",
       "Docker does not support any programming languages",
       "Docker containers have infinite disk space"
     ],
-    "answer": "Docker-in-Docker nesting is problematic and containers share the host kernel",
+    "answer": "Docker-in-Docker nesting is problematic and",
     "explanation": "Docker's shared kernel model creates security concerns for untrusted agent code, and Docker-in-Docker nesting causes complexity for agents that need to run their own Docker. Full VMs provide stronger isolation boundaries.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Your CTO proposes using Docker containers for agent isolation. Why would a security-conscious architect prefer full VMs instead?",
     "options": [
       "VMs are cheaper than containers",
-      "VMs provide stronger security isolation with separate kernels per agent",
+      "VMs provide stronger security",
       "VMs start faster than containers",
       "VMs use less memory than containers"
     ],
-    "answer": "VMs provide stronger security isolation with separate kernels per agent",
+    "answer": "VMs provide stronger security",
     "explanation": "Full VMs give each agent its own kernel and hardware layer, providing stronger security guarantees than containers which share the host kernel. This is critical when running untrusted agent code from different customers.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Walden Yan says there is one infrastructure problem that is harder than all others for running cloud agents at scale. What is it?",
     "options": [
       "GPU availability",
-      "Repository setup, configuring build tools, dependencies, and environment for each repo",
+      "Repository setup,",
       "Network bandwidth",
       "Model latency"
     ],
-    "answer": "Repository setup, configuring build tools, dependencies, and environment for each repo",
+    "answer": "Repository setup,",
     "explanation": "Repo setup is the hardest problem because every repository has unique build tools, dependency managers, environment variables, and configuration. Automating this for thousands of different repositories without human intervention is extremely complex.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Your agents are running slower than expected. Investigation shows that grep operations are taking 10x longer than on local disks. What is the most likely cause?",
     "options": [
       "The CPU is too slow",
-      "The agents are using a network file system where each file operation has network latency",
+      "The agents are using a network file system",
       "The grep algorithm is inefficient",
       "Too many agents are running simultaneously"
     ],
-    "answer": "The agents are using a network file system where each file operation has network latency",
+    "answer": "The agents are using a network file system",
     "explanation": "Network file systems introduce latency on every file operation. When agents run grep, find, or read thousands of files recursively, the accumulated network latency makes the agent significantly slower than using local storage.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "You need a file system approach that lets 100 agents each work on the same large repository without duplicating all the data 100 times. Which technology addresses this?",
     "options": [
       "RAID 5",
-      "BlockDev incremental file system with block-level snapshots",
+      "BlockDev incremental",
       "Distributed hash tables",
       "In-memory databases"
     ],
-    "answer": "BlockDev incremental file system with block-level snapshots",
+    "answer": "BlockDev incremental",
     "explanation": "BlockDev uses block-level incremental snapshots, so each agent gets its own writable view of a base image but only changed blocks consume additional storage. This enables fast cloning of large repos without massive storage duplication.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "Your company builds mobile apps and wants agents to run Android emulators for testing. What infrastructure capability does this require from the agent platform?",
     "options": [
       "A faster network connection",
-      "Nested virtualization support, the agent VM must support running VMs inside itself",
+      "Nested virtualization support, the agent VM",
       "More RAM in the host machine",
       "A physical Android device connected via USB"
     ],
-    "answer": "Nested virtualization support, the agent VM must support running VMs inside itself",
+    "answer": "Nested virtualization support, the agent VM",
     "explanation": "Android emulators use QEMU/KVM VMs internally, so the agent's VM must support nested virtualization, allowing VMs to run inside VMs. This is a specific infrastructure requirement that not all cloud providers support.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "An agent has been working on a complex task for 30 minutes. You need to pause it and resume later without losing any state. What infrastructure feature makes this possible?",
     "options": [
       "Database replication",
-      "VM snapshots capturing disk, memory, and network state",
+      "VM snapshots",
       "Git stash",
       "Process forking"
     ],
-    "answer": "VM snapshots capturing disk, memory, and network state",
+    "answer": "VM snapshots",
     "explanation": "Full VM snapshots capture the entire machine state including memory, disk, and network connections. This lets agents pause mid-task and resume exactly where they left off, which is critical for long-running background agents.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Your agent runs inside a container but needs to build and run Docker images as part of its workflow. What complication arises from running Docker inside Docker?",
     "options": [
       "Docker-in-Docker works perfectly with no issues",
-      "Nesting complexity, storage driver conflicts, and reduced security isolation",
+      "Nesting complexity, storage driver conflicts, and reduced",
       "Docker automatically disables itself in nested environments",
       "The agent must be restarted every time it builds a Docker image"
     ],
-    "answer": "Nesting complexity, storage driver conflicts, and reduced security isolation",
+    "answer": "Nesting complexity, storage driver conflicts, and reduced",
     "explanation": "Running Docker inside a Docker container (DinD) creates multiple issues: the inner Docker needs privileged access which weakens security, storage drivers can conflict, and the layered filesystem becomes complex and slow.",
     "difficulty": "hard"
   }

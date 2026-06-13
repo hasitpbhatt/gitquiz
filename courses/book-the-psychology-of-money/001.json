@@ -6,10 +6,10 @@
     "options": [
       "The younger person is naturally more reckless.",
       "The older person is wiser and more experienced.",
-      "Their formative years coincided with different market performances.",
+      "Their formative years coincided with different",
       "One of them is likely making irrational choices."
     ],
-    "answer": "Their formative years coincided with different market performances.",
+    "answer": "Their formative years coincided with different",
     "explanation": "Housel explains that our personal experiences with the world account for a tiny fraction of what has happened, but a huge portion of how we think the world works.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Why might a low-income family spend a significant portion of their money on lottery tickets, even though the math says it is a losing bet?",
     "options": [
       "They are incapable of basic math.",
-      "They are buying a 'dream' of a better life that wealthier people already possess.",
+      "They are buying a 'dream' of a better life",
       "They are being tricked by predatory marketing.",
       "They expect to win and retire immediately."
     ],
-    "answer": "They are buying a 'dream' of a better life that wealthier people already possess.",
+    "answer": "They are buying a 'dream' of a better life",
     "explanation": "For those with little hope of a massive salary or inheritance, a lottery ticket is often the only way to tangibly buy the feeling of 'having a chance' at wealth.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A financial advisor gives the exact same aggressive growth portfolio to a 20-year-old and a 70-year-old. Why does Chapter 1 suggest this is flawed?",
     "options": [
       "The 70-year-old has less time to recover from losses.",
-      "The two individuals have different life experiences that define their comfort with risk.",
+      "The two individuals have different life experiences that define",
       "Financial advisors should only work with people of the same age.",
       "Aggressive portfolios are objectively bad for everyone."
     ],
-    "answer": "The two individuals have different life experiences that define their comfort with risk.",
+    "answer": "The two individuals have different life experiences that define",
     "explanation": "While math might suggest a certain path, the 'crazy' behavior of individuals is often just them being 'reasonable' within their own life context.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A 70-year-old retiree lives through a mild recession and stays calm. Her 35-year-old son, who grew up during the 2008 crisis, sells all his stocks in a panic during the same recession. Her 25-year-old daughter, who entered the workforce during a boom, doubles down on buying the dip. Using Housel's framework, how would you evaluate these three responses, and what distinguishes the retiree's behavior from both of her children's?",
     "options": [
       "The retiree is wiser; the son is traumatized; the daughter is greedy — each is purely a personality trait.",
-      "All three are acting rationally given their unique generational anchor points, but the retiree's longer time horizon gives her a wider 'margin of safety' against short-term volatility.",
+      "All three are acting rationally given their unique generational anchor points, but the retiree's longer time horizon",
       "The son is the most rational because he cut losses; the daughter is reckless; the retiree is complacent.",
       "The retiree is indifferent because she has less time left; the others care more because they have longer careers ahead."
     ],
-    "answer": "All three are acting rationally given their unique generational anchor points, but the retiree's longer time horizon gives her a wider 'margin of safety' against short-term volatility.",
+    "answer": "All three are acting rationally given their unique generational anchor points, but the retiree's longer time horizon",
     "explanation": "Housel argues that each person's financial worldview is shaped by the market conditions of their formative years. The retiree (who saw recoveries) has no reason to panic. The son (scarred by 2008) is in survival mode. The daughter (boom-era) sees opportunity. None is 'crazy' — they just have different anchors. The retiree's advantage is that her remaining horizon shortens the effective cost of a downturn.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "A PhD in Economics panics and sells his portfolio during a 10% dip. Why does this support Housel's 'No One's Crazy' theory?",
     "options": [
       "The PhD clearly didn't study hard enough.",
-      "Emotional responses to stress are more powerful than academic knowledge.",
+      "Emotional responses to stress are more powerful than",
       "Economics is a fake science.",
       "He was actually being rational by cutting his losses."
     ],
-    "answer": "Emotional responses to stress are more powerful than academic knowledge.",
+    "answer": "Emotional responses to stress are more powerful than",
     "explanation": "Financial success is a 'soft skill' where behavior is more important than technical knowledge, regardless of your degree.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "A person living in poverty chooses to spend extra cash on a high-end smartphone instead of investing in a diversified index fund. How would Housel describe this?",
     "options": [
       "It is a reckless and stupid decision.",
-      "It is a way to gain a sense of dignity in a world where they have little.",
+      "It is a way to gain a sense of dignity in a",
       "They are trying to look rich to trick people.",
       "They simply don't know what an index fund is."
     ],
-    "answer": "It is a way to gain a sense of dignity in a world where they have little.",
+    "answer": "It is a way to gain a sense of dignity in a",
     "explanation": "People use money to solve their own specific emotional problems, which may include the need for status or belonging when other avenues are closed.",
     "difficulty": "easy"
   },
@@ -90,10 +90,10 @@
     "options": [
       "People are naturally lazy.",
       "Retirement as a concept is too difficult to understand.",
-      "We are 'new' to these tools and lack the evolutionary experience to use them perfectly.",
+      "We are 'new' to these tools and lack the evolutionary",
       "Governments have made the systems intentionally confusing."
     ],
-    "answer": "We are 'new' to these tools and lack the evolutionary experience to use them perfectly.",
+    "answer": "We are 'new' to these tools and lack the evolutionary",
     "explanation": "Housel points out that we are essentially 'freshmen' in the world of modern finance, so we shouldn't be surprised when people struggle with it.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "If someone chooses a low-interest savings account over a high-yield stock because they fear market volatility, how should we judge them?",
     "options": [
       "They are losing money to inflation and being foolish.",
-      "They are making a 'reasonable' choice for their own mental health.",
+      "They are making a 'reasonable' choice for their own",
       "They should be forced to take a finance class.",
       "They are being 'rational' in a mathematical sense."
     ],
-    "answer": "They are making a 'reasonable' choice for their own mental health.",
+    "answer": "They are making a 'reasonable' choice for their own",
     "explanation": "Success is staying in the game. If a 'sub-optimal' investment keeps you from panicking and quitting, it's actually the better choice for you.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "How does recognizing that 'no one is crazy' help your own investing?",
     "options": [
       "It helps you realize that you can't learn anything from others.",
-      "It makes you more empathetic to others and more aware of your own biases.",
+      "It makes you more empathetic to others and more aware of your",
       "It justifies every bad decision you've ever made.",
       "It proves that the market is random."
     ],
-    "answer": "It makes you more empathetic to others and more aware of your own biases.",
+    "answer": "It makes you more empathetic to others and more aware of your",
     "explanation": "Understanding that everyone is operating on their own internal logic helps you identify when your own 'logic' is just a reaction to your past.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "What is the primary takeaway from Chapter 1 regarding how we judge other people's financial behavior?",
     "options": [
       "Most people are financially illiterate.",
-      "People's actions align with their unique experiences of how the world works.",
+      "People's actions align with their unique experiences of how the world",
       "Success is 100% luck.",
       "You should never listen to financial advice from anyone older than you."
     ],
-    "answer": "People's actions align with their unique experiences of how the world works.",
+    "answer": "People's actions align with their unique experiences of how the world",
     "explanation": "The core theme of Chapter 1 is that while behavior might look crazy to an outsider, it usually makes sense to the person doing it based on what they've seen.",
     "difficulty": "easy"
   }

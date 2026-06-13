@@ -20,10 +20,10 @@
     "options": [
       "A bank manager at a central office",
       "The Federal Reserve",
-      "An automated 'Smart Contract' on the blockchain",
+      "An automated 'Smart Contract' on",
       "A local government agency"
     ],
-    "answer": "An automated 'Smart Contract' on the blockchain",
+    "answer": "An automated 'Smart Contract' on",
     "explanation": "DeFi replaces human-led institutions with code. Smart contracts automatically execute the terms of the agreement once specific conditions are met, removing the need for a middleman.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "The government decides to replace physical paper bills with a digital version that you hold in a government-verified app. This asset is pegged 1:1 with the national currency. This is known as:",
     "options": [
       "Bitcoin",
-      "A Central Bank Digital Currency (CBDC)",
+      "A Central Bank Digital",
       "A Corporate Bond",
       "An Initial Coin Offering (ICO)"
     ],
-    "answer": "A Central Bank Digital Currency (CBDC)",
+    "answer": "A Central Bank Digital",
     "explanation": "CBDCs are official government-backed digital currencies. They aim to combine the convenience of digital payments with the stability and trust of a central bank.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A computer program detects that a stock is $10.0001 on one exchange and $10.0002 on another. It buys and sells 1 million shares in 0.001 seconds to capture the difference. This is an example of:",
     "options": [
       "Value Investing",
-      "High-Frequency Trading",
+      "High-Frequency",
       "Fundamental Analysis",
       "Buy-and-Hold Strategy"
     ],
-    "answer": "High-Frequency Trading",
+    "answer": "High-Frequency",
     "explanation": "HFT relies on speed and complex algorithms rather than long-term value. It accounts for a significant portion of the daily volume in modern global markets.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "In many parts of Africa, people use 'M-Pesa' to trade mobile phone minutes as a form of currency and bank account. Why is this considered a major financial innovation?",
     "options": [
       "It allows the government to tax citizens more easily",
-      "It provides 'Financial Inclusion' to millions of people who were previously 'unbanked'",
+      "It provides 'Financial Inclusion' to millions of",
       "It makes physical banks more profitable",
       "It replaces the need for a national currency entirely"
     ],
-    "answer": "It provides 'Financial Inclusion' to millions of people who were previously 'unbanked'",
+    "answer": "It provides 'Financial Inclusion' to millions of",
     "explanation": "By utilizing mobile networks, financial services can reach remote or impoverished areas where building traditional bank branches is too expensive, bringing people into the formal economy.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "A factory reduces its CO2 emissions by 50% and receives 'credits' for its success. It then sells these credits to a rival factory for $1 million. What is the goal of this financial market?",
     "options": [
       "To allow the rival factory to pollute for free",
-      "To put a 'price' on carbon and incentivize companies to invest in cleaner technology",
+      "To put a 'price' on carbon and incentivize",
       "To increase the cost of consumer goods",
       "To replace the stock market"
     ],
-    "answer": "To put a 'price' on carbon and incentivize companies to invest in cleaner technology",
+    "answer": "To put a 'price' on carbon and incentivize",
     "explanation": "Carbon markets use the profit motive to drive environmental change. By making pollution expensive and 'green' behavior profitable, the market helps allocate resources toward sustainability.",
     "difficulty": "hard"
   },

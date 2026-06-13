@@ -5,11 +5,11 @@
     "description": "A founder works 90-hour weeks building features users do not want, while a competitor spends 30 hours per week thinking deeply about customer needs and builds only one critical feature that drives massive adoption. What does this contrast illustrate?",
     "options": [
       "Hard work always eventually outpaces strategy",
-      "Judgment about what to build matters more than the volume of effort",
+      "Judgment about what to build matters more than the volume",
       "The competitor was simply luckier with their feature choice",
       "Both founders will succeed if they persist long enough"
     ],
-    "answer": "Judgment about what to build matters more than the volume of effort",
+    "answer": "Judgment about what to build matters more than the volume",
     "explanation": "Naval argues that judgment—knowing what to do and what not to do—is the ultimate skill because effort without direction is wasted. The competitor exercised better judgment by focusing on the critical feature rather than maximizing output hours.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A developer is offered two projects: Project A generates $10,000 in revenue this month but damages the codebase with technical debt. Project B generates nothing for 6 months but builds a reusable platform that could earn $1 million over five years. What skill is most critical for making the right choice?",
     "options": [
       "Coding speed to finish Project A faster",
-      "Judgment to evaluate long-term consequences and expected value",
+      "Judgment to evaluate long-term consequences and",
       "Negotiation skills to get paid more for Project A",
       "Risk aversion to avoid both projects"
     ],
-    "answer": "Judgment to evaluate long-term consequences and expected value",
+    "answer": "Judgment to evaluate long-term consequences and",
     "explanation": "Naval describes judgment as the directional vector—the ability to see long-term consequences and select the higher expected-value path. The platform (Project B) has vastly larger upside over time, but only someone with good judgment would trade short-term revenue for long-term compounding value.",
     "difficulty": "medium"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Copy the colleague's stock pick immediately",
       "Double his research time to find faster-growing stocks",
-      "Clear the envy-driven emotions that are clouding his judgment",
+      "Clear the envy-driven emotions that are clouding his",
       "Diversify into more volatile assets to catch up"
     ],
-    "answer": "Clear the envy-driven emotions that are clouding his judgment",
+    "answer": "Clear the envy-driven emotions that are clouding his",
     "explanation": "Naval emphasizes that emotions like envy create cognitive noise that degrades judgment. The investor must first recognize and clear the envy before making decisions, because decisions made from emotional states are systematically worse than those made from a calm, clear mindset.",
     "difficulty": "easy"
   },
@@ -46,12 +46,12 @@
     "content": "The highest-leverage decisions involve asymmetrical bets where the upside is large and the downside is limited, while any bet that risks ruin should be avoided regardless of probability.",
     "description": "An entrepreneur can either invest $10,000 into Option A, which has a 90% chance of returning $12,000 and a 10% chance of total loss, or Option B, which has a 1% chance of returning $1 million and a 99% chance of total loss. Which choice aligns with Naval's framework?",
     "options": [
-      "Option A, because it has a 90% success rate and higher expected value",
+      "Option A, because it has a 90% success rate and higher",
       "Option B, because the million-dollar upside is worth the risk",
       "Neither, because both involve risk of losing the $10,000",
       "Both options are equally valid depending on risk tolerance"
     ],
-    "answer": "Option A, because it has a 90% success rate and higher expected value",
+    "answer": "Option A, because it has a 90% success rate and higher",
     "explanation": "Naval advocates for asymmetrical bets: high upside with limited downside. Here, Option A has an expected value of $800 (0.9 × $12,000 + 0.1 × $0 = $10,800 - $10,000) and does not risk ruin. Option B has a 99% chance of total loss, effectively risking ruin for a tiny chance of a windfall, which Naval warns against.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "A manager's calendar is filled with back-to-back meetings from 9 AM to 6 PM. She finds herself making poor decisions and feeling mentally exhausted. She wants to improve her decision quality. What should she do first?",
     "options": [
       "Work longer hours to compensate for lost thinking time",
-      "Block at least two hours daily for focused thinking and say no to non-essential meetings",
+      "Block at least two hours daily for focused thinking and say no to",
       "Take a two-week vacation to reset and then return to the same schedule",
       "Multitask during meetings by working on decisions simultaneously"
     ],
-    "answer": "Block at least two hours daily for focused thinking and say no to non-essential meetings",
+    "answer": "Block at least two hours daily for focused thinking and say no to",
     "explanation": "Naval stresses protecting cognitive capacity by scheduling thinking time and avoiding context-switching. Back-to-back meetings fragment attention and degrade decision quality. Blocking thinking time and guarding it against interruptions is the highest-leverage change she can make.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A product manager makes approximately 50 small decisions per day about features, colors, and copy. A colleague makes only 3 major decisions per week but spends hours researching each one. Over a year, the colleague's product outperforms dramatically. What principle explains this outcome?",
     "options": [
       "The colleague was lucky with their choices",
-      "Fewer, higher-quality decisions with deep research outperform many rapid shallow decisions",
+      "Fewer, higher-quality decisions with deep research outperform many rapid",
       "Making more decisions builds decision-making muscle that compounds over time",
       "The 50 small decisions should have been delegated to junior staff"
     ],
-    "answer": "Fewer, higher-quality decisions with deep research outperform many rapid shallow decisions",
+    "answer": "Fewer, higher-quality decisions with deep research outperform many rapid",
     "explanation": "Naval argues that decision quality matters far more than decision quantity. Most decisions have little leverage; the trick is identifying the few that carry outsized consequences and investing disproportionate time and thought into getting them right. The colleague focused leverage on the decisions that mattered most.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A CEO feels pressure to accept every meeting request and respond to every email immediately. She notices her strategic decisions are suffering. She reads that Buffett spends most of his day reading and thinking. What practice should she adopt?",
     "options": [
       "Hire more executives to make decisions so she can focus on meetings",
-      "Aggressively protect 80% of her schedule for reading, thinking, and deep work",
+      "Aggressively protect 80% of her schedule for reading, thinking, and",
       "Read faster so she can keep attending meetings while reading in between",
       "Limit reading to industry news only during her commute"
     ],
-    "answer": "Aggressively protect 80% of her schedule for reading, thinking, and deep work",
+    "answer": "Aggressively protect 80% of her schedule for reading, thinking, and",
     "explanation": "Buffett's practice of spending 80% of his day reading and thinking (rather than in meetings) exemplifies Naval's principle that protecting cognitive capacity for deep thinking is the highest-leverage activity. Meetings and email are low-leverage distractions that fragment attention and degrade judgment.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "A venture capitalist hears a compelling pitch from a charismatic founder and feels an emotional pull to invest. However, she knows that only 1 in 200 early-stage startups in this sector returns more than 3x the investment, and this company's metrics are below the sector median. Despite the great story, what should guide her decision?",
     "options": [
       "The founder's charisma, since conviction determines startup success",
-      "Statistical base rates and expected value calculations rather than emotional narrative",
+      "Statistical base rates and expected value calculations rather than",
       "Her gut feeling, because experienced investors have reliable intuition",
       "Whether similar founders have succeeded in other sectors"
     ],
-    "answer": "Statistical base rates and expected value calculations rather than emotional narrative",
+    "answer": "Statistical base rates and expected value calculations rather than",
     "explanation": "Naval advocates for statistical decision theory—using base rates, expected value, and Bayesian reasoning instead of narrative or emotional cues. The founder's compelling story is cognitive noise; the base rate and below-median metrics strongly suggest this is not a high-probability bet, and statistical thinking should override the emotional pull.",
     "difficulty": "hard"
   }

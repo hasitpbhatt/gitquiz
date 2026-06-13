@@ -19,11 +19,11 @@
     "description": "What does the 'End of Localhost' thesis argue?",
     "options": [
       "Developers should own their own servers",
-      "Local development environments are obsolete for AI-driven workflows",
+      "Local development environments are obsolete for",
       "All coding should happen on mobile devices",
       "Cloud hosting is too expensive for individual developers"
     ],
-    "answer": "Local development environments are obsolete for AI-driven workflows",
+    "answer": "Local development environments are obsolete for",
     "explanation": "The thesis argues that with AI agents needing cloud environments and teams working distributed, localhost is no longer the default compute location.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "The conversation explains that earlier attempts at cloud IDEs failed to gain traction, but a new shift in how code is produced changes the equation.",
     "description": "Why do AI agents represent the 'final nail in the coffin' for localhost development?",
     "options": [
-      "Agents require persistent cloud-based sandboxes that can run 24/7",
+      "Agents require persistent cloud-based sandboxes that",
       "Agents are slower than humans and need faster hardware",
       "Agents only work on Windows operating systems",
       "Localhost cannot run modern programming languages"
     ],
-    "answer": "Agents require persistent cloud-based sandboxes that can run 24/7",
+    "answer": "Agents require persistent cloud-based sandboxes that",
     "explanation": "AI agents need always-on, accessible environments that localhost cannot provide, making cloud sandboxes essential.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Being the largest conference for PHP developers in Europe",
       "Focusing entirely on mobile app development",
-      "Bringing together the cloud IDE and remote development community",
+      "Bringing together the cloud IDE and remote development",
       "Showcasing new hardware for data centers"
     ],
-    "answer": "Bringing together the cloud IDE and remote development community",
+    "answer": "Bringing together the cloud IDE and remote development",
     "explanation": "Shift was a conference in Zadar, Croatia that united the nascent cloud IDE and remote development community.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "What key market condition was missing when CodeAnywhere launched that prevented it from becoming huge?",
     "options": [
       "Broadband internet was too slow globally",
-      "The demand for remote development environments was not yet urgent enough",
+      "The demand for remote development",
       "JavaScript had not been invented yet",
       "Venture capital did not exist for cloud tools"
     ],
-    "answer": "The demand for remote development environments was not yet urgent enough",
+    "answer": "The demand for remote development",
     "explanation": "CodeAnywhere was ahead of its time; the market pull for cloud dev environments only became urgent with AI agents and distributed teams.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "The podcast distinguishes between the compute needs of human developers and AI agents working autonomously.",
     "description": "What infrastructure need is unique to AI agents compared to human developers?",
     "options": [
-      "A fully API-accessible computer environment",
+      "A fully API-accessible computer",
       "A larger monitor for output visualization",
       "A physical keyboard for typing code",
       "A local SSD for file storage"
     ],
-    "answer": "A fully API-accessible computer environment",
+    "answer": "A fully API-accessible computer",
     "explanation": "Agents need programmatic access to the entire computer, not just a terminal or editor, since they operate without human interaction.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "The founders describe the difficulty of building CodeAnywhere in an era with fewer infrastructure tools available.",
     "description": "What made building CodeAnywhere in 2012 a 'full-stack build from scratch'?",
     "options": [
-      "They had to build their own IDE, container system, cloud orchestration, and file system without modern tools",
+      "They had to build their own IDE, container system, cloud",
       "They wrote all the code in assembly language for performance",
       "They built their own physical data center from donated servers",
       "They outsourced all development to a single freelance developer"
     ],
-    "answer": "They had to build their own IDE, container system, cloud orchestration, and file system without modern tools",
+    "answer": "They had to build their own IDE, container system, cloud",
     "explanation": "In 2012, there was no VS Code, no Docker, no mature K8s — they built everything from scratch, which was a key lesson for Daytona's architecture.",
     "difficulty": "hard"
   }

@@ -4,12 +4,12 @@
     "content": "A company can use AI 'explicitly' by reorganizing its entire structure around it, or 'implicitly' by using it as a background tool to enhance current tasks. Naval suggests that even without a formal AI-centric org chart, AI acts as a powerful internal search engine and data analyst that can recreate business insights on the fly.",
     "description": "You are the COO of a 300-person logistics company. The CEO wants to 'go all-in on AI' by creating a new C-level 'Chief AI Officer' role and rewriting every department's charter around AI agents (explicit approach). The VP of Engineering argues it is smarter to simply let teams use AI tools naturally without restructuring (implicit approach). Using Naval's distinction, outline the hidden risks of the explicit approach that the VP of Engineering is worried about, and under what specific condition would Naval say the explicit approach becomes justified?",
     "options": [
-      "The explicit approach adds overhead and creates a centralized bottleneck; it is justified only when AI is the core product, not just a support tool.",
+      "The explicit approach adds overhead and creates a centralized bottleneck; it is justified only when AI is the core product, not just a",
       "The explicit approach is always better because it signals to investors that the company is 'AI-first'; the VP just fears losing power.",
       "The implicit approach is always superior; Naval would say explicit AI is never justified because it creates too much bureaucracy.",
       "Both approaches are identical in outcome; the real question is whether the CEO or VP has more political influence."
     ],
-    "answer": "The explicit approach adds overhead and creates a centralized bottleneck; it is justified only when AI is the core product, not just a support tool.",
+    "answer": "The explicit approach adds overhead and creates a centralized bottleneck; it is justified only when AI is the core product, not just a",
     "explanation": "Naval distinguishes implicit AI (tools teams adopt naturally, like AI code summarization or data analysis) from explicit AI (restructuring the org around AI). He suggests explicit restructuring risks recreating the very hierarchies and bottlenecks that small, fast teams avoid. The condition for going explicit: when AI is your product, not just a productivity multiplier. For a logistics company, implicit AI is lower-risk and preserves the agility that Naval values.",
     "difficulty": "hard"
   },
@@ -33,11 +33,11 @@
     "description": "In the podcast, how does Naval suggest AI changes the relationship between hardware and software teams?",
     "options": [
       "It makes the software people obsolete so only hardware people are needed.",
-      "It allows hardware people to write their own software harnesses for testing without waiting.",
+      "It allows hardware people to write their own software harnesses for",
       "It prevents software and hardware teams from talking to each other at all.",
       "It ensures that all hardware is now manufactured entirely by AI agents."
     ],
-    "answer": "It allows hardware people to write their own software harnesses for testing without waiting.",
+    "answer": "It allows hardware people to write their own software harnesses for",
     "explanation": "AI acts as a force multiplier, enabling team members to do 'a little bit of everything' and test their own work without being blocked by cross-functional dependencies.",
     "difficulty": "easy"
   },
@@ -46,12 +46,12 @@
     "content": "Traditional project management requires manual updates to Gantt charts and timelines. AI can be unleashed on company emails, file folders, and codebases to estimate progress and identify which divisions are lacking resources, providing a more accurate picture of 'where we actually are.'",
     "description": "If you wanted to know the actual shipping date of a product, how would Naval's 'AI-unleashed' approach differ from a traditional manager's approach?",
     "options": [
-      "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
+      "The manager would ask for a status update; the AI would analyze the actual data and",
       "The manager would use a crystal ball; the AI would ask the employees to work 24/7.",
       "The manager would fire the slowest division; the AI would hire more people automatically.",
       "There is no difference; both rely on employees lying about their progress."
     ],
-    "answer": "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
+    "answer": "The manager would ask for a status update; the AI would analyze the actual data and",
     "explanation": "Naval suggests that AI can analyze the email flow, code, and estimates to create its own Gantt chart and tell you who is ahead or behind, bypassing manual status reports.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "How does AI solve the problem of 'who to talk to' in a fully interconnected graph architecture?",
     "options": [
       "It forces every employee to wear a badge listing their skills.",
-      "It scans the codebase and documents to guide you to the person likely to be an expert.",
+      "It scans the codebase and documents to guide you to the person",
       "It randomly assigns a person to answer your questions.",
       "It makes the CEO answer every question so nobody else has to."
     ],
-    "answer": "It scans the codebase and documents to guide you to the person likely to be an expert.",
+    "answer": "It scans the codebase and documents to guide you to the person",
     "explanation": "Because AI knows 'what' has been written and 'by whom,' it can act as a guide, pointing you toward the expert you need without an explicit organizational chart.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "What is the primary consequence of 'vibe coding' being democratized according to Naval?",
     "options": [
       "The price of computers will drop significantly.",
-      "The number of people who can build and build and build increases exponentially.",
+      "The number of people who can build and build and build increases",
       "Professional coders will stop working and become AI researchers.",
       "People will no longer need to know how to read or write."
     ],
-    "answer": "The number of people who can build and build and build increases exponentially.",
+    "answer": "The number of people who can build and build and build increases",
     "explanation": "As AI lowers the barrier to entry, many more people gain the 'power' to create software, effectively increasing the 'building' capacity of society.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "How does AI reduce the 'interface' friction between different people's code?",
     "options": [
       "It requires everyone to use the exact same coding style.",
-      "It can discover an API or create its own connection directly into the database.",
+      "It can discover an API or create its own connection",
       "It deletes any code that doesn't have a manual API.",
       "It forces developers to meet daily to agree on interfaces."
     ],
-    "answer": "It can discover an API or create its own connection directly into the database.",
+    "answer": "It can discover an API or create its own connection",
     "explanation": "Naval explains that AI can 'discover an API' or connect directly at whatever level it needs, removing the bottleneck of waiting for someone to write a custom interface.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "What is a specific example Naval gives for using AI in hardware operations?",
     "options": [
       "AI can design a factory in seconds.",
-      "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?'",
+      "AI can be released on the file folder of supplier and",
       "AI can replace the need for physical hardware entirely.",
       "AI can negotiate lower prices by threatening to quit."
     ],
-    "answer": "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?'",
+    "answer": "AI can be released on the file folder of supplier and",
     "explanation": "Naval suggests that AI can analyze 'the file folder in which all the documents with suppliers and vendors are kept' to provide instant reports on the state of operations.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "What is the end goal of using AI as a force multiplier in a small company?",
     "options": [
       "To replace all human employees with robots.",
-      "To allow a small group of smart people to accomplish 'impossible' tasks.",
+      "To allow a small group of smart people to accomplish 'impossible'",
       "To make the company look bigger than it actually is to investors.",
       "To ensure the CEO has less work to do."
     ],
-    "answer": "To allow a small group of smart people to accomplish 'impossible' tasks.",
+    "answer": "To allow a small group of smart people to accomplish 'impossible'",
     "explanation": "The entire premise of 'Impossible' (Naval's company) is using a small, elite team to do huge things; AI makes this possible by multiplying the productivity of each individual.",
     "difficulty": "easy"
   },
@@ -132,10 +132,10 @@
     "options": [
       "The AI's hardware is physically sharp and dangerous.",
       "The AI is only smart when it's connected to a specific data center.",
-      "The AI has high performance in some areas but significant gaps in others.",
+      "The AI has high performance in some areas but significant gaps in",
       "The AI's intelligence changes based on the time of day."
     ],
-    "answer": "The AI has high performance in some areas but significant gaps in others.",
+    "answer": "The AI has high performance in some areas but significant gaps in",
     "explanation": "Jagged intelligence refers to the fact that AI can solve complex coding problems but might fail at simple 'world model' tasks or multimodal reasoning.",
     "difficulty": "medium"
   }

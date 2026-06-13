@@ -5,11 +5,11 @@
     "description": "When you enter a crowded restaurant and see a long line outside another similar restaurant, you assume the second restaurant must be better because:",
     "options": [
       "You actually tasted the food at both places",
-      "The longer line indicates social proof of quality",
+      "The longer line indicates social proof of",
       "The first restaurant has higher prices",
       "You read reviews online about both places"
     ],
-    "answer": "The longer line indicates social proof of quality",
+    "answer": "The longer line indicates social proof of",
     "explanation": "When uncertain, we use the behavior of others as evidence of what is correct. A longer line suggests more people find the restaurant valuable, providing social proof of its quality.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "In a college classroom, no one asks questions during a lecture because each student thinks they're the only one confused, while actually most are confused. This illustrates:",
     "options": [
       "Effective teaching methods",
-      "Pluralistic ignorance reinforced by social proof",
+      "Pluralistic ignorance reinforced by",
       "Students who are all experts on the topic",
       "The professor's intimidating presence"
     ],
-    "answer": "Pluralistic ignorance reinforced by social proof",
+    "answer": "Pluralistic ignorance reinforced by",
     "explanation": "Each student sees others not asking questions (social proof) and assumes everyone understands, leading to pluralistic ignorance where no one speaks up despite widespread confusion.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Tourists in a foreign city are more likely to follow the crowd to a restaurant when:",
     "options": [
       "They have eaten at that restaurant before",
-      "They are uncertain about which restaurants are good",
+      "They are uncertain about which",
       "They speak the local language fluently",
       "They have detailed restaurant guides"
     ],
-    "answer": "They are uncertain about which restaurants are good",
+    "answer": "They are uncertain about which",
     "explanation": "When uncertain (not knowing which restaurants are good), people rely heavily on social proof—following the crowd—to reduce uncertainty about the correct choice.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A person collapses on a busy city street. People are less likely to help because:",
     "options": [
       "Everyone knows the person personally",
-      "Each person assumes someone else will help (social proof of inaction)",
+      "Each person assumes someone else will help",
       "The person is obviously faking the collapse",
       "Helping is illegal in that city"
     ],
-    "answer": "Each person assumes someone else will help (social proof of inaction)",
+    "answer": "Each person assumes someone else will help",
     "explanation": "Seeing others not helping provides social proof that helping is not necessary or appropriate. Each person interprets the inaction of others as a sign that help is not needed.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "At a classical music concert, you notice the person next to you applauds after the first movement. You applaud too, even though you usually wait until the end. Later, a friend says that person clapped at the wrong time. Your applause was driven by:",
     "options": [
       "Normative influence — you wanted to fit in with the audience around you",
-      "Informational influence — you assumed they knew the correct time to applaud",
+      "Informational influence — you assumed they knew the correct time to",
       "Pure conformity — you always mimic what others do without thinking",
       "Authority — you assumed they were a classical music expert"
     ],
-    "answer": "Informational influence — you assumed they knew the correct time to applaud",
+    "answer": "Informational influence — you assumed they knew the correct time to",
     "explanation": "This is informational influence: you observed someone's behavior and assumed they possessed knowledge you lacked (when to applaud). Normative influence would involve clapping to avoid standing out or being judged. Both are forms of social proof, but the motivation differs — here it is about being correct, not about fitting in.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A toothpaste advertisement claims '9 out of 10 dentists recommend this product' primarily to:",
     "options": [
       "Provide detailed chemical analysis",
-      "Offer social proof of professional endorsement",
+      "Offer social proof of professional",
       "Explain the manufacturing process",
       "List the product's flavors"
     ],
-    "answer": "Offer social proof of professional endorsement",
+    "answer": "Offer social proof of professional",
     "explanation": "The statistic provides social proof by showing that respected authorities (dentists) approve of the product, influencing consumers to trust and choose it.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "In emergencies, social proof may suggest inaction (others are calm, so it must be fine). However, when one person defies the prevailing social proof and acts, it provides new social proof that action is appropriate, breaking the spell of pluralistic ignorance.",
     "description": "In a crowded theater, smoke appears near the exit. Most people stay seated, looking around. One audience member stands up and calmly says, \"Everyone please move to the side exits.\" People begin moving. The switch from inaction to action is best explained by:",
     "options": [
-      "Social proof of inaction being replaced by social proof of action from the first mover",
+      "Social proof of inaction being replaced by social proof of action from",
       "The audience recognizing the smoke as a genuine emergency on their own",
       "Scarcity of time creating urgency to act regardless of the crowd",
       "Reciprocity toward the person who spoke up for being helpful"
     ],
-    "answer": "Social proof of inaction being replaced by social proof of action from the first mover",
+    "answer": "Social proof of inaction being replaced by social proof of action from",
     "explanation": "Initially, social proof keeps everyone seated (others are calm, so it must be fine). But when one person acts, it provides new social proof that action is appropriate, breaking the pluralistic ignorance that kept everyone frozen. The first mover creates a new social proof signal that overrides the old one.",
     "difficulty": "hard"
   }

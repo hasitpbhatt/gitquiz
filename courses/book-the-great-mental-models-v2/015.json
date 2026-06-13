@@ -19,11 +19,11 @@
     "description": "A new coffee shop wants to open in a neighborhood with three established cafes. Instead of competing on the same menu and vibe, it opens as a late-night coffee bar with board games and live music. What strategy is this?",
     "options": [
       "Market saturation — adding more coffee options in the same area",
-      "creating a distinct sub-market (late-night + games + music) where the existing cafes do not compete",
+      "creating a distinct sub-market (late-night + games + music)",
       "Price competition — undercutting the established cafes",
       "Brand marketing — advertising more aggressively than competitors"
     ],
-    "answer": "creating a distinct sub-market (late-night + games + music) where the existing cafes do not compete",
+    "answer": "creating a distinct sub-market (late-night + games + music)",
     "explanation": "Rather than fighting the established cafes on their terms (morning coffee, workspace vibe), the new shop constructed a different niche. This avoids direct competition for the same customers at the same time. In its niche, it has no direct competitor — it owns the space.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Their search engine was not actually better than Google's",
       "Google has brand loyalty that makes users unwilling to switch",
-      "Google's scale advantages made head-to-head competition unwinnable regardless of technical quality",
+      "Google's scale advantages made head-to-head competition unwinnable",
       "Search engines are a natural monopoly that no competitor can ever challenge"
     ],
-    "answer": "Google's scale advantages made head-to-head competition unwinnable regardless of technical quality",
+    "answer": "Google's scale advantages made head-to-head competition unwinnable",
     "explanation": "Gause's Law says the incumbent with marginal advantage (scale, data, brand) will dominate if niches are identical. Being 'better' in the same niche is not enough. The winning move is to find a different niche — privacy-focused search, vertical search, AI-native search — where the incumbent's advantages are neutralized.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Amazon started as an online bookstore — a narrow niche. From that secure base, it expanded into electronics, cloud computing, media streaming, and groceries. What strategy does this illustrate?",
     "options": [
       "Market saturation — dominate one market before expanding",
-      "use an exclusive niche as a secure foundation to systematically enter adjacent niches where you",
+      "use an exclusive niche as a secure foundation to systematically",
       "Conglomeration — acquire companies in unrelated industries",
       "First-mover advantage — entering each market before anyone else"
     ],
-    "answer": "use an exclusive niche as a secure foundation to systematically enter adjacent niches where you",
+    "answer": "use an exclusive niche as a secure foundation to systematically",
     "explanation": "Amazon started in a defensible niche (online books) where it could establish clear dominance. From that secure base, it expanded into adjacent niches (media, electronics, cloud), each time leveraging capabilities built in the previous niche. The base provides shelter for expansion.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "Two social media platforms initially both target 'people who want to share photos.' Over time, one becomes the platform for polished influencer content and the other for private family sharing. What evolutionary process is occurring?",
     "options": [
       "Market segmentation — both platforms identified different user groups",
-      "the platforms are differentiating their niches to reduce direct competition and allow coexistence",
+      "the platforms are differentiating their niches to reduce direct competition and",
       "Platform decay — both platforms are losing their original purpose",
       "Consumer preference shifting — users naturally gravitate to different platforms"
     ],
-    "answer": "the platforms are differentiating their niches to reduce direct competition and allow coexistence",
+    "answer": "the platforms are differentiating their niches to reduce direct competition and",
     "explanation": "When competitors initially share a niche, competitive pressure drives them to differentiate. The platforms evolve different identities, feature sets, and user expectations. This character displacement allows them to coexist by serving different sub-niches that overlap less over time.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Two consultancies compete for Fortune 500 clients. One focuses on general strategy. The other focuses exclusively on helping logistics companies optimize supply chains using AI. The second wins nearly every logistics RFP. Why?",
     "options": [
       "The second consultancy has better marketing materials",
-      "The second consultancy operates in a different niche (logistics + AI) where its specialized",
+      "The second consultancy operates in a different niche (logistics +",
       "Logistics companies prefer smaller consultancies",
       "General strategy consulting is not valuable to logistics companies"
     ],
-    "answer": "The second consultancy operates in a different niche (logistics + AI) where its specialized",
+    "answer": "The second consultancy operates in a different niche (logistics +",
     "explanation": "The second consultancy did not try to be a 'better generalist.' It carved a specific niche where its unique capabilities (logistics + AI expertise) perfectly match customer needs. In that niche, it has no real competition because generalists cannot match the depth. Uniqueness beats superiority.",
     "difficulty": "hard"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Spend more on user acquisition to outspend competitors",
       "Copy the most popular game's mechanics exactly — it worked for others",
-      "perhaps AR games, educational games for adults, or games for a specific demographic",
+      "perhaps AR games, educational games for adults, or games for a",
       "Lower prices to undercut the competition"
     ],
-    "answer": "perhaps AR games, educational games for adults, or games for a specific demographic",
+    "answer": "perhaps AR games, educational games for adults, or games for a",
     "explanation": "When a niche is saturated with competitors, the competitive exclusion principle means most will fail. Competing harder (more marketing spend, copying winners) in the same niche is a losing game. The smart move is to find a new niche where you face less competition and can establish exclusive dominance.",
     "difficulty": "medium"
   }

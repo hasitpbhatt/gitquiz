@@ -4,12 +4,12 @@
     "content": "The multi-armed bandit problem models the tradeoff between exploration (trying new options to gather information) and exploitation (using known good options to maximize reward).",
     "description": "You are choosing between your absolute favorite restaurant and trying a new spot. How should you decide using multi-armed bandit principles?",
     "options": [
-      "Based on how much time you have left to enjoy the results - explore",
+      "Based on how much time you have left",
       "Always go to your favorite restaurant",
       "Always try new restaurants",
       "Choose randomly each time"
     ],
-    "answer": "Based on how much time you have left to enjoy the results - explore",
+    "answer": "Based on how much time you have left",
     "explanation": "The explore/exploit tradeoff depends on your horizon (interval). When you have a long time ahead, exploration is valuable because you can use the resulting knowledge. When your time is limited, exploitation makes sense to enjoy known rewards.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "The Gittins Index provides an optimal solution to the multi-armed bandit problem by assigning an index value to each option based on its potential payoff and uncertainty.",
     "description": "A freelance writer has reliable legacy clients and unproven leads. How should they use the Gittins Index to allocate time?",
     "options": [
-      "Always pursue the option with the highest Gittins Index,",
+      "Always pursue the option with the",
       "Only work for legacy clients",
       "Only pursue new leads",
       "Split time 50/50 between both types"
     ],
-    "answer": "Always pursue the option with the highest Gittins Index,",
+    "answer": "Always pursue the option with the",
     "explanation": "The Gittins Index tells you which arm (option) to pull next by considering both the known value and the potential for discovery. You should always choose the option with the highest current index value.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "Upper Confidence Bound (UCB) algorithms balance exploration and exploitation by choosing options with high upper confidence bounds on their potential value.",
     "description": "A community group is deciding whether to fund an untested youth program with huge potential upside. How should they apply UCB principles?",
     "options": [
-      "Fund the program if its potential upside, weighted by uncertainty,",
+      "Fund the program if its potential",
       "Never fund untested programs",
       "Always fund untested programs",
       "Fund based solely on past performance"
     ],
-    "answer": "Fund the program if its potential upside, weighted by uncertainty,",
+    "answer": "Fund the program if its potential",
     "explanation": "UCB encourages exploration of options with high uncertainty and high potential upside. You calculate an upper bound on what each option could be and choose the one with the highest upper bound.",
     "difficulty": "easy"
   },
@@ -46,12 +46,12 @@
     "content": "In the explore-exploit tradeoff, the optimal exploration rate depends critically on the time horizon: longer horizons favor more exploration because the knowledge gained can be exploited for more rounds.",
     "description": "Two product teams at the same company use the same explore-vs-exploit framework. Team A maintains an internal tool used by 5 employees for 1 year. Team B maintains a customer-facing feature used by 10,000 users projected for 5 years. Both must decide how much to invest in exploring alternatives vs polishing the current version. What does the horizon difference imply?",
     "options": [
-      "Team B should explore more aggressively because they have more users and a longer horizon over which to benefit from improvements",
+      "Team B should explore more aggressively because they have more users and a longer horizon over",
       "Team A should explore more aggressively because internal tools always need more experimentation",
       "Both teams should use identical exploration rates since they work at the same company",
       "Team A should explore more because shorter horizons mean less risk of disruption"
     ],
-    "answer": "Team B should explore more aggressively because they have more users and a longer horizon over which to benefit from improvements",
+    "answer": "Team B should explore more aggressively because they have more users and a longer horizon over",
     "explanation": "The horizon effect states that the value of exploration scales with both the number of beneficiaries and the duration of payoff. Team B's exploration has a massive multiplier: any improvement benefits 10,000 users for 5 years (50,000 user-years of value). Team A's improvement benefits only 5 users for 1 year (5 user-years). Even if the probability of finding a better alternative is equal, the expected value of exploration for Team B is thousands of times higher.",
     "difficulty": "hard"
   },
@@ -60,12 +60,12 @@
     "content": "Win-Stay, Lose-Shift is a simple heuristic for the multi-armed bandit problem: continue with a choice as long as it pays off; switch when it fails.",
     "description": "You have been following a workout routine that was giving results, but lately it has stopped delivering progress. What should you do according to Win-Stay, Lose-Shift?",
     "options": [
-      "Stick with the routine until it fails to deliver results,",
+      "Stick with the routine until it",
       "Never change your workout routine",
       "Change your routine every day",
       "Stop exercising altogether"
     ],
-    "answer": "Stick with the routine until it fails to deliver results,",
+    "answer": "Stick with the routine until it",
     "explanation": "Win-Stay, Lose-Shift means you continue with what has been working (stay) as long as it continues to pay off. When it stops working (lose), you shift to a different approach.",
     "difficulty": "easy"
   },
@@ -74,12 +74,12 @@
     "content": "Your horizon (how long you plan to benefit from decisions) critically affects explore/exploit tradeoffs: short horizons favor exploitation, long horizons favor exploration.",
     "description": "A retiree is deciding whether to try new hobbies or deeply master familiar ones. How should their horizon affect this decision?",
     "options": [
-      "They should shift from trying new hobbies to deeply mastering familiar",
+      "They should shift from trying new",
       "They should always try new hobbies",
       "They should always master familiar ones",
       "They should flip a coin to decide"
     ],
-    "answer": "They should shift from trying new hobbies to deeply mastering familiar",
+    "answer": "They should shift from trying new",
     "explanation": "With a shorter horizon (less time left), there is less opportunity to benefit from exploration, so exploitation of known favorites becomes more attractive. With a long horizon, exploration is favored because you have time to use the resulting knowledge.",
     "difficulty": "easy"
   },
@@ -88,12 +88,12 @@
     "content": "Clinical trials embody the explore/exploit tradeoff: giving established treatments (exploitation) versus experimental treatments (exploration) to balance current patient care with future knowledge.",
     "description": "Doctors are deciding whether to give a new experimental drug to all patients in a trial. How should they balance exploration and exploitation?",
     "options": [
-      "Use a balanced approach that gives some patients the established treatment and",
+      "Use a balanced approach that gives some patients",
       "Give all patients the experimental drug",
       "Give all patients only the established treatment",
       "Choose randomly for each patient"
     ],
-    "answer": "Use a balanced approach that gives some patients the established treatment and",
+    "answer": "Use a balanced approach that gives some patients",
     "explanation": "Ethical clinical trials balance exploration (learning about the new drug) with exploitation (providing established effective care) by using control groups that receive standard treatment.",
     "difficulty": "easy"
   },
@@ -102,12 +102,12 @@
     "content": "The A/B Testing Trap occurs when optimizing for short-term metrics (like clicks) leads to long-term damage (like brand trust) by exploiting local maxima without considering broader impacts.",
     "description": "A tech company is maximizing short-term click-through rates on ads but accidentally damaging long-term brand trust. How should they avoid this trap?",
     "options": [
-      "Consider long-term impacts when running A/B tests, not just immediate metrics",
+      "Consider long-term impacts when running A/B tests, not just",
       "Only run A/B tests on button colors",
       "Never run A/B tests",
       "Always choose the variant with the highest immediate clicks"
     ],
-    "answer": "Consider long-term impacts when running A/B tests, not just immediate metrics",
+    "answer": "Consider long-term impacts when running A/B tests, not just",
     "explanation": "To avoid the A/B Testing Trap, you must look beyond immediate metrics to consider long-term effects on factors like brand trust, customer satisfaction, and overall business health.",
     "difficulty": "medium"
   },
@@ -116,12 +116,12 @@
     "content": "Hyper-exploration describes periods of unusually high exploration behavior, such as infancy and childhood, when learning about the environment is critically important.",
     "description": "Why might a toddler constantly destroy toys and shift focus rather than playing with one toy for extended periods?",
     "options": [
-      "They are in a hyper-exploration phase where gathering information about",
+      "They are in a hyper-exploration phase",
       "They are being deliberately destructive",
       "They have no attention span whatsoever",
       "They prefer broken toys"
     ],
-    "answer": "They are in a hyper-exploration phase where gathering information about",
+    "answer": "They are in a hyper-exploration phase",
     "explanation": "In early childhood, the brain is primed for exploration to build models of the world. Constantly shifting focus and testing boundaries helps gather diverse information quickly during this critical learning period.",
     "difficulty": "medium"
   }

@@ -5,11 +5,11 @@
     "description": "A stock's RSI indicates it is 'Oversold' (a traditional buy signal), but your GenAI sentiment score for the company is -0.8 due to an ongoing lawsuit. How should a combined strategy react?",
     "options": [
       "Ignore the sentiment and buy because RSI is a 'hard' mathematical fact.",
-      "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
+      "Wait for the sentiment score to neutralize or improve before acting on the",
       "Sell the stock immediately because lawsuits are always fatal for companies.",
       "Average the RSI and the sentiment score to create a new price target."
     ],
-    "answer": "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
+    "answer": "Wait for the sentiment score to neutralize or improve before acting on the",
     "explanation": "Combining indicators acts as a 'confirmation' mechanism. If the technicals say 'buy' but the fundamentals (sentiment) are toxic, the technical signal is high-risk and likely a 'falling knife'.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "During a high-volatility earnings season, you notice your 'Momentum' factor is failing, but your 'GenAI Earnings Sentiment' factor is highly accurate. What is the most logical adjustment?",
     "options": [
       "Keep all weights equal to maintain a balanced perspective.",
-      "Dynamically increase the Sentiment factor weight and decrease the Momentum factor weight.",
+      "Dynamically increase the Sentiment factor weight and",
       "Turn off the model until the volatility passes.",
       "Delete the Momentum factor entirely from your code."
     ],
-    "answer": "Dynamically increase the Sentiment factor weight and decrease the Momentum factor weight.",
+    "answer": "Dynamically increase the Sentiment factor weight and",
     "explanation": "Adaptive weighting allows a strategy to lean on what is currently working. In earnings season, qualitative news often overrides technical momentum, making sentiment a more reliable driver.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "Mean reversion is the theory that prices eventually return to their long-term average. GenAI can help determine if a price drop is an 'overreaction' (good for mean reversion) or a 'fundamental shift' (bad for mean reversion).",
     "description": "A stock price drops 10% instantly. Your GenAI tool analyzes 1,000 social media posts and news wires but finds no specific bad news. What does this suggest for a mean reversion trader?",
     "options": [
-      "The drop is likely a liquidity overreaction, so the price will probably revert.",
+      "The drop is likely a liquidity overreaction, so the price will probably",
       "The price will never return to its average because the AI found nothing.",
       "You should wait for the AI to make up a reason for the drop.",
       "The stock is now a 'Value' play for the next 10 years."
     ],
-    "answer": "The drop is likely a liquidity overreaction, so the price will probably revert.",
+    "answer": "The drop is likely a liquidity overreaction, so the price will probably",
     "explanation": "If the price moves significantly without a clear 'narrative' catalyst identified by the AI, it is more likely to be a temporary imbalance rather than a permanent change in value.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "You add a 'News Sentiment' signal to your model, but you find it is 95% correlated with your 'Price Momentum' indicator. Why is this a problem?",
     "options": [
       "The model will run too slowly.",
-      "It offers no diversification; the news just reflects price action that already happened.",
+      "It offers no diversification; the news just reflects price",
       "The correlation is too high for the computer to calculate.",
       "It means you have found the 'Holy Grail' of trading."
     ],
-    "answer": "It offers no diversification; the news just reflects price action that already happened.",
+    "answer": "It offers no diversification; the news just reflects price",
     "explanation": "Effective signal blending requires 'orthogonal' (independent) data. If your AI signal just follows the price, it isn't giving you a 'lead'—it's just a 'lagging' confirmation.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Your GenAI model classifies the market regime as 'High Inflation / Hawkish Fed.' Which traditional quantitative strategy should you prioritize?",
     "options": [
       "Aggressive growth-stock buying.",
-      "Defensive strategies focusing on short-term yields and value commodities.",
+      "Defensive strategies focusing on",
       "Long-term 30-year Treasury bonds.",
       "Penny stock speculation."
     ],
-    "answer": "Defensive strategies focusing on short-term yields and value commodities.",
+    "answer": "Defensive strategies focusing on",
     "explanation": "Regime detection informs the 'style' of trading. In a hawkish/inflationary environment, growth stocks typically struggle, so the AI signal helps you pivot to factors that historically perform better.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "You notice your sentiment-based strategy is becoming less profitable even though the AI is still accurate. What is the likely cause?",
     "options": [
       "The AI has become 'too smart' for the market.",
-      "Alpha decay: other traders use similar AI models, causing the market to react instantly to sentiment.",
+      "Alpha decay: other traders use similar AI models,",
       "The stock market has decided to stop reacting to news.",
       "You are using the wrong font in your trading dashboard."
     ],
-    "answer": "Alpha decay: other traders use similar AI models, causing the market to react instantly to sentiment.",
+    "answer": "Alpha decay: other traders use similar AI models,",
     "explanation": "As technology spreads, the 'speed' of information integration increases. To maintain an edge, you must find more unique data sources or more complex ways to blend signals than your competitors.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Your MACD shows a 'Golden Cross' (bullish signal), but your GenAI summary of the company's recent 'Product Launch' is 'Disappointing and Lacking Innovation.' What should you do?",
     "options": [
       "Trust the MACD; the price knows more than the people.",
-      "Skip the trade or reduce position size, as the technical signal lacks fundamental 'fuel'.",
+      "Skip the trade or reduce position size, as the",
       "Buy twice as much to prove the critics wrong.",
       "Wait for the MACD to turn red before buying."
     ],
-    "answer": "Skip the trade or reduce position size, as the technical signal lacks fundamental 'fuel'.",
+    "answer": "Skip the trade or reduce position size, as the",
     "explanation": "GenAI provides the 'context' for a move. A technical breakout without a strong fundamental story is often a 'bull trap'—a brief rise before a sharp fall.",
     "difficulty": "medium"
   },
@@ -116,12 +116,12 @@
     "content": "If an AI sentiment score is extremely high (e.g., 0.99), it often means a trade is 'crowded'—everyone is already long. In quantitative trading, an 'over-crowded' sentiment signal can actually be a 'Contrarian' signal to sell.",
     "description": "Your GenAI sentiment engine reports the highest 'Bullishness' score for Nvidia in 5 years. What risk should a quantitative manager consider?",
     "options": [
-      "That there are no more buyers left to push the price higher.",
+      "That there are no more buyers left to push the price",
       "That the AI has reached its maximum capacity for happiness.",
       "That the stock will go up forever.",
       "That the news sentiment is finally accurate."
     ],
-    "answer": "That there are no more buyers left to push the price higher.",
+    "answer": "That there are no more buyers left to push the price",
     "explanation": "When sentiment is at its maximum, it often indicates a 'blow-off top.' In quant models, extreme sentiment is frequently treated as a warning that a reversal is imminent.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Factor A (Technical) says SELL. Factor B (GenAI Sentiment) says BUY. Factor B has a 90% confidence score, while Factor A has a 51% confidence score. What is the most common quantitative decision?",
     "options": [
       "Always follow the Technical signal as it is based on price.",
-      "Follow the Sentiment signal because its confidence score is significantly higher.",
+      "Follow the Sentiment signal because its confidence score",
       "Flip a coin to remain unbiased.",
       "Don't trade at all; only trade when all factors agree."
     ],
-    "answer": "Follow the Sentiment signal because its confidence score is significantly higher.",
+    "answer": "Follow the Sentiment signal because its confidence score",
     "explanation": "Confidence-weighting is the standard way to resolve conflict. You prioritize the signal that the model is most 'certain' about based on its underlying data quality and historical performance.",
     "difficulty": "medium"
   }

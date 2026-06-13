@@ -5,11 +5,11 @@
     "description": "A couple spends $30,000 on a luxury vacation. They could have used the money for a down payment on a rental property or invested in the stock market. The best alternative they gave up is:",
     "options": [
       "The cost of the vacation itself",
-      "The opportunity cost of not choosing the best alternative use",
+      "The opportunity cost of not choosing the best",
       "Only the money they could have saved",
       "Nothing, since they derived enjoyment from the vacation"
     ],
-    "answer": "The opportunity cost of not choosing the best alternative use",
+    "answer": "The opportunity cost of not choosing the best",
     "explanation": "Opportunity cost is the value of the next best use of resources. By choosing the vacation, they forgo the potential returns from the rental property or investments. That foregone benefit is the true cost.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A company offers unlimited vacation to boost morale. The first-order effect is happier employees. The second-order effect might be:",
     "options": [
       "Everyone takes exactly the same amount of vacation",
-      "Top performers feel unfairly burdened covering for absent colleagues",
+      "Top performers feel unfairly burdened covering for absent",
       "Vacation time decreases as employees compete for face time",
       "The company saves money on vacation tracking"
     ],
-    "answer": "Top performers feel unfairly burdened covering for absent colleagues",
+    "answer": "Top performers feel unfairly burdened covering for absent",
     "explanation": "While unlimited vacation sounds great initially, second-order consequences often include resentment among reliable employees who end up working more to cover for those who take excessive time off.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A project proposal says the new software will significantly improve productivity. A quantifier would ask:",
     "options": [
       "Is the software easy to install?",
-      "What specific percentage improvement is expected, and how is it measured?",
+      "What specific percentage improvement is",
       "Does the software have a nice user interface?",
       "Are there cheaper alternatives available?"
     ],
-    "answer": "What specific percentage improvement is expected, and how is it measured?",
+    "answer": "What specific percentage improvement is",
     "explanation": "Vague claims cannot be evaluated or verified. Quantification forces the proposer to define what significant means and how productivity will be measured, enabling proper cost-benefit analysis.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A hiring manager interviews one strong candidate and immediately offers them the job, canceling remaining interviews. The likely mistake is:",
     "options": [
       "The strong candidate will demand a high salary",
-      "Without comparing alternatives, a better option may be missed",
+      "Without comparing alternatives, a better option may be",
       "Canceling interviews wastes the recruiter preparation time",
       "The candidate will feel less valued without competition"
     ],
-    "answer": "Without comparing alternatives, a better option may be missed",
+    "answer": "Without comparing alternatives, a better option may be",
     "explanation": "The manager has no basis for comparison. The first candidate might be good, but without evaluating alternatives, they cannot know if this is the best fit. Patience in considering multiple options typically improves outcomes.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A school rewards teachers based on student test scores. Teachers respond by focusing only on tested subjects and, in some cases, helping students cheat. This shows:",
     "options": [
       "Teachers being unethical by nature",
-      "Perverse consequences of poorly designed incentives",
+      "Perverse consequences of poorly designed",
       "The education system being fundamentally broken",
       "Standardized tests being always harmful"
     ],
-    "answer": "Perverse consequences of poorly designed incentives",
+    "answer": "Perverse consequences of poorly designed",
     "explanation": "The incentive, reward for test scores, drove unintended behaviors, teaching to the test, cheating, that undermined the actual goal of education. Incentive design must anticipate second-order effects.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "Fishermen in a coastal village each try to catch as many fish as possible. Individually rational behavior leads to the fish stock collapsing, harming everyone. This illustrates:",
     "options": [
       "The fishermen need for better equipment",
-      "The tragedy of the commons from uncoordinated self-interest",
+      "The tragedy of the commons from",
       "Natural fluctuations in fish populations",
       "Government overregulation of fishing"
     ],
-    "answer": "The tragedy of the commons from uncoordinated self-interest",
+    "answer": "The tragedy of the commons from",
     "explanation": "Each fisherman individual incentive, catch more now, conflicts with the collective interest, sustainable fishing. Without coordination or rules, the shared resource is destroyed.",
     "difficulty": "hard"
   }

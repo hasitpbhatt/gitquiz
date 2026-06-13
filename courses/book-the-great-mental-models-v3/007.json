@@ -5,40 +5,40 @@
     "description": "You invest $10,000 at 8% annual return. In year one you earn $800. In year two, you earn 8% on $10,800, yielding $864. What drives the increasing annual returns?",
     "options": [
       "The stock market tends to go up over time",
-      "Compounding \u2014 each year\u2019s earnings are reinvested and earn returns themselves",
+      "Compounding — each year’s earnings are reinvested and",
       "Inflation increases nominal returns over time",
       "The investment is becoming riskier so returns increase"
     ],
-    "answer": "Compounding \u2014 each year\u2019s earnings are reinvested and earn returns themselves",
-    "explanation": "The $64 increase from year one to year two is return on the previous year\u2019s return. This snowball effect causes exponential, not linear, growth.",
+    "answer": "Compounding — each year’s earnings are reinvested and",
+    "explanation": "The $64 increase from year one to year two is return on the previous year’s return. This snowball effect causes exponential, not linear, growth.",
     "difficulty": "easy"
   },
   {
     "question": "Warren Buffett Compounding",
-    "content": "Over 99% of Warren Buffett\u2019s multi-billion-dollar net worth was generated after his 50th birthday, demonstrating that compounding rewards are massively back-loaded.",
-    "description": "Warren Buffett is one of the world\u2019s richest people, but he did not reach most of his wealth until his later decades. What does this reveal about compounding?",
+    "content": "Over 99% of Warren Buffett’s multi-billion-dollar net worth was generated after his 50th birthday, demonstrating that compounding rewards are massively back-loaded.",
+    "description": "Warren Buffett is one of the world’s richest people, but he did not reach most of his wealth until his later decades. What does this reveal about compounding?",
     "options": [
       "Buffett was lucky with a few stock picks in his 50s",
-      "Compounding produces exponential curves where the vast majority of gains occur in the final periods",
+      "Compounding produces exponential curves where the vast",
       "Investing only works if you start very young",
-      "Buffett\u2019s wealth came from his salary, not investments"
+      "Buffett’s wealth came from his salary, not investments"
     ],
-    "answer": "Compounding produces exponential curves where the vast majority of gains occur in the final periods",
+    "answer": "Compounding produces exponential curves where the vast",
     "explanation": "An exponential curve is nearly flat for a long time and then turns vertical. With compounding over 7 decades, the early decades build the base and the later decades deliver the explosive returns.",
     "difficulty": "medium"
   },
   {
     "question": "Disrupting Compounding",
-    "content": "The greatest enemy of compounding is interrupting the cycle \u2014 selling during downturns, spending returns, or switching strategies prematurely \u2014 because the back-loaded rewards never materialize.",
+    "content": "The greatest enemy of compounding is interrupting the cycle — selling during downturns, spending returns, or switching strategies prematurely — because the back-loaded rewards never materialize.",
     "description": "An investor constantly moves money between stocks, bonds, and cash, trying to time the market. Over 30 years they earn far less than someone who simply held a diversified portfolio. What principle explains this?",
     "options": [
       "Market timing is impossible and always loses money",
-      "Frequent trading disrupts the compounding cycle because you miss the best days and incur costs",
+      "Frequent trading disrupts the compounding cycle",
       "Bonds always underperform stocks over long periods",
       "Cash is a terrible long-term investment"
     ],
-    "answer": "Frequent trading disrupts the compounding cycle because you miss the best days and incur costs",
-    "explanation": "Compounding requires uninterrupted participation. Missing even a handful of the market\u2019s best days dramatically reduces terminal wealth. The cost of trading and taxes further erodes the compounding base.",
+    "answer": "Frequent trading disrupts the compounding cycle",
+    "explanation": "Compounding requires uninterrupted participation. Missing even a handful of the market’s best days dramatically reduces terminal wealth. The cost of trading and taxes further erodes the compounding base.",
     "difficulty": "hard"
   },
   {
@@ -47,11 +47,11 @@
     "description": "You decide to read 10 pages of a book every day. After one year that is 3,650 pages, or about 12 books. What mental model best explains this outcome?",
     "options": [
       "The law of diminishing returns applies to reading",
-      "Compounding \u2014 small consistent actions accumulate into significant results over time",
+      "Compounding — small consistent actions accumulate into",
       "Regression to the mean will eventually reduce your reading",
       "Critical mass is required for learning to accelerate"
     ],
-    "answer": "Compounding \u2014 small consistent actions accumulate into significant results over time",
+    "answer": "Compounding — small consistent actions accumulate into",
     "explanation": "Like financial compounding, small daily habits compound into substantial outcomes. The key is consistency over long periods, not intensity in short bursts.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A young professional makes it a habit to respond reliably, help colleagues without expecting immediate returns, and deliver on promises. After 20 years, they have an extensive network of trusted partners. What dynamic is at work?",
     "options": [
       "They were lucky to meet the right people",
-      "Trust compounds: each reliable act builds reputation and attracts more opportunities",
+      "Trust compounds: each reliable act builds",
       "People naturally trust more as they age",
       "The professional is simply more skilled than peers"
     ],
-    "answer": "Trust compounds: each reliable act builds reputation and attracts more opportunities",
+    "answer": "Trust compounds: each reliable act builds",
     "explanation": "Like financial compounding, trust builds on itself. Each positive interaction increases your reputational capital, leading to more and better opportunities that further enhance your standing.",
     "difficulty": "medium"
   },
@@ -74,13 +74,13 @@
     "content": "Prioritize activities, investments, and relationships that allow continuous reinvestment of gains. Avoid disrupting compounding cycles for short-term consumption.",
     "description": "A startup founder is offered $50M to sell the company after 3 years of work. They believe the company could be worth $1B in 10 years. According to the long-horizon rule, what should they consider?",
     "options": [
-      "Take the $50M \u2014 guaranteed money is always better than potential future value",
-      "Weigh the expected value of continued compounding against the certainty of selling now",
+      "Take the $50M — guaranteed money is always better than potential future value",
+      "Weigh the expected value of continued compounding against the certainty of",
       "Reject any offer under $1B",
       "Sell and start a new company with the $50M"
     ],
-    "answer": "Weigh the expected value of continued compounding against the certainty of selling now",
-    "explanation": "The decision depends on whether the company\u2019s growth trajectory is truly compounding. If so, the difference between 3-year value and 10-year value could be enormous, but the certainty of the offer must be weighed.",
+    "answer": "Weigh the expected value of continued compounding against the certainty of",
+    "explanation": "The decision depends on whether the company’s growth trajectory is truly compounding. If so, the difference between 3-year value and 10-year value could be enormous, but the certainty of the offer must be weighed.",
     "difficulty": "hard"
   },
   {
@@ -89,12 +89,12 @@
     "description": "Would you rather have $1 million today or a penny that doubles every day for 30 days? Most people choose the $1 million, but the penny becomes over $5 million by day 30. What explains this systematic misjudgment?",
     "options": [
       "People cannot do basic math",
-      "Humans have an intuitive linear bias and struggle to grasp exponential growth",
+      "Humans have an intuitive linear bias and struggle to grasp",
       "The penny scenario is unrealistic and cannot happen in practice",
       "Inflation makes the $1 million worth less over time"
     ],
-    "answer": "Humans have an intuitive linear bias and struggle to grasp exponential growth",
-    "explanation": "Exponential curves appear unimpressive in early stages, leading people to undervalue them. This is why early exits and short-term thinking are so common \u2014 the exponential payoff is invisible until late.",
+    "answer": "Humans have an intuitive linear bias and struggle to grasp",
+    "explanation": "Exponential curves appear unimpressive in early stages, leading people to undervalue them. This is why early exits and short-term thinking are so common — the exponential payoff is invisible until late.",
     "difficulty": "medium"
   },
   {
@@ -103,12 +103,12 @@
     "description": "A company loses 1% of its customers every week. After one year, what fraction of customers remain? (0.99^52 ≈ 0.59). What does this illustrate?",
     "options": [
       "Small losses are not significant and can be ignored",
-      "Negative compounding \u2014 small consistent losses compound into severe erosion over time",
+      "Negative compounding — small consistent losses compound into",
       "The company needs better marketing to replace lost customers",
       "Customer loss rates naturally stabilize over time"
     ],
-    "answer": "Negative compounding \u2014 small consistent losses compound into severe erosion over time",
-    "explanation": "A 1% weekly loss seems negligible but compounds to a 41% annual loss. Negative compounding is symmetrical with positive compounding \u2014 small daily erosions produce large long-term damage.",
+    "answer": "Negative compounding — small consistent losses compound into",
+    "explanation": "A 1% weekly loss seems negligible but compounds to a 41% annual loss. Negative compounding is symmetrical with positive compounding — small daily erosions produce large long-term damage.",
     "difficulty": "hard"
   }
 ]

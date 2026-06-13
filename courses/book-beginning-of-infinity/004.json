@@ -6,10 +6,10 @@
     "options": [
       "There is no fundamental difference; both arise through trial and error",
       "Evolutionary knowledge is encoded in DNA; human knowledge is encoded in brains — same mechanism, different substrate",
-      "Evolutionary knowledge is blind and lacks understanding of why it works; human explanatory knowledge includes comprehension of causal mechanisms",
+      "Evolutionary knowledge is blind and lacks understanding of why it works; human explanatory knowledge includes",
       "Human knowledge is fallible; evolutionary knowledge is always optimal for the environment"
     ],
-    "answer": "Evolutionary knowledge is blind and lacks understanding of why it works; human explanatory knowledge includes comprehension of causal mechanisms",
+    "answer": "Evolutionary knowledge is blind and lacks understanding of why it works; human explanatory knowledge includes",
     "explanation": "This is a key Deutsch distinction. The polar bear's fur 'knows' that snow is white in the sense that generations of selection encoded that environmental fact, but no bear understands camouflage theory. Human explanatory knowledge — like designing arctic camouflage through physics and optics — includes understanding of why it works (reflection, absorption, predator vision). This comprehension enables us to apply, improve, and criticize the knowledge, which blind evolution cannot do.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "Throwing spaghetti at the wall to see what sticks — in science and in cooking. This illustrates:",
     "options": [
       "Why we should aim carefully",
-      "How blind variation plus selection creates adaptation",
+      "How blind variation plus selection creates",
       "That cooking should be random",
       "Why planning is always better than experimentation"
     ],
-    "answer": "How blind variation plus selection creates adaptation",
+    "answer": "How blind variation plus selection creates",
     "explanation": "Like throwing spaghetti to see what sticks, evolution creates random variations (mutations) and retains what works (natural selection). Neither process 'knows' the outcome in advance - adaptation emerges through this blind trial-and-error process.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Babies know how to suckle without being taught. This shows:",
     "options": [
       "Why babies need parenting classes",
-      "How genetic knowledge encodes innate behaviors",
+      "How genetic knowledge encodes innate",
       "That sucking is learned through observation",
       "Why reflexes don't exist"
     ],
-    "answer": "How genetic knowledge encodes innate behaviors",
+    "answer": "How genetic knowledge encodes innate",
     "explanation": "The ability to suckle is encoded in DNA as cause-effect information - not as understanding. This genetic knowledge enables survival behaviors without requiring comprehension, unlike human explanatory knowledge.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Darwin had the idea, then collected evidence — how theories and evolution parallel. This demonstrates:",
     "options": [
       "Why Darwin was actually a cook",
-      "How conjecture and refutation mirrors biological evolution",
+      "How conjecture and refutation",
       "That scientific progress is random",
       "Why evidence comes before ideas"
     ],
-    "answer": "How conjecture and refutation mirrors biological evolution",
+    "answer": "How conjecture and refutation",
     "explanation": "In both processes: blind variation occurs (genetic mutations / scientific conjectures), followed by selection (natural selection / criticism and refutation). Survivors reproduce (pass on genes / gain acceptance), creating cumulative adaptation over time.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Evolution: 100M years for flight. Humans: 120 years from Wright brothers to jets. This shows:",
     "options": [
       "Why we should rely on evolution for technology",
-      "How explanation-based knowledge creation is vastly faster",
+      "How explanation-based knowledge creation is",
       "That human progress is actually slower",
       "Why airplanes don't work"
     ],
-    "answer": "How explanation-based knowledge creation is vastly faster",
+    "answer": "How explanation-based knowledge creation is",
     "explanation": "Evolution took ~100 million years to refine flight adaptations. Humans went from first powered flight to jet aircraft in ~120 years - demonstrating how explanation, criticism, and cultural transmission accelerate knowledge creation enormously.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A cactus 'knows' how to store water in the desert — encoded in its DNA. This illustrates:",
     "options": [
       "Why cacti enjoy deserts",
-      "How biological adaptations embody environmental problem-solving knowledge",
+      "How biological adaptations",
       "That plants don't need water",
       "Why all plants should be cacti"
     ],
-    "answer": "How biological adaptations embody environmental problem-solving knowledge",
+    "answer": "How biological adaptations",
     "explanation": "The cactus's water-storing adaptation isn't random - it encodes knowledge about surviving in arid environments (water scarcity) that directly increases survival and reproduction chances in desert conditions.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Humans escaped genetic pace once language enabled sharing ideas. This demonstrates:",
     "options": [
       "Why we should return to pre-linguistic societies",
-      "How language accelerated cultural knowledge creation",
+      "How language accelerated cultural knowledge",
       "That language actually slowed human progress",
       "Why gestures are better than words"
     ],
-    "answer": "How language accelerated cultural knowledge creation",
+    "answer": "How language accelerated cultural knowledge",
     "explanation": "Before language, knowledge transfer was limited to imitation. Language enabled rapid, accurate sharing of explanations and ideas - allowing cultural evolution to vastly outpace the slow pace of genetic evolution through natural selection.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Languages evolve gradually; you can also deliberately learn a new one. This shows:",
     "options": [
       "Why we should never learn new languages",
-      "How cultural evolution differs from biological evolution",
+      "How cultural evolution differs from",
       "That biological evolution is actually faster",
       "Why all languages should be identical"
     ],
-    "answer": "How cultural evolution differs from biological evolution",
+    "answer": "How cultural evolution differs from",
     "explanation": "Biological evolution relies on blind variation and slow selection. Cultural evolution allows deliberate variation (creating new ideas) and rapid selection through critique and adoption - enabling much faster knowledge accumulation.",
     "difficulty": "medium"
   },

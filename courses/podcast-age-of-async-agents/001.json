@@ -33,11 +33,11 @@
     "description": "Your engineering team wants to adopt Devin. A senior engineer asks how exactly the spec-to-PR workflow differs from how we use GitHub Copilot today. What is the key difference?",
     "options": [
       "Copilot writes specs; Devin writes code",
-      "With Copilot a developer types code suggestions; with Devin a developer writes a spec and the agent produces the entire PR autonomously",
+      "With Copilot a developer types code suggestions; with Devin a",
       "Copilot only works in VS Code; Devin works in any editor",
       "Spec-to-PR is for frontend only; Copilot works for everything"
     ],
-    "answer": "With Copilot a developer types code suggestions; with Devin a developer writes a spec and the agent produces the entire PR autonomously",
+    "answer": "With Copilot a developer types code suggestions; with Devin a",
     "explanation": "Copilot provides line-level completions as the developer types. The spec-to-PR workflow flips this: the human writes a specification document first, and the async agent independently produces a complete pull request with code, tests, and documentation.",
     "difficulty": "easy"
   },
@@ -46,7 +46,7 @@
     "content": "Context Engineering, a term coined by Walden Yan, is the practice of designing what contextual information an agent receives, replacing the older notion of prompt engineering for agent systems.",
     "description": "A colleague says prompt engineering is the most important skill for working with AI coding agents. Walden Yan would argue the most important skill is actually something broader. What is it?",
     "options": [
-      "Token optimization",
+      "Token budget optimization",
       "Context engineering",
       "Model selection",
       "Fine-tuning"
@@ -61,11 +61,11 @@
     "description": "Your team is deciding between Claude Code (runs in your terminal) and Devin (runs in the cloud). Which behavioral difference is the most fundamental distinction between these two types of agent?",
     "options": [
       "Claude Code is free; Devin is paid",
-      "Claude Code requires watching the output; Devin notifies you when the PR is ready",
+      "Claude Code requires watching the output; Devin",
       "Claude Code uses Anthropic; Devin uses OpenAI",
       "Claude Code only edits one file; Devin edits many"
     ],
-    "answer": "Claude Code requires watching the output; Devin notifies you when the PR is ready",
+    "answer": "Claude Code requires watching the output; Devin",
     "explanation": "The fundamental distinction is foreground vs background: local agents (Claude Code) require the developer to watch and interact in real time, while background agents (Devin, OpenInspect) run autonomously and notify you when complete.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Running a weekly database migration",
       "Fixing a critical production bug while developers sleep",
-      "Pair programming on a complex algorithm with real-time feedback",
+      "Pair programming on a complex algorithm with real-time",
       "Refactoring a deprecated API across 50 files"
     ],
-    "answer": "Pair programming on a complex algorithm with real-time feedback",
+    "answer": "Pair programming on a complex algorithm with real-time",
     "explanation": "Foreground agents excel when tight human-in-the-loop collaboration is needed, such as designing a complex algorithm together. Background agents are better for tasks that can run independently: batch refactors, migrations, scheduled maintenance.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Walden Yan describes starting Cognition in 2024 as a contrarian bet. What made founding an async agent company at that time seem so risky to observers?",
     "options": [
       "Nobody had GPUs in 2024",
-      "Models were too unreliable to work without humans watching them in real time",
+      "Models were too unreliable to work without",
       "GitHub Copilot already dominated the market",
       "Enterprise sales cycles were too long"
     ],
-    "answer": "Models were too unreliable to work without humans watching them in real time",
+    "answer": "Models were too unreliable to work without",
     "explanation": "Building async agents in 2024 was the most AGI pilled bet because models at that time needed constant supervision. The conventional wisdom was that models were too unreliable to leave unattended, which is why most AI tools were interactive assistants rather than autonomous agents.",
     "difficulty": "hard"
   },

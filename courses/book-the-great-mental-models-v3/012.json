@@ -4,12 +4,12 @@
     "content": "An algorithm is a step-by-step, deterministic procedure that guarantees an optimal, repeatable solution if followed correctly.",
     "description": "A recipe for baking a cake specifies exact quantities, temperatures, and timing to consistently produce the same result. What concept does this represent?",
     "options": [
-      "A heuristic \u2014 a rule of thumb for cooking",
-      "An algorithm \u2014 a precise, repeatable procedure that guarantees a consistent outcome",
+      "A heuristic — a rule of thumb for cooking",
+      "An algorithm — a precise, repeatable procedure",
       "A feedback loop adjusting temperature as needed",
       "An emergent property of ingredient interactions"
     ],
-    "answer": "An algorithm \u2014 a precise, repeatable procedure that guarantees a consistent outcome",
+    "answer": "An algorithm — a precise, repeatable procedure",
     "explanation": "A recipe is a classic algorithm: exact inputs defined, steps ordered, and the same output produced every time when followed precisely.",
     "difficulty": "easy"
   },
@@ -19,25 +19,25 @@
     "description": "An experienced doctor in an emergency room quickly assesses a patient and makes a treatment decision in seconds based on pattern recognition rather than exhaustive testing. What are they using?",
     "options": [
       "A detailed diagnostic algorithm",
-      "A heuristic \u2014 a rapid mental shortcut that is fast but not guaranteed correct",
+      "A heuristic — a rapid mental shortcut",
       "A power law prediction model",
       "A sampling-based statistical inference"
     ],
-    "answer": "A heuristic \u2014 a rapid mental shortcut that is fast but not guaranteed correct",
-    "explanation": "Heuristics trade certainty for speed. In the ER, speed can be life-saving. The doctor\u2019s shortcut may occasionally be wrong, but it is faster than running through the full diagnostic algorithm.",
+    "answer": "A heuristic — a rapid mental shortcut",
+    "explanation": "Heuristics trade certainty for speed. In the ER, speed can be life-saving. The doctor’s shortcut may occasionally be wrong, but it is faster than running through the full diagnostic algorithm.",
     "difficulty": "easy"
   },
   {
     "question": "Amazon Algorithms and Heuristics",
     "content": "Amazon uses deterministic algorithms for package routing across fulfillment centers but pivots to experienced heuristics for on-the-ground decisions during unpredictable disruptions.",
-    "description": "Amazon\u2019s fulfillment network uses exact optimization algorithms to route packages globally. But when a warehouse conveyor breaks unexpectedly, managers use rules of thumb like \u201cprioritize high-velocity lanes\u201d instead of waiting for a recalculated algorithm. Why?",
+    "description": "Amazon’s fulfillment network uses exact optimization algorithms to route packages globally. But when a warehouse conveyor breaks unexpectedly, managers use rules of thumb like “prioritize high-velocity lanes” instead of waiting for a recalculated algorithm. Why?",
     "options": [
-      "The managers are ignoring the company\u2019s standard operating procedures",
-      "During disruptions, heuristics offer fast, good-enough decisions when optimal computation is infeasible",
+      "The managers are ignoring the company’s standard operating procedures",
+      "During disruptions, heuristics offer fast, good-enough decisions when",
       "Amazon has not invested enough in automation",
       "Conveyor breakdowns are too rare to need algorithmic solutions"
     ],
-    "answer": "During disruptions, heuristics offer fast, good-enough decisions when optimal computation is infeasible",
+    "answer": "During disruptions, heuristics offer fast, good-enough decisions when",
     "explanation": "Algorithms are optimal but slow to compute. During disruptions requiring immediate action, heuristics fill the gap. The skill is knowing which situations demand algorithmic precision and which accept heuristic speed.",
     "difficulty": "medium"
   },
@@ -47,25 +47,25 @@
     "description": "An airline pre-flight checklist is followed exactly the same way every time, with no shortcuts or skipping steps. Why are heuristic shortcuts inappropriate here?",
     "options": [
       "Pilots are not trained to use heuristics",
-      "The cost of an error is catastrophic, so an algorithm's guarantee of correctness is essential",
+      "The cost of an error is catastrophic, so an algorithm's guarantee of",
       "Checklists are required by regulations but are not operationally necessary",
       "Heuristics would be faster but pilots prefer checklists out of habit"
     ],
-    "answer": "The cost of an error is catastrophic, so an algorithm's guarantee of correctness is essential",
+    "answer": "The cost of an error is catastrophic, so an algorithm's guarantee of",
     "explanation": "When failure cost is extreme, algorithmic procedures are mandatory. The time saved by a heuristic is not worth the increased risk of a fatal mistake.",
     "difficulty": "medium"
   },
   {
     "question": "When to Use Heuristics",
     "content": "For fast-moving, reversible decisions where speed is a competitive advantage, establish simple heuristics to empower frontline teams to move quickly.",
-    "description": "A customer support agent has a policy: \u201cFor any issue under $50, refund immediately without asking a manager.\u201d Why is this heuristic effective?",
+    "description": "A customer support agent has a policy: “For any issue under $50, refund immediately without asking a manager.” Why is this heuristic effective?",
     "options": [
       "It guarantees the company loses less money overall",
-      "It empowers quick, reversible decisions (small refunds) while freeing managers for complex cases",
+      "It empowers quick, reversible decisions (small refunds) while",
       "Customers always demand refunds under $50",
       "It is an algorithm, not a heuristic, because it has clear rules"
     ],
-    "answer": "It empowers quick, reversible decisions (small refunds) while freeing managers for complex cases",
+    "answer": "It empowers quick, reversible decisions (small refunds) while",
     "explanation": "The heuristic is appropriate because the decision is reversible (a small loss) and speed improves customer satisfaction. For irreversible high-cost decisions, an algorithmic approval process would be needed.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "Build rigorous algorithms for high-stakes, repeatable tasks where errors are costly. For reversible, fast-moving decisions where speed is an advantage, establish simple heuristics.",
     "description": "A software deployment pipeline must balance safety and speed. Which approach correctly applies the efficiency rule?",
     "options": [
-      "Always deploy immediately using gut feel \u2014 speed is everything",
-      "Use an algorithmic CI/CD pipeline with automated tests for safety, but allow hotfix heuristics for critical bugs",
-      "Always run the full algorithmic test suite even for trivial CSS changes \u2014 safety above all",
-      "Never deploy without a manager\u2019s heuristic approval"
+      "Always deploy immediately using gut feel — speed is everything",
+      "Use an algorithmic CI/CD pipeline with automated tests for safety, but allow hotfix",
+      "Always run the full algorithmic test suite even for trivial CSS changes — safety above all",
+      "Never deploy without a manager’s heuristic approval"
     ],
-    "answer": "Use an algorithmic CI/CD pipeline with automated tests for safety, but allow hotfix heuristics for critical bugs",
+    "answer": "Use an algorithmic CI/CD pipeline with automated tests for safety, but allow hotfix",
     "explanation": "The efficiency rule separates concerns: automated tests (algorithm) for routine safety, and hotfix bypass (heuristic) for emergencies where speed is critical and rollback is possible.",
     "difficulty": "hard"
   },
@@ -88,26 +88,26 @@
     "content": "Standard Operating Procedures (SOPs) are organizational algorithms that encode best practices into repeatable, auditable steps.",
     "description": "A fast-food chain has a detailed manual specifying exactly how to make each menu item, including patty weight, grill time, and assembly order. Why is this an algorithm rather than a heuristic?",
     "options": [
-      "The steps are deterministic and produce a consistent, guaranteed output every time",
+      "The steps are deterministic and produce a consistent, guaranteed",
       "The manual allows employees to improvise based on customer preference",
       "It is a heuristic because it is not guaranteed to produce good food",
       "It is neither an algorithm nor a heuristic"
     ],
-    "answer": "The steps are deterministic and produce a consistent, guaranteed output every time",
+    "answer": "The steps are deterministic and produce a consistent, guaranteed",
     "explanation": "An SOP that specifies exact inputs and steps to produce a consistent output is an organizational algorithm. It ensures quality consistency across thousands of locations and employees.",
     "difficulty": "medium"
   },
   {
     "question": "Algorithm Limits",
-    "content": "Algorithms fail when the problem space is too large, too novel, or too poorly defined for deterministic procedures \u2014 requiring heuristics instead.",
+    "content": "Algorithms fail when the problem space is too large, too novel, or too poorly defined for deterministic procedures — requiring heuristics instead.",
     "description": "Chess computers can beat world champions using search algorithms. But no algorithm can write a bestselling novel or predict the next viral trend. Why?",
     "options": [
-      "Novelty and creativity involve emergent properties that cannot be captured in deterministic procedures",
+      "Novelty and creativity involve emergent properties that cannot be captured in deterministic",
       "Computers are not powerful enough to run algorithms for creativity",
       "Writing is a heuristic activity and computer scientists have not designed algorithms for it",
       "Viral trends follow power laws and cannot be modeled"
     ],
-    "answer": "Novelty and creativity involve emergent properties that cannot be captured in deterministic procedures",
+    "answer": "Novelty and creativity involve emergent properties that cannot be captured in deterministic",
     "explanation": "Algorithms are designed for well-defined problems with clear rules and measurable success. Novel, creative, or highly context-dependent problems require heuristic judgment that adapts to unique circumstances.",
     "difficulty": "hard"
   }

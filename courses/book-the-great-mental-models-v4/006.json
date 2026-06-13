@@ -5,7 +5,7 @@
     "description": "A hospital redesigns its waiting room with softer lighting, living plants, and curved seating. Patients report feeling calmer and more trusting before their appointment. What concept does this illustrate?",
     "options": [
       "Contextual Architecture",
-      "Emotional Contagion",
+      "Emotional contagion theory",
       "Performance Delivery",
       "Cognitive Dissonance"
     ],
@@ -21,7 +21,7 @@
       "Operant Conditioning",
       "Contextual Architecture",
       "Sunk Cost Fallacy",
-      "Network Effects"
+      "Positive network effects"
     ],
     "answer": "Contextual Architecture",
     "explanation": "This is Contextual Architecture (Setting) in action. By centralizing shared amenities, the CEO creates an environmental framework that encourages serendipitous encounters between teams. Operant Conditioning involves rewards and punishments, Sunk Cost Fallacy is about irrecoverable investments, and Network Effects describe how value increases with user adoption.",
@@ -34,10 +34,10 @@
     "options": [
       "Muscle Memory",
       "Spaced Repetition",
-      "Context-Dependent Memory",
+      "Context-Dependent",
       "The Zeigarnik Effect"
     ],
-    "answer": "Context-Dependent Memory",
+    "answer": "Context-Dependent",
     "explanation": "Context-Dependent Memory shows that recall improves when the retrieval environment matches the encoding environment. The coffee shop setting became a retrieval cue for learned information. Muscle Memory involves procedural physical tasks, Spaced Repetition is about timing study sessions, and the Zeigarnik Effect describes better memory for interrupted tasks.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A writer uses a distraction-free editor with a typewriter sound effect for deep work, but switches to a different browser profile with multiple tabs open for administrative tasks. What principle is being practiced?",
     "options": [
       "Multitasking Optimization",
-      "Digital Contextual Architecture",
+      "Digital Contextual",
       "Pomodoro Technique",
       "Decision Fatigue"
     ],
-    "answer": "Digital Contextual Architecture",
+    "answer": "Digital Contextual",
     "explanation": "The writer applies Digital Contextual Architecture by matching the digital environment to the desired psychological outcome. The minimal editor signals deep focus, while the browser profile signals administrative mode. Multitasking Optimization suggests doing multiple things at once, the Pomodoro Technique is a time-management method, and Decision Fatigue describes the deteriorating quality of decisions after many decisions.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Two founders pitch identical business plans. The first speaks with hesitation and reads from slides. The second tells a compelling story with eye contact and conviction. The second founder receives funding. What does this illustrate?",
     "options": [
       "Halo Effect",
-      "Performance in Idea Valuation",
+      "Performance in Idea",
       "Survivorship Bias",
       "The Availability Heuristic"
     ],
-    "answer": "Performance in Idea Valuation",
+    "answer": "Performance in Idea",
     "explanation": "This illustrates Performance in Idea Valuation — the value of an idea is linked to the clarity, presence, and conviction of its delivery. The same content produced different outcomes because of how it was delivered. The Halo Effect is when one positive trait influences perception of other traits, Survivorship Bias focuses on successful examples that survived, and the Availability Heuristic judges likelihood based on how easily examples come to mind.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "A research team submits a groundbreaking paper with a poorly written abstract and confusing title. It is rejected, while lesser work from a different team with a compelling narrative and strategic media outreach gets published and widely cited. What principle did the first team neglect?",
     "options": [
       "The Matthew Effect",
-      "Allocation to Rollout Mechanics",
+      "Allocation to",
       "Occam's Razor",
       "The Peter Principle"
     ],
-    "answer": "Allocation to Rollout Mechanics",
+    "answer": "Allocation to",
     "explanation": "The first team neglected to allocate preparation time to rollout mechanics — the how of presenting their work. Great work does not speak for itself, and clarity, framing, and narrative of delivery dramatically affect reception. The Matthew Effect describes accumulated advantage, Occam's Razor favors simpler explanations, and the Peter Principle states people rise to their level of incompetence.",
     "difficulty": "hard"
   }

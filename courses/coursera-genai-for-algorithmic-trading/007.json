@@ -6,10 +6,10 @@
     "options": [
       "WebSockets are more expensive to maintain.",
       "REST APIs are more secure for financial transactions.",
-      "WebSockets provide real-time persistent connections that push news to your AI instantly.",
+      "WebSockets provide real-time persistent connections that",
       "REST APIs allow the AI more time to 'think' about the data."
     ],
-    "answer": "WebSockets provide real-time persistent connections that push news to your AI instantly.",
+    "answer": "WebSockets provide real-time persistent connections that",
     "explanation": "In live markets, 60 seconds is an eternity. WebSockets 'push' data instantly, ensuring your GenAI model isn't processing 'old news' while the market has already moved.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Your live GenAI bot has been profitable for six months but has started losing money consistently this week. What is the first thing a developer should check?",
     "options": [
       "If the internet connection is slow.",
-      "If the market regime has shifted and the model's training data is stale.",
+      "If the market regime has shifted and the model's",
       "If the AI needs a vacation or a software update.",
       "If the exchange has changed its logo."
     ],
-    "answer": "If the market regime has shifted and the model's training data is stale.",
+    "answer": "If the market regime has shifted and the model's",
     "explanation": "Markets evolve. If the underlying correlations the AI learned (like 'Tech stocks go up when rates are low') are no longer true, the model is 'drifting' from reality and needs adjustment.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A trader wants their LSTM model to learn from today's price action without spending 10 hours retraining the entire 10-year history. Which method should they use?",
     "options": [
       "Batch Processing",
-      "Online Learning (Incremental Updates)",
+      "Online Learning",
       "Zero-Shot Prompting",
       "Manual Data Entry"
     ],
-    "answer": "Online Learning (Incremental Updates)",
+    "answer": "Online Learning",
     "explanation": "Online learning allows for 'continuous' improvement. By updating the model's weights with just the newest data points, the bot stays current without the computational cost of a full retrain.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "You are choosing an LLM for a live sentiment-tracking bot. Model A is 98% accurate but takes 5 seconds to respond. Model B is 90% accurate but takes 0.1 seconds. Which is better for a scalp-trading bot?",
     "options": [
       "Model A, because accuracy is everything in trading.",
-      "Model B, because the 5-second delay in Model A would mean the trade opportunity has already passed.",
+      "Model B, because the 5-second delay in Model A would mean the trade",
       "Neither; you should wait for a model that is 100% accurate and 0 latency.",
       "Model A, but only if you use it on a faster computer."
     ],
-    "answer": "Model B, because the 5-second delay in Model A would mean the trade opportunity has already passed.",
+    "answer": "Model B, because the 5-second delay in Model A would mean the trade",
     "explanation": "In trading, 'Good and Fast' beats 'Perfect and Slow.' High latency is a 'strategy-killer' for bots that need to react to rapid price fluctuations.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "When you launch a live bot, it has no 'live history.' The 'Cold Start' problem refers to the period where the bot hasn't seen enough real-time data to fill its technical indicators (like a 20-day moving average).",
     "description": "How do you prevent your GenAI bot from making random trades immediately after you turn it on for the first time?",
     "options": [
-      "Feed it the last 30 days of historical data (warm-up) before enabling live trading.",
+      "Feed it the last 30 days of historical data (warm-up) before",
       "Let it trade with small amounts of money until it learns on its own.",
       "Wait 30 days before looking at the bot's dashboard.",
       "Tell the AI to be patient in the system prompt."
     ],
-    "answer": "Feed it the last 30 days of historical data (warm-up) before enabling live trading.",
+    "answer": "Feed it the last 30 days of historical data (warm-up) before",
     "explanation": "A 'Warm-up' period ensures the bot's indicators and memory are populated with relevant context before it begins risking real capital.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "Your GenAI sentiment engine suddenly reports 'Extreme Bearishness' for every single stock in the market simultaneously. What is the safest programmed response?",
     "options": [
       "Sell everything immediately to follow the AI.",
-      "Trigger a circuit breaker to pause trading and alert a human of a data feed error.",
+      "Trigger a circuit breaker to pause trading and alert a",
       "Assume the AI has predicted a global collapse and buy gold.",
       "Restart the AI and let it keep trading."
     ],
-    "answer": "Trigger a circuit breaker to pause trading and alert a human of a data feed error.",
+    "answer": "Trigger a circuit breaker to pause trading and alert a",
     "explanation": "If a model gives an 'extreme' or unusual output, it's often a data error or a hallucination. A circuit breaker prevents these digital errors from turning into financial disasters.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A news API sends a headline with broken HTML characters like '&amp;'. If your LLM is sensitive to formatting, what should your pipeline do?",
     "options": [
       "Let the LLM figure it out.",
-      "Use a 'Cleaner' function to sanitize and normalize the text before the LLM sees it.",
+      "Use a 'Cleaner' function to sanitize and normalize the text",
       "Reject the headline and wait for a better one.",
       "Ask the LLM to fix the HTML before it analyzes the sentiment."
     ],
-    "answer": "Use a 'Cleaner' function to sanitize and normalize the text before the LLM sees it.",
+    "answer": "Use a 'Cleaner' function to sanitize and normalize the text",
     "explanation": "Raw data is messy. Sanitizing data ensures your LLM stays focused on the *meaning* of the news rather than being confused by technical 'noise' or formatting errors.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "The market enters a period of extreme news volume. Your bot starts hitting its API limit and getting '429 Too Many Requests' errors. What is the risk?",
     "options": [
       "The bot will get smarter by trying to work around the limit.",
-      "The bot will go 'blind' and miss critical news events while it is being blocked.",
+      "The bot will go 'blind' and miss critical news events while it is",
       "The API provider will give you a discount for being a frequent user.",
       "There is no risk; the bot will just wait."
     ],
-    "answer": "The bot will go 'blind' and miss critical news events while it is being blocked.",
+    "answer": "The bot will go 'blind' and miss critical news events while it is",
     "explanation": "Missing a signal because you are 'rate-limited' is a major operational risk. Live bots must prioritize which news to analyze or use higher-tier API limits to stay 'sighted' during busy periods.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Why is 'Async' code crucial for a GenAI bot that uses multiple LLM agents?",
     "options": [
       "It allows the bot to trade in different time zones.",
-      "It lets Agent A analyze news while Agent B checks stop-losses, preventing freezes.",
+      "It lets Agent A analyze news while Agent B checks",
       "It makes the code look more professional.",
       "It allows the bot to work without a battery."
     ],
-    "answer": "It lets Agent A analyze news while Agent B checks stop-losses, preventing freezes.",
+    "answer": "It lets Agent A analyze news while Agent B checks",
     "explanation": "In a 'synchronous' system, if an LLM takes 3 seconds to respond, the bot's risk management system is 'frozen' for those 3 seconds. Async processing keeps the safety checks running at all times.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "The SEC asks why your bot sold a large block of shares at 2:00 PM. What is your best resource to answer them?",
     "options": [
       "Ask the AI to remember what it did.",
-      "Check your persistent logs of the AI's headlines and confidence scores at exactly 2:00 PM.",
+      "Check your persistent logs of the AI's headlines and",
       "Look at the stock chart and guess.",
       "Show them the AI's training data from three years ago."
     ],
-    "answer": "Check your persistent logs of the AI's headlines and confidence scores at exactly 2:00 PM.",
+    "answer": "Check your persistent logs of the AI's headlines and",
     "explanation": "Accountability is vital. A detailed log provides a 'black box' recording of the bot's brain at the moment of the trade, proving that the decision was based on logic rather than random error.",
     "difficulty": "hard"
   }

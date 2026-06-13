@@ -89,11 +89,11 @@
     "description": "Why might someone choose to join a less-featured social network that all their friends use over a better-featured network that none of their friends use?",
     "options": [
       "They don't know about the better network",
-      "The less-featured network has network effects - it's valuable because friends are there",
+      "The less-featured network has network",
       "Better networks are always more expensive",
       "They prefer worse user experience"
     ],
-    "answer": "The less-featured network has network effects - it's valuable because friends are there",
+    "answer": "The less-featured network has network",
     "explanation": "Network effects mean the value of a network increases with the number of users. Even inferior technology can dominate if it achieves critical mass first (e.g., QWERTY keyboard).",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A factory polluting a river creates a negative externality because:",
     "options": [
       "The factory must pay for the pollution",
-      "Fishermen downstream suffer losses without compensation",
+      "Fishermen downstream suffer losses without",
       "The factory gets tax breaks for being green",
       "Pollution increases the factory's productivity"
     ],
-    "answer": "Fishermen downstream suffer losses without compensation",
+    "answer": "Fishermen downstream suffer losses without",
     "explanation": "The factory's pollution imposes costs (cleanup, lost fishing income) on downstream fishermen who neither agreed to nor receive compensation for these harms - a classic negative externality.",
     "difficulty": "medium"
   },

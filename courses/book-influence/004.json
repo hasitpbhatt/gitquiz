@@ -33,11 +33,11 @@
     "description": "A person in a security guard uniform asks you to leave a building lobby. You're more likely to comply because:",
     "options": [
       "You checked their employment credentials",
-      "The uniform triggers automatic authority response",
+      "The uniform triggers automatic authority",
       "You saw them talking to actual police",
       "The lobby clearly displays 'No Loitering' signs"
     ],
-    "answer": "The uniform triggers automatic authority response",
+    "answer": "The uniform triggers automatic authority",
     "explanation": "Uniforms and clothing associated with authority trigger compliance through learned associations, regardless of the individual's actual authority or intentions.",
     "difficulty": "easy"
   },
@@ -74,12 +74,12 @@
     "content": "People often comply with the appearance of authority rather than legitimate authority. Symbols can trigger obedience even when the person lacks actual authority.",
     "description": "Someone claiming to be a police officer but showing no badge or identification asks to search your bag. You're more likely to refuse if:",
     "options": [
-      "You recognize they lack legitimate authority symbols",
+      "You recognize they lack legitimate authority",
       "You have nothing illegal in your bag",
       "You know your legal rights regarding searches",
       "You believe they're actually a real officer"
     ],
-    "answer": "You recognize they lack legitimate authority symbols",
+    "answer": "You recognize they lack legitimate authority",
     "explanation": "Defending against authority influence involves checking for legitimate authority credentials rather than relying solely on symbols like uniforms or confident demeanor.",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Hanging up immediately to avoid further persuasion attempts",
       "Asking for their name, employee ID, and callback number",
-      "Hanging up and independently calling Microsoft using their official number",
+      "Hanging up and independently calling Microsoft using their",
       "Checking whether the caller sounds professional and knowledgeable"
     ],
-    "answer": "Hanging up and independently calling Microsoft using their official number",
+    "answer": "Hanging up and independently calling Microsoft using their",
     "explanation": "The strongest defense is to break contact and independently verify the authority through trusted channels. Asking for credentials is weak (scammers can fabricate IDs), and judging professionalism is unreliable. This demonstrates the general strategy: pause, verify through independent channels, then respond.",
     "difficulty": "medium"
   }

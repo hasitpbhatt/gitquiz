@@ -5,11 +5,11 @@
     "description": "An insurance startup is deciding whether to cover 100 people or 100,000 people for health insurance. Why is the larger group statistically safer for the company's financial stability?",
     "options": [
       "Because larger groups pay higher individual premiums",
-      "Because the average outcome becomes more predictable and less volatile",
+      "Because the average outcome becomes more predictable and less",
       "Because it is impossible for 100,000 people to get sick at once",
       "Because the government only regulates groups over 10,000"
     ],
-    "answer": "Because the average outcome becomes more predictable and less volatile",
+    "answer": "Because the average outcome becomes more predictable and less",
     "explanation": "With a large sample size, individual variations (outliers) cancel each other out, making the total cost of claims highly predictable according to the Law of Large Numbers.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Professional athletes in peak condition",
       "Young individuals with no history of illness",
-      "Individuals with chronic, high-risk health conditions",
+      "Individuals with chronic, high-risk health",
       "Financial advisors looking for tax breaks"
     ],
-    "answer": "Individuals with chronic, high-risk health conditions",
+    "answer": "Individuals with chronic, high-risk health",
     "explanation": "Those who know they are high-risk have a greater incentive to buy insurance at a flat rate. If the company cannot distinguish between high and low risk, they will suffer from adverse selection.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Why is it much easier for a company to provide 'Bicycle Theft Insurance' than 'War and Civil Unrest Insurance'?",
     "options": [
       "War insurance is illegal in most countries",
-      "Bicycle thefts are independent events, while war affects everyone simultaneously",
+      "Bicycle thefts are independent events, while war",
       "Bicycles are more expensive than the costs of war",
       "There are more bicycles in the world than soldiers"
     ],
-    "answer": "Bicycle thefts are independent events, while war affects everyone simultaneously",
+    "answer": "Bicycle thefts are independent events, while war",
     "explanation": "Insurance relies on the fact that only a small percentage of people claim at once. A war is a 'correlated risk' where everyone claims simultaneously, which breaks the pooling model.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "In a private savings account, your money is yours alone. In a Social Insurance system like Social Security, what happens to the funds?",
     "options": [
       "They are kept in a vault with your name on it",
-      "They are pooled to provide benefits based on collective societal needs",
+      "They are pooled to provide benefits based on",
       "They are invested exclusively in the stock market",
       "They are destroyed to prevent inflation"
     ],
-    "answer": "They are pooled to provide benefits based on collective societal needs",
+    "answer": "They are pooled to provide benefits based on",
     "explanation": "Social insurance functions by pooling contributions from the working population to support those currently in need (the retired or disabled), spreading the risk of poverty across the entire population.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "A local Florida insurance company is worried that a single massive hurricane could wipe out all their cash reserves. What is their best strategy to stay in business?",
     "options": [
       "Stop selling insurance entirely",
-      "Increase their own insurance by purchasing reinsurance",
+      "Increase their own insurance by purchasing",
       "Tell policyholders they won't pay if a hurricane hits",
       "Lower their premiums to get more customers"
     ],
-    "answer": "Increase their own insurance by purchasing reinsurance",
+    "answer": "Increase their own insurance by purchasing",
     "explanation": "Reinsurance allows local companies to pass on some of their 'peak risks' to global markets, ensuring that even in a catastrophe, the local company can honor its claims.",
     "difficulty": "easy"
   },

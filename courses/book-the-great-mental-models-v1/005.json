@@ -5,11 +5,11 @@
     "description": "A city council cuts funding for preventive mental health services to balance this year's budget, saving money immediately. What level of thinking are they using?",
     "options": [
       "Second-order thinking — considering long-term effects",
-      "First-order thinking — immediate budget benefit ignoring downstream costs",
+      "First-order thinking — immediate budget benefit",
       "Probabilistic thinking",
       "Inversion"
     ],
-    "answer": "First-order thinking — immediate budget benefit ignoring downstream costs",
+    "answer": "First-order thinking — immediate budget benefit",
     "explanation": "First-order thinking sees only the immediate, direct result (saved money this year). Second-order thinking would ask: \"And then what?\" — emergency room costs, increased homelessness, and higher long-term social services spending.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A company offers a bonus per bug fixed to improve software quality. Developers start introducing minor bugs just to fix them for the bonus. What does this perverse outcome demonstrate?",
     "options": [
       "Effective incentive design",
-      "The Cobra Effect — incentive produces more of the problem",
+      "The Cobra Effect —",
       "The Peter Principle",
       "Hanlon's Razor"
     ],
-    "answer": "The Cobra Effect — incentive produces more of the problem",
+    "answer": "The Cobra Effect —",
     "explanation": "The Cobra Effect occurs when a well-intentioned solution creates perverse incentives that make the original problem worse. The British cobra bounty incentivized cobra breeding. The bug bounty incentivized bug creation.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A city introduces a non-native fish species to control algae in a lake without studying the full ecosystem. The fish eats the algae but also decimates native species and breeds uncontrollably. What case study parallels this?",
     "options": [
       "The Cobra Effect in India",
-      "The Cane Toads in Australia — catastrophic unintended consequences",
+      "The Cane Toads in",
       "The Maginot Line",
       "The LTCM collapse"
     ],
-    "answer": "The Cane Toads in Australia — catastrophic unintended consequences",
+    "answer": "The Cane Toads in",
     "explanation": "The cane toad introduction failed because nobody asked \"And then what?\" beyond the first level. The toads didn't eat the beetles but destroyed the ecosystem. Second-order thinking would have revealed the ecological risks before introduction.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A sales team is paid entirely on new customer acquisition. They sign up low-quality customers who churn quickly, inflating short-term revenue but destroying long-term profitability. What explains this behavior?",
     "options": [
       "The sales team is incompetent",
-      "Incentive misalignment — commissions incentivize bad outcomes",
+      "Incentive misalignment —",
       "The product is not good enough",
       "Customers are irrational"
     ],
-    "answer": "Incentive misalignment — commissions incentivize bad outcomes",
+    "answer": "Incentive misalignment —",
     "explanation": "When first-order incentives reward immediate results, people optimize for those results even if they create disastrous downstream effects. Aligning incentives with second-order outcomes — like retention bonuses — solves this.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Your company plans to dramatically undercut competitor pricing. Using a proper second-order thinking tool, what should you analyze beyond the immediate sales boost?",
     "options": [
       "Nothing — lower prices always increase sales",
-      "Competitor responses, customer behavior shifts, and systemic stresses over time",
+      "Competitor responses, customer behavior",
       "Only the impact on this quarter's revenue",
       "Whether the CEO approves the price change"
     ],
-    "answer": "Competitor responses, customer behavior shifts, and systemic stresses over time",
+    "answer": "Competitor responses, customer behavior",
     "explanation": "The consequence tree examines each first-order outcome and asks \"And then what?\" across three dimensions: competitor responses, user/client behavioral shifts, and systemic stress on dependencies.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A product manager says, \"If we add a referral bonus, users will invite their friends.\" A systems thinker responds with a single follow-up question. What is it?",
     "options": [
       "\"How much will the bonus cost?\"",
-      "\"And then what?\" — tracing cascading referral effects",
+      "\"And then what?\" — tracing cascading",
       "\"Which competitors use referral bonuses?\"",
       "\"Will the CEO approve this?\""
     ],
-    "answer": "\"And then what?\" — tracing cascading referral effects",
+    "answer": "\"And then what?\" — tracing cascading",
     "explanation": "The relentless \"And then what?\" is the engine of second-order thinking. First order: users invite friends. Second order: those friends may be less engaged. Third order: your original user base becomes incentivized to spam. Each layer reveals new dynamics.",
     "difficulty": "easy"
   },
@@ -90,10 +90,10 @@
     "options": [
       "First-order thinking",
       "Second-order thinking",
-      "Third-order thinking — systemic permanent changes to the environment",
+      "Third-order thinking —",
       "Probabilistic thinking"
     ],
-    "answer": "Third-order thinking — systemic permanent changes to the environment",
+    "answer": "Third-order thinking —",
     "explanation": "Third-order consequences reshape the system itself — here, the brand's reputation permanently shifts in the market. This level of consequence is harder to trace but often the most impactful.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "An airline cuts fares to gain market share, expecting sustained profits from higher volume. It fails to anticipate that competitors will immediately match the lower prices, triggering a price war that hurts everyone. What was missed?",
     "options": [
       "The airline needed better marketing",
-      "Airline ignored competitor response — assumed rivals would remain passive",
+      "Airline ignored competitor response —",
       "Price cuts never work in any industry",
       "The airline should have cut prices even more"
     ],
-    "answer": "Airline ignored competitor response — assumed rivals would remain passive",
+    "answer": "Airline ignored competitor response —",
     "explanation": "Second-order thinking requires modeling how competitors, users, and regulators will adapt. Assuming rivals stay passive is a classic blind spot. When everyone responds, the expected benefit evaporates.",
     "difficulty": "hard"
   }

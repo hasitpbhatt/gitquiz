@@ -5,11 +5,11 @@
     "description": "After signing a petition supporting environmental conservation, a person is more likely to donate money to an environmental group because:",
     "options": [
       "They genuinely changed their mind about the environment",
-      "They want to appear consistent with their prior commitment",
+      "They want to appear consistent with their prior",
       "The environmental group contacted them repeatedly",
       "They received a free gift for signing the petition"
     ],
-    "answer": "They want to appear consistent with their prior commitment",
+    "answer": "They want to appear consistent with their prior",
     "explanation": "The initial act of signing the petition creates a self-image of being an environmental supporter, creating internal pressure to act consistently with that identity through subsequent actions like donating.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A canvasser asks you to sign a petition supporting clean water. You agree. The next day, they ask you to sponsor a child overseas at $50/month. You refuse. Your refusal is best explained by:",
     "options": [
       "You never truly believed in clean water access despite signing",
-      "The gap between signing a petition and monthly sponsorship is too large for consistency to bridge",
+      "The gap between signing a petition and monthly sponsorship is too large for",
       "You suspect the charity is fraudulent despite having signed their petition",
       "Reciprocity would have been more persuasive than consistency in this situation"
     ],
-    "answer": "The gap between signing a petition and monthly sponsorship is too large for consistency to bridge",
+    "answer": "The gap between signing a petition and monthly sponsorship is too large for",
     "explanation": "Consistency transfer depends on the similarity between the initial and subsequent requests. Signing a petition (one-time, effort-free) creates the self-image of 'someone who supports clean water.' But monthly sponsorship (ongoing, costly) requires a different level of commitment. The identity created by the small act does not extend far enough to compel the larger one. This is a boundary condition: foot-in-the-door works best with graduated, same-domain requests.",
     "difficulty": "hard"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Their friends will remind them not to smoke",
       "They receive public praise for trying",
-      "The public commitment creates stronger consistency pressure",
+      "The public commitment creates stronger",
       "Social media reduces cravings for cigarettes"
     ],
-    "answer": "The public commitment creates stronger consistency pressure",
+    "answer": "The public commitment creates stronger",
     "explanation": "Public commitments tie our self-image to social reputation. Backing out would require admitting inconsistency to others, creating stronger motivation to follow through than with private commitments.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A weight loss program asks participants to write down their goals rather than just state them verbally because:",
     "options": [
       "Writing is easier than speaking for most people",
-      "Written goals create stronger consistency pressure than verbal ones",
+      "Written goals create stronger consistency pressure",
       "The program can check if goals are written correctly",
       "Writing burns more calories than talking"
     ],
-    "answer": "Written goals create stronger consistency pressure than verbal ones",
+    "answer": "Written goals create stronger consistency pressure",
     "explanation": "The tangible nature of written commitments makes them harder to dismiss or forget, creating a persistent reminder that influences behavior through consistency motivations.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "A person donates to an environmental charity. Later they buy a gas-guzzling SUV. Instead of feeling hypocritical, they decide 'the research on emissions is exaggerated.' This is best explained by:",
     "options": [
       "Consistency — they are staying true to their desire for a comfortable vehicle",
-      "Cognitive dissonance — they changed their beliefs to justify the inconsistent action",
+      "Cognitive dissonance — they changed their beliefs to justify the inconsistent",
       "Social proof — their friends also drive SUVs",
       "Reciprocity — the charity should have given them something first"
     ],
-    "answer": "Cognitive dissonance — they changed their beliefs to justify the inconsistent action",
+    "answer": "Cognitive dissonance — they changed their beliefs to justify the inconsistent",
     "explanation": "Cognitive dissonance creates discomfort when actions conflict with beliefs. Instead of changing the behavior or tolerating the inconsistency, the person resolves discomfort by changing their belief about emissions. This differs from consistency, which involves aligning future actions with a prior commitment.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A manager funds a failing project for three years because 'we have already invested too much to stop.' Her team privately calls this 'throwing good money after bad.' The psychological mechanism at work is:",
     "options": [
       "Consistency with the original decision to start the project",
-      "The sunk cost fallacy driving continued investment despite evidence",
+      "The sunk cost fallacy driving continued investment despite",
       "Social proof from other departments running similar projects",
       "Scarcity of other investment opportunities"
     ],
-    "answer": "The sunk cost fallacy driving continued investment despite evidence",
+    "answer": "The sunk cost fallacy driving continued investment despite",
     "explanation": "The sunk cost fallacy is a specific form of escalating commitment where past investment drives continued spending despite negative returns. While consistency with the original decision plays a supporting role, the core mechanism is the irrational weighting of sunk costs over future expected value.",
     "difficulty": "medium"
   }

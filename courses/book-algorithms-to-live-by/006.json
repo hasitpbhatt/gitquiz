@@ -18,12 +18,12 @@
     "content": "Regularization techniques add a penalty for model complexity to prevent overfitting, encouraging simpler models that generalize better.",
     "description": "A web designer is considering removing decorative animations and complex interactions from an interface to improve usability. What principle are they applying?",
     "options": [
-      "Regularization - removing unnecessary complexity to improve general usability and",
+      "Regularization - removing unnecessary complexity",
       "Always adding more features makes things better",
       "Users prefer the most complex possible interface",
       "Animation is never problematic"
     ],
-    "answer": "Regularization - removing unnecessary complexity to improve general usability and",
+    "answer": "Regularization - removing unnecessary complexity",
     "explanation": "Like L1/L2 regularization in machine learning that penalizes complexity, the designer is applying Occam's Razor principle: preferring simpler solutions that work well over complex ones that may be brittle or confusing to most users.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "The \"Less-is-More\" effect describes situations where limiting information, options, or consideration leads to better decisions than analyzing all available data.",
     "description": "A basketball player is deciding whether to overthink their shooting mechanics during a game or rely on muscle memory. What should they do?",
     "options": [
-      "Rely on muscle memory and practiced routine rather than overthinking mechanics in the moment",
+      "Rely on muscle memory and practiced routine rather than",
       "Analyze every muscle movement and joint angle before each shot",
       "Close their eyes and shoot randomly",
       "Ask the crowd for advice on each shot"
     ],
-    "answer": "Rely on muscle memory and practiced routine rather than overthinking mechanics in the moment",
+    "answer": "Rely on muscle memory and practiced routine rather than",
     "explanation": "In high-pressure situations, over-analysis can lead to paralysis. Trusting trained intuition (like a regularized model) often yields better results than trying to optimize every variable in real-time.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Continuous relaxation replaces discrete or integer variables with continuous ones to make a problem tractable, then rounds or adjusts the solution.",
     "description": "You're planning a multi-city trip and want to minimize travel time. How could continuous relaxation help?",
     "options": [
-      "Treat travel times as flexible blocks that can be adjusted,",
+      "Treat travel times as flexible blocks that can be",
       "Only visit cities that are alphabetically consecutive",
       "Always take the longest possible route between cities",
       "Never plan any trips because they're too complex"
     ],
-    "answer": "Treat travel times as flexible blocks that can be adjusted,",
+    "answer": "Treat travel times as flexible blocks that can be",
     "explanation": "Instead of agonizing over exact minute-by-minute scheduling, treat time allocations as adjustable blocks. Find a good overall distribution, then refine to specific times - similar to how integer programming uses continuous relaxation.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "Cross-validation assesses how a model will generalize to unseen data by partitioning data into training and validation sets in multiple ways.",
     "description": "A sales team is testing a new pitch approach. How should they validate its effectiveness before a full rollout?",
     "options": [
-      "Test the pitch on an entirely different demographic group than their usual customers",
+      "Test the pitch on an entirely different demographic group",
       "Only test it on their most enthusiastic existing customers",
       "Assume it will work because it sounds good in theory",
       "Use the exact same customers for testing and final deployment"
     ],
-    "answer": "Test the pitch on an entirely different demographic group than their usual customers",
+    "answer": "Test the pitch on an entirely different demographic group",
     "explanation": "Like cross-validation in machine learning, testing on a genuinely different population (out-of-sample) gives a better estimate of real-world performance than testing only on familiar data that may have influenced the approach's development.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "\"Gradually, then Suddenly\" shifts describe systems where incremental changes accumulate until reaching a tipping point that triggers abrupt, large-scale change.",
     "description": "You've noticed increasing friction in a work approval process where each step requires slightly more documentation. What might happen eventually?",
     "options": [
-      "Small increases in required documentation could eventually cause massive backlogs and",
+      "Small increases in required documentation could",
       "The process will become perfectly efficient over time",
       "People will stop working altogether immediately",
       "The documentation will spontaneously disappear"
     ],
-    "answer": "Small increases in required documentation could eventually cause massive backlogs and",
+    "answer": "Small increases in required documentation could",
     "explanation": "Like phase transitions in physics, gradual increases in friction or requirements can accumulate until a critical threshold is reached, after which the system behavior changes dramatically and suddenly - often to a much worse state.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "Occam's Razor (the principle of parsimony) states that among competing hypotheses that explain the data equally well, the simplest is preferable.",
     "description": "A patient has fever, headache, and muscle aches. A doctor is deciding between diagnosing three separate illnesses or one condition that explains all symptoms. What should they consider?",
     "options": [
-      "Prefer the single diagnosis that explains all symptoms if it's scientifically plausible",
+      "Prefer the single diagnosis that explains all symptoms if it's",
       "Always diagnose the maximum number of possible conditions",
       "Choose the diagnosis that requires the most expensive treatments",
       "Flip a coin to decide which illnesses the patient has"
     ],
-    "answer": "Prefer the single diagnosis that explains all symptoms if it's scientifically plausible",
+    "answer": "Prefer the single diagnosis that explains all symptoms if it's",
     "explanation": "Occam's Razor favors explanations with fewer moving parts. If one condition like influenza can plausibly cause all observed symptoms, it's preferable to diagnosing three separate unrelated conditions unless evidence strongly suggests otherwise.",
     "difficulty": "hard"
   },
@@ -116,12 +116,12 @@
     "content": "Early stopping halts model training when performance on a validation set stops improving, preventing overfitting to training data.",
     "description": "You're writing a novel and notice you've been editing the same chapter for weeks, making it worse rather than better. What should you do?",
     "options": [
-      "Stop editing and move on - further changes are likely to decrease quality rather than improve it",
+      "Stop editing and move on - further changes are likely to",
       "Continue editing indefinitely until it's 'perfect'",
       "Show the chapter to absolutely everyone you know for feedback",
       "Delete the chapter and start over from scratch"
     ],
-    "answer": "Stop editing and move on - further changes are likely to decrease quality rather than improve it",
+    "answer": "Stop editing and move on - further changes are likely to",
     "explanation": "Like early stopping in machine learning that halts training when validation performance plateaus, recognizing when additional work degrades rather than improves quality is crucial for knowing when to declare a creative work finished.",
     "difficulty": "hard"
   }

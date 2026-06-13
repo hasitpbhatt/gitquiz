@@ -5,11 +5,11 @@
     "description": "A company redesigns its office cafeteria. They place salad ingredients at eye level in the first cooler, desserts in a separate corner behind a pillar, and remove trays so employees must carry each item individually. Salad sales increase 40%. Dessert sales drop 25%. Critics argue this is manipulative choice architecture that infringes on freedom. Proponents argue it preserves full choice while respecting how the brain actually works. Which reasoning best defends the design as ethical rather than manipulative?",
     "options": [
       "The changes are ethical because salad is objectively healthier than dessert, and companies have a duty to promote health",
-      "The changes are ethical because every food option remains available with equal effort to access; no choice is removed or penalized",
+      "The changes are ethical because every food option remains available with equal effort to access; no choice is removed",
       "The changes are ethical because the company disclosed the redesign intent in a company-wide email before implementation",
       "The changes are ethical because employees can still ask staff to retrieve any item from the back, preserving full access"
     ],
-    "answer": "The changes are ethical because every food option remains available with equal effort to access; no choice is removed or penalized",
+    "answer": "The changes are ethical because every food option remains available with equal effort to access; no choice is removed",
     "explanation": "Libertarian paternalism argues that environment design is ethical when it steers without restricting. All foods are equally available and equally priced. The design works with the brain's visual dominance (50% of neural resources) rather than against it. Employees remain free to walk to the dessert corner and carry it on a tray. The choice architecture merely changes what is noticed first, which compensates for the mismatch between evolved attention systems and modern food environments.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "An office manager wants employees to drink more water without banning soda. What environmental change works best?",
     "options": [
       "Send a company email about sugar dangers",
-      "Place water bottles at eye level in coolers and move sodas to the bottom",
+      "Place water bottles at eye level in coolers and",
       "Increase the price of soda in the vending machine",
       "Post posters of athletes drinking water"
     ],
-    "answer": "Place water bottles at eye level in coolers and move sodas to the bottom",
+    "answer": "Place water bottles at eye level in coolers and",
     "explanation": "This is choice architecture. By placing the healthier option in the direct line of sight, the brain visual dominance drives better choices without banning anything.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Buy a more comfortable pillow",
       "Drink coffee earlier to be tired at night",
-      "Use the bed only for sleep and move all work to a desk",
+      "Use the bed only for sleep and move all",
       "Set a timer to turn off the laptop at 10 PM"
     ],
-    "answer": "Use the bed only for sleep and move all work to a desk",
+    "answer": "Use the bed only for sleep and move all",
     "explanation": "When contexts are mixed, cues become blurred. Dedicating the bed strictly to sleep makes the physical environment an unmistakable cue for rest.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Use willpower to ignore the games while writing",
       "Delete all games every time they want to write",
-      "Find a specific corner of a library where they only write",
+      "Find a specific corner of a library where they",
       "Promise a gaming reward after finishing writing"
     ],
-    "answer": "Find a specific corner of a library where they only write",
+    "answer": "Find a specific corner of a library where they",
     "explanation": "Every space has associations based on past habits. Creating a writing-only zone builds a clean association where the environment itself triggers the writing mindset.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Someone wants to practice guitar more often. Which setup is most effective?",
     "options": [
       "Keep the guitar in its case inside a closet",
-      "Put the guitar on a stand in the middle of the living room",
+      "Put the guitar on a stand in the middle of the",
       "Store the guitar at a friend house to force travel",
       "Rely on memory to take the guitar out when free"
     ],
-    "answer": "Put the guitar on a stand in the middle of the living room",
+    "answer": "Put the guitar on a stand in the middle of the",
     "explanation": "Out of sight, out of mind. Making the guitar a permanent visible fixture ensures the cue is constantly present, making it much more likely you will pick it up.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Why is relying on willpower to resist junk food usually a failing strategy?",
     "options": [
       "Because willpower is a fixed resource that never grows",
-      "Because you must exercise willpower every time you see the food, which is exhausting",
+      "Because you must exercise willpower every time you see",
       "Because junk food is biologically addictive",
       "Because willpower only works for athletic people"
     ],
-    "answer": "Because you must exercise willpower every time you see the food, which is exhausting",
+    "answer": "Because you must exercise willpower every time you see",
     "explanation": "Willpower depletes. If junk food is on the counter, you must say no dozens of times daily. If you do not buy it, you only say no once at the store. Environment wins.",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Study at a different coffee shop each day for variety",
       "Study on the bed while the TV plays in the background",
-      "Use the same quiet library desk at the same time each day",
+      "Use the same quiet library desk at the same time each",
       "Study at the dining table while family eats dinner"
     ],
-    "answer": "Use the same quiet library desk at the same time each day",
+    "answer": "Use the same quiet library desk at the same time each",
     "explanation": "Consistency in location builds a strong association. Over time, simply sitting at that specific desk automatically triggers study mode because the cues are stable.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Someone wants to reduce alcohol at home. What is an effective Make it Invisible environmental change?",
     "options": [
       "Buy smaller glasses for drinks",
-      "Store the alcohol in a high cabinet that requires a stool to reach",
+      "Store the alcohol in a high cabinet that requires",
       "Read a book about the negative effects of alcohol",
       "Make a pact with a friend to stop drinking"
     ],
-    "answer": "Store the alcohol in a high cabinet that requires a stool to reach",
+    "answer": "Store the alcohol in a high cabinet that requires",
     "explanation": "Moving alcohol out of sight removes the visual cue, and adding friction by making it harder to reach stops the autopilot habit of pouring a drink.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Someone wants to exercise first thing in the morning. How can they prime the environment the night before?",
     "options": [
       "Set three different alarms on the phone",
-      "Lay out workout clothes and shoes right next to the bed",
+      "Lay out workout clothes and shoes right",
       "Promise a big breakfast after the workout",
       "Visualize how great they will look fit"
     ],
-    "answer": "Lay out workout clothes and shoes right next to the bed",
+    "answer": "Lay out workout clothes and shoes right",
     "explanation": "Laying out clothes makes the cue obvious the moment you wake up and primes the environment so the response of getting dressed requires zero friction.",
     "difficulty": "medium"
   }

@@ -5,11 +5,11 @@
     "description": "A political poll surveys 1,000 registered voters and predicts a candidate will win 52% to 48%. The actual election result is 51% to 49%. How did a sample of only 1,000 accurately predict millions of votes?",
     "options": [
       "The pollsters were lucky to pick the right voters",
-      "A well-constructed random sample of sufficient size can reliably estimate population parameters",
+      "A well-constructed random sample of sufficient size can reliably estimate",
       "1,000 voters is a large enough sample to guarantee accuracy in any election",
       "The poll surveyed an equal number of Democrats and Republicans"
     ],
-    "answer": "A well-constructed random sample of sufficient size can reliably estimate population parameters",
+    "answer": "A well-constructed random sample of sufficient size can reliably estimate",
     "explanation": "With random sampling and proper methodology, a relatively small sample can produce accurate estimates due to the law of large numbers and the Central Limit Theorem.",
     "difficulty": "easy"
   },
@@ -19,25 +19,25 @@
     "description": "In 1936, The Literary Digest polled over 2 million people and predicted Alf Landon would win the presidency. Franklin D. Roosevelt won in a landslide. What went wrong despite the massive sample?",
     "options": [
       "2 million is not a large enough sample for a national election",
-      "The sample drew from phone directories and car registrations, skewing toward the wealthy \u2014 massive selection bias",
+      "The sample drew from phone directories and car registrations,",
       "People lied to the pollsters about their voting intentions",
       "The poll was conducted too far before the election"
     ],
-    "answer": "The sample drew from phone directories and car registrations, skewing toward the wealthy \u2014 massive selection bias",
-    "explanation": "No amount of sample size can fix a biased sampling method. The Literary Digest\u2019s sample was unrepresentative because only wealthier citizens had phones and cars in 1936. Selection bias rendered the data worthless.",
+    "answer": "The sample drew from phone directories and car registrations,",
+    "explanation": "No amount of sample size can fix a biased sampling method. The Literary Digest’s sample was unrepresentative because only wealthier citizens had phones and cars in 1936. Selection bias rendered the data worthless.",
     "difficulty": "medium"
   },
   {
     "question": "Central Limit Theorem",
     "content": "As sample size increases, the distribution of sample means approaches a normal distribution regardless of the shape of the population distribution. This enables statistical inference from samples.",
-    "description": "A population of website visit durations is highly skewed \u2014 most visits are under 2 minutes but a few last hours. Yet if you take many samples of 30+ visits and plot their averages, the averages form a bell curve. What theorem explains this?",
+    "description": "A population of website visit durations is highly skewed — most visits are under 2 minutes but a few last hours. Yet if you take many samples of 30+ visits and plot their averages, the averages form a bell curve. What theorem explains this?",
     "options": [
       "The law of diminishing returns",
-      "The Central Limit Theorem \u2014 sample means approach normality regardless of population shape",
+      "The Central Limit Theorem — sample means approach",
       "Regression to the mean of visit durations",
       "The law of large numbers only applies to large samples"
     ],
-    "answer": "The Central Limit Theorem \u2014 sample means approach normality regardless of population shape",
+    "answer": "The Central Limit Theorem — sample means approach",
     "explanation": "The Central Limit Theorem is what makes sampling work. Even from a skewed or bizarrely shaped population, the averages of sufficiently large samples will be approximately normally distributed.",
     "difficulty": "hard"
   },
@@ -46,12 +46,12 @@
     "content": "Beyond a certain point, increasing sample size yields diminishing returns in accuracy. The key factor is sample quality (randomness, representativeness), not absolute size.",
     "description": "A market research firm offers two options: survey 500 carefully selected random customers for $10,000, or survey 50,000 self-selected website visitors for $5,000. Which is likely more reliable?",
     "options": [
-      "The 50,000 survey \u2014 larger sample always means better accuracy",
-      "The 500 carefully selected random sample \u2014 representativeness matters more than raw size",
+      "The 50,000 survey — larger sample always means better accuracy",
+      "The 500 carefully selected random sample — representativeness matters",
       "Both are equally reliable since sample size is sufficient in both cases",
-      "Neither is reliable \u2014 you need at least 100,000 responses"
+      "Neither is reliable — you need at least 100,000 responses"
     ],
-    "answer": "The 500 carefully selected random sample \u2014 representativeness matters more than raw size",
+    "answer": "The 500 carefully selected random sample — representativeness matters",
     "explanation": "A self-selected sample of 50,000 can have huge selection bias (only people with strong opinions respond). A well-constructed random sample of 500 is more representative and produces more accurate estimates.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "When collecting data for strategic decisions, prioritize the integrity and randomness of the sample over its sheer size. Ensure test cohorts accurately mirror the diverse profiles of the actual end-user base.",
     "description": "A company wants to launch a product globally but only surveys existing customers in San Francisco. According to the representation rule, what is the problem?",
     "options": [
-      "San Francisco customers differ from the global market \u2014 the sample is biased",
+      "San Francisco customers differ from the global",
       "San Francisco is too expensive for survey research",
       "Existing customers cannot provide reliable feedback",
       "The sample size from a single city is too small"
     ],
-    "answer": "San Francisco customers differ from the global market \u2014 the sample is biased",
+    "answer": "San Francisco customers differ from the global",
     "explanation": "If your target population is global buyers, sampling only from San Francisco introduces geographic, economic, and cultural selection bias. The conclusions cannot be generalized beyond that narrow segment.",
     "difficulty": "medium"
   },
@@ -75,40 +75,40 @@
     "description": "A website changes its checkout button color from blue to green. Week one uses green and conversions drop 10%. Week two reverts to blue and conversions return to normal. What is missing from this test?",
     "options": [
       "The test ran for too short a duration",
-      "No simultaneous control group \u2014 day-of-week effects could explain the difference, not the color change",
+      "No simultaneous control group — day-of-week",
       "Green is an objectively worse color for buttons",
       "The conversion metric was miscalculated"
     ],
-    "answer": "No simultaneous control group \u2014 day-of-week effects could explain the difference, not the color change",
+    "answer": "No simultaneous control group — day-of-week",
     "explanation": "True A/B testing requires random assignment of users to both versions simultaneously. Sequential testing confounds the change with time-based factors. Proper sampling requires concurrent control and treatment groups.",
     "difficulty": "hard"
   },
   {
     "question": "Destructive Sampling",
-    "content": "In some contexts, sampling is destructive \u2014 testing destroys the item. Therefore, sample size must be carefully balanced to ensure confidence without excessive waste.",
+    "content": "In some contexts, sampling is destructive — testing destroys the item. Therefore, sample size must be carefully balanced to ensure confidence without excessive waste.",
     "description": "A bulletproof vest manufacturer must test that vests stop bullets. Each test destroys a vest. How should they determine the number of vests to test from each production batch?",
     "options": [
       "Test every single vest to guarantee quality",
-      "Use statistical sampling \u2014 test a random sample to estimate the failure rate with acceptable confidence",
+      "Use statistical sampling — test a random sample to estimate",
       "Test only one vest per batch to minimize waste",
       "Do not test any vests and rely on the manufacturing process"
     ],
-    "answer": "Use statistical sampling \u2014 test a random sample to estimate the failure rate with acceptable confidence",
+    "answer": "Use statistical sampling — test a random sample to estimate",
     "explanation": "When testing destroys the product, sampling is the only option. Statistical methods determine the minimum sample size needed to achieve a given confidence level in the quality estimate.",
     "difficulty": "medium"
   },
   {
     "question": "Sampling Error",
-    "content": "Sampling error is the difference between the sample estimate and the true population value. It decreases as sample size increases but never reaches zero \u2014 there is always uncertainty.",
+    "content": "Sampling error is the difference between the sample estimate and the true population value. It decreases as sample size increases but never reaches zero — there is always uncertainty.",
     "description": "A poll of 1,000 voters reports a 3% margin of error. What does the 3% represent?",
     "options": [
       "The pollsters made a mistake in 3% of the calls",
-      "The true population value lies within 3% of the reported number 95% of the time",
+      "The true population value lies within 3% of the",
       "3% of voters are undecided and could change the outcome",
       "The poll is 97% accurate and 3% inaccurate"
     ],
-    "answer": "The true population value lies within 3% of the reported number 95% of the time",
-    "explanation": "Margin of error quantifies sampling uncertainty. It means if the same poll were repeated 100 times, the result would fall within \u00b13% of the true population value 95 times. It is a measure of precision, not accuracy.",
+    "answer": "The true population value lies within 3% of the",
+    "explanation": "Margin of error quantifies sampling uncertainty. It means if the same poll were repeated 100 times, the result would fall within ±3% of the true population value 95 times. It is a measure of precision, not accuracy.",
     "difficulty": "hard"
   }
 ]

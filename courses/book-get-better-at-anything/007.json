@@ -5,11 +5,11 @@
     "description": "Someone terrified of public speaking avoids all opportunities to present. According to Fears Fade with Exposure, what should they do?",
     "options": [
       "Continue avoiding public speaking since fear is protective",
-      "Start with small, low-stakes speaking situations and gradually increase audience size",
+      "Start with small, low-stakes speaking situations and gradually increase",
       "Force themselves to give a keynote speech immediately to conquer the fear",
       "Take medication to eliminate anxiety before speaking"
     ],
-    "answer": "Start with small, low-stakes speaking situations and gradually increase audience size",
+    "answer": "Start with small, low-stakes speaking situations and gradually increase",
     "explanation": "Gradual exposure retrains the brain that speaking situations are safe. Starting small builds confidence and prevents overwhelming anxiety, allowing fear to fade naturally through experience.",
     "difficulty": "medium"
   },

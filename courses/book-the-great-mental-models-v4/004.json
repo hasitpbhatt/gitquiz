@@ -32,12 +32,12 @@
     "content": "Warren Buffett writes annual letters assuming his intelligent but non-professional sisters are the audience, forcing clarity and accessibility.",
     "description": "A hedge fund manager drafts a quarterly letter to investors filled with alpha, beta, Sharpe ratios, and options strategies. Her mentor advises her to rewrite it so her college-aged nephew could understand it. She resists, arguing that sophisticated investors expect technical detail. What principle is the mentor trying to apply?",
     "options": [
-      "Genre conformity",
+      "Genre conformity approach",
       "Contrast framing",
-      "The audience model",
+      "Audience approach",
       "Cognitive ease"
     ],
-    "answer": "The audience model",
+    "answer": "Audience approach",
     "explanation": "The mentor is applying Buffett's Audience model approach—writing for an intelligent non-professional. The manager's technical jargon may impress peers but fails to communicate with the actual audience, which includes investors of varying sophistication. The goal is accessibility, not demonstrating expertise.",
     "difficulty": "hard"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Contrast",
       "Audience",
-      "Genre",
+      "Genre model",
       "Network effects"
     ],
-    "answer": "Genre",
+    "answer": "Genre model",
     "explanation": "The audience walked in expecting romantic comedy conventions—a happy ending and emotional resolution—and the film violated that cognitive contract. Genre creates expectations; breaking them without warning feels like a betrayal.",
     "difficulty": "medium"
   },
@@ -62,10 +62,10 @@
     "options": [
       "Contrast",
       "Audience",
-      "Genre",
-      "Scarcity"
+      "Genre model",
+      "Scarcity principle"
     ],
-    "answer": "Genre",
+    "answer": "Genre model",
     "explanation": "The musician overlooked Genre conventions. Classical quartet performance follows a genre where playing the score as written is the norm. Jazz follows a different genre where improvisation is expected. Neither approach is wrong—they belong to different genres with different rules.",
     "difficulty": "easy"
   },
@@ -74,7 +74,7 @@
     "content": "Master genre conventions before consciously violating them for artistic or rhetorical effect.",
     "description": "An independent game studio creates a survival horror game. Playtesting reveals that players expect health packs in brightly lit rooms—a standard genre convention. The designers place a health pack in a dark room that triggers a monster encounter when picked up. Players report this as the most memorable moment in the game. What does this exemplify?",
     "options": [
-      "Audience-driven design",
+      "Audience-driven design principles",
       "Contrast amplification",
       "Strategic genre violation",
       "Cognitive overload"
@@ -104,10 +104,10 @@
     "options": [
       "Genre conformity",
       "Audience accommodation",
-      "Chiaroscuro",
+      "Chiaroscuro technique",
       "Cognitive reframing"
     ],
-    "answer": "Chiaroscuro",
+    "answer": "Chiaroscuro technique",
     "explanation": "Chiaroscuro uses strong contrasts between light and dark to create depth and drama. By amplifying both ends of the lighting spectrum in proximity, the photographer makes the face more dimensional. This demonstrates how placing divergent elements together amplifies both.",
     "difficulty": "medium"
   },

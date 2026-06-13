@@ -5,11 +5,11 @@
     "description": "If you estimate that you need an 8% annual return to reach your retirement goal, how should you apply a 'margin of safety' to your plan?",
     "options": [
       "Assume you will get 12% so you can retire earlier.",
-      "Assume you will only get 5% and see if your plan still works.",
+      "Assume you will only get 5% and see if your plan still",
       "Invest in riskier assets to ensure you hit the 8% target.",
       "Assume the 8% is guaranteed because of historical averages."
     ],
-    "answer": "Assume you will only get 5% and see if your plan still works.",
+    "answer": "Assume you will only get 5% and see if your plan still",
     "explanation": "A margin of safety means you don't need the world to be perfect for you to succeed. If your plan only works in a 'best-case' 8% scenario, your plan is fragile.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Why does Housel argue that 'the most important part of every plan is to plan on the plan not going according to plan'?",
     "options": [
       "Because planning is a waste of time.",
-      "Because a plan with no room for error will break the moment reality deviates from your expectations.",
+      "Because a plan with no room for error will break the moment",
       "Because you should always expect the absolute worst to happen.",
       "Because the government requires financial plans to be flexible."
     ],
-    "answer": "Because a plan with no room for error will break the moment reality deviates from your expectations.",
+    "answer": "Because a plan with no room for error will break the moment",
     "explanation": "Life is full of 'surprises.' Room for error ensures that when those surprises happen, they are an inconvenience rather than a total wipeout.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Which of these strategies best removes a 'single point of failure' from your financial life?",
     "options": [
       "Putting all your money into one high-performing stock.",
-      "Having an emergency fund and insurance to cover unexpected disasters.",
+      "Having an emergency fund and insurance to cover unexpected",
       "Working two jobs but spending every cent of both paychecks.",
       "Trusting a single 'expert' to manage all your investments."
     ],
-    "answer": "Having an emergency fund and insurance to cover unexpected disasters.",
+    "answer": "Having an emergency fund and insurance to cover unexpected",
     "explanation": "Redundancy is the friend of survival. If one thing goes wrong (job loss, illness), the rest of your system (savings/insurance) keeps you afloat.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "How does 'room for error' protect you against your own changing desires?",
     "options": [
       "It forces you to stay in the same job forever.",
-      "It provides the financial flexibility to change careers or lifestyles without starting from zero.",
+      "It provides the financial flexibility to change careers or",
       "It prevents you from spending money on anything new.",
       "It makes you more decisive and less likely to change your mind."
     ],
-    "answer": "It provides the financial flexibility to change careers or lifestyles without starting from zero.",
+    "answer": "It provides the financial flexibility to change careers or",
     "explanation": "By having a 'buffer' of wealth, you aren't trapped by the decisions your younger self made. You have the 'room' to change your mind.",
     "difficulty": "medium"
   },
@@ -62,10 +62,10 @@
     "options": [
       "It helps you beat inflation.",
       "It earns loyalty points with your bank.",
-      "It prevents 'forced selling' of your stocks when the market is at its lowest point.",
+      "It prevents 'forced selling' of your stocks when",
       "It makes you look more successful to your peers."
     ],
-    "answer": "It prevents 'forced selling' of your stocks when the market is at its lowest point.",
+    "answer": "It prevents 'forced selling' of your stocks when",
     "explanation": "The value of cash is its ability to protect your other assets. It allows your stocks to keep compounding while you use the cash to live on during a downturn.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "If an investor feels anxious every time the market drops 1%, what does their portfolio lack?",
     "options": [
       "A higher percentage of tech stocks.",
-      "An emotional room for error or a more conservative asset mix.",
+      "An emotional room for error or a more",
       "A better news subscription.",
       "More leverage to increase their returns."
     ],
-    "answer": "An emotional room for error or a more conservative asset mix.",
+    "answer": "An emotional room for error or a more",
     "explanation": "If your nerves break before your bank account does, you've still failed. You need 'room' for your emotions to fluctuate without triggering a panic sale.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "How does this apply to diversification in investing?",
     "options": [
       "You should never play the odds.",
-      "Even a 'good' investment can fail, so you should never bet so much on one thing that its failure ruins you.",
+      "Even a 'good' investment can fail, so you should never bet so",
       "You should only invest in things that are 100% certain.",
       "Luck is more important than strategy, so don't bother with math."
     ],
-    "answer": "Even a 'good' investment can fail, so you should never bet so much on one thing that its failure ruins you.",
+    "answer": "Even a 'good' investment can fail, so you should never bet so",
     "explanation": "Room for error acknowledges that even 'likely' successes aren't 'certain' successes. Diversification is your margin of safety against being right but still losing.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Why does Housel suggest we should stop trying to be 100% 'efficient' with our money?",
     "options": [
       "Because efficiency is a myth.",
-      "Because efficiency is brittle; if one thing goes wrong, the whole system collapses.",
+      "Because efficiency is brittle; if one thing goes wrong, the whole",
       "Because being inefficient makes you more creative.",
       "Because the most efficient people are the ones who pay the most taxes."
     ],
-    "answer": "Because efficiency is brittle; if one thing goes wrong, the whole system collapses.",
+    "answer": "Because efficiency is brittle; if one thing goes wrong, the whole",
     "explanation": "A person who is 'maxed out' on their investments and debt is efficient when times are good, but they are the first to break when the economy turns.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "How does having a 'margin of safety' impact your career decisions?",
     "options": [
       "It makes you lazy and less likely to work hard.",
-      "It allows you to take risks, like starting a business, because you know you can survive a failure.",
+      "It allows you to take risks, like starting a business, because you",
       "It forces you to take the highest-paying job regardless of the stress.",
       "It has no impact on your career, only on your investments."
     ],
-    "answer": "It allows you to take risks, like starting a business, because you know you can survive a failure.",
+    "answer": "It allows you to take risks, like starting a business, because you",
     "explanation": "When you have 'room for error' in your bank account, you have more courage in your career. You can afford to be wrong, which is a requirement for eventual success.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "What is the difference between a gambler and an investor in terms of 'Room for Error'?",
     "options": [
       "The gambler has more fun, while the investor is more bored.",
-      "The gambler relies on a 'best-case' scenario, while the investor plans for a 'worse-than-average' scenario.",
+      "The gambler relies on a 'best-case' scenario, while the",
       "The investor spends more time at the casino.",
       "There is no difference; all investing is gambling."
     ],
-    "answer": "The gambler relies on a 'best-case' scenario, while the investor plans for a 'worse-than-average' scenario.",
+    "answer": "The gambler relies on a 'best-case' scenario, while the",
     "explanation": "Investing is the art of surviving a range of outcomes. Gambling is the hope for one specific outcome. Room for error is the bridge between the two.",
     "difficulty": "hard"
   }

@@ -5,11 +5,11 @@
     "description": "According to Naval, what is the primary difference between a 'generated video' and a 'world model'?",
     "options": [
       "The generated video has higher resolution and better lighting.",
-      "A world model allows an agent to take actions, predict consequences, and adjust behavior via a feedback loop.",
+      "A world model allows an agent to take actions, predict consequences, and adjust",
       "Generated videos are only made by OpenAI, while world models are made by Yann LeCun.",
       "There is no difference; they are two names for the same technology."
     ],
-    "answer": "A world model allows an agent to take actions, predict consequences, and adjust behavior via a feedback loop.",
+    "answer": "A world model allows an agent to take actions, predict consequences, and adjust",
     "explanation": "Naval emphasizes that a world model is an active internal representation used by an agent to navigate reality, not just a passive visual generation.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Why does Naval believe the defender is at a disadvantage in a drone-heavy future?",
     "options": [
       "The defender has to cover a larger range than the attacker.",
-      "The defender is always spread thin, while the attacker can mass all drones in one area.",
+      "The defender is always spread thin, while the attacker can mass all drones",
       "Drones are too small for traditional radar to detect.",
       "Attack drones are faster than defense drones because they carry more fuel."
     ],
-    "answer": "The defender is always spread thin, while the attacker can mass all drones in one area.",
+    "answer": "The defender is always spread thin, while the attacker can mass all drones",
     "explanation": "This asymmetry is a core part of Naval's 'logic of violence'—the attacker chooses the time and place of the strike, overwhelming the spread-out defender.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "What does Naval mean when he says drones bring the logic of MAD (Mutually Assured Destruction) to the individual level?",
     "options": [
       "Individuals will now have access to small nuclear suitcase bombs.",
-      "Any individual can potentially be made 'deadly' to another specific person they hate.",
+      "Any individual can potentially be made 'deadly' to another specific person",
       "Drones will eventually force all individuals to live in underground bunkers.",
       "Drones are so expensive that only individuals like Elon Musk can afford them."
     ],
-    "answer": "Any individual can potentially be made 'deadly' to another specific person they hate.",
+    "answer": "Any individual can potentially be made 'deadly' to another specific person",
     "explanation": "Naval argues that the democratization of cheap, autonomous drones allows the same logic of deterrence and threat found between nations to manifest between individuals.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Summarizing a 50-page legal document.",
       "Generating a Python script to sort a database.",
-      "Predicting the physical consequences of pushing a glass off a table in a complex environment.",
+      "Predicting the physical consequences of pushing a",
       "Translating a news article from French to English."
     ],
-    "answer": "Predicting the physical consequences of pushing a glass off a table in a complex environment.",
+    "answer": "Predicting the physical consequences of pushing a",
     "explanation": "This requires 'world modeling' and physical reasoning, areas where Naval notes current AI is still 'pretty bad' compared to its symbolic/textual strengths.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "How does AI 'vibe coding' increase the risk of biological weapons?",
     "options": [
       "It allows AI to physically steal viruses from government labs.",
-      "It democratizes the expertise needed to engineer biological agents, much like it democratized coding.",
+      "It democratizes the expertise needed to engineer biological agents, much",
       "It makes biological weapons cheaper to manufacture by using 3D printers.",
       "It automatically bypasses all medical regulations in the US."
     ],
-    "answer": "It democratizes the expertise needed to engineer biological agents, much like it democratized coding.",
+    "answer": "It democratizes the expertise needed to engineer biological agents, much",
     "explanation": "Naval's fear is that the 'democratization of power' seen in software development will inevitably spread to more dangerous fields like virology.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "What is Naval's primary critique of 'bioethicists' and medical regulations during an emergency?",
     "options": [
       "They aren't educated enough to understand AI vaccines.",
-      "They slow down 'good guy' research while threats (like viruses or bad actors) operate without rules.",
+      "They slow down 'good guy' research while threats (like viruses or",
       "They want to make all medical data public, which violates privacy.",
       "They only support research that is funded by the 'Mag 7' companies."
     ],
-    "answer": "They slow down 'good guy' research while threats (like viruses or bad actors) operate without rules.",
+    "answer": "They slow down 'good guy' research while threats (like viruses or",
     "explanation": "Naval believes that the 'good guys' are hindered by too many people who can say 'no,' while the actual viruses have no such limitations on their speed.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "What does Naval mean by saying 'the meme of \"nothing ever happens\" is over'?",
     "options": [
       "That social media is becoming less interesting.",
-      "That we have entered a phase where technological and geopolitical shifts are happening much faster.",
+      "That we have entered a phase where technological and",
       "That AI has reached a point where it can no longer improve.",
       "That people are no longer interested in working at startups."
     ],
-    "answer": "That we have entered a phase where technological and geopolitical shifts are happening much faster.",
+    "answer": "That we have entered a phase where technological and",
     "explanation": "Naval argues that anyone paying attention can see that post-COVID, the world has entered a period of 'living in interesting times' where change is constant.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Why does Naval mention Yann LeCun's work on 'Japa'?",
     "options": [
       "To show that LLMs are the final form of intelligence.",
-      "To highlight emerging efforts to build true world models and agents.",
+      "To highlight emerging efforts to build true world models",
       "To prove that open source AI is superior to closed source.",
       "To explain how Nvidia's hardware works."
     ],
-    "answer": "To highlight emerging efforts to build true world models and agents.",
+    "answer": "To highlight emerging efforts to build true world models",
     "explanation": "Naval identifies these new architectures as the potential next step beyond the 'jagged' text-based intelligence we see today.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "According to Naval, what is the 'fuel' that AI needs to solve medical therapies?",
     "options": [
       "More electricity from green energy sources.",
-      "Access to massive, anonymized datasets of medical history and outcomes.",
+      "Access to massive, anonymized datasets of medical history",
       "Better bioethicists to manage the research teams.",
       "A connection to every individual's smartphone via the cloud."
     ],
-    "answer": "Access to massive, anonymized datasets of medical history and outcomes.",
+    "answer": "Access to massive, anonymized datasets of medical history",
     "explanation": "Data is the barrier. Naval believes that if we could unlock these 'silos,' AI could find cures and defenses far faster than human bureaucrats.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "What is the 'scary thought' Naval leaves us with regarding drones and individuals?",
     "options": [
       "Drones will eventually replace all human jobs.",
-      "Drones democratize the power of lethal violence to the individual level.",
+      "Drones democratize the power of lethal violence to the individual",
       "Drones will make people stop talking to each other one-on-one.",
       "Drones are only going to be used by the 'Mag 7' to deliver packages."
     ],
-    "answer": "Drones democratize the power of lethal violence to the individual level.",
+    "answer": "Drones democratize the power of lethal violence to the individual",
     "explanation": "Naval's core geopolitical concern is that drones change the 'who' and 'how' of violence, potentially making state protection less relevant than it was in the era of rifles.",
     "difficulty": "medium"
   }

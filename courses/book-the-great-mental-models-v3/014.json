@@ -33,11 +33,11 @@
     "description": "A VC invests $1M in 20 startups. 15 fail completely ($0 return), 4 return 2x the investment, and 1 returns 50x. What is the total expected outcome?",
     "options": [
       "The VC loses money because most startups fail",
-      "The single 50x return (worth $50M) more than offsets the $20M invested and the modest returns, producing a positive portfolio EV",
+      "The single 50x return (worth $50M) more than offsets the $20M invested and the modest",
       "The VC should only invest in the startup with the highest individual probability of success",
       "The expected value is $2.5M per startup on average"
     ],
-    "answer": "The single 50x return (worth $50M) more than offsets the $20M invested and the modest returns, producing a positive portfolio EV",
+    "answer": "The single 50x return (worth $50M) more than offsets the $20M invested and the modest",
     "explanation": "Total investment: $20M. Returns: 4 × $2M = $8M + 1 × $50M = $58M. Net: +$38M. This demonstrates why VCs focus on portfolio EV, not individual startup success rates.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Homeowners insurance costs $1,200/year. The actuarial probability of a total loss ($300,000) is 0.2% per year. The EV of the coverage is -$600/year. Why do rational people still buy it?",
     "options": [
       "They do not understand expected value math",
-      "The negative EV is acceptable because insurance eliminates a catastrophic loss that would cause financial ruin",
+      "The negative EV is acceptable because insurance eliminates a",
       "Insurance companies always lose money in the long run",
       "The expected value calculation is wrong because it uses probabilities"
     ],
-    "answer": "The negative EV is acceptable because insurance eliminates a catastrophic loss that would cause financial ruin",
+    "answer": "The negative EV is acceptable because insurance eliminates a",
     "explanation": "EV of coverage = (0.002 × $300,000) = $600, but you pay $1,200. The -$600 EV is the 'peace of mind premium' for converting a 0.2% chance of ruin into a certain small annual cost.",
     "difficulty": "hard"
   },
@@ -62,10 +62,10 @@
     "options": [
       "Drill immediately — the best case profit is $50M",
       "Abandon the project — the worst case loss is too large",
-      "EV = (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = +$10M, which justifies drilling",
+      "EV = (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = +$10M,",
       "Only drill if the worst case loss can be eliminated entirely"
     ],
-    "answer": "EV = (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = +$10M, which justifies drilling",
+    "answer": "EV = (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = +$10M,",
     "explanation": "The EV Decision Rule requires considering all scenarios with their probabilities, not just the best or worst case. Despite a 20% chance of loss, the positive EV supports proceeding.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A casino offers a game with EV = +$5 per play. A player tries it 3 times and loses all three. What mistake would the player make by concluding the EV calculation is wrong?",
     "options": [
       "The player miscalculated the probabilities of each outcome",
-      "Short-run variance masks long-run EV — 3 trials is too small a sample to reveal the true value",
+      "Short-run variance masks long-run EV — 3 trials is too",
       "The casino must have cheated",
       "The game has a negative EV for beginners"
     ],
-    "answer": "Short-run variance masks long-run EV — 3 trials is too small a sample to reveal the true value",
+    "answer": "Short-run variance masks long-run EV — 3 trials is too",
     "explanation": "EV is a long-run mathematical expectation. Individual short sequences can deviate significantly due to random variance. Only over many iterations does average outcome converge toward EV.",
     "difficulty": "hard"
   },
@@ -90,10 +90,10 @@
     "options": [
       "Never join startups — most fail",
       "Always join startups — the upside is $500K",
-      "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70% failure risk must be tolerable.",
+      "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70%",
       "The EV calculation cannot apply to career decisions because they are one-time events"
     ],
-    "answer": "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70% failure risk must be tolerable.",
+    "answer": "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70%",
     "explanation": "Even one-time decisions benefit from EV thinking. The positive EV suggests the startup is a good bet mathematically, but the individual must also weigh their personal risk tolerance for the 70% failure scenario.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A manager estimates a 95% chance their project will finish on time, but historical data shows only 60% of similar projects in their company meet deadlines. What bias is affecting their EV calculation?",
     "options": [
       "The manager is correctly accounting for their team's superior skills",
-      "Overconfidence bias — inflating the success probability overstates the project's true expected value",
+      "Overconfidence bias — inflating the success probability overstates",
       "The EV formula only applies to financial decisions",
       "Historical data is irrelevant because every project is unique"
     ],
-    "answer": "Overconfidence bias — inflating the success probability overstates the project's true expected value",
+    "answer": "Overconfidence bias — inflating the success probability overstates",
     "explanation": "Garbage in, garbage out. If probability estimates are biased, the resulting EV is unreliable. Using base rates and historical data improves probability calibration.",
     "difficulty": "medium"
   }

@@ -47,11 +47,11 @@
     "description": "When an AI cites a legal case that never happened but uses the correct legal terminology and formatting, it is:",
     "options": [
       "Searching a fictional database.",
-      "Hallucinating based on statistical probability.",
+      "Hallucinating based on statistical",
       "Updating its software in real-time.",
       "Using a creative writing mode."
     ],
-    "answer": "Hallucinating based on statistical probability.",
+    "answer": "Hallucinating based on statistical",
     "explanation": "Hallucinations happen because the AI is following the patterns of how legal cases 'look' and 'sound' rather than checking a factual database of real cases.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Why is it difficult for developers to 'just fix' an AI's specific bias or error?",
     "options": [
       "Because the AI's code is written in a secret language.",
-      "Because the logic is distributed across billions of weights in a 'Black Box' system.",
+      "Because the logic is distributed across billions of weights",
       "Because the developers are not allowed to look at the code.",
       "Because fixing one error requires deleting the entire AI."
     ],
-    "answer": "Because the logic is distributed across billions of weights in a 'Black Box' system.",
+    "answer": "Because the logic is distributed across billions of weights",
     "explanation": "AI logic isn't a simple 'if-then' statement. It's a complex web of probabilities, making it nearly impossible to pinpoint exactly why one specific error occurred.",
     "difficulty": "easy"
   },
@@ -74,12 +74,12 @@
     "content": "Emergent properties are abilities that an AI develops that its creators did not specifically program it to have. For example, a model trained only to predict the next word in a sentence might suddenly 'emerge' with the ability to translate between languages or solve logic puzzles.",
     "description": "A company builds an AI to summarize text, but they discover it can also write functioning Python code. This unexpected skill is an example of:",
     "options": [
-      "An Emergent Property.",
+      "An Emergent",
       "A Software Update.",
       "Intentional Design.",
       "Data Scraping."
     ],
-    "answer": "An Emergent Property.",
+    "answer": "An Emergent",
     "explanation": "Emergent properties are the 'surprises' of AI development—capabilities that arise naturally as the models become more complex and are trained on more data.",
     "difficulty": "easy"
   },
@@ -88,12 +88,12 @@
     "content": "Ethan Mollick suggests the rule: 'The AI you are using today is the worst AI you will ever use.' This highlights the exponential speed of development. What is currently 'outside' the jagged frontier will likely be 'inside' it within months.",
     "description": "A business owner decides not to use AI because it currently struggles with their specific industry jargon. Based on the 'Worst AI' rule, what is their mistake?",
     "options": [
-      "They are assuming AI will always stay at its current level of capability.",
+      "They are assuming AI will always stay at its",
       "They aren't paying enough for the premium version.",
       "They should be using a search engine instead.",
       "They are overestimating the AI's current speed."
     ],
-    "answer": "They are assuming AI will always stay at its current level of capability.",
+    "answer": "They are assuming AI will always stay at its",
     "explanation": "The 'Worst AI' rule reminds us that the technology is in its infancy. Capabilities are expanding so fast that 'unsolvable' problems today are often solved tomorrow.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "You are having a very long brainstorming session with an AI. Suddenly, it forgets the project's name that you mentioned at the start. What is the likely cause?",
     "options": [
       "The AI is bored of the topic.",
-      "You have exceeded the AI's Context Window.",
+      "You have exceeded the AI's Context",
       "The AI's battery is low.",
       "The AI has decided to change the subject."
     ],
-    "answer": "You have exceeded the AI's Context Window.",
+    "answer": "You have exceeded the AI's Context",
     "explanation": "Once the conversation exceeds the context window (measured in 'tokens'), the oldest parts of the conversation fall out of the AI's 'memory' to make room for new ones.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "If an AI is just a 'Stochastic Parrot,' why can it answer a question about a topic that didn't exist when it was trained by using existing logic?",
     "options": [
       "Because it is actually a human in disguise.",
-      "Because it can synthesize patterns to create new logical connections.",
+      "Because it can synthesize patterns to create new",
       "Because it is guessing randomly and just getting lucky.",
       "Because it is secretly accessing the live internet."
     ],
-    "answer": "Because it can synthesize patterns to create new logical connections.",
+    "answer": "Because it can synthesize patterns to create new",
     "explanation": "Even if it is 'parroting' patterns, the way it combines those patterns allows for synthesis—creating new, useful outputs that look like reasoning.",
     "difficulty": "easy"
   },
@@ -132,10 +132,10 @@
     "options": [
       "The AI software developers.",
       "The AI itself, which should be 'fired.'",
-      "The human editors who failed to be 'in the loop.'",
+      "The human editors who failed to be 'in",
       "The readers for believing the article."
     ],
-    "answer": "The human editors who failed to be 'in the loop.'",
+    "answer": "The human editors who failed to be 'in",
     "explanation": "Co-Intelligence emphasizes that humans are the ultimate authority. If a machine produces an error, it is the human's job to catch it before it reaches the final stage.",
     "difficulty": "medium"
   }

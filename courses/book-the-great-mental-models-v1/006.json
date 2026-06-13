@@ -19,11 +19,11 @@
     "description": "A startup offers a 10% chance of a $1 million return, or you can keep $50,000 guaranteed. What framework helps you decide?",
     "options": [
       "Go with your gut feeling",
-      "10% of $1M = $100K expected value > guaranteed $50K",
+      "10% of $1M = $100K expected value >",
       "Always take the guaranteed money",
       "Always take the risk for a chance at millions"
     ],
-    "answer": "10% of $1M = $100K expected value > guaranteed $50K",
+    "answer": "10% of $1M = $100K expected value >",
     "explanation": "Expected value = (probability of outcome) x (value of outcome). Here, 0.10 x $1,000,000 = $100,000 expected value, which is higher than the $50,000 guaranteed. The probabilistic choice is mathematically superior, though risk tolerance still matters.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "You estimate a 60% chance of winning a contract. Then you learn a competitor just lost a key supplier. How should a probabilistic thinker update their estimate?",
     "options": [
       "Ignore the new information — it is irrelevant hearsay",
-      "Increase the probability upward since the new information improves your relative position",
+      "Increase the probability upward since the new information improves your",
       "Decrease the probability — competitor problems always hurt the whole market",
       "Reset to 50% because the situation has changed"
     ],
-    "answer": "Increase the probability upward since the new information improves your relative position",
+    "answer": "Increase the probability upward since the new information improves your",
     "explanation": "Bayesian updating means adjusting your estimate when new evidence arrives. The competitor's supply chain problem improves your odds of winning, so your probability should move upward. The key is to calibrate how much to adjust based on the evidence strength.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A trader finds a strategy with a 99% chance of a 10% gain and a 1% chance of losing everything. Applying probabilistic thinking, why should they reject it?",
     "options": [
       "A 99% success rate is actually terrible",
-      "1% ruin risk eventually hits with repetition, wiping out prior gains",
+      "1% ruin risk eventually hits with",
       "Gambling is always bad",
       "The 10% gain is too small to matter"
     ],
-    "answer": "1% ruin risk eventually hits with repetition, wiping out prior gains",
+    "answer": "1% ruin risk eventually hits with",
     "explanation": "Risk of ruin is the non-negotiable constraint in probabilistic thinking. Even with 99% favorable odds, a 1% bankruptcy risk is unacceptable because over many repetitions, the probability of hitting that 1% approaches certainty. Never take a bet that risks everything.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "A hedge fund models portfolio risk using standard bell-curve assumptions, concluding a crash across multiple markets is virtually impossible. They leverage heavily. Why is this dangerous?",
     "options": [
       "Bell curves are always wrong for financial data",
-      "Fat tails — extreme correlated events far more common than normal models predict",
+      "Fat tails — extreme correlated events far more",
       "Leverage is always bad",
       "The fund needs better mathematicians"
     ],
-    "answer": "Fat tails — extreme correlated events far more common than normal models predict",
+    "answer": "Fat tails — extreme correlated events far more",
     "explanation": "LTCM's Nobel laureates assumed markets followed thin-tailed normal distributions. In reality, markets have fat tails where extreme, correlated events occur much more frequently than Gaussian models predict. A fat-tailed model would have shown the risk as real, not impossible.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A logistics company plans warehouse capacity based on average daily package volume. During holiday peaks, volume spikes to 5x the average and packages overflow. What probabilistic concept did they ignore?",
     "options": [
       "The law of large numbers",
-      "Flaw of averages — mean-based planning ignores extreme volatility",
+      "Flaw of averages — mean-based",
       "Regression to the mean",
       "Normal distribution of demand"
     ],
-    "answer": "Flaw of averages — mean-based planning ignores extreme volatility",
+    "answer": "Flaw of averages — mean-based",
     "explanation": "The flaw of averages occurs when decisions are based on the average while ignoring the distribution of outcomes. The average river depth being 3 feet is irrelevant if there are 15-foot holes. Similarly, average package volume is irrelevant if peak days overflow capacity.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "An investor makes a well-researched bet with 80% odds of success, but it fails due to an unforeseeable regulatory change. Critics call them incompetent. What probabilistic principle are the critics missing?",
     "options": [
       "The investor should have done more research",
-      "Good decisions can produce bad outcomes — judge the process, not a single roll",
+      "Good decisions can produce bad outcomes —",
       "Regulatory changes are always predictable",
       "If it failed, the odds were never really 80%"
     ],
-    "answer": "Good decisions can produce bad outcomes — judge the process, not a single roll",
+    "answer": "Good decisions can produce bad outcomes —",
     "explanation": "In a probabilistic world, good decisions sometimes fail and bad decisions sometimes succeed. The 20% failure probability means one in five good decisions will fail. Judge the process, not the outcome of a single trial.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Your project sponsor demands a single delivery date. Applying probabilistic thinking, how should you respond?",
     "options": [
       "Give them the most likely date as a firm commitment",
-      "Three-tier range: optimistic (10%), most likely (60%), pessimistic (30%)",
+      "Three-tier range: optimistic (10%), most likely",
       "Refuse to estimate at all",
       "Double the most likely estimate to be safe"
     ],
-    "answer": "Three-tier range: optimistic (10%), most likely (60%), pessimistic (30%)",
+    "answer": "Three-tier range: optimistic (10%), most likely",
     "explanation": "Single-point estimates create false certainty. A three-tier range acknowledges uncertainty, forces thinking about the full distribution of outcomes, and provides decision-makers with the probabilistic information they need to plan.",
     "difficulty": "hard"
   }

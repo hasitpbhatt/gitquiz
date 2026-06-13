@@ -6,10 +6,10 @@
     "options": [
       "A guaranteed monthly repayment with interest",
       "A legal right to manage the company's daily operations",
-      "A residual claim on the company's profits and voting rights",
+      "A residual claim on the company's profits and voting",
       "A short-term loan agreement with the company's founders"
     ],
-    "answer": "A residual claim on the company's profits and voting rights",
+    "answer": "A residual claim on the company's profits and voting",
     "explanation": "Equity holders have a 'residual' claim, meaning they get paid after employees, suppliers, and bondholders. In exchange for this risk, they gain voting rights and unlimited upside potential if the company thrives.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "A high-growth startup that reinvests all profits",
       "A 'Penny Stock' with high price volatility",
-      "A mature utility company with a high dividend yield",
+      "A mature utility company with a high dividend",
       "A company that has never turned a profit"
     ],
-    "answer": "A mature utility company with a high dividend yield",
+    "answer": "A mature utility company with a high dividend",
     "explanation": "Mature companies in stable industries (like utilities) often distribute a significant portion of their earnings as dividends, providing the steady cash flow required for income-focused investors.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "An investor notices that Stock X has a P/E of 50, while the industry average is 15. What is the most likely reason for this discrepancy?",
     "options": [
       "The company is currently going bankrupt",
-      "Investors expect the company's earnings to grow very rapidly in the future",
+      "Investors expect the company's earnings to grow very",
       "The company has too many shares outstanding",
       "The company is paying out all of its earnings as dividends"
     ],
-    "answer": "Investors expect the company's earnings to grow very rapidly in the future",
+    "answer": "Investors expect the company's earnings to grow very",
     "explanation": "A high P/E ratio usually indicates that investors are willing to pay a premium today because they anticipate significantly higher earnings in the years to come.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "If the 'S&P 500' is reported to be 'up 2%' for the day, what does this actually mean for the average person?",
     "options": [
       "Every single stock in the world increased by 2%",
-      "The 500 largest companies in the U.S. market increased in value by 2% on average",
+      "The 500 largest companies in the U.S. market",
       "Interest rates in the bank increased by 2%",
       "The cost of living decreased by 2%"
     ],
-    "answer": "The 500 largest companies in the U.S. market increased in value by 2% on average",
+    "answer": "The 500 largest companies in the U.S. market",
     "explanation": "The S&P 500 acts as a barometer for the large-cap U.S. stock market. Its movement reflects the weighted average performance of the 500 companies within it.",
     "difficulty": "easy"
   },

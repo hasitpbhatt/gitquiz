@@ -6,10 +6,10 @@
     "options": [
       "Ignore the signal until the stock prices actually start to fall.",
       "Increase leverage to take advantage of the market's current calmness.",
-      "Reduce position sizes or buy out-of-the-money put options to hedge against a potential systemic shock.",
+      "Reduce position sizes or buy out-of-the-money put options to hedge",
       "Ask the AI to stop monitoring banking news to reduce 'false alarms'."
     ],
-    "answer": "Reduce position sizes or buy out-of-the-money put options to hedge against a potential systemic shock.",
+    "answer": "Reduce position sizes or buy out-of-the-money put options to hedge",
     "explanation": "Linguistic shifts often precede price action. Identifying a surge in 'distress' language allows you to protect your capital before the market prices in the crisis and hedges become expensive.",
     "difficulty": "medium"
   },
@@ -18,12 +18,12 @@
     "content": "Traditional stress indicators like the VIX are reactive. GenAI creates a 'Proactive Stress Index' by analyzing the sentiment of central bank speeches and economic policy uncertainty. This helps traders understand if the 'market mood' is fragile enough to break on minor bad news.",
     "description": "The VIX is low, but your GenAI Stress Index is 'High' due to aggressive hawkishness in Fed minutes. How does this impact your trading logic?",
     "options": [
-      "It suggests a 'coiled spring' effect where the market is vulnerable to a sharp, unexpected downturn.",
+      "It suggests a 'coiled spring' effect where the market is vulnerable to a",
       "It means the VIX is broken and should be ignored forever.",
       "It indicates that the market is perfectly safe because prices aren't moving.",
       "It suggests you should buy more speculative growth stocks."
     ],
-    "answer": "It suggests a 'coiled spring' effect where the market is vulnerable to a sharp, unexpected downturn.",
+    "answer": "It suggests a 'coiled spring' effect where the market is vulnerable to a",
     "explanation": "When sentiment is poor but volatility is low, the market is often 'complacent.' GenAI helps you see the underlying fragility that traditional volatility metrics might miss.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "You bought a stock because of a rumored merger. An LLM detects a verified report that the merger has been called off. The price hasn't moved yet. What should your AI-driven risk protocol do?",
     "options": [
       "Wait for the price to drop 5% to hit the mechanical stop-loss.",
-      "Exit immediately based on 'Narrative Failure' since the trade thesis is no longer valid.",
+      "Exit immediately based on 'Narrative Failure' since the trade",
       "Buy more shares because the price is still high.",
       "Ask the AI to find a new reason to stay in the trade."
     ],
-    "answer": "Exit immediately based on 'Narrative Failure' since the trade thesis is no longer valid.",
+    "answer": "Exit immediately based on 'Narrative Failure' since the trade",
     "explanation": "Narrative-based exits allow you to leave a trade the moment the fundamental logic breaks, often saving you from the 'slippage' and panic selling that occurs when the rest of the market catches up.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "Environmental, Social, and Governance (ESG) risks can lead to sudden regulatory fines or brand damage. GenAI can compare a company's 'Sustainability Report' with actual news and social media complaints to detect 'Greenwashing' (false environmental claims), which represents a hidden legal risk.",
     "description": "An LLM finds that a company's 'Net Zero' claims are contradicted by several investigative reports about their supply chain. How should a risk manager classify this stock?",
     "options": [
-      "As a high-risk asset due to potential regulatory 'crackdown' and reputational damage.",
+      "As a high-risk asset due to potential regulatory 'crackdown' and",
       "As a safe asset because the company's official reports are positive.",
       "As a 'Neutral' asset because environmental issues don't affect profits.",
       "As a 'Buy' because the company is good at marketing."
     ],
-    "answer": "As a high-risk asset due to potential regulatory 'crackdown' and reputational damage.",
+    "answer": "As a high-risk asset due to potential regulatory 'crackdown' and",
     "explanation": "Inconsistencies between corporate 'narrative' and 'reality' are a major red flag. GenAI is uniquely capable of cross-referencing thousands of sources to find these hidden risks.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Your sentiment engine sees a massive spike in 'CEO Resignation' news from an unverified social media account. What is the safest programmed response?",
     "options": [
       "Trust the AI's sentiment score and sell immediately.",
-      "Cross-verify the news against a whitelist of trusted sources before allowing the trade.",
+      "Cross-verify the news against a whitelist of trusted sources",
       "Wait for the stock to hit zero to confirm the news was true.",
       "Ignore the news and buy more to fight the 'fake news'."
     ],
-    "answer": "Cross-verify the news against a whitelist of trusted sources before allowing the trade.",
+    "answer": "Cross-verify the news against a whitelist of trusted sources",
     "explanation": "Source verification is a critical layer of defense. Without it, your AI-driven strategy is vulnerable to 'market manipulation' from automated bots spreading misinformation.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "The market is falling rapidly, and your AI is screaming 'Sell' because everyone else is selling. Why might you program a 'Contrarian Filter' during extreme volatility?",
     "options": [
       "To save the world from a crash.",
-      "To prevent your bot from selling at the bottom of a liquidity vacuum created by other AI bots.",
+      "To prevent your bot from selling at the bottom of a",
       "Because your bot needs to be different to be 'cool'.",
       "Because the AI is likely to be happier if it doesn't sell."
     ],
-    "answer": "To prevent your bot from selling at the bottom of a liquidity vacuum created by other AI bots.",
+    "answer": "To prevent your bot from selling at the bottom of a",
     "explanation": "During flash crashes, 'uninformed' selling by thousands of bots creates temporary price distortions. A risk-managed bot recognizes 'over-crowded' signals and avoids selling into a panic.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A regulator asks why your AI sold a stock five minutes before a major scandal broke. How do you prove you weren't 'insider trading'?",
     "options": [
       "Tell them the AI is a 'black box' and you don't know.",
-      "Produce the AI logs showing it flagged unusual executive behavior from public transcripts.",
+      "Produce the AI logs showing it flagged unusual",
       "Delete the logs so there is no evidence.",
       "Argue that the AI is its own legal entity."
     ],
-    "answer": "Produce the AI logs showing it flagged unusual executive behavior from public transcripts.",
+    "answer": "Produce the AI logs showing it flagged unusual",
     "explanation": "Transparency is your best defense. Being able to show a logical, data-driven 'audit trail' proves that the trade was based on public data and AI analysis rather than illegal information.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "If a risk-management AI hallucinates a threat (e.g., 'thinking' a company filed for bankruptcy when it didn't), it could force you out of a winning position. This is 'False Positive' risk.",
     "description": "Your AI alerts you that 'The US Dollar has been abolished.' This would be a massive risk, but it is clearly false. How do you prevent your bot from liquidating your portfolio based on this?",
     "options": [
-      "By using an ensemble of multiple LLMs and requiring a 'consensus' before taking extreme actions.",
+      "By using an ensemble of multiple LLMs and requiring",
       "By giving the AI full control over all your money.",
       "By assuming every alert is true and checking later.",
       "By only trading in small amounts of cash."
     ],
-    "answer": "By using an ensemble of multiple LLMs and requiring a 'consensus' before taking extreme actions.",
+    "answer": "By using an ensemble of multiple LLMs and requiring",
     "explanation": "Consensus-based systems reduce the 'Single Point of Failure.' If one model hallucinates a bizarre risk, the other models act as a 'sanity check' to prevent irrational trades.",
     "difficulty": "hard"
   },
@@ -118,10 +118,10 @@
     "options": [
       "Increase it to make up for the uncertainty.",
       "Keep it the same to show confidence in your strategy.",
-      "Automatically scale down the position size to reflect the higher 'information risk' in the market.",
+      "Automatically scale down the position size to reflect",
       "Stop trading and wait for the AI to become 1.0 certain."
     ],
-    "answer": "Automatically scale down the position size to reflect the higher 'information risk' in the market.",
+    "answer": "Automatically scale down the position size to reflect",
     "explanation": "Risk is a function of uncertainty. When the AI signals that the data is 'noisy' or 'contradictory,' the most logical risk-management move is to lower your exposure until clarity returns.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "The AI sentiment service is offline. Your bot is currently holding 10 volatile positions. What is the safest 'Fail-Safe' protocol?",
     "options": [
       "Do nothing and hope for the best.",
-      "Switch to a hard-coded trailing stop-loss or move to cash to keep positions safe.",
+      "Switch to a hard-coded trailing stop-loss or move to",
       "Keep sending requests until the service comes back up.",
       "Delete the positions and the bot."
     ],
-    "answer": "Switch to a hard-coded trailing stop-loss or move to cash to keep positions safe.",
+    "answer": "Switch to a hard-coded trailing stop-loss or move to",
     "explanation": "A 'Fail-Safe' ensures that you are never 'flying blind.' If the high-tech AI brain fails, the 'primitive' but reliable code brain takes over to protect the portfolio.",
     "difficulty": "hard"
   }

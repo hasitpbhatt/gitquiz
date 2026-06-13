@@ -5,11 +5,11 @@
     "description": "You are overwhelmed with emails and reports. Instead of doing them all yourself, you treat the AI as a junior assistant by giving it your notes and asking it to draft three distinct follow-up emails. This represents:",
     "options": [
       "Replacing your role entirely.",
-      "The 'AI as Coworker' model of delegation.",
+      "The 'AI as Coworker' model of",
       "A violation of office privacy protocols.",
       "Linear task automation."
     ],
-    "answer": "The 'AI as Coworker' model of delegation.",
+    "answer": "The 'AI as Coworker' model of",
     "explanation": "Treating AI as a coworker involves delegating cognitively demanding but time-consuming tasks while maintaining the role of the 'lead' who makes the final decisions.",
     "difficulty": "hard"
   },
@@ -47,11 +47,11 @@
     "description": "A community center introduces AI to help its volunteer-run helpline. The newest volunteers see a massive jump in how quickly they can find answers, while the longtime volunteers see only a slight increase. This illustrates:",
     "options": [
       "The AI is biased against longtime volunteers.",
-      "The AI's ability to raise the performance 'floor' for everyone.",
+      "The AI's ability to raise the performance 'floor' for",
       "The failure of the AI to help experienced people.",
       "A technical glitch in the veteran volunteers' software."
     ],
-    "answer": "The AI's ability to raise the performance 'floor' for everyone.",
+    "answer": "The AI's ability to raise the performance 'floor' for",
     "explanation": "AI provides a 'baseline' of high-level competence. For those who were struggling, this baseline is a massive boost; for experts, it is simply a helpful secondary tool.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A lawyer uses AI to find legal precedents. The AI has been perfect for a year, so the lawyer stops reading the full text of the cases. This behavior is dangerous because:",
     "options": [
       "The AI might charge more for its services.",
-      "The lawyer has 'checked out' and is susceptible to an AI hallucination.",
+      "The lawyer has 'checked out' and is",
       "The AI prefers shorter cases.",
       "Other lawyers will be jealous of their speed."
     ],
-    "answer": "The lawyer has 'checked out' and is susceptible to an AI hallucination.",
+    "answer": "The lawyer has 'checked out' and is",
     "explanation": "High reliability leads to human complacency. To be a good 'manager' of an AI coworker, you must remain critically engaged even when things seem perfect.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "You tell your AI 'Write a report.' The result is generic and useless. What management error did you commit?",
     "options": [
       "You didn't pay for the pro version.",
-      "You provided a low-context 'brief' that didn't specify tone, audience, or goal.",
+      "You provided a low-context 'brief'",
       "You were too polite to the machine.",
       "The AI is having a bad day."
     ],
-    "answer": "You provided a low-context 'brief' that didn't specify tone, audience, or goal.",
+    "answer": "You provided a low-context 'brief'",
     "explanation": "Successful 'AI as Coworker' interaction depends on the quality of the instruction. Specificity and context are the management tools of the future.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "An AI handles all of a manager's scheduling and basic reporting. The manager uses that extra time to hold 1-on-1 career coaching sessions with their team. This is:",
     "options": [
       "Wasting the AI's efficiency.",
-      "Reinvesting the productivity dividend into human-centric value.",
+      "Reinvesting the productivity",
       "A Centaur model of scheduling.",
       "Automating leadership."
     ],
-    "answer": "Reinvesting the productivity dividend into human-centric value.",
+    "answer": "Reinvesting the productivity",
     "explanation": "The value of AI is that it clears the 'drudge work,' allowing humans to focus on the high-impact emotional and strategic work that machines cannot replicate.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Why does Mollick suggest that 'learning to prompt' is actually 'learning to manage'?",
     "options": [
       "Because prompting is just coding by another name.",
-      "Because you are coordinating the efforts of an 'alien' intelligence toward a human goal.",
+      "Because you are coordinating the efforts of an 'alien'",
       "Because it requires a degree in business administration.",
       "Because the AI will eventually become the boss."
     ],
-    "answer": "Because you are coordinating the efforts of an 'alien' intelligence toward a human goal.",
+    "answer": "Because you are coordinating the efforts of an 'alien'",
     "explanation": "Managing AI involves setting vision, checking quality, and iterating on results—the core functions of a traditional manager, now applied to machine collaborators.",
     "difficulty": "medium"
   }

@@ -5,11 +5,11 @@
     "description": "A student fails her first two programming assignments and feels she is not cut out for coding. How can Success is the Best Teacher help?",
     "options": [
       "Tell her programming is naturally very difficult and she should simply accept her limits",
-      "Give her a simple program she can complete successfully, then gradually raise the difficulty",
+      "Give her a simple program she can complete successfully, then gradually raise the",
       "Have her watch more experienced coders without writing code herself",
       "Assign even harder problems so she can build resilience by learning from failure"
     ],
-    "answer": "Give her a simple program she can complete successfully, then gradually raise the difficulty",
+    "answer": "Give her a simple program she can complete successfully, then gradually raise the",
     "explanation": "Success builds self-efficacy. Starting with achievable tasks creates positive experiences that build the belief I can do this, motivating her to tackle more challenging problems later.",
     "difficulty": "easy"
   },

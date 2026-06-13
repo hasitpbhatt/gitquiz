@@ -5,11 +5,11 @@
     "description": "Munger advises avoiding misery by doing the opposite of his prescriptions. The opposite of learn only from your own experience would be:",
     "options": [
       "Ignore all advice from successful people",
-      "Study the mistakes of others to avoid repeating them",
+      "Study the mistakes of others to avoid",
       "Trust your instincts above all else",
       "Learn only from your own failures"
     ],
-    "answer": "Study the mistakes of others to avoid repeating them",
+    "answer": "Study the mistakes of others to avoid",
     "explanation": "Munger believes the best way to learn is to study the mistakes of others. As he says, I believe in the discipline of mastering the best that other people have ever figured out.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "A stock the Buffett-Munger partnership owns drops 30 percent in a market panic, but the business fundamentals remain strong. Their most likely response is:",
     "options": [
       "Sell immediately to stop the losses",
-      "Ignore the price drop and evaluate the business long-term prospects",
+      "Ignore the price drop and evaluate",
       "Short the stock to hedge the position",
       "Blame the market for being irrational"
     ],
-    "answer": "Ignore the price drop and evaluate the business long-term prospects",
+    "answer": "Ignore the price drop and evaluate",
     "explanation": "Buffett and Munger define risk as permanent capital loss, not price volatility. If the business is sound, temporary price drops present opportunity, not danger. They would evaluate fundamentals, not price action.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "Before major investment decisions, Munger uses a mental checklist of questions about the business, management, and risks. This practice helps:",
     "options": [
       "Automate decision-making without thinking",
-      "Ensure all critical factors are considered systematically",
+      "Ensure all critical factors are",
       "Impress clients with thoroughness",
       "Replace judgment with a rigid formula"
     ],
-    "answer": "Ensure all critical factors are considered systematically",
+    "answer": "Ensure all critical factors are",
     "explanation": "A checklist ensures we do not miss important considerations due to overconfidence, fatigue, or distraction. It is a tool to supplement, not replace, judgment, just as pilots use pre-flight checklists.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "Inversion is a powerful practical tool. By asking how to achieve the opposite of what you want, you identify obstacles and failure modes that forward thinking misses.",
     "description": "A city wants to reduce traffic accidents. Using inversion, they would ask What would guarantee the most accidents. This would reveal:",
     "options": [
-      "The specific causes of accidents that can be addressed",
+      "The specific causes of accidents that can",
       "A guaranteed way to fail at traffic safety",
       "That accidents are impossible to prevent",
       "The best new roads to build"
     ],
-    "answer": "The specific causes of accidents that can be addressed",
+    "answer": "The specific causes of accidents that can",
     "explanation": "By inverting the problem, the city identifies failure modes, poor signage, confusing intersections, lack of enforcement. Addressing these specific causes is more effective than a vague goal of improving safety.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A purely financial analysis might approve a loan that a sociologist understanding group dynamics or a biologist understanding competition would flag as risky. This illustrates:",
     "options": [
       "The need for more specialized financial training",
-      "The value of multidisciplinary thinking for better decisions",
+      "The value of multidisciplinary thinking for better",
       "Sociology and biology being more important than finance",
       "The uselessness of financial analysis"
     ],
-    "answer": "The value of multidisciplinary thinking for better decisions",
+    "answer": "The value of multidisciplinary thinking for better",
     "explanation": "Different disciplines reveal different aspects of a problem. Financial analysis alone misses group dynamics and competitive behaviors that could lead to default. Multiple perspectives reduce blind spots.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "An entrepreneur is so optimistic about his startup that he ignores warning signs, minimizes risks, and fails to prepare for difficulties. This is an example of:",
     "options": [
       "Healthy confidence that leads to success",
-      "Excessive optimism as a psychological misjudgment",
+      "Excessive optimism as a psychological",
       "The necessary delusion of all entrepreneurs",
       "Rational risk-taking in business"
     ],
-    "answer": "Excessive optimism as a psychological misjudgment",
+    "answer": "Excessive optimism as a psychological",
     "explanation": "While some optimism is needed to start ventures, excessive optimism that ignores real risks is a recognized misjudgment tendency. Awareness allows the entrepreneur to have contingency plans despite optimism.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A person considering marriage applies the same margin of safety principle used in engineering. They wait to ensure they truly know their partner before committing. This shows:",
     "options": [
       "Overthinking a romantic relationship",
-      "Applying mental models across life domains for better decisions",
+      "Applying mental models across life domains for",
       "Engineering principles having no place in romance",
       "Being overly cautious about commitment"
     ],
-    "answer": "Applying mental models across life domains for better decisions",
+    "answer": "Applying mental models across life domains for",
     "explanation": "Good thinking principles, margin of safety, inversion, second-order consequences, apply everywhere, not just in professional settings. Using them in personal life leads to better outcomes.",
     "difficulty": "hard"
   },
@@ -116,12 +116,12 @@
     "content": "The pursuit of wisdom is a lifelong endeavor. Munger and Buffett spend most of their time reading and learning. The best way to achieve wisdom is to learn the big ideas from the great thinkers.",
     "description": "When asked about the secret to his success, Buffett points to reading 500 pages a day. This habit reflects the principle that:",
     "options": [
-      "Knowledge is accumulated through continuous learning",
+      "Knowledge is accumulated through",
       "Reading more guarantees investment success",
       "Natural talent matters more than effort",
       "Formal education is the only way to learn"
     ],
-    "answer": "Knowledge is accumulated through continuous learning",
+    "answer": "Knowledge is accumulated through",
     "explanation": "Buffett and Munger exemplify that wisdom comes from constant learning. The compounding effect of daily reading over decades produces extraordinary knowledge, just as compound interest produces wealth.",
     "difficulty": "hard"
   }

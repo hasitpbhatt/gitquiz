@@ -5,11 +5,11 @@
     "description": "You are the CEO of a hardware startup making a new AR headset. Your investors keep asking: 'How will you compete with Apple?' Using Naval's 'hardware renaissance' thesis, construct a specific strategy for beating Apple in a post-AI world. What advantage does the software bottleneck removal give you that simply did not exist for hardware startups 10 years ago, and what must you prioritize to exploit it?",
     "options": [
       "Compete on hardware specs alone—make the lightest, highest-resolution headset—because software is irrelevant for AR devices.",
-      "Focus on a novel hardware form factor and use AI to generate the entire software stack with a tiny team; AI collapses Apple's software advantage, shifting differentiation to hardware innovation.",
+      "Focus on a novel hardware form factor and use AI to generate the entire software stack with a tiny team; AI collapses",
       "Wait for Apple to release their headset, then clone it exactly at half the price using contract manufacturers.",
       "Raise enough money to hire 5,000 software engineers to match Apple's software team size, then outspend them on development."
     ],
-    "answer": "Focus on a novel hardware form factor and use AI to generate the entire software stack with a tiny team; AI collapses Apple's software advantage, shifting differentiation to hardware innovation.",
+    "answer": "Focus on a novel hardware form factor and use AI to generate the entire software stack with a tiny team; AI collapses",
     "explanation": "Naval's hardware renaissance argument: Apple's historical moat was its unique ability to pair great hardware with great software. Most hardware companies failed because they could not write the software. AI now lets a small team generate production-quality software instantly (a 'bright kid with cloud code'). This means hardware startups no longer need a massive software division—they can compete on hardware innovation and iteration speed alone, turning Apple's former advantage into a commodity.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "How does AI solve the 'terrible software' problem for a company making programmable lamps?",
     "options": [
       "The AI physically repairs the lamps when they break.",
-      "An AI agent can interact with the hardware directly, or a kid with cloud code can quickly build the software that used to take a whole team.",
+      "An AI agent can interact with the hardware directly, or a kid with cloud",
       "The AI forces customers to learn how to write their own code for the lamp.",
       "The AI makes the lamp shine brighter without needing more electricity."
     ],
-    "answer": "An AI agent can interact with the hardware directly, or a kid with cloud code can quickly build the software that used to take a whole team.",
+    "answer": "An AI agent can interact with the hardware directly, or a kid with cloud",
     "explanation": "Naval suggests that because software is now 'figured out' enough via AI, the barrier to making usable hardware has dropped significantly, allowing smaller players to create functional devices.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Why is China 'so big into open source' AI models according to the podcast?",
     "options": [
       "They want to ensure everyone's privacy is protected.",
-      "Open source helps them catch up in software while supporting their existing dominance in hardware manufacturing.",
+      "Open source helps them catch up in software while supporting their existing dominance in",
       "They believe that closed-source models are too difficult for their engineers to understand.",
       "The Chinese government wants to sell AI software to the United States."
     ],
-    "answer": "Open source helps them catch up in software while supporting their existing dominance in hardware manufacturing.",
+    "answer": "Open source helps them catch up in software while supporting their existing dominance in",
     "explanation": "Naval explains that open source is a strategic move for those who are behind in software (like China) or those who sell hardware (like Nvidia), as it makes the software 'commodity' and the hardware more valuable.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "In Naval's view, what is the 'complement' that Nvidia wants to commoditize?",
     "options": [
       "The physical GPU cards.",
-      "The AI models and software that run on their cards.",
+      "The AI models and software that run on",
       "The electricity used by data centers.",
       "The silicon used to manufacture chips."
     ],
-    "answer": "The AI models and software that run on their cards.",
+    "answer": "The AI models and software that run on",
     "explanation": "Nvidia wants as many people using AI as possible; by making the models open and 'commoditized,' they ensure more people need to buy their hardware (the GPUs) to run them.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "How does Naval categorize Google’s strengths and weaknesses?",
     "options": [
       "Very good at hardware, poor at cloud software.",
-      "Very good at cloud and AI, but not very good at consumer hardware or consumer software.",
+      "Very good at cloud and AI, but not very good at consumer",
       "Excellent at everything, which is why they are a monopoly.",
       "Poor at AI, but the best in the world at making phones."
     ],
-    "answer": "Very good at cloud and AI, but not very good at consumer hardware or consumer software.",
+    "answer": "Very good at cloud and AI, but not very good at consumer",
     "explanation": "Naval points out that while Google dominates in the cloud and AI space, they lack the 'gene' for high-quality consumer hardware and software that Apple possesses.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "What does the 'bright kid with cloud code' represent in the new hardware/software landscape?",
     "options": [
       "The need for more computer science degrees in universities.",
-      "The democratization of software development, where small actors can unlock hardware functionality easily.",
+      "The democratization of software development, where small",
       "A threat to the security of the global internet.",
       "The reason why hardware is becoming more expensive."
     ],
-    "answer": "The democratization of software development, where small actors can unlock hardware functionality easily.",
+    "answer": "The democratization of software development, where small",
     "explanation": "Naval uses this example to show that the software 'moat' is shrinking; if a kid can write the software for a toy or a lamp using AI, then the value lies in the hardware itself.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "According to the transcript, why do 'Hyperscalers' drive open-source AI models?",
     "options": [
       "To prevent people from using Nvidia cards.",
-      "Because it commoditizes software and leads to more hardware usage in their data centers.",
+      "Because it commoditizes software and leads to more hardware",
       "They are required by law to make all AI models open source.",
       "To protect themselves from being sued by AI scientists."
     ],
-    "answer": "Because it commoditizes software and leads to more hardware usage in their data centers.",
+    "answer": "Because it commoditizes software and leads to more hardware",
     "explanation": "Like Nvidia and China, cloud providers want a high volume of 'work' happening on their infrastructure. Open-source software removes the cost barrier for people to start using that infrastructure.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Why does Naval believe people tend to fixate on the 'doom scenarios' of AI?",
     "options": [
       "Because doom scenarios are more likely to happen.",
-      "Because it's easier to see how existing jobs will go away than to imagine the new jobs that will be created.",
+      "Because it's easier to see how existing jobs will go away than to imagine",
       "Because there is no evidence of technological advancement helping society.",
       "Because they want to be proven right when the world ends."
     ],
-    "answer": "Because it's easier to see how existing jobs will go away than to imagine the new jobs that will be created.",
+    "answer": "Because it's easier to see how existing jobs will go away than to imagine",
     "explanation": "Naval explains that our minds hold onto doom scenarios because the 'methods of doom' are easier to visualize than the 'creativity' required for rising up and evolving.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "What is the lesson of Naval's 'farm' analogy regarding technological advancement?",
     "options": [
       "We should all return to farming to prepare for AI.",
-      "Past technological shifts show that we inevitably find 'the next job,' even if we can't imagine it now.",
+      "Past technological shifts show that we inevitably find 'the",
       "Technology eventually leads to the end of all work.",
       "Farming was a more 'honest' way to live than working with AI."
     ],
-    "answer": "Past technological shifts show that we inevitably find 'the next job,' even if we can't imagine it now.",
+    "answer": "Past technological shifts show that we inevitably find 'the",
     "explanation": "Naval uses history to show that while we fear the end of current work, we always create new categories of work that were previously unimaginable.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "How does Naval describe the 'crabs in a bucket' behavior in the context of AI discussions?",
     "options": [
       "People who are trying to catch crabs to sell them for profit.",
-      "People who fixate on doom and try to pull the optimists back down with them.",
+      "People who fixate on doom and try to pull the optimists back",
       "A new AI algorithm designed to solve marine biology problems.",
       "The competition between Nvidia and Google for data centers."
     ],
-    "answer": "People who fixate on doom and try to pull the optimists back down with them.",
+    "answer": "People who fixate on doom and try to pull the optimists back",
     "explanation": "Naval notes that while the 'doom' crowd might be right, their mindset isn't helpful; we need 'irrational' optimism to stay in the 'foxhole' and actually build solutions.",
     "difficulty": "medium"
   }

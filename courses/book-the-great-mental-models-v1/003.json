@@ -5,11 +5,11 @@
     "description": "A colleague claims expertise in quantum computing investing because they once read a book on physics. According to the Circle of Competence model, what is missing from their claim?",
     "options": [
       "They need a PhD in quantum physics",
-      "Genuine expertise requires rigorous study, hands-on experience, and skin in the game",
+      "Genuine expertise requires rigorous study, hands-on",
       "Anyone can invest in any field with enough confidence",
       "Quantum computing is too complex for anyone to understand"
     ],
-    "answer": "Genuine expertise requires rigorous study, hands-on experience, and skin in the game",
+    "answer": "Genuine expertise requires rigorous study, hands-on",
     "explanation": "A true Circle of Competence is earned through deep, documented experience and feedback loops. Casual exposure or reading alone does not qualify. You must have tested your knowledge against reality through repeated, high-stakes application.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A novice investor manages a small portfolio well. They are offered a chance to invest in a complex derivatives strategy they do not fully understand. What should guide their decision?",
     "options": [
       "Their small portfolio size means they have little to lose",
-      "The clarity of their boundary — decline because derivatives sit outside known competence",
+      "The clarity of their boundary — decline because derivativ",
       "They should invest because the potential returns are high",
       "They should ask their wealthy friend for advice"
     ],
-    "answer": "The clarity of their boundary — decline because derivatives sit outside known competence",
+    "answer": "The clarity of their boundary — decline because derivativ",
     "explanation": "Knowing the exact edge of your competence is more important than the size of your circle. Charlie Munger and Warren Buffett emphasize that the boundary — not the area — is the critical safeguard.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A fund manager is pressured to buy cryptocurrency for clients because competitors are making huge profits. The manager admits they do not deeply understand blockchain valuation. What principle does their honesty reflect?",
     "options": [
       "Lack of ambition",
-      "Buffett's Circle of Competence — stay within it despite others' gains",
+      "Buffett's Circle of Competence — stay",
       "Risk aversion that leads to mediocrity",
       "Market timing strategy"
     ],
-    "answer": "Buffett's Circle of Competence — stay within it despite others' gains",
+    "answer": "Buffett's Circle of Competence — stay",
     "explanation": "Buffett sat out the Dot-Com boom while being heavily criticized. When the bubble burst, Berkshire Hathaway emerged unscathed. The principle: resist the pressure to operate outside your competence, no matter how tempting the short-term gains.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A startup CEO pressures the engineering team to add a complex AI feature that the team has never built before, six weeks before a major demo. The engineers comply despite knowing the risks. What historical disaster parallels this situation?",
     "options": [
       "The Maginot Line",
-      "The Vasa warship — built outside competence due to pressure from above",
+      "The Vasa warship — built",
       "The Cuban Missile Crisis",
       "The LTCM hedge fund collapse"
     ],
-    "answer": "The Vasa warship — built outside competence due to pressure from above",
+    "answer": "The Vasa warship — built",
     "explanation": "The Vasa sank because the shipwrights built outside their competence due to royal pressure. Similarly, engineers pressured to deliver features beyond their expertise risk catastrophic failure. Knowing when to say no is a critical competence boundary skill.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A famous heart surgeon decides to launch a hedge fund, believing their intelligence and discipline guarantee success in finance. What pitfall does this represent?",
     "options": [
       "The Dunning-Kruger effect",
-      "Competence creep — domain success mistaken for unrelated expertise",
+      "Competence creep — domain",
       "Impostor syndrome",
       "The Peter Principle"
     ],
-    "answer": "Competence creep — domain success mistaken for unrelated expertise",
+    "answer": "Competence creep — domain",
     "explanation": "Competence creep occurs when excellence in one area creates an illusion of universal competence. An elite surgeon's skills do not transfer to venture capital or finance. True competence in a new domain requires dedicated, domain-specific feedback loops.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "Your company needs to expand into a foreign market where you have no experience. According to the Circle of Competence framework, what is the safest approach?",
     "options": [
       "Jump in aggressively to learn quickly",
-      "Acknowledge ignorance, hire local experts with proven track records, and keep initial exposure small",
+      "Acknowledge ignorance, hire local experts with proven track records,",
       "Hire a consulting firm to write a report but make decisions yourself",
       "Avoid the market entirely forever"
     ],
-    "answer": "Acknowledge ignorance, hire local experts with proven track records, and keep initial exposure small",
+    "answer": "Acknowledge ignorance, hire local experts with proven track records,",
     "explanation": "When operating at the fringe or outside your circle: openly acknowledge ignorance, seek advisors with verified domain expertise, and minimize financial exposure so failure is survivable. These prophylactic measures prevent ruin.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A self-proclaimed real estate expert cannot point to any deals they have personally closed or any market predictions they got right. What does this lack of evidence suggest?",
     "options": [
       "They are being modest about their achievements",
-      "Without documented feedback loops, their claimed competence is untested and unreliable",
+      "Without documented feedback loops, their claimed",
       "Real estate expertise cannot be documented",
       "Past performance is irrelevant to current ability"
     ],
-    "answer": "Without documented feedback loops, their claimed competence is untested and unreliable",
+    "answer": "Without documented feedback loops, their claimed",
     "explanation": "Genuine competence requires skin in the game and verifiable outcomes. If someone lacks documented feedback from real market decisions, their claimed expertise is untested. The Circle of Competence framework requires proof, not self-assessment.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "You need advice on a new technology market. Two candidates offer help: one gives a polished presentation with bold promises, the other candidly discusses failure modes and trade-offs. Whom should you trust?",
     "options": [
       "The polished presenter who shows confidence",
-      "The candid expert who discusses nuance, trade-offs, and past mistakes",
+      "The candid expert who discusses nuance, trade-offs, and",
       "Both equally since they have different presentation styles",
       "Neither — you should learn the market yourself"
     ],
-    "answer": "The candid expert who discusses nuance, trade-offs, and past mistakes",
+    "answer": "The candid expert who discusses nuance, trade-offs, and",
     "explanation": "True insiders understand the complexities and failure modes of their domain. They speak about trade-offs and lessons from mistakes, not just successes. Polished salespeople may lack deep, battle-tested knowledge.",
     "difficulty": "medium"
   }

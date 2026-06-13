@@ -5,11 +5,11 @@
     "description": "When faced with two investment options—one with slightly higher returns but much more volatility, and one with lower returns but total peace of mind—how does Housel suggest you choose?",
     "options": [
       "Always pick the higher return to maximize compounding.",
-      "Pick the one that allows you to sleep best at night and stay the course.",
+      "Pick the one that allows you to sleep best at night",
       "Split the money 50/50 regardless of your goals.",
       "Avoid both and keep all your money in cash."
     ],
-    "answer": "Pick the one that allows you to sleep best at night and stay the course.",
+    "answer": "Pick the one that allows you to sleep best at night",
     "explanation": "Consistency is the key to compounding. A mathematically 'perfect' strategy that causes you to panic and sell during a dip is inferior to a 'reasonable' strategy you can stick with for decades.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "If your income doubles but your lifestyle expenses also double to keep up with your peers, what has happened to your actual wealth according to this chapter?",
     "options": [
       "You have become wealthier because your assets increased.",
-      "You have remained stagnant because your 'savings gap' hasn't grown.",
+      "You have remained stagnant because your 'savings gap'",
       "You are better off because you are enjoying life more.",
       "You are less wealthy because you are paying more in taxes."
     ],
-    "answer": "You have remained stagnant because your 'savings gap' hasn't grown.",
+    "answer": "You have remained stagnant because your 'savings gap'",
     "explanation": "Wealth is the gap between what you earn and what you spend. If your ego grows as fast as your income, you are simply running on a treadmill without gaining any financial freedom.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "How should a humble investor react to a massive, unexpected windfall in the stock market?",
     "options": [
       "Assume they have mastered the market and increase their bets.",
-      "Acknowledge that luck played a role and stick to their original long-term plan.",
+      "Acknowledge that luck played a role and stick to their",
       "Tell everyone they meet about their brilliant strategy.",
       "Sell everything because they assume their luck has run out."
     ],
-    "answer": "Acknowledge that luck played a role and stick to their original long-term plan.",
+    "answer": "Acknowledge that luck played a role and stick to their",
     "explanation": "Humility prevents 'ego-driven' investing. Recognizing that luck exists helps you stay disciplined instead of taking unnecessary risks following a win.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "What is the most effective way to 'buy' more time for your investments to grow?",
     "options": [
       "By checking your account balance every single day.",
-      "By starting as early as possible and refusing to interrupt the growth curve.",
+      "By starting as early as possible and refusing to interrupt",
       "By picking stocks that are guaranteed to double every year.",
       "By working until you are 80 years old."
     ],
-    "answer": "By starting as early as possible and refusing to interrupt the growth curve.",
+    "answer": "By starting as early as possible and refusing to interrupt",
     "explanation": "Compounding is like a snowball; it requires a long hill. The longer you let it roll without stopping it, the more massive it becomes.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "According to the summary of the book, what should be an investor's primary focus for improvement?",
     "options": [
       "Learning how to read complex financial charts.",
-      "Mastering their own behavior and emotional responses to money.",
+      "Mastering their own behavior and emotional responses to",
       "Finding the 'secret' stocks that billionaires are buying.",
       "Predicting the exact date of the next economic recession."
     ],
-    "answer": "Mastering their own behavior and emotional responses to money.",
+    "answer": "Mastering their own behavior and emotional responses to",
     "explanation": "Finance is 10% math and 90% behavior. If you can control your fear and greed, you have already won most of the battle.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "How should an investor view a 10% market correction?",
     "options": [
       "As a sign to move all their money into gold.",
-      "As a routine bill or 'admission fee' for long-term gains.",
+      "As a routine bill or 'admission fee' for",
       "As a punishment for not being more careful.",
       "As a failure of the global financial system."
     ],
-    "answer": "As a routine bill or 'admission fee' for long-term gains.",
+    "answer": "As a routine bill or 'admission fee' for",
     "explanation": "Viewing volatility as a 'fee' rather than a 'fine' helps you accept it as a normal part of the process instead of a reason to flee.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "What is the danger of having 'moving goalposts' for your financial success?",
     "options": [
       "You will pay more in management fees.",
-      "You will never reach a point of satisfaction and will eventually take a risk that wipes you out.",
+      "You will never reach a point of satisfaction and",
       "People will be jealous of your continued growth.",
       "Your bank will stop giving you loans."
     ],
-    "answer": "You will never reach a point of satisfaction and will eventually take a risk that wipes you out.",
+    "answer": "You will never reach a point of satisfaction and",
     "explanation": "If you don't know when to stop, you will eventually risk something invaluable (like your health or freedom) for something you don't actually need.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "What is the 'invisible' return on a high savings rate?",
     "options": [
       "A higher interest rate from your bank.",
-      "The ability to say 'no' to a bad boss and wait for a career you actually enjoy.",
+      "The ability to say 'no' to a bad boss and",
       "More respect from your neighbors.",
       "A lower chance of being audited by the IRS."
     ],
-    "answer": "The ability to say 'no' to a bad boss and wait for a career you actually enjoy.",
+    "answer": "The ability to say 'no' to a bad boss and",
     "explanation": "Savings is stored freedom. It allows you to make decisions based on what you want, rather than what you are forced to do by your bank balance.",
     "difficulty": "hard"
   },
@@ -132,10 +132,10 @@
     "options": [
       "High mathematical IQ.",
       "Deep knowledge of corporate tax law.",
-      "Patience, humility, and emotional endurance.",
+      "Patience, humility, and emotional",
       "Aggressiveness and competitive drive."
     ],
-    "answer": "Patience, humility, and emotional endurance.",
+    "answer": "Patience, humility, and emotional",
     "explanation": "Financial history is full of geniuses who went broke and ordinary people who became wealthy through simple, disciplined behavior over a long period of time.",
     "difficulty": "hard"
   }

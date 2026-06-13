@@ -5,11 +5,11 @@
     "description": "A stock's price jumps 20% in one day due to a social media trend. Why is it dangerous for a 30-year 'buy-and-hold' investor to buy the stock based on this momentum?",
     "options": [
       "Because the stock is objectively worthless.",
-      "Because they are taking cues from short-term traders whose 'game' only lasts hours or days.",
+      "Because they are taking cues from short-term traders whose 'game'",
       "Because the government will tax the gains more heavily.",
       "Because long-term investors are not allowed to buy trending stocks."
     ],
-    "answer": "Because they are taking cues from short-term traders whose 'game' only lasts hours or days.",
+    "answer": "Because they are taking cues from short-term traders whose 'game'",
     "explanation": "If you follow the lead of someone playing a different game, you will likely make decisions that are 'rational' for them but 'suicidal' for your long-term goals.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "According to Housel, what is the primary reason smart people get swept up in financial bubbles?",
     "options": [
       "They are less intelligent than the average person.",
-      "They forget which game they are playing and start copying short-term traders.",
+      "They forget which game they are playing and start copying",
       "They are forced by their banks to buy high-priced assets.",
       "They believe that the laws of math have been permanently changed."
     ],
-    "answer": "They forget which game they are playing and start copying short-term traders.",
+    "answer": "They forget which game they are playing and start copying",
     "explanation": "Bubbles aren't necessarily about people being 'crazy'; they are about people switching games without realizing the risks of the new game.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "If a famous trader on TV says 'This stock is a great buy right now,' what is the most important question you should ask before following the advice?",
     "options": [
       "'How much money does this trader have?'",
-      "'What is the trader’s time horizon, and does it match mine?'",
+      "'What is the trader’s time horizon, and does",
       "'What is the ticker symbol for the stock?'",
       "'How many other people are buying this stock?'"
     ],
-    "answer": "'What is the trader’s time horizon, and does it match mine?'",
+    "answer": "'What is the trader’s time horizon, and does",
     "explanation": "The trader might be looking for a 5% gain in 5 minutes. If you are looking for a 500% gain in 5 years, their 'good buy' might be your 'terrible mistake'.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Your neighbor makes a fortune on a speculative 'meme' coin and encourages you to invest. Why might staying on the sidelines be the 'smarter' move according to Chapter 16?",
     "options": [
       "Because your neighbor is probably lying about their profits.",
-      "Because you are sticking to your own game rather than playing a game you don't understand.",
+      "Because you are sticking to your own game rather than playing a game",
       "Because meme coins are illegal for most investors.",
       "Because you should always do the opposite of what your neighbors do."
     ],
-    "answer": "Because you are sticking to your own game rather than playing a game you don't understand.",
+    "answer": "Because you are sticking to your own game rather than playing a game",
     "explanation": "Success in finance comes from knowing your own boundaries. Playing someone else's game is a form of gambling where you don't even know the rules.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Why is 'one-size-fits-all' financial advice often dangerous?",
     "options": [
       "Because it's usually written by people who aren't experts.",
-      "Because it ignores the fact that different people are playing different games.",
+      "Because it ignores the fact that different people are playing",
       "Because it focuses too much on saving and not enough on spending.",
       "Because it is usually too complex for the average person."
     ],
-    "answer": "Because it ignores the fact that different people are playing different games.",
+    "answer": "Because it ignores the fact that different people are playing",
     "explanation": "An 80-year-old widow and a 22-year-old software engineer should almost never follow the same 'universal' advice.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "When a stock becomes 'disconnected from reality' (price is much higher than earnings), who is usually driving the price?",
     "options": [
       "Long-term retirement funds.",
-      "Short-term traders playing a game of momentum.",
+      "Short-term traders playing a",
       "The government.",
       "The company's own employees."
     ],
-    "answer": "Short-term traders playing a game of momentum.",
+    "answer": "Short-term traders playing a",
     "explanation": "Short-term traders don't care about 'reality' or earnings; they care about whether they can sell the stock to someone else for more than they paid in ten minutes.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "What is the 'Psychology of Money' risk of 'chasing heat' in the market?",
     "options": [
       "You will earn too much money and have a high tax bill.",
-      "You end up playing a high-stakes game without the necessary skills or exit strategy.",
+      "You end up playing a high-stakes game without the necessary",
       "You will be banned from the stock exchange for frequent trading.",
       "There is no risk if the stock continues to go up."
     ],
-    "answer": "You end up playing a high-stakes game without the necessary skills or exit strategy.",
+    "answer": "You end up playing a high-stakes game without the necessary",
     "explanation": "If you enter a trade for short-term reasons but try to 'hold' it for long-term reasons when it goes down, you have combined the worst of both games.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "How does having a clear 'mission statement' for your money help you during a market frenzy?",
     "options": [
       "It makes you feel superior to other investors.",
-      "It acts as a filter that allows you to ignore noise that doesn't apply to your 'game'.",
+      "It acts as a filter that allows you to ignore noise that",
       "It guarantees that you will never lose money.",
       "It helps you find other people who are playing the same game."
     ],
-    "answer": "It acts as a filter that allows you to ignore noise that doesn't apply to your 'game'.",
+    "answer": "It acts as a filter that allows you to ignore noise that",
     "explanation": "If your goal is 'Independence in 20 years,' you can easily ignore a 'once-in-a-lifetime' trading tip that only matters for next Tuesday.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "Why shouldn't you feel 'behind' when a friend makes a quick profit on a risky bet?",
     "options": [
       "Because they probably didn't actually make that much money.",
-      "Because their success is likely a 'tail event' of luck in a game that has a high probability of ruin.",
+      "Because their success is likely a 'tail event' of luck in a game that",
       "Because you can always catch up by taking an even bigger risk next week.",
       "Because the friend will eventually have to give the money back."
     ],
-    "answer": "Because their success is likely a 'tail event' of luck in a game that has a high probability of ruin.",
+    "answer": "Because their success is likely a 'tail event' of luck in a game that",
     "explanation": "You only see the 'win'; you don't see the high probability of the 'wipeout' that they narrowly avoided.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "What is the best way to interact with financial news and social media based on Chapter 16?",
     "options": [
       "Follow as many experts as possible to get a balanced view.",
-      "Consume it with a healthy skepticism, always asking: 'Is this person playing my game?'",
+      "Consume it with a healthy skepticism, always asking: 'Is",
       "Only follow people who are richer than you.",
       "Delete all financial apps and never look at the news."
     ],
-    "answer": "Consume it with a healthy skepticism, always asking: 'Is this person playing my game?'",
+    "answer": "Consume it with a healthy skepticism, always asking: 'Is",
     "explanation": "Most financial information is 'noise' because it is intended for a different audience with different goals than yours.",
     "difficulty": "hard"
   }

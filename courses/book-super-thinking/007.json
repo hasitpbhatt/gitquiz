@@ -6,10 +6,10 @@
     "options": [
       "Only physics models of heat transfer",
       "Only economic models of supply and demand",
-      "Physics (energy systems) + Economics (negative externalities) + Systems (feedback loops)",
+      "Physics (energy systems) + Economics",
       "Only biology models of ecosystems"
     ],
-    "answer": "Physics (energy systems) + Economics (negative externalities) + Systems (feedback loops)",
+    "answer": "Physics (energy systems) + Economics",
     "explanation": "Climate change involves: physics (greenhouse effect, thermodynamics), economics (carbon emissions as negative externality not priced in markets), and systems thinking (climate feedback loops like ice-albedo effect).",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "Buy based on a hot tip from a friend",
       "Buy because the stock went up yesterday (recency)",
-      "Analyze financials within your expertise, estimate intrinsic value with margin of safety, and check for cognitive biases",
+      "Analyze financials within your expertise,",
       "Buy the most expensive stock assuming it's best"
     ],
-    "answer": "Analyze financials within your expertise, estimate intrinsic value with margin of safety, and check for cognitive biases",
+    "answer": "Analyze financials within your expertise,",
     "explanation": "Integrating circle of competence (stay expert), inversion/margin of safety (avoid overpaying), and bias awareness (loss aversion, confirmation) creates a robust investment framework.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Only building more playgrounds",
       "Only teaching nutrition in schools",
-      "Combining soda taxes (incentives), school programs (education), urban design (activity), and parental education (home environment)",
+      "Combining soda taxes (incentives),",
       "Only banning sugary drinks"
     ],
-    "answer": "Combining soda taxes (incentives), school programs (education), urban design (activity), and parental education (home environment)",
+    "answer": "Combining soda taxes (incentives),",
     "explanation": "Obesity is a complex system: biology (metabolism), psychology (habits, self-control), economics (food pricing, time costs), and systems (food deserts, marketing). Multi-model interventions address more leverage points.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Only take the higher paying job (Job A)",
       "Only follow your passion regardless of pay",
-      "Compare opportunity cost (future options), skill leverage, industry trends, and competence alignment",
+      "Compare opportunity cost (future options),",
       "Flip a coin to avoid overthinking"
     ],
-    "answer": "Compare opportunity cost (future options), skill leverage, industry trends, and competence alignment",
+    "answer": "Compare opportunity cost (future options),",
     "explanation": "Opportunity cost: What future doors does each job open? Leverage: Does one offer higher impact per hour? Circle of competence: Which better uses/develops your skills? Systems: Industry growth/decline trends.",
     "difficulty": "medium"
   },
@@ -62,10 +62,10 @@
     "options": [
       "Blame them entirely for being lazy",
       "Insist they change completely while you stay the same",
-      "Examine your own contributions (fundamental attribution error), look for negative feedback loops, try inversion (what makes it worse?), and propose mutual concessions",
+      "Examine your own contributions (fundamental",
       "Ignore the problem hoping it goes away"
     ],
-    "answer": "Examine your own contributions (fundamental attribution error), look for negative feedback loops, try inversion (what makes it worse?), and propose mutual concessions",
+    "answer": "Examine your own contributions (fundamental",
     "explanation": "Relationships are psychological systems: attribution bias blames others, negative feedback loops (more nagging -> less cooperation), inversion identifies escalation behaviors, and reciprocity suggests compromise builds goodwill.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Copy exactly what the market leader does",
       "Focus only on having the best technology",
-      "Identify leverage points (network effects), play to comparative advantages, consider psychological switching costs, and build ecosystem partnerships",
+      "Identify leverage points (network effects),",
       "Spend all funding on advertising immediately"
     ],
-    "answer": "Identify leverage points (network effects), play to comparative advantages, consider psychological switching costs, and build ecosystem partnerships",
+    "answer": "Identify leverage points (network effects),",
     "explanation": "Strong strategy integrates: economics (leverage, comparative advantage), psychology (customer lock-in, brand trust), systems (platform ecosystems, network feedback loops), and physics (finding fulcrum points for maximal impact).",
     "difficulty": "medium"
   },
@@ -90,10 +90,10 @@
     "options": [
       "Increasing standardized testing frequency",
       "Reducing teacher pay to save money",
-      "Implementing spaced repetition (biology), growth mindset feedback (psychology), teacher merit systems (economics), and project-based learning (systems integration)",
+      "Implementing spaced repetition (biology),",
       "Eliminating all homework"
     ],
-    "answer": "Implementing spaced repetition (biology), growth mindset feedback (psychology), teacher merit systems (economics), and project-based learning (systems integration)",
+    "answer": "Implementing spaced repetition (biology),",
     "explanation": "Effective education reform is multi-dimensional: biology (how memory works via spaced repetition), psychology (motivation from mindset feedback), economics (incentivizing teacher quality), and systems (projects that connect concepts across disciplines).",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Pay equal amounts to all debts",
       "Pay only the mortgage because it's for a house",
-      "Focus extra payments on the 20% credit card debt first (highest compounding cost), then 5%, then 3%, while maintaining minimum payments on others",
+      "Focus extra payments on the 20% credit card debt first",
       "Stop paying all debts and declare bankruptcy immediately"
     ],
-    "answer": "Focus extra payments on the 20% credit card debt first (highest compounding cost), then 5%, then 3%, while maintaining minimum payments on others",
+    "answer": "Focus extra payments on the 20% credit card debt first",
     "explanation": "Debt management integrates: compounding (high APR destroys wealth fastest), opportunity cost (paying 20% interest means losing chance to earn elsewhere), inversion (what increases debt cost? - missing payments), and leverage (tackling high-leverage debt first).",
     "difficulty": "hard"
   }

@@ -103,11 +103,11 @@
     "description": "A junior architect wants to develop their design skills. How should they combine Creativity Begins with Copying with other principles?",
     "options": [
       "Copy famous buildings without modification",
-      "Study great buildings, design variations, and get feedback from senior architects",
+      "Study great buildings, design variations, and get feedback from senior",
       "Avoid studying other peoples work to focus only on your own original ideas",
       "Only work on theoretical designs without real constraints"
     ],
-    "answer": "Study great buildings, design variations, and get feedback from senior architects",
+    "answer": "Study great buildings, design variations, and get feedback from senior",
     "explanation": "This combines copying (studying great work), practice (design variations), feedback (senior review), and reality (real projects). Each principle reinforces the others for maximum growth.",
     "difficulty": "hard"
   },
@@ -145,11 +145,11 @@
     "description": "Looking back on your learning journey, which perspective best reflects the books overall message?",
     "options": [
       "Learning is about natural talent and finding what you are good at",
-      "Getting better at anything requires understanding the principles of seeing, doing, and feedback",
+      "Getting better at anything requires understanding the principles of seeing, doing, and",
       "Only certain people can master difficult skills",
       "The best way to learn is to find a great teacher and follow their instructions exactly"
     ],
-    "answer": "Getting better at anything requires understanding the principles of seeing, doing, and feedback",
+    "answer": "Getting better at anything requires understanding the principles of seeing, doing, and",
     "explanation": "The books core message is that skill acquisition follows understandable principles. By applying See, Do, and Feedback, combined with persistence through non-linear progress, anyone can get better at anything.",
     "difficulty": "hard"
   }
