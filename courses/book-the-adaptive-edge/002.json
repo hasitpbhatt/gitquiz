@@ -5,11 +5,11 @@
     "description": "You are coaching a youth soccer team that keeps losing close games. Instead of shouting instructions from the sideline, you sit in the bleachers and watch a full practice without intervening. What are you trying to identify from the balcony?",
     "options": [
       "Which player is out of shape and running the slowest.",
-      "The hidden patterns of who the team naturally looks",
+      "The hidden patterns of who the team naturally looks to for leadership during chaotic moments.",
       "The technical errors in each player's kicking form.",
       "The exact number of minutes each drill takes."
     ],
-    "answer": "The hidden patterns of who the team naturally looks",
+    "answer": "The hidden patterns of who the team naturally looks to for leadership during chaotic moments.",
     "explanation": "The balcony view is about seeing high-level dynamics and social patterns. It helps you understand 'why' the team is struggling by observing who influences whom when things break down.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "You propose a new transparency initiative, and your boss immediately pulls you aside to say, 'That's not how we do things here; let's stick to the script.' What is happening in this scenario?",
     "options": [
       "The boss is providing helpful technical feedback on your proposal.",
-      "The system is trying to force you back into its established 'song'",
+      "The system is trying to force you back into its established 'song' or cultural norm.",
       "The initiative was poorly designed and needs more detail.",
       "The company is in a state of productive disequilibrium."
     ],
-    "answer": "The system is trying to force you back into its established 'song'",
+    "answer": "The system is trying to force you back into its established 'song' or cultural norm.",
     "explanation": "Systems are self-regulating and will try to neutralize anyone who challenges the status quo. Recognizing this 'pull' is a key balcony skill.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "The team is in full agreement that the product is fine.",
       "The team lacks the data to talk about market share.",
-      "The topic is a 'sacred cow' or a source of fear that",
+      "The topic is a 'sacred cow' or a source of fear that the system is avoiding.",
       "The meeting is simply running out of time."
     ],
-    "answer": "The topic is a 'sacred cow' or a source of fear that",
+    "answer": "The topic is a 'sacred cow' or a source of fear that the system is avoiding.",
     "explanation": "Avoidance is a classic sign of an adaptive challenge. The 'silence' identifies where the loss or fear is greatest within the group.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A team member asks you, 'Just tell us exactly what to do so we can stop fighting.' If you give them a direct answer, what have you done from an adaptive perspective?",
     "options": [
       "Exhibited strong, decisive leadership.",
-      "Fallen into the trap of taking the work",
+      "Fallen into the trap of taking the work away from the people.",
       "Successfully moved the team to the balcony.",
       "Increased the heat in the productive zone."
     ],
-    "answer": "Fallen into the trap of taking the work",
+    "answer": "Fallen into the trap of taking the work away from the people.",
     "explanation": "By providing the answer, you relieve the team of the 'work' of resolving their own conflict, which prevents them from developing the adaptive capacity they need.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Your usually energetic neighbor has stopped attending community garden meetings and seems withdrawn. From the balcony, how should you view this change in behavior?",
     "options": [
       "As a personal issue that is none of your concern.",
-      "As an indicator that the community group is putting",
+      "As an indicator that the community group is putting pressure on its most sensitive members.",
       "As a sign that gardening is no longer their interest.",
       "As an isolated incident unrelated to the group's dynamics."
     ],
-    "answer": "As an indicator that the community group is putting",
+    "answer": "As an indicator that the community group is putting pressure on its most sensitive members.",
     "explanation": "Individual withdrawal is often a symptom of systemic stress. The 'canary' is reacting to the adaptive pressure that others might be successfully (but unhealthily) ignoring.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You love being the 'hero' who saves the day. How might this personal hunger hinder your ability to lead adaptively?",
     "options": [
       "It will make you more popular with your subordinates.",
-      "It may cause you to solve problems for people instead of",
+      "It may cause you to solve problems for people instead of letting them learn to solve them.",
       "It will give you the energy needed to work longer hours.",
       "It will ensure that the technical problems are solved quickly."
     ],
-    "answer": "It may cause you to solve problems for people instead of",
+    "answer": "It may cause you to solve problems for people instead of letting them learn to solve them.",
     "explanation": "The hunger to be the hero is a technical fix for the leader’s ego but prevents the group from doing the adaptive work required for long-term growth.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "You see that during high-stakes meetings, people are constantly checking their phones and leaving the room. What does this tell you about the 'holding environment'?",
     "options": [
       "The environment is too strong and needs more heat.",
-      "The holding environment is weak and the 'heat' is",
+      "The holding environment is weak and the 'heat' is escaping.",
       "The team is highly efficient and multitasking.",
       "The technical infrastructure of the room is failing."
     ],
-    "answer": "The holding environment is weak and the 'heat' is",
+    "answer": "The holding environment is weak and the 'heat' is escaping.",
     "explanation": "Distractions are a sign that the holding environment isn't contained. To do adaptive work, people must stay 'in the room' with the tension rather than escaping it.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "The Finance VP is blocking a new innovation project. What should you look for from the balcony to understand their resistance?",
     "options": [
       "Whether they have a personal grudge against the Innovation Director.",
-      "What specific metric or sense of control they fear losing if the",
+      "What specific metric or sense of control they fear losing if the project proceeds.",
       "The technical errors in their budget spreadsheet.",
       "How many years of experience they have in finance."
     ],
-    "answer": "What specific metric or sense of control they fear losing if the",
+    "answer": "What specific metric or sense of control they fear losing if the project proceeds.",
     "explanation": "Resistance is rooted in loss. Identifying the specific 'stake' (like control over the budget or a predictable forecast) helps you address the root cause of the pushback.",
     "difficulty": "easy"
   },

@@ -5,25 +5,25 @@
     "description": "A startup gains its first 100 users who each invite 3 friends, who each invite 3 more. The user base grows faster every week without new marketing spend. What type of system dynamic is this?",
     "options": [
       "A balancing feedback loop maintaining equilibrium",
-      "A reinforcing feedback loop driving exponential",
+      "A reinforcing feedback loop driving exponential growth",
       "A linear input-output process",
       "A bottleneck constraint limiting throughput"
     ],
-    "answer": "A reinforcing feedback loop driving exponential",
+    "answer": "A reinforcing feedback loop driving exponential growth",
     "explanation": "Each new user generates more users, creating a virtuous cycle where growth accelerates over time — the classic signature of a reinforcing feedback loop.",
     "difficulty": "easy"
   },
   {
     "question": "Balancing Feedback Loop",
     "content": "A balancing loop resists change by self-correcting toward a target or equilibrium, acting as a stabilizing force in a system.",
-    "description": "Your office thermostat is set to 72°F. When the room gets too hot, the AC kicks on; when too cold, the heater activates. What type of feedback loop is at work?",
+    "description": "Your office thermostat is set to 72\u00b0F. When the room gets too hot, the AC kicks on; when too cold, the heater activates. What type of feedback loop is at work?",
     "options": [
       "A reinforcing loop amplifying temperature change",
-      "A balancing loop maintaining temperature",
+      "A balancing loop maintaining temperature equilibrium",
       "A churn loop cycling through temperatures",
       "An emergent property of the HVAC system"
     ],
-    "answer": "A balancing loop maintaining temperature",
+    "answer": "A balancing loop maintaining temperature equilibrium",
     "explanation": "Balancing loops resist deviation from a set point by applying corrective force in the opposite direction, keeping the system stable around its target.",
     "difficulty": "easy"
   },
@@ -33,25 +33,25 @@
     "description": "Enron used mark-to-market accounting to book estimated future profits as current revenue. Executives earned stock compensation on inflated earnings, which incentivized more complex financial tricks. What happened when the deception could no longer keep pace?",
     "options": [
       "The company gradually returned to equilibrium",
-      "The reinforcing loop reversed direction into a rapid",
+      "The reinforcing loop reversed direction into a rapid collapse",
       "Balancing loops automatically corrected the overvaluation",
       "The system reached a sustainable steady state"
     ],
-    "answer": "The reinforcing loop reversed direction into a rapid",
+    "answer": "The reinforcing loop reversed direction into a rapid collapse",
     "explanation": "Toxic reinforcing loops that amplify deception eventually hit a limit where the gap between perception and reality becomes unsustainable, triggering a catastrophic reversal into collapse.",
     "difficulty": "hard"
   },
   {
     "question": "Leverage Point in Systems",
     "content": "The most effective intervention in a feedback system is to identify where balancing loops are broken or where dangerous reinforcing loops are running unchecked.",
-    "description": "Your company’s sales team is incentivized purely on new customer count, but customer support is overwhelmed and churn is rising. According to feedback loop principles, what is the most effective fix?",
+    "description": "Your company\u2019s sales team is incentivized purely on new customer count, but customer support is overwhelmed and churn is rising. According to feedback loop principles, what is the most effective fix?",
     "options": [
       "Hire more salespeople to outrun the churn problem",
-      "Tie compensation to retention to counteract the runaway",
+      "Introduce a balancing metric \u2014 tie compensation to retention or satisfaction \u2014 to counteract the runaway reinforcing loop",
       "Remove the sales incentive entirely",
       "Increase marketing spend to acquire customers even faster"
     ],
-    "answer": "Tie compensation to retention to counteract the runaway",
+    "answer": "Introduce a balancing metric \u2014 tie compensation to retention or satisfaction \u2014 to counteract the runaway reinforcing loop",
     "explanation": "Adding a balancing force (retention metric) counteracts the unchecked reinforcing loop (growth at all costs), creating a healthier system dynamic.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Uber becomes more valuable in a city as more drivers join (shorter wait times), which attracts more riders, which attracts even more drivers. How should leadership think about this dynamic?",
     "options": [
       "It is a stable equilibrium that requires no intervention",
-      "It is a reinforcing loop that can be kickstarted by",
+      "It is a reinforcing loop that can be kickstarted by subsidizing one side of the market",
       "It is a bottleneck that limits city-level growth",
       "It is a balancing loop that naturally caps market size"
     ],
-    "answer": "It is a reinforcing loop that can be kickstarted by",
+    "answer": "It is a reinforcing loop that can be kickstarted by subsidizing one side of the market",
     "explanation": "Platforms often subsidize the harder side to acquire (e.g., drivers) to jumpstart the reinforcing loop. Once critical mass is reached, the loop becomes self-sustaining.",
     "difficulty": "medium"
   },
@@ -75,25 +75,25 @@
     "description": "You notice that when your team works overtime, errors increase, which forces rework, which requires more overtime. How would you classify this loop?",
     "options": [
       "A balancing loop that will eventually stabilize output",
-      "A reinforcing loop driving a downward spiral of",
+      "A reinforcing loop driving a downward spiral of productivity",
       "A bottleneck in the quality assurance process",
       "An emergent property of team dynamics"
     ],
-    "answer": "A reinforcing loop driving a downward spiral of",
-    "explanation": "Overtime → errors → rework → more overtime: each step amplifies the previous one in the same direction, making it a classic downward reinforcing loop.",
+    "answer": "A reinforcing loop driving a downward spiral of productivity",
+    "explanation": "Overtime \u2192 errors \u2192 rework \u2192 more overtime: each step amplifies the previous one in the same direction, making it a classic downward reinforcing loop.",
     "difficulty": "medium"
   },
   {
     "question": "Mechanical Balancing Intervention",
-    "content": "When dangerous reinforcing loops cannot be corrected by incentives alone, introducing mechanical checks — such as independent audits or absolute performance caps — forces balancing behavior.",
+    "content": "When dangerous reinforcing loops cannot be corrected by incentives alone, introducing mechanical checks \u2014 such as independent audits or absolute performance caps \u2014 forces balancing behavior.",
     "description": "A trading desk has a reinforcing loop where profitable risky bets lead to more capital, enabling even larger risky bets. What structural fix would best introduce a balancing force?",
     "options": [
       "Hire more traders to diversify the portfolio",
-      "Impose a hard position-size limit that cannot",
+      "Impose a hard position-size limit that cannot be overridden by managers",
       "Increase the bonus pool for profitable trades",
       "Provide risk-management training to all traders"
     ],
-    "answer": "Impose a hard position-size limit that cannot",
+    "answer": "Impose a hard position-size limit that cannot be overridden by managers",
     "explanation": "Mechanical constraints like hard caps force balancing behavior regardless of incentives. Training and bonuses do not structurally break the reinforcing loop.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A factory consistently overshoots its production targets but then misses delivery deadlines because quality defects spike. Management keeps blaming the quality team. What systemic issue are they overlooking?",
     "options": [
       "The quality team is understaffed and needs more resources",
-      "The production incentive creates a reinforcing loop that",
+      "The production incentive creates a reinforcing loop that overwhelms the quality balancing loop",
       "The factory equipment is outdated and needs replacement",
       "Customers are demanding unrealistic delivery timelines"
     ],
-    "answer": "The production incentive creates a reinforcing loop that",
+    "answer": "The production incentive creates a reinforcing loop that overwhelms the quality balancing loop",
     "explanation": "When a reinforcing loop (production volume) is stronger than the balancing loop (quality control), the system runs away. Adding more quality staff without addressing the incentive structure merely treats the symptom.",
     "difficulty": "hard"
   }

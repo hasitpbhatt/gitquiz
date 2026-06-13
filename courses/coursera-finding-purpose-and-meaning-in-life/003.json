@@ -18,12 +18,12 @@
     "content": "Value Architecture Excavation uses Peak Experience Analysis, Value Extraction, and Conflict Clarification as its three steps.",
     "description": "Your therapist asks you to describe three moments of intense fulfillment then extract the values honored. Which step is this?",
     "options": [
-      "Peak Experience",
+      "Peak Experience Analysis",
       "Value Extraction",
       "Conflict Clarification",
       "Value Internalization"
     ],
-    "answer": "Peak Experience",
+    "answer": "Peak Experience Analysis",
     "explanation": "Peak Experience Analysis is the first step identifying moments of alignment before extracting values.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "True values are defined by what you sacrifice. Forced-choice scenarios pit competing principles against each other to reveal your hierarchy.",
     "description": "You claim to value adventure and security equally but choose a stable boring job over a risky startup. What does this reveal?",
     "options": [
-      "Security ranks higher in your actual",
+      "Security ranks higher in your actual value hierarchy",
       "You have not done proper value excavation",
       "Adventure was never a real value",
       "You need more peak experiences"
     ],
-    "answer": "Security ranks higher in your actual",
+    "answer": "Security ranks higher in your actual value hierarchy",
     "explanation": "Conflict Clarification reveals true hierarchy through behavior in forced choices showing what you value in practice.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "The course warns against follow-your-passion because passion is fickle and self-absorbed. It should function as an engine sustaining engagement through difficulty.",
     "description": "Your sister wants to quit her job because she is not passionate anymore. How should you counsel her?",
     "options": [
-      "Passion fuels effort through difficulty but should not",
+      "Passion fuels effort through difficulty but should not dictate every decision",
       "She should quit immediately to find true passion",
       "Passion is irrelevant to career decisions",
       "She should pursue only what she consumes enthusiastically"
     ],
-    "answer": "Passion fuels effort through difficulty but should not",
+    "answer": "Passion fuels effort through difficulty but should not dictate every decision",
     "explanation": "Passion is fickle and self-absorbed. It should fuel sustained effort not serve as the sole compass.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "Look at what you naturally obsess over when no one is watching and what problems stir your moral outrage or deep sorrow.",
     "description": "To identify authentic passion what should you examine instead of what you enjoy consuming?",
     "options": [
-      "What you obsess over when no",
+      "What you obsess over when no one is watching",
       "What your parents advised",
       "What pays the highest salary",
       "What comes easiest to you"
     ],
-    "answer": "What you obsess over when no",
+    "answer": "What you obsess over when no one is watching",
     "explanation": "Authentic passion reveals itself through private obsessions and what provokes moral outrage.",
     "difficulty": "easy"
   },
@@ -102,12 +102,12 @@
     "content": "Talents show through spontaneous reaction, rapid learning curves, intense satisfaction, and flow.",
     "description": "Your manager notices you pick up programming languages faster than anyone and enjoy it. What does this indicate?",
     "options": [
-      "A natural talent for",
+      "A natural talent for programming logic",
       "Excellent formal training",
       "High motivation only",
       "A learned skill from practice"
     ],
-    "answer": "A natural talent for",
+    "answer": "A natural talent for programming logic",
     "explanation": "Rapid learning and intense satisfaction during activity are key clues of natural talent.",
     "difficulty": "medium"
   }

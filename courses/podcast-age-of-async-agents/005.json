@@ -5,11 +5,11 @@
     "description": "Cole Murray says testing is harder than computer use. What makes agent-driven testing fundamentally more difficult than basic web browsing or form-filling automation?",
     "options": [
       "Testing requires reading text; computer use requires clicking buttons",
-      "Testing needs coordination, orchestration, and verification of",
+      "Testing needs coordination, orchestration, and verification of distributed system behavior",
       "Testing is easier than computer use",
       "Computer use requires more complex models than testing"
     ],
-    "answer": "Testing needs coordination, orchestration, and verification of",
+    "answer": "Testing needs coordination, orchestration, and verification of distributed system behavior",
     "explanation": "The core distinction: computer use is about performing actions (click, type, read), while testing requires orchestrating complex setups, understanding distributed system state, and correctly verifying outcomes across multiple services.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Your agent keeps passing tests but the feature doesn't work correctly in production. What is this phenomenon where agents exploit the test suite instead of solving the real problem?",
     "options": [
       "Overfitting",
-      "Reward hacking,",
+      "Reward hacking, optimizing for test-passing instead of correct behavior",
       "Cache optimization",
       "Regression"
     ],
-    "answer": "Reward hacking,",
+    "answer": "Reward hacking, optimizing for test-passing instead of correct behavior",
     "explanation": "Reward hacking is when agents find shortcuts to satisfy the test without doing the real work. Instead of implementing correct logic, they learn that passing the existing tests is sufficient and optimize for that narrow goal.",
     "difficulty": "hard"
   },
@@ -33,11 +33,11 @@
     "description": "Your code review shows a pattern where the AI agent used getattr everywhere instead of proper attribute access and broke an existing API without warning. What is this class of problems called?",
     "options": [
       "Syntax errors",
-      "AI code smells,",
+      "AI code smells, patterns commonly produced by AI agents indicating poor quality",
       "Runtime exceptions",
       "Type mismatches"
     ],
-    "answer": "AI code smells,",
+    "answer": "AI code smells, patterns commonly produced by AI agents indicating poor quality",
     "explanation": "AI code smells are characteristic patterns that indicate an AI agent wrote the code: excessive getattr, breaking backwards compatibility, returning untyped tuples. These are not errors but quality signals that human reviewers should watch for.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Your team wants agents to work effectively on your codebase. What is the most important infrastructure change to make agents more self-sufficient?",
     "options": [
       "Write more documentation in the README",
-      "Set up Docker Compose, mock servers,",
+      "Set up Docker Compose, mock servers, and local test databases so agents can run everything without human setup",
       "Switch to a monorepo structure",
       "Add more comments to the code"
     ],
-    "answer": "Set up Docker Compose, mock servers,",
+    "answer": "Set up Docker Compose, mock servers, and local test databases so agents can run everything without human setup",
     "explanation": "Agent-ready codebases have fully automated local development environments. If an agent can run docker compose up and have everything it needs (databases, mock services, test fixtures), it can work autonomously without asking humans for environment setup help.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "GitAI is the concept of using a git-based system to preserve the reasoning behind code changes, treating the commit message and diff as a record of what the AI was asked to do and why.",
     "description": "A senior developer complains that AI-generated code lacks context. You want a system that preserves the intent and reasoning behind each change. What concept addresses this?",
     "options": [
-      "GitAI, preserving the",
+      "GitAI, preserving the why behind changes in the commit history",
       "Code comments",
       "Documentation generation",
       "Inline annotations"
     ],
-    "answer": "GitAI, preserving the",
+    "answer": "GitAI, preserving the why behind changes in the commit history",
     "explanation": "GitAI is the practice of preserving the specification, reasoning, and intent behind code changes in the git history itself. The commit message becomes a record of what the agent was asked to do, providing crucial context for future developers.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A team lead questions whether the tests your agent writes are meaningful. What technique does Cognition use to verify that agent-written tests actually validate behavior?",
     "options": [
       "Code coverage reports",
-      "Mutation testing, which modifies",
+      "Mutation testing, which modifies source code and checks if existing tests catch the change",
       "Linting rules",
       "Manual code review of every test"
     ],
-    "answer": "Mutation testing, which modifies",
+    "answer": "Mutation testing, which modifies source code and checks if existing tests catch the change",
     "explanation": "Mutation testing deliberately introduces bugs into the source code and checks whether the test suite detects them. If a test doesn't fail when a mutation is introduced, it is not meaningfully validating the code's behavior.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "You need to establish a code review policy for AI-generated pull requests. Which practice is most important for catching agent-specific issues?",
     "options": [
       "Only check the final output, not the diffs",
-      "Check diffs for AI code smells, verify spec",
+      "Check diffs for AI code smells, verify spec implementation, and watch for reward hacking",
       "Trust all agent output since it passes tests",
       "Only review code written by humans, not agents"
     ],
-    "answer": "Check diffs for AI code smells, verify spec",
+    "answer": "Check diffs for AI code smells, verify spec implementation, and watch for reward hacking",
     "explanation": "Effective AI code review means being aware of agent-specific failure modes: AI code smells (getattr abuse, backward compat breaks), reward hacking (test-only optimization), and ensuring the spec is fully covered. Running the code locally is also recommended.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Your agent wants to modify production database credentials. What safety mechanism should prevent the agent from doing this without human approval?",
     "options": [
       "The agent should have full autonomy for all operations",
-      "Human-in-the-loop, requiring explicit approval for high-risk",
+      "Human-in-the-loop, requiring explicit approval for high-risk actions like production secret changes",
       "Database credentials should be hardcoded in the agent prompt",
       "The agent should only work in production, never development"
     ],
-    "answer": "Human-in-the-loop, requiring explicit approval for high-risk",
+    "answer": "Human-in-the-loop, requiring explicit approval for high-risk actions like production secret changes",
     "explanation": "Human-in-the-loop is a critical safety mechanism where certain categories of actions (modifying production secrets, deleting resources, deploying to production) require explicit human approval. Walden emphasizes that keeping a human in the loop for unsafe changes is essential.",
     "difficulty": "medium"
   }

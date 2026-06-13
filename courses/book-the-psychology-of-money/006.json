@@ -5,11 +5,11 @@
     "description": "If a venture capital firm invests in 50 startups, and 49 fail while 1 becomes the next Google, how would Housel describe this outcome?",
     "options": [
       "A catastrophic failure of the firm's picking ability",
-      "A standard 'tail' event where one massive success pays for",
+      "A standard 'tail' event where one massive success pays for everything else",
       "A lucky break that shouldn't be counted as a professional strategy",
       "An inefficient use of capital across 49 companies"
     ],
-    "answer": "A standard 'tail' event where one massive success pays for",
+    "answer": "A standard 'tail' event where one massive success pays for everything else",
     "explanation": "In many fields, especially investing, a small number of events drive the majority of outcomes. You can be wrong most of the time and still be a massive success.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "They never make a bad investment.",
       "They have a high 'batting average' and are right 99% of the time.",
-      "They accept being wrong often but make sure their few 'hits' are",
+      "They accept being wrong often but make sure their few 'hits' are enormous.",
       "They use insider information to avoid any losing trades."
     ],
-    "answer": "They accept being wrong often but make sure their few 'hits' are",
+    "answer": "They accept being wrong often but make sure their few 'hits' are enormous.",
     "explanation": "Buffett once said he has owned 400 to 500 stocks in his life, but made most of his money on just 10 of them. The rest were 'junk' or mediocre.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "What does the story of Disney teach us about business success?",
     "options": [
       "You should only produce one high-quality product every decade.",
-      "Business is about surviving long enough to eventually hit a",
+      "Business is about surviving long enough to eventually hit a 'tail' success.",
       "Animation is a safer bet than live-action film.",
       "Debt is a useful tool to force you to work harder."
     ],
-    "answer": "Business is about surviving long enough to eventually hit a",
+    "answer": "Business is about surviving long enough to eventually hit a 'tail' success.",
     "explanation": "Disney's hundreds of previous failures didn't matter once 'Snow White' became a global phenomenon. The 'tail' washed away all previous losses.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Why does Housel recommend index funds for most people based on the 'Tail' theory?",
     "options": [
       "Because they are cheaper to manage than individual stocks.",
-      "Because an index fund guarantees you will own the few 'tail'",
+      "Because an index fund guarantees you will own the few 'tail' winners that drive the market.",
       "Because the government protects index funds from losing money.",
       "Because index funds only pick the best 500 companies in the world."
     ],
-    "answer": "Because an index fund guarantees you will own the few 'tail'",
+    "answer": "Because an index fund guarantees you will own the few 'tail' winners that drive the market.",
     "explanation": "Since you don't know which stock will be the next 'Amazon,' owning everything ensures you don't miss the few winners that carry the entire market's performance.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "How should an investor react when they realize half of their portfolio is underperforming the market?",
     "options": [
       "Sell everything and assume they are bad at investing.",
-      "Realize that this is a normal part of the 'tail' distribution of",
+      "Realize that this is a normal part of the 'tail' distribution of returns.",
       "Move all their money into the one stock that is currently winning.",
       "Fire their financial advisor immediately."
     ],
-    "answer": "Realize that this is a normal part of the 'tail' distribution of",
+    "answer": "Realize that this is a normal part of the 'tail' distribution of returns.",
     "explanation": "Success isn't the absence of failure; it's the presence of a few winners that are so large they make the failures irrelevant.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "In a 'power law' environment like the stock market, what happens to most participants?",
     "options": [
       "Most participants get an 'average' return every single year.",
-      "Most participants experience many small losses and a few",
+      "Most participants experience many small losses and a few life-changing wins.",
       "Everyone wins eventually if they wait exactly 7 years.",
       "Risk is distributed equally among all stocks."
     ],
-    "answer": "Most participants experience many small losses and a few",
+    "answer": "Most participants experience many small losses and a few life-changing wins.",
     "explanation": "In power law distributions, the 'average' is skewed by extreme outliers at the end (the tail).",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "If you want to be a successful content creator, what is the best strategy according to Chapter 6?",
     "options": [
       "Spend a year making one 'perfect' video.",
-      "Produce a high volume of work to increase your chances",
+      "Produce a high volume of work to increase your chances of hitting a 'tail' event.",
       "Only post when you are 100% sure a video will go viral.",
       "Copy the exact format of the most popular creator."
     ],
-    "answer": "Produce a high volume of work to increase your chances",
+    "answer": "Produce a high volume of work to increase your chances of hitting a 'tail' event.",
     "explanation": "You can't predict which video will be the 'tail,' so you must 'buy' more tickets to the lottery by creating more work.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "How does this definition of genius apply to tail events in investing?",
     "options": [
       "You must have a higher IQ than other investors to see the tails coming.",
-      "You only need to avoid panicking during market crashes to benefit from",
+      "You only need to avoid panicking during market crashes to benefit from the 'tail' of long-term growth.",
       "You should ignore all data and follow your gut instinct.",
       "A genius always knows which stock will be the next winner."
     ],
-    "answer": "You only need to avoid panicking during market crashes to benefit from",
+    "answer": "You only need to avoid panicking during market crashes to benefit from the 'tail' of long-term growth.",
     "explanation": "Market crashes are 'tails' in the wrong direction. If you can simply do the 'average' thing (nothing) while others panic, you survive to see the 'positive tails' later.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "What is the danger of being a perfectionist in your financial life?",
     "options": [
       "You will spend too much time on spreadsheets.",
-      "You might quit early because you feel like a failure when",
+      "You might quit early because you feel like a failure when a few investments go down.",
       "You will earn too much money and have a high tax bill.",
       "Perfectionists are usually too aggressive with their risks."
     ],
-    "answer": "You might quit early because you feel like a failure when",
+    "answer": "You might quit early because you feel like a failure when a few investments go down.",
     "explanation": "If you expect to be right 100% of the time, the reality of 'tails' (where you are often wrong) will cause you to abandon a good long-term strategy.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "How should an investor use this historical 'tail' perspective?",
     "options": [
       "By trying to predict the next world-changing pandemic.",
-      "By realizing that 'normal' times are interrupted by rare,",
+      "By realizing that 'normal' times are interrupted by rare, massive events that change everything.",
       "By ignoring history entirely since it's just a few outliers.",
       "By only investing in companies that work for the government."
     ],
-    "answer": "By realizing that 'normal' times are interrupted by rare,",
+    "answer": "By realizing that 'normal' times are interrupted by rare, massive events that change everything.",
     "explanation": "You can't plan for specific tail events, but you can plan for the *existence* of tail events by having a robust and flexible financial life.",
     "difficulty": "medium"
   }

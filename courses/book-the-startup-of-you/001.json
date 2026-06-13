@@ -19,11 +19,11 @@
     "description": "A long-tenured employee at a traditional firm believes that their 20 years of experience exempts them from learning new digital tools. What is the primary risk of this 'finished' mindset?",
     "options": [
       "They will be given more responsibility because they are reliable",
-      "They will become a 'fossil' whose skills no longer match the",
+      "They will become a 'fossil' whose skills no longer match the evolving needs of the company",
       "Their salary will automatically increase due to seniority",
       "They will be better protected from economic downturns"
     ],
-    "answer": "They will become a 'fossil' whose skills no longer match the",
+    "answer": "They will become a 'fossil' whose skills no longer match the evolving needs of the company",
     "explanation": "If you aren't growing, you are rotting. The 'finished' mindset ignores the fact that the world around you is constantly changing.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Ignore the news and hope your specific role is spared",
       "Complain to management about the changes and demand job security",
-      "Proactively research adjacent industries where your skills can",
+      "Proactively research adjacent industries where your skills can be adapted to new technology",
       "Do exactly what you have always done to prove your loyalty"
     ],
-    "answer": "Proactively research adjacent industries where your skills can",
+    "answer": "Proactively research adjacent industries where your skills can be adapted to new technology",
     "explanation": "Adaptability requires looking ahead and being willing to move before you are forced to move.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A student is stressed because they don't know exactly what they want to do in 10 years. According to Chapter 1, what advice would be most helpful?",
     "options": [
       "Pick one path and stick to it no matter what happens",
-      "Focus on gaining 'foundational' skills and exploring opportunities that",
+      "Focus on gaining 'foundational' skills and exploring opportunities that exist right now",
       "Don't start working until you have a perfect long-term plan",
       "Follow the exact career path of a successful relative from 30 years ago"
     ],
-    "answer": "Focus on gaining 'foundational' skills and exploring opportunities that",
+    "answer": "Focus on gaining 'foundational' skills and exploring opportunities that exist right now",
     "explanation": "Focusing on the present and near-future allows you to gather data and adjust your path as you learn more about yourself and the market.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Your neighborhood association’s annual festival has lost its funding, and the event is at risk of being canceled. How does someone with an entrepreneurial mindset react?",
     "options": [
       "Cancel the festival and wait for the city council to restore funding next year",
-      "Look for creative, low-cost alternatives like local sponsors and volunteer-run",
+      "Look for creative, low-cost alternatives like local sponsors and volunteer-run activities",
       "Blame the city government for the festival's problems",
       "Move out of the neighborhood because it clearly does not support community events"
     ],
-    "answer": "Look for creative, low-cost alternatives like local sponsors and volunteer-run",
+    "answer": "Look for creative, low-cost alternatives like local sponsors and volunteer-run activities",
     "explanation": "Entrepreneurs are resourceful. They focus on how to move forward with what they have rather than focusing on what they lack.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Which of these daily routines best aligns with the habit of continuous learning?",
     "options": [
       "Checking your email as soon as you wake up to stay on top of tasks",
-      "Spending 30 minutes reading industry news or a non-fiction book",
+      "Spending 30 minutes reading industry news or a non-fiction book related to your field",
       "Focusing only on the tasks your manager assigned for that day",
       "Taking a nap during your lunch break to stay refreshed"
     ],
-    "answer": "Spending 30 minutes reading industry news or a non-fiction book",
+    "answer": "Spending 30 minutes reading industry news or a non-fiction book related to your field",
     "explanation": "Continuous learning requires intentional time set aside to ingest new information outside of your immediate daily tasks.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "You've launched a new internal process at work. It’s not going as well as you hoped. What should you do next?",
     "options": [
       "Hide the negative results so you don't look bad",
-      "Ask your guests for honest feedback on what went wrong and how to improve",
+      "Ask your guests for honest feedback on what went wrong and how to improve it",
       "Serve the same dish at every gathering until people develop a taste for it",
       "Give up on cooking entirely and order takeout for every future party"
     ],
-    "answer": "Ask your guests for honest feedback on what went wrong and how to improve",
+    "answer": "Ask your guests for honest feedback on what went wrong and how to improve it",
     "explanation": "Getting direct feedback allows you to make precise adjustments, which is the core of the 'beta' testing phase.",
     "difficulty": "easy"
   },
@@ -118,10 +118,10 @@
     "options": [
       "Accept that you will never learn that skill",
       "Lobby the company every day until they bring the program back",
-      "Find an online course or a mentor outside the company to teach you that skill",
+      "Find an online course or a mentor outside the company to teach you that skill on your own time",
       "Assume that since the company doesn't offer it, the skill must not be important"
     ],
-    "answer": "Find an online course or a mentor outside the company to teach you that skill",
+    "answer": "Find an online course or a mentor outside the company to teach you that skill on your own time",
     "explanation": "Taking ownership means finding a way to get what you need for your growth, regardless of what your employer provides.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "You are considering a career change from Finance to Graphic Design. What is the most 'Permanent Beta' way to test this?",
     "options": [
       "Quit your finance job and enroll in a 4-year design degree",
-      "Design a logo for a friend’s small business on the weekend to see",
+      "Design a logo for a friend’s small business on the weekend to see if you enjoy the work and the feedback process",
       "Read one blog post about design and decide it's your life's calling",
       "Ask your boss for a raise so you can afford design school later"
     ],
-    "answer": "Design a logo for a friend’s small business on the weekend to see",
+    "answer": "Design a logo for a friend’s small business on the weekend to see if you enjoy the work and the feedback process",
     "explanation": "A small experiment provides real-world data with low risk, helping you decide if a larger 'pivot' is actually worth it.",
     "difficulty": "easy"
   }

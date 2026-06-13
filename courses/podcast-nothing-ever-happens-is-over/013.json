@@ -5,11 +5,11 @@
     "description": "According to Naval, why did nation-states become the dominant structure after the invention of the rifle?",
     "options": [
       "Because rifles were too expensive for anyone but a king to own.",
-      "Because rifles required factories for manufacturing and drilled men",
+      "Because rifles required factories for manufacturing and drilled men for training, which suited state organizations.",
       "Because rifles were less effective than swords in small group combat.",
       "Because the church banned the use of rifles by private individuals."
     ],
-    "answer": "Because rifles required factories for manufacturing and drilled men",
+    "answer": "Because rifles required factories for manufacturing and drilled men for training, which suited state organizations.",
     "explanation": "Naval explains that while a rifle allowed a peasant to kill a knight, the infrastructure required to produce and use them at scale necessitated the rise of the nation-state.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "What does Naval mean by drones bringing the 'logic of mutually assured destruction down to the individual level'?",
     "options": [
       "Individuals will now have their own nuclear-powered drones.",
-      "The cost and expertise to kill a specific individual becomes low enough that everyone",
+      "The cost and expertise to kill a specific individual becomes low enough that everyone is at risk from everyone else.",
       "Drones will eventually force people to live in large, communal hierarchies for safety.",
       "Drones will only be used by police to stop individual crimes."
     ],
-    "answer": "The cost and expertise to kill a specific individual becomes low enough that everyone",
+    "answer": "The cost and expertise to kill a specific individual becomes low enough that everyone is at risk from everyone else.",
     "explanation": "Naval warns that drones democratize the power to inflict lethal violence, potentially allowing any individual to target another with high precision.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "Why does Naval believe drone defense is 'very difficult'?",
     "options": [
       "Because drones are too small to be seen by the human eye.",
-      "Because the attacker can concentrate all drones in one area while the",
+      "Because the attacker can concentrate all drones in one area while the defender is spread thin.",
       "Because drones are made of materials that reflect radar back at the defender.",
       "Because defensive drones require significantly more battery power to hover."
     ],
-    "answer": "Because the attacker can concentrate all drones in one area while the",
+    "answer": "Because the attacker can concentrate all drones in one area while the defender is spread thin.",
     "explanation": "Naval points out the strategic imbalance: the attacker chooses the time and place to overwhelm a spread-out defense with a concentrated mass.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Which physical factor gives the attacking drone an advantage over the defender?",
     "options": [
       "Centrifugal force.",
-      "Kinetic energy from",
+      "Kinetic energy from coming down on the target.",
       "Thermal radiation.",
       "Atmospheric pressure."
     ],
-    "answer": "Kinetic energy from",
+    "answer": "Kinetic energy from coming down on the target.",
     "explanation": "Naval notes that the attacking drone has both kinetic energy and the element of surprise on its side.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "How did nuclear weapons affect the number of truly independent sovereign nations?",
     "options": [
       "They increased the number because every country wanted their own nukes.",
-      "They decreased the number to about 7-9, as most nations now rely on a",
+      "They decreased the number to about 7-9, as most nations now rely on a protector's nuclear arsenal.",
       "They had no effect on sovereignty.",
       "They led to the complete dissolution of all nation-states."
     ],
-    "answer": "They decreased the number to about 7-9, as most nations now rely on a",
+    "answer": "They decreased the number to about 7-9, as most nations now rely on a protector's nuclear arsenal.",
     "explanation": "Naval argues that the high bar for nuclear deterrence created a tier of 'super-sovereigns' and a tier of protected states.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Superior AI processing speed.",
       "Access to unlimited solar power.",
-      "Short range; they traverse less",
+      "Short range; they traverse less distance than the attacking drone.",
       "Higher manufacturing quality."
     ],
-    "answer": "Short range; they traverse less",
+    "answer": "Short range; they traverse less distance than the attacking drone.",
     "explanation": "The defender is already at the target site, meaning their defensive measures have a shorter travel time to intercept the incoming threat.",
     "difficulty": "hard"
   },
@@ -88,7 +88,7 @@
     "content": "The transition from nation-state logic to drone logic suggests a shift in how social order is maintained. If lethal power becomes decentralized, the 'social contract' between the citizen and the state (which provides safety) may be called into question.",
     "description": "Naval suggests that drones will fundamentally change how entire states are:",
     "options": [
-      "Declared immutable.",
+      "Taxed.",
       "Architected.",
       "Named.",
       "Educated."
@@ -103,11 +103,11 @@
     "description": "Why does the 'massing' of drones favor the attacker over the defender?",
     "options": [
       "It makes the drones look like a single, larger aircraft.",
-      "It allows the attacker to choose one point of focus",
+      "It allows the attacker to choose one point of focus while the defender must guard every point.",
       "It reduces the wind resistance for the trailing drones.",
       "It allows the drones to share a single battery pack."
     ],
-    "answer": "It allows the attacker to choose one point of focus",
+    "answer": "It allows the attacker to choose one point of focus while the defender must guard every point.",
     "explanation": "The attacker holds the initiative; the defender's resources are diluted by the need to be present everywhere at once.",
     "difficulty": "hard"
   },
@@ -118,10 +118,10 @@
     "options": [
       "The invention of the drone.",
       "The rise of the nuclear umbrella.",
-      "The rifle, which allowed a peasant to",
+      "The rifle, which allowed a peasant to defeat an elite warrior.",
       "The invention of the factory-made sword."
     ],
-    "answer": "The rifle, which allowed a peasant to",
+    "answer": "The rifle, which allowed a peasant to defeat an elite warrior.",
     "explanation": "The rifle was the 'great equalizer' that broke the monopoly of armored knights on the battlefield.",
     "difficulty": "hard"
   },

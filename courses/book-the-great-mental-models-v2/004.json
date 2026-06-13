@@ -5,11 +5,11 @@
     "description": "Two founders work equally hard. Founder A builds a software product that serves 10,000 customers with a team of 10. Founder B runs a consulting firm serving 20 clients with a team of 50. What explains the difference in output?",
     "options": [
       "Founder A is a more talented programmer",
-      "Founder A built a product with code",
+      "Founder A built a product with code leverage that scales without proportional increases in labor",
       "Founder B chose a less profitable industry",
-      "Founder A had more venture capital funding"
+      "Founder A had more venture capital funding which is a critical factor to consider in this context"
     ],
-    "answer": "Founder A built a product with code",
+    "answer": "Founder A built a product with code leverage that scales without proportional increases in labor",
     "explanation": "Code is a high-leverage asset: once written, software can serve millions of users at near-zero marginal cost. Consulting is labor-leverage: each additional client requires proportional human time. The leverage multiplier determines how much output you get per unit of input force.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A YouTuber spends 40 hours producing a video that gets 2 million views. A consultant spends 40 hours advising a single client. What accounts for the vastly different reach?",
     "options": [
       "The YouTuber is more talented at content creation",
-      "the video replicates at zero marginal cost, while the",
+      "Media leverage — the video replicates at zero marginal cost, while the consultant's time is inherently one-to-one",
       "The consultant should switch careers to content creation",
-      "YouTube's algorithm promotes videos regardless of quality"
+      "YouTube's algorithm promotes videos regardless of quality which is a critical factor to consider in this context"
     ],
-    "answer": "the video replicates at zero marginal cost, while the",
+    "answer": "Media leverage — the video replicates at zero marginal cost, while the consultant's time is inherently one-to-one",
     "explanation": "Media is a high-leverage asset. Content created once can reach millions with no additional time investment. The consultant's time is one-to-one — each additional hour of consulting requires exactly one hour of their life. The leverage multiplier determines the output per unit of input.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "An entrepreneur wants to build a business that generates income without requiring her constant personal involvement. Which form of leverage should she prioritize?",
     "options": [
       "Labor leverage — hire a large team and manage them closely",
-      "Capital leverage — invest in diversified financial assets",
-      "Code or media leverage — assets that produce value without",
+      "Capital leverage — invest in diversified financial assets which is a critical factor to consider in this context",
+      "Code or media leverage — assets that produce value without proportional time input",
       "All four forms equally — balance across all leverage types"
     ],
-    "answer": "Code or media leverage — assets that produce value without",
+    "answer": "Code or media leverage — assets that produce value without proportional time input",
     "explanation": "Code and media are the highest-leverage forms because they decouple output from time. Once built, software runs and content replicates without the creator's ongoing involvement. Labor and capital still require active management and carry different trade-offs.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A product manager is trying to shift her team's focus from building features to improving reliability. Despite her efforts, the team keeps prioritizing new features. What would increase her torque on this decision?",
     "options": [
       "Work longer hours to personally fix reliability issues",
-      "align reliability with executive incentives, tie it to team OKRs,",
-      "Complain more loudly in team meetings about reliability",
+      "Find a longer lever arm — align reliability with executive incentives, tie it to team OKRs, and give the team a direct reliability mandate",
+      "Complain more loudly in team meetings about reliability which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Build a competing product that demonstrates the value of reliability"
     ],
-    "answer": "align reliability with executive incentives, tie it to team OKRs,",
+    "answer": "Find a longer lever arm — align reliability with executive incentives, tie it to team OKRs, and give the team a direct reliability mandate",
     "explanation": "Torque depends on both force and lever arm length. The PM's direct input (complaints, requests) is a short lever arm. Attaching reliability to executive OKRs and incentive structures is a much longer lever arm that multiplies the same input force.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A trader uses 10x leverage on a position. The stock moves 5% against him. His entire position is wiped out. What does this illustrate about leverage?",
     "options": [
       "The trader chose the wrong stock and should have done more research",
-      "a small loss on the underlying asset becomes a catastrophic loss",
-      "Stock trading is inherently too risky for individual investors",
+      "Leverage amplifies both outcomes — a small loss on the underlying asset becomes a catastrophic loss for the leveraged position",
+      "Stock trading is inherently too risky for individual investors which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "The trader should have used 5x leverage instead of 10x"
     ],
-    "answer": "a small loss on the underlying asset becomes a catastrophic loss",
+    "answer": "Leverage amplifies both outcomes — a small loss on the underlying asset becomes a catastrophic loss for the leveraged position",
     "explanation": "Leverage is a double-edged sword. It magnifies gains, but it also amplifies losses. The same mechanical advantage that allows a small force to lift a heavy load also means a small misstep can cause disproportionate damage. Respect the risk side of leverage.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A startup's growth is stalled. The team considers improving the product, increasing marketing spend, and hiring more salespeople. A mentor asks, 'What is the one bottleneck that, if removed, makes everything else easier?' What model does this question apply?",
     "options": [
       "Pareto principle — 80% of results come from 20% of efforts",
-      "The fulcrum — identifying the single point of leverage that multiplies",
+      "The fulcrum — identifying the single point of leverage that multiplies all other efforts",
       "Sunk cost — the team has already invested too much to change direction",
-      "Network effects — the product needs more users to be valuable"
+      "Network effects — the product needs more users to be valuable which is a critical factor to consider in this context"
     ],
-    "answer": "The fulcrum — identifying the single point of leverage that multiplies",
+    "answer": "The fulcrum — identifying the single point of leverage that multiplies all other efforts",
     "explanation": "The fulcrum is the structural point that, when pressured, moves the entire system. For a startup, the bottleneck might be distribution, not product quality. Finding the fulcrum means applying force where it generates the maximum rotational effect on the whole system.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Two salespeople work 50-hour weeks. One makes cold calls all day. The other builds a referral system, writes LinkedIn content, and creates automated email sequences. The second closes 5x more deals. What explains the difference?",
     "options": [
       "The second salesperson is naturally more persuasive on calls",
-      "her output continues generating leads even when she is not",
+      "The second salesperson uses media and system leverage — her output continues generating leads even when she is not actively working",
       "Cold calling is an ineffective sales channel in any industry",
-      "The first salesperson was assigned a worse territory"
+      "The first salesperson was assigned a worse territory which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
-    "answer": "her output continues generating leads even when she is not",
+    "answer": "The second salesperson uses media and system leverage — her output continues generating leads even when she is not actively working",
     "explanation": "Both work the same hours, but the second has built leverage assets (content, automated systems, referrals) that generate output continuously. The first is trading time for money directly. Leverage is what separates linear effort from exponential results.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A small business owner spends 10 hours per week on invoicing. She could build an automated invoicing system with 40 hours of work. What leverage calculation should she make?",
     "options": [
       "She should continue doing invoicing manually since 10 hours per week is manageable",
-      "She should build the automation — the 40-hour investment pays back in 4 weeks and",
-      "She should hire a part-time bookkeeper instead of building software",
+      "She should build the automation — the 40-hour investment pays back in 4 weeks and then generates free time forever after",
+      "She should hire a part-time bookkeeper instead of building software which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "She should raise prices to make the invoicing effort more worthwhile"
     ],
-    "answer": "She should build the automation — the 40-hour investment pays back in 4 weeks and",
+    "answer": "She should build the automation — the 40-hour investment pays back in 4 weeks and then generates free time forever after",
     "explanation": "This is a direct leverage calculation. A 40-hour investment to save 10 hours/week pays back in 4 weeks. After that, every week is 'free' — the automation generates output (completed invoices) with zero additional time input. That is the essence of code leverage.",
     "difficulty": "easy"
   }

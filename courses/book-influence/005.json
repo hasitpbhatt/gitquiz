@@ -5,11 +5,11 @@
     "description": "You're more likely to buy a car from a salesperson who shares your hometown, likes the same sports team, and compliments your taste in vehicles because:",
     "options": [
       "They actually know more about cars",
-      "You perceive them as more trustworthy due to",
+      "You perceive them as more trustworthy due to similarity and praise",
       "They gave you a better price than other salespeople",
       "You checked their sales credentials beforehand"
     ],
-    "answer": "You perceive them as more trustworthy due to",
+    "answer": "You perceive them as more trustworthy due to similarity and praise",
     "explanation": "Similarity and compliments increase liking, which makes us more inclined to trust and comply with requests from those we like, even when objective factors don't justify it.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "An attractive model advertising a product is perceived as more knowledgeable about it because:",
     "options": [
       "They actually have expertise in the product category",
-      "Attractiveness creates a halo effect assuming other",
+      "Attractiveness creates a halo effect assuming other positive traits",
       "They spent time studying the product beforehand",
       "The product is specifically designed for attractive people"
     ],
-    "answer": "Attractiveness creates a halo effect assuming other",
+    "answer": "Attractiveness creates a halo effect assuming other positive traits",
     "explanation": "We generalize from physical attractiveness to other unrelated positive traits, making attractive people more persuasive communicators regardless of actual expertise.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "After working on a team project together, two coworkers who initially disliked each other are more likely to:",
     "options": [
       "Continue avoiding each other outside work",
-      "Have increased liking due to cooperative",
+      "Have increased liking due to cooperative contact",
       "Request to be placed on different teams",
       "Complain to management about each other"
     ],
-    "answer": "Have increased liking due to cooperative",
+    "answer": "Have increased liking due to cooperative contact",
     "explanation": "Cooperative contact toward shared goals can transform relationships by increasing liking through shared effort and achievement.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A car advertisement pairs their vehicle with beautiful mountain scenery across many exposures. After seeing this repeatedly, customers feel good when they see the car, even in a plain showroom. This is more accurately described as:",
     "options": [
       "Simple association — the car is mentally linked with mountains in the customer's mind",
-      "Evaluative conditioning — positive feelings from mountains have transferred to the",
+      "Evaluative conditioning — positive feelings from mountains have transferred to the car through repeated pairing",
       "Mere exposure — seeing the car repeatedly increased liking for it independently",
       "Social proof — the mountains suggest other people enjoy this car"
     ],
-    "answer": "Evaluative conditioning — positive feelings from mountains have transferred to the",
+    "answer": "Evaluative conditioning — positive feelings from mountains have transferred to the car through repeated pairing",
     "explanation": "Evaluative conditioning is distinct from simple association because it involves the automatic transfer of affect through repeated pairing, not just a conscious mental link. The customer feels good seeing the car because positive emotion from the mountains has been conditioned to the car stimulus. Mere exposure would involve seeing the car alone, not paired with mountains.",
     "difficulty": "hard"
   },

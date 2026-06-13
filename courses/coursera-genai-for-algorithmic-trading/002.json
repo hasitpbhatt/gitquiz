@@ -6,10 +6,10 @@
     "options": [
       "As a neutral statement about storage space.",
       "As a negative signal, because 'decline' is always a bad word.",
-      "As a potentially bullish signal, as lower supply often leads",
+      "As a potentially bullish signal, as lower supply often leads to higher prices.",
       "As a sign that the company is going bankrupt."
     ],
-    "answer": "As a potentially bullish signal, as lower supply often leads",
+    "answer": "As a potentially bullish signal, as lower supply often leads to higher prices.",
     "explanation": "Financial LLMs understand market mechanics. In commodities, a decline in inventory suggests tightening supply, which is often interpreted as a reason for prices to rise.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "You are using an LLM to compare two consecutive 10-K filings. The model flags that the 'Risk Factors' section has grown by 20% with new mentions of 'regulatory headwinds.' What is the most logical quantitative action?",
     "options": [
       "Ignore it, as legal teams always add more text to filings.",
-      "Increase the risk premium or lower the position size for that stock",
+      "Increase the risk premium or lower the position size for that stock in your model.",
       "Immediately sell all shares regardless of the stock's current price.",
       "Ask the LLM to rewrite the Risk Factors to be more optimistic."
     ],
-    "answer": "Increase the risk premium or lower the position size for that stock",
+    "answer": "Increase the risk premium or lower the position size for that stock in your model.",
     "explanation": "Significant changes in risk disclosure often precede volatility. Using GenAI to quantify these changes allows you to adjust your risk management parameters dynamically.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "Earnings calls include a prepared remarks section and a Q&A session. Pre-trained models can analyze the 'uncertainty' in a CEO's voice or word choice during the Q&A, which is often more revealing than the scripted portion of the call.",
     "description": "While processing an earnings transcript, your LLM notes that the CFO used the word 'challenging' six times during Q&A but zero times during the prepared remarks. How should you weigh this?",
     "options": [
-      "Give higher weight to the Q&A sentiment as it represents unscripted,",
+      "Give higher weight to the Q&A sentiment as it represents unscripted, reactive information.",
       "Ignore the Q&A because it isn't part of the official financial statement.",
       "Average the sentiment of the remarks and Q&A equally.",
       "Assume the CFO is just tired of speaking."
     ],
-    "answer": "Give higher weight to the Q&A sentiment as it represents unscripted,",
+    "answer": "Give higher weight to the Q&A sentiment as it represents unscripted, reactive information.",
     "explanation": "The Q&A section often reveals the 'true' sentiment of management because it is harder to mask concern when answering tough questions from analysts in real-time.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "You have 5,000 PDFs of analyst research reports. You want to extract the 'Price Target' from each. What is the most efficient GenAI approach?",
     "options": [
       "Manually open every PDF and type the numbers into Excel.",
-      "Use an LLM with OCR to identify and extract the price target field",
+      "Use an LLM with OCR (Optical Character Recognition) capabilities to identify and extract the price target field into a structured table.",
       "Run a keyword search for the word 'Price' and hope for the best.",
       "Train a model from scratch to recognize the font used by analysts."
     ],
-    "answer": "Use an LLM with OCR to identify and extract the price target field",
+    "answer": "Use an LLM with OCR (Optical Character Recognition) capabilities to identify and extract the price target field into a structured table.",
     "explanation": "GenAI is highly effective at 'schema extraction'—finding specific pieces of data within unstructured text and organizing them for quantitative analysis.",
     "difficulty": "easy"
   },
@@ -60,12 +60,12 @@
     "content": "NER is an NLP task that identifies and categorizes key entities in text, such as Organization names, Ticker symbols, and Geographic locations. This ensures a sentiment score for 'Apple' isn't accidentally applied to a company that sells 'fruit'.",
     "description": "Your algorithm picks up a viral post: 'The Amazon is burning, this is a disaster.' How does a well-tuned NER system prevent a trading error?",
     "options": [
-      "It realizes the post is about the rainforest, not",
+      "It realizes the post is about the rainforest, not Amazon.com (AMZN).",
       "It automatically sells AMZN stock just to be safe.",
       "It buys water utility stocks because of the fire.",
       "It translates the post into multiple languages."
     ],
-    "answer": "It realizes the post is about the rainforest, not",
+    "answer": "It realizes the post is about the rainforest, not Amazon.com (AMZN).",
     "explanation": "Context-aware NER distinguishes between entities with the same name (homonyms), preventing 'false positive' trades based on unrelated news.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "A news flash states: 'Port strike enters third week, stalling 40% of imports.' You pass this to an LLM for zero-shot classification. Which label is most accurate for a trading bot?",
     "options": [
       "Deflationary",
-      "Inflationary (Supply Chain",
+      "Inflationary (Supply Chain Disruption)",
       "Neutral",
       "Bullish for shipping stocks only"
     ],
-    "answer": "Inflationary (Supply Chain",
+    "answer": "Inflationary (Supply Chain Disruption)",
     "explanation": "Supply chain disruptions typically lead to higher costs and lower supply, both of which are inflationary signals that a macro strategy needs to process.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You are a day trader. Why would you use 'Extractive Summarization' (pulling key sentences) over 'Abstractive Summarization' (rewriting in the AI's own words)?",
     "options": [
       "To ensure the summary is longer and more detailed.",
-      "To ensure that the exact technical phrasing used by the",
+      "To ensure that the exact technical phrasing used by the analyst is preserved for accuracy.",
       "Because extractive summarization is newer and more stylish.",
       "To make the summary sound more like a human wrote it."
     ],
-    "answer": "To ensure that the exact technical phrasing used by the",
+    "answer": "To ensure that the exact technical phrasing used by the analyst is preserved for accuracy.",
     "explanation": "In finance, specific wording matters. Extractive summarization ensures that you are seeing the actual terms used by the source, reducing the risk of the AI 'misinterpreting' a technical claim.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "You want to analyze a 200-page merger agreement. The document exceeds your model's context window. What is the best strategy?",
     "options": [
       "Delete the middle 100 pages and hope they aren't important.",
-      "Chunk the document into smaller sections, process each,",
+      "Use a 'Chunking' strategy: break the document into smaller sections, process each, and then summarize the summaries.",
       "Wait for a more powerful model to be invented next year.",
       "Read the first page and the last page only."
     ],
-    "answer": "Chunk the document into smaller sections, process each,",
+    "answer": "Use a 'Chunking' strategy: break the document into smaller sections, process each, and then summarize the summaries.",
     "explanation": "Chunking allows you to process massive documents systematically without hitting the technical limits of the model's memory.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "Your GenAI sentiment engine is too slow for execution but very accurate at predicting long-term trends. Where should you apply this model?",
     "options": [
       "In a high-frequency scalping strategy.",
-      "In a swing trading or long-term portfolio",
+      "In a swing trading or long-term portfolio rebalancing strategy.",
       "Nowhere; if it's not fast, it's not useful.",
       "In a strategy that trades during market holidays."
     ],
-    "answer": "In a swing trading or long-term portfolio",
+    "answer": "In a swing trading or long-term portfolio rebalancing strategy.",
     "explanation": "Speed isn't everything. Deep, slow analysis is highly valuable for strategies that hold positions for days or weeks, where the 'quality' of the insight outweighs millisecond execution.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "You notice your trading bot is consistently buying on 'neutral' news during a market crash. What is the most likely cause?",
     "options": [
       "The bot is smarter than the market.",
-      "Training data bias: the model lacks enough crash",
+      "Training data bias; the model hasn't seen enough 'crash' scenarios to recognize true bearishness.",
       "The internet connection is slow.",
       "The model is trying to be helpful and cheer you up."
     ],
-    "answer": "Training data bias: the model lacks enough crash",
+    "answer": "Training data bias; the model hasn't seen enough 'crash' scenarios to recognize true bearishness.",
     "explanation": "Models are products of their training data. If the data is skewed toward growth and optimism, the model's 'judgment' will be similarly skewed unless corrected.",
     "difficulty": "medium"
   }

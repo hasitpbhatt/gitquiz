@@ -33,11 +33,11 @@
     "description": "You are offered a choice between receiving $1,000 today or $1,000 five years from now. Why is the $1,000 today considered more valuable to a rational investor?",
     "options": [
       "Because of the possibility of inflation only",
-      "Because the $1,000 today can be invested to grow into a",
+      "Because the $1,000 today can be invested to grow into a larger sum over those 5 years",
       "Because the government taxes future money at a higher rate",
       "There is no difference in value"
     ],
-    "answer": "Because the $1,000 today can be invested to grow into a",
+    "answer": "Because the $1,000 today can be invested to grow into a larger sum over those 5 years",
     "explanation": "This is the core of the Time Value of Money. By taking the money today and earning interest, you will end up with more than $1,000 in five years.",
     "difficulty": "easy"
   },
@@ -46,12 +46,12 @@
     "content": "Credit risk is the possibility that a borrower will fail to make the required payments on their debt. Investors demand a higher interest rate (a 'risk premium') to lend to borrowers with lower credit scores or unstable finances.",
     "description": "Why does a small startup company usually have to pay a much higher interest rate on its bonds than the U.S. Federal Government?",
     "options": [
-      "The startup has a higher risk of going bankrupt and",
+      "The startup has a higher risk of going bankrupt and defaulting on the loan",
       "The government has a legal monopoly on low interest rates",
       "Startups are not allowed to issue low-interest debt",
       "The government uses its own bank to set its own rates"
     ],
-    "answer": "The startup has a higher risk of going bankrupt and",
+    "answer": "The startup has a higher risk of going bankrupt and defaulting on the loan",
     "explanation": "Lenders require a 'risk premium' to compensate for the chance that the startup might fail. The U.S. government is considered to have the lowest default risk, hence it pays lower rates.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "If you invest $100 and earn 10% interest, you have $110 after year one. In year two, you earn 10% again. Why do you end up with $121 instead of $120?",
     "options": [
       "Because of a calculation error by the bank",
-      "Because in year two, you earned $10 on your original",
+      "Because in year two, you earned $10 on your original $100 plus $1 on the interest from year one",
       "Because the government adds a bonus for long-term saving",
       "Because inflation increased the value of the dollar"
     ],
-    "answer": "Because in year two, you earned $10 on your original",
+    "answer": "Because in year two, you earned $10 on your original $100 plus $1 on the interest from year one",
     "explanation": "This is compounding in action. Each year, your interest is calculated based on the new, higher balance, causing your wealth to accelerate over time.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Under normal economic conditions, why would a 30-year bond pay a higher interest rate than a 2-year bond?",
     "options": [
       "Because 30-year bonds are rarer",
-      "To compensate investors for the increased risk of",
+      "To compensate investors for the increased risk of inflation and uncertainty over a longer time horizon",
       "Because shorter-term bonds are more expensive to print",
       "To encourage people to retire earlier"
     ],
-    "answer": "To compensate investors for the increased risk of",
+    "answer": "To compensate investors for the increased risk of inflation and uncertainty over a longer time horizon",
     "explanation": "More can go wrong in 30 years than in 2 years. Investors require a 'term premium' to offset the risks of inflation and interest rate changes over three decades.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "A bond's rating is suddenly downgraded from 'Investment Grade' to 'Junk' (Speculative). What is the most likely immediate effect on that bond in the marketplace?",
     "options": [
       "Its price will rise because it is now more exciting",
-      "Its price will fall as investors demand a much higher yield to",
+      "Its price will fall as investors demand a much higher yield to hold the riskier debt",
       "The company will be forced to shut down immediately",
       "The interest rate the company pays will automatically decrease"
     ],
-    "answer": "Its price will fall as investors demand a much higher yield to",
+    "answer": "Its price will fall as investors demand a much higher yield to hold the riskier debt",
     "explanation": "A downgrade signals higher risk. Investors will sell the bond, driving the price down until the yield is high enough to compensate for the increased danger of default.",
     "difficulty": "medium"
   }

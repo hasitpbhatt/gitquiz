@@ -5,11 +5,11 @@
     "description": "How does Naval compare 'vibe coding' to biological threats?",
     "options": [
       "Both require a PhD from a top-tier university to be effective.",
-      "Just as AI makes complex coding easy for non-experts, it could make engineering",
+      "Just as AI makes complex coding easy for non-experts, it could make engineering dangerous viruses easy for non-experts.",
       "Coding is more dangerous because it can shut down the electrical grid.",
       "Biological threats are less likely because AI cannot understand organic chemistry."
     ],
-    "answer": "Just as AI makes complex coding easy for non-experts, it could make engineering",
+    "answer": "Just as AI makes complex coding easy for non-experts, it could make engineering dangerous viruses easy for non-experts.",
     "explanation": "Naval worries that when expertise is democratized via AI, the same 'building' power used for good in software can be used for harm in biology.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "What is Naval’s primary critique of 'bioethicists' and medical regulations?",
     "options": [
       "They aren't paid enough to do quality research.",
-      "They slow down life-saving innovation while threats operate",
+      "They slow down life-saving innovation while threats operate without any rules.",
       "They focus too much on AI and not enough on traditional medicine.",
       "They are the reason why healthcare is so expensive."
     ],
-    "answer": "They slow down life-saving innovation while threats operate",
+    "answer": "They slow down life-saving innovation while threats operate without any rules.",
     "explanation": "Naval points out that 'all the official research... is always gated behind regulations,' which makes it difficult to react to fast-moving threats.",
     "difficulty": "medium"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Because the scientists were working from home.",
       "Because the government didn't provide enough funding.",
-      "Because we didn't allow healthy young volunteers to 'take one for the",
+      "Because we didn't allow healthy young volunteers to 'take one for the team' via right-to-try.",
       "Because the AI models were not yet advanced enough to simulate viruses."
     ],
-    "answer": "Because we didn't allow healthy young volunteers to 'take one for the",
+    "answer": "Because we didn't allow healthy young volunteers to 'take one for the team' via right-to-try.",
     "explanation": "Naval laments that bureaucracy and 'bioethicists' blocked fast-track human trials that could have potentially saved months of time.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "Naval believes AI could 'solve' medicine if it could access massive datasets of patient outcomes. However, this data is currently hidden in silos due to privacy rules. He suggests that anonymizing and cleaning this data is the 'real opportunity' for AI in healthcare.",
     "description": "What is the primary obstacle to AI solving medicine and therapies according to Naval?",
     "options": [
-      "Data is hidden behind silos, regulations, and privacy",
+      "Data is hidden behind silos, regulations, and privacy rules.",
       "There is no medical data currently recorded digitally.",
       "AI is not capable of understanding human anatomy.",
       "Medical data is too expensive for AI labs to purchase."
     ],
-    "answer": "Data is hidden behind silos, regulations, and privacy",
+    "answer": "Data is hidden behind silos, regulations, and privacy rules.",
     "explanation": "Naval identifies 'data silos' as the bottleneck; if AI could see the patterns in all medical data, it could potentially research vaccines and stop threats far more effectively.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "In Naval’s view, why is it hard to get medical research done today?",
     "options": [
       "There is a lack of advanced hardware.",
-      "There is too much bureaucracy and 'people who can",
+      "There is too much bureaucracy and 'people who can say no.'",
       "The scientists are not as smart as they used to be.",
       "There is no money left in medical research."
     ],
-    "answer": "There is too much bureaucracy and 'people who can",
+    "answer": "There is too much bureaucracy and 'people who can say no.'",
     "explanation": "Naval argues that the bureaucracy has grown so thick that it stifles the efforts of those trying to innovate.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "What is Naval's stance on 'healthy young volunteers' taking risks for science?",
     "options": [
       "He thinks it is unethical and should be banned.",
-      "He believes it should be allowed so they can 'take one for the team' and",
+      "He believes it should be allowed so they can 'take one for the team' and speed up research.",
       "He thinks only AI agents should take those risks.",
       "He believes volunteers should only be allowed if they are over 80 years old."
     ],
-    "answer": "He believes it should be allowed so they can 'take one for the team' and",
+    "answer": "He believes it should be allowed so they can 'take one for the team' and speed up research.",
     "explanation": "Naval argues for a return to a more proactive, risk-tolerant approach to medical research during crises.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "How does Naval suggest we clean up medical data for AI use?",
     "options": [
       "By making it public for anyone to see.",
-      "By anonymizing it, cleaning it up, and allowing it",
+      "By anonymizing it, cleaning it up, and allowing it to be used in large datasets.",
       "By deleting all data that is more than one year old.",
       "By only allowing government-approved AIs to see it."
     ],
-    "answer": "By anonymizing it, cleaning it up, and allowing it",
+    "answer": "By anonymizing it, cleaning it up, and allowing it to be used in large datasets.",
     "explanation": "Anonymization allows for the protection of privacy while still providing the 'fuel' (data) that AI needs to learn.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "What is the core asymmetry Naval sees in biological warfare?",
     "options": [
       "Attackers have better AI than defenders.",
-      "Attackers have no regulations, while defenders are slowed down",
+      "Attackers have no regulations, while defenders are slowed down by bureaucracy.",
       "Defenders have more money than attackers.",
       "Attackers only work in the cloud, while defenders work in labs."
     ],
-    "answer": "Attackers have no regulations, while defenders are slowed down",
+    "answer": "Attackers have no regulations, while defenders are slowed down by bureaucracy.",
     "explanation": "The 'bad guy' is unconstrained by ethics boards, while the 'good guy' is forced to wait months for approval, a gap that can be fatal in a pandemic.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "In Naval's ideal scenario, how does AI speed up therapy discovery?",
     "options": [
       "By managing the schedules of the scientists.",
-      "By looking at everyone's data and all the outcomes to",
+      "By looking at everyone's data and all the outcomes to find what actually works.",
       "By printing vaccines at home for everyone.",
       "By convincing politicians to stop regulating medicine."
     ],
-    "answer": "By looking at everyone's data and all the outcomes to",
+    "answer": "By looking at everyone's data and all the outcomes to find what actually works.",
     "explanation": "AI can see patterns across millions of data points that a human doctor or researcher could never process alone.",
     "difficulty": "hard"
   },
@@ -130,12 +130,12 @@
     "content": "Naval observes that we only allow rapid innovation during emergencies (like COVID), but even then, it is still too slow. He argues that we should maintain a high speed of innovation even during 'peace time' to be ready for the next threat.",
     "description": "What does Naval say about the 'emergency situation' and medical research speed?",
     "options": [
-      "He believes we only operate reasonably well during emergencies,",
+      "He believes we only operate reasonably well during emergencies, and even then, we are too slow.",
       "He thinks we should only do research during emergencies.",
       "He believes we should never rush research, even in an emergency.",
       "He thinks emergencies are a myth created by bioethicists."
     ],
-    "answer": "He believes we only operate reasonably well during emergencies,",
+    "answer": "He believes we only operate reasonably well during emergencies, and even then, we are too slow.",
     "explanation": "Naval's critique is that the 'default speed' of medical regulation is dangerously slow, and our 'emergency speed' is only slightly better.",
     "difficulty": "hard"
   }

@@ -5,11 +5,11 @@
     "description": "You are designing a strategy that trades based on Federal Reserve announcements. How should you best use an LLM to improve your existing trend-following algorithm?",
     "options": [
       "Use the LLM to execute trades faster than a human could.",
-      "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score",
+      "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score as a new signal.",
       "Replace your entire quantitative backtesting engine with a chatbot interface.",
       "Ask the LLM to predict the exact price of the S&P 500 one year from today."
     ],
-    "answer": "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score",
+    "answer": "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score as a new signal.",
     "explanation": "LLMs excel at sentiment analysis. By transforming the qualitative 'tone' of a report into a quantitative score, you provide your algorithm with data it previously couldn't understand.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "Retraining the base model on more data.",
       "Using a larger model with more parameters.",
-      "Implementing a RAG system that pulls data directly",
+      "Implementing a RAG system that pulls data directly from verified financial databases.",
       "Asking the AI to be 'very sure' before it answers."
     ],
-    "answer": "Implementing a RAG system that pulls data directly",
+    "answer": "Implementing a RAG system that pulls data directly from verified financial databases.",
     "explanation": "RAG connects the AI to a 'source of truth,' ensuring the numbers it discusses are retrieved from actual financial records rather than its internal training weights.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "You want an AI to extract ticker symbols and sentiment from messy news headlines. The AI is currently struggling to format the output correctly. What is your next logical step?",
     "options": [
       "Switch to a zero-shot prompt to simplify the instructions.",
-      "Provide 3-5 examples of headlines and the expected JSON",
+      "Provide 3-5 examples of headlines and the expected JSON output in the prompt.",
       "Stop using LLMs and manually tag every headline.",
       "Increase the temperature setting of the model to 1.0."
     ],
-    "answer": "Provide 3-5 examples of headlines and the expected JSON",
+    "answer": "Provide 3-5 examples of headlines and the expected JSON output in the prompt.",
     "explanation": "Few-shot prompting (providing examples) is a powerful way to teach the model a specific pattern or formatting requirement that it might miss with a general instruction.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "You want to build a system that monitors 'earnings surprises' and automatically places a trade if certain conditions are met. Why would an 'Agentic' workflow be better than a simple script?",
     "options": [
       "Agents are always faster than standard Python scripts.",
-      "Agents can reason through the next best step if the",
+      "Agents can adapt to unexpected information by 'reasoning' through the next best step if the primary source is down.",
       "Agents do not require an internet connection to function.",
       "Agents eliminate the need for risk management parameters."
     ],
-    "answer": "Agents can reason through the next best step if the",
+    "answer": "Agents can adapt to unexpected information by 'reasoning' through the next best step if the primary source is down.",
     "explanation": "Unlike rigid scripts, agents can use logic to navigate obstacles, such as trying an alternative data source if the first one fails to return a result.",
     "difficulty": "easy"
   },
@@ -62,10 +62,10 @@
     "options": [
       "It can delete the existing data to make the model lean.",
       "It can predict the future with 100% certainty.",
-      "It can generate synthetic market scenarios that simulate 1970s-style",
+      "It can generate realistic, synthetic market scenarios that simulate 1970s-style inflation for stress testing.",
       "It can tell you which stocks will go up tomorrow based on its intuition."
     ],
-    "answer": "It can generate synthetic market scenarios that simulate 1970s-style",
+    "answer": "It can generate realistic, synthetic market scenarios that simulate 1970s-style inflation for stress testing.",
     "explanation": "Synthetic data allows traders to 'stress test' their algorithms against scenarios that aren't present in their recent historical datasets.",
     "difficulty": "easy"
   },
@@ -88,12 +88,12 @@
     "content": "Fine-tuning involves taking a pre-trained LLM and training it further on a specific dataset, like specialized financial terminology or proprietary company data. This makes the model an 'expert' in a narrow domain, whereas a general model might be a 'jack-of-all-trades.'",
     "description": "When should a quantitative trading firm choose fine-tuning over RAG (Retrieval-Augmented Generation)?",
     "options": [
-      "When they need the model to learn specific professional jargon used only",
+      "When they need the model to learn a very specific professional 'shorthand' or jargon used only in their niche market.",
       "When they want to save money, as fine-tuning is always cheaper than RAG.",
       "When they need to provide the model with real-time stock prices.",
       "Fine-tuning should never be used in finance."
     ],
-    "answer": "When they need the model to learn specific professional jargon used only",
+    "answer": "When they need the model to learn a very specific professional 'shorthand' or jargon used only in their niche market.",
     "explanation": "Fine-tuning is best for teaching a model a new 'language' or style, while RAG is better for providing the model with specific, updated facts.",
     "difficulty": "easy"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Trust the AI's summary completely to save time.",
       "Only trade during the night when the AI is less busy.",
-      "Require the AI to provide a direct quote and page number from the",
+      "Program a cross-check where the AI must provide a direct quote and page number from the source for every claim.",
       "Assume the AI is always wrong and do the opposite of what it says."
     ],
-    "answer": "Require the AI to provide a direct quote and page number from the",
+    "answer": "Program a cross-check where the AI must provide a direct quote and page number from the source for every claim.",
     "explanation": "Requiring citations (verifiability) is a key risk management technique to ensure the AI's output is grounded in reality.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "An LLM notices that a CEO sounds increasingly hesitant and uses more 'uncertainty' words compared to the previous quarter, even though the profit numbers were good. What does this represent for a trader?",
     "options": [
       "A technical indicator like a Moving Average.",
-      "A sentiment-based alpha signal that may predict a future",
+      "A sentiment-based alpha signal that may predict a future price drop.",
       "A sign that the LLM is broken and needs to be restarted.",
       "Irrelevant noise that should be ignored."
     ],
-    "answer": "A sentiment-based alpha signal that may predict a future",
+    "answer": "A sentiment-based alpha signal that may predict a future price drop.",
     "explanation": "Subtle linguistic cues can reveal underlying business stress that hasn't hit the financial statements yet, providing an edge (alpha) to the trader.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "You want an AI to perform a comprehensive 'S.W.O.T.' analysis on a company. How should you structure the task for the best results?",
     "options": [
       "Write one massive prompt asking for everything at once.",
-      "Chain prompts: first ask for Strengths, then use that to",
+      "Chain prompts: first ask for Strengths, then use that to find Weaknesses, and so on.",
       "Ask the AI to guess the S.W.O.T. without giving it any data.",
       "Use a different AI model for every single letter of S.W.O.T."
     ],
-    "answer": "Chain prompts: first ask for Strengths, then use that to",
+    "answer": "Chain prompts: first ask for Strengths, then use that to find Weaknesses, and so on.",
     "explanation": "Chaining allows the model to focus its 'attention' on one specific sub-task at a time, leading to much higher quality and more detailed analysis.",
     "difficulty": "easy"
   }

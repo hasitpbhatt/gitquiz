@@ -5,11 +5,11 @@
     "description": "When looking at the combined power indices of the last three global empires, what is the most striking visual pattern observed over the last 500 years?",
     "options": [
       "Each empire's power remains perfectly flat until a sudden total collapse.",
-      "A series of overlapping arcs where one empire rises as the previous one",
+      "A series of overlapping arcs where one empire rises as the previous one peaks and begins to decline.",
       "A single line of constant progress that never dips or cycles.",
       "Random spikes of power that have no correlation with debt or trade."
     ],
-    "answer": "A series of overlapping arcs where one empire rises as the previous one",
+    "answer": "A series of overlapping arcs where one empire rises as the previous one peaks and begins to decline.",
     "explanation": "The 'Big Cycle' is visualized as a series of overlapping waves. As the dominant power (like the Dutch) starts to decline due to debt and overextension, the next power (like the British) is already on its upward trajectory.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Based on the 500-year overview, why are people usually surprised by the end of a World Order?",
     "options": [
       "Because the decline phase lasts for 200 years, making it hard to notice.",
-      "Because the rise is so slow that they assume the peak will last forever, and",
+      "Because the rise is so slow that they assume the peak will last forever, and the final break happens relatively quickly.",
       "Because world orders actually never end; they just change names.",
       "Because the indicators of decline are invisible until the day of the collapse."
     ],
-    "answer": "Because the rise is so slow that they assume the peak will last forever, and",
+    "answer": "Because the rise is so slow that they assume the peak will last forever, and the final break happens relatively quickly.",
     "explanation": "Stability creates a false sense of security. Because the 'Rise' and 'Peak' phases last longer than a human lifetime, people lose the 'muscle memory' of what a transition looks like, making the relatively fast 'Decline' phase feel like a sudden shock.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "If the Dutch Guilder and British Pound both lost their reserve status, what happened to the total level of global technology and knowledge during those transitions?",
     "options": [
       "It was lost entirely and had to be reinvented from scratch.",
-      "It continued to grow and was eventually adopted and",
+      "It continued to grow and was eventually adopted and improved upon by the next leading power.",
       "It stayed exactly the same for 500 years.",
       "It declined and never recovered to 17th-century levels."
     ],
-    "answer": "It continued to grow and was eventually adopted and",
+    "answer": "It continued to grow and was eventually adopted and improved upon by the next leading power.",
     "explanation": "Productivity is cumulative. While an empire may fall, its innovations (like the Dutch stock exchange or British steam engine) are passed on to the next dominant power, contributing to the long-term upward trend of human standard of living.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Why is a modern 'External Disorder' phase potentially more dangerous than one in the 1600s?",
     "options": [
       "Because countries were more interdependent in the 1600s.",
-      "Because today's 'Great Powers' are more consolidated and their",
+      "Because today's 'Great Powers' are more consolidated and their economies are globally intertwined.",
       "Because there were no wars before the year 1900.",
       "Because the Big Cycle only started applying to the world in 1945."
     ],
-    "answer": "Because today's 'Great Powers' are more consolidated and their",
+    "answer": "Because today's 'Great Powers' are more consolidated and their economies are globally intertwined.",
     "explanation": "As the world has moved from many small powers to a few 'super-powers,' the systems (trade, finance, tech) have become global. A break in the order today ripples through every nation simultaneously.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "According to the 500-year history, is a massive wealth gap a 'bug' or a 'feature' of a long-lasting period of peace?",
     "options": [
       "A bug caused by bad government policy that can be easily fixed.",
-      "A natural 'feature' or outcome of a stable system where some",
+      "A natural 'feature' or outcome of a stable system where some succeed more than others over time.",
       "A random occurrence that only happened to the Dutch.",
       "A sign that the country has just started its 'Rise' phase."
     ],
-    "answer": "A natural 'feature' or outcome of a stable system where some",
+    "answer": "A natural 'feature' or outcome of a stable system where some succeed more than others over time.",
     "explanation": "Dalio argues that in any competitive system, wealth naturally concentrates over time. Without periodic 'resets' (taxes, crises, or revolutions), this concentration eventually reaches a tipping point that the system can no longer sustain.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "At the very beginning of their Rise to attract investors.",
       "When their productivity is at its highest point.",
-      "In the late-stage Decline, when their debts exceed their",
+      "In the late-stage Decline, when their debts exceed their ability to pay with 'hard' money.",
       "Only if they lose a war to a smaller nation."
     ],
-    "answer": "In the late-stage Decline, when their debts exceed their",
+    "answer": "In the late-stage Decline, when their debts exceed their ability to pay with 'hard' money.",
     "explanation": "Printing money is the 'universal' solution empires use when they have overextended themselves. It allows them to fulfill nominal obligations while devaluing the actual cost of the debt.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "If you are comparing two rising powers today, which one is more likely to become the next global leader based on Chapter 8's logic?",
     "options": [
       "The one with the most soldiers.",
-      "The one with the highest level of education and",
+      "The one with the highest level of education and technological breakthrough.",
       "The one that refuses to use any debt at all.",
       "The one that has the most historical monuments."
     ],
-    "answer": "The one with the highest level of education and",
+    "answer": "The one with the highest level of education and technological breakthrough.",
     "explanation": "In Dalio's model, education and innovation are the primary drivers. They lead to competitiveness, which leads to trade, which leads to the wealth and military power needed to sustain a World Order.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Why do international institutions (like the League of Nations or the UN) often become ineffective toward the end of a Big Cycle?",
     "options": [
       "Because people forget how to read the treaties.",
-      "Because the 'balance of power' has shifted, but the rules are",
+      "Because the 'balance of power' has shifted, but the rules are still based on the winners of the last war.",
       "Because those institutions are designed to only last 10 years.",
       "Because the world stops needing rules during the 'Decline' phase."
     ],
-    "answer": "Because the 'balance of power' has shifted, but the rules are",
+    "answer": "Because the 'balance of power' has shifted, but the rules are still based on the winners of the last war.",
     "explanation": "Institutions reflect the power dynamics of the year they were created. As new powers rise and old ones fade, the rules feel 'unfair' or 'outdated' to the new players, leading to the breakdown of the international order.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "A dominant power chooses to 'ignore' a minor territorial grab by a rising rival to avoid a war. According to history, what is the likely result of this 'appeasement'?",
     "options": [
       "The rising power will be satisfied and stop its expansion.",
-      "The rising power will be emboldened to test the leader on",
+      "The rising power will be emboldened to test the leader on a larger scale.",
       "The Big Cycle will immediately reset to Stage 1.",
       "The dominant power will gain more respect from its allies."
     ],
-    "answer": "The rising power will be emboldened to test the leader on",
+    "answer": "The rising power will be emboldened to test the leader on a larger scale.",
     "explanation": "History shows that 'testing' is a diagnostic tool for rising powers. If they perceive weakness or a lack of resolve, they will increase the pressure, accelerating the transition to a new order.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "What is the main benefit of having a 'long-term' historical perspective during a current crisis?",
     "options": [
       "It allows you to ignore the crisis because 'everything will be fine eventually.'",
-      "It helps you recognize that current 'extreme' events are part of a repeating",
+      "It helps you recognize that current 'extreme' events are part of a repeating pattern, allowing for better preparation.",
       "It proves that the current world order will never end.",
       "It helps you predict the exact day the stock market will bottom out."
     ],
-    "answer": "It helps you recognize that current 'extreme' events are part of a repeating",
+    "answer": "It helps you recognize that current 'extreme' events are part of a repeating pattern, allowing for better preparation.",
     "explanation": "Perspective takes the 'shock' out of the cycle. By understanding that we are in a 'Late-Stage' period, individuals can make more rational, less emotional decisions about their safety and wealth.",
     "difficulty": "hard"
   }

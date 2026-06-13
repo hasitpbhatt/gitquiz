@@ -2,43 +2,43 @@
   {
     "question": "Regression to the Mean",
     "content": "If a variable is extreme on its first measurement, it will tend to be closer to the average on its second measurement, because extraordinary outcomes require a rare alignment of luck alongside skill.",
-    "description": "A student scores 98% on a math test — far above their usual 80% average. The next test, they score 83%. What statistical phenomenon most likely explains this?",
+    "description": "A student scores 98% on a math test \u2014 far above their usual 80% average. The next test, they score 83%. What statistical phenomenon most likely explains this?",
     "options": [
       "The student stopped studying after the first good result",
-      "Regression to the mean — an extreme score was partly",
+      "Regression to the mean \u2014 the exceptional score was partly luck and the next score reverted toward their true ability",
       "The second test was harder than the first",
       "The teacher graded the first test too leniently"
     ],
-    "answer": "Regression to the mean — an extreme score was partly",
-    "explanation": "The 98% required an unusually favorable alignment of topics, guessing luck, and condition. Without that rare alignment, the next score naturally falls back toward the student’s baseline average.",
+    "answer": "Regression to the mean \u2014 the exceptional score was partly luck and the next score reverted toward their true ability",
+    "explanation": "The 98% required an unusually favorable alignment of topics, guessing luck, and condition. Without that rare alignment, the next score naturally falls back toward the student\u2019s baseline average.",
     "difficulty": "easy"
   },
   {
     "question": "Sports Illustrated Cover Curse",
     "content": "Athletes often perform worse immediately after achieving career-peak recognition, not because of a curse but because the peak performance was an outlier that statistically regresses toward the mean.",
-    "description": "An athlete graces the cover of a major sports magazine following a record-breaking season. The next season, their performance drops significantly. Fans call it a “curse.” What is the statistical reality?",
+    "description": "An athlete graces the cover of a major sports magazine following a record-breaking season. The next season, their performance drops significantly. Fans call it a \u201ccurse.\u201d What is the statistical reality?",
     "options": [
       "The pressure of fame caused them to underperform",
-      "The record-breaking season was an outlier above their true mean; the",
+      "The record-breaking season was an outlier above their true mean, and regression pulled the next season back toward average",
       "The magazine cover distracted them from training",
       "Other athletes studied their technique and neutralized their advantage"
     ],
-    "answer": "The record-breaking season was an outlier above their true mean; the",
-    "explanation": "The “curse” is entirely statistical. Exceptional performances are rare and require luck. The next season is unlikely to reproduce that exact alignment of favorable conditions.",
+    "answer": "The record-breaking season was an outlier above their true mean, and regression pulled the next season back toward average",
+    "explanation": "The \u201ccurse\u201d is entirely statistical. Exceptional performances are rare and require luck. The next season is unlikely to reproduce that exact alignment of favorable conditions.",
     "difficulty": "medium"
   },
   {
     "question": "Superstar Hiring Trap",
-    "content": "Hiring a “superstar” executive based on a single extraordinary year is risky because that performance may have been driven by macro tailwinds rather than genuine skill, and regression to the mean is likely.",
+    "content": "Hiring a \u201csuperstar\u201d executive based on a single extraordinary year is risky because that performance may have been driven by macro tailwinds rather than genuine skill, and regression to the mean is likely.",
     "description": "A company hires a CEO whose previous company had one record-breaking year during a booming industry cycle. At the new company, their performance is mediocre. What likely happened?",
     "options": [
       "The CEO lost motivation after securing a new role",
-      "Their prior success was partly from industry",
+      "Their previous success was partly due to industry tailwinds; their actual skill level was closer to average, and performance regressed",
       "The new company has worse employees and resources",
       "The CEO is not trying hard enough in the new role"
     ],
-    "answer": "Their prior success was partly from industry",
-    "explanation": "Organizations systematically attribute extraordinary outcomes to individual skill and ignore luck. When the exceptional result regresses to the person’s baseline, management blames motivation rather than statistics.",
+    "answer": "Their previous success was partly due to industry tailwinds; their actual skill level was closer to average, and performance regressed",
+    "explanation": "Organizations systematically attribute extraordinary outcomes to individual skill and ignore luck. When the exceptional result regresses to the person\u2019s baseline, management blames motivation rather than statistics.",
     "difficulty": "medium"
   },
   {
@@ -46,40 +46,40 @@
     "content": "When evaluating exceptional performance, strip away extreme data points and examine the long-term moving average. Base forecasts and projections on the mean baseline, not outlier events.",
     "description": "A salesperson has monthly revenues: $40K, $42K, $38K, $41K, $120K, $39K, $43K. What should you project for their next month according to the baseline rule?",
     "options": [
-      "$120K — they clearly have high potential",
-      "About $40K — the $120K is an outlier; base",
+      "$120K \u2014 they clearly have high potential",
+      "About $40K \u2014 the $120K is an outlier; base projections on the consistent average of ~$40K",
       "The average of all seven months: about $52K",
       "It is impossible to predict sales performance"
     ],
-    "answer": "About $40K — the $120K is an outlier; base",
+    "answer": "About $40K \u2014 the $120K is an outlier; base projections on the consistent average of ~$40K",
     "explanation": "Excluding the outlier $120K, the six ordinary months average $40.5K. The $120K month was likely a rare alignment of favorable circumstances. Base your forecast on the baseline, not the peak.",
     "difficulty": "easy"
   },
   {
     "question": "Regression in Investing",
-    "content": "Funds with exceptional returns in one year tend to underperform in the following year. Investors who chase last year’s top performers consistently earn below-average returns due to regression to the mean.",
+    "content": "Funds with exceptional returns in one year tend to underperform in the following year. Investors who chase last year\u2019s top performers consistently earn below-average returns due to regression to the mean.",
     "description": "A mutual fund returned 45% last year, ranking #1 among all funds. Thousands of investors pour money into it. The following year, it returns 8% while the market average is 10%. Why?",
     "options": [
       "The fund manager made bad decisions after becoming famous",
-      "The 45% year was an outlier from concentrated bets that",
+      "The 45% year was likely an outlier driven by concentrated bets that happened to pay off; the next year regressed toward the mean or below",
       "The fund became too large to manage effectively",
       "Investors expected too much and the manager felt pressured"
     ],
-    "answer": "The 45% year was an outlier from concentrated bets that",
+    "answer": "The 45% year was likely an outlier driven by concentrated bets that happened to pay off; the next year regressed toward the mean or below",
     "explanation": "Past performance, especially extreme performance, is not predictive. Top-quartile funds in one year are equally likely to be in any quartile the next year due to regression to the mean.",
     "difficulty": "hard"
   },
   {
     "question": "Regression vs Causation",
-    "content": "People often mistake regression to the mean for a causal relationship — for example, punishing a team after a good quarter and seeing performance improve, when it was simply regression from below.",
+    "content": "People often mistake regression to the mean for a causal relationship \u2014 for example, punishing a team after a good quarter and seeing performance improve, when it was simply regression from below.",
     "description": "A division has a terrible quarter. Management fires the director and brings in a new one. The next quarter improves significantly. Management credits the new hire. What else could explain the improvement?",
     "options": [
       "The new director was clearly more competent",
-      "The terrible quarter was likely a negative outlier;",
+      "The terrible quarter was likely a negative outlier, and improvement was regression to the mean regardless of who was in charge",
       "The firing motivated other directors to perform better",
       "The division was secretly underreporting results"
     ],
-    "answer": "The terrible quarter was likely a negative outlier;",
+    "answer": "The terrible quarter was likely a negative outlier, and improvement was regression to the mean regardless of who was in charge",
     "explanation": "This is the most common regression fallacy in business. Extreme negative results are followed by improvement simply because they were outliers. The action (firing) may have had nothing to do with the recovery.",
     "difficulty": "hard"
   },
@@ -89,12 +89,12 @@
     "description": "A company launches a revolutionary new product and sales quintuple. According to regression to the mean, should you expect sales to drop back next year?",
     "options": [
       "Yes, the exceptional result will always revert toward the previous average",
-      "No — the system has undergone a structural change (new product) that",
+      "No \u2014 the system has undergone a structural change (new product) that permanently shifted the mean upward",
       "Sales always eventually decline after a new product launch",
       "It depends entirely on the marketing budget"
     ],
-    "answer": "No — the system has undergone a structural change (new product) that",
-    "explanation": "Regression to the mean applies when variance is around a stable mean. A structural shift changes the mean itself — the new higher baseline is the new normal, not an outlier from the old one.",
+    "answer": "No \u2014 the system has undergone a structural change (new product) that permanently shifted the mean upward",
+    "explanation": "Regression to the mean applies when variance is around a stable mean. A structural shift changes the mean itself \u2014 the new higher baseline is the new normal, not an outlier from the old one.",
     "difficulty": "hard"
   },
   {
@@ -102,13 +102,13 @@
     "content": "Regression to the mean is more pronounced with smaller samples. As sample size increases, observed performance converges toward true ability and regression decreases.",
     "description": "A rookie baseball player bats .400 in their first 10 games but only .280 over the full season. Another player bats .300 in both their first 10 games and the full season. Whose early performance should you trust more?",
     "options": [
-      "The .400 hitter — a hot start indicates exceptional talent",
-      "The .300 hitter — consistent across both small and large",
+      "The .400 hitter \u2014 a hot start indicates exceptional talent",
+      "The .300 hitter \u2014 consistent performance across both small and large samples suggests the small sample was representative of their true ability",
       "Both are equally reliable",
       "Neither can be evaluated until they have played for 5 years"
     ],
-    "answer": "The .300 hitter — consistent across both small and large",
-    "explanation": "The .400 start was an outlier inflated by luck in a small sample. The .300 hitter’s consistency indicates their true ability is close to .300, and the small sample just happened to match.",
+    "answer": "The .300 hitter \u2014 consistent performance across both small and large samples suggests the small sample was representative of their true ability",
+    "explanation": "The .400 start was an outlier inflated by luck in a small sample. The .300 hitter\u2019s consistency indicates their true ability is close to .300, and the small sample just happened to match.",
     "difficulty": "medium"
   }
 ]

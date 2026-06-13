@@ -5,11 +5,11 @@
     "description": "If everyone in an economy suddenly starts using credit cards to buy goods they cannot afford with their current salaries, what is the immediate effect on the 'Big Cycle'?",
     "options": [
       "Economic activity decreases because people are in debt.",
-      "Economic activity increases temporarily, creating a",
+      "Economic activity increases temporarily, creating a 'boom' phase.",
       "The value of the currency immediately doubles.",
       "The country enters the 'Decline' phase instantly."
     ],
-    "answer": "Economic activity increases temporarily, creating a",
+    "answer": "Economic activity increases temporarily, creating a 'boom' phase.",
     "explanation": "Credit acts as an accelerator. By spending money they haven't earned yet, people increase demand and growth in the short term, pushing the cycle upward toward its peak.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Why do leaders usually prefer printing money over restructuring (defaulting on) debt?",
     "options": [
       "Printing money makes the currency more valuable to other countries.",
-      "Restructuring debt is immediate and visible, whereas the pain of",
+      "Restructuring debt is immediate and visible, whereas the pain of inflation is gradual.",
       "Printing money reduces the total amount of money in the system.",
       "Restructuring debt is the only way to stay in the 'Rise' phase."
     ],
-    "answer": "Restructuring debt is immediate and visible, whereas the pain of",
+    "answer": "Restructuring debt is immediate and visible, whereas the pain of inflation is gradual.",
     "explanation": "Defaulting on debt causes an immediate crash and visible losers. Printing money spreads the pain out over time through rising prices, which is easier for politicians to manage even though it devalues the currency.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A country is in a debt crisis. They cut government spending and raise taxes on the wealthy, but the economy starts shrinking too fast. What 'tool' are they missing to keep the deleveraging 'beautiful'?",
     "options": [
       "They need to cut more spending to show they are serious.",
-      "They need the central bank to print enough money to",
+      "They need the central bank to print enough money to offset the deflationary pressure.",
       "They need to ban all credit cards immediately.",
       "They need to increase interest rates to 20%."
     ],
-    "answer": "They need the central bank to print enough money to",
+    "answer": "They need the central bank to print enough money to offset the deflationary pressure.",
     "explanation": "Spending cuts and tax hikes are 'deflationary' (they slow things down). To keep the economy stable, the government must provide a 'stimulus' by printing some money to keep growth from crashing.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "An economy has recovered from a small recession, but its total debt is higher than it was before the recession started. What does this suggest about the Long-Term Debt Cycle?",
     "options": [
       "The Long-Term cycle has ended and a new one has begun.",
-      "The economy is moving toward the 'peak' of the Long-Term Debt",
+      "The economy is moving toward the 'peak' of the Long-Term Debt Cycle.",
       "Debt doesn't matter as long as the short-term cycle is going up.",
       "The country has successfully avoided the 'Big Reset'."
     ],
-    "answer": "The economy is moving toward the 'peak' of the Long-Term Debt",
+    "answer": "The economy is moving toward the 'peak' of the Long-Term Debt Cycle.",
     "explanation": "In each short-term cycle, the 'bottom' usually has more debt than the previous one. This stacking of debt eventually creates the massive bubble that leads to the end of the Long-Term cycle.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Why does a 'debt bust' often lead to a change in political leadership?",
     "options": [
       "Because people become more satisfied with the status quo during a crisis.",
-      "Because the 'wealth gap' becomes intolerable when the economy stops",
+      "Because the 'wealth gap' becomes intolerable when the economy stops growing.",
       "Because debt busts always lead to lower taxes.",
       "Because the rising power of the currency makes people want a new leader."
     ],
-    "answer": "Because the 'wealth gap' becomes intolerable when the economy stops",
+    "answer": "Because the 'wealth gap' becomes intolerable when the economy stops growing.",
     "explanation": "When the 'economic pie' stops growing due to a debt crisis, people fight more fiercely over how to divide it. This tension fuels populism and the demand for radical political change.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Country X has a massive debt but is the world's reserve currency. Country Y has a smaller debt but is not a reserve currency. Which country will likely hit a 'debt wall' first?",
     "options": [
       "Country X, because their total debt is larger.",
-      "Country Y, because they cannot print the money that the",
+      "Country Y, because they cannot print the money that the rest of the world accepts.",
       "Both will hit the wall at exactly the same time.",
       "Neither, because debt is an illusion in modern economics."
     ],
-    "answer": "Country Y, because they cannot print the money that the",
+    "answer": "Country Y, because they cannot print the money that the rest of the world accepts.",
     "explanation": "Reserve currency nations can 'export' their inflation by printing money that other nations hold. Non-reserve nations must pay their debts in 'harder' currency they don't control, making them much more fragile.",
     "difficulty": "easy"
   },
@@ -118,10 +118,10 @@
     "options": [
       "The prices will decrease because of the crash.",
       "The prices will remain exactly the same.",
-      "The prices will rise significantly as the currency",
+      "The prices will rise significantly as the currency loses value.",
       "The prices will be regulated by the gold standard."
     ],
-    "answer": "The prices will rise significantly as the currency",
+    "answer": "The prices will rise significantly as the currency loses value.",
     "explanation": "While the 'crash' itself is deflationary, the massive printing of money is 'inflationary.' If the printing outweighs the crash, the cost of living skyrockets as the currency's value is diluted.",
     "difficulty": "medium"
   },
@@ -132,10 +132,10 @@
     "options": [
       "In the middle of a healthy 'Rise' phase.",
       "At the very beginning of the 250-year Big Cycle.",
-      "In the late-stage 'Decline' or 'Restructuring'",
+      "In the late-stage 'Decline' or 'Restructuring' phase of the money cycle.",
       "In a permanent 'Peak' that will never end."
     ],
-    "answer": "In the late-stage 'Decline' or 'Restructuring'",
+    "answer": "In the late-stage 'Decline' or 'Restructuring' phase of the money cycle.",
     "explanation": "When interest rates hit zero, the government's traditional tools for managing the economy are gone. They are forced to print money to survive, which is the 'last resort' of a failing monetary order.",
     "difficulty": "medium"
   }

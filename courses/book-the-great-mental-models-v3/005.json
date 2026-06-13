@@ -4,12 +4,12 @@
     "content": "Churn measures the rate at which units enter and leave a system over a specified period, quantifying systemic retention and decay.",
     "description": "A SaaS company starts the year with 10,000 subscribers and loses 2,000 by year-end, despite adding 3,000 new ones. What is the churn rate?",
     "options": [
-      "10% — 1,000 net loss divided by 10,000",
-      "20% — 2,000 lost divided by 10,000 starting",
-      "30% — 3,000 new subscribers divided by 10,000",
-      "50% — 5,000 total changes divided by 10,000"
+      "10% \u2014 1,000 net loss divided by 10,000",
+      "20% \u2014 2,000 lost divided by 10,000 starting subscribers",
+      "30% \u2014 3,000 new subscribers divided by 10,000",
+      "50% \u2014 5,000 total changes divided by 10,000"
     ],
-    "answer": "20% — 2,000 lost divided by 10,000 starting",
+    "answer": "20% \u2014 2,000 lost divided by 10,000 starting subscribers",
     "explanation": "Churn Rate = Units Lost During Period / Total Units at Start of Period. 2,000 / 10,000 = 20%. New subscribers do not appear in the denominator for period-start churn calculation.",
     "difficulty": "easy"
   },
@@ -19,25 +19,25 @@
     "description": "Netflix discovered that even with strong marketing acquiring millions of new subscribers, profitability was dictated by retention. What does this illustrate?",
     "options": [
       "Marketing spend should be redirected to engineering",
-      "When churn is high, growth is a leaky bucket — new users barely",
+      "When churn is high, growth is a leaky bucket \u2014 new users barely replace departing ones",
       "Subscriber growth is always the most important metric",
       "Netflix should focus on acquiring users in international markets"
     ],
-    "answer": "When churn is high, growth is a leaky bucket — new users barely",
+    "answer": "When churn is high, growth is a leaky bucket \u2014 new users barely replace departing ones",
     "explanation": "The Leaky Bucket Rule says: before spending on growth, inspect retention. If churn is high, all acquisition spend is wasted as new users simply replace leavers.",
     "difficulty": "medium"
   },
   {
     "question": "Leaky Bucket Rule",
-    "content": "Before spending resources to grow a system’s input channel, inspect baseline retention. If structural churn is high, focus resources on stabilizing retention before scaling inputs.",
+    "content": "Before spending resources to grow a system\u2019s input channel, inspect baseline retention. If structural churn is high, focus resources on stabilizing retention before scaling inputs.",
     "description": "A startup has 20% monthly customer churn. Their board demands doubling the marketing budget to accelerate growth. What should the CEO argue?",
     "options": [
       "Doubling marketing will offset the churn with more volume",
-      "Fix product and retention first — doubling marketing on a",
+      "First fix the product and retention \u2014 doubling marketing spend on a leaky bucket merely doubles wasted spend",
       "Hire a better marketing team to improve conversion rates",
       "Reduce prices to retain more customers"
     ],
-    "answer": "Fix product and retention first — doubling marketing on a",
+    "answer": "First fix the product and retention \u2014 doubling marketing spend on a leaky bucket merely doubles wasted spend",
     "explanation": "20% monthly churn means losing almost all customers within 5 months. No amount of acquisition spend can outrun that leak. The structural problem must be fixed first.",
     "difficulty": "medium"
   },
@@ -46,26 +46,26 @@
     "content": "Netflix reduced churn by analyzing viewing patterns and introducing personalized recommendations and original content, turning new subscriber growth into compounding gains.",
     "description": "After implementing personalized recommendation algorithms and releasing original content like House of Cards, Netflix saw subscriber retention improve dramatically. What was the systemic effect on their growth?",
     "options": [
-      "Lower churn meant each subscriber stayed longer, enabling",
+      "Reduced churn meant each acquired subscriber stayed longer, allowing compounding growth from acquisitions",
       "Recommendations reduced the need for marketing entirely",
       "Original content was more expensive than licensed content",
       "Personalization only worked for certain demographics"
     ],
-    "answer": "Lower churn meant each subscriber stayed longer, enabling",
+    "answer": "Reduced churn meant each acquired subscriber stayed longer, allowing compounding growth from acquisitions",
     "explanation": "Fixing the leak in the bucket transformed every dollar of acquisition spend into lasting value. Lower churn is a leverage point that multiplies the effectiveness of all growth investments.",
     "difficulty": "hard"
   },
   {
     "question": "Churn in Ecosystems",
-    "content": "In natural ecosystems, churn manifests as biomass replacement rates and species succession — old organisms die and new ones take their place, maintaining ecosystem health.",
+    "content": "In natural ecosystems, churn manifests as biomass replacement rates and species succession \u2014 old organisms die and new ones take their place, maintaining ecosystem health.",
     "description": "A forest experiences regular turnover where old trees fall and new saplings grow in their place. This cycle maintains biodiversity and soil health. What system concept does this represent?",
     "options": [
       "A reinforcing loop of forest growth",
-      "Healthy churn — balanced renewal prevents",
+      "Healthy churn \u2014 balanced renewal prevents stagnation and maintains system vitality",
       "A bottleneck in the nutrient cycle",
       "Regression to the mean in tree height distribution"
     ],
-    "answer": "Healthy churn — balanced renewal prevents",
+    "answer": "Healthy churn \u2014 balanced renewal prevents stagnation and maintains system vitality",
     "explanation": "Not all churn is bad. In ecosystems, controlled turnover clears obsolete elements and makes room for new growth. The key is whether churn is balanced or destructive.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A restaurant has 150% annual employee turnover. Training costs are enormous, service quality suffers from constant inexperience, and customer satisfaction drops. What does this churn pattern indicate?",
     "options": [
       "The restaurant industry naturally has high turnover and this is normal",
-      "Destructive churn — the rate of departure is structurally",
+      "Destructive churn \u2014 the rate of departure is structurally unsustainable and damages the system",
       "The restaurant needs to hire more employees to compensate for losses",
       "Higher wages would completely solve the turnover problem"
     ],
-    "answer": "Destructive churn — the rate of departure is structurally",
+    "answer": "Destructive churn \u2014 the rate of departure is structurally unsustainable and damages the system",
     "explanation": "When churn exceeds healthy replacement levels, it destroys value. The constant loss of institutional knowledge and the cost of continuous hiring and training degrade the system itself.",
     "difficulty": "hard"
   },
@@ -88,26 +88,26 @@
     "content": "Churn Rate = Units Lost During Period / Total Units at Start of Period. This formula applies to customers, employees, inventory, or any countable unit in a system.",
     "description": "A co-working space started March with 200 members. During March, 15 members left and 25 new members joined. What is the March churn rate?",
     "options": [
-      "7.5% — 15 divided by 200",
-      "12.5% — 25 divided by 200",
-      "20% — 40 total changes divided by 200",
-      "5% — 10 net new divided by 200"
+      "7.5% \u2014 15 divided by 200",
+      "12.5% \u2014 25 divided by 200",
+      "20% \u2014 40 total changes divided by 200",
+      "5% \u2014 10 net new divided by 200"
     ],
-    "answer": "7.5% — 15 divided by 200",
+    "answer": "7.5% \u2014 15 divided by 200",
     "explanation": "Churn focuses on losses relative to starting base. 15 lost / 200 starting = 7.5%. New members affect growth, not churn.",
     "difficulty": "easy"
   },
   {
     "question": "Churn Leading Indicator",
-    "content": "Churn is a lagging indicator of deeper problems. Early warning signs include declining engagement, reduced usage frequency, and increased support requests — each precedes departure.",
+    "content": "Churn is a lagging indicator of deeper problems. Early warning signs include declining engagement, reduced usage frequency, and increased support requests \u2014 each precedes departure.",
     "description": "Before canceling subscriptions, most SaaS users stop logging in for 30+ days, stop using key features, and stop referring others. What strategic insight does this pattern offer?",
     "options": [
       "These users were never going to be loyal customers anyway",
-      "Tracking engagement metrics as leading indicators enables proactive",
+      "Tracking engagement metrics as leading indicators enables proactive retention before churn occurs",
       "The company should focus only on active users and ignore inactive ones",
       "Churn is unpredictable and cannot be managed proactively"
     ],
-    "answer": "Tracking engagement metrics as leading indicators enables proactive",
+    "answer": "Tracking engagement metrics as leading indicators enables proactive retention before churn occurs",
     "explanation": "Churn is the final event in a long process of disengagement. By monitoring leading indicators like login frequency and feature usage, companies can intervene before the customer decides to leave.",
     "difficulty": "medium"
   }

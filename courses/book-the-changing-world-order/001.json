@@ -5,11 +5,11 @@
     "description": "Imagine you are analyzing a nation that has enjoyed 150 years of peace, but is now seeing rapidly rising debt and internal political polarization. According to the Big Cycle, what phase is this nation likely entering?",
     "options": [
       "The early Rise phase, characterized by low debt.",
-      "The 'Top' or late-stage Prosperity phase, heading toward",
+      "The 'Top' or late-stage Prosperity phase, heading toward decline.",
       "The Restructuring phase, where a new order is being born.",
       "The Productivity phase, where innovation outpaces consumption."
     ],
-    "answer": "The 'Top' or late-stage Prosperity phase, heading toward",
+    "answer": "The 'Top' or late-stage Prosperity phase, heading toward decline.",
     "explanation": "High debt and political division are classic markers of an empire that has peaked. In Dalio's model, the successes of the 'Rise' lead to the excesses of the 'Top,' which eventually trigger a decline.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "The country is still at its absolute peak of power.",
       "The country’s power is actually increasing despite the trade data.",
-      "The country is in a late-stage 'Top' where its status is outliving its",
+      "The country is in a late-stage 'Top' where its status is outliving its actual strength.",
       "The country has successfully skipped the decline phase of the Big Cycle."
     ],
-    "answer": "The country is in a late-stage 'Top' where its status is outliving its",
+    "answer": "The country is in a late-stage 'Top' where its status is outliving its actual strength.",
     "explanation": "Reserve currency status is 'sticky.' Because it's a lagging indicator, people continue to trust the currency based on past performance even after the underlying fundamentals (trade and military) have weakened.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A global power is currently facing massive government debt (Cycle 1) and violent protests over wealth inequality (Cycle 2). Why does Dalio find this combination particularly dangerous?",
     "options": [
       "Because debt and social unrest cancel each other out.",
-      "Because the confluence of these cycles makes the system highly fragile to",
+      "Because the confluence of these cycles makes the system highly fragile to external shocks.",
       "Because high debt usually forces a government to give more money to protesters.",
       "Because internal disorder always leads to lower interest rates."
     ],
-    "answer": "Because the confluence of these cycles makes the system highly fragile to",
+    "answer": "Because the confluence of these cycles makes the system highly fragile to external shocks.",
     "explanation": "When internal systems are weak (high debt and social division), the country is less capable of handling external challenges (Cycle 3), creating a 'perfect storm' for a change in the world order.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "During a period of economic depression and war, the 'Big Cycle' is at its lowest point. Does this mean human progress has permanently stopped?",
     "options": [
       "Yes, because war destroys all previous knowledge.",
-      "No, because the long-term trend of productivity usually persists",
+      "No, because the long-term trend of productivity usually persists despite the cycle's dip.",
       "Yes, because wealth gaps prevent any further innovation.",
       "No, because debt cycles are the only things that matter for progress."
     ],
-    "answer": "No, because the long-term trend of productivity usually persists",
+    "answer": "No, because the long-term trend of productivity usually persists despite the cycle's dip.",
     "explanation": "Even during miserable periods of the cycle, humans continue to learn and invent. The cycle causes temporary pain and restructuring, but it does not erase the fundamental human capacity to become more productive over time.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Country A has been the global leader for decades. Country B is now matching Country A's technology and has built a navy capable of challenging Country A's trade routes. What is happening to the External Order?",
     "options": [
       "It is becoming more stable because there are now two leaders.",
-      "It is entering a 'Testing' phase where the risk of conflict",
+      "It is entering a 'Testing' phase where the risk of conflict increases.",
       "It is returning to the 'Rise' phase because of the new competition.",
       "It is becoming a 'Technical' challenge that software can solve."
     ],
-    "answer": "It is entering a 'Testing' phase where the risk of conflict",
+    "answer": "It is entering a 'Testing' phase where the risk of conflict increases.",
     "explanation": "When a rising power (Country B) challenges an incumbent power (Country A), it creates a high-risk period where the existing 'World Order' is tested, often leading to restructuring through war or diplomacy.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "A once-great nation still has the world's best universities, but its courts are now seen as corrupt and its financial markets are manipulated. Why is this a major warning sign?",
     "options": [
       "Because schools are the only determinant that matters.",
-      "Because the 'institutions' that compound advantage are breaking",
+      "Because the 'institutions' that compound advantage are breaking down.",
       "Because corruption actually speeds up the Big Cycle's 'Rise' phase.",
       "Because investors prefer corrupt markets due to higher volatility."
     ],
-    "answer": "Because the 'institutions' that compound advantage are breaking",
+    "answer": "Because the 'institutions' that compound advantage are breaking down.",
     "explanation": "An empire's strength is built on the reliability and efficiency of its systems. When the rule of law (courts) and financial trust break down, the nation loses the ability to effectively coordinate and build wealth.",
     "difficulty": "easy"
   }

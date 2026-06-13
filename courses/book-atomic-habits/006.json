@@ -5,11 +5,11 @@
     "description": "A notification-badge designer at a social media company must decide between two engagement strategies: (A) show badges immediately when new content arrives, or (B) show badges on a slight random delay while the content is being fetched. Strategy B produces stronger user engagement. The designer is surprised because delayed rewards should reduce motivation, not increase it. Which neurological mechanism explains this counterintuitive result?",
     "options": [
       "The delayed badge triggers cortisol (stress hormone), which increases attention and engagement as a coping mechanism",
-      "The anticipatory gap prolongs the dopamine release window, and variable rewards create a stronger prediction-error",
+      "The anticipatory gap prolongs the dopamine release window, and variable rewards create a stronger prediction-error signal than fixed rewards",
       "Users are unconsciously trying to prove the app wrong by checking earlier, creating a reactance-driven engagement loop",
       "The delay triggers a Zeigarnik effect where incomplete tasks are remembered better than completed ones"
     ],
-    "answer": "The anticipatory gap prolongs the dopamine release window, and variable rewards create a stronger prediction-error",
+    "answer": "The anticipatory gap prolongs the dopamine release window, and variable rewards create a stronger prediction-error signal than fixed rewards",
     "explanation": "Dopamine peaks during anticipation, not consumption. Strategy B extends the anticipation window by introducing uncertainty. The brain's reward system is wired to pay maximal attention to unpredictable cues because variable rewards (like slot machines) produce larger prediction errors than fixed ones. Each slight delay signals Maybe something is there, amplifying the craving loop. This is why variable reinforcement schedules produce more persistent engagement than fixed schedules, a finding from Skinner's operant conditioning research.",
     "difficulty": "hard"
   },
@@ -32,12 +32,12 @@
     "content": "The Premack Principle states that more probable behaviors can reinforce less probable behaviors.",
     "description": "A student finds studying boring but loves watching YouTube. How could they apply the Premack Principle?",
     "options": [
-      "Study for five minutes, then watch ten minutes of",
+      "Study for five minutes, then watch ten minutes of YouTube, alternating",
       "Quit YouTube entirely to focus on studying",
       "Watch YouTube while trying to study simultaneously",
       "Promise to study more tomorrow if they skip YouTube today"
     ],
-    "answer": "Study for five minutes, then watch ten minutes of",
+    "answer": "Study for five minutes, then watch ten minutes of YouTube, alternating",
     "explanation": "The Premack Principle uses a high-probability behavior (watching YouTube) to reinforce a low-probability one (studying). The anticipation of YouTube makes studying more bearable.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Which statement combines habit stacking and temptation bundling most effectively?",
     "options": [
       "After I brew my morning coffee, I will read the news",
-      "After I pour my morning coffee, I will write three",
+      "After I pour my morning coffee, I will write three work tasks while enjoying my favorite latte",
       "I will drink coffee and work at the same time",
       "I will work first and reward myself with coffee later"
     ],
-    "answer": "After I pour my morning coffee, I will write three",
+    "answer": "After I pour my morning coffee, I will write three work tasks while enjoying my favorite latte",
     "explanation": "This stacks the new habit (writing tasks) after an existing one (pouring coffee) and bundles it with a wanted experience (enjoying a latte), making work attractive.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "The craving is the desire for the reward, not the reward itself. The anticipation often feels more intense than the reward.",
     "description": "A person spends all day looking forward to a slice of cake after dinner. When they finally eat it, the experience is nice but not as exciting as anticipated. This illustrates:",
     "options": [
-      "The difference between craving",
+      "The difference between craving and reward",
       "The Plateau of Latent Potential",
       "Implementation Intentions",
       "Environment Design"
     ],
-    "answer": "The difference between craving",
+    "answer": "The difference between craving and reward",
     "explanation": "The anticipation spike often exceeds the actual pleasure of the reward. This is why cravings are such powerful drivers of behavior the brain seeks the anticipation, not just the outcome.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A person dreads waking up early for work. How could they reframe this to make it more attractive?",
     "options": [
       "Tell themselves they have to wake up early or they will be fired",
-      "Tell themselves they get to wake up early and have quiet time",
+      "Tell themselves they get to wake up early and have quiet time before the world gets busy",
       "Set five alarms to force themselves out of bed",
       "Promise a reward for every early wake-up"
     ],
-    "answer": "Tell themselves they get to wake up early and have quiet time",
+    "answer": "Tell themselves they get to wake up early and have quiet time before the world gets busy",
     "explanation": "Reframing transforms a chore into a privilege. Get to emphasizes the opportunity and benefit, making the behavior more attractive than have to which feels like a burden.",
     "difficulty": "medium"
   },
@@ -116,12 +116,12 @@
     "content": "You can make necessary but unpleasant habits more attractive by pairing them with something you enjoy or reframing their purpose.",
     "description": "A person hates running but wants the health benefits. How can they make running more attractive using the 2nd Law?",
     "options": [
-      "Run on a treadmill while watching their favorite",
+      "Run on a treadmill while watching their favorite show",
       "Force themselves to run faster each time",
       "Run at the same time every day without any variation",
       "Focus only on the pain of running as motivation"
     ],
-    "answer": "Run on a treadmill while watching their favorite",
+    "answer": "Run on a treadmill while watching their favorite show",
     "explanation": "Pairing the needed habit (running) with a wanted experience (favorite show) makes the habit more attractive. The brain starts to associate running with pleasure rather than pain.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Someone needs to study for a difficult exam. Which mindset best highlights benefits to make studying more attractive?",
     "options": [
       "I have to study or I will fail the class",
-      "Each study session makes me more",
+      "Each study session makes me more knowledgeable and confident in my field",
       "Studying is painful but necessary",
       "I will study only if I feel motivated"
     ],
-    "answer": "Each study session makes me more",
+    "answer": "Each study session makes me more knowledgeable and confident in my field",
     "explanation": "Highlighting the benefit transforms studying from a chore into an investment in identity. The brain finds behaviors that reinforce a desired self-image more attractive.",
     "difficulty": "medium"
   }

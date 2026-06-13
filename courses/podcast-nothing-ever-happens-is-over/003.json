@@ -5,11 +5,11 @@
     "description": "You advise a mid-sized hospital network choosing between (A) a closed-source central AI from a big lab that is smarter today, and (B) an open-source model that is 80% as capable but fully private and customizable. Your CEO is leaning toward (A) because 'we need the best diagnostic accuracy.' Using Naval's monopoly-vs-commodity framework, construct the argument for (B) that accounts for both capability and long-term strategic positioning. What hidden cost of choosing the 'smartest' model does Naval identify that the CEO may be ignoring?",
     "options": [
       "The smartest model is actually less reliable in medical contexts because it was trained on general internet data rather than medical data.",
-      "Choosing the centralized model creates vendor lock-in and data dependency; Naval warns the 'smartest' model requires surrendering privacy,",
+      "Choosing the centralized model creates vendor lock-in and data dependency; Naval warns the 'smartest' model requires surrendering privacy, creating unacceptable long-term risk for a hospital.",
       "The open-source model is actually smarter but the CEO does not know how to evaluate model benchmarks correctly.",
       "The difference in diagnostic accuracy is negligible, so the decision does not matter strategically."
     ],
-    "answer": "Choosing the centralized model creates vendor lock-in and data dependency; Naval warns the 'smartest' model requires surrendering privacy,",
+    "answer": "Choosing the centralized model creates vendor lock-in and data dependency; Naval warns the 'smartest' model requires surrendering privacy, creating unacceptable long-term risk for a hospital.",
     "explanation": "Naval frames the monopoly-commodity debate as a strategic bet. The centralized lab's model is the smartest today, but if open source catches up (as Naval suspects it will), early adopters of closed models face switching costs, data leakage, and loss of sovereignty. For a hospital handling sensitive patient data, the '80% capable + full privacy' trade-off may be the wiser long-term move—especially since commoditization tends to narrow capability gaps over time.",
     "difficulty": "hard"
   },
@@ -33,11 +33,11 @@
     "description": "Why does Naval dismiss the idea that generating a 'world you can wander around in' is a true world model?",
     "options": [
       "Because the graphics aren't realistic enough yet.",
-      "Because it lacks an agent that predicts consequences and adjusts via a",
+      "Because it lacks an agent that predicts consequences and adjusts via a feedback loop.",
       "Because world models must be built using specialized hardware like Japa.",
       "Because true world models can only be created by humans, not AIs."
     ],
-    "answer": "Because it lacks an agent that predicts consequences and adjusts via a",
+    "answer": "Because it lacks an agent that predicts consequences and adjusts via a feedback loop.",
     "explanation": "Naval argues that a world model requires a reinforcement learning loop where an agent takes action, predicts results, and learns—not just a visual rendering of space.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "What specific limitation does Naval point out in current AI that makes him doubt we are at AGI yet?",
     "options": [
       "AI is too slow at generating text.",
-      "AI has 'jagged intelligence' and is poor at",
+      "AI has 'jagged intelligence' and is poor at multimodal reasoning.",
       "AI cannot be accessed by enough people yet.",
       "AI is too expensive for most companies to afford."
     ],
-    "answer": "AI has 'jagged intelligence' and is poor at",
+    "answer": "AI has 'jagged intelligence' and is poor at multimodal reasoning.",
     "explanation": "Naval notes that current models are very smart in specific areas but still struggle with reasoning across different types of data (multimodal) and world-understanding.",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "VCs are refusing to fund hardware because it's too risky.",
       "There is a surplus of sci-fi engineers but no demand for their work.",
-      "Sci-fi technologies are in high demand, but the talent to build them",
+      "Sci-fi technologies are in high demand, but the talent to build them is in low supply.",
       "Sci-fi authors are now the most well-paid people in Silicon Valley."
     ],
-    "answer": "Sci-fi technologies are in high demand, but the talent to build them",
+    "answer": "Sci-fi technologies are in high demand, but the talent to build them is in low supply.",
     "explanation": "Naval notes that while the market wants rockets and drones, there aren't enough 'sci-fi scientists, authors, or engineers' to meet the current demand.",
     "difficulty": "easy"
   },
@@ -102,12 +102,12 @@
     "content": "Reinforcement learning (RL) is a training method where an AI (an agent) takes actions in an environment and receives rewards or penalties. This loop allows the agent to adjust its behavior and build a better internal model of how the world works.",
     "description": "Why is the reinforcement learning loop essential for a 'World Model' in Naval’s framework?",
     "options": [
-      "It allows the agent to predict consequences and adjust behavior",
+      "It allows the agent to predict consequences and adjust behavior based on what it learned.",
       "It makes the AI generate images faster.",
       "It reduces the amount of electricity needed to train the model.",
       "It ensures that only the CEO can control the AI's actions."
     ],
-    "answer": "It allows the agent to predict consequences and adjust behavior",
+    "answer": "It allows the agent to predict consequences and adjust behavior based on what it learned.",
     "explanation": "Naval explains that a world model requires an agent to take action and then use the RL loop to learn from the results of those actions.",
     "difficulty": "easy"
   },

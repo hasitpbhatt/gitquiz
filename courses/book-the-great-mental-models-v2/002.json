@@ -4,12 +4,12 @@
     "content": "Newton's First Law states that an object at rest stays at rest, and an object in motion stays in motion along a straight line, unless acted upon by an unbalanced external force.",
     "description": "Your company has used the same payroll software for twelve years. Everyone complains about it, but nobody has switched. What physical principle explains this stagnation?",
     "options": [
-      "Entropy — systems naturally degrade over time",
+      "Entropy — systems naturally degrade over time which is a critical factor to consider in this context",
       "Friction — the software is difficult to learn",
-      "Inertia of rest — the organization is at rest and requires",
+      "Inertia of rest — the organization is at rest and requires significant force to change its state",
       "Activation energy — the cost of change is perceived as too high"
     ],
-    "answer": "Inertia of rest — the organization is at rest and requires",
+    "answer": "Inertia of rest — the organization is at rest and requires significant force to change its state",
     "explanation": "The organization has 'social mass.' Even though people complain, the system is at rest relative to change. Overcoming this inertia requires a concentrated, disproportionate burst of energy to break the static equilibrium.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A dominant social media platform continues growing despite multiple privacy scandals, regulatory fines, and public backlash. Users keep joining. What best explains this?",
     "options": [
       "Users do not care about privacy",
-      "The company has excellent public relations",
-      "Network effects and user base mass create",
+      "The company has excellent public relations which is a critical factor to consider in this context",
+      "Network effects and user base mass create an inertia of motion that resists deceleration",
       "Regulatory fines are too small to matter"
     ],
-    "answer": "Network effects and user base mass create",
+    "answer": "Network effects and user base mass create an inertia of motion that resists deceleration",
     "explanation": "Once a platform reaches critical mass, its own momentum carries it forward. New users join because existing users are there. This inertia of motion makes it extremely difficult to halt or redirect, regardless of external shocks.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A 50-person startup pivots its product in three weeks. A 50,000-person enterprise tries the same pivot and fails after nine months. What explains the difference?",
     "options": [
       "Enterprise employees are less capable than startup employees",
-      "Startups have fewer legal restrictions on product changes",
-      "The enterprise has higher social mass — more people, processes,",
+      "Startups have fewer legal restrictions on product changes which is a critical factor to consider in this context",
+      "The enterprise has higher social mass — more people, processes, and legacy systems creating greater inertia",
       "The enterprise lacked the financial resources to execute the pivot"
     ],
-    "answer": "The enterprise has higher social mass — more people, processes,",
+    "answer": "The enterprise has higher social mass — more people, processes, and legacy systems creating greater inertia",
     "explanation": "Inertia is proportional to mass. A startup's low social mass allows rapid direction changes. A large enterprise's high social mass — accumulated through years of processes, headcount, culture, and legacy tech — resists any change in trajectory.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Employees are lazy and will avoid any optional program",
       "The program was not mandated from the top, so nobody feels obligated to attend",
-      "Overcoming the organization's inertia of rest requires sustained, repeated",
-      "AI skills are not relevant to most employees' roles"
+      "Overcoming the organization's inertia of rest requires sustained, repeated force — not a single announcement",
+      "AI skills are not relevant to most employees' roles which is a critical factor to consider in this context"
     ],
-    "answer": "Overcoming the organization's inertia of rest requires sustained, repeated",
+    "answer": "Overcoming the organization's inertia of rest requires sustained, repeated force — not a single announcement",
     "explanation": "Organizational inertia of rest cannot be broken by a single event. It requires a campaign: repeated messaging, executive sponsorship, small pilot groups, incentives, and removal of barriers. Only sustained, concentrated force overcomes the initial static friction.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "In financial markets, assets that have already demonstrated strong price momentum tend to continue in that direction, as institutional inertia and herding behavior reinforce the trend.",
     "description": "A value investor refuses to buy a stock that has already doubled, believing it is 'too late.' The stock doubles again in the next year. What mental model could have predicted this continued rise?",
     "options": [
-      "Mean reversion — what goes up must come down",
-      "once an asset gains momentum, it tends to continue until acted upon by",
+      "Mean reversion — what goes up must come down which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Inertia of motion — once an asset gains momentum, it tends to continue until acted upon by a strong counterforce",
       "The efficient market hypothesis — all information is already priced in",
       "Loss aversion — investors are afraid of buying at the top"
     ],
-    "answer": "once an asset gains momentum, it tends to continue until acted upon by",
+    "answer": "Inertia of motion — once an asset gains momentum, it tends to continue until acted upon by a strong counterforce",
     "explanation": "Momentum is a real force in markets. Once a trend is established — driven by capital inflows, analyst coverage, and investor enthusiasm — it takes significant contrary force to stop it. Betting against momentum without a clear catalyst is fighting inertia.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A CEO sends a strongly worded email about reducing bureaucracy but sees no change in decision-making speed six months later. What went wrong?",
     "options": [
       "The CEO did not follow up with enough emails to reinforce the message",
-      "structural changes to hierarchies and incentives are required",
-      "Middle managers actively sabotaged the CEO's directive",
+      "Rhetorical force cannot change entrenched processes — structural changes to hierarchies and incentives are required",
+      "Middle managers actively sabotaged the CEO's directive which is a critical factor to consider in this context",
       "Bureaucracy is an unavoidable feature of any large organization"
     ],
-    "answer": "structural changes to hierarchies and incentives are required",
+    "answer": "Rhetorical force cannot change entrenched processes — structural changes to hierarchies and incentives are required",
     "explanation": "Inertia is proportional to mass. Entrenched bureaucracy has high social mass accumulated over years. A single email is negligible force. Structural change requires structural force: redesigning systems, realigning incentives, and physically removing friction points.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "An object in a state of equilibrium will remain there unless an unbalanced external force acts upon it. Internal dissatisfaction alone does not create motion.",
     "description": "A team has been complaining about their legacy workflow for years. A new competitor emerges, stealing 20% of their market share. Within a month, the team adopts a modern workflow. What caused the change?",
     "options": [
-      "The team finally realized they were inefficient",
-      "The competitive threat provided the necessary external force",
+      "The team finally realized they were inefficient which is a critical factor to consider in this context",
+      "The competitive threat provided the necessary external force to overcome the team's inertia of rest",
       "The new workflow became easier to use over time",
       "Management threatened to fire the team if they did not change"
     ],
-    "answer": "The competitive threat provided the necessary external force",
+    "answer": "The competitive threat provided the necessary external force to overcome the team's inertia of rest",
     "explanation": "Internal complaints alone rarely overcome inertia because they do not constitute an unbalanced external force. The competitive threat — an external, existential pressure — provided the concentrated force needed to break the static equilibrium and drive real change.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "An organization moving in a particular direction will continue on that trajectory unless redirected by a significant force. Minor course corrections rarely alter the overall path.",
     "description": "A car manufacturer has been building large SUVs for twenty years. Despite launching a small electric car division, 95% of revenue still comes from large trucks. What principle explains this persistence?",
     "options": [
-      "The small car division lacks marketing budget",
-      "the EV division is too small a force to redirect the",
+      "The small car division lacks marketing budget which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The company's trajectory is determined by the inertia of its core business — the EV division is too small a force to redirect the entire organizational mass",
       "Customers do not want small electric cars from this brand",
       "Electric cars are not profitable for the company"
     ],
-    "answer": "the EV division is too small a force to redirect the",
+    "answer": "The company's trajectory is determined by the inertia of its core business — the EV division is too small a force to redirect the entire organizational mass",
     "explanation": "An organization's trajectory is the vector of its total mass. A small division is a minor force that cannot significantly redirect a large, moving organization. Truly changing direction requires applying force proportional to the entire mass, not just adding a side project.",
     "difficulty": "hard"
   }

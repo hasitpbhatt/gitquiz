@@ -4,12 +4,12 @@
     "content": "Compounding is not intuitive because our brains think in linear terms (2 + 2 + 2) rather than exponential terms (2 * 2 * 2). Small changes in time or interest rates lead to massive, unexpected results over the long run.",
     "description": "If you double a penny every day for 31 days, you end up with over $10 million. Why is this concept so difficult for most investors to grasp in practice?",
     "options": [
-      "Because the growth is invisible and slow in the early",
+      "Because the growth is invisible and slow in the early stages",
       "Because the math is factually incorrect for small amounts",
       "Because pennies are no longer relevant in modern finance",
       "Because doubling your money daily is a common linear task"
     ],
-    "answer": "Because the growth is invisible and slow in the early",
+    "answer": "Because the growth is invisible and slow in the early stages",
     "explanation": "In the beginning, compounding looks like nothing is happening. It takes a long time for the exponential curve to 'turn the corner' and become vertical.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "What is the most significant factor in Buffett's $80+ billion fortune according to Chapter 4?",
     "options": [
       "His superior ability to pick tech stocks",
-      "The fact that he has been investing for",
+      "The fact that he has been investing for over 75 years",
       "His high-frequency trading algorithms",
       "His refusal to pay taxes"
     ],
-    "answer": "The fact that he has been investing for",
+    "answer": "The fact that he has been investing for over 75 years",
     "explanation": "Over 90% of Buffett's wealth was accumulated after his 65th birthday. His skill is investing, but his secret is time.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "It is 2023. Global markets are down 15% from their peak. Your 65-year-old father-in-law, who lived through the 2008 crash, tells you he is pulling all his money out of equities because 'this is the start of another lost decade.' Based on Housel's ice-age analogy, how would you construct a counter-argument that distinguishes between a 'cool summer' and the onset of a new ice age? What specific indicators should you reference to differentiate a temporary dip from a structural regime change?",
     "options": [
       "Agree with him, because 2008 was also preceded by a drop and it took 5 years to recover, proving the pattern repeats.",
-      "Point out one cool summer does not end an ice age; check whether earnings and GDP remain intact — selling now locks",
+      "Point out one cool summer does not end an ice age; check whether earnings and GDP remain intact — selling now locks in losses during a temporary blip.",
       "Recommend he move entirely to cash for the next 3 years while the market finds its bottom, then re-enter.",
       "Tell him that the ice age has ended because interest rates are rising, so equities are permanently dangerous now."
     ],
-    "answer": "Point out one cool summer does not end an ice age; check whether earnings and GDP remain intact — selling now locks",
+    "answer": "Point out one cool summer does not end an ice age; check whether earnings and GDP remain intact — selling now locks in losses during a temporary blip.",
     "explanation": "The ice-age analogy illustrates time-scale awareness. A 'cool summer' is a temporary dip within a secular bull market (ice age). The key analytical skill is distinguishing transient volatility from structural decline—by looking at underlying fundamentals (earnings, GDP, innovation pipeline), not just price action. Housel warns that recency bias makes people mistake short-term noise for a permanent shift.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "Investor A gets a 20% return for 10 years. Investor B gets an 8% return for 50 years. Who ends up with significantly more money?",
     "options": [
       "Investor A, because 20% is more than double 8%",
-      "Investor B, because the extra 40 years of compounding",
+      "Investor B, because the extra 40 years of compounding creates massive growth",
       "They will have the same amount because the math balances out",
       "Investor A, because they can retire sooner"
     ],
-    "answer": "Investor B, because the extra 40 years of compounding",
+    "answer": "Investor B, because the extra 40 years of compounding creates massive growth",
     "explanation": "Compounding is heavily weighted toward the end of the time period. The longer you stay invested, the more 'explosive' the dollar growth becomes.",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Because high returns are illegal in most countries",
       "Because the highest returns are usually one-off events that can't be sustained",
-      "Because you should focus on returns that you can earn for the longest period",
+      "Because you should focus on returns that you can earn for the longest period of time",
       "Because returns don't matter as much as how much you earn at your job"
     ],
-    "answer": "Because you should focus on returns that you can earn for the longest period",
+    "answer": "Because you should focus on returns that you can earn for the longest period of time",
     "explanation": "A return you can stick with through thick and thin (like 7%) is better than a 20% return that causes you to panic and sell when things get volatile.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "If you are in the 10th year of a 40-year investment plan, how should you feel about your relatively small account balance?",
     "options": [
       "Discouraged, because you are 25% through the time but haven't made much money",
-      "Patient, because the vast majority of your gains will occur in the final",
+      "Patient, because the vast majority of your gains will occur in the final decade",
       "Worried, because you probably picked the wrong investments",
       "Happy, because you can stop saving now and still reach your goal"
     ],
-    "answer": "Patient, because the vast majority of your gains will occur in the final",
+    "answer": "Patient, because the vast majority of your gains will occur in the final decade",
     "explanation": "In compounding, the 'tail' (the end) does all the heavy lifting. The first 10 years are just the foundation for the explosion that happens later.",
     "difficulty": "easy"
   },
@@ -118,10 +118,10 @@
     "options": [
       "They don't have enough starting capital",
       "They don't understand how to read stock charts",
-      "They quit or change strategies before the 'tail'",
+      "They quit or change strategies before the 'tail' of the curve is reached",
       "The stock market is rigged against small investors"
     ],
-    "answer": "They quit or change strategies before the 'tail'",
+    "answer": "They quit or change strategies before the 'tail' of the curve is reached",
     "explanation": "Most people give up when they don't see massive results in the first few years, not realizing they were just a few years away from the vertical part of the curve.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Based on the book's logic, what is the best way to become an 'expert' in a soft skill?",
     "options": [
       "Take a one-week intensive 'bootcamp'",
-      "Consistently practice and learn every day over",
+      "Consistently practice and learn every day over many years",
       "Read a single book and apply it perfectly once",
       "Wait for a lucky break to show off your talent"
     ],
-    "answer": "Consistently practice and learn every day over",
+    "answer": "Consistently practice and learn every day over many years",
     "explanation": "Just like money, skills and trust compound over time. The 'overnight success' is usually the result of 20 years of compounding effort.",
     "difficulty": "medium"
   }

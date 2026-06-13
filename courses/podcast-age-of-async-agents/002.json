@@ -47,11 +47,11 @@
     "description": "A competitor asks whether Cognition just sells a $20/month agent tool and how they are worth $26B. What is missing from this assessment of what Cognition actually sells?",
     "options": [
       "Cognition only sells Devin licenses",
-      "Cognition sells infrastructure, onboarding,",
+      "Cognition sells infrastructure, onboarding, integrations, and enterprise adoption, not just the software",
       "Cognition makes most of its money from advertising",
       "Cognition sells hardware servers for running agents"
     ],
-    "answer": "Cognition sells infrastructure, onboarding,",
+    "answer": "Cognition sells infrastructure, onboarding, integrations, and enterprise adoption, not just the software",
     "explanation": "Walden says companies consistently underestimate the work around the product. Cognition sells infrastructure (VMs, networking), onboarding (setting up repos, secrets, policies), integrations (Slack, GitHub, Jira), and consulting to drive adoption.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Your CTO asks whether you should use OpenInspect (open source) or Devin (commercial). Which is the most important economic consideration in this decision?",
     "options": [
       "Open source is always cheaper because there is no license fee",
-      "Commercial agents bundle VM infrastructure, onboarding, and",
+      "Commercial agents bundle VM infrastructure, onboarding, and support; open source requires you to manage these yourself",
       "OpenInspect has more features than Devin",
       "Devin is free for small teams"
     ],
-    "answer": "Commercial agents bundle VM infrastructure, onboarding, and",
+    "answer": "Commercial agents bundle VM infrastructure, onboarding, and support; open source requires you to manage these yourself",
     "explanation": "The real cost of open-source agents includes managing VM infrastructure, networking, secrets, and ongoing maintenance. Commercial agents like Devin bundle these costs. As Walden notes, the work around the product is where the real cost and value live.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "Cole Murray is asked how OpenInspect competes with Devin's enterprise sales team. What is OpenInspect's primary distribution strategy?",
     "options": [
       "Paid advertising on developer blogs",
-      "Companies adopt it internally and",
+      "Companies adopt it internally and contribute improvements back to the project",
       "A freemium SaaS tier with paid upgrades",
       "Reselling through cloud marketplaces"
     ],
-    "answer": "Companies adopt it internally and",
+    "answer": "Companies adopt it internally and contribute improvements back to the project",
     "explanation": "OpenInspect grows through enterprise adoption: companies implement it as their internal agent platform, and their engineering improvements flow back to the open-source project. This community-driven model contrasts with Cognition's direct sales approach.",
     "difficulty": "hard"
   }

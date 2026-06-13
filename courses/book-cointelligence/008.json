@@ -19,11 +19,11 @@
     "description": "A CEO admits to an AI coach that they are terrified of public speaking and asks for a step-by-step confidence-building plan. Why might they do this with an AI rather than a human consultant?",
     "options": [
       "The AI is smarter than any human consultant.",
-      "The AI provides a 'psychologically safe' and non-judgmental",
+      "The AI provides a 'psychologically safe' and non-judgmental environment to admit vulnerability.",
       "The AI can physically stand on stage for them.",
       "The AI charges more for the service, making it feel more elite."
     ],
-    "answer": "The AI provides a 'psychologically safe' and non-judgmental",
+    "answer": "The AI provides a 'psychologically safe' and non-judgmental environment to admit vulnerability.",
     "explanation": "The lack of human ego in the AI allows users to be vulnerable, which is often the first necessary step for effective coaching and improvement.",
     "difficulty": "hard"
   },
@@ -33,11 +33,11 @@
     "description": "An entry-level employee uses AI to structure their career goals using the 'SMART' framework. This is an example of:",
     "options": [
       "Replacing their manager.",
-      "Democratizing access to",
+      "Democratizing access to high-level professional coaching.",
       "Automating the HR department.",
       "A violation of company hierarchy."
     ],
-    "answer": "Democratizing access to",
+    "answer": "Democratizing access to high-level professional coaching.",
     "explanation": "AI makes elite coaching methodologies available to everyone, regardless of their rank or income level, allowing for self-directed professional growth.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Before a big pitch, you ask the AI to 'Critique this proposal from the perspective of a cost-conscious CFO.' You are using the AI to:",
     "options": [
       "Write the proposal for you.",
-      "Identify blind spots",
+      "Identify blind spots through simulated perspective-taking.",
       "Calculate the final budget.",
       "Check for spelling errors."
     ],
-    "answer": "Identify blind spots",
+    "answer": "Identify blind spots through simulated perspective-taking.",
     "explanation": "Coaching involves seeing things from a different angle. AI can instantly adopt any persona to challenge your assumptions and help you prepare for counter-arguments.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "You know you need to network more, but you find it overwhelming. Your AI coach suggests you reach out to just one person today and drafts a low-pressure 'hello' email for you. The AI is helping you:",
     "options": [
       "Avoid the work entirely.",
-      "Bridge the 'Knowing-Doing Gap'",
+      "Bridge the 'Knowing-Doing Gap' with actionable micro-steps.",
       "Spam your professional network.",
       "Outsource your friendships."
     ],
-    "answer": "Bridge the 'Knowing-Doing Gap'",
+    "answer": "Bridge the 'Knowing-Doing Gap' with actionable micro-steps.",
     "explanation": "Coaching isn't just about big ideas; it's about execution. AI helps by making the 'doing' feel manageable through small, specific tasks.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "You are stuck on a strategic problem. You describe the whole situation to the AI. As you read the AI's summary of your own words, you realize where you went wrong. This coaching technique is called:",
     "options": [
       "Data entry.",
-      "Critical reflection",
+      "Critical reflection (or Rubber Ducking).",
       "Algorithmic synthesis.",
       "The 'Centaur' method."
     ],
-    "answer": "Critical reflection",
+    "answer": "Critical reflection (or Rubber Ducking).",
     "explanation": "The AI serves as a sounding board. The process of organizing your thoughts to 'coach' the AI on your problem often leads to your own 'aha' moment.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "Traditional coaching happens in weekly sessions. AI coaching can happen in real-time. You can use AI to analyze a draft of an email *before* you hit send, or to give you pointers right before you walk into a meeting, providing 'active' rather than 'passive' learning.",
     "description": "You are about to send a sensitive email. You ask the AI: 'Does this sound passive-aggressive?' It says yes and suggests a clearer tone. This is an example of:",
     "options": [
-      "Real-time performance",
+      "Real-time performance coaching.",
       "Automated censorship.",
       "Skills atrophy.",
       "Digital eavesdropping."
     ],
-    "answer": "Real-time performance",
+    "answer": "Real-time performance coaching.",
     "explanation": "The AI acts as an 'on-demand' coach that provides feedback exactly when you need it, which is far more effective for behavior change than a review a week later.",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Follow the AI because it is data-driven.",
       "Ignore your intuition; the AI has no bias.",
-      "Critically evaluate the advice and reject it if it",
+      "Critically evaluate the advice and reject it if it contradicts your human understanding of the team.",
       "Ask a different AI and do whatever the second one says."
     ],
-    "answer": "Critically evaluate the advice and reject it if it",
+    "answer": "Critically evaluate the advice and reject it if it contradicts your human understanding of the team.",
     "explanation": "You are the 'Human in the Loop.' Coaching is a suggestion, not a command. You must always be the final judge of the advice provided by the AI.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "How does the 'AI as Coach' model change the relationship between a senior leader and a junior employee?",
     "options": [
       "The senior leader no longer needs to talk to the junior employee.",
-      "The junior employee uses AI for daily skill questions, so their",
+      "The junior employee uses AI for daily skill questions, so their time with the leader is spent on high-level career vision.",
       "The leader is replaced by a chatbot.",
       "The junior employee becomes smarter than the leader immediately."
     ],
-    "answer": "The junior employee uses AI for daily skill questions, so their",
+    "answer": "The junior employee uses AI for daily skill questions, so their time with the leader is spent on high-level career vision.",
     "explanation": "By offloading 'technical' coaching to AI, human mentorship becomes more focused on high-value, personal, and strategic connections.",
     "difficulty": "hard"
   },

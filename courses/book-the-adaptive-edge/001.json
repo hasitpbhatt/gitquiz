@@ -5,11 +5,11 @@
     "description": "Your neighborhood association has tried multiple clean-up drives, but the same few streets are always left littered. Based on the 'broken system' theory, what is the most likely reality?",
     "options": [
       "The residents on those streets are inherently irresponsible.",
-      "The current neglect is serving a hidden purpose, like keeping city",
+      "The current neglect is serving a hidden purpose, like keeping city resources focused elsewhere.",
       "The neighborhood is simply too large to manage and needs to be divided.",
       "The association hasn't found the right cleaning equipment yet."
     ],
-    "answer": "The current neglect is serving a hidden purpose, like keeping city",
+    "answer": "The current neglect is serving a hidden purpose, like keeping city resources focused elsewhere.",
     "explanation": "Systems are designed for their current output. Dysfunction often persists because it provides an unspoken benefit — like maintaining a narrative of 'neglect' to attract external funding or attention.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Sales are dropping because a new competitor entered the market. You decide to buy a more expensive CRM software to track leads. How would you categorize this specific response?",
     "options": [
       "Adaptive, because it requires learning new software.",
-      "Technical, because it applies a tool to a problem that may actually require a shift in",
+      "Technical, because it applies a tool to a problem that may actually require a shift in strategy or culture.",
       "Technical, because the software is highly complex and requires an IT expert to install.",
       "Adaptive, because it involves a financial investment from the whole company."
     ],
-    "answer": "Technical, because it applies a tool to a problem that may actually require a shift in",
+    "answer": "Technical, because it applies a tool to a problem that may actually require a shift in strategy or culture.",
     "explanation": "Software is a technical fix. While helpful, it doesn't solve the 'adaptive' need for the sales team to rethink their value proposition or their approach to customer relationships.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Focus entirely on the future and tell employees that the past no longer matters.",
       "Guarantee that absolutely nothing about the culture will change to keep everyone happy.",
-      "Clearly define which core values must be kept and which specific old habits must be let",
+      "Clearly define which core values must be kept and which specific old habits must be let go.",
       "Implement a new set of values immediately to replace the old ones."
     ],
-    "answer": "Clearly define which core values must be kept and which specific old habits must be let",
+    "answer": "Clearly define which core values must be kept and which specific old habits must be let go.",
     "explanation": "Adaptation is selective. By clarifying what will be 'conserved,' you reduce the fear of loss and make the 'discarding' of outdated practices more palatable.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Exercising authority because you are taking charge.",
       "Being insubordinate by stepping outside your role.",
-      "Exercising leadership because you are mobilizing",
+      "Exercising leadership because you are mobilizing others to address a challenge.",
       "Performing project management by organizing a team."
     ],
-    "answer": "Exercising leadership because you are mobilizing",
+    "answer": "Exercising leadership because you are mobilizing others to address a challenge.",
     "explanation": "Leadership is an action, not a title. Moving a group to tackle a difficult truth—regardless of your rank—is the essence of adaptive leadership.",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Announce an immediate marathon to force rapid improvement.",
       "Keep the jogs easy so nobody feels uncomfortable.",
-      "Introduce gradually harder workouts while offering guidance and",
+      "Introduce gradually harder workouts while offering guidance and recovery days.",
       "Cancel the training plan until everyone asks for it themselves."
     ],
-    "answer": "Introduce gradually harder workouts while offering guidance and",
+    "answer": "Introduce gradually harder workouts while offering guidance and recovery days.",
     "explanation": "You must increase the 'heat' (the challenge) while simultaneously providing a 'holding environment' (support and safety) so the group doesn't burn out or quit.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Your elderly father refuses to use a smartphone, insisting his old flip phone is 'perfectly fine.' He gets defensive whenever anyone offers to help. What is likely the real issue?",
     "options": [
       "He is too old to learn anything new.",
-      "He fears a loss of his independence and competence associated with",
+      "He fears a loss of his independence and competence associated with mastering familiar technology.",
       "He has a personal grudge against the person offering the smartphone.",
       "He wants to save money by not buying a new phone."
     ],
-    "answer": "He fears a loss of his independence and competence associated with",
+    "answer": "He fears a loss of his independence and competence associated with mastering familiar technology.",
     "explanation": "Resistance is often a symptom of feared loss. The father isn't resisting the phone itself; he is protecting his sense of competence and independence that the old device represents.",
     "difficulty": "easy"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Set a timer so each gets exactly 30 minutes.",
       "Make the decision yourself based on whose need seems more urgent.",
-      "Tell them they must work out a schedule together that works for",
+      "Tell them they must work out a schedule together that works for both of them.",
       "Take the tablet away so nobody gets to use it."
     ],
-    "answer": "Tell them they must work out a schedule together that works for",
+    "answer": "Tell them they must work out a schedule together that works for both of them.",
     "explanation": "By refusing to solve the problem for them, you are giving the 'work' (the negotiation and trade-offs) back to the people who own the problem.",
     "difficulty": "easy"
   },
@@ -116,12 +116,12 @@
     "content": "Since adaptive challenges are new and complex, there are no 'correct' answers. Therefore, every intervention should be seen as an experiment. This encourages a culture of learning and allows for small failures that lead to eventual success.",
     "description": "You want to trial a 4-day work week. Instead of changing the whole company, you let one small team try it for a month. Why is this adaptive?",
     "options": [
-      "It allows you to test a hypothesis and gather data",
+      "It allows you to test a hypothesis and gather data before scaling.",
       "It avoids having to ask for permission from the CEO.",
       "It minimizes the cost of the project in case it fails.",
       "It creates competition between teams."
     ],
-    "answer": "It allows you to test a hypothesis and gather data",
+    "answer": "It allows you to test a hypothesis and gather data before scaling.",
     "explanation": "Experiments are the primary tool for adaptive work. They provide the evidence needed to navigate challenges where the path forward is unclear.",
     "difficulty": "easy"
   },
@@ -132,10 +132,10 @@
     "options": [
       "Agree with the executives to maintain the flow of the meeting.",
       "Talk to the designer in private later to avoid undermining the VPs.",
-      "Ask the designer to elaborate on why they think that, protecting",
+      "Ask the designer to elaborate on why they think that, protecting their voice.",
       "Remind the designer to wait until the Q&A session at the end."
     ],
-    "answer": "Ask the designer to elaborate on why they think that, protecting",
+    "answer": "Ask the designer to elaborate on why they think that, protecting their voice.",
     "explanation": "Protecting 'voices from the margin' is critical because these voices often carry the 'uncomfortable truths' that the organization needs to hear to adapt.",
     "difficulty": "easy"
   }

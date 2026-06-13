@@ -4,12 +4,12 @@
     "content": "Naval argues that health is the base layer upon which all other forms of wealth, leverage, and happiness are built.",
     "description": "Riya spends years optimizing her career, investments, and skills, but her chronic sleep deprivation and poor diet leave her constantly sick and unable to focus. What fundamental principle has she violated?",
     "options": [
-      "Health is the foundational layer for all leverage and",
+      "Health is the foundational layer for all leverage and wealth",
       "Time management is more important than health",
       "Financial wealth automatically solves health problems",
       "Skills can compensate for poor physical health"
     ],
-    "answer": "Health is the foundational layer for all leverage and",
+    "answer": "Health is the foundational layer for all leverage and wealth",
     "explanation": "Naval teaches that health is the first and most important asset. Without it, every other form of wealth becomes meaningless because you lack the energy and clarity to use leverage effectively.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A founder tells Naval he is too busy building his company to exercise or cook healthy meals. What would Naval likely say?",
     "options": [
       "Delegating health to a personal trainer is sufficient",
-      "Health is a non-negotiable daily priority that cannot be sacrificed for",
+      "Health is a non-negotiable daily priority that cannot be sacrificed for work",
       "He should wait until after the company exits to focus on health",
       "Intense quarterly health retreats compensate for neglecting daily habits"
     ],
-    "answer": "Health is a non-negotiable daily priority that cannot be sacrificed for",
+    "answer": "Health is a non-negotiable daily priority that cannot be sacrificed for work",
     "explanation": "Naval emphasizes that health must be treated as a daily non-negotiable, not something to postpone. If you sacrifice health for work, you degrade the very engine that produces your best work.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Naval observes that humans evolved in an environment of scarcity and constant movement, yet now live in one of abundance and convenience. What is the primary consequence of this mismatch?",
     "options": [
       "Humans evolve to match the new environment within one generation",
-      "The abundance environment creates chronic health problems our",
+      "The abundance environment creates chronic health problems our bodies cannot handle",
       "Modern medicine completely neutralizes any negative effects",
       "Only people with weak willpower are affected by modern abundance"
     ],
-    "answer": "The abundance environment creates chronic health problems our",
+    "answer": "The abundance environment creates chronic health problems our bodies cannot handle",
     "explanation": "Naval argues our bodies evolved for scarcity and physical labor, not for calorie-dense food and sitting all day. This evolutionary mismatch drives obesity, diabetes, anxiety, and depression at population scale.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A friend asks Naval for the simplest health advice that works. What core principle does Naval suggest?",
     "options": [
       "Follow the latest biohacking trends and supplements",
-      "Align your lifestyle with what your evolutionary biology",
+      "Align your lifestyle with what your evolutionary biology expects",
       "Eat fewer than 800 calories per day for maximum longevity",
       "Exercise only when you feel motivated to avoid stress"
     ],
-    "answer": "Align your lifestyle with what your evolutionary biology",
+    "answer": "Align your lifestyle with what your evolutionary biology expects",
     "explanation": "Naval advocates looking to ancestral patterns — movement throughout the day, fasting windows, natural foods, sunlight, cold and heat exposure — because our genome has barely changed in 100,000 years while our environment has transformed completely.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A software engineer applies debugging and iteration principles to his own health: measuring sleep quality, tracking food responses, and adjusting one variable at a time. What philosophy is he following?",
     "options": [
       "The placebo effect",
-      "A systems engineering view of the",
+      "A systems engineering view of the body",
       "Medical fatalism",
       "Intuitive eating without tracking"
     ],
-    "answer": "A systems engineering view of the",
+    "answer": "A systems engineering view of the body",
     "explanation": "Naval applies engineering thinking to health: treat the body as a system of inputs and outputs, measure what matters, iterate on one variable at a time, and optimize based on data rather than dogma.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A venture capitalist notices that many highly successful tech founders undergo visible health transformations in their late 30s and 40s — building impressive physiques and adopting strict routines. What does Naval see in this pattern?",
     "options": [
       "A sign that health vanity always follows wealth accumulation",
-      "Evidence that successful people eventually realize health is the",
+      "Evidence that successful people eventually realize health is the ultimate meta-skill that powers everything else",
       "Proof that plastic surgery and personal trainers are the main drivers",
       "A marketing gimmick to appear more relatable to the public"
     ],
-    "answer": "Evidence that successful people eventually realize health is the",
+    "answer": "Evidence that successful people eventually realize health is the ultimate meta-skill that powers everything else",
     "explanation": "Naval points to Bezos and Zuckerberg as case studies of the health pivot: even the most successful builders eventually recognize that without a healthy body and mind, sustained high performance is impossible. Health is the meta-skill that amplifies all other abilities.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "Naval warns that modern processed food and digital media hijack ancient reward circuits, creating addictive cycles that erode willpower and long-term health.",
     "description": "A developer eats hyper-palatable junk food while scrolling social media during every meal, feeling unable to stop. Each bite and swipe delivers a small dopamine spike, making healthier choices feel impossible. What trap has he fallen into according to Naval?",
     "options": [
-      "The hedonic treadmill of modern abundance hijacking",
+      "The hedonic treadmill of modern abundance hijacking evolutionary reward systems",
       "A simple lack of discipline that can be fixed with more rules",
       "The natural consequence of working in tech",
       "An addiction that requires clinical rehabilitation"
     ],
-    "answer": "The hedonic treadmill of modern abundance hijacking",
+    "answer": "The hedonic treadmill of modern abundance hijacking evolutionary reward systems",
     "explanation": "Naval explains that processed food and digital media are supernormal stimuli — they over-activate reward circuits designed for scarcity. Willpower alone rarely overcomes this, so the solution is changing the environment: remove cheap dopamine sources and make healthy choices the path of least resistance.",
     "difficulty": "hard"
   }

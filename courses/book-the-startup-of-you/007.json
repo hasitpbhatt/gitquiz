@@ -5,11 +5,11 @@
     "description": "You need to know if a specific company's culture is truly collaborative before accepting an offer. What is the most effective way to gather this 'intelligence'?",
     "options": [
       "Reading the 'About Us' section on the company website",
-      "Searching for a former employee on LinkedIn and asking for a",
+      "Searching for a former employee on LinkedIn and asking for a 10-minute honest chat",
       "Reading a general blog post about 'Top 10 Collaborative Companies'",
       "Asking the HR manager during the final interview"
     ],
-    "answer": "Searching for a former employee on LinkedIn and asking for a",
+    "answer": "Searching for a former employee on LinkedIn and asking for a 10-minute honest chat",
     "explanation": "Former employees provide 'unfiltered' intelligence. Company websites and HR managers provide 'curated' information that may not reflect the daily reality.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "Why should you regularly have lunch with people in your industry even when you aren't looking for a job?",
     "options": [
       "To save money by having the other person pay",
-      "To stay in the 'information flow' and hear about market",
+      "To stay in the 'information flow' and hear about market trends before they become public news",
       "To show off your recent accomplishments",
       "Because it's a requirement of most employment contracts"
     ],
-    "answer": "To stay in the 'information flow' and hear about market",
+    "answer": "To stay in the 'information flow' and hear about market trends before they become public news",
     "explanation": "Regular informal check-ins keep your 'intelligence radar' active. By the time a trend is in the news, the best opportunities are often already gone.",
     "difficulty": "medium"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Ask one person who loves that language and do exactly what they say",
       "Post a poll on social media and follow the majority vote",
-      "Ask three people: one who uses it, one who just stopped using it, and",
+      "Ask three people: one who uses it, one who just stopped using it, and one who hires for it",
       "Wait for a university to release a study on the language's popularity"
     ],
-    "answer": "Ask three people: one who uses it, one who just stopped using it, and",
+    "answer": "Ask three people: one who uses it, one who just stopped using it, and one who hires for it",
     "explanation": "Speaking to people with different 'angles' on the same topic provides a 360-degree view, helping you avoid the bias of a single source.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A friend tells you that 'everyone' is leaving a certain company. How do you triangulate this information?",
     "options": [
       "Assume your friend is right and tell everyone else to avoid the restaurant",
-      "Check recent online reviews and ask a few other friends who went there",
+      "Check recent online reviews and ask a few other friends who went there recently",
       "Ignore the information because it's probably just gossip",
       "Call the restaurant owner and ask if their quality has dropped"
     ],
-    "answer": "Check recent online reviews and ask a few other friends who went there",
+    "answer": "Check recent online reviews and ask a few other friends who went there recently",
     "explanation": "Triangulation involves verifying 'soft' intelligence with 'hard' data or other independent sources to ensure the information is reliable.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "You want to learn about organic permaculture gardening techniques. Who is the best person to reach out to for intelligence?",
     "options": [
       "Your current next-door neighbor",
-      "An old college acquaintance who now runs a",
+      "An old college acquaintance who now runs a community-supported agriculture farm",
       "Your cousin who works in corporate landscaping",
       "A chatbot that summarizes gardening articles"
     ],
-    "answer": "An old college acquaintance who now runs a",
+    "answer": "An old college acquaintance who now runs a community-supported agriculture farm",
     "explanation": "The old acquaintance is a 'bridge' to a different network. They can provide specific, localized intelligence that your immediate circle simply doesn't have.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "How do you build the trust necessary to receive 'dark' information about a potential merger?",
     "options": [
       "By offering to pay the person for the secret",
-      "By having a long history of being discreet and providing value to",
+      "By having a long history of being discreet and providing value to that person in the past",
       "By promising to post the information on social media immediately",
       "By pressuring the person to tell you 'if they are really your friend'"
     ],
-    "answer": "By having a long history of being discreet and providing value to",
+    "answer": "By having a long history of being discreet and providing value to that person in the past",
     "explanation": "Trust is the prerequisite for sensitive intelligence. People only share 'dark' information with those they know will handle it responsibly.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A sudden supply chain disruption hits your industry. What is the fastest way to understand the impact on your business?",
     "options": [
       "Waiting for the quarterly earnings call in three months",
-      "Texting two contacts who work at the main shipping ports to see",
+      "Texting two contacts who work at the main shipping ports to see what they are seeing on the docks",
       "Searching for a newspaper article that will be published tomorrow",
       "Checking the stock market every five minutes"
     ],
-    "answer": "Texting two contacts who work at the main shipping ports to see",
+    "answer": "Texting two contacts who work at the main shipping ports to see what they are seeing on the docks",
     "explanation": "Direct contact with 'boots on the ground' provides the fastest intelligence, allowing you to make decisions before the rest of the market reacts.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "How can you become a person that others want to share information with?",
     "options": [
       "By hoarding all your secrets so you are the only one who knows them",
-      "By proactively sharing helpful articles, trends, and connections",
+      "By proactively sharing helpful articles, trends, and connections with your network",
       "By only talking about your own needs and goals",
       "By never answering your phone so you seem 'busy' and 'important'"
     ],
-    "answer": "By proactively sharing helpful articles, trends, and connections",
+    "answer": "By proactively sharing helpful articles, trends, and connections with your network",
     "explanation": "Reciprocity drives network intelligence. The more value you broadcast, the more high-quality information you will attract in return.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "After talking to five people, you hear five different things about the future of remote work. What is the final step of synthesis?",
     "options": [
       "Picking the one opinion that you like the most and ignoring the rest",
-      "Looking for the common themes and 'signals' that appeared in most of",
+      "Looking for the common themes and 'signals' that appeared in most of the conversations",
       "Giving up because the information is too confusing",
       "Averaging the opinions into one meaningless middle-ground"
     ],
-    "answer": "Looking for the common themes and 'signals' that appeared in most of",
+    "answer": "Looking for the common themes and 'signals' that appeared in most of the conversations",
     "explanation": "Synthesis is about pattern recognition. If four out of five people mention a specific shift, that is a 'signal' you should probably act on.",
     "difficulty": "hard"
   }

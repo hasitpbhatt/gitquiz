@@ -5,11 +5,11 @@
     "description": "A small secessionist group acquires a swarm of AI-guided drones capable of targeting specific infrastructure. Applying Naval's 'logic of violence' framework, analyze how the state's structural response might differ from the historical rifle case. The rifle forced centralization into nation-states. What makes the drone case potentially produce the opposite effect—decentralization or fragmentation of state power?",
     "options": [
       "Drones are less deadly than rifles, so states will simply ignore the threat and no structural change will occur.",
-      "Rifles centralized power by requiring state-scale factories; drones are cheap and accessible, breaking the state's monopoly on lethal force",
+      "Rifles centralized power by requiring state-scale factories; drones are cheap and accessible, breaking the state's monopoly on lethal force and fragmenting centralized power",
       "Drones will lead to even more powerful nation-states because only states can afford the AI computing power to run drone swarms.",
       "The logic of violence has nothing to do with economics; it is purely about weapons technology, and all weapons lead to more centralization."
     ],
-    "answer": "Rifles centralized power by requiring state-scale factories; drones are cheap and accessible, breaking the state's monopoly on lethal force",
+    "answer": "Rifles centralized power by requiring state-scale factories; drones are cheap and accessible, breaking the state's monopoly on lethal force and fragmenting centralized power",
     "explanation": "Naval's key insight is that the 'logic of violence' follows the economics of the weapon. Rifles centralized power because mass production required state-scale factories. Drones reverse this: they are cheap, accessible, and can be operated by individuals or small groups. This democratization of lethal force scales MAD down to the individual level, potentially fragmenting the nation-state's monopoly on violence and forcing a new societal architecture.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "In the context of the transcript, what does it mean to live under someone's 'nuclear umbrella'?",
     "options": [
       "Using nuclear energy to power civilian cities.",
-      "Relying on a nuclear-armed ally for protection, thereby giving",
+      "Relying on a nuclear-armed ally for protection, thereby giving up some sovereignty.",
       "Building underground bunkers to survive a nuclear winter.",
       "Developing independent drone swarms to counter nuclear missiles."
     ],
-    "answer": "Relying on a nuclear-armed ally for protection, thereby giving",
+    "answer": "Relying on a nuclear-armed ally for protection, thereby giving up some sovereignty.",
     "explanation": "Naval notes that post-nuclear, most countries aren't truly independent; they live underneath the protection—and influence—of one of the few nuclear-armed nations.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "What 'weird form of violence' does Naval predict will come from the democratization of drones?",
     "options": [
       "Large-scale trench warfare using autonomous tanks.",
-      "The ability for an individual to target another specific",
+      "The ability for an individual to target another specific individual they hate using a drone.",
       "Drones that only target military hardware and avoid humans.",
       "A shift toward non-violent drone racing to settle disputes."
     ],
-    "answer": "The ability for an individual to target another specific",
+    "answer": "The ability for an individual to target another specific individual they hate using a drone.",
     "explanation": "Naval suggests that as drones become democratized, the high-level logic of state warfare (MAD) scales down to individual-on-individual conflict, fundamentally restructuring society.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Why does Naval believe drone defense is particularly difficult compared to drone attacks?",
     "options": [
       "Defenders have to traverse a much longer range to reach the drones.",
-      "The attacker can concentrate all their drones in one spot, while",
+      "The attacker can concentrate all their drones in one spot, while the defender is always spread thin.",
       "Drones are immune to electronic jamming and signal interference.",
       "Defense drones require more electricity than attack drones."
     ],
-    "answer": "The attacker can concentrate all their drones in one spot, while",
+    "answer": "The attacker can concentrate all their drones in one spot, while the defender is always spread thin.",
     "explanation": "Naval highlights the asymmetrical nature of drone combat: the attacker chooses the time and place to mass their forces, making total defense nearly impossible.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "How does Naval compare 'vibe coding' to the future of biological threats?",
     "options": [
       "Both will be strictly regulated by the government within a year.",
-      "Both involve a massive increase in the number of people who can perform highly",
+      "Both involve a massive increase in the number of people who can perform highly complex, potentially dangerous tasks.",
       "Vibe coding is for software, while biological engineering is only for hardware.",
       "He believes biology is much safer because it cannot be 'coded' like software."
     ],
-    "answer": "Both involve a massive increase in the number of people who can perform highly",
+    "answer": "Both involve a massive increase in the number of people who can perform highly complex, potentially dangerous tasks.",
     "explanation": "Naval worries that as AI lowers the barrier to entry (vibe coding), it will also lower the barrier for creating viruses or biological weapons, increasing the threat level by orders of magnitude.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Why does Naval criticize 'bioethicists' in the context of vaccine development?",
     "options": [
       "They are not smart enough to understand how AI works.",
-      "They prevent healthy young volunteers from taking",
+      "They prevent healthy young volunteers from taking risks to speed up vaccine testing.",
       "They want to make vaccines mandatory for everyone.",
       "They are secretly working for bioweapons labs."
     ],
-    "answer": "They prevent healthy young volunteers from taking",
+    "answer": "They prevent healthy young volunteers from taking risks to speed up vaccine testing.",
     "explanation": "Naval expresses frustration that bureaucracy and ethics rules prevent 'right to try' and volunteer testing, which he believes slows down vital research during crises.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "According to Naval, what is the 'real opportunity' for AI in the world of medicine and biology?",
     "options": [
       "To replace all human doctors with robot surgeons.",
-      "To solve therapies and medicine by analyzing anonymized, massive",
+      "To solve therapies and medicine by analyzing anonymized, massive datasets and allowing 'right to try.'",
       "To create a global database that tracks every person's DNA publicly.",
       "To make health insurance cheaper by using AI to deny claims."
     ],
-    "answer": "To solve therapies and medicine by analyzing anonymized, massive",
+    "answer": "To solve therapies and medicine by analyzing anonymized, massive datasets and allowing 'right to try.'",
     "explanation": "Naval sees AI's ability to analyze vast silos of medical data as a pathway to new cures, provided we can get past the regulatory hurdles that keep the data hidden.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "If drones follow the historical pattern of the rifle and the nuclear weapon, what does Naval imply about the future of militaries?",
     "options": [
       "Militaries will grow larger and more centralized to control the drones.",
-      "Militaries and states will be fundamentally 'architected' differently to",
+      "Militaries and states will be fundamentally 'architected' differently to match the new logic.",
       "Militaries will become obsolete as everyone moves to the metaverse.",
       "Militaries will return to using horses and swords to avoid drone detection."
     ],
-    "answer": "Militaries and states will be fundamentally 'architected' differently to",
+    "answer": "Militaries and states will be fundamentally 'architected' differently to match the new logic.",
     "explanation": "Naval argues that 'drones change the structure of violence in society,' which historically forces a complete restructuring of how militaries and entire states are organized.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Which physical advantage does an attacking drone have over a defending one, according to Naval?",
     "options": [
       "It has more sophisticated AI inside it.",
-      "It has the advantage of kinetic energy because it is",
+      "It has the advantage of kinetic energy because it is coming 'down' on the target.",
       "It can move faster because it is usually smaller.",
       "It doesn't require a battery to operate while in the air."
     ],
-    "answer": "It has the advantage of kinetic energy because it is",
+    "answer": "It has the advantage of kinetic energy because it is coming 'down' on the target.",
     "explanation": "Naval specifically mentions that an attacking drone has both kinetic energy (falling toward the target) and the advantage of surprise, making defense a 'difficult' uphill battle.",
     "difficulty": "medium"
   },

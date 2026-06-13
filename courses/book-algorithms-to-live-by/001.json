@@ -4,12 +4,12 @@
     "content": "The 37% Rule states that in optimal stopping problems, you should look at and reject the first 37% of options, then choose the next option that is better than all previously seen options.",
     "description": "You are apartment hunting in a competitive market with 30 days to find a place. According to the 37% Rule, what should you do?",
     "options": [
-      "Look at apartments for the first 11 days without",
+      "Look at apartments for the first 11 days without committing, then rent the first place that is better than any you've seen so far",
       "Rent the first apartment you see to avoid missing out",
       "Look at all 30 apartments before making a decision",
       "Rent the 15th apartment you see regardless of quality"
     ],
-    "answer": "Look at apartments for the first 11 days without",
+    "answer": "Look at apartments for the first 11 days without committing, then rent the first place that is better than any you've seen so far",
     "explanation": "37% of 30 days is approximately 11 days. During this look phase, you gather data about what constitutes a good apartment. After day 11, you commit to the first apartment that surpasses all previous options.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "The Look-Then-Leap Rule involves two phases: first looking (gathering data without committing) and then leaping (committing to the first option that exceeds the best seen during the look phase).",
     "description": "You are dating and want to maximize your chances of finding the best partner. You plan to date seriously for 2 years before settling down. How should you apply the Look-Then-Leap Rule?",
     "options": [
-      "Date casually for 2 years, then marry the next person who",
+      "Date casually for 2 years, then marry the next person who is better than anyone you've dated so far",
       "Marry the first person you date to avoid loneliness",
       "Date everyone you meet for exactly 2 years before choosing",
       "Marry after dating 10 people regardless of quality"
     ],
-    "answer": "Date casually for 2 years, then marry the next person who",
+    "answer": "Date casually for 2 years, then marry the next person who is better than anyone you've dated so far",
     "explanation": "With a 2-year look phase, you date without committing to establish what makes a good partner. After 2 years, you leap by committing to the first person who exceeds all previous partners in your estimation.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "The 37% Rule assumes a known number of total options N, with equal value in each observation. In real-world scenarios, N is often uncertain and each observation has a cost.",
     "description": "A product manager is A/B testing which of many possible features to ship. Each feature test costs $10,000 and takes 2 weeks. The expected value of the best feature is $500,000. She can test up to 50 features but doesn't know if there are actually 50 viable candidates. How should the cost of testing and uncertainty about N modify the classical 37% Rule?",
     "options": [
-      "The look phase should be shorter than 37% because each observation has a significant cost and the search",
+      "The look phase should be shorter than 37% because each observation has a significant cost and the search should terminate when the expected improvement from continued searching falls below the cost of the next test",
       "The 37% rule still applies exactly regardless of testing costs because the ratio 1/e is mathematically optimal",
       "The look phase should be extended beyond 37% to compensate for the uncertainty about N",
       "The manager should test all 50 features to eliminate the uncertainty about N"
     ],
-    "answer": "The look phase should be shorter than 37% because each observation has a significant cost and the search",
+    "answer": "The look phase should be shorter than 37% because each observation has a significant cost and the search should terminate when the expected improvement from continued searching falls below the cost of the next test",
     "explanation": "When observations have costs, you cannot afford to observe a fixed fraction of options for free. The optimal strategy requires a dynamic threshold: stop searching when the marginal expected benefit of one more observation is less than its cost ($10,000). This effectively creates an early-stopping condition that typically results in a shorter look phase, especially if early options are reasonably good.",
     "difficulty": "hard"
   },
@@ -46,12 +46,12 @@
     "content": "In full information optimal stopping, you know the absolute quality of options; in no information, you only know relative rankings compared to what you've seen.",
     "description": "When selling your house, you can compare offers to recent sales data (full information). What strategy should you use?",
     "options": [
-      "Set a minimum acceptable price threshold and accept",
+      "Set a minimum acceptable price threshold and accept the first offer that meets it",
       "Wait for the highest possible offer regardless of time",
       "Accept the first offer you receive",
       "Flip a coin to decide"
     ],
-    "answer": "Set a minimum acceptable price threshold and accept",
+    "answer": "Set a minimum acceptable price threshold and accept the first offer that meets it",
     "explanation": "With full information (knowing market values), you should use a threshold strategy: set your minimum acceptable price based on comparable sales and accept the first offer that meets or exceeds it.",
     "difficulty": "easy"
   },
@@ -74,12 +74,12 @@
     "content": "No-recall constraints mean that once you reject an option, you cannot return to it later, which is realistic for many real-world decisions like dating or apartment hunting.",
     "description": "You are shopping at a flea market and see a unique vintage jacket. Why might you buy it immediately despite wanting to keep looking?",
     "options": [
-      "Because if you pass on it, you cannot return to",
+      "Because if you pass on it, you cannot return to buy it later (no-recall constraint)",
       "Because it is definitely the best jacket available",
       "Because flea market items never go on sale",
       "Because you have unlimited time to decide"
     ],
-    "answer": "Because if you pass on it, you cannot return to",
+    "answer": "Because if you pass on it, you cannot return to buy it later (no-recall constraint)",
     "explanation": "In no-recall scenarios like flea markets, once an item is purchased by someone else, it is gone forever. This creates pressure to act when you see something uniquely valuable.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "A 70-year-old is choosing between trying a risky new medication with potential cure versus sticking with current treatment. How should remaining life expectancy affect this decision?",
     "options": [
       "They should be more willing to try the new treatment because they have less to lose",
-      "They should stick with current treatment because they have less time to recover",
+      "They should stick with current treatment because they have less time to recover from risks",
       "Age should not affect medical decisions",
       "They should flip a coin to decide"
     ],
-    "answer": "They should stick with current treatment because they have less time to recover",
+    "answer": "They should stick with current treatment because they have less time to recover from risks",
     "explanation": "With limited remaining life, the potential downside of a risky new treatment (time spent recovering from side effects) represents a larger proportion of remaining life, making established treatments relatively more attractive.",
     "difficulty": "easy"
   },
@@ -102,12 +102,12 @@
     "content": "The Typists Dilemma applies optimal stopping to editing: knowing when to stop improving a document and declare it finished, balancing perfectionism against completion.",
     "description": "You are writing a report and notice minor typos. According to optimal stopping principles, when should you stop editing?",
     "options": [
-      "When the time spent correcting errors",
+      "When the time spent correcting errors exceeds the expected improvement in quality",
       "When you have corrected every single typo",
       "When you have edited for exactly 2 hours",
       "Never stop editing until perfect"
     ],
-    "answer": "When the time spent correcting errors",
+    "answer": "When the time spent correcting errors exceeds the expected improvement in quality",
     "explanation": "Optimal stopping for editing means continuing to improve the document only as long as the expected benefit exceeds the cost. When additional editing yields diminishing returns, it is time to leap and declare the work finished.",
     "difficulty": "easy"
   }

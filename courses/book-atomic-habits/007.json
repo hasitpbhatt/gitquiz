@@ -4,12 +4,12 @@
     "content": "We imitate the habits of those around us because belonging to a tribe was essential for survival.",
     "description": "A new employee notices that everyone in the office takes a brisk walk after lunch. Without being asked, they start doing the same. This is driven by:",
     "options": [
-      "The Power of Social Norms",
+      "The Power of Social Norms and Imitation",
       "Implementation Intentions",
       "The Diderot Effect",
       "Temptation Bundling"
     ],
-    "answer": "The Power of Social Norms",
+    "answer": "The Power of Social Norms and Imitation",
     "explanation": "Humans are wired to mimic the behaviors of their social group. When a behavior is seen as normal in a group, it becomes more attractive to adopt it.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "The close (family and friends)",
       "The many (the tribe)",
-      "The powerful (those with",
+      "The powerful (those with status)",
       "The wise (experts and teachers)"
     ],
-    "answer": "The powerful (those with",
+    "answer": "The powerful (those with status)",
     "explanation": "We naturally imitate those who have status, prestige, or admiration. Athletes represent the powerful group, and their choices signal what behaviors are worth adopting.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A person stops drinking alcohol, but their entire friend group centers social events around bars and drinking. The person struggles to maintain sobriety. This illustrates:",
     "options": [
       "The Diderot Effect",
-      "The Conflict of",
+      "The Conflict of Tribe and Habit",
       "The Goldilocks Rule",
       "Environment Priming"
     ],
-    "answer": "The Conflict of",
+    "answer": "The Conflict of Tribe and Habit",
     "explanation": "When your desired habit conflicts with your tribes norms, maintaining it requires constant effort. Joining a group where the desired behavior is normal makes the habit much easier.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Someone wants to become a serious reader. Which action best creates an environment of belonging around reading?",
     "options": [
       "Buy a large collection of books",
-      "Join a book club that meets weekly to",
+      "Join a book club that meets weekly to discuss what members are reading",
       "Set a goal to read 50 books in a year",
       "Download a reading app on the phone"
     ],
-    "answer": "Join a book club that meets weekly to",
+    "answer": "Join a book club that meets weekly to discuss what members are reading",
     "explanation": "Joining a group where reading is the norm makes the habit attractive through social belonging. The expectation and shared identity reinforce the behavior.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A person craves checking social media. According to the book, what are they actually seeking?",
     "options": [
       "The mechanical action of scrolling",
-      "The feeling of connection, novelty, or",
+      "The feeling of connection, novelty, or validation",
       "The blue light exposure from the screen",
       "The habit of checking for its own sake"
     ],
-    "answer": "The feeling of connection, novelty, or",
+    "answer": "The feeling of connection, novelty, or validation",
     "explanation": "Cravings are about the internal transformation a habit delivers. Social media offers connection, novelty, and validation, which are the desired state changes, not the scrolling itself.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A former smoker sees someone light a cigarette and suddenly feels a strong urge to smoke, even though they have not smoked in years. This is:",
     "options": [
       "Temptation bundling",
-      "Predictive coding",
+      "Predictive coding triggering a craving from a familiar cue",
       "The Premack Principle",
       "The Diderot Effect"
     ],
-    "answer": "Predictive coding",
+    "answer": "Predictive coding triggering a craving from a familiar cue",
     "explanation": "The brain has learned that the cue seeing a cigarette predicts a reward. Even after years, the neural pathway remains, and the cue triggers the craving automatically.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A person dreads preparing healthy meals. Which reframe best applies the 2nd Law?",
     "options": [
       "I have to meal prep or I will eat junk food",
-      "I get to nourish my body with fresh",
+      "I get to nourish my body with fresh ingredients that fuel my day",
       "Meal prep is a necessary evil",
       "I will meal prep only when I feel motivated"
     ],
-    "answer": "I get to nourish my body with fresh",
+    "answer": "I get to nourish my body with fresh ingredients that fuel my day",
     "explanation": "Get to frames the activity as an opportunity and privilege. This shifts the brain perception from burden to benefit, making the behavior more attractive.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Someone dislikes cold showers but wants the health benefits. How could they associate the habit with pleasure?",
     "options": [
       "Focus on the discomfort and breathe through it",
-      "Listen to an uplifting song immediately before",
+      "Listen to an uplifting song immediately before and during the shower",
       "Take cold showers at the same time every day",
       "Write down how they felt after each shower"
     ],
-    "answer": "Listen to an uplifting song immediately before",
+    "answer": "Listen to an uplifting song immediately before and during the shower",
     "explanation": "By pairing the difficult activity with something pleasurable, the brain builds a positive association. The anticipation of the song makes the cold shower more attractive to start.",
     "difficulty": "medium"
   },

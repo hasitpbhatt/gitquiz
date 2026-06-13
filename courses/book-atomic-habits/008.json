@@ -4,12 +4,12 @@
     "content": "Motion is planning and preparing. Action is doing the behavior. Motion feels productive but produces no results.",
     "description": "A person spends weeks researching the best running shoes, training plans, and routes but never actually runs. They are stuck in:",
     "options": [
-      "Motion (planning",
+      "Motion (planning without executing)",
       "Effective preparation",
       "The Goldilocks Rule",
       "Habit tracking"
     ],
-    "answer": "Motion (planning",
+    "answer": "Motion (planning without executing)",
     "explanation": "Motion includes strategies and planning that feel like progress but do not produce the desired outcome. Action is the behavior that actually moves you toward your goal.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Someone wants to floss daily. Which change best reduces friction?",
     "options": [
       "Buy an expensive electric flosser",
-      "Keep floss picks in the shower so flossing",
+      "Keep floss picks in the shower so flossing happens automatically during the routine",
       "Set a phone reminder to floss",
       "Promise a reward after 30 days of flossing"
     ],
-    "answer": "Keep floss picks in the shower so flossing",
+    "answer": "Keep floss picks in the shower so flossing happens automatically during the routine",
     "explanation": "By placing the floss in the path of an existing routine (showering), friction drops to near zero. The behavior happens by default rather than requiring a separate decision.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Which of these is a strategic one-time action that makes eating healthy easier?",
     "options": [
       "Deciding what to eat each morning",
-      "Subscribing to a weekly meal delivery",
+      "Subscribing to a weekly meal delivery service",
       "Reading nutrition labels at the store",
       "Writing a meal plan every Sunday"
     ],
-    "answer": "Subscribing to a weekly meal delivery",
+    "answer": "Subscribing to a weekly meal delivery service",
     "explanation": "A meal subscription is a one-time decision that eliminates daily choices about what to eat. It automates the healthy eating habit through a single action.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Someone wants to invest regularly. Which approach uses automation most effectively?",
     "options": [
       "Manually transfer money to an investment account each month",
-      "Set up an automatic payroll deduction that invests a",
+      "Set up an automatic payroll deduction that invests a percentage of each paycheck",
       "Review investment options every quarter",
       "Wait until a bonus comes to invest a lump sum"
     ],
-    "answer": "Set up an automatic payroll deduction that invests a",
+    "answer": "Set up an automatic payroll deduction that invests a percentage of each paycheck",
     "explanation": "Automation removes all friction and decision-making. The investment happens before the money even reaches the bank account, making the habit inevitable.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "Someone wants to start a meditation habit but finds 20 minutes overwhelming. How should they apply the Two-Minute Rule?",
     "options": [
       "Meditate for 20 minutes but allow breaks",
-      "Start by meditating for just one breath,",
+      "Start by meditating for just one breath, or two minutes max",
       "Meditate only when they feel calm",
       "Skip meditation and try yoga instead"
     ],
-    "answer": "Start by meditating for just one breath,",
+    "answer": "Start by meditating for just one breath, or two minutes max",
     "explanation": "The Two-Minute Rule makes the habit so easy it requires almost no motivation to start. Once started, it is easier to continue beyond two minutes.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Someone watches too much TV. They unplug the TV after each use and put the remote in a closet. This makes watching TV:",
     "options": [
       "More attractive",
-      "More difficult,",
+      "More difficult, applying the inversion of the 3rd Law",
       "More satisfying",
       "More invisible"
     ],
-    "answer": "More difficult,",
+    "answer": "More difficult, applying the inversion of the 3rd Law",
     "explanation": "By adding friction to the bad habit, the inversion of the 3rd Law (Make it Difficult) makes the behavior less likely to occur. The effort required breaks the autopilot loop.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "A person wants to read more but the TV remote is on the coffee table and the books are on a high shelf. What does the path of least resistance favor?",
     "options": [
       "Reading, because books are valuable",
-      "Watching TV, because the remote is",
+      "Watching TV, because the remote is more accessible than the books",
       "Neither, because both require effort",
       "Reading, because it is more educational"
     ],
-    "answer": "Watching TV, because the remote is",
+    "answer": "Watching TV, because the remote is more accessible than the books",
     "explanation": "The path of least resistance is defined by the environment. When TV is one step away and books require effort to reach, the default behavior is TV. Redesign the environment to flip this.",
     "difficulty": "hard"
   },
@@ -130,12 +130,12 @@
     "content": "Small choices that seem insignificant at the time determine the trajectory of your day and your habits.",
     "description": "The moment a person walks through the door after work, they can either sit on the couch or change into workout clothes. This choice point is:",
     "options": [
-      "A decisive moment that",
+      "A decisive moment that shapes the rest of the evening",
       "An implementation intention",
       "A motivation ritual",
       "The Premack Principle"
     ],
-    "answer": "A decisive moment that",
+    "answer": "A decisive moment that shapes the rest of the evening",
     "explanation": "Decisive moments are small choices that set the direction for subsequent behavior. Optimizing these moments has an outsized impact on habit outcomes.",
     "difficulty": "hard"
   }

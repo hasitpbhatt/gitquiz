@@ -5,11 +5,11 @@
     "description": "Mollick suggests that the 'Great Disruption' is different from previous industrial revolutions. What is the primary reason for this?",
     "options": [
       "It only affects physical labor, not cognitive work.",
-      "It is happening at a speed that outpaces our social and legal",
+      "It is happening at a speed that outpaces our social and legal ability to adapt.",
       "The technology is becoming more expensive and less accessible.",
       "It requires a complete return to manual, paper-based systems."
     ],
-    "answer": "It is happening at a speed that outpaces our social and legal",
+    "answer": "It is happening at a speed that outpaces our social and legal ability to adapt.",
     "explanation": "Unlike previous shifts that took decades or centuries, the AI revolution is moving exponentially, creating a gap between technological capability and our societal frameworks for managing it.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "If current AI models are the 'worst' we will ever use, what does this imply for long-term career planning?",
     "options": [
       "We should stop learning new skills entirely.",
-      "We should focus on building 'AI-proof' skills that rely on deep human",
+      "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
       "We should wait for the technology to finish evolving before we start using it.",
       "We should only learn skills that are currently 'outside' the jagged frontier."
     ],
-    "answer": "We should focus on building 'AI-proof' skills that rely on deep human",
+    "answer": "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
     "explanation": "Since the machine's technical and analytical skills are improving rapidly, human value will increasingly be found in areas where AI struggles: true empathy, moral accountability, and high-level strategy.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "In the 'Asymptote' scenario, what would be the defining characteristic of the AI market?",
     "options": [
       "AI becomes so powerful it takes over the government.",
-      "AI development hits a physical or data limit and plateaus at",
+      "AI development hits a physical or data limit and plateaus at current levels.",
       "AI begins to decline and humans return to traditional tools.",
       "AI only works for large corporations and is banned for individuals."
     ],
-    "answer": "AI development hits a physical or data limit and plateaus at",
+    "answer": "AI development hits a physical or data limit and plateaus at current levels.",
     "explanation": "The 'Asymptote' scenario assumes that we have reached the limits of what data and computing power can achieve, meaning AI will remain a helpful tool but won't fundamentally transform existence further.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "The ability to perform complex math without a calculator.",
       "Ownership of the most expensive AI software.",
-      "Authentic human connection, handmade goods, and lived",
+      "Authentic human connection, handmade goods, and lived experiences.",
       "The speed at which one can type prompts."
     ],
-    "answer": "Authentic human connection, handmade goods, and lived",
+    "answer": "Authentic human connection, handmade goods, and lived experiences.",
     "explanation": "When 'intelligence' and 'content' become commodities (cheap and abundant), the things that cannot be mass-produced by AI—human presence and physical craftsmanship—become more valuable.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Why does Mollick suggest that AI is a 'mirror' for humanity?",
     "options": [
       "Because the screens are reflective.",
-      "Because AI is trained on our collective data, reflecting",
+      "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
       "Because AI only answers questions it has been asked before.",
       "Because AI tries to look like the person using it."
     ],
-    "answer": "Because AI is trained on our collective data, reflecting",
+    "answer": "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
     "explanation": "AI is built on the sum of human knowledge and internet text. Its biases are our biases; its brilliance is our brilliance. Aligning it requires us to confront our own data.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "The employee is fired immediately for being redundant.",
       "The employer takes all the profit and gives the employee more work.",
-      "A shared benefit where the employee works less and the company",
+      "A shared benefit where the employee works less and the company remains productive.",
       "The employee keeps it a secret forever (Shadow AI)."
     ],
-    "answer": "A shared benefit where the employee works less and the company",
+    "answer": "A shared benefit where the employee works less and the company remains productive.",
     "explanation": "Mollick advocates for transparency and sharing the 'productivity dividend.' The goal is a future where AI reduces human toil rather than just increasing corporate quotas.",
     "difficulty": "medium"
   },
@@ -90,10 +90,10 @@
     "options": [
       "To follow the AI because it knows how to maximize profit.",
       "To ignore the AI because it doesn't understand money.",
-      "To apply human ethical judgment and reject the move,",
+      "To apply human ethical judgment and reject the move, prioritizing the ecosystem.",
       "To ask the AI for a second opinion."
     ],
-    "answer": "To apply human ethical judgment and reject the move,",
+    "answer": "To apply human ethical judgment and reject the move, prioritizing the ecosystem.",
     "explanation": "AI optimizes for the goals it is given (like profit). The human must provide the ethical constraints that prevent the 'alien' intelligence from causing collateral damage.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "How should a student today prepare for a job market that will exist in ten years?",
     "options": [
       "Focus on memorizing a single technical skill perfectly.",
-      "Learn how to learn, how to prompt, and how to pivot",
+      "Learn how to learn, how to prompt, and how to pivot across different domains.",
       "Avoid all technology to remain 'pure.'",
       "Only study the history of AI."
     ],
-    "answer": "Learn how to learn, how to prompt, and how to pivot",
+    "answer": "Learn how to learn, how to prompt, and how to pivot across different domains.",
     "explanation": "In an exponential world, specific technical knowledge becomes obsolete quickly. The ability to 'pivot' and use AI to acquire new skills is the ultimate survival trait.",
     "difficulty": "hard"
   },
@@ -118,10 +118,10 @@
     "options": [
       "Humans have no control over the future of AI.",
       "We must wait for the government to tell us how to use AI.",
-      "Individuals have the power to shape the AI revolution",
+      "Individuals have the power to shape the AI revolution through their daily choices and ethical standards.",
       "AI has more agency than humans already."
     ],
-    "answer": "Individuals have the power to shape the AI revolution",
+    "answer": "Individuals have the power to shape the AI revolution through their daily choices and ethical standards.",
     "explanation": "Co-Intelligence is a choice. We have the agency to decide if we use AI to automate humanity out of existence or to augment human potential to new heights.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "In the best-case scenario for the future, AI's primary role is to:",
     "options": [
       "Become our masters and provide us with instructions.",
-      "Act as an invisible infrastructure that supports human",
+      "Act as an invisible infrastructure that supports human creativity and well-being.",
       "Replace all human interaction with digital simulations.",
       "Limit human population growth to save the planet."
     ],
-    "answer": "Act as an invisible infrastructure that supports human",
+    "answer": "Act as an invisible infrastructure that supports human creativity and well-being.",
     "explanation": "The 'flourishing' vision sees AI as a supportive layer that allows humans to spend more time on the things that make life worth living: relationships, art, and complex problem-solving.",
     "difficulty": "hard"
   }

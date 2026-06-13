@@ -5,11 +5,11 @@
     "description": "Your team consistently misses deadlines, but no one ever gets in trouble for it. Instead of assuming they are lazy, how would you 'diagnose' this systemic behavior?",
     "options": [
       "Assume the team needs better time-management software.",
-      "Investigate if the system prioritizes 'harmony and politeness' over",
+      "Investigate if the system prioritizes 'harmony and politeness' over 'accountability and results.'",
       "Conclude that the project is simply too difficult for the current staff.",
       "Fire the person who missed the most deadlines to set an example."
     ],
-    "answer": "Investigate if the system prioritizes 'harmony and politeness' over",
+    "answer": "Investigate if the system prioritizes 'harmony and politeness' over 'accountability and results.'",
     "explanation": "In adaptive leadership, we assume the system is working perfectly to produce that result. If deadlines are missed without consequence, the system likely values 'conflict avoidance' more than 'efficiency.'",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Whenever a new idea is proposed, your company's executive committee reflexively asks, 'Does the legal department approve?' even before discussing the idea's merit. What is this?",
     "options": [
       "A technical safety check.",
-      "A systemic 'default response' designed to",
+      "A systemic 'default response' designed to minimize risk and slow down change.",
       "An example of high-level strategic alignment.",
       "A productive zone of disequilibrium."
     ],
-    "answer": "A systemic 'default response' designed to",
+    "answer": "A systemic 'default response' designed to minimize risk and slow down change.",
     "explanation": "The 'default' is the path of least resistance. Identifying it allows you to see how the organization protects itself from the 'threat' of new, unvetted ideas.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A company claims to value 'Innovation' (espoused value) but fires anyone whose pilot project fails. Which diagnostic pattern does this represent?",
     "options": [
       "Work Avoidance.",
-      "The Gap between Espoused",
+      "The Gap between Espoused Values and Behavior.",
       "Speaking the Unspeakable.",
       "A Technical Fix."
     ],
-    "answer": "The Gap between Espoused",
+    "answer": "The Gap between Espoused Values and Behavior.",
     "explanation": "This is a classic 'Gap' pattern. The organization says it wants one thing but its reward/punishment system incentivizes the opposite behavior.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "You want to launch a digital platform, but the IT head blocks it because they are committed to 'zero downtime' on existing systems. What is the diagnosis here?",
     "options": [
       "The IT head is being difficult and stubborn.",
-      "The system has a competing commitment between",
+      "The system has a competing commitment between 'innovation' and 'total stability.'",
       "The digital platform is technically impossible to build.",
       "The company lacks the budget for new servers."
     ],
-    "answer": "The system has a competing commitment between",
+    "answer": "The system has a competing commitment between 'innovation' and 'total stability.'",
     "explanation": "This isn't just a 'bad attitude' from IT; it’s a systemic conflict between two valid but opposing goals that the organization hasn't reconciled.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "At every family gathering, everyone notices your uncle's drinking has worsened, but the topic is always avoided. This is an example of:",
     "options": [
       "Respecting personal boundaries.",
-      "An unspeakable truth that is preventing the",
+      "An unspeakable truth that is preventing the family from addressing a real crisis.",
       "A private medical issue that should stay private.",
       "A healthy holding environment."
     ],
-    "answer": "An unspeakable truth that is preventing the",
+    "answer": "An unspeakable truth that is preventing the family from addressing a real crisis.",
     "explanation": "Unspeakables are the 'taboos' of a system. Until they are named and addressed, the system will continue to work around them, wasting immense energy and allowing problems to worsen.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "You suggest a new marketing strategy, and an old-timer says, 'We tried that in '98 and it nearly bankrupted us.' Why is this historical context important for diagnosis?",
     "options": [
       "It proves that the strategy will definitely fail again.",
-      "It helps you understand the collective 'trauma' or 'ghost' that influences",
+      "It helps you understand the collective 'trauma' or 'ghost' that influences current risk-aversion.",
       "It shows that the 'old-timer' is the person who should be in charge of marketing.",
       "It provides a technical blueprint for why the budget was lost."
     ],
-    "answer": "It helps you understand the collective 'trauma' or 'ghost' that influences",
+    "answer": "It helps you understand the collective 'trauma' or 'ghost' that influences current risk-aversion.",
     "explanation": "Past failures often become 'ghosts' that haunt current decision-making. Diagnosing these allows you to address the old fear specifically rather than just pushing a new plan.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "A star employee quits. The 'proximate' cause is a better salary elsewhere. What might be a 'root' cause from an adaptive leadership perspective?",
     "options": [
       "The employee was greedy and only cared about money.",
-      "The company’s culture of micromanagement made the employee feel",
+      "The company’s culture of micromanagement made the employee feel undervalued long before the offer came.",
       "The other company has a larger office building.",
       "The employee’s commute was ten minutes longer than it used to be."
     ],
-    "answer": "The company’s culture of micromanagement made the employee feel",
+    "answer": "The company’s culture of micromanagement made the employee feel undervalued long before the offer came.",
     "explanation": "Adaptive diagnosis looks past the 'easy' answer (money) to see the systemic issues (culture/management) that made the system vulnerable to losing talent.",
     "difficulty": "easy"
   },
@@ -102,12 +102,12 @@
     "content": "Diagnosis isn't complete without mapping the 'Values, Loyalties, and Losses' of every key player. You must determine: 1. What they care about (Values); 2. Who they are answerable to (Loyalties); and 3. What they fear losing (Losses).",
     "description": "A middle manager opposes your project. You discover they are 'loyal' to an old mentor who hates your department. How does this help your diagnosis?",
     "options": [
-      "It helps you realize the opposition isn't about the project's",
+      "It helps you realize the opposition isn't about the project's 'logic,' but about a social loyalty.",
       "It allows you to report the manager for personal bias.",
       "It proves that the manager is technically unqualified for the job.",
       "It suggests you should hire the old mentor to get their approval."
     ],
-    "answer": "It helps you realize the opposition isn't about the project's",
+    "answer": "It helps you realize the opposition isn't about the project's 'logic,' but about a social loyalty.",
     "explanation": "Adaptive work is often blocked by hidden 'loyalties' to people or traditions. Recognizing this allows you to address the 'relationship' aspect rather than just arguing about facts.",
     "difficulty": "easy"
   },
@@ -118,10 +118,10 @@
     "options": [
       "Meticulous attention to neighborhood aesthetics.",
       "A 'default response' to ensure park consistency.",
-      "Work avoidance to escape the emotional pain of",
+      "Work avoidance to escape the emotional pain of closing the pool.",
       "A technical problem involving city permits."
     ],
-    "answer": "Work avoidance to escape the emotional pain of",
+    "answer": "Work avoidance to escape the emotional pain of closing the pool.",
     "explanation": "Debating small details (bench colors) is a safe way to 'do work' without actually facing the devastating reality (closing a beloved community asset). It is a classic diagnostic signal of systemic avoidance.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "You suspect the team is afraid of the CEO. In a meeting, you mention: 'It seems we're all waiting for the CEO to tell us what to do.' The room goes deathly silent. What does this tell you?",
     "options": [
       "Your diagnosis was wrong and you've offended them.",
-      "The silent reaction confirms your hypothesis that",
+      "The silent reaction confirms your hypothesis that there is a fear-based dynamic at play.",
       "The team is bored and has nothing to say.",
       "The CEO should have been invited to the meeting."
     ],
-    "answer": "The silent reaction confirms your hypothesis that",
+    "answer": "The silent reaction confirms your hypothesis that there is a fear-based dynamic at play.",
     "explanation": "A strong reaction (or an intense silence) to an intervention is 'data.' It suggests your diagnosis of the 'unspeakable' fear was accurate, as you've touched a nerve in the system.",
     "difficulty": "medium"
   }

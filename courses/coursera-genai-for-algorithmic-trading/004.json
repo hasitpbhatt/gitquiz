@@ -5,11 +5,11 @@
     "description": "Why would you choose an LSTM over a simple Linear Regression model to predict the price of Bitcoin?",
     "options": [
       "LSTMs are faster to train on small datasets.",
-      "LSTMs capture temporal dependencies, understanding how the order and",
+      "LSTMs can capture 'temporal dependencies,' meaning they understand how the order and timing of past prices affect the future.",
       "Linear Regression is better at handling 'messy' data like news sentiment.",
       "LSTMs do not require any historical data to make a prediction."
     ],
-    "answer": "LSTMs capture temporal dependencies, understanding how the order and",
+    "answer": "LSTMs can capture 'temporal dependencies,' meaning they understand how the order and timing of past prices affect the future.",
     "explanation": "Financial markets are 'path-dependent.' LSTMs are specifically built to track sequences and time-series data, whereas linear regression treats each data point as an independent event.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "You are building a hybrid model. Your LLM outputs a 'fear index' from Twitter, and your LSTM tracks 'Price Volatility.' How should these be combined for the best prediction?",
     "options": [
       "Use the fear index to manually stop the LSTM from running.",
-      "Input both the fear index and the volatility as parallel features",
+      "Input both the fear index and the volatility as parallel features (time-series) into the LSTM layers.",
       "Ask the LLM to guess what the LSTM will do next.",
       "Discard the price data and only use the Twitter sentiment for the LSTM."
     ],
-    "answer": "Input both the fear index and the volatility as parallel features",
+    "answer": "Input both the fear index and the volatility as parallel features (time-series) into the LSTM layers.",
     "explanation": "LSTMs are multimodal—they can handle multiple 'streams' of data at once. By feeding it both sentiment and price, the model can learn how sentiment shocks specifically lead to price changes.",
     "difficulty": "easy"
   },
@@ -32,12 +32,12 @@
     "content": "In traditional neural networks, information from the distant past tends to 'fade away' or become zero as the model trains (the Vanishing Gradient). LSTMs solve this with a 'Cell State' that acts like a conveyor belt, carrying important information through the entire sequence.",
     "description": "If your trading model keeps ignoring significant market crashes that happened at the start of your 10-year dataset, what is likely happening?",
     "options": [
-      "The model is experiencing a 'Vanishing Gradient' where early data loses",
+      "The model is experiencing a 'Vanishing Gradient' where early data loses its influence.",
       "The model has decided the crash is no longer relevant.",
       "The computer running the model is running out of disk space.",
       "The data from 10 years ago has been automatically deleted by the network."
     ],
-    "answer": "The model is experiencing a 'Vanishing Gradient' where early data loses",
+    "answer": "The model is experiencing a 'Vanishing Gradient' where early data loses its influence.",
     "explanation": "Standard RNNs 'forget' the beginning of long sequences. LSTMs were specifically engineered with 'gates' to prevent this loss of long-term memory.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Why would you add a CNN layer before your LSTM for a technical analysis strategy?",
     "options": [
       "To make the model run 10x faster.",
-      "To automatically extract visual features from price action before",
+      "To automatically extract visual features or 'shapes' from the price action before analyzing their sequence in time.",
       "To translate the price charts into different languages.",
       "Because CNNs are only used for identifying photos of cats and dogs."
     ],
-    "answer": "To automatically extract visual features from price action before",
+    "answer": "To automatically extract visual features or 'shapes' from the price action before analyzing their sequence in time.",
     "explanation": "CNNs are elite at 'spatial' recognition (patterns in a window), while LSTMs are elite at 'temporal' recognition (patterns over time). Combining them covers both bases.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Your LSTM model is completely ignoring your sentiment signal and only following price. What is the most likely technical error?",
     "options": [
       "The sentiment signal is useless.",
-      "You forgot to scale/normalize your features to a",
+      "You forgot to scale/normalize your features to a similar range.",
       "The model is biased against text data.",
       "The price of the stock is too high to be calculated."
     ],
-    "answer": "You forgot to scale/normalize your features to a",
+    "answer": "You forgot to scale/normalize your features to a similar range.",
     "explanation": "Neural networks are mathematical; they don't know the difference between 'dollars' and 'sentiment.' Without scaling, the larger numerical values (prices) will naturally dominate the model's weights.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You want to predict the stock market's closing price. If your 'window size' is too small (e.g., only 2 days), what is the risk?",
     "options": [
       "The model will take too long to train.",
-      "The model won't have enough context to see weekly trends, making",
+      "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
       "The model will run out of memory.",
       "The model will start predicting prices for 10 years in the future."
     ],
-    "answer": "The model won't have enough context to see weekly trends, making",
+    "answer": "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
     "explanation": "Window size defines the model's 'perspective.' Too small, and it misses the 'big picture'; too large, and it might get bogged down in irrelevant historical noise.",
     "difficulty": "medium"
   },
@@ -102,7 +102,7 @@
     "content": "In trading, 'Many-to-One' means taking many days of past data to predict a single future price. 'Many-to-Many' means taking many days of past data to predict a whole sequence of future prices (e.g., the next 5 days).",
     "description": "You want to build a bot that predicts the entire price trajectory for the upcoming week. Which LSTM configuration should you use?",
     "options": [
-      "One-to-One Mapping",
+      "One-to-One",
       "Many-to-One",
       "Many-to-Many",
       "One-to-Many"
@@ -118,10 +118,10 @@
     "options": [
       "Delete the new data until the accuracy goes back up.",
       "Increase the number of neurons to make it even more powerful.",
-      "Implement Dropout layers to force the model to learn more",
+      "Implement Dropout layers to force the model to learn more robust, general patterns.",
       "Stop trading entirely."
     ],
-    "answer": "Implement Dropout layers to force the model to learn more",
+    "answer": "Implement Dropout layers to force the model to learn more robust, general patterns.",
     "explanation": "High training accuracy paired with low test accuracy is the classic definition of overfitting. Dropout helps the model generalize so it can perform better on data it has never seen before.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Your LSTM is 70% accurate at predicting price direction, but your backtest shows you are losing money. What is a likely reason?",
     "options": [
       "The model is lying to you.",
-      "The 30% wrong trades lose more than",
+      "The 30% of wrong trades are much larger losses than the 70% of winning trades, or fees are eating the profits.",
       "Accuracy doesn't matter in trading.",
       "The model needs more layers."
     ],
-    "answer": "The 30% wrong trades lose more than",
+    "answer": "The 30% of wrong trades are much larger losses than the 70% of winning trades, or fees are eating the profits.",
     "explanation": "In trading, 'Expectancy' (how much you win vs. how much you lose) is more important than raw accuracy. A model can be right often but still lose money if the rare losses are catastrophic or if transaction costs are high.",
     "difficulty": "medium"
   }

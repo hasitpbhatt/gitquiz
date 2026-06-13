@@ -19,11 +19,11 @@
     "description": "Your company is forming a 3-person committee from a team of 10 employees. Whether you pick Alice then Bob then Carlos, or Carlos then Alice then Bob, the committee is the same. Which concept does this describe?",
     "options": [
       "A permutation, because you are arranging people in order",
-      "A combination, because the order of selection does not change",
+      "A combination, because the order of selection does not change the committee",
       "A feedback loop, because committee members influence each other",
       "An algorithm, because there is a step-by-step selection procedure"
     ],
-    "answer": "A combination, because the order of selection does not change",
+    "answer": "A combination, because the order of selection does not change the committee",
     "explanation": "When the final group is what matters, not the sequence in which members were picked, it is a combination. C(10,3) = 120 possible committees.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A software product has 10 configurable features. Adding just 3 more features increases the total possible feature combinations from 1,024 to 8,192. Why does such a small increase in variables cause such a large jump?",
     "options": [
       "The features follow a power law distribution",
-      "Each new variable can combine with every existing variable,",
+      "Each new variable can combine with every existing variable, multiplying possibilities exponentially",
       "The additional features are inherently more complex than the originals",
       "The system has reached critical mass"
     ],
-    "answer": "Each new variable can combine with every existing variable,",
+    "answer": "Each new variable can combine with every existing variable, multiplying possibilities exponentially",
     "explanation": "With n binary features, there are 2^n combinations. Adding 3 features multiplies possibilities by 2^3 = 8, demonstrating how linear growth in variables produces exponential combinatorial explosion.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Steve Jobs launched the iPhone in 2007. Cellular technology, touchscreens, and MP3 players each existed independently for years. What type of innovation does this represent?",
     "options": [
       "A breakthrough in cellular signal processing",
-      "Combinatorial innovation — recombining",
+      "Combinatorial innovation — recombining existing technologies into a novel product",
       "A permutation of existing product designs",
       "An algorithmic improvement to mobile hardware"
     ],
-    "answer": "Combinatorial innovation — recombining",
+    "answer": "Combinatorial innovation — recombining existing technologies into a novel product",
     "explanation": "The iPhone exemplifies combinatorial innovation. Jobs did not invent any single component but combined three mature technologies into an integrated experience that disrupted the entire mobile industry.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A struggling manufacturing company has a proprietary alloy formula, a warehouse of precision CNC machines, and an unused robotics patent. Rather than trying to invent something entirely new, the CEO should:",
     "options": [
       "Sell each asset separately to raise cash",
-      "Experiment with combining these existing assets into a",
+      "Experiment with combining these existing assets into a novel product line for a new market",
       "Hire more scientists to invent a breakthrough material",
       "Focus only on the most profitable existing product"
     ],
-    "answer": "Experiment with combining these existing assets into a",
+    "answer": "Experiment with combining these existing assets into a novel product line for a new market",
     "explanation": "The Recombination Rule advises mapping existing assets and testing combinations. A CNC-machined alloy component powered by robotic assembly could open a new industrial vertical without any invention.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A factory must process 8 jobs on a single machine. Processing job A before job B yields a completion time of 6 hours, but B before A yields 9 hours. What does this variation illustrate?",
     "options": [
       "The factory has a bottleneck",
-      "Order matters in permutations, and different sequences",
+      "Order matters in permutations, and different sequences produce different outcomes",
       "The jobs follow a normal distribution of processing times",
       "The system has diminishing returns on processing speed"
     ],
-    "answer": "Order matters in permutations, and different sequences",
+    "answer": "Order matters in permutations, and different sequences produce different outcomes",
     "explanation": "With 8 jobs there are 8! = 40,320 possible schedules. The factory must evaluate permutations to find the optimal sequence, since order directly impacts total completion time.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A startup needs a founding team of 3 people from a pool of 12 candidates with diverse skills. How many distinct teams are possible, and why does this matter?",
     "options": [
       "12 possibilities, because only the CEO role matters",
-      "220 possible combinations (C(12,3)), so systematic",
+      "220 possible combinations (C(12,3)), so systematic evaluation is needed to find the best skill mix",
       "1,320 permutations, because order of joining matters",
       "36 combinations, because teams have only 3 roles"
     ],
-    "answer": "220 possible combinations (C(12,3)), so systematic",
+    "answer": "220 possible combinations (C(12,3)), so systematic evaluation is needed to find the best skill mix",
     "explanation": "C(12,3) = 220. The number is manageable but large enough that a thoughtful selection process — not gut feel — improves the odds of finding the optimal skill combination.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A nuclear power plant has 5 independent safety systems. Engineers calculate that any single system failing is harmless. However, they fail to consider that certain sequences of 3 simultaneous failures could cause a meltdown. What oversight is this?",
     "options": [
       "Ignoring the Law of Diminishing Returns on safety investment",
-      "Failing to evaluate the combinatorial combinations of",
+      "Failing to evaluate the combinatorial combinations of multiple failure modes",
       "Misapplying the margin of safety principle",
       "Assuming a normal distribution for failure events"
     ],
-    "answer": "Failing to evaluate the combinatorial combinations of",
+    "answer": "Failing to evaluate the combinatorial combinations of multiple failure modes",
     "explanation": "With 5 systems, there are C(5,3) = 10 combinations of triple failures, each potentially catastrophic. Risk assessment must consider combinations, not just isolated component failures.",
     "difficulty": "hard"
   }

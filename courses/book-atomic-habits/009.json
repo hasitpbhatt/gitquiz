@@ -4,12 +4,12 @@
     "content": "What is immediately rewarded is repeated. What is immediately punished is avoided. The 4th Law is about making habits satisfying in the moment.",
     "description": "A person who wants to save money feels a small thrill each time they transfer funds to savings. This immediate positive feeling increases the likelihood of saving again. This illustrates:",
     "options": [
-      "The Cardinal Rule of Behavior",
+      "The Cardinal Rule of Behavior Change",
       "The Plateau of Latent Potential",
       "The Diderot Effect",
       "Implementation Intentions"
     ],
-    "answer": "The Cardinal Rule of Behavior",
+    "answer": "The Cardinal Rule of Behavior Change",
     "explanation": "The Cardinal Rule states that behaviors with immediate satisfaction get repeated. The thrill of saving makes the habit self-reinforcing, even though the big reward (wealth) comes much later.",
     "difficulty": "medium"
   },
@@ -18,12 +18,12 @@
     "content": "Tracking habits provides visual evidence of progress, which is inherently satisfying and motivates continuation.",
     "description": "A person puts a marble in a jar every time they complete a workout. Watching the jar fill up over the month is motivating. This technique is:",
     "options": [
-      "The Paper Clip",
+      "The Paper Clip Strategy (visual habit tracking)",
       "Temptation bundling",
       "The Premack Principle",
       "Habit stacking"
     ],
-    "answer": "The Paper Clip",
+    "answer": "The Paper Clip Strategy (visual habit tracking)",
     "explanation": "Visual tracking creates immediate satisfaction by making progress visible. Each marble is a small reward that reinforces the behavior and motivates the next repetition.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A runner skips their morning run due to rain. According to the Never Miss Twice rule, what should they do the next day?",
     "options": [
       "Skip again because they already broke the streak",
-      "Run even if it is a shortened distance, ensuring",
+      "Run even if it is a shortened distance, ensuring they do not miss twice",
       "Wait for better weather",
       "Switch to a different exercise entirely"
     ],
-    "answer": "Run even if it is a shortened distance, ensuring",
+    "answer": "Run even if it is a shortened distance, ensuring they do not miss twice",
     "explanation": "The Never Miss Twice rule prevents a single slip from becoming a new pattern. Getting back on track immediately, even with a reduced effort, preserves the habit.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A writer tracks daily word count and starts writing fluff to hit the number rather than focusing on quality. This illustrates:",
     "options": [
       "The Power of Tiny Gains",
-      "Goodhart Law applied to",
+      "Goodhart Law applied to habit tracking",
       "The Premack Principle",
       "The Two-Minute Rule"
     ],
-    "answer": "Goodhart Law applied to",
+    "answer": "Goodhart Law applied to habit tracking",
     "explanation": "Goodhart Law states that when a metric becomes the target, people optimize for the metric rather than the underlying behavior. The writer cares about words written instead of quality writing.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "The brain values immediate rewards more than delayed ones. Habits persist because they provide immediate satisfaction, even if the long-term outcome is negative.",
     "description": "Smoking provides immediate relaxation but causes long-term health damage. The habit persists because:",
     "options": [
-      "The brain prioritizes immediate rewards over",
+      "The brain prioritizes immediate rewards over delayed consequences",
       "The health damage is exaggerated",
       "Smoking has no negative effects",
       "The delayed reward of health is more powerful"
     ],
-    "answer": "The brain prioritizes immediate rewards over",
+    "answer": "The brain prioritizes immediate rewards over delayed consequences",
     "explanation": "The brain evolved to prioritize immediate rewards. Smoking feels good now; the cancer risk is decades away. To build good habits, you must add immediate satisfaction to behaviors with delayed benefits.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "A habit contract is a verbal or written agreement where you state your commitment and the penalty for violating it, witnessed by others.",
     "description": "A person signs a contract stating they will donate $100 to a cause they dislike if they skip the gym. They show the contract to a friend. This is:",
     "options": [
-      "A habit contract that",
+      "A habit contract that adds an immediate cost to failure",
       "Temptation bundling",
       "Implementation intentions",
       "The Two-Minute Rule"
     ],
-    "answer": "A habit contract that",
+    "answer": "A habit contract that adds an immediate cost to failure",
     "explanation": "A habit contract makes the cost of skipping immediate and tangible. The social cost of telling the friend and the financial penalty add immediate dissatisfaction to breaking the habit.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Two friends agree to send each other a photo of their completed workout every day. The shame of not sending it and the pride of receiving it reinforce the habit. This is:",
     "options": [
       "Habit stacking",
-      "Accountability",
+      "Accountability partnership",
       "Implementation intentions",
       "Environment design"
     ],
-    "answer": "Accountability",
+    "answer": "Accountability partnership",
     "explanation": "Accountability partners add immediate social consequences. The anticipated shame of reporting failure and the pride of reporting success make the habit more satisfying to maintain.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "Creating an immediate cost for a bad habit makes it unsatisfying, applying the inversion of the 4th Law.",
     "description": "A person wants to stop biting their nails. They paint their nails with a bitter-tasting polish. This applies:",
     "options": [
-      "The inversion of the 4th Law:",
+      "The inversion of the 4th Law: Make it Unsatisfying",
       "The 2nd Law: Make it Attractive",
       "The 1st Law: Make it Obvious",
       "The 3rd Law: Make it Easy"
     ],
-    "answer": "The inversion of the 4th Law:",
+    "answer": "The inversion of the 4th Law: Make it Unsatisfying",
     "explanation": "The bitter taste adds an immediate negative consequence to the nail-biting behavior. This makes the habit unsatisfying, reducing the likelihood of repetition.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "A language learner uses an app that shows a 50-day streak. They open the app daily just to keep the streak alive, even when tired. This is driven by:",
     "options": [
       "The Habit Scorecard",
-      "Streak satisfaction and",
+      "Streak satisfaction and the desire not to break the chain",
       "The Premack Principle",
       "Implementation Intentions"
     ],
-    "answer": "Streak satisfaction and",
+    "answer": "Streak satisfaction and the desire not to break the chain",
     "explanation": "Streaks create their own motivation. The satisfaction of seeing the number grow and the discomfort of imagining it resetting to zero drives daily repetition.",
     "difficulty": "hard"
   },
@@ -130,12 +130,12 @@
     "content": "Perfection is not required for habit success. What matters is getting back on track quickly after a slip.",
     "description": "A dieter eats a slice of cake at a party. Instead of saying I ruined my diet and binge eating, they resume healthy eating at the next meal. This approach emphasizes:",
     "options": [
-      "Recovery over",
+      "Recovery over perfection",
       "Stricter diet rules",
       "The Two-Minute Rule",
       "Habit contracts"
     ],
-    "answer": "Recovery over",
+    "answer": "Recovery over perfection",
     "explanation": "No one is perfect. What distinguishes successful habit builders is not avoiding all mistakes but recovering quickly from them. One slip does not define the habit trajectory.",
     "difficulty": "hard"
   },
@@ -144,12 +144,12 @@
     "content": "The Paper Clip Strategy uses visual objects to track repetitions. Moving an item from one container to another after each action provides satisfying visual evidence of progress.",
     "description": "An investment banker wanted to make more sales calls. Each morning he placed 120 paper clips in one jar. After each call, he moved one to a second jar. Watching the second jar fill was deeply motivating. This technique is known as:",
     "options": [
-      "The Paper Clip",
+      "The Paper Clip Strategy for visual habit tracking",
       "Temptation bundling",
       "The Premack Principle",
       "Habit stacking"
     ],
-    "answer": "The Paper Clip",
+    "answer": "The Paper Clip Strategy for visual habit tracking",
     "explanation": "The Paper Clip Strategy provides immediate visual satisfaction for each completed action. The growing pile of clips proves progress, which motivates the next repetition. Clear uses this story to illustrate the 4th Law.",
     "difficulty": "hard"
   },
@@ -158,12 +158,12 @@
     "content": "Clear recommends keeping a habit journal where you record each completed habit. The simple act of writing it down makes the satisfaction tangible and the behavior more likely to repeat.",
     "description": "A person uses a calendar to mark an X on every day they complete their workout. As the chain of Xs grows, they feel motivated not to break it. This specific tracking method is:",
     "options": [
-      "A habit journal that",
+      "A habit journal that creates streak satisfaction",
       "Temptation bundling",
       "Implementation Intentions",
       "Habit stacking"
     ],
-    "answer": "A habit journal that",
+    "answer": "A habit journal that creates streak satisfaction",
     "explanation": "The habit journal turns abstract progress into visible proof. Each X is a small reward, and the growing chain creates its own motivation through the satisfaction of not breaking the streak.",
     "difficulty": "hard"
   }

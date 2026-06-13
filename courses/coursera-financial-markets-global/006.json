@@ -20,10 +20,10 @@
     "options": [
       "To discourage people from buying homes",
       "To slow down the economy and stop inflation",
-      "To encourage borrowing and spending to stimulate",
+      "To encourage borrowing and spending to stimulate economic growth",
       "To increase the value of the dollar against the Euro"
     ],
-    "answer": "To encourage borrowing and spending to stimulate",
+    "answer": "To encourage borrowing and spending to stimulate economic growth",
     "explanation": "Lower interest rates make it cheaper for businesses to expand and for consumers to buy cars or houses. This 'cheap money' is intended to kickstart economic activity during slow periods.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "You have $100,000 in a savings account. If your bank suddenly goes bankrupt tomorrow, what happens to your money according to FDIC rules?",
     "options": [
       "You lose the money because you took a risk by choosing that bank",
-      "Your money is fully protected and will be returned to you by the",
+      "Your money is fully protected and will be returned to you by the government",
       "You only get half of your money back",
       "You must wait 20 years for the bank's assets to be sold"
     ],
-    "answer": "Your money is fully protected and will be returned to you by the",
+    "answer": "Your money is fully protected and will be returned to you by the government",
     "explanation": "The FDIC currently insures deposits up to $250,000 per depositor, per insured bank. This guarantee is backed by the full faith and credit of the United States government.",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Your wealth increases because cash is rare",
       "Your wealth stays the same because you still have the same amount of cash",
-      "The 'real' value of your money decreases because it buys 10% less every",
+      "The 'real' value of your money decreases because it buys 10% less every year",
       "The government will pay you interest to compensate for the inflation"
     ],
-    "answer": "The 'real' value of your money decreases because it buys 10% less every",
+    "answer": "The 'real' value of your money decreases because it buys 10% less every year",
     "explanation": "Inflation is a 'hidden tax' on cash. While you still have the same number of bills, those bills lose their ability to purchase the same amount of goods as they did previously.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Why would a regulator force a bank to keep a 10% capital buffer instead of letting them lend out 100% of their money?",
     "options": [
       "To make the bank less profitable on purpose",
-      "To ensure the bank can survive a sudden drop in the value",
+      "To ensure the bank can survive a sudden drop in the value of its investments without going bankrupt",
       "To make it easier for the government to track transactions",
       "To prevent the bank from hiring too many employees"
     ],
-    "answer": "To ensure the bank can survive a sudden drop in the value",
+    "answer": "To ensure the bank can survive a sudden drop in the value of its investments without going bankrupt",
     "explanation": "Capital is a safety cushion. If a bank has $10 in capital for every $100 in loans, and $5 worth of loans fail, the bank is still solvent because the loss is absorbed by its own capital 'buffer' rather than depositors' money.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Why did the government rescue large banks during the 2008 crisis instead of letting them fail like any other business?",
     "options": [
       "Because the bank owners were friends with the government",
-      "Because letting them fail would have caused a total freeze of",
+      "Because letting them fail would have caused a total freeze of global credit, stopping businesses everywhere from operating",
       "Because it is illegal for a bank to go bankrupt",
       "Because the banks promised to pay back double the money immediately"
     ],
-    "answer": "Because letting them fail would have caused a total freeze of",
+    "answer": "Because letting them fail would have caused a total freeze of global credit, stopping businesses everywhere from operating",
     "explanation": "The 'systemic' nature of these banks means they are so interconnected that their collapse would have destroyed the economy's ability to function, impacting even people who had nothing to do with those banks.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "If the Fed starts buying billions of dollars worth of Treasury bonds from banks, what is the most likely outcome for the banks' ability to lend?",
     "options": [
       "Their ability to lend decreases because they have fewer bonds",
-      "They have more cash on hand (liquidity), which encourages",
+      "They have more cash on hand (liquidity), which encourages them to issue more loans to the public",
       "They are forced to close their branches",
       "They must pay a higher tax rate to the government"
     ],
-    "answer": "They have more cash on hand (liquidity), which encourages",
+    "answer": "They have more cash on hand (liquidity), which encourages them to issue more loans to the public",
     "explanation": "QE swaps 'non-liquid' bonds for 'liquid' cash. With more cash in their vaults, banks are under pressure to lend that money out to earn a return, which stimulates the economy.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "If the unemployment rate is very low but prices are starting to rise rapidly (high inflation), what difficult choice does the Fed face?",
     "options": [
       "They must lower interest rates to help everyone",
-      "They must raise interest rates to stop inflation, even if it might cause",
+      "They must raise interest rates to stop inflation, even if it might cause some people to lose their jobs",
       "They must print more money to pay for the higher prices",
       "They must do nothing because the two goals always happen at the same time"
     ],
-    "answer": "They must raise interest rates to stop inflation, even if it might cause",
+    "answer": "They must raise interest rates to stop inflation, even if it might cause some people to lose their jobs",
     "explanation": "This is the classic Fed dilemma. Raising rates cools down inflation but can also slow down the economy enough to increase unemployment. They must find a 'neutral' balance between the two.",
     "difficulty": "medium"
   }

@@ -4,12 +4,12 @@
     "content": "The podcast describes a category of agent that runs continuously over long periods.",
     "description": "How are background agent workloads typically described?",
     "options": [
-      "They follow a 'follow the sun' pattern, running continuously",
+      "They follow a 'follow the sun' pattern, running continuously across global time zones",
       "They only run for a few milliseconds at a time",
       "They only operate during business hours in a single time zone",
       "They require human approval for every action"
     ],
-    "answer": "They follow a 'follow the sun' pattern, running continuously",
+    "answer": "They follow a 'follow the sun' pattern, running continuously across global time zones",
     "explanation": "Background agents can operate 24/7 by moving workloads across data centers as time zones shift, giving them truly continuous runtime.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "The podcast contrasts RL training with other agent workloads.",
     "description": "What shape best describes the demand pattern of reinforcement learning training jobs?",
     "options": [
-      "Spiky squares — high utilization during training, then",
+      "Spiky squares — high utilization during training, then dropping to zero between experiments",
       "A smooth sine wave with gradual increases and decreases",
       "A flat line with constant utilization around 50%",
       "Random bursts with no predictable pattern"
     ],
-    "answer": "Spiky squares — high utilization during training, then",
+    "answer": "Spiky squares — high utilization during training, then dropping to zero between experiments",
     "explanation": "RL training consumes maximum resources during training runs, then drops to zero between experiments, creating a spiky square wave pattern.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "The podcast shares the evolving split between different workload types on the platform.",
     "description": "How has the split between RL training and agent workloads shifted over the course of a year?",
     "options": [
-      "RL went from 0% to 50% of the business while agents grew as",
+      "RL went from 0% to 50% of the business while agents grew as well",
       "RL decreased from 80% to 20% as agent workloads took over",
       "RL remained constant at 10% while agents dominated the rest",
       "RL and agent workloads each stayed at exactly 50%"
     ],
-    "answer": "RL went from 0% to 50% of the business while agents grew as",
+    "answer": "RL went from 0% to 50% of the business while agents grew as well",
     "explanation": "In the early days Daytona was all agents; RL has grown from 0% to 50% without cannibalizing agent workloads, indicating rapid overall growth.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "The episode explains why traditional container orchestration is not well-suited for this use case.",
     "description": "What makes Kubernetes a poor fit for agent sandbox workloads?",
     "options": [
-      "Kubernetes struggles with the combination of high",
+      "Kubernetes struggles with the combination of high churn, low mean utilization, and spiky demand",
       "Kubernetes cannot run containers on bare metal servers",
       "Kubernetes requires all workloads to be stateless",
       "Kubernetes does not support Linux containers"
     ],
-    "answer": "Kubernetes struggles with the combination of high",
+    "answer": "Kubernetes struggles with the combination of high churn, low mean utilization, and spiky demand",
     "explanation": "Agent workloads create high churn (constant sandbox creation/destruction), low mean utilization (15%), and unpredictable spikes, which Kubernetes was not designed to optimize for.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "The platform uses a specific mechanism to handle agents that suddenly need more memory.",
     "description": "What mechanism does Daytona use to prevent OOM errors during memory spikes?",
     "options": [
-      "It dynamically resizes sandbox memory allocation without restarting the",
+      "It dynamically resizes sandbox memory allocation without restarting the sandbox",
       "It kills the agent process immediately when memory usage increases",
       "It limits all sandboxes to a fixed memory allocation that cannot be changed",
       "It migrates the sandbox to a different server when memory runs low"
     ],
-    "answer": "It dynamically resizes sandbox memory allocation without restarting the",
+    "answer": "It dynamically resizes sandbox memory allocation without restarting the sandbox",
     "explanation": "Daytona can dynamically adjust memory allocation for running sandboxes, preventing OOM errors without disrupting the agent's work.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "The conversation covers hardware limitations for certain operating system environments.",
     "description": "Why are macOS sandboxes difficult to scale in agent infrastructure?",
     "options": [
-      "Apple restricts macOS to run only on Apple Silicon hardware and",
+      "Apple restricts macOS to run only on Apple Silicon hardware and prohibits virtualization for non-Apple hardware",
       "macOS is open source and difficult to configure for server environments",
       "macOS does not support any programming languages used by AI agents",
       "macOS requires a physical monitor to be connected at all times"
     ],
-    "answer": "Apple restricts macOS to run only on Apple Silicon hardware and",
+    "answer": "Apple restricts macOS to run only on Apple Silicon hardware and prohibits virtualization for non-Apple hardware",
     "explanation": "macOS can only legally run on Apple hardware, and Apple's licensing prohibits running macOS on non-Apple hardware, limiting scalability.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "The podcast describes a strategy for handling variable demand across sandbox environments.",
     "description": "How does Daytona handle overflow demand when local bare metal capacity is exhausted?",
     "options": [
-      "By bursting to cloud providers as a just-in-time compute",
+      "By bursting to cloud providers as a just-in-time compute overflow layer",
       "By queueing all requests until local capacity becomes available",
       "By rejecting overflow requests with a 503 error",
       "By automatically reducing sandbox quality for overflow users"
     ],
-    "answer": "By bursting to cloud providers as a just-in-time compute",
+    "answer": "By bursting to cloud providers as a just-in-time compute overflow layer",
     "explanation": "Daytona uses cloud providers as a just-in-time overflow layer, handling peak demand without maintaining idle capacity.",
     "difficulty": "medium"
   },

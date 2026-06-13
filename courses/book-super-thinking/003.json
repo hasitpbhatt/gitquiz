@@ -6,10 +6,10 @@
     "options": [
       "Invest anyway since diversification is important",
       "Spend months studying biotech before deciding",
-      "Avoid the investment or seek expert advice",
+      "Avoid the investment or seek expert advice within your competence",
       "Invest a small amount to limit potential losses"
     ],
-    "answer": "Avoid the investment or seek expert advice",
+    "answer": "Avoid the investment or seek expert advice within your competence",
     "explanation": "Staying within your circle of competence means avoiding areas where you lack expertise, or consulting those who have the necessary knowledge before making decisions.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "You have inconsistent preferences",
       "The mouse is actually overpriced",
-      "Your perception of price is relative to",
+      "Your perception of price is relative to recent expenditures",
       "You suffer from memory loss about prices"
     ],
-    "answer": "Your perception of price is relative to",
+    "answer": "Your perception of price is relative to recent expenditures",
     "explanation": "This demonstrates the relativity mental model - our perception of value shifts based on our reference point (what we just paid).",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Teaching nutrition in schools",
       "Building more playgrounds",
-      "Regulating food advertising to",
+      "Regulating food advertising to children",
       "Distributing free fitness trackers"
     ],
-    "answer": "Regulating food advertising to",
+    "answer": "Regulating food advertising to children",
     "explanation": "Changing advertising regulations affects millions of children's food preferences simultaneously - a high-leverage point that shapes behavior at the source.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "A social media platform needs critical mass to be valuable. This means:",
     "options": [
       "It needs perfect features before launching",
-      "It needs enough users that joining becomes",
+      "It needs enough users that joining becomes beneficial for new users",
       "It needs venture capital funding",
       "It needs celebrity endorsements"
     ],
-    "answer": "It needs enough users that joining becomes",
+    "answer": "It needs enough users that joining becomes beneficial for new users",
     "explanation": "Critical mass in networks means sufficient users exist that the platform provides value (connections, content) making it worthwhile for others to join.",
     "difficulty": "easy"
   },
@@ -104,10 +104,10 @@
     "options": [
       "The profit from Product A",
       "The revenue from Product A",
-      "The profit they could have made from",
+      "The profit they could have made from Product B",
       "The cost of raw materials for Product A"
     ],
-    "answer": "The profit they could have made from",
+    "answer": "The profit they could have made from Product B",
     "explanation": "Opportunity cost is the foregone benefit of the next best alternative - here, the profit from Product B that was not pursued.",
     "difficulty": "easy"
   },
@@ -132,10 +132,10 @@
     "options": [
       "Activities that bring you joy",
       "People who make you feel good",
-      "Things that currently make",
+      "Things that currently make you miserable or anxious",
       "Your long-term life goals"
     ],
-    "answer": "Things that currently make",
+    "answer": "Things that currently make you miserable or anxious",
     "explanation": "Inversion for happiness means eliminating sources of misery (stressful relationships, unhealthy habits, unsatisfying work) which often yields faster gains than pursuing positive experiences.",
     "difficulty": "medium"
   }

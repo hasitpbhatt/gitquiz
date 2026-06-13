@@ -5,11 +5,11 @@
     "description": "You have spent weeks observing your team from the 'balcony.' You decide to start the next meeting by asking, 'Why are we avoiding the fact that our project is three months behind?' What is the primary purpose of this statement?",
     "options": [
       "To punish the team for their lack of productivity.",
-      "To perform an intervention that disrupts the work avoidance and",
+      "To perform an intervention that disrupts the work avoidance and tests the team's reaction.",
       "To establish your authority as a strict and decisive manager.",
       "To gather technical data on the specific reasons for the delay."
     ],
-    "answer": "To perform an intervention that disrupts the work avoidance and",
+    "answer": "To perform an intervention that disrupts the work avoidance and tests the team's reaction.",
     "explanation": "An intervention isn't just about 'saying something.' It’s a strategic move to disrupt the status quo and see how the system responds to a difficult truth.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "It allows you to exert formal authority in a social setting.",
       "It is a way to socialize and avoid the stress of the office.",
-      "It brings the intervention to a more personal, 'holding' level where you",
+      "It brings the intervention to a more personal, 'holding' level where you can test the relationship dynamic.",
       "It proves that you are a neutral party who doesn't care about the outcome."
     ],
-    "answer": "It brings the intervention to a more personal, 'holding' level where you",
+    "answer": "It brings the intervention to a more personal, 'holding' level where you can test the relationship dynamic.",
     "explanation": "Intervening on the 'dance floor' means engaging directly with the stakeholders. A private lunch creates a smaller, more controlled holding environment for a difficult conversation.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "You feel a surge of anger because a colleague ignored your email. Before confronting them, you stop and ask, 'Is my intervention about the project's success, or my own ego?' This step is called:",
     "options": [
       "Technical analysis.",
-      "Integrating",
+      "Integrating observations and self-diagnosis.",
       "Work avoidance.",
       "Regulating the heat."
     ],
-    "answer": "Integrating",
+    "answer": "Integrating observations and self-diagnosis.",
     "explanation": "By checking your own 'tuning' (the anger) against the 'balcony view' (the project needs), you ensure your intervention is clean, purposeful, and leadership-oriented.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "You try a new 'open-door policy' to encourage feedback, but no one comes to talk to you. Using an experimental mindset, what is your next move?",
     "options": [
       "Conclude that the team has nothing to say and close the door.",
-      "Treat the lack of response as data and try a different method, like 'walking",
+      "Treat the lack of response as data and try a different method, like 'walking the floor' instead.",
       "Mandate that every employee must have a 10-minute meeting with you once a week.",
       "Assume the team is lazy and doesn't care about the company's growth."
     ],
-    "answer": "Treat the lack of response as data and try a different method, like 'walking",
+    "answer": "Treat the lack of response as data and try a different method, like 'walking the floor' instead.",
     "explanation": "In an experiment, a 'null' result is still a result. It tells you that the 'open-door' method didn't lower the barrier to communication, prompting a new hypothesis.",
     "difficulty": "easy"
   },
@@ -60,12 +60,12 @@
     "content": "Interventions are used to regulate the 'Productive Zone of Disequilibrium.' If the system is too comfortable (cold), your intervention should increase the heat. If the system is panicking (too hot), your intervention should lower the heat and provide more support.",
     "description": "During a family medical emergency, your relatives are frozen with fear and can't make decisions. What kind of intervention is needed here?",
     "options": [
-      "An intervention that provides clear direction and calm reassurance to lower",
+      "An intervention that provides clear direction and calm reassurance to lower the heat.",
       "An intervention that scolds them for panicking to motivate action.",
       "An intervention that lists all the things that could go wrong to prepare them.",
       "A silent intervention to see if they can figure it out on their own."
     ],
-    "answer": "An intervention that provides clear direction and calm reassurance to lower",
+    "answer": "An intervention that provides clear direction and calm reassurance to lower the heat.",
     "explanation": "When the system is 'boiling' with panic, the leader must intervene to lower the disequilibrium so people can return to a productive state.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "In a meeting, a junior staff member points out a major ethical flaw in a new product, and a senior VP tells them to 'be a team player.' You intervene by saying, 'Wait, I want to hear more about that ethical concern.' What are you doing?",
     "options": [
       "Undermining the senior VP's authority.",
-      "Protecting a voice from the margin to ensure the system",
+      "Protecting a voice from the margin to ensure the system hears a difficult truth.",
       "Creating unnecessary conflict in a smooth-running meeting.",
       "Practicing technical risk management."
     ],
-    "answer": "Protecting a voice from the margin to ensure the system",
+    "answer": "Protecting a voice from the margin to ensure the system hears a difficult truth.",
     "explanation": "Adaptive leaders protect those who speak 'the unspeakable.' This intervention ensures that the 'heat' is directed toward the real problem rather than being used to silence dissent.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Your community center needs to eliminate its after-school program due to budget cuts. How do you frame this to the families and volunteers?",
     "options": [
       "Focus only on the budget numbers to keep it professional and unemotional.",
-      "Explain that this difficult cut is necessary to protect the center's core",
+      "Explain that this difficult cut is necessary to protect the center's core mission of serving the most vulnerable families.",
       "Tell the families that the program was poorly attended anyway.",
       "Avoid announcing it and hope people don't notice."
     ],
-    "answer": "Explain that this difficult cut is necessary to protect the center's core",
+    "answer": "Explain that this difficult cut is necessary to protect the center's core mission of serving the most vulnerable families.",
     "explanation": "Effective framing acknowledges the loss while highlighting the 'purpose' behind it. It helps people move through the grief of change by showing them what is being protected.",
     "difficulty": "medium"
   },

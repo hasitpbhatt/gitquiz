@@ -5,11 +5,11 @@
     "description": "If two people take the exact same investment risk and one becomes a billionaire while the other goes bankrupt, how does Chapter 2 suggest we view their results?",
     "options": [
       "The billionaire is a genius and the other is a failure.",
-      "Both outcomes were likely influenced by forces outside their",
+      "Both outcomes were likely influenced by forces outside their total control.",
       "The one who went bankrupt was simply lazy.",
       "The billionaire clearly worked harder than the one who failed."
     ],
-    "answer": "Both outcomes were likely influenced by forces outside their",
+    "answer": "Both outcomes were likely influenced by forces outside their total control.",
     "explanation": "Housel argues that luck and risk are so similar that you cannot respect one (luck in success) without also respecting the other (risk in failure).",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "How should understanding Bill Gates's story change how we view our own financial path?",
     "options": [
       "We should stop trying because we aren't as lucky as Gates.",
-      "We should realize that success is a mix of effort and",
+      "We should realize that success is a mix of effort and being in the right place at the right time.",
       "We should move to Seattle to replicate his success.",
       "We should ignore his story because luck is a myth."
     ],
-    "answer": "We should realize that success is a mix of effort and",
+    "answer": "We should realize that success is a mix of effort and being in the right place at the right time.",
     "explanation": "Acknowledging luck doesn't diminish Gates's work; it simply acknowledges that thousands of others were just as capable but lacked that specific competitive 'luck' advantage.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "When studying how to build wealth, what is a better strategy than studying the world's richest individual?",
     "options": [
       "Studying the person who lost the most money.",
-      "Looking for broad patterns of behavior that apply to many",
+      "Looking for broad patterns of behavior that apply to many successful people.",
       "Copying the exact daily routine of a single billionaire.",
       "Focusing only on your own intuition and ignoring everyone else."
     ],
-    "answer": "Looking for broad patterns of behavior that apply to many",
+    "answer": "Looking for broad patterns of behavior that apply to many successful people.",
     "explanation": "The more extreme the outcome, the more likely it was influenced by luck. Studying broad patterns (like frugality or patience) is more actionable.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "You start a business with a 90% chance of success, but it ends up being part of the 10% that fails. How should you judge this outcome?",
     "options": [
       "Acknowledge that you made a bad decision and never try again.",
-      "Understand that you took a calculated risk and 'risk' simply",
+      "Understand that you took a calculated risk and 'risk' simply happened to manifest.",
       "Blame yourself for not seeing the future clearly.",
       "Assume that the 90% statistic was a lie."
     ],
-    "answer": "Understand that you took a calculated risk and 'risk' simply",
+    "answer": "Understand that you took a calculated risk and 'risk' simply happened to manifest.",
     "explanation": "If you judge yourself only by results rather than the quality of your decision, you will be too afraid to take reasonable risks in the future.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Why does Housel suggest we should be careful when 'pointing fingers' at people who failed financially?",
     "options": [
       "Because they might be dangerous.",
-      "Because we might be in their shoes one",
+      "Because we might be in their shoes one day due to risks we can't see yet.",
       "Because failure is contagious.",
       "Because they likely didn't try at all."
     ],
-    "answer": "Because we might be in their shoes one",
+    "answer": "Because we might be in their shoes one day due to risks we can't see yet.",
     "explanation": "Forgiving yourself and others for failures that involve risk is essential to maintaining the emotional stamina needed for long-term investing.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "In a world where everyone has access to the same financial data and high-speed internet, why does luck play a bigger role in picking stocks today?",
     "options": [
       "Because nobody actually knows what they are doing anymore.",
-      "Because when everyone is an expert, tiny 'lucky' breaks",
+      "Because when everyone is an expert, tiny 'lucky' breaks are the only things left to separate winners.",
       "Because the stock market has become a literal casino.",
       "Because skill no longer exists in modern finance."
     ],
-    "answer": "Because when everyone is an expert, tiny 'lucky' breaks",
+    "answer": "Because when everyone is an expert, tiny 'lucky' breaks are the only things left to separate winners.",
     "explanation": "When everyone is good, the 'margin of skill' disappears, leaving luck as the primary tie-breaker for extreme outcomes.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You run a popular business podcast. One episode features an entrepreneur who dropped out of college, gambled his tuition money on a single product, and is now a multimillionaire. Listeners flood your inbox asking for advice on whether they should quit school to follow the same path. How should you evaluate the hidden flaw in the story you told, and what would a 'survivorship-bias-corrected' response look like?",
     "options": [
       "Apologize for featuring him, as his story is a dangerous outlier that misrepresents the base rate of success.",
-      "Frame his story as one data point, then explicitly note the thousands who tried the same bet and failed—and",
+      "Frame his story as one data point, then explicitly note the thousands who tried the same bet and failed—and emphasize that you cannot interview them because they are broke.",
       "Double down by producing a follow-up episode with five more 'dropout millionaires' to prove the pattern is real.",
       "Tell listeners the real lesson is that they should launch products while still in school so they have a safety net."
     ],
-    "answer": "Frame his story as one data point, then explicitly note the thousands who tried the same bet and failed—and",
+    "answer": "Frame his story as one data point, then explicitly note the thousands who tried the same bet and failed—and emphasize that you cannot interview them because they are broke.",
     "explanation": "Housel's key point: survivor bias makes us overestimate the probability of extreme success. The silent graveyard of failures is invisible. A responsible storyteller must acknowledge the denominator problem—for every one visible winner, hundreds of identical strategies ended in ruin.",
     "difficulty": "hard"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Stop investing entirely to avoid all risk.",
       "Bet everything on one 'sure thing' to minimize the time you are exposed to risk.",
-      "Ensure you have enough cash or 'margin of safety' to survive a streak of bad",
+      "Ensure you have enough cash or 'margin of safety' to survive a streak of bad luck.",
       "Wait until you feel 100% certain before making a move."
     ],
-    "answer": "Ensure you have enough cash or 'margin of safety' to survive a streak of bad",
+    "answer": "Ensure you have enough cash or 'margin of safety' to survive a streak of bad luck.",
     "explanation": "You can't stop risk, but you can build a life that doesn't break when a risk turns into a reality.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "An investor makes a 100% return on a speculative crypto coin. What is the most dangerous lesson they could learn from this?",
     "options": [
       "That they should diversify their next investment.",
-      "That they are a brilliant investor who can predict",
+      "That they are a brilliant investor who can predict the future.",
       "That they got lucky and should be cautious next time.",
       "That they should pay their taxes on the gains."
     ],
-    "answer": "That they are a brilliant investor who can predict",
+    "answer": "That they are a brilliant investor who can predict the future.",
     "explanation": "If they believe it was all skill, they will take even bigger risks next time, often leading to a total loss when their luck runs out.",
     "difficulty": "easy"
   },
@@ -132,10 +132,10 @@
     "options": [
       "Try to find a way to eliminate all risk from your life.",
       "Ignore them and work harder than everyone else.",
-      "Be humble when things go well and forgive yourself when they",
+      "Be humble when things go well and forgive yourself when they don't.",
       "Only invest in things that have no history of luck involved."
     ],
-    "answer": "Be humble when things go well and forgive yourself when they",
+    "answer": "Be humble when things go well and forgive yourself when they don't.",
     "explanation": "Understanding that you aren't fully responsible for your wins or your losses leads to better long-term emotional stability and decision-making.",
     "difficulty": "easy"
   }

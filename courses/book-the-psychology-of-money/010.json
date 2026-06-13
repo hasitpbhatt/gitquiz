@@ -19,11 +19,11 @@
     "description": "Why does Housel argue that 'spending money to show people how much money you have is the fastest way to have less money'?",
     "options": [
       "Because people will try to borrow money from you.",
-      "Because it shows your ego is larger than your desire for",
+      "Because it shows your ego is larger than your desire for future freedom.",
       "Because luxury goods are poorly made.",
       "Because the government monitors high spenders for audits."
     ],
-    "answer": "Because it shows your ego is larger than your desire for",
+    "answer": "Because it shows your ego is larger than your desire for future freedom.",
     "explanation": "Wealth is the money you don't spend. When you spend to impress, you are effectively trading your future autonomy for a temporary social signal.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "What is the primary benefit of 'saving for a rainy day' even if the weather looks clear right now?",
     "options": [
       "You will earn more interest than someone with a specific goal.",
-      "It gives you the flexibility to pivot when the world changes",
+      "It gives you the flexibility to pivot when the world changes unexpectedly.",
       "It makes you more likely to win the lottery.",
       "There is no benefit; you should only save for specific purchases."
     ],
-    "answer": "It gives you the flexibility to pivot when the world changes",
+    "answer": "It gives you the flexibility to pivot when the world changes unexpectedly.",
     "explanation": "Saving without a goal provides a 'margin of safety' for life's surprises, allowing you to wait for better opportunities or handle sudden crises.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "How should we measure the 'return' on a liquid emergency fund?",
     "options": [
       "By comparing its interest rate to the S&P 500.",
-      "By the amount of stress it prevents and the options it",
+      "By the amount of stress it prevents and the options it provides during a crisis.",
       "By how many luxury items it could buy in an emergency.",
       "By its ability to beat inflation every single month."
     ],
-    "answer": "By the amount of stress it prevents and the options it",
+    "answer": "By the amount of stress it prevents and the options it provides during a crisis.",
     "explanation": "The value of cash isn't just the interest; it's the 'optionality dividend'—the freedom to make choices on your own terms.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "If your goal is to double your wealth, which is mathematically more certain to work?",
     "options": [
       "Taking high risks in the stock market to double your returns.",
-      "Lowering your lifestyle expectations and doubling your savings",
+      "Lowering your lifestyle expectations and doubling your savings rate.",
       "Waiting for a promotion that may or may not happen.",
       "Moving to a city with a higher cost of living to find a better job."
     ],
-    "answer": "Lowering your lifestyle expectations and doubling your savings",
+    "answer": "Lowering your lifestyle expectations and doubling your savings rate.",
     "explanation": "Lowering your lifestyle is within your control and has a 100% success rate, whereas increasing investment returns involves risk and uncertainty.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "How does having a high savings rate make you a more 'competitive' person in the job market?",
     "options": [
       "It makes you look more professional in interviews.",
-      "It allows you to wait for a great job instead of being",
+      "It allows you to wait for a great job instead of being forced to take the first one that pays the bills.",
       "It allows you to work for free to get your foot in the door.",
       "It shows that you are good at accounting."
     ],
-    "answer": "It allows you to wait for a great job instead of being",
+    "answer": "It allows you to wait for a great job instead of being forced to take the first one that pays the bills.",
     "explanation": "Intelligence and hard work are common; the ability to be patient because you have savings is a rare and powerful edge.",
     "difficulty": "medium"
   },
@@ -90,10 +90,10 @@
     "options": [
       "A future of mechanical problems.",
       "A higher social status among environmentalists.",
-      "Time and options that the car payment would have stolen from",
+      "Time and options that the car payment would have stolen from them.",
       "Nothing, because they are still spending money on maintenance."
     ],
-    "answer": "Time and options that the car payment would have stolen from",
+    "answer": "Time and options that the car payment would have stolen from them.",
     "explanation": "By avoiding the debt of a new car, they keep their income 'free' to be used for things that build wealth and autonomy.",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Having $1 million in the bank.",
       "Earning more than your neighbors.",
-      "Having enough savings that your income no longer",
+      "Having enough savings that your income no longer dictates your life choices.",
       "Being completely debt-free with no credit cards."
     ],
-    "answer": "Having enough savings that your income no longer",
+    "answer": "Having enough savings that your income no longer dictates your life choices.",
     "explanation": "Independence is reached when your savings (and the options they provide) give you more control than your employer or your bills.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Why does Housel suggest that saving is more of a 'psychological' act than a 'financial' one?",
     "options": [
       "Because you have to be crazy to save money in a consumer world.",
-      "Because it requires the mental strength to prioritize your",
+      "Because it requires the mental strength to prioritize your future self over your current ego.",
       "Because savings accounts are designed by psychologists.",
       "Because the math of saving is too complex for most people."
     ],
-    "answer": "Because it requires the mental strength to prioritize your",
+    "answer": "Because it requires the mental strength to prioritize your future self over your current ego.",
     "explanation": "Saving is an act of discipline and self-awareness. It requires ignoring social pressure to spend in order to secure mental peace.",
     "difficulty": "medium"
   },
@@ -132,10 +132,10 @@
     "options": [
       "Only save if you have a specific goal like retirement.",
       "Save as much as possible until you are the richest person you know.",
-      "Save simply because you can, to gain a sense of control and",
+      "Save simply because you can, to gain a sense of control and preparedness.",
       "Don't save; it's better to invest everything in the stock market."
     ],
-    "answer": "Save simply because you can, to gain a sense of control and",
+    "answer": "Save simply because you can, to gain a sense of control and preparedness.",
     "explanation": "The value of 'just having money' is that it allows you to remain calm and opportunistic when everyone else is reacting to chaos.",
     "difficulty": "medium"
   }

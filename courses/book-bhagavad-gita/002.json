@@ -4,12 +4,12 @@
     "content": "Karma Yoga is the path of selfless action performed as service, without attachment to personal rewards or recognition.",
     "description": "A chef volunteers at a community kitchen every weekend, preparing meals for homeless people. She never posts about it on social media and refuses any awards or recognition for her service. Which path does she exemplify?",
     "options": [
-      "Karma Yoga - selfless action without",
+      "Karma Yoga - selfless action without attachment to rewards",
       "Bhakti Yoga - devotion to God through worship",
       "Jnana Yoga - pursuit of knowledge and wisdom",
       "Raja Yoga - meditation and mind control"
     ],
-    "answer": "Karma Yoga - selfless action without",
+    "answer": "Karma Yoga - selfless action without attachment to rewards",
     "explanation": "The chef's anonymous, consistent service without seeking recognition perfectly illustrates Karma Yoga - performing action as duty and service, not for personal gain or public acknowledgment.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A musician creates devotional songs not for commercial success but as an expression of love and gratitude toward the divine. During performances, she feels a deep connection with something greater than herself. Which path is she practicing?",
     "options": [
       "Karma Yoga - action without attachment",
-      "Bhakti Yoga - devotion and love toward the",
+      "Bhakti Yoga - devotion and love toward the divine",
       "Jnana Yoga - intellectual understanding of truth",
       "Raja Yoga - meditative absorption"
     ],
-    "answer": "Bhakti Yoga - devotion and love toward the",
+    "answer": "Bhakti Yoga - devotion and love toward the divine",
     "explanation": "Creating art as an expression of love for the divine, without concern for commercial gain, exemplifies Bhakti Yoga. The feeling of connection with something greater than oneself is the fruit of devotional practice.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Karma Yoga - finding new work to do",
       "Bhakti Yoga - praying for a new job",
-      "Jnana Yoga - discriminating the Self from",
+      "Jnana Yoga - discriminating the Self from roles",
       "Raja Yoga - meditating to forget the pain"
     ],
-    "answer": "Jnana Yoga - discriminating the Self from",
+    "answer": "Jnana Yoga - discriminating the Self from roles",
     "explanation": "The crisis led this person to question their identification with a temporary role and seek their true identity. This self-inquiry - discriminating between the temporary (job title) and eternal (the Self) - is the essence of Jnana Yoga.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A high-frequency trader, whose job requires intense concentration, begins a daily meditation practice to manage stress and improve focus. Over months, they notice greater calm and fewer reactive decisions. What are they developing?",
     "options": [
       "Better trading algorithms",
-      "Raja Yoga - mastery over the mind through",
+      "Raja Yoga - mastery over the mind through meditation",
       "A convenient excuse to take breaks at work",
       "Karma Yoga - performing work without attachment"
     ],
-    "answer": "Raja Yoga - mastery over the mind through",
+    "answer": "Raja Yoga - mastery over the mind through meditation",
     "explanation": "Raja Yoga involves systematic practice to calm and master the mind. The trader's improved focus and reduced reactivity are direct benefits of meditation practice, demonstrating greater mental self-mastery.",
     "difficulty": "easy"
   },
@@ -60,12 +60,12 @@
     "content": "Buddhi Yoga is acting with clear discernment and intelligence, making decisions guided by wisdom rather than impulse or emotion.",
     "description": "During a market panic, a young investor's friends are selling all their stocks in fear. Instead of following the herd, she researches calmly and decides to hold her quality investments, recognizing the panic as temporary. What is she practicing?",
     "options": [
-      "Buddhi Yoga - acting with discernment rather than",
+      "Buddhi Yoga - acting with discernment rather than emotion",
       "Blind luck that could backfire",
       "Bhakt i Yoga - faith that the market will recover",
       "Karma Yoga - accepting whatever happens"
     ],
-    "answer": "Buddhi Yoga - acting with discernment rather than",
+    "answer": "Buddhi Yoga - acting with discernment rather than emotion",
     "explanation": "Buddhi Yoga is using intelligence and discernment to guide action, rather than being driven by emotional reactions. The investor's calm research and principled decision amid panic demonstrates Buddhi Yoga in action.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Two friends are introduced to meditation. Friend A says: 'I will only meditate after science conclusively proves all its benefits and I fully understand the mechanism.' Friend B says: 'Meditation has been practiced for thousands of years and many credible people report benefits. I will commit to 30 days of practice and evaluate my own experience.' According to the Gita, which approach reflects shraddha, and why?",
     "options": [
       "Friend A, because true faith requires absolute intellectual certainty before action",
-      "Friend B, because shraddha is a reasonable trust that allows experiential",
+      "Friend B, because shraddha is a reasonable trust that allows experiential verification — it is not blind belief but a willingness to test through practice",
       "Both equally, since faith is irrelevant to spiritual practice",
       "Neither, because meditation must be practiced without any expectations or beliefs"
     ],
-    "answer": "Friend B, because shraddha is a reasonable trust that allows experiential",
+    "answer": "Friend B, because shraddha is a reasonable trust that allows experiential verification — it is not blind belief but a willingness to test through practice",
     "explanation": "Shraddha in the Gita is not blind faith (unfounded belief despite evidence) nor is it demand for absolute proof before any action. It is a middle path — reasonable trust based on credible testimony and tradition, sufficient to begin practice. Friend B's approach mirrors this: she trusts enough to try, then verifies through direct experience. This is the epistemological foundation of all spiritual practice in the Gita tradition, distinguishing it from both naive credulity and sterile skepticism.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A seasoned airline pilot encounters a mid-flight emergency with multiple system failures. Passengers panic, but the pilot remains completely calm, runs through checklists methodically, and lands the plane safely. Afterward, she feels neither elated nor shaken. What quality does she demonstrate?",
     "options": [
       "Years of training that eventually becomes automatic",
-      "The sthita-prajna state - unshaken wisdom that",
+      "The sthita-prajna state - unshaken wisdom that remains steady in crisis",
       "Emotional suppression that could backfire later",
       "Lack of normal human emotional response"
     ],
-    "answer": "The sthita-prajna state - unshaken wisdom that",
+    "answer": "The sthita-prajna state - unshaken wisdom that remains steady in crisis",
     "explanation": "The Gita describes the sthita-prajna as one who is not disturbed by adversity, who has abandoned all desires, and is free from attachment, fear, and anger. The pilot's steady competence and emotional balance amid crisis mirrors this ideal.",
     "difficulty": "medium"
   }

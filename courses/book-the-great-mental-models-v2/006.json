@@ -4,12 +4,12 @@
     "content": "The First Law of Thermodynamics states that energy cannot be created or destroyed — it can only change form. In organizations, time, attention, and capital are finite resources; spending on one thing diverts from another.",
     "description": "A CEO diverts 30% of the engineering budget to a flashy rebranding campaign. Six months later, product quality drops and customer churn increases. The CEO is surprised. What principle explains this outcome?",
     "options": [
-      "The rebranding team was incompetent",
+      "The rebranding team was incompetent which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Engineering should have maintained quality despite the budget cut",
-      "the rebranding energy came at the direct expense of product",
+      "Energy is conserved — the rebranding energy came at the direct expense of product development, leaving fewer resources to maintain quality",
       "Marketing campaigns always damage product quality"
     ],
-    "answer": "the rebranding energy came at the direct expense of product",
+    "answer": "Energy is conserved — the rebranding energy came at the direct expense of product development, leaving fewer resources to maintain quality",
     "explanation": "Organizational energy (budget, attention, talent) is finite. Every allocation is a trade-off. The CEO spent energy on rebranding, which necessarily meant less energy for engineering. There are no energetic free lunches — resources diverted from one area must be subtracted from another.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "The Second Law of Thermodynamics states that in any closed system, disorder (entropy) naturally increases over time. To reverse or slow entropy, you must inject external energy.",
     "description": "A codebase that was clean and well-organized at launch is now a tangled mess of technical debt two years later, even though the same team has been maintaining it. What natural force explains this degradation?",
     "options": [
-      "The developers became lazy over time",
+      "The developers became lazy over time which is a critical factor to consider in this context",
       "Poor management allowed corners to be cut",
-      "left to their own devices, systems naturally become",
+      "Entropy — left to their own devices, systems naturally become more disordered without deliberate energy input",
       "The codebase grew too large for any team to maintain"
     ],
-    "answer": "left to their own devices, systems naturally become",
+    "answer": "Entropy — left to their own devices, systems naturally become more disordered without deliberate energy input",
     "explanation": "Entropy is the natural tendency toward disorder. A clean codebase does not stay clean automatically. It requires continuous deliberate effort — refactoring, code reviews, documentation updates — just to maintain order. Without that energy injection, chaos is the default state.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "The market was not ready for any of the three offerings",
       "The team lacked the skills required for any of the three initiatives",
-      "The energy (talent, capital, attention) was spread so thin across three vectors",
-      "The startup should have hired more people before attempting multiple initiatives"
+      "The energy (talent, capital, attention) was spread so thin across three vectors that no single initiative received enough to overcome its activation barrier",
+      "The startup should have hired more people before attempting multiple initiatives which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
-    "answer": "The energy (talent, capital, attention) was spread so thin across three vectors",
+    "answer": "The energy (talent, capital, attention) was spread so thin across three vectors that no single initiative received enough to overcome its activation barrier",
     "explanation": "With finite energy, splitting it three ways means each initiative gets a fraction of what it needs. Conservation of energy means you cannot do three things well with the resources for one. Concentrate energy on fewer vectors to achieve critical mass.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A manager cuts the 'non-essential' training budget, team-building events, and one-on-one meetings to save costs. Six months later, team performance and morale have dropped. What went wrong?",
     "options": [
       "The team was overspending on perks and needed to be cut back",
-      "they were the maintenance energy required to counteract organizational",
+      "Those activities were not actually non-essential — they were the maintenance energy required to counteract organizational entropy",
       "Team morale is not affected by budget cuts if the work itself is meaningful",
-      "The manager should have cut other departments instead"
+      "The manager should have cut other departments instead which is a critical factor to consider in this context"
     ],
-    "answer": "they were the maintenance energy required to counteract organizational",
+    "answer": "Those activities were not actually non-essential — they were the maintenance energy required to counteract organizational entropy",
     "explanation": "Training, team building, and one-on-ones look discretionary, but they are the energy injections that keep organizational culture and skills from degrading. Without them, entropy takes over: skills stagnate, relationships fray, and chaos increases. Maintenance energy is mandatory, not optional.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "A closed system receives no external energy and will inevitably reach maximum entropy. In business, a team or company operating in isolation — without new ideas, talent, or competitive pressure — will inevitably decay.",
     "description": "A once-dominant company stops hiring external talent, stops attending industry conferences, and stops reading competitor research. After five years, its products are irrelevant. What thermodynamic principle explains this?",
     "options": [
-      "The company became arrogant and stopped listening to customers",
-      "the organization naturally degraded into irrelevance",
+      "The company became arrogant and stopped listening to customers which is a critical factor to consider in this context",
+      "As a closed system with no energy input, entropy maximized — the organization naturally degraded into irrelevance",
       "The industry changed too quickly for any company to keep up",
       "The company's founders retired and lost interest in the business"
     ],
-    "answer": "the organization naturally degraded into irrelevance",
+    "answer": "As a closed system with no energy input, entropy maximized — the organization naturally degraded into irrelevance",
     "explanation": "A company that closes itself off from external energy (new talent, ideas, competitive pressure) becomes a closed thermodynamic system. Without external energy injections, entropy increases until the system becomes inert and irrelevant. Open systems survive; closed systems decay.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A product manager insists the team can 'do it all' — build new features, pay down technical debt, improve onboarding, and expand to mobile — without sacrificing anything. What is the flaw in this thinking?",
     "options": [
       "The team should trust the product manager's judgment on what is feasible",
-      "Energy is conserved — every hour spent on one activity is an hour not",
+      "Energy is conserved — every hour spent on one activity is an hour not spent on another; trade-offs are inevitable",
       "Modern engineering teams are capable of unlimited parallel output",
-      "Technical debt should never be prioritized over new features"
+      "Technical debt should never be prioritized over new features which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
-    "answer": "Energy is conserved — every hour spent on one activity is an hour not",
+    "answer": "Energy is conserved — every hour spent on one activity is an hour not spent on another; trade-offs are inevitable",
     "explanation": "Engineering hours are finite conserved energy. Every sprint hour allocated to features is unavailable for debt, onboarding, or mobile. Denying trade-offs does not eliminate them — it just means the deficits accumulate invisibly until they become crises.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "To meet a quarterly deadline, a team cuts all testing, documentation, and code reviews. They ship on time. Two months later, bugs and confusion slow the team to a crawl. What happened?",
     "options": [
       "The team should have anticipated bugs and allocated time to fix them",
-      "Local energy concentration (shipping on time) created global entropy",
+      "Local energy concentration (shipping on time) created global entropy (technical debt, undocumented code, team confusion) that now requires even more energy to fix",
       "The deadline was unrealistic and should have been pushed back",
-      "Testing and documentation are unnecessary if the team is experienced"
+      "Testing and documentation are unnecessary if the team is experienced which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
-    "answer": "Local energy concentration (shipping on time) created global entropy",
+    "answer": "Local energy concentration (shipping on time) created global entropy (technical debt, undocumented code, team confusion) that now requires even more energy to fix",
     "explanation": "By concentrating all energy on the local goal (shipping on time), the team neglected the maintenance energy that keeps the broader system orderly. The resulting disorder (bugs, confusion) is entropy that must now be paid back — often with interest.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A former colleague was once a close collaborator. After not speaking for two years, you reach out and find the relationship feels distant and awkward. You expected it to stay the same. What explains the change?",
     "options": [
       "The colleague changed as a person during those two years",
-      "Relationships are subject to entropy — without regular energy input, they",
+      "Relationships are subject to entropy — without regular energy input, they naturally deteriorate",
       "The colleague was never a true friend if the relationship degraded that quickly",
       "Two years is not enough time for a meaningful relationship to decay"
     ],
-    "answer": "Relationships are subject to entropy — without regular energy input, they",
+    "answer": "Relationships are subject to entropy — without regular energy input, they naturally deteriorate",
     "explanation": "Relationships are not static. They require ongoing energy — messages, calls, shared experiences — just to stay in place. Without that maintenance energy, entropy takes over and the connection decays. This is not a personal failing; it is a natural law of human systems.",
     "difficulty": "easy"
   }

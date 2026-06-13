@@ -5,11 +5,11 @@
     "description": "An analyst predicts the next stock market crash will look exactly like the 2008 financial crisis. Why does Housel suggest this kind of thinking is dangerous?",
     "options": [
       "Because 2008 was a small event that doesn't matter anymore.",
-      "Because the biggest future risks are the ones we aren't talking about because",
+      "Because the biggest future risks are the ones we aren't talking about because they have no past precedent.",
       "Because history always repeats itself perfectly and we already know the solution.",
       "Because analysts are always paid to be pessimistic."
     ],
-    "answer": "Because the biggest future risks are the ones we aren't talking about because",
+    "answer": "Because the biggest future risks are the ones we aren't talking about because they have no past precedent.",
     "explanation": "Housel argues that 'unprecedented' events are the ones that move the needle the most. If you only prepare for what has happened before, you are blind to the biggest risks.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "How should an investor account for these massive, unpredictable 'tail events' in their financial plan?",
     "options": [
       "By trying to guess which specific disaster will happen next.",
-      "By building a plan that is robust enough to survive a wide",
+      "By building a plan that is robust enough to survive a wide range of unknown outcomes.",
       "By ignoring them since they are too rare to worry about.",
       "By only investing in gold and physical land."
     ],
-    "answer": "By building a plan that is robust enough to survive a wide",
+    "answer": "By building a plan that is robust enough to survive a wide range of unknown outcomes.",
     "explanation": "Since you cannot predict the surprise, the only logical response is to have enough flexibility (cash and low debt) to survive whatever the surprise turns out to be.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "What is the 'Psychology of Money' perspective on financial forecasting and 'expert' predictions?",
     "options": [
       "Experts are usually right because they have more data.",
-      "Forecasting creates an illusion of control over a world that is",
+      "Forecasting creates an illusion of control over a world that is fundamentally governed by surprises.",
       "You should follow the expert who has the most confident personality.",
       "Data-driven forecasting is the only way to avoid losing money."
     ],
-    "answer": "Forecasting creates an illusion of control over a world that is",
+    "answer": "Forecasting creates an illusion of control over a world that is fundamentally governed by surprises.",
     "explanation": "Confidence is often mistaken for accuracy. The more certain someone sounds about the future, the more they are likely ignoring the reality of 'surprises'.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Why is 'long-term' data sometimes misleading when looking at the stock market?",
     "options": [
       "Because old data is usually miscalculated.",
-      "Because the structural incentives and participants in the",
+      "Because the structural incentives and participants in the market today are different than they were 50 years ago.",
       "Because the stock market didn't exist 50 years ago.",
       "Because technology makes the market 100% predictable now."
     ],
-    "answer": "Because the structural incentives and participants in the",
+    "answer": "Because the structural incentives and participants in the market today are different than they were 50 years ago.",
     "explanation": "Housel points out that the more recent the history, the more relevant it likely is, because the fundamental structures of how we invest are constantly shifting.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "If your financial plan is 100% dependent on the stock market returning 10% every single year, what is missing?",
     "options": [
       "A higher-growth stock selection.",
-      "A room for error (margin of safety)",
+      "A room for error (margin of safety) to account for years of 0% or negative returns.",
       "A more expensive financial advisor.",
       "A commitment to work more hours."
     ],
-    "answer": "A room for error (margin of safety)",
+    "answer": "A room for error (margin of safety) to account for years of 0% or negative returns.",
     "explanation": "The 'surprise' is that the average return almost never happens in a single year. You must be able to survive the 'non-average' years.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Why did many experienced investors fail to see the impact of the 2020 pandemic?",
     "options": [
       "Because they weren't looking at the charts correctly.",
-      "Because nothing like it had happened in their",
+      "Because nothing like it had happened in their professional careers, so it wasn't in their 'mental map' of possibilities.",
       "Because they were too focused on the 2008 crash.",
       "Because they didn't have enough diversifcation."
     ],
-    "answer": "Because nothing like it had happened in their",
+    "answer": "Because nothing like it had happened in their professional careers, so it wasn't in their 'mental map' of possibilities.",
     "explanation": "We are biased toward our own experiences. If we haven't seen a 'Black Swan' event, we tend to act as if they are impossible.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "What is the best way to handle 'Black Swan' events in your personal life?",
     "options": [
       "Read more news to stay informed of every possible threat.",
-      "Maintain a high level of liquidity (cash) and low fixed",
+      "Maintain a high level of liquidity (cash) and low fixed costs to stay flexible.",
       "Avoid all risks and keep your money under a mattress.",
       "Follow the advice of the most pessimistic person you know."
     ],
-    "answer": "Maintain a high level of liquidity (cash) and low fixed",
+    "answer": "Maintain a high level of liquidity (cash) and low fixed costs to stay flexible.",
     "explanation": "Flexibility is the only defense against the unpredictable. If you are 'lean' and have cash, you can adapt to a surprise much faster than someone who is over-leveraged.",
     "difficulty": "medium"
   },
@@ -116,12 +116,12 @@
     "content": "History looks like a clean, logical progression when we look back at it. But when it was happening, it felt like a chaotic series of surprises.",
     "description": "Why does Housel warn against over-analyzing 'why' things happened in the past to predict the future?",
     "options": [
-      "Because the 'why' is usually a story we made up to make",
+      "Because the 'why' is usually a story we made up to make ourselves feel better about the chaos.",
       "Because history is written by the winners.",
       "Because the 'why' is irrelevant to the math of compounding.",
       "Because we should only focus on the future."
     ],
-    "answer": "Because the 'why' is usually a story we made up to make",
+    "answer": "Because the 'why' is usually a story we made up to make ourselves feel better about the chaos.",
     "explanation": "Hindsight bias makes us think the past was predictable, which gives us false confidence that we can predict the future. In reality, the future will be just as surprising as the past was.",
     "difficulty": "medium"
   },

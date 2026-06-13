@@ -5,11 +5,11 @@
     "description": "Claim 1: 'Game theory explains both Cold War nuclear strategy AND why birds flock in specific formations.' Claim 2: 'The theory of evolution explains both antibiotic resistance AND why some languages have irregular verbs.' Which claim represents a legitimate extension of explanatory reach, and which risks being a superficial analogy?",
     "options": [
       "Both claims are legitimate extensions of reach; analogies are how reach works",
-      "Claim 2 is legitimate (evolutionary principles genuinely apply to cultural evolution); Claim 1 is likely overreach (game theory's rationality",
+      "Claim 2 is legitimate (evolutionary principles genuinely apply to cultural evolution); Claim 1 is likely overreach (game theory's rationality assumptions break down for birds)",
       "Claim 1 is legitimate (game theory applies to any strategic interaction); Claim 2 is overreach (language evolution is purely cultural, not biological)",
       "Neither is legitimate; reach only applies within the original domain of a theory"
     ],
-    "answer": "Claim 2 is legitimate (evolutionary principles genuinely apply to cultural evolution); Claim 1 is likely overreach (game theory's rationality",
+    "answer": "Claim 2 is legitimate (evolutionary principles genuinely apply to cultural evolution); Claim 1 is likely overreach (game theory's rationality assumptions break down for birds)",
     "explanation": "Deutsch emphasizes genuine reach occurs when the same underlying explanation applies — not just surface similarity. Evolution genuinely explains both biological and cultural change (variation + selection + retention). Game theory applied to birds requires assuming rational decision-making that birds likely lack, making it an analogy rather than genuine reach. Distinguishing real reach from analogy is a critical skill for evaluating explanations.",
     "difficulty": "hard"
   },
@@ -19,11 +19,11 @@
     "description": "A single laptop can be a calculator, a movie theater, a music studio, a library. This illustrates:",
     "options": [
       "Why we need specialized devices for each task",
-      "How computational universality enables diverse",
+      "How computational universality enables diverse functions",
       "That laptops are actually magic",
       "Why older computers were better at specific tasks"
     ],
-    "answer": "How computational universality enables diverse",
+    "answer": "How computational universality enables diverse functions",
     "explanation": "A universal computer (like your laptop) can perform any computation - from simple math to rendering video, composing music, or storing books. Once universality is reached, the same hardware can run any software program.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A PDF can be copied infinitely with zero quality loss. This shows:",
     "options": [
       "Why analog copies are superior",
-      "How digital information enables",
+      "How digital information enables perfect replication",
       "That PDFs are actually magical",
       "Why we should avoid making copies"
     ],
-    "answer": "How digital information enables",
+    "answer": "How digital information enables perfect replication",
     "explanation": "Unlike photocopies that degrade with each generation, digital files like PDFs can be copied infinitely with perfect fidelity - each copy is identical to the original. This is a key feature of digital knowledge.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "A photocopy of a photocopy degrades; a digital file doesn't. This illustrates:",
     "options": [
       "Why we should return to analogue technology",
-      "How digital preservation prevents knowledge",
+      "How digital preservation prevents knowledge loss",
       "That all copies are equally good",
       "Why digital files are actually less reliable"
     ],
-    "answer": "How digital preservation prevents knowledge",
+    "answer": "How digital preservation prevents knowledge loss",
     "explanation": "Analogue copying (like photocopies or tape recordings) introduces errors that accumulate. Digital copying preserves information perfectly - crucial for maintaining knowledge across generations without corruption.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Memorizing phone numbers vs. understanding how phone networks work. This shows the difference between:",
     "options": [
       "Two equally valuable forms of knowledge",
-      "Explanatory knowledge and mere data",
+      "Explanatory knowledge and mere data storage",
       "Why we should memorize everything",
       "That understanding is overrated"
     ],
-    "answer": "Explanatory knowledge and mere data",
+    "answer": "Explanatory knowledge and mere data storage",
     "explanation": "Memorizing phone numbers gives you data but no understanding. Understanding how phone networks work gives you explanatory knowledge - you can predict outcomes, troubleshoot problems, and innovate. Only the latter is true knowledge.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "Your phone can run any app, not just the ones it came with. This demonstrates:",
     "options": [
       "Why phones should have limited functionality",
-      "How computational universality enables flexible",
+      "How computational universality enables flexible use",
       "That phone manufacturers are hiding features",
       "Why we need different phones for different tasks"
     ],
-    "answer": "How computational universality enables flexible",
+    "answer": "How computational universality enables flexible use",
     "explanation": "Your smartphone is a universal computer - it can run any software program, from games to productivity tools to educational apps. This flexibility comes from reaching the threshold of computational universality.",
     "difficulty": "medium"
   }

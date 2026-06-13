@@ -5,11 +5,11 @@
     "description": "Someone sees a neighbor driving a brand new $80,000 truck and says, 'Wow, that guy is wealthy.' Based on Housel's definition, why is this statement potentially incorrect?",
     "options": [
       "Because the truck might be a hybrid and save on gas.",
-      "Because all we know for sure is that he has $80,000 less than",
+      "Because all we know for sure is that he has $80,000 less than he had before he bought the truck.",
       "Because trucks are not considered luxury items.",
       "Because wealth can only be measured by the size of one's home."
     ],
-    "answer": "Because all we know for sure is that he has $80,000 less than",
+    "answer": "Because all we know for sure is that he has $80,000 less than he had before he bought the truck.",
     "explanation": "We often confuse 'rich' (current income being spent) with 'wealth' (unspent income). Spending $80,000 is the opposite of being wealthy; it is the act of diminishing wealth.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "A professional athlete who spends their entire signing bonus on a mansion.",
       "A CEO who earns $1 million a year and spends $1.1 million.",
-      "A quiet millionaire who lives in a modest house and keeps their money in",
+      "A quiet millionaire who lives in a modest house and keeps their money in index funds.",
       "A social media influencer who rents private jets for photos."
     ],
-    "answer": "A quiet millionaire who lives in a modest house and keeps their money in",
+    "answer": "A quiet millionaire who lives in a modest house and keeps their money in index funds.",
     "explanation": "Wealth is the 'invisible' portion of your balance sheet. It provides the freedom and options that the 'rich' person often sacrifices for consumption.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Why is building wealth harder than 'getting rich' for most people?",
     "options": [
       "Because wealth requires high-level math skills.",
-      "Because it's hard to find motivation for a result",
+      "Because it's hard to find motivation for a result that is, by definition, invisible to others.",
       "Because the government taxes wealth more than income.",
       "Because you have to be born into wealth to have it."
     ],
-    "answer": "Because it's hard to find motivation for a result",
+    "answer": "Because it's hard to find motivation for a result that is, by definition, invisible to others.",
     "explanation": "It is human nature to want outward validation. Since wealth is what you don't see, it offers no immediate social 'reward,' making it harder to maintain the discipline.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "How does judging success by outward appearances lead to poor financial decisions?",
     "options": [
       "It encourages people to save more so they can eventually buy those things.",
-      "It creates a false benchmark that makes people spend money they don't have",
+      "It creates a false benchmark that makes people spend money they don't have to look like they are successful.",
       "It makes the stock market go down.",
       "It causes people to work too many hours at their jobs."
     ],
-    "answer": "It creates a false benchmark that makes people spend money they don't have",
+    "answer": "It creates a false benchmark that makes people spend money they don't have to look like they are successful.",
     "explanation": "If we define success as 'spending money,' we will never actually become wealthy, because becoming wealthy requires *not* spending the money we have.",
     "difficulty": "easy"
   },
@@ -62,10 +62,10 @@
     "options": [
       "The admiration of strangers who don't know you have money.",
       "The ability to buy a luxury car whenever you feel like it.",
-      "Flexibility, control over your time, and a safety net for",
+      "Flexibility, control over your time, and a safety net for the future.",
       "A higher credit limit at the bank."
     ],
-    "answer": "Flexibility, control over your time, and a safety net for",
+    "answer": "Flexibility, control over your time, and a safety net for the future.",
     "explanation": "Wealth is essentially 'unspent' freedom. By not spending now, you are purchasing the right to make choices in the future.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Why does Housel argue that 'spending is the opposite of being wealthy'?",
     "options": [
       "Because spending makes you happy, and wealth is about being disciplined.",
-      "Because wealth is defined by what is kept, and spending is the act of",
+      "Because wealth is defined by what is kept, and spending is the act of giving money away.",
       "Because rich people don't pay for things; they get them for free.",
       "Because spending money is illegal for millionaires."
     ],
-    "answer": "Because wealth is defined by what is kept, and spending is the act of",
+    "answer": "Because wealth is defined by what is kept, and spending is the act of giving money away.",
     "explanation": "Wealth is the accumulation of capital. Every time you spend, you are converting potential wealth into current consumption.",
     "difficulty": "medium"
   },
@@ -118,10 +118,10 @@
     "options": [
       "As $1,000 worth of fun that you are missing out on.",
       "As a down payment on a car you'll need in three years.",
-      "As a 'ticket' to freedom that your future self can use",
+      "As a 'ticket' to freedom that your future self can use for an emergency or opportunity.",
       "As money that belongs to the bank until you spend it."
     ],
-    "answer": "As a 'ticket' to freedom that your future self can use",
+    "answer": "As a 'ticket' to freedom that your future self can use for an emergency or opportunity.",
     "explanation": "Viewing wealth as 'future options' helps combat the urge to spend for immediate gratification.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "In the context of this chapter, what is the best way to ensure you actually become wealthy?",
     "options": [
       "Work as many hours as possible to increase your 'richness'.",
-      "Ignore social cues about what 'success' looks like and",
+      "Ignore social cues about what 'success' looks like and focus on your net worth.",
       "Follow the investment advice of famous celebrities.",
       "Buy the most expensive house in a growing neighborhood."
     ],
-    "answer": "Ignore social cues about what 'success' looks like and",
+    "answer": "Ignore social cues about what 'success' looks like and focus on your net worth.",
     "explanation": "To build wealth, you must be comfortable with the fact that your success will be invisible to most people. You must prioritize your balance sheet over your image.",
     "difficulty": "medium"
   }

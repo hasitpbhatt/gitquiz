@@ -19,11 +19,11 @@
     "description": "A day trader believes they have a 'special gut feeling' that allows them to time the market better than professional algorithms. They trade 50 times a day, but after fees, they are losing money. This is likely a result of:",
     "options": [
       "Market Efficiency",
-      "Overconfidence",
+      "Overconfidence Bias",
       "Diversification",
       "Passive Management"
     ],
-    "answer": "Overconfidence",
+    "answer": "Overconfidence Bias",
     "explanation": "Overconfidence leads investors to believe they possess superior information or timing skills. Statistically, excessive trading driven by overconfidence usually leads to underperformance due to fees and timing errors.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "The current $100 price",
       "The 50% discount",
-      "The historical $200",
+      "The historical $200 price",
       "The industry shift"
     ],
-    "answer": "The historical $200",
+    "answer": "The historical $200 price",
     "explanation": "The investor is 'anchored' to the $200 price point, using it as a mental benchmark for value instead of evaluating the company's current and future financial health.",
     "difficulty": "easy"
   },
@@ -60,7 +60,7 @@
     "content": "Mental accounting refers to the tendency for people to categorize their money into different 'buckets' based on its source or intended use (e.g., 'tax refund money' vs. 'hard-earned salary'). Rationally, all money is fungible and should be treated the same.",
     "description": "A person is very frugal with their monthly paycheck but spends a $1,000 casino win on a luxury watch they don't need. They justify it by saying it was 'house money.' This is an example of:",
     "options": [
-      "Portfolio Diversification",
+      "Diversification",
       "Mental Accounting",
       "Value Investing",
       "Hedging"
@@ -116,12 +116,12 @@
     "content": "The availability heuristic is a mental shortcut that relies on immediate examples that come to a given person's mind when evaluating a specific topic or decision. Recent or vivid events are often over-weighted in our minds.",
     "description": "After reading a single news story about a plane crash, a traveler decides to drive 10 hours instead of flying, even though driving is statistically much more dangerous. In finance, this leads to:",
     "options": [
-      "Overestimating the risk of a",
+      "Overestimating the risk of a recent market crash",
       "Ignoring the risk of inflation",
       "Diversifying too much",
       "Lowering transaction costs"
     ],
-    "answer": "Overestimating the risk of a",
+    "answer": "Overestimating the risk of a recent market crash",
     "explanation": "Because a recent crash is 'vivid' and 'available' in memory, investors may stay out of the market for years afterward, even if the actual probability of another crash is low.",
     "difficulty": "medium"
   },

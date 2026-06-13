@@ -5,11 +5,11 @@
     "description": "Your company announces a major strategic pivot. Engineering sees a threat to code quality, Sales sees a threat to quarterly commissions, and the CEO sees an existential necessity. No one is being irrational. What explains this?",
     "options": [
       "Cognitive dissonance within the executive team",
-      "Each team operates within its own valid frame of",
+      "Each team operates within its own valid frame of reference",
       "A failure in the company's communication protocols",
-      "Groupthink suppressing alternative viewpoints"
+      "Groupthink suppressing alternative viewpoints which is a critical factor to consider in this context"
     ],
-    "answer": "Each team operates within its own valid frame of",
+    "answer": "Each team operates within its own valid frame of reference",
     "explanation": "Just as velocity is relative to the observer in physics, every person's perspective is shaped by their incentives, role, and context. All three viewpoints are valid within their respective frames. The solution is to synthesize multiple viewpoints into a unified map, not to declare one absolutely correct.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A CEO rolls out a new remote-work policy designed to boost productivity. She is baffled when middle managers resist it. What is the most likely explanation?",
     "options": [
       "Middle managers are inherently resistant to change",
-      "The policy threatens the managers' frame — harms monitoring",
-      "The policy was poorly written and confusing",
+      "The policy threatens the managers' frame — harms monitoring while aiding CEO productivity",
+      "The policy was poorly written and confusing which is a critical factor to consider in this context",
       "The managers didn't understand the data behind the decision"
     ],
-    "answer": "The policy threatens the managers' frame — harms monitoring",
+    "answer": "The policy threatens the managers' frame — harms monitoring while aiding CEO productivity",
     "explanation": "From the CEO's frame, productivity is the metric. From a middle manager's frame, team visibility and control are paramount. Both frames are valid. The CEO fell into the management trap by assuming a single objective reality.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "Two departments review the same customer complaint data. Product sees a feature gap; Support sees a training issue; Finance sees a pricing problem. What mental model best explains this divergence?",
     "options": [
       "Confirmation bias affecting all three departments",
-      "Each department has a different frame of reference shaped by its",
+      "Each department has a different frame of reference shaped by its function",
       "The data must be unreliable if it produces three interpretations",
-      "The departments lack standardized analytical training"
+      "The departments lack standardized analytical training which is a critical factor to consider in this context"
     ],
-    "answer": "Each department has a different frame of reference shaped by its",
+    "answer": "Each department has a different frame of reference shaped by its function",
     "explanation": "Just as velocity is measured relative to an observer, a problem looks different depending on your frame. The Product team's frame is feature-centric; Support's is interaction-centric; Finance's is P&L-centric. Objectivity comes from synthesizing these frames, not ignoring them.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "To resolve cross-functional conflicts, you must calculate the 'transformations' needed to see a problem from another person's frame of reference, just as physicists convert measurements between moving reference frames.",
     "description": "A product manager and an engineer are arguing about a tight deadline. The PM sees market opportunity; the engineer sees technical debt risk. What is the most effective way to resolve this?",
     "options": [
-      "Escalate to the VP who has the final say",
-      "Each party should see the situation from the other's frame and",
+      "Escalate to the VP who has the final say which is a critical factor to consider in this context",
+      "Each party should see the situation from the other's frame and synthesize a unified view",
       "Run an anonymous vote to determine the right path forward",
       "Delay the project until both parties fully agree on all details"
     ],
-    "answer": "Each party should see the situation from the other's frame and",
+    "answer": "Each party should see the situation from the other's frame and synthesize a unified view",
     "explanation": "Frame transformation means actively stepping into another's reference frame. The PM needs to understand the engineer's code-quality concerns; the engineer needs to understand the market-window pressure. Only by holding both frames simultaneously can you find a solution that respects both realities.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "A founder insists her view of the company's strategy is 'the objective truth' and that dissenting team members simply lack information. What scientific principle does this contradict?",
     "options": [
       "Newton's Third Law — every action has an equal reaction",
-      "Galilean relativity — there is no privileged, objective vantage",
+      "Galilean relativity — there is no privileged, objective vantage point",
       "Heisenberg's uncertainty principle — you cannot know everything",
       "Occam's razor — the simplest explanation is usually correct"
     ],
-    "answer": "Galilean relativity — there is no privileged, objective vantage",
+    "answer": "Galilean relativity — there is no privileged, objective vantage point",
     "explanation": "Galileo showed that no reference frame is special or absolute. Similarly, the founder's perspective is one valid frame among many, not the objective truth. True objectivity emerges from synthesizing multiple frames, not declaring one as absolute.",
     "difficulty": "hard"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Side with the CFO because financial caution is the most responsible frame",
       "Side with the CRO because revenue growth is the primary goal",
-      "Synthesize all three frames into a unified assessment that weights each",
-      "Bring in an outside consultant to make the decision objectively"
+      "Synthesize all three frames into a unified assessment that weights each perspective appropriately",
+      "Bring in an outside consultant to make the decision objectively which is a critical factor to consider in this context"
     ],
-    "answer": "Synthesize all three frames into a unified assessment that weights each",
+    "answer": "Synthesize all three frames into a unified assessment that weights each perspective appropriately",
     "explanation": "No single frame captures the full picture. Synthesis means treating each viewpoint as a valid but partial representation. The CFO's caution, CRO's optimism, and CTO's concern are all real. The best decision comes from integrating them, not choosing one.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "Cultural upbringing and geographic context create deeply ingrained frames of reference that shape how people interpret the same event.",
     "description": "A global team launches a marketing campaign that performs brilliantly in Brazil but flops in Japan. The creative team is confused — the visuals and copy were identical. What explains the disconnect?",
     "options": [
-      "The Brazilian team executed the campaign better",
-      "The campaign was designed in a Western cultural frame and did",
+      "The Brazilian team executed the campaign better which is a critical factor to consider in this context",
+      "The campaign was designed in a Western cultural frame and did not translate to Japan's frame",
       "The product was not available in Japan at the right price point",
       "The Japanese market was saturated by competing campaigns"
     ],
-    "answer": "The campaign was designed in a Western cultural frame and did",
+    "answer": "The campaign was designed in a Western cultural frame and did not translate to Japan's frame",
     "explanation": "Cultural frames shape how people interpret symbols, humor, authority, and value. A message crafted in one cultural reference frame can land completely differently in another. Effective global strategy requires seeing the campaign from each local frame before launching.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "The sales team demands a feature 'immediately,' while engineering estimates four months. Sales accuses engineering of being lazy; engineering accuses sales of being unrealistic. What underlying dynamic explains this conflict?",
     "options": [
       "Sales is not technically literate enough to understand the work involved",
-      "Engineering is understaffed and should have communicated that earlier",
-      "Both teams operate in different temporal frames — sales in quarterly cycles, engineering",
+      "Engineering is understaffed and should have communicated that earlier which is a critical factor to consider in this context",
+      "Both teams operate in different temporal frames — sales in quarterly cycles, engineering in development sprints",
       "The feature request should have been escalated to the product council for prioritization"
     ],
-    "answer": "Both teams operate in different temporal frames — sales in quarterly cycles, engineering",
+    "answer": "Both teams operate in different temporal frames — sales in quarterly cycles, engineering in development sprints",
     "explanation": "Just as time passes differently for observers moving at different velocities, different roles operate on different time horizons. Sales lives in the quarterly-revenue frame; engineering lives in the development-cycle frame. Neither is wrong — their clocks are just set differently.",
     "difficulty": "medium"
   }

@@ -6,10 +6,10 @@
     "options": [
       "Guided visualization meditation",
       "Loving-kindness meditation",
-      "Choice-less awareness",
+      "Choice-less awareness meditation",
       "Transcendental meditation"
     ],
-    "answer": "Choice-less awareness",
+    "answer": "Choice-less awareness meditation",
     "explanation": "Choice-less awareness means sitting in open presence without selecting a specific object of focus. Unlike guided meditation (which follows instructions), loving-kindness (which cultivates compassion), or transcendental meditation (which uses a mantra), choice-less awareness simply observes the mind's natural activity without interference.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "After a day of back-to-back meetings, notifications, and conversations, a software developer feels mentally cluttered and unable to think clearly. She sits in a quiet room for 20 minutes with no distractions, and afterward feels a sense of mental clarity and space. What principle does this experience illustrate?",
     "options": [
       "The Pomodoro technique for time management",
-      "The inbox decompression principle for",
+      "The inbox decompression principle for mental clearing",
       "Multitasking optimization for productivity",
       "The Zeigarnik effect of incomplete tasks"
     ],
-    "answer": "The inbox decompression principle for",
+    "answer": "The inbox decompression principle for mental clearing",
     "explanation": "Naval uses the inbox decompression principle to explain why silence helps: the mind accumulates a backlog of unprocessed stimuli throughout the day. Sitting in silence without new input gives the brain space to process this backlog, like an email server clearing a queue. This is why mental clarity often follows quiet time.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "A programmer notices that after hours of coding, his thoughts become fragmented and his problem-solving ability degrades. He takes a 15-minute break to stare out the window without his phone, and returns to find the bug he was stuck on suddenly obvious. Which analogy best describes what happened in his brain?",
     "options": [
       "His brain entered sleep debt recovery mode",
-      "His brain performed garbage collection by clearing",
+      "His brain performed garbage collection by clearing mental cache during idle time",
       "His brain reset via sensory deprivation",
       "His brain triggered a dopamine detox from the phone"
     ],
-    "answer": "His brain performed garbage collection by clearing",
+    "answer": "His brain performed garbage collection by clearing mental cache during idle time",
     "explanation": "Naval borrows the garbage collection analogy from computer science: just as a runtime environment periodically reclaims unused memory to prevent slowdown, the brain uses idle, unfocused time to clear mental debris and consolidate processing. This is why solutions often appear after stepping away from a problem.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Her ability to ignore notifications entirely",
       "Her reaction time to respond faster",
-      "Her capacity to break automatic",
+      "Her capacity to break automatic stimulus-response loops",
       "Her skill at prioritizing urgent notifications"
     ],
-    "answer": "Her capacity to break automatic",
+    "answer": "Her capacity to break automatic stimulus-response loops",
     "explanation": "Naval advocates using meditation to create a gap between stimulus and response, breaking the automatic reactivity that governs much of human behavior. By inserting conscious awareness between the notification (stimulus) and the reach (response), she regains the freedom to choose her actions rather than being driven by habit.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A executive finishes a high-stakes negotiation and immediately reaches for his phone to scroll social media, check emails, and turn on the TV, even though he has nothing urgent pending. He feels uncomfortable when there is a moment of silence. Which philosopher's observation best describes his behavior?",
     "options": [
       "Aristotle's observation that humans are political animals",
-      "Blaise Pascal's observation that humans cannot sit quietly in a room",
+      "Blaise Pascal's observation that humans cannot sit quietly in a room alone",
       "Socrates' observation that the unexamined life is not worth living",
       "Nietzsche's observation that what does not kill us makes us stronger"
     ],
-    "answer": "Blaise Pascal's observation that humans cannot sit quietly in a room",
+    "answer": "Blaise Pascal's observation that humans cannot sit quietly in a room alone",
     "explanation": "Naval frequently cites Pascal's insight that the inability to sit alone in stillness is the root of human suffering. The executive's compulsive reach for distraction after the negotiation illustrates this perfectly: instead of allowing a moment of quiet, he fills every gap with stimulation, avoiding the discomfort of being alone with his thoughts.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "A driver is cut off aggressively in traffic. Before practicing meditation, he would immediately yell and tailgate the other car. After six months of daily practice, he notices the anger arise but instead simply takes a deep breath and continues driving calmly. What fundamental shift has occurred?",
     "options": [
       "His anger has been permanently eliminated through meditation",
-      "He has discovered the space between stimulus and response",
+      "He has discovered the space between stimulus and response and exercised his freedom to choose",
       "He has learned to suppress his emotions more effectively",
       "He has become desensitized to dangerous driving situations"
     ],
-    "answer": "He has discovered the space between stimulus and response",
+    "answer": "He has discovered the space between stimulus and response and exercised his freedom to choose",
     "explanation": "Naval teaches that the core benefit of meditation is discovering the gap between stimulus (being cut off) and response (yelling). In that gap lies the freedom to choose. The driver still feels anger, but he no longer is enslaved by it. He has not eliminated or suppressed the emotion; he has gained the agency to choose his response consciously.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A patient in therapy frequently thinks I am a failure whenever she makes a mistake. Her therapist asks her to notice the thought, label it as The failure story is arising again, and then examine the evidence for and against it. She finds that this practice closely resembles what she learned in her meditation class about observing thoughts without attachment. Why do these approaches converge?",
     "options": [
       "Both meditation and CBT aim to eliminate negative thinking entirely",
-      "Both are based on the principle that observing thoughts as events,",
+      "Both are based on the principle that observing thoughts as events, not truths, creates the power to change them",
       "Both require sitting still for extended periods to be effective",
       "Both focus on positive affirmations to overwrite negative beliefs"
     ],
-    "answer": "Both are based on the principle that observing thoughts as events,",
+    "answer": "Both are based on the principle that observing thoughts as events, not truths, creates the power to change them",
     "explanation": "Naval notes the convergence between meditation and CBT: both teach that you are not identical with your thoughts. Meditation cultivates the observer perspective where thoughts are seen as passing mental events. CBT uses this same metacognitive distance to examine and reframe distorted thinking. The patient uses both traditions to see the failure thought as a story, not a fact, and thereby gains the power to question it.",
     "difficulty": "hard"
   }

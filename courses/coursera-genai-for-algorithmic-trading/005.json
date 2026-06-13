@@ -5,11 +5,11 @@
     "description": "Your model suddenly issues a 'Strong Sell' signal for a stock that has been performing well. Why is it important to use an XAI tool like SHAP or LIME before executing the trade?",
     "options": [
       "To convince the model to change its mind.",
-      "To verify if the signal is based on a",
+      "To verify if the signal is based on a logical data point or a 'glitch' in the input data.",
       "To make the trade execute faster.",
       "To hide the model's logic from regulators."
     ],
-    "answer": "To verify if the signal is based on a",
+    "answer": "To verify if the signal is based on a logical data point or a 'glitch' in the input data.",
     "explanation": "XAI allows you to see the 'why' behind the 'what.' If the 'Sell' signal is based on a data error (like a missing price decimal), you can avoid a costly mistake.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A stock price jumps 5% in ten minutes, but the LLM finds no relevant news, social media buzz, or regulatory filings. How should the researcher interpret this?",
     "options": [
       "As a strong signal to buy immediately.",
-      "As likely 'noise' or a technical liquidity event rather than",
+      "As likely 'noise' or a technical liquidity event rather than a fundamental shift.",
       "As a sign that the AI is broken because it didn't find news.",
       "As a signal that the company has secretly become successful."
     ],
-    "answer": "As likely 'noise' or a technical liquidity event rather than",
+    "answer": "As likely 'noise' or a technical liquidity event rather than a fundamental shift.",
     "explanation": "When price moves without a corresponding 'narrative' or fundamental driver, it is often noise. GenAI's inability to find a reason is, in itself, a helpful piece of information.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Your model predicts a 2% gain for Gold with a 55% confidence score. Another model predicts a 2% gain for Silver with a 92% confidence score. How should you adjust your strategy?",
     "options": [
       "Trade both equally because the predicted gain is the same.",
-      "Allocate more capital to the Silver trade because the",
+      "Allocate more capital to the Silver trade because the model is more certain of the outcome.",
       "Only trade the Gold because 55 is a luckier number.",
       "Ignore both because models are never 100% sure."
     ],
-    "answer": "Allocate more capital to the Silver trade because the",
+    "answer": "Allocate more capital to the Silver trade because the model is more certain of the outcome.",
     "explanation": "Confidence-based position sizing is a key part of risk management. You want to bet heavier when the model's 'conviction' is high.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "After analyzing your model, you realize that 'Twitter Sentiment' has a feature importance of 0.01, while 'Interest Rate Changes' has 0.85. What should you do?",
     "options": [
       "Spend more time gathering Twitter data.",
-      "Focus your research on interest rate data, as it is the",
+      "Focus your research on refining macro-economic interest rate data, as it is the primary driver of your model.",
       "Delete the interest rate data to give Twitter a chance.",
       "Change the model to a different asset class."
     ],
-    "answer": "Focus your research on interest rate data, as it is the",
+    "answer": "Focus your research on refining macro-economic interest rate data, as it is the primary driver of your model.",
     "explanation": "By understanding feature importance, you can prioritize high-impact data and avoid wasting resources on 'features' that don't actually help the model predict accurately.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Your quantitative model identifies an arbitrage opportunity. What is the benefit of having an LLM generate a report on this before the trade is reviewed by the investment committee?",
     "options": [
       "It makes the committee feel like the AI is a human.",
-      "It synthesizes the complex math into a clear, logical",
+      "It synthesizes the complex math into a clear, logical argument that humans can debate and approve.",
       "It automatically signs the legal documents for the trade.",
       "It translates the report into 50 different languages."
     ],
-    "answer": "It synthesizes the complex math into a clear, logical",
+    "answer": "It synthesizes the complex math into a clear, logical argument that humans can debate and approve.",
     "explanation": "Communication is key in institutional trading. GenAI bridges the gap between the 'quant' (math) and the 'portfolio manager' (strategy).",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Buy both Apple and Tesla immediately to get ahead of the crowd.",
       "Assume the AI has 'insider info' that isn't public yet.",
-      "Treat it as a hallucination and verify with an official SEC",
+      "Treat it as a hallucination and verify with an official SEC filing or a trusted news terminal.",
       "Wait for the AI to realize it made a mistake and apologize."
     ],
-    "answer": "Treat it as a hallucination and verify with an official SEC",
+    "answer": "Treat it as a hallucination and verify with an official SEC filing or a trusted news terminal.",
     "explanation": "LLMs do not have 'secret' info; they only process what they've been given or trained on. Extraordinary claims require extraordinary evidence from primary sources.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "You are looking at an 'Attention Map' for a model's analysis of an earnings call. The model is focused entirely on the 'Legal Disclaimer' at the start. Is this a good signal?",
     "options": [
       "Yes, because the legal disclaimer is the most official part.",
-      "No, it suggests the model is focusing on 'boilerplate' text rather than",
+      "No, it suggests the model is focusing on 'boilerplate' text rather than the meaningful financial discussion.",
       "Yes, it means the model is being very careful.",
       "It doesn't matter what the model looks at as long as the price is right."
     ],
-    "answer": "No, it suggests the model is focusing on 'boilerplate' text rather than",
+    "answer": "No, it suggests the model is focusing on 'boilerplate' text rather than the meaningful financial discussion.",
     "explanation": "Interpretation tools help you debug the model. If the AI is paying attention to the wrong things, its predictions are likely based on 'spurious correlations' (luck) rather than logic.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "A prediction shouldn't just be a single number (e.g., '$150'). It should be a range (e.g., '$148 to $152') with a confidence interval. This tells the trader the 'margin of error' they should expect.",
     "description": "Model A predicts a price of $100 with a +/- $1 range. Model B predicts $100 with a +/- $20 range. Which model is more 'interpretable' for a low-risk strategy?",
     "options": [
-      "Model A, because the narrow range indicates higher",
+      "Model A, because the narrow range indicates higher precision and lower uncertainty.",
       "Model B, because it covers more possibilities.",
       "Both are the same since the average is $100.",
       "Neither; you should only trade if there is no range."
     ],
-    "answer": "Model A, because the narrow range indicates higher",
+    "answer": "Model A, because the narrow range indicates higher precision and lower uncertainty.",
     "explanation": "Narrower confidence intervals indicate that the model has found a stronger, more consistent pattern in the data, making it easier to set stop-loss levels.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Why is being 'right for the wrong reasons' a problem for a long-term trading strategy?",
     "options": [
       "It isn't a problem as long as you make money.",
-      "It indicates the model's success was lucky and will likely fail",
+      "It indicates that the model's success was lucky, and it will likely fail when the 'real' driver (interest rates) changes.",
       "It makes the tax reporting more difficult.",
       "It means the model is too smart for the researcher to understand."
     ],
-    "answer": "It indicates the model's success was lucky and will likely fail",
+    "answer": "It indicates that the model's success was lucky, and it will likely fail when the 'real' driver (interest rates) changes.",
     "explanation": "If a model's underlying logic is flawed, its profitability is unsustainable. True interpretability ensures that the model is capturing the actual causal drivers of the market.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "You perform a sensitivity analysis and find that a tiny 1% change in 'Oil Prices' causes your 'Retail Stock' prediction to flip from Buy to Sell. What does this tell you about your strategy?",
     "options": [
       "Your strategy is extremely robust.",
-      "Your strategy is highly sensitive (and",
+      "Your strategy is highly sensitive (and potentially fragile) to energy costs.",
       "Oil prices have no impact on retail.",
       "The model is broken and should be deleted."
     ],
-    "answer": "Your strategy is highly sensitive (and",
+    "answer": "Your strategy is highly sensitive (and potentially fragile) to energy costs.",
     "explanation": "Sensitivity analysis reveals the 'hidden risks' in a strategy. If one small variable can break the whole plan, you need to hedge that specific risk or find a more stable signal.",
     "difficulty": "medium"
   }

@@ -5,11 +5,11 @@
     "description": "You have a stable, comfortable job, but the company isn't growing and you aren't learning new skills. Why is staying there 'risky' in the context of the Startup of You?",
     "options": [
       "Because your boss might get annoyed with your lack of ambition",
-      "Because you are accumulating 'career debt' and losing your",
+      "Because you are accumulating 'career debt' and losing your competitive edge in the broader market",
       "Because the government might increase taxes on stable jobs",
       "It isn't risky; a stable job is always the safest option"
     ],
-    "answer": "Because you are accumulating 'career debt' and losing your",
+    "answer": "Because you are accumulating 'career debt' and losing your competitive edge in the broader market",
     "explanation": "Stagnation is a hidden risk. If your industry shifts and you haven't kept your skills sharp, you'll be unprepared for a forced transition.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "You want to launch a new podcast. You don't know if anyone will listen (uncertainty). What is the most 'intelligent' way to manage this risk?",
     "options": [
       "Buy $10,000 worth of studio equipment before recording the first episode",
-      "Record five episodes using your smartphone to test the concept with a",
+      "Record five episodes using your smartphone to test the concept with a small audience",
       "Quit your job so you have 40 hours a week to focus on the podcast",
       "Wait until a major network offers you a contract to start"
     ],
-    "answer": "Record five episodes using your smartphone to test the concept with a",
+    "answer": "Record five episodes using your smartphone to test the concept with a small audience",
     "explanation": "Intelligent risk involves low-cost experimentation. By testing the idea cheaply, you address the uncertainty without a catastrophic financial downside.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "An early-stage startup offers you a role. The pay is low, but the potential equity is worth millions. You have enough savings to live for a year. Is this an intelligent risk?",
     "options": [
       "No, because you should never accept a lower salary",
-      "Yes, because the downside (living on savings) is survivable,",
+      "Yes, because the downside (living on savings) is survivable, and the upside is transformative",
       "Only if the startup guarantees they will be successful",
       "No, because startups are always more work than corporate jobs"
     ],
-    "answer": "Yes, because the downside (living on savings) is survivable,",
+    "answer": "Yes, because the downside (living on savings) is survivable, and the upside is transformative",
     "explanation": "Intelligent risks have 'asymmetric' returns: a limited, survivable loss versus a potentially massive gain.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "You pitched an idea to your team and it was rejected. How should you view this 'failure'?",
     "options": [
       "As a sign that you should never write another story again",
-      "As a data point that helps you refine your next",
+      "As a data point that helps you refine your next submission and builds your 'rejection muscle'",
       "As a personal insult from the magazine editor",
       "As a reason to give up on writing forever"
     ],
-    "answer": "As a data point that helps you refine your next",
+    "answer": "As a data point that helps you refine your next submission and builds your 'rejection muscle'",
     "explanation": "Small failures provide essential feedback and toughen you up for larger challenges. They are 'vaccinations' against major career catastrophes.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "How does knowing you can always move back in with your parents or take a temporary warehouse job affect your ability to start a business?",
     "options": [
       "It makes you lazy because you have a safety net",
-      "It allows you to focus 100% on the business",
+      "It allows you to focus 100% on the business because the fear of homelessness is removed",
       "It makes the business more likely to fail",
       "It doesn't affect your mindset at all"
     ],
-    "answer": "It allows you to focus 100% on the business",
+    "answer": "It allows you to focus 100% on the business because the fear of homelessness is removed",
     "explanation": "Plan Z provides the psychological floor. When you aren't managing 'survival fear,' you can manage 'business risk' more effectively.",
     "difficulty": "medium"
   },
@@ -90,10 +90,10 @@
     "options": [
       "Wait for the senior partners to decide how to handle it",
       "Hope that your firm never adopts the new technology",
-      "Proactively learn how to use those AI tools to become 10x",
+      "Proactively learn how to use those AI tools to become 10x more efficient than other junior lawyers",
       "Assume that law is a 'protected' profession and do nothing"
     ],
-    "answer": "Proactively learn how to use those AI tools to become 10x",
+    "answer": "Proactively learn how to use those AI tools to become 10x more efficient than other junior lawyers",
     "explanation": "Embracing the disruption (taking the risk to change your workflow) is safer than ignoring it. You become the person who manages the technology rather than the one replaced by it.",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Betting your entire savings on a single stock",
       "Quitting your job without a backup plan",
-      "Inviting a stranger in your industry to a",
+      "Inviting a stranger in your industry to a 15-minute virtual coffee to ask for advice",
       "Doing exactly what you did last week"
     ],
-    "answer": "Inviting a stranger in your industry to a",
+    "answer": "Inviting a stranger in your industry to a 15-minute virtual coffee to ask for advice",
     "explanation": "A micro-risk has a very small downside (the person says no) but helps you practice the 'outreach' and 'uncertainty' required for bigger moves.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "You stay in a boring job because it's easy. What is the 'opportunity cost' of this decision?",
     "options": [
       "The stress of having to learn something new",
-      "The salary and experience you *could* have",
+      "The salary and experience you *could* have gained by joining that high-growth startup you passed on",
       "The cost of your daily commute",
       "There is no cost if you aren't losing money"
     ],
-    "answer": "The salary and experience you *could* have",
+    "answer": "The salary and experience you *could* have gained by joining that high-growth startup you passed on",
     "explanation": "Cost isn't just about what you spend; it's also about what you miss out on. In 'Permanent Beta,' staying still is a massive cost.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "You and two colleagues want to propose a radical new product line to your company. Why is it better to do this together?",
     "options": [
       "So you can blame each other if it fails",
-      "Because it provides 'safety in numbers' and combines your",
+      "Because it provides 'safety in numbers' and combines your collective network intelligence to improve the proposal",
       "Because it will take three times longer to get anything done",
       "Because you can split the cost of the office snacks"
     ],
-    "answer": "Because it provides 'safety in numbers' and combines your",
+    "answer": "Because it provides 'safety in numbers' and combines your collective network intelligence to improve the proposal",
     "explanation": "Alliances allow for bolder risk-taking. A shared proposal is often more robust and less professionally dangerous than one person acting alone.",
     "difficulty": "hard"
   }

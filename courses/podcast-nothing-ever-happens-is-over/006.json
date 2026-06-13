@@ -5,11 +5,11 @@
     "description": "Your team is working on an urgent project and needs a specific hardware spec. In Naval's model, instead of waiting for a project manager to find the answer, what should an 'intelligent node' do?",
     "options": [
       "Wait for the next weekly status meeting to ask for the spec.",
-      "Naval says they should navigate their own way to the person who has the spec and talk to them",
+      "Naval says they should navigate their own way to the person who has the spec and talk to them directly.",
       "Submit a formal ticket to the hardware department and wait for a response.",
       "Check the company's official organizational chart to see who is authorized to give them the spec."
     ],
-    "answer": "Naval says they should navigate their own way to the person who has the spec and talk to them",
+    "answer": "Naval says they should navigate their own way to the person who has the spec and talk to them directly.",
     "explanation": "In a decentralized graph, the 'skill set' of the employee includes the ability to figure out who to navigate towards without needing a middleman to facilitate the connection.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "The creation of one single global government to control all drones.",
       "A return to massive factory-based warfare between large nations.",
-      "A restructuring of society where the logic of mutually assured",
+      "A restructuring of society where the logic of mutually assured destruction reaches the individual level.",
       "The total abandonment of technology in favor of traditional diplomacy."
     ],
-    "answer": "A restructuring of society where the logic of mutually assured",
+    "answer": "A restructuring of society where the logic of mutually assured destruction reaches the individual level.",
     "explanation": "Naval posits that drones bring the high-level stalemate of nuclear nations down to a granular level, where individuals may have the power to deter or target one another.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Naval asks if AI will be a 'commodity business' or a 'monopoly business.' If it becomes a commodity, where does he suggest the value goes?",
     "options": [
       "Value disappears entirely as everything becomes free.",
-      "Value flows into the hardware (like Nvidia) and the unique data",
+      "Value flows into the hardware (like Nvidia) and the unique data silos that the AI uses.",
       "Value stays only in the 'Mag 7' tech giants.",
       "Value returns to traditional manual labor that AI cannot perform."
     ],
-    "answer": "Value flows into the hardware (like Nvidia) and the unique data",
+    "answer": "Value flows into the hardware (like Nvidia) and the unique data silos that the AI uses.",
     "explanation": "When the software (AI) is commoditized, the 'moats' become the physical infrastructure (chips/power) and the proprietary data that the model wasn't trained on.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Why does Naval believe AI makes people more 'generalist'?",
     "options": [
       "Because AI forces everyone to learn ten different programming languages.",
-      "Because AI allows people to do 20-30% of each other's specialized work,",
+      "Because AI allows people to do 20-30% of each other's specialized work, like a hardware person bringing up software.",
       "Because specialized knowledge is no longer valuable in the age of AI.",
       "Because AI can replace the need for human scientists entirely."
     ],
-    "answer": "Because AI allows people to do 20-30% of each other's specialized work,",
+    "answer": "Because AI allows people to do 20-30% of each other's specialized work, like a hardware person bringing up software.",
     "explanation": "AI acts as a bridge; it gives a specialist enough cross-disciplinary skill to 'glue' their work to others without needing a high-friction handoff or an explicit API.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "What evidence does Naval cite for his claim that 'the world seems to be moving a lot faster now'?",
     "options": [
       "The invention of the internet and social media.",
-      "Changes in geopolitics, economics, and technological funding for",
+      "Changes in geopolitics, economics, and technological funding for things like rockets and drones.",
       "The decrease in the number of people working in the tech sector.",
       "The rise of traditional brick-and-mortar retail stores."
     ],
-    "answer": "Changes in geopolitics, economics, and technological funding for",
+    "answer": "Changes in geopolitics, economics, and technological funding for things like rockets and drones.",
     "explanation": "Naval argues that the 'phase shift' post-COVID has accelerated the demand for sci-fi technologies and changed the economic and geopolitical landscape.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "What does Naval identify as the primary 'gate' that kept biological weapons from being common in the past?",
     "options": [
       "A lack of interest from scientists in creating weapons.",
-      "The high expertise and limited access to specialized biological",
+      "The high expertise and limited access to specialized biological data and labs.",
       "Strict laws that were successfully followed by everyone.",
       "The high cost of buying a computer to run biological simulations."
     ],
-    "answer": "The high expertise and limited access to specialized biological",
+    "answer": "The high expertise and limited access to specialized biological data and labs.",
     "explanation": "Naval explains that the 'expertise gap' was the main barrier; AI 'vibe coding' for biology threatens to remove that gap, allowing many more people to access dangerous capabilities.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "What is Naval’s advice for dealing with people who fixate on AI 'doom'?",
     "options": [
       "Listen to them carefully to ensure you are safe.",
-      "Nurture and reward optimism instead, as it is the only way to build the",
+      "Nurture and reward optimism instead, as it is the only way to build the future.",
       "Force them to learn how to code so they understand the technology better.",
       "Use AI to prove that their doom scenarios are mathematically impossible."
     ],
-    "answer": "Nurture and reward optimism instead, as it is the only way to build the",
+    "answer": "Nurture and reward optimism instead, as it is the only way to build the future.",
     "explanation": "Naval believes optimism is a creative requirement. Even if doomers are right, their mindset isn't helpful in a 'foxhole'; we need builders who imagine the 'rising up' scenarios.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "What does Naval believe is the 'unlock' that will lead to more interesting and usable hardware in the near future?",
     "options": [
       "The invention of 3D printing for home use.",
-      "The commoditization of software through AI, which allows the",
+      "The commoditization of software through AI, which allows the hardware to finally shine.",
       "The discovery of new, lighter metals for manufacturing.",
       "Government subsidies for hardware manufacturing in the first world."
     ],
-    "answer": "The commoditization of software through AI, which allows the",
+    "answer": "The commoditization of software through AI, which allows the hardware to finally shine.",
     "explanation": "Naval’s thesis is that hardware was always 'good,' but 'bad software' made it unusable. AI removes that bottleneck, leading to a renaissance in hardware products.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "In Naval's view, why did we take 'too long' with vaccines during the COVID emergency?",
     "options": [
       "We didn't have enough money to pay for the research.",
-      "We didn't allow healthy volunteers to 'take one for the team'",
+      "We didn't allow healthy volunteers to 'take one for the team' under a right-to-try model.",
       "The AI models used for vaccine research were too slow.",
       "There were not enough doctors available to administer the tests."
     ],
-    "answer": "We didn't allow healthy volunteers to 'take one for the team'",
+    "answer": "We didn't allow healthy volunteers to 'take one for the team' under a right-to-try model.",
     "explanation": "Naval blames bureaucracy and the lack of 'volunteer situations' for the slow response, suggesting that a more decentralized 'right to try' would have been faster.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "Why does Naval refrain from being in the 'futurist business' regarding when AGI will arrive?",
     "options": [
       "Because he doesn't believe AI is actually improving.",
-      "Because he sees 'jagged intelligence' and bad multimodal reasoning,",
+      "Because he sees 'jagged intelligence' and bad multimodal reasoning, making the timeline uncertain.",
       "Because he believes AGI has already been reached in secret labs.",
       "Because he is more interested in investing in coal and oil than in AI."
     ],
-    "answer": "Because he sees 'jagged intelligence' and bad multimodal reasoning,",
+    "answer": "Because he sees 'jagged intelligence' and bad multimodal reasoning, making the timeline uncertain.",
     "explanation": "Naval is a 'blind optimist' but also a realist about the technology's current gaps, specifically noting that 'world models' and 'multimodal reasoning' are still missing.",
     "difficulty": "medium"
   }

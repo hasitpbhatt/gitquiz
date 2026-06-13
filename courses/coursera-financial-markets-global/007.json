@@ -19,11 +19,11 @@
     "description": "A corn farmer is worried that a record-breaking harvest will cause corn prices to crash by October. How can they use the futures market to protect their income today?",
     "options": [
       "By buying corn futures to get more corn later",
-      "By selling corn futures to lock in a high price now for",
+      "By selling corn futures to lock in a high price now for their October delivery",
       "By quitting farming and investing in tech stocks",
       "By waiting until October to see what the market price is"
     ],
-    "answer": "By selling corn futures to lock in a high price now for",
+    "answer": "By selling corn futures to lock in a high price now for their October delivery",
     "explanation": "By 'selling' the future, the farmer locks in a guaranteed price. If the market price crashes, the buyer of the contract must still pay the farmer the higher, agreed-upon price.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "You pay $5 for a 'Call Option' to buy a stock at $100. By next month, the stock price has risen to $150. What is the most logical action to take?",
     "options": [
       "Let the option expire worthless",
-      "Exercise the option to buy the stock at $100 and",
+      "Exercise the option to buy the stock at $100 and immediately sell it for $150",
       "Sell the option back for $0",
       "Wait for the price to drop back to $100 before buying"
     ],
-    "answer": "Exercise the option to buy the stock at $100 and",
+    "answer": "Exercise the option to buy the stock at $100 and immediately sell it for $150",
     "explanation": "Since the market price ($150) is higher than your strike price ($100), the option is 'in the money.' You can buy the stock at a discount and pocket the $50 difference (minus the cost of the option).",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "An investor owns 1,000 shares of a stock and is afraid of a market crash. They buy a 'Put Option' with a strike price of $50. If the stock crashes to $10, how does the Put Option help them?",
     "options": [
       "It allows them to buy more shares at $10",
-      "It allows them to sell their shares at",
+      "It allows them to sell their shares at $50, regardless of the current $10 price",
       "It forces them to lose $50 per share",
       "It doubles the number of shares they own"
     ],
-    "answer": "It allows them to sell their shares at",
+    "answer": "It allows them to sell their shares at $50, regardless of the current $10 price",
     "explanation": "The Put Option protects the 'downside.' Even though the market says the stock is worth $10, the contract holder has the right to sell it for $50, effectively capping their losses.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Using $1,000, an investor can either buy 10 shares of a stock OR options that control 1,000 shares. Why is the options strategy considered much riskier?",
     "options": [
       "Because the options are illegal for retail investors",
-      "Because a small percentage drop in the stock price",
+      "Because a small percentage drop in the stock price could result in a 100% loss of the $1,000 investment",
       "Because options never gain value",
       "Because owning 1,000 shares is safer than owning 10"
     ],
-    "answer": "Because a small percentage drop in the stock price",
+    "answer": "Because a small percentage drop in the stock price could result in a 100% loss of the $1,000 investment",
     "explanation": "Options have expiration dates. If the stock doesn't reach the target price by that date, the option becomes worthless. While the 10 shares might lose some value, the options can easily lose 100% of their value.",
     "difficulty": "medium"
   },
@@ -89,7 +89,7 @@
     "description": "You hold a Call Option with a strike price of $100 that expires today at 4:00 PM. The stock is currently trading at $95. What is the value of your option at 4:01 PM?",
     "options": [
       "$5",
-      "About one hundred dollars market value",
+      "$100",
       "$0 (It is worthless)",
       "$95"
     ],
@@ -130,12 +130,12 @@
     "content": "While often criticized for their complexity, derivatives provide a vital social function by allowing risks to be transferred to those most willing to bear them. This price discovery and risk-shifting allow for more stable planning in the global economy.",
     "description": "How do derivatives actually help a local grocery store keep the price of bread stable for consumers?",
     "options": [
-      "By allowing wheat farmers and bread factories",
+      "By allowing wheat farmers and bread factories to lock in costs and avoid sudden price spikes",
       "By making sure the stock market always goes up",
       "By eliminating the need for banks",
       "By forcing people to buy more bread"
     ],
-    "answer": "By allowing wheat farmers and bread factories",
+    "answer": "By allowing wheat farmers and bread factories to lock in costs and avoid sudden price spikes",
     "explanation": "When a factory can hedge the cost of flour using derivatives, they don't have to raise bread prices every time there is a bad harvest. This leads to more stable prices for everyone in the grocery store.",
     "difficulty": "hard"
   }

@@ -6,10 +6,10 @@
     "options": [
       "More brown beetles as they adapt to avoid birds",
       "Equal numbers of green and brown beetles",
-      "More green beetles due to better survival and",
+      "More green beetles due to better survival and reproduction",
       "No change in color distribution"
     ],
-    "answer": "More green beetles due to better survival and",
+    "answer": "More green beetles due to better survival and reproduction",
     "explanation": "Natural selection favors green beetles because they survive longer (better camouflage) and thus have more opportunities to reproduce, passing on their green color genes.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "If all wolves are removed from a forest ecosystem, what is most likely to happen?",
     "options": [
       "The forest becomes healthier without predators",
-      "Deer populations explode, leading to overgrazing and plant",
+      "Deer populations explode, leading to overgrazing and plant loss",
       "Other predators immediately replace wolves' ecological role",
       "No significant changes occur"
     ],
-    "answer": "Deer populations explode, leading to overgrazing and plant",
+    "answer": "Deer populations explode, leading to overgrazing and plant loss",
     "explanation": "Removing top predators disrupts ecosystem balance. Without wolves to control them, deer populations grow unchecked, overconsume vegetation, and damage the ecosystem.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "An island can support 1,000 rabbits based on food and space. If 1,500 rabbits live there, what will likely happen?",
     "options": [
       "Rabbits will migrate to find better islands",
-      "Rabbit population will decrease due to starvation and",
+      "Rabbit population will decrease due to starvation and disease",
       "The island will magically produce more resources",
       "Rabbits will stop reproducing until balance is restored"
     ],
-    "answer": "Rabbit population will decrease due to starvation and",
+    "answer": "Rabbit population will decrease due to starvation and disease",
     "explanation": "When population exceeds carrying capacity, resources become insufficient. Competition increases, leading to starvation, disease, and population decline back to sustainable levels.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "If you place a plant in a sealed container with no light source, what happens to its mass over several weeks?",
     "options": [
       "It gains mass from absorbing container gases",
-      "It loses mass as it uses stored energy",
+      "It loses mass as it uses stored energy without producing new",
       "Its mass stays exactly the same",
       "It gains mass from water in the soil"
     ],
-    "answer": "It loses mass as it uses stored energy",
+    "answer": "It loses mass as it uses stored energy without producing new",
     "explanation": "Without light, photosynthesis stops. The plant consumes stored sugars for respiration, losing mass as carbon dioxide and water are released.",
     "difficulty": "medium"
   },
@@ -90,10 +90,10 @@
     "options": [
       "Become part of the digested food",
       "Increase the temperature needed for digestion",
-      "Speed up breakdown of food without being used",
+      "Speed up breakdown of food without being used up",
       "Change the nutritional value of food"
     ],
-    "answer": "Speed up breakdown of food without being used",
+    "answer": "Speed up breakdown of food without being used up",
     "explanation": "Enzymes are biological catalysts that speed up chemical reactions (like breaking down food) by lowering activation energy, while remaining unchanged themselves.",
     "difficulty": "medium"
   },

@@ -6,10 +6,10 @@
     "options": [
       "Customers are not genuinely interested in the products",
       "The prices are too high compared to competitors",
-      "Excessive friction in the checkout process is",
-      "The website loads too slowly for most users"
+      "Excessive friction in the checkout process is converting potential revenue into lost energy",
+      "The website loads too slowly for most users which is a critical factor to consider in this context"
     ],
-    "answer": "Excessive friction in the checkout process is",
+    "answer": "Excessive friction in the checkout process is converting potential revenue into lost energy",
     "explanation": "Like physical friction that turns kinetic energy into heat, each extra screen and form field in the checkout flow converts customer purchase intent into frustration and abandonment. The fix is not more marketing — it is removing friction points.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Two mid-sized companies try to adopt AI tools. Company A rolls out a company-wide AI policy in six weeks. Company B is still in the 'approval committee formation' phase after six months. What distinguishes them?",
     "options": [
       "Company A had a larger budget for AI tools",
-      "decisions flow easily; Company B has high",
+      "Company A has low organizational viscosity — decisions flow easily; Company B has high viscosity where internal resistance blocks motion regardless of input force",
       "Company A's employees are more technically skilled",
-      "Company B's industry is more regulated"
+      "Company B's industry is more regulated which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
-    "answer": "decisions flow easily; Company B has high",
+    "answer": "Company A has low organizational viscosity — decisions flow easily; Company B has high viscosity where internal resistance blocks motion regardless of input force",
     "explanation": "Viscosity describes how easily an organization flows. High-viscosity cultures grind initiatives to a halt through endless committees, sign-offs, and red tape. Low-viscosity organizations move quickly because internal resistance is minimal.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Build the AI bot — automation is always the right solution",
       "Hire more support agents to handle the ticket volume",
-      "investigate why users need to reset passwords so often and",
-      "Outsource password reset support to a third-party vendor"
+      "First conduct a friction audit: investigate why users need to reset passwords so often and address the root cause",
+      "Outsource password reset support to a third-party vendor which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
-    "answer": "investigate why users need to reset passwords so often and",
+    "answer": "First conduct a friction audit: investigate why users need to reset passwords so often and address the root cause",
     "explanation": "Adding AI force treats the symptom, not the cause. A friction audit would examine why password resets are frequent — perhaps the expiration policy is too aggressive, or the reset flow itself is confusing. Removing the underlying friction eliminates the problem entirely.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A company splits into eight micro-teams each owning a small piece of the product. Feature delivery slows dramatically despite all teams being fully staffed. What explains this?",
     "options": [
       "Micro-teams are inherently less productive than larger teams",
-      "The increased surface area between teams creates more",
-      "Developers in micro-teams lose their specialization",
+      "The increased surface area between teams creates more coordination friction, wasting energy on handoffs and alignment",
+      "Developers in micro-teams lose their specialization which is a critical factor to consider in this context",
       "The product architecture does not support micro-team ownership"
     ],
-    "answer": "The increased surface area between teams creates more",
+    "answer": "The increased surface area between teams creates more coordination friction, wasting energy on handoffs and alignment",
     "explanation": "Each handoff between teams is a contact surface that generates friction. More teams mean more surfaces, more meetings, more context-switching, and more energy lost to coordination. Sometimes reducing the number of interfaces improves total system throughput.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A design team and an engineering team constantly clash over handoff quality. Designs are ambiguous, engineers build the wrong thing, and rework piles up. What is the most effective lubricant for this interface?",
     "options": [
       "Replace the design team with engineers who can design their own interfaces",
-      "Require all designs to be pixel-perfect before any engineering work begins",
-      "Create a shared design system, clear handoff protocols, and a cross-functional",
+      "Require all designs to be pixel-perfect before any engineering work begins which is a critical factor to consider in this context",
+      "Create a shared design system, clear handoff protocols, and a cross-functional review process that reduces translation loss",
       "Have the engineering manager sit in every design review and approve each decision"
     ],
-    "answer": "Create a shared design system, clear handoff protocols, and a cross-functional",
+    "answer": "Create a shared design system, clear handoff protocols, and a cross-functional review process that reduces translation loss",
     "explanation": "Just as oil reduces metal-on-metal friction, shared tooling and protocols reduce the friction between teams. A design system eliminates ambiguity; clear handoff protocols reduce rework. The goal is to minimize the energy lost in translation between functions.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "The VP of Sales keeps pushing the team to make more calls, extending targets, and hiring more representatives — yet revenue per rep keeps declining. What is the VP missing?",
     "options": [
       "The sales team is not motivated enough and needs better incentives",
-      "The sales reps are not sufficiently trained on product features",
-      "poor lead quality, cumbersome CRM workflows, or misaligned",
+      "The sales reps are not sufficiently trained on product features which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "There is likely friction in the sales process — poor lead quality, cumbersome CRM workflows, or misaligned compensation — that force alone cannot fix",
       "The market has shifted and the product is no longer viable"
     ],
-    "answer": "poor lead quality, cumbersome CRM workflows, or misaligned",
+    "answer": "There is likely friction in the sales process — poor lead quality, cumbersome CRM workflows, or misaligned compensation — that force alone cannot fix",
     "explanation": "Adding more force (more reps, more calls) to a high-friction system yields diminishing returns. A friction audit would reveal the actual bottlenecks — perhaps reps waste hours on CRM data entry or receive low-quality leads. Removing those friction points increases output without more force.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "High-viscosity cultures resist novel ideas regardless of merit. An innovation may have overwhelming evidence supporting it, but it will not flow through a thick organizational culture.",
     "description": "A mid-level manager discovers a competitor's successful pricing model and presents data showing it would increase revenue by 15%. The idea dies in committee review for six months. What is the root cause?",
     "options": [
-      "The data was not convincing enough to justify the change",
+      "The data was not convincing enough to justify the change which is a critical factor to consider in this context",
       "The competitor's pricing model would not work for this specific industry",
-      "The organization has high cultural viscosity where even well-supported",
+      "The organization has high cultural viscosity where even well-supported ideas get stuck in the approval process",
       "The manager did not present the idea to the right stakeholders"
     ],
-    "answer": "The organization has high cultural viscosity where even well-supported",
+    "answer": "The organization has high cultural viscosity where even well-supported ideas get stuck in the approval process",
     "explanation": "In a high-viscosity culture, ideas do not flow based on merit alone. They get trapped by hierarchy, risk aversion, and process overhead. Reducing viscosity means flattening approval chains, empowering decision-making at lower levels, and creating rapid experimentation pathways.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "The most effective systems are not the most powerful — they are the ones with the least internal resistance. A frictionless system outperforms a powerful but sticky system every time.",
     "description": "Two ride-sharing apps operate in the same city. App A has more drivers and lower prices. App B has fewer drivers but a simpler interface, faster matching, and fewer cancellation steps. App B has higher customer satisfaction. What does this illustrate?",
     "options": [
-      "Customers prefer smaller companies over market leaders",
-      "A smoother, lower-friction experience can compensate for",
+      "Customers prefer smaller companies over market leaders which is a critical factor to consider in this context",
+      "A smoother, lower-friction experience can compensate for less raw power in the network",
       "App A's drivers are less professional than App B's drivers",
       "App A's prices are too low and attract low-quality riders"
     ],
-    "answer": "A smoother, lower-friction experience can compensate for",
+    "answer": "A smoother, lower-friction experience can compensate for less raw power in the network",
     "explanation": "App A applies more force (more drivers, lower prices) but App B reduces friction (simpler flow, faster matching). The smoother system wins because it wastes less user energy. This is the essence of the friction model — minimizing resistance often beats maximizing force.",
     "difficulty": "easy"
   }

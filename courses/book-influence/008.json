@@ -6,10 +6,10 @@
     "options": [
       "Social proof - seeing others use their services",
       "Authority - the company appears established",
-      "Reciprocity - the unsolicited gift creates",
+      "Reciprocity - the unsolicited gift creates obligation",
       "Scarcity - the gift appears limited edition"
     ],
-    "answer": "Reciprocity - the unsolicited gift creates",
+    "answer": "Reciprocity - the unsolicited gift creates obligation",
     "explanation": "The unexpected gift triggers the reciprocity norm, creating a psychological obligation to reciprocate with attention or compliance, which is the core mechanism at work here.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A new restaurant in an unfamiliar neighborhood is mostly empty. The owner offers free appetizers (reciprocity) and puts up a sign reading 'Join 200 satisfied diners this week' (social proof). Three months later, the restaurant thrives. Which principle was likely MOST critical for overcoming the initial barrier?",
     "options": [
       "Reciprocity — free food created obligation to return and bring others",
-      "Social proof — the sign reduced uncertainty about an unknown",
+      "Social proof — the sign reduced uncertainty about an unknown restaurant",
       "Both contributed equally to the restaurant's success",
       "Neither — success was entirely due to food quality"
     ],
-    "answer": "Social proof — the sign reduced uncertainty about an unknown",
+    "answer": "Social proof — the sign reduced uncertainty about an unknown restaurant",
     "explanation": "The primary barrier was uncertainty (it is new and unfamiliar). Social proof directly addresses uncertainty by showing others have chosen this place. While reciprocity helps once people are inside, it does not solve the initial problem of getting people through the door. Social proof was the critical lever for the primary barrier.",
     "difficulty": "hard"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Always choose the crowded one due to social proof",
       "Always choose the empty one to avoid crowds",
-      "Consider why each is busy or empty alongside the",
+      "Consider why each is busy or empty alongside the social proof",
       "Ask strangers which they prefer before deciding"
     ],
-    "answer": "Consider why each is busy or empty alongside the",
+    "answer": "Consider why each is busy or empty alongside the social proof",
     "explanation": "Social proof provides useful information about popularity but should be evaluated alongside other factors like menu preferences, dietary restrictions, or actual food quality assessments.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Two friends exchange favors. Friend A always gives slightly more and subtly reminds Friend B of past favors when asking for help. Friend B feels increasingly uncomfortable. This dynamic is unhealthy because:",
     "options": [
       "Friends should never exchange favors — it creates transactional relationships",
-      "Friend A uses accumulated obligation to create asymmetric power in the",
+      "Friend A uses accumulated obligation to create asymmetric power in the relationship",
       "Friend B should give more to balance the reciprocity",
       "The favors are not valuable enough to create meaningful reciprocity"
     ],
-    "answer": "Friend A uses accumulated obligation to create asymmetric power in the",
+    "answer": "Friend A uses accumulated obligation to create asymmetric power in the relationship",
     "explanation": "Healthy reciprocity maintains balanced relationships through voluntary, mutual exchange. Here, Friend A deliberately creates a debt imbalance and leverages it strategically, transforming reciprocity into a power tool. The discomfort Friend B feels signals that the natural, voluntary quality of reciprocity has been replaced by calculated obligation.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "After learning about the six principles of influence, the most important personal application is to:",
     "options": [
       "Use the principles to manipulate others more effectively",
-      "Recognize when principles are being used on you and",
+      "Recognize when principles are being used on you and pause before responding",
       "Try to eliminate all influence from your life",
       "Teach others to use the principles against each other"
     ],
-    "answer": "Recognize when principles are being used on you and",
+    "answer": "Recognize when principles are being used on you and pause before responding",
     "explanation": "The protective power of influence knowledge lies in creating awareness that allows conscious choice rather than automatic compliance, enabling alignment with one's true interests and values.",
     "difficulty": "medium"
   }

@@ -5,11 +5,11 @@
     "description": "How does Daytona define a composable computer?",
     "options": [
       "A machine built from modular hardware components that can be swapped",
-      "A sandbox environment with configurable CPU, memory, storage, and",
+      "A sandbox environment with configurable CPU, memory, storage, and permissions",
       "A quantum computing unit for AI processing",
       "A shared computer used by multiple developers simultaneously"
     ],
-    "answer": "A sandbox environment with configurable CPU, memory, storage, and",
+    "answer": "A sandbox environment with configurable CPU, memory, storage, and permissions",
     "explanation": "Daytona's sandboxes are composable computers — you can configure CPU, memory, disk, and network permissions independently per environment.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "The episode contrasts simple code execution environments with full computer environments for agents.",
     "description": "Compared to a code execution box, what additional capability does a Daytona sandbox provide?",
     "options": [
-      "It can run actual software installations, not just",
+      "It can run actual software installations, not just scripts",
       "It consumes less memory than a code execution box",
       "It only supports Python, not other languages",
       "It is slower but more secure than code execution boxes"
     ],
-    "answer": "It can run actual software installations, not just",
+    "answer": "It can run actual software installations, not just scripts",
     "explanation": "A code execution box runs a single script; a Daytona sandbox is a full computer where you can install packages, run servers, and persist state.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "The podcast discusses sandboxes that can maintain state across sessions for long-running agent workflows.",
     "description": "What property do stateful sandboxes have that stateless code runners lack?",
     "options": [
-      "They can pause and resume including filesystem,",
+      "They can pause and resume including filesystem, processes, memory, and network state",
       "They reset to a clean state after every execution",
       "They only allow read-only access to files",
       "They cannot connect to the internet"
     ],
-    "answer": "They can pause and resume including filesystem,",
+    "answer": "They can pause and resume including filesystem, processes, memory, and network state",
     "explanation": "Stateful sandboxes can be paused and resumed with full state preservation, essential for long-running background agents.",
     "difficulty": "easy"
   },
@@ -46,12 +46,12 @@
     "content": "The platform uses a hybrid approach borrowing ideas from both serverless and long-running compute.",
     "description": "What hybrid model does Daytona use that combines serverless and long-running compute paradigms?",
     "options": [
-      "Lambda for short-lived snapshots, EC2-equivalent",
+      "Lambda for short-lived snapshots, EC2-equivalent for long-running sandboxes",
       "Lambda for storage and EC2 for networking",
       "Lambda for user management and EC2 for billing",
       "Lambda as a backup and EC2 as the primary compute"
     ],
-    "answer": "Lambda for short-lived snapshots, EC2-equivalent",
+    "answer": "Lambda for short-lived snapshots, EC2-equivalent for long-running sandboxes",
     "explanation": "Daytona uses a Lambda-like model for snapshot creation and teardown, while long-running agent sandboxes behave like EC2 instances.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "The podcast discusses how sandbox resources need to adapt to changing agent demands during execution.",
     "description": "What problem does dynamic resizing of CPU and memory solve for AI agents?",
     "options": [
-      "It prevents out-of-memory errors when an agent's",
+      "It prevents out-of-memory errors when an agent's workload suddenly spikes",
       "It reduces the cost of idle sandboxes to zero",
       "It allows agents to run on mobile phone hardware",
       "It eliminates the need for any persistent storage"
     ],
-    "answer": "It prevents out-of-memory errors when an agent's",
+    "answer": "It prevents out-of-memory errors when an agent's workload suddenly spikes",
     "explanation": "Agents have unpredictable resource needs; dynamic resizing prevents OOM crashes without over-provisioning.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "The episode explores the cost and performance tradeoffs between different sandbox lifecycle models.",
     "description": "What is the key tradeoff when choosing between preemptible and long-running sandboxes for agent workloads?",
     "options": [
-      "Preemptible sandboxes are faster to start but lose state; long-running sandboxes preserve",
+      "Preemptible sandboxes are faster to start but lose state; long-running sandboxes preserve state at higher cost",
       "Preemptible sandboxes are more secure but slower to execute code",
       "Long-running sandboxes are cheaper than preemptible sandboxes",
       "Preemptible sandboxes can only run Python while long-running sandboxes support any language"
     ],
-    "answer": "Preemptible sandboxes are faster to start but lose state; long-running sandboxes preserve",
+    "answer": "Preemptible sandboxes are faster to start but lose state; long-running sandboxes preserve state at higher cost",
     "explanation": "Preemptible sandboxes are cost-effective but state is lost when terminated; long-running sandboxes preserve state but consume resources continuously.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "The platform provides a specific interface for AI agents to interact with sandboxes without human involvement.",
     "description": "What is the primary way AI agents interface with Daytona sandboxes?",
     "options": [
-      "Through a REST API that allows agents to execute commands and read",
+      "Through a REST API that allows agents to execute commands and read outputs",
       "By sending email commands to the sandbox address",
       "Through a graphical user interface rendered in the agent's browser",
       "By physically connecting via USB to the host machine"
     ],
-    "answer": "Through a REST API that allows agents to execute commands and read",
+    "answer": "Through a REST API that allows agents to execute commands and read outputs",
     "explanation": "Daytona provides a REST API as the primary interface for agents to programmatically interact with sandboxes.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "The podcast explains that not all agents have the same infrastructure requirements.",
     "description": "What drives the need for different computer configurations for different agents?",
     "options": [
-      "Coding agents need different resources than reasoning agents or",
+      "Coding agents need different resources than reasoning agents or browsing agents",
       "All agents require identical hardware for consistency",
       "Only the programming language used determines the configuration",
       "The age of the agent determines its resource needs"
     ],
-    "answer": "Coding agents need different resources than reasoning agents or",
+    "answer": "Coding agents need different resources than reasoning agents or browsing agents",
     "explanation": "A coding agent compiling a large project needs more CPU and memory than a browsing agent scraping web pages, requiring composable configurations.",
     "difficulty": "easy"
   },
@@ -116,12 +116,12 @@
     "content": "A piece of swag becomes a symbol for a strategic insight about the company's branding.",
     "description": "Why did the phrase 'Run AI Code' become important for Daytona's positioning?",
     "options": [
-      "It highlights the gap between what developers think Daytona does",
+      "It highlights the gap between what developers think Daytona does and what it actually provides",
       "It was the name of their first venture capital round",
       "It refers to a specific programming language Daytona created",
       "It is their internal code name for the bare metal server project"
     ],
-    "answer": "It highlights the gap between what developers think Daytona does",
+    "answer": "It highlights the gap between what developers think Daytona does and what it actually provides",
     "explanation": "The 'Run AI Code' branding on a shirt led to a discussion about how people perceive Daytona as a code runner, while its value is in providing full composable computers for agents.",
     "difficulty": "hard"
   }

@@ -4,12 +4,12 @@
     "content": "ABZ Planning is a framework that rejects rigid, long-term plans in favor of adaptability. Plan A is what you are doing now; Plan B is what you pivot to as you learn more; and Plan Z is your fallback safety net. This approach allows you to take risks because you always have a 'bottom' to land on.",
     "description": "If you are currently working as a software engineer but spending your weekends learning about AI ethics to potentially switch roles, how would you categorize these activities?",
     "options": [
-      "The engineering job is Plan A; the AI ethics study is",
+      "The engineering job is Plan A; the AI ethics study is the beginning of a Plan B",
       "Both are Plan A because they happen in the same week",
       "The engineering job is Plan Z; the AI ethics is Plan A",
       "AI ethics is Plan Z because it is a backup interest"
     ],
-    "answer": "The engineering job is Plan A; the AI ethics study is",
+    "answer": "The engineering job is Plan A; the AI ethics study is the beginning of a Plan B",
     "explanation": "Plan A is your current primary focus. Plan B is the adjacent path you explore and pivot toward when you discover new opportunities or realize Plan A isn't working.",
     "difficulty": "easy"
   },
@@ -20,10 +20,10 @@
     "options": [
       "Keep writing only blog posts until the work completely stops",
       "Immediately quit freelancing and find a corporate job",
-      "Start incorporating video scripting into their services",
+      "Start incorporating video scripting into their services while phasing out blog posts",
       "Ignore the clients and hope they change their minds"
     ],
-    "answer": "Start incorporating video scripting into their services",
+    "answer": "Start incorporating video scripting into their services while phasing out blog posts",
     "explanation": "This is a pivot. You are moving from a declining Plan A to a more promising Plan B based on real-time market feedback.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "Why is it important that Plan B remains flexible and relatively informal?",
     "options": [
       "Because it is not a serious plan and shouldn't be treated as one",
-      "To allow you to pivot again quickly if the new direction doesn't",
+      "To allow you to pivot again quickly if the new direction doesn't yield results",
       "Because you shouldn't tell anyone about your backup plans",
       "To save time on paperwork so you can work harder on Plan A"
     ],
-    "answer": "To allow you to pivot again quickly if the new direction doesn't",
+    "answer": "To allow you to pivot again quickly if the new direction doesn't yield results",
     "explanation": "The point of Plan B is agility. If it’s too rigid, you lose the ability to respond to the very market changes you are trying to navigate.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Which of these is the most effective example of a Plan Z?",
     "options": [
       "A secret hope that you will win the lottery",
-      "A written agreement with your parents that you",
+      "A written agreement with your parents that you can live in their basement for 6 months while you retrain",
       "Applying for a promotion at your current company",
       "A Plan B that is slightly different from Plan A"
     ],
-    "answer": "A written agreement with your parents that you",
+    "answer": "A written agreement with your parents that you can live in their basement for 6 months while you retrain",
     "explanation": "Plan Z must be a concrete, reliable certainty. It’s the 'worst-case scenario' plan that keeps you from becoming homeless or destitute.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "You've been trying to sell a specific product for 2 years with zero sales, and every expert says the market has moved on. What should you do?",
     "options": [
       "Keep building updates for another five years to show grit",
-      "Pivot to a new game concept immediately because the",
+      "Pivot to a new game concept immediately because the feedback is clear",
       "Ignore the experts because they don't know your passion",
       "Switch to Plan Z and give up on game development entirely"
     ],
-    "answer": "Pivot to a new game concept immediately because the",
+    "answer": "Pivot to a new game concept immediately because the feedback is clear",
     "explanation": "Grit is important, but 'blind persistence' in the face of overwhelming negative market data is a recipe for failure.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Why does having a 'lifeboat' (Plan Z) actually make you more daring in your career?",
     "options": [
       "Because you don't care if you fail at all",
-      "Because it lowers the 'cost' of failure,",
+      "Because it lowers the 'cost' of failure, allowing you to try bold Plan A ideas",
       "Because Plan Z usually pays more than Plan A",
       "It doesn't; it actually makes you lazy"
     ],
-    "answer": "Because it lowers the 'cost' of failure,",
+    "answer": "Because it lowers the 'cost' of failure, allowing you to try bold Plan A ideas",
     "explanation": "When you know you won't 'die' (professionally or financially) if a risk doesn't pan out, you are free to pursue high-upside opportunities.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "You are offered a job that pays 10% less but puts you at the center of a new industry you want to learn. How do you evaluate this?",
     "options": [
       "It is a failure because you are losing money",
-      "It is a strategic investment in 'Plan B' knowledge and",
+      "It is a strategic investment in 'Plan B' knowledge and assets",
       "It is a Plan Z move because you are 'settling' for less",
       "You should only take it if they promise a raise in one month"
     ],
-    "answer": "It is a strategic investment in 'Plan B' knowledge and",
+    "answer": "It is a strategic investment in 'Plan B' knowledge and assets",
     "explanation": "Prioritizing learning over immediate cash is a classic startup move. You are building the 'soft assets' that will pay off in the long run.",
     "difficulty": "medium"
   },
@@ -131,11 +131,11 @@
     "description": "You've successfully pivoted to your Plan B (Digital Marketing). What should you do now regarding your planning?",
     "options": [
       "Stop planning; you've arrived at your destination",
-      "Make Digital Marketing your new Plan A and start",
+      "Make Digital Marketing your new Plan A and start identifying a new Plan B",
       "Go back to your old Plan A just in case",
       "Delete your Plan Z because you are now successful"
     ],
-    "answer": "Make Digital Marketing your new Plan A and start",
+    "answer": "Make Digital Marketing your new Plan A and start identifying a new Plan B",
     "explanation": "Career management is an infinite loop. Once a pivot is successful, it becomes the new baseline, and the process of looking for the next 'Beta' begins.",
     "difficulty": "medium"
   }

@@ -451,18 +451,6 @@
       "008": "SRE auto-triage as a use case — how AI agents handle automated site reliability incident triage in production."
     }
   },
-  "podcast-autonomous-company": {
-    "title": "The Autonomous Company",
-    "type": "podcast",
-    "chapters": 3,
-    "source": "https://nav.al/autonomous",
-    "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on autonomous infrastructure, training AI agents, and creativity as the human edge.",
-    "chapterDescriptions": {
-      "001": "Autonomous Infrastructure — anomaly detection, security automation, bug-fixing daemons, and the Homer Simpson car problem.",
-      "002": "Train the Agent — Blake's hackathon, receptionist automation, skill extraction, and working at creative maximum.",
-      "003": "Creativity and the Human Edge — agency vs intelligence, vibe coding adoption, art defined, Gödel's incompleteness, and human-plus-AI."
-    }
-  },
   "podcast-daytona": {
     "title": "Giving Agents Computers",
     "type": "podcast",
@@ -503,36 +491,32 @@
   "podcast-regulatory-frontier": {
     "title": "The Regulatory Frontier",
     "type": "podcast",
-    "chapters": 3,
+    "chapters": 1,
     "source": "https://nav.al/regulatory",
     "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on battling red tape at scale with AI.",
     "chapterDescriptions": {
-      "001": "An airplane takes a lightning strike — using the Concorde's regulatory battle as a case study for AI's compliance challenges.",
-      "002": "Why Healthcare Has No Innovation — asymmetric slowdown, innovation zones, LASIK proof, and the fixed healthcare bucket.",
-      "003": "The Nuclear Safety Paradox — fifty-state experiments, Right to Try trap, N-of-1 medicine, and deregulation through lower costs."
+      "001": "An airplane takes a lightning strike — using the Concorde's regulatory battle as a case study for AI's compliance challenges."
     }
   },
   "podcast-vibe-coding-hardware": {
     "title": "Vibe Coding Hardware",
     "type": "podcast",
-    "chapters": 3,
+    "chapters": 2,
     "source": "https://nav.al/hardware",
     "description": "Nivi, Naval, Blake Scholl (Boom Supersonic), Guillermo Rauch (Vercel), and Max Hodak (Science Corp) on AI transforming hardware engineering.",
     "chapterDescriptions": {
       "001": "Vibe coding a turbine blade — how generative AI is being used to design and optimise physical hardware components.",
-      "002": "China goes all in on open source — the strategic calculus behind China's embrace of open source AI and hardware ecosystems.",
-      "003": "Software Still Needs Hands — embodied AI, robotics, chip design, ASML monopoly, and business model innovation in hardware."
+      "002": "China goes all in on open source — the strategic calculus behind China's embrace of open source AI and hardware ecosystems."
     }
   },
   "podcast-waste-tokens-save-time": {
     "title": "Waste Tokens, Save Time",
     "type": "podcast",
-    "chapters": 2,
+    "chapters": 1,
     "source": "https://nav.al/tokens",
     "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on software factories, tokenmaxxing, and AI-native engineering.",
     "chapterDescriptions": {
-      "001": "Software factories — the concept of treating AI-generated code as a scalable production pipeline rather than handcrafted art.",
-      "002": "Models Instructing Humans — tokenmaxxing as strategy, the Latent Space essay, and why engineers prompt rather than type."
+      "001": "Software factories — the concept of treating AI-generated code as a scalable production pipeline rather than handcrafted art."
     }
   }
 }

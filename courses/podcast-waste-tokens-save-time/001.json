@@ -5,11 +5,11 @@
     "description": "You are a CTO evaluating your engineering team's performance now that AI handles most implementation work. A board member asks how you measure whether an engineer is 'good enough' in the AI age. Using Guillermo Rauch's framework, what should you look for?",
     "options": [
       "How many pull requests they close per week with AI assistance",
-      "Whether they are producing the factory that will produce",
+      "Whether they are producing the factory that will produce multiplicative outputs B through Z",
       "How many tokens they consume from the AI model each day",
       "How quickly they can debug production issues using AI"
     ],
-    "answer": "Whether they are producing the factory that will produce",
+    "answer": "Whether they are producing the factory that will produce multiplicative outputs B through Z",
     "explanation": "Guillermo Rauch says the shift is from 'you are a 10x engineer' to judging whether 'you are producing the factory that will produce multiplicative outputs B through Z.' It's not about individual output; it's about creating the systems that compound output.",
     "difficulty": "medium"
   },
@@ -20,10 +20,10 @@
     "options": [
       "10x engineers exist, but the spread is only noticeable in large companies",
       "Productivity differences are at most 2x because tools equalize skill gaps",
-      "It's not even 10x — it's 100x or 1000x, and AI leverage now makes it",
+      "It's not even 10x — it's 100x or 1000x, and AI leverage now makes it obvious",
       "10x engineers existed before cloud computing but not anymore"
     ],
-    "answer": "It's not even 10x — it's 100x or 1000x, and AI leverage now makes it",
+    "answer": "It's not even 10x — it's 100x or 1000x, and AI leverage now makes it obvious",
     "explanation": "Naval says he used to get flamed for claiming 10x engineers exist, citing Satoshi and John Carmack as examples of 1000x programmers. AI leverage now makes extreme productivity differences less controversial and more visible.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A junior engineer on your team says Claude isn't that helpful — it gives vague answers and wastes time. A senior engineer insists Claude is the most powerful tool they've ever used. According to Max Hodak, what explains this discrepancy?",
     "options": [
       "The senior engineer has access to a more capable model subscription plan",
-      "AI models reflect back the competence of the user — they are as good as you are",
+      "AI models reflect back the competence of the user — they are as good as you are in the domain",
       "The junior engineer is using the wrong programming language for their AI queries",
       "The AI model has stale training data and only works well with older frameworks"
     ],
-    "answer": "AI models reflect back the competence of the user — they are as good as you are",
+    "answer": "AI models reflect back the competence of the user — they are as good as you are in the domain",
     "explanation": "Max Hodak explains: 'Claude or ChatGPT is basically as good as you are in a domain. If you're a really capable developer, these things are really powerful. If you're a junior developer, you'll find it to be more of a junior developer.'",
     "difficulty": "medium"
   },
@@ -62,10 +62,10 @@
     "options": [
       "Take over and write the implementation yourself to save time",
       "Recommend they switch to a different AI model that is more reliable",
-      "Tell them what to prompt the model with — the quality of",
+      "Tell them what to prompt the model with — the quality of reprompting is critical",
       "Suggest they abandon the AI approach and write the code manually"
     ],
-    "answer": "Tell them what to prompt the model with — the quality of",
+    "answer": "Tell them what to prompt the model with — the quality of reprompting is critical",
     "explanation": "Guillermo Rauch says: 'There's a new kind of support I give now — you come to me, you didn't get good output out of the model, and I tell you what to prompt the model with. The quality of the reprompting is extremely important.'",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "You find yourself spending 15 minutes carefully crafting the perfect prompt to minimize token usage and API costs. Naval would say your focus is misplaced. What does he recommend instead?",
     "options": [
       "Study advanced prompt engineering techniques and frameworks to maximize efficiency",
-      "Waste tokens to save time — tokens are way cheaper than a human and you can always",
+      "Waste tokens to save time — tokens are way cheaper than a human and you can always buy more",
       "Cache common responses locally to reduce API calls",
       "Use only open-source models that have zero per-token cost"
     ],
-    "answer": "Waste tokens to save time — tokens are way cheaper than a human and you can always",
+    "answer": "Waste tokens to save time — tokens are way cheaper than a human and you can always buy more",
     "explanation": "Naval says: 'I just assumed the model is going to get better faster than I would figure out how to use it... Just waste tokens to save time. No matter how expensive these models might seem, they're still way cheaper than a human.'",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You notice that your AI coding assistant no longer just implements what you ask. Instead, it frequently responds with 'Here's what I'd recommend, but there are trade-offs to consider...' and lists alternatives. How does Guillermo Rauch characterize this shift?",
     "options": [
       "The model is hallucinating more than usual and needs stricter constraints",
-      "The model has graduated from a junior engineer to a principal engineer",
+      "The model has graduated from a junior engineer to a principal engineer level",
       "This is a temporary glitch from a bad model update that will be patched",
       "The model is trying to avoid work by overcomplicating simple requests"
     ],
-    "answer": "The model has graduated from a junior engineer to a principal engineer",
+    "answer": "The model has graduated from a junior engineer to a principal engineer level",
     "explanation": "Guillermo Rauch observes: 'The models at some point graduated. They used to be junior engineers. Now they're principal engineers, because they come back to you with a set of trade-offs and plans before starting.'",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Programming languages have become simpler and eliminated race conditions entirely",
       "Modern debuggers have built-in AI that automatically fixes concurrency bugs",
-      "With agents, you just don't get stuck anymore — they can quickly find the right",
+      "With agents, you just don't get stuck anymore — they can quickly find the right way to do things",
       "Error messages have become so descriptive that no debugging is necessary"
     ],
-    "answer": "With agents, you just don't get stuck anymore — they can quickly find the right",
+    "answer": "With agents, you just don't get stuck anymore — they can quickly find the right way to do things",
     "explanation": "Max Hodak says: 'It used to be you could build a lot, a lot would go straightforward, but then you'd hit some random thing and you could spend an indefinite period of time debugging some narrow thing. Now, with agents, you just don't get stuck anymore.'",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "Someone watches you iterating with an AI agent — describing what you want, reviewing the output, giving feedback in natural language — and calls it 'vibe coding.' Naval and Guillermo recognize this pattern from something else. What?",
     "options": [
       "It mirrors how junior developers learn from senior code reviews",
-      "Engineering leaders have always been vibe coding through people on",
+      "Engineering leaders have always been vibe coding through people on Slack",
       "It's the same as pair programming but with a faster partner",
       "It resembles how founders pitch to venture capitalists for feedback"
     ],
-    "answer": "Engineering leaders have always been vibe coding through people on",
+    "answer": "Engineering leaders have always been vibe coding through people on Slack",
     "explanation": "Guillermo Rauch and Naval point out that engineering leaders have described what they do as 'vibe coding through people on Slack' — telling people what to do, reviewing output, iterating. The only change is the agent replaces the human executor.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "A founder pitches you a pure SaaS product whose only competitive advantage is the codebase. Naval would likely question this pitch. What foundational question is Naval asking about the software industry that applies here?",
     "options": [
       "When will AI replace all software engineers and make coding obsolete?",
-      "Is pure software dead — is classic software engineering becoming an obsolete",
+      "Is pure software dead — is classic software engineering becoming an obsolete thing?",
       "Should all startups pivot to selling AI models instead of building products?",
       "Will open-source eventually make commercial software illegal?"
     ],
-    "answer": "Is pure software dead — is classic software engineering becoming an obsolete",
+    "answer": "Is pure software dead — is classic software engineering becoming an obsolete thing?",
     "explanation": "Naval asks: 'Is pure software dead? Is pure software engineering an obsolete thing? It's like saying speaking English — the models now speak English.' He suggests hardware moats and model-building may be the new durable advantages.",
     "difficulty": "hard"
   }

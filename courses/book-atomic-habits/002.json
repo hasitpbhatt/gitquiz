@@ -19,11 +19,11 @@
     "description": "Two people decline a cigarette at a party. Person A says No thanks, I am trying to quit. Person B says No thanks, I am not a smoker. Why is Person B more likely to stay smoke-free?",
     "options": [
       "Because Person B has stronger willpower",
-      "Because Person B has signaled an identity shift rather",
+      "Because Person B has signaled an identity shift rather than just resisting a craving",
       "Because Person B already achieved the goal of quitting",
       "Because Person B is more polite to the person offering"
     ],
-    "answer": "Because Person B has signaled an identity shift rather",
+    "answer": "Because Person B has signaled an identity shift rather than just resisting a craving",
     "explanation": "Person A still identifies as a smoker fighting a craving. Person B no longer identifies as a smoker at all, so smoking contradicts their self-image, creating internal friction against the habit.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "An aspiring painter has never finished a canvas. According to the Two-Step Process, what is the most effective first action?",
     "options": [
       "Buy an expensive set of professional paints",
-      "Paint for ten minutes every day to accumulate",
+      "Paint for ten minutes every day to accumulate small wins and evidence",
       "Tell everyone you are a professional painter",
       "Wait for inspiration to strike before starting"
     ],
-    "answer": "Paint for ten minutes every day to accumulate",
+    "answer": "Paint for ten minutes every day to accumulate small wins and evidence",
     "explanation": "Identity change requires behavioral evidence. By painting daily, even briefly, the person provides proof to their brain that they are indeed a painter.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "A student says I am just not a morning person to explain missing early classes. How does this identity statement affect their behavior?",
     "options": [
       "It helps them accept their biological reality",
-      "It acts as a self-fulfilling prophecy that justifies",
+      "It acts as a self-fulfilling prophecy that justifies skipping class",
       "It encourages them to find creative night study options",
       "It has no real impact on their habits"
     ],
-    "answer": "It acts as a self-fulfilling prophecy that justifies",
+    "answer": "It acts as a self-fulfilling prophecy that justifies skipping class",
     "explanation": "When you label yourself, your brain seeks alignment with that label. I am not a morning person provides a ready excuse to avoid trying to change the behavior.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "A person realizes their habit of watching late-night TV no longer aligns with their goal of becoming an early riser. What should they do?",
     "options": [
       "Keep the habit for consistency",
-      "Re-evaluate their desired identity and cast new",
+      "Re-evaluate their desired identity and cast new votes for a different behavior",
       "Ignore the conflict and hope it resolves on its own",
       "Blame their personality for being unable to change"
     ],
-    "answer": "Re-evaluate their desired identity and cast new",
+    "answer": "Re-evaluate their desired identity and cast new votes for a different behavior",
     "explanation": "Identity is not fixed. As you grow, you can stop voting for old identities and build evidence for new ones that align with your current values.",
     "difficulty": "easy"
   },
@@ -118,10 +118,10 @@
     "options": [
       "To impress friends and family with discipline",
       "To reach goals as quickly as possible",
-      "To prove to yourself that you are capable of",
+      "To prove to yourself that you are capable of change and growth",
       "To ensure you never make a mistake again"
     ],
-    "answer": "To prove to yourself that you are capable of",
+    "answer": "To prove to yourself that you are capable of change and growth",
     "explanation": "The real value of a habit is the internal shift it creates. It changes your self-image from someone who struggles to someone who can, which is the foundation of all long-term success.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "A person crash-diets to reach a target weight for a wedding, succeeds, then gains all the weight back. Why does this happen?",
     "options": [
       "Because the diet was nutritionally unsound",
-      "Because the outcome was achieved without",
+      "Because the outcome was achieved without changing the underlying identity or lifestyle",
       "Because weight loss is always temporary",
       "Because the person lacked exercise"
     ],
-    "answer": "Because the outcome was achieved without",
+    "answer": "Because the outcome was achieved without changing the underlying identity or lifestyle",
     "explanation": "You can reach a goal through a burst of willpower, but without a shift in identity and habits, you revert to old patterns once the goal is reached.",
     "difficulty": "medium"
   }

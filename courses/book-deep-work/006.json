@@ -5,11 +5,11 @@
     "description": "A caseworker starts time-blocking her day. She discovers that 'miscellaneous administrative tasks' consume four hours daily. What is the primary purpose of this discovery?",
     "options": [
       "To make her feel guilty about unproductive time",
-      "To provide concrete data that she can use to",
+      "To provide concrete data that she can use to consciously reduce those hours in favor of deeper work",
       "To justify hiring an assistant",
       "To prove that her job requires more than eight hours"
     ],
-    "answer": "To provide concrete data that she can use to",
+    "answer": "To provide concrete data that she can use to consciously reduce those hours in favor of deeper work",
     "explanation": "You cannot manage what you do not measure. Time-blocking reveals where shallow time is leaking, giving you the data to reclaim it for depth.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "A head librarian spends an afternoon reshelving returned books. A bright intern could learn to do this in an hour. How should she categorize this work?",
     "options": [
       "Deep work, because an organized library is essential",
-      "Shallow work, because it requires minimal specialized",
+      "Shallow work, because it requires minimal specialized training and is easily replicated",
       "High-value work, because shelving errors cause major problems",
       "Strategic work, because it ensures books are findable"
     ],
-    "answer": "Shallow work, because it requires minimal specialized",
+    "answer": "Shallow work, because it requires minimal specialized training and is easily replicated",
     "explanation": "The depth test measures whether the task leverages your unique expertise. Reshelving can be learned in an hour, so it does not qualify as deep work, however necessary it may be.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A project manager negotiates a 40% shallow work budget with her director. She then finds that status meetings alone consume 50% of her week. What is her next step?",
     "options": [
       "Work overtime to fit deep work in the remaining time",
-      "Use the agreed budget to justify skipping or",
+      "Use the agreed budget to justify skipping or shortening low-value meetings",
       "Ignore the budget; meetings are mandatory",
       "Ask for a raise to compensate for the lost deep time"
     ],
-    "answer": "Use the agreed budget to justify skipping or",
+    "answer": "Use the agreed budget to justify skipping or shortening low-value meetings",
     "explanation": "The shallow work budget is a negotiation tool. Once agreed upon, it empowers you to make decisions about which shallow activities to cut to stay within the limit.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A pediatrician posts a notice: 'For prescription refills and routine questions, please use the patient portal. I review it at 11 AM and 4 PM daily. For urgent concerns, call 911.' How does this protect her deep work?",
     "options": [
       "It reduces the total number of inquiries she receives",
-      "It batches shallow administrative work into two",
+      "It batches shallow administrative work into two predictable blocks, protecting the rest of her day for patient-focused deep thinking",
       "It makes her seem unfriendly to patients",
       "It eliminates all administrative tasks from her day"
     ],
-    "answer": "It batches shallow administrative work into two",
+    "answer": "It batches shallow administrative work into two predictable blocks, protecting the rest of her day for patient-focused deep thinking",
     "explanation": "By batching and deferring shallow communication, you prevent it from fragmenting your entire day. Patients with urgent needs still have a channel, but routine inquiries no longer interrupt deep work.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A volunteer coordinator receives an email: 'Can we reschedule our cleanup day?' Which response is most process-centric?",
     "options": [
       "'Sure, when works for you?'",
-      "'I am available Saturday 9-12 or Sunday 2-5 at",
+      "'I am available Saturday 9-12 or Sunday 2-5 at the park. If either works, reply with your preference and I will update the calendar.'",
       "'Let me check my schedule and get back to you.'",
       "'Why do you need to reschedule?'"
     ],
-    "answer": "'I am available Saturday 9-12 or Sunday 2-5 at",
+    "answer": "'I am available Saturday 9-12 or Sunday 2-5 at the park. If either works, reply with your preference and I will update the calendar.'",
     "explanation": "A process-centric email provides specific options and a clear next step, eliminating the need for further email ping-pong to nail down details.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A church committee spends two hours debating how to allocate a small budget for community outreach. No decision is reached, and they schedule another meeting. What would Newport say?",
     "options": [
       "This is healthy democratic deliberation that requires face-to-face time",
-      "The chairperson should have spent thirty minutes of deep work preparing",
+      "The chairperson should have spent thirty minutes of deep work preparing a proposal with options, then emailed it for approval",
       "Committees should meet more frequently to build momentum",
       "The budget is too small to justify any meeting time"
     ],
-    "answer": "The chairperson should have spent thirty minutes of deep work preparing",
+    "answer": "The chairperson should have spent thirty minutes of deep work preparing a proposal with options, then emailed it for approval",
     "explanation": "Most meetings exist because nobody invested the focused effort to think through the problem in advance. That investment of depth often makes the meeting unnecessary.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A data entry specialist has spent eight years formatting spreadsheets and running standard reports. Her company adopts AI that automates her entire workflow. What is her primary risk?",
     "options": [
       "She will be promoted to manage the AI system",
-      "Her shallow skills are easily replaced because she did not",
+      "Her shallow skills are easily replaced because she did not develop unique, deep expertise",
       "The AI will create new data entry jobs she can transition to",
       "She has built enough seniority to be protected"
     ],
-    "answer": "Her shallow skills are easily replaced because she did not",
+    "answer": "Her shallow skills are easily replaced because she did not develop unique, deep expertise",
     "explanation": "Shallow work builds a 'moat' around your career. Easily replicable skills offer little protection when automation or restructuring arrives.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "A chef tries to launch a new menu, manage staffing, handle social media, negotiate with suppliers, and redesign the dining room simultaneously. After three months, nothing is complete. What does the productivity funnel explain?",
     "options": [
       "The chef is not working hard enough",
-      "Too many competing tasks fragment focus, preventing any",
+      "Too many competing tasks fragment focus, preventing any single project from receiving the intensity needed for completion",
       "The restaurant industry is too demanding for one person",
       "The chef should hire a general manager immediately"
     ],
-    "answer": "Too many competing tasks fragment focus, preventing any",
+    "answer": "Too many competing tasks fragment focus, preventing any single project from receiving the intensity needed for completion",
     "explanation": "Deep work capacity is finite. When you spread it across too many tasks, none receives enough intensity to push through to completion. The funnel gets clogged.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "A financial advisor adds a note to her contact page: 'Please include your specific financial goal and your current top three concerns.' How does this serve her deep work?",
     "options": [
       "It discourages everyone from contacting her",
-      "It shifts the shallow work of articulating",
+      "It shifts the shallow work of articulating the request to the sender, protecting her time for high-value financial analysis",
       "It helps her sort clients by income level",
       "It is required by financial regulations"
     ],
-    "answer": "It shifts the shallow work of articulating",
+    "answer": "It shifts the shallow work of articulating the request to the sender, protecting her time for high-value financial analysis",
     "explanation": "Sender filters make others do the cognitive work of clarifying their needs. Many prospective clients will realize their question is not urgent, and those who do respond provide enough context for a focused reply.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "A medical researcher commits to never working past 6 PM. Suddenly, she finds that she no longer has time to browse journals for two hours each afternoon. Is her system failing?",
     "options": [
       "Yes; staying current with research is essential for a scientist",
-      "No; the constraint is working by forcing her to distinguish",
+      "No; the constraint is working by forcing her to distinguish between productive reading and passive browsing",
       "Yes; she should extend her hours to 8 PM",
       "No, but she should read journals at home instead"
     ],
-    "answer": "No; the constraint is working by forcing her to distinguish",
+    "answer": "No; the constraint is working by forcing her to distinguish between productive reading and passive browsing",
     "explanation": "The fixed schedule acts as a forcing function. When time is scarce, your brain naturally prioritizes high-value activities and reveals which habits were actually low-value fillers.",
     "difficulty": "hard"
   }

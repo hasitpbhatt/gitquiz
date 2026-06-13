@@ -4,12 +4,12 @@
     "content": "Fallibilism is the recognition that we are all capable of error - no belief is beyond question, and all knowledge is tentative and corrigible.",
     "description": "Three climate models disagree on regional rainfall by 2050. Model X uses one set of assumptions, Model Y a different set, and Model Z averages both. A politician says 'since all models are fallible, we cannot act.' A scientist says 'exactly because we know each model is fallible, we must test which assumptions fail and improve.' Who better applies fallibilism, and why?",
     "options": [
-      "The scientist; fallibilism demands identifying and correcting specific errors, not",
+      "The scientist; fallibilism demands identifying and correcting specific errors, not paralysis",
       "The politician; fallibilism correctly leads to skepticism about all knowledge claims",
       "Neither; fallibilism only applies to established facts, not predictions",
       "Both equally; they simply draw different practical conclusions from the same insight"
     ],
-    "answer": "The scientist; fallibilism demands identifying and correcting specific errors, not",
+    "answer": "The scientist; fallibilism demands identifying and correcting specific errors, not paralysis",
     "explanation": "The politician uses fallibilism as an excuse for inaction — a common misuse. True fallibilism (as Deutsch advocates) recognizes that all knowledge is conjectural and corrigible, which means we should actively seek errors through criticism to improve our models, not abandon the attempt. The scientist's approach — finding which assumptions fail — is the productive application of fallibilism that drives knowledge growth.",
     "difficulty": "hard"
   },
@@ -33,11 +33,11 @@
     "description": "A student proposes a new way to organize the filing system before having all the details. This illustrates:",
     "options": [
       "Why we should wait until we have all information",
-      "How creative conjectures start the knowledge",
+      "How creative conjectures start the knowledge creation process",
       "That filing systems should never be changed",
       "The dangers of thinking outside the box"
     ],
-    "answer": "How creative conjectures start the knowledge",
+    "answer": "How creative conjectures start the knowledge creation process",
     "explanation": "The student made a conjecture (a better filing system) without complete evidence - this is how knowledge creation begins. The conjecture can then be tested, criticized, and refined through the conjecture-refutation cycle.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "Why we should avoid technological solutions",
       "That all solutions are inherently bad",
-      "How solving problems creates new,",
+      "How solving problems creates new, higher-quality problems",
       "That communication technology was a mistake"
     ],
-    "answer": "How solving problems creates new,",
+    "answer": "How solving problems creates new, higher-quality problems",
     "explanation": "Social media solved the problem of instant global communication but introduced new challenges like misinformation spread. This is normal - each solution reveals higher-quality problems to tackle, driving unbounded progress.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "'Prove me wrong' vs. 'Let's try to disprove this together' shows the difference between:",
     "options": [
       "Two equally valid approaches to knowledge",
-      "Justificationism (seeking proof) and",
+      "Justificationism (seeking proof) and criticism (seeking refutation)",
       "Why we should never change our minds",
       "The importance of being absolutely certain"
     ],
-    "answer": "Justificationism (seeking proof) and",
+    "answer": "Justificationism (seeking proof) and criticism (seeking refutation)",
     "explanation": "Seeking proof ('prove me wrong' implies it's already right) is justificationism - trying to show an idea cannot be refuted. Seeking refutation together is the critical approach - actively trying to find flaws to improve our understanding.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "Learning to cook: each burned meal teaches something. This illustrates:",
     "options": [
       "Why we should eat only pre-made food",
-      "How knowledge grows through learning",
+      "How knowledge grows through learning from errors",
       "That cooking talent is purely innate",
       "The importance of never making mistakes"
     ],
-    "answer": "How knowledge grows through learning",
+    "answer": "How knowledge grows through learning from errors",
     "explanation": "Each cooking failure teaches about ingredient interactions, timing, temperatures - correcting mistaken beliefs. Knowledge isn't downloaded perfectly; it's built gradually by eliminating errors through criticism and testing.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Einstein imagining riding alongside a light beam led to relativity. This shows:",
     "options": [
       "Why daydreaming is a waste of time",
-      "How imagination enables scientific",
+      "How imagination enables scientific breakthroughs",
       "That thought experiments are useless in science",
       "Why we should only trust laboratory evidence"
     ],
-    "answer": "How imagination enables scientific",
+    "answer": "How imagination enables scientific breakthroughs",
     "explanation": "Einstein's imaginative thought experiment (chasing a light beam) helped him conceive special relativity - demonstrating how creative imagination forms the conjectures that drive scientific progress before experimental testing.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "'The sun revolves around Earth' seemed certain once. This illustrates:",
     "options": [
       "Why ancient people were stupid",
-      "How even strongly-held beliefs can be",
+      "How even strongly-held beliefs can be mistaken",
       "That we should trust our senses completely",
       "Why science cannot make progress"
     ],
-    "answer": "How even strongly-held beliefs can be",
+    "answer": "How even strongly-held beliefs can be mistaken",
     "explanation": "The geocentric model seemed obviously true based on daily observation - yet was completely wrong. This shows how fallibilism applies even to our most certain-seeming beliefs, which must remain open to refutation.",
     "difficulty": "medium"
   }

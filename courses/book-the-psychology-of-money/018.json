@@ -5,11 +5,11 @@
     "description": "An investor desperately needs a 20% return to retire on time. They find a high-risk investment that promises exactly that. Why are they more likely to believe the 'story' of this investment than someone who is already financially secure?",
     "options": [
       "Because they are more motivated to do research.",
-      "Because their personal need creates an 'appealing fiction' that",
+      "Because their personal need creates an 'appealing fiction' that blinds them to the actual risks.",
       "Because high-risk investments only work for people who need them.",
       "Because they have a better understanding of market timing."
     ],
-    "answer": "Because their personal need creates an 'appealing fiction' that",
+    "answer": "Because their personal need creates an 'appealing fiction' that blinds them to the actual risks.",
     "explanation": "Housel argues that the more you need something to be true, the more likely you are to believe a story that says it is, regardless of the odds.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "After a market crash, pundits spend hours explaining exactly why it happened. What is the psychological function of these 'after-the-fact' stories?",
     "options": [
       "To help investors predict the exact date of the next crash.",
-      "To provide a sense of order and predictability in a world",
+      "To provide a sense of order and predictability in a world that is largely chaotic.",
       "To ensure the government passes the correct laws.",
       "To prove that the experts knew it was coming all along."
     ],
-    "answer": "To provide a sense of order and predictability in a world",
+    "answer": "To provide a sense of order and predictability in a world that is largely chaotic.",
     "explanation": "Stories help us sleep at night by making the world feel less random, even if those stories have no predictive power for the future.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "If a professional's livelihood depends on them being able to predict the market, how does that affect the stories they tell themselves?",
     "options": [
       "They become more accurate in their predictions.",
-      "They convince themselves they have a skill that",
+      "They convince themselves they have a skill that may actually be luck to justify their career.",
       "They stop making predictions entirely.",
       "They only give advice to people who don't need it."
     ],
-    "answer": "They convince themselves they have a skill that",
+    "answer": "They convince themselves they have a skill that may actually be luck to justify their career.",
     "explanation": "We all tell ourselves stories that make our roles in the world feel necessary and earned, often ignoring the role of external forces like luck.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Why might an investor prefer a 50-page technical report over a simple 'buy and hold' strategy?",
     "options": [
       "Because technical reports are always more accurate.",
-      "Because complexity masks the reality of uncertainty",
+      "Because complexity masks the reality of uncertainty and makes us feel like we have a 'secret' edge.",
       "Because 'buy and hold' is no longer a valid strategy.",
       "Because more pages always equals more value."
     ],
-    "answer": "Because complexity masks the reality of uncertainty",
+    "answer": "Because complexity masks the reality of uncertainty and makes us feel like we have a 'secret' edge.",
     "explanation": "Simplicity feels like leaving money on the table, while complexity feels like a 'serious' plan, even if the math doesn't back it up.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "Looking back at the 2008 financial crisis, many people say, 'It was so obvious it was going to happen.' Why is this 'story' dangerous for future investing?",
     "options": [
       "It makes people too afraid to ever invest again.",
-      "It gives us false confidence that we will be",
+      "It gives us false confidence that we will be able to see the next 'obvious' crisis before it happens.",
       "It causes people to ignore historical data.",
       "It leads to lower tax rates for investors."
     ],
-    "answer": "It gives us false confidence that we will be",
+    "answer": "It gives us false confidence that we will be able to see the next 'obvious' crisis before it happens.",
     "explanation": "Hindsight bias erases the memory of how uncertain we actually felt at the time, making the world seem more predictable than it truly is.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "When an expert's confident prediction turns out to be wrong, how do they usually protect their 'story'?",
     "options": [
       "By admitting they were completely wrong and changing their method.",
-      "By saying they were 'almost' right or that an 'unforeseeable'",
+      "By saying they were 'almost' right or that an 'unforeseeable' event interfered.",
       "By quitting their job in shame.",
       "By giving back the money they earned from the prediction."
     ],
-    "answer": "By saying they were 'almost' right or that an 'unforeseeable'",
+    "answer": "By saying they were 'almost' right or that an 'unforeseeable' event interfered.",
     "explanation": "To maintain the 'appealing fiction' of their expertise, they must find a way to blame the world rather than their own lack of predictive ability.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Why can a company's stock price go up even if its profits are going down?",
     "options": [
       "Because the math of the market is broken.",
-      "Because the 'story' people believe about the company's",
+      "Because the 'story' people believe about the company's future is more powerful than the current data.",
       "Because the government is likely subsidizing the company.",
       "Because investors don't care about profits anymore."
     ],
-    "answer": "Because the 'story' people believe about the company's",
+    "answer": "Because the 'story' people believe about the company's future is more powerful than the current data.",
     "explanation": "Investing is often a battle of narratives. If people believe a company will 'change the world,' they will pay for that story regardless of the current balance sheet.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "How does Housel suggest we combat our tendency to believe 'appealing fictions'?",
     "options": [
       "By never listening to anyone else's opinion.",
-      "By acknowledging our own biases and leaving a massive",
+      "By acknowledging our own biases and leaving a massive 'room for error' in our plans.",
       "By only investing in things we don't like.",
       "By becoming experts in psychology instead of finance."
     ],
-    "answer": "By acknowledging our own biases and leaving a massive",
+    "answer": "By acknowledging our own biases and leaving a massive 'room for error' in our plans.",
     "explanation": "Since we can't stop ourselves from wanting to believe stories, we must build a financial life that can survive the moment when those stories turn out to be false.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "When a new technology or financial tool emerges, why do people often say 'this time is different'?",
     "options": [
       "Because human evolution has actually accelerated.",
-      "Because they want to believe they've found a way to get the reward",
+      "Because they want to believe they've found a way to get the reward without the risk.",
       "Because modern computers have eliminated all market errors.",
       "Because history only matters for people who don't have the internet."
     ],
-    "answer": "Because they want to believe they've found a way to get the reward",
+    "answer": "Because they want to believe they've found a way to get the reward without the risk.",
     "explanation": "Human nature (greed and fear) is the one thing that never changes, but we tell ourselves it has so we can justify taking bigger risks.",
     "difficulty": "hard"
   },

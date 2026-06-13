@@ -5,11 +5,11 @@
     "description": "According to the transcript, why might you NOT want to generate a new dashboard every single time you have a question?",
     "options": [
       "Because the AI might refuse to do the work twice.",
-      "Because it might be too slow for every single",
+      "Because it might be too slow for every single interaction.",
       "Because the data is too secret for the AI to see.",
       "Because it is against medical regulations."
     ],
-    "answer": "Because it might be too slow for every single",
+    "answer": "Because it might be too slow for every single interaction.",
     "explanation": "Naval notes that while AI can recreate dashboards on demand, you might not do it every time because of the latency/speed, but you can update them on demand as needed.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "What is the primary benefit of an AI 'discovering' an API for a team?",
     "options": [
       "It makes the code more secure from outside hackers.",
-      "It removes the need to wait for another person to write an",
+      "It removes the need to wait for another person to write an explicit interface to work with their code.",
       "It ensures that everyone is using the exact same hardware.",
       "It allows the CEO to monitor every line of code written."
     ],
-    "answer": "It removes the need to wait for another person to write an",
+    "answer": "It removes the need to wait for another person to write an explicit interface to work with their code.",
     "explanation": "Naval explains that you don't necessarily need a custom-written API because the AI can find its own way into the data or code, acting as a force multiplier for speed.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "What specific example does Naval give for how AI could determine the actual progress toward shipping a product?",
     "options": [
       "It can conduct 1-on-1 interviews with every employee.",
-      "It can analyze the company email and codebase to draw a Gantt chart",
+      "It can analyze the company email and codebase to draw a Gantt chart based on current estimates and activity.",
       "It can read the minds of the hardware engineers.",
       "It can predict the shipping date based on the current weather in China."
     ],
-    "answer": "It can analyze the company email and codebase to draw a Gantt chart",
+    "answer": "It can analyze the company email and codebase to draw a Gantt chart based on current estimates and activity.",
     "explanation": "Naval points out that AI can do 'data analysis and digging' on the company's internal communications and files to provide a realistic progress report.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Implicit AI usage means using the tool to solve immediate problems (like reading a paper or finding an expert) without a formal corporate mandate. Naval believes this is a force multiplier for small teams of independent contributors who don't want the overhead of a large organization.",
     "description": "Why is Naval's company 'Impossible' not using AI explicitly in their communication (like an AI manager)?",
     "options": [
-      "Because they are too small and rely on a 'fully interconnected",
+      "Because they are too small and rely on a 'fully interconnected graph' of smart individuals.",
       "Because they believe AI is not smart enough to manage humans.",
       "Because they cannot afford the high cost of enterprise AI tools.",
       "Because they prefer to use Slack and project management software."
     ],
-    "answer": "Because they are too small and rely on a 'fully interconnected",
+    "answer": "Because they are too small and rely on a 'fully interconnected graph' of smart individuals.",
     "explanation": "Naval notes that they are 'a bunch of brilliant independent contributors' who communicate directly, so they use AI as a tool for work rather than a method for management.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "What does Naval conclude about AI as a 'force multiplier' in his current setup?",
     "options": [
       "It is a distraction that they try to avoid.",
-      "It is naturally a force multiplier, even though they haven't done",
+      "It is naturally a force multiplier, even though they haven't done anything 'explicit' with it.",
       "It is only a force multiplier for the hardware team, not software.",
       "It is only useful if the company grows to over 1,000 people."
     ],
-    "answer": "It is naturally a force multiplier, even though they haven't done",
+    "answer": "It is naturally a force multiplier, even though they haven't done anything 'explicit' with it.",
     "explanation": "Even without a formal 'AI strategy,' Naval finds that AI implicitly helps everyone build, discover, and collaborate faster than they could without it.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "In Naval's example, how does an AI-enabled hardware person speed up their work?",
     "options": [
       "The AI manufactures the prototype hardware instantly.",
-      "They write a little bit of software to bring up a new",
+      "They write a little bit of software to bring up a new device instead of waiting for a software person to come by.",
       "The AI convinces the software person to work harder.",
       "The AI replaces the need for physical hardware entirely."
     ],
-    "answer": "They write a little bit of software to bring up a new",
+    "answer": "They write a little bit of software to bring up a new device instead of waiting for a software person to come by.",
     "explanation": "By becoming a '30% generalist' in software through AI, the hardware engineer removes a dependency and keeps the project in motion.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "According to the transcript, why is 'explicit marking down of things' becoming less necessary?",
     "options": [
       "Because nobody reads documentation anymore.",
-      "Because AI can figure out where you are by digging through the",
+      "Because AI can figure out where you are by digging through the codebase and designs itself.",
       "Because documentation is now considered illegal in most startups.",
       "Because the CEO keeps the whole project in his head anyway."
     ],
-    "answer": "Because AI can figure out where you are by digging through the",
+    "answer": "Because AI can figure out where you are by digging through the codebase and designs itself.",
     "explanation": "Naval explains that AI's ability to 'figure out where you are' by scanning current work means you don't need the same level of manual, explicit documentation.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "What can AI 'constantly be doing' for an organization to replace static charts?",
     "options": [
       "Monitoring employee social media for 'quiet quitting.'",
-      "Performing data analysis, digging, and reporting for",
+      "Performing data analysis, digging, and reporting for the team on demand.",
       "Writing marketing emails to all the suppliers.",
       "Designing new hardware without human input."
     ],
-    "answer": "Performing data analysis, digging, and reporting for",
+    "answer": "Performing data analysis, digging, and reporting for the team on demand.",
     "explanation": "Naval sees AI as an active analyst that can produce 'reports on demand' rather than a passive system of static dashboards.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "Why does having 'better touch points' matter in a flat organization like Naval's?",
     "options": [
       "It allows for better politics between departments.",
-      "It makes the gluing between different specialists (like hardware and",
+      "It makes the gluing between different specialists (like hardware and software) easier.",
       "It helps the CEO manage more people simultaneously.",
       "It makes it easier for the AI to eventually replace the human workers."
     ],
-    "answer": "It makes the gluing between different specialists (like hardware and",
+    "answer": "It makes the gluing between different specialists (like hardware and software) easier.",
     "explanation": "Naval emphasizes that AI makes 'the gluing between them a little easier,' as specialists can bridge the gap between their roles without waiting for external help.",
     "difficulty": "hard"
   }

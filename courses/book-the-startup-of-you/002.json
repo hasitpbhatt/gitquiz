@@ -33,11 +33,11 @@
     "description": "You once dreamed of being a solo artist, but after a year of trying, you realize you value teamwork and steady collaboration more. How should this affect your career strategy?",
     "options": [
       "Stick to the solo plan because changing your mind is a sign of failure",
-      "Pivot your career path to join a creative agency where collaboration is",
+      "Pivot your career path to join a creative agency where collaboration is the norm",
       "Quit the creative field entirely because your first dream didn't work out",
       "Keep your solo dream but work a job you hate just to pay the bills"
     ],
-    "answer": "Pivot your career path to join a creative agency where collaboration is",
+    "answer": "Pivot your career path to join a creative agency where collaboration is the norm",
     "explanation": "Aspirations should be shaped by the information you gather while in 'Permanent Beta.' Adjusting your goals based on what you value is a strategic move.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "You provide a generic data entry service that many others also offer online for a lower price. How can you shift your competitive advantage?",
     "options": [
       "Lower your prices even further to be the cheapest in the world",
-      "Specialize in high-security medical data entry that requires a",
+      "Specialize in high-security medical data entry that requires a specific local certification",
       "Work twice as many hours doing the same generic task",
       "Hope that your current clients don't find the cheaper options"
     ],
-    "answer": "Specialize in high-security medical data entry that requires a",
+    "answer": "Specialize in high-security medical data entry that requires a specific local certification",
     "explanation": "By adding a layer of specialization or local expertise (a 'soft asset'), you move away from being a commodity and create a defensible niche.",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "By doing the exact same sales pitch for the next five years",
       "By using your commission to buy a luxury car",
-      "By using your influence to lead a cross-functional team and",
+      "By using your influence to lead a cross-functional team and learn project management",
       "By taking more vacation time to relax"
     ],
-    "answer": "By using your influence to lead a cross-functional team and",
+    "answer": "By using your influence to lead a cross-functional team and learn project management",
     "explanation": "Reinvesting assets means using what you are good at to gain access to new skills or roles, making you a more versatile and valuable professional.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "You've been in the same role for three years and feel 'out of sync.' What is the first step in the 'Dynamic Alignment' process?",
     "options": [
       "Wait for your boss to notice and offer you a new role",
-      "Perform a 'personal audit' to see how the market or",
+      "Perform a 'personal audit' to see how the market or your own interests have changed",
       "Quit your job immediately without a plan",
       "Complain to your colleagues about the company culture"
     ],
-    "answer": "Perform a 'personal audit' to see how the market or",
+    "answer": "Perform a 'personal audit' to see how the market or your own interests have changed",
     "explanation": "Dynamic alignment starts with assessment. You need to identify which of the three pieces (Assets, Aspirations, or Market) is no longer fitting the others.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "Who has a stronger competitive advantage in the current job market?",
     "options": [
       "A 'general' marketing assistant with no specific industry knowledge",
-      "A marketing specialist who specifically knows how to grow",
+      "A marketing specialist who specifically knows how to grow sustainable fashion brands",
       "A person who is 'okay' at 20 different unrelated hobbies",
       "A student with a high GPA but no work experience"
     ],
-    "answer": "A marketing specialist who specifically knows how to grow",
+    "answer": "A marketing specialist who specifically knows how to grow sustainable fashion brands",
     "explanation": "Specialization creates a niche. By being the 'go-to' person for a specific intersection of skills and industry, you face less direct competition.",
     "difficulty": "easy"
   },
@@ -116,12 +116,12 @@
     "content": "The authors argue that you will work harder and learn faster if you are genuinely interested in what you do. Therefore, your 'aspirations' are not just a 'nice to have'—they are a fuel that increases the value of your assets.",
     "description": "You are choosing between two skills to learn. Skill A is boring but pays well now. Skill B is fascinating to you and has a growing market. Why might Skill B be the better choice for your competitive advantage?",
     "options": [
-      "Because you will naturally put in the '10,000 hours' of practice easier",
+      "Because you will naturally put in the '10,000 hours' of practice easier with Skill B",
       "Because boring skills are always easier to learn",
       "Because Skill A will definitely be automated tomorrow",
       "There is no reason; you should always choose the highest pay immediately"
     ],
-    "answer": "Because you will naturally put in the '10,000 hours' of practice easier",
+    "answer": "Because you will naturally put in the '10,000 hours' of practice easier with Skill B",
     "explanation": "Interest drives the persistence required to master a skill. A mastery of Skill B eventually leads to higher long-term value than a mediocre grasp of Skill A.",
     "difficulty": "easy"
   },
@@ -132,10 +132,10 @@
     "options": [
       "Write a 50-page manifesto and keep it on your computer",
       "Tell your family members how smart the idea is",
-      "Offer a pilot session to a potential client and see if",
+      "Offer a pilot session to a potential client and see if they find it valuable enough to pay for a second",
       "Print business cards with 'Expert' written on them"
     ],
-    "answer": "Offer a pilot session to a potential client and see if",
+    "answer": "Offer a pilot session to a potential client and see if they find it valuable enough to pay for a second",
     "explanation": "Competitive advantage is determined by the market. If someone pays for your expertise, you have a validated advantage.",
     "difficulty": "medium"
   }

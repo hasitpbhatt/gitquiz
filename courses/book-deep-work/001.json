@@ -5,11 +5,11 @@
     "description": "A violinist practices a difficult piece for three hours with complete focus, eyes closed, working through each complex passage repeatedly. Her phone is in another room. What is this an example of?",
     "options": [
       "Shallow work, because she is alone",
-      "Deep work, because she is pushing her cognitive limits",
+      "Deep work, because she is pushing her cognitive limits in a state of focused concentration",
       "Deliberate idleness, because she is not producing anything tangible",
       "Multitasking, because she is playing multiple notes"
     ],
-    "answer": "Deep work, because she is pushing her cognitive limits",
+    "answer": "Deep work, because she is pushing her cognitive limits in a state of focused concentration",
     "explanation": "Deep work requires distraction-free concentration on a cognitively demanding task. The violinist is fully engaged in skill development, which creates new value and improves her ability.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A cashier spends an afternoon alphabetizing a cabinet of paper files while listening to a podcast. How would Cal Newport classify this work?",
     "options": [
       "Deep work, because filing requires precision",
-      "Shallow work, because it is a routine task",
+      "Shallow work, because it is a routine task that does not push cognitive limits",
       "Elite production, because organization is valuable",
       "Strategic thinking, because it prepares for future work"
     ],
-    "answer": "Shallow work, because it is a routine task",
+    "answer": "Shallow work, because it is a routine task that does not push cognitive limits",
     "explanation": "Shallow work is cognitively undemanding and easily replicated. Alphabetizing files requires minimal specialized skill and does not create significant new value.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "In a world where most professionals constantly check notifications and switch tasks every few minutes, a graphic designer dedicates four uninterrupted hours each morning to her most complex projects. According to the Deep Work Hypothesis, what is her competitive position?",
     "options": [
       "She is at a disadvantage because she misses important messages",
-      "She is well-positioned because the rare skill of intense focus creates",
+      "She is well-positioned because the rare skill of intense focus produces high-value, hard-to-replicate work",
       "Her position is unchanged because talent matters more than work habits",
       "She is falling behind because collaboration requires constant availability"
     ],
-    "answer": "She is well-positioned because the rare skill of intense focus creates",
+    "answer": "She is well-positioned because the rare skill of intense focus produces high-value, hard-to-replicate work",
     "explanation": "The hypothesis predicts that as distraction becomes the norm, the minority who maintain deep focus will produce rare, valuable output that is increasingly prized in the economy.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "A chef is chopping vegetables while also monitoring a pot of soup and answering questions from a line cook. When she returns to a complicated sauce recipe, she keeps leaving out ingredients. What is the most likely cause?",
     "options": [
       "The sauce recipe is too difficult for her skill level",
-      "Attention residue from the interrupted tasks is occupying her mind",
+      "Attention residue from the interrupted tasks is occupying her mental bandwidth",
       "She needs more kitchen experience before attempting complex sauces",
       "The ingredients are arranged poorly on her workstation"
     ],
-    "answer": "Attention residue from the interrupted tasks is occupying her mind",
+    "answer": "Attention residue from the interrupted tasks is occupying her mental bandwidth",
     "explanation": "Every interruption leaves cognitive residue. By splitting her attention across multiple tasks, the chef never fully commits her mental resources to the sauce, leading to errors.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "Two photographers each spend a week editing a portfolio. Photographer A works 40 hours but checks social media constantly. Photographer B works 20 hours in complete silence with no phone access. What does Newport's formula predict?",
     "options": [
       "Photographer A will produce better work because of the extra hours",
-      "Photographer B will likely produce higher quality because intensity",
+      "Photographer B will likely produce higher quality work because intensity multiplies output",
       "Both will produce identical work since they have the same skill level",
       "The formula only applies to knowledge work, not creative fields"
     ],
-    "answer": "Photographer B will likely produce higher quality because intensity",
+    "answer": "Photographer B will likely produce higher quality work because intensity multiplies output",
     "explanation": "Intensity of focus acts as a multiplier. Low intensity over many hours yields less valuable output than high intensity over fewer hours, because distracted work lacks the depth needed for elite results.",
     "difficulty": "easy"
   },
@@ -88,12 +88,12 @@
     "content": "In most knowledge work, it is difficult to measure the actual value an employee creates. This 'metric black hole' means organizations cannot see the cost of distraction, so they default to behaviors that feel productive—like constant connectivity—without recognizing the damage to deep output.",
     "description": "A company implements a policy requiring all employees to respond to Slack messages within five minutes. Productivity metrics (revenue, projects completed) remain flat, but managers praise the new 'responsiveness.' What dynamic is at play?",
     "options": [
-      "The policy is working because responsiveness equals productivity",
-      "Managers cannot see the hidden loss of deep thinking capacity",
-      "Employees are secretly working longer hours to compensate",
-      "Slack messages contain the most important strategic information"
+      "The policy is working; responsiveness is a form of productivity",
+      "The metric black hole prevents managers from seeing that deep work has been sacrificed for visible busyness",
+      "Slack messages contain the most important strategic information",
+      "Employees are secretly working longer hours to compensate"
     ],
-    "answer": "Managers cannot see the hidden loss of deep thinking capacity",
+    "answer": "The metric black hole prevents managers from seeing that deep work has been sacrificed for visible busyness",
     "explanation": "Because deep output is hard to measure, managers default to visible metrics like response time. They cannot see the hidden cost: lost capacity for the deep thinking that drives real results.",
     "difficulty": "easy"
   },
@@ -102,12 +102,12 @@
     "content": "In the absence of clear feedback on what behaviors drive results, people gravitate toward whatever is easiest in the moment. This explains why checking email feels more natural than wrestling with a difficult problem, even when the problem matters more.",
     "description": "A social media manager has two tasks: plan a quarterly content strategy (difficult, high-impact) and respond to comments (easy, low-impact). Every morning she starts with comments and never gets to the strategy. What explains this pattern?",
     "options": [
-      "Comments are more urgent because they come from real people",
-      "The brain gravitates toward easier tasks in the absence of",
+      "Comments are more urgent than strategy",
+      "The Law of Least Resistance: the brain gravitates toward the easier task in the moment",
       "Strategy work is not an official part of her job description",
       "Responding to comments generates more revenue directly"
     ],
-    "answer": "The brain gravitates toward easier tasks in the absence of",
+    "answer": "The Law of Least Resistance: the brain gravitates toward the easier task in the moment",
     "explanation": "Without clear feedback that strategy drives more value than comments, the brain defaults to the easier activity. Overcoming this requires conscious systems that make deep work the path of least resistance.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "A new employee stays late every night, attends every optional meeting, and sends dozens of emails. Meanwhile, a senior colleague leaves at 5 PM but consistently delivers breakthrough solutions. Who is more likely to be perceived as productive by leadership?",
     "options": [
       "The senior colleague, because results speak for themselves",
-      "The new employee, because visible busyness is easier to",
+      "The new employee, because their visible busyness is easier to measure than actual deep output",
       "Both are equally valued since they both contribute",
       "Neither; leadership values neither visibility nor results"
     ],
-    "answer": "The new employee, because visible busyness is easier to",
+    "answer": "The new employee, because their visible busyness is easier to measure than actual deep output",
     "explanation": "In a metric black hole, visible activity becomes the proxy for productivity. The senior colleague's deep work is invisible, while the new employee's busyness creates the appearance of high productivity.",
     "difficulty": "easy"
   },
@@ -131,11 +131,11 @@
     "description": "A school district installs interactive whiteboards, requires teachers to maintain classroom Twitter accounts, and mandates real-time parent messaging during lessons. Test scores drop. What conflict does this illustrate?",
     "options": [
       "Teachers are not tech-savvy enough to use the new tools",
-      "Connectivity was prioritized over teacher concentration and",
+      "The cult of the internet prioritized connectivity over the deep concentration required for effective teaching",
       "Interactive whiteboards are inherently inferior to chalkboards",
       "Parents prefer email over messaging apps"
     ],
-    "answer": "Connectivity was prioritized over teacher concentration and",
+    "answer": "The cult of the internet prioritized connectivity over the deep concentration required for effective teaching",
     "explanation": "Not every profession benefits from constant connectivity. Teaching requires sustained attention to student needs, which is undermined when the teacher's focus is fragmented by tools and notifications.",
     "difficulty": "easy"
   }

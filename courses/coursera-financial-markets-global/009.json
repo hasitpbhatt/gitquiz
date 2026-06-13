@@ -5,11 +5,11 @@
     "description": "If the U.S. dollar becomes 'stronger' compared to the Euro, what is the most likely immediate effect for an American tourist traveling to Paris?",
     "options": [
       "Their vacation will become more expensive",
-      "Their dollars will buy more Euros, making the",
+      "Their dollars will buy more Euros, making the trip cheaper",
       "They will be unable to use their credit cards",
       "The price of flights will automatically double"
     ],
-    "answer": "Their dollars will buy more Euros, making the",
+    "answer": "Their dollars will buy more Euros, making the trip cheaper",
     "explanation": "A 'strong' currency means its purchasing power has increased relative to another. When the dollar is strong against the Euro, each dollar converts into more Euros, lowering the cost of goods and services for the traveler.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "A floating exchange rate is determined by the private market through supply and demand. A fixed (or 'pegged') exchange rate is when a government or central bank ties its currency's value to another major currency, like the U.S. dollar, to ensure stability.",
     "description": "A small nation that relies heavily on exports to the United States decides to peg its currency to the USD. What is the primary risk they face by doing this?",
     "options": [
-      "They lose control over their own domestic",
+      "They lose control over their own domestic monetary policy",
       "Their currency will become worthless immediately",
       "They will be banned from international trade",
       "Inflation will drop to zero forever"
     ],
-    "answer": "They lose control over their own domestic",
+    "answer": "They lose control over their own domestic monetary policy",
     "explanation": "To maintain a peg, the country must mirror the interest rate changes of the U.S. Fed. If the U.S. raises rates to fight inflation, the small nation must do the same, even if their own economy is in a recession and needs lower rates.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "If a country consistently runs a massive trade deficit, how must they fundamentally finance the extra goods they are buying from the rest of the world?",
     "options": [
       "By printing an infinite amount of money",
-      "By selling assets (like land or stocks)",
+      "By selling assets (like land or stocks) or borrowing from foreign investors",
       "By stopping all international travel",
       "By increasing the minimum wage"
     ],
-    "answer": "By selling assets (like land or stocks)",
+    "answer": "By selling assets (like land or stocks) or borrowing from foreign investors",
     "explanation": "A trade deficit in goods must be balanced by a surplus in the capital account. Effectively, the country is 'paying' for its extra imports by sending currency or ownership of assets back to the exporting nations.",
     "difficulty": "medium"
   },
@@ -62,10 +62,10 @@
     "options": [
       "It will strengthen because there is less of it in the country",
       "It will stay the same",
-      "It will crash as everyone sells the local currency to buy",
+      "It will crash as everyone sells the local currency to buy foreign ones",
       "The government will give everyone free gold"
     ],
-    "answer": "It will crash as everyone sells the local currency to buy",
+    "answer": "It will crash as everyone sells the local currency to buy foreign ones",
     "explanation": "Capital flight creates a massive 'supply' of the local currency on the market with very little 'demand.' This imbalance causes the currency's value to plummet, often leading to a financial crisis.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A developing nation can no longer afford to pay for its essential imports or its foreign debt. Which international organization is most likely to step in with an emergency rescue package?",
     "options": [
       "The World Health Organization (WHO)",
-      "The International Monetary Fund",
+      "The International Monetary Fund (IMF)",
       "The New York Stock Exchange",
       "The Federal Reserve"
     ],
-    "answer": "The International Monetary Fund",
+    "answer": "The International Monetary Fund (IMF)",
     "explanation": "The IMF's mandate is specifically to ensure global monetary stability and provide a safety net for countries in deep financial distress to prevent the crisis from spreading.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "An American car manufacturer spends $2 billion to build a state-of-the-art factory in Vietnam. This transaction is classified as:",
     "options": [
       "Portfolio Investment",
-      "Foreign Direct",
+      "Foreign Direct Investment (FDI)",
       "A Currency Swap",
       "An Import of Services"
     ],
-    "answer": "Foreign Direct",
+    "answer": "Foreign Direct Investment (FDI)",
     "explanation": "Unlike buying a few shares of a foreign stock (portfolio investment), building a physical factory is FDI because it involves direct management and a long-term physical presence in the host country.",
     "difficulty": "medium"
   },
@@ -116,12 +116,12 @@
     "content": "Modern finance enables complex global supply chains. Through trade finance (letters of credit and guarantees), banks ensure that a manufacturer in China can trust they will be paid by a buyer in Brazil, even if they have never met.",
     "description": "A small electronics brand in Germany wants to order parts from a new supplier in Malaysia. The supplier is afraid the German brand won't pay. What financial tool solves this 'trust' problem?",
     "options": [
-      "A Letter of Credit issued by a",
+      "A Letter of Credit issued by a bank",
       "A verbal promise over the phone",
       "A high-interest credit card",
       "A government tax credit"
     ],
-    "answer": "A Letter of Credit issued by a",
+    "answer": "A Letter of Credit issued by a bank",
     "explanation": "A Letter of Credit is a bank's guarantee that the seller will receive payment as long as the shipping documents are in order. This reduces the risk for the seller and facilitates international trade.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "Country A places a 25% tariff on steel from Country B. In response, Country B places a 25% tariff on agricultural products from Country A. Who ultimately pays the cost of these taxes?",
     "options": [
       "Only the governments of the two countries",
-      "The consumers and businesses in both",
+      "The consumers and businesses in both countries who buy those products",
       "No one; the money is simply deleted",
       "Only the shipping companies"
     ],
-    "answer": "The consumers and businesses in both",
+    "answer": "The consumers and businesses in both countries who buy those products",
     "explanation": "Tariffs are almost always passed on to the buyer. The local construction company will pay more for steel, and the local grocery shopper will pay more for food, as businesses raise prices to cover the tax.",
     "difficulty": "hard"
   }

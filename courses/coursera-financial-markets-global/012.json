@@ -5,11 +5,11 @@
     "description": "An investor owns 50 different stocks across various industries. A sudden global oil shortage causes the entire stock market to drop by 10%. Why didn't the investor's large number of stocks protect them from this loss?",
     "options": [
       "Because they didn't own enough stocks",
-      "Because the oil shortage is a Systematic Risk that",
+      "Because the oil shortage is a Systematic Risk that affects the entire economy",
       "Because they forgot to buy insurance on their portfolio",
       "Because diversification only works in a bull market"
     ],
-    "answer": "Because the oil shortage is a Systematic Risk that",
+    "answer": "Because the oil shortage is a Systematic Risk that affects the entire economy",
     "explanation": "Diversification eliminates idiosyncratic risk, but it cannot protect against market risk that impacts all sectors simultaneously.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "According to the CAPM formula, if an investment has a Beta of 0, what should its expected return be?",
     "options": [
       "Zero percent",
-      "The Risk-Free Rate (e.g., the",
+      "The Risk-Free Rate (e.g., the return on a Treasury Bond)",
       "The same as the Stock Market return",
       "An infinite return"
     ],
-    "answer": "The Risk-Free Rate (e.g., the",
+    "answer": "The Risk-Free Rate (e.g., the return on a Treasury Bond)",
     "explanation": "If there is no market risk, the formula calculates that the investor should only earn the Risk-Free Rate.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "High fees always guarantee better results",
       "Active management is always illegal",
-      "Fees and market efficiency make it very",
+      "Fees and market efficiency make it very difficult for active managers to provide value over the long term",
       "The manager should have traded more frequently"
     ],
-    "answer": "Fees and market efficiency make it very",
+    "answer": "Fees and market efficiency make it very difficult for active managers to provide value over the long term",
     "explanation": "In an efficient market, it is hard to find mispriced stocks. High fees make it even harder to beat a simple index fund.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "After a massive stock market rally, your 50/50 portfolio is now 80% Stocks and 20% Bonds. Why is it important to rebalance?",
     "options": [
       "To pay more in taxes",
-      "To prevent your portfolio from",
+      "To prevent your portfolio from becoming much riskier than you originally intended",
       "Because you are required to by law",
       "To make sure you never make a profit"
     ],
-    "answer": "To prevent your portfolio from",
+    "answer": "To prevent your portfolio from becoming much riskier than you originally intended",
     "explanation": "If you don't rebalance, the risky part of your portfolio grows as a percentage of your wealth, increasing your exposure to a crash.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "Which of the following decisions will have the greatest impact on long-term wealth?",
     "options": [
       "Picking the perfect single tech stock",
-      "The overall percentage of savings kept in stocks",
+      "The overall percentage of savings kept in stocks versus a savings account",
       "The specific day of the week they choose to invest",
       "Which bank they use for their checking account"
     ],
-    "answer": "The overall percentage of savings kept in stocks",
+    "answer": "The overall percentage of savings kept in stocks versus a savings account",
     "explanation": "Asset Allocation drives about 90 percent of a portfolio's return variability over long periods.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "An investor pulls their money out for the three best days of the year. What is the likely result?",
     "options": [
       "They will have much more money",
-      "They will likely have significantly",
+      "They will likely have significantly less money",
       "Their returns will be exactly the same",
       "The bank will give them a bonus"
     ],
-    "answer": "They will likely have significantly",
+    "answer": "They will likely have significantly less money",
     "explanation": "Missing just a few top-performing days can ruin annual gains, making stay the course a statistically superior strategy.",
     "difficulty": "hard"
   }

@@ -5,11 +5,11 @@
     "description": "You are rebalancing a portfolio of 10 stocks. Your GenAI model flags that 3 of these companies have 'declining sentiment' due to aging product lines. How should this affect your Efficient Frontier calculation?",
     "options": [
       "Ignore the sentiment as the Efficient Frontier only uses historical volatility.",
-      "Lower the expected return for those 3 stocks to shift the portfolio toward the",
+      "Lower the 'Expected Return' for those 3 stocks, which will likely shift the AI-optimized portfolio toward the other 7 stocks.",
       "Sell all 10 stocks and buy Gold.",
       "Increase the weight of the 3 stocks to 'buy the dip' regardless of the risk."
     ],
-    "answer": "Lower the expected return for those 3 stocks to shift the portfolio toward the",
+    "answer": "Lower the 'Expected Return' for those 3 stocks, which will likely shift the AI-optimized portfolio toward the other 7 stocks.",
     "explanation": "GenAI provides 'forward-looking' adjustments. By lowering the expected return based on negative qualitative analysis, the optimization math naturally tilts the portfolio toward healthier assets.",
     "difficulty": "medium"
   },
@@ -19,11 +19,11 @@
     "description": "Your portfolio is heavily weighted in Tech. An LLM detects a sudden shift in government policy toward 'Strict AI Regulation.' What is the most 'proactive' automated rebalancing action?",
     "options": [
       "Wait for the end of the quarter to see the official price impact.",
-      "Trigger an immediate automated reduction in Tech exposure and rotate",
+      "Trigger an immediate automated reduction in Tech exposure and rotate into 'Regulatory-Safe' sectors like Utilities.",
       "Ask the AI to write a letter to the government to stop the regulation.",
       "Buy more Tech because the AI is likely hallucinating the risk."
     ],
-    "answer": "Trigger an immediate automated reduction in Tech exposure and rotate",
+    "answer": "Trigger an immediate automated reduction in Tech exposure and rotate into 'Regulatory-Safe' sectors like Utilities.",
     "explanation": "The value of GenAI in portfolio management is 'velocity.' It allows for event-driven rebalancing, protecting the portfolio from sector-wide downturns caused by qualitative shifts.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "The AI aggregate score for 'Global Conflict' and 'Inflation' has hit an all-time high. Based on this macro-sentiment, how should a portfolio's asset allocation change?",
     "options": [
       "Increase allocation to high-growth, high-debt startups.",
-      "Shift allocation toward defensive assets like Treasury",
+      "Shift the allocation toward 'Defensive' assets like Treasury bonds, Cash, or Defensive Commodities (Gold/Oil).",
       "Do nothing; macro-sentiment is too vague to be useful.",
       "Invest 100% in the most volatile asset available."
     ],
-    "answer": "Shift allocation toward defensive assets like Treasury",
+    "answer": "Shift the allocation toward 'Defensive' assets like Treasury bonds, Cash, or Defensive Commodities (Gold/Oil).",
     "explanation": "High scores in 'Conflict' and 'Inflation' sentiment indicate a high-risk environment. Shifting to defensive assets is the standard risk-aversion move in institutional portfolio management.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "You think your portfolio is diversified because you own Tech and EV stocks. Your GenAI tool points out that both sectors are currently tied to the 'Lithium Price' narrative. Why is this a risk?",
     "options": [
       "It isn't a risk as long as Lithium prices go up.",
-      "It reveals a concentration risk where a single supply",
+      "It reveals a 'concentration risk' where a single supply chain event could crash both sectors simultaneously.",
       "Lithium is a metal, so it doesn't affect stock prices.",
       "The AI is trying to confuse you with technical details."
     ],
-    "answer": "It reveals a concentration risk where a single supply",
+    "answer": "It reveals a 'concentration risk' where a single supply chain event could crash both sectors simultaneously.",
     "explanation": "GenAI can 'see' the interconnectedness of the global supply chain through text. Recognizing that seemingly different sectors share a common risk allows for truer diversification.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "You have two portfolios with the same historical Sharpe Ratio. Portfolio A has a GenAI 'Stability' score of 0.9, while Portfolio B has a score of 0.3 due to upcoming legal trials. Which should you prefer?",
     "options": [
       "Portfolio B, because high risk means high reward.",
-      "Portfolio A, as the GenAI score suggests lower",
+      "Portfolio A, because the GenAI score suggests lower future uncertainty and a more reliable risk-adjusted return.",
       "It doesn't matter; historical data is the only truth.",
       "Average the two portfolios together."
     ],
-    "answer": "Portfolio A, as the GenAI score suggests lower",
+    "answer": "Portfolio A, because the GenAI score suggests lower future uncertainty and a more reliable risk-adjusted return.",
     "explanation": "A high GenAI 'Stability' score suggests that the textual environment (news/legal/filings) is calm, making the historical Sharpe Ratio a more reliable indicator for the future.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "Your portfolio has two stocks that are down 20%. Stock A has a 'positive sentiment' outlook; Stock B has a 'negative' outlook with news of an accounting probe. Which is the better candidate for tax-loss harvesting?",
     "options": [
       "Stock A, because you want to get rid of winners.",
-      "Stock B, to harvest the tax loss on a",
+      "Stock B, because you can harvest the tax loss on a stock that the AI suggests is fundamentally failing anyway.",
       "Both, to maximize the tax benefit.",
       "Neither; you should never sell at a loss."
     ],
-    "answer": "Stock B, to harvest the tax loss on a",
+    "answer": "Stock B, because you can harvest the tax loss on a stock that the AI suggests is fundamentally failing anyway.",
     "explanation": "GenAI helps you decide *what* to harvest. Selling the 'fundamentally weak' stock allows you to take the tax benefit while keeping the 'temporarily weak' stock that still has potential.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "You want to test how your portfolio would handle a 'Global Semiconductor Shortage.' How does GenAI help beyond a simple spreadsheet?",
     "options": [
       "By looking at price charts from the 1920s.",
-      "By finding which companies mention chips or semiconductors",
+      "By identifying which of your companies (even non-tech ones) mention 'chips' or 'semiconductors' as a critical risk in their 10-K filings.",
       "By predicting exactly what day the shortage will start.",
       "By telling you that shortages are always good for business."
     ],
-    "answer": "By finding which companies mention chips or semiconductors",
+    "answer": "By identifying which of your companies (even non-tech ones) mention 'chips' or 'semiconductors' as a critical risk in their 10-K filings.",
     "explanation": "GenAI connects the 'crisis narrative' to your specific holdings by searching for semantic links that a purely numerical model would miss.",
     "difficulty": "hard"
   },
@@ -103,11 +103,11 @@
     "description": "Your 'Tail Risk' agent flags a 300% increase in the word 'liquidity crisis' across banking news. What is the most appropriate portfolio management response?",
     "options": [
       "Ignore it until the VIX (volatility index) actually moves.",
-      "Purchase protective puts or reduce leverage as a precautionary hedge.",
+      "Purchase 'protective puts' (insurance) or reduce leverage across the portfolio as a precautionary hedge.",
       "Tell the AI to stop being so dramatic.",
       "Double down on the most profitable stocks to make up for the potential risk."
     ],
-    "answer": "Purchase protective puts or reduce leverage as a precautionary hedge.",
+    "answer": "Purchase 'protective puts' (insurance) or reduce leverage across the portfolio as a precautionary hedge.",
     "explanation": "GenAI can be a 'leading indicator' for volatility. Hedging when the *language* of risk increases allows you to protect the portfolio before the *price* of insurance (options) becomes too expensive.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "You are building a 'Green Energy' index. Company A is the largest, but has poor sentiment due to labor strikes. Company B is smaller but has glowing sentiment. How does an AI-weighted index behave?",
     "options": [
       "It gives Company A more weight because it is bigger.",
-      "It tilts toward Company B because its high Sentiment Momentum",
+      "It tilts the weighting toward Company B because its high 'Sentiment Momentum' suggests future price outperformance.",
       "It gives both companies zero weight.",
       "It changes the weightings every 5 seconds based on Twitter likes."
     ],
-    "answer": "It tilts toward Company B because its high Sentiment Momentum",
+    "answer": "It tilts the weighting toward Company B because its high 'Sentiment Momentum' suggests future price outperformance.",
     "explanation": "Sentiment-weighted indexing attempts to capture 'quality' over 'size.' It uses AI to identify which companies are currently in a 'virtuous cycle' of positive news and growth.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "The AI suggests a 50% allocation to a tiny, unknown stock because its 'Sentiment' is off the charts. Upon review, the human sees the 'sentiment' is actually just a viral meme, not fundamental news. What should the human do?",
     "options": [
       "Follow the AI; it knows more about memes than humans.",
-      "Override the AI, as meme-driven sentiment is a 'pump",
+      "Override the AI recommendation, as meme-driven sentiment is often a 'pump and dump' rather than a portfolio-grade investment.",
       "Ask the AI to explain why memes are bad.",
       "Delete the AI and go back to using paper charts."
     ],
-    "answer": "Override the AI, as meme-driven sentiment is a 'pump",
+    "answer": "Override the AI recommendation, as meme-driven sentiment is often a 'pump and dump' rather than a portfolio-grade investment.",
     "explanation": "This is the 'Human-in-the-Loop' model. Humans excel at distinguishing between 'noise' (memes) and 'substance' (business growth), serving as the ultimate filter for AI-generated ideas.",
     "difficulty": "hard"
   }

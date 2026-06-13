@@ -5,11 +5,11 @@
     "description": "An 18-year-old gets a tattoo thinking they will love it forever, only to regret it at age 30. How does this apply to long-term financial planning?",
     "options": [
       "You should never make long-term plans because they are useless.",
-      "You should pick a strategy that is flexible enough to account",
+      "You should pick a strategy that is flexible enough to account for the fact that your goals will change.",
       "You should only invest in things that 18-year-olds like.",
       "Financial planning is only for people over the age of 40."
     ],
-    "answer": "You should pick a strategy that is flexible enough to account",
+    "answer": "You should pick a strategy that is flexible enough to account for the fact that your goals will change.",
     "explanation": "Because you are a 'work in progress,' your financial plan must leave room for the reality that what you value at 20 (like high risk/high speed) might not be what you value at 40 (like stability/time).",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "Someone stays in a miserable, high-stress job because they spent $100,000 on the degree required for it. What would Housel suggest is the 'Psychology of Money' way to view this?",
     "options": [
       "They are being responsible by honoring their past investment.",
-      "They should treat the past cost as 'sunk' and make the best",
+      "They should treat the past cost as 'sunk' and make the best decision for their future self.",
       "They should work harder to make the degree 'worth it'.",
       "Changing careers is a sign of financial failure."
     ],
-    "answer": "They should treat the past cost as 'sunk' and make the best",
+    "answer": "They should treat the past cost as 'sunk' and make the best decision for their future self.",
     "explanation": "To avoid being a prisoner of your past decisions, you must be willing to abandon a path that no longer serves the person you have become.",
     "difficulty": "medium"
   },
@@ -34,10 +34,10 @@
     "options": [
       "Save 90% of your income to ensure you are as rich as possible.",
       "Spend every cent now because you might not be around tomorrow.",
-      "Aim for a middle-ground approach that balances current",
+      "Aim for a middle-ground approach that balances current enjoyment with future security.",
       "Only save money for the things you want right now."
     ],
-    "answer": "Aim for a middle-ground approach that balances current",
+    "answer": "Aim for a middle-ground approach that balances current enjoyment with future security.",
     "explanation": "Moderation is a hedge against your own changing personality. It ensures that regardless of how you change, you haven't totally sabotaged one version of yourself for another.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "Why is 'staying the course' for 30 years harder than it sounds on paper?",
     "options": [
       "Because the stock market is too confusing for most people.",
-      "Because your life circumstances, family needs, and",
+      "Because your life circumstances, family needs, and personal values will shift many times during those 30 years.",
       "Because compounding only works for the first 10 years.",
       "Because most people forget their bank passwords."
     ],
-    "answer": "Because your life circumstances, family needs, and",
+    "answer": "Because your life circumstances, family needs, and personal values will shift many times during those 30 years.",
     "explanation": "The 'psychological' price of compounding is the discipline to stick to a plan even when the 'you' who started the plan feels like a stranger.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "Which of these is a sign of financial maturity, according to Chapter 14?",
     "options": [
       "Never changing your mind about an investment.",
-      "Being willing to abandon a strategy when it no longer aligns",
+      "Being willing to abandon a strategy when it no longer aligns with your current life values.",
       "Only following the advice of your younger self.",
       "Ignoring all new information to stay focused on an old goal."
     ],
-    "answer": "Being willing to abandon a strategy when it no longer aligns",
+    "answer": "Being willing to abandon a strategy when it no longer aligns with your current life values.",
     "explanation": "Admitting that you have changed is not a failure; it's a realization of your own growth. A good plan evolves with the person.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "If someone saves so aggressively that they never travel or see friends, what 'psychological' risk are they taking?",
     "options": [
       "They might become too rich and bored.",
-      "They might reach 60 and realize they saved",
+      "They might reach 60 and realize they saved for a life they no longer have the energy to live.",
       "They will be audited for not spending enough.",
       "There is no risk to extreme saving."
     ],
-    "answer": "They might reach 60 and realize they saved",
+    "answer": "They might reach 60 and realize they saved for a life they no longer have the energy to live.",
     "explanation": "Wealth is a tool for a happy life. If you sacrifice your entire youth for a future 'you' who might have different health or interests, you've taken an uncompensated risk.",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Never; a good plan lasts forever.",
       "Every single day based on the stock market.",
-      "Periodically, to ensure your money is still",
+      "Periodically, to ensure your money is still serving the person you are becoming.",
       "Only when you lose your job."
     ],
-    "answer": "Periodically, to ensure your money is still",
+    "answer": "Periodically, to ensure your money is still serving the person you are becoming.",
     "explanation": "Regularly checking in with your 'current self' prevents you from operating on autopilot using the logic of your 'past self'.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "Why is 'waiting to break even' a psychological trap?",
     "options": [
       "Because the stock market is guaranteed to return to the price you paid.",
-      "Because the market doesn't know or care what price you paid; your",
+      "Because the market doesn't know or care what price you paid; your decision should be based on future potential.",
       "Because breaking even is the only way to avoid taxes.",
       "Because it shows you are a loyal investor."
     ],
-    "answer": "Because the market doesn't know or care what price you paid; your",
+    "answer": "Because the market doesn't know or care what price you paid; your decision should be based on future potential.",
     "explanation": "The person who bought the stock at a high price is 'past you.' 'Present you' should only care about where the money is best utilized moving forward.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "In one sentence, what is the 'Psychology of Money' solution to the fact that 'You'll Change'?",
     "options": [
       "Don't commit to anything.",
-      "Embrace 'room for error' and 'moderation' as your primary",
+      "Embrace 'room for error' and 'moderation' as your primary shields against your future self's regret.",
       "Try to predict exactly how you will feel in 20 years.",
       "Follow the lifestyle of people who never change their minds."
     ],
-    "answer": "Embrace 'room for error' and 'moderation' as your primary",
+    "answer": "Embrace 'room for error' and 'moderation' as your primary shields against your future self's regret.",
     "explanation": "By avoiding extremes and keeping options open, you give your future self the best chance of being satisfied with the choices you are making today.",
     "difficulty": "hard"
   }

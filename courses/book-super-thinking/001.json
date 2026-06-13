@@ -34,10 +34,10 @@
     "options": [
       "Copy the most popular backpack design",
       "Ask hikers what features they want",
-      "Identify the core purpose: carrying",
+      "Identify the core purpose: carrying items comfortably and efficiently",
       "Use materials from last year's model"
     ],
-    "answer": "Identify the core purpose: carrying",
+    "answer": "Identify the core purpose: carrying items comfortably and efficiently",
     "explanation": "First principles means starting from fundamental purpose - what a backpack must do - rather than copying existing designs or making incremental improvements.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "To improve your work productivity using inversion, you should:",
     "options": [
       "Study the habits of extremely productive people",
-      "Ask yourself: 'How could I make sure I get",
+      "Ask yourself: 'How could I make sure I get nothing done today?'",
       "Set ambitious daily goals",
       "Buy the latest productivity apps"
     ],
-    "answer": "Ask yourself: 'How could I make sure I get",
+    "answer": "Ask yourself: 'How could I make sure I get nothing done today?'",
     "explanation": "Inversion reveals productivity blockers by considering the opposite outcome - identifying distractions, poor planning, or energy mismanagement that would prevent work.",
     "difficulty": "easy"
   },
@@ -62,10 +62,10 @@
     "options": [
       "The cost of installing the equipment",
       "How many people will use it on day one",
-      "Potential increases in loitering,",
+      "Potential increases in loitering, cybercrime, and privacy concerns",
       "The technical specifications of the routers"
     ],
-    "answer": "Potential increases in loitering,",
+    "answer": "Potential increases in loitering, cybercrime, and privacy concerns",
     "explanation": "Second-order thinking looks beyond the immediate benefit (free internet) to anticipate downstream effects like changed behavior patterns, security issues, and social impacts.",
     "difficulty": "easy"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Waiting to see if it starts raining",
       "Checking if rain is guaranteed today",
-      "Estimating the chance of rain and",
+      "Estimating the chance of rain and weighing inconvenience vs. getting wet",
       "Always carrying an umbrella just in case"
     ],
-    "answer": "Estimating the chance of rain and",
+    "answer": "Estimating the chance of rain and weighing inconvenience vs. getting wet",
     "explanation": "Probabilistic thinking considers the likelihood of rain (from forecast), the inconvenience of carrying an umbrella, and the discomfort of getting wet to make an optimal choice.",
     "difficulty": "easy"
   },
@@ -90,10 +90,10 @@
     "options": [
       "Saving $5/day by skipping coffee",
       "Getting a 1% raise at work",
-      "Learning to negotiate your salary",
+      "Learning to negotiate your salary effectively",
       "Using a coupon for grocery shopping"
     ],
-    "answer": "Learning to negotiate your salary",
+    "answer": "Learning to negotiate your salary effectively",
     "explanation": "Salary negotiation can yield thousands of extra dollars annually - far greater leverage than small daily savings or modest percentage increases.",
     "difficulty": "easy"
   },
@@ -102,12 +102,12 @@
     "content": "Opportunity cost is what you give up to pursue a certain action. Every choice has hidden costs - the value of the next best alternative you didn't choose.",
     "description": "You decide to spend Saturday watching movies instead of working freelance. The opportunity cost is:",
     "options": [
-      "The money you would have earned",
+      "The money you would have earned freelancing",
       "The enjoyment from watching movies",
       "The electricity used by your TV",
       "The wear and tear on your couch"
     ],
-    "answer": "The money you would have earned",
+    "answer": "The money you would have earned freelancing",
     "explanation": "Opportunity cost focuses on the value of the best alternative forgone - in this case, freelance income - not the chosen activity's costs or benefits.",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "When estimating how long a project will take, applying margin of safety means:",
     "options": [
       "Working as fast as possible to finish early",
-      "Adding extra time to your estimate for unexpected",
+      "Adding extra time to your estimate for unexpected delays",
       "Only counting time when you're actively working",
       "Assuming everything will go perfectly according to plan"
     ],
-    "answer": "Adding extra time to your estimate for unexpected",
+    "answer": "Adding extra time to your estimate for unexpected delays",
     "explanation": "Margin of safety means deliberately overestimating time needed to account for inevitable complications, creating a buffer that increases likelihood of on-time completion.",
     "difficulty": "easy"
   }

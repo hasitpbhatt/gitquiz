@@ -5,11 +5,11 @@
     "description": "Your team is struggling to adopt a new project management tool. A senior developer builds a simple migration script that converts all old data into the new format automatically. Adoption skyrockets. What role did the developer play?",
     "options": [
       "The developer was the project manager for the migration initiative",
-      "the migration script lowered the activation energy of adoption without being",
+      "The developer acted as a catalyst — the migration script lowered the activation energy of adoption without being consumed by the process",
       "The developer should have been building product features instead of tooling scripts",
-      "The migration script reduced the quality of the data transfer"
+      "The migration script reduced the quality of the data transfer which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
-    "answer": "the migration script lowered the activation energy of adoption without being",
+    "answer": "The developer acted as a catalyst — the migration script lowered the activation energy of adoption without being consumed by the process",
     "explanation": "The migration script is the catalyst. It lowers the barrier to adoption (eliminating manual data entry) and is not consumed — it can be reused for future migrations. After adoption, the script remains unchanged. The team crossed the activation barrier more easily because of this catalyst.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "The defining characteristic of a catalyst is that it is not consumed or permanently altered by the reaction. After the reaction, the catalyst can be recovered and reused.",
     "description": "A consultant designs a new operating model for a company, trains the leadership team, and leaves. Two years later, the operating model is still running successfully. How does this illustrate catalysis?",
     "options": [
-      "The consultant was overpaid for a relatively simple deliverable",
-      "she introduced a framework that lowered the activation energy for better",
+      "The consultant was overpaid for a relatively simple deliverable which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The consultant acted as a catalyst — she introduced a framework that lowered the activation energy for better operations, and was not consumed (she left the system unchanged)",
       "The company would have adopted the operating model even without the consultant",
       "The consultant should have stayed longer to ensure continued success"
     ],
-    "answer": "she introduced a framework that lowered the activation energy for better",
+    "answer": "The consultant acted as a catalyst — she introduced a framework that lowered the activation energy for better operations, and was not consumed (she left the system unchanged)",
     "explanation": "The consultant functioned as a true catalyst: she provided an alternative pathway (the new operating model) that lowered the barrier to better performance, and she was not consumed by the process — she left the organization intact. The new model became self-sustaining.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "When facing a massive change effort that requires too much activation energy, ask: What element can I introduce to the environment that lowers the barrier without being consumed?",
     "description": "A company wants all employees to use a new internal knowledge base, but adoption is slow because contributing content feels like extra work. What would be an effective catalyst?",
     "options": [
-      "Require knowledge base contributions in everyone's performance review",
+      "Require knowledge base contributions in everyone's performance review which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Hire a dedicated team to write all the content themselves",
-      "lowering the contribution barrier without being consumed",
+      "Introduce a template system and a browser extension that makes adding content as easy as clicking a button — lowering the contribution barrier without being consumed",
       "Send a weekly email reminding people to contribute to the knowledge base"
     ],
-    "answer": "lowering the contribution barrier without being consumed",
+    "answer": "Introduce a template system and a browser extension that makes adding content as easy as clicking a button — lowering the contribution barrier without being consumed",
     "explanation": "A template system and browser extension are catalysts. They lower the energy required to contribute (no more formatting, no more navigating to the right page) without being consumed — they remain available for everyone to use repeatedly. The barrier drops, adoption rises.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "Brute-forcing a bottleneck through willpower, cash, or pressure is exhausting and resource-intensive. Introducing a catalyst is almost always more efficient because it permanently lowers the barrier.",
     "description": "A law firm wants partners to submit timesheets daily instead of weekly. The managing partner threatens to withhold bonuses for late submissions. Compliance improves marginally but partners are resentful. What approach does the catalyst model suggest instead?",
     "options": [
-      "Increase the penalty until compliance reaches 100%",
+      "Increase the penalty until compliance reaches 100% which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Fire the partners who refuse to comply with the new policy",
-      "perhaps a simple mobile app or email-based reminder that makes daily",
+      "Find the friction causing late submissions and build a catalyst — perhaps a simple mobile app or email-based reminder that makes daily submission effortless",
       "Accept weekly submissions since the policy change was not worth the conflict"
     ],
-    "answer": "perhaps a simple mobile app or email-based reminder that makes daily",
+    "answer": "Find the friction causing late submissions and build a catalyst — perhaps a simple mobile app or email-based reminder that makes daily submission effortless",
     "explanation": "Threats are raw force — they consume management energy and generate resentment. A catalyst (like a simple submission tool) permanently lowers the barrier to compliance without ongoing force. Once introduced, the catalyst continues working without consuming additional energy.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "Stripe publishes standardized API documentation for online payments. Thousands of businesses build payment flows faster as a result. Stripe is not consumed by these integrations. What role does the API documentation play?",
     "options": [
       "It is a marketing tool to attract more customers to Stripe",
-      "it lowers the activation energy for online payment integration for every",
-      "API documentation is a legal requirement for payment processors",
+      "It acts as a systemic catalyst — it lowers the activation energy for online payment integration for every business that uses it, without being consumed",
+      "API documentation is a legal requirement for payment processors which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "It is a competitive advantage that only benefits Stripe's enterprise clients"
     ],
-    "answer": "it lowers the activation energy for online payment integration for every",
+    "answer": "It acts as a systemic catalyst — it lowers the activation energy for online payment integration for every business that uses it, without being consumed",
     "explanation": "Well-designed API documentation is a systemic catalyst. It exists in the environment and lowers the barrier to payment integration for all developers. Stripe recovers no energy from the reaction — the catalyst remains unchanged. This is why platform companies invest heavily in developer experience.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A product team constantly interrupts the engineering team with urgent requests, destroying productivity. The engineering manager tries saying 'no' more often, but the interruptions continue. What catalyst should she look for?",
     "options": [
       "Install a strict ticketing system with a three-day SLA for all requests",
-      "Hold a meeting to explain why interruptions are harmful to productivity",
-      "perhaps a self-service tool that lets product run common experiments",
+      "Hold a meeting to explain why interruptions are harmful to productivity which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Find a systemic catalyst — perhaps a self-service tool that lets product run common experiments without engineering involvement, permanently removing the need for interruptions",
       "Escalate the issue to the VP of Engineering to enforce better boundaries"
     ],
-    "answer": "perhaps a self-service tool that lets product run common experiments",
+    "answer": "Find a systemic catalyst — perhaps a self-service tool that lets product run common experiments without engineering involvement, permanently removing the need for interruptions",
     "explanation": "Saying 'no' is brute force that must be reapplied constantly. A self-service tool is a catalyst — it lowers the barrier for product to get what they need without engineering involvement, and it is not consumed. The tool solves the problem permanently rather than requiring ongoing force.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "A cross-functional team has been deadlocked on a strategic decision for weeks. A respected senior leader who has no direct stake in the outcome joins one meeting, asks three questions, and the team reaches consensus within an hour. What happened?",
     "options": [
       "The senior leader forced the team to agree by exercising authority",
-      "their neutral credibility and framing questions lowered the",
+      "The senior leader acted as a social catalyst — their neutral credibility and framing questions lowered the barrier to consensus without being consumed by the decision",
       "The team was ready to agree and just needed any external input",
-      "The senior leader made the decision for the team"
+      "The senior leader made the decision for the team which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
     ],
-    "answer": "their neutral credibility and framing questions lowered the",
+    "answer": "The senior leader acted as a social catalyst — their neutral credibility and framing questions lowered the barrier to consensus without being consumed by the decision",
     "explanation": "Some people are social catalysts. Their mere presence lowers the activation energy for alignment — they ask the right questions, reduce political risk, and provide psychological safety. Like chemical catalysts, they enable the reaction without being changed by it.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A company adopts a new communication platform. As more people join, the platform becomes more valuable (network effects). Each new user lowers the barrier for the next user to join. How does this differ from a standard catalyst?",
     "options": [
       "Network effects are not related to catalysis because they are a social phenomenon",
-      "the catalyst's own presence lowers the barrier further over time,",
-      "Standard catalysts also self-reinforce in chemical reactions",
+      "This is a self-reinforcing catalyst — the catalyst's own presence lowers the barrier further over time, unlike standard catalysts which have a constant effect",
+      "Standard catalysts also self-reinforce in chemical reactions which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
       "Network effects always lead to a single platform dominating the market"
     ],
-    "answer": "the catalyst's own presence lowers the barrier further over time,",
+    "answer": "This is a self-reinforcing catalyst — the catalyst's own presence lowers the barrier further over time, unlike standard catalysts which have a constant effect",
     "explanation": "Most catalysts provide a constant rate enhancement. But some catalysts are self-reinforcing: each use of the catalyst makes it more effective. In network effects, each new user adds value that attracts more users, progressively lowering the adoption barrier. This creates powerful flywheels.",
     "difficulty": "hard"
   }

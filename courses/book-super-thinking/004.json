@@ -5,11 +5,11 @@
     "description": "Why does mixing hot and cold water result in lukewarm water, not hotter or colder than either?",
     "options": [
       "Heat energy is destroyed in the process",
-      "Energy spreads out until evenly",
+      "Energy spreads out until evenly distributed (entropy increases)",
       "The container absorbs the excess heat",
       "Water molecules lose energy when mixed"
     ],
-    "answer": "Energy spreads out until evenly",
+    "answer": "Energy spreads out until evenly distributed (entropy increases)",
     "explanation": "The 2nd law of thermodynamics states entropy increases - energy disperses from concentrated (hot/cold) to uniform (lukewarm) states, making energy unavailable for work.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "When a car suddenly stops, passengers lurch forward due to:",
     "options": [
       "The car's backward pull on passengers",
-      "Passengers' inertia wanting to maintain",
+      "Passengers' inertia wanting to maintain forward motion",
       "Gravity increasing during deceleration",
       "Air resistance pushing passengers forward"
     ],
-    "answer": "Passengers' inertia wanting to maintain",
+    "answer": "Passengers' inertia wanting to maintain forward motion",
     "explanation": "Newton's 1st law (inertia): passengers tend to maintain their state of motion. When the car stops, their bodies want to keep moving forward until restrained by seatbelts.",
     "difficulty": "easy"
   },
@@ -33,11 +33,11 @@
     "description": "When you push against a wall, the wall pushes back with equal force because:",
     "options": [
       "The wall is alive and resisting you",
-      "Conservation of momentum requires equal",
+      "Conservation of momentum requires equal opposite forces",
       "Your push creates sound waves that bounce back",
       "The wall flexes and springs back like a spring"
     ],
-    "answer": "Conservation of momentum requires equal",
+    "answer": "Conservation of momentum requires equal opposite forces",
     "explanation": "Newton's 3rd law and conservation of momentum: your push on the wall accelerates you backward; to conserve total momentum (zero initially), the wall must accelerate forward equally.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "A new messaging app needs critical mass. This means it must:",
     "options": [
       "Have perfect security before launch",
-      "Get enough users that each finds",
+      "Get enough users that each finds value in joining",
       "Raise venture capital funding",
       "Copy features from WhatsApp exactly"
     ],
-    "answer": "Get enough users that each finds",
+    "answer": "Get enough users that each finds value in joining",
     "explanation": "Social critical mass: when user base is large enough that joining benefits (network connections, content) outweigh costs (time, privacy) for new users.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "Water boiling at 100°C is a phase transition because:",
     "options": [
       "It requires adding heat energy",
-      "A small temperature increase",
+      "A small temperature increase causes abrupt change from liquid to gas",
       "It only happens at sea level",
       "The water molecules break apart"
     ],
-    "answer": "A small temperature increase",
+    "answer": "A small temperature increase causes abrupt change from liquid to gas",
     "explanation": "Phase transitions show discontinuous change: at 99.9°C water is liquid; at 100.1°C it's gas. Small input change creates large output shift - like viral trends.",
     "difficulty": "medium"
   },
@@ -104,10 +104,10 @@
     "options": [
       "Directly cause a tornado in Texas",
       "Physically push air molecules to Texas",
-      "Potentially alter Texas weather weeks",
+      "Potentially alter Texas weather weeks later via complex atmosphere",
       "Create wind felt immediately in Texas"
     ],
-    "answer": "Potentially alter Texas weather weeks",
+    "answer": "Potentially alter Texas weather weeks later via complex atmosphere",
     "explanation": "Chaos: tiny initial changes (butterfly wings) get amplified through complex non-linear systems (atmosphere), making long-term prediction impossible despite deterministic rules.",
     "difficulty": "medium"
   }

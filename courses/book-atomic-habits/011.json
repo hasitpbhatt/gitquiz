@@ -4,12 +4,12 @@
     "content": "Not all habits suit all people. The key to lasting habits is finding behaviors that align with your natural strengths, personality, and genetic predispositions. Work that feels like play to one person may feel like drudgery to another.",
     "description": "An introvert thrives as a data analyst, finding deep focus energizing. An extrovert in the same role struggles and feels drained. Both try the same daily work habits, but one succeeds and the other fails. This difference illustrates:",
     "options": [
-      "That habits must align with",
+      "That habits must align with your natural inclinations and personality",
       "The Plateau of Latent Potential",
       "The Diderot Effect",
       "The Two-Minute Rule"
     ],
-    "answer": "That habits must align with",
+    "answer": "That habits must align with your natural inclinations and personality",
     "explanation": "Clear argues that genes do not determine your destiny, but they do determine your areas of opportunity. Habits that match natural inclinations require less motivation to maintain and feel more like play than work.",
     "difficulty": "medium"
   },
@@ -18,12 +18,12 @@
     "content": "Clear recommends conducting an annual review where you reflect on what worked, what did not work, and what you are learning. This prevents drift and ensures your habits stay aligned with your goals.",
     "description": "Every December, a business owner answers three questions: What went well this year? What did not go well? What did I learn? She uses these answers to adjust her systems for the coming year. This practice is:",
     "options": [
-      "The Annual Review Process",
+      "The Annual Review Process for preventing habit drift",
       "The Habit Scorecard",
       "Implementation Intentions",
       "Temptation bundling"
     ],
-    "answer": "The Annual Review Process",
+    "answer": "The Annual Review Process for preventing habit drift",
     "explanation": "The Annual Review is a specific practice Clear recommends to catch small deviations before they compound into large problems. It provides periodic reflection that keeps habits aligned with identity.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "The Integrity Report is a complementary practice to the Annual Review. It asks: What are the core values that drive my life? Am I living in accordance with these values? It ensures habits serve your deeper principles.",
     "description": "A person writes down their core values (health, creativity, connection) and then evaluates whether their daily habits reflect those values. They discover their habits are misaligned with what they claim to value. This tool is called:",
     "options": [
-      "The Integrity",
+      "The Integrity Report",
       "The Habit Scorecard",
       "The Diderot Effect",
       "The Two-Minute Rule"
     ],
-    "answer": "The Integrity",
+    "answer": "The Integrity Report",
     "explanation": "The Integrity Report goes beyond surface-level habit tracking. It connects daily actions to core values, revealing gaps between who you want to be and what you actually do.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A runner does not improve by running only comfortable distances. Pushing slightly beyond the comfort zone creates micro-tears in muscle that repair stronger than before. This principle that small stress builds strength is:",
     "options": [
       "The Goldilocks Rule",
-      "Hormesis: manageable difficulty",
+      "Hormesis: manageable difficulty strengthens systems",
       "The Plateau of Latent Potential",
       "The Premack Principle"
     ],
-    "answer": "Hormesis: manageable difficulty",
+    "answer": "Hormesis: manageable difficulty strengthens systems",
     "explanation": "Hormesis explains why optimal habits are not always easy. Some difficulty is necessary for growth. The Goldilocks Rule captures the behavioral aspect, while hormesis captures the biological mechanism.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "Pointing and Calling is a Japanese rail worker safety technique where workers point at objects and call out their status. This raises awareness by engaging multiple senses, turning subconscious actions into conscious decisions.",
     "description": "Japanese train operators point at signals and call out Green signal! before every departure. This seemingly silly ritual dramatically reduces errors by engaging sight, sound, and motion. This technique is:",
     "options": [
-      "Pointing and Calling for",
+      "Pointing and Calling for raising subconscious habits to awareness",
       "The Habit Scorecard",
       "Implementation Intentions",
       "Temptation bundling"
     ],
-    "answer": "Pointing and Calling for",
+    "answer": "Pointing and Calling for raising subconscious habits to awareness",
     "explanation": "Pointing and Calling works because it breaks automaticity. By verbalizing and gesturing at the cue, you force the brain to register it consciously. Clear recommends this for habit awareness.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "In the conclusion, Clear offers philosophical reflections: Happiness is not about achieving pleasure without pain but about wanting the pain you are already experiencing. The dopamine system drives pursuit, not possession.",
     "description": "Clear writes that you do not actually want the goal itself. What you really want is the feeling of striving toward the goal. This reflects the insight that:",
     "options": [
-      "Happiness is found in the pursuit of",
+      "Happiness is found in the pursuit of meaningful habits, not the achievement of goals",
       "Goals should be abandoned entirely",
       "Only easy habits lead to happiness",
       "Dopamine rewards goal completion, not effort"
     ],
-    "answer": "Happiness is found in the pursuit of",
+    "answer": "Happiness is found in the pursuit of meaningful habits, not the achievement of goals",
     "explanation": "Clear argues that the craving for a reward, not the reward itself, drives behavior. The anticipation of achieving something is often more satisfying than the achievement itself. This is why falling in love with the process matters.",
     "difficulty": "hard"
   },
@@ -116,12 +116,12 @@
     "content": "The full journey of atomic habits moves from tiny action to habit to identity to mastery. Each stage builds on the previous one, creating a complete arc of personal transformation.",
     "description": "A person starts by flossing one tooth (tiny action), progresses to daily flossing (habit), starts identifying as someone who cares for their health (identity), and eventually teaches others about oral hygiene (mastery). This progression illustrates:",
     "options": [
-      "The Habit Transformation Arc",
+      "The Habit Transformation Arc from small action to identity shift",
       "The Plateau of Latent Potential",
       "The Goldilocks Rule",
       "The Diderot Effect"
     ],
-    "answer": "The Habit Transformation Arc",
+    "answer": "The Habit Transformation Arc from small action to identity shift",
     "explanation": "Atomic habits do not stop at behavior change. They create a ripple effect: tiny actions build habits, habits reshape identity, and identity enables broader mastery and contribution.",
     "difficulty": "hard"
   },
@@ -130,12 +130,12 @@
     "content": "Not every habit or goal is worth pursuing forever. The exploration phase of the Explore/Exploit Trade-off involves trying different paths to find the right fit before committing to mastery.",
     "description": "A person tries rock climbing, pottery, photography, and coding over a year. Most people would call this lack of focus. But Clear argues this exploration is valuable because:",
     "options": [
-      "It allows you to find the right habit fit before",
+      "It allows you to find the right habit fit before committing to mastery",
       "It wastes time that should be spent on one skill",
       "It proves you lack discipline",
       "It is only useful for children, not adults"
     ],
-    "answer": "It allows you to find the right habit fit before",
+    "answer": "It allows you to find the right habit fit before committing to mastery",
     "explanation": "Clear argues that exploration and exploitation are both necessary. First explore widely to find where your natural abilities and interests align. Then exploit that niche with deep, consistent practice.",
     "difficulty": "hard"
   }

@@ -5,11 +5,11 @@
     "description": "A website displays 'Only 3 left at this price!' next to a product. You're more likely to buy it because:",
     "options": [
       "The product is actually of higher quality",
-      "Scarcity increases perceived value through",
+      "Scarcity increases perceived value through loss aversion",
       "You checked inventory and saw low stock",
       "The price is actually the lowest available"
     ],
-    "answer": "Scarcity increases perceived value through",
+    "answer": "Scarcity increases perceived value through loss aversion",
     "explanation": "Limited availability triggers fear of missing out (FOMO), making the opportunity seem more valuable and urgent than if it were abundantly available.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A flash sale advertisement states '24-hour sale - ends at midnight!' This is effective because:",
     "options": [
       "The products are actually better quality during the sale",
-      "Time limits create urgency through scarcity of",
+      "Time limits create urgency through scarcity of opportunity",
       "You verified the sale times with customer service",
       "The advertisement shows actual inventory counts"
     ],
-    "answer": "Time limits create urgency through scarcity of",
+    "answer": "Time limits create urgency through scarcity of opportunity",
     "explanation": "Deadlines make opportunities scarce in time, increasing perceived value and motivating immediate action to avoid losing the chance.",
     "difficulty": "medium"
   },
@@ -76,10 +76,10 @@
     "options": [
       "Stops seeing the friend immediately",
       "Sees the friend less than before the restriction",
-      "May actually increase contact with the friend to",
+      "May actually increase contact with the friend to regain freedom",
       "Thanks the parent for looking out for them"
     ],
-    "answer": "May actually increase contact with the friend to",
+    "answer": "May actually increase contact with the friend to regain freedom",
     "explanation": "Psychological reactance causes people to want to restore threatened freedoms, sometimes leading to increased engagement with the restricted behavior.",
     "difficulty": "easy"
   },
@@ -89,11 +89,11 @@
     "description": "A store displays a 'Going Out of Business - Everything Must Go!' sign. This increases sales because:",
     "options": [
       "The store actually has better prices than competitors",
-      "Scarcity of future access increases current",
+      "Scarcity of future access increases current purchasing urge",
       "You verified the store's financial status",
       "The merchandise is actually higher quality"
     ],
-    "answer": "Scarcity of future access increases current",
+    "answer": "Scarcity of future access increases current purchasing urge",
     "explanation": "The implied scarcity of future access to the store (if it closes) motivates purchases now to avoid missing out completely.",
     "difficulty": "hard"
   },

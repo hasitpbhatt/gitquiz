@@ -19,11 +19,11 @@
     "description": "A patient taking an antidepressant notices their mood improves gradually over weeks. These drugs work by affecting which aspect of brain function?",
     "options": [
       "Creating new brain cells where none existed before",
-      "Increasing the amount of serotonin available at",
+      "Increasing the amount of serotonin available at synapses",
       "Permanently rewiring all neural connections",
       "Shrinking the amygdala to reduce emotional responses"
     ],
-    "answer": "Increasing the amount of serotonin available at",
+    "answer": "Increasing the amount of serotonin available at synapses",
     "explanation": "Antidepressants increase serotonin availability by mimicking its structure, allowing more of this mood-regulating neurotransmitter to remain in the synapse. They treat the state of unhappiness rather than creating happiness directly.",
     "difficulty": "easy"
   },
@@ -48,10 +48,10 @@
     "options": [
       "The remaining 6 percent of DNA contains all behavioral instructions",
       "Environment alone accounts for all behavioral differences",
-      "Gene expression patterns differ significantly between human and",
+      "Gene expression patterns differ significantly between human and chimpanzee brains",
       "Chimpanzees have simpler neural structures despite similar DNA"
     ],
-    "answer": "Gene expression patterns differ significantly between human and",
+    "answer": "Gene expression patterns differ significantly between human and chimpanzee brains",
     "explanation": "It is not just the genes themselves but how and when they are expressed that creates differences. The human brain shows strikingly different patterns of gene expression compared to the chimpanzee brain, explaining large behavioral differences despite similar DNA.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "Both parents have brown eyes, but their child is born with blue eyes. Applying principles of genetics, this is possible because:",
     "options": [
       "The mother diet during pregnancy affects eye color",
-      "Both parents carry a recessive blue-eye gene that",
+      "Both parents carry a recessive blue-eye gene that combined in the child",
       "Eye color is determined solely by the father genes",
       "A mutation always occurs during conception"
     ],
-    "answer": "Both parents carry a recessive blue-eye gene that",
+    "answer": "Both parents carry a recessive blue-eye gene that combined in the child",
     "explanation": "Dominant brown-eye genes mask recessive blue-eye genes. If both parents carry one brown and one blue gene each, there is a chance their child inherits two blue genes, resulting in blue eyes.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "A researcher tries to isolate a single gene responsible for intelligence but fails because the trait does not appear to have one cause. This reflects:",
     "options": [
       "Poor research methodology and measurement errors",
-      "The interconnected nature of biological systems",
+      "The interconnected nature of biological systems where multiple genes interact",
       "Intelligence being purely determined by environment",
       "Genes operating independently without interaction"
     ],
-    "answer": "The interconnected nature of biological systems",
+    "answer": "The interconnected nature of biological systems where multiple genes interact",
     "explanation": "Most traits, especially complex ones like intelligence, are governed by many genes interacting with each other and the environment. This interaction, not isolation, is a fundamental property of biology.",
     "difficulty": "easy"
   },
@@ -90,10 +90,10 @@
     "options": [
       "Better at identifying dangerous people in crowds",
       "Anxious about public speaking for no evolutionary reason",
-      "Alert to potential threats even when the modern risk is",
+      "Alert to potential threats even when the modern risk is minimal",
       "More adventurous in exploring new places"
     ],
-    "answer": "Alert to potential threats even when the modern risk is",
+    "answer": "Alert to potential threats even when the modern risk is minimal",
     "explanation": "Evolution favored those who erred on the side of caution, better to mistake a leaf rustle for a predator than vice versa. This adaptation persists even when modern environments rarely contain such threats.",
     "difficulty": "easy"
   },

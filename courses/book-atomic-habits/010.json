@@ -19,11 +19,11 @@
     "description": "A musician tries several instruments (piano, guitar, drums) before settling on guitar and practicing it daily for years. This progression shows:",
     "options": [
       "The Habit Loop",
-      "The Explore/Exploit",
+      "The Explore/Exploit Trade-off",
       "Implementation Intentions",
       "The Diderot Effect"
     ],
-    "answer": "The Explore/Exploit",
+    "answer": "The Explore/Exploit Trade-off",
     "explanation": "The explore phase tries many options to find a good match. The exploit phase doubles down on that choice for mastery. Both phases are necessary for excellence.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "Sustainable habits align with your natural inclinations and strengths. Work that matches your personality feels less like effort.",
     "description": "An introvert becomes a data analyst and finds deep focus on spreadsheets energizing rather than draining. An extrovert in the same role struggles. This illustrates:",
     "options": [
-      "The importance of",
+      "The importance of aligning work with personality",
       "The Goldilocks Rule",
       "The Two-Minute Rule",
       "Habit stacking"
     ],
-    "answer": "The importance of",
+    "answer": "The importance of aligning work with personality",
     "explanation": "Habits that match natural inclinations require less motivation to maintain. Finding roles and activities that fit your personality makes the hard work of mastery feel like play.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "A minority of your efforts produce the majority of your results. Focus on the high-impact 20% of habits.",
     "description": "A salesperson finds that 80% of their sales come from 20% of their clients. They shift focus to nurturing those key relationships. This is applying:",
     "options": [
-      "The 80/20 Rule",
+      "The 80/20 Rule (Pareto Principle) to habit focus",
       "The Habit Scorecard",
       "Temptation bundling",
       "The Goldilocks Rule"
     ],
-    "answer": "The 80/20 Rule",
+    "answer": "The 80/20 Rule (Pareto Principle) to habit focus",
     "explanation": "The 80/20 Rule helps identify which habits deliver the most impact. Focusing energy on the vital few habits rather than spreading effort across many produces outsized results.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Regular review and reflection prevent complacency, catch drift, and ensure habits stay aligned with goals.",
     "description": "A founder reviews their weekly metrics every Friday, adjusting strategies before small problems compound. This practice of:",
     "options": [
-      "Review and reflection",
+      "Review and reflection prevents drift and enables course correction",
       "Implementation intentions",
       "Temptation bundling",
       "The Two-Minute Rule"
     ],
-    "answer": "Review and reflection",
+    "answer": "Review and reflection prevents drift and enables course correction",
     "explanation": "Habits can drift over time without periodic review. Reflection ensures you are still heading in the right direction and allows you to catch small deviations before they compound.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "Becoming attached to a specific identity can prevent growth when circumstances change.",
     "description": "A professional athlete who defines themselves entirely as an athlete struggles to find purpose after retiring. This is:",
     "options": [
-      "The Identity Trap becoming",
+      "The Identity Trap becoming attached to one rigid self-definition",
       "The Goldilocks Rule",
       "The Plateau of Latent Potential",
       "Implementation Intentions"
     ],
-    "answer": "The Identity Trap becoming",
+    "answer": "The Identity Trap becoming attached to one rigid self-definition",
     "explanation": "While identity-based habits are powerful, becoming too attached to a single identity makes it hard to adapt. Keeping identity small and flexible allows growth.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "Once a habit becomes automatic, it stops improving. Deliberate practice is required to break through plateaus.",
     "description": "A pianist can play a piece flawlessly on autopilot but has not improved in months. They must focus on specific challenging sections deliberately. This illustrates:",
     "options": [
-      "The need to combine",
+      "The need to combine habits with deliberate practice to keep improving",
       "The Goldilocks Rule",
       "The Power of Tiny Gains",
       "The Habit Loop"
     ],
-    "answer": "The need to combine",
+    "answer": "The need to combine habits with deliberate practice to keep improving",
     "explanation": "Habits make behavior automatic, but mastery requires pushing beyond comfort. Once a habit is established, you must add deliberate practice elements to continue growing.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "Habits have a trajectory. Small daily actions determine the direction of your life over years and decades.",
     "description": "Two people start their careers at the same time. One reads industry news for 15 minutes daily; the other scrolls social media. After a decade, the first is an expert and the second has stagnated. This shows:",
     "options": [
-      "The Trajectory of",
+      "The Trajectory of Habits",
       "The Habit Scorecard",
       "The Diderot Effect",
       "Temptation bundling"
     ],
-    "answer": "The Trajectory of",
+    "answer": "The Trajectory of Habits",
     "explanation": "Each small habit choice sets a trajectory. Over years, these trajectories diverge dramatically. The trajectory matters more than the current position because it determines where you end up.",
     "difficulty": "hard"
   },
@@ -116,12 +116,12 @@
     "content": "The ultimate purpose of building atomic habits is not just achieving goals but becoming the person capable of achieving them.",
     "description": "After two years of daily practice, a writer has published a novel. More importantly, they now see themselves as a writer who can tackle any book project. This transformation illustrates:",
     "options": [
-      "The culmination of",
+      "The culmination of atomic habits changing identity, not just outcomes",
       "The Goldilocks Rule",
       "The Two-Minute Rule",
       "The Habit Loop"
     ],
-    "answer": "The culmination of",
+    "answer": "The culmination of atomic habits changing identity, not just outcomes",
     "explanation": "The deepest benefit of habits is the identity shift. The writer did not just achieve a goal; they became the person who achieves writing goals. This identity change is the real reward.",
     "difficulty": "hard"
   },
@@ -130,12 +130,12 @@
     "content": "Small changes often appear to make no difference until you cross a critical threshold. The most powerful outcomes of atomic habits are delayed.",
     "description": "A business owner improves their customer service process by 1% each month. For the first year, revenue is flat. In the second year, revenue doubles. This delayed breakthrough illustrates:",
     "options": [
-      "That small changes compound into remarkable results, but",
+      "That small changes compound into remarkable results, but only after crossing a threshold",
       "That the improvements were ineffective in the first year",
       "That the business should have focused on marketing instead",
       "That 1% improvements are too small to matter"
     ],
-    "answer": "That small changes compound into remarkable results, but",
+    "answer": "That small changes compound into remarkable results, but only after crossing a threshold",
     "explanation": "The compound effect of small improvements often produces delayed breakthroughs. The first year built the foundation; the second year crossed the critical threshold where results became visible.",
     "difficulty": "hard"
   },
@@ -144,12 +144,12 @@
     "content": "The greatest threat to success is not failure but boredom. Once a habit becomes routine, it loses its novelty. The ability to stick with habits even when they are no longer exciting separates masters from amateurs.",
     "description": "A guitar player practiced eagerly for six months. Now the daily practice feels stale and repetitive. Most people would quit and try something new. What principle explains why professionals push through this stage?",
     "options": [
-      "The need to love",
+      "The need to love boredom and persist through the plateau of habit maintenance",
       "The Goldilocks Rule",
       "The Two-Minute Rule",
       "The Diderot Effect"
     ],
-    "answer": "The need to love",
+    "answer": "The need to love boredom and persist through the plateau of habit maintenance",
     "explanation": "Clear argues that the biggest challenge to long-term success is not the difficulty of the habit but the boredom of its repetition. Professionals show up even when the habit is no longer exciting.",
     "difficulty": "hard"
   },
@@ -158,12 +158,12 @@
     "content": "The Goldilocks Rule connects to flow state: peak motivation and performance occur when the challenge level matches your skill level, keeping you engaged without overwhelming you.",
     "description": "A video game designer adjusts difficulty so the game is neither too easy (boring) nor too hard (frustrating). Players enter a state of deep engagement where time seems to disappear. This optimal experience is:",
     "options": [
-      "Flow state achieved",
+      "Flow state achieved through the Goldilocks Rule of optimal challenge",
       "The Two-Minute Rule",
       "Temptation bundling",
       "The Diderot Effect"
     ],
-    "answer": "Flow state achieved",
+    "answer": "Flow state achieved through the Goldilocks Rule of optimal challenge",
     "explanation": "Flow state occurs when challenge and skill are in balance. The Goldilocks Rule captures this principle for habits: habits must be at the right level of difficulty to sustain motivation and engagement over time.",
     "difficulty": "hard"
   }

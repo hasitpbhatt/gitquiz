@@ -5,11 +5,11 @@
     "description": "A city wants to build a new public library but doesn't have the cash available today. They decide to issue 'Municipal Bonds.' What is the social function of finance in this scenario?",
     "options": [
       "To maximize profit for the city council",
-      "To allow the community to enjoy a public good now",
+      "To allow the community to enjoy a public good now by paying for it over time with future tax revenue",
       "To privatize the library and charge entrance fees",
       "To decrease the value of nearby homes"
     ],
-    "answer": "To allow the community to enjoy a public good now",
+    "answer": "To allow the community to enjoy a public good now by paying for it over time with future tax revenue",
     "explanation": "This is the essence of social finance: using borrowing mechanisms to fund projects that provide long-term value to society, spreading the cost over the generations that will actually use the facility.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A university receives a $100 million gift. Instead of spending it all on one building, they put it in an endowment and spend 5% each year. Why is this strategy used?",
     "options": [
       "Because the government forbids spending more than 5%",
-      "To ensure the university has a permanent source of",
+      "To ensure the university has a permanent source of funding for centuries to come",
       "Because they don't have anything else to spend money on",
       "To hide the money from tax authorities"
     ],
-    "answer": "To ensure the university has a permanent source of",
+    "answer": "To ensure the university has a permanent source of funding for centuries to come",
     "explanation": "An endowment turns a one-time gift into a 'perpetuity.' By only spending the growth/interest, the non-profit protects itself against future economic downturns and ensures long-term stability.",
     "difficulty": "easy"
   },
@@ -32,7 +32,7 @@
     "content": "Impact investing refers to investments made with the intention to generate a measurable social or environmental benefit alongside a financial return. It challenges the idea that social good and profit are mutually exclusive.",
     "description": "An investor puts money into a company that develops low-cost solar panels for off-grid villages. They expect to get their money back with a small profit, but their main goal is reducing carbon emissions. This is an example of:",
     "options": [
-      "Day Trading Strategy",
+      "Day Trading",
       "Impact Investing",
       "Short Selling",
       "Arbitrage"
@@ -47,11 +47,11 @@
     "description": "In the past, you needed a stockbroker and high commissions to buy a single share of stock. Today, apps allow you to buy $1 worth of a 'fractional share' with no fees. This trend is known as:",
     "options": [
       "Financial Exclusion",
-      "The Democratization",
+      "The Democratization of Finance",
       "Monetary Contraction",
       "Market Consolidation"
     ],
-    "answer": "The Democratization",
+    "answer": "The Democratization of Finance",
     "explanation": "Technology has lowered the barriers to entry, allowing people with very small amounts of capital to participate in the wealth-building potential of the global stock market.",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A billionaire signs 'The Giving Pledge,' promising to give away the majority of their wealth to solve global diseases. How does this interact with the financial system?",
     "options": [
       "It removes money from the economy forever",
-      "It redistributes capital from private wealth to",
+      "It redistributes capital from private wealth to social problem-solving, often through foundations",
       "It increases inflation by giving away free money",
       "It is a form of insider trading"
     ],
-    "answer": "It redistributes capital from private wealth to",
+    "answer": "It redistributes capital from private wealth to social problem-solving, often through foundations",
     "explanation": "Philanthropy acts as a specialized sector of the economy that allocates capital to areas where traditional markets might fail, such as curing rare diseases or providing disaster relief.",
     "difficulty": "medium"
   },
@@ -116,7 +116,7 @@
     "content": "Fintech (Financial Technology) uses software and modern tech to provide financial services. Blockchain technology, specifically, offers a decentralized way to record transactions without the need for a traditional middleman like a bank.",
     "description": "You send money directly to a friend across the world in seconds using a digital ledger that no single government or bank controls. Which technology are you likely using?",
     "options": [
-      "A Standard Electronic Wire Transfer",
+      "A Standard Wire Transfer",
       "Blockchain/Cryptocurrency",
       "A Physical Check",
       "A Central Bank Reserve"
@@ -131,11 +131,11 @@
     "description": "Why is teaching high school students about compound interest and credit scores considered a social good?",
     "options": [
       "It helps them become bank employees",
-      "It empowers them to make decisions that prevent debt traps",
+      "It empowers them to make decisions that prevent debt traps and build long-term wealth",
       "It ensures they will all become millionaires",
       "It is required by the Federal Reserve to keep inflation low"
     ],
-    "answer": "It empowers them to make decisions that prevent debt traps",
+    "answer": "It empowers them to make decisions that prevent debt traps and build long-term wealth",
     "explanation": "Knowledge is the ultimate financial asset. Understanding how the 'rules of money' work allows individuals to navigate the system effectively, regardless of their starting point in life.",
     "difficulty": "hard"
   }

@@ -4,12 +4,12 @@
     "content": "A financial crisis is a situation where the value of financial institutions or assets drops rapidly. These are often characterized by a 'liquidity crunch,' where businesses and individuals cannot get the cash they need to operate, leading to a self-reinforcing downward spiral in the economy.",
     "description": "During a market panic, an otherwise healthy company cannot get a short-term loan to pay its employees because all the banks have stopped lending to each other. This specific problem is known as:",
     "options": [
-      "A Liquidity",
+      "A Liquidity Crisis",
       "A Dividend Cut",
       "A Capital Gain",
       "A Stock Split"
     ],
-    "answer": "A Liquidity",
+    "answer": "A Liquidity Crisis",
     "explanation": "A liquidity crisis occurs when there is a sudden shortage of cash in the system. Even if a company has valuable assets (like factories), it can fail if it cannot access 'liquid' cash to meet its immediate obligations.",
     "difficulty": "medium"
   },
@@ -18,7 +18,7 @@
     "content": "Contagion is the spread of an economic crisis from one market or region to others. Because the global financial system is highly interconnected through trade and investment, a bank failure in Europe can quickly cause a stock market crash in Asia or America.",
     "description": "If a debt crisis in a small emerging economy causes investors to panic and pull their money out of all similar economies simultaneously, what phenomenon are we witnessing?",
     "options": [
-      "Diversification Strategy",
+      "Diversification",
       "Financial Contagion",
       "Market Equilibrium",
       "Hedging"
@@ -61,11 +61,11 @@
     "description": "Why is it important for banks in London, Tokyo, and New York to follow similar rules regarding how much cash they keep in reserve?",
     "options": [
       "To make sure all bank buildings look the same",
-      "To prevent a 'race to the bottom' where banks",
+      "To prevent a 'race to the bottom' where banks move to countries with the weakest rules to take more risk",
       "To ensure every currency has the same value",
       "To eliminate the need for central banks"
     ],
-    "answer": "To prevent a 'race to the bottom' where banks",
+    "answer": "To prevent a 'race to the bottom' where banks move to countries with the weakest rules to take more risk",
     "explanation": "International standards like Basel prevent 'regulatory arbitrage.' By having global rules, the system ensures that a failure in one poorly regulated country doesn't bring down the global financial network.",
     "difficulty": "hard"
   },
@@ -89,11 +89,11 @@
     "description": "Interest rates are at 0.01%, but the economy is still shrinking. Why can't the central bank simply lower rates to -5% to force people to spend money?",
     "options": [
       "Because it would be too easy for people to get rich",
-      "Because people would simply withdraw their cash and hold it",
+      "Because people would simply withdraw their cash and hold it physically rather than paying the bank to keep it",
       "Because it is against the law to have negative numbers in finance",
       "Because it would cause the stock market to disappear"
     ],
-    "answer": "Because people would simply withdraw their cash and hold it",
+    "answer": "Because people would simply withdraw their cash and hold it physically rather than paying the bank to keep it",
     "explanation": "This is the 'liquidity trap.' If banks charge you to keep money, you'll just keep cash in a safe. This limit forces central banks to use 'unconventional' tools like Quantitative Easing.",
     "difficulty": "hard"
   },
@@ -117,11 +117,11 @@
     "description": "A country has borrowed heavily in a foreign currency (like USD). Suddenly, its own currency crashes. Why does this make a sovereign debt crisis much more likely?",
     "options": [
       "Because the foreign currency doesn't exist anymore",
-      "Because the cost of paying back the debt in local currency has",
+      "Because the cost of paying back the debt in local currency has effectively skyrocketed",
       "Because the government is no longer allowed to collect taxes",
       "Because debt is automatically cancelled when a currency crashes"
     ],
-    "answer": "Because the cost of paying back the debt in local currency has",
+    "answer": "Because the cost of paying back the debt in local currency has effectively skyrocketed",
     "explanation": "If you earn local 'Pesos' but owe 'Dollars,' and the Peso loses half its value, you now need twice as many Pesos to pay back the same debt. This often triggers a default.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "Why might a long period of economic 'calm' actually be a warning sign for a future financial disaster?",
     "options": [
       "Because people get bored and stop working",
-      "Because it leads to complacency, lower lending",
+      "Because it leads to complacency, lower lending standards, and the accumulation of hidden risks",
       "Because the government will stop printing money",
       "Because prices will eventually drop to zero"
     ],
-    "answer": "Because it leads to complacency, lower lending",
+    "answer": "Because it leads to complacency, lower lending standards, and the accumulation of hidden risks",
     "explanation": "Stability is destabilizing. When people stop fearing a crash, they take on more debt and stop checking for risks, creating the very conditions that allow a massive crisis to form.",
     "difficulty": "hard"
   }

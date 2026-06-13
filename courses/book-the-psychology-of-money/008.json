@@ -5,11 +5,11 @@
     "description": "You buy an expensive watch specifically to gain respect from your peers. Based on the paradox described in Chapter 8, what is the most likely reaction from the people you meet?",
     "options": [
       "They will admire your work ethic and success.",
-      "They will ignore you and imagine themselves wearing the",
+      "They will ignore you and imagine themselves wearing the watch instead.",
       "They will immediately offer you higher-status opportunities.",
       "They will assume you are a financial expert."
     ],
-    "answer": "They will ignore you and imagine themselves wearing the",
+    "answer": "They will ignore you and imagine themselves wearing the watch instead.",
     "explanation": "Housel argues that people tend to use your outward signs of wealth as a mirror for their own fantasies rather than as a reason to admire you personally.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "If your ultimate goal is to be liked and respected, why is spending money on status symbols considered an 'inefficient' strategy?",
     "options": [
       "Because those items lose value the moment you buy them.",
-      "Because respect and admiration are earned through character, not through",
+      "Because respect and admiration are earned through character, not through possessions that others just want for themselves.",
       "Because most people cannot tell the difference between real and fake luxury goods.",
       "Because wealthy people are naturally disliked by society."
     ],
-    "answer": "Because respect and admiration are earned through character, not through",
+    "answer": "Because respect and admiration are earned through character, not through possessions that others just want for themselves.",
     "explanation": "True admiration comes from things like humility, kindness, and empathy, which are 'soft skills' that can't be bought.",
     "difficulty": "easy"
   },
@@ -34,10 +34,10 @@
     "options": [
       "'Can I afford the monthly payments on this?'",
       "'Will this item be worth more in five years?'",
-      "'Am I buying this for the person I want to",
+      "'Am I buying this for the person I want to be, or the person I want others to think I am?'",
       "'How many people will see me using this?'"
     ],
-    "answer": "'Am I buying this for the person I want to",
+    "answer": "'Am I buying this for the person I want to be, or the person I want others to think I am?'",
     "explanation": "Recognizing that others likely won't give you the admiration you seek helps you decouple your self-worth from your spending.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "Why might a 'hidden' millionaire be happier than someone who flaunts their wealth, according to the book?",
     "options": [
       "They pay lower taxes because no one knows they are rich.",
-      "They don't have to deal with the disappointment of not",
+      "They don't have to deal with the disappointment of not receiving the admiration they expected from spending.",
       "They are probably more religious and less materialistic.",
       "They are afraid of being robbed."
     ],
-    "answer": "They don't have to deal with the disappointment of not",
+    "answer": "They don't have to deal with the disappointment of not receiving the admiration they expected from spending.",
     "explanation": "By not seeking validation through spending, they avoid the 'Man in the Car' trap entirely and keep their wealth for their own freedom.",
     "difficulty": "easy"
   },
@@ -61,11 +61,11 @@
     "description": "If everyone is looking at the 'man in the car' and imagining themselves in it, what is the result for society's overall happiness?",
     "options": [
       "It increases happiness by motivating people to work harder.",
-      "It creates a cycle of constant dissatisfaction where no one",
+      "It creates a cycle of constant dissatisfaction where no one feels they have enough.",
       "It makes luxury goods cheaper over time.",
       "It leads to a more equal distribution of wealth."
     ],
-    "answer": "It creates a cycle of constant dissatisfaction where no one",
+    "answer": "It creates a cycle of constant dissatisfaction where no one feels they have enough.",
     "explanation": "When the benchmark for success is always 'the next person's car,' the goalpost for happiness moves further away for everyone.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "According to the paradox, what is the 'distraction' that prevents people from admiring the owner of a luxury item?",
     "options": [
       "The high price tag of the item.",
-      "The viewer's own desire to",
+      "The viewer's own desire to possess that item.",
       "The noise of the car's engine.",
       "The owner's poor attitude."
     ],
-    "answer": "The viewer's own desire to",
+    "answer": "The viewer's own desire to possess that item.",
     "explanation": "People are too busy thinking about how the item would look on *them* to give any credit to the person who actually owns it.",
     "difficulty": "easy"
   },
@@ -88,12 +88,12 @@
     "content": "There is a difference between wanting to be rich and wanting to be 'admired.' The paradox shows that using riches to get admiration usually backfires.",
     "description": "If you want to feel successful without the 'Paradox,' how should you spend your money?",
     "options": [
-      "On things that give you time and autonomy, rather than things that",
+      "On things that give you time and autonomy, rather than things that signal status.",
       "On the most expensive version of every item to ensure it's high quality.",
       "By giving it all away so people admire your charity.",
       "By only buying things that are currently on sale."
     ],
-    "answer": "On things that give you time and autonomy, rather than things that",
+    "answer": "On things that give you time and autonomy, rather than things that signal status.",
     "explanation": "Spending on autonomy provides internal satisfaction that doesn't depend on the fickle (and often non-existent) admiration of strangers.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "What is the most common emotional reaction of a stranger watching someone exit a $300,000 car?",
     "options": [
       "Deep respect for the driver's education and career path.",
-      "A brief moment of thinking, 'I wish I had that car,'",
+      "A brief moment of thinking, 'I wish I had that car,' while completely ignoring the driver.",
       "Anger at the driver for being so successful.",
       "An immediate desire to become friends with the driver."
     ],
-    "answer": "A brief moment of thinking, 'I wish I had that car,'",
+    "answer": "A brief moment of thinking, 'I wish I had that car,' while completely ignoring the driver.",
     "explanation": "The stranger's reaction is entirely self-centered; the owner of the car is merely a prop in the stranger's daydream.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "How does the 'Man in the Car Paradox' impact long-term wealth accumulation?",
     "options": [
       "It helps you earn more by making you look successful in business meetings.",
-      "It drains your capital on assets that don't provide the social return",
+      "It drains your capital on assets that don't provide the social return you're looking for.",
       "It increases your credit score.",
       "It makes you more likely to invest in the companies that make luxury cars."
     ],
-    "answer": "It drains your capital on assets that don't provide the social return",
+    "answer": "It drains your capital on assets that don't provide the social return you're looking for.",
     "explanation": "Spending to impress is a 'double loss': you lose the money, and you fail to get the admiration you bought it for.",
     "difficulty": "medium"
   },

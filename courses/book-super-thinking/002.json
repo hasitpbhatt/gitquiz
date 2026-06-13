@@ -7,9 +7,9 @@
       "Seek out critical analyses of their weaknesses",
       "Remember statistics that show their dominance",
       "Forget games they lost by narrow margins",
-      "Remember favorable stats and forget"
+      "Remember favorable stats and forget unfavorable ones"
     ],
-    "answer": "Remember favorable stats and forget",
+    "answer": "Remember favorable stats and forget unfavorable ones",
     "explanation": "Confirmation bias leads you to remember information confirming your belief (their dominance) and forget information contradicting it (their losses), while avoiding contradictory sources.",
     "difficulty": "easy"
   },
@@ -47,11 +47,11 @@
     "description": "You study successful entrepreneurs who dropped out of college and conclude that dropping out leads to success. This ignores:",
     "options": [
       "The work ethic of those entrepreneurs",
-      "The millions who dropped out and weren't",
+      "The millions who dropped out and weren't successful",
       "The specific industries they entered",
       "Their family backgrounds and connections"
     ],
-    "answer": "The millions who dropped out and weren't",
+    "answer": "The millions who dropped out and weren't successful",
     "explanation": "Survivorship bias focuses only on visible successes (famous dropout entrepreneurs) while ignoring the much larger group of dropouts who didn't achieve notable success.",
     "difficulty": "easy"
   },
@@ -62,10 +62,10 @@
     "options": [
       "Five heads in a row is impossible with a fair coin",
       "Such streaks never occur in random sequences",
-      "Random sequences can produce streaks that aren't",
+      "Random sequences can produce streaks that aren't meaningful",
       "The coin feels heavier on one side"
     ],
-    "answer": "Random sequences can produce streaks that aren't",
+    "answer": "Random sequences can produce streaks that aren't meaningful",
     "explanation": "The clustering illusion makes us see meaning in random streaks. Even fair coins can produce runs of 5+ heads or tails due to chance alone.",
     "difficulty": "easy"
   },
@@ -75,11 +75,11 @@
     "description": "You notice people using 'literally' to mean 'figuratively' and complain:",
     "options": [
       "This usage started with teenagers last year",
-      "Shakespeare used 'literally' this way in the",
+      "Shakespeare used 'literally' this way in the 1600s",
       "It's a new corruption of the English language",
       "No major dictionaries recognize this usage"
     ],
-    "answer": "Shakespeare used 'literally' this way in the",
+    "answer": "Shakespeare used 'literally' this way in the 1600s",
     "explanation": "The recency illusion makes us think language 'errors' are new when they often have historical usage - 'literally' used for emphasis dates back centuries.",
     "difficulty": "easy"
   },
@@ -90,10 +90,10 @@
     "options": [
       "The jacket actually costs $100 to make",
       "You compared it to similar jackets at other stores",
-      "The $200 price serves as an anchor making $100",
+      "The $200 price serves as an anchor making $100 seem cheap",
       "You checked online reviews before purchasing"
     ],
-    "answer": "The $200 price serves as an anchor making $100",
+    "answer": "The $200 price serves as an anchor making $100 seem cheap",
     "explanation": "The initial $200 price anchors your perception of value, making the $100 sale price seem like a significant saving regardless of the jacket's actual worth.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "You're offered a coin flip: heads you win $150, tails you lose $100. Loss aversion predicts you'll likely:",
     "options": [
       "Accept the bet immediately",
-      "Refuse the bet despite positive",
+      "Refuse the bet despite positive expected value",
       "Only accept if you get to flip the coin",
       "Ask for better odds before considering"
     ],
-    "answer": "Refuse the bet despite positive",
+    "answer": "Refuse the bet despite positive expected value",
     "explanation": "Loss aversion makes the potential $100 loss feel worse than the potential $150 gain feels good, causing rejection of bets with positive expected value (~$25).",
     "difficulty": "easy"
   },
@@ -117,11 +117,11 @@
     "description": "You've spent $200 on non-refundable concert tickets. On the day of the concert, you're sick and it's snowing heavily. You should:",
     "options": [
       "Go to the concert because you already paid for the tickets",
-      "Stay home since you'll feel miserable and risk worsening",
+      "Stay home since you'll feel miserable and risk worsening your illness",
       "Go but leave early if you feel worse",
       "Try to sell the tickets to recover some cost"
     ],
-    "answer": "Stay home since you'll feel miserable and risk worsening",
+    "answer": "Stay home since you'll feel miserable and risk worsening your illness",
     "explanation": "The $200 is a sunk cost - gone regardless of your decision. Rational choice ignores sunk costs and considers only future consequences (miscomfort, illness risk).",
     "difficulty": "easy"
   },
@@ -133,9 +133,9 @@
       "There's a 10% chance of dying",
       "9 out of 10 patients survive",
       "It has a 90% success rate",
-      "Either of the positively"
+      "Either of the positively framed descriptions"
     ],
-    "answer": "Either of the positively",
+    "answer": "Either of the positively framed descriptions",
     "explanation": "Positive framing (90% survival, 9/10 survive, 90% success) increases acceptance compared to negative framing (10% dying), even though they're statistically identical.",
     "difficulty": "medium"
   }

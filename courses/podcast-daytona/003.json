@@ -4,12 +4,12 @@
     "content": "The podcast explains the infrastructure choice that enables Daytona's performance claims.",
     "description": "Why did Daytona choose bare metal servers over cloud VMs as their foundation?",
     "options": [
-      "Bare metal eliminates the hypervisor overhead and provides direct",
+      "Bare metal eliminates the hypervisor overhead and provides direct hardware access",
       "Bare metal servers are cheaper to rent than cloud virtual machines",
       "Cloud providers do not offer virtual machines in Europe",
       "Bare metal servers are easier to manage without a cloud console"
     ],
-    "answer": "Bare metal eliminates the hypervisor overhead and provides direct",
+    "answer": "Bare metal eliminates the hypervisor overhead and provides direct hardware access",
     "explanation": "By running directly on bare metal, Daytona avoids the performance tax of a hypervisor layer, giving agents direct access to CPU, memory, and NVMe storage.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "The architecture includes a specialized component for placing workloads on hardware.",
     "description": "What does Daytona's custom scheduler do differently from traditional orchestrators like Kubernetes?",
     "options": [
-      "It can pack sandboxes densely while ensuring predictable",
+      "It can pack sandboxes densely while ensuring predictable performance through kernel-level isolation",
       "It runs machine learning models to predict future workload patterns",
       "It only schedules jobs during off-peak hours",
       "It schedules sandboxes alphabetically by user name"
     ],
-    "answer": "It can pack sandboxes densely while ensuring predictable",
+    "answer": "It can pack sandboxes densely while ensuring predictable performance through kernel-level isolation",
     "explanation": "Daytona's scheduler packs sandboxes densely on bare metal while using kernel-level isolation to guarantee predictable performance for each sandbox.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "The episode covers the technique Daytona uses to achieve fast sandbox startup times.",
     "description": "What technique does Daytona use to reduce cold start times for sandbox snapshots?",
     "options": [
-      "Preloading snapshots from network storage to local NVMe",
+      "Preloading snapshots from network storage to local NVMe drives before they are requested",
       "Storing all snapshots in RAM for instant access",
       "Using tape backup drives for long-term snapshot storage",
       "Encrypting snapshots so they decompress faster during loading"
     ],
-    "answer": "Preloading snapshots from network storage to local NVMe",
+    "answer": "Preloading snapshots from network storage to local NVMe drives before they are requested",
     "explanation": "Daytona predicts which snapshots will be needed and preloads them onto local NVMe storage, dramatically reducing cold start latency.",
     "difficulty": "easy"
   },
@@ -88,12 +88,12 @@
     "content": "The podcast compares different storage architectures and their impact on agent workloads.",
     "description": "Why does local NVMe storage outperform network-attached storage for agent sandboxes?",
     "options": [
-      "Local NVMe provides higher IOPS and lower latency than",
+      "Local NVMe provides higher IOPS and lower latency than network storage options",
       "Local NVMe can store unlimited amounts of data without cost",
       "Network storage does not work with Linux operating systems",
       "Local NVMe drives are encrypted by default"
     ],
-    "answer": "Local NVMe provides higher IOPS and lower latency than",
+    "answer": "Local NVMe provides higher IOPS and lower latency than network storage options",
     "explanation": "Local NVMe drives offer dramatically higher IOPS and lower latency compared to network-attached storage like EBS, critical for agent workloads.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "The founders recall an infrastructure architecture pattern they used in the early days of CodeAnywhere.",
     "description": "What infrastructure design from CodeAnywhere's 2008 era did Daytona revive?",
     "options": [
-      "The use of a centralized scheduler with local storage",
+      "The use of a centralized scheduler with local storage instead of network storage for each compute node",
       "A peer-to-peer network where all nodes communicate directly",
       "A mainframe terminal model with thin clients",
       "A serverless architecture using AWS Lambda exclusively"
     ],
-    "answer": "The use of a centralized scheduler with local storage",
+    "answer": "The use of a centralized scheduler with local storage instead of network storage for each compute node",
     "explanation": "Daytona revived the architecture pattern of putting compute and storage together with a central scheduler, which they first used at CodeAnywhere in 2008.",
     "difficulty": "hard"
   },

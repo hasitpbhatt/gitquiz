@@ -5,11 +5,11 @@
     "description": "A photographer uses Instagram because it occasionally leads to client bookings. However, she spends two hours daily scrolling and feels anxious about engagement metrics. What does the Craftsman approach recommend?",
     "options": [
       "Keep using Instagram; any client is worth the time",
-      "Evaluate whether the client bookings from Instagram justify",
+      "Evaluate whether the client bookings from Instagram justify the two daily hours and anxiety cost",
       "Post more frequently to get more clients and justify the time",
       "Switch to a different platform with better engagement"
     ],
-    "answer": "Evaluate whether the client bookings from Instagram justify",
+    "answer": "Evaluate whether the client bookings from Instagram justify the two daily hours and anxiety cost",
     "explanation": "The Craftsman approach requires a net-benefit calculation. If the costs (time, attention, mental health) exceed the benefits (occasional clients), the tool should be abandoned or severely limited.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A community theater director stays on Facebook because 'you never know' when a casting call might appear. She spends three hours per week scrolling and has found two casting calls in a year. What fallacy is this?",
     "options": [
       "Sunk cost fallacy, because she has invested too much time to quit",
-      "Any-Benefit mindset, because a tiny possible benefit justifies a",
+      "Any-Benefit mindset, because a tiny possible benefit justifies a significant weekly cost",
       "Confirmation bias, because she only remembers the two casting calls",
       "Loss aversion, because she fears missing a future call"
     ],
-    "answer": "Any-Benefit mindset, because a tiny possible benefit justifies a",
+    "answer": "Any-Benefit mindset, because a tiny possible benefit justifies a significant weekly cost",
     "explanation": "Three hours per week (156 hours per year) for two opportunities is a poor trade. The Any-Benefit mindset ignores what those 156 hours could have produced if spent on deep work.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A small business owner finds that 90% of her revenue comes from repeat customers acquired through word-of-mouth, not from her active LinkedIn presence. How should the Law of the Vital Few guide her time allocation?",
     "options": [
       "Spend more time on LinkedIn to reach the remaining 10% of customers",
-      "Drastically reduce LinkedIn time and invest those hours in",
+      "Drastically reduce LinkedIn time and invest those hours in delighting existing referral sources",
       "Maintain current LinkedIn activity since it contributes some revenue",
       "Hire a social media manager to handle LinkedIn"
     ],
-    "answer": "Drastically reduce LinkedIn time and invest those hours in",
+    "answer": "Drastically reduce LinkedIn time and invest those hours in delighting existing referral sources",
     "explanation": "LinkedIn is part of the trivial many—it provides some value but far less than the vital few (existing referral relationships). Deep work should be concentrated on what drives the majority of results.",
     "difficulty": "medium"
   },
@@ -47,11 +47,11 @@
     "description": "A yoga instructor goes 'dark' on TikTok for a month. She produces more class plans, feels less anxious, and not a single student mentions her absence. What should she conclude?",
     "options": [
       "She should return to TikTok but post less frequently",
-      "TikTok did not provide essential value; her life improved",
+      "TikTok did not provide essential value; her life improved without it, and she should quit permanently",
       "She needs to create better content to make her absence noticed",
       "The experiment was flawed because thirty days is too short"
     ],
-    "answer": "TikTok did not provide essential value; her life improved",
+    "answer": "TikTok did not provide essential value; her life improved without it, and she should quit permanently",
     "explanation": "If your life improved and no one noticed, the tool was likely a net negative. The experiment provides objective data to override the anxiety of 'missing out.'",
     "difficulty": "medium"
   },
@@ -61,11 +61,11 @@
     "description": "A warehouse worker finishes his shift at 6 PM and has no plans for the evening. He ends up watching four hours of YouTube videos and feels drained. What would Newport recommend he do differently?",
     "options": [
       "Work longer hours to avoid the temptation of YouTube",
-      "Plan his evening in advance with a specific",
+      "Plan his evening in advance with a specific high-quality activity like practicing guitar or reading",
       "Watch YouTube but only educational videos",
       "Go to bed earlier to reduce his evening leisure time"
     ],
-    "answer": "Plan his evening in advance with a specific",
+    "answer": "Plan his evening in advance with a specific high-quality activity like practicing guitar or reading",
     "explanation": "Without a plan, a tired brain defaults to the easiest source of stimulation. Planning leisure proactively ensures that free time restores rather than fragments your attention.",
     "difficulty": "medium"
   },
@@ -75,11 +75,11 @@
     "description": "A musician subscribes to a 'productivity app' that sends reminders, tracks habits, and integrates with email. She finds herself checking the app constantly, which fragments her practice sessions. What does the Craftsman approach say?",
     "options": [
       "She should use the app more consistently to get its full benefits",
-      "The app is a net negative because its cost in attention fragmentation",
+      "The app is a net negative because its cost in attention fragmentation exceeds its organizational benefits",
       "The app is clearly saving her time since it is designed for productivity",
       "She should find a different productivity app that works better"
     ],
-    "answer": "The app is a net negative because its cost in attention fragmentation",
+    "answer": "The app is a net negative because its cost in attention fragmentation exceeds its organizational benefits",
     "explanation": "A tool must be evaluated by its total impact, not just its intended benefits. If the app fragments focus, it may undermine the very productivity it promises to enhance.",
     "difficulty": "medium"
   },
@@ -89,11 +89,11 @@
     "description": "A teenager is afraid to delete Instagram because she might miss party invitations and inside jokes. After a two-week break, she finds that close friends text her directly and the 'inside jokes' were not worth the daily anxiety. What does this reveal?",
     "options": [
       "That she was right to be afraid; she did miss some things",
-      "That the fear of missing out was worse than the reality,",
+      "That the fear of missing out was worse than the reality, and the benefits of connection came through other channels",
       "That teenagers should not use social media at all",
       "That two weeks is not long enough to judge the impact"
     ],
-    "answer": "That the fear of missing out was worse than the reality,",
+    "answer": "That the fear of missing out was worse than the reality, and the benefits of connection came through other channels",
     "explanation": "FOMO is usually disproportionate to actual loss. Deep relationships will persist through direct communication, while the 'updates' lost are typically low-value.",
     "difficulty": "medium"
   },
@@ -103,11 +103,11 @@
     "description": "A grandmother checks Facebook five times daily to see photos of her grandchildren. She could simply ask her children to send photos once a week, but the habit persists. How would Newport evaluate this?",
     "options": [
       "The grandmother's use is justified because family photos are meaningful",
-      "Even meaningful content can be obtained through less distracting",
+      "Even meaningful content can be obtained through less distracting channels; the real cost is the attention habit itself",
       "Checking five times daily is reasonable for a retired person",
       "She should create her own social media account to post photos"
     ],
-    "answer": "Even meaningful content can be obtained through less distracting",
+    "answer": "Even meaningful content can be obtained through less distracting channels; the real cost is the attention habit itself",
     "explanation": "The issue is not the content but the mechanism. A once-a-week photo email provides the same benefit without training the brain to seek constant novelty and distraction.",
     "difficulty": "medium"
   },
@@ -117,11 +117,11 @@
     "description": "A minister identifies two core goals: preparing thoughtful sermons and providing pastoral care. Twitter helps him stay aware of community issues but consumes time he could spend on sermon preparation. How does the Craftsman approach rule?",
     "options": [
       "Keep Twitter; community awareness directly supports pastoral care",
-      "Evaluate if the community awareness gained from Twitter is worth",
+      "Evaluate if the community awareness gained from Twitter is worth the sermon preparation time lost",
       "Use Twitter only on weekends to balance both goals",
       "Add Instagram to get better community awareness"
     ],
-    "answer": "Evaluate if the community awareness gained from Twitter is worth",
+    "answer": "Evaluate if the community awareness gained from Twitter is worth the sermon preparation time lost",
     "explanation": "The Craftsman approach forces a trade-off analysis. If Twitter's benefit to one goal undermines another equally important goal, it may not pass the test.",
     "difficulty": "hard"
   },
@@ -131,11 +131,11 @@
     "description": "A couple comes home from work tired. They usually end up on separate couches scrolling their phones until bedtime. What would Newport most likely suggest they try?",
     "options": [
       "Accept this as normal relaxation; everyone needs downtime",
-      "Agree on a specific evening activity together, like a",
+      "Agree on a specific evening activity together, like a board game or a walk, to replace the default scrolling habit",
       "Work from home to save commuting time for more leisure",
       "Watch television together instead of separate phones"
     ],
-    "answer": "Agree on a specific evening activity together, like a",
+    "answer": "Agree on a specific evening activity together, like a board game or a walk, to replace the default scrolling habit",
     "explanation": "Scheduled, intentional leisure is more restorative than passive digital consumption. Planning prevents the tired brain from taking the path of least resistance.",
     "difficulty": "hard"
   }
