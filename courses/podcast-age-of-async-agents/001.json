@@ -32,10 +32,10 @@
     "content": "The spec-to-PR workflow is the practice of writing a specification first, then letting an agent autonomously produce a pull request that implements it.",
     "description": "Your engineering team wants to adopt Devin. A senior engineer asks how exactly the spec-to-PR workflow differs from how we use GitHub Copilot today. What is the key difference?",
     "options": [
-      "Copilot writes specs; Devin writes code",
+      "Copilot writes specs and Devin writes production code, but this division misses how both tools actually function in real software practice today",
       "With Copilot a developer types code suggestions; with Devin a developer writes a spec and the agent produces the entire PR autonomously",
-      "Copilot only works in VS Code; Devin works in any editor",
-      "Spec-to-PR is for frontend only; Copilot works for everything"
+      "Copilot only works inside the VS Code text editor application while Devin works in any code editor or development environment environment available",
+      "Spec-to-PR workflow is strictly for frontend UI and visual frontend code while Copilot works for every programming language and software framework"
     ],
     "answer": "With Copilot a developer types code suggestions; with Devin a developer writes a spec and the agent produces the entire PR autonomously",
     "explanation": "Copilot provides line-level completions as the developer types. The spec-to-PR workflow flips this: the human writes a specification document first, and the async agent independently produces a complete pull request with code, tests, and documentation.",
@@ -60,10 +60,10 @@
     "content": "Background agents run autonomously in the cloud and notify you when done, while local agents require the developer to watch them work in the terminal.",
     "description": "Your team is deciding between Claude Code (runs in your terminal) and Devin (runs in the cloud). Which behavioral difference is the most fundamental distinction between these two types of agent?",
     "options": [
-      "Claude Code is free; Devin is paid",
+      "Claude Code is free to use while Devin requires a paid subscription per seat",
       "Claude Code requires watching the output; Devin notifies you when the PR is ready",
-      "Claude Code uses Anthropic; Devin uses OpenAI",
-      "Claude Code only edits one file; Devin edits many"
+      "Claude Code uses Anthropic language models and Devin uses OpenAI models under the hood",
+      "Claude Code can only edit one file at a time while Devin edits many files across the project"
     ],
     "answer": "Claude Code requires watching the output; Devin notifies you when the PR is ready",
     "explanation": "The fundamental distinction is foreground vs background: local agents (Claude Code) require the developer to watch and interact in real time, while background agents (Devin, OpenInspect) run autonomously and notify you when complete.",
@@ -74,12 +74,12 @@
     "content": "Foreground agents require the developer attention during execution, while background agents work independently and check in only when blocked or done.",
     "description": "You are designing a new agent platform. For which type of task would a foreground agent be strictly better than a background agent?",
     "options": [
-      "Running a weekly database migration",
-      "Fixing a critical production bug while developers sleep",
-      "Pair programming on a complex algorithm with real-time feedback",
-      "Refactoring a deprecated API across 50 files"
+      "Running a weekly database migration during a scheduled maintenance window foreground agents foreground agents require",
+      "Fixing a critical production bug while the developers are sleeping at night",
+      "Pair programming on a complex algorithm with real-time feedback (foreground agents require the developer)",
+      "Refactoring a deprecated API across many different files in the project foreground"
     ],
-    "answer": "Pair programming on a complex algorithm with real-time feedback",
+    "answer": "Pair programming on a complex algorithm with real-time feedback (foreground agents require the developer)",
     "explanation": "Foreground agents excel when tight human-in-the-loop collaboration is needed, such as designing a complex algorithm together. Background agents are better for tasks that can run independently: batch refactors, migrations, scheduled maintenance.",
     "difficulty": "medium"
   },
@@ -88,10 +88,10 @@
     "content": "In 2024, building async agents was considered the most AGI pilled bet because models were not yet reliable enough to work without real-time human supervision.",
     "description": "Walden Yan describes starting Cognition in 2024 as a contrarian bet. What made founding an async agent company at that time seem so risky to observers?",
     "options": [
-      "Nobody had GPUs in 2024",
+      "Nobody had enough GPU capacity to run models at scale back in 2024",
       "Models were too unreliable to work without humans watching them in real time",
-      "GitHub Copilot already dominated the market",
-      "Enterprise sales cycles were too long"
+      "GitHub Copilot already dominated the AI code completion market at that time",
+      "Enterprise software sales cycles were far too long and complex to sustain a startup"
     ],
     "answer": "Models were too unreliable to work without humans watching them in real time",
     "explanation": "Building async agents in 2024 was the most AGI pilled bet because models at that time needed constant supervision. The conventional wisdom was that models were too unreliable to leave unattended, which is why most AI tools were interactive assistants rather than autonomous agents.",

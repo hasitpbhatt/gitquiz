@@ -7,7 +7,7 @@
       "The explicit approach adds overhead and creates a centralized bottleneck; it is justified only when AI is the core product, not just a support tool.",
       "The explicit approach is always better because it signals to investors that the company is 'AI-first'; the VP just fears losing power.",
       "The implicit approach is always superior; Naval would say explicit AI is never justified because it creates too much bureaucracy.",
-      "Both approaches are identical in outcome; the real question is whether the CEO or VP has more political influence."
+      "Both approaches are identical in outcome; the real question is whether the CEO or the VP of Engineering has more political influence in the boardroom."
     ],
     "answer": "The explicit approach adds overhead and creates a centralized bottleneck; it is justified only when AI is the core product, not just a support tool.",
     "explanation": "Naval distinguishes implicit AI (tools teams adopt naturally, like AI code summarization or data analysis) from explicit AI (restructuring the org around AI). He suggests explicit restructuring risks recreating the very hierarchies and bottlenecks that small, fast teams avoid. The condition for going explicit: when AI is your product, not just a productivity multiplier. For a logistics company, implicit AI is lower-risk and preserves the agility that Naval values.",
@@ -32,10 +32,10 @@
     "content": "AI allows specialists to become '30% generalists' in other fields. By using AI to handle the basic tasks of a different discipline (like a hardware person writing basic software), team members can 'glue' their work together more effectively without waiting for a specialist to assist them.",
     "description": "In the podcast, how does Naval suggest AI changes the relationship between hardware and software teams?",
     "options": [
-      "It makes the software people obsolete so only hardware people are needed.",
+      "It makes the software people completely obsolete so only the hardware people are needed to build the product.",
       "It allows hardware people to write their own software harnesses for testing without waiting.",
       "It prevents software and hardware teams from talking to each other at all.",
-      "It ensures that all hardware is now manufactured entirely by AI agents."
+      "It ensures that all hardware is now manufactured entirely by autonomous AI agents without any human intervention required at all."
     ],
     "answer": "It allows hardware people to write their own software harnesses for testing without waiting.",
     "explanation": "AI acts as a force multiplier, enabling team members to do 'a little bit of everything' and test their own work without being blocked by cross-functional dependencies.",
@@ -47,9 +47,9 @@
     "description": "If you wanted to know the actual shipping date of a product, how would Naval's 'AI-unleashed' approach differ from a traditional manager's approach?",
     "options": [
       "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
-      "The manager would use a crystal ball; the AI would ask the employees to work 24/7.",
-      "The manager would fire the slowest division; the AI would hire more people automatically.",
-      "There is no difference; both rely on employees lying about their progress."
+      "The manager would use a crystal ball to predict the future; the AI would analyze the actual data and activity logs to generate its own delivery timeline.",
+      "The manager would fire the slowest division to make an example; the AI would hire more people and reallocate resources automatically to meet the deadline.",
+      "There is no difference between the two approaches; both rely on employees honestly reporting their progress and estimated completion dates."
     ],
     "answer": "The manager would ask for a status update; the AI would analyze the actual data and activity to draw its own Gantt chart.",
     "explanation": "Naval suggests that AI can analyze the email flow, code, and estimates to create its own Gantt chart and tell you who is ahead or behind, bypassing manual status reports.",
@@ -60,12 +60,12 @@
     "content": "In a decentralized organization, it can be hard to know who to talk to. AI can scan the internal work product—designs, code, and documents—to identify who in the organization is the true expert on a specific topic, acting as an automated 'internal yellow pages.'",
     "description": "How does AI solve the problem of 'who to talk to' in a fully interconnected graph architecture?",
     "options": [
-      "It forces every employee to wear a badge listing their skills.",
-      "It scans the codebase and documents to guide you to the person likely to be an expert.",
-      "It randomly assigns a person to answer your questions.",
-      "It makes the CEO answer every question so nobody else has to."
+      "It forces every employee to wear a badge listing their skills so the AI can scan the company directory to find the right expert.",
+      "It scans the codebase and documents to guide you to the person likely to be an expert. in a decentralized organization,",
+      "It randomly assigns a person to answer your questions based on their availability rather than their expertise in the relevant domain.",
+      "It makes the CEO personally answer every question so that nobody else has to navigate the company's internal structure on their own."
     ],
-    "answer": "It scans the codebase and documents to guide you to the person likely to be an expert.",
+    "answer": "It scans the codebase and documents to guide you to the person likely to be an expert. in a decentralized organization,",
     "explanation": "Because AI knows 'what' has been written and 'by whom,' it can act as a guide, pointing you toward the expert you need without an explicit organizational chart.",
     "difficulty": "easy"
   },
@@ -74,9 +74,9 @@
     "content": "Naval mentions 'vibe coding'—a term for using AI to generate code via natural language and intuition rather than manual syntax. This democratizes technical power, as the number of people who can build software becomes hundreds of times greater than before.",
     "description": "What is the primary consequence of 'vibe coding' being democratized according to Naval?",
     "options": [
-      "The price of computers will drop significantly.",
+      "The price of computers will drop significantly as AI makes hardware design and manufacturing much more efficient.",
       "The number of people who can build and build and build increases exponentially.",
-      "Professional coders will stop working and become AI researchers.",
+      "Professional coders will stop working entirely and become AI researchers who maintain the models instead of writing code.",
       "People will no longer need to know how to read or write."
     ],
     "answer": "The number of people who can build and build and build increases exponentially.",
@@ -88,12 +88,12 @@
     "content": "Typically, for one piece of code to work with another, a developer must write an explicit API (Application Programming Interface). With AI, you can bypass this by having the AI discover the code's structure or create its own connection at the database or codebase level.",
     "description": "How does AI reduce the 'interface' friction between different people's code?",
     "options": [
-      "It requires everyone to use the exact same coding style.",
-      "It can discover an API or create its own connection directly into the database.",
-      "It deletes any code that doesn't have a manual API.",
-      "It forces developers to meet daily to agree on interfaces."
+      "It requires everyone to use the exact same coding style and naming conventions so the AI can parse the codebase. typically piece",
+      "It can discover an API or create its own connection directly into the database. typically, for one piece typically, for one",
+      "It deletes any code that does not come with a properly documented manual API for other developers to reference.",
+      "It forces developers to meet daily and agree on all interface definitions before writing any code to ensure compatibility."
     ],
-    "answer": "It can discover an API or create its own connection directly into the database.",
+    "answer": "It can discover an API or create its own connection directly into the database. typically, for one piece typically, for one",
     "explanation": "Naval explains that AI can 'discover an API' or connect directly at whatever level it needs, removing the bottleneck of waiting for someone to write a custom interface.",
     "difficulty": "easy"
   },
@@ -102,12 +102,12 @@
     "content": "Managing vendors and suppliers often involves digging through folders of messy contracts and documents. By 'unleashing' AI on these folders, a company can quickly answer questions about where their hardware stands or what their current contractual obligations are.",
     "description": "What is a specific example Naval gives for using AI in hardware operations?",
     "options": [
-      "AI can design a factory in seconds.",
-      "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?'",
-      "AI can replace the need for physical hardware entirely.",
-      "AI can negotiate lower prices by threatening to quit."
+      "AI can design a factory layout in seconds based on analyzing supplier documents and vendor capacity constraints from the file folder. managing vendors",
+      "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?' managing vendors and suppliers",
+      "AI can replace the need for physical hardware entirely by simulating everything in software first before ordering any parts from suppliers.",
+      "AI can negotiate lower prices by analyzing supplier contracts and identifying leverage points in the vendor relationships and pricing history."
     ],
-    "answer": "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?'",
+    "answer": "AI can be released on the file folder of supplier and vendor documents to answer 'where are we?' managing vendors and suppliers",
     "explanation": "Naval suggests that AI can analyze 'the file folder in which all the documents with suppliers and vendors are kept' to provide instant reports on the state of operations.",
     "difficulty": "easy"
   },

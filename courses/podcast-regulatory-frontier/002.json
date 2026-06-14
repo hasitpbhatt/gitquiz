@@ -18,10 +18,10 @@
     "content": "Blake Scholl identifies the fundamental incentive problem in regulation: approving a bad thing destroys your career, while blocking a good thing goes completely unnoticed. This creates a powerful bias toward inaction and delay in every regulatory agency.",
     "description": "An FDA reviewer must decide whether to approve a promising new drug. If the drug turns out to have hidden side effects, the reviewer will be hauled before Congress. If the reviewer delays approval while gathering more data, no one notices. How does Blake Scholl describe this dynamic?",
     "options": [
-      "The FDA has insufficient funding to hire enough qualified reviewers",
+      "The FDA has insufficient funding to hire enough qualified drug reviewers",
       "It's totally asymmetric — if you approve a bad thing, your career",
-      "The pharmaceutical industry deliberately bribes FDA reviewers to delay drugs",
-      "The FDA is staffed by incompetent bureaucrats who don't understand science"
+      "The pharmaceutical industry deliberately bribes FDA reviewers to delay new drug approvals",
+      "The FDA is staffed by incompetent bureaucrats who don't understand basic science"
     ],
     "answer": "It's totally asymmetric — if you approve a bad thing, your career",
     "explanation": "Blake says: 'If you approve a bad thing, your career is over. If you block a good thing, nobody notices. It creates an asymmetric slowdown.' The incentive structure punishes action and rewards delay — exactly the opposite of what innovation needs.",
@@ -32,10 +32,10 @@
     "content": "Max Hodak pushes back on the simple 'regulation bad' narrative, arguing that the real problem is deeper than regulatory reform. The risk aversion is baked into the beliefs of the American people — the voters who elect politicians and the public that punishes agencies for taking risks.",
     "description": "A tech founder blames 'corrupt politicians' for blocking every attempt to build faster. Max Hodak would argue this framing misses the deeper issue. What is the actual root cause of regulatory paralysis, according to Max?",
     "options": [
-      "Politicians are uniquely corrupt in the current administration",
+      "Politicians are uniquely corrupt in the current presidential administration and US congress",
       "The risk aversion reflects the beliefs of the voters who elect those",
-      "Regulatory agencies are underfunded by a deliberate sabotage campaign",
-      "The media sensationalizes every failure, creating artificial public fear"
+      "Regulatory agencies are chronically underfunded by a deliberate government sabotage campaign effort",
+      "The media sensationalizes every minor regulatory failure, creating widespread artificial public fear"
     ],
     "answer": "The risk aversion reflects the beliefs of the voters who elect those",
     "explanation": "Max says: 'It's where the voters are. The reality is that this is reflective of the beliefs of the American people. There's a trade-off between the perception of risk taken in human-subjects research, and the rate at which we get new medicines.' You can't fix regulation without addressing what voters want.",
@@ -46,10 +46,10 @@
     "content": "Max Hodak reveals that China's drug and medical device regulator (CFDA) is thinking for itself and approving technologies faster than the US. There is already an approved, getting-paid implantable brain-computer interface in China — something the US hasn't achieved yet.",
     "description": "You're developing a brain-computer interface medical device. The US regulatory pathway is projected to take seven years and $100 million. Your Chinese competitor has already received CFDA approval. What does this suggest about the competitive landscape?",
     "options": [
-      "Chinese regulators have lower safety standards and their approvals don't matter",
+      "Chinese regulators have lower safety standards and their approvals don't matter for global markets",
       "The CFDA is thinking for itself and costs to bring products to market are",
-      "The US will never approve BCI devices for ethical reasons",
-      "Your competitor likely bribed the CFDA to get fast-track approval"
+      "The US will never approve BCI devices for ethical and moral reasons",
+      "Your competitor likely bribed the CFDA to get fast-track regulatory approval"
     ],
     "answer": "The CFDA is thinking for itself and costs to bring products to market are",
     "explanation": "Max says: 'There actually is one approved, getting-paid implantable BCI today, which is in China. The CFDA is thinking for itself. The costs to bring a drug or device to market are just much lower. You can try things in humans and try things on market.'",
@@ -74,10 +74,10 @@
     "content": "Naval uses a powerful restaurant analogy to explain why healthcare doesn't improve like other industries. Imagine eating at restaurants and sending the bill to your insurer at month-end — every good restaurant would have lines, and bad restaurants would thrive because nobody pays directly.",
     "description": "Your friend argues that healthcare would work fine if we just had a single-payer system like other countries. Using Naval's restaurant analogy, what fundamental problem does third-party payment create in any industry?",
     "options": [
-      "Single-payer systems always have better outcomes than private insurance",
+      "Single-payer systems always have better health outcomes compared to private insurance systems",
       "Without direct payment, there's no price signal — no feedback loop for",
-      "Restaurant and healthcare economics are completely incomparable",
-      "Single-payer works for restaurants in countries with nationalized hospitality"
+      "Restaurant and healthcare economics are completely incomparable to each other in practice",
+      "Single-payer works for restaurants in countries with nationalized hospitality and dining services"
     ],
     "answer": "Without direct payment, there's no price signal — no feedback loop for",
     "explanation": "Naval's restaurant analogy: if you ate at restaurants and sent all receipts to the government, 'There'd be a line outside every good restaurant. Every bad restaurant would be available. The waits would be terrible. The product wouldn't improve.' The feedback loop of direct payment drives improvement.",

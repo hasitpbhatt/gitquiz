@@ -4,12 +4,12 @@
     "content": "A 'complement' is a product that increases the value of another product. For Nvidia, AI models (software) are the complement to their GPUs (hardware). By supporting open-source software, they make the 'complement' cheap and accessible, which directly drives the demand for their high-margin hardware.",
     "description": "Why would a company like Nvidia want AI models to be open-source rather than proprietary?",
     "options": [
-      "To prevent other companies from making money on software.",
-      "Because open-source models make their hardware more useful and increase chip sales.",
-      "Because they believe software is more valuable than hardware.",
-      "To avoid being sued by the government for having a monopoly."
+      "To prevent other companies from making excessive profits on software that runs on top of their hardware platform.",
+      "Because open-source models make their hardware more useful and increase chip sales. a 'complement' is a",
+      "Because they believe that software is inherently more valuable than hardware in the long-term AI ecosystem.",
+      "To avoid being sued by the federal government for having an illegal monopoly over the AI chip market."
     ],
-    "answer": "Because open-source models make their hardware more useful and increase chip sales.",
+    "answer": "Because open-source models make their hardware more useful and increase chip sales. a 'complement' is a",
     "explanation": "Naval explains that hardware players like Nvidia and manufacturers in China benefit when software is 'commoditized' because it removes the barriers to buying and using their hardware.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "Hardware has long been hindered by the difficulty of writing integrated software. AI agents and LLMs are now 'unlocking' hardware by providing a universal interface. This means that hardware—from toys to industrial tools—can now function well without needing a massive, custom-built software department.",
     "description": "How does AI change the competitive landscape for a small hardware startup?",
     "options": [
-      "It makes it harder because they have to compete with Apple's AI.",
-      "It allows them to build functional products without needing a world-class software team to write the 'glue' code.",
-      "It forces them to manufacture everything in the cloud rather than in a factory.",
-      "It makes hardware more expensive because of the cost of AI tokens."
+      "It makes it harder because they now have to compete with Apple's massive AI research budget and engineering talent pool. hardware long hindered",
+      "It allows them to build functional products without needing a world-class software team to write the 'glue' code. hardware has long been",
+      "It forces them to manufacture all of their products in the cloud rather than building physical hardware in a factory.",
+      "It makes hardware much more expensive because the cost of AI inference tokens adds to the per-unit manufacturing overhead."
     ],
-    "answer": "It allows them to build functional products without needing a world-class software team to write the 'glue' code.",
+    "answer": "It allows them to build functional products without needing a world-class software team to write the 'glue' code. hardware has long been",
     "explanation": "Naval suggests that AI handles the 'software problem' that used to kill hardware companies, allowing for a renaissance in physical device innovation.",
     "difficulty": "easy"
   },
@@ -32,10 +32,10 @@
     "content": "Naval argues that optimism is not just a mood, but a requirement for progress. Doom scenarios are 'legible' (easy to see) because they describe the end of what already exists. Optimism is 'illegible' because it requires imagining something entirely new that hasn't been built yet.",
     "description": "Why does Naval say that 'optimism requires creativity'?",
     "options": [
-      "Because you have to invent new ways to be happy.",
+      "Because you have to invent new ways to be happy and build a meaningful life even when the future is uncertain and unclear.",
       "Because you must imagine solutions and jobs that do not yet exist, which is harder than seeing what might break.",
-      "Because only creative people like artists are optimistic.",
-      "Because AI can only be used by people who are creative."
+      "Because only naturally creative people like artists and musicians are capable of being optimistic about the future of technology.",
+      "Because advanced AI models can only be used effectively by people who are inherently creative and imaginative in their thinking."
     ],
     "answer": "Because you must imagine solutions and jobs that do not yet exist, which is harder than seeing what might break.",
     "explanation": "Naval posits that while we can easily see how a job might be lost, we have to be creative to see how new, better jobs will inevitably arise.",
@@ -46,10 +46,10 @@
     "content": "The 'crabs in a bucket' metaphor describes a group where individuals try to pull down anyone who attempts to climb out or succeed. In the context of technology, this refers to 'doomers' who try to suppress optimism by fixating on catastrophic scenarios.",
     "description": "According to Naval, why should we 'reward' and 'nurture' optimism in society?",
     "options": [
-      "Because it’s the only way to ignore the reality of global warming.",
+      "Because it’s the only way to ignore the reality of global warming. , though this view the 'crabs in",
       "Because it is the only mindset that allows us to find a way out of our problems and build the future.",
-      "Because optimistic people are more likely to buy products from VCs.",
-      "Because AI performs better when the prompts are written with an optimistic tone."
+      "Because optimistic people are more likely to buy products from VCs. , yet in practice the 'crabs in a bucket' metaphor",
+      "Because AI performs better when the prompts are written with an optimistic tone. , though according to naval, why should"
     ],
     "answer": "Because it is the only mindset that allows us to find a way out of our problems and build the future.",
     "explanation": "Naval argues that while doomers may have valid points, their mindset doesn't help solve anything; building the future requires the 'irrational' belief that it can be done.",
@@ -60,9 +60,9 @@
     "content": "History shows that whenever technology destroys a category of work, it eventually creates new, more advanced categories. Just as the end of farming led to the industrial and digital ages, Naval believes the AI-driven loss of current jobs will lead to a 'next job' we cannot yet imagine.",
     "description": "What is Naval's response to the fear of mass unemployment caused by AI?",
     "options": [
-      "He believes we should implement Universal Basic Income immediately.",
+      "He believes we should implement Universal Basic Income immediately. , though this view what is naval's",
       "He points to history, noting that while old jobs vanish, 'inevitably there's always a next job.'",
-      "He suggests that everyone should become an AI researcher to stay employed.",
+      "He suggests that everyone should become an AI researcher to stay employed",
       "He thinks people will eventually stop wanting to work and will live in the metaverse."
     ],
     "answer": "He points to history, noting that while old jobs vanish, 'inevitably there's always a next job.'",
@@ -76,8 +76,8 @@
     "options": [
       "To look like they care about the public good to avoid regulation.",
       "Because open-source models drive more traffic and hardware consumption on their cloud platforms.",
-      "Because they want to stop Nvidia from selling chips.",
-      "Because they believe that software should be free for everyone."
+      "Because they want to prevent Nvidia from dominating the AI chip market by making their proprietary software incompatible with competitors.",
+      "Because they believe that software should be free for everyone"
     ],
     "answer": "Because open-source models drive more traffic and hardware consumption on their cloud platforms.",
     "explanation": "Naval notes that open-source software 'commoditizes the complement,' making the underlying cloud hardware more valuable.",
@@ -88,10 +88,10 @@
     "content": "AI intelligence is 'jagged,' meaning it can perform some expert-level tasks but fail at basic common-sense tasks. Naval warns that fixating only on the 'brilliant' parts of AI can lead to a false sense of security (or doom) about its current capabilities.",
     "description": "What does Naval mean by 'jagged intelligence' in the context of job loss?",
     "options": [
-      "That AI will only take jobs that involve sharp objects.",
+      "That AI will only take jobs that involve sharp objects. , while this perspective ai intelligence is 'jagged,' meaning it",
       "That AI is smart in specific, narrow ways but still lacks a holistic 'world model' to replace many human roles.",
-      "That AI intelligence changes depending on the data center it is in.",
-      "That AI is becoming smarter at an uneven, unpredictable speed."
+      "That AI intelligence changes depending on the data center it is in. , yet in practice what does naval",
+      "That AI is becoming smarter at an uneven, unpredictable speed. , while this perspective ai intelligence is 'jagged,' meaning it"
     ],
     "answer": "That AI is smart in specific, narrow ways but still lacks a holistic 'world model' to replace many human roles.",
     "explanation": "Naval highlights that AI is bad at multimodal reasoning and world models, which are key components of many 'real-world' jobs.",
@@ -102,10 +102,10 @@
     "content": "There is currently a disconnect between the 'sci-fi' technologies being funded (rockets, drones, AI) and the available talent. Naval notes that while VCs are ready to fund the future, the supply of 'sci-fi engineers' and 'sci-fi scientists' is currently very low.",
     "description": "According to the transcript, what is the 'high demand, low supply' problem in the tech world today?",
     "options": [
-      "High demand for AI software, low supply of electricity.",
+      "High demand for AI software, low supply of electricity. , however there is currently a disconnect between",
       "High demand for sci-fi technologies, but a low supply of the engineers and scientists who can build them.",
-      "High demand for cloud storage, low supply of fiber optic cables.",
-      "High demand for social media apps, but a low supply of users."
+      "High demand for cloud storage, low supply of fiber optic cables. , while this perspective according to the",
+      "High demand for social media apps, but a low supply of users"
     ],
     "answer": "High demand for sci-fi technologies, but a low supply of the engineers and scientists who can build them.",
     "explanation": "Naval points out that we are moving into an era of 'hard tech' where the required skills are much rarer than standard web development.",
@@ -130,10 +130,10 @@
     "content": "Naval concludes that in times of rapid change and potential danger, you want to be surrounded by optimists. Even if the 'doomers' turn out to be right, they don't provide the creative energy or the 'foxhole' companionship needed to build a way out of the crisis.",
     "description": "What does Naval mean when he says a 'doomer' is not the person you want to be in a foxhole with?",
     "options": [
-      "Because doomers don't know how to use weapons.",
+      "Because doomers typically lack the practical knowledge of how to operate advanced weapons and defensive technology systems in combat.",
       "Because they focus on the end of the world rather than the creative work of survival and rising up.",
-      "Because doomers are usually not smart enough to build drones.",
-      "Because doomers prefer to work alone in hierarchies."
+      "Because doomers are generally not intelligent or skilled enough to design and build autonomous drones or other defensive technologies.",
+      "Because doomers naturally prefer to work alone inside rigid corporate hierarchies where they can avoid direct responsibility for outcomes."
     ],
     "answer": "Because they focus on the end of the world rather than the creative work of survival and rising up.",
     "explanation": "Naval emphasizes that optimism is a 'survival' tool; we have to be 'irrationally optimistic' to keep moving forward when things get difficult.",

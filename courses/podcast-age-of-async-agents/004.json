@@ -4,12 +4,12 @@
     "content": "Docker has limitations for agent infrastructure including Docker-in-Docker nesting issues, shared kernel security concerns, and limitations on running certain system-level operations.",
     "description": "Your infrastructure team initially built agents on Docker but encountered problems. Which is a genuine limitation of Docker for running untrusted agent code?",
     "options": [
-      "Docker containers cannot run any commands",
-      "Docker-in-Docker nesting is problematic and containers share the host kernel",
-      "Docker does not support any programming languages",
-      "Docker containers have infinite disk space"
+      "Docker containers cannot run any commands or processes at all inside them docker docker limitations agent",
+      "Docker-in-Docker nesting is problematic and containers share the host kernel (docker has limitations for agent)",
+      "Docker does not support any programming languages or runtime environments whatsoever docker has",
+      "Docker containers have infinite disk space and storage capacity available to them docker"
     ],
-    "answer": "Docker-in-Docker nesting is problematic and containers share the host kernel",
+    "answer": "Docker-in-Docker nesting is problematic and containers share the host kernel (docker has limitations for agent)",
     "explanation": "Docker's shared kernel model creates security concerns for untrusted agent code, and Docker-in-Docker nesting causes complexity for agents that need to run their own Docker. Full VMs provide stronger isolation boundaries.",
     "difficulty": "easy"
   },
@@ -18,10 +18,10 @@
     "content": "Full VMs (e.g., Firecracker microVMs) provide stronger security isolation than Docker containers because each VM has its own kernel, making it harder for a compromised agent to escape.",
     "description": "Your CTO proposes using Docker containers for agent isolation. Why would a security-conscious architect prefer full VMs instead?",
     "options": [
-      "VMs are cheaper than containers",
+      "Virtual machines are much cheaper to operate than Docker containers in production",
       "VMs provide stronger security isolation with separate kernels per agent",
-      "VMs start faster than containers",
-      "VMs use less memory than containers"
+      "Virtual machines start up faster than Docker containers in most scenarios",
+      "Virtual machines use significantly less memory than Docker containers do"
     ],
     "answer": "VMs provide stronger security isolation with separate kernels per agent",
     "explanation": "Full VMs give each agent its own kernel and hardware layer, providing stronger security guarantees than containers which share the host kernel. This is critical when running untrusted agent code from different customers.",
@@ -32,10 +32,10 @@
     "content": "Setting up a repository so an agent can work with it, configuring build tools, dependencies, secrets, and environment, is consistently cited as the hardest infrastructure problem for agent platforms.",
     "description": "Walden Yan says there is one infrastructure problem that is harder than all others for running cloud agents at scale. What is it?",
     "options": [
-      "GPU availability",
+      "Availability of powerful graphics processing units for training large machine learning models",
       "Repository setup, configuring build tools, dependencies, and environment for each repo",
-      "Network bandwidth",
-      "Model latency"
+      "Total network bandwidth available between the agent and remote services",
+      "Latency of the underlying large language model generating code and response outputs"
     ],
     "answer": "Repository setup, configuring build tools, dependencies, and environment for each repo",
     "explanation": "Repo setup is the hardest problem because every repository has unique build tools, dependency managers, environment variables, and configuration. Automating this for thousands of different repositories without human intervention is extremely complex.",
@@ -46,10 +46,10 @@
     "content": "Network file systems are slow for agent operations like grep, find, and recursive file reads because every file operation must travel over the network, dramatically increasing latency.",
     "description": "Your agents are running slower than expected. Investigation shows that grep operations are taking 10x longer than on local disks. What is the most likely cause?",
     "options": [
-      "The CPU is too slow",
+      "The central processing unit in the host machine is far too slow for the workload",
       "The agents are using a network file system where each file operation has network latency",
-      "The grep algorithm is inefficient",
-      "Too many agents are running simultaneously"
+      "The grep algorithm implementation is fundamentally inefficient and poorly optimized for large codebases",
+      "Far too many agent processes are running simultaneously on the same physical host machine"
     ],
     "answer": "The agents are using a network file system where each file operation has network latency",
     "explanation": "Network file systems introduce latency on every file operation. When agents run grep, find, or read thousands of files recursively, the accumulated network latency makes the agent significantly slower than using local storage.",
@@ -60,12 +60,12 @@
     "content": "BlockDev is an incremental file system approach that efficiently syncs only changed blocks between a base image and each agent's workspace, combining fast cloning with minimal storage overhead.",
     "description": "You need a file system approach that lets 100 agents each work on the same large repository without duplicating all the data 100 times. Which technology addresses this?",
     "options": [
-      "RAID 5",
-      "BlockDev incremental file system with block-level snapshots",
-      "Distributed hash tables",
-      "In-memory databases"
+      "RAID 5 disk striping with distributed parity across multiple drives blockdev incremental file",
+      "BlockDev incremental file system with block-level snapshots (blockdev is an incremental file)",
+      "Distributed hash tables for decentralized data storage across nodes blockdev",
+      "In-memory databases for ultra-fast data access and retrieval operations blockdev"
     ],
-    "answer": "BlockDev incremental file system with block-level snapshots",
+    "answer": "BlockDev incremental file system with block-level snapshots (blockdev is an incremental file)",
     "explanation": "BlockDev uses block-level incremental snapshots, so each agent gets its own writable view of a base image but only changed blocks consume additional storage. This enables fast cloning of large repos without massive storage duplication.",
     "difficulty": "hard"
   },
@@ -74,10 +74,10 @@
     "content": "Running Android emulators inside agent VMs requires nested virtualization support because Android emulators themselves run VMs that need hardware virtualization extensions.",
     "description": "Your company builds mobile apps and wants agents to run Android emulators for testing. What infrastructure capability does this require from the agent platform?",
     "options": [
-      "A faster network connection",
+      "A much faster network connection with higher bandwidth and lower latency",
       "Nested virtualization support, the agent VM must support running VMs inside itself",
-      "More RAM in the host machine",
-      "A physical Android device connected via USB"
+      "Significantly more random access memory in the physical host machine",
+      "A physical Android device connected directly to the server via USB cable"
     ],
     "answer": "Nested virtualization support, the agent VM must support running VMs inside itself",
     "explanation": "Android emulators use QEMU/KVM VMs internally, so the agent's VM must support nested virtualization, allowing VMs to run inside VMs. This is a specific infrastructure requirement that not all cloud providers support.",
@@ -88,10 +88,10 @@
     "content": "VM snapshots allow saving an agent's entire state (disk, memory, network) so it can be restored instantly, enabling pause/resume workflows and fast recovery from failures.",
     "description": "An agent has been working on a complex task for 30 minutes. You need to pause it and resume later without losing any state. What infrastructure feature makes this possible?",
     "options": [
-      "Database replication",
+      "Database replication across multiple availability zones for redundancy",
       "VM snapshots capturing disk, memory, and network state",
-      "Git stash",
-      "Process forking"
+      "Git stash to temporarily save uncommitted changes in the working directory",
+      "Process forking to create child processes from the parent application"
     ],
     "answer": "VM snapshots capturing disk, memory, and network state",
     "explanation": "Full VM snapshots capture the entire machine state including memory, disk, and network connections. This lets agents pause mid-task and resume exactly where they left off, which is critical for long-running background agents.",

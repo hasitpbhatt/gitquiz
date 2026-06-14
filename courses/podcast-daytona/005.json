@@ -19,9 +19,9 @@
     "description": "What is Daytona's position on CLI versus MCP for agent tooling?",
     "options": [
       "They believe CLI is the appropriate interface for agents because it is universal and well-understood",
-      "They are building their own proprietary protocol to replace both CLI and MCP",
-      "They believe MCP will completely replace CLI within six months",
-      "MCP is superior because agents cannot parse command-line output"
+      "They are building their very own proprietary protocol to replace both CLI and MCP entirely",
+      "They believe MCP will completely replace and supersede the traditional CLI within six months time",
+      "MCP is far superior because AI agents simply cannot parse standard command line text output effectively"
     ],
     "answer": "They believe CLI is the appropriate interface for agents because it is universal and well-understood",
     "explanation": "Daytona argues that CLI is the right abstraction because every agent framework already knows how to use a command line, making it more universally compatible.",
@@ -33,9 +33,9 @@
     "description": "What is Daytona's view on the business model of reselling LLM tokens to customers?",
     "options": [
       "Token resale has almost no margin and is a losing business model long-term",
-      "Token resale is the most profitable business model in AI",
-      "Token resale should be the primary revenue driver for infrastructure companies",
-      "Token resale works well but only for text generation models"
+      "Token resale is the most profitable in AI",
+      "Token resale should be the primary and dominant revenue driver for AI infrastructure companies today",
+      "Token resale works well but only for text generation models and not for reasoning based models"
     ],
     "answer": "Token resale has almost no margin and is a losing business model long-term",
     "explanation": "Daytona believes reselling tokens with a markup is a low-margin trap — the real value is in the infrastructure layer, not token arbitrage.",
@@ -47,9 +47,9 @@
     "description": "How does Daytona's approach to pricing resemble Salesforce's strategy?",
     "options": [
       "They believe in charging for the platform infrastructure while treating compute as a pass-through cost",
-      "They charge per user per month regardless of usage",
-      "They give away the product for free and make money from advertising",
-      "They charge based on the number of lines of code executed"
+      "They charge every user per month regardless of their actual platform usage or consumption",
+      "They give away the main product for completely free and make money from advertising revenue",
+      "They charge based on the total number of lines of code executed on their platform"
     ],
     "answer": "They believe in charging for the platform infrastructure while treating compute as a pass-through cost",
     "explanation": "Like Salesforce charging for the CRM platform while passing through infrastructure costs, Daytona charges for its platform value rather than marking up compute.",
@@ -61,9 +61,9 @@
     "description": "How does Daytona describe its go-to-market approach for reaching AI companies?",
     "options": [
       "A B2B2C model where open source adoption drives enterprise cloud sales",
-      "A direct enterprise sales force calling Fortune 500 companies",
-      "An advertising-based model selling ad space on their dashboard",
-      "A retail model selling hardware through Amazon"
+      "A direct enterprise sales force calling on Fortune 500 companies directly",
+      "An advertising-based revenue model selling ad space on their web dashboard",
+      "A retail distribution model selling hardware through Amazon and other online stores"
     ],
     "answer": "A B2B2C model where open source adoption drives enterprise cloud sales",
     "explanation": "Developers adopt Daytona's open source project, which creates organizational demand for the managed cloud service — a classic B2B2C motion.",
@@ -75,9 +75,9 @@
     "description": "What analogy does the podcast use to describe the current AI cloud infrastructure market opportunity?",
     "options": [
       "AI cloud is more like Stripe — a thin layer on top of existing infrastructure providers — than like AWS",
-      "AI cloud is more like AWS — building everything from the ground up including data centers",
-      "AI cloud is more like Netflix — purely focused on content delivery",
-      "AI cloud is more like Shopify — enabling e-commerce for AI agents"
+      "AI cloud is more like AWS where they build everything from the ground up including their own data center infrastructure",
+      "AI cloud is more like Netflix where it is purely focused on content delivery and video streaming services to consumers",
+      "AI cloud is more like Shopify where it enables e-commerce storefronts for AI agents to sell their products directly"
     ],
     "answer": "AI cloud is more like Stripe — a thin layer on top of existing infrastructure providers — than like AWS",
     "explanation": "The podcast argues that AI cloud companies should be the 'Stripe of compute' — a value-add layer on existing infrastructure — rather than trying to become the next AWS.",
@@ -117,9 +117,9 @@
     "description": "How does being open source simplify integration with AI agent frameworks?",
     "options": [
       "Agent frameworks can embed the Daytona SDK directly rather than calling an external API",
-      "Open source licenses make the product free for all agent frameworks",
-      "Agent frameworks require all infrastructure to be open source to comply with regulations",
-      "Open source code compiles faster than proprietary code"
+      "Open source software licenses make the product completely free for use by all agent frameworks",
+      "All agent frameworks require all infrastructure to be open source in order to comply with government regulations",
+      "Open source application code compiles and runs significantly faster than proprietary closed source code"
     ],
     "answer": "Agent frameworks can embed the Daytona SDK directly rather than calling an external API",
     "explanation": "Because Daytona is open source, agent frameworks like CrewAI or AutoGen can embed the SDK directly, making integration simpler than calling a proprietary API.",

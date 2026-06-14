@@ -1,100 +1,100 @@
 [
-  {
-    "question": "China Goes All In on Open Source",
-    "content": "Naval explains why China is embracing open-source AI models: they have hardware superiority and complex supply chains. Generating software on demand removes their disadvantage against Silicon Valley.",
-    "description": "You read that China's government is heavily funding open-source AI model development. A colleague argues this is purely an altruistic contribution to the global AI community. Based on Naval's analysis, what is the strategic rationale?",
-    "options": [
-      "China wants to win the Nobel Prize for AI research",
-      "China has hardware superiority and complex supply chains — generating software on demand removes their software disadvantage against Silicon Valley",
-      "China is simply copying whatever the US does in AI research",
-      "Open-source AI is cheaper than developing proprietary models in-house"
-    ],
-    "answer": "China has hardware superiority and complex supply chains — generating software on demand removes their software disadvantage against Silicon Valley",
-    "explanation": "Naval explains China is going all in on open source because they have hardware superiority and complex supply chains — if they can generate software on demand, they don't have the software disadvantage against Silicon Valley anymore.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "The Open Source Vacuum",
-    "content": "Naval notes a striking pattern: nearly all open-source AI model contributions are coming from China because Western labs like OpenAI, Anthropic, and Google are not publishing open models. Grok publishes but is a model or two behind.",
-    "description": "A journalist claims that 'the open-source AI community is thriving globally with contributions from all major AI labs.' How would Naval correct this statement based on his observation?",
-    "options": [
-      "The open-source AI community is actually dying because no one contributes anymore",
-      "OpenAI, Anthropic, and Google don't publish competitive open models — nearly all open-source heft is coming from China",
-      "All major labs publish their models openly, the journalist is correct",
-      "Only Meta contributes to open-source AI, and they are based in the US"
-    ],
-    "answer": "OpenAI, Anthropic, and Google don't publish competitive open models — nearly all open-source heft is coming from China",
-    "explanation": "Naval says OpenAI is not open, Grok is a model or two behind, Google has nothing competitive, Anthropic has no open models — so all the open-source heft is coming from China.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "The Knickknack Software Upgrade",
-    "content": "Naval describes how better AI-generated software will improve all the 'crappy little software' that ships with cheap hardware gadgets. China's open-source models make this happen faster.",
-    "description": "You buy a cheap temperature sensor from an online marketplace, expecting the accompanying software to be unusable. To your surprise, it works perfectly. Based on Naval's analysis, what is the most likely explanation?",
-    "options": [
-      "The manufacturer hired a professional software team to rewrite their stack",
-      "China's investment in open-source AI models has dramatically improved the quality of software that ships with hardware gadgets",
-      "Temperature sensors have always had great software, you just never noticed",
-      "The government mandated minimum software quality standards for IoT devices"
-    ],
-    "answer": "China's investment in open-source AI models has dramatically improved the quality of software that ships with hardware gadgets",
-    "explanation": "Naval says all the 'crappy little software' that goes with random hardware gadgets is getting much better quickly because AI can generate decent software on demand — and China's open-source push accelerates this.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Software Is the Bottleneck for Everything",
-    "content": "Guillermo Rauch warns that without great frontier coding models, a nation loses self-improvement capability. Software generation underpins every piece of the hardware pipeline.",
-    "description": "A policy maker argues that a country can excel in hardware manufacturing even if it falls behind in AI coding models. How would Guillermo Rauch respond based on the hardware pipeline argument?",
-    "options": [
-      "Hardware manufacturing and AI software are completely separate industries",
-      "If you fall behind in your ability to generate software, you fall behind in your ability to generate everything",
-      "A country only needs good hardware engineers, software can be imported",
-      "Coding models only matter for consumer software, not industrial hardware"
-    ],
-    "answer": "If you fall behind in your ability to generate software, you fall behind in your ability to generate everything",
-    "explanation": "Guillermo says: 'If you fall behind in your ability to generate software, you fall behind in your ability to generate everything' — because every piece of the hardware pipeline needs software generation.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Open Source as Industrial Policy",
-    "content": "Naval draws a parallel between China's current open-source AI strategy and their historical approach of funding network-effect businesses to boost the entire ecosystem.",
-    "description": "A government official proposes funding a single national AI champion company rather than supporting open-source ecosystem development. Based on China's approach as described by Naval, why might ecosystem-wide funding be more effective?",
-    "options": [
-      "Because the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses",
-      "Because single champions always fail due to lack of competition",
-      "Because open source is cheaper than funding a single company",
-      "Because the Chinese government has never funded any technology companies directly"
-    ],
-    "answer": "Because the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses",
-    "explanation": "Naval says the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses — pooling resources to catch up on AI.",
-    "difficulty": "hard"
-  },
-  {
-    "question": "The Open Source Paradox",
-    "content": "Naval points out the irony that China's open-source AI contributions help hardware founders globally, but disproportionately help China's own hardware factories and founders who already have supply chain advantages.",
-    "description": "A US hardware founder celebrates that Chinese open-source models are freely available and dramatically improving their product's software. Using Naval's framework, what should this founder be cautious about?",
-    "options": [
-      "Open-source models might contain backdoors installed by the Chinese government",
-      "While the models help US founders, they help Chinese hardware founders and factories that much more because they already have supply chain advantages",
-      "Chinese open-source models will eventually become proprietary and expensive",
-      "The US government will likely ban the use of Chinese AI models in commercial products"
-    ],
-    "answer": "While the models help US founders, they help Chinese hardware founders and factories that much more because they already have supply chain advantages",
-    "explanation": "Naval says: 'It helps our hardware founders, but it helps their hardware founders and factories that much more' — because China already has the hardware ecosystem in place to capitalize on better software.",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Catching Up Through Collaboration",
-    "content": "Naval lists multiple reasons China is pursuing open source: they're behind, they're distilling models, they're catching up, and they're collaborating on pooled resources — all enabled by government support.",
-    "description": "You are advising a developing country that wants to build AI capabilities but lacks the resources of the US or China. What lesson from China's multi-pronged open-source strategy could apply to your situation?",
-    "options": [
-      "The only path is to match US spending dollar for dollar on frontier research",
-      "Pool resources, collaborate on models, distill existing work, and leverage government ecosystem funding to catch up",
-      "Developing countries should avoid AI entirely and focus on agriculture",
-      "The best strategy is to wait until AI technology is mature and then license it"
-    ],
-    "answer": "Pool resources, collaborate on models, distill existing work, and leverage government ecosystem funding to catch up",
-    "explanation": "Naval says China is 'distilling models, catching up, collaborating on resources' with government funding to help the ecosystem — a playbook applicable to any nation trying to build AI capacity.",
-    "difficulty": "medium"
-  }
+    {
+        "question":  "China Goes All In on Open Source",
+        "content":  "Naval explains why China is embracing open-source AI models: they have hardware superiority and complex supply chains. Generating software on demand removes their disadvantage against Silicon Valley.",
+        "description":  "You read that China\u0027s government is heavily funding open-source AI model development. A colleague argues this is purely an altruistic contribution to the global AI community. Based on Naval\u0027s analysis, what is the strategic rationale?",
+        "options":  [
+                        "China wants to win international prestige and global recognition through Nobel Prize caliber AI research contributions",
+                        "China has hardware superiority and complex supply chains — generating software on demand removes their software disadvantage against Silicon Valley",
+                        "China is simply copying whatever the United States does in AI research and development without any original innovation of its own",
+                        "Open-source AI development is far cheaper than building and maintaining proprietary models behind closed corporate walls"
+                    ],
+        "answer":  "China has hardware superiority and complex supply chains — generating software on demand removes their software disadvantage against Silicon Valley",
+        "explanation":  "Naval explains China is going all in on open source because they have hardware superiority and complex supply chains — if they can generate software on demand, they don\u0027t have the software disadvantage against Silicon Valley anymore.",
+        "difficulty":  "easy"
+    },
+    {
+        "question":  "The Open Source Vacuum",
+        "content":  "Naval notes a striking pattern: nearly all open-source AI model contributions are coming from China because Western labs like OpenAI, Anthropic, and Google are not publishing open models. Grok publishes but is a model or two behind.",
+        "description":  "A journalist claims that \u0027the open-source AI community is thriving globally with contributions from all major AI labs.\u0027 How would Naval correct this statement based on his observation?",
+        "options":  [
+                        "The open-source AI community is actually dying out because hardly anyone contributes meaningful code or models anymore",
+                        "OpenAI, Anthropic, and Google don\u0027t publish competitive open models — nearly all open-source heft is coming from China",
+                        "All major AI labs including OpenAI, Anthropic, and Google publish their most competitive models openly for everyone",
+                        "Only Meta contributes significantly to open-source AI, and since they are based in the US the credit stays American"
+                    ],
+        "answer":  "OpenAI, Anthropic, and Google don\u0027t publish competitive open models — nearly all open-source heft is coming from China",
+        "explanation":  "Naval says OpenAI is not open, Grok is a model or two behind, Google has nothing competitive, Anthropic has no open models — so all the open-source heft is coming from China.",
+        "difficulty":  "easy"
+    },
+    {
+        "question":  "The Knickknack Software Upgrade",
+        "content":  "Naval describes how better AI-generated software will improve all the \u0027crappy little software\u0027 that ships with cheap hardware gadgets. China\u0027s open-source models make this happen faster.",
+        "description":  "You buy a cheap temperature sensor from an online marketplace, expecting the accompanying software to be unusable. To your surprise, it works perfectly. Based on Naval\u0027s analysis, what is the most likely explanation?",
+        "options":  [
+                        "The manufacturer hired a professional software development team to completely rewrite their entire legacy technology stack from scratch",
+                        "China\u0027s investment in open-source AI models has dramatically improved the quality of software that ships with hardware gadgets",
+                        "Temperature sensor companion software has always been excellent and well-designed, you just never happened to notice it before now",
+                        "The government mandated minimum software quality and security standards for all Internet of Things consumer devices currently sold"
+                    ],
+        "answer":  "China\u0027s investment in open-source AI models has dramatically improved the quality of software that ships with hardware gadgets",
+        "explanation":  "Naval says all the \u0027crappy little software\u0027 that goes with random hardware gadgets is getting much better quickly because AI can generate decent software on demand — and China\u0027s open-source push accelerates this.",
+        "difficulty":  "medium"
+    },
+    {
+        "question":  "Software Is the Bottleneck for Everything",
+        "content":  "Guillermo Rauch warns that without great frontier coding models, a nation loses self-improvement capability. Software generation underpins every piece of the hardware pipeline.",
+        "description":  "A policy maker argues that a country can excel in hardware manufacturing even if it falls behind in AI coding models. How would Guillermo Rauch respond based on the hardware pipeline argument?",
+        "options":  [
+                        "Hardware manufacturing and AI software development are completely separate industries with no meaningful technological overlap between them",
+                        "If you fall behind in your ability to generate software, you fall behind in your ability to generate everything",
+                        "A country only needs good hardware engineers to succeed since all necessary software can simply be purchased and imported from abroad",
+                        "Coding models matter only for consumer software products and mobile apps, not for industrial hardware or embedded control systems"
+                    ],
+        "answer":  "If you fall behind in your ability to generate software, you fall behind in your ability to generate everything",
+        "explanation":  "Guillermo says: \u0027If you fall behind in your ability to generate software, you fall behind in your ability to generate everything\u0027 — because every piece of the hardware pipeline needs software generation.",
+        "difficulty":  "medium"
+    },
+    {
+        "question":  "Open Source as Industrial Policy",
+        "content":  "Naval draws a parallel between China\u0027s current open-source AI strategy and their historical approach of funding network-effect businesses to boost the entire ecosystem.",
+        "description":  "A government official proposes funding a single national AI champion company rather than supporting open-source ecosystem development. Based on China\u0027s approach as described by Naval, why might ecosystem-wide funding be more effective?",
+        "options":  [
+                        "Because the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses",
+                        "Government-backed single national champion companies always fail eventually due to a critical lack of real competitive pressure and innovation",
+                        "Funding and supporting open-source development projects is cheaper than providing direct financial support to a single large corporate entity",
+                        "The Chinese government has historically never funded any private technology companies either directly or through indirect government grants and subsidies"
+                    ],
+        "answer":  "Because the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses",
+        "explanation":  "Naval says the Chinese government has a history of funding efforts that help their entire ecosystem along, especially in network-effect businesses — pooling resources to catch up on AI.",
+        "difficulty":  "hard"
+    },
+    {
+        "question":  "The Open Source Paradox",
+        "content":  "Naval points out the irony that China\u0027s open-source AI contributions help hardware founders globally, but disproportionately help China\u0027s own hardware factories and founders who already have supply chain advantages.",
+        "description":  "A US hardware founder celebrates that Chinese open-source models are freely available and dramatically improving their product\u0027s software. Using Naval\u0027s framework, what should this founder be cautious about?",
+        "options":  [
+                        "Open-source models distributed from China might contain concealed backdoors intentionally installed by the Chinese government for espionage and surveillance",
+                        "While the models help US founders, they help Chinese hardware founders and factories that much more because they already have supply chain advantages",
+                        "Chinese open-source AI models will eventually become proprietary and very expensive to license once they have achieved full global market dominance and adoption",
+                        "The US government will likely ban the commercial use of Chinese AI models in all domestic hardware and software products in the near future"
+                    ],
+        "answer":  "While the models help US founders, they help Chinese hardware founders and factories that much more because they already have supply chain advantages",
+        "explanation":  "Naval says: \u0027It helps our hardware founders, but it helps their hardware founders and factories that much more\u0027 — because China already has the hardware ecosystem in place to capitalize on better software.",
+        "difficulty":  "hard"
+    },
+    {
+        "question":  "Catching Up Through Collaboration",
+        "content":  "Naval lists multiple reasons China is pursuing open source: they\u0027re behind, they\u0027re distilling models, they\u0027re catching up, and they\u0027re collaborating on pooled resources — all enabled by government support.",
+        "description":  "You are advising a developing country that wants to build AI capabilities but lacks the resources of the US or China. What lesson from China\u0027s multi-pronged open-source strategy could apply to your situation?",
+        "options":  [
+                        "The only viable path is to match US government spending dollar for dollar on frontier AI research projects",
+                        "Pool resources, collaborate on models, distill existing work, and leverage government ecosystem funding to catch up",
+                        "Developing countries should avoid investing in AI entirely and focus their limited resources on agriculture instead",
+                        "The best strategy is to wait until AI technology fully matures and then simply license it from established providers"
+                    ],
+        "answer":  "Pool resources, collaborate on models, distill existing work, and leverage government ecosystem funding to catch up",
+        "explanation":  "Naval says China is \u0027distilling models, catching up, collaborating on resources\u0027 with government funding to help the ecosystem — a playbook applicable to any nation trying to build AI capacity.",
+        "difficulty":  "medium"
+    }
 ]

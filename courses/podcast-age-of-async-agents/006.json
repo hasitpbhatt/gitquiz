@@ -4,10 +4,10 @@
     "content": "MCP (Model Context Protocol) is limited because it is one-way, an agent can call a service but the service cannot call the agent back, making it insufficient for bidirectional agent communication.",
     "description": "Your team wants to use MCP for agent integrations but finds that agents cannot receive notifications from external systems. What is the fundamental limitation of MCP?",
     "options": [
-      "MCP is too slow for production use",
+      "MCP protocol is far too slow and unreliable for any serious production use case today",
       "MCP is one-way, agents can call services but services cannot call agents back",
-      "MCP only works with OpenAI models",
-      "MCP does not support authentication"
+      "MCP protocol only works with OpenAI models and is not compatible with other providers",
+      "MCP protocol does not support any form of authentication or authorization at all"
     ],
     "answer": "MCP is one-way, agents can call services but services cannot call agents back",
     "explanation": "MCP provides a one-way protocol: the agent can invoke tools on external services, but those services have no way to push information back to the agent. For bidirectional communication, Cognition built webhook-based systems on top of MCP.",
@@ -18,10 +18,10 @@
     "content": "Slack is a first-class integration for Devin, not just a notification channel. Users can assign tasks to Devin from Slack, get updates, and interact with the agent conversationally.",
     "description": "A product manager wants to ask Devin to investigate a bug without opening the Devin web app. How does Cognition enable this workflow?",
     "options": [
-      "Devin does not support Slack",
+      "Devin does not support Slack integration at all for any team communication or workflow integration needs",
       "Slack is a first-class integration where users can assign tasks and interact with the agent directly",
-      "Devin only sends one-way notifications to Slack",
-      "Slack integration requires a third-party plugin"
+      "Devin only sends one way notification messages to Slack with no interactivity available for end users",
+      "Slack integration with Devin requires purchasing an expensive third party add on or plugin separately"
     ],
     "answer": "Slack is a first-class integration where users can assign tasks and interact with the agent directly",
     "explanation": "Slack is a first-class integration, not just a notification channel. Users can @mention Devin in Slack to assign tasks, ask questions, and receive rich updates, making Slack a primary interface for interacting with the agent.",
@@ -32,12 +32,12 @@
     "content": "The memory problem in agents involves three challenges: generating useful memories from agent experiences, retrieving the right memories at the right time, and pruning outdated or irrelevant memories.",
     "description": "Your agent keeps repeating the same mistakes because it cannot remember what it learned from previous sessions. What are the three core challenges of agent memory?",
     "options": [
-      "Storage, bandwidth, and encryption",
-      "Generation, retrieval, and pruning of memories",
-      "Compression, indexing, and caching",
-      "Training, inference, and fine-tuning"
+      "Storage space, bandwidth capacity, and encryption key management for memory systems",
+      "Generation, retrieval, and pruning of memories (the memory problem in agents)",
+      "Data compression, index construction, and caching strategies for efficient memory access",
+      "Model training, inference execution, and fine-tuning procedures for the language model"
     ],
-    "answer": "Generation, retrieval, and pruning of memories",
+    "answer": "Generation, retrieval, and pruning of memories (the memory problem in agents)",
     "explanation": "The three hard problems of agent memory are: generation (what to save as a memory), retrieval (finding the right memory at the right time), and pruning (removing outdated or irrelevant memories so they don't confuse the agent).",
     "difficulty": "easy"
   },
@@ -60,12 +60,12 @@
     "content": "Memory pruning is the difficult problem of deciding when to update or delete memories, especially when the agent encounters information that contradicts what it previously learned.",
     "description": "Your agent learned a build process six months ago, but the company has since changed tools. The agent keeps using the old process. What memory challenge does this illustrate?",
     "options": [
-      "Memory generation is too slow",
-      "Memory pruning and editing, handling contradictory or outdated information",
-      "Memory storage is too expensive",
-      "Memory encryption is too complex"
+      "Memory generation speed is far too slow for real time agent interactions and workflows",
+      "Memory pruning and editing, handling contradictory or outdated information (memory pruning is the difficult)",
+      "Memory data storage costs are far too expensive to maintain at scale for any organization",
+      "Memory encryption implementation is far too complex and introduces too much overhead"
     ],
-    "answer": "Memory pruning and editing, handling contradictory or outdated information",
+    "answer": "Memory pruning and editing, handling contradictory or outdated information (memory pruning is the difficult)",
     "explanation": "Memory pruning is the challenge of detecting when a memory is no longer valid and should be updated or deleted. When the agent encounters information that contradicts an existing memory, it must decide whether the new information supersedes the old memory or is an exception.",
     "difficulty": "hard"
   },
@@ -74,10 +74,10 @@
     "content": "Some agent systems use a file system approach to memory where each concept or project has its own markdown file (e.g., CLAUDE.md, memory.md) that the agent reads and updates as it works.",
     "description": "Cole Murray describes a memory system where each repository has a file that the agent reads at the start and updates as it learns. What is this approach called?",
     "options": [
-      "Vector database memory",
+      "Vector database memory with semantic search and embedding based retrieval",
       "File system approach to memory using markdown files like CLAUDE.md",
-      "Graph-based memory",
-      "Key-value store memory"
+      "Graph based memory with nodes and edges representing knowledge relationships",
+      "Key value store memory with simple lookup by unique identifiers or keys"
     ],
     "answer": "File system approach to memory using markdown files like CLAUDE.md",
     "explanation": "The file system approach stores agent knowledge in human-readable markdown files within the repository. The agent reads these files at the start of a session and appends new knowledge as it works. This is simple, transparent, and version-controlled.",
@@ -88,10 +88,10 @@
     "content": "Always-on agents run continuously, monitoring tasks and proactively working on them without human initiation, acting like a permanent product manager that never sleeps.",
     "description": "A product manager envisions an agent that watches the issue tracker, picks up tickets, and starts working on them without anyone explicitly assigning the task. What is this type of agent called?",
     "options": [
-      "A scheduled batch job",
+      "A scheduled batch job that runs at specific times on a recurring daily basis",
       "An always-on agent that acts like a permanent PM, proactively working without human initiation",
-      "A chatbot",
-      "A cron job"
+      "A simple chatbot that only responds when explicitly asked a direct question",
+      "A cron job that executes predefined scripts on a fixed schedule repeatedly"
     ],
     "answer": "An always-on agent that acts like a permanent PM, proactively working without human initiation",
     "explanation": "Always-on agents run as persistent background processes, monitoring issue queues, CI failures, and customer reports. They proactively pick up work without waiting for human assignment, making them function like a permanent team member.",
@@ -102,10 +102,10 @@
     "content": "First-party integrations are deeply customized for a specific service (like Slack or GitHub), offering richer functionality than generic MCP-based integrations which follow a standard protocol.",
     "description": "Your platform team needs to decide whether to build a custom Slack integration or use MCP. What is the key trade-off between first-party and MCP integrations?",
     "options": [
-      "MCP integrations are slower than first-party ones",
+      "MCP based integrations are significantly slower than first party custom built integration solutions",
       "First-party integrations offer richer, customized functionality; MCP offers standard protocol compliance and faster development",
-      "First-party integrations cannot use authentication",
-      "MCP integrations are always more reliable"
+      "First party integrations cannot make use of any authentication or authorization mechanisms at all",
+      "MCP based integrations are always more reliable than first party custom built integration solutions"
     ],
     "answer": "First-party integrations offer richer, customized functionality; MCP offers standard protocol compliance and faster development",
     "explanation": "First-party integrations are deeply customized for a specific service, providing rich features like Slack threads, GitHub checks, and Jira workflows. MCP integrations follow a standard protocol that is easier to build but may miss service-specific capabilities.",
