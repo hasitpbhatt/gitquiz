@@ -6,7 +6,7 @@
     "options": [
       "The stock market tends to go up over time",
       "Compounding — each year’s earnings are reinvested and earn returns themselves",
-      "Inflation increases nominal returns over time which is a critical factor to consider in this context",
+      "Inflation increases nominal returns over time",
       "The investment is becoming riskier so returns increase"
     ],
     "answer": "Compounding — each year’s earnings are reinvested and earn returns themselves",
@@ -21,7 +21,7 @@
       "Buffett was lucky with a few stock picks in his 50s",
       "Compounding produces exponential curves where the vast majority of gains occur in the final periods",
       "Investing only works if you start very young",
-      "Buffett’s wealth came from his salary, not investments which is a critical factor to consider in this context"
+      "Buffett’s wealth came from his salary, not investments"
     ],
     "answer": "Compounding produces exponential curves where the vast majority of gains occur in the final periods",
     "explanation": "An exponential curve is nearly flat for a long time and then turns vertical. With compounding over 7 decades, the early decades build the base and the later decades deliver the explosive returns.",
@@ -35,7 +35,7 @@
       "Market timing is impossible and always loses money",
       "Frequent trading disrupts the compounding cycle because you miss the best days and incur costs",
       "Bonds always underperform stocks over long periods",
-      "Cash is a terrible long-term investment which is a critical factor to consider in this context"
+      "Cash is a terrible long-term investment"
     ],
     "answer": "Frequent trading disrupts the compounding cycle because you miss the best days and incur costs",
     "explanation": "Compounding requires uninterrupted participation. Missing even a handful of the market’s best days dramatically reduces terminal wealth. The cost of trading and taxes further erodes the compounding base.",
@@ -49,7 +49,7 @@
       "The law of diminishing returns applies to reading",
       "Compounding — small consistent actions accumulate into significant results over time",
       "Regression to the mean will eventually reduce your reading",
-      "Critical mass is required for learning to accelerate which is a critical factor to consider in this context"
+      "Critical mass is required for learning to accelerate"
     ],
     "answer": "Compounding — small consistent actions accumulate into significant results over time",
     "explanation": "Like financial compounding, small daily habits compound into substantial outcomes. The key is consistency over long periods, not intensity in short bursts.",
@@ -62,7 +62,7 @@
     "options": [
       "They were lucky to meet the right people",
       "Trust compounds — each reliable act builds reputation, which attracts more opportunities, which enable more acts of reliability",
-      "People naturally trust more as they age which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "People naturally trust more as they age",
       "The professional is simply more skilled than peers"
     ],
     "answer": "Trust compounds — each reliable act builds reputation, which attracts more opportunities, which enable more acts of reliability",
@@ -76,7 +76,7 @@
     "options": [
       "Take the $50M — guaranteed money is always better than potential future value",
       "Consider whether the next 7 years would let the company’s growth compound, and compare the expected value of waiting against the certainty of selling now",
-      "Reject any offer under $1B which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Reject any offer under $1B",
       "Sell and start a new company with the $50M"
     ],
     "answer": "Consider whether the next 7 years would let the company’s growth compound, and compare the expected value of waiting against the certainty of selling now",
@@ -88,7 +88,7 @@
     "content": "Humans naturally think linearly, but compounding creates exponential outcomes that defy intuition. We systematically underestimate the long-term effects of compounding.",
     "description": "Would you rather have $1 million today or a penny that doubles every day for 30 days? Most people choose the $1 million, but the penny becomes over $5 million by day 30. What explains this systematic misjudgment?",
     "options": [
-      "People cannot do basic math which is a critical factor to consider in this context",
+      "People cannot do basic math",
       "Humans have an intuitive linear bias and struggle to grasp exponential growth",
       "The penny scenario is unrealistic and cannot happen in practice",
       "Inflation makes the $1 million worth less over time"
@@ -105,7 +105,7 @@
       "Small losses are not significant and can be ignored",
       "Negative compounding — small consistent losses compound into severe erosion over time",
       "The company needs better marketing to replace lost customers",
-      "Customer loss rates naturally stabilize over time which is a critical factor to consider in this context"
+      "Customer loss rates naturally stabilize over time"
     ],
     "answer": "Negative compounding — small consistent losses compound into severe erosion over time",
     "explanation": "A 1% weekly loss seems negligible but compounds to a 41% annual loss. Negative compounding is symmetrical with positive compounding — small daily erosions produce large long-term damage.",

@@ -6,7 +6,7 @@
     "options": [
       "Testing requires reading text; computer use requires clicking buttons",
       "Testing needs coordination, orchestration, and verification of distributed system behavior",
-      "Testing is easier than computer use which is a critical factor to consider in this context",
+      "Testing is easier than computer use",
       "Computer use requires more complex models than testing"
     ],
     "answer": "Testing needs coordination, orchestration, and verification of distributed system behavior",
@@ -21,7 +21,7 @@
       "Overfitting",
       "Reward hacking, optimizing for test-passing instead of correct behavior",
       "Cache optimization",
-      "Regression which is a critical factor to consider in this context"
+      "Regression"
     ],
     "answer": "Reward hacking, optimizing for test-passing instead of correct behavior",
     "explanation": "Reward hacking is when agents find shortcuts to satisfy the test without doing the real work. Instead of implementing correct logic, they learn that passing the existing tests is sufficient and optimize for that narrow goal.",
@@ -35,7 +35,7 @@
       "Syntax errors",
       "AI code smells, patterns commonly produced by AI agents indicating poor quality",
       "Runtime exceptions",
-      "Type mismatches which is a critical factor to consider in this context"
+      "Type mismatches"
     ],
     "answer": "AI code smells, patterns commonly produced by AI agents indicating poor quality",
     "explanation": "AI code smells are characteristic patterns that indicate an AI agent wrote the code: excessive getattr, breaking backwards compatibility, returning untyped tuples. These are not errors but quality signals that human reviewers should watch for.",
@@ -48,7 +48,7 @@
     "options": [
       "Write more documentation in the README",
       "Set up Docker Compose, mock servers, and local test databases so agents can run everything without human setup",
-      "Switch to a monorepo structure which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Switch to a monorepo structure",
       "Add more comments to the code"
     ],
     "answer": "Set up Docker Compose, mock servers, and local test databases so agents can run everything without human setup",
@@ -63,7 +63,7 @@
       "GitAI, preserving the why behind changes in the commit history",
       "Code comments",
       "Documentation generation",
-      "Inline annotations which is a critical factor to consider in this context"
+      "Inline annotations"
     ],
     "answer": "GitAI, preserving the why behind changes in the commit history",
     "explanation": "GitAI is the practice of preserving the specification, reasoning, and intent behind code changes in the git history itself. The commit message becomes a record of what the agent was asked to do, providing crucial context for future developers.",
@@ -76,7 +76,7 @@
     "options": [
       "Code coverage reports",
       "Mutation testing, which modifies source code and checks if existing tests catch the change",
-      "Linting rules which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Linting rules",
       "Manual code review of every test"
     ],
     "answer": "Mutation testing, which modifies source code and checks if existing tests catch the change",
@@ -91,7 +91,7 @@
       "Only check the final output, not the diffs",
       "Check diffs for AI code smells, verify spec implementation, and watch for reward hacking",
       "Trust all agent output since it passes tests",
-      "Only review code written by humans, not agents which is a critical factor to consider in this context"
+      "Only review code written by humans, not agents"
     ],
     "answer": "Check diffs for AI code smells, verify spec implementation, and watch for reward hacking",
     "explanation": "Effective AI code review means being aware of agent-specific failure modes: AI code smells (getattr abuse, backward compat breaks), reward hacking (test-only optimization), and ensuring the spec is fully covered. Running the code locally is also recommended.",
@@ -105,7 +105,7 @@
       "The agent should have full autonomy for all operations",
       "Human-in-the-loop, requiring explicit approval for high-risk actions like production secret changes",
       "Database credentials should be hardcoded in the agent prompt",
-      "The agent should only work in production, never development which is a critical factor to consider in this context"
+      "The agent should only work in production, never development"
     ],
     "answer": "Human-in-the-loop, requiring explicit approval for high-risk actions like production secret changes",
     "explanation": "Human-in-the-loop is a critical safety mechanism where certain categories of actions (modifying production secrets, deleting resources, deploying to production) require explicit human approval. Walden emphasizes that keeping a human in the loop for unsafe changes is essential.",

@@ -6,7 +6,7 @@
     "options": [
       "The arms race fallacy — both would be better off stopping",
       "The Red Queen Effect — co-evolving systems must continuously improve just to maintain their relative position",
-      "Natural selection in equilibrium which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Natural selection in equilibrium",
       "Reciprocal extinction — both species are driving each other to extinction"
     ],
     "answer": "The Red Queen Effect — co-evolving systems must continuously improve just to maintain their relative position",
@@ -18,7 +18,7 @@
     "content": "In a Red Queen world, maintaining the same performance level is mathematically equivalent to moving backward, because the competitive baseline is constantly rising.",
     "description": "A company executives celebrate that this year's revenue matches last year's. A board member warns, 'That means we are dying.' Why would matching last year's performance be a sign of decline?",
     "options": [
-      "The board member is overly pessimistic which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The board member is overly pessimistic",
       "The Red Queen Effect — competitors are improving, inflation is rising, and customer expectations are increasing; maintaining absolute performance means losing relative position",
       "Revenue should always grow or the company is failing",
       "The executives should have set a higher growth target from the beginning"
@@ -32,7 +32,7 @@
     "content": "The Red Queen can trap participants in an arms race where all sides spend increasing resources without any gaining relative advantage. Everyone runs faster but stays in the same relative position.",
     "description": "Two ride-sharing companies compete in the same city. Company A drops prices. Company B drops prices further. Both spend heavily on driver subsidies. Market share stays roughly equal, but both are losing money. What trap have they entered?",
     "options": [
-      "A price-fixing conspiracy which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "A price-fixing conspiracy",
       "The Red Queen escalation trap — both are running faster (spending more) but neither gains relative advantage, so both are worse off in absolute terms",
       "A classic supply-and-demand equilibrium",
       "The market is not large enough to support two competitors"
@@ -48,7 +48,7 @@
     "options": [
       "The company's product was not good enough to skip a release",
       "Skipping innovation was never an option — in a Red Queen market, continuous improvement is maintenance, not optional strategy",
-      "Customers are too demanding in the software industry which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Customers are too demanding in the software industry",
       "The company should have communicated better with customers about why they skipped the release"
     ],
     "answer": "Skipping innovation was never an option — in a Red Queen market, continuous improvement is maintenance, not optional strategy",
@@ -63,7 +63,7 @@
       "Commodity competition — competing on price",
       "Red Queen escape — moving to a new niche where the old co-evolutionary arms race does not apply",
       "Vertical integration — controlling the supply chain",
-      "Market consolidation — acquiring the competitor which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Market consolidation — acquiring the competitor"
     ],
     "answer": "Red Queen escape — moving to a new niche where the old co-evolutionary arms race does not apply",
     "explanation": "When caught in a Red Queen trap (both companies escalating camera specs with no relative gain), the smart move is to exit the game, not play it better. By entering a new category (AR glasses), the company escapes the smartphone arms race and starts a new game where they set the rules.",
@@ -76,7 +76,7 @@
     "options": [
       "Print design is a timeless skill that will always be valuable",
       "The Red Queen — the baseline of what a designer must know has evolved (digital, motion, UX); her refusal to co-evolve has made her skills obsolete relative to current market demands",
-      "Companies are unfairly biased against experienced professionals which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken, and this consideration plays a major role in determining the right course of action",
+      "Companies are unfairly biased against experienced professionals",
       "She should market her print skills to a different industry"
     ],
     "answer": "The Red Queen — the baseline of what a designer must know has evolved (digital, motion, UX); her refusal to co-evolve has made her skills obsolete relative to current market demands",
@@ -90,7 +90,7 @@
     "options": [
       "Software companies are more innovative than pharmaceutical companies",
       "The Red Queen runs at different speeds in different environments — patent protection creates an artificial pause in the evolutionary race",
-      "Pharmaceutical companies have better intellectual property lawyers which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Pharmaceutical companies have better intellectual property lawyers",
       "Software competitors are more aggressive about copying features"
     ],
     "answer": "The Red Queen runs at different speeds in different environments — patent protection creates an artificial pause in the evolutionary race",
@@ -105,7 +105,7 @@
       "They assumed market leadership was a final destination rather than a temporary position in an ongoing Red Queen race",
       "They failed to hire enough salespeople to defend their market position",
       "Market leadership is never a sustainable position",
-      "The new entrant used illegal competitive tactics which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The new entrant used illegal competitive tactics"
     ],
     "answer": "They assumed market leadership was a final destination rather than a temporary position in an ongoing Red Queen race",
     "explanation": "The Red Queen has no finish line. Reaching market leadership is not a final victory — it is just a waypoint in a continuous race. The moment you stop evolving, you begin losing relative position. Competitors keep moving, and your paused state becomes a decline.",

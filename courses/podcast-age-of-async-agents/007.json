@@ -7,7 +7,7 @@
       "Use as many agents as possible for maximum throughput",
       "Do not build multi-agent systems, the coordination complexity outweighs the benefits",
       "Build at least 5 agents for any production system",
-      "Multi-agent systems are always more reliable than single agents which is a critical factor to consider in this context"
+      "Multi-agent systems are always more reliable than single agents"
     ],
     "answer": "Do not build multi-agent systems, the coordination complexity outweighs the benefits",
     "explanation": "The original advice was to avoid multi-agent systems entirely. The coordination overhead, debugging difficulty, and emergent failure modes made them harder to manage than a single capable agent. This advice has evolved as agent technology matured.",
@@ -20,7 +20,7 @@
     "options": [
       "Nothing changed, multi-agent systems are still impractical",
       "Models improved and patterns for managing sub-agents with manager-worker regimes emerged",
-      "Hardware became cheaper which is a critical factor to consider in this context",
+      "Hardware became cheaper",
       "The number of programming languages decreased"
     ],
     "answer": "Models improved and patterns for managing sub-agents with manager-worker regimes emerged",
@@ -34,7 +34,7 @@
     "options": [
       "Sub-agents each get a larger context window",
       "Sub-agents break large tasks into focused subtasks, each with its own manageable context",
-      "Sub-agents store context in a database which is a critical factor to consider in this context",
+      "Sub-agents store context in a database",
       "Sub-agents do not use context at all"
     ],
     "answer": "Sub-agents break large tasks into focused subtasks, each with its own manageable context",
@@ -48,7 +48,7 @@
     "options": [
       "Swarm architecture with peer-to-peer communication",
       "Manager-worker regime with a single coordinating agent delegating to workers",
-      "Both are equally reliable which is a critical factor to consider in this context",
+      "Both are equally reliable",
       "Neither architecture works in practice"
     ],
     "answer": "Manager-worker regime with a single coordinating agent delegating to workers",
@@ -63,7 +63,7 @@
       "Bug in the agent",
       "Agent pushback, the model questioning a human request based on its understanding",
       "Model hallucination",
-      "Prompt injection which is a critical factor to consider in this context"
+      "Prompt injection"
     ],
     "answer": "Agent pushback, the model questioning a human request based on its understanding",
     "explanation": "Agent pushback is a desirable behavior where the model questions or refuses a human request when it detects a conflict with the codebase's architecture, security best practices, or previously established constraints. It shows the agent has genuine understanding, not just obedience.",
@@ -77,7 +77,7 @@
       "The Pareto principle",
       "The two-week vibe coding decay rule",
       "Brooks' law",
-      "Conway's law which is a critical factor to consider in this context"
+      "Conway's law"
     ],
     "answer": "The two-week vibe coding decay rule",
     "explanation": "The two-week vibe coding decay rule states that after approximately two weeks of unrestricted AI code generation without human review, the codebase becomes unmaintainable. AI agents introduce inconsistent patterns that compound into unmanageable technical debt.",
@@ -91,7 +91,7 @@
       "Selection bias",
       "Codebase regression to the worst engineer, agents learn from all patterns including the lowest quality ones",
       "Survivorship bias",
-      "Dunning-Kruger effect which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Dunning-Kruger effect"
     ],
     "answer": "Codebase regression to the worst engineer, agents learn from all patterns including the lowest quality ones",
     "explanation": "AI agents learn from the entire codebase, including the worst patterns. Without explicit quality guardrails, agents reproduce and amplify low-quality patterns, effectively regressing the codebase toward the quality of the weakest code present.",
@@ -104,7 +104,7 @@
     "options": [
       "Have only one agent work at a time",
       "Define boundary contracts with explicit interface agreements between modules",
-      "Use a monorepo which is a critical factor to consider in this context",
+      "Use a monorepo",
       "Write more unit tests"
     ],
     "answer": "Define boundary contracts with explicit interface agreements between modules",

@@ -18,7 +18,7 @@
     "content": "Integrity compounds like interest — each honest act builds trust capital that pays dividends in future opportunities and reduced transaction costs.",
     "description": "A freelancer consistently delivers high-quality work, communicates honestly about timelines even when it means disappointing clients, and never cuts corners. Over five years, she gets more referrals than she can handle and clients prepay without contracts. What principle explains her success?",
     "options": [
-      "She benefited from luck and market timing which is a critical factor to consider in this context",
+      "She benefited from luck and market timing",
       "Her technical skills are simply superior to competitors",
       "She earned the compound interest of integrity, building trust that reduced transaction costs",
       "She exploited client goodwill before competitors caught up"
@@ -34,7 +34,7 @@
     "options": [
       "Plan her schedule more efficiently to reduce anxiety",
       "Practice being fully present in each moment rather than living in past or future",
-      "Eliminate social dinners to remove social anxiety triggers which is a critical factor to consider in this context",
+      "Eliminate social dinners to remove social anxiety triggers",
       "Review past mistakes more thoroughly to avoid repeating them"
     ],
     "answer": "Practice being fully present in each moment rather than living in past or future",
@@ -48,7 +48,7 @@
     "options": [
       "Brand marketing is the most important business investment",
       "Integrity creates an immutable reputation that functions like a cryptographic signature",
-      "Supplier relationships are the key to business success which is a critical factor to consider in this context",
+      "Supplier relationships are the key to business success",
       "Networking events are where real business value is created"
     ],
     "answer": "Integrity creates an immutable reputation that functions like a cryptographic signature",
@@ -75,7 +75,7 @@
     "description": "A growing organization of 500 people faces a choice: implement detailed policies, compliance checks, and approvals for every decision, or hire people of high integrity and give them autonomy. Which approach aligns with Naval's view of complex systems?",
     "options": [
       "Detailed policies are necessary because people cannot be trusted at scale",
-      "Both approaches are equally effective in different contexts which is a critical factor to consider in this context",
+      "Both approaches are equally effective in different contexts",
       "Hiring high-integrity people and using trust as governance reduces overhead and enables faster adaptation",
       "Compliance checks are the only way to prevent fraud in large organizations"
     ],
@@ -91,7 +91,7 @@
       "She needs better environmental knowledge to make consistent choices",
       "The gap between her public persona and private behavior creates cognitive dissonance and stress",
       "She should simply stop caring about environmental issues entirely",
-      "Her workplace is pressuring her into performative environmentalism which is a critical factor to consider in this context"
+      "Her workplace is pressuring her into performative environmentalism"
     ],
     "answer": "The gap between her public persona and private behavior creates cognitive dissonance and stress",
     "explanation": "Naval argues that maintaining a gap between your public and private self creates internal friction. The solution is not to pretend less in public, but to align your private actions with your stated values. When both match, the cognitive overhead of maintaining facades disappears.",
@@ -105,7 +105,7 @@
       "He lacked domain expertise to evaluate the project",
       "Evolutionary fear of social disapproval overrode his rational judgment",
       "The project was actually good but badly executed",
-      "Management discouraged dissenting opinions explicitly which is a critical factor to consider in this context"
+      "Management discouraged dissenting opinions explicitly"
     ],
     "answer": "Evolutionary fear of social disapproval overrode his rational judgment",
     "explanation": "Naval explains that humans evolved in small tribes where ostracism meant death, so our brains treat social disapproval as a survival threat. Overcoming this requires recognizing that modern social consequences are not life-threatening, and that speaking truth even when uncomfortable is ultimately liberating.",

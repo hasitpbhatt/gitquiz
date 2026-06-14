@@ -4,7 +4,7 @@
     "content": "Homeostasis is the active maintenance of a stable internal environment despite fluctuating external conditions, governed by interconnected regulatory networks.",
     "description": "The human body maintains a core temperature of approximately 98.6°F through sweating, shivering, and blood flow adjustments, even when outside temperatures vary from 30°F to 100°F. What concept does this illustrate?",
     "options": [
-      "Reinforcing feedback leading to temperature change which is a critical factor to consider in this context",
+      "Reinforcing feedback leading to temperature change",
       "Homeostasis — active maintenance of stability despite external fluctuation",
       "A bottleneck where temperature regulation limits performance",
       "Churn in the body’s thermal regulation system"
@@ -35,7 +35,7 @@
       "A reinforcing loop that accelerates inflation further",
       "A balancing intervention to cool excessive economic activity",
       "A bottleneck created by high interest rates",
-      "An emergent property of the banking system which is a critical factor to consider in this context"
+      "An emergent property of the banking system"
     ],
     "answer": "A balancing intervention to cool excessive economic activity",
     "explanation": "Raising rates is a balancing force that counteracts inflationary pressure, steering the economy back toward target growth and employment bands.",
@@ -49,7 +49,7 @@
       "Employee laziness and lack of motivation",
       "Organizational homeostasis — invisible balancing forces resisting change",
       "A bottleneck in the management hierarchy",
-      "Churn from employee turnover which is a critical factor to consider in this context"
+      "Churn from employee turnover"
     ],
     "answer": "Organizational homeostasis — invisible balancing forces resisting change",
     "explanation": "Organizations have self-regulating mechanisms that resist shocks. Pushing harder without changing the underlying structure (incentives, capacity, tools) triggers balancing forces that restore the old equilibrium.",
@@ -63,7 +63,7 @@
       "Set more aggressive deadlines and hold managers accountable",
       "Identify and systematically remove the structural barriers that maintain the quarterly cadence",
       "Fire underperforming team members and hire new talent",
-      "Move to weekly releases to overshoot the target which is a critical factor to consider in this context"
+      "Move to weekly releases to overshoot the target"
     ],
     "answer": "Identify and systematically remove the structural barriers that maintain the quarterly cadence",
     "explanation": "Pushing harder against an existing homeostasis is futile. You must dismantle the specific mechanisms — approval chains, testing bottlenecks, incentive mismatches — that hold the old equilibrium in place.",
@@ -76,7 +76,7 @@
     "options": [
       "A temporary reinforcing loop that eventually faded",
       "A permanent equilibrium shift to a new stable operating point",
-      "A bottleneck in communication technology which is a critical factor to consider in this context",
+      "A bottleneck in communication technology",
       "A regression to the mean of workplace productivity"
     ],
     "answer": "A permanent equilibrium shift to a new stable operating point",
@@ -90,7 +90,7 @@
     "options": [
       "Threaten to fire agents who exceed 6 minutes",
       "Redesign the metrics and incentives so agents are rewarded for first-call resolution rather than speed",
-      "Hire faster-speaking agents which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Hire faster-speaking agents",
       "Add more staff to reduce the call queue"
     ],
     "answer": "Redesign the metrics and incentives so agents are rewarded for first-call resolution rather than speed",
@@ -104,7 +104,7 @@
     "options": [
       "A static equilibrium with no net change",
       "A dynamic equilibrium with ongoing oscillations around a stable average",
-      "A reinforcing loop driving predator extinction which is a critical factor to consider in this context",
+      "A reinforcing loop driving predator extinction",
       "A bottleneck controlled by the predator population"
     ],
     "answer": "A dynamic equilibrium with ongoing oscillations around a stable average",

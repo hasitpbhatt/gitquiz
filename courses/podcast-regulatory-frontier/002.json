@@ -20,7 +20,7 @@
     "options": [
       "The FDA has insufficient funding to hire enough qualified reviewers",
       "It's totally asymmetric — if you approve a bad thing, your career",
-      "The pharmaceutical industry deliberately bribes FDA reviewers to delay drugs which is a critical factor to consider in this context",
+      "The pharmaceutical industry deliberately bribes FDA reviewers to delay drugs",
       "The FDA is staffed by incompetent bureaucrats who don't understand science"
     ],
     "answer": "It's totally asymmetric — if you approve a bad thing, your career",
@@ -32,7 +32,7 @@
     "content": "Max Hodak pushes back on the simple 'regulation bad' narrative, arguing that the real problem is deeper than regulatory reform. The risk aversion is baked into the beliefs of the American people — the voters who elect politicians and the public that punishes agencies for taking risks.",
     "description": "A tech founder blames 'corrupt politicians' for blocking every attempt to build faster. Max Hodak would argue this framing misses the deeper issue. What is the actual root cause of regulatory paralysis, according to Max?",
     "options": [
-      "Politicians are uniquely corrupt in the current administration which is a critical factor to consider in this context",
+      "Politicians are uniquely corrupt in the current administration",
       "The risk aversion reflects the beliefs of the voters who elect those",
       "Regulatory agencies are underfunded by a deliberate sabotage campaign",
       "The media sensationalizes every failure, creating artificial public fear"
@@ -49,7 +49,7 @@
       "Chinese regulators have lower safety standards and their approvals don't matter",
       "The CFDA is thinking for itself and costs to bring products to market are",
       "The US will never approve BCI devices for ethical reasons",
-      "Your competitor likely bribed the CFDA to get fast-track approval which is a critical factor to consider in this context"
+      "Your competitor likely bribed the CFDA to get fast-track approval"
     ],
     "answer": "The CFDA is thinking for itself and costs to bring products to market are",
     "explanation": "Max says: 'There actually is one approved, getting-paid implantable BCI today, which is in China. The CFDA is thinking for itself. The costs to bring a drug or device to market are just much lower. You can try things in humans and try things on market.'",
@@ -76,7 +76,7 @@
     "options": [
       "Single-payer systems always have better outcomes than private insurance",
       "Without direct payment, there's no price signal — no feedback loop for",
-      "Restaurant and healthcare economics are completely incomparable which is a critical factor to consider in this context",
+      "Restaurant and healthcare economics are completely incomparable",
       "Single-payer works for restaurants in countries with nationalized hospitality"
     ],
     "answer": "Without direct payment, there's no price signal — no feedback loop for",

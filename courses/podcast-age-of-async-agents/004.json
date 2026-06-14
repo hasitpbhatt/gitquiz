@@ -7,7 +7,7 @@
       "Docker containers cannot run any commands",
       "Docker-in-Docker nesting is problematic and containers share the host kernel",
       "Docker does not support any programming languages",
-      "Docker containers have infinite disk space which is a critical factor to consider in this context"
+      "Docker containers have infinite disk space"
     ],
     "answer": "Docker-in-Docker nesting is problematic and containers share the host kernel",
     "explanation": "Docker's shared kernel model creates security concerns for untrusted agent code, and Docker-in-Docker nesting causes complexity for agents that need to run their own Docker. Full VMs provide stronger isolation boundaries.",
@@ -20,7 +20,7 @@
     "options": [
       "VMs are cheaper than containers",
       "VMs provide stronger security isolation with separate kernels per agent",
-      "VMs start faster than containers which is a critical factor to consider in this context",
+      "VMs start faster than containers",
       "VMs use less memory than containers"
     ],
     "answer": "VMs provide stronger security isolation with separate kernels per agent",
@@ -35,7 +35,7 @@
       "GPU availability",
       "Repository setup, configuring build tools, dependencies, and environment for each repo",
       "Network bandwidth",
-      "Model latency which is a critical factor to consider in this context"
+      "Model latency"
     ],
     "answer": "Repository setup, configuring build tools, dependencies, and environment for each repo",
     "explanation": "Repo setup is the hardest problem because every repository has unique build tools, dependency managers, environment variables, and configuration. Automating this for thousands of different repositories without human intervention is extremely complex.",
@@ -48,7 +48,7 @@
     "options": [
       "The CPU is too slow",
       "The agents are using a network file system where each file operation has network latency",
-      "The grep algorithm is inefficient which is a critical factor to consider in this context",
+      "The grep algorithm is inefficient",
       "Too many agents are running simultaneously"
     ],
     "answer": "The agents are using a network file system where each file operation has network latency",
@@ -63,7 +63,7 @@
       "RAID 5",
       "BlockDev incremental file system with block-level snapshots",
       "Distributed hash tables",
-      "In-memory databases which is a critical factor to consider in this context"
+      "In-memory databases"
     ],
     "answer": "BlockDev incremental file system with block-level snapshots",
     "explanation": "BlockDev uses block-level incremental snapshots, so each agent gets its own writable view of a base image but only changed blocks consume additional storage. This enables fast cloning of large repos without massive storage duplication.",
@@ -74,7 +74,7 @@
     "content": "Running Android emulators inside agent VMs requires nested virtualization support because Android emulators themselves run VMs that need hardware virtualization extensions.",
     "description": "Your company builds mobile apps and wants agents to run Android emulators for testing. What infrastructure capability does this require from the agent platform?",
     "options": [
-      "A faster network connection which is a critical factor to consider in this context",
+      "A faster network connection",
       "Nested virtualization support, the agent VM must support running VMs inside itself",
       "More RAM in the host machine",
       "A physical Android device connected via USB"
@@ -91,7 +91,7 @@
       "Database replication",
       "VM snapshots capturing disk, memory, and network state",
       "Git stash",
-      "Process forking which is a critical factor to consider in this context"
+      "Process forking"
     ],
     "answer": "VM snapshots capturing disk, memory, and network state",
     "explanation": "Full VM snapshots capture the entire machine state including memory, disk, and network connections. This lets agents pause mid-task and resume exactly where they left off, which is critical for long-running background agents.",

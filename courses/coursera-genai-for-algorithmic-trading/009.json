@@ -6,7 +6,7 @@
     "options": [
       "Ignore the sentiment as the Efficient Frontier only uses historical volatility.",
       "Lower the 'Expected Return' for those 3 stocks, which will likely shift the AI-optimized portfolio toward the other 7 stocks.",
-      "Sell all 10 stocks and buy Gold. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Sell all 10 stocks and buy Gold.",
       "Increase the weight of the 3 stocks to 'buy the dip' regardless of the risk."
     ],
     "answer": "Lower the 'Expected Return' for those 3 stocks, which will likely shift the AI-optimized portfolio toward the other 7 stocks.",
@@ -21,7 +21,7 @@
       "Wait for the end of the quarter to see the official price impact.",
       "Trigger an immediate automated reduction in Tech exposure and rotate into 'Regulatory-Safe' sectors like Utilities.",
       "Ask the AI to write a letter to the government to stop the regulation.",
-      "Buy more Tech because the AI is likely hallucinating the risk. which is a critical factor to consider in this context"
+      "Buy more Tech because the AI is likely hallucinating the risk."
     ],
     "answer": "Trigger an immediate automated reduction in Tech exposure and rotate into 'Regulatory-Safe' sectors like Utilities.",
     "explanation": "The value of GenAI in portfolio management is 'velocity.' It allows for event-driven rebalancing, protecting the portfolio from sector-wide downturns caused by qualitative shifts.",
@@ -32,7 +32,7 @@
     "content": "Macro-sentiment refers to the overall 'vibe' of the global economy (e.g., recession fears vs. growth optimism). GenAI can ingest thousands of global headlines to determine if the portfolio should be in 'Risk-On' (buying stocks) or 'Risk-Off' (buying bonds/cash) mode.",
     "description": "The AI aggregate score for 'Global Conflict' and 'Inflation' has hit an all-time high. Based on this macro-sentiment, how should a portfolio's asset allocation change?",
     "options": [
-      "Increase allocation to high-growth, high-debt startups. which is a critical factor to consider in this context",
+      "Increase allocation to high-growth, high-debt startups.",
       "Shift the allocation toward 'Defensive' assets like Treasury bonds, Cash, or Defensive Commodities (Gold/Oil).",
       "Do nothing; macro-sentiment is too vague to be useful.",
       "Invest 100% in the most volatile asset available."
@@ -49,7 +49,7 @@
       "It isn't a risk as long as Lithium prices go up.",
       "It reveals a 'concentration risk' where a single supply chain event could crash both sectors simultaneously.",
       "Lithium is a metal, so it doesn't affect stock prices.",
-      "The AI is trying to confuse you with technical details. which is a critical factor to consider in this context"
+      "The AI is trying to confuse you with technical details."
     ],
     "answer": "It reveals a 'concentration risk' where a single supply chain event could crash both sectors simultaneously.",
     "explanation": "GenAI can 'see' the interconnectedness of the global supply chain through text. Recognizing that seemingly different sectors share a common risk allows for truer diversification.",
@@ -63,7 +63,7 @@
       "Portfolio B, because high risk means high reward.",
       "Portfolio A, because the GenAI score suggests lower future uncertainty and a more reliable risk-adjusted return.",
       "It doesn't matter; historical data is the only truth.",
-      "Average the two portfolios together. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Average the two portfolios together."
     ],
     "answer": "Portfolio A, because the GenAI score suggests lower future uncertainty and a more reliable risk-adjusted return.",
     "explanation": "A high GenAI 'Stability' score suggests that the textual environment (news/legal/filings) is calm, making the historical Sharpe Ratio a more reliable indicator for the future.",
@@ -76,7 +76,7 @@
     "options": [
       "Stock A, because you want to get rid of winners.",
       "Stock B, because you can harvest the tax loss on a stock that the AI suggests is fundamentally failing anyway.",
-      "Both, to maximize the tax benefit. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Both, to maximize the tax benefit.",
       "Neither; you should never sell at a loss."
     ],
     "answer": "Stock B, because you can harvest the tax loss on a stock that the AI suggests is fundamentally failing anyway.",
@@ -88,7 +88,7 @@
     "content": "Stress testing involves simulating how a portfolio would react to a crisis (e.g., 'Oil hits $150'). GenAI can generate complex 'what-if' stories—like a specific trade war scenario—and estimate how every stock in your portfolio is connected to that story.",
     "description": "You want to test how your portfolio would handle a 'Global Semiconductor Shortage.' How does GenAI help beyond a simple spreadsheet?",
     "options": [
-      "By looking at price charts from the 1920s. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "By looking at price charts from the 1920s.",
       "By identifying which of your companies (even non-tech ones) mention 'chips' or 'semiconductors' as a critical risk in their 10-K filings.",
       "By predicting exactly what day the shortage will start.",
       "By telling you that shortages are always good for business."
@@ -118,7 +118,7 @@
     "options": [
       "It gives Company A more weight because it is bigger.",
       "It tilts the weighting toward Company B because its high 'Sentiment Momentum' suggests future price outperformance.",
-      "It gives both companies zero weight. which is a critical factor to consider in this context",
+      "It gives both companies zero weight.",
       "It changes the weightings every 5 seconds based on Twitter likes."
     ],
     "answer": "It tilts the weighting toward Company B because its high 'Sentiment Momentum' suggests future price outperformance.",
@@ -132,7 +132,7 @@
     "options": [
       "Follow the AI; it knows more about memes than humans.",
       "Override the AI recommendation, as meme-driven sentiment is often a 'pump and dump' rather than a portfolio-grade investment.",
-      "Ask the AI to explain why memes are bad. which is a critical factor to consider in this context",
+      "Ask the AI to explain why memes are bad.",
       "Delete the AI and go back to using paper charts."
     ],
     "answer": "Override the AI recommendation, as meme-driven sentiment is often a 'pump and dump' rather than a portfolio-grade investment.",

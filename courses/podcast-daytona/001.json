@@ -62,7 +62,7 @@
     "options": [
       "Broadband internet was too slow globally",
       "The demand for remote development environments was not yet urgent enough",
-      "JavaScript had not been invented yet which is a critical factor to consider in this context",
+      "JavaScript had not been invented yet",
       "Venture capital did not exist for cloud tools"
     ],
     "answer": "The demand for remote development environments was not yet urgent enough",
@@ -91,7 +91,7 @@
       "3 million users and paid back all investors",
       "One million dollars in annual recurring revenue",
       "Acquisition by Microsoft for $100 million",
-      "IPO on the NASDAQ stock exchange which is a critical factor to consider in this context"
+      "IPO on the NASDAQ stock exchange"
     ],
     "answer": "3 million users and paid back all investors",
     "explanation": "CodeAnywhere reached 3 million users and was successful enough to return all investor money before winding down.",
@@ -105,7 +105,7 @@
       "They had to build their own IDE, container system, cloud orchestration, and file system without modern tools",
       "They wrote all the code in assembly language for performance",
       "They built their own physical data center from donated servers",
-      "They outsourced all development to a single freelance developer which is a critical factor to consider in this context"
+      "They outsourced all development to a single freelance developer"
     ],
     "answer": "They had to build their own IDE, container system, cloud orchestration, and file system without modern tools",
     "explanation": "In 2012, there was no VS Code, no Docker, no mature K8s — they built everything from scratch, which was a key lesson for Daytona's architecture.",

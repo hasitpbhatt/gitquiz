@@ -4,7 +4,7 @@
     "content": "Long Short-Term Memory (LSTM) networks are a type of Recurrent Neural Network (RNN) designed to remember information for long periods. In trading, they are superior to standard models because they can 'remember' that a price spike three days ago might influence a market reversal today.",
     "description": "Why would you choose an LSTM over a simple Linear Regression model to predict the price of Bitcoin?",
     "options": [
-      "LSTMs are faster to train on small datasets. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "LSTMs are faster to train on small datasets.",
       "LSTMs can capture 'temporal dependencies,' meaning they understand how the order and timing of past prices affect the future.",
       "Linear Regression is better at handling 'messy' data like news sentiment.",
       "LSTMs do not require any historical data to make a prediction."
@@ -20,7 +20,7 @@
     "options": [
       "Use the fear index to manually stop the LSTM from running.",
       "Input both the fear index and the volatility as parallel features (time-series) into the LSTM layers.",
-      "Ask the LLM to guess what the LSTM will do next. which is a critical factor to consider in this context",
+      "Ask the LLM to guess what the LSTM will do next.",
       "Discard the price data and only use the Twitter sentiment for the LSTM."
     ],
     "answer": "Input both the fear index and the volatility as parallel features (time-series) into the LSTM layers.",
@@ -60,7 +60,7 @@
     "content": "Sometimes traders use a CNN (Convolutional Neural Network) to extract patterns from price charts (visual data) and then pass those patterns to an LSTM to analyze the timing. This 'CNN-LSTM' combo is powerful for identifying visual chart patterns like 'Head and Shoulders.'",
     "description": "Why would you add a CNN layer before your LSTM for a technical analysis strategy?",
     "options": [
-      "To make the model run 10x faster. which is a critical factor to consider in this context",
+      "To make the model run 10x faster.",
       "To automatically extract visual features or 'shapes' from the price action before analyzing their sequence in time.",
       "To translate the price charts into different languages.",
       "Because CNNs are only used for identifying photos of cats and dogs."
@@ -90,7 +90,7 @@
     "options": [
       "The model will take too long to train.",
       "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
-      "The model will run out of memory. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The model will run out of memory.",
       "The model will start predicting prices for 10 years in the future."
     ],
     "answer": "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
@@ -119,7 +119,7 @@
       "Delete the new data until the accuracy goes back up.",
       "Increase the number of neurons to make it even more powerful.",
       "Implement Dropout layers to force the model to learn more robust, general patterns.",
-      "Stop trading entirely. which is a critical factor to consider in this context"
+      "Stop trading entirely."
     ],
     "answer": "Implement Dropout layers to force the model to learn more robust, general patterns.",
     "explanation": "High training accuracy paired with low test accuracy is the classic definition of overfitting. Dropout helps the model generalize so it can perform better on data it has never seen before.",
@@ -133,7 +133,7 @@
       "The model is lying to you.",
       "The 30% of wrong trades are much larger losses than the 70% of winning trades, or fees are eating the profits.",
       "Accuracy doesn't matter in trading.",
-      "The model needs more layers. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The model needs more layers."
     ],
     "answer": "The 30% of wrong trades are much larger losses than the 70% of winning trades, or fees are eating the profits.",
     "explanation": "In trading, 'Expectancy' (how much you win vs. how much you lose) is more important than raw accuracy. A model can be right often but still lose money if the rare losses are catastrophic or if transaction costs are high.",

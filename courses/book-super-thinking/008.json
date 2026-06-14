@@ -6,7 +6,7 @@
     "options": [
       "Immediately implement all three technologies",
       "Conduct user interviews to identify core usability issues",
-      "Rebrand the entire company which is a critical factor to consider in this context",
+      "Rebrand the entire company",
       "Seek venture capital for the tech overhaul"
     ],
     "answer": "Conduct user interviews to identify core usability issues",
@@ -21,7 +21,7 @@
       "Only read news that supports your strategy",
       "Ask: 'How could this strategy lose all my money?'",
       "Increase your investment amount",
-      "Ignore all market data which is a critical factor to consider in this context"
+      "Ignore all market data"
     ],
     "answer": "Ask: 'How could this strategy lose all my money?'",
     "explanation": "Inversion for investment means considering failure scenarios to overcome confirmation bias - identifying risks like market crashes, sector declines, or execution flaws.",
@@ -35,7 +35,7 @@
       "Only the higher gas price",
       "The higher gas price plus what else you could do with that money",
       "The wear and tear on your car",
-      "The time spent driving which is a critical factor to consider in this context"
+      "The time spent driving"
     ],
     "answer": "The higher gas price plus what else you could do with that money",
     "explanation": "Opportunity cost includes both the explicit cost (higher gas price) and the implicit cost (forgone alternatives like saving, entertainment, or other purchases).",
@@ -63,7 +63,7 @@
       "Perfect features before any users join",
       "Enough users that professionals find it valuable for career opportunities",
       "Venture capital funding for 10 years",
-      "Celebrity endorsements which is a critical factor to consider in this context"
+      "Celebrity endorsements"
     ],
     "answer": "Enough users that professionals find it valuable for career opportunities",
     "explanation": "Success depends on reaching critical mass - sufficient users that the network provides value (job leads, connections) that outweighs the cost of joining (time, privacy).",
@@ -76,7 +76,7 @@
     "options": [
       "Each factory saves money by not treating waste (self-interest), harming others who use the river (externalities)",
       "The river is privately owned by one factory",
-      "Pollution actually improves the river ecosystem which is a critical factor to consider in this context",
+      "Pollution actually improves the river ecosystem",
       "Factories voluntarily cooperate to clean the river"
     ],
     "answer": "Each factory saves money by not treating waste (self-interest), harming others who use the river (externalities)",
@@ -91,7 +91,7 @@
       "Spending 2 hours daily at the gym",
       "Following every health trend you see online",
       "Identifying high-leverage actions (like sleep) and building in consistency buffers",
-      "Only focusing on diet and ignoring exercise which is a critical factor to consider in this context"
+      "Only focusing on diet and ignoring exercise"
     ],
     "answer": "Identifying high-leverage actions (like sleep) and building in consistency buffers",
     "explanation": "Leverage: Sleep affects hormones, cognition, immunity, and recovery - high impact. Margin of safety: Planning for 4 workouts/week but accepting 3 creates sustainability buffer.",
@@ -144,7 +144,7 @@
     "content": "Super thinking emphasizes building a latticework of mental models from multiple disciplines to better understand complex systems and make wiser decisions.",
     "description": "When facing a major life decision (career change, moving cities, etc.), the super thinking approach is to:",
     "options": [
-      "Rely on gut feeling alone which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Rely on gut feeling alone",
       "Follow what worked for a friend or family member",
       "Apply relevant models from physics, psychology, economics, and systems theory to examine the decision from multiple angles",
       "Make the quickest decision to avoid overthinking"

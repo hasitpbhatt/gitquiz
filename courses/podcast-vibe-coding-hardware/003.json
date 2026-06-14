@@ -21,7 +21,7 @@
       "Hire a larger regulatory team to parallelize the standards research",
       "Deploy AI to trace applicable standards — it can navigate the regulatory",
       "Ignore the standards that don't seem directly relevant to save time",
-      "Outsource the compliance work to a European notified body which is a critical factor to consider in this context"
+      "Outsource the compliance work to a European notified body"
     ],
     "answer": "Deploy AI to trace applicable standards — it can navigate the regulatory",
     "explanation": "Max says: 'If we can generate documentation, or if we can ask — we want to evolve this product, there are thousands of ISO standards that might apply, which ones do we have to comply with — that used to require a whole regulatory and quality team for several months. Now the AI just kind of knows.'",
@@ -35,7 +35,7 @@
       "AI cannot generate valid STEP files or PCB layouts yet",
       "The software still needs hands — if AI can't make things, that's",
       "Physical world designs must always be reviewed by licensed engineers",
-      "AI designs are always inferior to human-designed physical products which is a critical factor to consider in this context"
+      "AI designs are always inferior to human-designed physical products"
     ],
     "answer": "The software still needs hands — if AI can't make things, that's",
     "explanation": "Max says: 'Ultimately the software still needs hands. It's going to be smarter than us, but if it can't make things, those are real boundaries.' Even superhuman AI is constrained by its inability to manipulate the physical world.",
@@ -119,7 +119,7 @@
       "The AI model provider is contractually liable for production outages",
       "Someone is going to get paged if your systems go down — there is no",
       "Production outages are acceptable in the age of rapid AI iteration",
-      "AI agents will self-heal production systems without human intervention which is a critical factor to consider in this context"
+      "AI agents will self-heal production systems without human intervention"
     ],
     "answer": "Someone is going to get paged if your systems go down — there is no",
     "explanation": "Guillermo says: 'Someone is going to get paged if your systems go down.' The human accountability layer — the person who gets woken up at 3 AM — remains essential even as AI generates more of the code.",

@@ -6,7 +6,7 @@
     "options": [
       "To convince the model to change its mind.",
       "To verify if the signal is based on a logical data point or a 'glitch' in the input data.",
-      "To make the trade execute faster. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "To make the trade execute faster.",
       "To hide the model's logic from regulators."
     ],
     "answer": "To verify if the signal is based on a logical data point or a 'glitch' in the input data.",
@@ -35,7 +35,7 @@
       "Trade both equally because the predicted gain is the same.",
       "Allocate more capital to the Silver trade because the model is more certain of the outcome.",
       "Only trade the Gold because 55 is a luckier number.",
-      "Ignore both because models are never 100% sure. which is a critical factor to consider in this context"
+      "Ignore both because models are never 100% sure."
     ],
     "answer": "Allocate more capital to the Silver trade because the model is more certain of the outcome.",
     "explanation": "Confidence-based position sizing is a key part of risk management. You want to bet heavier when the model's 'conviction' is high.",
@@ -46,7 +46,7 @@
     "content": "Feature importance identifies which variables (e.g., interest rates, social sentiment, past volatility) have the most influence on the model’s prediction. This helps researchers focus their efforts on the data that actually moves the needle.",
     "description": "After analyzing your model, you realize that 'Twitter Sentiment' has a feature importance of 0.01, while 'Interest Rate Changes' has 0.85. What should you do?",
     "options": [
-      "Spend more time gathering Twitter data. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Spend more time gathering Twitter data.",
       "Focus your research on refining macro-economic interest rate data, as it is the primary driver of your model.",
       "Delete the interest rate data to give Twitter a chance.",
       "Change the model to a different asset class."
@@ -63,7 +63,7 @@
       "It makes the committee feel like the AI is a human.",
       "It synthesizes the complex math into a clear, logical argument that humans can debate and approve.",
       "It automatically signs the legal documents for the trade.",
-      "It translates the report into 50 different languages. which is a critical factor to consider in this context"
+      "It translates the report into 50 different languages."
     ],
     "answer": "It synthesizes the complex math into a clear, logical argument that humans can debate and approve.",
     "explanation": "Communication is key in institutional trading. GenAI bridges the gap between the 'quant' (math) and the 'portfolio manager' (strategy).",
@@ -75,7 +75,7 @@
     "description": "The AI report says: 'Buy Apple because they just acquired Tesla.' You haven't seen this news anywhere else. What is the correct response?",
     "options": [
       "Buy both Apple and Tesla immediately to get ahead of the crowd.",
-      "Assume the AI has 'insider info' that isn't public yet. which is a critical factor to consider in this context",
+      "Assume the AI has 'insider info' that isn't public yet.",
       "Treat it as a hallucination and verify with an official SEC filing or a trusted news terminal.",
       "Wait for the AI to realize it made a mistake and apologize."
     ],
@@ -90,7 +90,7 @@
     "options": [
       "Yes, because the legal disclaimer is the most official part.",
       "No, it suggests the model is focusing on 'boilerplate' text rather than the meaningful financial discussion.",
-      "Yes, it means the model is being very careful. which is a critical factor to consider in this context",
+      "Yes, it means the model is being very careful.",
       "It doesn't matter what the model looks at as long as the price is right."
     ],
     "answer": "No, it suggests the model is focusing on 'boilerplate' text rather than the meaningful financial discussion.",
@@ -103,7 +103,7 @@
     "description": "Model A predicts a price of $100 with a +/- $1 range. Model B predicts $100 with a +/- $20 range. Which model is more 'interpretable' for a low-risk strategy?",
     "options": [
       "Model A, because the narrow range indicates higher precision and lower uncertainty.",
-      "Model B, because it covers more possibilities. which is a critical factor to consider in this context",
+      "Model B, because it covers more possibilities.",
       "Both are the same since the average is $100.",
       "Neither; you should only trade if there is no range."
     ],
@@ -118,7 +118,7 @@
     "options": [
       "It isn't a problem as long as you make money.",
       "It indicates that the model's success was lucky, and it will likely fail when the 'real' driver (interest rates) changes.",
-      "It makes the tax reporting more difficult. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "It makes the tax reporting more difficult.",
       "It means the model is too smart for the researcher to understand."
     ],
     "answer": "It indicates that the model's success was lucky, and it will likely fail when the 'real' driver (interest rates) changes.",
@@ -130,7 +130,7 @@
     "content": "Sensitivity analysis involves changing one input (e.g., increasing inflation by 0.1%) to see how much the output changes. This helps researchers understand which 'levers' the AI is most sensitive to in the current market.",
     "description": "You perform a sensitivity analysis and find that a tiny 1% change in 'Oil Prices' causes your 'Retail Stock' prediction to flip from Buy to Sell. What does this tell you about your strategy?",
     "options": [
-      "Your strategy is extremely robust. which is a critical factor to consider in this context",
+      "Your strategy is extremely robust.",
       "Your strategy is highly sensitive (and potentially fragile) to energy costs.",
       "Oil prices have no impact on retail.",
       "The model is broken and should be deleted."

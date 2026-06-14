@@ -32,7 +32,7 @@
     "content": "Venture capital firms invest in many startups knowing most will fail, but a few outsized successes generate portfolio-level positive expected value.",
     "description": "A VC invests $1M in 20 startups. 15 fail completely ($0 return), 4 return 2x the investment, and 1 returns 50x. What is the total expected outcome?",
     "options": [
-      "The VC loses money because most startups fail which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The VC loses money because most startups fail",
       "The single 50x return (worth $50M) more than offsets the $20M invested and the modest returns, producing a positive portfolio EV",
       "The VC should only invest in the startup with the highest individual probability of success",
       "The expected value is $2.5M per startup on average"
@@ -46,7 +46,7 @@
     "content": "Insurance typically has negative expected value for the buyer (the premium exceeds the actuarial value of the coverage), but people buy it to eliminate catastrophic downside risk.",
     "description": "Homeowners insurance costs $1,200/year. The actuarial probability of a total loss ($300,000) is 0.2% per year. The EV of the coverage is -$600/year. Why do rational people still buy it?",
     "options": [
-      "They do not understand expected value math which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "They do not understand expected value math",
       "The negative EV is acceptable because insurance eliminates a catastrophic, non-recoverable loss that would destroy their financial stability",
       "Insurance companies always lose money in the long run",
       "The expected value calculation is wrong because it uses probabilities"
@@ -60,7 +60,7 @@
     "content": "Assign explicit, reasoned probabilities to multiple scenarios and focus capital on initiatives yielding positive expected value, even if they carry baseline risk.",
     "description": "An oil company evaluates drilling a new well. Best case (20% chance): $50M profit. Moderate case (60% chance): $10M profit. Worst case (20% chance): -$30M loss. What should they do?",
     "options": [
-      "Drill immediately — the best case profit is $50M which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Drill immediately — the best case profit is $50M",
       "Abandon the project — the worst case loss is too large",
       "Calculate EV: (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = $10M + $6M - $6M = +$10M. The positive EV justifies drilling.",
       "Only drill if the worst case loss can be eliminated entirely"
@@ -76,7 +76,7 @@
     "options": [
       "The player miscalculated the probabilities of each outcome",
       "Short-run variance can mask the long-run expected value — 3 trials is too small a sample to reveal the true EV",
-      "The casino must have cheated which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The casino must have cheated",
       "The game has a negative EV for beginners"
     ],
     "answer": "Short-run variance can mask the long-run expected value — 3 trials is too small a sample to reveal the true EV",
@@ -88,7 +88,7 @@
     "content": "Expected value applies beyond finance. Career choices, relationship decisions, and personal risks can all be evaluated through an EV lens by estimating probabilities and payoffs.",
     "description": "A software engineer considers joining a startup. 30% chance it succeeds (equity worth $500K), 70% chance it fails (salary was 20% below market, a $20K loss vs. a stable job). How should they evaluate this decision?",
     "options": [
-      "Never join startups — most fail which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Never join startups — most fail",
       "Always join startups — the upside is $500K",
       "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70% failure risk must be tolerable.",
       "The EV calculation cannot apply to career decisions because they are one-time events"
@@ -104,7 +104,7 @@
     "options": [
       "The manager is correctly accounting for their team's superior skills",
       "Overconfidence bias — the manager is inflating the probability of success, which overstates the project's true expected value",
-      "The EV formula only applies to financial decisions which is a critical factor to consider in this context",
+      "The EV formula only applies to financial decisions",
       "Historical data is irrelevant because every project is unique"
     ],
     "answer": "Overconfidence bias — the manager is inflating the probability of success, which overstates the project's true expected value",

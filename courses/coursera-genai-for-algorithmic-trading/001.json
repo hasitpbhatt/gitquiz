@@ -6,7 +6,7 @@
     "options": [
       "Use the LLM to execute trades faster than a human could.",
       "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score as a new signal.",
-      "Replace your entire quantitative backtesting engine with a chatbot interface. which is a critical factor to consider in this context",
+      "Replace your entire quantitative backtesting engine with a chatbot interface.",
       "Ask the LLM to predict the exact price of the S&P 500 one year from today."
     ],
     "answer": "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score as a new signal.",
@@ -19,7 +19,7 @@
     "description": "A hedge fund manager wants to ensure their GenAI tool doesn't misquote historical earnings per share (EPS) during a strategy meeting. Which implementation is most effective?",
     "options": [
       "Retraining the base model on more data.",
-      "Using a larger model with more parameters. which is a critical factor to consider in this context",
+      "Using a larger model with more parameters.",
       "Implementing a RAG system that pulls data directly from verified financial databases.",
       "Asking the AI to be 'very sure' before it answers."
     ],
@@ -34,7 +34,7 @@
     "options": [
       "Switch to a zero-shot prompt to simplify the instructions.",
       "Provide 3-5 examples of headlines and the expected JSON output in the prompt.",
-      "Stop using LLMs and manually tag every headline. which is a critical factor to consider in this context",
+      "Stop using LLMs and manually tag every headline.",
       "Increase the temperature setting of the model to 1.0."
     ],
     "answer": "Provide 3-5 examples of headlines and the expected JSON output in the prompt.",
@@ -49,7 +49,7 @@
       "Agents are always faster than standard Python scripts.",
       "Agents can adapt to unexpected information by 'reasoning' through the next best step if the primary source is down.",
       "Agents do not require an internet connection to function.",
-      "Agents eliminate the need for risk management parameters. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Agents eliminate the need for risk management parameters."
     ],
     "answer": "Agents can adapt to unexpected information by 'reasoning' through the next best step if the primary source is down.",
     "explanation": "Unlike rigid scripts, agents can use logic to navigate obstacles, such as trying an alternative data source if the first one fails to return a result.",
@@ -91,7 +91,7 @@
       "When they need the model to learn a very specific professional 'shorthand' or jargon used only in their niche market.",
       "When they want to save money, as fine-tuning is always cheaper than RAG.",
       "When they need to provide the model with real-time stock prices.",
-      "Fine-tuning should never be used in finance. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Fine-tuning should never be used in finance."
     ],
     "answer": "When they need the model to learn a very specific professional 'shorthand' or jargon used only in their niche market.",
     "explanation": "Fine-tuning is best for teaching a model a new 'language' or style, while RAG is better for providing the model with specific, updated facts.",
@@ -102,7 +102,7 @@
     "content": "A 'hallucination' occurs when an LLM generates a response that sounds confident but is factually incorrect. In algorithmic trading, relying on a hallucinated price or earnings figure could lead to catastrophic financial losses.",
     "description": "You are using an LLM to summarize analyst ratings to decide on a trade. What is the most responsible 'human-in-the-loop' practice?",
     "options": [
-      "Trust the AI's summary completely to save time. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Trust the AI's summary completely to save time.",
       "Only trade during the night when the AI is less busy.",
       "Program a cross-check where the AI must provide a direct quote and page number from the source for every claim.",
       "Assume the AI is always wrong and do the opposite of what it says."
@@ -130,7 +130,7 @@
     "content": "Prompt chaining is the process of taking the output of one AI prompt and using it as the input for the next. This breaks a complex trading problem—like 'Analyze this stock and write a report'—into smaller, more manageable steps like 'Extract data,' then 'Analyze trends,' then 'Summarize.'",
     "description": "You want an AI to perform a comprehensive 'S.W.O.T.' analysis on a company. How should you structure the task for the best results?",
     "options": [
-      "Write one massive prompt asking for everything at once. which is a critical factor to consider in this context",
+      "Write one massive prompt asking for everything at once.",
       "Chain prompts: first ask for Strengths, then use that to find Weaknesses, and so on.",
       "Ask the AI to guess the S.W.O.T. without giving it any data.",
       "Use a different AI model for every single letter of S.W.O.T."

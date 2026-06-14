@@ -5,7 +5,7 @@
     "description": "You're approaching an intersection from the north, another driver from the east, and both have stop signs. Why might you both remain stopped even though it's clear to go?",
     "options": [
       "Neither wants to risk proceeding if the other might also go, creating a mutual standoff",
-      "Both drivers' vehicles have malfunctioning ignitions which is a critical factor to consider in this context",
+      "Both drivers' vehicles have malfunctioning ignitions",
       "They're waiting for a police officer to arrive",
       "They've decided to have a picnic in the intersection"
     ],
@@ -21,7 +21,7 @@
       "Dressing up is never harmful and avoids the risk of being underdressed if others interpret the event as formal",
       "You're trying to make a fashion statement",
       "The invitation secretly requires formal attire",
-      "You've never owned casual clothing which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "You've never owned casual clothing"
     ],
     "answer": "Dressing up is never harmful and avoids the risk of being underdressed if others interpret the event as formal",
     "explanation": "Dressing formally is a dominant strategy: if the event is casual, you're slightly overdressed but not inappropriate; if it's formal, you're correctly dressed. Casual attire risks being underdressed if others treat it as formal.",
@@ -35,7 +35,7 @@
       "Both stores launch deep discounts, starting a price war that reduces profits for both",
       "Both stores maintain regular prices and share the market equally",
       "One store discounts while the other doesn't, capturing all customers",
-      "Both stores decide to close their businesses which is a critical factor to consider in this context"
+      "Both stores decide to close their businesses"
     ],
     "answer": "Both stores launch deep discounts, starting a price war that reduces profits for both",
     "explanation": "This is a Prisoner's Dilemma: regardless of what the competitor does, launching discounts seems better for each store (gain market share or prevent loss). But if both launch discounts, both ends up worse off than if both had maintained regular prices.",
@@ -47,7 +47,7 @@
     "description": "You're trying to get two siblings to fairly share a cake without either feeling cheated. What mechanism could work?",
     "options": [
       "Have one sibling cut the cake and the other choose first which piece to take",
-      "Let the older sibling decide everything which is a critical factor to consider in this context",
+      "Let the older sibling decide everything",
       "Flip a coin to decide who gets the whole cake",
       "Ask a parent to arbitrarily divide it"
     ],
@@ -63,7 +63,7 @@
       "By using second-price auction mechanics where the winner pays the second-highest bid, not their own bid",
       "By allowing only one bid per user",
       "By revealing all bids immediately as they come in",
-      "By auctioning items only during business hours which is a critical factor to consider in this context"
+      "By auctioning items only during business hours"
     ],
     "answer": "By using second-price auction mechanics where the winner pays the second-highest bid, not their own bid",
     "explanation": "In a Vickrey auction, bidding your true maximum is optimal regardless of when you bid. There's no benefit to waiting until the last second because you'll never pay more than the second-highest bid, making sniping ineffective.",
@@ -76,7 +76,7 @@
     "options": [
       "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the collective mess",
       "The refrigerator's cooling system is broken",
-      "Someone is deliberately sabotaging the refrigerator which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Someone is deliberately sabotaging the refrigerator",
       "The office has hired maids who are not doing their job"
     ],
     "answer": "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the collective mess",
@@ -90,7 +90,7 @@
     "options": [
       "You might overpay for a car with hidden problems (the 'Lemon Problem')",
       "The car's radio is definitely broken",
-      "You're emotionally attached to the vehicle which is a critical factor to consider in this context",
+      "You're emotionally attached to the vehicle",
       "The seller is definitely lying about the mileage"
     ],
     "answer": "You might overpay for a car with hidden problems (the 'Lemon Problem')",
@@ -103,7 +103,7 @@
     "description": "In nature, why do we see both aggressive and cooperative animal behaviors persist rather than one eliminating the other?",
     "options": [
       "Because under certain conditions, neither strategy can consistently outperform the other when rare",
-      "Animals randomly choose behaviors each generation which is a critical factor to consider in this context",
+      "Animals randomly choose behaviors each generation",
       "All animals are actually identical in behavior",
       "The environment changes too quickly for evolution to work"
     ],

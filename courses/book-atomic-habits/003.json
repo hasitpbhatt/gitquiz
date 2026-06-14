@@ -77,7 +77,7 @@
       "Keep the journal locked in a drawer in another room",
       "Place the journal and pen directly on the pillow each morning",
       "Commit to writing five pages every single night",
-      "Buy an expensive leather journal to feel motivated which is a critical factor to consider in this context"
+      "Buy an expensive leather journal to feel motivated"
     ],
     "answer": "Place the journal and pen directly on the pillow each morning",
     "explanation": "Putting the journal on the pillow reduces friction to nearly zero. The response of writing becomes much easier to initiate when the tools are already in place.",
@@ -91,7 +91,7 @@
       "The physical act of typing on a keyboard",
       "The feeling of being productive or the relief of reducing uncertainty",
       "The blue light from the screen",
-      "The technical process of data transmission which is a critical factor to consider in this context"
+      "The technical process of data transmission"
     ],
     "answer": "The feeling of being productive or the relief of reducing uncertainty",
     "explanation": "Cravings are about internal state change. We perform habits to move from a current state to a more desirable one, such as from not knowing to being informed.",
@@ -105,7 +105,7 @@
       "Habit automation reduces reaction time, causing the driver to brake too late in unexpected situations",
       "When the environment changes unpredictably, the automated response may be the wrong one, and regaining conscious control has a latency cost",
       "The brain offloads too much processing to habit, leading to micro-sleep episodes behind the wheel",
-      "Habit automation only works for positive behaviors; negative behaviors like speeding are never automated which is a critical factor to consider in this context"
+      "Habit automation only works for positive behaviors; negative behaviors like speeding are never automated"
     ],
     "answer": "When the environment changes unpredictably, the automated response may be the wrong one, and regaining conscious control has a latency cost",
     "explanation": "Cognitive efficiency through habit has a trade-off: the brain routes control from slow conscious processing to fast basal ganglia automation. This works perfectly in stable environments but creates vulnerability when conditions shift. If a child runs into the street on a road where the driver habitually expects no pedestrians, the automated non-alert state delays the transition to conscious emergency response. This latency between habit failure and conscious takeover is the hidden cost of automation.",

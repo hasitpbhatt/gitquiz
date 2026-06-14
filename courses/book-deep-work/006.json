@@ -6,7 +6,7 @@
     "options": [
       "To make her feel guilty about unproductive time",
       "To provide concrete data that she can use to consciously reduce those hours in favor of deeper work",
-      "To justify hiring an assistant which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "To justify hiring an assistant",
       "To prove that her job requires more than eight hours"
     ],
     "answer": "To provide concrete data that she can use to consciously reduce those hours in favor of deeper work",
@@ -21,7 +21,7 @@
       "Deep work, because an organized library is essential",
       "Shallow work, because it requires minimal specialized training and is easily replicated",
       "High-value work, because shelving errors cause major problems",
-      "Strategic work, because it ensures books are findable which is a critical factor to consider in this context"
+      "Strategic work, because it ensures books are findable"
     ],
     "answer": "Shallow work, because it requires minimal specialized training and is easily replicated",
     "explanation": "The depth test measures whether the task leverages your unique expertise. Reshelving can be learned in an hour, so it does not qualify as deep work, however necessary it may be.",
@@ -48,7 +48,7 @@
     "options": [
       "It reduces the total number of inquiries she receives",
       "It batches shallow administrative work into two predictable blocks, protecting the rest of her day for patient-focused deep thinking",
-      "It makes her seem unfriendly to patients which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "It makes her seem unfriendly to patients",
       "It eliminates all administrative tasks from her day"
     ],
     "answer": "It batches shallow administrative work into two predictable blocks, protecting the rest of her day for patient-focused deep thinking",
@@ -60,7 +60,7 @@
     "content": "A process-centric email minimizes the total number of messages exchanged by providing a clear, complete response that closes the loop. Instead of open-ended questions, offer specific options and a decision protocol.",
     "description": "A volunteer coordinator receives an email: 'Can we reschedule our cleanup day?' Which response is most process-centric?",
     "options": [
-      "'Sure, when works for you?' which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "'Sure, when works for you?'",
       "'I am available Saturday 9-12 or Sunday 2-5 at the park. If either works, reply with your preference and I will update the calendar.'",
       "'Let me check my schedule and get back to you.'",
       "'Why do you need to reschedule?'"
@@ -76,7 +76,7 @@
     "options": [
       "This is healthy democratic deliberation that requires face-to-face time",
       "The chairperson should have spent thirty minutes of deep work preparing a proposal with options, then emailed it for approval",
-      "Committees should meet more frequently to build momentum which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Committees should meet more frequently to build momentum",
       "The budget is too small to justify any meeting time"
     ],
     "answer": "The chairperson should have spent thirty minutes of deep work preparing a proposal with options, then emailed it for approval",
@@ -91,7 +91,7 @@
       "She will be promoted to manage the AI system",
       "Her shallow skills are easily replaced because she did not develop unique, deep expertise",
       "The AI will create new data entry jobs she can transition to",
-      "She has built enough seniority to be protected which is a critical factor to consider in this context"
+      "She has built enough seniority to be protected"
     ],
     "answer": "Her shallow skills are easily replaced because she did not develop unique, deep expertise",
     "explanation": "Shallow work builds a 'moat' around your career. Easily replicable skills offer little protection when automation or restructuring arrives.",
@@ -102,7 +102,7 @@
     "content": "Newport visualizes productivity as a funnel. At the top are all potential tasks. In the middle is your deep work capacity, which filters tasks. Only tasks receiving focused attention emerge as elite results. Too many shallow tasks clog the funnel.",
     "description": "A chef tries to launch a new menu, manage staffing, handle social media, negotiate with suppliers, and redesign the dining room simultaneously. After three months, nothing is complete. What does the productivity funnel explain?",
     "options": [
-      "The chef is not working hard enough which is a critical factor to consider in this context",
+      "The chef is not working hard enough",
       "Too many competing tasks fragment focus, preventing any single project from receiving the intensity needed for completion",
       "The restaurant industry is too demanding for one person",
       "The chef should hire a general manager immediately"
@@ -119,7 +119,7 @@
       "It discourages everyone from contacting her",
       "It shifts the shallow work of articulating the request to the sender, protecting her time for high-value financial analysis",
       "It helps her sort clients by income level",
-      "It is required by financial regulations which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "It is required by financial regulations"
     ],
     "answer": "It shifts the shallow work of articulating the request to the sender, protecting her time for high-value financial analysis",
     "explanation": "Sender filters make others do the cognitive work of clarifying their needs. Many prospective clients will realize their question is not urgent, and those who do respond provide enough context for a focused reply.",
@@ -133,7 +133,7 @@
       "Yes; staying current with research is essential for a scientist",
       "No; the constraint is working by forcing her to distinguish between productive reading and passive browsing",
       "Yes; she should extend her hours to 8 PM",
-      "No, but she should read journals at home instead which is a critical factor to consider in this context"
+      "No, but she should read journals at home instead"
     ],
     "answer": "No; the constraint is working by forcing her to distinguish between productive reading and passive browsing",
     "explanation": "The fixed schedule acts as a forcing function. When time is scarce, your brain naturally prioritizes high-value activities and reveals which habits were actually low-value fillers.",

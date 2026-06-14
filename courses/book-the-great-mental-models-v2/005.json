@@ -6,7 +6,7 @@
     "options": [
       "The features were low quality and customers did not use them",
       "The team has high speed but low velocity — their efforts are scattered in different directions instead of aligned toward a single goal",
-      "The market is simply not ready for this product which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The market is simply not ready for this product",
       "The company needs to hire more engineers to increase output"
     ],
     "answer": "The team has high speed but low velocity — their efforts are scattered in different directions instead of aligned toward a single goal",
@@ -18,7 +18,7 @@
     "content": "Strategic alignment means ensuring every individual's effort vector is pointing toward the same coordinate. The aggregate velocity of an organization is the sum of aligned vectors, not the sum of individual speeds.",
     "description": "Company A gives each department its own goals — product ships features, sales closes deals, marketing generates leads — but the departments rarely coordinate. Company B aligns every team around a single quarterly metric. What happens?",
     "options": [
-      "Company A produces more innovation because departments have freedom which is a critical factor to consider in this context",
+      "Company A produces more innovation because departments have freedom",
       "Company B's teams may move slower individually, but their aggregate velocity toward the shared goal is much higher",
       "Company A's decentralized approach is always superior for long-term growth",
       "Company B will miss important opportunities that independent departments would catch"
@@ -35,7 +35,7 @@
       "The employee is not intelligent enough to manage their workload",
       "The employee has high speed (rapid task completion) but low velocity (tasks do not move toward important outcomes)",
       "The manager's praise is misplaced but has no real consequences",
-      "The employee should delegate more work to junior team members which is a critical factor to consider in this context"
+      "The employee should delegate more work to junior team members"
     ],
     "answer": "The employee has high speed (rapid task completion) but low velocity (tasks do not move toward important outcomes)",
     "explanation": "Responding to emails and attending meetings creates high speed — lots of activity. But if these activities do not advance key projects, velocity is near zero. The busyness trap is mistaking visible activity for meaningful progress.",
@@ -48,7 +48,7 @@
     "options": [
       "Team A — they launched faster and can iterate based on feedback",
       "Team B — they had lower speed but higher velocity because their output moved in the correct strategic direction",
-      "Both teams were equally effective — speed and accuracy balance out which is a critical factor to consider in this context",
+      "Both teams were equally effective — speed and accuracy balance out",
       "Neither was effective because the six-week delay made Team B miss the market window"
     ],
     "answer": "Team B — they had lower speed but higher velocity because their output moved in the correct strategic direction",
@@ -60,7 +60,7 @@
     "content": "When multiple forces act on an object in different directions, they can cancel each other out, resulting in zero net velocity despite considerable energy being expended.",
     "description": "A company simultaneously: expands into Asia, launches a new product line, undergoes a rebranding, and implements a new ERP system. At the end of the year, revenue is flat. What principle explains this?",
     "options": [
-      "Poor execution across all four initiatives which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Poor execution across all four initiatives",
       "The four major initiatives are vector forces pulling in different directions, canceling out the organization's net velocity",
       "The economy was in a recession during the year",
       "Each initiative was underfunded and therefore failed individually"
@@ -76,7 +76,7 @@
     "options": [
       "The developers are not skilled enough to handle complex bugs",
       "The team is measuring speed (story point throughput) instead of velocity (product quality and customer value)",
-      "Agile methodology inherently encourages gaming the system which is a critical factor to consider in this context",
+      "Agile methodology inherently encourages gaming the system",
       "The product manager should assign larger stories to prevent gaming"
     ],
     "answer": "The team is measuring speed (story point throughput) instead of velocity (product quality and customer value)",
@@ -91,7 +91,7 @@
       "Customers are naturally prone to churn after the first year",
       "The three teams' incentives create counteracting vectors — sales overpromises, product ships half-baked features, support rushes through tickets",
       "The product is fundamentally flawed and needs to be rebuilt",
-      "The company has not invested enough in customer success which is a critical factor to consider in this context"
+      "The company has not invested enough in customer success"
     ],
     "answer": "The three teams' incentives create counteracting vectors — sales overpromises, product ships half-baked features, support rushes through tickets",
     "explanation": "Each team's incentives point in a different direction. Sales pushes for new logos (quality be damned), product pushes for features (retention be damned), support pushes for closure speed (satisfaction be damned). The vector sum of these forces produces negative retention velocity.",
@@ -105,7 +105,7 @@
       "The startup needs to conserve cash, so reduced output makes financial sense",
       "The team is burned out and needs a rest period to recover productivity",
       "Slowing down to recalibrate direction will increase future velocity because current efforts may be pointed in the wrong direction",
-      "The investors should trust the CEO's intuition without needing a justification which is a critical factor to consider in this context"
+      "The investors should trust the CEO's intuition without needing a justification"
     ],
     "answer": "Slowing down to recalibrate direction will increase future velocity because current efforts may be pointed in the wrong direction",
     "explanation": "If you are running fast in the wrong direction, stopping to reorient is the fastest path to your goal. The 'ship nothing quarter' is a course correction. Once vectors are realigned, even moderate speed will produce higher velocity than frantic misdirected effort ever could.",

@@ -6,7 +6,7 @@
     "options": [
       "The promoted colleague had better connections with senior leaders",
       "The pure technical skills were soft and weak; the colleague's combination of technical, business, and communication skills formed a stronger intellectual alloy",
-      "The company does not value deep technical expertise which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The company does not value deep technical expertise",
       "The engineer should have focused on networking instead of coding"
     ],
     "answer": "The pure technical skills were soft and weak; the colleague's combination of technical, business, and communication skills formed a stronger intellectual alloy",
@@ -21,7 +21,7 @@
       "Career diversification — having multiple job options reduces risk",
       "The marketing professional spread herself too thin across unrelated fields",
       "Her combination of marketing, coding, and psychology forms a unique intellectual alloy that competitors cannot easily replicate",
-      "Python is an essential skill for all marketing professionals which is a critical factor to consider in this context"
+      "Python is an essential skill for all marketing professionals"
     ],
     "answer": "Her combination of marketing, coding, and psychology forms a unique intellectual alloy that competitors cannot easily replicate",
     "explanation": "Just as steel (iron + carbon) is stronger than pure iron, an intellectual alloy of marketing + coding + psychology is stronger than any of those skills alone. The hybrid is rare, difficult to replicate, and creates a professional moat.",
@@ -35,7 +35,7 @@
       "First-mover advantage — Apple entered these markets earliest",
       "Apple has more engineers than any competitor",
       "Apple's hardware-software-services alloy is extremely difficult for pure competitors to replicate",
-      "Brand loyalty alone explains Apple's sustained advantage which is a critical factor to consider in this context"
+      "Brand loyalty alone explains Apple's sustained advantage"
     ],
     "answer": "Apple's hardware-software-services alloy is extremely difficult for pure competitors to replicate",
     "explanation": "Apple's advantage is not any single element but the alloy of all three. A pure hardware company cannot build great software. A pure software company cannot control the hardware experience. The operational alloy creates a moat that pure competitors cannot cross.",
@@ -46,7 +46,7 @@
     "content": "Pure specialization in a single domain makes you brittle. If that domain is disrupted — by AI, market shifts, or regulatory change — you have no adjacent capabilities to fall back on.",
     "description": "A tax accountant who only knows US tax law sees his industry disrupted by AI tax software. He has no other marketable skills. A fellow accountant who also understood financial planning and client relationships adapts successfully. What explains the difference?",
     "options": [
-      "The second accountant was naturally smarter which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The second accountant was naturally smarter",
       "The first accountant was 'pure' — hyper-specialized in one domain — while the second had an intellectual alloy that survived the disruption to one element",
       "AI tax software only affects accountants who are not tech-savvy",
       "Tax law changes made the first accountant's knowledge obsolete"
@@ -62,7 +62,7 @@
     "options": [
       "She needs more years of experience in each discipline",
       "She has the ingredients but has not applied the 'heat' of deliberate integration — treating disciplines separately instead of fusing them",
-      "General management requires innate talent that cannot be learned which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "General management requires innate talent that cannot be learned",
       "She should specialize in one discipline rather than trying to use all three"
     ],
     "answer": "She has the ingredients but has not applied the 'heat' of deliberate integration — treating disciplines separately instead of fusing them",
@@ -74,7 +74,7 @@
     "content": "Diverse skill combinations are more resilient to environmental shocks because they provide multiple adaptation pathways when one domain shifts.",
     "description": "A journalist who only writes long-form articles loses her job when the magazine industry contracts. A journalist who also shoots video, produces podcasts, and writes newsletters thrives. What explains the difference?",
     "options": [
-      "The second journalist was more talented at storytelling which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The second journalist was more talented at storytelling",
       "The first journalist should have saved more money for the transition",
       "The second journalist's media alloy — combining writing, video, audio, and digital distribution — made her resilient to shifts in any single medium",
       "Magazine journalism is a dying industry with no future"
@@ -90,7 +90,7 @@
     "options": [
       "The biology market is growing rapidly, making any startup in the space valuable",
       "Her specific alloy of biology, regulation, and infrastructure is rare and takes years to build — competitors cannot easily replicate this combination",
-      "Startups with female founders receive preferential valuation which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Startups with female founders receive preferential valuation",
       "The cloud infrastructure knowledge alone is sufficient for the business"
     ],
     "answer": "Her specific alloy of biology, regulation, and infrastructure is rare and takes years to build — competitors cannot easily replicate this combination",
@@ -104,7 +104,7 @@
     "options": [
       "Yes — any combination of skills qualifies as an intellectual alloy",
       "No — she is maintaining them as separate toolkits; an alloy requires integration where the elements interact and reinforce each other",
-      "Psychology and statistics are too different to form an alloy which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Psychology and statistics are too different to form an alloy",
       "The combination is still valuable even without integration, so it counts as an alloy"
     ],
     "answer": "No — she is maintaining them as separate toolkits; an alloy requires integration where the elements interact and reinforce each other",

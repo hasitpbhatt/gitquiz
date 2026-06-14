@@ -5,7 +5,7 @@
     "description": "Your AI monitors global banking transcripts. It notices a 400% increase in 'counterparty risk' mentions, even though bank stock prices are currently stable. What is the most prudent risk management action?",
     "options": [
       "Ignore the signal until the stock prices actually start to fall.",
-      "Increase leverage to take advantage of the market's current calmness. which is a critical factor to consider in this context",
+      "Increase leverage to take advantage of the market's current calmness.",
       "Reduce position sizes or buy out-of-the-money put options to hedge against a potential systemic shock.",
       "Ask the AI to stop monitoring banking news to reduce 'false alarms'."
     ],
@@ -21,7 +21,7 @@
       "It suggests a 'coiled spring' effect where the market is vulnerable to a sharp, unexpected downturn.",
       "It means the VIX is broken and should be ignored forever.",
       "It indicates that the market is perfectly safe because prices aren't moving.",
-      "It suggests you should buy more speculative growth stocks. which is a critical factor to consider in this context"
+      "It suggests you should buy more speculative growth stocks."
     ],
     "answer": "It suggests a 'coiled spring' effect where the market is vulnerable to a sharp, unexpected downturn.",
     "explanation": "When sentiment is poor but volatility is low, the market is often 'complacent.' GenAI helps you see the underlying fragility that traditional volatility metrics might miss.",
@@ -34,7 +34,7 @@
     "options": [
       "Wait for the price to drop 5% to hit the mechanical stop-loss.",
       "Exit the position immediately based on 'Narrative Failure' because the thesis for the trade is no longer valid.",
-      "Buy more shares because the price is still high. which is a critical factor to consider in this context",
+      "Buy more shares because the price is still high.",
       "Ask the AI to find a new reason to stay in the trade."
     ],
     "answer": "Exit the position immediately based on 'Narrative Failure' because the thesis for the trade is no longer valid.",
@@ -49,7 +49,7 @@
       "As a high-risk asset due to potential regulatory 'crackdown' and reputational damage.",
       "As a safe asset because the company's official reports are positive.",
       "As a 'Neutral' asset because environmental issues don't affect profits.",
-      "As a 'Buy' because the company is good at marketing. which is a critical factor to consider in this context"
+      "As a 'Buy' because the company is good at marketing."
     ],
     "answer": "As a high-risk asset due to potential regulatory 'crackdown' and reputational damage.",
     "explanation": "Inconsistencies between corporate 'narrative' and 'reality' are a major red flag. GenAI is uniquely capable of cross-referencing thousands of sources to find these hidden risks.",
@@ -60,7 +60,7 @@
     "content": "Adversarial risk involves bad actors trying to trick your AI—for example, bots spreading fake news to trigger your sentiment-based sell algorithm. Risk management requires 'Source Verification' to ensure your AI isn't trading based on a sophisticated hallucination or a fake tweet.",
     "description": "Your sentiment engine sees a massive spike in 'CEO Resignation' news from an unverified social media account. What is the safest programmed response?",
     "options": [
-      "Trust the AI's sentiment score and sell immediately. which is a critical factor to consider in this context",
+      "Trust the AI's sentiment score and sell immediately.",
       "Cross-verify the news against a 'whitelist' of trusted sources (Bloomberg, Reuters, SEC filings) before allowing the trade.",
       "Wait for the stock to hit zero to confirm the news was true.",
       "Ignore the news and buy more to fight the 'fake news'."
@@ -74,7 +74,7 @@
     "content": "If many AI bots use similar 'Sentiment-Sell' triggers, they can create a feedback loop that causes a 'Flash Crash.' Ethical risk management involves building 'de-correlation' into your model so it doesn't just copy the herd during a panic.",
     "description": "The market is falling rapidly, and your AI is screaming 'Sell' because everyone else is selling. Why might you program a 'Contrarian Filter' during extreme volatility?",
     "options": [
-      "To save the world from a crash. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "To save the world from a crash.",
       "To prevent your bot from selling at the absolute bottom of a 'liquidity vacuum' created by other AI bots.",
       "Because your bot needs to be different to be 'cool'.",
       "Because the AI is likely to be happier if it doesn't sell."
@@ -90,7 +90,7 @@
     "options": [
       "Tell them the AI is a 'black box' and you don't know.",
       "Produce the AI's logs showing it identified 'unusual executive behavior' from public earnings call transcripts two weeks prior.",
-      "Delete the logs so there is no evidence. which is a critical factor to consider in this context",
+      "Delete the logs so there is no evidence.",
       "Argue that the AI is its own legal entity."
     ],
     "answer": "Produce the AI's logs showing it identified 'unusual executive behavior' from public earnings call transcripts two weeks prior.",
@@ -105,7 +105,7 @@
       "By using an ensemble of multiple LLMs and requiring a 'consensus' before taking extreme actions.",
       "By giving the AI full control over all your money.",
       "By assuming every alert is true and checking later.",
-      "By only trading in small amounts of cash. which is a critical factor to consider in this context"
+      "By only trading in small amounts of cash."
     ],
     "answer": "By using an ensemble of multiple LLMs and requiring a 'consensus' before taking extreme actions.",
     "explanation": "Consensus-based systems reduce the 'Single Point of Failure.' If one model hallucinates a bizarre risk, the other models act as a 'sanity check' to prevent irrational trades.",
@@ -116,7 +116,7 @@
     "content": "Risk management isn't just 'Buy' or 'Sell'; it's 'How much?' GenAI can adjust position sizes based on the 'Clarity' of the market—if news is conflicting and sentiment is mixed, the AI reduces the bet size to stay safe.",
     "description": "The market is currently flooded with conflicting reports about a new stimulus bill. Your GenAI 'Certainty Score' drops from 0.9 to 0.4. What should happen to your position size?",
     "options": [
-      "Increase it to make up for the uncertainty. which is a critical factor to consider in this context",
+      "Increase it to make up for the uncertainty.",
       "Keep it the same to show confidence in your strategy.",
       "Automatically scale down the position size to reflect the higher 'information risk' in the market.",
       "Stop trading and wait for the AI to become 1.0 certain."
@@ -133,7 +133,7 @@
       "Do nothing and hope for the best.",
       "Immediately switch to a hard-coded 'Trailing Stop-Loss' or move to cash to ensure the positions aren't left unmonitored.",
       "Keep sending requests until the service comes back up.",
-      "Delete the positions and the bot. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Delete the positions and the bot."
     ],
     "answer": "Immediately switch to a hard-coded 'Trailing Stop-Loss' or move to cash to ensure the positions aren't left unmonitored.",
     "explanation": "A 'Fail-Safe' ensures that you are never 'flying blind.' If the high-tech AI brain fails, the 'primitive' but reliable code brain takes over to protect the portfolio.",

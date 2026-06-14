@@ -7,7 +7,7 @@
       "MCP is too slow for production use",
       "MCP is one-way, agents can call services but services cannot call agents back",
       "MCP only works with OpenAI models",
-      "MCP does not support authentication which is a critical factor to consider in this context"
+      "MCP does not support authentication"
     ],
     "answer": "MCP is one-way, agents can call services but services cannot call agents back",
     "explanation": "MCP provides a one-way protocol: the agent can invoke tools on external services, but those services have no way to push information back to the agent. For bidirectional communication, Cognition built webhook-based systems on top of MCP.",
@@ -18,7 +18,7 @@
     "content": "Slack is a first-class integration for Devin, not just a notification channel. Users can assign tasks to Devin from Slack, get updates, and interact with the agent conversationally.",
     "description": "A product manager wants to ask Devin to investigate a bug without opening the Devin web app. How does Cognition enable this workflow?",
     "options": [
-      "Devin does not support Slack which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Devin does not support Slack",
       "Slack is a first-class integration where users can assign tasks and interact with the agent directly",
       "Devin only sends one-way notifications to Slack",
       "Slack integration requires a third-party plugin"
@@ -35,7 +35,7 @@
       "Storage, bandwidth, and encryption",
       "Generation, retrieval, and pruning of memories",
       "Compression, indexing, and caching",
-      "Training, inference, and fine-tuning which is a critical factor to consider in this context"
+      "Training, inference, and fine-tuning"
     ],
     "answer": "Generation, retrieval, and pruning of memories",
     "explanation": "The three hard problems of agent memory are: generation (what to save as a memory), retrieval (finding the right memory at the right time), and pruning (removing outdated or irrelevant memories so they don't confuse the agent).",
@@ -63,7 +63,7 @@
       "Memory generation is too slow",
       "Memory pruning and editing, handling contradictory or outdated information",
       "Memory storage is too expensive",
-      "Memory encryption is too complex which is a critical factor to consider in this context"
+      "Memory encryption is too complex"
     ],
     "answer": "Memory pruning and editing, handling contradictory or outdated information",
     "explanation": "Memory pruning is the challenge of detecting when a memory is no longer valid and should be updated or deleted. When the agent encounters information that contradicts an existing memory, it must decide whether the new information supersedes the old memory or is an exception.",
@@ -76,7 +76,7 @@
     "options": [
       "Vector database memory",
       "File system approach to memory using markdown files like CLAUDE.md",
-      "Graph-based memory which is a critical factor to consider in this context",
+      "Graph-based memory",
       "Key-value store memory"
     ],
     "answer": "File system approach to memory using markdown files like CLAUDE.md",
@@ -90,7 +90,7 @@
     "options": [
       "A scheduled batch job",
       "An always-on agent that acts like a permanent PM, proactively working without human initiation",
-      "A chatbot which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "A chatbot",
       "A cron job"
     ],
     "answer": "An always-on agent that acts like a permanent PM, proactively working without human initiation",
@@ -104,7 +104,7 @@
     "options": [
       "MCP integrations are slower than first-party ones",
       "First-party integrations offer richer, customized functionality; MCP offers standard protocol compliance and faster development",
-      "First-party integrations cannot use authentication which is a critical factor to consider in this context",
+      "First-party integrations cannot use authentication",
       "MCP integrations are always more reliable"
     ],
     "answer": "First-party integrations offer richer, customized functionality; MCP offers standard protocol compliance and faster development",

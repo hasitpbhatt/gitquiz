@@ -7,7 +7,7 @@
       "The developer was the project manager for the migration initiative",
       "The developer acted as a catalyst — the migration script lowered the activation energy of adoption without being consumed by the process",
       "The developer should have been building product features instead of tooling scripts",
-      "The migration script reduced the quality of the data transfer which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The migration script reduced the quality of the data transfer"
     ],
     "answer": "The developer acted as a catalyst — the migration script lowered the activation energy of adoption without being consumed by the process",
     "explanation": "The migration script is the catalyst. It lowers the barrier to adoption (eliminating manual data entry) and is not consumed — it can be reused for future migrations. After adoption, the script remains unchanged. The team crossed the activation barrier more easily because of this catalyst.",
@@ -18,7 +18,7 @@
     "content": "The defining characteristic of a catalyst is that it is not consumed or permanently altered by the reaction. After the reaction, the catalyst can be recovered and reused.",
     "description": "A consultant designs a new operating model for a company, trains the leadership team, and leaves. Two years later, the operating model is still running successfully. How does this illustrate catalysis?",
     "options": [
-      "The consultant was overpaid for a relatively simple deliverable which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The consultant was overpaid for a relatively simple deliverable",
       "The consultant acted as a catalyst — she introduced a framework that lowered the activation energy for better operations, and was not consumed (she left the system unchanged)",
       "The company would have adopted the operating model even without the consultant",
       "The consultant should have stayed longer to ensure continued success"
@@ -32,7 +32,7 @@
     "content": "When facing a massive change effort that requires too much activation energy, ask: What element can I introduce to the environment that lowers the barrier without being consumed?",
     "description": "A company wants all employees to use a new internal knowledge base, but adoption is slow because contributing content feels like extra work. What would be an effective catalyst?",
     "options": [
-      "Require knowledge base contributions in everyone's performance review which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Require knowledge base contributions in everyone's performance review",
       "Hire a dedicated team to write all the content themselves",
       "Introduce a template system and a browser extension that makes adding content as easy as clicking a button — lowering the contribution barrier without being consumed",
       "Send a weekly email reminding people to contribute to the knowledge base"
@@ -46,7 +46,7 @@
     "content": "Brute-forcing a bottleneck through willpower, cash, or pressure is exhausting and resource-intensive. Introducing a catalyst is almost always more efficient because it permanently lowers the barrier.",
     "description": "A law firm wants partners to submit timesheets daily instead of weekly. The managing partner threatens to withhold bonuses for late submissions. Compliance improves marginally but partners are resentful. What approach does the catalyst model suggest instead?",
     "options": [
-      "Increase the penalty until compliance reaches 100% which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Increase the penalty until compliance reaches 100%",
       "Fire the partners who refuse to comply with the new policy",
       "Find the friction causing late submissions and build a catalyst — perhaps a simple mobile app or email-based reminder that makes daily submission effortless",
       "Accept weekly submissions since the policy change was not worth the conflict"
@@ -62,7 +62,7 @@
     "options": [
       "It is a marketing tool to attract more customers to Stripe",
       "It acts as a systemic catalyst — it lowers the activation energy for online payment integration for every business that uses it, without being consumed",
-      "API documentation is a legal requirement for payment processors which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "API documentation is a legal requirement for payment processors",
       "It is a competitive advantage that only benefits Stripe's enterprise clients"
     ],
     "answer": "It acts as a systemic catalyst — it lowers the activation energy for online payment integration for every business that uses it, without being consumed",
@@ -75,7 +75,7 @@
     "description": "A product team constantly interrupts the engineering team with urgent requests, destroying productivity. The engineering manager tries saying 'no' more often, but the interruptions continue. What catalyst should she look for?",
     "options": [
       "Install a strict ticketing system with a three-day SLA for all requests",
-      "Hold a meeting to explain why interruptions are harmful to productivity which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Hold a meeting to explain why interruptions are harmful to productivity",
       "Find a systemic catalyst — perhaps a self-service tool that lets product run common experiments without engineering involvement, permanently removing the need for interruptions",
       "Escalate the issue to the VP of Engineering to enforce better boundaries"
     ],
@@ -91,7 +91,7 @@
       "The senior leader forced the team to agree by exercising authority",
       "The senior leader acted as a social catalyst — their neutral credibility and framing questions lowered the barrier to consensus without being consumed by the decision",
       "The team was ready to agree and just needed any external input",
-      "The senior leader made the decision for the team which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The senior leader made the decision for the team"
     ],
     "answer": "The senior leader acted as a social catalyst — their neutral credibility and framing questions lowered the barrier to consensus without being consumed by the decision",
     "explanation": "Some people are social catalysts. Their mere presence lowers the activation energy for alignment — they ask the right questions, reduce political risk, and provide psychological safety. Like chemical catalysts, they enable the reaction without being changed by it.",
@@ -104,7 +104,7 @@
     "options": [
       "Network effects are not related to catalysis because they are a social phenomenon",
       "This is a self-reinforcing catalyst — the catalyst's own presence lowers the barrier further over time, unlike standard catalysts which have a constant effect",
-      "Standard catalysts also self-reinforce in chemical reactions which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Standard catalysts also self-reinforce in chemical reactions",
       "Network effects always lead to a single platform dominating the market"
     ],
     "answer": "This is a self-reinforcing catalyst — the catalyst's own presence lowers the barrier further over time, unlike standard catalysts which have a constant effect",

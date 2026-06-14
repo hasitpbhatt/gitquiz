@@ -7,7 +7,7 @@
       "Hard-code the exact price drops of 2008 into a Python script.",
       "Use an LLM to analyze macro-economic descriptions and volatility clusters to find historical analogies.",
       "Ask the AI to flip a coin to decide which era it is.",
-      "Only look at the current day's price action and ignore history. which is a critical factor to consider in this context"
+      "Only look at the current day's price action and ignore history."
     ],
     "answer": "Use an LLM to analyze macro-economic descriptions and volatility clusters to find historical analogies.",
     "explanation": "GenAI is excellent at 'high-dimensional' pattern matching—looking at many qualitative and quantitative factors at once to find the closest historical precedent.",
@@ -18,7 +18,7 @@
     "content": "A hypothesis is a testable 'if-then' statement. GenAI can act as a brainstorming partner, generating hundreds of potential trading hypotheses based on news, such as: 'If oil prices rise while airline sentiment is low, then airline stocks will underperform.'",
     "description": "You are researching the Impact of AI chips on the tech sector. How can GenAI help you form a trading hypothesis?",
     "options": [
-      "By automatically placing trades on NVDA. which is a critical factor to consider in this context",
+      "By automatically placing trades on NVDA.",
       "By synthesizing supply chain news and competitor earnings to suggest which companies might be 'under-the-radar' winners.",
       "By telling you exactly what the price of every stock will be tomorrow.",
       "By deleting all data that contradicts your personal opinion."
@@ -35,7 +35,7 @@
       "To read every tweet aloud to the trading team.",
       "To convert the collective sentiment and volume of 'hype' keywords into a numerical 0-1 score.",
       "To ban all users who tweet negative things about the stock.",
-      "To reply to every tweet with a buy recommendation. which is a critical factor to consider in this context"
+      "To reply to every tweet with a buy recommendation."
     ],
     "answer": "To convert the collective sentiment and volume of 'hype' keywords into a numerical 0-1 score.",
     "explanation": "This is the essence of feature engineering: taking raw, unstructured information and turning it into a structured 'signal' that a math model can understand.",
@@ -46,7 +46,7 @@
     "content": "Not every idea an AI generates is a good one. Validation involves backtesting the AI's hypothesis against historical data to see if the 'predicted' outcome actually happened in the past, ensuring the idea has statistical merit.",
     "description": "Your GenAI suggests that 'Rain in Brazil always leads to higher coffee stock prices.' What should your next step be before trading?",
     "options": [
-      "Immediately buy coffee futures. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Immediately buy coffee futures.",
       "Ignore it; AI can't know anything about the weather.",
       "Run a historical correlation test between Brazil rainfall data and coffee stock prices over the last 20 years.",
       "Wait for it to rain in Brazil and then check the price manually."
@@ -60,7 +60,7 @@
     "content": "To see how a strategy reacts to 'shock' news, traders use GenAI to write 'fake' news headlines (e.g., 'Major Bank Fails') and feed them into their system. This tests if the bot’s risk management triggers correctly during a crisis.",
     "description": "Why would a developer generate a fake 'World War III' news headline for their trading bot?",
     "options": [
-      "To spread rumors on social media. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "To spread rumors on social media.",
       "To see if the bot's 'Panic Sell' or 'Hedging' logic activates as expected in a simulated disaster.",
       "To make the bot feel more stressed so it works harder.",
       "To trick the bot into giving them money."
@@ -76,7 +76,7 @@
     "options": [
       "A shift toward a defensive or bear market.",
       "An explosive bull market in tech startups.",
-      "A total market shutdown. which is a critical factor to consider in this context",
+      "A total market shutdown.",
       "No change; keywords don't matter."
     ],
     "answer": "A shift toward a defensive or bear market.",
@@ -88,7 +88,7 @@
     "content": "Overfitting happens when a model is so perfectly tuned to historical data that it fails to predict anything new. In GenAI research, this can happen if you keep 'tweaking' your prompt until it perfectly matches one specific past event.",
     "description": "You’ve found a prompt that perfectly 'predicted' the 2021 Bitcoin peak. When you use it for 2024, it fails miserably. What is the most likely problem?",
     "options": [
-      "The AI is tired of Bitcoin. which is a critical factor to consider in this context",
+      "The AI is tired of Bitcoin.",
       "The prompt was 'overfitted' to the specific conditions of 2021 and lacks general logic.",
       "Bitcoin is no longer a real asset.",
       "You didn't use enough emojis in the prompt."
@@ -105,7 +105,7 @@
       "By stating that 3.0 is a smaller number than 3.5.",
       "By analyzing analyst reports to explain why the 0.2% 'miss' relative to expectations is the most important factor.",
       "By recalculating the math to make 3.0 look like 2.8.",
-      "By ignoring the numbers and looking at chart colors. which is a critical factor to consider in this context"
+      "By ignoring the numbers and looking at chart colors."
     ],
     "answer": "By analyzing analyst reports to explain why the 0.2% 'miss' relative to expectations is the most important factor.",
     "explanation": "Markets trade on 'surprises' (Actual vs. Expected). GenAI helps quantify the 'magnitude' of the surprise by reading the context around the consensus.",
@@ -116,7 +116,7 @@
     "content": "Sentiment divergence occurs when the news is positive but the stock price is falling (or vice versa). This often signals a 'trend reversal,' and GenAI is the perfect tool to flag these contradictions in real-time.",
     "description": "Your GenAI tool shows 'Extreme Positive Sentiment' for a stock, but the price has hit a 5-month low. What hypothesis might this suggest for research?",
     "options": [
-      "The AI is definitely wrong. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The AI is definitely wrong.",
       "The price is wrong and must go up immediately.",
       "A potential 'bull trap' or 'distributive' phase where the 'smart money' is selling to the 'excited public.'",
       "The company has been deleted from the stock exchange."
@@ -130,7 +130,7 @@
     "content": "Correlation is when two things move together; Causal Inference is understanding *why* they move. GenAI helps research 'why' by linking events (e.g., 'A drought in Taiwan caused a chip shortage which led to higher car prices').",
     "description": "How does an LLM help a researcher move from 'Correlation' to 'Causality' in a trading strategy?",
     "options": [
-      "By guessing randomly. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "By guessing randomly.",
       "By providing a written logical chain of events derived from news and reports that explains the connection.",
       "By drawing a straight line on a chart between two points.",
       "By making sure both stock prices move at exactly the same time."

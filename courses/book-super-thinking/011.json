@@ -6,7 +6,7 @@
     "options": [
       "Practice more hours of the same piece",
       "Focus on the hardest sections, get feedback from a teacher, and repeatedly correct mistakes",
-      "Switch to a different instrument entirely which is a critical factor to consider in this context",
+      "Switch to a different instrument entirely",
       "Perform the piece in public more often"
     ],
     "answer": "Focus on the hardest sections, get feedback from a teacher, and repeatedly correct mistakes",
@@ -35,7 +35,7 @@
       "I am just not good at math and never will be",
       "The test was unfair and the teacher is biased",
       "I need to study different strategies, ask for help, and practice more",
-      "Math is not important for my future anyway which is a critical factor to consider in this context"
+      "Math is not important for my future anyway"
     ],
     "answer": "I need to study different strategies, ask for help, and practice more",
     "explanation": "A growth mindset sees failure as information about what to improve, not as a verdict on fixed ability. This leads to resilience, embracing challenges, and ultimately higher achievement over time.",
@@ -49,7 +49,7 @@
       "The salesperson did not want the promotion",
       "The Peter Principle - skills for selling differ from skills for managing sellers",
       "The company did not provide enough training",
-      "The salesperson stopped trying after the promotion which is a critical factor to consider in this context"
+      "The salesperson stopped trying after the promotion"
     ],
     "answer": "The Peter Principle - skills for selling differ from skills for managing sellers",
     "explanation": "The Peter Principle: people are promoted based on success in their current role, but each promotion requires different skills. Eventually, everyone reaches a role they cannot master, and the organization fills with incompetent managers.",
@@ -62,7 +62,7 @@
     "options": [
       "Follow the official rules because they are written down",
       "Follow the cultural norms because social pressure is stronger than formal policy",
-      "Report violations to authorities immediately which is a critical factor to consider in this context",
+      "Report violations to authorities immediately",
       "Quit the company due to ethical concerns"
     ],
     "answer": "Follow the cultural norms because social pressure is stronger than formal policy",
@@ -76,7 +76,7 @@
     "options": [
       "The app has too many bugs",
       "The app lacks Product/Market Fit - the market does not need what they built",
-      "The price is too high which is a critical factor to consider in this context",
+      "The price is too high",
       "The marketing budget is too small"
     ],
     "answer": "The app lacks Product/Market Fit - the market does not need what they built",
@@ -90,7 +90,7 @@
     "options": [
       "They enjoy complaining about their bank",
       "Switching costs are high - updating auto-payments, direct deposits, and re-establishing credit history takes significant effort",
-      "Better banks do not actually exist which is a critical factor to consider in this context",
+      "Better banks do not actually exist",
       "They signed a lifetime contract with their current bank"
     ],
     "answer": "Switching costs are high - updating auto-payments, direct deposits, and re-establishing credit history takes significant effort",
@@ -105,7 +105,7 @@
       "A traditional linear business model",
       "A platform strategy leveraging cross-side network effects between two groups",
       "A charity service for transportation",
-      "A government transportation program which is a critical factor to consider in this context"
+      "A government transportation program"
     ],
     "answer": "A platform strategy leveraging cross-side network effects between two groups",
     "explanation": "Platforms create multi-sided markets where each group's participation adds value for the other group (cross-side network effects). This differs from linear businesses that simply make and sell products.",
@@ -118,7 +118,7 @@
     "options": [
       "Prudent risk management in pursuit of profit",
       "Moral hazard - the bank takes excessive risk because the downside is covered by taxpayers",
-      "Market efficiency at work which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Market efficiency at work",
       "The bank is being innovative with its lending strategy"
     ],
     "answer": "Moral hazard - the bank takes excessive risk because the downside is covered by taxpayers",
@@ -132,7 +132,7 @@
     "options": [
       "Obvious business opportunities that everyone saw",
       "Secret opportunities - valuable businesses that seemed like bad ideas at first",
-      "Government contracts that guaranteed success which is a critical factor to consider in this context",
+      "Government contracts that guaranteed success",
       "Technologies that did not exist before"
     ],
     "answer": "Secret opportunities - valuable businesses that seemed like bad ideas at first",

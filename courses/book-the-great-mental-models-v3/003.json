@@ -7,7 +7,7 @@
       "The engineers are not productive enough",
       "The code review step is the bottleneck constraining total throughput",
       "The feature complexity exceeds team capability",
-      "Management is not providing enough direction which is a critical factor to consider in this context"
+      "Management is not providing enough direction"
     ],
     "answer": "The code review step is the bottleneck constraining total throughput",
     "explanation": "Throughput is determined by the slowest stage. Doubling capacity upstream of a bottleneck only increases the queue, not the output. The review process must be addressed.",
@@ -35,7 +35,7 @@
       "The battery assembly was a bottleneck and the entire factory was subordinate to it",
       "The painting stage needed to be automated first",
       "The factory had too many parallel production lines",
-      "Manual assembly is always more reliable than automation which is a critical factor to consider in this context"
+      "Manual assembly is always more reliable than automation"
     ],
     "answer": "The battery assembly was a bottleneck and the entire factory was subordinate to it",
     "explanation": "When a bottleneck stops, everything downstream starves and everything upstream blocks. Tesla had to bypass the automated bottleneck with manual workstations to get production moving.",
@@ -49,7 +49,7 @@
       "Hire more Level 2 specialists immediately",
       "Ensure Level 2 specialists work only on escalated tickets and never do Level 1 work",
       "Reduce the number of incoming tickets by shutting down support channels",
-      "Fire underperforming Level 1 agents which is a critical factor to consider in this context"
+      "Fire underperforming Level 1 agents"
     ],
     "answer": "Ensure Level 2 specialists work only on escalated tickets and never do Level 1 work",
     "explanation": "Step 2 is “exploit the bottleneck” — maximize the bottleneck’s throughput before investing in more capacity. Make sure specialists focus only on their highest-value work.",
@@ -60,7 +60,7 @@
     "content": "After elevating one bottleneck, the constraint moves elsewhere in the system. Continuous improvement requires iterating the Five Focusing Steps as the bottleneck migrates.",
     "description": "After upgrading the packaging machine to run at 150 units/hr, production throughput only increased to 85 units/hr instead of the expected 150. What most likely happened?",
     "options": [
-      "The packaging upgrade was installed incorrectly which is a critical factor to consider in this context",
+      "The packaging upgrade was installed incorrectly",
       "The bottleneck shifted to the next slowest stage — now assembly at 85 units/hr",
       "Workers are not motivated to use the new machine at full speed",
       "The packaging machine requires more operators than available"
@@ -88,7 +88,7 @@
     "content": "All non-bottleneck stages must operate at the bottleneck’s pace, not at their maximum capacity. Running upstream stages faster than the bottleneck only creates excess inventory and hiding quality problems.",
     "description": "A factory’s bottleneck runs at 50 units/hr, but the upstream cutting machine runs at 200 units/hr producing a mountain of work-in-progress inventory. What is wrong with this arrangement?",
     "options": [
-      "The cutting machine is operating too slowly which is a critical factor to consider in this context",
+      "The cutting machine is operating too slowly",
       "The upstream stage is not subordinated to the bottleneck, creating waste and hiding defects",
       "The factory needs more storage space for inventory",
       "The bottleneck should be forced to run faster through overtime"
@@ -105,7 +105,7 @@
       "Approve the marketing spend — more leads always help the business",
       "Invest the $1M in expanding the onboarding team first, since it is the true bottleneck",
       "Spend half on marketing and half on onboarding",
-      "Reject the spend and maintain the status quo which is a critical factor to consider in this context"
+      "Reject the spend and maintain the status quo"
     ],
     "answer": "Invest the $1M in expanding the onboarding team first, since it is the true bottleneck",
     "explanation": "Adding capacity to a non-bottleneck (more leads) when the bottleneck (onboarding) is saturated produces zero additional throughput. Elevate the constraint first.",

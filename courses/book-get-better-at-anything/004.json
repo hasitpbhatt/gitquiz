@@ -7,7 +7,7 @@
       "The batter needs to practice more fastballs to perfect their swing",
       "Variability Over Repetition: practicing only one pitch type creates narrow expertise that does not transfer",
       "Curveballs are impossible to hit regardless of practice",
-      "The batter lacks natural talent for baseball which is a critical factor to consider in this context"
+      "The batter lacks natural talent for baseball"
     ],
     "answer": "Variability Over Repetition: practicing only one pitch type creates narrow expertise that does not transfer",
     "explanation": "Repeating the same action builds skill for that specific situation. Variable practice with different pitch types builds flexible skills that adapt to game conditions.",
@@ -20,7 +20,7 @@
     "options": [
       "Use more flashcards to achieve conversational fluency",
       "Vary practice methods: writing sentences, having conversations, listening to podcasts, and reading articles",
-      "Conversation skills are unrelated to vocabulary knowledge which is a critical factor to consider in this context",
+      "Conversation skills are unrelated to vocabulary knowledge",
       "Flashcards are a waste of time for language learning"
     ],
     "answer": "Vary practice methods: writing sentences, having conversations, listening to podcasts, and reading articles",
@@ -34,7 +34,7 @@
     "options": [
       "They should practice scales even more until perfect",
       "They should practice scales starting from different notes and in different rhythmic patterns",
-      "Scales are not important for jazz musicians which is a critical factor to consider in this context",
+      "Scales are not important for jazz musicians",
       "They lack the natural creativity needed for jazz"
     ],
     "answer": "They should practice scales starting from different notes and in different rhythmic patterns",
@@ -47,7 +47,7 @@
     "description": "A math student solves 50 identical problems using the same formula. On the exam, they cannot recognize when to apply the formula in a word problem. This demonstrates:",
     "options": [
       "The student did not practice enough problems",
-      "The student has a math learning disability which is a critical factor to consider in this context",
+      "The student has a math learning disability",
       "Variability Over Repetition: identical repetitive practice does not build transferable understanding",
       "The exam was unfairly designed to trick students"
     ],
@@ -63,7 +63,7 @@
       "The amateur, because taking fewer photos means more care per shot",
       "The photographer with volume, because quantity produces more chances for excellent results and more learning opportunities",
       "Both will produce equally good results",
-      "Neither approach works for photography which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Neither approach works for photography"
     ],
     "answer": "The photographer with volume, because quantity produces more chances for excellent results and more learning opportunities",
     "explanation": "Quality Comes from Quantity: producing work at volume generates more opportunities for excellence and more feedback for improvement. The best photo often emerges from many attempts.",
@@ -76,7 +76,7 @@
     "options": [
       "The perfectionist, because quality comes from careful revision",
       "The daily word writer, because consistent volume produces more practice, feedback, and opportunities for occasional brilliance",
-      "Neither will improve without professional training which is a critical factor to consider in this context",
+      "Neither will improve without professional training",
       "Both will improve at the same rate"
     ],
     "answer": "The daily word writer, because consistent volume produces more practice, feedback, and opportunities for occasional brilliance",
@@ -91,7 +91,7 @@
       "The first potter, because focused repetition builds mastery",
       "The second potter, because varied volume produces more learning about different techniques and effects",
       "Both develop the same skills",
-      "Neither approach works for pottery which is a critical factor to consider in this context"
+      "Neither approach works for pottery"
     ],
     "answer": "The second potter, because varied volume produces more learning about different techniques and effects",
     "explanation": "Combining quantity with variability amplifies learning. Producing many varied pieces generates diverse experiences, more feedback, and deeper understanding of the craft.",
@@ -105,7 +105,7 @@
       "Edison was inefficient and should have theorized first",
       "Quality Comes from Quantity: massive experimentation generates the data and insights needed for breakthrough success",
       "Luck is the most important factor in invention",
-      "Persistence without direction is pointless which is a critical factor to consider in this context"
+      "Persistence without direction is pointless"
     ],
     "answer": "Quality Comes from Quantity: massive experimentation generates the data and insights needed for breakthrough success",
     "explanation": "Edison volume of experiments meant he explored the solution space thoroughly. Each failed experiment provided information that guided subsequent attempts, ultimately leading to success.",

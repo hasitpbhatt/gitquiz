@@ -6,7 +6,7 @@
     "options": [
       "Because your boss might get annoyed with your lack of ambition",
       "Because you are accumulating 'career debt' and losing your competitive edge in the broader market",
-      "Because the government might increase taxes on stable jobs which is a critical factor to consider in this context",
+      "Because the government might increase taxes on stable jobs",
       "It isn't risky; a stable job is always the safest option"
     ],
     "answer": "Because you are accumulating 'career debt' and losing your competitive edge in the broader market",
@@ -34,7 +34,7 @@
     "options": [
       "No, because you should never accept a lower salary",
       "Yes, because the downside (living on savings) is survivable, and the upside is transformative",
-      "Only if the startup guarantees they will be successful which is a critical factor to consider in this context",
+      "Only if the startup guarantees they will be successful",
       "No, because startups are always more work than corporate jobs"
     ],
     "answer": "Yes, because the downside (living on savings) is survivable, and the upside is transformative",
@@ -48,7 +48,7 @@
     "options": [
       "As a sign that you should never write another story again",
       "As a data point that helps you refine your next submission and builds your 'rejection muscle'",
-      "As a personal insult from the magazine editor which is a critical factor to consider in this context",
+      "As a personal insult from the magazine editor",
       "As a reason to give up on writing forever"
     ],
     "answer": "As a data point that helps you refine your next submission and builds your 'rejection muscle'",
@@ -77,7 +77,7 @@
       "It makes you lazy because you have a safety net",
       "It allows you to focus 100% on the business because the fear of homelessness is removed",
       "It makes the business more likely to fail",
-      "It doesn't affect your mindset at all which is a critical factor to consider in this context"
+      "It doesn't affect your mindset at all"
     ],
     "answer": "It allows you to focus 100% on the business because the fear of homelessness is removed",
     "explanation": "Plan Z provides the psychological floor. When you aren't managing 'survival fear,' you can manage 'business risk' more effectively.",
@@ -89,7 +89,7 @@
     "description": "You are a junior lawyer. You see AI tools starting to automate the research you do. What is the least risky response?",
     "options": [
       "Wait for the senior partners to decide how to handle it",
-      "Hope that your firm never adopts the new technology which is a critical factor to consider in this context",
+      "Hope that your firm never adopts the new technology",
       "Proactively learn how to use those AI tools to become 10x more efficient than other junior lawyers",
       "Assume that law is a 'protected' profession and do nothing"
     ],
@@ -105,7 +105,7 @@
       "Betting your entire savings on a single stock",
       "Quitting your job without a backup plan",
       "Inviting a stranger in your industry to a 15-minute virtual coffee to ask for advice",
-      "Doing exactly what you did last week which is a critical factor to consider in this context"
+      "Doing exactly what you did last week"
     ],
     "answer": "Inviting a stranger in your industry to a 15-minute virtual coffee to ask for advice",
     "explanation": "A micro-risk has a very small downside (the person says no) but helps you practice the 'outreach' and 'uncertainty' required for bigger moves.",
@@ -118,7 +118,7 @@
     "options": [
       "The stress of having to learn something new",
       "The salary and experience you *could* have gained by joining that high-growth startup you passed on",
-      "The cost of your daily commute which is a critical factor to consider in this context",
+      "The cost of your daily commute",
       "There is no cost if you aren't losing money"
     ],
     "answer": "The salary and experience you *could* have gained by joining that high-growth startup you passed on",
@@ -130,7 +130,7 @@
     "content": "You don't have to take risks alone. By taking risks with a team or within a supportive network, you share the burden and the potential downside, making it easier for everyone to be bold.",
     "description": "You and two colleagues want to propose a radical new product line to your company. Why is it better to do this together?",
     "options": [
-      "So you can blame each other if it fails which is a critical factor to consider in this context",
+      "So you can blame each other if it fails",
       "Because it provides 'safety in numbers' and combines your collective network intelligence to improve the proposal",
       "Because it will take three times longer to get anything done",
       "Because you can split the cost of the office snacks"

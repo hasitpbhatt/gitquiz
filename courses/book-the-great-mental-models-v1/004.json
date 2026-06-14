@@ -6,7 +6,7 @@
     "options": [
       "Competitive benchmarking",
       "First principles thinking — decomposing to foundational truths and building up",
-      "Reverse engineering which is a critical factor to consider in this context",
+      "Reverse engineering",
       "Trial and error experimentation"
     ],
     "answer": "First principles thinking — decomposing to foundational truths and building up",
@@ -21,7 +21,7 @@
       "First principles thinking",
       "Reasoning by analogy — copying existing approaches with minor tweaks instead of rebuilding from fundamentals",
       "Bayesian updating",
-      "Inversion which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Inversion"
     ],
     "answer": "Reasoning by analogy — copying existing approaches with minor tweaks instead of rebuilding from fundamentals",
     "explanation": "Reasoning by analogy is the default mode: see what others do, then copy with small changes. It's efficient but preserves all the hidden assumptions and inefficiencies embedded in the existing approach.",
@@ -32,7 +32,7 @@
     "content": "Elon Musk discovered raw material costs for a rocket were only 2% of the retail price. SpaceX vertically integrated manufacturing, dropping launch costs by an order of magnitude through first principles thinking.",
     "description": "A startup's software project is estimated to cost $500,000 using a standard cloud provider. The founder breaks down the actual computing power needed and finds bare-metal hardware costs would be $20,000. What model does this illustrate?",
     "options": [
-      "Economies of scale which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Economies of scale",
       "First principles thinking — deconstructing cost to raw fundamentals instead of accepting industry pricing by analogy",
       "Loss leader pricing strategy",
       "The map is not the territory"
@@ -49,7 +49,7 @@
       "Incremental improvement of an existing tool",
       "First principles deconstruction — identifying core components and recombining solutions from unrelated domains",
       "Trial and error without any underlying framework",
-      "Accidental discovery which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Accidental discovery"
     ],
     "answer": "First principles deconstruction — identifying core components and recombining solutions from unrelated domains",
     "explanation": "Gutenberg didn't improve the quill — he decomposed text reproduction into fundamental components and borrowed solutions from unrelated fields. This is the essence of first principles innovation: recombine at the component level.",
@@ -60,7 +60,7 @@
     "content": "Socratic questioning is the practical methodology for first principles thinking: clarify core assumptions, challenge why they must be true, drill down to bedrock truth, and reconstruct the solution from scratch.",
     "description": "Your boss says, \"We cannot launch this feature because it requires a $100,000 annual server budget.\" Using the first principles framework, what is your first step?",
     "options": [
-      "Accept the constraint and cancel the feature which is a critical factor to consider in this context",
+      "Accept the constraint and cancel the feature",
       "Clarify the core assumption — why must servers cost $100,000? What drives that figure?",
       "Ask for more budget from the finance department",
       "Build the feature anyway and hope servers cost less"
@@ -77,7 +77,7 @@
       "Accept it as an undeniable truth about human nature",
       "Identify it as a social convention, not a physical law — people shop in person because of current habits and infrastructure, not immutable physics",
       "Invest more in retail stores to prove the executive right",
-      "Close all stores immediately without analysis which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Close all stores immediately without analysis"
     ],
     "answer": "Identify it as a social convention, not a physical law — people shop in person because of current habits and infrastructure, not immutable physics",
     "explanation": "First principles thinkers distinguish between what is physically necessary and what is merely habitual. \"People will always buy from physical stores\" is a social convention, not a law of physics. Conventions can be disrupted.",
@@ -88,7 +88,7 @@
     "content": "First principles thinking requires drilling down far enough to reach true fundamentals. Stopping too early — at the level of convention or industry norm — produces pseudo-first-principles solutions.",
     "description": "A team claims to use first principles but only challenges one level of assumptions (their supplier's pricing) without questioning their core architecture. What mistake are they making?",
     "options": [
-      "They are being too thorough which is a critical factor to consider in this context",
+      "They are being too thorough",
       "They stopped drilling too early — hitting a convention rather than a true fundamental truth",
       "They are using inversion instead of first principles",
       "Supplier pricing is always a fundamental constraint"
@@ -105,7 +105,7 @@
       "Increase prices to cover the middleman costs",
       "Vertically integrate — own more of the supply chain to eliminate intermediary markups",
       "Outsource more manufacturing to reduce costs",
-      "Reduce the quality of materials used which is a critical factor to consider in this context"
+      "Reduce the quality of materials used"
     ],
     "answer": "Vertically integrate — own more of the supply chain to eliminate intermediary markups",
     "explanation": "SpaceX discovered that vertical integration — controlling the manufacturing process from raw materials to finished product — eliminated the massive inefficiencies embedded in the traditional aerospace supply chain. The same principle applies across industries.",

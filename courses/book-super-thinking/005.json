@@ -21,7 +21,7 @@
       "The forest becomes healthier without predators",
       "Deer populations explode, leading to overgrazing and plant loss",
       "Other predators immediately replace wolves' ecological role",
-      "No significant changes occur which is a critical factor to consider in this context"
+      "No significant changes occur"
     ],
     "answer": "Deer populations explode, leading to overgrazing and plant loss",
     "explanation": "Removing top predators disrupts ecosystem balance. Without wolves to control them, deer populations grow unchecked, overconsume vegetation, and damage the ecosystem.",
@@ -34,7 +34,7 @@
     "options": [
       "Rabbits will migrate to find better islands",
       "Rabbit population will decrease due to starvation and disease",
-      "The island will magically produce more resources which is a critical factor to consider in this context",
+      "The island will magically produce more resources",
       "Rabbits will stop reproducing until balance is restored"
     ],
     "answer": "Rabbit population will decrease due to starvation and disease",
@@ -49,7 +49,7 @@
       "Parasitism - bees harm flowers",
       "Commensalism - bees benefit, flowers unaffected",
       "Mutualism - both bees and flowers benefit",
-      "Competition - both species harmed which is a critical factor to consider in this context"
+      "Competition - both species harmed"
     ],
     "answer": "Mutualism - both bees and flowers benefit",
     "explanation": "Bees get food (nectar), flowers get pollination service. Both species benefit from this interaction, making it mutualistic symbiosis.",
@@ -76,7 +76,7 @@
     "options": [
       "It gains mass from absorbing container gases",
       "It loses mass as it uses stored energy without producing new",
-      "Its mass stays exactly the same which is a critical factor to consider in this context",
+      "Its mass stays exactly the same",
       "It gains mass from water in the soil"
     ],
     "answer": "It loses mass as it uses stored energy without producing new",
@@ -91,7 +91,7 @@
       "Become part of the digested food",
       "Increase the temperature needed for digestion",
       "Speed up breakdown of food without being used up",
-      "Change the nutritional value of food which is a critical factor to consider in this context"
+      "Change the nutritional value of food"
     ],
     "answer": "Speed up breakdown of food without being used up",
     "explanation": "Enzymes are biological catalysts that speed up chemical reactions (like breaking down food) by lowering activation energy, while remaining unchanged themselves.",

@@ -4,7 +4,7 @@
     "content": "A map is an abstraction of reality that must compress data and omit details to be useful. A 1:1 scale map would be identical to the terrain and therefore useless for navigation.",
     "description": "Your project manager presents a detailed Gantt chart showing your software project will be completed in 6 months. According to this mental model, what is the fundamental issue with treating that chart as reality?",
     "options": [
-      "Gantt charts are always inaccurate which is a critical factor to consider in this context",
+      "Gantt charts are always inaccurate",
       "The chart is an abstraction that necessarily omits real-world complexity and uncertainty",
       "You should never use project management software",
       "The chart should be exactly 1:1 with reality"
@@ -21,7 +21,7 @@
       "The Cuban Missile Crisis",
       "The Maginot Line — building defenses based on an outdated map of how the enemy must attack",
       "The Vasa warship sinking",
-      "The Copernican Revolution which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The Copernican Revolution"
     ],
     "answer": "The Maginot Line — building defenses based on an outdated map of how the enemy must attack",
     "explanation": "France built the Maginot Line based on their static mental map of WWI-style warfare. Germany simply changed the territory by attacking through an unexpected route. The lesson: don't fall in love with your model of how the world must work.",
@@ -34,7 +34,7 @@
     "options": [
       "The model needed more data",
       "The model was a map that omitted real-world deterioration of underlying conditions",
-      "Regulators should have banned leverage which is a critical factor to consider in this context",
+      "Regulators should have banned leverage",
       "The traders were unlucky, not wrong"
     ],
     "answer": "The model was a map that omitted real-world deterioration of underlying conditions",
@@ -46,7 +46,7 @@
     "content": "Every map is created by someone with a specific goal, biases, and constraints. If you don't know what data the mapmaker intentionally threw away, you cannot safely navigate using that map.",
     "description": "A vendor's ROI dashboard shows their product delivers a 300% return. What question should you ask first before trusting this map of performance?",
     "options": [
-      "Is 300% a round number? which is a critical factor to consider in this context",
+      "Is 300% a round number?",
       "What data did the vendor exclude or select to construct this metric?",
       "Should we buy more of their product immediately?",
       "Is ROI a valid metric at all"
@@ -62,7 +62,7 @@
     "options": [
       "Your competitor analysis was biased",
       "You relied on a static map in a dynamic, fast-shifting competitive landscape",
-      "You underestimated your competitor's talent which is a critical factor to consider in this context",
+      "You underestimated your competitor's talent",
       "Mobile markets were not worth entering"
     ],
     "answer": "You relied on a static map in a dynamic, fast-shifting competitive landscape",
@@ -77,7 +77,7 @@
       "Org charts are useless and should be abandoned",
       "All maps must compress details to be useful — the org chart shows formal structure, not every relationship",
       "The employee should create a better org chart themselves",
-      "Org charts are only useful for HR compliance which is a critical factor to consider in this context"
+      "Org charts are only useful for HR compliance"
     ],
     "answer": "All maps must compress details to be useful — the org chart shows formal structure, not every relationship",
     "explanation": "A useful map necessarily omits details. The org chart is designed to show reporting structure, not informal networks or culture. Recognizing what a map intentionally leaves out is key to using it wisely.",
@@ -91,7 +91,7 @@
       "Trust the sales reports because they are quantitative",
       "Go to the front lines — talk to customers and frontline staff to find discrepancies the reports miss",
       "Ignore customer satisfaction since sales are strong",
-      "Hire a consultant to analyze both datasets which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Hire a consultant to analyze both datasets"
     ],
     "answer": "Go to the front lines — talk to customers and frontline staff to find discrepancies the reports miss",
     "explanation": "When the map (sales reports) and the territory (actual customer experience) seem to conflict, check the ground directly. Reports are abstractions that can miss important qualitative reality.",
@@ -104,7 +104,7 @@
     "options": [
       "Ignore the new data and stick with the original plan",
       "Adjust your projections to match the real-world data and revise the strategy accordingly",
-      "Blame the marketing team for inefficiency which is a critical factor to consider in this context",
+      "Blame the marketing team for inefficiency",
       "Lower your acquisition targets to fit the original model"
     ],
     "answer": "Adjust your projections to match the real-world data and revise the strategy accordingly",

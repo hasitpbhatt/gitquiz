@@ -7,7 +7,7 @@
       "A's is better; B's would survive any outcome by appealing to vague 'uncertainties'",
       "B's is better; structural factors are more fundamental than interest rates",
       "Both are equally hard to vary because both reference economics",
-      "Neither satisfies hard-to-vary; economics cannot produce good explanations which is a critical factor to consider in this context"
+      "Neither satisfies hard-to-vary; economics cannot produce good explanations"
     ],
     "answer": "A's is better; B's would survive any outcome by appealing to vague 'uncertainties'",
     "explanation": "A's explanation specifies a precise causal mechanism (rate hike → reduced borrowing → fewer construction jobs) with a testable prediction (cut rates → jobs return). B's 'structural uncertainties' could explain any economic outcome equally well — whether unemployment rises or falls, one can always claim 'uncertainty' caused it. This makes B's explanation easy to vary and therefore bad by Deutsch's criterion.",
@@ -21,7 +21,7 @@
       "A good explanation because it's never wrong",
       "A bad explanation because it fits any outcome",
       "An explanation with good reach",
-      "A conjecture that needs refutation which is a critical factor to consider in this context"
+      "A conjecture that needs refutation"
     ],
     "answer": "A bad explanation because it fits any outcome",
     "explanation": "The weather app's statement is always correct but provides zero predictive value because it accommodates both rain and no rain equally well. Good explanations constrain what could happen - this one doesn't.",
@@ -63,7 +63,7 @@
       "Confirmation bias",
       "The process of conjecture and refutation",
       "Authoritarian thinking",
-      "Inductive reasoning which is a critical factor to consider in this context"
+      "Inductive reasoning"
     ],
     "answer": "The process of conjecture and refutation",
     "explanation": "You formed a conjecture (accident causing traffic), encountered evidence refuting it (no accident, but construction), and revised your belief. This exemplifies Popper's conjecture-refutation cycle central to knowledge growth.",
@@ -102,7 +102,7 @@
     "content": "Being mistaken is essential to learning - errors, when criticized, lead to better explanations. Success often teaches less than productive failure.",
     "description": "A failed recipe teaches you about baking chemistry better than a successful one. This illustrates:",
     "options": [
-      "Why we should avoid experimentation which is a critical factor to consider in this context",
+      "Why we should avoid experimentation",
       "How failure can teach more than success",
       "That cooking is not a science",
       "The importance of following recipes exactly"
@@ -119,7 +119,7 @@
       "The first, because life change is important",
       "The second, because it specifies a precise, testable mechanism",
       "Neither explanation is better than the other",
-      "Neither makes any explanation at all which is a critical factor to consider in this context"
+      "Neither makes any explanation at all"
     ],
     "answer": "The second, because it specifies a precise, testable mechanism",
     "explanation": "'Filters 99% of contaminants' is hard to vary - change the percentage or mechanism and the explanation breaks. 'Change your life' is vague and flexible - it could 'explain' any outcome equally well, making it a bad explanation.",

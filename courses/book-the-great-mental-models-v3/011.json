@@ -4,7 +4,7 @@
     "content": "A normal (Gaussian) distribution is governed by independent, additive events where data clusters around a central mean and extreme outliers are statistically near-impossible.",
     "description": "Human height follows a bell curve: most people are near the average height, and someone 8 feet tall is as rare as someone 3 feet tall. What type of distribution is this?",
     "options": [
-      "A power law distribution which is a critical factor to consider in this context",
+      "A power law distribution",
       "A normal distribution — clustering around a mean with symmetric, thin tails",
       "A uniform distribution where all heights are equally likely",
       "A binomial distribution from binary genetic factors"
@@ -20,7 +20,7 @@
     "options": [
       "A normal distribution — most returns cluster around the average",
       "A power law — a tiny number of winners dominate the entire return distribution",
-      "A uniform distribution — all outcomes are equally likely which is a critical factor to consider in this context",
+      "A uniform distribution — all outcomes are equally likely",
       "A Poisson distribution — rare events occur at a fixed rate"
     ],
     "answer": "A power law — a tiny number of winners dominate the entire return distribution",
@@ -35,7 +35,7 @@
       "Y Combinator is better at selecting startups than other accelerators",
       "The power law — in environments governed by it, you must maximize exposure to rare high-upside outcomes",
       "Most startups should not be funded at all",
-      "Diversification is useless in venture capital which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Diversification is useless in venture capital"
     ],
     "answer": "The power law — in environments governed by it, you must maximize exposure to rare high-upside outcomes",
     "explanation": "In a power law world, the correct strategy is not to pick only winners (impossible) but to maximize the number of bets so you capture the rare home runs that dominate the distribution.",
@@ -49,7 +49,7 @@
       "The models had bugs in the statistical calculations",
       "Financial returns follow a power law with fat tails, not a normal distribution — extreme events far more common than Gaussian assumptions predict",
       "2008 was a one-in-a-trillion event that no model could predict",
-      "The fund managers overrode the models which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The fund managers overrode the models"
     ],
     "answer": "Financial returns follow a power law with fat tails, not a normal distribution — extreme events far more common than Gaussian assumptions predict",
     "explanation": "Financial markets exhibit power law characteristics (leptokurtosis / fat tails). Using Gaussian models that assume extreme events are near-impossible is a recipe for blow-up when the routine extreme occurs.",
@@ -63,7 +63,7 @@
       "Strategy A is always correct — consistency beats virality",
       "Strategy B is always correct — only viral content matters",
       "It depends on whether content consumption follows a normal or power law distribution — if power law, maximize exposure to rare viral hits",
-      "Both strategies produce identical long-term results which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Both strategies produce identical long-term results"
     ],
     "answer": "It depends on whether content consumption follows a normal or power law distribution — if power law, maximize exposure to rare viral hits",
     "explanation": "In a power law environment (content virality), average content produces average results. The winners are the rare viral hits. Strategy must align with the underlying distribution of the domain.",
@@ -76,7 +76,7 @@
     "options": [
       "Wealth is multiplicative (returns on returns) and interdependent, while height is additive (sum of many independent genetic factors)",
       "Wealth is measured in dollars while height is measured in inches",
-      "Height has a biological maximum while wealth does not which is a critical factor to consider in this context",
+      "Height has a biological maximum while wealth does not",
       "Wealth distribution is controlled by government policy while height is not"
     ],
     "answer": "Wealth is multiplicative (returns on returns) and interdependent, while height is additive (sum of many independent genetic factors)",
@@ -88,7 +88,7 @@
     "question": "Power Law Strategy Shift",
     "description": "An angel investor has $1 million to deploy. In a normal distribution world, they would diversify evenly across 100 startups. In a power law world, what strategy should they use?",
     "options": [
-      "Same strategy — diversification is always optimal which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Same strategy — diversification is always optimal",
       "Invest $1 million in one startup to maximize upside if it hits",
       "Invest in 50-100 startups with smaller checks — maximizing the number of shots on goal to catch rare power law winners",
       "Keep the cash and wait for the perfect opportunity"
@@ -105,7 +105,7 @@
       "A normal distribution with all customers equally valuable",
       "The Pareto principle as a manifestation of power law distribution — a small fraction drives most outcomes",
       "A uniform distribution of customer spending",
-      "Sampling bias in customer selection which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Sampling bias in customer selection"
     ],
     "answer": "The Pareto principle as a manifestation of power law distribution — a small fraction drives most outcomes",
     "explanation": "The 80/20 rule is a hallmark of power law distributions. The strategic implication: identify and focus on the vital few (the 20%) rather than treating all customers or activities equally.",

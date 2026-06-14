@@ -6,7 +6,7 @@
     "options": [
       "Always pick the higher return to maximize compounding.",
       "Pick the one that allows you to sleep best at night and stay the course.",
-      "Split the money 50/50 regardless of your goals. which is a critical factor to consider in this context",
+      "Split the money 50/50 regardless of your goals.",
       "Avoid both and keep all your money in cash."
     ],
     "answer": "Pick the one that allows you to sleep best at night and stay the course.",
@@ -34,7 +34,7 @@
     "options": [
       "Assume they have mastered the market and increase their bets.",
       "Acknowledge that luck played a role and stick to their original long-term plan.",
-      "Tell everyone they meet about their brilliant strategy. which is a critical factor to consider in this context",
+      "Tell everyone they meet about their brilliant strategy.",
       "Sell everything because they assume their luck has run out."
     ],
     "answer": "Acknowledge that luck played a role and stick to their original long-term plan.",
@@ -49,7 +49,7 @@
       "By checking your account balance every single day.",
       "By starting as early as possible and refusing to interrupt the growth curve.",
       "By picking stocks that are guaranteed to double every year.",
-      "By working until you are 80 years old. which is a critical factor to consider in this context"
+      "By working until you are 80 years old."
     ],
     "answer": "By starting as early as possible and refusing to interrupt the growth curve.",
     "explanation": "Compounding is like a snowball; it requires a long hill. The longer you let it roll without stopping it, the more massive it becomes.",
@@ -91,7 +91,7 @@
       "You will pay more in management fees.",
       "You will never reach a point of satisfaction and will eventually take a risk that wipes you out.",
       "People will be jealous of your continued growth.",
-      "Your bank will stop giving you loans. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Your bank will stop giving you loans."
     ],
     "answer": "You will never reach a point of satisfaction and will eventually take a risk that wipes you out.",
     "explanation": "If you don't know when to stop, you will eventually risk something invaluable (like your health or freedom) for something you don't actually need.",
@@ -104,7 +104,7 @@
     "options": [
       "A higher interest rate from your bank.",
       "The ability to say 'no' to a bad boss and wait for a career you actually enjoy.",
-      "More respect from your neighbors. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "More respect from your neighbors.",
       "A lower chance of being audited by the IRS."
     ],
     "answer": "The ability to say 'no' to a bad boss and wait for a career you actually enjoy.",

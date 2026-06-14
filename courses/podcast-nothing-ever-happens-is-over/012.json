@@ -6,7 +6,7 @@
     "options": [
       "A return to the slow, stable growth of the early 2000s.",
       "A phase shift where the world moves at a much faster pace across all sectors.",
-      "A total collapse of the venture capital market for hardware. which is a critical factor to consider in this context",
+      "A total collapse of the venture capital market for hardware.",
       "A decrease in the demand for sci-fi technologies like rockets and drones."
     ],
     "answer": "A phase shift where the world moves at a much faster pace across all sectors.",
@@ -49,7 +49,7 @@
       "The discovery of new ways to mine rare earth minerals.",
       "The fact that software is now 'figured out' enough via AI that hardware can finally function well.",
       "A global decrease in the price of manufacturing in China.",
-      "Government mandates requiring all hardware to be open source. which is a critical factor to consider in this context"
+      "Government mandates requiring all hardware to be open source."
     ],
     "answer": "The fact that software is now 'figured out' enough via AI that hardware can finally function well.",
     "explanation": "Naval’s core point about hardware is that 'software figured out' removes the primary reason why hardware products used to fail or be difficult to use.",
@@ -63,7 +63,7 @@
       "They want to prove they are the most altruistic nation in the world.",
       "It plays into their hardware dominance by providing the necessary software to unlock their electronic goods.",
       "They want to stop their own scientists from working at American AI labs.",
-      "They believe open-source models are easier for a government to control. which is a critical factor to consider in this context"
+      "They believe open-source models are easier for a government to control."
     ],
     "answer": "It plays into their hardware dominance by providing the necessary software to unlock their electronic goods.",
     "explanation": "Naval explains that open source is a tool for China to commoditize software, which in turn makes their dominant hardware manufacturing more valuable.",
@@ -74,7 +74,7 @@
     "content": "Nvidia’s primary goal is to sell hardware (GPU cards). Like China, their incentive is to see AI software become open and ubiquitous. The more models that exist, the more hardware is needed to run them, making open source a major driver for their bottom line.",
     "description": "What is Nvidia's primary incentive for supporting open-source AI models?",
     "options": [
-      "To transition from a hardware company to a software company. which is a critical factor to consider in this context",
+      "To transition from a hardware company to a software company.",
       "To commoditize the 'complement' (software) so they can sell as many hardware cards as possible.",
       "To ensure that only the smartest people in the world can use their chips.",
       "To follow international laws that require all GPU companies to be open source."
@@ -90,7 +90,7 @@
     "options": [
       "Because doom is more likely to happen than success.",
       "Because optimism requires creativity to imagine the unknown, whereas doom fixates on the destruction of the known.",
-      "Because people are naturally pessimistic and hate technology. which is a critical factor to consider in this context",
+      "Because people are naturally pessimistic and hate technology.",
       "Because there is more data available for doom scenarios than for positive ones."
     ],
     "answer": "Because optimism requires creativity to imagine the unknown, whereas doom fixates on the destruction of the known.",
@@ -105,7 +105,7 @@
       "It’s an effective way to keep companies from taking too much risk.",
       "It doesn't help matters; you don't want to be in a 'foxhole' with someone who only sees the end of the world.",
       "It ensures that only the best ideas survive the 'doom' testing.",
-      "It is a necessary part of the biological evolution of society. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "It is a necessary part of the biological evolution of society."
     ],
     "answer": "It doesn't help matters; you don't want to be in a 'foxhole' with someone who only sees the end of the world.",
     "explanation": "Naval emphasizes that even if doomers have points, their mindset is fundamentally unconstructive for those actually trying to build a way out of problems.",
@@ -119,7 +119,7 @@
       "We should prepare for a future where everyone returns to manual labor.",
       "Technology doesn't end work; it evolves it into forms that are currently impossible to imagine.",
       "Farming was the only time in history where humans were truly productive.",
-      "AI will eventually make it impossible for anyone to produce food. which is a critical factor to consider in this context"
+      "AI will eventually make it impossible for anyone to produce food."
     ],
     "answer": "Technology doesn't end work; it evolves it into forms that are currently impossible to imagine.",
     "explanation": "Naval uses this historical perspective to counter the fear of mass unemployment, suggesting that 'there's always a next job' that we just can't visualize yet.",
@@ -133,7 +133,7 @@
       "Because it is the only way to ignore the facts of the situation.",
       "Because it is the only way out of our current problems; we must imagine the 'rising up' scenario.",
       "Because AI systems work better when the humans using them are happy.",
-      "Because it makes it easier to raise money from venture capitalists. which is a critical factor to consider in this context"
+      "Because it makes it easier to raise money from venture capitalists."
     ],
     "answer": "Because it is the only way out of our current problems; we must imagine the 'rising up' scenario.",
     "explanation": "Naval argues that optimism is a creative requirement; to find the 'next job' or the 'next defense,' we must believe that such things are possible and buildable.",

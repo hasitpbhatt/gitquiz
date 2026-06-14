@@ -4,7 +4,7 @@
     "content": "Naval advises reading whatever you genuinely enjoy, even if it seems frivolous, because building the habit of regular reading is more important than the specific material.",
     "description": "A teenager feels guilty because he only reads science fiction novels while his friends read biographies and self-help books. He considers giving up reading entirely because he thinks his choices are not educational. What would Naval tell him?",
     "options": [
-      "He should switch to biographies to develop more intellectual taste which is a critical factor to consider in this context",
+      "He should switch to biographies to develop more intellectual taste",
       "He should read whatever he enjoys because building the habit of reading is what matters",
       "He should read a mix of fiction and non-fiction in equal measure",
       "He should stop reading altogether until he finds something more serious"
@@ -21,7 +21,7 @@
       "Because physics and philosophy are more prestigious subjects to study",
       "Because bestsellers contain too much filler material and are poorly written",
       "Because most business bestsellers just repackage foundational principles that are better learned from their original sources",
-      "Because entrepreneurs need a formal academic education to succeed which is a critical factor to consider in this context"
+      "Because entrepreneurs need a formal academic education to succeed"
     ],
     "answer": "Because most business bestsellers just repackage foundational principles that are better learned from their original sources",
     "explanation": "Naval observes that popular business books often dress up simple, timeless principles in new packaging. Learning the foundational ideas from their source—whether in physics, economics, or philosophy—gives you a deeper, more accurate understanding that isn't diluted by reinterpretation.",
@@ -33,7 +33,7 @@
     "description": "A college student complains that he cannot find good resources to learn about artificial intelligence, despite having free access to his university's library, the internet, online courses, and research papers. What concept explains the flaw in his complaint?",
     "options": [
       "Information asymmetry, because experts know where the best resources are",
-      "The Dunning-Kruger effect, because he overestimates his knowledge which is a critical factor to consider in this context",
+      "The Dunning-Kruger effect, because he overestimates his knowledge",
       "Gutenberg privilege, because the abundance of learning materials makes lack of desire the real bottleneck",
       "The Lindy effect, because only old books on AI are worth reading"
     ],
@@ -49,7 +49,7 @@
       "Incremental innovation, because they built on carriage technology",
       "First-principles thinking, because they broke the problem down to basic physics and built up from there",
       "Analogical thinking, because they compared transportation to other domains",
-      "Reverse engineering, because they copied nature's locomotion methods which is a critical factor to consider in this context"
+      "Reverse engineering, because they copied nature's locomotion methods"
     ],
     "answer": "First-principles thinking, because they broke the problem down to basic physics and built up from there",
     "explanation": "Naval advocates first-principles thinking, which involves decomposing a problem into its fundamental elements and reasoning about them from the ground up. The automobile inventors didn't try to make better carriages—they asked what moving something from A to B fundamentally requires and engineered a novel solution.",
@@ -63,7 +63,7 @@
       "The new bestseller, because it covers current market conditions",
       "The 1949 book, because its long survival suggests it contains durable truths",
       "Both equally, because all investing books contain similar advice",
-      "Neither, because investing knowledge becomes obsolete too quickly which is a critical factor to consider in this context"
+      "Neither, because investing knowledge becomes obsolete too quickly"
     ],
     "answer": "The 1949 book, because its long survival suggests it contains durable truths",
     "explanation": "The Lindy effect holds that for non-perishable things like books and ideas, every additional year of survival extends the expected remaining lifespan. A book that has been relevant for over 70 years has proven its ideas are not mere fads. Naval recommends prioritizing older books because time has already filtered out the noise.",
@@ -77,7 +77,7 @@
       "They specialized narrowly in their fields before expanding their reading",
       "Broad reading across disciplines helps make unique connections that drive innovation",
       "They only read books directly related to their businesses",
-      "Broad reading is useful only after achieving career success which is a critical factor to consider in this context"
+      "Broad reading is useful only after achieving career success"
     ],
     "answer": "Broad reading across disciplines helps make unique connections that drive innovation",
     "explanation": "Naval points to Musk and Munger as examples of how reading broadly across disciplines creates a latticework of mental models that enables innovative connections. Musk's knowledge of physics, engineering, and energy helped him build SpaceX and Tesla; Munger's multidisciplinary approach is central to his investing philosophy.",

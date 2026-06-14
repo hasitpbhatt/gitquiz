@@ -18,7 +18,7 @@
     "content": "People don't make financial decisions on a spreadsheet; they make them at the dinner table. Decisions are often based on what makes the most sense to the individual's current life situation and emotional state at that moment.",
     "description": "Why might a low-income family spend a significant portion of their money on lottery tickets, even though the math says it is a losing bet?",
     "options": [
-      "They are incapable of basic math. which is a critical factor to consider in this context",
+      "They are incapable of basic math.",
       "They are buying a 'dream' of a better life that wealthier people already possess.",
       "They are being tricked by predatory marketing.",
       "They expect to win and retire immediately."
@@ -35,7 +35,7 @@
       "The 70-year-old has less time to recover from losses.",
       "The two individuals have different life experiences that define their comfort with risk.",
       "Financial advisors should only work with people of the same age.",
-      "Aggressive portfolios are objectively bad for everyone. which is a critical factor to consider in this context"
+      "Aggressive portfolios are objectively bad for everyone."
     ],
     "answer": "The two individuals have different life experiences that define their comfort with risk.",
     "explanation": "While math might suggest a certain path, the 'crazy' behavior of individuals is often just them being 'reasonable' within their own life context.",
@@ -48,7 +48,7 @@
     "options": [
       "The retiree is wiser; the son is traumatized; the daughter is greedy — each is purely a personality trait.",
       "All three are acting rationally given their unique generational anchor points, but the retiree's longer time horizon gives her a wider 'margin of safety' against short-term volatility.",
-      "The son is the most rational because he cut losses; the daughter is reckless; the retiree is complacent. which is a critical factor to consider in this context",
+      "The son is the most rational because he cut losses; the daughter is reckless; the retiree is complacent.",
       "The retiree is indifferent because she has less time left; the others care more because they have longer careers ahead."
     ],
     "answer": "All three are acting rationally given their unique generational anchor points, but the retiree's longer time horizon gives her a wider 'margin of safety' against short-term volatility.",
@@ -62,7 +62,7 @@
     "options": [
       "The PhD clearly didn't study hard enough.",
       "Emotional responses to stress are more powerful than academic knowledge.",
-      "Economics is a fake science. which is a critical factor to consider in this context",
+      "Economics is a fake science.",
       "He was actually being rational by cutting his losses."
     ],
     "answer": "Emotional responses to stress are more powerful than academic knowledge.",
@@ -74,7 +74,7 @@
     "content": "Rich people and poor people don't just have different amounts of money; they have different goals and fears. A 'crazy' decision in one bracket is a survival tactic in another.",
     "description": "A person living in poverty chooses to spend extra cash on a high-end smartphone instead of investing in a diversified index fund. How would Housel describe this?",
     "options": [
-      "It is a reckless and stupid decision. which is a critical factor to consider in this context",
+      "It is a reckless and stupid decision.",
       "It is a way to gain a sense of dignity in a world where they have little.",
       "They are trying to look rich to trick people.",
       "They simply don't know what an index fund is."
@@ -88,7 +88,7 @@
     "content": "Modern financial tools like 401(k)s and index funds are relatively new inventions. Humanity has only had a few decades to learn how these systems work, whereas we've had thousands of years to learn how to hunt and gather.",
     "description": "Why are many people 'bad' at retirement planning, according to the book?",
     "options": [
-      "People are naturally lazy. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "People are naturally lazy.",
       "Retirement as a concept is too difficult to understand.",
       "We are 'new' to these tools and lack the evolutionary experience to use them perfectly.",
       "Governments have made the systems intentionally confusing."
@@ -105,7 +105,7 @@
       "They are losing money to inflation and being foolish.",
       "They are making a 'reasonable' choice for their own mental health.",
       "They should be forced to take a finance class.",
-      "They are being 'rational' in a mathematical sense. which is a critical factor to consider in this context"
+      "They are being 'rational' in a mathematical sense."
     ],
     "answer": "They are making a 'reasonable' choice for their own mental health.",
     "explanation": "Success is staying in the game. If a 'sub-optimal' investment keeps you from panicking and quitting, it's actually the better choice for you.",
@@ -119,7 +119,7 @@
       "It helps you realize that you can't learn anything from others.",
       "It makes you more empathetic to others and more aware of your own biases.",
       "It justifies every bad decision you've ever made.",
-      "It proves that the market is random. which is a critical factor to consider in this context"
+      "It proves that the market is random."
     ],
     "answer": "It makes you more empathetic to others and more aware of your own biases.",
     "explanation": "Understanding that everyone is operating on their own internal logic helps you identify when your own 'logic' is just a reaction to your past.",

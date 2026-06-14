@@ -6,7 +6,7 @@
     "options": [
       "The team is ungrateful",
       "The manager relies only on financial incentives and lacks the latticework to diagnose cultural and psychological factors",
-      "Bonuses should be larger which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Bonuses should be larger",
       "The manager should fire the team"
     ],
     "answer": "The manager relies only on financial incentives and lacks the latticework to diagnose cultural and psychological factors",
@@ -21,7 +21,7 @@
       "Wasting time on irrelevant science",
       "Interdisciplinary borrowing — the best mental models transcend their original domain and apply broadly across fields",
       "Ecology has nothing to do with business",
-      "Stick to business books only which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Stick to business books only"
     ],
     "answer": "Interdisciplinary borrowing — the best mental models transcend their original domain and apply broadly across fields",
     "explanation": "Munger advises gathering models from all major disciplines because the same fundamental patterns repeat across domains. Predator-prey dynamics (biology) map directly to platform marketplace dynamics (business), giving the product manager a deeper framework.",
@@ -34,7 +34,7 @@
     "options": [
       "Weddings should be planned with agile",
       "The man with a hammer syndrome — applying a single familiar model to every situation, even where it fits poorly",
-      "Agile is universally applicable to everything which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Agile is universally applicable to everything",
       "The wedding will fail without daily stand-ups"
     ],
     "answer": "The man with a hammer syndrome — applying a single familiar model to every situation, even where it fits poorly",
@@ -49,7 +49,7 @@
       "More models are always better",
       "Mastery of the 15-20 most powerful models with deep interconnections beats shallow memorization of hundreds",
       "Mental models are useless",
-      "Only business models matter which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Only business models matter"
     ],
     "answer": "Mastery of the 15-20 most powerful models with deep interconnections beats shallow memorization of hundreds",
     "explanation": "A latticework is not a list. The power comes from models interacting — the combinatorial effect of applying multiple models to the same problem. Deep understanding of fewer models enables richer synthesis than superficial knowledge of many.",
@@ -63,7 +63,7 @@
       "The models are redundant and one should be discarded",
       "Confidence should be higher — when independent models converge on the same conclusion, the evidence is far stronger than any single model provides",
       "The investment is definitely a good bet",
-      "More models just create confusion which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "More models just create confusion"
     ],
     "answer": "Confidence should be higher — when independent models converge on the same conclusion, the evidence is far stronger than any single model provides",
     "explanation": "Independent mental models analyzing the same situation provide triangulation. If Circle of Competence says \"you understand this deeply enough\" and Probabilistic Thinking says \"the odds are in your favor,\" the convergence justifies high conviction.",
@@ -76,7 +76,7 @@
     "options": [
       "Always pick Occam's Razor",
       "Use both models contextually — start with the simple explanation but use inversion's insight to verify you are not missing secondary risks",
-      "Always pick Inversion which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Always pick Inversion",
       "Ignore both and guess"
     ],
     "answer": "Use both models contextually — start with the simple explanation but use inversion's insight to verify you are not missing secondary risks",
@@ -88,7 +88,7 @@
     "content": "Mental models are most powerful when used for important decisions but least likely to be applied when emotions run high. The latticework must be practiced in calm moments to be available in crisis.",
     "description": "During a market crash, a rational investor runs through mental models: Circle of Competence (am I qualified to act?), Second-Order Thinking (what will happen after the crash?), Inversion (what would guarantee losses?). What are they doing?",
     "options": [
-      "Panicking irrationally which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Panicking irrationally",
       "Using the latticework under pressure — applying multiple models sequentially to override emotional panic and make a calculated decision",
       "Overthinking the situation",
       "Following the crowd"
@@ -104,7 +104,7 @@
     "options": [
       "Give up on mental models — they failed once",
       "Treat the failure as curriculum — the missing models identified by the failure become the next learning priorities",
-      "Blame the market and move on which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Blame the market and move on",
       "Only build companies in industries they already understand"
     ],
     "answer": "Treat the failure as curriculum — the missing models identified by the failure become the next learning priorities",
@@ -116,7 +116,7 @@
     "content": "The most powerful latticework practice: always use mental models in pairs or triads. A single model can mislead, but two or three models applied to the same problem create a self-correcting system.",
     "description": "When evaluating a new business strategy, you check: \"Does this fit our Circle of Competence?\" (yes) and \"What would Inversion reveal about failure modes?\" (critical flaw found). What does this demonstrate?",
     "options": [
-      "The strategy is perfect which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The strategy is perfect",
       "Using models in pairs creates checks and balances — Inversion caught what Circle of Competence alone missed",
       "Inversion is more important than Circle of Competence",
       "Only use one model at a time"

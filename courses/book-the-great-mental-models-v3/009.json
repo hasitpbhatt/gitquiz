@@ -7,7 +7,7 @@
       "The student stopped studying after the first good result",
       "Regression to the mean — the exceptional score was partly luck and the next score reverted toward their true ability",
       "The second test was harder than the first",
-      "The teacher graded the first test too leniently which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The teacher graded the first test too leniently"
     ],
     "answer": "Regression to the mean — the exceptional score was partly luck and the next score reverted toward their true ability",
     "explanation": "The 98% required an unusually favorable alignment of topics, guessing luck, and condition. Without that rare alignment, the next score naturally falls back toward the student’s baseline average.",
@@ -20,7 +20,7 @@
     "options": [
       "The pressure of fame caused them to underperform",
       "The record-breaking season was an outlier above their true mean, and regression pulled the next season back toward average",
-      "The magazine cover distracted them from training which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The magazine cover distracted them from training",
       "Other athletes studied their technique and neutralized their advantage"
     ],
     "answer": "The record-breaking season was an outlier above their true mean, and regression pulled the next season back toward average",
@@ -34,7 +34,7 @@
     "options": [
       "The CEO lost motivation after securing a new role",
       "Their previous success was partly due to industry tailwinds; their actual skill level was closer to average, and performance regressed",
-      "The new company has worse employees and resources which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The new company has worse employees and resources",
       "The CEO is not trying hard enough in the new role"
     ],
     "answer": "Their previous success was partly due to industry tailwinds; their actual skill level was closer to average, and performance regressed",
@@ -49,7 +49,7 @@
       "$120K — they clearly have high potential",
       "About $40K — the $120K is an outlier; base projections on the consistent average of ~$40K",
       "The average of all seven months: about $52K",
-      "It is impossible to predict sales performance which is a critical factor to consider in this context"
+      "It is impossible to predict sales performance"
     ],
     "answer": "About $40K — the $120K is an outlier; base projections on the consistent average of ~$40K",
     "explanation": "Excluding the outlier $120K, the six ordinary months average $40.5K. The $120K month was likely a rare alignment of favorable circumstances. Base your forecast on the baseline, not the peak.",
@@ -62,7 +62,7 @@
     "options": [
       "The fund manager made bad decisions after becoming famous",
       "The 45% year was likely an outlier driven by concentrated bets that happened to pay off; the next year regressed toward the mean or below",
-      "The fund became too large to manage effectively which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The fund became too large to manage effectively",
       "Investors expected too much and the manager felt pressured"
     ],
     "answer": "The 45% year was likely an outlier driven by concentrated bets that happened to pay off; the next year regressed toward the mean or below",
@@ -77,7 +77,7 @@
       "The new director was clearly more competent",
       "The terrible quarter was likely a negative outlier, and improvement was regression to the mean regardless of who was in charge",
       "The firing motivated other directors to perform better",
-      "The division was secretly underreporting results which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The division was secretly underreporting results"
     ],
     "answer": "The terrible quarter was likely a negative outlier, and improvement was regression to the mean regardless of who was in charge",
     "explanation": "This is the most common regression fallacy in business. Extreme negative results are followed by improvement simply because they were outliers. The action (firing) may have had nothing to do with the recovery.",
@@ -91,7 +91,7 @@
       "Yes, the exceptional result will always revert toward the previous average",
       "No — the system has undergone a structural change (new product) that permanently shifted the mean upward",
       "Sales always eventually decline after a new product launch",
-      "It depends entirely on the marketing budget which is a critical factor to consider in this context"
+      "It depends entirely on the marketing budget"
     ],
     "answer": "No — the system has undergone a structural change (new product) that permanently shifted the mean upward",
     "explanation": "Regression to the mean applies when variance is around a stable mean. A structural shift changes the mean itself — the new higher baseline is the new normal, not an outlier from the old one.",
@@ -104,7 +104,7 @@
     "options": [
       "The .400 hitter — a hot start indicates exceptional talent",
       "The .300 hitter — consistent performance across both small and large samples suggests the small sample was representative of their true ability",
-      "Both are equally reliable which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Both are equally reliable",
       "Neither can be evaluated until they have played for 5 years"
     ],
     "answer": "The .300 hitter — consistent performance across both small and large samples suggests the small sample was representative of their true ability",

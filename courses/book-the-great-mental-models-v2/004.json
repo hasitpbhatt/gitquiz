@@ -7,7 +7,7 @@
       "Founder A is a more talented programmer",
       "Founder A built a product with code leverage that scales without proportional increases in labor",
       "Founder B chose a less profitable industry",
-      "Founder A had more venture capital funding which is a critical factor to consider in this context"
+      "Founder A had more venture capital funding"
     ],
     "answer": "Founder A built a product with code leverage that scales without proportional increases in labor",
     "explanation": "Code is a high-leverage asset: once written, software can serve millions of users at near-zero marginal cost. Consulting is labor-leverage: each additional client requires proportional human time. The leverage multiplier determines how much output you get per unit of input force.",
@@ -21,7 +21,7 @@
       "The YouTuber is more talented at content creation",
       "Media leverage — the video replicates at zero marginal cost, while the consultant's time is inherently one-to-one",
       "The consultant should switch careers to content creation",
-      "YouTube's algorithm promotes videos regardless of quality which is a critical factor to consider in this context"
+      "YouTube's algorithm promotes videos regardless of quality"
     ],
     "answer": "Media leverage — the video replicates at zero marginal cost, while the consultant's time is inherently one-to-one",
     "explanation": "Media is a high-leverage asset. Content created once can reach millions with no additional time investment. The consultant's time is one-to-one — each additional hour of consulting requires exactly one hour of their life. The leverage multiplier determines the output per unit of input.",
@@ -33,7 +33,7 @@
     "description": "An entrepreneur wants to build a business that generates income without requiring her constant personal involvement. Which form of leverage should she prioritize?",
     "options": [
       "Labor leverage — hire a large team and manage them closely",
-      "Capital leverage — invest in diversified financial assets which is a critical factor to consider in this context",
+      "Capital leverage — invest in diversified financial assets",
       "Code or media leverage — assets that produce value without proportional time input",
       "All four forms equally — balance across all leverage types"
     ],
@@ -48,7 +48,7 @@
     "options": [
       "Work longer hours to personally fix reliability issues",
       "Find a longer lever arm — align reliability with executive incentives, tie it to team OKRs, and give the team a direct reliability mandate",
-      "Complain more loudly in team meetings about reliability which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Complain more loudly in team meetings about reliability",
       "Build a competing product that demonstrates the value of reliability"
     ],
     "answer": "Find a longer lever arm — align reliability with executive incentives, tie it to team OKRs, and give the team a direct reliability mandate",
@@ -62,7 +62,7 @@
     "options": [
       "The trader chose the wrong stock and should have done more research",
       "Leverage amplifies both outcomes — a small loss on the underlying asset becomes a catastrophic loss for the leveraged position",
-      "Stock trading is inherently too risky for individual investors which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Stock trading is inherently too risky for individual investors",
       "The trader should have used 5x leverage instead of 10x"
     ],
     "answer": "Leverage amplifies both outcomes — a small loss on the underlying asset becomes a catastrophic loss for the leveraged position",
@@ -77,7 +77,7 @@
       "Pareto principle — 80% of results come from 20% of efforts",
       "The fulcrum — identifying the single point of leverage that multiplies all other efforts",
       "Sunk cost — the team has already invested too much to change direction",
-      "Network effects — the product needs more users to be valuable which is a critical factor to consider in this context"
+      "Network effects — the product needs more users to be valuable"
     ],
     "answer": "The fulcrum — identifying the single point of leverage that multiplies all other efforts",
     "explanation": "The fulcrum is the structural point that, when pressured, moves the entire system. For a startup, the bottleneck might be distribution, not product quality. Finding the fulcrum means applying force where it generates the maximum rotational effect on the whole system.",
@@ -91,7 +91,7 @@
       "The second salesperson is naturally more persuasive on calls",
       "The second salesperson uses media and system leverage — her output continues generating leads even when she is not actively working",
       "Cold calling is an ineffective sales channel in any industry",
-      "The first salesperson was assigned a worse territory which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The first salesperson was assigned a worse territory"
     ],
     "answer": "The second salesperson uses media and system leverage — her output continues generating leads even when she is not actively working",
     "explanation": "Both work the same hours, but the second has built leverage assets (content, automated systems, referrals) that generate output continuously. The first is trading time for money directly. Leverage is what separates linear effort from exponential results.",
@@ -104,7 +104,7 @@
     "options": [
       "She should continue doing invoicing manually since 10 hours per week is manageable",
       "She should build the automation — the 40-hour investment pays back in 4 weeks and then generates free time forever after",
-      "She should hire a part-time bookkeeper instead of building software which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "She should hire a part-time bookkeeper instead of building software",
       "She should raise prices to make the invoicing effort more worthwhile"
     ],
     "answer": "She should build the automation — the 40-hour investment pays back in 4 weeks and then generates free time forever after",

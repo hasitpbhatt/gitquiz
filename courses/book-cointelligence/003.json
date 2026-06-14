@@ -18,7 +18,7 @@
     "content": "AI is a powerful engine, but it lacks a steering wheel. 'Be the Human in the Loop' means you must provide the direction, the quality control, and the final verification. You are responsible for the output, regardless of how much the AI contributed to it.",
     "description": "An architect uses AI to generate structural designs. To follow Rule 2, what must they do before submitting the plans?",
     "options": [
-      "Ask the AI if the plans are safe. which is a critical factor to consider in this context",
+      "Ask the AI if the plans are safe.",
       "Trust the AI's math because it is faster than a human.",
       "Personally verify the structural integrity and sign off on the safety of the design.",
       "Submit the plans and let the city inspector find the errors."
@@ -32,7 +32,7 @@
     "content": "Surprisingly, AI performs better when you treat it like a person. Giving it a persona, providing feedback, and explaining context as if you were talking to an intern helps navigate its 'latent space.' However, you must maintain the 'machine' awareness to avoid over-trusting its 'feelings.'",
     "description": "You tell an AI, 'Imagine you are a tough editor at a top newspaper. Critique my article harshly.' Why is this effective according to Rule 3?",
     "options": [
-      "It activates the AI's internal ego. which is a critical factor to consider in this context",
+      "It activates the AI's internal ego.",
       "It uses a persona to narrow the AI's focus and improve the quality of the critique.",
       "It makes the AI work harder because it feels challenged.",
       "It bypasses the AI's need for a software update."
@@ -46,7 +46,7 @@
     "content": "This rule reminds us of the exponential growth of AI. Any frustration you have today with a 'hallucination' or a logic error is likely a temporary problem. The technology is at its absolute floor, and it will only become more capable from this point forward.",
     "description": "A teacher decides that AI is useless because it cannot grade creative essays perfectly yet. What perspective is this teacher missing?",
     "options": [
-      "AI is not meant for education. which is a critical factor to consider in this context",
+      "AI is not meant for education.",
       "The teacher should write the essays themselves.",
       "This is the worst version of the AI they will ever encounter; it will improve.",
       "The AI is intentionally holding back its best features."
@@ -63,7 +63,7 @@
       "The AI is too fast for the pilot to understand.",
       "The pilot may have 'checked out' due to the AI's high reliability, slowing their reaction time.",
       "The AI is trying to trick the pilot.",
-      "The airplane is too old for the AI. which is a critical factor to consider in this context"
+      "The airplane is too old for the AI."
     ],
     "answer": "The pilot may have 'checked out' due to the AI's high reliability, slowing their reaction time.",
     "explanation": "High reliability leads to human complacency. Co-Intelligence requires the human to stay 'active' even when the machine seems perfect.",
@@ -77,7 +77,7 @@
       "It uses more words, which makes the AI feel important.",
       "It provides context and a specific persona to guide the AI's output.",
       "It is easier for the AI to copy from the internet.",
-      "It requires less processing power. which is a critical factor to consider in this context"
+      "It requires less processing power."
     ],
     "answer": "It provides context and a specific persona to guide the AI's output.",
     "explanation": "Specific context helps the AI navigate its training data to find the exact tone and structure required, rather than guessing randomly.",
@@ -91,7 +91,7 @@
       "The manual coder, because they don't need tools.",
       "The AI-enabled builder, because they can leverage machine speed with human judgment.",
       "Neither, because the AI will do everything alone.",
-      "The person who avoids technology entirely. which is a critical factor to consider in this context"
+      "The person who avoids technology entirely."
     ],
     "answer": "The AI-enabled builder, because they can leverage machine speed with human judgment.",
     "explanation": "Co-Intelligence focuses on the 'multiplier effect.' The person who can direct and verify the machine's work becomes the new version of an expert.",
@@ -105,7 +105,7 @@
       "Give that volunteer 3x more tasks to keep them busy.",
       "Ask the volunteer to teach their AI techniques to the rest of the team.",
       "Ban the use of AI to ensure 'fairness' across the volunteers.",
-      "Ignore it as long as the work is good. which is a critical factor to consider in this context"
+      "Ignore it as long as the work is good."
     ],
     "answer": "Ask the volunteer to teach their AI techniques to the rest of the team.",
     "explanation": "Sharing AI strategies turns individual 'Shadow AI' into collective 'Co-Intelligence,' raising the floor for the entire organization.",
@@ -119,7 +119,7 @@
       "Ask the AI to make it '10% more emotional.'",
       "Send it as is to save time.",
       "Rewrite sections to include a specific shared memory you have with the recipient.",
-      "Ask a different AI to write it. which is a critical factor to consider in this context"
+      "Ask a different AI to write it."
     ],
     "answer": "Rewrite sections to include a specific shared memory you have with the recipient.",
     "explanation": "Adding personal, lived experience is a 'Human-in-the-Loop' action that provides the emotional depth the machine lacks.",
@@ -133,7 +133,7 @@
       "Because AI is broken and doesn't follow logic.",
       "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",
       "Because logic makes the AI's processor run too hot.",
-      "Because humans are naturally illogical. which is a critical factor to consider in this context"
+      "Because humans are naturally illogical."
     ],
     "answer": "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",
     "explanation": "Treating AI like a simple 'calculator' ignores its social-actor capabilities. To get the most out of it, you must engage with its 'alien' and 'person-like' qualities simultaneously.",

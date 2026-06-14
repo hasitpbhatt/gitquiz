@@ -7,7 +7,7 @@
       "First principles thinking",
       "Inversion — identifying the causes of failure and designing systems to avoid them",
       "Probabilistic thinking",
-      "Second-order thinking which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Second-order thinking"
     ],
     "answer": "Inversion — identifying the causes of failure and designing systems to avoid them",
     "explanation": "Inversion flips the question from \"How do we succeed?\" to \"How do we fail?\" Once you know the failure modes, you can systematically eliminate them. Success emerges naturally from avoiding obvious stupidity.",
@@ -21,7 +21,7 @@
       "A post-mortem analysis",
       "A pre-mortem — imagining failure before it happens to identify and prevent risks proactively",
       "A risk assessment matrix",
-      "A SWOT analysis which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "A SWOT analysis"
     ],
     "answer": "A pre-mortem — imagining failure before it happens to identify and prevent risks proactively",
     "explanation": "Unlike a post-mortem (analyzing failure after it occurs), a pre-mortem imagines failure in advance. This frees people from optimism bias and reveals risks they would otherwise downplay. Each identified risk becomes a target for preventive action.",
@@ -34,7 +34,7 @@
     "options": [
       "First principles thinking",
       "Nightingale's inversion — focusing on the biggest actual cause of failure rather than complex solutions to peripheral problems",
-      "Occam's Razor which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Occam's Razor",
       "The map is not the territory"
     ],
     "answer": "Nightingale's inversion — focusing on the biggest actual cause of failure rather than complex solutions to peripheral problems",
@@ -49,7 +49,7 @@
       "Growth mindset theory",
       "Munger's inversion — avoiding the causes of failure is more reliable than chasing formulas for success",
       "The Peter Principle",
-      "Goal-setting theory which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Goal-setting theory"
     ],
     "answer": "Munger's inversion — avoiding the causes of failure is more reliable than chasing formulas for success",
     "explanation": "Munger believed that knowing the surefire paths to misery (sloth, unreliability, envy, resentment) was more practical than studying success. If you avoid obvious stupidity, wisdom and success tend to take care of themselves.",
@@ -60,7 +60,7 @@
     "content": "It is statistically and operationally simpler to avoid obvious stupidity than to achieve brilliant, unprecedented insights. Inversion leverages this asymmetry: eliminating failure is easier than engineering success.",
     "description": "A startup founder asks, \"Should we aim for a breakthrough innovation or just avoid making obvious mistakes like over-hiring, poor cash management, and building features nobody wants?\" What does inversion suggest?",
     "options": [
-      "Pursue breakthrough innovation at all costs which is a critical factor to consider in this context",
+      "Pursue breakthrough innovation at all costs",
       "Start by avoiding obvious catastrophic mistakes — that alone dramatically increases survival odds",
       "Do both equally — breakthroughs and avoiding mistakes require the same effort",
       "Focus only on copying what successful competitors do"
@@ -76,7 +76,7 @@
     "options": [
       "Occam's principle of parsimony",
       "Jacobi's principle — \"Invert, always invert\" — look at the problem backward",
-      "Popper's falsifiability which is a critical factor to consider in this context",
+      "Popper's falsifiability",
       "Pareto's 80/20 principle"
     ],
     "answer": "Jacobi's principle — \"Invert, always invert\" — look at the problem backward",
@@ -90,7 +90,7 @@
     "options": [
       "It makes the CEO look humble",
       "Inversion requires radical honesty — identifying that you are actively doing the things on your own failure list enables targeted corrective action",
-      "Micromanagement is actually good for innovation which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Micromanagement is actually good for innovation",
       "The team should not criticize the CEO"
     ],
     "answer": "Inversion requires radical honesty — identifying that you are actively doing the things on your own failure list enables targeted corrective action",
@@ -102,7 +102,7 @@
     "content": "Inversion transforms brainstorming into rigid operational constraints: every item on the failure list becomes a mandatory countermeasure with a specific operational policy.",
     "description": "After a pre-mortem, the team lists \"key engineer quits with no documentation\" as a failure driver. What should they do with this insight according to the inversion framework?",
     "options": [
-      "Hope the key engineer does not quit which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Hope the key engineer does not quit",
       "Create an immediate, mandatory policy for daily code documentation and knowledge sharing — turn every failure item into a specific countermeasure",
       "Ask the engineer to promise they will not leave",
       "Hire a second key engineer to back up the first"

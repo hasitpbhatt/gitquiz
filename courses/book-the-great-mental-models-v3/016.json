@@ -4,7 +4,7 @@
     "content": "Critical mass is the minimum amount of mass needed to sustain a nuclear chain reaction. In systems, it is the tipping point where a self-sustaining reinforcing loop takes over, requiring no further external inputs.",
     "description": "A social media platform initially struggles to attract users. After reaching 1 million users, content generation becomes self-sustaining — existing users create enough content to attract new users organically. What has the platform achieved?",
     "options": [
-      "Market saturation which is a critical factor to consider in this context",
+      "Market saturation",
       "Critical mass — the tipping point where self-sustaining growth begins",
       "A normal distribution of user engagement",
       "An algorithmic optimization of content delivery"
@@ -21,7 +21,7 @@
       "San Francisco was the only city with enough potential riders",
       "Uber lacked the capital to launch in multiple cities simultaneously",
       "Achieving critical mass in a tightly defined market creates self-sustaining network effects that can then be replicated elsewhere",
-      "Regulatory approval was only granted in San Francisco which is a critical factor to consider in this context"
+      "Regulatory approval was only granted in San Francisco"
     ],
     "answer": "Achieving critical mass in a tightly defined market creates self-sustaining network effects that can then be replicated elsewhere",
     "explanation": "The Hyper-Focus Rule: concentrate resources in a narrow geography until self-sustaining growth triggers, then expand. This avoids the trap of spreading too thin and failing to reach critical mass anywhere.",
@@ -34,7 +34,7 @@
     "options": [
       "Payment apps are inherently less useful than social media",
       "Both sides — merchants and consumers — must reach critical mass simultaneously, creating a chicken-and-egg problem",
-      "Payment regulation prevents rapid user acquisition which is a critical factor to consider in this context",
+      "Payment regulation prevents rapid user acquisition",
       "The app has diminishing returns on user growth"
     ],
     "answer": "Both sides — merchants and consumers — must reach critical mass simultaneously, creating a chicken-and-egg problem",
@@ -46,7 +46,7 @@
     "content": "The journey to critical mass has two distinct phases: Phase 1 requires high external energy input to build momentum; Phase 2, past the tipping point, is self-sustaining and grows organically.",
     "description": "A crowdfunding campaign raises $10,000 in the first week (mostly from friends and family), then stalls. In the final week, it suddenly surges to $100,000 from strangers. This pattern reflects:",
     "options": [
-      "A power law distribution of donations which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "A power law distribution of donations",
       "The campaign reached critical mass — past a certain threshold, social proof and momentum attracted contributions without further promotional effort",
       "Diminishing returns on the initial marketing spend",
       "A regression to the mean after the initial spike"
@@ -62,7 +62,7 @@
     "options": [
       "People simply preferred remote work all along",
       "Remote work reached critical mass — past the tipping point, the new norm became self-reinforcing",
-      "The pandemic permanently destroyed office infrastructure which is a critical factor to consider in this context",
+      "The pandemic permanently destroyed office infrastructure",
       "This is an example of regression to the mean"
     ],
     "answer": "Remote work reached critical mass — past the tipping point, the new norm became self-reinforcing",
@@ -77,7 +77,7 @@
       "Launch in 10 cities to maximize geographic coverage and brand awareness",
       "Launch in 1 city with full concentration of resources to achieve critical mass there, then expand to other cities using the self-sustaining playbook",
       "Split the difference: launch in 5 cities with $400K each",
-      "Save the money and rely on organic viral growth which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Save the money and rely on organic viral growth"
     ],
     "answer": "Launch in 1 city with full concentration of resources to achieve critical mass there, then expand to other cities using the self-sustaining playbook",
     "explanation": "The Hyper-Focus Rule prioritizes depth over breadth. Spreading $200K across 10 cities may fail to reach critical mass in any of them. Concentrating firepower maximizes the chance of a breakthrough.",
@@ -90,7 +90,7 @@
     "options": [
       "MySpace's technology was simply inferior",
       "Once Facebook reached critical mass, the network effect made switching costs too high — users stayed where their friends were",
-      "Facebook had better marketing which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Facebook had better marketing",
       "MySpace was acquired and shut down intentionally"
     ],
     "answer": "Once Facebook reached critical mass, the network effect made switching costs too high — users stayed where their friends were",
@@ -105,7 +105,7 @@
       "Run national TV ads to attract users from everywhere",
       "Focus on a single design niche (e.g., logo designers) in a single metro area to create density and transactions before expanding",
       "Offer free accounts to anyone who signs up globally",
-      "Wait for designers to join organically without marketing which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Wait for designers to join organically without marketing"
     ],
     "answer": "Focus on a single design niche (e.g., logo designers) in a single metro area to create density and transactions before expanding",
     "explanation": "Density creates liquidity — enough buyers and sellers for transactions to happen reliably. This success in the initial niche generates the proof-of-concept and playbook needed for expansion.",

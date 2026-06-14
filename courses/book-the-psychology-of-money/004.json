@@ -6,7 +6,7 @@
     "options": [
       "Because the growth is invisible and slow in the early stages",
       "Because the math is factually incorrect for small amounts",
-      "Because pennies are no longer relevant in modern finance which is a critical factor to consider in this context",
+      "Because pennies are no longer relevant in modern finance",
       "Because doubling your money daily is a common linear task"
     ],
     "answer": "Because the growth is invisible and slow in the early stages",
@@ -20,7 +20,7 @@
     "options": [
       "His superior ability to pick tech stocks",
       "The fact that he has been investing for over 75 years",
-      "His high-frequency trading algorithms which is a critical factor to consider in this context",
+      "His high-frequency trading algorithms",
       "His refusal to pay taxes"
     ],
     "answer": "The fact that he has been investing for over 75 years",
@@ -35,7 +35,7 @@
       "Agree with him, because 2008 was also preceded by a drop and it took 5 years to recover, proving the pattern repeats.",
       "Point out one cool summer does not end an ice age; check whether earnings and GDP remain intact — selling now locks in losses during a temporary blip.",
       "Recommend he move entirely to cash for the next 3 years while the market finds its bottom, then re-enter.",
-      "Tell him that the ice age has ended because interest rates are rising, so equities are permanently dangerous now. which is a critical factor to consider in this context"
+      "Tell him that the ice age has ended because interest rates are rising, so equities are permanently dangerous now."
     ],
     "answer": "Point out one cool summer does not end an ice age; check whether earnings and GDP remain intact — selling now locks in losses during a temporary blip.",
     "explanation": "The ice-age analogy illustrates time-scale awareness. A 'cool summer' is a temporary dip within a secular bull market (ice age). The key analytical skill is distinguishing transient volatility from structural decline—by looking at underlying fundamentals (earnings, GDP, innovation pipeline), not just price action. Housel warns that recency bias makes people mistake short-term noise for a permanent shift.",
@@ -63,7 +63,7 @@
       "Investor A, because 20% is more than double 8%",
       "Investor B, because the extra 40 years of compounding creates massive growth",
       "They will have the same amount because the math balances out",
-      "Investor A, because they can retire sooner which is a critical factor to consider in this context"
+      "Investor A, because they can retire sooner"
     ],
     "answer": "Investor B, because the extra 40 years of compounding creates massive growth",
     "explanation": "Compounding is heavily weighted toward the end of the time period. The longer you stay invested, the more 'explosive' the dollar growth becomes.",
@@ -74,7 +74,7 @@
     "content": "Small differences in annual returns become enormous over decades. However, people often focus on the 'return' and ignore the 'time' because the return is more exciting to talk about.",
     "description": "Why does Housel say that 'Good investing is not necessarily about making the highest returns'?",
     "options": [
-      "Because high returns are illegal in most countries which is a critical factor to consider in this context",
+      "Because high returns are illegal in most countries",
       "Because the highest returns are usually one-off events that can't be sustained",
       "Because you should focus on returns that you can earn for the longest period of time",
       "Because returns don't matter as much as how much you earn at your job"
@@ -90,7 +90,7 @@
     "options": [
       "Discouraged, because you are 25% through the time but haven't made much money",
       "Patient, because the vast majority of your gains will occur in the final decade",
-      "Worried, because you probably picked the wrong investments which is a critical factor to consider in this context",
+      "Worried, because you probably picked the wrong investments",
       "Happy, because you can stop saving now and still reach your goal"
     ],
     "answer": "Patient, because the vast majority of your gains will occur in the final decade",
@@ -116,7 +116,7 @@
     "content": "The biggest gains in a compounding system always come at the very end. This is why staying 'in the game' is the most important skill in investing.",
     "description": "What is the primary reason people fail to benefit from compounding?",
     "options": [
-      "They don't have enough starting capital which is a critical factor to consider in this context",
+      "They don't have enough starting capital",
       "They don't understand how to read stock charts",
       "They quit or change strategies before the 'tail' of the curve is reached",
       "The stock market is rigged against small investors"

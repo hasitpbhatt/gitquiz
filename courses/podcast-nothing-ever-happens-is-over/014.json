@@ -7,7 +7,7 @@
       "Both require a PhD from a top-tier university to be effective.",
       "Just as AI makes complex coding easy for non-experts, it could make engineering dangerous viruses easy for non-experts.",
       "Coding is more dangerous because it can shut down the electrical grid.",
-      "Biological threats are less likely because AI cannot understand organic chemistry. which is a critical factor to consider in this context"
+      "Biological threats are less likely because AI cannot understand organic chemistry."
     ],
     "answer": "Just as AI makes complex coding easy for non-experts, it could make engineering dangerous viruses easy for non-experts.",
     "explanation": "Naval worries that when expertise is democratized via AI, the same 'building' power used for good in software can be used for harm in biology.",
@@ -33,7 +33,7 @@
     "description": "Why does Naval believe the COVID vaccine response took 'too long'?",
     "options": [
       "Because the scientists were working from home.",
-      "Because the government didn't provide enough funding. which is a critical factor to consider in this context",
+      "Because the government didn't provide enough funding.",
       "Because we didn't allow healthy young volunteers to 'take one for the team' via right-to-try.",
       "Because the AI models were not yet advanced enough to simulate viruses."
     ],
@@ -76,7 +76,7 @@
     "options": [
       "He thinks it is unethical and should be banned.",
       "He believes it should be allowed so they can 'take one for the team' and speed up research.",
-      "He thinks only AI agents should take those risks. which is a critical factor to consider in this context",
+      "He thinks only AI agents should take those risks.",
       "He believes volunteers should only be allowed if they are over 80 years old."
     ],
     "answer": "He believes it should be allowed so they can 'take one for the team' and speed up research.",
@@ -91,7 +91,7 @@
       "By making it public for anyone to see.",
       "By anonymizing it, cleaning it up, and allowing it to be used in large datasets.",
       "By deleting all data that is more than one year old.",
-      "By only allowing government-approved AIs to see it. which is a critical factor to consider in this context"
+      "By only allowing government-approved AIs to see it."
     ],
     "answer": "By anonymizing it, cleaning it up, and allowing it to be used in large datasets.",
     "explanation": "Anonymization allows for the protection of privacy while still providing the 'fuel' (data) that AI needs to learn.",
@@ -119,7 +119,7 @@
       "By managing the schedules of the scientists.",
       "By looking at everyone's data and all the outcomes to find what actually works.",
       "By printing vaccines at home for everyone.",
-      "By convincing politicians to stop regulating medicine. which is a critical factor to consider in this context"
+      "By convincing politicians to stop regulating medicine."
     ],
     "answer": "By looking at everyone's data and all the outcomes to find what actually works.",
     "explanation": "AI can see patterns across millions of data points that a human doctor or researcher could never process alone.",
@@ -133,7 +133,7 @@
       "He believes we only operate reasonably well during emergencies, and even then, we are too slow.",
       "He thinks we should only do research during emergencies.",
       "He believes we should never rush research, even in an emergency.",
-      "He thinks emergencies are a myth created by bioethicists. which is a critical factor to consider in this context"
+      "He thinks emergencies are a myth created by bioethicists."
     ],
     "answer": "He believes we only operate reasonably well during emergencies, and even then, we are too slow.",
     "explanation": "Naval's critique is that the 'default speed' of medical regulation is dangerously slow, and our 'emergency speed' is only slightly better.",

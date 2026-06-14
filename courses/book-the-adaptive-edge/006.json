@@ -6,7 +6,7 @@
     "options": [
       "The system is using personal attacks to neutralize the threat you pose to the status quo.",
       "You have made a technical error in how you calculated the metrics.",
-      "The employees are simply being immature and need a lecture on professionalism. which is a critical factor to consider in this context",
+      "The employees are simply being immature and need a lecture on professionalism.",
       "The rumors are a sign that the productive zone of disequilibrium is too low."
     ],
     "answer": "The system is using personal attacks to neutralize the threat you pose to the status quo.",
@@ -18,7 +18,7 @@
     "content": "In adaptive leadership, conflict isn't something to be 'fixed' or avoided; it is a resource to be 'harnessed.' Conflict shows you exactly where the different values and loyalties in the room are clashing. Your job is to orchestrate this conflict so that it leads to a new solution.",
     "description": "Two of your top engineers are arguing loudly about which architecture to use for a new product. As a leader, what is your primary goal in this moment?",
     "options": [
-      "To stop the argument immediately to maintain office harmony. which is a critical factor to consider in this context",
+      "To stop the argument immediately to maintain office harmony.",
       "To pick the winner of the argument so the team can get back to work.",
       "To help them surface the underlying values (like 'speed' vs. 'stability') that are causing the clash.",
       "To report them both to HR for creating a disruptive environment."
@@ -49,7 +49,7 @@
       "The heat is too high (panic/shutdown); you should lower it by acknowledging the difficulty of the topic.",
       "The heat is too low (apathy); you should increase it by challenging them to speak up.",
       "The heat is perfect; you should leave the room to let them figure it out.",
-      "The heat is irrelevant; silence means everyone has finally agreed. which is a critical factor to consider in this context"
+      "The heat is irrelevant; silence means everyone has finally agreed."
     ],
     "answer": "The heat is too high (panic/shutdown); you should lower it by acknowledging the difficulty of the topic.",
     "explanation": "When a room goes 'dead silent' in a way that feels heavy, it often means the disequilibrium has exceeded the system's capacity. You need to 'lower the heat' slightly to make the work feel possible again.",
@@ -62,7 +62,7 @@
     "options": [
       "Accept the task, as someone needs to make a fair decision.",
       "Tell them they must work out a shared budget together and come back with a unanimous proposal.",
-      "Assign the task to an outside accountant to avoid conflict. which is a critical factor to consider in this context",
+      "Assign the task to an outside accountant to avoid conflict.",
       "Ask each to present their case to you, then decide in private."
     ],
     "answer": "Tell them they must work out a shared budget together and come back with a unanimous proposal.",
@@ -77,7 +77,7 @@
       "As someone whose parenting knowledge is outdated and irrelevant.",
       "As the voice representing the 'conservation' of traditional family values and stability.",
       "As a personal obstacle to your own parenting confidence.",
-      "As a symptom of a difficult family dynamic. which is a critical factor to consider in this context"
+      "As a symptom of a difficult family dynamic."
     ],
     "answer": "As the voice representing the 'conservation' of traditional family values and stability.",
     "explanation": "Framing them as a 'voice for stability' allows the group to respect the perspective they bring. It moves the conflict from 'fighting the meddler' to 'balancing modern approaches with traditional values.'",
@@ -90,7 +90,7 @@
     "options": [
       "Interrupt the team and say, 'Wait, let’s give them space to finish their thought—it’s an important point.'",
       "Let the senior team handle it so you don't undermine their authority.",
-      "Change the subject to a less controversial topic to lower the heat. which is a critical factor to consider in this context",
+      "Change the subject to a less controversial topic to lower the heat.",
       "Agree with the junior staff member to show that you are 'on their side.'"
     ],
     "answer": "Interrupt the team and say, 'Wait, let’s give them space to finish their thought—it’s an important point.'",
@@ -102,7 +102,7 @@
     "content": "You cannot solve an adaptive challenge all at once. Orchestrating conflict requires 'pacing'—breaking the conflict into digestible chunks. If you try to solve the whole problem today, the system will collapse. If you wait too long, the opportunity for change disappears.",
     "description": "Your company needs a total cultural overhaul. Instead of announcing 50 changes on Monday, you decide to focus only on 'improving meeting transparency' for the first month. This is:",
     "options": [
-      "A sign of indecisiveness. which is a critical factor to consider in this context",
+      "A sign of indecisiveness.",
       "Pacing the work of adaptation so the system can absorb the change.",
       "Technical avoidance of the larger cultural issues.",
       "A default response to keep things comfortable."
@@ -116,7 +116,7 @@
     "content": "Sometimes conflict itself is a form of 'work avoidance.' If two people are arguing about something trivial (like desk assignments) to avoid a bigger conflict (like a drop in revenue), the leader must call it out and redirect the heat.",
     "description": "Two VPs have been arguing for a week about who gets the corner office, while the quarterly reports show a massive loss. What is your diagnosis of this conflict?",
     "options": [
-      "They are passionate about their work environment. which is a critical factor to consider in this context",
+      "They are passionate about their work environment.",
       "This is a technical problem of facility management.",
       "The conflict is a work avoidance mechanism to escape the pain of the financial crisis.",
       "They need a stronger leader to tell them where to sit."

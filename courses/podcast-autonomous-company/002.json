@@ -74,7 +74,7 @@
     "content": "Guillermo describes agents that observe successful patterns in a company's operations and extract them into reusable skills. When an engineer does something effective, the agent captures the approach and makes it available to the whole organization.",
     "description": "A senior engineer develops an efficient debugging workflow for a specific type of production issue. Based on Guillermo's concept of skill extraction, how could an autonomous agent amplify the impact of this expertise?",
     "options": [
-      "The agent would document the workflow and assign it as training for junior engineers",
+      "The agent would document the workflow and assign it as training for new junior engineers",
       "The agent would observe the successful pattern and extract it as a reusable skill for",
       "The agent would automate the senior engineer's entire job and make the role redundant",
       "The agent would share a recording of the engineer's screen for others to watch"
@@ -102,10 +102,10 @@
     "content": "Multiple guests observe that the biggest automation opportunities are invisible: things people do by habit that they don't realize an AI could do. Blake's shipping label example and Guillermo's point about the 'receptionist you never had' both illustrate this blind spot.",
     "description": "A business owner insists their company has nothing left to automate after implementing a CRM and accounting software. Based on the panel's observations about invisible automatable work, what is the most likely reality?",
     "options": [
-      "The business genuinely has no remaining opportunities for automation",
+      "The business genuinely has no remaining opportunities for any automation at all",
       "The owner has blind spots about routine tasks they've normalized that could be",
-      "Automation only works for large enterprises, not small businesses",
-      "The existing CRM and accounting software already covers all possible automation"
+      "Automation only works for very large enterprises and not for small businesses",
+      "The existing CRM and accounting software already covers all possible types of automation"
     ],
     "answer": "The owner has blind spots about routine tasks they've normalized that could be",
     "explanation": "Both Blake's shipping label example and Guillermo's 'unconscious autopilot' point show that the biggest automation opportunities are invisible habits people don't question. Most people simply 'don't realize something like that is automatable.'",

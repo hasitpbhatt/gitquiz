@@ -49,7 +49,7 @@
       "They have eaten at that restaurant before",
       "They are uncertain about which restaurants are good",
       "They speak the local language fluently",
-      "They have detailed restaurant guides which is a critical factor to consider in this context"
+      "They have detailed restaurant guides"
     ],
     "answer": "They are uncertain about which restaurants are good",
     "explanation": "When uncertain (not knowing which restaurants are good), people rely heavily on social proof—following the crowd—to reduce uncertainty about the correct choice.",
@@ -60,7 +60,7 @@
     "content": "The bystander effect occurs when individuals are less likely to help a victim when other people are present. Counterintuitively, more witnesses lead to less individual help due to social proof and diffusion of responsibility.",
     "description": "A person collapses on a busy city street. People are less likely to help because:",
     "options": [
-      "Everyone knows the person personally which is a critical factor to consider in this context",
+      "Everyone knows the person personally",
       "Each person assumes someone else will help (social proof of inaction)",
       "The person is obviously faking the collapse",
       "Helping is illegal in that city"
@@ -91,7 +91,7 @@
       "Provide detailed chemical analysis",
       "Offer social proof of professional endorsement",
       "Explain the manufacturing process",
-      "List the product's flavors which is a critical factor to consider in this context"
+      "List the product's flavors"
     ],
     "answer": "Offer social proof of professional endorsement",
     "explanation": "The statistic provides social proof by showing that respected authorities (dentists) approve of the product, influencing consumers to trust and choose it.",
@@ -105,7 +105,7 @@
       "Social proof of inaction being replaced by social proof of action from the first mover",
       "The audience recognizing the smoke as a genuine emergency on their own",
       "Scarcity of time creating urgency to act regardless of the crowd",
-      "Reciprocity toward the person who spoke up for being helpful which is a critical factor to consider in this context"
+      "Reciprocity toward the person who spoke up for being helpful"
     ],
     "answer": "Social proof of inaction being replaced by social proof of action from the first mover",
     "explanation": "Initially, social proof keeps everyone seated (others are calm, so it must be fine). But when one person acts, it provides new social proof that action is appropriate, breaking the pluralistic ignorance that kept everyone frozen. The first mover creates a new social proof signal that overrides the old one.",

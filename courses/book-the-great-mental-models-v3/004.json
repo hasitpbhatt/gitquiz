@@ -4,7 +4,7 @@
     "content": "The margin of safety is a deliberate structural buffer built into a system to account for variance, human error, unforeseen stress, and incomplete data.",
     "description": "A bridge is designed to support 40,000 pounds even though the heaviest expected vehicle is 25,000 pounds. What engineering principle does this illustrate?",
     "options": [
-      "Over-engineering due to poor requirements which is a critical factor to consider in this context",
+      "Over-engineering due to poor requirements",
       "Margin of safety — building buffers for unexpected stress and variance",
       "A bottleneck constraint limiting bridge capacity",
       "The law of diminishing returns on materials"
@@ -21,7 +21,7 @@
       "Dollar-cost averaging spreads the risk over time",
       "The margin of safety — buying at a discount to estimated value provides a cushion against errors",
       "Market timing ensures they buy at the bottom",
-      "Diversification eliminates the need for accurate valuation which is a critical factor to consider in this context"
+      "Diversification eliminates the need for accurate valuation"
     ],
     "answer": "The margin of safety — buying at a discount to estimated value provides a cushion against errors",
     "explanation": "The $30 discount (30% margin of safety) means even a 15% overvaluation error still leaves the investor with a profitable position. It is an explicit hedge against being wrong.",
@@ -32,7 +32,7 @@
     "content": "The Golden Gate Bridge was designed to withstand wind loads of 50 pounds per square foot, far exceeding any historical storm recorded in San Francisco Bay at the time of construction.",
     "description": "During a severe 1983 storm, the Golden Gate Bridge flexed safely within its tolerances because engineers had designed it for wind loads far beyond anything previously recorded. What does this case demonstrate?",
     "options": [
-      "The bridge was over-designed and resources were wasted which is a critical factor to consider in this context",
+      "The bridge was over-designed and resources were wasted",
       "Designing for extreme worst-case scenarios that may never occur is prudent for critical infrastructure",
       "Engineers should design for average conditions and add minor safety margins",
       "Historical data is the best predictor of future requirements"
@@ -63,7 +63,7 @@
       "The law of diminishing returns on fleet size",
       "The margin of safety principle — running at maximum capacity leaves no buffer for variance",
       "The bottleneck constraint in the maintenance department",
-      "The homeostasis of delivery schedules which is a critical factor to consider in this context"
+      "The homeostasis of delivery schedules"
     ],
     "answer": "The margin of safety principle — running at maximum capacity leaves no buffer for variance",
     "explanation": "Optimizing for 100% utilization under ideal conditions guarantees failure when variance occurs. The buffer rule says to build 20-30% slack into critical operations to absorb volatility.",
@@ -77,7 +77,7 @@
       "The hospital should have predicted the flu surge better",
       "Efficiency optimization eliminated the margin of safety, making the system fragile to variance",
       "The hospital needed better patient scheduling software",
-      "Ambulances should have been redirected earlier which is a critical factor to consider in this context"
+      "Ambulances should have been redirected earlier"
     ],
     "answer": "Efficiency optimization eliminated the margin of safety, making the system fragile to variance",
     "explanation": "Just-in-time efficiency at the expense of buffers creates brittle systems. The hospital saved money during normal times but paid a far higher cost during the surge.",
@@ -91,7 +91,7 @@
       "It is wasteful over-engineering that adds unnecessary weight",
       "It is a critical margin of safety for systems where single-point failure is unacceptable",
       "It is an example of a bottleneck in the hydraulic system",
-      "It is a balancing loop maintaining flight stability which is a critical factor to consider in this context"
+      "It is a balancing loop maintaining flight stability"
     ],
     "answer": "It is a critical margin of safety for systems where single-point failure is unacceptable",
     "explanation": "For systems where failure means catastrophic loss of life, redundancy is not waste — it is the only responsible design. The cost of redundancy is tiny compared to the cost of failure.",
@@ -105,7 +105,7 @@
       "Cash always earns a better return than stocks in the short term",
       "The cash buffer protects against forced asset sales during a market downturn when you lose your job simultaneously",
       "Investing in stocks is too risky for any purpose",
-      "The advisor does not understand investing which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The advisor does not understand investing"
     ],
     "answer": "The cash buffer protects against forced asset sales during a market downturn when you lose your job simultaneously",
     "explanation": "Without the cash buffer, a job loss during a bear market would force selling investments at depressed prices — precisely the worst time. The margin of safety prevents this double hit.",

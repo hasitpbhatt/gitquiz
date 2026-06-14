@@ -7,7 +7,7 @@
       "10% — 1,000 net loss divided by 10,000",
       "20% — 2,000 lost divided by 10,000 starting subscribers",
       "30% — 3,000 new subscribers divided by 10,000",
-      "50% — 5,000 total changes divided by 10,000 which is a critical factor to consider in this context"
+      "50% — 5,000 total changes divided by 10,000"
     ],
     "answer": "20% — 2,000 lost divided by 10,000 starting subscribers",
     "explanation": "Churn Rate = Units Lost During Period / Total Units at Start of Period. 2,000 / 10,000 = 20%. New subscribers do not appear in the denominator for period-start churn calculation.",
@@ -18,7 +18,7 @@
     "content": "High churn forces a company to spend unsustainably on acquisition just to stay flat. Reducing churn makes every new customer acquired into lasting, compounding growth.",
     "description": "Netflix discovered that even with strong marketing acquiring millions of new subscribers, profitability was dictated by retention. What does this illustrate?",
     "options": [
-      "Marketing spend should be redirected to engineering which is a critical factor to consider in this context",
+      "Marketing spend should be redirected to engineering",
       "When churn is high, growth is a leaky bucket — new users barely replace departing ones",
       "Subscriber growth is always the most important metric",
       "Netflix should focus on acquiring users in international markets"
@@ -35,7 +35,7 @@
       "Doubling marketing will offset the churn with more volume",
       "First fix the product and retention — doubling marketing spend on a leaky bucket merely doubles wasted spend",
       "Hire a better marketing team to improve conversion rates",
-      "Reduce prices to retain more customers which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Reduce prices to retain more customers"
     ],
     "answer": "First fix the product and retention — doubling marketing spend on a leaky bucket merely doubles wasted spend",
     "explanation": "20% monthly churn means losing almost all customers within 5 months. No amount of acquisition spend can outrun that leak. The structural problem must be fixed first.",
@@ -49,7 +49,7 @@
       "Reduced churn meant each acquired subscriber stayed longer, allowing compounding growth from acquisitions",
       "Recommendations reduced the need for marketing entirely",
       "Original content was more expensive than licensed content",
-      "Personalization only worked for certain demographics which is a critical factor to consider in this context"
+      "Personalization only worked for certain demographics"
     ],
     "answer": "Reduced churn meant each acquired subscriber stayed longer, allowing compounding growth from acquisitions",
     "explanation": "Fixing the leak in the bucket transformed every dollar of acquisition spend into lasting value. Lower churn is a leverage point that multiplies the effectiveness of all growth investments.",
@@ -62,7 +62,7 @@
     "options": [
       "A reinforcing loop of forest growth",
       "Healthy churn — balanced renewal prevents stagnation and maintains system vitality",
-      "A bottleneck in the nutrient cycle which is a critical factor to consider in this context",
+      "A bottleneck in the nutrient cycle",
       "Regression to the mean in tree height distribution"
     ],
     "answer": "Healthy churn — balanced renewal prevents stagnation and maintains system vitality",
@@ -77,7 +77,7 @@
       "The restaurant industry naturally has high turnover and this is normal",
       "Destructive churn — the rate of departure is structurally unsustainable and damages the system",
       "The restaurant needs to hire more employees to compensate for losses",
-      "Higher wages would completely solve the turnover problem which is a critical factor to consider in this context"
+      "Higher wages would completely solve the turnover problem"
     ],
     "answer": "Destructive churn — the rate of departure is structurally unsustainable and damages the system",
     "explanation": "When churn exceeds healthy replacement levels, it destroys value. The constant loss of institutional knowledge and the cost of continuous hiring and training degrade the system itself.",

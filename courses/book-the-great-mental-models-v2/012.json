@@ -6,7 +6,7 @@
     "options": [
       "She was a high-performer who was not appropriately compensated",
       "She was a keystone species — her mentorship, institutional memory, and cultural presence held the team ecosystem together",
-      "She was the only person who understood the codebase which is a critical factor to consider in this context",
+      "She was the only person who understood the codebase",
       "The team was overly dependent on one person, which is always a management failure"
     ],
     "answer": "She was a keystone species — her mentorship, institutional memory, and cultural presence held the team ecosystem together",
@@ -21,7 +21,7 @@
       "The CEO is right — custom features for one client are a distraction",
       "The client is a revenue keystone — losing them would collapse the financial foundation that funds all other product development",
       "Firing the client would free up 60% of engineering resources for product work",
-      "The startup should diversify its client base before making any changes which is a critical factor to consider in this context"
+      "The startup should diversify its client base before making any changes"
     ],
     "answer": "The client is a revenue keystone — losing them would collapse the financial foundation that funds all other product development",
     "explanation": "That one client funds 40% of revenue and absorbs 60% of engineering. Losing them is not a 'focus' move — it is a keystone removal that would force cutting other initiatives, laying off staff, or abandoning the core product entirely. Protect the keystone while gradually reducing dependency.",
@@ -35,7 +35,7 @@
       "The company should have hired multiple assistants to cover her workload",
       "She was an invisible keystone — her low-profile coordination work held the executive ecosystem together, and her removal triggered cascading operational failures",
       "The executive team should have been handling their own administrative tasks",
-      "The company's processes were insufficiently documented which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The company's processes were insufficiently documented"
     ],
     "answer": "She was an invisible keystone — her low-profile coordination work held the executive ecosystem together, and her removal triggered cascading operational failures",
     "explanation": "Keystones are not always the loudest or highest-paid. Often they are invisible — the person who quietly coordinates, mediates, and stabilizes. Their value is only recognized after removal triggers cascading failure. Identify and protect these invisible keystones before they leave.",
@@ -49,7 +49,7 @@
       "The two senior engineers were disloyal and should have stayed",
       "The company should have hired a replacement before removing her",
       "The keystone removal triggered a cascade — her departure caused secondary losses (engineers quitting, client churn) that multiplied the initial damage",
-      "Team leads are generally replaceable with minimal disruption which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Team leads are generally replaceable with minimal disruption"
     ],
     "answer": "The keystone removal triggered a cascade — her departure caused secondary losses (engineers quitting, client churn) that multiplied the initial damage",
     "explanation": "Keystones do not just provide their own output — they enable others' output. Remove the keystone, and the dependencies collapse sequentially. The engineers she mentored lose their anchor and leave. The client she managed loses trust and churns. Each failure amplifies the next.",
@@ -60,7 +60,7 @@
     "content": "The strategic imperative is to explicitly identify keystone individuals, clients, or values and protect them at all costs, because their removal triggers a systemic chain reaction that cannot be easily reversed.",
     "description": "A private equity firm acquires a company and plans to cut costs by removing the highest-paid employees. Which question should they ask before making cuts?",
     "options": [
-      "Which employees have the highest salaries? which is a critical factor to consider in this context",
+      "Which employees have the highest salaries?",
       "Which employees have been at the company the longest?",
       "Which individuals function as keystones — whose removal would trigger cascading failure across the ecosystem?",
       "Which employees have the least technical skills?"
@@ -74,7 +74,7 @@
     "content": "Certain core values act as keystones in organizational culture. Removing or weakening them destabilizes the entire cultural ecosystem, even if the values seem abstract.",
     "description": "A company prides itself on 'radical transparency' — all decisions are shared openly. A new CEO decides that some strategic information should be confidential. Within months, trust erodes, collaboration drops, and decision quality declines. What was radical transparency?",
     "options": [
-      "A nice-to-have cultural perk that was not essential which is a critical factor to consider in this context",
+      "A nice-to-have cultural perk that was not essential",
       "A cultural keystone — removing it destabilized the collaborative ecosystem that depended on it",
       "A policy that was bound to cause problems eventually",
       "A competitive disadvantage that should have been removed years ago"
@@ -90,7 +90,7 @@
     "options": [
       "The founder is spending too much time on sales instead of strategy",
       "The company's sales ecosystem is overly dependent on a single keystone — if the founder leaves or burns out, the entire revenue engine collapses",
-      "Charismatic founders are usually bad at closing deals which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Charismatic founders are usually bad at closing deals",
       "The company should stop growing to reduce dependency on the founder"
     ],
     "answer": "The company's sales ecosystem is overly dependent on a single keystone — if the founder leaves or burns out, the entire revenue engine collapses",
@@ -105,7 +105,7 @@
       "Company policy should never be broken for any individual",
       "The manager should have enforced the policy and hired a replacement",
       "The manager failed to recognize the employee as a keystone — the cost of accommodation was trivial compared to the cascading cost of losing them",
-      "Flexible work arrangements reduce productivity across the team which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Flexible work arrangements reduce productivity across the team"
     ],
     "answer": "The manager failed to recognize the employee as a keystone — the cost of accommodation was trivial compared to the cascading cost of losing them",
     "explanation": "When someone is a keystone, the standard rules may not apply. The cost of accommodation (a flexible schedule) was minimal. The cost of losing them cascaded into three failed projects — far exceeding any policy benefit. Keystone protection sometimes requires exceptions.",

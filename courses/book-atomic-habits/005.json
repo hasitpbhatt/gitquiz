@@ -6,7 +6,7 @@
     "options": [
       "The changes are ethical because salad is objectively healthier than dessert, and companies have a duty to promote health",
       "The changes are ethical because every food option remains available with equal effort to access; no choice is removed or penalized",
-      "The changes are ethical because the company disclosed the redesign intent in a company-wide email before implementation which is a critical factor to consider in this context",
+      "The changes are ethical because the company disclosed the redesign intent in a company-wide email before implementation",
       "The changes are ethical because employees can still ask staff to retrieve any item from the back, preserving full access"
     ],
     "answer": "The changes are ethical because every food option remains available with equal effort to access; no choice is removed or penalized",
@@ -21,7 +21,7 @@
       "Send a company email about sugar dangers",
       "Place water bottles at eye level in coolers and move sodas to the bottom",
       "Increase the price of soda in the vending machine",
-      "Post posters of athletes drinking water which is a critical factor to consider in this context"
+      "Post posters of athletes drinking water"
     ],
     "answer": "Place water bottles at eye level in coolers and move sodas to the bottom",
     "explanation": "This is choice architecture. By placing the healthier option in the direct line of sight, the brain visual dominance drives better choices without banning anything.",
@@ -32,7 +32,7 @@
     "content": "Habits become tied to entire contexts, not just single triggers. The environment itself becomes the cue.",
     "description": "A person struggles to sleep because they often work on a laptop in bed. What is the recommended solution?",
     "options": [
-      "Buy a more comfortable pillow which is a critical factor to consider in this context",
+      "Buy a more comfortable pillow",
       "Drink coffee earlier to be tired at night",
       "Use the bed only for sleep and move all work to a desk",
       "Set a timer to turn off the laptop at 10 PM"
@@ -49,7 +49,7 @@
       "Use willpower to ignore the games while writing",
       "Delete all games every time they want to write",
       "Find a specific corner of a library where they only write",
-      "Promise a gaming reward after finishing writing which is a critical factor to consider in this context"
+      "Promise a gaming reward after finishing writing"
     ],
     "answer": "Find a specific corner of a library where they only write",
     "explanation": "Every space has associations based on past habits. Creating a writing-only zone builds a clean association where the environment itself triggers the writing mindset.",
@@ -60,7 +60,7 @@
     "content": "Design your environment so that the cues for good habits are part of the path of least resistance.",
     "description": "Someone wants to practice guitar more often. Which setup is most effective?",
     "options": [
-      "Keep the guitar in its case inside a closet which is a critical factor to consider in this context",
+      "Keep the guitar in its case inside a closet",
       "Put the guitar on a stand in the middle of the living room",
       "Store the guitar at a friend house to force travel",
       "Rely on memory to take the guitar out when free"
@@ -90,7 +90,7 @@
     "options": [
       "Because willpower is a fixed resource that never grows",
       "Because you must exercise willpower every time you see the food, which is exhausting",
-      "Because junk food is biologically addictive which is a critical factor to consider in this context",
+      "Because junk food is biologically addictive",
       "Because willpower only works for athletic people"
     ],
     "answer": "Because you must exercise willpower every time you see the food, which is exhausting",
@@ -105,7 +105,7 @@
       "Study at a different coffee shop each day for variety",
       "Study on the bed while the TV plays in the background",
       "Use the same quiet library desk at the same time each day",
-      "Study at the dining table while family eats dinner which is a critical factor to consider in this context"
+      "Study at the dining table while family eats dinner"
     ],
     "answer": "Use the same quiet library desk at the same time each day",
     "explanation": "Consistency in location builds a strong association. Over time, simply sitting at that specific desk automatically triggers study mode because the cues are stable.",
@@ -116,7 +116,7 @@
     "content": "Micro-cues like plate size or glass shape influence consumption without conscious awareness.",
     "description": "Someone wants to reduce alcohol at home. What is an effective Make it Invisible environmental change?",
     "options": [
-      "Buy smaller glasses for drinks which is a critical factor to consider in this context",
+      "Buy smaller glasses for drinks",
       "Store the alcohol in a high cabinet that requires a stool to reach",
       "Read a book about the negative effects of alcohol",
       "Make a pact with a friend to stop drinking"
@@ -133,7 +133,7 @@
       "Set three different alarms on the phone",
       "Lay out workout clothes and shoes right next to the bed",
       "Promise a big breakfast after the workout",
-      "Visualize how great they will look fit which is a critical factor to consider in this context"
+      "Visualize how great they will look fit"
     ],
     "answer": "Lay out workout clothes and shoes right next to the bed",
     "explanation": "Laying out clothes makes the cue obvious the moment you wake up and primes the environment so the response of getting dressed requires zero friction.",

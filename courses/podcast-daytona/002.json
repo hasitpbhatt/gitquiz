@@ -35,7 +35,7 @@
       "They can pause and resume including filesystem, processes, memory, and network state",
       "They reset to a clean state after every execution",
       "They only allow read-only access to files",
-      "They cannot connect to the internet which is a critical factor to consider in this context"
+      "They cannot connect to the internet"
     ],
     "answer": "They can pause and resume including filesystem, processes, memory, and network state",
     "explanation": "Stateful sandboxes can be paused and resumed with full state preservation, essential for long-running background agents.",
@@ -63,7 +63,7 @@
       "It prevents out-of-memory errors when an agent's workload suddenly spikes",
       "It reduces the cost of idle sandboxes to zero",
       "It allows agents to run on mobile phone hardware",
-      "It eliminates the need for any persistent storage which is a critical factor to consider in this context"
+      "It eliminates the need for any persistent storage"
     ],
     "answer": "It prevents out-of-memory errors when an agent's workload suddenly spikes",
     "explanation": "Agents have unpredictable resource needs; dynamic resizing prevents OOM crashes without over-provisioning.",
@@ -76,7 +76,7 @@
     "options": [
       "Preemptible sandboxes are faster to start but lose state; long-running sandboxes preserve state at higher cost",
       "Preemptible sandboxes are more secure but slower to execute code",
-      "Long-running sandboxes are cheaper than preemptible sandboxes which is a critical factor to consider in this context",
+      "Long-running sandboxes are cheaper than preemptible sandboxes",
       "Preemptible sandboxes can only run Python while long-running sandboxes support any language"
     ],
     "answer": "Preemptible sandboxes are faster to start but lose state; long-running sandboxes preserve state at higher cost",
@@ -89,7 +89,7 @@
     "description": "What is the primary way AI agents interface with Daytona sandboxes?",
     "options": [
       "Through a REST API that allows agents to execute commands and read outputs",
-      "By sending email commands to the sandbox address which is a critical factor to consider in this context",
+      "By sending email commands to the sandbox address",
       "Through a graphical user interface rendered in the agent's browser",
       "By physically connecting via USB to the host machine"
     ],
@@ -103,7 +103,7 @@
     "description": "What drives the need for different computer configurations for different agents?",
     "options": [
       "Coding agents need different resources than reasoning agents or browsing agents",
-      "All agents require identical hardware for consistency which is a critical factor to consider in this context",
+      "All agents require identical hardware for consistency",
       "Only the programming language used determines the configuration",
       "The age of the agent determines its resource needs"
     ],
@@ -118,7 +118,7 @@
     "options": [
       "It highlights the gap between what developers think Daytona does and what it actually provides",
       "It was the name of their first venture capital round",
-      "It refers to a specific programming language Daytona created which is a critical factor to consider in this context",
+      "It refers to a specific programming language Daytona created",
       "It is their internal code name for the bare metal server project"
     ],
     "answer": "It highlights the gap between what developers think Daytona does and what it actually provides",

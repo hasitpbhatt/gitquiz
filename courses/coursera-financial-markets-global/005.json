@@ -6,7 +6,7 @@
     "options": [
       "Because the home is no longer a physical asset",
       "Because the value of the collateral is now less than the outstanding loan balance",
-      "Because down payments are illegal in most states which is a critical factor to consider in this context",
+      "Because down payments are illegal in most states",
       "Because banks are not allowed to sell seized homes"
     ],
     "answer": "Because the value of the collateral is now less than the outstanding loan balance",
@@ -34,7 +34,7 @@
     "options": [
       "It limits lending because the bank must keep all loans on its books",
       "It increases lending capacity by moving old loans off the books and bringing in new capital",
-      "It has no effect on lending which is a critical factor to consider in this context",
+      "It has no effect on lending",
       "It forces the bank to only lend to the government"
     ],
     "answer": "It increases lending capacity by moving old loans off the books and bringing in new capital",
@@ -49,7 +49,7 @@
       "Government tax revenue",
       "The profits of the investment bank",
       "The monthly mortgage payments made by thousands of homeowners",
-      "Stock market dividends which is a critical factor to consider in this context"
+      "Stock market dividends"
     ],
     "answer": "The monthly mortgage payments made by thousands of homeowners",
     "explanation": "An MBS passes the payments from borrowers through to investors. If homeowners pay their mortgages, the MBS investor gets paid; if homeowners default, the investor's return drops.",
@@ -63,7 +63,7 @@
       "The homeowners will stop living in their houses",
       "The investor will lose their principal entirely",
       "The investor receives their cash back early and must now reinvest it at the new, lower 3% rate",
-      "The bank will go out of business which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The bank will go out of business"
     ],
     "answer": "The investor receives their cash back early and must now reinvest it at the new, lower 3% rate",
     "explanation": "This is a key risk in real estate finance. When rates drop, 'good' high-interest loans disappear because borrowers pay them off early to get cheaper ones elsewhere.",
@@ -76,7 +76,7 @@
     "options": [
       "They were guaranteed by the government to never fail",
       "They offered higher yields (returns) than 'prime' loans and were incorrectly rated as safe",
-      "Subprime borrowers are statistically safer than wealthy borrowers which is a critical factor to consider in this context",
+      "Subprime borrowers are statistically safer than wealthy borrowers",
       "The investors were forced to buy them by law"
     ],
     "answer": "They offered higher yields (returns) than 'prime' loans and were incorrectly rated as safe",
@@ -132,7 +132,7 @@
     "options": [
       "The bank wants to prevent you from moving in",
       "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",
-      "Appraisers are not allowed to use round numbers which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Appraisers are not allowed to use round numbers",
       "The bank is legally required to always lend $50,000 less than the price"
     ],
     "answer": "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",

@@ -7,7 +7,7 @@
       "Ignore all advice from successful people",
       "Study the mistakes of others to avoid repeating them",
       "Trust your instincts above all else",
-      "Learn only from your own failures which is a critical factor to consider in this context"
+      "Learn only from your own failures"
     ],
     "answer": "Study the mistakes of others to avoid repeating them",
     "explanation": "Munger believes the best way to learn is to study the mistakes of others. As he says, I believe in the discipline of mastering the best that other people have ever figured out.",
@@ -21,7 +21,7 @@
       "Sell immediately to stop the losses",
       "Ignore the price drop and evaluate the business long-term prospects",
       "Short the stock to hedge the position",
-      "Blame the market for being irrational which is a critical factor to consider in this context"
+      "Blame the market for being irrational"
     ],
     "answer": "Ignore the price drop and evaluate the business long-term prospects",
     "explanation": "Buffett and Munger define risk as permanent capital loss, not price volatility. If the business is sound, temporary price drops present opportunity, not danger. They would evaluate fundamentals, not price action.",
@@ -34,7 +34,7 @@
     "options": [
       "Automate decision-making without thinking",
       "Ensure all critical factors are considered systematically",
-      "Impress clients with thoroughness which is a critical factor to consider in this context",
+      "Impress clients with thoroughness",
       "Replace judgment with a rigid formula"
     ],
     "answer": "Ensure all critical factors are considered systematically",
@@ -49,7 +49,7 @@
       "The specific causes of accidents that can be addressed",
       "A guaranteed way to fail at traffic safety",
       "That accidents are impossible to prevent",
-      "The best new roads to build which is a critical factor to consider in this context"
+      "The best new roads to build"
     ],
     "answer": "The specific causes of accidents that can be addressed",
     "explanation": "By inverting the problem, the city identifies failure modes, poor signage, confusing intersections, lack of enforcement. Addressing these specific causes is more effective than a vague goal of improving safety.",
@@ -102,7 +102,7 @@
     "content": "Mental models are not just for business. They apply to personal decisions, relationships, and everyday choices. A good decision-making framework works across all domains of life.",
     "description": "A person considering marriage applies the same margin of safety principle used in engineering. They wait to ensure they truly know their partner before committing. This shows:",
     "options": [
-      "Overthinking a romantic relationship which is a critical factor to consider in this context",
+      "Overthinking a romantic relationship",
       "Applying mental models across life domains for better decisions",
       "Engineering principles having no place in romance",
       "Being overly cautious about commitment"

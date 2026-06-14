@@ -7,7 +7,7 @@
       "Why we should return to medieval thinking",
       "How the Enlightenment shifted from authority to reason and evidence",
       "That kings actually knew best",
-      "Why empiricism doesn't work which is a critical factor to consider in this context"
+      "Why empiricism doesn't work"
     ],
     "answer": "How the Enlightenment shifted from authority to reason and evidence",
     "explanation": "The Enlightenment replaced deference to authority (kings, priests, ancient texts) with the idea that claims should be tested against evidence and reasoned about critically - creating the conditions for unbounded scientific and moral progress.",
@@ -35,7 +35,7 @@
       "Why CEOs should never be questioned",
       "How openness to criticism enables error correction and progress",
       "That all criticism is actually helpful",
-      "Why hierarchies prevent innovation which is a critical factor to consider in this context"
+      "Why hierarchies prevent innovation"
     ],
     "answer": "How openness to criticism enables error correction and progress",
     "explanation": "In an open society, flawed policies and ideas can be identified and corrected through criticism. Closed societies suppress criticism, allowing errors to persist and compound - preventing the error correction essential for progress.",
@@ -49,7 +49,7 @@
       "Why tradition is always better than innovation",
       "How reason should trump mere tradition when evidence contradicts it",
       "That data is actually irrelevant to decisions",
-      "Why we should never change established practices which is a critical factor to consider in this context"
+      "Why we should never change established practices"
     ],
     "answer": "How reason should trump mere tradition when evidence contradicts it",
     "explanation": "When tradition and evidence conflict, reason demands we follow the evidence. Blindly following tradition prevents adopting better methods - while reasoned evaluation allows us to keep what works and improve what doesn't.",
@@ -62,7 +62,7 @@
     "options": [
       "Why we should avoid sharing our work",
       "How criticism improves ideas and products through error correction",
-      "That reviewers are usually wrong which is a critical factor to consider in this context",
+      "That reviewers are usually wrong",
       "Why first drafts are always best"
     ],
     "answer": "How criticism improves ideas and products through error correction",
@@ -76,7 +76,7 @@
     "options": [
       "Why we should always trust medical authorities",
       "How science progresses by correcting authorities through evidence",
-      "That hand-washing is actually harmful which is a critical factor to consider in this context",
+      "That hand-washing is actually harmful",
       "Why laughter is the best medicine"
     ],
     "answer": "How science progresses by correcting authorities through evidence",
@@ -105,7 +105,7 @@
       "Why we should never question authority",
       "How taboo-breaking enables moral and social progress",
       "That questioning laws is always disloyal",
-      "Why traditions should never be examined which is a critical factor to consider in this context"
+      "Why traditions should never be examined"
     ],
     "answer": "How taboo-breaking enables moral and social progress",
     "explanation": "When questioning is taboo, mistaken or unjust beliefs and laws go unchallenged. Breaking taboos allows criticism to identify flaws, leading to reforms - whether correcting scientific misunderstandings or improving unjust laws and social practices.",

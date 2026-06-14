@@ -7,7 +7,7 @@
       "The experienced doctor was never properly trained",
       "Experience Does Not Reliably Ensure Expertise: without feedback on errors, experience alone does not improve judgment",
       "Medicine is too complex for any doctor to master",
-      "The younger doctor is naturally more talented which is a critical factor to consider in this context"
+      "The younger doctor is naturally more talented"
     ],
     "answer": "Experience Does Not Reliably Ensure Expertise: without feedback on errors, experience alone does not improve judgment",
     "explanation": "Repeating the same practices for 20 years without accurate feedback does not build expertise. Improvement requires feedback that reveals errors and guides adjustment.",
@@ -21,7 +21,7 @@
       "Stock trading is completely random and skill is irrelevant",
       "Without systematic feedback and strategy adjustment, the same mistakes compound over decades",
       "The trader simply needs more years of experience",
-      "Market performance is always unpredictable for everyone which is a critical factor to consider in this context"
+      "Market performance is always unpredictable for everyone"
     ],
     "answer": "Without systematic feedback and strategy adjustment, the same mistakes compound over decades",
     "explanation": "Experience without learning from feedback leads to repeating the same ineffective behaviors. True expertise requires analyzing outcomes and adjusting strategies accordingly.",
@@ -35,7 +35,7 @@
       "The new teachers have more energy than experienced ones",
       "Experience Does Not Reliably Ensure Expertise: teaching the same material yearly without seeking improvement leads to stagnation",
       "Student results depend entirely on the students themselves",
-      "The experienced teacher is clearly burned out which is a critical factor to consider in this context"
+      "The experienced teacher is clearly burned out"
     ],
     "answer": "Experience Does Not Reliably Ensure Expertise: teaching the same material yearly without seeking improvement leads to stagnation",
     "explanation": "Repeating the same lesson plan for 15 years is one year of experience repeated 15 times, not 15 years of growth. Improvement requires actively seeking and integrating feedback.",
@@ -49,7 +49,7 @@
       "You have reached your natural limit and should quit",
       "You are practicing incorrectly and need to start over",
       "Plateaus are a normal part of learning that precede the next breakthrough",
-      "Your guitar is not good enough for advanced playing which is a critical factor to consider in this context"
+      "Your guitar is not good enough for advanced playing"
     ],
     "answer": "Plateaus are a normal part of learning that precede the next breakthrough",
     "explanation": "Learning progresses in fits and starts. Plateaus often represent consolidation where the brain integrates previous gains before the next leap forward.",
@@ -60,7 +60,7 @@
     "content": "Progress in learning is rarely linear. It involves plateaus, dips, and sudden breakthroughs. Understanding this prevents discouragement during inevitable learning plateaus.",
     "description": "A runner trains for a marathon. Some weeks they get faster, other weeks they feel slower. The runner should understand that:",
     "options": [
-      "Training is clearly not working which is a critical factor to consider in this context",
+      "Training is clearly not working",
       "They should only run on days when they feel fast",
       "Improvement is Not a Straight Line: performance fluctuates due to fatigue, recovery, and adaptation cycles",
       "Marathon training requires a different sport"
@@ -74,7 +74,7 @@
     "content": "Progress in learning is rarely linear. It involves plateaus, dips, and sudden breakthroughs. Understanding this prevents discouragement during inevitable learning plateaus.",
     "description": "A startup loses users for two months after launch. The founders consider shutting down. What would Improvement is Not a Straight Line suggest?",
     "options": [
-      "Shut down immediately to cut losses which is a critical factor to consider in this context",
+      "Shut down immediately to cut losses",
       "Analyze the dip for learning, adjust strategy, and persist through the natural fluctuation",
       "Ignore the data and keep doing the same thing",
       "Success should be immediate if the idea is good"
@@ -88,7 +88,7 @@
     "content": "Progress in learning is rarely linear. It involves plateaus, dips, and sudden breakthroughs. Understanding this prevents discouragement during inevitable learning plateaus.",
     "description": "A chess player wins several games in a row, then loses five straight. Discouraged, they want to quit. What should they understand about learning?",
     "options": [
-      "They have clearly gotten worse at chess which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "They have clearly gotten worse at chess",
       "They should only play opponents they can beat",
       "Improvement is Not a Straight Line: losing streaks often precede breakthroughs as old patterns break down to make way for new strategies",
       "Chess skill is determined by natural talent alone"

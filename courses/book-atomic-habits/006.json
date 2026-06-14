@@ -7,7 +7,7 @@
       "The delayed badge triggers cortisol (stress hormone), which increases attention and engagement as a coping mechanism",
       "The anticipatory gap prolongs the dopamine release window, and variable rewards create a stronger prediction-error signal than fixed rewards",
       "Users are unconsciously trying to prove the app wrong by checking earlier, creating a reactance-driven engagement loop",
-      "The delay triggers a Zeigarnik effect where incomplete tasks are remembered better than completed ones which is a critical factor to consider in this context"
+      "The delay triggers a Zeigarnik effect where incomplete tasks are remembered better than completed ones"
     ],
     "answer": "The anticipatory gap prolongs the dopamine release window, and variable rewards create a stronger prediction-error signal than fixed rewards",
     "explanation": "Dopamine peaks during anticipation, not consumption. Strategy B extends the anticipation window by introducing uncertainty. The brain's reward system is wired to pay maximal attention to unpredictable cues because variable rewards (like slot machines) produce larger prediction errors than fixed ones. Each slight delay signals Maybe something is there, amplifying the craving loop. This is why variable reinforcement schedules produce more persistent engagement than fixed schedules, a finding from Skinner's operant conditioning research.",
@@ -34,7 +34,7 @@
     "options": [
       "Study for five minutes, then watch ten minutes of YouTube, alternating",
       "Quit YouTube entirely to focus on studying",
-      "Watch YouTube while trying to study simultaneously which is a critical factor to consider in this context",
+      "Watch YouTube while trying to study simultaneously",
       "Promise to study more tomorrow if they skip YouTube today"
     ],
     "answer": "Study for five minutes, then watch ten minutes of YouTube, alternating",
@@ -49,7 +49,7 @@
       "After I brew my morning coffee, I will read the news",
       "After I pour my morning coffee, I will write three work tasks while enjoying my favorite latte",
       "I will drink coffee and work at the same time",
-      "I will work first and reward myself with coffee later which is a critical factor to consider in this context"
+      "I will work first and reward myself with coffee later"
     ],
     "answer": "After I pour my morning coffee, I will write three work tasks while enjoying my favorite latte",
     "explanation": "This stacks the new habit (writing tasks) after an existing one (pouring coffee) and bundles it with a wanted experience (enjoying a latte), making work attractive.",
@@ -63,7 +63,7 @@
       "The difference between craving and reward",
       "The Plateau of Latent Potential",
       "Implementation Intentions",
-      "Environment Design which is a critical factor to consider in this context"
+      "Environment Design"
     ],
     "answer": "The difference between craving and reward",
     "explanation": "The anticipation spike often exceeds the actual pleasure of the reward. This is why cravings are such powerful drivers of behavior the brain seeks the anticipation, not just the outcome.",
@@ -105,7 +105,7 @@
       "Tell themselves they have to wake up early or they will be fired",
       "Tell themselves they get to wake up early and have quiet time before the world gets busy",
       "Set five alarms to force themselves out of bed",
-      "Promise a reward for every early wake-up which is a critical factor to consider in this context"
+      "Promise a reward for every early wake-up"
     ],
     "answer": "Tell themselves they get to wake up early and have quiet time before the world gets busy",
     "explanation": "Reframing transforms a chore into a privilege. Get to emphasizes the opportunity and benefit, making the behavior more attractive than have to which feels like a burden.",
@@ -132,7 +132,7 @@
     "options": [
       "I have to study or I will fail the class",
       "Each study session makes me more knowledgeable and confident in my field",
-      "Studying is painful but necessary which is a critical factor to consider in this context",
+      "Studying is painful but necessary",
       "I will study only if I feel motivated"
     ],
     "answer": "Each study session makes me more knowledgeable and confident in my field",

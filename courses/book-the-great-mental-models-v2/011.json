@@ -5,7 +5,7 @@
     "description": "A company cuts costs by laying off its customer service team. Quarterly profits improve. One year later, customer churn has doubled, brand reputation has collapsed, and revenue is down 30%. What explains this outcome?",
     "options": [
       "The laid-off employees started a competing company",
-      "The cost-cutting was necessary but executed poorly which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "The cost-cutting was necessary but executed poorly",
       "In an interconnected system, the linear action (cut costs) triggered cascading effects (lower service, churn, reputation damage) that overwhelmed the short-term gain",
       "Customer service layoffs are always a bad decision regardless of circumstances"
     ],
@@ -20,7 +20,7 @@
     "options": [
       "The team should not have optimized for DAU at all",
       "The team fell for the linear illusion — they optimized one variable without considering how it would ripple through the interconnected system of user experience, satisfaction, and brand perception",
-      "Notifications always damage user satisfaction regardless of implementation which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Notifications always damage user satisfaction regardless of implementation",
       "The team should have A/B tested the notifications before full rollout"
     ],
     "answer": "The team fell for the linear illusion — they optimized one variable without considering how it would ripple through the interconnected system of user experience, satisfaction, and brand perception",
@@ -32,7 +32,7 @@
     "content": "Ecosystems feature feedback loops where an output of a system is fed back as an input, either amplifying change (positive feedback) or dampening it (negative feedback).",
     "description": "A social media platform's algorithm promotes engaging content. Engaging content generates more comments and shares, which tells the algorithm to promote it further. More engagement leads to even more promotion. What type of loop is this?",
     "options": [
-      "A negative feedback loop that maintains stability which is a critical factor to consider in this context",
+      "A negative feedback loop that maintains stability",
       "A positive feedback loop — the output (promotion) reinforces the input (engagement), creating a self-amplifying cycle",
       "A homeostatic loop that returns the system to equilibrium",
       "A balancing loop that prevents the system from growing too fast"
@@ -47,7 +47,7 @@
     "description": "A city builds more roads to reduce traffic congestion. First-order effect: more road capacity. Second-order effect: more people drive because roads are wider, leading to the same or worse congestion. What model explains this policy failure?",
     "options": [
       "The construction companies building the roads were corrupt",
-      "Public transportation would have been a better investment which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Public transportation would have been a better investment",
       "The city focused only on the first-order effect and ignored the second-order effect of induced demand within the transportation ecosystem",
       "Traffic congestion is an unsolvable problem in growing cities"
     ],
@@ -63,7 +63,7 @@
       "The logistics company is incompetent and should be replaced",
       "The supply chain is a highly interconnected ecosystem — a failure at one node cascades through dependent nodes, amplifying the impact far beyond the initial glitch",
       "Retail stores should maintain larger inventories to absorb such shocks",
-      "The stock market overreacted to a temporary logistics disruption which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The stock market overreacted to a temporary logistics disruption"
     ],
     "answer": "The supply chain is a highly interconnected ecosystem — a failure at one node cascades through dependent nodes, amplifying the impact far beyond the initial glitch",
     "explanation": "In an interconnected ecosystem, the warehouse crash is not an isolated event. It ripples through fulfillment, retail, customer experience, and investor sentiment. The total damage is far larger than the initial three-hour outage because each dependent node amplifies the disruption.",
@@ -74,7 +74,7 @@
     "content": "Before altering any variable in an ecosystem, map out the web of connections. Ask: What does this node connect to, and how will the change ripple across the system?",
     "description": "A CEO plans to reorganize the company from functional departments to cross-functional squads. Before announcing, a board member asks, 'What are all the things this change touches?' What mental model is the board member invoking?",
     "options": [
-      "Pareto principle — focus on the 20% that matters which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Pareto principle — focus on the 20% that matters",
       "Ecosystem thinking — map the interconnections first because reorganizing will ripple through culture, reporting lines, career paths, and decision-making in unpredictable ways",
       "Occam's razor — the simplest reorganization is usually the best",
       "Sunk cost — the current structure represents years of investment"
@@ -89,7 +89,7 @@
     "description": "A school district bans smartphones to improve student focus. Focus in class improves, but students report feeling socially isolated at lunch, and parents complain they cannot reach their children after school. What does this illustrate?",
     "options": [
       "Smartphone bans are always a bad policy",
-      "Students should learn to socialize without phones which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Students should learn to socialize without phones",
       "The ban had multiple ripple effects beyond the intended outcome — showing that in a social ecosystem, you cannot change just one thing",
       "Parents should be more supportive of school policies"
     ],
@@ -105,7 +105,7 @@
       "The consultant wants to simplify the dashboard for their own convenience",
       "In interconnected systems, a few keystone variables drive most of the system behavior; tracking those three provides more insight than fifty surface-level metrics",
       "SaaS businesses all converge on the same three key metrics",
-      "The other 47 metrics are completely irrelevant to business performance which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The other 47 metrics are completely irrelevant to business performance"
     ],
     "answer": "In interconnected systems, a few keystone variables drive most of the system behavior; tracking those three provides more insight than fifty surface-level metrics",
     "explanation": "Not all metrics are equal. Some are keystone variables that disproportionately influence the system. In SaaS, these might be acquisition cost, activation rate, and net revenue retention. These three will tell you more about ecosystem health than fifty vanity metrics.",

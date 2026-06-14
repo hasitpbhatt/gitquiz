@@ -7,7 +7,7 @@
       "How the time required to find files grows with the number of files - look for logarithmic or linear growth rather than quadratic or worse",
       "Only the current speed of the system",
       "The aesthetic design of the filing cabinets",
-      "The color of the file folders which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "The color of the file folders"
     ],
     "answer": "How the time required to find files grows with the number of files - look for logarithmic or linear growth rather than quadratic or worse",
     "explanation": "Big-O notation helps you understand how an algorithm's performance scales. For searching, you want O(log n) (binary search) or O(n) (linear search), not O(n^2) or worse which would become unusably slow at scale.",
@@ -21,7 +21,7 @@
       "Compare each pair of adjacent items and swap them if they're in the wrong color order, repeating passes through the pile until no swaps are needed",
       "Throw all clothes in the pile and hope they sort themselves",
       "Sort by throwing each item onto one of several pre-decided piles",
-      "Wear all clothes at once to avoid sorting which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Wear all clothes at once to avoid sorting"
     ],
     "answer": "Compare each pair of adjacent items and swap them if they're in the wrong color order, repeating passes through the pile until no swaps are needed",
     "explanation": "Bubble Sort works by repeatedly swapping adjacent elements that are out of order. For laundry, you'd compare each pair of adjacent items and swap them if, for example, a darker item is before a lighter one when sorting light to dark.",
@@ -35,7 +35,7 @@
       "Place each new book in its correct alphabetical position among the books already on the shelf",
       "Stack all new books in a pile and sort them all at once monthly",
       "Arrange books by the height of the spine rather than title",
-      "Leave books wherever they fall when you put them down which is a critical factor to consider in this context"
+      "Leave books wherever they fall when you put them down"
     ],
     "answer": "Place each new book in its correct alphabetical position among the books already on the shelf",
     "explanation": "Insertion Sort is like organizing books as you get them: for each new book, you compare it to the books already on the shelf from right to left until you find where it belongs, then insert it there.",
@@ -48,7 +48,7 @@
     "options": [
       "Divide the project into independent pods, have each pod complete their work, then integrate (merge) the completed components",
       "Have everyone work on every task simultaneously",
-      "Randomly assign tasks without regard to dependencies which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Randomly assign tasks without regard to dependencies",
       "Do all tasks in alphabetical order by task name"
     ],
     "answer": "Divide the project into independent pods, have each pod complete their work, then integrate (merge) the completed components",
@@ -61,7 +61,7 @@
     "description": "You are designing a database system where 90% of queries receive data that is already nearly sorted (each item is within 5 positions of its final location), but 10% receive completely random data. You need minimize total sorting time across both workloads. Which strategy should you choose?",
     "options": [
       "Use Insertion Sort for the 90% nearly-sorted case and switch to QuickSort or MergeSort when Insertion Sort's runtime exceeds a threshold indicating the data is not nearly sorted",
-      "Always use Bubble Sort since it works well on small datasets which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Always use Bubble Sort since it works well on small datasets",
       "Always use Merge Sort since it has guaranteed O(n log n) performance for all cases",
       "Use QuickSort for all cases since it is the fastest on average"
     ],
@@ -90,7 +90,7 @@
     "options": [
       "Open the book to the middle, check if the name comes before or after that point, then repeat the process in the relevant half",
       "Start at page one and read every name until you find it",
-      "Guess a page number and hope the name is there which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Guess a page number and hope the name is there",
       "Lick your finger and hold it up to see which way the wind blows"
     ],
     "answer": "Open the book to the middle, check if the name comes before or after that point, then repeat the process in the relevant half",
@@ -104,7 +104,7 @@
     "options": [
       "Count how many pairs of songs are in the wrong order relative to the intended sequence",
       "Count only the songs that are in the correct position",
-      "Measure the total playback time of the playlist which is a critical factor to consider in this context",
+      "Measure the total playback time of the playlist",
       "See how many songs start with the letter 'A'"
     ],
     "answer": "Count how many pairs of songs are in the wrong order relative to the intended sequence",
@@ -119,7 +119,7 @@
       "By allowing chickens to assess dominance visually without fighting, once the hierarchy was established",
       "By making all chickens equally aggressive",
       "By eliminating the concept of chicken social order",
-      "By forcing chickens to wear blindfolds which is a critical factor to consider in this context"
+      "By forcing chickens to wear blindfolds"
     ],
     "answer": "By allowing chickens to assess dominance visually without fighting, once the hierarchy was established",
     "explanation": "Once a pecking order is established through initial confrontations, chickens can recognize their relative positions and avoid fights by yielding to higher-ranked individuals, reducing the need for ongoing violence.",
@@ -133,7 +133,7 @@
       "Whether sorting now reduces overall effort compared to sorting later, considering factors like order frequency and item similarity",
       "Only the color of the incoming boxes",
       "The phase of the moon when items arrive",
-      "Always sort immediately regardless of circumstances which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Always sort immediately regardless of circumstances"
     ],
     "answer": "Whether sorting now reduces overall effort compared to sorting later, considering factors like order frequency and item similarity",
     "explanation": "The decision depends on comparing total effort: if you sort items once when they'll be needed in sorted order multiple times, pre-sorting wins. If items ship in unsorted orders frequently, post-sorting or no sorting may be better.",

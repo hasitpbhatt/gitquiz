@@ -32,7 +32,7 @@
     "content": "The spec-to-PR workflow is the practice of writing a specification first, then letting an agent autonomously produce a pull request that implements it.",
     "description": "Your engineering team wants to adopt Devin. A senior engineer asks how exactly the spec-to-PR workflow differs from how we use GitHub Copilot today. What is the key difference?",
     "options": [
-      "Copilot writes specs; Devin writes code which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Copilot writes specs; Devin writes code",
       "With Copilot a developer types code suggestions; with Devin a developer writes a spec and the agent produces the entire PR autonomously",
       "Copilot only works in VS Code; Devin works in any editor",
       "Spec-to-PR is for frontend only; Copilot works for everything"
@@ -62,7 +62,7 @@
     "options": [
       "Claude Code is free; Devin is paid",
       "Claude Code requires watching the output; Devin notifies you when the PR is ready",
-      "Claude Code uses Anthropic; Devin uses OpenAI which is a critical factor to consider in this context",
+      "Claude Code uses Anthropic; Devin uses OpenAI",
       "Claude Code only edits one file; Devin edits many"
     ],
     "answer": "Claude Code requires watching the output; Devin notifies you when the PR is ready",
@@ -74,7 +74,7 @@
     "content": "Foreground agents require the developer attention during execution, while background agents work independently and check in only when blocked or done.",
     "description": "You are designing a new agent platform. For which type of task would a foreground agent be strictly better than a background agent?",
     "options": [
-      "Running a weekly database migration which is a critical factor to consider in this context",
+      "Running a weekly database migration",
       "Fixing a critical production bug while developers sleep",
       "Pair programming on a complex algorithm with real-time feedback",
       "Refactoring a deprecated API across 50 files"
@@ -88,7 +88,7 @@
     "content": "In 2024, building async agents was considered the most AGI pilled bet because models were not yet reliable enough to work without real-time human supervision.",
     "description": "Walden Yan describes starting Cognition in 2024 as a contrarian bet. What made founding an async agent company at that time seem so risky to observers?",
     "options": [
-      "Nobody had GPUs in 2024 which is a critical factor to consider in this context",
+      "Nobody had GPUs in 2024",
       "Models were too unreliable to work without humans watching them in real time",
       "GitHub Copilot already dominated the market",
       "Enterprise sales cycles were too long"

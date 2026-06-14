@@ -7,7 +7,7 @@
       "Tell her programming is naturally difficult and she should accept her limits",
       "Give her a simple program she can complete successfully, then gradually increase complexity",
       "Have her watch more experienced coders without writing code herself",
-      "Assign even harder problems to build resilience through failure which is a critical factor to consider in this context"
+      "Assign even harder problems to build resilience through failure"
     ],
     "answer": "Give her a simple program she can complete successfully, then gradually increase complexity",
     "explanation": "Success builds self-efficacy. Starting with achievable tasks creates positive experiences that build the belief I can do this, motivating her to tackle more challenging problems later.",
@@ -35,7 +35,7 @@
       "Have them practice on the hardest prospects first to build toughness",
       "Have them rehearse with easy-to-close customers to experience wins, then gradually target harder accounts",
       "Tell them to ignore rejection and keep the same approach",
-      "Reduce their sales targets to make success easier to achieve which is a critical factor to consider in this context"
+      "Reduce their sales targets to make success easier to achieve"
     ],
     "answer": "Have them rehearse with easy-to-close customers to experience wins, then gradually target harder accounts",
     "explanation": "Experiencing small wins rebuilds self-efficacy. The positive feeling of closing a deal motivates persistence and provides momentum to tackle more challenging prospects.",
@@ -46,7 +46,7 @@
     "content": "Experiencing success builds self-efficacy: the belief in your ability to succeed. This confidence motivates further learning and helps you persist through challenges.",
     "description": "A child struggles with tying shoelaces and wants to give up. What approach applies Success is the Best Teacher?",
     "options": [
-      "Tie the shoes for them to avoid frustration which is a critical factor to consider in this context",
+      "Tie the shoes for them to avoid frustration",
       "Break the task into smaller steps, have them succeed at one step at a time",
       "Tell them they will never learn if they give up",
       "Make them practice tying shoes for an hour straight"
@@ -60,7 +60,7 @@
     "content": "As we master skills, the knowledge becomes tacit: we know how to do things without being able to explain them. This makes it hard for experts to teach beginners.",
     "description": "An experienced software developer says: Just refactor the code base. It is simple. Beginners find this overwhelming. This exemplifies:",
     "options": [
-      "The developer is being unhelpful on purpose which is a critical factor to consider in this context",
+      "The developer is being unhelpful on purpose",
       "Knowledge Becomes Invisible with Experience: the expert has automatized the process in their mind",
       "The developer lacks teaching skills and should be replaced",
       "The code base is actually simple and the beginners are overthinking"
@@ -74,7 +74,7 @@
     "content": "As we master skills, the knowledge becomes tacit: we know how to do things without being able to explain them. This makes it hard for experts to teach beginners.",
     "description": "A master baker cannot explain why the dough feels right. They just know. This inability to articulate their expertise illustrates:",
     "options": [
-      "Ineffective teaching methods that need improvement which is a critical factor to consider in this context",
+      "Ineffective teaching methods that need improvement",
       "The baker is hiding trade secrets from competitors",
       "Knowledge Becomes Invisible with Experience: tactile expertise becomes intuitive over time",
       "The baker has never learned the science behind baking"
@@ -91,7 +91,7 @@
       "The instructor is a bad teacher who should be fired",
       "Shifting gears is something that cannot be taught at all",
       "The instructor has forgotten what it was like to learn, making the knowledge invisible to them",
-      "The student is not trying hard enough to understand which is a critical factor to consider in this context"
+      "The student is not trying hard enough to understand"
     ],
     "answer": "The instructor has forgotten what it was like to learn, making the knowledge invisible to them",
     "explanation": "Experienced drivers have automatized gear shifting so completely that they cannot access the step-by-step process anymore. The knowledge has become tacit and therefore invisible to the expert.",

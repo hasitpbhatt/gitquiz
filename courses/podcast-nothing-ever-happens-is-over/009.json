@@ -7,7 +7,7 @@
       "It requires them to create more complex APIs to communicate.",
       "It makes them more generalist, allowing them to interface with other people's work without needing explicit instructions.",
       "It forces them to specialize even further to stay ahead of the AI.",
-      "It replaces the need for any human-to-human interface. which is a critical factor to consider in this context"
+      "It replaces the need for any human-to-human interface."
     ],
     "answer": "It makes them more generalist, allowing them to interface with other people's work without needing explicit instructions.",
     "explanation": "Naval notes that AI lets specialists do a bit of everything, creating better 'touch points' because the AI handles the discovery of how to connect their disparate workflows.",
@@ -18,7 +18,7 @@
     "content": "Naval uses the term 'vibe coding' to describe a future where building software is driven by high-level intent and 'vibe' rather than low-level syntax. As this is democratized, the competitive advantage shifts from 'knowing how to code' to 'knowing what to build.'",
     "description": "What is the primary shift in labor value that occurs when 'vibe coding' becomes hundreds of times more common than traditional coding?",
     "options": [
-      "The value of a computer science degree increases. which is a critical factor to consider in this context",
+      "The value of a computer science degree increases.",
       "The value shifts toward people who have the vision and 'vibe' to direct AI agents.",
       "Software becomes more expensive because of the complexity of 'vibes.'",
       "People stop building software and return to manual labor."
@@ -35,7 +35,7 @@
       "To make the AI talk in a more human-like voice.",
       "To allow the AI to take actions and adjust its behavior based on the results.",
       "To ensure the AI stays connected to the central data center.",
-      "To prevent the AI from becoming too optimistic. which is a critical factor to consider in this context"
+      "To prevent the AI from becoming too optimistic."
     ],
     "answer": "To allow the AI to take actions and adjust its behavior based on the results.",
     "explanation": "Naval emphasizes that a world model isn't just a 3D image; it’s an 'agent' that can test the world, see what happened, and learn from it.",
@@ -46,7 +46,7 @@
     "content": "Historically, hardware products like 'programmable lamps' failed because writing the custom software to control them was too expensive for small companies. Naval suggests that AI now makes this software trivial, allowing hardware manufacturers to focus entirely on their physical product.",
     "description": "How does AI 'unlock' a hardware niche like 'programmable lamps' or 'security cameras'?",
     "options": [
-      "By making the physical components cheaper to buy. which is a critical factor to consider in this context",
+      "By making the physical components cheaper to buy.",
       "By allowing an AI agent to control the hardware directly, removing the need for custom consumer software.",
       "By forcing all lamp manufacturers to use the same open-source software.",
       "By automating the shipping and delivery of the lamps."
@@ -62,7 +62,7 @@
     "options": [
       "Closed-source AI labs like OpenAI.",
       "Hardware players including Nvidia and most of China.",
-      "Bioethicists and medical regulators. which is a critical factor to consider in this context",
+      "Bioethicists and medical regulators.",
       "Venture Capitalists who only fund software companies."
     ],
     "answer": "Hardware players including Nvidia and most of China.",
@@ -74,7 +74,7 @@
     "content": "Naval discusses the shift from a 'stagnant' world to an 'accelerated' one. He believes the meme that 'nothing ever happens' is dead because we are seeing rapid, phase-shifting changes in geopolitics, economics, and technology simultaneously.",
     "description": "According to Naval, what role did COVID play in the current speed of global change?",
     "options": [
-      "It slowed down progress by closing factories. which is a critical factor to consider in this context",
+      "It slowed down progress by closing factories.",
       "It may have broken an unstable equilibrium, leading to a phase shift where everything moves faster.",
       "It proved that technology cannot solve real-world biological problems.",
       "It forced the world to become more centralized and slower."
@@ -88,7 +88,7 @@
     "content": "Just as AI allows more people to code ('vibe coding'), it also allows more people to access biological expertise. Naval warns that this democratization could increase the number of people capable of creating bioweapons by hundreds or thousands of times.",
     "description": "What is Naval's primary concern regarding the democratization of biological expertise?",
     "options": [
-      "That there won't be enough jobs for biologists. which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "That there won't be enough jobs for biologists.",
       "That the power to create dangerous viruses will be in the hands of far more people than in the past.",
       "That AI will take over the research of vaccines.",
       "That biological research will become too expensive for the government."
@@ -102,7 +102,7 @@
     "content": "Naval argues that AI has the potential to solve medical therapies if it can access massive datasets. However, these datasets are currently 'hidden behind silos and regulations.' He believes anonymizing this data is the key to a 'defensive' AI strategy.",
     "description": "What is the 'real opportunity' Naval sees for AI in medicine?",
     "options": [
-      "To replace human nurses with robots. which is a critical factor to consider in this context",
+      "To replace human nurses with robots.",
       "To analyze massive, anonymized datasets to discover new therapies and stop diseases.",
       "To allow patients to write their own prescriptions using AI.",
       "To make medical school shorter by using AI tutors."
@@ -116,7 +116,7 @@
     "content": "In times of 'interesting' (dangerous or fast-changing) times, Naval argues that optimism is a moral and creative duty. Doomers fixate on destruction because it's easier to imagine, but only the 'irrational' optimist can build the next era.",
     "description": "How does Naval describe the difference between imagining 'doom' and imagining 'rising up'?",
     "options": [
-      "Doom is harder to imagine because it requires complex math. which is a critical factor to consider in this context",
+      "Doom is harder to imagine because it requires complex math.",
       "Doom is 'legible' and easy to see, while rising up requires 'creativity' and imagining the unknown.",
       "Rising up is only possible for people who work in hierarchies.",
       "There is no difference; both require the same amount of effort."
@@ -130,7 +130,7 @@
     "content": "While current wisdom says AI training must be centralized in massive data centers, Naval mentions that a bet on 'distributed training'—training across many smaller nodes—would be a major contrarian move that could break the current oligopoly of AI labs.",
     "description": "What is the current 'conventional wisdom' regarding AI training that Naval mentions?",
     "options": [
-      "That AI can only be trained on mobile phones. which is a critical factor to consider in this context",
+      "That AI can only be trained on mobile phones.",
       "That AI training is moving toward centralization in a few massive data centers due to power and data limits.",
       "That AI will soon stop improving because we've run out of data.",
       "That open-source AI is the only way to achieve AGI."

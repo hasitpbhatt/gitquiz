@@ -5,7 +5,7 @@
     "description": "Your production system has a sudden spike in error rates at 3 AM. A human engineer would need to be paged, wake up, investigate, and then mitigate. According to Guillermo Rauch's approach at Vercel, what should the ideal infrastructure do instead?",
     "options": [
       "Automatically detect the anomaly, diagnose the cause, and in some cases",
-      "Alert a rotating team of on-call engineers via pager for manual investigation",
+      "Alert rotating teams of on-call engineers via pager for manual investigation",
       "Roll back the most recent deployment regardless of whether it caused the issue",
       "Escalate to the VP of Engineering who decides whether to wake the team"
     ],
@@ -61,7 +61,7 @@
     "description": "Your company's cloud infrastructure spending has grown unmanageably complex with hundreds of services. A human team struggles to optimize costs. What does Naval mean by applying autonomous optimization to this problem?",
     "options": [
       "Hire a dedicated FinOps team to manually review and optimize cloud spending monthly",
-      "Negotiate better enterprise discounts with the cloud provider to reduce per-unit costs",
+      "Negotiate enterprise discounts with the cloud provider to reduce per-unit costs",
       "Build an autonomous system that continuously monitors usage and adjusts resources",
       "Migrate all services to a single cheaper cloud provider for a fixed discount"
     ],
@@ -89,11 +89,11 @@
     "description": "You've vibe-coded a solution to a problem that hundreds of people complain about online. Yet when you ask them to install and test the alpha version, almost nobody agrees. What does Naval's TestFlight story suggest about why?",
     "options": [
       "The app is not visible enough and needs better marketing",
-      "People say they want solutions but very few are willing to invest the",
+      "People say they want solutions but very few are willing to invest time",
       "The problem is not actually important enough for people to care about",
-      "Vibe-coded apps are inherently unreliable and users can sense the low quality"
+      "Vibe-coded apps are inherently unreliable and users can quickly sense the low quality"
     ],
-    "answer": "People say they want solutions but very few are willing to invest the",
+    "answer": "People say they want solutions but very few are willing to invest time",
     "explanation": "Naval says: 'He's like, nobody will install the app. People complain about the problem, but then they won't install the test to use it.' This reveals the gap between stated demand and actual willingness to participate in creation.",
     "difficulty": "medium"
   },
@@ -116,12 +116,12 @@
     "content": "Naval observes that every company accepts a massive iceberg of technical debt — thousands of known bugs and imperfections that are never prioritized. An autonomous bug-fixing daemon would collapse this latent backlog by fixing issues the moment they appear.",
     "description": "A CTO defends their team's large bug backlog by saying all companies have technical debt and it's normal to accept some imperfection. Based on Naval's analysis, what does this acceptance really represent?",
     "options": [
-      "A responsible triage decision to focus developer time on high-value features",
-      "An implicit acceptance of massive inefficiency that an autonomous fixer",
+      "A triage decision to focus developer time on high-value features",
+      "An implicit acceptance of massive inefficiency that an autonomous fixer collapses",
       "The natural and unavoidable consequence of all software development at scale",
       "A sign that the engineering team is understaffed and needs more headcount"
     ],
-    "answer": "An implicit acceptance of massive inefficiency that an autonomous fixer",
+    "answer": "An implicit acceptance of massive inefficiency that an autonomous fixer collapses",
     "explanation": "Naval says: 'Every company has an iceberg of technical debt that they accept. An autonomous bug-fixing daemon would collapse this latent backlog by fixing issues the moment they appear.'",
     "difficulty": "medium"
   }

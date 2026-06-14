@@ -7,7 +7,7 @@
       "The agent runs in a read-only environment",
       "The agent has full control over its infrastructure including networking and provisioning",
       "The agent is limited to editing code only",
-      "The agent cannot access the internet which is a critical factor to consider in this context"
+      "The agent cannot access the internet"
     ],
     "answer": "The agent has full control over its infrastructure including networking and provisioning",
     "explanation": "Harness in the box gives the agent full control over its environment, including the ability to create VMs, manage networking, install packages, and run arbitrary commands. Devin uses this approach.",
@@ -21,7 +21,7 @@
       "Harness in the box",
       "Harness out of the box",
       "Sandbox escape",
-      "Privilege escalation which is a critical factor to consider in this context"
+      "Privilege escalation"
     ],
     "answer": "Harness out of the box",
     "explanation": "Harness out of the box provides the agent with a controlled, pre-configured set of tools. The agent has no ability to modify its environment or access infrastructure not explicitly exposed. This is more secure but limits the agent's capabilities.",
@@ -48,7 +48,7 @@
     "options": [
       "The agent cannot install packages",
       "A compromised agent has full access to the environment and everything in it",
-      "The agent runs too slowly which is a critical factor to consider in this context",
+      "The agent runs too slowly",
       "The agent cannot access any network resources"
     ],
     "answer": "A compromised agent has full access to the environment and everything in it",
@@ -63,7 +63,7 @@
       "In-the-box makes state simpler but harder to snapshot; out-of-the-box makes state explicit but requires more scaffolding",
       "In-the-box is always better for security",
       "Out-of-the-box has no state management concerns",
-      "Both approaches handle state identically which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Both approaches handle state identically"
     ],
     "answer": "In-the-box makes state simpler but harder to snapshot; out-of-the-box makes state explicit but requires more scaffolding",
     "explanation": "With harness in the box, all state lives inside the environment (simple but hard to replicate/restore). With harness out of the box, state must be explicitly managed and passed between tools (more scaffolding but easier to snapshot and restore).",
@@ -76,7 +76,7 @@
     "options": [
       "All repos share the same global token",
       "Each repository has its own scoped set of credentials",
-      "Secrets are hardcoded in agent prompts which is a critical factor to consider in this context",
+      "Secrets are hardcoded in agent prompts",
       "Devin does not support secrets at all"
     ],
     "answer": "Each repository has its own scoped set of credentials",
@@ -91,7 +91,7 @@
       "It manages user authentication and billing",
       "It runs the actual agent execution in isolated environments",
       "It stores training data for the model",
-      "It generates marketing copy which is a critical factor to consider in this context"
+      "It generates marketing copy"
     ],
     "answer": "It runs the actual agent execution in isolated environments",
     "explanation": "The worker plane is where agent execution happens, running code, installing dependencies, testing. It is separated from the control plane which handles orchestration, routing, and state management.",
@@ -105,7 +105,7 @@
       "Docker Compose is incompatible with agent platforms",
       "You can have the agent run Docker Compose just as a developer would on their local machine",
       "You need to rewrite all Docker Compose files for agents",
-      "Agents cannot use Docker at all which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "Agents cannot use Docker at all"
     ],
     "answer": "You can have the agent run Docker Compose just as a developer would on their local machine",
     "explanation": "Walden's advice is to just use Docker Compose, reuse your existing development infrastructure instead of building agent-specific infrastructure. The agent can run Docker Compose the same way a developer does, minimizing custom platform work.",

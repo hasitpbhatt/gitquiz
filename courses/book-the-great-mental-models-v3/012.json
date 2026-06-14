@@ -7,7 +7,7 @@
       "A heuristic — a rule of thumb for cooking",
       "An algorithm — a precise, repeatable procedure that guarantees a consistent outcome",
       "A feedback loop adjusting temperature as needed",
-      "An emergent property of ingredient interactions which is a critical factor to consider in this context"
+      "An emergent property of ingredient interactions"
     ],
     "answer": "An algorithm — a precise, repeatable procedure that guarantees a consistent outcome",
     "explanation": "A recipe is a classic algorithm: exact inputs defined, steps ordered, and the same output produced every time when followed precisely.",
@@ -21,7 +21,7 @@
       "A detailed diagnostic algorithm",
       "A heuristic — a rapid mental shortcut based on experience that is fast but not guaranteed correct",
       "A power law prediction model",
-      "A sampling-based statistical inference which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken"
+      "A sampling-based statistical inference"
     ],
     "answer": "A heuristic — a rapid mental shortcut based on experience that is fast but not guaranteed correct",
     "explanation": "Heuristics trade certainty for speed. In the ER, speed can be life-saving. The doctor’s shortcut may occasionally be wrong, but it is faster than running through the full diagnostic algorithm.",
@@ -34,7 +34,7 @@
     "options": [
       "The managers are ignoring the company’s standard operating procedures",
       "During unexpected disruptions, there is no time to compute the optimal solution — heuristics provide fast, good-enough decisions",
-      "Amazon has not invested enough in automation which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Amazon has not invested enough in automation",
       "Conveyor breakdowns are too rare to need algorithmic solutions"
     ],
     "answer": "During unexpected disruptions, there is no time to compute the optimal solution — heuristics provide fast, good-enough decisions",
@@ -46,7 +46,7 @@
     "content": "Use rigorous algorithms for high-stakes, repeatable tasks where errors are costly and there is time to execute the full procedure.",
     "description": "An airline pre-flight checklist is followed exactly the same way every time, with no shortcuts or skipping steps. Why are heuristic shortcuts inappropriate here?",
     "options": [
-      "Pilots are not trained to use heuristics which is a critical factor to consider in this context — this aspect directly shapes the overall approach that should be taken",
+      "Pilots are not trained to use heuristics",
       "The cost of an error is catastrophic (plane crash), so the guarantee of correctness from an algorithm is essential",
       "Checklists are required by regulations but are not operationally necessary",
       "Heuristics would be faster but pilots prefer checklists out of habit"
@@ -62,7 +62,7 @@
     "options": [
       "It guarantees the company loses less money overall",
       "It empowers quick, reversible decisions (small refunds) while freeing managers for complex cases",
-      "Customers always demand refunds under $50 which is a critical factor to consider in this context",
+      "Customers always demand refunds under $50",
       "It is an algorithm, not a heuristic, because it has clear rules"
     ],
     "answer": "It empowers quick, reversible decisions (small refunds) while freeing managers for complex cases",
@@ -77,7 +77,7 @@
       "Always deploy immediately using gut feel — speed is everything",
       "Use an algorithmic CI/CD pipeline with automated tests for safety, but allow hotfix heuristics for critical bugs",
       "Always run the full algorithmic test suite even for trivial CSS changes — safety above all",
-      "Never deploy without a manager’s heuristic approval which is a critical factor to consider in this context"
+      "Never deploy without a manager’s heuristic approval"
     ],
     "answer": "Use an algorithmic CI/CD pipeline with automated tests for safety, but allow hotfix heuristics for critical bugs",
     "explanation": "The efficiency rule separates concerns: automated tests (algorithm) for routine safety, and hotfix bypass (heuristic) for emergencies where speed is critical and rollback is possible.",

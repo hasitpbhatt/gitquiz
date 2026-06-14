@@ -7,7 +7,7 @@
       "The law of diminishing returns — each additional unit of input produces less marginal output",
       "Reinforcing feedback in agricultural systems",
       "The margin of safety in fertilizer application",
-      "Churn in soil nutrient levels which is a critical factor to consider in this context"
+      "Churn in soil nutrient levels"
     ],
     "answer": "The law of diminishing returns — each additional unit of input produces less marginal output",
     "explanation": "With land fixed (the constraint), each additional bag of fertilizer yields less incremental benefit. Eventually, adding more fertilizer would actually reduce yield.",
@@ -21,7 +21,7 @@
       "Facebook ads are not effective and should be stopped entirely",
       "The marginal return per dollar is declining — time to diversify into other channels",
       "Spend $40,000 to push past the plateau",
-      "The ads need better creative content which is a critical factor to consider in this context"
+      "The ads need better creative content"
     ],
     "answer": "The marginal return per dollar is declining — time to diversify into other channels",
     "explanation": "The first $10K yielded 100 customers (0.01/customer). The next $10K yielded 40 ($250/customer). The third yielded 20 ($500/customer). The marginal return is falling sharply — allocate elsewhere.",
@@ -35,7 +35,7 @@
       "The developers were not skilled enough",
       "Hiring can experience negative marginal returns due to coordination overhead overwhelming any additional capacity",
       "The project should have been cancelled",
-      "More project managers were needed which is a critical factor to consider in this context"
+      "More project managers were needed"
     ],
     "answer": "Hiring can experience negative marginal returns due to coordination overhead overwhelming any additional capacity",
     "explanation": "Diminishing returns can go negative. Adding people to a late project increases communication paths (n(n-1)/2), creating more overhead than productive work — Brooks’ Law in action.",
@@ -48,7 +48,7 @@
     "options": [
       "Study 10 hours to compensate for the low-productivity hours",
       "Study in focused blocks with breaks — recognizing that marginal returns diminish sharply after peak focus duration",
-      "Drink caffeine to extend productive study time which is a critical factor to consider in this context",
+      "Drink caffeine to extend productive study time",
       "Only study the easy topics during long sessions"
     ],
     "answer": "Study in focused blocks with breaks — recognizing that marginal returns diminish sharply after peak focus duration",
@@ -60,7 +60,7 @@
     "content": "Scaling ad spend on a single platform exhausts the highest-intent audience first. Each additional dollar reaches lower-intent prospects, driving cost per acquisition upward.",
     "description": "A startup scales its Google Ads daily budget from $100 to $5,000. Initially, cost per acquisition was $20. At $5,000/day, CPA rises to $150. What causes this?",
     "options": [
-      "Google is overcharging them which is a critical factor to consider in this context",
+      "Google is overcharging them",
       "The highest-intent audience converts first; scaling forces targeting lower-intent users with diminishing returns",
       "The ad creative is getting stale and needs to be refreshed",
       "Their landing page conversion rate is declining"
@@ -77,7 +77,7 @@
       "Push the team to make 400 calls to get more deals",
       "Keep calling volume at around 200 and invest remaining effort into improving conversion rate or lead quality",
       "Reduce calling to 100 since the additional calls are wasted",
-      "Fire underperforming salespeople and hire better ones which is a critical factor to consider in this context"
+      "Fire underperforming salespeople and hire better ones"
     ],
     "answer": "Keep calling volume at around 200 and invest remaining effort into improving conversion rate or lead quality",
     "explanation": "The first 100 calls produce 10 deals (0.10/deal). The next 100 produce 5 (0.05/deal). The next 100 produce 1 (0.01/deal). Beyond 200 calls, the marginal return is negligible — pivot resources elsewhere.",
@@ -88,7 +88,7 @@
     "content": "The law of diminishing returns is mathematically expressed as d²Y/dX² < 0 — the second derivative of output with respect to input is negative, indicating that marginal output is decreasing.",
     "description": "A factory increases workers from 10 to 11 and output rises by 100 units. From 11 to 12, output rises by 80 units. From 12 to 13, output rises by 65 units. What does the declining increment tell you about the second derivative of output?",
     "options": [
-      "The second derivative is positive, meaning returns are accelerating which is a critical factor to consider in this context",
+      "The second derivative is positive, meaning returns are accelerating",
       "The second derivative is negative, confirming the law of diminishing returns is at work",
       "The first derivative is zero, meaning maximum output has been reached",
       "The function is linear and additional workers will always add 100 units"
@@ -105,7 +105,7 @@
       "5 — more workers always mean more total output",
       "4 — the fifth worker adds $100 but costs $500, generating negative marginal profit",
       "3 — to maintain the highest average productivity per worker",
-      "2 — to maximize profit per worker which is a critical factor to consider in this context"
+      "2 — to maximize profit per worker"
     ],
     "answer": "4 — the fifth worker adds $100 but costs $500, generating negative marginal profit",
     "explanation": "Hire as long as marginal return > marginal cost. Worker 4 adds $500 of value at $500 cost — break-even. Worker 5 adds $100 at $500 cost — a loss. The optimal is 4 workers.",

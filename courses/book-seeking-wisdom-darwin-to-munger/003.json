@@ -6,7 +6,7 @@
     "options": [
       "Large numbers make rare failures nearly certain, while small operations may never encounter them",
       "The founder should have personally managed every new location",
-      "Scaling always reduces quality regardless of systems in place which is a critical factor to consider in this context",
+      "Scaling always reduces quality regardless of systems in place",
       "Customers at new locations have different tastes than original customers"
     ],
     "answer": "Large numbers make rare failures nearly certain, while small operations may never encounter them",
@@ -21,7 +21,7 @@
       "Accurate for all natural phenomena",
       "False because each lightning strike is an independent event",
       "True because lightning rods protect struck locations",
-      "Correct only in tropical climates which is a critical factor to consider in this context"
+      "Correct only in tropical climates"
     ],
     "answer": "False because each lightning strike is an independent event",
     "explanation": "Past lightning strikes do not affect the probability of future strikes at the same location. Each strike is an independent event. The same applies to many real-world probabilities we misunderstand.",
@@ -46,7 +46,7 @@
     "content": "With a large enough sample of opportunities, seemingly miraculous coincidences become statistically likely. The law of truly large numbers means rare events happen all the time when enough chances exist.",
     "description": "You dream about an old friend you have not seen in years, and the next day you run into them at the airport. This feels miraculous, but is most likely:",
     "options": [
-      "Evidence of precognitive abilities which is a critical factor to consider in this context",
+      "Evidence of precognitive abilities",
       "A coincidence made probable by the vast number of daily events",
       "The friend having psychic powers too",
       "A sign from a higher power"
@@ -60,7 +60,7 @@
     "content": "Base rate neglect occurs when we ignore the general frequency of an event in a population and focus only on specific information, leading to overestimation of rare occurrences.",
     "description": "A medical test for a rare disease is 99 percent accurate. You test positive. Without knowing the disease affects only 1 in 10,000 people, you might conclude you almost certainly have it. But considering the base rate:",
     "options": [
-      "You definitely have the disease which is a critical factor to consider in this context",
+      "You definitely have the disease",
       "A positive result means nothing statistically",
       "The chance of actually having the disease remains very low",
       "The test accuracy is irrelevant to your case"
@@ -77,7 +77,7 @@
       "The difference between mean and median in a skewed distribution",
       "Hidden costs that employees cannot see",
       "Inflation adjustments that reduce purchasing power",
-      "Industry-wide salary standards for comparison which is a critical factor to consider in this context"
+      "Industry-wide salary standards for comparison"
     ],
     "answer": "The difference between mean and median in a skewed distribution",
     "explanation": "When a distribution is heavily skewed, with a few very high earners, the mean can be misleadingly high. The median better represents the typical experience. Always ask which measure of center is being used.",
@@ -105,7 +105,7 @@
       "Assuming the average return represented a likely single-year outcome",
       "Investing in stocks at all during retirement",
       "Believing historical returns predict future returns",
-      "Not hiring a professional financial advisor which is a critical factor to consider in this context"
+      "Not hiring a professional financial advisor"
     ],
     "answer": "Assuming the average return represented a likely single-year outcome",
     "explanation": "Average returns describe long-term trends, not typical individual years. Stock returns vary widely around the average. Mistaking the average for what should happen each year shows misunderstanding of probability distributions.",

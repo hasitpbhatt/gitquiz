@@ -4,7 +4,7 @@
     "content": "Every choice has an opportunity cost, the value of the next best alternative foregone. Not considering what we give up by choosing one option leads to poor resource allocation.",
     "description": "A couple spends $30,000 on a luxury vacation. They could have used the money for a down payment on a rental property or invested in the stock market. The best alternative they gave up is:",
     "options": [
-      "The cost of the vacation itself which is a critical factor to consider in this context",
+      "The cost of the vacation itself",
       "The opportunity cost of not choosing the best alternative use",
       "Only the money they could have saved",
       "Nothing, since they derived enjoyment from the vacation"
@@ -35,7 +35,7 @@
       "Is the software easy to install?",
       "What specific percentage improvement is expected, and how is it measured?",
       "Does the software have a nice user interface?",
-      "Are there cheaper alternatives available? which is a critical factor to consider in this context"
+      "Are there cheaper alternatives available?"
     ],
     "answer": "What specific percentage improvement is expected, and how is it measured?",
     "explanation": "Vague claims cannot be evaluated or verified. Quantification forces the proposer to define what significant means and how productivity will be measured, enabling proper cost-benefit analysis.",
@@ -46,7 +46,7 @@
     "content": "Not all evidence is equal. We must evaluate the reliability of sources, the methodology behind data, and whether conclusions follow logically from the evidence presented.",
     "description": "A study claims that drinking coffee extends lifespan, based on surveying 100 people at a coffee convention. The evidence is weak because:",
     "options": [
-      "Coffee is universally unhealthy which is a critical factor to consider in this context",
+      "Coffee is universally unhealthy",
       "The sample is biased and the methodology is flawed",
       "Lifespan studies always require 50-year follow-ups",
       "Survey data is never reliable"
@@ -62,7 +62,7 @@
     "options": [
       "The strong candidate will demand a high salary",
       "Without comparing alternatives, a better option may be missed",
-      "Canceling interviews wastes the recruiter preparation time which is a critical factor to consider in this context",
+      "Canceling interviews wastes the recruiter preparation time",
       "The candidate will feel less valued without competition"
     ],
     "answer": "Without comparing alternatives, a better option may be missed",
@@ -104,7 +104,7 @@
     "options": [
       "The contractor poor relationship with suppliers",
       "Lack of margin of safety in the schedule",
-      "The renovation being inherently unpredictable which is a critical factor to consider in this context",
+      "The renovation being inherently unpredictable",
       "The materials being ordered too early"
     ],
     "answer": "Lack of margin of safety in the schedule",
@@ -119,7 +119,7 @@
       "The fishermen need for better equipment",
       "The tragedy of the commons from uncoordinated self-interest",
       "Natural fluctuations in fish populations",
-      "Government overregulation of fishing which is a critical factor to consider in this context"
+      "Government overregulation of fishing"
     ],
     "answer": "The tragedy of the commons from uncoordinated self-interest",
     "explanation": "Each fisherman individual incentive, catch more now, conflicts with the collective interest, sustainable fishing. Without coordination or rules, the shared resource is destroyed.",

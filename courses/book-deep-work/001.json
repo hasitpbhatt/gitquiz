@@ -4,7 +4,7 @@
     "content": "Deep work consists of professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.",
     "description": "A violinist practices a difficult piece for three hours with complete focus, eyes closed, working through each complex passage repeatedly. Her phone is in another room. What is this an example of?",
     "options": [
-      "Shallow work, because she is alone which is a critical factor to consider in this context",
+      "Shallow work, because she is alone",
       "Deep work, because she is pushing her cognitive limits in a state of focused concentration",
       "Deliberate idleness, because she is not producing anything tangible",
       "Multitasking, because she is playing multiple notes"
@@ -20,7 +20,7 @@
     "options": [
       "Deep work, because filing requires precision",
       "Shallow work, because it is a routine task that does not push cognitive limits",
-      "Elite production, because organization is valuable which is a critical factor to consider in this context",
+      "Elite production, because organization is valuable",
       "Strategic thinking, because it prepares for future work"
     ],
     "answer": "Shallow work, because it is a routine task that does not push cognitive limits",
@@ -35,7 +35,7 @@
       "She is at a disadvantage because she misses important messages",
       "She is well-positioned because the rare skill of intense focus produces high-value, hard-to-replicate work",
       "Her position is unchanged because talent matters more than work habits",
-      "She is falling behind because collaboration requires constant availability which is a critical factor to consider in this context"
+      "She is falling behind because collaboration requires constant availability"
     ],
     "answer": "She is well-positioned because the rare skill of intense focus produces high-value, hard-to-replicate work",
     "explanation": "The hypothesis predicts that as distraction becomes the norm, the minority who maintain deep focus will produce rare, valuable output that is increasingly prized in the economy.",
@@ -63,7 +63,7 @@
       "The sauce recipe is too difficult for her skill level",
       "Attention residue from the interrupted tasks is occupying her mental bandwidth",
       "She needs more kitchen experience before attempting complex sauces",
-      "The ingredients are arranged poorly on her workstation which is a critical factor to consider in this context"
+      "The ingredients are arranged poorly on her workstation"
     ],
     "answer": "Attention residue from the interrupted tasks is occupying her mental bandwidth",
     "explanation": "Every interruption leaves cognitive residue. By splitting her attention across multiple tasks, the chef never fully commits her mental resources to the sauce, leading to errors.",
@@ -91,7 +91,7 @@
       "The policy is working; responsiveness is a form of productivity",
       "The metric black hole prevents managers from seeing that deep work has been sacrificed for visible busyness",
       "Slack messages contain the most important strategic information",
-      "Employees are secretly working longer hours to compensate which is a critical factor to consider in this context"
+      "Employees are secretly working longer hours to compensate"
     ],
     "answer": "The metric black hole prevents managers from seeing that deep work has been sacrificed for visible busyness",
     "explanation": "Because deep output is hard to measure, managers default to visible metrics like response time. They cannot see the hidden cost: lost capacity for the deep thinking that drives real results.",
@@ -102,7 +102,7 @@
     "content": "In the absence of clear feedback on what behaviors drive results, people gravitate toward whatever is easiest in the moment. This explains why checking email feels more natural than wrestling with a difficult problem, even when the problem matters more.",
     "description": "A social media manager has two tasks: plan a quarterly content strategy (difficult, high-impact) and respond to comments (easy, low-impact). Every morning she starts with comments and never gets to the strategy. What explains this pattern?",
     "options": [
-      "Comments are more urgent than strategy which is a critical factor to consider in this context",
+      "Comments are more urgent than strategy",
       "The Law of Least Resistance: the brain gravitates toward the easier task in the moment",
       "Strategy work is not an official part of her job description",
       "Responding to comments generates more revenue directly"
@@ -119,7 +119,7 @@
       "The senior colleague, because results speak for themselves",
       "The new employee, because their visible busyness is easier to measure than actual deep output",
       "Both are equally valued since they both contribute",
-      "Neither; leadership values neither visibility nor results which is a critical factor to consider in this context"
+      "Neither; leadership values neither visibility nor results"
     ],
     "answer": "The new employee, because their visible busyness is easier to measure than actual deep output",
     "explanation": "In a metric black hole, visible activity becomes the proxy for productivity. The senior colleague's deep work is invisible, while the new employee's busyness creates the appearance of high productivity.",
@@ -133,7 +133,7 @@
       "Teachers are not tech-savvy enough to use the new tools",
       "The cult of the internet prioritized connectivity over the deep concentration required for effective teaching",
       "Interactive whiteboards are inherently inferior to chalkboards",
-      "Parents prefer email over messaging apps which is a critical factor to consider in this context"
+      "Parents prefer email over messaging apps"
     ],
     "answer": "The cult of the internet prioritized connectivity over the deep concentration required for effective teaching",
     "explanation": "Not every profession benefits from constant connectivity. Teaching requires sustained attention to student needs, which is undermined when the teacher's focus is fragmented by tools and notifications.",

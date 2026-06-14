@@ -21,7 +21,7 @@
       "Serve it anyway and hope customers do not notice",
       "Reduce sugar in the next batch and adjust other ingredients based on what is overpowered",
       "Throw out the recipe and start over from scratch",
-      "Add more sugar to make the sweetness consistent which is a critical factor to consider in this context"
+      "Add more sugar to make the sweetness consistent"
     ],
     "answer": "Reduce sugar in the next batch and adjust other ingredients based on what is overpowered",
     "explanation": "The chef uses feedback from the failed attempt to inform the next search iteration. By identifying the problem and adjusting only that variable, they systematically explore the solution space rather than discarding all progress.",
@@ -34,7 +34,7 @@
     "options": [
       "Stare at the problem until the answer comes",
       "Try different approaches: integration by parts, substitution, or partial fractions, learning from each dead end",
-      "Look up the answer and move on which is a critical factor to consider in this context",
+      "Look up the answer and move on",
       "Skip it and hope it is not on the exam"
     ],
     "answer": "Try different approaches: integration by parts, substitution, or partial fractions, learning from each dead end",
@@ -49,7 +49,7 @@
       "Never look at other designers work to avoid being influenced",
       "Recreate influential posters to understand design principles, then develop personal variations",
       "Only produce generic designs to avoid copyright concerns",
-      "Randomly combine colors and fonts hoping something works which is a critical factor to consider in this context"
+      "Randomly combine colors and fonts hoping something works"
     ],
     "answer": "Recreate influential posters to understand design principles, then develop personal variations",
     "explanation": "By copying master works, designers internalize spacing, color theory, typography, and layout principles. This technical foundation enables them to make intentional creative choices.",
@@ -63,7 +63,7 @@
       "Tracing will prevent the child from ever being creative",
       "Tracing helps develop motor control and shape recognition, building skills for future original art",
       "The child should only draw from imagination without any reference",
-      "Copying is cheating and should be discouraged which is a critical factor to consider in this context"
+      "Copying is cheating and should be discouraged"
     ],
     "answer": "Tracing helps develop motor control and shape recognition, building skills for future original art",
     "explanation": "Copying is a legitimate developmental stage. Just as children learn language by imitating sounds before forming original sentences, they learn visual skills by copying before creating original work.",
@@ -77,7 +77,7 @@
       "Avoid studying existing food delivery apps to stay original",
       "Analyze what successful delivery apps do well, replicate their best features, then add unique improvements",
       "Copy the most popular app exactly without changes",
-      "Ignore competitors and build something completely unrelated which is a critical factor to consider in this context"
+      "Ignore competitors and build something completely unrelated"
     ],
     "answer": "Analyze what successful delivery apps do well, replicate their best features, then add unique improvements",
     "explanation": "Innovation builds on existing solutions. By studying current leaders, founders learn what works and what does not, then use that foundation to create differentiated value.",
@@ -90,7 +90,7 @@
     "options": [
       "Write jokes without ever watching other comedians",
       "Study and perform routines from favorite comedians to understand timing and structure, then develop original material",
-      "Tell other comedians jokes verbatim on stage which is a critical factor to consider in this context",
+      "Tell other comedians jokes verbatim on stage",
       "Avoid all comedy to stay pure and original"
     ],
     "answer": "Study and perform routines from favorite comedians to understand timing and structure, then develop original material",
