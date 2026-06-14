@@ -13,7 +13,8 @@
       "options":     { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": "string" }, "description": "Exactly 4 plausible answer strings" },
       "answer":      { "type": "string", "description": "Must be identical to one of the options entries" },
       "explanation": { "type": "string", "description": "Teaching explanation" },
-      "difficulty":  { "type": "string", "enum": ["easy", "medium", "hard"] }
+      "difficulty":  { "type": "string", "enum": ["easy", "medium", "hard"] },
+      "blank":       { "type": "string", "description": "Optional cloze passage containing the answer verbatim, for fill-in-the-blank mode" }
     },
     "additionalProperties": false
   }

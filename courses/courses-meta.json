@@ -525,6 +525,7 @@
     "title": "Waste Tokens, Save Time",
     "type": "podcast",
     "chapters": 2,
+    "version": "v2",
     "source": "https://nav.al/tokens",
     "description": "Naval, Nivi, Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), and Max Hodak (Science Corp) on software factories, tokenmaxxing, and AI-native engineering.",
     "chapterDescriptions": {

@@ -32,21 +32,26 @@ mkdir -p courses/course-identifier/
 
 ### 5. Create Chapter JSON Files
 
-Each question has **exactly 7 fields**:
+Each question has **7 required fields** + 1 optional field:
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `question` | `string` | Short concept name |
-| `content` | `string` | 1-2 sentence concept definition |
-| `description` | `string` | Real-world scenario ending with `?` |
-| `options` | `string[]` | Exactly 4 plausible answers, no positional refs |
-| `answer` | `string` | Matches one option character-for-character |
-| `explanation` | `string` | Teaching explanation |
-| `difficulty` | `string` | `"easy"`, `"medium"`, or `"hard"` |
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `question` | `string` | Yes | Short concept name |
+| `content` | `string` | Yes | 1-2 sentence concept definition. Should naturally embed `answer` as a key term when possible for cloze support. |
+| `description` | `string` | Yes | Real-world scenario ending with `?` |
+| `options` | `string[]` | Yes | Exactly 4 plausible answers. See word-count rule below. |
+| `answer` | `string` | Yes | Matches one option character-for-character |
+| `explanation` | `string` | Yes | Teaching explanation |
+| `difficulty` | `string` | Yes | `"easy"`, `"medium"`, or `"hard"` |
+| `blank` | `string` | No | Cloze passage containing `answer` verbatim, for fill-in-the-blank mode |
 
-**Constraints**: All 7 fields required. Answer must match one option exactly (copy-paste to avoid mismatches). 4 options only. No positional references (`"Both A and B"`, `"All of the above"`). Difficulty lowercase only.
+**Constraints**: All 7 required fields must be present. Answer must match one option exactly (copy-paste to avoid mismatches). 4 options only. No positional references (`"Both A and B"`, `"All of the above"`). Difficulty lowercase only.
 
-**Answer length balance**: All 4 options should be of similar length (within ~40 characters of each other). The correct answer should NOT be visually identifiable as the longest option. If the answer is 50%+ longer than the next-longest option, the distractors need more detail.
+**Answer word-count balance (STRICT)**:
+- All 4 options must be within **±30% of the mean word count** of those 4 options
+- Example: if word counts are [8, 6, 9, 7], mean = 7.5, acceptable range = 5.25–9.75
+- **No mechanical padding**: The suffix `"which is a critical factor to consider in this context"` is **banned** — it appears on 1,431 options in the existing corpus and is a known detection signal. Padding must be context-appropriate expansions written specifically for each option, not a copy-paste template.
+- Run `node quiz/scripts/answer-length-audit.js` to verify compliance
 
 ### 5a. Difficulty Distribution
 - Easy (30-40%): Straightforward recall
@@ -54,6 +59,38 @@ Each question has **exactly 7 fields**:
 - Hard (15-25%): Synthesize multiple concepts, catch subtleties
 
 Hard techniques: trapdoor option, reverse application, boundary case, competing principles, option symmetry.
+
+### 5b. `blank` Field (Fill-in-the-Blank Cloze)
+
+When writing the optional `blank` field, follow these principles:
+
+- **Natural embedding**: The answer should appear within a natural sentence, not at the end with a forced lead-in like "This concept is called X"
+- **Definition style**: `blank` should read like a dictionary or textbook definition that happens to contain the term
+- **One passage**: A single sentence or two. Don't write a paragraph.
+- **Fallback**: If `blank` is absent, fill-blank mode tries `content`, then `description`, then falls back to "What term completes this definition?"
+
+**Example — good `blank`:**
+```json
+{
+  "question": "Opportunity Cost",
+  "answer": "Opportunity Cost",
+  "blank": "The value of the next best alternative forgone when making a decision is called Opportunity Cost.",
+  "content": "Every choice involves trade-offs; the next best thing you give up is the true cost of your decision.",
+  "description": "You choose to spend \$500 on a concert ticket rather than investing it..."
+}
+```
+
+Keep `content` as the brief concept explanation, and use `blank` only when you want a dedicated cloze passage. Most questions don't need it — prioritize questions where `answer` is a key term that doesn't naturally appear in `content`.
+
+### 5c. T/F Mode — Chapter-Level Concept Design
+
+True/False mode tests concept recognition by presenting a scenario and asking "Does this illustrate [concept]?" For wrong-concept labels, it picks from the `question` fields of other questions in the same chapter. For this to work well:
+
+- **Concept proximity**: Questions within a chapter should cover related but distinct concepts that a learner could plausibly confuse
+- **Wrong labels are automatic**: You don't need to write `falseLabels` — the engine picks a random `question` from the same chapter as the wrong label
+- **Single-question chapters**: T/F mode falls through to MCQ for chapters with only 1 question (no wrong label available)
+
+If all concepts in a chapter are too distinct (painfully obvious when mismatched), add a broader `description` that makes the wrong concept at least superficially plausible.
 
 ### 6. Update Courses List & Metadata
 Add to `courses/courses_list.txt` alphabetically, kebab-case, one per line.

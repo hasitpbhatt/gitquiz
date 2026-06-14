@@ -107,17 +107,21 @@ function determineMode(q, idx) {
     const diff = (q.difficulty || 'medium').toLowerCase();
     const rand = Math.random();
 
+    // T/F needs a wrong concept label from another question in the chapter
+    const hasOtherQuestions = quizData && quizData.length > 1;
+    const canTF = hasOtherQuestions;
+
     // Mastered concepts: mostly spaced-repetition modes
     if (hasMasteredMC) {
         if (rand < 0.50) return 'flashcard';
         if (rand < 0.75) return 'fillblank';
-        if (rand < 0.90) return 'truefalse';
+        if (rand < 0.90 && canTF) return 'truefalse';
         return 'mc';
     }
 
     // Not mastered — mix in variety to keep it engaging
     if (diff === 'easy') {
-        if (rand < 0.35) return 'truefalse';
+        if (rand < 0.35 && canTF) return 'truefalse';
         if (rand < 0.55) return 'flashcard';
         return 'mc';
     }
@@ -130,7 +134,7 @@ function determineMode(q, idx) {
 
     // Medium (unmastered): balanced spread
     if (rand < 0.25) return 'flashcard';
-    if (rand < 0.45) return 'truefalse';
+    if (rand < 0.45 && canTF) return 'truefalse';
     if (rand < 0.60) return 'fillblank';
     return 'mc';
 }
@@ -232,19 +236,19 @@ function renderTrueFalse(q) {
     bin.classList.remove('hidden');
     bin.innerHTML = '';
 
-    const correctAnswer = q.answer.trim();
-    const wrongAnswers = q.options.filter(o => o.trim() !== correctAnswer);
-    const wrongPick = wrongAnswers[Math.floor(Math.random() * wrongAnswers.length)];
-
-    // Show the scenario as context, then present a conclusion to evaluate
     document.getElementById('description-text').textContent = q.description || q.content || "";
 
-    const isTrueStatement = Math.random() < 0.5;
-    const conclusion = isTrueStatement ? correctAnswer : wrongPick;
+    // Pick a wrong concept label from another question in the same chapter
+    const otherQuestions = quizData.filter((_, i) => i !== currentIdx);
+    const otherConcepts = otherQuestions.map(qq => qq.question).filter(Boolean);
+    const hasWrongConcept = otherConcepts.length > 0;
+
+    const isTrueStatement = hasWrongConcept ? Math.random() < 0.5 : true;
+    const label = isTrueStatement ? q.question : otherConcepts[Math.floor(Math.random() * otherConcepts.length)];
 
     const info = document.createElement('div');
     info.className = 'p-4 bg-amber-50 dark:bg-amber-900/20 rounded-2xl border border-amber-200 dark:border-amber-800 text-sm font-600 text-amber-800 dark:text-amber-300 mb-3';
-    info.textContent = 'Conclusion: ' + conclusion;
+    info.textContent = 'This scenario illustrates: ' + label;
     bin.appendChild(info);
 
     ['True', 'False'].forEach((label) => {
@@ -278,11 +282,21 @@ function renderFillBlank(q) {
     document.getElementById('fillblank-ui').classList.remove('hidden');
 
     const answer = q.answer.trim();
-    let clozeText = q.description || q.content || "";
-    if (clozeText.includes(answer)) {
-        clozeText = clozeText.replace(answer, '______');
+
+    // Priority: blank -> content -> description -> fallback prompt
+    let clozeText, showDesc;
+    if (q.blank && q.blank.includes(answer)) {
+        clozeText = q.blank.replace(answer, '______');
+        showDesc = q.description;
+    } else if (q.content && q.content.includes(answer)) {
+        clozeText = q.content.replace(answer, '______');
+        showDesc = q.description;
+    } else if (q.description && q.description.includes(answer)) {
+        clozeText = q.description.replace(answer, '______');
+        showDesc = null;
     } else {
-        clozeText = `What is the term? ${clozeText}`;
+        clozeText = (q.content || '') + '\n\nWhat term completes this definition?';
+        showDesc = q.description;
     }
     document.getElementById('description-text').textContent = clozeText;
 

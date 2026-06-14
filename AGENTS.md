@@ -69,17 +69,18 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 
 ## Quiz JSON Format
 
-Each course folder contains numbered chapter files (`001.json`, `002.json`, ...). Each file is a JSON array of question objects with **exactly 7 fields**:
+Each course folder contains numbered chapter files (`001.json`, `002.json`, ...). Each file is a JSON array of question objects with **7 required fields** + 1 optional field:
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `question` | `string` | Short concept name (e.g., "Opportunity Cost") |
-| `content` | `string` | Brief 1-2 sentence explanation of the concept |
-| `description` | `string` | Real-world scenario ending with a question |
-| `options` | `string[]` | Array of **exactly 4** plausible answer strings. No positional refs. |
-| `answer` | `string` | Correct answer — must be **identical** (case, punctuation, whitespace) to one option |
-| `explanation` | `string` | Teaching explanation |
-| `difficulty` | `string` | `"easy"`, `"medium"`, or `"hard"` |
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `question` | `string` | Yes | Short concept name (e.g., "Opportunity Cost") |
+| `content` | `string` | Yes | Brief 1-2 sentence explanation of the concept |
+| `description` | `string` | Yes | Real-world scenario ending with a question |
+| `options` | `string[]` | Yes | Array of **exactly 4** plausible answer strings. No positional refs. |
+| `answer` | `string` | Yes | Correct answer — must be **identical** (case, punctuation, whitespace) to one option |
+| `explanation` | `string` | Yes | Teaching explanation |
+| `difficulty` | `string` | Yes | `"easy"`, `"medium"`, or `"hard"` |
+| `blank` | `string` | No | Cloze passage containing `answer` verbatim, for fill-in-the-blank mode |
 
 ```json
 [
@@ -104,7 +105,7 @@ Each course folder contains numbered chapter files (`001.json`, `002.json`, ...)
 
 ### Content & Quiz Rules
 
-1. **7 required fields per question**: `question`, `content`, `description`, `options` (array of 4), `answer`, `explanation`, `difficulty`. No extra fields, no missing fields.
+1. **7 required fields per question**: `question`, `content`, `description`, `options` (array of 4), `answer`, `explanation`, `difficulty`. No extra fields, no missing fields. An optional `blank` field may be added for cloze/fill-in-the-blank support.
 2. **Answer must match option exactly**: The `answer` string must be character-for-character identical to one entry in `options`. Trailing spaces, capitalization, and punctuation differences all cause validation failures.
 3. **4 options only**: Exactly 4 strings in `options`. No fewer, no more.
 4. **No positional references**: Options must not reference other options by letter/position (e.g., "Both A and B", "All of the above", "A & C", "None of the above"). These break when the JS runtime shuffles option order.
@@ -117,7 +118,7 @@ Each course folder contains numbered chapter files (`001.json`, `002.json`, ...)
 8. **Chapter files numbered 001.json, 002.json, etc.**: Zero-padded 3-digit numbers in filenames.
 9. **`courses_list.txt` alphabetically sorted**: After adding a new course, insert its ID in alphabetical order among existing entries.
 10. **`courses-meta.json` keys match `courses_list.txt`**: Every key in `courses-meta.json` must appear in `courses_list.txt` and vice versa. Both must be sorted identically. The `chapters` field must match `Get-ChildItem courses/<id>/*.json | Measure-Object | Select-Object -ExpandProperty Count`.
-11. **No answer-length bias**: The `answer` must not be uniquely longer or shorter than all other options. An answer that is strictly longer (or shorter) than every other option creates a gamable length hint. Bias is measured by **word count** (whitespace-delimited). Use `node quiz/scripts/answer-length-audit.js` to detect bias across all courses. Fixing bias requires intelligently expanding short wrong options — mechanical template-based padding does not count. Use an LLM to generate context-appropriate expansions.
+11. **Answer word-count balance**: All 4 options must be within **±20% of the mean word count** of those 4 options. The answer must not be uniquely longest/shortest (a known length-hint signal). Mechanical templated padding (e.g., appending `"which is a critical factor to consider in this context"`) is **banned** — this suffix appears on 1,431 options in the existing corpus and is a detectable cheat signal. Use `node quiz/scripts/answer-length-audit.js` to detect both ratio violations and banned padding. Fix bias by writing context-appropriate expansions for each option, never a copy-paste template.
 
 ### Workflow Rules
 
