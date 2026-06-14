@@ -34,15 +34,15 @@ test('quiz timer starts on initialization', { tag: '@quiz' }, async ({ page }) =
   expect(text).not.toBe('00:00');
 });
 
-test('score display updates on correct answer', { tag: '@quiz' }, async ({ page }) => {
+test('streak display increments on correct answer', { tag: '@quiz' }, async ({ page }) => {
   await page.goto('/?course=test-course');
   await page.waitForSelector('.option-btn');
 
-  const scoreVal = page.locator('#score-val');
-  await expect(scoreVal).toHaveText('0');
+  const streakVal = page.locator('#streak-val');
+  await expect(streakVal).toHaveText('0');
 
   await page.locator('.option-btn', { hasText: 'A container orchestrator' }).click();
-  await expect(scoreVal).not.toHaveText('0');
+  await expect(streakVal).toHaveText('1');
 });
 
 test('streak increments on consecutive correct answers', { tag: '@quiz' }, async ({ page }) => {
@@ -161,7 +161,7 @@ test('quiz renders all 4 options', { tag: '@quiz' }, async ({ page }) => {
   await expect(page.locator('#options-bin .option-btn')).toHaveCount(4);
 });
 
-test('score increases by base 100 points for correct answer', { tag: '@quiz' }, async ({ page }) => {
+test('score unchanged for first correct answer (no streak bonus yet)', { tag: '@quiz' }, async ({ page }) => {
   await page.goto('/?course=test-course');
   await page.waitForSelector('.option-btn');
 
@@ -169,8 +169,7 @@ test('score increases by base 100 points for correct answer', { tag: '@quiz' }, 
 
   const scoreText = await page.locator('#score-val').textContent();
   const scoreNum = parseInt(scoreText.replace(/,/g, ''), 10);
-  expect(scoreNum).toBeGreaterThanOrEqual(100);
-  expect(scoreNum).toBeLessThanOrEqual(150);
+  expect(scoreNum).toBe(0);
 });
 
 test('daily streak badge shows persisted streak on page load', { tag: '@quiz' }, async ({ page }) => {
@@ -189,8 +188,64 @@ test('daily streak updated in localStorage after quiz starts', { tag: '@quiz' },
   await page.goto('/?course=test-course');
   await page.waitForSelector('.option-btn');
 
+  const today = new Date().toISOString().slice(0, 10);
   const data = await page.evaluate(() => JSON.parse(localStorage.getItem('quizDailyStreak')));
   expect(data).not.toBeNull();
   expect(data.count).toBe(1);
-  expect(data.lastDate).toBe('2026-06-01');
+  expect(data.lastDate).toBe(today);
+});
+
+test('lifeline bar visible in MCQ mode', { tag: '@quiz' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await expect(page.locator('#lifeline-bar')).toBeVisible();
+  await expect(page.locator('#lifeline-btn')).toBeVisible();
+});
+
+test('50/50 dims two options when clicked', { tag: '@quiz' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('#lifeline-btn').click();
+  const dimmed = page.locator('.option-dimmed');
+  await expect(dimmed).toHaveCount(2);
+  const enabled = page.locator('.option-btn:not(.option-dimmed)');
+  await expect(enabled).toHaveCount(2);
+});
+
+test('lifeline button shows used state after click', { tag: '@quiz' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('#lifeline-btn').click();
+  await expect(page.locator('#lifeline-btn')).toHaveClass(/used/);
+});
+
+test('lifeline state persisted in localStorage after use', { tag: '@quiz' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('#lifeline-btn').click();
+  const state = await page.evaluate(() => JSON.parse(localStorage.getItem('quizLifelines')));
+  expect(state['test-course_001'].fifty).toBe(true);
+});
+
+test('confidence bar appears after answering MCQ', { tag: '@quiz' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await expect(page.locator('#confidence-bar')).toBeHidden();
+  await page.locator('.option-btn', { hasText: 'A container orchestrator' }).click();
+  await expect(page.locator('#confidence-bar')).toBeVisible();
+});
+
+test('confidence buttons are clickable and show selected state', { tag: '@quiz' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('.option-btn', { hasText: 'A container orchestrator' }).click();
+  const confBtn = page.locator('.conf-btn').first();
+  await confBtn.click();
+  await expect(confBtn).toHaveClass(/selected/);
 });

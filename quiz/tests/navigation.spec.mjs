@@ -102,3 +102,41 @@ test('return to catalog button visible on completion', { tag: '@navigation' }, a
 
   await expect(page.locator('text=Return to Catalog')).toBeVisible();
 });
+
+test('chapter-end lifeline bonus notification when token unused', { tag: '@navigation' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('.option-btn', { hasText: 'A container orchestrator' }).click();
+  await page.click('#next-btn');
+  await page.locator('.option-btn', { hasText: 'A group of containers' }).click();
+  await page.click('#next-btn');
+
+  await expect(page.locator('h4:has-text("Lifeline Bonus")')).toBeVisible();
+});
+
+test('lifeline state marked as used after chapter-end bonus', { tag: '@navigation' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('.option-btn', { hasText: 'A container orchestrator' }).click();
+  await page.click('#next-btn');
+  await page.locator('.option-btn', { hasText: 'A group of containers' }).click();
+  await page.click('#next-btn');
+
+  const llState = await page.evaluate(() => JSON.parse(localStorage.getItem('quizLifelines')));
+  expect(llState['test-course_001'].fifty).toBe(true);
+});
+
+test('no lifeline bonus when token already used', { tag: '@navigation' }, async ({ page }) => {
+  await page.goto('/?course=test-course');
+  await page.waitForSelector('.option-btn');
+
+  await page.locator('#lifeline-btn').click();
+  await page.locator('.option-btn:not(.option-dimmed)').first().click();
+  await page.click('#next-btn');
+  await page.locator('.option-btn', { hasText: 'A group of containers' }).click();
+  await page.click('#next-btn');
+
+  await expect(page.locator('h4:has-text("Lifeline Bonus")')).toHaveCount(0);
+});

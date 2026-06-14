@@ -10,6 +10,11 @@ import {
   calculateScore,
   calculateNewStreak,
   getTodayStr,
+  getLifelineStateHelper,
+  markLifelineUsedHelper,
+  clearLifelinesHelper,
+  storeConfidenceHelper,
+  getConfidenceHelper,
 } from './test-helpers.mjs';
 
 const CATALOG = ['book-atomic-habits', 'book-deep-work', 'podcast-tim-ferriss', 'coursera-ml'];
@@ -340,5 +345,86 @@ describe('getShareUrl additional edge cases', () => {
     const parts = url.split('/');
     const modFile = parts.pop();
     assert.ok(modFile === '001');
+  });
+});
+
+describe('getLifelineStateHelper', () => {
+  it('returns empty object for unknown courseKey', () => {
+    assert.deepStrictEqual(getLifelineStateHelper('book-test_001', {}), {});
+  });
+
+  it('returns stored state for existing courseKey', () => {
+    const data = { 'book-test_001': { fifty: true } };
+    assert.deepStrictEqual(getLifelineStateHelper('book-test_001', data), { fifty: true });
+  });
+
+  it('returns empty object when fifty is false', () => {
+    const data = { 'book-test_001': { fifty: false } };
+    assert.deepStrictEqual(getLifelineStateHelper('book-test_001', data), { fifty: false });
+  });
+});
+
+describe('markLifelineUsedHelper', () => {
+  it('sets fifty: true for given courseKey', () => {
+    const result = markLifelineUsedHelper('book-test_001', {});
+    assert.deepStrictEqual(result, { 'book-test_001': { fifty: true } });
+  });
+
+  it('does not affect other courseKeys', () => {
+    const initial = { 'other_001': { fifty: false } };
+    const result = markLifelineUsedHelper('book-test_001', initial);
+    assert.deepStrictEqual(result['other_001'], { fifty: false });
+    assert.deepStrictEqual(result['book-test_001'], { fifty: true });
+  });
+
+  it('overwrites existing false value', () => {
+    const initial = { 'book-test_001': { fifty: false } };
+    const result = markLifelineUsedHelper('book-test_001', initial);
+    assert.strictEqual(result['book-test_001'].fifty, true);
+  });
+});
+
+describe('clearLifelinesHelper', () => {
+  it('returns empty object', () => {
+    assert.deepStrictEqual(clearLifelinesHelper(), {});
+  });
+});
+
+describe('storeConfidenceHelper', () => {
+  const key = 'book-test_001_0';
+
+  it('stores confidence level for a question key', () => {
+    const result = storeConfidenceHelper('book-test', '001_0', 3, {});
+    assert.strictEqual(result[key].confidence, 3);
+  });
+
+  it('preserves existing mastery fields for the key', () => {
+    const initial = { [key]: { correctMC: 5, flashcardMissed: false } };
+    const result = storeConfidenceHelper('book-test', '001_0', 2, initial);
+    assert.strictEqual(result[key].correctMC, 5);
+    assert.strictEqual(result[key].flashcardMissed, false);
+    assert.strictEqual(result[key].confidence, 2);
+  });
+
+  it('does not affect other keys', () => {
+    const initial = { 'other_001_0': { correctMC: 1 } };
+    const result = storeConfidenceHelper('book-test', '001_0', 1, initial);
+    assert.strictEqual(Object.keys(result).length, 2);
+  });
+});
+
+describe('getConfidenceHelper', () => {
+  it('returns null when no confidence stored', () => {
+    assert.strictEqual(getConfidenceHelper('book-test', '001_0', {}), null);
+  });
+
+  it('returns stored confidence value', () => {
+    const data = { 'book-test_001_0': { confidence: 2 } };
+    assert.strictEqual(getConfidenceHelper('book-test', '001_0', data), 2);
+  });
+
+  it('returns null when key exists but no confidence field', () => {
+    const data = { 'book-test_001_0': { correctMC: 1 } };
+    assert.strictEqual(getConfidenceHelper('book-test', '001_0', data), null);
   });
 });

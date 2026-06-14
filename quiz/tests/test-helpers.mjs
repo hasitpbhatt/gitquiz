@@ -66,3 +66,34 @@ export function calculateNewStreak(lastDate, lastCount, todayStr) {
   const yesterdayStr = d.toISOString().slice(0, 10);
   return lastDate === yesterdayStr ? (lastCount || 0) + 1 : 1;
 }
+
+// ---------- 50/50 Lifeline helpers ----------
+
+export function getLifelineStateHelper(courseKey, lifelineData = {}) {
+  return lifelineData[courseKey] || {};
+}
+
+export function markLifelineUsedHelper(courseKey, lifelineData = {}) {
+  const data = { ...lifelineData };
+  data[courseKey] = { fifty: true };
+  return data;
+}
+
+export function clearLifelinesHelper() {
+  return {};
+}
+
+// ---------- Confidence helpers ----------
+
+export function storeConfidenceHelper(courseKey, idx, level, masteryData = {}) {
+  const key = `${courseKey}_${idx}`;
+  const data = { ...masteryData };
+  if (!data[key]) data[key] = { correctMC: 0, flashcardMissed: false };
+  data[key].confidence = level;
+  return data;
+}
+
+export function getConfidenceHelper(courseKey, idx, masteryData = {}) {
+  const key = `${courseKey}_${idx}`;
+  return masteryData[key]?.confidence || null;
+}

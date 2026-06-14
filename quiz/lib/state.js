@@ -205,3 +205,44 @@ function updateThemeIcon(theme) {
     if (!icon) return;
     icon.textContent = theme === 'dark' ? '☀️' : '🌙';
 }
+
+// ---------- 50/50 Lifeline ----------
+
+const LIFELINE_KEY = 'quizLifelines';
+
+function getLifelineState(courseKey) {
+    try {
+        const data = JSON.parse(localStorage.getItem(LIFELINE_KEY)) || {};
+        return data[courseKey] || { fifty: false };
+    } catch {
+        return { fifty: false };
+    }
+}
+
+function markLifelineUsed(courseKey) {
+    try {
+        const data = JSON.parse(localStorage.getItem(LIFELINE_KEY)) || {};
+        data[courseKey] = { fifty: true };
+        localStorage.setItem(LIFELINE_KEY, JSON.stringify(data));
+    } catch {}
+}
+
+function clearLifelines() {
+    localStorage.removeItem(LIFELINE_KEY);
+}
+
+// ---------- Confidence Rating ----------
+
+function storeConfidence(courseKey, idx, level) {
+    const mastery = getConceptMasteryData();
+    const key = `${courseKey}_${idx}`;
+    if (!mastery[key]) mastery[key] = { correctMC: 0, flashcardMissed: false };
+    mastery[key].confidence = level;
+    localStorage.setItem(CONCEPT_MASTERY_KEY, JSON.stringify(mastery));
+}
+
+function getConfidence(courseKey, idx) {
+    const mastery = getConceptMasteryData();
+    const key = `${courseKey}_${idx}`;
+    return mastery[key]?.confidence || null;
+}

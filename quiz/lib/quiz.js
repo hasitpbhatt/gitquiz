@@ -1,6 +1,7 @@
 // @ts-check
 
 let prefetchedNextModulePromise = null;
+let lifelineUsedThisQuestion = false;
 
 function startTimer() {
     secondsElapsed = 0;
@@ -11,6 +12,22 @@ function startTimer() {
         const secs = (secondsElapsed % 60).toString().padStart(2, '0');
         document.getElementById('timer-val').innerText = `${mins}:${secs}`;
     }, 1000);
+}
+
+function pauseTimer() {
+    clearInterval(timerInterval);
+    timerInterval = null;
+}
+
+function resumeTimer() {
+    if (!timerInterval && !document.getElementById('quiz-container').classList.contains('hidden')) {
+        timerInterval = setInterval(() => {
+            secondsElapsed++;
+            const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
+            const secs = (secondsElapsed % 60).toString().padStart(2, '0');
+            document.getElementById('timer-val').innerText = `${mins}:${secs}`;
+        }, 1000);
+    }
 }
 
 function shuffleArray(array) {
@@ -141,20 +158,26 @@ function determineMode(q, idx) {
 
 // ---------- Shared completion helpers ----------
 
-function showExplanationAfterAnswer(q, isCorrect, selectedAnswer) {
-    if (isCorrect) {
-        correctCount++;
-        const streakBonus = streak > 2 ? 20 : 0;
-        score += (streakBonus);
-        const scoreEl = document.getElementById('score-val');
-        scoreEl.innerText = score.toLocaleString();
-        scoreEl.classList.remove('score-pop');
-        void scoreEl.offsetWidth;
-        scoreEl.classList.add('score-pop');
-    } else {
-        streak = 0;
+function showExplanationAfterAnswer(q, isCorrect, selectedAnswer, opts = {}) {
+    if (!opts.skipScoring) {
+        if (isCorrect) {
+            correctCount++;
+            const streakBonus = streak > 2 ? 20 : 0;
+            let points = streakBonus;
+            if (lifelineUsedThisQuestion) {
+                points = Math.floor(points / 2);
+            }
+            score += points;
+            const scoreEl = document.getElementById('score-val');
+            scoreEl.innerText = score.toLocaleString();
+            scoreEl.classList.remove('score-pop');
+            void scoreEl.offsetWidth;
+            scoreEl.classList.add('score-pop');
+        } else {
+            streak = 0;
+        }
+        document.getElementById('streak-val').innerText = streak;
     }
-    document.getElementById('streak-val').innerText = streak;
 
     lastSelectedAnswer = selectedAnswer || '';
     lastAnswerCorrect = isCorrect;
@@ -164,11 +187,23 @@ function showExplanationAfterAnswer(q, isCorrect, selectedAnswer) {
     const answerReveal = isCorrect ? '' : `<p class="text-sm font-700 text-emerald-600 dark:text-emerald-400 mb-2">Correct answer: ${escapeHtml(q.answer)}</p>`;
     expEl.innerHTML = `<h4 class="font-800 text-xs uppercase tracking-widest mb-2">Expert Feedback</h4>${answerReveal}<p class="text-sm font-500">${escapeHtml(expText)}</p>`;
     expEl.classList.remove('hidden');
-    document.getElementById('topic-title').classList.remove('hidden');
-    document.getElementById('content-box').classList.remove('hidden');
+    if (!opts.skipReveal) {
+        document.getElementById('topic-title').classList.remove('hidden');
+        document.getElementById('content-box').classList.remove('hidden');
+    }
     setTimeout(() => expEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
     document.getElementById('next-btn-wrapper').classList.add('visible');
     document.getElementById('next-btn').classList.remove('hidden');
+
+    // Show confidence bar for MCQ mode
+    if (currentMode === 'mc' && !opts.skipScoring) {
+        const confBar = document.getElementById('confidence-bar');
+        if (confBar) {
+            confBar.classList.remove('hidden');
+            // Reset any previous selection
+            confBar.querySelectorAll('.conf-btn').forEach(b => b.classList.remove('selected'));
+        }
+    }
 
     if (MISTRAL_PROXY_URL) {
         const aiSec = document.getElementById('ai-section');
@@ -224,11 +259,88 @@ function renderMC(q) {
     });
 }
 
+// ---------- 50/50 Lifeline ----------
+
+function updateLifelineBar() {
+    const bar = document.getElementById('lifeline-bar');
+    const btn = document.getElementById('lifeline-btn');
+    if (!bar || !btn) return;
+    if (currentMode !== 'mc') {
+        bar.classList.add('hidden');
+        return;
+    }
+    const courseKey = getCourseKey();
+    const state = getLifelineState(courseKey);
+    if (state.fifty) {
+        btn.classList.add('used');
+        bar.classList.remove('hidden');
+    } else {
+        btn.classList.remove('used');
+        bar.classList.remove('hidden');
+    }
+}
+
+function useFiftyFifty() {
+    if (currentMode !== 'mc') return;
+    const courseKey = getCourseKey();
+    const state = getLifelineState(courseKey);
+    if (state.fifty) return;
+
+    const btns = document.querySelectorAll('.option-btn');
+    if (btns.length < 2) return;
+
+    const correctAnswer = quizData[currentIdx].answer.trim();
+    const wrongBtns = [];
+    btns.forEach(b => {
+        const opt = (b.dataset.option || '').trim();
+        if (opt !== correctAnswer) wrongBtns.push(b);
+    });
+
+    // Shuffle and dim 2 wrong ones
+    const dimmed = shuffleArray(wrongBtns).slice(0, 2);
+    dimmed.forEach(b => b.classList.add('option-dimmed'));
+
+    markLifelineUsed(courseKey);
+    lifelineUsedThisQuestion = true;
+    const btn = document.getElementById('lifeline-btn');
+    if (btn) btn.classList.add('used');
+}
+
+// ---------- Confidence Rating ----------
+
+function rateConfidence(level) {
+    if (currentMode !== 'mc') return;
+    const q = quizData[currentIdx];
+    if (!q) return;
+    const courseKey = getCourseKey();
+    storeConfidence(courseKey, currentIdx, level);
+
+    // Visual feedback
+    const confBar = document.getElementById('confidence-bar');
+    if (!confBar) return;
+    const btns = confBar.querySelectorAll('.conf-btn');
+    btns.forEach(b => {
+        b.classList.remove('selected');
+        if (parseInt(b.dataset.level) === level) b.classList.add('selected');
+    });
+}
+
 function renderFlashcard(q) {
     document.getElementById('flashcard-ui').classList.remove('hidden');
-    document.getElementById('flashcard-question-text').textContent = q.question || "Concept " + (currentIdx + 1);
+    document.getElementById('flashcard-concept').textContent = q.question || "Concept " + (currentIdx + 1);
+    document.getElementById('flashcard-content').textContent = q.content || "";
+    document.getElementById('flashcard-desc').textContent = q.description || "";
+    const container = document.getElementById('flashcard-container');
+    container.classList.remove('flipped');
+    const btns = document.getElementById('flashcard-buttons');
+    btns.classList.remove('visible');
     document.getElementById('flashcard-got-it').disabled = false;
     document.getElementById('flashcard-missed').disabled = false;
+    container.onclick = function () {
+        this.classList.add('flipped');
+        this.onclick = null;
+        setTimeout(() => btns.classList.add('visible'), 400);
+    };
 }
 
 function renderTrueFalse(q) {
@@ -321,16 +433,15 @@ function flashcardSelfAssess(gotIt) {
     disableAllInteractive();
 
     if (gotIt) {
-        streak++;
+        correctCount++;
         const courseKey = getCourseKey();
         markConceptCorrect(courseKey, currentIdx);
     } else {
-        streak = 0;
         const courseKey = getCourseKey();
         markFlashcardMissed(courseKey, currentIdx);
     }
 
-    showExplanationAfterAnswer(q, gotIt, gotIt ? 'Got it' : 'Missed it');
+    showExplanationAfterAnswer(q, gotIt, gotIt ? 'Got it' : 'Missed it', { skipScoring: true, skipReveal: true });
     document.getElementById('flashcard-ui').classList.add('hidden');
 }
 
@@ -386,6 +497,7 @@ function renderQuestion() {
 
     // Determine mode
     currentMode = determineMode(q, currentIdx);
+    lifelineUsedThisQuestion = false;
 
     // Mode badge
     const modeBadge = document.getElementById('mode-badge');
@@ -431,6 +543,8 @@ function renderQuestion() {
 
     // Reset post-answer elements
     document.getElementById('explanation').classList.add('hidden');
+    const confidenceBar = document.getElementById('confidence-bar');
+    if (confidenceBar) confidenceBar.classList.add('hidden');
     document.getElementById('next-btn').classList.add('hidden');
     document.getElementById('next-btn-wrapper').classList.remove('visible');
     const aiSection = document.getElementById('ai-section');
@@ -449,6 +563,13 @@ function renderQuestion() {
             .catch(() => null);
     }
 
+    // Timer management per mode
+    if (currentMode === 'flashcard') {
+        pauseTimer();
+    } else {
+        resumeTimer();
+    }
+
     // Dispatch to mode renderer
     switch (currentMode) {
         case 'flashcard': renderFlashcard(q); break;
@@ -456,6 +577,9 @@ function renderQuestion() {
         case 'fillblank': renderFillBlank(q); break;
         default: renderMC(q); break;
     }
+
+    // Show lifeline button only for MCQ if token available
+    updateLifelineBar();
 }
 
 // ---------- Navigation ----------
@@ -601,6 +725,17 @@ async function checkNaturalEnd() {
         if (courseId && !isNaN(chNum)) {
             markChapterComplete(courseId, chNum);
             courseDone = isCourseComplete(courseId);
+        }
+    }
+
+    // 50/50 lifeline: unused token awards +200 bonus at chapter boundary
+    if (currentUrl) {
+        const courseKey = getCourseKey();
+        const llState = getLifelineState(courseKey);
+        if (!llState.fifty) {
+            score += 200;
+            markLifelineUsed(courseKey);
+            showNotify("💡 Lifeline Bonus", "Unused 50:50 token: +200 points!");
         }
     }
 

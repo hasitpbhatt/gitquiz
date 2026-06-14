@@ -195,6 +195,12 @@
                 <span id="question-counter" class="text-xs font-700 text-slate-400 whitespace-nowrap">0 / 0</span>
             </div>
 
+            <div id="lifeline-bar" class="hidden flex justify-end mb-3">
+                <button id="lifeline-btn" onclick="useFiftyFifty()" class="lifeline-btn">
+                    💡 50:50
+                </button>
+            </div>
+
             <div class="grid grid-cols-3 gap-4 mb-6">
                 <div class="glass-card p-4 rounded-2xl text-center">
                     <span class="block text-[9px] uppercase tracking-widest font-800 text-slate-500 dark:text-slate-400">Score</span>
@@ -236,12 +242,23 @@
                     <div id="options-bin" class="space-y-3"></div>
 
                     <div id="flashcard-ui" class="hidden space-y-4">
-                        <div class="p-8 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border-2 border-slate-200 dark:border-slate-700 text-center">
-                            <p id="flashcard-question-text" class="text-xl font-800 text-blue-600"></p>
+                        <div class="flashcard-container" id="flashcard-container">
+                            <div class="flashcard-inner">
+                                <div class="flashcard-front">
+                                    <p class="flashcard-label">Concept</p>
+                                    <p id="flashcard-question-text" class="flashcard-concept"></p>
+                                    <p class="flashcard-hint">Tap to reveal</p>
+                                </div>
+                                <div class="flashcard-back">
+                                    <p class="flashcard-label">Definition</p>
+                                    <p id="flashcard-content-text" class="flashcard-content"></p>
+                                    <p id="flashcard-desc-text" class="flashcard-desc"></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex gap-3">
-                            <button id="flashcard-got-it" class="option-btn flex-1 p-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-800 text-center border-0 shadow-lg shadow-emerald-500/20" onclick="flashcardSelfAssess(true)">Got it ✓</button>
-                            <button id="flashcard-missed" class="option-btn flex-1 p-4 bg-rose-500 hover:bg-rose-600 text-white rounded-2xl font-800 text-center border-0 shadow-lg shadow-rose-500/20" onclick="flashcardSelfAssess(false)">Missed it ✗</button>
+                        <div id="flashcard-buttons" class="flex gap-3 opacity-0 translate-y-2 transition-all duration-300">
+                            <button id="flashcard-got-it" class="flex-1 p-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-800 text-center border-0 shadow-lg shadow-emerald-500/20 active:scale-[0.97] transition-all" onclick="flashcardSelfAssess(true)">Got it ✓</button>
+                            <button id="flashcard-missed" class="flex-1 p-4 bg-rose-500 hover:bg-rose-600 text-white rounded-2xl font-800 text-center border-0 shadow-lg shadow-rose-500/20 active:scale-[0.97] transition-all" onclick="flashcardSelfAssess(false)">Missed it ✗</button>
                         </div>
                     </div>
 
@@ -255,6 +272,15 @@
                     </div>
 
                     <div id="explanation" class="hidden p-6 bg-emerald-50 dark:bg-emerald-900/20 rounded-2xl border border-emerald-100 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 animate-in fade-in slide-in-from-top-2 duration-300"></div>
+
+                    <div id="confidence-bar" class="hidden space-y-3 p-4 bg-indigo-50 dark:bg-indigo-900/20 rounded-2xl border border-indigo-100 dark:border-indigo-800">
+                        <p class="text-[10px] font-700 uppercase tracking-widest text-slate-500 dark:text-slate-400">How confident are you?</p>
+                        <div class="flex gap-2">
+                            <button class="conf-btn" data-level="1" onclick="rateConfidence(1)">🤔 Guess</button>
+                            <button class="conf-btn" data-level="2" onclick="rateConfidence(2)">😐 Unsure</button>
+                            <button class="conf-btn" data-level="3" onclick="rateConfidence(3)">💪 Confident</button>
+                        </div>
+                    </div>
 
                     <div id="ai-section" class="hidden space-y-3">
                         <p class="text-[10px] font-700 uppercase tracking-widest text-slate-500 dark:text-slate-400">Explain with AI:</p>
