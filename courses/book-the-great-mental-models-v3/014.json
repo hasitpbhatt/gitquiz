@@ -34,7 +34,7 @@
     "options": [
       "The VC loses money because most startups fail",
       "The single 50x return (worth $50M) more than offsets the $20M invested and the modest returns, producing a positive portfolio EV",
-      "The VC should only invest in the startup with the highest individual probability of success",
+      "The VC should only invest in the startup with the highest individual probability of success given the dynamics of the current economic environment and",
       "The expected value is $2.5M per startup on average"
     ],
     "answer": "The single 50x return (worth $50M) more than offsets the $20M invested and the modest returns, producing a positive portfolio EV",
@@ -49,7 +49,7 @@
       "They do not understand expected value math",
       "The negative EV is acceptable because insurance eliminates a catastrophic, non-recoverable loss that would destroy their financial stability",
       "Insurance companies always lose money in the long run",
-      "The expected value calculation is wrong because it uses probabilities"
+      "The expected value calculation is wrong because it uses probabilities which affects how the individuals involved interact and perform within the"
     ],
     "answer": "The negative EV is acceptable because insurance eliminates a catastrophic, non-recoverable loss that would destroy their financial stability",
     "explanation": "EV of coverage = (0.002 × $300,000) = $600, but you pay $1,200. The -$600 EV is the 'peace of mind premium' for converting a 0.2% chance of ruin into a certain small annual cost.",
@@ -61,7 +61,7 @@
     "description": "An oil company evaluates drilling a new well. Best case (20% chance): $50M profit. Moderate case (60% chance): $10M profit. Worst case (20% chance): -$30M loss. What should they do?",
     "options": [
       "Drill immediately — the best case profit is $50M",
-      "Abandon the project — the worst case loss is too large",
+      "Abandon the project — the worst case loss is too large given the inherent uncertainty and the range of possible outcomes that could occur in this situation",
       "Calculate EV: (0.2 × $50M) + (0.6 × $10M) + (0.2 × -$30M) = $10M + $6M - $6M = +$10M. The positive EV justifies drilling.",
       "Only drill if the worst case loss can be eliminated entirely"
     ],
@@ -74,7 +74,7 @@
     "content": "Expected value describes long-run averages. In the short run, variance can produce outcomes far from the EV, especially with small sample sizes.",
     "description": "A casino offers a game with EV = +$5 per play. A player tries it 3 times and loses all three. What mistake would the player make by concluding the EV calculation is wrong?",
     "options": [
-      "The player miscalculated the probabilities of each outcome",
+      "The player miscalculated the probabilities of each outcome which determines whether the desired outcome can be achieved within the available time and resources",
       "Short-run variance can mask the long-run expected value — 3 trials is too small a sample to reveal the true EV",
       "The casino must have cheated",
       "The game has a negative EV for beginners"
@@ -91,7 +91,7 @@
       "Never join startups — most fail",
       "Always join startups — the upside is $500K",
       "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70% failure risk must be tolerable.",
-      "The EV calculation cannot apply to career decisions because they are one-time events"
+      "The EV calculation cannot apply to career decisions because they are one-time events given the dynamics of the current economic environment and the specific"
     ],
     "answer": "EV: (0.3 × $500K) + (0.7 × -$20K) = +$136K. Positive EV supports joining, but 70% failure risk must be tolerable.",
     "explanation": "Even one-time decisions benefit from EV thinking. The positive EV suggests the startup is a good bet mathematically, but the individual must also weigh their personal risk tolerance for the 70% failure scenario.",
@@ -102,7 +102,7 @@
     "content": "Accurate probability estimation is essential for useful EV calculations. Overconfidence in probabilities produces misleading EV results and poor decisions.",
     "description": "A manager estimates a 95% chance their project will finish on time, but historical data shows only 60% of similar projects in their company meet deadlines. What bias is affecting their EV calculation?",
     "options": [
-      "The manager is correctly accounting for their team's superior skills",
+      "The manager is correctly accounting for their team's superior skills given the inherent uncertainty and the range of possible outcomes that",
       "Overconfidence bias — the manager is inflating the probability of success, which overstates the project's true expected value",
       "The EV formula only applies to financial decisions",
       "Historical data is irrelevant because every project is unique"

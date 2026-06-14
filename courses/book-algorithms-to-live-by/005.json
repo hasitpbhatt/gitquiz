@@ -21,7 +21,7 @@
       "Answer quick emails first, then tackle the longer ones",
       "Only respond to emails from your boss",
       "Delete all emails without reading them",
-      "Reply to every email with a lengthy response"
+      "Reply to every email with a lengthy response which influences how the"
     ],
     "answer": "Answer quick emails first, then tackle the longer ones",
     "explanation": "SPT minimizes average completion time by clearing quick tasks first. This gives rapid psychological wins and reduces the number of pending items quickly, making your inbox feel more manageable.",
@@ -103,7 +103,7 @@
     "description": "You're a financial advisor prioritizing client issues. How should WSPT guide your decision-making?",
     "options": [
       "Prioritize by value per hour - contract size divided by fix time",
-      "Always work on the client who complains the loudest",
+      "Always work on the client who complains the loudest which affects how the individuals involved",
       "Focus only on clients with the smallest accounts",
       "Randomly select which client to help each day"
     ],
@@ -117,7 +117,7 @@
     "description": "You're organizing a conference with multiple sessions. Why might being 5 minutes late to 10 sessions hurt more than being 60 minutes late to one session?",
     "options": [
       "Tardiness accumulates - multiple small latenesses often create worse disruption than one large lateness",
-      "Being late to one session is always worse regardless of duration",
+      "Being late to one session is always worse regardless of duration based on the patterns that emerge",
       "Conference attendees prefer consistent lateness patterns",
       "The total minutes late are actually the same in both scenarios"
     ],
@@ -131,7 +131,7 @@
     "description": "You're trying to write a novel while also learning a complex software program. Why might attempting to 'multitask' these activities be ineffective?",
     "options": [
       "Deep focus on two demanding tasks at once is impossible",
-      "You're actually better at learning when distracted by writing",
+      "You're actually better at learning when distracted by writing given the dynamics of",
       "Writing novels improves software comprehension",
       "You have unlimited cognitive bandwidth for parallel processing"
     ],

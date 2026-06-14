@@ -4,7 +4,7 @@
     "content": "In Chapter 5, AI is presented as 'The Muse'—a tool that excels at overcoming the 'blank page' problem. While humans often struggle to generate the first dozen ideas, AI can generate hundreds of varied, novel concepts instantly. This shifts the human's role from 'creator of ideas' to 'curator of possibilities.'",
     "description": "A charity team is stuck on a slogan for a holiday food drive. According to the 'AI as Muse' concept, how should they proceed?",
     "options": [
-      "Ask the AI to pick the final slogan and launch the campaign immediately.",
+      "Ask the AI to pick the final slogan and launch the campaign immediately. which affects how the individuals involved interact and",
       "Use AI to generate 50 diverse slogans, then use human judgment to pick and refine the top three.",
       "Avoid AI because it isn't truly 'creative' in the biological sense.",
       "Wait for a human creative director to have a breakthrough moment without tools."
@@ -46,7 +46,7 @@
     "content": "Humans suffer from 'functional fixedness'—we see an object and can only imagine its traditional use. AI doesn't have this bias. It can suggest using a paperclip as a surgical tool or a pizza box as a solar oven because it doesn't 'know' what things are 'supposed' to be used for.",
     "description": "In a brainstorming session, an AI suggests using old shipping containers as modular classrooms. This helps the human team by:",
     "options": [
-      "Providing a cheaper alternative to building.",
+      "Providing a cheaper alternative to building. since the quality of the",
       "Breaking 'functional fixedness' and allowing for divergent thinking.",
       "Automating the construction process.",
       "Reducing the need for human architects."
@@ -62,7 +62,7 @@
     "options": [
       "Their ability to type faster than others.",
       "Their ability to curate, edit, and inject unique human meaning into the AI's output.",
-      "Their ability to keep the AI's use a secret.",
+      "Their ability to keep the AI's use a secret. since developing expertise requires dedicated effort and deliberate",
       "The amount of money they spend on AI subscriptions."
     ],
     "answer": "Their ability to curate, edit, and inject unique human meaning into the AI's output.",
@@ -76,7 +76,7 @@
     "options": [
       "Rewrite the ending yourself from scratch.",
       "Tell the AI: 'The tone is great, but make the ending more bittersweet and realistic.'",
-      "Ask the AI to start the whole story over.",
+      "Ask the AI to start the whole story over. which reflects the ethical standards and values that guide",
       "Accept the happy ending because the AI 'knows best.'"
     ],
     "answer": "Tell the AI: 'The tone is great, but make the ending more bittersweet and realistic.'",
@@ -90,7 +90,7 @@
     "options": [
       "Because the AI is broken.",
       "Because the user provided a generic prompt that pushed the AI to the statistical average of its training.",
-      "Because the AI doesn't have a high enough resolution.",
+      "Because the AI doesn't have a high enough resolution. given the inherent uncertainty and the range of possible outcomes that could",
       "Because the AI is trying to avoid offending anyone."
     ],
     "answer": "Because the user provided a generic prompt that pushed the AI to the statistical average of its training.",
@@ -105,7 +105,7 @@
       "Yes, because art without suffering isn't real.",
       "No, because the creativity is realized in the human's emotional response and the utility of the idea.",
       "Yes, because the AI is just tricking the human.",
-      "No, because the AI probably copied that melody from a sad song."
+      "No, because the AI probably copied that melody from a sad song. which influences how the overall system performs and"
     ],
     "answer": "No, because the creativity is realized in the human's emotional response and the utility of the idea.",
     "explanation": "In Co-Intelligence, the human is the 'meaning-maker.' If the AI provides the spark that leads to a human emotional or creative breakthrough, the partnership was successful.",
@@ -118,7 +118,7 @@
     "options": [
       "Give me a new fundraiser idea.",
       "Give me a fundraiser idea for a school that involves the whole neighborhood, uses no food, and costs less than $50 to start.",
-      "What is a profitable way to raise money?",
+      "What is a profitable way to raise money? given the inherent uncertainty and the range of possible outcomes that could occur in this situation",
       "List 10 ways to make money quickly."
     ],
     "answer": "Give me a fundraiser idea for a school that involves the whole neighborhood, uses no food, and costs less than $50 to start.",
@@ -132,7 +132,7 @@
     "options": [
       "Knowing how to operate a physical camera.",
       "Vision, storytelling, and the ability to direct the AI to capture specific emotional nuances.",
-      "Being able to draw every frame by hand.",
+      "Being able to draw every frame by hand. which affects how the individuals involved interact and perform",
       "Memorizing the names of every actor in history."
     ],
     "answer": "Vision, storytelling, and the ability to direct the AI to capture specific emotional nuances.",

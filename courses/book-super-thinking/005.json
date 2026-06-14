@@ -20,7 +20,7 @@
     "options": [
       "The forest becomes healthier without predators",
       "Deer populations explode, leading to overgrazing and plant loss",
-      "Other predators immediately replace wolves' ecological role",
+      "Other predators immediately replace wolves' ecological role which influences how the overall",
       "No significant changes occur"
     ],
     "answer": "Deer populations explode, leading to overgrazing and plant loss",
@@ -35,7 +35,7 @@
       "Rabbits will migrate to find better islands",
       "Rabbit population will decrease due to starvation and disease",
       "The island will magically produce more resources",
-      "Rabbits will stop reproducing until balance is restored"
+      "Rabbits will stop reproducing until balance is restored which is an important"
     ],
     "answer": "Rabbit population will decrease due to starvation and disease",
     "explanation": "When population exceeds carrying capacity, resources become insufficient. Competition increases, leading to starvation, disease, and population decline back to sustainable levels.",
@@ -47,7 +47,7 @@
     "description": "Bees collecting nectar from flowers while accidentally pollinating them represents:",
     "options": [
       "Parasitism - bees harm flowers",
-      "Commensalism - bees benefit, flowers unaffected",
+      "Commensalism - bees benefit, flowers unaffected given the inherent uncertainty",
       "Mutualism - both bees and flowers benefit",
       "Competition - both species harmed"
     ],
@@ -77,7 +77,7 @@
       "It gains mass from absorbing container gases",
       "It loses mass as it uses stored energy without producing new",
       "Its mass stays exactly the same",
-      "It gains mass from water in the soil"
+      "It gains mass from water in the soil which influences how the overall system"
     ],
     "answer": "It loses mass as it uses stored energy without producing new",
     "explanation": "Without light, photosynthesis stops. The plant consumes stored sugars for respiration, losing mass as carbon dioxide and water are released.",
@@ -88,7 +88,7 @@
     "content": "A catalyst increases the rate of a chemical reaction without being consumed by lowering activation energy needed for the reaction to proceed.",
     "description": "Enzymes in your digestive system act as catalysts to:",
     "options": [
-      "Become part of the digested food",
+      "Become part of the digested food which has important implications for how",
       "Increase the temperature needed for digestion",
       "Speed up breakdown of food without being used up",
       "Change the nutritional value of food"

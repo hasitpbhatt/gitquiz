@@ -6,7 +6,7 @@
     "options": [
       "It only affects physical labor, not cognitive work.",
       "It is happening at a speed that outpaces our social and legal ability to adapt.",
-      "The technology is becoming more expensive and less accessible.",
+      "The technology is becoming more expensive and less accessible. given the inherent uncertainty and the range of possible",
       "It requires a complete return to manual, paper-based systems."
     ],
     "answer": "It is happening at a speed that outpaces our social and legal ability to adapt.",
@@ -20,7 +20,7 @@
     "options": [
       "We should stop learning new skills entirely.",
       "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
-      "We should wait for the technology to finish evolving before we start using it.",
+      "We should wait for the technology to finish evolving before we start using it. given the inherent uncertainty",
       "We should only learn skills that are currently 'outside' the jagged frontier."
     ],
     "answer": "We should focus on building 'AI-proof' skills that rely on deep human connection and ethics.",
@@ -35,7 +35,7 @@
       "AI becomes so powerful it takes over the government.",
       "AI development hits a physical or data limit and plateaus at current levels.",
       "AI begins to decline and humans return to traditional tools.",
-      "AI only works for large corporations and is banned for individuals."
+      "AI only works for large corporations and is banned for individuals. which affects how the individuals"
     ],
     "answer": "AI development hits a physical or data limit and plateaus at current levels.",
     "explanation": "The 'Asymptote' scenario assumes that we have reached the limits of what data and computing power can achieve, meaning AI will remain a helpful tool but won't fundamentally transform existence further.",
@@ -62,7 +62,7 @@
     "options": [
       "Because the screens are reflective.",
       "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
-      "Because AI only answers questions it has been asked before.",
+      "Because AI only answers questions it has been asked before. which affects how the individuals involved interact and perform within",
       "Because AI tries to look like the person using it."
     ],
     "answer": "Because AI is trained on our collective data, reflecting our best and worst traits back at us.",
@@ -75,7 +75,7 @@
     "description": "An employee uses AI to automate their entire job. In a 'Co-Intelligent' future, what is the most ethical outcome according to the book's vision?",
     "options": [
       "The employee is fired immediately for being redundant.",
-      "The employer takes all the profit and gives the employee more work.",
+      "The employer takes all the profit and gives the employee more work. given the dynamics of",
       "A shared benefit where the employee works less and the company remains productive.",
       "The employee keeps it a secret forever (Shadow AI)."
     ],
@@ -88,7 +88,7 @@
     "content": "Even in the most advanced future scenarios, the 'Human in the Loop' remains the moral anchor. We cannot delegate our values or our responsibility for the world's direction to an algorithm. Co-Intelligence is a partnership where humans remain the senior partner in terms of 'purpose.'",
     "description": "If an AI suggests a highly profitable business move that will destroy a local ecosystem, what is the role of the 'Human in the Loop'?",
     "options": [
-      "To follow the AI because it knows how to maximize profit.",
+      "To follow the AI because it knows how to maximize profit. since maintaining strong relationships",
       "To ignore the AI because it doesn't understand money.",
       "To apply human ethical judgment and reject the move, prioritizing the ecosystem.",
       "To ask the AI for a second opinion."
@@ -102,7 +102,7 @@
     "content": "The chapter discusses how 'traditional expertise' (knowing things) is dying, replaced by 'adaptive expertise' (learning things). The future belongs not to those who 'know' the most, but to those who can best collaborate with AI to solve novel problems.",
     "description": "How should a student today prepare for a job market that will exist in ten years?",
     "options": [
-      "Focus on memorizing a single technical skill perfectly.",
+      "Focus on memorizing a single technical skill perfectly. since developing expertise requires dedicated effort and deliberate practice",
       "Learn how to learn, how to prompt, and how to pivot across different domains.",
       "Avoid all technology to remain 'pure.'",
       "Only study the history of AI."
@@ -117,7 +117,7 @@
     "description": "What is the core message regarding 'agency' in the final chapter?",
     "options": [
       "Humans have no control over the future of AI.",
-      "We must wait for the government to tell us how to use AI.",
+      "We must wait for the government to tell us how to use AI. since the quality of the decision",
       "Individuals have the power to shape the AI revolution through their daily choices and ethical standards.",
       "AI has more agency than humans already."
     ],
@@ -130,7 +130,7 @@
     "content": "The ultimate goal of Co-Intelligence is human flourishing. Mollick's final vision is one where AI handles the mundane, the dangerous, and the repetitive, freeing humans to engage in 'deep' work, play, creativity, and connection.",
     "description": "In the best-case scenario for the future, AI's primary role is to:",
     "options": [
-      "Become our masters and provide us with instructions.",
+      "Become our masters and provide us with instructions. which determines whether the desired outcome",
       "Act as an invisible infrastructure that supports human creativity and well-being.",
       "Replace all human interaction with digital simulations.",
       "Limit human population growth to save the planet."

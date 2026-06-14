@@ -7,7 +7,7 @@
       "All three managers are equally incompetent",
       "The system's structure, not individual manager skill, drives the behavioral outcome",
       "Inventory systems are inherently unpredictable",
-      "Each manager independently chose the same bad strategy"
+      "Each manager independently chose the same bad strategy which is reinforced through consistent practice"
     ],
     "answer": "The system's structure, not individual manager skill, drives the behavioral outcome",
     "explanation": "This is the foundational principle of systems thinking: structure drives behavior. If the same structural conditions produce the same results regardless of who operates within them, the problem is structural, not personal.",
@@ -18,7 +18,7 @@
     "content": "The Beer Distribution Game demonstrates that supply chain tiers with delayed information and long lead times systematically over-order in response to small demand spikes, causing inventory oscillation.",
     "description": "In MIT's Beer Distribution Game simulation, retailers, wholesalers, distributors, and factories all respond to a small, one-time increase in consumer demand by progressively over-ordering. This creates a massive inventory swing. What causes this behavior?",
     "options": [
-      "The participants are not intelligent enough to make good decisions",
+      "The participants are not intelligent enough to make good decisions given the dynamics of the current economic environment and the specific",
       "Communication delays and long lead times in the system structure amplify small demand signals into large ordering swings",
       "The beer market follows a power law distribution",
       "The simulation was designed to be impossible to win"
@@ -32,7 +32,7 @@
     "content": "Incentives are a key structural element shaping behavior. Misaligned incentives produce undesired behaviors even when everyone is acting rationally from their own perspective.",
     "description": "A call center rewards agents for minimizing call duration. Average call time drops, but customer satisfaction plummets and repeat calls increase. What went wrong?",
     "options": [
-      "The agents are lazy and need better training",
+      "The agents are lazy and need better training which is reinforced through consistent practice and repetition over an",
       "The incentive rewards fast calls, not satisfaction — agents optimize the metric, not the goal",
       "Customers are becoming more demanding over time",
       "Call duration and satisfaction are naturally inversely correlated"
@@ -49,7 +49,7 @@
       "Hire even more talented engineers",
       "Replace the entire team",
       "Audit the system structure: look at estimation practices, dependency chains, stakeholder interruption patterns, and communication silos",
-      "Increase the sprint length to give more time"
+      "Increase the sprint length to give more time which affects how the individuals involved interact and perform within the"
     ],
     "answer": "Audit the system structure: look at estimation practices, dependency chains, stakeholder interruption patterns, and communication silos",
     "explanation": "If performance is consistent across different team leads, the cause is structural, not personal. The Structural Overhaul Rule says to redesign the underlying system to make correct behavior the path of least resistance.",
@@ -63,7 +63,7 @@
       "The marketing team is incompetent at forecasting",
       "The 3-month information delay between action and feedback causes the company to react to outdated conditions, producing oscillation",
       "The market is following a normal distribution",
-      "Marketing spend has diminishing returns regardless of timing"
+      "Marketing spend has diminishing returns regardless of timing given the inherent uncertainty and the range of possible outcomes that could occur"
     ],
     "answer": "The 3-month information delay between action and feedback causes the company to react to outdated conditions, producing oscillation",
     "explanation": "Information delays are a structural feature. Shortening the feedback loop (e.g., real-time dashboards) reduces oscillation. The delay, not poor decision-making, is the root cause of the wasteful cycle.",
@@ -74,7 +74,7 @@
     "content": "Communication silos between departments create structural barriers to effective decision-making. Each team optimizes locally, producing globally suboptimal outcomes.",
     "description": "A manufacturing company's procurement team buys raw materials in bulk to minimize per-unit cost. Meanwhile, the warehouse team runs out of storage space and the finance team struggles with cash flow. What structural issue is at play?",
     "options": [
-      "The procurement team is not working hard enough",
+      "The procurement team is not working hard enough which affects how the individuals involved interact and perform within the organization over",
       "Each department optimizes its own metric (low procurement cost) without visibility into how it affects other departments' constraints",
       "The warehouse should be expanded immediately",
       "Bulk purchasing is always a bad strategy"
@@ -91,7 +91,7 @@
       "The factory is overreacting to normal market fluctuations",
       "The bullwhip effect — structural amplification of demand signals through each supply chain tier due to information delays and safety stock policies",
       "A normal distribution of inventory levels",
-      "Critical mass in reverse — the system is collapsing"
+      "Critical mass in reverse — the system is collapsing given the dynamics of the current economic environment and the specific conditions of the market"
     ],
     "answer": "The bullwhip effect — structural amplification of demand signals through each supply chain tier due to information delays and safety stock policies",
     "explanation": "Each tier adds safety stock buffers and reacts to order patterns rather than actual consumer demand. These structural features amplify small fluctuations. Solutions include information sharing and reducing lead times.",
@@ -102,7 +102,7 @@
     "content": "When a team consistently fails to hit targets, stop blaming individual performance. Audit the structural architecture — information delays, misaligned incentives, and communication silos — and redesign the underlying structure to make correct behavior the path of least resistance.",
     "description": "A hospital's emergency department has long wait times despite hiring more doctors and nurses. Which action correctly applies the Structural Overhaul Rule?",
     "options": [
-      "Hire even more doctors and nurses to increase capacity",
+      "Hire even more doctors and nurses to increase capacity which affects how the individuals involved interact and perform within the organization over time",
       "Fire the department head and bring in new leadership",
       "Map patient flow, identify structural bottlenecks (e.g., lab results take 2 hours, bed assignment is manual), and redesign the intake and handoff processes",
       "Reduce the number of patients admitted to the ER"

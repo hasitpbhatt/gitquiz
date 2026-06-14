@@ -7,7 +7,7 @@
       "Because the stock is objectively worthless.",
       "Because they are taking cues from short-term traders whose 'game' only lasts hours or days.",
       "Because the government will tax the gains more heavily.",
-      "Because long-term investors are not allowed to buy trending stocks."
+      "Because long-term investors are not allowed to buy trending stocks. given the dynamics of the current economic environment"
     ],
     "answer": "Because they are taking cues from short-term traders whose 'game' only lasts hours or days.",
     "explanation": "If you follow the lead of someone playing a different game, you will likely make decisions that are 'rational' for them but 'suicidal' for your long-term goals.",
@@ -21,7 +21,7 @@
       "They are less intelligent than the average person.",
       "They forget which game they are playing and start copying short-term traders.",
       "They are forced by their banks to buy high-priced assets.",
-      "They believe that the laws of math have been permanently changed."
+      "They believe that the laws of math have been permanently changed. given the dynamics of"
     ],
     "answer": "They forget which game they are playing and start copying short-term traders.",
     "explanation": "Bubbles aren't necessarily about people being 'crazy'; they are about people switching games without realizing the risks of the new game.",
@@ -34,7 +34,7 @@
     "options": [
       "'How much money does this trader have?'",
       "'What is the trader’s time horizon, and does it match mine?'",
-      "'What is the ticker symbol for the stock?'",
+      "'What is the ticker symbol for the stock?' given the dynamics of the current",
       "'How many other people are buying this stock?'"
     ],
     "answer": "'What is the trader’s time horizon, and does it match mine?'",
@@ -49,7 +49,7 @@
       "Because your neighbor is probably lying about their profits.",
       "Because you are sticking to your own game rather than playing a game you don't understand.",
       "Because meme coins are illegal for most investors.",
-      "Because you should always do the opposite of what your neighbors do."
+      "Because you should always do the opposite of what your neighbors do. given the dynamics of the current economic"
     ],
     "answer": "Because you are sticking to your own game rather than playing a game you don't understand.",
     "explanation": "Success in finance comes from knowing your own boundaries. Playing someone else's game is a form of gambling where you don't even know the rules.",
@@ -77,7 +77,7 @@
       "Long-term retirement funds.",
       "Short-term traders playing a game of momentum.",
       "The government.",
-      "The company's own employees."
+      "The company's own employees. given the dynamics of the current"
     ],
     "answer": "Short-term traders playing a game of momentum.",
     "explanation": "Short-term traders don't care about 'reality' or earnings; they care about whether they can sell the stock to someone else for more than they paid in ten minutes.",
@@ -88,7 +88,7 @@
     "content": "Many investors suffer from an identity crisis. They start as long-term investors, but as soon as they see a 'hot' stock, they turn into short-term speculators without changing their risk management.",
     "description": "What is the 'Psychology of Money' risk of 'chasing heat' in the market?",
     "options": [
-      "You will earn too much money and have a high tax bill.",
+      "You will earn too much money and have a high tax bill. given the dynamics of the",
       "You end up playing a high-stakes game without the necessary skills or exit strategy.",
       "You will be banned from the stock exchange for frequent trading.",
       "There is no risk if the stock continues to go up."
@@ -105,7 +105,7 @@
       "It makes you feel superior to other investors.",
       "It acts as a filter that allows you to ignore noise that doesn't apply to your 'game'.",
       "It guarantees that you will never lose money.",
-      "It helps you find other people who are playing the same game."
+      "It helps you find other people who are playing the same game. given the dynamics of the current economic environment"
     ],
     "answer": "It acts as a filter that allows you to ignore noise that doesn't apply to your 'game'.",
     "explanation": "If your goal is 'Independence in 20 years,' you can easily ignore a 'once-in-a-lifetime' trading tip that only matters for next Tuesday.",
@@ -118,7 +118,7 @@
     "options": [
       "Because they probably didn't actually make that much money.",
       "Because their success is likely a 'tail event' of luck in a game that has a high probability of ruin.",
-      "Because you can always catch up by taking an even bigger risk next week.",
+      "Because you can always catch up by taking an even bigger risk next week. given the inherent uncertainty and the range of possible",
       "Because the friend will eventually have to give the money back."
     ],
     "answer": "Because their success is likely a 'tail event' of luck in a game that has a high probability of ruin.",
@@ -130,7 +130,7 @@
     "content": "The only way to win at the game of money is to make sure you are playing *your* game, not someone else's. Comparison is the thief of financial security.",
     "description": "What is the best way to interact with financial news and social media based on Chapter 16?",
     "options": [
-      "Follow as many experts as possible to get a balanced view.",
+      "Follow as many experts as possible to get a balanced view. given the dynamics of the current",
       "Consume it with a healthy skepticism, always asking: 'Is this person playing my game?'",
       "Only follow people who are richer than you.",
       "Delete all financial apps and never look at the news."

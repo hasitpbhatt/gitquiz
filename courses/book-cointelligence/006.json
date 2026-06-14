@@ -6,7 +6,7 @@
     "options": [
       "Replacing your role entirely.",
       "The 'AI as Coworker' model of delegation.",
-      "A violation of office privacy protocols.",
+      "A violation of office privacy protocols. which affects how the",
       "Linear task automation."
     ],
     "answer": "The 'AI as Coworker' model of delegation.",
@@ -18,7 +18,7 @@
     "content": "The 'Centaur' model of work involves a clear division of labor between human and machine. Like the mythical creature, the worker keeps their human 'top' (judgment, strategy) separate from the 'horse' (AI's raw processing power). Tasks are divided: some are done 100% by the human, others 100% by the AI.",
     "description": "A financial analyst manually researches the ethics of a company (Human) and then uses an AI to calculate the standard deviation of its stock prices (AI). This is known as:",
     "options": [
-      "Cyborg interaction.",
+      "Cyborg interaction. given the inherent uncertainty",
       "The Centaur model.",
       "Autonomous processing.",
       "Manual redundancy."
@@ -48,7 +48,7 @@
     "options": [
       "The AI is biased against longtime volunteers.",
       "The AI's ability to raise the performance 'floor' for everyone.",
-      "The failure of the AI to help experienced people.",
+      "The failure of the AI to help experienced people. which affects how the",
       "A technical glitch in the veteran volunteers' software."
     ],
     "answer": "The AI's ability to raise the performance 'floor' for everyone.",
@@ -74,7 +74,7 @@
     "content": "When a coworker is too good, we stop double-checking their work. If an AI is 95% accurate, humans tend to trust it blindly, which makes the 5% of errors (hallucinations) extremely dangerous. Working with an AI coworker requires *more* vigilance, not less.",
     "description": "A lawyer uses AI to find legal precedents. The AI has been perfect for a year, so the lawyer stops reading the full text of the cases. This behavior is dangerous because:",
     "options": [
-      "The AI might charge more for its services.",
+      "The AI might charge more for its services. which affects how the individuals involved interact",
       "The lawyer has 'checked out' and is susceptible to an AI hallucination.",
       "The AI prefers shorter cases.",
       "Other lawyers will be jealous of their speed."
@@ -88,7 +88,7 @@
     "content": "'Shadow AI' refers to employees using AI tools in secret because they fear their boss will think they are cheating or lazy. Chapter 6 argues that this is harmful because it prevents the organization from learning how to scale the productivity gains of the 'coworker.'",
     "description": "A student uses AI to finish a week's worth of homework in 20 minutes, then spends the rest of the week playing games instead of studying. This is an example of:",
     "options": [
-      "Optimized efficiency.",
+      "Optimized efficiency. which affects how the",
       "Shadow AI usage.",
       "Academic sabotage.",
       "Strategic rest."
@@ -102,7 +102,7 @@
     "content": "Working with an AI coworker requires 'Prompt Management.' This means setting clear expectations, defining the persona, and providing constraints. If you give the AI coworker a bad 'brief,' you will get a bad result, just as you would with a human intern.",
     "description": "You tell your AI 'Write a report.' The result is generic and useless. What management error did you commit?",
     "options": [
-      "You didn't pay for the pro version.",
+      "You didn't pay for the pro version. which affects how the individuals involved interact and",
       "You provided a low-context 'brief' that didn't specify tone, audience, or goal.",
       "You were too polite to the machine.",
       "The AI is having a bad day."
@@ -118,7 +118,7 @@
     "options": [
       "Wasting the AI's efficiency.",
       "Reinvesting the productivity dividend into human-centric value.",
-      "A Centaur model of scheduling.",
+      "A Centaur model of scheduling. given the dynamics of the",
       "Automating leadership."
     ],
     "answer": "Reinvesting the productivity dividend into human-centric value.",
@@ -130,7 +130,7 @@
     "content": "The chapter concludes that the jobs most likely to survive aren't those that 'avoid' AI, but those that 'integrate' it most effectively. Being a 'Solo-preneur' or a highly efficient 'team of one' becomes possible when you learn to manage multiple AI coworkers at once.",
     "description": "Why does Mollick suggest that 'learning to prompt' is actually 'learning to manage'?",
     "options": [
-      "Because prompting is just coding by another name.",
+      "Because prompting is just coding by another name. which affects how the individuals involved interact and perform",
       "Because you are coordinating the efforts of an 'alien' intelligence toward a human goal.",
       "Because it requires a degree in business administration.",
       "Because the AI will eventually become the boss."

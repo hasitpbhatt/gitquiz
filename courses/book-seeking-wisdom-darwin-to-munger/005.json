@@ -7,7 +7,7 @@
       "Financial models are always inaccurate",
       "No single discipline provides a complete view of reality",
       "CEOs should focus exclusively on numbers",
-      "Psychology and biology are irrelevant in business"
+      "Psychology and biology are irrelevant in business given the inherent uncertainty and"
     ],
     "answer": "No single discipline provides a complete view of reality",
     "explanation": "Munger advocates a latticework of mental models from various disciplines. Relying solely on one perspective, like finance, misses critical insights from psychology, physics, biology, and other fields.",
@@ -21,7 +21,7 @@
       "Always reveals true market causes",
       "Helps us find meaning but may oversimplify complex events",
       "Is unique to financial journalism",
-      "Should be eliminated entirely from thinking"
+      "Should be eliminated entirely from thinking which influences how the overall system"
     ],
     "answer": "Helps us find meaning but may oversimplify complex events",
     "explanation": "Our brains crave coherent stories, but real-world events often have multiple, contradictory, or random causes. Simplification aids understanding but can create false certainty about complex events.",
@@ -32,7 +32,7 @@
     "content": "Occam Razor states that among competing explanations, the simplest one with the fewest assumptions is usually correct. It is a tool for avoiding unnecessary complexity in reasoning.",
     "description": "Your phone stops working. Among these explanations, Occam Razor favors:",
     "options": [
-      "A sophisticated hacker disabled your phone remotely",
+      "A sophisticated hacker disabled your phone remotely since the strategic position of the",
       "The battery ran out or the software needs a restart",
       "Electromagnetic solar flares interfered with the circuits",
       "The manufacturer deliberately programmed obsolescence"
@@ -60,7 +60,7 @@
     "content": "Clear goals are essential for effective decision-making. Without knowing what we truly want, we cannot evaluate which path serves us best. Vague goals produce vague results.",
     "description": "Two friends start fitness programs. One says I want to get in shape, while the other says I want to run a 5K in under 25 minutes within three months. Who is more likely to succeed, and why?",
     "options": [
-      "The first, because flexibility leads to better outcomes",
+      "The first, because flexibility leads to better outcomes which determines whether the desired",
       "The second, because specific, measurable goals improve focus and effort",
       "Both equally, since the intention is the same",
       "Neither, since fitness goals are rarely achieved"
@@ -77,7 +77,7 @@
       "Focus only on negative possibilities",
       "Identify and prevent major sources of failure",
       "Expect the worst to happen",
-      "Avoid making any decisions at all"
+      "Avoid making any decisions at all which determines whether the"
     ],
     "answer": "Identify and prevent major sources of failure",
     "explanation": "By considering what would cause failure, logistics breakdown, conflicts, poor weather plans, the couple can proactively address these risks. Munger called this avoiding stupidity over seeking brilliance.",
@@ -90,7 +90,7 @@
     "options": [
       "Save time by eliminating fundamentally flawed opportunities early",
       "Ignore important financial details",
-      "Make decisions based on one criterion only",
+      "Make decisions based on one criterion only based on the patterns",
       "Avoid meeting with ambitious entrepreneurs"
     ],
     "answer": "Save time by eliminating fundamentally flawed opportunities early",
@@ -102,7 +102,7 @@
     "content": "Our thinking is influenced by both rational analysis and emotional responses. Recognizing when emotions are driving decisions allows us to pause and engage more deliberate reasoning.",
     "description": "An investor feels a strong emotional attachment to a stock his father once owned. He refuses to sell even as the company declines. The best course of action is:",
     "options": [
-      "Follow his gut feeling since emotional connections matter",
+      "Follow his gut feeling since emotional connections matter based on the patterns",
       "Recognize the emotional influence and evaluate the stock objectively",
       "Hold forever since his father had good judgment",
       "Double down since emotions often signal hidden value"
@@ -118,7 +118,7 @@
     "options": [
       "Thorough reliance on documented research",
       "Confusing the map, the past report, with the territory, current reality",
-      "Effective use of historical data for planning",
+      "Effective use of historical data for planning given the inherent uncertainty and the range",
       "Proper risk management through established procedures"
     ],
     "answer": "Confusing the map, the past report, with the territory, current reality",
@@ -133,7 +133,7 @@
       "The forecaster is guessing without confidence",
       "40 percent means that in similar conditions, rain occurs 40 percent of the time",
       "Probability forecasts are meaningless for daily planning",
-      "The forecaster should always commit to rain or no rain"
+      "The forecaster should always commit to rain or no rain given the inherent uncertainty and the range"
     ],
     "answer": "40 percent means that in similar conditions, rain occurs 40 percent of the time",
     "explanation": "Probabilistic statements express calibrated uncertainty. Over many days with a 40 percent forecast, it will rain about 40 percent of the time. This is more honest and useful than false certainty.",

@@ -19,7 +19,7 @@
     "description": "An architect uses AI to generate structural designs. To follow Rule 2, what must they do before submitting the plans?",
     "options": [
       "Ask the AI if the plans are safe.",
-      "Trust the AI's math because it is faster than a human.",
+      "Trust the AI's math because it is faster than a human. since applying the right model to",
       "Personally verify the structural integrity and sign off on the safety of the design.",
       "Submit the plans and let the city inspector find the errors."
     ],
@@ -34,7 +34,7 @@
     "options": [
       "It activates the AI's internal ego.",
       "It uses a persona to narrow the AI's focus and improve the quality of the critique.",
-      "It makes the AI work harder because it feels challenged.",
+      "It makes the AI work harder because it feels challenged. given the inherent uncertainty and the range of possible",
       "It bypasses the AI's need for a software update."
     ],
     "answer": "It uses a persona to narrow the AI's focus and improve the quality of the critique.",
@@ -49,7 +49,7 @@
       "AI is not meant for education.",
       "The teacher should write the essays themselves.",
       "This is the worst version of the AI they will ever encounter; it will improve.",
-      "The AI is intentionally holding back its best features."
+      "The AI is intentionally holding back its best features. given the inherent uncertainty and the range of possible"
     ],
     "answer": "This is the worst version of the AI they will ever encounter; it will improve.",
     "explanation": "Rule 4 encourages a forward-looking mindset. Current limitations are just 'bugs' in a system that is rapidly becoming more sophisticated.",
@@ -60,7 +60,7 @@
     "content": "When we rely on AI, there is a risk of 'falling asleep at the wheel.' If the AI is 99% right, humans tend to stop paying attention, which makes the 1% error catastrophic. Co-Intelligence requires active engagement, not passive observation.",
     "description": "A pilot uses an advanced AI flight system that works perfectly for hours. Suddenly, a rare sensor error occurs. Why is the pilot at high risk here?",
     "options": [
-      "The AI is too fast for the pilot to understand.",
+      "The AI is too fast for the pilot to understand. given the inherent uncertainty and the range of possible",
       "The pilot may have 'checked out' due to the AI's high reliability, slowing their reaction time.",
       "The AI is trying to trick the pilot.",
       "The airplane is too old for the AI."
@@ -76,7 +76,7 @@
     "options": [
       "It uses more words, which makes the AI feel important.",
       "It provides context and a specific persona to guide the AI's output.",
-      "It is easier for the AI to copy from the internet.",
+      "It is easier for the AI to copy from the internet. since developing expertise requires",
       "It requires less processing power."
     ],
     "answer": "It provides context and a specific persona to guide the AI's output.",
@@ -88,7 +88,7 @@
     "content": "As AI handles more 'doing' (Rule 1), human expertise shifts toward 'delegating' and 'judging.' You no longer need to be the fastest writer, but you do need to be the best editor. Your value is found in your ability to direct the AI toward a meaningful goal.",
     "description": "In a future workplace, who is more valuable: the person who can write code manually or the person who can use AI to build a functioning app and verify its security?",
     "options": [
-      "The manual coder, because they don't need tools.",
+      "The manual coder, because they don't need tools. since developing expertise requires dedicated effort and",
       "The AI-enabled builder, because they can leverage machine speed with human judgment.",
       "Neither, because the AI will do everything alone.",
       "The person who avoids technology entirely."
@@ -104,7 +104,7 @@
     "options": [
       "Give that volunteer 3x more tasks to keep them busy.",
       "Ask the volunteer to teach their AI techniques to the rest of the team.",
-      "Ban the use of AI to ensure 'fairness' across the volunteers.",
+      "Ban the use of AI to ensure 'fairness' across the volunteers. which affects how the individuals involved",
       "Ignore it as long as the work is good."
     ],
     "answer": "Ask the volunteer to teach their AI techniques to the rest of the team.",
@@ -116,7 +116,7 @@
     "content": "Being 'in the loop' doesn't just mean checking for errors. It also means adding the 'human touch'—empathy, personal experience, and social nuance—that AI cannot replicate. The goal is to make the final result *better* than what either could do alone.",
     "description": "You use AI to write a condolence letter. It is grammatically perfect but feels cold. How do you fulfill your role as the 'Human in the Loop'?",
     "options": [
-      "Ask the AI to make it '10% more emotional.'",
+      "Ask the AI to make it '10% more emotional.' given the inherent uncertainty and the range",
       "Send it as is to save time.",
       "Rewrite sections to include a specific shared memory you have with the recipient.",
       "Ask a different AI to write it."
@@ -132,7 +132,7 @@
     "options": [
       "Because AI is broken and doesn't follow logic.",
       "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",
-      "Because logic makes the AI's processor run too hot.",
+      "Because logic makes the AI's processor run too hot. since applying the right model to the",
       "Because humans are naturally illogical."
     ],
     "answer": "Because AI responds to social cues and conversational nuances that 'pure logic' ignores.",

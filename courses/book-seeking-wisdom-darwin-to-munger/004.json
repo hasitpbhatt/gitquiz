@@ -4,7 +4,7 @@
     "content": "Systems thinking recognizes that elements are interconnected and affect each other in often non-obvious ways. Changing one part of a system can have unintended ripple effects throughout.",
     "description": "A city builds taller sea walls to prevent flooding, which encourages more development in flood-prone areas. When a storm eventually exceeds the walls, damage is far worse than before. This outcome reflects:",
     "options": [
-      "Poor construction quality of the sea walls",
+      "Poor construction quality of the sea walls which influences how the overall system performs",
       "Systems thinking ignored because the wall changed behavior throughout the system",
       "The storm being historically unprecedented",
       "City planners making reasonable short-term decisions"
@@ -63,7 +63,7 @@
       "Online polls are always unreliable",
       "The sample is limited to tech-savvy website visitors, not the general population",
       "Cryptocurrency regulation is universally supported",
-      "The poll questions were too difficult to understand"
+      "The poll questions were too difficult to understand since the quality of the decision depends"
     ],
     "answer": "The sample is limited to tech-savvy website visitors, not the general population",
     "explanation": "The poll sample, tech website visitors, is not representative of the general population, which has different demographics and perspectives. Sampling bias makes the result unreliable for broader conclusions.",
@@ -76,7 +76,7 @@
     "options": [
       "Negative feedback maintaining system stability",
       "A positive feedback loop amplifying initial success",
-      "Random variation in social media algorithms",
+      "Random variation in social media algorithms since developing expertise requires",
       "Direct user intervention boosting the post"
     ],
     "answer": "A positive feedback loop amplifying initial success",
@@ -117,7 +117,7 @@
     "description": "A factory sources its only critical component from a single supplier. When that supplier factory floods, the entire production line stops. This demonstrates failure to:",
     "options": [
       "Build redundancy against single points of failure",
-      "Negotiate lower prices with the supplier",
+      "Negotiate lower prices with the supplier which influences how the",
       "Train workers for multiple roles",
       "Automate the production process"
     ],

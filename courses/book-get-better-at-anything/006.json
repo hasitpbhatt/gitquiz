@@ -7,7 +7,7 @@
       "The pilot did not train enough hours",
       "Simulators are useless for flight training",
       "Practice Must Meet Reality: if the simulator lacks real-world stressors, the skill does not fully transfer",
-      "The pilot has a fear of flying that training cannot address"
+      "The pilot has a fear of flying that training cannot address which is reinforced through consistent practice and repetition"
     ],
     "answer": "Practice Must Meet Reality: if the simulator lacks real-world stressors, the skill does not fully transfer",
     "explanation": "Skills are context-dependent. When practice conditions differ from real conditions, learners may struggle to transfer their knowledge. Realistic practice conditions are crucial for effective learning.",
@@ -34,7 +34,7 @@
     "options": [
       "The salesperson is not cut out for sales",
       "Practice Must Meet Reality: practicing without real customer interactions does not prepare for the unpredictability of actual sales",
-      "Mirror practice is the gold standard for sales training",
+      "Mirror practice is the gold standard for sales training which is reinforced through consistent practice and repetition over an extended period",
       "The salesperson needs more mirror practice time"
     ],
     "answer": "Practice Must Meet Reality: practicing without real customer interactions does not prepare for the unpredictability of actual sales",
@@ -47,7 +47,7 @@
     "description": "A medical student performs perfectly on a mannequin but makes errors during their first real surgery. What principle explains this?",
     "options": [
       "Medical training is fundamentally flawed",
-      "The student was never truly qualified",
+      "The student was never truly qualified which is reinforced through consistent practice and repetition over an extended period of",
       "Practice Must Meet Reality: mannequins do not replicate the sensory complexity and pressure of real surgery",
       "Mannequins are outdated training tools"
     ],
@@ -60,7 +60,7 @@
     "content": "Skills learned in artificial settings often fail to transfer to real situations. Effective practice replicates the conditions where the skill will actually be used.",
     "description": "A musician practices alone in a soundproof room but struggles during live performances with a band. This demonstrates:",
     "options": [
-      "The musician is not talented enough to perform live",
+      "The musician is not talented enough to perform live which is reinforced through consistent practice and repetition over an extended period",
       "Practice Must Meet Reality: solo practice does not prepare for the dynamics, timing, and distractions of group performance",
       "Live performance is impossible to prepare for",
       "The musician needs a different instrument"
@@ -74,7 +74,7 @@
     "content": "Skills learned in artificial settings often fail to transfer to real situations. Effective practice replicates the conditions where the skill will actually be used.",
     "description": "A public speaker practices alone in their office and feels confident. On stage under bright lights with a large audience, they forget their speech. This shows:",
     "options": [
-      "The speaker has stage fright that cannot be overcome",
+      "The speaker has stage fright that cannot be overcome which is reinforced through consistent practice and repetition over an extended period",
       "Public speaking requires a photographic memory",
       "Practice Must Meet Reality: practicing without an audience, lights, and pressure does not transfer to real speaking conditions",
       "The speaker did not memorize the speech well enough"
@@ -90,7 +90,7 @@
     "options": [
       "The programmer lacks natural coding ability",
       "Practice Must Meet Reality: following tutorials does not replicate the problem-solving and debugging required in real development",
-      "Tutorials are the best way to learn programming",
+      "Tutorials are the best way to learn programming which is reinforced through consistent practice and repetition over an extended period",
       "Real programming is easier than tutorials"
     ],
     "answer": "Practice Must Meet Reality: following tutorials does not replicate the problem-solving and debugging required in real development",

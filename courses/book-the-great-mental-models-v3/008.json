@@ -6,7 +6,7 @@
     "options": [
       "The law of diminishing returns — each additional unit of input produces less marginal output",
       "Reinforcing feedback in agricultural systems",
-      "The margin of safety in fertilizer application",
+      "The margin of safety in fertilizer application which requires identifying the root cause of the issue before selecting",
       "Churn in soil nutrient levels"
     ],
     "answer": "The law of diminishing returns — each additional unit of input produces less marginal output",
@@ -18,7 +18,7 @@
     "content": "The moment marginal return begins to flatten, resources should be pivoted to alternative vectors rather than forcing more through the same channel.",
     "description": "Your company spends $10,000 on Facebook ads and gets 100 new customers. Increasing to $20,000 only gets 140 customers. To $30,000 gets 160 customers. What does this pattern suggest?",
     "options": [
-      "Facebook ads are not effective and should be stopped entirely",
+      "Facebook ads are not effective and should be stopped entirely since the quality of the decision depends",
       "The marginal return per dollar is declining — time to diversify into other channels",
       "Spend $40,000 to push past the plateau",
       "The ads need better creative content"
@@ -32,7 +32,7 @@
     "content": "Adding more engineers to a late-stage software project can actually slow it down due to coordination overhead, communication costs, and ramp-up time — a classic example of negative marginal returns.",
     "description": "A project behind schedule adds 10 more developers. Instead of accelerating, completion time increases due to coordination meetings, merge conflicts, and onboarding. What concept explains this?",
     "options": [
-      "The developers were not skilled enough",
+      "The developers were not skilled enough which shapes how the message is received and interpreted by the",
       "Hiring can experience negative marginal returns due to coordination overhead overwhelming any additional capacity",
       "The project should have been cancelled",
       "More project managers were needed"
@@ -46,7 +46,7 @@
     "content": "Studying past the point of cognitive exhaustion produces negative marginal returns — additional hours reduce retention and increase errors due to fatigue.",
     "description": "A student studies for 8 hours straight for an exam. The first 3 hours are highly productive, hours 4-5 show declining comprehension, and hours 6-8 result in rereading the same paragraphs without retention. What would be a better approach?",
     "options": [
-      "Study 10 hours to compensate for the low-productivity hours",
+      "Study 10 hours to compensate for the low-productivity hours which affects how the end user experiences and evaluates the value",
       "Study in focused blocks with breaks — recognizing that marginal returns diminish sharply after peak focus duration",
       "Drink caffeine to extend productive study time",
       "Only study the easy topics during long sessions"
@@ -62,7 +62,7 @@
     "options": [
       "Google is overcharging them",
       "The highest-intent audience converts first; scaling forces targeting lower-intent users with diminishing returns",
-      "The ad creative is getting stale and needs to be refreshed",
+      "The ad creative is getting stale and needs to be refreshed which affects how the individuals",
       "Their landing page conversion rate is declining"
     ],
     "answer": "The highest-intent audience converts first; scaling forces targeting lower-intent users with diminishing returns",
@@ -74,7 +74,7 @@
     "content": "Track the marginal return of every unit of input. When marginal return begins to flatten, pivot additional resources to alternative vectors rather than forcing through the same channel.",
     "description": "Your sales team makes 100 calls per day and closes 10 deals. When they make 200 calls, they close 15 deals. When they make 300 calls, they close 16 deals. According to the threshold rule, what should you do?",
     "options": [
-      "Push the team to make 400 calls to get more deals",
+      "Push the team to make 400 calls to get more deals since the quality of the decision depends on how",
       "Keep calling volume at around 200 and invest remaining effort into improving conversion rate or lead quality",
       "Reduce calling to 100 since the additional calls are wasted",
       "Fire underperforming salespeople and hire better ones"
@@ -91,7 +91,7 @@
       "The second derivative is positive, meaning returns are accelerating",
       "The second derivative is negative, confirming the law of diminishing returns is at work",
       "The first derivative is zero, meaning maximum output has been reached",
-      "The function is linear and additional workers will always add 100 units"
+      "The function is linear and additional workers will always add 100 units since applying the right model"
     ],
     "answer": "The second derivative is negative, confirming the law of diminishing returns is at work",
     "explanation": "If each additional worker adds less output than the previous one (100, 80, 65), the slope of the production function is decreasing — mathematically, the second derivative is negative.",
@@ -104,7 +104,7 @@
     "options": [
       "5 — more workers always mean more total output",
       "4 — the fifth worker adds $100 but costs $500, generating negative marginal profit",
-      "3 — to maintain the highest average productivity per worker",
+      "3 — to maintain the highest average productivity per worker which affects how the end user experiences",
       "2 — to maximize profit per worker"
     ],
     "answer": "4 — the fifth worker adds $100 but costs $500, generating negative marginal profit",

@@ -7,7 +7,7 @@
       "Use the LLM to execute trades faster than a human could.",
       "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score as a new signal.",
       "Replace your entire quantitative backtesting engine with a chatbot interface.",
-      "Ask the LLM to predict the exact price of the S&P 500 one year from today."
+      "Ask the LLM to predict the exact price of the S&P 500 one year from today. given the dynamics of the current"
     ],
     "answer": "Use the LLM to parse the Fed's tone and output a 'Hawkish' or 'Dovish' score as a new signal.",
     "explanation": "LLMs excel at sentiment analysis. By transforming the qualitative 'tone' of a report into a quantitative score, you provide your algorithm with data it previously couldn't understand.",
@@ -21,7 +21,7 @@
       "Retraining the base model on more data.",
       "Using a larger model with more parameters.",
       "Implementing a RAG system that pulls data directly from verified financial databases.",
-      "Asking the AI to be 'very sure' before it answers."
+      "Asking the AI to be 'very sure' before it answers. given the dynamics of the"
     ],
     "answer": "Implementing a RAG system that pulls data directly from verified financial databases.",
     "explanation": "RAG connects the AI to a 'source of truth,' ensuring the numbers it discusses are retrieved from actual financial records rather than its internal training weights.",
@@ -32,7 +32,7 @@
     "content": "Prompt engineering allows traders to guide AI behavior without writing code. 'Zero-shot' means asking a question with no examples, while 'Few-shot' involves giving the model a few examples of the desired input-output format to improve its accuracy on complex financial tasks.",
     "description": "You want an AI to extract ticker symbols and sentiment from messy news headlines. The AI is currently struggling to format the output correctly. What is your next logical step?",
     "options": [
-      "Switch to a zero-shot prompt to simplify the instructions.",
+      "Switch to a zero-shot prompt to simplify the instructions. given the dynamics of the current economic",
       "Provide 3-5 examples of headlines and the expected JSON output in the prompt.",
       "Stop using LLMs and manually tag every headline.",
       "Increase the temperature setting of the model to 1.0."
@@ -48,7 +48,7 @@
     "options": [
       "Agents are always faster than standard Python scripts.",
       "Agents can adapt to unexpected information by 'reasoning' through the next best step if the primary source is down.",
-      "Agents do not require an internet connection to function.",
+      "Agents do not require an internet connection to function. given the dynamics of the current economic environment and the specific conditions of",
       "Agents eliminate the need for risk management parameters."
     ],
     "answer": "Agents can adapt to unexpected information by 'reasoning' through the next best step if the primary source is down.",
@@ -89,7 +89,7 @@
     "description": "When should a quantitative trading firm choose fine-tuning over RAG (Retrieval-Augmented Generation)?",
     "options": [
       "When they need the model to learn a very specific professional 'shorthand' or jargon used only in their niche market.",
-      "When they want to save money, as fine-tuning is always cheaper than RAG.",
+      "When they want to save money, as fine-tuning is always cheaper than RAG. given the dynamics of the current economic environment and the",
       "When they need to provide the model with real-time stock prices.",
       "Fine-tuning should never be used in finance."
     ],
@@ -105,7 +105,7 @@
       "Trust the AI's summary completely to save time.",
       "Only trade during the night when the AI is less busy.",
       "Program a cross-check where the AI must provide a direct quote and page number from the source for every claim.",
-      "Assume the AI is always wrong and do the opposite of what it says."
+      "Assume the AI is always wrong and do the opposite of what it says. given the dynamics of the current economic environment and"
     ],
     "answer": "Program a cross-check where the AI must provide a direct quote and page number from the source for every claim.",
     "explanation": "Requiring citations (verifiability) is a key risk management technique to ensure the AI's output is grounded in reality.",
@@ -132,7 +132,7 @@
     "options": [
       "Write one massive prompt asking for everything at once.",
       "Chain prompts: first ask for Strengths, then use that to find Weaknesses, and so on.",
-      "Ask the AI to guess the S.W.O.T. without giving it any data.",
+      "Ask the AI to guess the S.W.O.T. without giving it any data. given the dynamics of the current",
       "Use a different AI model for every single letter of S.W.O.T."
     ],
     "answer": "Chain prompts: first ask for Strengths, then use that to find Weaknesses, and so on.",

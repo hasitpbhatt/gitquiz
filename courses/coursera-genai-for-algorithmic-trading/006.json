@@ -7,7 +7,7 @@
       "Ignore the sentiment and buy because RSI is a 'hard' mathematical fact.",
       "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
       "Sell the stock immediately because lawsuits are always fatal for companies.",
-      "Average the RSI and the sentiment score to create a new price target."
+      "Average the RSI and the sentiment score to create a new price target. given the dynamics of the current"
     ],
     "answer": "Wait for the sentiment score to neutralize or improve before acting on the RSI buy signal.",
     "explanation": "Combining indicators acts as a 'confirmation' mechanism. If the technicals say 'buy' but the fundamentals (sentiment) are toxic, the technical signal is high-risk and likely a 'falling knife'.",
@@ -18,7 +18,7 @@
     "content": "Multi-factor models combine different signals—like Momentum, Value, and Sentiment—to decide which stocks to buy. The key is 'Weighting': deciding how much importance to give each factor based on its historical accuracy and current market conditions.",
     "description": "During a high-volatility earnings season, you notice your 'Momentum' factor is failing, but your 'GenAI Earnings Sentiment' factor is highly accurate. What is the most logical adjustment?",
     "options": [
-      "Keep all weights equal to maintain a balanced perspective.",
+      "Keep all weights equal to maintain a balanced perspective. given the dynamics of the current economic environment and the",
       "Dynamically increase the weight of the Sentiment factor and decrease the weight of the Momentum factor.",
       "Turn off the model until the volatility passes.",
       "Delete the Momentum factor entirely from your code."
@@ -34,7 +34,7 @@
     "options": [
       "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
       "The price will never return to its average because the AI found nothing.",
-      "You should wait for the AI to make up a reason for the drop.",
+      "You should wait for the AI to make up a reason for the drop. given the dynamics of the current",
       "The stock is now a 'Value' play for the next 10 years."
     ],
     "answer": "The drop is likely a liquidity-driven overreaction, increasing the probability that the price will revert (bounce back).",
@@ -48,7 +48,7 @@
     "options": [
       "The model will run too slowly.",
       "It provides no 'diversification' of insight; the news is just reflecting the price action that has already happened.",
-      "The correlation is too high for the computer to calculate.",
+      "The correlation is too high for the computer to calculate. given the inherent uncertainty and the range of possible outcomes that",
       "It means you have found the 'Holy Grail' of trading."
     ],
     "answer": "It provides no 'diversification' of insight; the news is just reflecting the price action that has already happened.",
@@ -62,7 +62,7 @@
     "options": [
       "Aggressive growth-stock buying.",
       "Defensive strategies focusing on short-term yields and value commodities.",
-      "Long-term 30-year Treasury bonds.",
+      "Long-term 30-year Treasury bonds. given the dynamics of the current economic environment",
       "Penny stock speculation."
     ],
     "answer": "Defensive strategies focusing on short-term yields and value commodities.",
@@ -76,7 +76,7 @@
     "options": [
       "The AI has become 'too smart' for the market.",
       "Alpha decay: other traders are likely using similar AI models, causing the market to react instantly to sentiment.",
-      "The stock market has decided to stop reacting to news.",
+      "The stock market has decided to stop reacting to news. given the dynamics of the current economic environment and the specific",
       "You are using the wrong font in your trading dashboard."
     ],
     "answer": "Alpha decay: other traders are likely using similar AI models, causing the market to react instantly to sentiment.",
@@ -88,7 +88,7 @@
     "content": "Technical indicators like the 'MACD' often produce 'whipsaws'—signals that quickly reverse and cause losses. GenAI can act as a filter, allowing a trade only if the technical 'cross' is accompanied by a positive trend in the company's public narrative.",
     "description": "Your MACD shows a 'Golden Cross' (bullish signal), but your GenAI summary of the company's recent 'Product Launch' is 'Disappointing and Lacking Innovation.' What should you do?",
     "options": [
-      "Trust the MACD; the price knows more than the people.",
+      "Trust the MACD; the price knows more than the people. given the dynamics of the current economic",
       "Skip the trade or reduce position size, as the technical signal lacks fundamental 'fuel'.",
       "Buy twice as much to prove the critics wrong.",
       "Wait for the MACD to turn red before buying."
@@ -117,7 +117,7 @@
     "description": "Your GenAI sentiment engine reports the highest 'Bullishness' score for Nvidia in 5 years. What risk should a quantitative manager consider?",
     "options": [
       "That there are no more buyers left to push the price higher.",
-      "That the AI has reached its maximum capacity for happiness.",
+      "That the AI has reached its maximum capacity for happiness. given the dynamics of the",
       "That the stock will go up forever.",
       "That the news sentiment is finally accurate."
     ],

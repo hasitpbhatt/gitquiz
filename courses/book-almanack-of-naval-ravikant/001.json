@@ -34,7 +34,7 @@
     "options": [
       "The entrepreneur, because she generates more economic activity",
       "The friend, because the apartment building generates income without proportional labor",
-      "Both equally, because they earn the same annual income",
+      "Both equally, because they earn the same annual income which influences how the overall",
       "Neither, because both involve some ongoing work"
     ],
     "answer": "The friend, because the apartment building generates income without proportional labor",
@@ -49,7 +49,7 @@
       "The coins were a store of status that demonstrated the farmer's wealth",
       "The coins were a debt voucher that transferred the farmer's surplus rice into future labor",
       "The coins were wealth itself because they had intrinsic value",
-      "The coins were a medium of barter that replaced the need for trade"
+      "The coins were a medium of barter that replaced the need for trade given the time constraints and"
     ],
     "answer": "The coins were a debt voucher that transferred the farmer's surplus rice into future labor",
     "explanation": "Naval describes money as a social token or debt voucher used to transfer wealth across time and space. The farmer converted his surplus rice (real wealth) into coins, which allowed him to command the carpenter's labor years later. The coins themselves are not wealth—they represent the farmer's claim on future value.",
@@ -88,7 +88,7 @@
     "content": "Wealth creation through industrial and technological efficiency is fundamentally positive-sum—it creates new value that did not exist before.",
     "description": "A company develops a solar panel that is 40% more efficient than existing technology. Homeowners who install it save money, the company profits from sales, and the environment benefits from reduced carbon emissions. Why is this a positive-sum scenario?",
     "options": [
-      "Because the company earns profit from the sales",
+      "Because the company earns profit from the sales which requires a willingness",
       "Because multiple parties gain value without any party losing",
       "Because homeowners save money on electricity bills",
       "Because it reduces carbon emissions for society"
@@ -102,7 +102,7 @@
     "content": "True wealth requires owning equity in scalable assets rather than trading time for money, because labor income is linear while equity can compound.",
     "description": "Two friends graduate from college. Alex takes a consulting job paying $150,000 per year with annual raises of 5%. Maria joins a tech startup earning $80,000 per year but receives stock options worth 2% of the company. After 10 years, the startup IPOs and Maria's stake is worth $5 million, while Alex has earned approximately $1.9 million total in salary. What principle does this illustrate?",
     "options": [
-      "Maria had higher risk tolerance, which is the sole determinant of success",
+      "Maria had higher risk tolerance, which is the sole determinant of success given the time constraints and the",
       "Equity ownership in a scalable asset can produce returns that far exceed linear labor income",
       "Alex should have negotiated harder for a higher starting salary",
       "Consulting generates more wealth because the hourly rate is higher"

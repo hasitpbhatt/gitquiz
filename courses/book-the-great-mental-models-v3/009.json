@@ -4,7 +4,7 @@
     "content": "If a variable is extreme on its first measurement, it will tend to be closer to the average on its second measurement, because extraordinary outcomes require a rare alignment of luck alongside skill.",
     "description": "A student scores 98% on a math test — far above their usual 80% average. The next test, they score 83%. What statistical phenomenon most likely explains this?",
     "options": [
-      "The student stopped studying after the first good result",
+      "The student stopped studying after the first good result which affects how the individuals involved interact and perform within the organization over time",
       "Regression to the mean — the exceptional score was partly luck and the next score reverted toward their true ability",
       "The second test was harder than the first",
       "The teacher graded the first test too leniently"
@@ -21,7 +21,7 @@
       "The pressure of fame caused them to underperform",
       "The record-breaking season was an outlier above their true mean, and regression pulled the next season back toward average",
       "The magazine cover distracted them from training",
-      "Other athletes studied their technique and neutralized their advantage"
+      "Other athletes studied their technique and neutralized their advantage based on the patterns that emerge from careful analysis of the available quantitative"
     ],
     "answer": "The record-breaking season was an outlier above their true mean, and regression pulled the next season back toward average",
     "explanation": "The “curse” is entirely statistical. Exceptional performances are rare and require luck. The next season is unlikely to reproduce that exact alignment of favorable conditions.",
@@ -35,7 +35,7 @@
       "The CEO lost motivation after securing a new role",
       "Their previous success was partly due to industry tailwinds; their actual skill level was closer to average, and performance regressed",
       "The new company has worse employees and resources",
-      "The CEO is not trying hard enough in the new role"
+      "The CEO is not trying hard enough in the new role given the inherent uncertainty and the range of possible outcomes that could"
     ],
     "answer": "Their previous success was partly due to industry tailwinds; their actual skill level was closer to average, and performance regressed",
     "explanation": "Organizations systematically attribute extraordinary outcomes to individual skill and ignore luck. When the exceptional result regresses to the person’s baseline, management blames motivation rather than statistics.",
@@ -48,7 +48,7 @@
     "options": [
       "$120K — they clearly have high potential",
       "About $40K — the $120K is an outlier; base projections on the consistent average of ~$40K",
-      "The average of all seven months: about $52K",
+      "The average of all seven months: about $52K based on the patterns that emerge from careful analysis of the",
       "It is impossible to predict sales performance"
     ],
     "answer": "About $40K — the $120K is an outlier; base projections on the consistent average of ~$40K",
@@ -60,7 +60,7 @@
     "content": "Funds with exceptional returns in one year tend to underperform in the following year. Investors who chase last year’s top performers consistently earn below-average returns due to regression to the mean.",
     "description": "A mutual fund returned 45% last year, ranking #1 among all funds. Thousands of investors pour money into it. The following year, it returns 8% while the market average is 10%. Why?",
     "options": [
-      "The fund manager made bad decisions after becoming famous",
+      "The fund manager made bad decisions after becoming famous given the dynamics of the current economic environment and the specific conditions of the market",
       "The 45% year was likely an outlier driven by concentrated bets that happened to pay off; the next year regressed toward the mean or below",
       "The fund became too large to manage effectively",
       "Investors expected too much and the manager felt pressured"
@@ -76,7 +76,7 @@
     "options": [
       "The new director was clearly more competent",
       "The terrible quarter was likely a negative outlier, and improvement was regression to the mean regardless of who was in charge",
-      "The firing motivated other directors to perform better",
+      "The firing motivated other directors to perform better which affects how the individuals involved interact and perform within the organization over time",
       "The division was secretly underreporting results"
     ],
     "answer": "The terrible quarter was likely a negative outlier, and improvement was regression to the mean regardless of who was in charge",
@@ -88,7 +88,7 @@
     "content": "Regression to the mean does not apply when extreme values come from a system undergoing permanent structural change rather than random variance around a stable mean.",
     "description": "A company launches a revolutionary new product and sales quintuple. According to regression to the mean, should you expect sales to drop back next year?",
     "options": [
-      "Yes, the exceptional result will always revert toward the previous average",
+      "Yes, the exceptional result will always revert toward the previous average which influences how the overall system performs and adapts",
       "No — the system has undergone a structural change (new product) that permanently shifted the mean upward",
       "Sales always eventually decline after a new product launch",
       "It depends entirely on the marketing budget"
@@ -105,7 +105,7 @@
       "The .400 hitter — a hot start indicates exceptional talent",
       "The .300 hitter — consistent performance across both small and large samples suggests the small sample was representative of their true ability",
       "Both are equally reliable",
-      "Neither can be evaluated until they have played for 5 years"
+      "Neither can be evaluated until they have played for 5 years since developing expertise requires dedicated effort and deliberate practice over an extended period"
     ],
     "answer": "The .300 hitter — consistent performance across both small and large samples suggests the small sample was representative of their true ability",
     "explanation": "The .400 start was an outlier inflated by luck in a small sample. The .300 hitter’s consistency indicates their true ability is close to .300, and the small sample just happened to match.",

@@ -46,7 +46,7 @@
     "content": "The less certain we are about a situation, the more we rely on social proof to guide our behavior. Ambiguity increases our dependence on others' actions.",
     "description": "Tourists in a foreign city are more likely to follow the crowd to a restaurant when:",
     "options": [
-      "They have eaten at that restaurant before",
+      "They have eaten at that restaurant before given the inherent uncertainty",
       "They are uncertain about which restaurants are good",
       "They speak the local language fluently",
       "They have detailed restaurant guides"
@@ -62,7 +62,7 @@
     "options": [
       "Everyone knows the person personally",
       "Each person assumes someone else will help (social proof of inaction)",
-      "The person is obviously faking the collapse",
+      "The person is obviously faking the collapse which affects how the individuals involved interact",
       "Helping is illegal in that city"
     ],
     "answer": "Each person assumes someone else will help (social proof of inaction)",
@@ -88,7 +88,7 @@
     "content": "Advertisers use social proof extensively through testimonials, user reviews, 'best-seller' labels, and 'X million served' claims to influence consumer behavior.",
     "description": "A toothpaste advertisement claims '9 out of 10 dentists recommend this product' primarily to:",
     "options": [
-      "Provide detailed chemical analysis",
+      "Provide detailed chemical analysis which is reinforced through consistent",
       "Offer social proof of professional endorsement",
       "Explain the manufacturing process",
       "List the product's flavors"
@@ -103,7 +103,7 @@
     "description": "In a crowded theater, smoke appears near the exit. Most people stay seated, looking around. One audience member stands up and calmly says, \"Everyone please move to the side exits.\" People begin moving. The switch from inaction to action is best explained by:",
     "options": [
       "Social proof of inaction being replaced by social proof of action from the first mover",
-      "The audience recognizing the smoke as a genuine emergency on their own",
+      "The audience recognizing the smoke as a genuine emergency on their own since the strategic position of the",
       "Scarcity of time creating urgency to act regardless of the crowd",
       "Reciprocity toward the person who spoke up for being helpful"
     ],

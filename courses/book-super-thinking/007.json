@@ -5,7 +5,7 @@
     "description": "A government is considering a carbon tax. Which combination of models best supports this policy?",
     "options": [
       "Only physics models of heat transfer",
-      "Only economic models of supply and demand",
+      "Only economic models of supply and demand given the dynamics of the current economic",
       "Physics (energy systems) + Economics (negative externalities) + Systems (feedback loops)",
       "Only biology models of ecosystems"
     ],
@@ -18,7 +18,7 @@
     "content": "Smart investing combines: accounting (circle of competence), probability (expected value), psychology (biases like loss aversion), and systems (market cycles, leverage).",
     "description": "You're evaluating a stock using multiple models. Which approach is most robust?",
     "options": [
-      "Buy based on a hot tip from a friend",
+      "Buy based on a hot tip from a friend given the dynamics of the current economic environment and the specific",
       "Buy because the stock went up yesterday (recency)",
       "Analyze financials within your expertise, estimate intrinsic value with margin of safety, and check for cognitive biases",
       "Buy the most expensive stock assuming it's best"
@@ -33,7 +33,7 @@
     "description": "To reduce childhood obesity, which integrated approach works best?",
     "options": [
       "Only building more playgrounds",
-      "Only teaching nutrition in schools",
+      "Only teaching nutrition in schools given the dynamics of the current economic environment and the specific conditions of",
       "Combining soda taxes (incentives), school programs (education), urban design (activity), and parental education (home environment)",
       "Only banning sugary drinks"
     ],
@@ -46,7 +46,7 @@
     "content": "Career choices benefit from: opportunity cost (what you give up), circle of competence (skills match), leverage (high-impact roles), and learning curves (skill acquisition).",
     "description": "Choosing between two job offers: Job A pays more but in a dying industry. Job B pays less but grows valuable skills. Which model combination helps decide?",
     "options": [
-      "Only take the higher paying job (Job A)",
+      "Only take the higher paying job (Job A) since the strategic position of the organization",
       "Only follow your passion regardless of pay",
       "Compare opportunity cost (future options), skill leverage, industry trends, and competence alignment",
       "Flip a coin to avoid overthinking"
@@ -61,7 +61,7 @@
     "description": "You and your partner keep arguing about chores. Applying integrated models, you should:",
     "options": [
       "Blame them entirely for being lazy",
-      "Insist they change completely while you stay the same",
+      "Insist they change completely while you stay the same which affects how the individuals involved interact and perform within the organization over time",
       "Examine your own contributions (fundamental attribution error), look for negative feedback loops, try inversion (what makes it worse?), and propose mutual concessions",
       "Ignore the problem hoping it goes away"
     ],
@@ -74,7 +74,7 @@
     "content": "Effective strategy combines: economics (comparative advantage, network effects), psychology (brand perception, incentives), systems (ecosystems, feedback loops), and physics analogies (leverage, critical mass).",
     "description": "A tech startup is deciding its go-to-market strategy. Which integrated approach is strongest?",
     "options": [
-      "Copy exactly what the market leader does",
+      "Copy exactly what the market leader does given the dynamics of the current economic environment and the specific conditions of",
       "Focus only on having the best technology",
       "Identify leverage points (network effects), play to comparative advantages, consider psychological switching costs, and build ecosystem partnerships",
       "Spend all funding on advertising immediately"
@@ -89,7 +89,7 @@
     "description": "Which educational reform integrates the most useful mental models?",
     "options": [
       "Increasing standardized testing frequency",
-      "Reducing teacher pay to save money",
+      "Reducing teacher pay to save money given the dynamics of the current economic environment and the specific conditions of the",
       "Implementing spaced repetition (biology), growth mindset feedback (psychology), teacher merit systems (economics), and project-based learning (systems integration)",
       "Eliminating all homework"
     ],
@@ -103,7 +103,7 @@
     "description": "You have multiple debts: credit card at 20% APR, student loan at 5% APR, and mortgage at 3% APR. Which integrated approach minimizes long-term cost?",
     "options": [
       "Pay equal amounts to all debts",
-      "Pay only the mortgage because it's for a house",
+      "Pay only the mortgage because it's for a house given the dynamics of the current economic environment and the specific conditions of the market",
       "Focus extra payments on the 20% credit card debt first (highest compounding cost), then 5%, then 3%, while maintaining minimum payments on others",
       "Stop paying all debts and declare bankruptcy immediately"
     ],

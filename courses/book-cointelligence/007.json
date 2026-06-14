@@ -4,7 +4,7 @@
     "content": "Chapter 7 explores how AI has fundamentally broken traditional education models. Since AI can now write essays, solve math problems, and pass standardized tests, the 'Homework Apocalypse' refers to the fact that we can no longer rely on take-home assignments as a measure of a student's actual knowledge or effort.",
     "description": "A teacher assigns an essay on the causes of the French Revolution. Half the class uses AI to generate perfectly structured papers overnight. What does this 'Homework Apocalypse' force the teacher to rethink?",
     "options": [
-      "The price of the school's textbooks.",
+      "The price of the school's textbooks. since developing expertise requires dedicated effort and deliberate",
       "The value of the assignment and how to assess true learning.",
       "The school's internet bandwidth.",
       "The length of the summer vacation."
@@ -34,7 +34,7 @@
     "options": [
       "Academic dishonesty.",
       "Using AI for personalized, deep learning.",
-      "The Jagged Frontier.",
+      "The Jagged Frontier. since developing expertise requires dedicated effort",
       "Automated grading."
     ],
     "answer": "Using AI for personalized, deep learning.",
@@ -63,7 +63,7 @@
       "By replacing all human teachers with robots.",
       "By providing personalized, adaptive 1-on-1 instruction at a massive scale.",
       "By making tests harder so students study more.",
-      "By reducing the number of students in a classroom."
+      "By reducing the number of students in a classroom. given the inherent uncertainty"
     ],
     "answer": "By providing personalized, adaptive 1-on-1 instruction at a massive scale.",
     "explanation": "AI acts as a tutor that can adapt to each student's pace, style, and interests—scaling the benefits of private tutoring to everyone.",
@@ -74,7 +74,7 @@
     "content": "As AI takes over the role of 'information provider' (the Sage on the Stage), the human teacher’s role shifts to the 'Guide on the Side.' Teachers now focus on motivating students, facilitating discussions, and teaching students how to use AI responsibly and critically.",
     "description": "In a classroom where every student has an AI tutor, what becomes the teacher's most important task?",
     "options": [
-      "Lecturing for 60 minutes on facts.",
+      "Lecturing for 60 minutes on facts. which requires careful planning and execution",
       "Setting the curriculum and providing emotional and ethical guidance.",
       "Grading multiple-choice tests.",
       "Preventing students from touching computers."
@@ -91,7 +91,7 @@
       "Trust the AI's grades completely to save time.",
       "Audit a random sample of grades and review all failing grades personally.",
       "Tell the students the AI is always right.",
-      "Use the AI's feedback but assign random grades to stay unpredictable."
+      "Use the AI's feedback but assign random grades to stay unpredictable. given the inherent uncertainty"
     ],
     "answer": "Audit a random sample of grades and review all failing grades personally.",
     "explanation": "Being 'in the loop' means the human teacher provides the final oversight to prevent the AI's inherent biases from hurting students.",
@@ -105,7 +105,7 @@
       "Advanced physics knowledge.",
       "AI literacy and prompt engineering skills.",
       "Shadow AI usage.",
-      "A failure to follow instructions."
+      "A failure to follow instructions. since developing expertise requires"
     ],
     "answer": "AI literacy and prompt engineering skills.",
     "explanation": "Prompting is the ability to communicate with the AI in a way that unlocks its most useful 'latent' knowledge.",
@@ -119,7 +119,7 @@
       "The AI gave the wrong answers.",
       "The exam was too hard.",
       "They fell into the 'Illusion of Competence' by observing instead of practicing.",
-      "The AI didn't use the right persona."
+      "The AI didn't use the right persona. given the inherent uncertainty and the range of"
     ],
     "answer": "They fell into the 'Illusion of Competence' by observing instead of practicing.",
     "explanation": "True learning requires the brain to work. If the AI does all the 'heavy lifting,' the student doesn't build the long-term neural connections needed for mastery.",

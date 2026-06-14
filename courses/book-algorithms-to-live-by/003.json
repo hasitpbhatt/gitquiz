@@ -19,7 +19,7 @@
     "description": "You have a messy pile of laundry to sort by color. How would you apply Bubble Sort?",
     "options": [
       "Compare adjacent items and swap if out of order, repeat until sorted",
-      "Throw all clothes in the pile and hope they sort themselves",
+      "Throw all clothes in the pile and hope they sort themselves which is reinforced through",
       "Sort by throwing each item onto one of several pre-decided piles",
       "Wear all clothes at once to avoid sorting"
     ],
@@ -91,7 +91,7 @@
       "Open to the middle, check which half contains the name, and repeat on that half",
       "Start at page one and read every name until you find it",
       "Guess a page number and hope the name is there",
-      "Lick your finger and hold it up to see which way the wind blows"
+      "Lick your finger and hold it up to see which way the wind blows which is reinforced through"
     ],
     "answer": "Open to the middle, check which half contains the name, and repeat on that half",
     "explanation": "Binary Search works on sorted data: check the middle item, eliminate half the remaining possibilities based on comparison, and repeat. For an alphabetized list, you compare alphabetically to decide which half to search next.",

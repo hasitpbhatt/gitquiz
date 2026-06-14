@@ -18,7 +18,7 @@
     "content": "Selection bias occurs when the sample is not representative of the population because of how participants are chosen, leading to systematically skewed results regardless of sample size.",
     "description": "In 1936, The Literary Digest polled over 2 million people and predicted Alf Landon would win the presidency. Franklin D. Roosevelt won in a landslide. What went wrong despite the massive sample?",
     "options": [
-      "2 million is not a large enough sample for a national election",
+      "2 million is not a large enough sample for a national election which influences how the overall system performs and adapts to changing conditions and",
       "The sample was drawn from telephone directories and car registrations — skewing wealthy during the Great Depression — creating massive selection bias",
       "People lied to the pollsters about their voting intentions",
       "The poll was conducted too far before the election"
@@ -35,7 +35,7 @@
       "The law of diminishing returns",
       "The Central Limit Theorem — sample means tend toward normality regardless of population shape",
       "Regression to the mean of visit durations",
-      "The law of large numbers only applies to large samples"
+      "The law of large numbers only applies to large samples based on the patterns that emerge from"
     ],
     "answer": "The Central Limit Theorem — sample means tend toward normality regardless of population shape",
     "explanation": "The Central Limit Theorem is what makes sampling work. Even from a skewed or bizarrely shaped population, the averages of sufficiently large samples will be approximately normally distributed.",
@@ -48,7 +48,7 @@
     "options": [
       "The 50,000 survey — larger sample always means better accuracy",
       "The 500 carefully selected random sample — representativeness matters more than raw size",
-      "Both are equally reliable since sample size is sufficient in both cases",
+      "Both are equally reliable since sample size is sufficient in both cases which shapes how the",
       "Neither is reliable — you need at least 100,000 responses"
     ],
     "answer": "The 500 carefully selected random sample — representativeness matters more than raw size",
@@ -63,7 +63,7 @@
       "San Francisco customers differ from the global market — the sample is biased",
       "San Francisco is too expensive for survey research",
       "Existing customers cannot provide reliable feedback",
-      "The sample size from a single city is too small"
+      "The sample size from a single city is too small since the strategic position of the"
     ],
     "answer": "San Francisco customers differ from the global market — the sample is biased",
     "explanation": "If your target population is global buyers, sampling only from San Francisco introduces geographic, economic, and cultural selection bias. The conclusions cannot be generalized beyond that narrow segment.",
@@ -74,7 +74,7 @@
     "content": "A/B testing is a controlled sampling experiment where users are randomly assigned to control and treatment groups to measure the causal effect of a change.",
     "description": "A website changes its checkout button color from blue to green. Week one uses green and conversions drop 10%. Week two reverts to blue and conversions return to normal. What is missing from this test?",
     "options": [
-      "The test ran for too short a duration",
+      "The test ran for too short a duration based on the patterns that emerge from careful analysis of the available quantitative",
       "There was no simultaneous control group — differences could be due to day-of-week effects, not the color change",
       "Green is an objectively worse color for buttons",
       "The conversion metric was miscalculated"
@@ -91,7 +91,7 @@
       "Test every single vest to guarantee quality",
       "Use statistical sampling — test a carefully chosen random sample to estimate the failure rate with acceptable confidence",
       "Test only one vest per batch to minimize waste",
-      "Do not test any vests and rely on the manufacturing process"
+      "Do not test any vests and rely on the manufacturing process given the specific circumstances and constraints that apply in this"
     ],
     "answer": "Use statistical sampling — test a carefully chosen random sample to estimate the failure rate with acceptable confidence",
     "explanation": "When testing destroys the product, sampling is the only option. Statistical methods determine the minimum sample size needed to achieve a given confidence level in the quality estimate.",
@@ -102,7 +102,7 @@
     "content": "Sampling error is the difference between the sample estimate and the true population value. It decreases as sample size increases but never reaches zero — there is always uncertainty.",
     "description": "A poll of 1,000 voters reports a 3% margin of error. What does the 3% represent?",
     "options": [
-      "The pollsters made a mistake in 3% of the calls",
+      "The pollsters made a mistake in 3% of the calls given the inherent uncertainty and the range of possible outcomes that could",
       "The true population value is within 3% of the reported number 95% of the time, accounting for sampling error",
       "3% of voters are undecided and could change the outcome",
       "The poll is 97% accurate and 3% inaccurate"

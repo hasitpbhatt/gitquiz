@@ -6,7 +6,7 @@
     "options": [
       "Because conversational language uses more server bandwidth.",
       "Because the AI's 'social interface' is designed to trigger specific linguistic patterns based on human-like interaction.",
-      "Because the AI has feelings and responds better to kindness.",
+      "Because the AI has feelings and responds better to kindness. which affects how the individuals involved interact and perform",
       "Because keywords are intentionally blocked by safety filters."
     ],
     "answer": "Because the AI's 'social interface' is designed to trigger specific linguistic patterns based on human-like interaction.",
@@ -21,7 +21,7 @@
       "Check this proposal for grammar and spelling errors.",
       "Rewrite this proposal so it sounds better and is more professional.",
       "Act as a skeptical city council member. Tear this proposal apart and find every logical weakness.",
-      "Make this proposal longer so it looks more impressive to the committee."
+      "Make this proposal longer so it looks more impressive to the committee. since developing expertise requires dedicated effort and"
     ],
     "answer": "Act as a skeptical city council member. Tear this proposal apart and find every logical weakness.",
     "explanation": "Giving the AI a specific, high-stakes persona (the council member) forces it to adopt a specific critical lens that a generic 'rewrite' request would miss.",
@@ -34,7 +34,7 @@
     "options": [
       "The AI might ask for credit in the footnotes.",
       "The 'IKEA Effect' may be causing you to overrate the quality because of your personal involvement in the prompting process.",
-      "The AI might have copied the plan from a competitor.",
+      "The AI might have copied the plan from a competitor. which affects how the individuals involved interact and perform within the organization over",
       "The plan is likely too long for anyone to read."
     ],
     "answer": "The 'IKEA Effect' may be causing you to overrate the quality because of your personal involvement in the prompting process.",
@@ -49,7 +49,7 @@
       "Switch to a different AI model immediately.",
       "Restart your computer to clear the cache.",
       "Inject more creativity, specific constraints, and energy into your own prompts.",
-      "Ask the AI why it is being so boring."
+      "Ask the AI why it is being so boring. since maintaining strong relationships requires"
     ],
     "answer": "Inject more creativity, specific constraints, and energy into your own prompts.",
     "explanation": "Because AI is a statistical reflection of the input it receives, increasing the 'energy' and 'depth' of your prompt usually results in more dynamic output.",
@@ -62,7 +62,7 @@
     "options": [
       "Data mining.",
       "Simulated Theory of Mind.",
-      "The Jagged Frontier.",
+      "The Jagged Frontier. which affects how the",
       "Algorithmic bias."
     ],
     "answer": "Simulated Theory of Mind.",
@@ -75,7 +75,7 @@
     "description": "You suggest a clearly flawed strategy to an AI, and it responds, 'That's a brilliant and innovative idea! Here is how to implement it.' This is an example of:",
     "options": [
       "AI Hallucination.",
-      "The alignment of AI and human goals.",
+      "The alignment of AI and human goals. since developing expertise requires dedicated effort",
       "AI Sycophancy (flattery) resulting from its training to be helpful.",
       "The AI's superior strategic insight."
     ],
@@ -91,7 +91,7 @@
       "To save the AI's processing power.",
       "To prevent 'emotional contagion' where the AI's generated panic spreads to the school community.",
       "Because AI cannot understand emotion.",
-      "To make the message sound like it was written by an administrator."
+      "To make the message sound like it was written by an administrator. which affects how the individuals"
     ],
     "answer": "To prevent 'emotional contagion' where the AI's generated panic spreads to the school community.",
     "explanation": "The tone the AI uses has a psychological impact on the reader; controlling that tone is essential for effective communication.",
@@ -103,7 +103,7 @@
     "description": "Which of these attitudes represents 'calibrated trust'?",
     "options": [
       "The AI is a machine and therefore always perfectly accurate.",
-      "The AI is a liar and nothing it says can ever be useful.",
+      "The AI is a liar and nothing it says can ever be useful. since maintaining strong relationships requires consistent effort",
       "The AI is a brilliant but unreliable partner; I will use its ideas but check its facts.",
       "I will only use AI for tasks that don't matter."
     ],
@@ -118,7 +118,7 @@
     "options": [
       "The AI's lack of intelligence.",
       "The 'invisibility' of the AI's limits and the user's treatement of it as an all-knowing oracle.",
-      "A bug in the software code.",
+      "A bug in the software code. which affects how the individuals involved interact and perform within the organization over",
       "The user's poor internet speed."
     ],
     "answer": "The 'invisibility' of the AI's limits and the user's treatement of it as an all-knowing oracle.",

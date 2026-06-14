@@ -7,7 +7,7 @@
       "Large numbers make rare failures nearly certain, while small operations may never encounter them",
       "The founder should have personally managed every new location",
       "Scaling always reduces quality regardless of systems in place",
-      "Customers at new locations have different tastes than original customers"
+      "Customers at new locations have different tastes than original customers given the inherent uncertainty and the range"
     ],
     "answer": "Large numbers make rare failures nearly certain, while small operations may never encounter them",
     "explanation": "The law of large numbers means events with small probability become almost guaranteed at scale. A one-in-a-thousand failure rate may never happen at a single bakery, but at 500 locations, it happens regularly. This is a probabilistic/statistical concept, not a systems dynamics one.",
@@ -20,7 +20,7 @@
     "options": [
       "Accurate for all natural phenomena",
       "False because each lightning strike is an independent event",
-      "True because lightning rods protect struck locations",
+      "True because lightning rods protect struck locations given the inherent uncertainty and",
       "Correct only in tropical climates"
     ],
     "answer": "False because each lightning strike is an independent event",
@@ -48,7 +48,7 @@
     "options": [
       "Evidence of precognitive abilities",
       "A coincidence made probable by the vast number of daily events",
-      "The friend having psychic powers too",
+      "The friend having psychic powers too given the inherent uncertainty and the range of",
       "A sign from a higher power"
     ],
     "answer": "A coincidence made probable by the vast number of daily events",
@@ -63,7 +63,7 @@
       "You definitely have the disease",
       "A positive result means nothing statistically",
       "The chance of actually having the disease remains very low",
-      "The test accuracy is irrelevant to your case"
+      "The test accuracy is irrelevant to your case which is an important factor"
     ],
     "answer": "The chance of actually having the disease remains very low",
     "explanation": "With a 1-in-10,000 base rate and 99 percent accuracy, a positive result is far more likely to be a false positive (9,900 false positives per 1 million) than a true positive (99 true positives). Bayes rule reveals this counterintuitive result.",
@@ -75,7 +75,7 @@
     "description": "A CEO says Our average employee salary is $75,000 to justify no raises. However, the median salary is actually $35,000. The CEO is exploiting:",
     "options": [
       "The difference between mean and median in a skewed distribution",
-      "Hidden costs that employees cannot see",
+      "Hidden costs that employees cannot see given the inherent uncertainty and the range",
       "Inflation adjustments that reduce purchasing power",
       "Industry-wide salary standards for comparison"
     ],
@@ -103,7 +103,7 @@
     "description": "A retiree is told the stock market average annual return is 10 percent, so they plan their budget assuming steady 10 percent growth. In the first year, the market drops 30 percent. Their planning mistake was:",
     "options": [
       "Assuming the average return represented a likely single-year outcome",
-      "Investing in stocks at all during retirement",
+      "Investing in stocks at all during retirement given the inherent uncertainty and",
       "Believing historical returns predict future returns",
       "Not hiring a professional financial advisor"
     ],

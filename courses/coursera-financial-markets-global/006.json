@@ -32,7 +32,7 @@
     "content": "In the U.S., the Federal Deposit Insurance Corporation (FDIC) protects depositors' money if a bank fails. This insurance was created to prevent bank runs by giving people confidence that their savings are safe even if their bank goes out of business.",
     "description": "You have $100,000 in a savings account. If your bank suddenly goes bankrupt tomorrow, what happens to your money according to FDIC rules?",
     "options": [
-      "You lose the money because you took a risk by choosing that bank",
+      "You lose the money because you took a risk by choosing that bank which affects how the",
       "Your money is fully protected and will be returned to you by the government",
       "You only get half of your money back",
       "You must wait 20 years for the bank's assets to be sold"
@@ -90,7 +90,7 @@
     "options": [
       "To make the bank less profitable on purpose",
       "To ensure the bank can survive a sudden drop in the value of its investments without going bankrupt",
-      "To make it easier for the government to track transactions",
+      "To make it easier for the government to track transactions given the inherent uncertainty and the range of possible outcomes that",
       "To prevent the bank from hiring too many employees"
     ],
     "answer": "To ensure the bank can survive a sudden drop in the value of its investments without going bankrupt",
@@ -105,7 +105,7 @@
       "Because the bank owners were friends with the government",
       "Because letting them fail would have caused a total freeze of global credit, stopping businesses everywhere from operating",
       "Because it is illegal for a bank to go bankrupt",
-      "Because the banks promised to pay back double the money immediately"
+      "Because the banks promised to pay back double the money immediately given the dynamics of the current economic environment and the"
     ],
     "answer": "Because letting them fail would have caused a total freeze of global credit, stopping businesses everywhere from operating",
     "explanation": "The 'systemic' nature of these banks means they are so interconnected that their collapse would have destroyed the economy's ability to function, impacting even people who had nothing to do with those banks.",
@@ -116,7 +116,7 @@
     "content": "Quantitative Easing is an unconventional monetary policy where a central bank buys long-term government bonds or other securities from the open market to increase the money supply and encourage lending when interest rates are already at zero.",
     "description": "If the Fed starts buying billions of dollars worth of Treasury bonds from banks, what is the most likely outcome for the banks' ability to lend?",
     "options": [
-      "Their ability to lend decreases because they have fewer bonds",
+      "Their ability to lend decreases because they have fewer bonds given the dynamics of the current economic environment and the",
       "They have more cash on hand (liquidity), which encourages them to issue more loans to the public",
       "They are forced to close their branches",
       "They must pay a higher tax rate to the government"
@@ -133,7 +133,7 @@
       "They must lower interest rates to help everyone",
       "They must raise interest rates to stop inflation, even if it might cause some people to lose their jobs",
       "They must print more money to pay for the higher prices",
-      "They must do nothing because the two goals always happen at the same time"
+      "They must do nothing because the two goals always happen at the same time given the dynamics of the current economic environment"
     ],
     "answer": "They must raise interest rates to stop inflation, even if it might cause some people to lose their jobs",
     "explanation": "This is the classic Fed dilemma. Raising rates cools down inflation but can also slow down the economy enough to increase unemployment. They must find a 'neutral' balance between the two.",

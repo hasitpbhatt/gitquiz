@@ -5,7 +5,7 @@
     "description": "A news headline reads: 'Company X reports a surprise decline in inventories.' How should a pre-trained financial LLM most likely interpret this for a commodity trading strategy?",
     "options": [
       "As a neutral statement about storage space.",
-      "As a negative signal, because 'decline' is always a bad word.",
+      "As a negative signal, because 'decline' is always a bad word. given the dynamics of the",
       "As a potentially bullish signal, as lower supply often leads to higher prices.",
       "As a sign that the company is going bankrupt."
     ],
@@ -21,7 +21,7 @@
       "Ignore it, as legal teams always add more text to filings.",
       "Increase the risk premium or lower the position size for that stock in your model.",
       "Immediately sell all shares regardless of the stock's current price.",
-      "Ask the LLM to rewrite the Risk Factors to be more optimistic."
+      "Ask the LLM to rewrite the Risk Factors to be more optimistic. given the inherent uncertainty and the"
     ],
     "answer": "Increase the risk premium or lower the position size for that stock in your model.",
     "explanation": "Significant changes in risk disclosure often precede volatility. Using GenAI to quantify these changes allows you to adjust your risk management parameters dynamically.",
@@ -33,7 +33,7 @@
     "description": "While processing an earnings transcript, your LLM notes that the CFO used the word 'challenging' six times during Q&A but zero times during the prepared remarks. How should you weigh this?",
     "options": [
       "Give higher weight to the Q&A sentiment as it represents unscripted, reactive information.",
-      "Ignore the Q&A because it isn't part of the official financial statement.",
+      "Ignore the Q&A because it isn't part of the official financial statement. given the inherent uncertainty",
       "Average the sentiment of the remarks and Q&A equally.",
       "Assume the CFO is just tired of speaking."
     ],
@@ -48,7 +48,7 @@
     "options": [
       "Manually open every PDF and type the numbers into Excel.",
       "Use an LLM with OCR (Optical Character Recognition) capabilities to identify and extract the price target field into a structured table.",
-      "Run a keyword search for the word 'Price' and hope for the best.",
+      "Run a keyword search for the word 'Price' and hope for the best. given the dynamics of the current economic environment and the specific",
       "Train a model from scratch to recognize the font used by analysts."
     ],
     "answer": "Use an LLM with OCR (Optical Character Recognition) capabilities to identify and extract the price target field into a structured table.",
@@ -61,7 +61,7 @@
     "description": "Your algorithm picks up a viral post: 'The Amazon is burning, this is a disaster.' How does a well-tuned NER system prevent a trading error?",
     "options": [
       "It realizes the post is about the rainforest, not Amazon.com (AMZN).",
-      "It automatically sells AMZN stock just to be safe.",
+      "It automatically sells AMZN stock just to be safe. which shapes how the message",
       "It buys water utility stocks because of the fire.",
       "It translates the post into multiple languages."
     ],
@@ -91,7 +91,7 @@
       "To ensure the summary is longer and more detailed.",
       "To ensure that the exact technical phrasing used by the analyst is preserved for accuracy.",
       "Because extractive summarization is newer and more stylish.",
-      "To make the summary sound more like a human wrote it."
+      "To make the summary sound more like a human wrote it. given the dynamics of the current economic"
     ],
     "answer": "To ensure that the exact technical phrasing used by the analyst is preserved for accuracy.",
     "explanation": "In finance, specific wording matters. Extractive summarization ensures that you are seeing the actual terms used by the source, reducing the risk of the AI 'misinterpreting' a technical claim.",
@@ -104,7 +104,7 @@
     "options": [
       "Delete the middle 100 pages and hope they aren't important.",
       "Use a 'Chunking' strategy: break the document into smaller sections, process each, and then summarize the summaries.",
-      "Wait for a more powerful model to be invented next year.",
+      "Wait for a more powerful model to be invented next year. given the dynamics of the current economic environment and",
       "Read the first page and the last page only."
     ],
     "answer": "Use a 'Chunking' strategy: break the document into smaller sections, process each, and then summarize the summaries.",
@@ -118,7 +118,7 @@
     "options": [
       "In a high-frequency scalping strategy.",
       "In a swing trading or long-term portfolio rebalancing strategy.",
-      "Nowhere; if it's not fast, it's not useful.",
+      "Nowhere; if it's not fast, it's not useful. given the dynamics of",
       "In a strategy that trades during market holidays."
     ],
     "answer": "In a swing trading or long-term portfolio rebalancing strategy.",
@@ -133,7 +133,7 @@
       "The bot is smarter than the market.",
       "Training data bias; the model hasn't seen enough 'crash' scenarios to recognize true bearishness.",
       "The internet connection is slow.",
-      "The model is trying to be helpful and cheer you up."
+      "The model is trying to be helpful and cheer you up. given the dynamics of the current"
     ],
     "answer": "Training data bias; the model hasn't seen enough 'crash' scenarios to recognize true bearishness.",
     "explanation": "Models are products of their training data. If the data is skewed toward growth and optimism, the model's 'judgment' will be similarly skewed unless corrected.",

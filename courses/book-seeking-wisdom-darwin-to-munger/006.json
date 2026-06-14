@@ -7,7 +7,7 @@
       "The cost of the vacation itself",
       "The opportunity cost of not choosing the best alternative use",
       "Only the money they could have saved",
-      "Nothing, since they derived enjoyment from the vacation"
+      "Nothing, since they derived enjoyment from the vacation since the quality of the"
     ],
     "answer": "The opportunity cost of not choosing the best alternative use",
     "explanation": "Opportunity cost is the value of the next best use of resources. By choosing the vacation, they forgo the potential returns from the rental property or investments. That foregone benefit is the true cost.",
@@ -34,7 +34,7 @@
     "options": [
       "Is the software easy to install?",
       "What specific percentage improvement is expected, and how is it measured?",
-      "Does the software have a nice user interface?",
+      "Does the software have a nice user interface? given the inherent uncertainty and the",
       "Are there cheaper alternatives available?"
     ],
     "answer": "What specific percentage improvement is expected, and how is it measured?",
@@ -48,7 +48,7 @@
     "options": [
       "Coffee is universally unhealthy",
       "The sample is biased and the methodology is flawed",
-      "Lifespan studies always require 50-year follow-ups",
+      "Lifespan studies always require 50-year follow-ups since developing expertise requires dedicated effort",
       "Survey data is never reliable"
     ],
     "answer": "The sample is biased and the methodology is flawed",
@@ -60,7 +60,7 @@
     "content": "Actively generating and evaluating alternatives protects against premature commitment to the first viable option. The best choice often emerges from comparing multiple distinct possibilities.",
     "description": "A hiring manager interviews one strong candidate and immediately offers them the job, canceling remaining interviews. The likely mistake is:",
     "options": [
-      "The strong candidate will demand a high salary",
+      "The strong candidate will demand a high salary which affects how the",
       "Without comparing alternatives, a better option may be missed",
       "Canceling interviews wastes the recruiter preparation time",
       "The candidate will feel less valued without competition"
@@ -102,7 +102,7 @@
     "content": "Margin of safety means building a buffer against uncertainty. Expecting things to go exactly as planned is a recipe for disaster when reality inevitably diverges from projections.",
     "description": "A contractor estimates a renovation will take two weeks and schedules no buffer time. When material delivery is delayed by three days, the entire project is late. The mistake was:",
     "options": [
-      "The contractor poor relationship with suppliers",
+      "The contractor poor relationship with suppliers given the inherent uncertainty and",
       "Lack of margin of safety in the schedule",
       "The renovation being inherently unpredictable",
       "The materials being ordered too early"
@@ -116,7 +116,7 @@
     "content": "The tragedy of the commons occurs when individuals acting independently according to their self-interest deplete a shared resource, against the long-term interest of the group.",
     "description": "Fishermen in a coastal village each try to catch as many fish as possible. Individually rational behavior leads to the fish stock collapsing, harming everyone. This illustrates:",
     "options": [
-      "The fishermen need for better equipment",
+      "The fishermen need for better equipment since this aspect of the",
       "The tragedy of the commons from uncoordinated self-interest",
       "Natural fluctuations in fish populations",
       "Government overregulation of fishing"

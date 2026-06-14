@@ -19,7 +19,7 @@
     "description": "A web designer is considering removing decorative animations and complex interactions from an interface to improve usability. What principle are they applying?",
     "options": [
       "Regularization - remove unnecessary complexity for better usability",
-      "Always adding more features makes things better",
+      "Always adding more features makes things better given the inherent uncertainty",
       "Users prefer the most complex possible interface",
       "Animation is never problematic"
     ],
@@ -62,7 +62,7 @@
     "options": [
       "Treat travel times as flexible blocks, then fix schedules",
       "Only visit cities that are alphabetically consecutive",
-      "Always take the longest possible route between cities",
+      "Always take the longest possible route between cities which requires identifying the",
       "Never plan any trips because they're too complex"
     ],
     "answer": "Treat travel times as flexible blocks, then fix schedules",

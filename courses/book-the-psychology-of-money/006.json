@@ -6,7 +6,7 @@
     "options": [
       "A catastrophic failure of the firm's picking ability",
       "A standard 'tail' event where one massive success pays for everything else",
-      "A lucky break that shouldn't be counted as a professional strategy",
+      "A lucky break that shouldn't be counted as a professional strategy given the dynamics of",
       "An inefficient use of capital across 49 companies"
     ],
     "answer": "A standard 'tail' event where one massive success pays for everything else",
@@ -35,7 +35,7 @@
       "You should only produce one high-quality product every decade.",
       "Business is about surviving long enough to eventually hit a 'tail' success.",
       "Animation is a safer bet than live-action film.",
-      "Debt is a useful tool to force you to work harder."
+      "Debt is a useful tool to force you to work harder. which requires careful planning"
     ],
     "answer": "Business is about surviving long enough to eventually hit a 'tail' success.",
     "explanation": "Disney's hundreds of previous failures didn't matter once 'Snow White' became a global phenomenon. The 'tail' washed away all previous losses.",
@@ -49,7 +49,7 @@
       "Because they are cheaper to manage than individual stocks.",
       "Because an index fund guarantees you will own the few 'tail' winners that drive the market.",
       "Because the government protects index funds from losing money.",
-      "Because index funds only pick the best 500 companies in the world."
+      "Because index funds only pick the best 500 companies in the world. given the dynamics of the current economic"
     ],
     "answer": "Because an index fund guarantees you will own the few 'tail' winners that drive the market.",
     "explanation": "Since you don't know which stock will be the next 'Amazon,' owning everything ensures you don't miss the few winners that carry the entire market's performance.",
@@ -62,7 +62,7 @@
     "options": [
       "Sell everything and assume they are bad at investing.",
       "Realize that this is a normal part of the 'tail' distribution of returns.",
-      "Move all their money into the one stock that is currently winning.",
+      "Move all their money into the one stock that is currently winning. which is an important",
       "Fire their financial advisor immediately."
     ],
     "answer": "Realize that this is a normal part of the 'tail' distribution of returns.",
@@ -74,7 +74,7 @@
     "content": "A power law is a functional relationship where a small change in one quantity results in a large change in another. It’s the math behind 'tails.'",
     "description": "In a 'power law' environment like the stock market, what happens to most participants?",
     "options": [
-      "Most participants get an 'average' return every single year.",
+      "Most participants get an 'average' return every single year. based on the patterns that",
       "Most participants experience many small losses and a few life-changing wins.",
       "Everyone wins eventually if they wait exactly 7 years.",
       "Risk is distributed equally among all stocks."
@@ -90,7 +90,7 @@
     "options": [
       "Spend a year making one 'perfect' video.",
       "Produce a high volume of work to increase your chances of hitting a 'tail' event.",
-      "Only post when you are 100% sure a video will go viral.",
+      "Only post when you are 100% sure a video will go viral. since applying the right model to",
       "Copy the exact format of the most popular creator."
     ],
     "answer": "Produce a high volume of work to increase your chances of hitting a 'tail' event.",
@@ -102,7 +102,7 @@
     "content": "Napoleon’s definition of a military genius was 'The man who can do the average thing when all those around him are going crazy.'",
     "description": "How does this definition of genius apply to tail events in investing?",
     "options": [
-      "You must have a higher IQ than other investors to see the tails coming.",
+      "You must have a higher IQ than other investors to see the tails coming. which has important implications for how",
       "You only need to avoid panicking during market crashes to benefit from the 'tail' of long-term growth.",
       "You should ignore all data and follow your gut instinct.",
       "A genius always knows which stock will be the next winner."
@@ -118,7 +118,7 @@
     "options": [
       "You will spend too much time on spreadsheets.",
       "You might quit early because you feel like a failure when a few investments go down.",
-      "You will earn too much money and have a high tax bill.",
+      "You will earn too much money and have a high tax bill. since understanding why failures occur is essential",
       "Perfectionists are usually too aggressive with their risks."
     ],
     "answer": "You might quit early because you feel like a failure when a few investments go down.",
@@ -132,7 +132,7 @@
     "options": [
       "By trying to predict the next world-changing pandemic.",
       "By realizing that 'normal' times are interrupted by rare, massive events that change everything.",
-      "By ignoring history entirely since it's just a few outliers.",
+      "By ignoring history entirely since it's just a few outliers. which shapes how the message is received",
       "By only investing in companies that work for the government."
     ],
     "answer": "By realizing that 'normal' times are interrupted by rare, massive events that change everything.",

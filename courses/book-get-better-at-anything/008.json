@@ -6,7 +6,7 @@
     "options": [
       "Only practice and repetition",
       "See, Do, and Feedback working together for comprehensive skill development",
-      "Just watching and listening without any action",
+      "Just watching and listening without any action which is reinforced through consistent practice",
       "Only feedback and correction"
     ],
     "answer": "See, Do, and Feedback working together for comprehensive skill development",
@@ -20,7 +20,7 @@
     "options": [
       "Only the principle of Variability Over Repetition",
       "Multiple principles: Copying, Variability, Feedback, and Practice Must Meet Reality working together",
-      "Only the principle of Practice Must Meet Reality",
+      "Only the principle of Practice Must Meet Reality since developing expertise requires dedicated effort and",
       "Only the principle of Creativity Begins with Copying"
     ],
     "answer": "Multiple principles: Copying, Variability, Feedback, and Practice Must Meet Reality working together",
@@ -34,7 +34,7 @@
     "options": [
       "You are not practicing enough hours",
       "You lack the See and Feedback ingredients: you are not learning from examples or getting error correction",
-      "You chose the wrong programming language to learn",
+      "You chose the wrong programming language to learn since developing expertise requires dedicated effort and deliberate practice over an extended",
       "You have reached your natural talent limit"
     ],
     "answer": "You lack the See and Feedback ingredients: you are not learning from examples or getting error correction",
@@ -48,7 +48,7 @@
     "options": [
       "Quality Comes from Quantity: they need more reps",
       "Difficulty Has a Sweet Spot: they are no longer challenged, so no further adaptation occurs",
-      "The Mind is Not a Muscle: weightlifting is not mental work",
+      "The Mind is Not a Muscle: weightlifting is not mental work since developing expertise requires dedicated effort and",
       "Improvement is Not a Straight Line: they are in a dip"
     ],
     "answer": "Difficulty Has a Sweet Spot: they are no longer challenged, so no further adaptation occurs",
@@ -60,7 +60,7 @@
     "content": "Even experienced professionals can benefit from seeking external feedback and varied practice to avoid stagnation.",
     "description": "A veteran architect designs buildings the same way for 30 years. Younger architects produce more innovative work. What principles explain this?",
     "options": [
-      "Younger people are naturally more creative",
+      "Younger people are naturally more creative which is reinforced through consistent practice and repetition over an extended",
       "Experience Does Not Reliably Ensure Expertise combined with insufficient feedback and variety in practice",
       "Architecture has become easier over time",
       "Innovation and experience are mutually exclusive"
@@ -74,7 +74,7 @@
     "content": "Persistent plateaus often require changing your approach rather than increasing effort. Understanding the principles helps identify the right change.",
     "description": "Your Spanish learning has plateaued. You can read well but struggle in conversations. Applying the principles, what should you adjust?",
     "options": [
-      "Read more Spanish books to build vocabulary",
+      "Read more Spanish books to build vocabulary since developing expertise requires dedicated effort and deliberate practice over an extended period",
       "Your practice does not meet reality: you need conversational practice with native speakers to develop speaking skills",
       "You have reached your language learning limit",
       "Spanish is harder than other languages"
@@ -90,7 +90,7 @@
     "options": [
       "Read a textbook, take notes, and review them weekly",
       "Watch expert demonstrations, practice with gradually increasing difficulty, get feedback, and practice in realistic conditions",
-      "Practice every day for at least one hour without fail",
+      "Practice every day for at least one hour without fail since developing expertise requires dedicated effort and deliberate",
       "Take an online course with multiple-choice quizzes"
     ],
     "answer": "Watch expert demonstrations, practice with gradually increasing difficulty, get feedback, and practice in realistic conditions",
@@ -104,7 +104,7 @@
     "options": [
       "Copy famous buildings without modification",
       "Study great buildings, practice designing variations, get feedback from senior architects, and work on real projects",
-      "Avoid studying others work to focus on originality",
+      "Avoid studying others work to focus on originality since the strategic position of the organization depends on how well",
       "Only work on theoretical designs without real constraints"
     ],
     "answer": "Study great buildings, practice designing variations, get feedback from senior architects, and work on real projects",
@@ -117,7 +117,7 @@
     "description": "You avoid learning to code because you fear looking stupid. Which two principles are most relevant here?",
     "options": [
       "Success is the Best Teacher and Fears Fade with Exposure: start with achievable projects to build confidence and increase exposure gradually",
-      "The Mind is Not a Muscle and Variability Over Repetition",
+      "The Mind is Not a Muscle and Variability Over Repetition since developing expertise requires dedicated effort and deliberate practice over an extended period",
       "Experience and expertise are the only paths to confidence",
       "Practice Must Meet Reality and Quality Comes from Quantity"
     ],
@@ -132,7 +132,7 @@
     "options": [
       "Only the importance of Variability Over Repetition",
       "Integrated application of Copying, Variability, Meeting Reality, and Feedback working together as a system",
-      "That talent alone determines who becomes a great musician",
+      "That talent alone determines who becomes a great musician since developing expertise requires dedicated effort and deliberate",
       "Only the importance of Practice Must Meet Reality"
     ],
     "answer": "Integrated application of Copying, Variability, Meeting Reality, and Feedback working together as a system",
@@ -147,7 +147,7 @@
       "Learning is about natural talent and finding what you are good at",
       "Getting better at anything requires understanding the principles of seeing, doing, and feedback, and applying them persistently through ups and downs",
       "Only certain people can master difficult skills",
-      "The best way to learn is to find a great teacher and follow their instructions exactly"
+      "The best way to learn is to find a great teacher and follow their instructions exactly since the strategic position of the organization depends"
     ],
     "answer": "Getting better at anything requires understanding the principles of seeing, doing, and feedback, and applying them persistently through ups and downs",
     "explanation": "The books core message is that skill acquisition follows understandable principles. By applying See, Do, and Feedback, combined with persistence through non-linear progress, anyone can get better at anything.",

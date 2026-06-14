@@ -6,7 +6,7 @@
     "options": [
       "Disappointment naturally leads to temporary sadness",
       "Desire -> obstruction -> anger -> delusion -> poor decisions",
-      "The promotion was unfair and her reaction is justified",
+      "The promotion was unfair and her reaction is justified given the specific circumstances",
       "She needs better stress management techniques only"
     ],
     "answer": "Desire -> obstruction -> anger -> delusion -> poor decisions",
@@ -18,7 +18,7 @@
     "content": "Uncontrolled desire (kama) leads to attachment, anger when obstructed, greed for more, and ultimately self-destruction.",
     "description": "A person becomes obsessed with acquiring a luxury watch they cannot afford. They take on high-interest debt, then lie to their spouse about the purchase. Caught in the lie, they lash out in anger. What progression is this?",
     "options": [
-      "Normal consumer behavior with unfortunate consequences",
+      "Normal consumer behavior with unfortunate consequences since this aspect of the situation has a",
       "The path from desire to attachment to unethical actions to destruction",
       "A simple financial planning mistake",
       "Everyone makes such purchases sometimes"
@@ -63,7 +63,7 @@
       "Meditation is clearly not suited for their personality",
       "The mind can be mastered through consistent practice and patience",
       "They should use stronger concentration techniques",
-      "Give up meditation and try a different spiritual path"
+      "Give up meditation and try a different spiritual path which is reinforced through"
     ],
     "answer": "The mind can be mastered through consistent practice and patience",
     "explanation": "The Gita acknowledges the mind is restless like the wind but assures that it can be controlled through abhyasa (consistent practice) and vairagya (detachment). The key is patience - mastery develops gradually, not overnight.",
@@ -74,7 +74,7 @@
     "content": "True freedom comes from not identifying with temporary roles, achievements, or failures, knowing the eternal Self beyond them.",
     "description": "An Olympic athlete who has always identified as a 'champion' suffers depression after retiring from competition, feeling worthless without medals. What understanding could liberate them?",
     "options": [
-      "They should attempt a comeback despite their age",
+      "They should attempt a comeback despite their age which determines whether the",
       "Their identity extends beyond achievements to the eternal Self",
       "They should find another competitive sport",
       "Depression after retirement is normal and unavoidable"
@@ -88,7 +88,7 @@
     "content": "The wise remain undisturbed by life's pairs of opposites - pleasure and pain, heat and cold, praise and blame.",
     "description": "An artist receives both glowing praise and harsh criticism for the same exhibition. Instead of being elated by praise or crushed by criticism, she continues creating with the same dedication. What quality does she demonstrate?",
     "options": [
-      "Thick skin developed through years of experience",
+      "Thick skin developed through years of experience which is an important factor to",
       "Tolerance of dualities - remaining steady amid praise and blame",
       "Indifference to others' opinions",
       "Not caring enough about her work"
@@ -104,7 +104,7 @@
     "options": [
       "The child should obey the parent's wishes",
       "Release attachment to specific outcomes and support the child's journey",
-      "Cut ties until the child makes the right choice",
+      "Cut ties until the child makes the right choice which affects how the",
       "The parent is right to insist on their vision"
     ],
     "answer": "Release attachment to specific outcomes and support the child's journey",
@@ -116,7 +116,7 @@
     "content": "The three Gunas bind the eternal soul to the body: Sattva binds through attachment to happiness and knowledge, Rajas through attachment to action and desire, Tamas through negligence and delusion.",
     "description": "A talented artist becomes addicted to the praise and recognition her work receives (sattva binding through pride). A workaholic executive cannot stop striving even on vacation, feeling anxious when not productive (rajas binding through action). A retiree spends years watching TV and avoiding any meaningful activity (tamas binding through inertia). Each feels trapped in their pattern despite wanting freedom. What do these three cases illustrate?",
     "options": [
-      "Three different personality types that are unchangeable",
+      "Three different personality types that are unchangeable since developing expertise requires dedicated",
       "How each Guna binds the soul through different attachments",
       "Normal life stages that everyone goes through",
       "Random psychological patterns with no common cause"

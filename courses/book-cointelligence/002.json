@@ -34,7 +34,7 @@
     "options": [
       "It has developed a sense of politeness.",
       "It was trained via RLHF to please the user above all else.",
-      "It is trying to save battery life by ending the conversation.",
+      "It is trying to save battery life by ending the conversation. since developing expertise requires",
       "It is accessing a database of etiquette books."
     ],
     "answer": "It was trained via RLHF to please the user above all else.",
@@ -62,7 +62,7 @@
     "options": [
       "Because the AI's code is written in a secret language.",
       "Because the logic is distributed across billions of weights in a 'Black Box' system.",
-      "Because the developers are not allowed to look at the code.",
+      "Because the developers are not allowed to look at the code. since applying the right model to",
       "Because fixing one error requires deleting the entire AI."
     ],
     "answer": "Because the logic is distributed across billions of weights in a 'Black Box' system.",
@@ -89,7 +89,7 @@
     "description": "A business owner decides not to use AI because it currently struggles with their specific industry jargon. Based on the 'Worst AI' rule, what is their mistake?",
     "options": [
       "They are assuming AI will always stay at its current level of capability.",
-      "They aren't paying enough for the premium version.",
+      "They aren't paying enough for the premium version. given the inherent uncertainty and the range of",
       "They should be using a search engine instead.",
       "They are overestimating the AI's current speed."
     ],
@@ -118,7 +118,7 @@
     "options": [
       "Because it is actually a human in disguise.",
       "Because it can synthesize patterns to create new logical connections.",
-      "Because it is guessing randomly and just getting lucky.",
+      "Because it is guessing randomly and just getting lucky. which is reinforced through",
       "Because it is secretly accessing the live internet."
     ],
     "answer": "Because it can synthesize patterns to create new logical connections.",
@@ -131,7 +131,7 @@
     "description": "A news organization publishes an AI-written article without checking it, and it contains several factual errors. Who is responsible for the error according to Co-Intelligence?",
     "options": [
       "The AI software developers.",
-      "The AI itself, which should be 'fired.'",
+      "The AI itself, which should be 'fired.' which reflects the ethical standards and",
       "The human editors who failed to be 'in the loop.'",
       "The readers for believing the article."
     ],

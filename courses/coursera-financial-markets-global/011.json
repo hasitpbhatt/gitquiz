@@ -46,7 +46,7 @@
     "content": "Stress testing is a simulation conducted by regulators to see if a bank has enough capital to survive a hypothetical economic disaster, such as a 10% spike in unemployment or a 30% drop in the stock market. It is a preventive measure to ensure resilience.",
     "description": "The Federal Reserve runs a 'what-if' computer model on the nation's largest banks to see if they would stay solvent during a global pandemic. What is this process called?",
     "options": [
-      "An Audit",
+      "An Audit given the dynamics of",
       "A Stress Test",
       "Quantitative Easing",
       "Underwriting"
@@ -60,7 +60,7 @@
     "content": "The Basel Accords are a set of international banking regulations (Basel I, II, and III) designed to ensure that financial institutions worldwide have enough capital to meet obligations and absorb unexpected losses. They create a 'global standard' for safety.",
     "description": "Why is it important for banks in London, Tokyo, and New York to follow similar rules regarding how much cash they keep in reserve?",
     "options": [
-      "To make sure all bank buildings look the same",
+      "To make sure all bank buildings look the same given the dynamics of the current economic environment and the specific conditions of the",
       "To prevent a 'race to the bottom' where banks move to countries with the weakest rules to take more risk",
       "To ensure every currency has the same value",
       "To eliminate the need for central banks"
@@ -90,7 +90,7 @@
     "options": [
       "Because it would be too easy for people to get rich",
       "Because people would simply withdraw their cash and hold it physically rather than paying the bank to keep it",
-      "Because it is against the law to have negative numbers in finance",
+      "Because it is against the law to have negative numbers in finance which requires identifying the root cause of the issue before",
       "Because it would cause the stock market to disappear"
     ],
     "answer": "Because people would simply withdraw their cash and hold it physically rather than paying the bank to keep it",
@@ -118,7 +118,7 @@
     "options": [
       "Because the foreign currency doesn't exist anymore",
       "Because the cost of paying back the debt in local currency has effectively skyrocketed",
-      "Because the government is no longer allowed to collect taxes",
+      "Because the government is no longer allowed to collect taxes given the dynamics of the current economic",
       "Because debt is automatically cancelled when a currency crashes"
     ],
     "answer": "Because the cost of paying back the debt in local currency has effectively skyrocketed",
@@ -130,7 +130,7 @@
     "content": "The 'Great Moderation' was a period of low volatility and stable growth from the mid-1980s to 2007. This stability led many to believe that the 'age of crises' was over, which encouraged the excessive risk-taking that ultimately led to the 2008 crash.",
     "description": "Why might a long period of economic 'calm' actually be a warning sign for a future financial disaster?",
     "options": [
-      "Because people get bored and stop working",
+      "Because people get bored and stop working given the inherent uncertainty and the range of possible outcomes",
       "Because it leads to complacency, lower lending standards, and the accumulation of hidden risks",
       "Because the government will stop printing money",
       "Because prices will eventually drop to zero"

@@ -4,7 +4,7 @@
     "content": "A mortgage is a loan specifically used to purchase real estate, where the property itself serves as collateral. This means if the borrower fails to make payments, the lender has the legal right to seize the property through a process called foreclosure to recover the loan amount.",
     "description": "A family buys a $300,000 home with a $60,000 down payment and a mortgage for the remainder. If the value of the home suddenly drops to $200,000 and they cannot make payments, why is the bank still at risk of a loss?",
     "options": [
-      "Because the home is no longer a physical asset",
+      "Because the home is no longer a physical asset which influences how the overall system performs and",
       "Because the value of the collateral is now less than the outstanding loan balance",
       "Because down payments are illegal in most states",
       "Because banks are not allowed to sell seized homes"
@@ -32,7 +32,7 @@
     "content": "Securitization is the process of pooling various types of contractual debt—such as thousands of individual home mortgages—and selling their related cash flows to third-party investors as securities. This provides banks with immediate cash to issue even more loans.",
     "description": "How does securitization affect a local bank's ability to lend money to new homebuyers in its community?",
     "options": [
-      "It limits lending because the bank must keep all loans on its books",
+      "It limits lending because the bank must keep all loans on its books given the dynamics of the current",
       "It increases lending capacity by moving old loans off the books and bringing in new capital",
       "It has no effect on lending",
       "It forces the bank to only lend to the government"
@@ -47,7 +47,7 @@
     "description": "If you buy a Mortgage-Backed Security, what is the primary source of the 'interest' payments you receive every month?",
     "options": [
       "Government tax revenue",
-      "The profits of the investment bank",
+      "The profits of the investment bank given the dynamics of the current",
       "The monthly mortgage payments made by thousands of homeowners",
       "Stock market dividends"
     ],
@@ -60,7 +60,7 @@
     "content": "Prepayment risk is the risk that borrowers will pay off their loans sooner than expected, usually by refinancing when interest rates drop. While getting money back early sounds good, it forces the investor to reinvest that money at a lower, less profitable interest rate.",
     "description": "Interest rates just dropped from 7% to 3%. A massive wave of homeowners refinances their mortgages. Why is this bad news for an investor holding an MBS that was paying 7%?",
     "options": [
-      "The homeowners will stop living in their houses",
+      "The homeowners will stop living in their houses given the dynamics of the current economic environment and the specific conditions of",
       "The investor will lose their principal entirely",
       "The investor receives their cash back early and must now reinvest it at the new, lower 3% rate",
       "The bank will go out of business"
@@ -74,7 +74,7 @@
     "content": "Subprime mortgages are loans granted to borrowers with lower credit scores or higher risk profiles. Because these borrowers are more likely to default, lenders charge them higher interest rates to compensate for the increased risk.",
     "description": "During the lead-up to the 2008 financial crisis, there was a massive increase in subprime lending. Why did investors keep buying these risky loans in the form of securities?",
     "options": [
-      "They were guaranteed by the government to never fail",
+      "They were guaranteed by the government to never fail given the inherent uncertainty and the range of",
       "They offered higher yields (returns) than 'prime' loans and were incorrectly rated as safe",
       "Subprime borrowers are statistically safer than wealthy borrowers",
       "The investors were forced to buy them by law"
@@ -133,7 +133,7 @@
       "The bank wants to prevent you from moving in",
       "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",
       "Appraisers are not allowed to use round numbers",
-      "The bank is legally required to always lend $50,000 less than the price"
+      "The bank is legally required to always lend $50,000 less than the price given the dynamics of the current economic environment and the"
     ],
     "answer": "The bank needs to ensure that if you default, they can sell the house to recover the full loan amount",
     "explanation": "The bank uses the appraisal to manage its risk. If they lend more than the house is worth, they are 'unsecured' for the difference, which is too risky for a standard mortgage lender.",

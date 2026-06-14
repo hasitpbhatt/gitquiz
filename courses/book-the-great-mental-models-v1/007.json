@@ -4,12 +4,12 @@
     "content": "Inversion is looking at a problem backward: instead of asking how to achieve success, you ask what would guarantee failure. By systematically avoiding the causes of failure, success becomes a residual outcome.",
     "description": "Your team is planning a product launch. Instead of brainstorming how to make it successful, you ask: \"What would absolutely guarantee this product fails?\" What mental model are you using?",
     "options": [
-      "First principles thinking",
-      "Inversion — identifying the causes of failure and designing systems to avoid them",
-      "Probabilistic thinking",
-      "Second-order thinking"
+      "First principles thinking — breaking the launch down to its most fundamental assumptions and rebuilding from scratch",
+      "Inversion — identifying the causes of failure and designing systems to avoid them systematically and deliberately",
+      "Probabilistic thinking — assigning odds to various launch scenarios and outcomes based on available data and analysis",
+      "Second-order thinking — tracing the downstream consequences of the launch decision and its ripple effects over time"
     ],
-    "answer": "Inversion — identifying the causes of failure and designing systems to avoid them",
+    "answer": "Inversion — identifying the causes of failure and designing systems to avoid them systematically and deliberately",
     "explanation": "Inversion flips the question from \"How do we succeed?\" to \"How do we fail?\" Once you know the failure modes, you can systematically eliminate them. Success emerges naturally from avoiding obvious stupidity.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "A pre-mortem asks a team to imagine a project has already failed catastrophically and write the specific story of how it happened, then build defenses against each failure driver.",
     "description": "Before launching a major initiative, you gather the team and say: \"Imagine it is one year from now and this project was a complete disaster. Write the story of how it happened.\" What technique is this?",
     "options": [
-      "A post-mortem analysis",
-      "A pre-mortem — imagining failure before it happens to identify and prevent risks proactively",
-      "A risk assessment matrix",
-      "A SWOT analysis"
+      "A post-mortem analysis — examining failures after they have already occurred to learn from past mistakes and errors",
+      "A pre-mortem — imagining failure before it happens to identify and prevent risks proactively before they cause damage",
+      "A risk assessment matrix — scoring risks by likelihood and impact in a spreadsheet to prioritize mitigation efforts",
+      "A SWOT analysis — evaluating strengths, weaknesses, opportunities, and threats in a structured strategic framework"
     ],
-    "answer": "A pre-mortem — imagining failure before it happens to identify and prevent risks proactively",
+    "answer": "A pre-mortem — imagining failure before it happens to identify and prevent risks proactively before they cause damage",
     "explanation": "Unlike a post-mortem (analyzing failure after it occurs), a pre-mortem imagines failure in advance. This frees people from optimism bias and reveals risks they would otherwise downplay. Each identified risk becomes a target for preventive action.",
     "difficulty": "medium"
   },
@@ -32,10 +32,10 @@
     "content": "Florence Nightingale inverted the problem of military hospital deaths: instead of focusing on complex treatments, she asked what was actually killing the most soldiers and discovered infectious diseases from unsanitary conditions.",
     "description": "A factory has high worker injury rates. Instead of investing in expensive safety technology, management asks: \"What is actually causing the most injuries right now?\" They find simple slip hazards are the primary cause. What approach does this mirror?",
     "options": [
-      "First principles thinking",
+      "First principles thinking — deconstructing the injury problem down to its fundamental physical causes and mechanisms",
       "Nightingale's inversion — focusing on the biggest actual cause of failure rather than complex solutions to peripheral problems",
-      "Occam's Razor",
-      "The map is not the territory"
+      "Occam's Razor — choosing the simplest explanation for why injuries are occurring without overcomplicating the analysis",
+      "The map is not the territory — the injury reports do not capture the full reality of what is happening on the factory floor"
     ],
     "answer": "Nightingale's inversion — focusing on the biggest actual cause of failure rather than complex solutions to peripheral problems",
     "explanation": "Nightingale inverted the problem by asking what was actually killing soldiers, not what advanced treatments could save them. She found simple hygiene was the root cause. Similarly, simple slip hazards — not complex machinery — may cause most workplace injuries.",
@@ -46,12 +46,12 @@
     "content": "Charlie Munger studied how people become miserable and bankrupt instead of how to become happy and wealthy. By systematically avoiding those traps — sloth, envy, resentment, addiction, bigotry — success accrued naturally.",
     "description": "A young professional asks a mentor: \"What habits should I develop to become successful?\" The mentor instead lists behaviors that guarantee career failure and advises avoiding them. What philosophy does this reflect?",
     "options": [
-      "Growth mindset theory",
-      "Munger's inversion — avoiding the causes of failure is more reliable than chasing formulas for success",
-      "The Peter Principle",
-      "Goal-setting theory"
+      "Growth mindset theory — believing abilities can be developed through dedication and hard work over time and practice",
+      "Munger's inversion — avoiding the causes of failure is more reliable than chasing formulas for success and happiness",
+      "The Peter Principle — people rise to their level of incompetence in organizational hierarchies over their careers",
+      "Goal-setting theory — specific and challenging goals lead to higher performance and achievement in professional settings"
     ],
-    "answer": "Munger's inversion — avoiding the causes of failure is more reliable than chasing formulas for success",
+    "answer": "Munger's inversion — avoiding the causes of failure is more reliable than chasing formulas for success and happiness",
     "explanation": "Munger believed that knowing the surefire paths to misery (sloth, unreliability, envy, resentment) was more practical than studying success. If you avoid obvious stupidity, wisdom and success tend to take care of themselves.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "It is statistically and operationally simpler to avoid obvious stupidity than to achieve brilliant, unprecedented insights. Inversion leverages this asymmetry: eliminating failure is easier than engineering success.",
     "description": "A startup founder asks, \"Should we aim for a breakthrough innovation or just avoid making obvious mistakes like over-hiring, poor cash management, and building features nobody wants?\" What does inversion suggest?",
     "options": [
-      "Pursue breakthrough innovation at all costs",
-      "Start by avoiding obvious catastrophic mistakes — that alone dramatically increases survival odds",
-      "Do both equally — breakthroughs and avoiding mistakes require the same effort",
-      "Focus only on copying what successful competitors do"
+      "Pursue breakthrough innovation at all costs even if it means taking existential risks that could destroy the company entirely",
+      "Start by avoiding obvious catastrophic mistakes — that alone dramatically increases survival odds and long-term success",
+      "Do both equally — breakthroughs and avoiding mistakes require the same effort and attention from the founding team",
+      "Focus only on copying what successful competitors do to minimize risk and follow proven business models and approaches"
     ],
-    "answer": "Start by avoiding obvious catastrophic mistakes — that alone dramatically increases survival odds",
+    "answer": "Start by avoiding obvious catastrophic mistakes — that alone dramatically increases survival odds and long-term success",
     "explanation": "Inversion recognizes that avoiding stupidity is easier than achieving brilliance. Most startups fail from basic, predictable errors — running out of cash, building wrong products, hiring poorly. Avoiding these traps gives you more runway to find actual success.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "Carl Gustav Jacob Jacobi originated the principle \"Invert, always invert\" — turning problems around to see them from the opposite direction often reveals insights that forward thinking misses.",
     "description": "A product team is stuck on how to increase user engagement. A consultant says: \"Instead of asking how to get people to use the app more, ask: what would make them definitely stop using it?\" Whose principle does this follow?",
     "options": [
-      "Occam's principle of parsimony",
-      "Jacobi's principle — \"Invert, always invert\" — look at the problem backward",
-      "Popper's falsifiability",
-      "Pareto's 80/20 principle"
+      "Occam's principle of parsimony — the simplest solution is usually the correct one and should be prioritized first",
+      "Jacobi's principle — \"Invert, always invert\" — look at the problem backward to reveal hidden insights and assumptions",
+      "Popper's falsifiability — a theory must be testable and potentially disprovable to be considered truly scientific",
+      "Pareto's 80/20 principle — a minority of causes drive the majority of effects in most complex systems and processes"
     ],
-    "answer": "Jacobi's principle — \"Invert, always invert\" — look at the problem backward",
+    "answer": "Jacobi's principle — \"Invert, always invert\" — look at the problem backward to reveal hidden insights and assumptions",
     "explanation": "The mathematician Jacobi advised always inverting problems because the reverse view reveals different truths. Asking \"What drives users away?\" often generates more actionable insights than asking \"What brings users in?\"",
     "difficulty": "easy"
   },
@@ -88,12 +88,12 @@
     "content": "Inversion requires radical intellectual honesty to look at your current operations and admit when you are doing things that would lead to failure — treating the failure list as a vulnerability map, not a joke.",
     "description": "A leadership team does a pre-mortem and lists \"micromanagement kills innovation\" as a failure driver. The CEO then realizes they personally micromanage every decision. Why is this realization the most valuable part of the exercise?",
     "options": [
-      "It makes the CEO look humble",
-      "Inversion requires radical honesty — identifying that you are actively doing the things on your own failure list enables targeted corrective action",
-      "Micromanagement is actually good for innovation",
-      "The team should not criticize the CEO"
+      "It makes the CEO look humble in front of the leadership team and improves their personal reputation and credibility since developing expertise requires dedicated effort and deliberate practice",
+      "Inversion requires radical honesty — identifying that you are actively doing the things on your own failure list enables targeted corrective action to fix them",
+      "Micromanagement is actually good for innovation in fast-paced environments where tight control ensures quality outcomes",
+      "The team should not criticize the CEO in public leadership meetings as it undermines authority and organizational hierarchy"
     ],
-    "answer": "Inversion requires radical honesty — identifying that you are actively doing the things on your own failure list enables targeted corrective action",
+    "answer": "Inversion requires radical honesty — identifying that you are actively doing the things on your own failure list enables targeted corrective action to fix them",
     "explanation": "The true power of inversion comes from honestly mapping your current vulnerabilities, not generating a theoretical list. Recognizing that \"we are already doing the things that will destroy us\" is uncomfortable but essential for meaningful change.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "Inversion transforms brainstorming into rigid operational constraints: every item on the failure list becomes a mandatory countermeasure with a specific operational policy.",
     "description": "After a pre-mortem, the team lists \"key engineer quits with no documentation\" as a failure driver. What should they do with this insight according to the inversion framework?",
     "options": [
-      "Hope the key engineer does not quit",
-      "Create an immediate, mandatory policy for daily code documentation and knowledge sharing — turn every failure item into a specific countermeasure",
-      "Ask the engineer to promise they will not leave",
-      "Hire a second key engineer to back up the first"
+      "Hope the key engineer does not quit and stays with the company long-term despite having no retention strategies in place since developing expertise requires dedicated effort and",
+      "Create an immediate, mandatory policy for daily code documentation and knowledge sharing — turn every failure item into a specific countermeasure and enforceable rule",
+      "Ask the engineer to promise they will not leave the company or the team even if better opportunities arise elsewhere",
+      "Hire a second key engineer to back up the first one's work and knowledge at additional cost to the organization"
     ],
-    "answer": "Create an immediate, mandatory policy for daily code documentation and knowledge sharing — turn every failure item into a specific countermeasure",
+    "answer": "Create an immediate, mandatory policy for daily code documentation and knowledge sharing — turn every failure item into a specific countermeasure and enforceable rule",
     "explanation": "Inversion is not just brainstorming — it requires operationalizing the findings. Every identified failure driver must be met with a specific, enforceable policy or countermeasure. The failure list becomes an action plan, not a discussion.",
     "difficulty": "hard"
   }

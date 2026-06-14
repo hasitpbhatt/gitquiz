@@ -7,7 +7,7 @@
       "Over-engineering due to poor requirements",
       "Margin of safety — building buffers for unexpected stress and variance",
       "A bottleneck constraint limiting bridge capacity",
-      "The law of diminishing returns on materials"
+      "The law of diminishing returns on materials which influences how the overall system performs"
     ],
     "answer": "Margin of safety — building buffers for unexpected stress and variance",
     "explanation": "Engineers deliberately over-design critical structures to handle unforeseen loads, material defects, and extreme conditions that exceed normal expectations.",
@@ -20,7 +20,7 @@
     "options": [
       "Dollar-cost averaging spreads the risk over time",
       "The margin of safety — buying at a discount to estimated value provides a cushion against errors",
-      "Market timing ensures they buy at the bottom",
+      "Market timing ensures they buy at the bottom given the dynamics of the current economic environment and the specific conditions",
       "Diversification eliminates the need for accurate valuation"
     ],
     "answer": "The margin of safety — buying at a discount to estimated value provides a cushion against errors",
@@ -34,7 +34,7 @@
     "options": [
       "The bridge was over-designed and resources were wasted",
       "Designing for extreme worst-case scenarios that may never occur is prudent for critical infrastructure",
-      "Engineers should design for average conditions and add minor safety margins",
+      "Engineers should design for average conditions and add minor safety margins which influences how the overall system",
       "Historical data is the best predictor of future requirements"
     ],
     "answer": "Designing for extreme worst-case scenarios that may never occur is prudent for critical infrastructure",
@@ -60,7 +60,7 @@
     "content": "Never optimize a critical operation for 100% capacity under ideal conditions. Assume at least 20-30% negative variance in cost, time, or performance, and build redundancies to absorb that volatility.",
     "description": "A logistics company runs its fleet at 95% capacity utilization to maximize efficiency. When a truck breaks down or a driver calls in sick, entire delivery chains are disrupted. What principle are they violating?",
     "options": [
-      "The law of diminishing returns on fleet size",
+      "The law of diminishing returns on fleet size since applying the right model to the right situation is",
       "The margin of safety principle — running at maximum capacity leaves no buffer for variance",
       "The bottleneck constraint in the maintenance department",
       "The homeostasis of delivery schedules"
@@ -74,7 +74,7 @@
     "content": "There is a fundamental tension between margin of safety and efficiency. Maximizing short-term efficiency often eliminates buffers, making the system fragile and prone to catastrophic failure.",
     "description": "A hospital reduced bed capacity from 90% to 98% occupancy to cut costs. When a winter flu surge hit, they had no room and had to turn away ambulances. What went wrong?",
     "options": [
-      "The hospital should have predicted the flu surge better",
+      "The hospital should have predicted the flu surge better given the inherent uncertainty and the range",
       "Efficiency optimization eliminated the margin of safety, making the system fragile to variance",
       "The hospital needed better patient scheduling software",
       "Ambulances should have been redirected earlier"
@@ -90,7 +90,7 @@
     "options": [
       "It is wasteful over-engineering that adds unnecessary weight",
       "It is a critical margin of safety for systems where single-point failure is unacceptable",
-      "It is an example of a bottleneck in the hydraulic system",
+      "It is an example of a bottleneck in the hydraulic system which influences how the overall system",
       "It is a balancing loop maintaining flight stability"
     ],
     "answer": "It is a critical margin of safety for systems where single-point failure is unacceptable",
@@ -102,7 +102,7 @@
     "content": "In personal finance, maintaining an emergency fund of 3-6 months of expenses provides a margin of safety against job loss, medical emergencies, or unexpected major expenses.",
     "description": "A financial advisor recommends keeping 6 months of living expenses in cash rather than investing it in the stock market. According to the margin of safety principle, why?",
     "options": [
-      "Cash always earns a better return than stocks in the short term",
+      "Cash always earns a better return than stocks in the short term given the dynamics of the current economic environment and",
       "The cash buffer protects against forced asset sales during a market downturn when you lose your job simultaneously",
       "Investing in stocks is too risky for any purpose",
       "The advisor does not understand investing"

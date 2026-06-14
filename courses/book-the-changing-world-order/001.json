@@ -35,7 +35,7 @@
       "The country is still at its absolute peak of power.",
       "The country’s power is actually increasing despite the trade data.",
       "The country is in a late-stage 'Top' where its status is outliving its actual strength.",
-      "The country has successfully skipped the decline phase of the Big Cycle."
+      "The country has successfully skipped the decline phase of the Big Cycle. given the dynamics of the current"
     ],
     "answer": "The country is in a late-stage 'Top' where its status is outliving its actual strength.",
     "explanation": "Reserve currency status is 'sticky.' Because it's a lagging indicator, people continue to trust the currency based on past performance even after the underlying fundamentals (trade and military) have weakened.",
@@ -48,7 +48,7 @@
     "options": [
       "Because debt and social unrest cancel each other out.",
       "Because the confluence of these cycles makes the system highly fragile to external shocks.",
-      "Because high debt usually forces a government to give more money to protesters.",
+      "Because high debt usually forces a government to give more money to protesters. given the dynamics of",
       "Because internal disorder always leads to lower interest rates."
     ],
     "answer": "Because the confluence of these cycles makes the system highly fragile to external shocks.",
@@ -77,7 +77,7 @@
       "Yes, because war destroys all previous knowledge.",
       "No, because the long-term trend of productivity usually persists despite the cycle's dip.",
       "Yes, because wealth gaps prevent any further innovation.",
-      "No, because debt cycles are the only things that matter for progress."
+      "No, because debt cycles are the only things that matter for progress. since developing expertise requires"
     ],
     "answer": "No, because the long-term trend of productivity usually persists despite the cycle's dip.",
     "explanation": "Even during miserable periods of the cycle, humans continue to learn and invent. The cycle causes temporary pain and restructuring, but it does not erase the fundamental human capacity to become more productive over time.",

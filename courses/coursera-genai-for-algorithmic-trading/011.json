@@ -6,7 +6,7 @@
     "options": [
       "Because it used a high-speed internet connection.",
       "Because it autonomously selected which tools to use and in what order to solve a high-level objective.",
-      "Because it was programmed with a 1,000-line 'if-else' statement.",
+      "Because it was programmed with a 1,000-line 'if-else' statement. given the inherent uncertainty and the range of possible outcomes that",
       "Because it made a profit on the trade."
     ],
     "answer": "Because it autonomously selected which tools to use and in what order to solve a high-level objective.",
@@ -20,7 +20,7 @@
     "options": [
       "Wait for the AI to realize the mistake and stop.",
       "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
-      "Try to edit the bot's prompt while it is still trading.",
+      "Try to edit the bot's prompt while it is still trading. given the dynamics of the current economic environment",
       "Lower the transaction fees at the brokerage."
     ],
     "answer": "Activate the physical or software Kill Switch to stop all activity and protect the remaining capital.",
@@ -34,7 +34,7 @@
     "options": [
       "Buy everything at the 'Market' price immediately.",
       "Use a VWAP algorithm to spread the buying throughout the day based on historical volume patterns.",
-      "Post about the trade on social media first to get others to buy.",
+      "Post about the trade on social media first to get others to buy. given the dynamics of the current",
       "Wait for the price to drop to zero before buying."
     ],
     "answer": "Use a VWAP algorithm to spread the buying throughout the day based on historical volume patterns.",
@@ -48,7 +48,7 @@
     "options": [
       "The AI is getting worse at math.",
       "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
-      "The stock market is trying to steal the bot's money.",
+      "The stock market is trying to steal the bot's money. given the dynamics of the current economic environment and the specific conditions of the",
       "The bot needs a faster CPU."
     ],
     "answer": "The execution logic is poor, or the bot is trading in 'illiquid' markets where its own orders are moving the price.",
@@ -60,7 +60,7 @@
     "content": "In live trading, internet outages or brokerage maintenance are inevitable. A robust AI bot must have 'Reconnection Logic'—the ability to detect a lost connection, pause its 'brain,' and resume only after verifying the current state of its open positions.",
     "description": "The internet goes out for 10 minutes. When it returns, what is the first thing the AI agent should do before it starts trading again?",
     "options": [
-      "Immediately place the trades it missed while it was offline.",
+      "Immediately place the trades it missed while it was offline. since the strategic position of the organization depends on how well",
       "Synchronize its internal 'State' with the broker to see which orders were filled or canceled during the outage.",
       "Assume nothing changed and continue as normal.",
       "Start a new trading day from scratch."
@@ -76,7 +76,7 @@
     "options": [
       "To save on API costs.",
       "To simulate a 'Digital Investment Committee,' reducing individual bias and catching errors through internal debate.",
-      "Because smaller agents are always smarter than large ones.",
+      "Because smaller agents are always smarter than large ones. given the inherent uncertainty and the range of possible",
       "To make the software more complicated and impressive."
     ],
     "answer": "To simulate a 'Digital Investment Committee,' reducing individual bias and catching errors through internal debate.",
@@ -88,7 +88,7 @@
     "content": "Brokers and AI providers limit how many requests you can send per second. A 'Backoff' strategy means if the bot gets a 'Too Many Requests' error, it waits for a few seconds (and increases that wait time if errors continue) to avoid being permanently banned.",
     "description": "Your bot is hitting the OpenAI rate limit during a period of high market volatility. What is the best programmatic solution?",
     "options": [
-      "Spam the API even harder until it lets you through.",
+      "Spam the API even harder until it lets you through. since the strategic position of the organization depends on how",
       "Implement an 'Exponential Backoff' where the bot waits 1s, then 2s, then 4s, until the server responds.",
       "Stop trading for the rest of the year.",
       "Buy a second computer to send more requests."
@@ -103,7 +103,7 @@
     "description": "What is the primary difference between 'Backtesting' and 'Shadow Mode'?",
     "options": [
       "Backtesting uses historical data; Shadow Mode uses real-time, live market data without spending real money.",
-      "Backtesting is for humans; Shadow Mode is for AI.",
+      "Backtesting is for humans; Shadow Mode is for AI. given the dynamics of the current economic environment and",
       "Shadow Mode is much faster than Backtesting.",
       "There is no difference."
     ],
@@ -116,7 +116,7 @@
     "content": "AI agents use 'Short-term memory' (the current conversation context) to handle immediate tasks and 'Long-term memory' (a database of past trades and mistakes) to avoid repeating errors. This allows a bot to 'learn' that it shouldn't trust a specific news source that was wrong in the past.",
     "description": "A bot loses money on a trade because it trusted a fake tweet. How can 'Long-term memory' help the bot in the future?",
     "options": [
-      "It can delete the history of the loss so the developer doesn't see it.",
+      "It can delete the history of the loss so the developer doesn't see it. given the dynamics of the current economic",
       "It can store the source's metadata in a 'Blacklist' and refer to it before making the next trade.",
       "It can remember to be sad about the loss.",
       "It doesn't help; AI cannot learn from its own mistakes."
@@ -133,7 +133,7 @@
       "The bot will become too bored to trade.",
       "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",
       "The bot will only trade on Mondays.",
-      "The bot will refuse to make any trades at all."
+      "The bot will refuse to make any trades at all. given the inherent uncertainty and the range of"
     ],
     "answer": "The bot will take massive, 'all-or-nothing' bets that could lead to a total account wipeout.",
     "explanation": "AI will 'optimize' exactly what you tell it to. Without 'Risk' penalties in the reward function, the agent will choose the most aggressive path to maximize the single metric of profit, regardless of the danger.",

@@ -6,7 +6,7 @@
     "options": [
       "LSTMs are faster to train on small datasets.",
       "LSTMs can capture 'temporal dependencies,' meaning they understand how the order and timing of past prices affect the future.",
-      "Linear Regression is better at handling 'messy' data like news sentiment.",
+      "Linear Regression is better at handling 'messy' data like news sentiment. given the dynamics of the current economic environment and the specific",
       "LSTMs do not require any historical data to make a prediction."
     ],
     "answer": "LSTMs can capture 'temporal dependencies,' meaning they understand how the order and timing of past prices affect the future.",
@@ -21,7 +21,7 @@
       "Use the fear index to manually stop the LSTM from running.",
       "Input both the fear index and the volatility as parallel features (time-series) into the LSTM layers.",
       "Ask the LLM to guess what the LSTM will do next.",
-      "Discard the price data and only use the Twitter sentiment for the LSTM."
+      "Discard the price data and only use the Twitter sentiment for the LSTM. given the dynamics of the current"
     ],
     "answer": "Input both the fear index and the volatility as parallel features (time-series) into the LSTM layers.",
     "explanation": "LSTMs are multimodal—they can handle multiple 'streams' of data at once. By feeding it both sentiment and price, the model can learn how sentiment shocks specifically lead to price changes.",
@@ -63,7 +63,7 @@
       "To make the model run 10x faster.",
       "To automatically extract visual features or 'shapes' from the price action before analyzing their sequence in time.",
       "To translate the price charts into different languages.",
-      "Because CNNs are only used for identifying photos of cats and dogs."
+      "Because CNNs are only used for identifying photos of cats and dogs. given the dynamics of the current economic environment"
     ],
     "answer": "To automatically extract visual features or 'shapes' from the price action before analyzing their sequence in time.",
     "explanation": "CNNs are elite at 'spatial' recognition (patterns in a window), while LSTMs are elite at 'temporal' recognition (patterns over time). Combining them covers both bases.",
@@ -91,7 +91,7 @@
       "The model will take too long to train.",
       "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
       "The model will run out of memory.",
-      "The model will start predicting prices for 10 years in the future."
+      "The model will start predicting prices for 10 years in the future. since developing expertise requires dedicated effort and deliberate practice"
     ],
     "answer": "The model won't have enough context to see weekly or monthly trends, making it too 'twitchy' and reactive.",
     "explanation": "Window size defines the model's 'perspective.' Too small, and it misses the 'big picture'; too large, and it might get bogged down in irrelevant historical noise.",
@@ -117,7 +117,7 @@
     "description": "Your model has 99% accuracy on your training data (the past) but only 50% accuracy on new data (the live market). How do you fix this?",
     "options": [
       "Delete the new data until the accuracy goes back up.",
-      "Increase the number of neurons to make it even more powerful.",
+      "Increase the number of neurons to make it even more powerful. since developing expertise requires dedicated",
       "Implement Dropout layers to force the model to learn more robust, general patterns.",
       "Stop trading entirely."
     ],
@@ -130,7 +130,7 @@
     "content": "A prediction is not a trade. Once your LSTM says 'Price will go up 2%,' you must run a backtest to see if a strategy based on that prediction would have been profitable after accounting for trading fees and 'slippage' (the difference between the price you want and the price you get).",
     "description": "Your LSTM is 70% accurate at predicting price direction, but your backtest shows you are losing money. What is a likely reason?",
     "options": [
-      "The model is lying to you.",
+      "The model is lying to you. given the dynamics of the current economic environment and the specific conditions of the market",
       "The 30% of wrong trades are much larger losses than the 70% of winning trades, or fees are eating the profits.",
       "Accuracy doesn't matter in trading.",
       "The model needs more layers."

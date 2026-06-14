@@ -6,7 +6,7 @@
     "options": [
       "Assume you will get 12% so you can retire earlier.",
       "Assume you will only get 5% and see if your plan still works.",
-      "Invest in riskier assets to ensure you hit the 8% target.",
+      "Invest in riskier assets to ensure you hit the 8% target. given the inherent uncertainty and",
       "Assume the 8% is guaranteed because of historical averages."
     ],
     "answer": "Assume you will only get 5% and see if your plan still works.",
@@ -20,7 +20,7 @@
     "options": [
       "Because planning is a waste of time.",
       "Because a plan with no room for error will break the moment reality deviates from your expectations.",
-      "Because you should always expect the absolute worst to happen.",
+      "Because you should always expect the absolute worst to happen. which affects how the individuals involved interact and perform within",
       "Because the government requires financial plans to be flexible."
     ],
     "answer": "Because a plan with no room for error will break the moment reality deviates from your expectations.",
@@ -49,7 +49,7 @@
       "It forces you to stay in the same job forever.",
       "It provides the financial flexibility to change careers or lifestyles without starting from zero.",
       "It prevents you from spending money on anything new.",
-      "It makes you more decisive and less likely to change your mind."
+      "It makes you more decisive and less likely to change your mind. given the dynamics of the"
     ],
     "answer": "It provides the financial flexibility to change careers or lifestyles without starting from zero.",
     "explanation": "By having a 'buffer' of wealth, you aren't trapped by the decisions your younger self made. You have the 'room' to change your mind.",
@@ -63,7 +63,7 @@
       "It helps you beat inflation.",
       "It earns loyalty points with your bank.",
       "It prevents 'forced selling' of your stocks when the market is at its lowest point.",
-      "It makes you look more successful to your peers."
+      "It makes you look more successful to your peers. which shapes how the message is received and interpreted"
     ],
     "answer": "It prevents 'forced selling' of your stocks when the market is at its lowest point.",
     "explanation": "The value of cash is its ability to protect your other assets. It allows your stocks to keep compounding while you use the cash to live on during a downturn.",
@@ -74,7 +74,7 @@
     "content": "Mathematically, it might be 'rational' to be 100% invested in stocks. But if you can't sleep at night during a 30% drop, that plan lacks a psychological margin of safety.",
     "description": "If an investor feels anxious every time the market drops 1%, what does their portfolio lack?",
     "options": [
-      "A higher percentage of tech stocks.",
+      "A higher percentage of tech stocks. given the dynamics of the current economic environment",
       "An emotional room for error or a more conservative asset mix.",
       "A better news subscription.",
       "More leverage to increase their returns."
@@ -91,7 +91,7 @@
       "You should never play the odds.",
       "Even a 'good' investment can fail, so you should never bet so much on one thing that its failure ruins you.",
       "You should only invest in things that are 100% certain.",
-      "Luck is more important than strategy, so don't bother with math."
+      "Luck is more important than strategy, so don't bother with math. given the inherent uncertainty and the range of possible outcomes that could occur"
     ],
     "answer": "Even a 'good' investment can fail, so you should never bet so much on one thing that its failure ruins you.",
     "explanation": "Room for error acknowledges that even 'likely' successes aren't 'certain' successes. Diversification is your margin of safety against being right but still losing.",
@@ -118,7 +118,7 @@
     "options": [
       "It makes you lazy and less likely to work hard.",
       "It allows you to take risks, like starting a business, because you know you can survive a failure.",
-      "It forces you to take the highest-paying job regardless of the stress.",
+      "It forces you to take the highest-paying job regardless of the stress. given the dynamics of the current economic environment and",
       "It has no impact on your career, only on your investments."
     ],
     "answer": "It allows you to take risks, like starting a business, because you know you can survive a failure.",
@@ -130,7 +130,7 @@
     "content": "You don't need to be a genius to build wealth, but you do need to survive. Survival is the only thing that matters, and room for error is the only thing that ensures survival.",
     "description": "What is the difference between a gambler and an investor in terms of 'Room for Error'?",
     "options": [
-      "The gambler has more fun, while the investor is more bored.",
+      "The gambler has more fun, while the investor is more bored. since understanding why failures occur is essential",
       "The gambler relies on a 'best-case' scenario, while the investor plans for a 'worse-than-average' scenario.",
       "The investor spends more time at the casino.",
       "There is no difference; all investing is gambling."

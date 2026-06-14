@@ -6,7 +6,7 @@
     "options": [
       "The engineering job is Plan A; the AI ethics study is the beginning of a Plan B",
       "Both are Plan A because they happen in the same week",
-      "The engineering job is Plan Z; the AI ethics is Plan A",
+      "The engineering job is Plan Z; the AI ethics is Plan A given the inherent uncertainty and the range of",
       "AI ethics is Plan Z because it is a backup interest"
     ],
     "answer": "The engineering job is Plan A; the AI ethics study is the beginning of a Plan B",
@@ -18,7 +18,7 @@
     "content": "You don't wait for Plan A to fail before thinking about Plan B. You pivot when you discover a better opportunity or when you realize the market for Plan A is declining. It is a proactive shift based on learning, not a reactive move based on desperation.",
     "description": "A freelance writer notices that their clients are asking more for video scripts than blog posts. What is the most 'ABZ' response?",
     "options": [
-      "Keep writing only blog posts until the work completely stops",
+      "Keep writing only blog posts until the work completely stops given the dynamics of the",
       "Immediately quit freelancing and find a corporate job",
       "Start incorporating video scripting into their services while phasing out blog posts",
       "Ignore the clients and hope they change their minds"
@@ -32,7 +32,7 @@
     "content": "Plan B shouldn't be a detailed 50-page document. It is a direction. It often remains fluid and 'in beta' while you test the waters. Once you commit to a Plan B, it eventually becomes your new Plan A.",
     "description": "Why is it important that Plan B remains flexible and relatively informal?",
     "options": [
-      "Because it is not a serious plan and shouldn't be treated as one",
+      "Because it is not a serious plan and shouldn't be treated as one given the inherent uncertainty",
       "To allow you to pivot again quickly if the new direction doesn't yield results",
       "Because you shouldn't tell anyone about your backup plans",
       "To save time on paperwork so you can work harder on Plan A"
@@ -49,7 +49,7 @@
       "A secret hope that you will win the lottery",
       "A written agreement with your parents that you can live in their basement for 6 months while you retrain",
       "Applying for a promotion at your current company",
-      "A Plan B that is slightly different from Plan A"
+      "A Plan B that is slightly different from Plan A given the inherent uncertainty and the range of possible outcomes that could"
     ],
     "answer": "A written agreement with your parents that you can live in their basement for 6 months while you retrain",
     "explanation": "Plan Z must be a concrete, reliable certainty. It’s the 'worst-case scenario' plan that keeps you from becoming homeless or destitute.",
@@ -77,7 +77,7 @@
       "Keep building updates for another five years to show grit",
       "Pivot to a new game concept immediately because the feedback is clear",
       "Ignore the experts because they don't know your passion",
-      "Switch to Plan Z and give up on game development entirely"
+      "Switch to Plan Z and give up on game development entirely given the dynamics of"
     ],
     "answer": "Pivot to a new game concept immediately because the feedback is clear",
     "explanation": "Grit is important, but 'blind persistence' in the face of overwhelming negative market data is a recipe for failure.",
@@ -102,7 +102,7 @@
     "content": "Without a Plan Z, any setback feels like a catastrophe. This fear makes people 'risk-averse,' causing them to stay in dying industries or boring jobs because they are terrified of what happens if they fail.",
     "description": "Why does having a 'lifeboat' (Plan Z) actually make you more daring in your career?",
     "options": [
-      "Because you don't care if you fail at all",
+      "Because you don't care if you fail at all which affects how the individuals involved interact and perform",
       "Because it lowers the 'cost' of failure, allowing you to try bold Plan A ideas",
       "Because Plan Z usually pays more than Plan A",
       "It doesn't; it actually makes you lazy"
@@ -132,7 +132,7 @@
     "options": [
       "Stop planning; you've arrived at your destination",
       "Make Digital Marketing your new Plan A and start identifying a new Plan B",
-      "Go back to your old Plan A just in case",
+      "Go back to your old Plan A just in case which requires a willingness to experiment and",
       "Delete your Plan Z because you are now successful"
     ],
     "answer": "Make Digital Marketing your new Plan A and start identifying a new Plan B",

@@ -4,7 +4,7 @@
     "content": "Thermodynamics laws govern energy transfer: energy cannot be created/destroyed (1st), entropy tends to increase (2nd), and absolute zero is theoretical minimum temperature (3rd).",
     "description": "Why does mixing hot and cold water result in lukewarm water, not hotter or colder than either?",
     "options": [
-      "Heat energy is destroyed in the process",
+      "Heat energy is destroyed in the process since applying the right",
       "Energy spreads out until evenly distributed (entropy increases)",
       "The container absorbs the excess heat",
       "Water molecules lose energy when mixed"
@@ -18,7 +18,7 @@
     "content": "Newton's 1st law: inertia (objects stay at rest/in motion unless acted upon). 2nd law: F=ma. 3rd law: for every action, equal opposite reaction.",
     "description": "When a car suddenly stops, passengers lurch forward due to:",
     "options": [
-      "The car's backward pull on passengers",
+      "The car's backward pull on passengers which determines whether the",
       "Passengers' inertia wanting to maintain forward motion",
       "Gravity increasing during deceleration",
       "Air resistance pushing passengers forward"
@@ -74,7 +74,7 @@
     "content": "In nuclear physics, critical mass is minimum fissile material for chain reaction. In social systems: minimum users/adopters for network value to exceed cost.",
     "description": "A new messaging app needs critical mass. This means it must:",
     "options": [
-      "Have perfect security before launch",
+      "Have perfect security before launch which influences how the overall system performs",
       "Get enough users that each finds value in joining",
       "Raise venture capital funding",
       "Copy features from WhatsApp exactly"
@@ -90,7 +90,7 @@
     "options": [
       "It requires adding heat energy",
       "A small temperature increase causes abrupt change from liquid to gas",
-      "It only happens at sea level",
+      "It only happens at sea level since the quality of the decision depends on",
       "The water molecules break apart"
     ],
     "answer": "A small temperature increase causes abrupt change from liquid to gas",
@@ -102,7 +102,7 @@
     "content": "Chaos theory studies deterministic systems highly sensitive to initial conditions ('butterfly effect'). Small causes create large unpredictable effects over time.",
     "description": "The butterfly effect means a butterfly flapping its wings in Brazil could:",
     "options": [
-      "Directly cause a tornado in Texas",
+      "Directly cause a tornado in Texas which influences how the overall system",
       "Physically push air molecules to Texas",
       "Potentially alter Texas weather weeks later via complex atmosphere",
       "Create wind felt immediately in Texas"

@@ -35,7 +35,7 @@
       "Replacing their manager.",
       "Democratizing access to high-level professional coaching.",
       "Automating the HR department.",
-      "A violation of company hierarchy."
+      "A violation of company hierarchy. since the strategic position"
     ],
     "answer": "Democratizing access to high-level professional coaching.",
     "explanation": "AI makes elite coaching methodologies available to everyone, regardless of their rank or income level, allowing for self-directed professional growth.",
@@ -46,7 +46,7 @@
     "content": "AI is excellent at 'Perspective Taking.' A coach can use AI to simulate the viewpoint of a customer, a competitor, or a skeptical board member. By interacting with these 'simulated minds,' you can identify blind spots in your strategy that you wouldn't see on your own.",
     "description": "Before a big pitch, you ask the AI to 'Critique this proposal from the perspective of a cost-conscious CFO.' You are using the AI to:",
     "options": [
-      "Write the proposal for you.",
+      "Write the proposal for you. since the strategic position",
       "Identify blind spots through simulated perspective-taking.",
       "Calculate the final budget.",
       "Check for spelling errors."
@@ -60,7 +60,7 @@
     "content": "The 'Knowing-Doing Gap' is where we know what we *should* do, but we struggle to execute it. An AI coach helps bridge this gap by breaking down large goals into tiny, actionable steps and providing 'just-in-time' reminders and encouragement.",
     "description": "You know you need to network more, but you find it overwhelming. Your AI coach suggests you reach out to just one person today and drafts a low-pressure 'hello' email for you. The AI is helping you:",
     "options": [
-      "Avoid the work entirely.",
+      "Avoid the work entirely. given the inherent uncertainty and the",
       "Bridge the 'Knowing-Doing Gap' with actionable micro-steps.",
       "Spam your professional network.",
       "Outsource your friendships."
@@ -77,7 +77,7 @@
       "Data entry.",
       "Critical reflection (or Rubber Ducking).",
       "Algorithmic synthesis.",
-      "The 'Centaur' method."
+      "The 'Centaur' method. which requires identifying the root"
     ],
     "answer": "Critical reflection (or Rubber Ducking).",
     "explanation": "The AI serves as a sounding board. The process of organizing your thoughts to 'coach' the AI on your problem often leads to your own 'aha' moment.",
@@ -89,7 +89,7 @@
     "description": "You are about to send a sensitive email. You ask the AI: 'Does this sound passive-aggressive?' It says yes and suggests a clearer tone. This is an example of:",
     "options": [
       "Real-time performance coaching.",
-      "Automated censorship.",
+      "Automated censorship. since developing expertise requires",
       "Skills atrophy.",
       "Digital eavesdropping."
     ],
@@ -105,7 +105,7 @@
       "Follow the AI because it is data-driven.",
       "Ignore your intuition; the AI has no bias.",
       "Critically evaluate the advice and reject it if it contradicts your human understanding of the team.",
-      "Ask a different AI and do whatever the second one says."
+      "Ask a different AI and do whatever the second one says. which is reinforced through consistent practice and repetition"
     ],
     "answer": "Critically evaluate the advice and reject it if it contradicts your human understanding of the team.",
     "explanation": "You are the 'Human in the Loop.' Coaching is a suggestion, not a command. You must always be the final judge of the advice provided by the AI.",
@@ -116,7 +116,7 @@
     "content": "Mollick suggests that human mentors will still be vital for providing high-level inspiration and career 'sponsorship,' but AI will handle the daily 'grind' of skill-building. This allows human mentors to focus on the deep, long-term guidance only they can provide.",
     "description": "How does the 'AI as Coach' model change the relationship between a senior leader and a junior employee?",
     "options": [
-      "The senior leader no longer needs to talk to the junior employee.",
+      "The senior leader no longer needs to talk to the junior employee. since developing expertise requires dedicated effort and deliberate practice over an extended",
       "The junior employee uses AI for daily skill questions, so their time with the leader is spent on high-level career vision.",
       "The leader is replaced by a chatbot.",
       "The junior employee becomes smarter than the leader immediately."

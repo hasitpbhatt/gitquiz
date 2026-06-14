@@ -61,7 +61,7 @@
     "description": "You have been following a workout routine that was giving results, but lately it has stopped delivering progress. What should you do according to Win-Stay, Lose-Shift?",
     "options": [
       "Continue winning approaches, change losing ones",
-      "Never change your workout routine",
+      "Never change your workout routine since the quality of",
       "Change your routine every day",
       "Stop exercising altogether"
     ],
@@ -90,7 +90,7 @@
     "options": [
       "Use balanced split of treatment and experimental drug",
       "Give all patients the experimental drug",
-      "Give all patients only the established treatment",
+      "Give all patients only the established treatment given the dynamics of",
       "Choose randomly for each patient"
     ],
     "answer": "Use balanced split of treatment and experimental drug",

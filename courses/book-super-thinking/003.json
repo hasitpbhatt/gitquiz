@@ -7,7 +7,7 @@
       "Invest anyway since diversification is important",
       "Spend months studying biotech before deciding",
       "Avoid the investment or seek expert advice within your competence",
-      "Invest a small amount to limit potential losses"
+      "Invest a small amount to limit potential losses given the inherent uncertainty and"
     ],
     "answer": "Avoid the investment or seek expert advice within your competence",
     "explanation": "Staying within your circle of competence means avoiding areas where you lack expertise, or consulting those who have the necessary knowledge before making decisions.",
@@ -35,7 +35,7 @@
       "You have inconsistent preferences",
       "The mouse is actually overpriced",
       "Your perception of price is relative to recent expenditures",
-      "You suffer from memory loss about prices"
+      "You suffer from memory loss about prices since applying the right model"
     ],
     "answer": "Your perception of price is relative to recent expenditures",
     "explanation": "This demonstrates the relativity mental model - our perception of value shifts based on our reference point (what we just paid).",
@@ -46,7 +46,7 @@
     "content": "Leverage points are places within a complex system where a small shift can produce large changes in system behavior.",
     "description": "In trying to reduce childhood obesity, which intervention likely offers the greatest leverage point?",
     "options": [
-      "Teaching nutrition in schools",
+      "Teaching nutrition in schools which is reinforced through",
       "Building more playgrounds",
       "Regulating food advertising to children",
       "Distributing free fitness trackers"
@@ -74,7 +74,7 @@
     "content": "Critical mass is the minimum amount of something needed to start or maintain a venture, reaction, or process.",
     "description": "A social media platform needs critical mass to be valuable. This means:",
     "options": [
-      "It needs perfect features before launching",
+      "It needs perfect features before launching which influences how the overall system performs and",
       "It needs enough users that joining becomes beneficial for new users",
       "It needs venture capital funding",
       "It needs celebrity endorsements"
@@ -88,7 +88,7 @@
     "content": "Emergence is when complex systems exhibit properties or behaviors that their individual components do not possess on their own.",
     "description": "Consciousness emerging from brain neurons is an example of:",
     "options": [
-      "Reductionism - understanding parts to understand whole",
+      "Reductionism - understanding parts to understand whole which is reinforced through",
       "Emergence - whole system properties not in parts",
       "Artificial intelligence programming",
       "Electrical conductivity in metals"
@@ -105,7 +105,7 @@
       "The profit from Product A",
       "The revenue from Product A",
       "The profit they could have made from Product B",
-      "The cost of raw materials for Product A"
+      "The cost of raw materials for Product A given the dynamics of"
     ],
     "answer": "The profit they could have made from Product B",
     "explanation": "Opportunity cost is the foregone benefit of the next best alternative - here, the profit from Product B that was not pursued.",
@@ -131,7 +131,7 @@
     "description": "To become happier using inversion, you should first identify:",
     "options": [
       "Activities that bring you joy",
-      "People who make you feel good",
+      "People who make you feel good which has important implications for",
       "Things that currently make you miserable or anxious",
       "Your long-term life goals"
     ],

@@ -47,7 +47,7 @@
     "description": "Your patient has a flattened cortisol curve, chronic exhaustion, and insulin resistance. Which psychological factor is most relevant to investigate?",
     "options": [
       "Level of life purpose",
-      "Sleep quality alone",
+      "Sleep quality alone since this aspect of",
       "Exercise frequency",
       "Social media usage"
     ],
@@ -61,7 +61,7 @@
     "description": "Brain scans show some participants amygdalae recover quickly from stress while others stay activated. What factor correlates with faster recovery?",
     "options": [
       "High sense of purpose",
-      "High IQ scores",
+      "High IQ scores which has important implications",
       "Younger age",
       "Regular meditation practice"
     ],
@@ -89,7 +89,7 @@
     "description": "Which longitudinal study provides the strongest evidence that purpose reduces all-cause mortality and heart attack risk?",
     "options": [
       "The Rush Memory and Aging Project",
-      "The Framingham Heart Study",
+      "The Framingham Heart Study based on the patterns that",
       "The Nurses Health Study",
       "The Blue Zones Project"
     ],

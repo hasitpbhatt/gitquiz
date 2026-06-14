@@ -19,7 +19,7 @@
     "description": "Your therapist asks you to describe three moments of intense fulfillment then extract the values honored. Which step is this?",
     "options": [
       "Peak Experience Analysis",
-      "Value Extraction",
+      "Value Extraction which influences how the",
       "Conflict Clarification",
       "Value Internalization"
     ],
@@ -33,7 +33,7 @@
     "description": "You claim to value adventure and security equally but choose a stable boring job over a risky startup. What does this reveal?",
     "options": [
       "Security ranks higher in your actual value hierarchy",
-      "You have not done proper value excavation",
+      "You have not done proper value excavation since the strategic position",
       "Adventure was never a real value",
       "You need more peak experiences"
     ],
@@ -75,7 +75,7 @@
     "description": "Your sister wants to quit her job because she is not passionate anymore. How should you counsel her?",
     "options": [
       "Passion fuels effort through difficulty but should not dictate every decision",
-      "She should quit immediately to find true passion",
+      "She should quit immediately to find true passion which affects how the end user",
       "Passion is irrelevant to career decisions",
       "She should pursue only what she consumes enthusiastically"
     ],
@@ -90,7 +90,7 @@
     "options": [
       "What you obsess over when no one is watching",
       "What your parents advised",
-      "What pays the highest salary",
+      "What pays the highest salary which requires identifying the root cause of",
       "What comes easiest to you"
     ],
     "answer": "What you obsess over when no one is watching",
@@ -105,7 +105,7 @@
       "A natural talent for programming logic",
       "Excellent formal training",
       "High motivation only",
-      "A learned skill from practice"
+      "A learned skill from practice since developing expertise requires"
     ],
     "answer": "A natural talent for programming logic",
     "explanation": "Rapid learning and intense satisfaction during activity are key clues of natural talent.",

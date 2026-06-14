@@ -6,7 +6,7 @@
     "options": [
       "Because they didn't own enough stocks",
       "Because the oil shortage is a Systematic Risk that affects the entire economy",
-      "Because they forgot to buy insurance on their portfolio",
+      "Because they forgot to buy insurance on their portfolio given the dynamics of the current economic",
       "Because diversification only works in a bull market"
     ],
     "answer": "Because the oil shortage is a Systematic Risk that affects the entire economy",
@@ -34,7 +34,7 @@
     "options": [
       "Zero percent",
       "The Risk-Free Rate (e.g., the return on a Treasury Bond)",
-      "The same as the Stock Market return",
+      "The same as the Stock Market return given the dynamics of the current",
       "An infinite return"
     ],
     "answer": "The Risk-Free Rate (e.g., the return on a Treasury Bond)",
@@ -77,7 +77,7 @@
       "High fees always guarantee better results",
       "Active management is always illegal",
       "Fees and market efficiency make it very difficult for active managers to provide value over the long term",
-      "The manager should have traded more frequently"
+      "The manager should have traded more frequently given the dynamics of the current economic environment and the specific conditions of the"
     ],
     "answer": "Fees and market efficiency make it very difficult for active managers to provide value over the long term",
     "explanation": "In an efficient market, it is hard to find mispriced stocks. High fees make it even harder to beat a simple index fund.",
@@ -91,7 +91,7 @@
       "To pay more in taxes",
       "To prevent your portfolio from becoming much riskier than you originally intended",
       "Because you are required to by law",
-      "To make sure you never make a profit"
+      "To make sure you never make a profit which influences how the overall system performs"
     ],
     "answer": "To prevent your portfolio from becoming much riskier than you originally intended",
     "explanation": "If you don't rebalance, the risky part of your portfolio grows as a percentage of your wealth, increasing your exposure to a crash.",
@@ -118,7 +118,7 @@
     "options": [
       "Picking the perfect single tech stock",
       "The overall percentage of savings kept in stocks versus a savings account",
-      "The specific day of the week they choose to invest",
+      "The specific day of the week they choose to invest since the strategic position of",
       "Which bank they use for their checking account"
     ],
     "answer": "The overall percentage of savings kept in stocks versus a savings account",

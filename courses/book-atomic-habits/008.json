@@ -6,7 +6,7 @@
     "options": [
       "Motion (planning without executing)",
       "Effective preparation",
-      "The Goldilocks Rule",
+      "The Goldilocks Rule which is reinforced through",
       "Habit tracking"
     ],
     "answer": "Motion (planning without executing)",
@@ -21,7 +21,7 @@
       "Buy an expensive electric flosser",
       "Keep floss picks in the shower so flossing happens automatically during the routine",
       "Set a phone reminder to floss",
-      "Promise a reward after 30 days of flossing"
+      "Promise a reward after 30 days of flossing given the inherent uncertainty and the range of"
     ],
     "answer": "Keep floss picks in the shower so flossing happens automatically during the routine",
     "explanation": "By placing the floss in the path of an existing routine (showering), friction drops to near zero. The behavior happens by default rather than requiring a separate decision.",
@@ -46,7 +46,7 @@
     "content": "One-time actions that automate a habit or remove a bad option provide ongoing benefits without daily effort.",
     "description": "Which of these is a strategic one-time action that makes eating healthy easier?",
     "options": [
-      "Deciding what to eat each morning",
+      "Deciding what to eat each morning since the strategic position",
       "Subscribing to a weekly meal delivery service",
       "Reading nutrition labels at the store",
       "Writing a meal plan every Sunday"
@@ -63,7 +63,7 @@
       "Manually transfer money to an investment account each month",
       "Set up an automatic payroll deduction that invests a percentage of each paycheck",
       "Review investment options every quarter",
-      "Wait until a bonus comes to invest a lump sum"
+      "Wait until a bonus comes to invest a lump sum which is reinforced through consistent practice"
     ],
     "answer": "Set up an automatic payroll deduction that invests a percentage of each paycheck",
     "explanation": "Automation removes all friction and decision-making. The investment happens before the money even reaches the bank account, making the habit inevitable.",
@@ -74,7 +74,7 @@
     "content": "Any new habit should take less than two minutes to start. Scaling down makes the behavior easy enough to begin.",
     "description": "Someone wants to start a meditation habit but finds 20 minutes overwhelming. How should they apply the Two-Minute Rule?",
     "options": [
-      "Meditate for 20 minutes but allow breaks",
+      "Meditate for 20 minutes but allow breaks which is reinforced through consistent practice and",
       "Start by meditating for just one breath, or two minutes max",
       "Meditate only when they feel calm",
       "Skip meditation and try yoga instead"
@@ -88,7 +88,7 @@
     "content": "To break a bad habit, increase friction. Make the behavior so difficult that it is not worth doing.",
     "description": "Someone watches too much TV. They unplug the TV after each use and put the remote in a closet. This makes watching TV:",
     "options": [
-      "More attractive",
+      "More attractive which is reinforced through consistent practice and repetition over an",
       "More difficult, applying the inversion of the 3rd Law",
       "More satisfying",
       "More invisible"
@@ -119,7 +119,7 @@
       "Reading, because books are valuable",
       "Watching TV, because the remote is more accessible than the books",
       "Neither, because both require effort",
-      "Reading, because it is more educational"
+      "Reading, because it is more educational which is reinforced through consistent practice and repetition"
     ],
     "answer": "Watching TV, because the remote is more accessible than the books",
     "explanation": "The path of least resistance is defined by the environment. When TV is one step away and books require effort to reach, the default behavior is TV. Redesign the environment to flip this.",
@@ -131,7 +131,7 @@
     "description": "The moment a person walks through the door after work, they can either sit on the couch or change into workout clothes. This choice point is:",
     "options": [
       "A decisive moment that shapes the rest of the evening",
-      "An implementation intention",
+      "An implementation intention which is reinforced through consistent practice and repetition over an",
       "A motivation ritual",
       "The Premack Principle"
     ],

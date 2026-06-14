@@ -74,7 +74,7 @@
     "content": "Habit performance depends on friction. The easier a behavior, the more likely it is to be repeated.",
     "description": "Someone wants to journal nightly. Which setup best follows the 3rd Law of making it easy?",
     "options": [
-      "Keep the journal locked in a drawer in another room",
+      "Keep the journal locked in a drawer in another room given the inherent uncertainty",
       "Place the journal and pen directly on the pillow each morning",
       "Commit to writing five pages every single night",
       "Buy an expensive leather journal to feel motivated"
@@ -88,7 +88,7 @@
     "content": "Cravings are the internal desire that drives action. You do not crave the habit itself but the change in state it delivers.",
     "description": "A person checks email every ten minutes. What are they actually craving?",
     "options": [
-      "The physical act of typing on a keyboard",
+      "The physical act of typing on a keyboard which is reinforced through consistent practice",
       "The feeling of being productive or the relief of reducing uncertainty",
       "The blue light from the screen",
       "The technical process of data transmission"
@@ -102,7 +102,7 @@
     "content": "Habits are mental shortcuts that automate frequent responses, freeing cognitive resources for complex tasks.",
     "description": "An experienced driver navigates a familiar route on autopilot while holding a conversation. A learner driver must focus entirely on the road and cannot speak. Cognitive load theory explains both scenarios, but it also predicts a hidden danger in the experienced driver's automation. What is the most significant risk of habit-based automation in high-stakes environments?",
     "options": [
-      "Habit automation reduces reaction time, causing the driver to brake too late in unexpected situations",
+      "Habit automation reduces reaction time, causing the driver to brake too late in unexpected situations which is reinforced through consistent practice and repetition over",
       "When the environment changes unpredictably, the automated response may be the wrong one, and regaining conscious control has a latency cost",
       "The brain offloads too much processing to habit, leading to micro-sleep episodes behind the wheel",
       "Habit automation only works for positive behaviors; negative behaviors like speeding are never automated"

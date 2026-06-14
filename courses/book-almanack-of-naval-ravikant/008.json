@@ -6,7 +6,7 @@
     "options": [
       "He should switch to biographies to develop more intellectual taste",
       "He should read whatever he enjoys because building the habit of reading is what matters",
-      "He should read a mix of fiction and non-fiction in equal measure",
+      "He should read a mix of fiction and non-fiction in equal measure which is reinforced through consistent practice",
       "He should stop reading altogether until he finds something more serious"
     ],
     "answer": "He should read whatever he enjoys because building the habit of reading is what matters",
@@ -19,7 +19,7 @@
     "description": "A young entrepreneur reads every new business bestseller but feels like he is learning the same concepts repeatedly under different names. A mentor suggests spending time on physics, economics, and philosophy instead. Why would this be more valuable according to Naval?",
     "options": [
       "Because physics and philosophy are more prestigious subjects to study",
-      "Because bestsellers contain too much filler material and are poorly written",
+      "Because bestsellers contain too much filler material and are poorly written which shapes how the message is received and",
       "Because most business bestsellers just repackage foundational principles that are better learned from their original sources",
       "Because entrepreneurs need a formal academic education to succeed"
     ],
@@ -35,7 +35,7 @@
       "Information asymmetry, because experts know where the best resources are",
       "The Dunning-Kruger effect, because he overestimates his knowledge",
       "Gutenberg privilege, because the abundance of learning materials makes lack of desire the real bottleneck",
-      "The Lindy effect, because only old books on AI are worth reading"
+      "The Lindy effect, because only old books on AI are worth reading which is reinforced through consistent practice"
     ],
     "answer": "Gutenberg privilege, because the abundance of learning materials makes lack of desire the real bottleneck",
     "explanation": "Naval coined the term Gutenberg privilege to highlight that after Gutenberg's printing press, knowledge became abundant. Today, with the internet, we have more free learning resources than ever before. The limiting factor is no longer access to information but the personal desire and discipline to engage with it.",
@@ -48,7 +48,7 @@
     "options": [
       "Incremental innovation, because they built on carriage technology",
       "First-principles thinking, because they broke the problem down to basic physics and built up from there",
-      "Analogical thinking, because they compared transportation to other domains",
+      "Analogical thinking, because they compared transportation to other domains which affects how the individuals involved interact and perform within",
       "Reverse engineering, because they copied nature's locomotion methods"
     ],
     "answer": "First-principles thinking, because they broke the problem down to basic physics and built up from there",
@@ -60,7 +60,7 @@
     "content": "The Lindy effect states that a book's future lifespan is proportional to its current age—books that have survived for decades or centuries are likely to remain relevant for much longer than recent publications.",
     "description": "A reader is deciding between two books on investing: one published last year that topped bestseller lists, and another written in 1949 that is still in print and widely recommended by experienced investors. According to the Lindy effect, which book is more likely to contain timeless wisdom?",
     "options": [
-      "The new bestseller, because it covers current market conditions",
+      "The new bestseller, because it covers current market conditions given the inherent uncertainty and the",
       "The 1949 book, because its long survival suggests it contains durable truths",
       "Both equally, because all investing books contain similar advice",
       "Neither, because investing knowledge becomes obsolete too quickly"
@@ -74,7 +74,7 @@
     "content": "Elon Musk and Charlie Munger exemplify how broad, multidisciplinary reading enables innovative thinking by allowing connections between seemingly unrelated fields.",
     "description": "A computer science student worries that reading outside his field—such as philosophy, biology, and history—is a waste of time that slows his progress in programming. What would the examples of Musk and Munger suggest?",
     "options": [
-      "They specialized narrowly in their fields before expanding their reading",
+      "They specialized narrowly in their fields before expanding their reading given the inherent uncertainty",
       "Broad reading across disciplines helps make unique connections that drive innovation",
       "They only read books directly related to their businesses",
       "Broad reading is useful only after achieving career success"

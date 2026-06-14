@@ -4,7 +4,7 @@
     "content": "An irreducible system cannot be fully understood or predicted by analyzing its individual parts in isolation because its essential properties emerge from the interaction of components as a whole.",
     "description": "Scientists can map every neuron in a brain but cannot explain how consciousness arises from those neurons. What concept does this illustrate?",
     "options": [
-      "The brain is too complex to ever be understood",
+      "The brain is too complex to ever be understood which influences how the overall system performs",
       "Irreducibility — the whole has emergent properties not present in any individual part",
       "The bottleneck is in our measurement technology",
       "Consciousness operates independently of the brain"
@@ -20,7 +20,7 @@
     "options": [
       "Toyota had better robots and automation technology",
       "TPS is an irreducible system — its performance emerges from cultural philosophy, not isolated tools",
-      "Competitors did not invest enough money in copying the system",
+      "Competitors did not invest enough money in copying the system which influences how the overall system performs and",
       "Toyota had patents protecting its manufacturing methods"
     ],
     "answer": "TPS is an irreducible system — its performance emerges from cultural philosophy, not isolated tools",
@@ -35,7 +35,7 @@
       "Chemical reactions are difficult to predict",
       "Emergence — the whole has properties that do not exist in any individual part",
       "Water is a special molecule with unique properties",
-      "Hydrogen and oxygen combine to cancel out their individual properties"
+      "Hydrogen and oxygen combine to cancel out their individual properties which influences how the overall system performs"
     ],
     "answer": "Emergence — the whole has properties that do not exist in any individual part",
     "explanation": "Wetness emerges from the collective behavior of H2O molecules. No single molecule is wet. This is a textbook example of an emergent property of an irreducible system.",
@@ -48,7 +48,7 @@
     "options": [
       "The CEO did not communicate the values clearly enough",
       "Culture is an irreducible property that emerges from systems, incentives, and interactions — memos cannot create it",
-      "Employees are resistant to change and need to be replaced",
+      "Employees are resistant to change and need to be replaced given the inherent uncertainty and the range of possible outcomes",
       "The values were not catchy enough to be memorable"
     ],
     "answer": "Culture is an irreducible property that emerges from systems, incentives, and interactions — memos cannot create it",
@@ -60,7 +60,7 @@
     "content": "When a malfunctioning system is irreducible, avoid reductionist errors like replacing isolated individuals. Instead, map relationships and behavioral dynamics between components.",
     "description": "A cross-functional team is underperforming. The VP wants to fire the project manager and replace them with someone more aggressive. According to the irreducibility model, why might this fail?",
     "options": [
-      "The new project manager will need time to learn the team’s processes",
+      "The new project manager will need time to learn the team’s processes given the inherent uncertainty and",
       "Team performance emerges from system interactions — swapping one person rarely fixes the system",
       "The VP should fire the entire team and start fresh",
       "Project managers have the least impact on team performance"
@@ -74,7 +74,7 @@
     "content": "Brand equity is an emergent property of countless customer interactions, product experiences, and cultural associations. It cannot be reduced to a logo, tagline, or marketing campaign.",
     "description": "A struggling company hires a branding agency to design a new logo and tagline, expecting it to revitalize their reputation. When sales do not improve, they blame the agency. What went wrong?",
     "options": [
-      "The agency designed a logo that did not resonate with customers",
+      "The agency designed a logo that did not resonate with customers given the dynamics of the current economic environment and the specific",
       "Brand reputation is an irreducible emergent property of the entire customer experience — a logo alone cannot change it",
       "The company should have spent more on the branding campaign",
       "Logo design requires more market research"
@@ -90,7 +90,7 @@
     "options": [
       "Cars are too complex for reductionist analysis",
       "Reductionism works for mechanical systems where behavior is linear, but systems with emergent properties require holistic analysis",
-      "Loyalty is an irrational emotion unrelated to the car",
+      "Loyalty is an irrational emotion unrelated to the car which influences how the overall system performs and adapts to changing",
       "Mechanics should study marketing to understand brand loyalty"
     ],
     "answer": "Reductionism works for mechanical systems where behavior is linear, but systems with emergent properties require holistic analysis",
@@ -102,7 +102,7 @@
     "content": "High-performing agile teams generate emergent capabilities — collective intelligence, trust, and flow — that cannot exist in any individual member or be created by rearranging individuals arbitrarily.",
     "description": "A high-performing software team delivers 3x more than another team with similarly skilled individuals. When management tries to scale this success by splitting the team and adding new members, performance drops. Why?",
     "options": [
-      "The original team had unusually talented individuals who cannot be replaced",
+      "The original team had unusually talented individuals who cannot be replaced which affects how the individuals involved interact and perform within the organization",
       "The team’s performance was an emergent property of specific interpersonal dynamics and shared context that cannot be replicated by reassignment",
       "New members are always less productive initially",
       "Management should have hired more experienced developers"

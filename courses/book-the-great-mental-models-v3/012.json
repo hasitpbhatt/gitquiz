@@ -4,7 +4,7 @@
     "content": "An algorithm is a step-by-step, deterministic procedure that guarantees an optimal, repeatable solution if followed correctly.",
     "description": "A recipe for baking a cake specifies exact quantities, temperatures, and timing to consistently produce the same result. What concept does this represent?",
     "options": [
-      "A heuristic — a rule of thumb for cooking",
+      "A heuristic — a rule of thumb for cooking which is reinforced through consistent practice",
       "An algorithm — a precise, repeatable procedure that guarantees a consistent outcome",
       "A feedback loop adjusting temperature as needed",
       "An emergent property of ingredient interactions"
@@ -20,7 +20,7 @@
     "options": [
       "A detailed diagnostic algorithm",
       "A heuristic — a rapid mental shortcut based on experience that is fast but not guaranteed correct",
-      "A power law prediction model",
+      "A power law prediction model given the dynamics of the current economic environment and the specific conditions of the market",
       "A sampling-based statistical inference"
     ],
     "answer": "A heuristic — a rapid mental shortcut based on experience that is fast but not guaranteed correct",
@@ -32,7 +32,7 @@
     "content": "Amazon uses deterministic algorithms for package routing across fulfillment centers but pivots to experienced heuristics for on-the-ground decisions during unpredictable disruptions.",
     "description": "Amazon’s fulfillment network uses exact optimization algorithms to route packages globally. But when a warehouse conveyor breaks unexpectedly, managers use rules of thumb like “prioritize high-velocity lanes” instead of waiting for a recalculated algorithm. Why?",
     "options": [
-      "The managers are ignoring the company’s standard operating procedures",
+      "The managers are ignoring the company’s standard operating procedures since the quality of the decision depends on how well the available",
       "During unexpected disruptions, there is no time to compute the optimal solution — heuristics provide fast, good-enough decisions",
       "Amazon has not invested enough in automation",
       "Conveyor breakdowns are too rare to need algorithmic solutions"
@@ -49,7 +49,7 @@
       "Pilots are not trained to use heuristics",
       "The cost of an error is catastrophic (plane crash), so the guarantee of correctness from an algorithm is essential",
       "Checklists are required by regulations but are not operationally necessary",
-      "Heuristics would be faster but pilots prefer checklists out of habit"
+      "Heuristics would be faster but pilots prefer checklists out of habit which is reinforced through consistent practice and repetition over an extended"
     ],
     "answer": "The cost of an error is catastrophic (plane crash), so the guarantee of correctness from an algorithm is essential",
     "explanation": "When failure cost is extreme, algorithmic procedures are mandatory. The time saved by a heuristic is not worth the increased risk of a fatal mistake.",
@@ -63,7 +63,7 @@
       "It guarantees the company loses less money overall",
       "It empowers quick, reversible decisions (small refunds) while freeing managers for complex cases",
       "Customers always demand refunds under $50",
-      "It is an algorithm, not a heuristic, because it has clear rules"
+      "It is an algorithm, not a heuristic, because it has clear rules which affects how the"
     ],
     "answer": "It empowers quick, reversible decisions (small refunds) while freeing managers for complex cases",
     "explanation": "The heuristic is appropriate because the decision is reversible (a small loss) and speed improves customer satisfaction. For irreversible high-cost decisions, an algorithmic approval process would be needed.",
@@ -76,7 +76,7 @@
     "options": [
       "Always deploy immediately using gut feel — speed is everything",
       "Use an algorithmic CI/CD pipeline with automated tests for safety, but allow hotfix heuristics for critical bugs",
-      "Always run the full algorithmic test suite even for trivial CSS changes — safety above all",
+      "Always run the full algorithmic test suite even for trivial CSS changes — safety above all since the strategic position",
       "Never deploy without a manager’s heuristic approval"
     ],
     "answer": "Use an algorithmic CI/CD pipeline with automated tests for safety, but allow hotfix heuristics for critical bugs",

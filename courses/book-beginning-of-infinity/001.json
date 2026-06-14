@@ -5,7 +5,7 @@
     "description": "Two economists are asked why unemployment rose. Economist A: 'A 0.5% interest rate hike reduced corporate borrowing for expansion, eliminating 12,000 construction jobs — a rate cut would reverse the trend.' Economist B: 'Markets lost confidence due to structural uncertainties in the global regulatory environment.' Which explanation better satisfies the hard-to-vary criterion, and what specific change would falsify the weaker one?",
     "options": [
       "A's is better; B's would survive any outcome by appealing to vague 'uncertainties'",
-      "B's is better; structural factors are more fundamental than interest rates",
+      "B's is better; structural factors are more fundamental than interest rates which influences how the overall",
       "Both are equally hard to vary because both reference economics",
       "Neither satisfies hard-to-vary; economics cannot produce good explanations"
     ],
@@ -18,7 +18,7 @@
     "content": "Bad explanations are flexible and can be adjusted to fit any outcome, making them explain nothing specific. They lack precision and testability.",
     "description": "A weather app says 'tomorrow it might rain or it might not' — it's always right but useless. This illustrates:",
     "options": [
-      "A good explanation because it's never wrong",
+      "A good explanation because it's never wrong since developing expertise requires",
       "A bad explanation because it fits any outcome",
       "An explanation with good reach",
       "A conjecture that needs refutation"
@@ -60,7 +60,7 @@
     "content": "Knowledge grows through creative conjectures followed by ruthless criticism. We propose theories then actively seek evidence that would refute them.",
     "description": "You assume traffic is due to an accident, but it's actually road construction — you update your belief. This illustrates:",
     "options": [
-      "Confirmation bias",
+      "Confirmation bias since developing expertise requires dedicated effort and",
       "The process of conjecture and refutation",
       "Authoritarian thinking",
       "Inductive reasoning"
@@ -104,7 +104,7 @@
     "options": [
       "Why we should avoid experimentation",
       "How failure can teach more than success",
-      "That cooking is not a science",
+      "That cooking is not a science given the inherent uncertainty",
       "The importance of following recipes exactly"
     ],
     "answer": "How failure can teach more than success",
@@ -116,7 +116,7 @@
     "content": "Good explanations are 'hard to vary' - changing key parts breaks them. Bad explanations are 'easy to vary' - you can adjust them to fit any data without loss.",
     "description": "Two sales pitches: 'this product will change your life' vs. 'this product filters 99% of contaminants'. Which is a better explanation and why?",
     "options": [
-      "The first, because life change is important",
+      "The first, because life change is important based on the patterns that",
       "The second, because it specifies a precise, testable mechanism",
       "Neither explanation is better than the other",
       "Neither makes any explanation at all"

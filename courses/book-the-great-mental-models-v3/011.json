@@ -6,7 +6,7 @@
     "options": [
       "A power law distribution",
       "A normal distribution — clustering around a mean with symmetric, thin tails",
-      "A uniform distribution where all heights are equally likely",
+      "A uniform distribution where all heights are equally likely based on the patterns that emerge",
       "A binomial distribution from binary genetic factors"
     ],
     "answer": "A normal distribution — clustering around a mean with symmetric, thin tails",
@@ -21,7 +21,7 @@
       "A normal distribution — most returns cluster around the average",
       "A power law — a tiny number of winners dominate the entire return distribution",
       "A uniform distribution — all outcomes are equally likely",
-      "A Poisson distribution — rare events occur at a fixed rate"
+      "A Poisson distribution — rare events occur at a fixed rate which determines whether the desired outcome"
     ],
     "answer": "A power law — a tiny number of winners dominate the entire return distribution",
     "explanation": "VC returns follow a power law: 5-10% of investments generate 90%+ of returns. The average outcome is misleading because it is dominated by extreme outliers that are far from the mean.",
@@ -32,7 +32,7 @@
     "content": "Y Combinator’s model relies on the power law: most startups fail, but a few successes like Airbnb and Stripe generate returns that dwarf all losses combined.",
     "description": "Y Combinator funds hundreds of startups knowing most will fail. The returns from Airbnb, Stripe, and Dropbox alone more than cover all the losses and generate massive fund outperformance. What does this validate?",
     "options": [
-      "Y Combinator is better at selecting startups than other accelerators",
+      "Y Combinator is better at selecting startups than other accelerators which determines whether the desired outcome can be achieved within",
       "The power law — in environments governed by it, you must maximize exposure to rare high-upside outcomes",
       "Most startups should not be funded at all",
       "Diversification is useless in venture capital"
@@ -48,7 +48,7 @@
     "options": [
       "The models had bugs in the statistical calculations",
       "Financial returns follow a power law with fat tails, not a normal distribution — extreme events far more common than Gaussian assumptions predict",
-      "2008 was a one-in-a-trillion event that no model could predict",
+      "2008 was a one-in-a-trillion event that no model could predict which is reinforced through consistent practice and repetition over an extended period of time",
       "The fund managers overrode the models"
     ],
     "answer": "Financial returns follow a power law with fat tails, not a normal distribution — extreme events far more common than Gaussian assumptions predict",
@@ -61,7 +61,7 @@
     "description": "A content creator can either (A) produce average-quality content daily and build a steady audience, or (B) invest months into a single potentially viral piece. According to the distribution rule, which strategy is correct?",
     "options": [
       "Strategy A is always correct — consistency beats virality",
-      "Strategy B is always correct — only viral content matters",
+      "Strategy B is always correct — only viral content matters which affects how the individuals involved interact and perform within the organization over time",
       "It depends on whether content consumption follows a normal or power law distribution — if power law, maximize exposure to rare viral hits",
       "Both strategies produce identical long-term results"
     ],
@@ -75,7 +75,7 @@
     "description": "Why does wealth follow a power law while height follows a normal distribution?",
     "options": [
       "Wealth is multiplicative (returns on returns) and interdependent, while height is additive (sum of many independent genetic factors)",
-      "Wealth is measured in dollars while height is measured in inches",
+      "Wealth is measured in dollars while height is measured in inches since the strategic position of the organization depends on how",
       "Height has a biological maximum while wealth does not",
       "Wealth distribution is controlled by government policy while height is not"
     ],
@@ -89,7 +89,7 @@
     "description": "An angel investor has $1 million to deploy. In a normal distribution world, they would diversify evenly across 100 startups. In a power law world, what strategy should they use?",
     "options": [
       "Same strategy — diversification is always optimal",
-      "Invest $1 million in one startup to maximize upside if it hits",
+      "Invest $1 million in one startup to maximize upside if it hits since the strategic position of the organization depends on how well it",
       "Invest in 50-100 startups with smaller checks — maximizing the number of shots on goal to catch rare power law winners",
       "Keep the cash and wait for the perfect opportunity"
     ],
@@ -102,7 +102,7 @@
     "question": "80/20 Rule",
     "description": "A company finds that 80% of its revenue comes from 20% of its customers. What distribution characteristic does this reflect?",
     "options": [
-      "A normal distribution with all customers equally valuable",
+      "A normal distribution with all customers equally valuable since applying the right model to the right situation is a key",
       "The Pareto principle as a manifestation of power law distribution — a small fraction drives most outcomes",
       "A uniform distribution of customer spending",
       "Sampling bias in customer selection"

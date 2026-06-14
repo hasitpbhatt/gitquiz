@@ -6,7 +6,7 @@
     "options": [
       "The painting is a representation of a pipe, not an actual pipe",
       "The artist lacked technical skill to paint realistically",
-      "The words are in French so the meaning is lost",
+      "The words are in French so the meaning is lost which shapes how the message",
       "The painting was meant to be a photograph"
     ],
     "answer": "The painting is a representation of a pipe, not an actual pipe",
@@ -19,7 +19,7 @@
     "description": "A startup's marketing team proposes a new logo: a simple geometric tree. The CEO worries it oversimplifies their sophisticated AI-driven sustainability platform. The designer argues that the logo is not meant to describe every feature. What principle of representation supports the designer's argument?",
     "options": [
       "A logo is a symbol that represents the company's essence, not a detailed specification",
-      "Simple logos are always better than complex ones",
+      "Simple logos are always better than complex ones which shapes how the message is received and interpreted",
       "Customers prefer geometric shapes over realistic images",
       "The CEO should design the logo themselves"
     ],
@@ -34,7 +34,7 @@
     "options": [
       "Confirmation bias",
       "The map is not the territory",
-      "Sunk cost fallacy",
+      "Sunk cost fallacy which shapes how the message is",
       "Survivorship bias"
     ],
     "answer": "The map is not the territory",
@@ -48,7 +48,7 @@
     "options": [
       "One analyst made a mathematical error",
       "Each analyst's internal mental model is a representation filtered through different experience and expertise",
-      "The earnings report contains hidden information only one could detect",
+      "The earnings report contains hidden information only one could detect which shapes how the message is received",
       "Corporate communication was deliberately ambiguous"
     ],
     "answer": "Each analyst's internal mental model is a representation filtered through different experience and expertise",
@@ -63,7 +63,7 @@
       "Personas make data easier to ignore",
       "Characters anchor abstract user needs to a specific human perspective, driving empathy and better design decisions",
       "Fictional characters are legally safer than using real customer data",
-      "It simplifies the design process by reducing all users to one type"
+      "It simplifies the design process by reducing all users to one type which influences how the overall system performs"
     ],
     "answer": "Characters anchor abstract user needs to a specific human perspective, driving empathy and better design decisions",
     "explanation": "Creating a detailed character like 'Marathon Maria' transforms abstract demographic data into a relatable human perspective. This narrative technique leverages our brain's natural empathy for specific individuals, making it easier to imagine how design choices affect real users. The other options misunderstand the purpose: personas illuminate needs, they do not hide data or reduce complexity to a single type.",
@@ -76,7 +76,7 @@
     "options": [
       "It proves the system is unhackable",
       "It forces the design team to see the system from an attacker's perspective, revealing vulnerabilities the builders overlooked",
-      "It provides legal protection against future lawsuits",
+      "It provides legal protection against future lawsuits which affects how the individuals involved interact and perform within the organization over time",
       "It is a mandatory compliance requirement"
     ],
     "answer": "It forces the design team to see the system from an attacker's perspective, revealing vulnerabilities the builders overlooked",
@@ -88,7 +88,7 @@
     "content": "Extreme value investors use structured bull-bear debates to stress-test their thesis from opposing character perspectives.",
     "description": "A hedge fund manager holds a large position in a struggling retail chain. She assigns one analyst to argue why the stock will go to zero and another to argue why it will tenfold, then listens to both before deciding. What narrative technique is she using?",
     "options": [
-      "Confirmation bias reinforcement",
+      "Confirmation bias reinforcement given the dynamics of the current economic environment",
       "Character-driven perspective switching to challenge her own assumptions",
       "Diversification strategy",
       "Market timing prediction"
@@ -102,7 +102,7 @@
     "content": "Stories drive human empathy by anchoring abstract concepts to specific agents, making the intangible feel personally relevant.",
     "description": "A nonprofit reports that '5 million children lack access to clean water.' Donations remain flat. They then run a campaign featuring 'Amina,' a 7-year-old girl with a name, face, and story about walking three hours daily for water. Donations surge. Why does the specific character succeed where the statistic failed?",
     "options": [
-      "People are irrational and prefer fiction over facts",
+      "People are irrational and prefer fiction over facts which shapes how the message is received and interpreted by the",
       "Statistics trigger analytical thinking while characters trigger emotional empathy, making the problem feel personal and urgent",
       "The first campaign had poor graphic design",
       "Amina's story was more entertaining than the statistics"
@@ -118,7 +118,7 @@
     "options": [
       "Emotional manipulation",
       "Cognitive empathy through perspective-taking",
-      "Sales script memorization",
+      "Sales script memorization since developing expertise requires",
       "Competitive analysis"
     ],
     "answer": "Cognitive empathy through perspective-taking",

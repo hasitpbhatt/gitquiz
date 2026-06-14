@@ -6,10 +6,10 @@
     "options": [
       "The laid-off employees started a competing company",
       "The cost-cutting was necessary but executed poorly",
-      "In an interconnected system, the linear action (cut costs) triggered cascading effects (lower service, churn, reputation damage) that overwhelmed the short-term gain",
+      "Linear action triggered cascading effects that overwhelmed short-term gain",
       "Customer service layoffs are always a bad decision regardless of circumstances"
     ],
-    "answer": "In an interconnected system, the linear action (cut costs) triggered cascading effects (lower service, churn, reputation damage) that overwhelmed the short-term gain",
+    "answer": "Linear action triggered cascading effects that overwhelmed short-term gain",
     "explanation": "Organizations are ecosystems, not linear machines. Cutting customer service seems like a simple cost-saving move, but in an interconnected system, it triggers secondary effects (worse support, angry customers, negative reviews) that ripple back to destroy revenue. You can never do just one thing.",
     "difficulty": "easy"
   },
@@ -19,11 +19,11 @@
     "description": "A product team optimizes a single metric — daily active users — by adding addictive notifications. DAU goes up. But user satisfaction drops, uninstalls increase, and brand sentiment turns negative. What went wrong?",
     "options": [
       "The team should not have optimized for DAU at all",
-      "The team fell for the linear illusion — they optimized one variable without considering how it would ripple through the interconnected system of user experience, satisfaction, and brand perception",
+      "Linear illusion: optimizing one metric ignores ripple effects",
       "Notifications always damage user satisfaction regardless of implementation",
       "The team should have A/B tested the notifications before full rollout"
     ],
-    "answer": "The team fell for the linear illusion — they optimized one variable without considering how it would ripple through the interconnected system of user experience, satisfaction, and brand perception",
+    "answer": "Linear illusion: optimizing one metric ignores ripple effects",
     "explanation": "Treating DAU as an isolated lever ignores the ecosystem. Addictive notifications boost DAU linearly, but also degrade satisfaction (secondary effect), increase uninstalls (tertiary), and damage brand word-of-mouth (quaternary). Linear thinking misses the cascade.",
     "difficulty": "medium"
   },
@@ -33,11 +33,11 @@
     "description": "A social media platform's algorithm promotes engaging content. Engaging content generates more comments and shares, which tells the algorithm to promote it further. More engagement leads to even more promotion. What type of loop is this?",
     "options": [
       "A negative feedback loop that maintains stability",
-      "A positive feedback loop — the output (promotion) reinforces the input (engagement), creating a self-amplifying cycle",
+      "Positive feedback: engagement and promotion amplify each other",
       "A homeostatic loop that returns the system to equilibrium",
       "A balancing loop that prevents the system from growing too fast"
     ],
-    "answer": "A positive feedback loop — the output (promotion) reinforces the input (engagement), creating a self-amplifying cycle",
+    "answer": "Positive feedback: engagement and promotion amplify each other",
     "explanation": "This is a positive (reinforcing) feedback loop. More engagement leads to more promotion, which leads to more engagement, which leads to more promotion. The loop amplifies itself. Positive feedback loops create growth but can also cause runaway effects if unchecked.",
     "difficulty": "medium"
   },
@@ -48,10 +48,10 @@
     "options": [
       "The construction companies building the roads were corrupt",
       "Public transportation would have been a better investment",
-      "The city focused only on the first-order effect and ignored the second-order effect of induced demand within the transportation ecosystem",
+      "City planners ignored second-order effects of induced demand",
       "Traffic congestion is an unsolvable problem in growing cities"
     ],
-    "answer": "The city focused only on the first-order effect and ignored the second-order effect of induced demand within the transportation ecosystem",
+    "answer": "City planners ignored second-order effects of induced demand",
     "explanation": "In an ecosystem, changing one variable (road capacity) changes other variables (driving behavior). More roads encourage more driving, which fills the new capacity. The first-order effect was solved, but the second-order effect cancelled the benefit. Ecosystem thinking requires anticipating these feedback responses.",
     "difficulty": "hard"
   },
@@ -61,11 +61,11 @@
     "description": "A single logistics company's warehouse management system crashes for three hours. The downstream effect: retail stores run out of stock, online orders are delayed, customer complaints surge, and the stock price drops 5%. What explains this chain reaction?",
     "options": [
       "The logistics company is incompetent and should be replaced",
-      "The supply chain is a highly interconnected ecosystem — a failure at one node cascades through dependent nodes, amplifying the impact far beyond the initial glitch",
+      "A supply chain failure cascades through interconnected nodes",
       "Retail stores should maintain larger inventories to absorb such shocks",
       "The stock market overreacted to a temporary logistics disruption"
     ],
-    "answer": "The supply chain is a highly interconnected ecosystem — a failure at one node cascades through dependent nodes, amplifying the impact far beyond the initial glitch",
+    "answer": "A supply chain failure cascades through interconnected nodes",
     "explanation": "In an interconnected ecosystem, the warehouse crash is not an isolated event. It ripples through fulfillment, retail, customer experience, and investor sentiment. The total damage is far larger than the initial three-hour outage because each dependent node amplifies the disruption.",
     "difficulty": "hard"
   },
@@ -75,11 +75,11 @@
     "description": "A CEO plans to reorganize the company from functional departments to cross-functional squads. Before announcing, a board member asks, 'What are all the things this change touches?' What mental model is the board member invoking?",
     "options": [
       "Pareto principle — focus on the 20% that matters",
-      "Ecosystem thinking — map the interconnections first because reorganizing will ripple through culture, reporting lines, career paths, and decision-making in unpredictable ways",
+      "Failing to map connections before reorganizing causes unpredictable ripples",
       "Occam's razor — the simplest reorganization is usually the best",
       "Sunk cost — the current structure represents years of investment"
     ],
-    "answer": "Ecosystem thinking — map the interconnections first because reorganizing will ripple through culture, reporting lines, career paths, and decision-making in unpredictable ways",
+    "answer": "Failing to map connections before reorganizing causes unpredictable ripples",
     "explanation": "Organizational structure is an ecosystem, not a machine. Changing reporting lines affects culture, power dynamics, career progression, information flow, and decision speed. Mapping these connections before intervening helps anticipate cascading effects rather than being surprised by them.",
     "difficulty": "medium"
   },
@@ -90,10 +90,10 @@
     "options": [
       "Smartphone bans are always a bad policy",
       "Students should learn to socialize without phones",
-      "The ban had multiple ripple effects beyond the intended outcome — showing that in a social ecosystem, you cannot change just one thing",
+      "You cannot ever change just one thing",
       "Parents should be more supportive of school policies"
     ],
-    "answer": "The ban had multiple ripple effects beyond the intended outcome — showing that in a social ecosystem, you cannot change just one thing",
+    "answer": "You cannot ever change just one thing",
     "explanation": "The ban was intended to improve focus. But it also affected social dynamics, parent-child communication, and after-school logistics. In an interconnected ecosystem, every intervention produces intended and unintended effects. Acknowledging this helps you anticipate and mitigate side effects.",
     "difficulty": "easy"
   },
@@ -103,11 +103,11 @@
     "description": "A SaaS company tracks 50 metrics daily: signups, logins, feature usage, support tickets, NPS score, churn rate, etc. A consultant says, 'You only need to watch three.' What principle supports this advice?",
     "options": [
       "The consultant wants to simplify the dashboard for their own convenience",
-      "In interconnected systems, a few keystone variables drive most of the system behavior; tracking those three provides more insight than fifty surface-level metrics",
+      "Keystone variables are what drive system behavior; track those three",
       "SaaS businesses all converge on the same three key metrics",
       "The other 47 metrics are completely irrelevant to business performance"
     ],
-    "answer": "In interconnected systems, a few keystone variables drive most of the system behavior; tracking those three provides more insight than fifty surface-level metrics",
+    "answer": "Keystone variables are what drive system behavior; track those three",
     "explanation": "Not all metrics are equal. Some are keystone variables that disproportionately influence the system. In SaaS, these might be acquisition cost, activation rate, and net revenue retention. These three will tell you more about ecosystem health than fifty vanity metrics.",
     "difficulty": "medium"
   }

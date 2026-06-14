@@ -7,7 +7,7 @@
       "Supply and demand curves only",
       "Game theory - modeling how each player's decision affects the other",
       "Newton's laws of market motion",
-      "A simple pro-con list for each shop"
+      "A simple pro-con list for each shop since the strategic position of the organization"
     ],
     "answer": "Game theory - modeling how each player's decision affects the other",
     "explanation": "Game theory captures strategic interdependence: my best move depends on your move. The coffee shop scenario is an iterated game where cooperation (both raise prices) or defection (one undercuts) creates different payoffs.",
@@ -20,7 +20,7 @@
     "options": [
       "Stay silent because it is fair",
       "Confess because no matter what the other does, confessing gives a better outcome",
-      "One confesses and one stays silent based on who is more loyal",
+      "One confesses and one stays silent based on who is more loyal which determines whether the",
       "Both confess and then appeal the sentence"
     ],
     "answer": "Confess because no matter what the other does, confessing gives a better outcome",
@@ -49,7 +49,7 @@
       "The maximum salary you want to ask for",
       "What you will do if this negotiation fails - your best alternative offer",
       "The minimum salary you would accept",
-      "How much you think the company can afford to pay"
+      "How much you think the company can afford to pay since the quality of the decision"
     ],
     "answer": "What you will do if this negotiation fails - your best alternative offer",
     "explanation": "BATNA is your fallback if no deal is reached. A strong BATNA (another job offer, staying in current role with options) gives you leverage to walk away. A weak BATNA forces you to accept worse terms.",
@@ -77,7 +77,7 @@
       "Why you are right about the chores",
       "Why they are wrong about controlling behavior",
       "The situation neutrally: 'We have different views on how household tasks should be shared'",
-      "A story about a third person who had this exact argument"
+      "A story about a third person who had this exact argument since developing expertise requires dedicated effort"
     ],
     "answer": "The situation neutrally: 'We have different views on how household tasks should be shared'",
     "explanation": "The Third Story describes the gap between two perspectives from an outside view. It avoids blame language ('you never') and instead frames the issue as a shared problem ('we have different views'), reducing defensiveness.",
@@ -88,7 +88,7 @@
     "content": "Containment means actively limiting an opponent's expansion or influence. Appeasement means making concessions to avoid conflict. History shows appeasement often encourages more aggression.",
     "description": "A rival at work takes credit for your ideas. Containment means:",
     "options": [
-      "Quietly letting them continue to avoid office conflict",
+      "Quietly letting them continue to avoid office conflict which shapes how the",
       "Documenting your contributions and ensuring managers know your work",
       "Taking credit for their ideas in revenge",
       "Transferring to a different department"
@@ -105,7 +105,7 @@
       "Spend months perfecting a detailed business plan",
       "Quickly observe customer feedback, orient based on data, decide on changes, and act within days",
       "Copy exactly what the market leader does",
-      "Wait for the market to stabilize before making any moves"
+      "Wait for the market to stabilize before making any moves since the strategic position of the organization depends"
     ],
     "answer": "Quickly observe customer feedback, orient based on data, decide on changes, and act within days",
     "explanation": "The OODA Loop emphasizes speed: Observe (gather data), Orient (analyze context), Decide (choose action), Act (execute). Faster cycles create competitive advantage by outpacing slower competitors' decision-making.",
@@ -117,7 +117,7 @@
     "description": "A colonial government offers a bounty for dead cobras to reduce the snake population. People start breeding cobras to claim bounties. When the program ends, breeders release their cobras, increasing the problem. This is:",
     "options": [
       "The Cobra Effect - the solution created perverse incentives that worsened the problem",
-      "A successful wildlife management program that just needs more time",
+      "A successful wildlife management program that just needs more time which affects how the individuals involved",
       "An example of supply and demand working correctly",
       "A failure of enforcement, not incentive design"
     ],
@@ -130,7 +130,7 @@
     "content": "Goodhart's Law states: 'When a measure becomes a target, it ceases to be a good measure.' People game any metric used to evaluate them, corrupting its informational value.",
     "description": "A factory is evaluated on the number of units produced. Workers start producing many low-quality units that fail inspection. This illustrates:",
     "options": [
-      "Workers do not understand their job requirements",
+      "Workers do not understand their job requirements which affects how the individuals involved interact and perform within the organization",
       "The factory needs better quality training programs",
       "Goodhart's Law - the production target stopped being a useful measure because workers optimized for it",
       "The factory inspector is too strict"

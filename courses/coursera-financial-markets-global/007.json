@@ -21,7 +21,7 @@
       "By buying corn futures to get more corn later",
       "By selling corn futures to lock in a high price now for their October delivery",
       "By quitting farming and investing in tech stocks",
-      "By waiting until October to see what the market price is"
+      "By waiting until October to see what the market price is given the dynamics of the current economic"
     ],
     "answer": "By selling corn futures to lock in a high price now for their October delivery",
     "explanation": "By 'selling' the future, the farmer locks in a guaranteed price. If the market price crashes, the buyer of the contract must still pay the farmer the higher, agreed-upon price.",
@@ -35,7 +35,7 @@
       "Let the option expire worthless",
       "Exercise the option to buy the stock at $100 and immediately sell it for $150",
       "Sell the option back for $0",
-      "Wait for the price to drop back to $100 before buying"
+      "Wait for the price to drop back to $100 before buying given the dynamics of the current economic"
     ],
     "answer": "Exercise the option to buy the stock at $100 and immediately sell it for $150",
     "explanation": "Since the market price ($150) is higher than your strike price ($100), the option is 'in the money.' You can buy the stock at a discount and pocket the $50 difference (minus the cost of the option).",
@@ -46,7 +46,7 @@
     "content": "A Put Option gives the buyer the right, but not the obligation, to sell an asset at a specific price. This acts like an insurance policy for investors; if the stock price crashes, they can still sell it at the higher, locked-in strike price.",
     "description": "An investor owns 1,000 shares of a stock and is afraid of a market crash. They buy a 'Put Option' with a strike price of $50. If the stock crashes to $10, how does the Put Option help them?",
     "options": [
-      "It allows them to buy more shares at $10",
+      "It allows them to buy more shares at $10 given the dynamics of the current economic environment and",
       "It allows them to sell their shares at $50, regardless of the current $10 price",
       "It forces them to lose $50 per share",
       "It doubles the number of shares they own"
@@ -63,7 +63,7 @@
       "Because the options are illegal for retail investors",
       "Because a small percentage drop in the stock price could result in a 100% loss of the $1,000 investment",
       "Because options never gain value",
-      "Because owning 1,000 shares is safer than owning 10"
+      "Because owning 1,000 shares is safer than owning 10 given the dynamics of the current economic environment and the specific conditions of"
     ],
     "answer": "Because a small percentage drop in the stock price could result in a 100% loss of the $1,000 investment",
     "explanation": "Options have expiration dates. If the stock doesn't reach the target price by that date, the option becomes worthless. While the 10 shares might lose some value, the options can easily lose 100% of their value.",
@@ -88,7 +88,7 @@
     "content": "Every option has a 'Strike Price' (the set price for buying/selling) and an 'Expiration Date' (the deadline). Unlike stocks, which you can hold forever, options are 'wasting assets'—they lose value as they get closer to their expiration date.",
     "description": "You hold a Call Option with a strike price of $100 that expires today at 4:00 PM. The stock is currently trading at $95. What is the value of your option at 4:01 PM?",
     "options": [
-      "$5",
+      "$5 given the dynamics of the current",
       "$100",
       "$0 (It is worthless)",
       "$95"
@@ -131,7 +131,7 @@
     "description": "How do derivatives actually help a local grocery store keep the price of bread stable for consumers?",
     "options": [
       "By allowing wheat farmers and bread factories to lock in costs and avoid sudden price spikes",
-      "By making sure the stock market always goes up",
+      "By making sure the stock market always goes up given the dynamics of the current economic environment and the",
       "By eliminating the need for banks",
       "By forcing people to buy more bread"
     ],

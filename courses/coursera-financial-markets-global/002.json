@@ -5,7 +5,7 @@
     "description": "A growing technology company decides to 'go public' via an Initial Public Offering (IPO). If you purchase 100 shares during this event, what have you fundamentally acquired?",
     "options": [
       "A guaranteed monthly repayment with interest",
-      "A legal right to manage the company's daily operations",
+      "A legal right to manage the company's daily operations given the dynamics of",
       "A residual claim on the company's profits and voting rights",
       "A short-term loan agreement with the company's founders"
     ],
@@ -21,7 +21,7 @@
       "A high-growth startup that reinvests all profits",
       "A 'Penny Stock' with high price volatility",
       "A mature utility company with a high dividend yield",
-      "A company that has never turned a profit"
+      "A company that has never turned a profit given the dynamics of"
     ],
     "answer": "A mature utility company with a high dividend yield",
     "explanation": "Mature companies in stable industries (like utilities) often distribute a significant portion of their earnings as dividends, providing the steady cash flow required for income-focused investors.",
@@ -63,7 +63,7 @@
       "The company is currently going bankrupt",
       "Investors expect the company's earnings to grow very rapidly in the future",
       "The company has too many shares outstanding",
-      "The company is paying out all of its earnings as dividends"
+      "The company is paying out all of its earnings as dividends given the dynamics of"
     ],
     "answer": "Investors expect the company's earnings to grow very rapidly in the future",
     "explanation": "A high P/E ratio usually indicates that investors are willing to pay a premium today because they anticipate significantly higher earnings in the years to come.",
@@ -116,7 +116,7 @@
     "content": "An index, like the S&P 500 or the Dow Jones, tracks the performance of a specific group of stocks to represent the overall market or a specific sector. Indices help investors benchmark their own performance against the 'average.'",
     "description": "If the 'S&P 500' is reported to be 'up 2%' for the day, what does this actually mean for the average person?",
     "options": [
-      "Every single stock in the world increased by 2%",
+      "Every single stock in the world increased by 2% given the dynamics of the current economic environment and",
       "The 500 largest companies in the U.S. market increased in value by 2% on average",
       "Interest rates in the bank increased by 2%",
       "The cost of living decreased by 2%"
@@ -130,7 +130,7 @@
     "content": "Investment banks act as intermediaries between companies that need capital and investors who have capital. Their primary role is 'underwriting' new stock or bond issues, helping companies navigate the complex legal and financial process of selling securities to the public.",
     "description": "A private company wants to raise $500 million to build new factories. They hire an investment bank to help them. What is the primary service the bank provides in this scenario?",
     "options": [
-      "Providing a safe savings account for the company's employees",
+      "Providing a safe savings account for the company's employees given the dynamics of",
       "Managing the company's daily payroll",
       "Underwriting the stock and finding buyers for the new shares",
       "Providing insurance against factory fires"

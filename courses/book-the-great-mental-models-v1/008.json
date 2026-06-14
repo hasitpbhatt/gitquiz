@@ -4,12 +4,12 @@
     "content": "William of Occam's principle: entities should not be multiplied without necessity. When multiple explanations compete, the simplest explanation with the fewest assumptions is most likely to be correct.",
     "description": "A system goes down. Engineer A suspects a rare cosmic ray flipped a memory bit. Engineer B notices a recent deployment changed a configuration parameter. Which explanation does Occam's Razor favor?",
     "options": [
-      "Engineer A, because cosmic rays sound scientific",
-      "Engineer B, because the recent deployment involves fewer extraordinary assumptions",
-      "Both explanations are equally valid",
-      "Engineer A, because rare events happen all the time"
+      "Engineer A, because cosmic rays sound scientific and are known to cause bit flips in computer memory and electronics",
+      "Engineer B, because the recent deployment change involves fewer extraordinary assumptions to explain the system failure",
+      "Both explanations are equally valid and should be investigated simultaneously to determine the true root cause of the outage",
+      "Engineer A, because rare events happen all the time in complex computer systems and should not be dismissed too quickly"
     ],
-    "answer": "Engineer B, because the recent deployment involves fewer extraordinary assumptions",
+    "answer": "Engineer B, because the recent deployment change involves fewer extraordinary assumptions to explain the system failure",
     "explanation": "Occam's Razor favors the explanation requiring the fewest assumptions. A deployed change affecting a configuration requires one assumption (the change caused the failure). A cosmic ray requires many assumptions (a rare particle event, memory sensitivity, timing coincidence).",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "Occam's Razor is a guide for selecting between competing explanations, not a guarantee that the simplest explanation is true. It is a heuristic to narrow hypotheses, not a proof.",
     "description": "A detective solves a case with the simplest story: the butler had motive and opportunity. Later, DNA evidence proves it was the gardener. What does this tell us about Occam's Razor?",
     "options": [
-      "Occam's Razor was wrong — simplicity does not equal truth",
-      "Occam's Razor is a heuristic for prioritizing hypotheses, not a truth-proof — but the simpler hypothesis should be investigated first",
-      "The detective should have ignored the simplicity principle entirely",
-      "The butler still did it"
+      "Occam's Razor was wrong — simplicity does not equal truth in any domain and should not be used as a reasoning tool",
+      "Occam's Razor is a heuristic for prioritizing hypotheses, not a truth-proof — but the simpler hypothesis should be investigated first before others",
+      "The detective should have ignored the simplicity principle entirely and considered all possible options equally from the start",
+      "The butler still did it — the DNA evidence must have been contaminated during collection or processing at the laboratory"
     ],
-    "answer": "Occam's Razor is a heuristic for prioritizing hypotheses, not a truth-proof — but the simpler hypothesis should be investigated first",
+    "answer": "Occam's Razor is a heuristic for prioritizing hypotheses, not a truth-proof — but the simpler hypothesis should be investigated first before others",
     "explanation": "Occam's Razor does not guarantee truth — it is a decision-making heuristic for where to focus investigative energy. The simplest explanation should be checked first. When it fails, move to more complex hypotheses. The gardener was the truth, but the butler was the right starting point.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "Simplification asks: based on what we know so far, which explanation assumes the least about the unknown? It is not about preferring what is pleasant or easy, but about minimizing assumptions.",
     "description": "A stock price drops 15% in one day. Which explanation is the simplest per Occam's Razor?",
     "options": [
-      "A global conspiracy of hedge funds coordinated to manipulate the stock",
-      "The company released disappointing earnings that morning — the most direct explanation with the fewest assumptions",
-      "Aliens from Zeta Reticuli are testing Earth's financial systems",
-      "The CEO sneezed during a television interview"
+      "A global conspiracy of hedge funds coordinated to manipulate the stock price down for their own collective financial benefit",
+      "The company released disappointing earnings that morning — the most direct explanation with the fewest assumptions needed",
+      "Aliens from Zeta Reticuli are testing Earth's financial systems for their research into primitive market-based civilizations",
+      "The CEO sneezed during a television interview causing panic selling among nervous investors watching the broadcast"
     ],
-    "answer": "The company released disappointing earnings that morning — the most direct explanation with the fewest assumptions",
+    "answer": "The company released disappointing earnings that morning — the most direct explanation with the fewest assumptions needed",
     "explanation": "Occam's Razor asks which explanation adds the fewest unsupported assumptions. A disappointing earnings report directly explains the price drop. Conspiracy theories require many assumptions about coordination, motivation, and concealment. Aliens require even more.",
     "difficulty": "easy"
   },
@@ -46,12 +46,12 @@
     "content": "In medicine, Occam's Razor appears as \"when you hear hoofbeats, think horses, not zebras.\" The common explanation should be the first investigation target, not the exotic one.",
     "description": "A patient in a suburban clinic presents with a fever and cough. A junior resident orders tests for a rare tropical parasite. The senior doctor suggests testing for a common cold or flu first. What medical principle is this?",
     "options": [
-      "Defensive medicine",
-      "The \"horses not zebras\" application of Occam's Razor — common explanations should be ruled out before rare ones",
-      "The patient has a right to any test they want",
-      "Rare diseases are always more dangerous"
+      "Defensive medicine — ordering extra tests to avoid potential malpractice lawsuits for failing to diagnose rare conditions",
+      "The \"horses not zebras\" application of Occam's Razor — common explanations should be ruled out before rare ones are considered",
+      "The patient has a right to any test they want regardless of medical likelihood or the cost of those diagnostic procedures",
+      "Rare diseases are always more dangerous and should be tested for first before considering common benign explanations"
     ],
-    "answer": "The \"horses not zebras\" application of Occam's Razor — common explanations should be ruled out before rare ones",
+    "answer": "The \"horses not zebras\" application of Occam's Razor — common explanations should be ruled out before rare ones are considered",
     "explanation": "Occam's Razor in medicine directs clinicians to start with the most common diagnosis (horses) before investigating rare ones (zebras). A suburban patient with fever and cough almost certainly has a common respiratory infection, not a tropical parasite.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Hickam's Dictum counters Occam's Razor: \"Patients can have as many diseases as they damn well please.\" A single unified explanation may be wrong when multiple independent factors are at play.",
     "description": "A patient has three distinct symptoms that a medical student tries to explain with one rare syndrome. The senior doctor finds three separate common conditions causing each symptom independently. What principle does this illustrate?",
     "options": [
-      "Occam's Razor is always superior to Hickam's Dictum",
-      "Hickam's Dictum — complex situations may involve multiple independent causes, not a single elegant explanation",
-      "The patient is imagining symptoms",
-      "The medical student should have looked for even rarer syndromes"
+      "Occam's Razor is always superior and should never be questioned in medical diagnosis regardless of the clinical situation",
+      "Hickam's Dictum — complex situations may involve multiple independent causes, not a single elegant unified explanation for everything",
+      "The patient is imagining symptoms and needs psychological evaluation rather than further medical diagnostic testing",
+      "The medical student should have looked for even rarer syndromes to unify the symptoms into a single diagnosis framework"
     ],
-    "answer": "Hickam's Dictum — complex situations may involve multiple independent causes, not a single elegant explanation",
+    "answer": "Hickam's Dictum — complex situations may involve multiple independent causes, not a single elegant unified explanation for everything",
     "explanation": "Hickam's Dictum reminds us that Occam's Razor is a heuristic, not a law. Sometimes reality is genuinely messy and multiple independent causes are acting simultaneously. Over-applying Occam's Razor can lead to forcing a single wrong explanation.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "McCormack's Iron Law: simplicity does not precede complexity but follows it. The real skill is working through the full complexity until patterns emerge, then benefiting from the simplicity that emerges.",
     "description": "A junior analyst seeks a simple one-line explanation for a quarterly sales decline. A senior analyst says: \"You need to work through the full data first — the simple story comes at the end, not the beginning.\" What principle does this reflect?",
     "options": [
-      "The Peter Principle",
-      "McCormack's Iron Law — genuine simplicity is the result of mastering complexity, not avoiding it",
-      "Occam's Razor applied to data analysis",
-      "The law of small numbers"
+      "The Peter Principle — the analyst was promoted beyond their level of competence and cannot handle complex analytical tasks",
+      "McCormack's Iron Law — genuine simplicity is the result of mastering complexity, not avoiding it through shortcuts and assumptions",
+      "Occam's Razor applied to data analysis — always pick the simplest interpretation regardless of data complexity or nuance",
+      "The law of small numbers — small samples produce misleading and unreliable patterns that should not be trusted for analysis"
     ],
-    "answer": "McCormack's Iron Law — genuine simplicity is the result of mastering complexity, not avoiding it",
+    "answer": "McCormack's Iron Law — genuine simplicity is the result of mastering complexity, not avoiding it through shortcuts and assumptions",
     "explanation": "Simplistic answers are not the same as simple ones. McCormack's Iron Law states that simplicity emerges from thoroughly understanding complexity. Premature simplification produces wrong answers masked as Occam-style elegance.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "When a decision must be made under time pressure, a simple, approximately correct answer is far superior to an exact answer that arrives too late. Occam's Razor does not optimize for perfection.",
     "description": "A fire captain arrives at a burning building. The sprinkler system may or may not be functional. Should the captain spend five minutes calculating water pressure or immediately order the fire hose?",
     "options": [
-      "Calculate the water pressure first to avoid wasting water",
-      "Order the fire hose immediately — a simple, good-enough action taken quickly beats a precise calculation that arrives late",
-      "Wait for the building engineer to arrive",
-      "Never use sprinklers and hoses simultaneously"
+      "Calculate the water pressure first to avoid wasting water unnecessarily before deploying the fire hoses into action",
+      "Order the fire hose immediately — a simple, good-enough action taken quickly beats a precise calculation that arrives too late to matter",
+      "Wait for the building engineer to arrive and provide accurate information about the sprinkler system before taking any action which requires identifying the root cause",
+      "Never use sprinklers and hoses simultaneously because of electrical hazards that could electrocute the firefighters present"
     ],
-    "answer": "Order the fire hose immediately — a simple, good-enough action taken quickly beats a precise calculation that arrives late",
+    "answer": "Order the fire hose immediately — a simple, good-enough action taken quickly beats a precise calculation that arrives too late to matter",
     "explanation": "Occam's Razor in urgency means choosing the simplest effective action. A five-minute calculation that saves minor water waste but delays firefighting by five minutes is a net loss. Speed and simplicity have their own value in time-critical decisions.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "The simpler an explanation, the easier it is to communicate, verify, and act upon. Simplicity enables alignment, which multiplies its value far beyond the initial analysis.",
     "description": "A brilliant analyst creates a 50-variable model to predict customer churn. The model is accurate but nobody in the business team understands it, so nobody acts on it. What principle was violated?",
     "options": [
-      "The model should be kept secret for competitive advantage",
-      "Simplicity enables action — the most complex accurate model is useless if nobody can understand or act on it",
-      "The business team should just trust the model",
-      "Accuracy is the only thing that matters"
+      "The model should be kept secret for competitive advantage over rivals who might replicate the analytical approach used based on the patterns that",
+      "Simplicity enables action — the most complex accurate model is useless if nobody can understand or act on it effectively",
+      "The business team should just trust the model without understanding its details or questioning the assumptions behind it",
+      "Accuracy is the only thing that matters regardless of whether anyone understands how the model reaches its conclusions"
     ],
-    "answer": "Simplicity enables action — the most complex accurate model is useless if nobody can understand or act on it",
+    "answer": "Simplicity enables action — the most complex accurate model is useless if nobody can understand or act on it effectively",
     "explanation": "Occam's Razor is not just about correctness — it is about usability. A simple two-variable model that the team trusts and acts on is worth more than a perfect model that gathers dust. Simplicity enables communication, verification, and collective action.",
     "difficulty": "easy"
   }

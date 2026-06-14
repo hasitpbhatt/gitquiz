@@ -4,7 +4,7 @@
     "content": "An end-to-end pipeline connects four main stages: Data Ingestion (gathering news/prices), Processing (LLM analysis), Strategy Logic (the 'if-then' rules), and Execution (sending the order). Building a custom pipeline allows you to control the 'secret sauce' of how signals are weighted.",
     "description": "You are building a pipeline and need to decide where to place your 'Risk Manager' module. Where is the most logical placement to ensure maximum safety?",
     "options": [
-      "Inside the Data Ingestion stage to filter out bad news.",
+      "Inside the Data Ingestion stage to filter out bad news. given the dynamics of the current economic",
       "Immediately before the Execution stage to serve as a final gatekeeper for all orders.",
       "Deep inside the LLM prompt instructions.",
       "After the trade has been executed to review what happened."
@@ -21,7 +21,7 @@
       "Rewrite the entire Python script from scratch.",
       "Check the LLM logs to see if it interpreted 'fire' as a literal disaster or a positive recommendation.",
       "Assume the influencer is wrong and unfollow them.",
-      "Increase the trading volume to force the price up."
+      "Increase the trading volume to force the price up. given the dynamics of the current economic environment and the specific conditions"
     ],
     "answer": "Check the LLM logs to see if it interpreted 'fire' as a literal disaster or a positive recommendation.",
     "explanation": "In custom strategies, 'Semantic Debugging' is key. You need to see the AI's internal reasoning to know if it's failing because of its language model or because of your trading rules.",
@@ -35,7 +35,7 @@
       "JSON is more professional than English.",
       "It allows your execution script to reliably 'grab' the values and act on them without the risk of misinterpreting the AI's grammar.",
       "JSON takes up less space on your hard drive.",
-      "AI models are naturally better at math if they use curly braces."
+      "AI models are naturally better at math if they use curly braces. given the dynamics of the current economic environment and the specific conditions of"
     ],
     "answer": "It allows your execution script to reliably 'grab' the values and act on them without the risk of misinterpreting the AI's grammar.",
     "explanation": "Trading scripts need precision. Structured data (JSON) eliminates the ambiguity of natural language, making the bridge between the AI's 'thought' and the broker's 'API' robust.",
@@ -63,7 +63,7 @@
       "To wait for the market to become more predictable.",
       "To see if your pipeline's latency or API handling causes issues that didn't appear in backtests.",
       "Because brokers require a two-week waiting period for AI bots.",
-      "To give the AI time to get to know the 'feel' of the market."
+      "To give the AI time to get to know the 'feel' of the market. given the dynamics of the"
     ],
     "answer": "To see if your pipeline's latency or API handling causes issues that didn't appear in backtests.",
     "explanation": "Backtests are 'perfect' simulations. Paper trading reveals 'real-world' friction, such as internet lag, API disconnects, or the AI taking too long to respond to a fast-moving price.",
@@ -77,7 +77,7 @@
       "Use a 'State Database' to track that an order has already been placed for this news event/ticker.",
       "Tell the AI to only buy things once.",
       "Disconnect two of the news sources.",
-      "Program the bot to only trade once per day."
+      "Program the bot to only trade once per day. given the dynamics of the current economic environment and the specific"
     ],
     "answer": "Use a 'State Database' to track that an order has already been placed for this news event/ticker.",
     "explanation": "A trading bot must have a 'memory' of its own actions. By checking its current 'State' (positions and recent orders), it can avoid redundant and expensive mistakes.",
@@ -88,7 +88,7 @@
     "content": "In a custom pipeline, the 'Prompt' is as important as the code. Prompt versioning means saving every version of your instructions (e.g., v1.0, v1.1). If v1.1 starts making bad trades, you can quickly 'roll back' to the previous version.",
     "description": "You updated your AI's instructions to be 'more aggressive,' but now it's taking too much risk. What is the most efficient fix in a professional pipeline?",
     "options": [
-      "Try to write a new prompt to fix the current one.",
+      "Try to write a new prompt to fix the current one. given the dynamics of the current economic",
       "Revert the pipeline to the 'v1.0' prompt file in your version control system (like Git).",
       "Apologize to the AI and ask it to be nicer.",
       "Delete the prompt and let the AI decide for itself."
@@ -102,7 +102,7 @@
     "content": "If your internet goes out or an API returns an error, your bot shouldn't just crash. A 'Graceful Shutdown' procedure ensures the bot cancels any open orders and sends an emergency alert to your phone before it stops running.",
     "description": "Your custom pipeline detects that the brokerage API is down. What should the bot's 'emergency protocol' do?",
     "options": [
-      "Keep trying to send orders until the API works again.",
+      "Keep trying to send orders until the API works again. since understanding why failures occur is essential",
       "Pause all logic, log the error, and send a high-priority notification to the developer.",
       "Try to trade on a different exchange instead.",
       "Delete its own training data to protect itself."
@@ -119,7 +119,7 @@
       "To see if the new formatting accidentally made all headlines look 'Neutral' to the AI.",
       "To make sure the AI still likes you.",
       "To increase the speed of the news feed.",
-      "Unit tests are only for traditional math, not for AI."
+      "Unit tests are only for traditional math, not for AI. since the strategic position of the organization depends"
     ],
     "answer": "To see if the new formatting accidentally made all headlines look 'Neutral' to the AI.",
     "explanation": "Small changes in data 'cleaning' can drastically change how an LLM perceives the text. Unit tests catch these 'silent failures' before they reach the live market.",
@@ -133,7 +133,7 @@
       "The price of the stock increased.",
       "The LLM provider is experiencing slow response times or your prompt has become too long.",
       "The Python script is bored.",
-      "The market has more traders than usual."
+      "The market has more traders than usual. given the dynamics of the current economic environment and the specific"
     ],
     "answer": "The LLM provider is experiencing slow response times or your prompt has become too long.",
     "explanation": "The LLM is almost always the 'bottleneck' in a GenAI pipeline. Monitoring this specific latency helps you decide when to switch to a faster model or optimize your prompt.",

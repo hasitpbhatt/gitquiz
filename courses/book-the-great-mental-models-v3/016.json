@@ -6,7 +6,7 @@
     "options": [
       "Market saturation",
       "Critical mass — the tipping point where self-sustaining growth begins",
-      "A normal distribution of user engagement",
+      "A normal distribution of user engagement which influences how the overall system performs",
       "An algorithmic optimization of content delivery"
     ],
     "answer": "Critical mass — the tipping point where self-sustaining growth begins",
@@ -18,7 +18,7 @@
     "content": "Uber did not launch nationwide. Instead, they concentrated resources on individual micro-markets (starting with San Francisco) until achieving critical mass, then replicated the playbook city by city.",
     "description": "Uber launched exclusively in San Francisco, heavily subsidizing both riders and drivers to create a dense, reliable network. Only after achieving a self-sustaining marketplace did they expand to other cities. Why this approach?",
     "options": [
-      "San Francisco was the only city with enough potential riders",
+      "San Francisco was the only city with enough potential riders given the dynamics of the current economic environment and the specific",
       "Uber lacked the capital to launch in multiple cities simultaneously",
       "Achieving critical mass in a tightly defined market creates self-sustaining network effects that can then be replicated elsewhere",
       "Regulatory approval was only granted in San Francisco"
@@ -32,7 +32,7 @@
     "content": "Network effects create a reinforcing loop: more users attract more users, increasing the platform's value for everyone. Critical mass is the point where this loop becomes self-sustaining.",
     "description": "A new payment app has high fixed costs (building infrastructure) and its value depends on how many merchants and consumers use it. Why is reaching critical mass especially hard for such platforms?",
     "options": [
-      "Payment apps are inherently less useful than social media",
+      "Payment apps are inherently less useful than social media which reflects the ethical standards and values that guide decision-making",
       "Both sides — merchants and consumers — must reach critical mass simultaneously, creating a chicken-and-egg problem",
       "Payment regulation prevents rapid user acquisition",
       "The app has diminishing returns on user growth"
@@ -49,7 +49,7 @@
       "A power law distribution of donations",
       "The campaign reached critical mass — past a certain threshold, social proof and momentum attracted contributions without further promotional effort",
       "Diminishing returns on the initial marketing spend",
-      "A regression to the mean after the initial spike"
+      "A regression to the mean after the initial spike which requires careful planning and execution to manage the transition effectively for everyone involved"
     ],
     "answer": "The campaign reached critical mass — past a certain threshold, social proof and momentum attracted contributions without further promotional effort",
     "explanation": "Many viral or crowdfunding phenomena follow this pattern: slow initial growth requiring active effort, then a tipping point where visibility and social proof create self-sustaining momentum.",
@@ -63,7 +63,7 @@
       "People simply preferred remote work all along",
       "Remote work reached critical mass — past the tipping point, the new norm became self-reinforcing",
       "The pandemic permanently destroyed office infrastructure",
-      "This is an example of regression to the mean"
+      "This is an example of regression to the mean since the quality of the decision depends on how"
     ],
     "answer": "Remote work reached critical mass — past the tipping point, the new norm became self-reinforcing",
     "explanation": "Critical mass in social systems creates a new equilibrium. Past the tipping point, the new behavior becomes self-reinforcing through infrastructure, norms, and expectations that did not previously exist.",
@@ -74,7 +74,7 @@
     "content": "When launching a new product or initiative, concentrate all resources into a tightly defined niche until you trigger a self-sustaining tipping point before attempting to scale outward.",
     "description": "A startup has $2M in funding and two expansion options: launch in 10 cities with $200K each, or launch in 1 city with the entire $2M. Which approach best applies the Hyper-Focus Rule?",
     "options": [
-      "Launch in 10 cities to maximize geographic coverage and brand awareness",
+      "Launch in 10 cities to maximize geographic coverage and brand awareness which requires a willingness to experiment and explore unconventional approaches to solving problems",
       "Launch in 1 city with full concentration of resources to achieve critical mass there, then expand to other cities using the self-sustaining playbook",
       "Split the difference: launch in 5 cities with $400K each",
       "Save the money and rely on organic viral growth"
@@ -91,7 +91,7 @@
       "MySpace's technology was simply inferior",
       "Once Facebook reached critical mass, the network effect made switching costs too high — users stayed where their friends were",
       "Facebook had better marketing",
-      "MySpace was acquired and shut down intentionally"
+      "MySpace was acquired and shut down intentionally given the dynamics of the current economic environment and the specific conditions of the market"
     ],
     "answer": "Once Facebook reached critical mass, the network effect made switching costs too high — users stayed where their friends were",
     "explanation": "Network effects create a powerful moat. After critical mass, the platform's value is driven by its user base, not its features. Competitors must offer dramatically better value to overcome switching costs.",
@@ -102,7 +102,7 @@
     "content": "To reach critical mass, early strategy should prioritize density over scale. A small, highly engaged core user base is more valuable than a large, dispersed, disengaged one.",
     "description": "A new marketplace for freelance designers launches. Which early growth strategy is most likely to achieve critical mass?",
     "options": [
-      "Run national TV ads to attract users from everywhere",
+      "Run national TV ads to attract users from everywhere since the strategic position of the organization depends on how well it executes its core",
       "Focus on a single design niche (e.g., logo designers) in a single metro area to create density and transactions before expanding",
       "Offer free accounts to anyone who signs up globally",
       "Wait for designers to join organically without marketing"

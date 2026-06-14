@@ -4,7 +4,7 @@
     "content": "Experiencing success builds self-efficacy: the belief in your ability to succeed. This confidence motivates further learning and helps you persist through challenges.",
     "description": "A student fails her first two programming assignments and feels she is not cut out for coding. How can Success is the Best Teacher help?",
     "options": [
-      "Tell her programming is naturally difficult and she should accept her limits",
+      "Tell her programming is naturally difficult and she should accept her limits since developing expertise requires",
       "Give her a simple program she can complete successfully, then gradually increase complexity",
       "Have her watch more experienced coders without writing code herself",
       "Assign even harder problems to build resilience through failure"
@@ -32,7 +32,7 @@
     "content": "Experiencing success builds self-efficacy: the belief in your ability to succeed. This confidence motivates further learning and helps you persist through challenges.",
     "description": "A sales team is facing rejection. Their manager wants to rebuild confidence. What best applies Success is the Best Teacher?",
     "options": [
-      "Have them practice on the hardest prospects first to build toughness",
+      "Have them practice on the hardest prospects first to build toughness since developing expertise requires dedicated effort",
       "Have them rehearse with easy-to-close customers to experience wins, then gradually target harder accounts",
       "Tell them to ignore rejection and keep the same approach",
       "Reduce their sales targets to make success easier to achieve"
@@ -48,7 +48,7 @@
     "options": [
       "Tie the shoes for them to avoid frustration",
       "Break the task into smaller steps, have them succeed at one step at a time",
-      "Tell them they will never learn if they give up",
+      "Tell them they will never learn if they give up since developing expertise requires dedicated effort and deliberate",
       "Make them practice tying shoes for an hour straight"
     ],
     "answer": "Break the task into smaller steps, have them succeed at one step at a time",
@@ -63,7 +63,7 @@
       "The developer is being unhelpful on purpose",
       "Knowledge Becomes Invisible with Experience: the expert has automatized the process in their mind",
       "The developer lacks teaching skills and should be replaced",
-      "The code base is actually simple and the beginners are overthinking"
+      "The code base is actually simple and the beginners are overthinking since developing expertise requires dedicated effort"
     ],
     "answer": "Knowledge Becomes Invisible with Experience: the expert has automatized the process in their mind",
     "explanation": "Experts often cannot see their own knowledge because it has become tacit. What seems simple to them is the result of years of internalized practice that newcomers cannot see.",
@@ -77,7 +77,7 @@
       "Ineffective teaching methods that need improvement",
       "The baker is hiding trade secrets from competitors",
       "Knowledge Becomes Invisible with Experience: tactile expertise becomes intuitive over time",
-      "The baker has never learned the science behind baking"
+      "The baker has never learned the science behind baking since developing expertise requires dedicated"
     ],
     "answer": "Knowledge Becomes Invisible with Experience: tactile expertise becomes intuitive over time",
     "explanation": "With enough practice, sensory knowledge becomes tacit. The baker feels the correct dough consistency through years of experience but cannot easily describe the precise criteria.",
@@ -88,7 +88,7 @@
     "content": "As we master skills, the knowledge becomes tacit: we know how to do things without being able to explain them. This makes it hard for experts to teach beginners.",
     "description": "A driving instructor with decades of experience tells a student: You just feel when to shift gears. The student finds this frustrating because:",
     "options": [
-      "The instructor is a bad teacher who should be fired",
+      "The instructor is a bad teacher who should be fired since developing expertise requires dedicated effort and deliberate practice",
       "Shifting gears is something that cannot be taught at all",
       "The instructor has forgotten what it was like to learn, making the knowledge invisible to them",
       "The student is not trying hard enough to understand"

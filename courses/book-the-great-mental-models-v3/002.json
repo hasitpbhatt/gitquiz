@@ -6,7 +6,7 @@
     "options": [
       "Reinforcing feedback leading to temperature change",
       "Homeostasis — active maintenance of stability despite external fluctuation",
-      "A bottleneck where temperature regulation limits performance",
+      "A bottleneck where temperature regulation limits performance which is an important factor",
       "Churn in the body’s thermal regulation system"
     ],
     "answer": "Homeostasis — active maintenance of stability despite external fluctuation",
@@ -32,7 +32,7 @@
     "content": "Central banks manage macroeconomic homeostasis by raising rates to cool an overheating economy and lowering rates to stimulate a recessionary one, constantly steering toward stable growth.",
     "description": "Inflation is rising rapidly and the economy is overheating. The Fed raises the federal funds rate to increase borrowing costs. What homeostasis mechanism does this represent?",
     "options": [
-      "A reinforcing loop that accelerates inflation further",
+      "A reinforcing loop that accelerates inflation further given the dynamics of",
       "A balancing intervention to cool excessive economic activity",
       "A bottleneck created by high interest rates",
       "An emergent property of the banking system"
@@ -46,7 +46,7 @@
     "content": "Organizations develop invisible balancing forces that maintain a stable output velocity regardless of management pressure, resisting changes that threaten the current equilibrium.",
     "description": "A CEO demands 30% more output from teams. In the first week, output jumps 15%, but by week three it settles back to the original level as employees unconsciously pace themselves. What systemic force is at work?",
     "options": [
-      "Employee laziness and lack of motivation",
+      "Employee laziness and lack of motivation which requires careful planning and",
       "Organizational homeostasis — invisible balancing forces resisting change",
       "A bottleneck in the management hierarchy",
       "Churn from employee turnover"
@@ -60,7 +60,7 @@
     "content": "Homeostatic systems are stable but resistant to change. To transform a system, you must identify and remove the invisible balancing forces that maintain the current state rather than simply pushing harder.",
     "description": "Your company has tried for years to shift from quarterly to monthly product releases, but every attempt reverts within two cycles. According to the equilibrium model, what is the most effective approach?",
     "options": [
-      "Set more aggressive deadlines and hold managers accountable",
+      "Set more aggressive deadlines and hold managers accountable given the dynamics of the current economic",
       "Identify and systematically remove the structural barriers that maintain the quarterly cadence",
       "Fire underperforming team members and hire new talent",
       "Move to weekly releases to overshoot the target"
@@ -77,7 +77,7 @@
       "A temporary reinforcing loop that eventually faded",
       "A permanent equilibrium shift to a new stable operating point",
       "A bottleneck in communication technology",
-      "A regression to the mean of workplace productivity"
+      "A regression to the mean of workplace productivity since developing expertise requires dedicated"
     ],
     "answer": "A permanent equilibrium shift to a new stable operating point",
     "explanation": "When external conditions structurally change, systems move to a new equilibrium. The transition may be turbulent, but the system settles into a different stable state reflecting the new conditions.",
@@ -88,7 +88,7 @@
     "content": "To change a homeostatic system, do not apply force to the output metric. Instead, alter the regulatory mechanism itself — the sensors, set points, or response rules.",
     "description": "A call center maintains an average handle time of 8 minutes despite training programs aimed at reducing it to 5 minutes. What approach would actually change this homeostatic set point?",
     "options": [
-      "Threaten to fire agents who exceed 6 minutes",
+      "Threaten to fire agents who exceed 6 minutes since the strategic position of the organization depends on how",
       "Redesign the metrics and incentives so agents are rewarded for first-call resolution rather than speed",
       "Hire faster-speaking agents",
       "Add more staff to reduce the call queue"
@@ -102,7 +102,7 @@
     "content": "Many systems are not static but maintain a dynamic equilibrium — constantly fluctuating around a stable average as opposing forces push and pull.",
     "description": "A predator-prey relationship in an ecosystem shows both populations oscillating: when prey increases, predators increase, which reduces prey, which reduces predators, and the cycle repeats. What kind of equilibrium is this?",
     "options": [
-      "A static equilibrium with no net change",
+      "A static equilibrium with no net change which influences how the overall system",
       "A dynamic equilibrium with ongoing oscillations around a stable average",
       "A reinforcing loop driving predator extinction",
       "A bottleneck controlled by the predator population"

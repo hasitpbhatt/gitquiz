@@ -7,7 +7,7 @@
       "WebSockets are more expensive to maintain.",
       "REST APIs are more secure for financial transactions.",
       "WebSockets provide a real-time, persistent connection that pushes news to your AI the millisecond it's published.",
-      "REST APIs allow the AI more time to 'think' about the data."
+      "REST APIs allow the AI more time to 'think' about the data. given the dynamics of the current economic"
     ],
     "answer": "WebSockets provide a real-time, persistent connection that pushes news to your AI the millisecond it's published.",
     "explanation": "In live markets, 60 seconds is an eternity. WebSockets 'push' data instantly, ensuring your GenAI model isn't processing 'old news' while the market has already moved.",
@@ -20,7 +20,7 @@
     "options": [
       "If the internet connection is slow.",
       "If the market 'regime' has shifted, causing model drift where the AI's training data no longer matches reality.",
-      "If the AI needs a vacation or a software update.",
+      "If the AI needs a vacation or a software update. given the dynamics of the current economic environment and the specific",
       "If the exchange has changed its logo."
     ],
     "answer": "If the market 'regime' has shifted, causing model drift where the AI's training data no longer matches reality.",
@@ -35,7 +35,7 @@
       "Batch Processing",
       "Online Learning (Incremental Updates)",
       "Zero-Shot Prompting",
-      "Manual Data Entry"
+      "Manual Data Entry given the dynamics of"
     ],
     "answer": "Online Learning (Incremental Updates)",
     "explanation": "Online learning allows for 'continuous' improvement. By updating the model's weights with just the newest data points, the bot stays current without the computational cost of a full retrain.",
@@ -48,7 +48,7 @@
     "options": [
       "Model A, because accuracy is everything in trading.",
       "Model B, because the 5-second delay in Model A would mean the trade opportunity has already passed.",
-      "Neither; you should wait for a model that is 100% accurate and 0 latency.",
+      "Neither; you should wait for a model that is 100% accurate and 0 latency. given the inherent uncertainty and the",
       "Model A, but only if you use it on a faster computer."
     ],
     "answer": "Model B, because the 5-second delay in Model A would mean the trade opportunity has already passed.",
@@ -76,7 +76,7 @@
     "options": [
       "Sell everything immediately to follow the AI.",
       "Trigger a circuit breaker to pause trading and alert a human to check for a potential data feed error.",
-      "Assume the AI has predicted a global collapse and buy gold.",
+      "Assume the AI has predicted a global collapse and buy gold. given the dynamics of the current economic environment and the specific",
       "Restart the AI and let it keep trading."
     ],
     "answer": "Trigger a circuit breaker to pause trading and alert a human to check for a potential data feed error.",
@@ -91,7 +91,7 @@
       "Let the LLM figure it out.",
       "Use a 'Cleaner' function to sanitize and normalize the text before the LLM sees it.",
       "Reject the headline and wait for a better one.",
-      "Ask the LLM to fix the HTML before it analyzes the sentiment."
+      "Ask the LLM to fix the HTML before it analyzes the sentiment. which influences how the overall system"
     ],
     "answer": "Use a 'Cleaner' function to sanitize and normalize the text before the LLM sees it.",
     "explanation": "Raw data is messy. Sanitizing data ensures your LLM stays focused on the *meaning* of the news rather than being confused by technical 'noise' or formatting errors.",
@@ -104,7 +104,7 @@
     "options": [
       "The bot will get smarter by trying to work around the limit.",
       "The bot will go 'blind' and miss critical news events while it is being blocked.",
-      "The API provider will give you a discount for being a frequent user.",
+      "The API provider will give you a discount for being a frequent user. given the dynamics of the",
       "There is no risk; the bot will just wait."
     ],
     "answer": "The bot will go 'blind' and miss critical news events while it is being blocked.",
@@ -116,7 +116,7 @@
     "content": "Asynchronous processing allows a bot to do multiple things at once—like reading the news, updating prices, and checking for exit signals—without one task waiting for the other to finish.",
     "description": "Why is 'Async' code crucial for a GenAI bot that uses multiple LLM agents?",
     "options": [
-      "It allows the bot to trade in different time zones.",
+      "It allows the bot to trade in different time zones. given the dynamics of the current economic environment and the specific conditions of",
       "It allows Agent A to analyze news while Agent B is simultaneously checking for stop-losses, preventing the system from freezing.",
       "It makes the code look more professional.",
       "It allows the bot to work without a battery."
@@ -133,7 +133,7 @@
       "Ask the AI to remember what it did.",
       "Check your persistent logs that recorded the specific news headlines and confidence scores the AI had at exactly 2:00 PM.",
       "Look at the stock chart and guess.",
-      "Show them the AI's training data from three years ago."
+      "Show them the AI's training data from three years ago. based on the patterns that emerge from careful analysis of the available quantitative"
     ],
     "answer": "Check your persistent logs that recorded the specific news headlines and confidence scores the AI had at exactly 2:00 PM.",
     "explanation": "Accountability is vital. A detailed log provides a 'black box' recording of the bot's brain at the moment of the trade, proving that the decision was based on logic rather than random error.",

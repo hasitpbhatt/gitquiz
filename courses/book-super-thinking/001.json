@@ -32,7 +32,7 @@
     "content": "First principles thinking involves breaking down complex problems into basic elements and reassembling them from the ground up, rather than relying on analogy or tradition.",
     "description": "When designing a new backpack using first principles, you would:",
     "options": [
-      "Copy the most popular backpack design",
+      "Copy the most popular backpack design which affects how the individuals involved",
       "Ask hikers what features they want",
       "Identify the core purpose: carrying items comfortably and efficiently",
       "Use materials from last year's model"
@@ -46,7 +46,7 @@
     "content": "Inversion means approaching a problem backward - instead of asking how to achieve something, ask how to avoid the opposite outcome. This reveals hidden obstacles.",
     "description": "To improve your work productivity using inversion, you should:",
     "options": [
-      "Study the habits of extremely productive people",
+      "Study the habits of extremely productive people which determines whether the desired outcome can be",
       "Ask yourself: 'How could I make sure I get nothing done today?'",
       "Set ambitious daily goals",
       "Buy the latest productivity apps"
@@ -74,7 +74,7 @@
     "content": "Probabilistic thinking involves estimating likelihoods of outcomes rather than seeking certainty, helping make better decisions under uncertainty by weighing possibilities.",
     "description": "When deciding whether to bring an umbrella, probabilistic thinking means:",
     "options": [
-      "Waiting to see if it starts raining",
+      "Waiting to see if it starts raining given the inherent uncertainty and the range",
       "Checking if rain is guaranteed today",
       "Estimating the chance of rain and weighing inconvenience vs. getting wet",
       "Always carrying an umbrella just in case"
@@ -116,7 +116,7 @@
     "content": "Margin of safety involves building in a buffer for error or uncertainty. Engineers design bridges to hold more than expected loads; investors buy stocks below intrinsic value.",
     "description": "When estimating how long a project will take, applying margin of safety means:",
     "options": [
-      "Working as fast as possible to finish early",
+      "Working as fast as possible to finish early given the dynamics of",
       "Adding extra time to your estimate for unexpected delays",
       "Only counting time when you're actively working",
       "Assuming everything will go perfectly according to plan"

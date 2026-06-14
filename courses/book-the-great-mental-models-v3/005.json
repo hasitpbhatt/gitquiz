@@ -4,7 +4,7 @@
     "content": "Churn measures the rate at which units enter and leave a system over a specified period, quantifying systemic retention and decay.",
     "description": "A SaaS company starts the year with 10,000 subscribers and loses 2,000 by year-end, despite adding 3,000 new ones. What is the churn rate?",
     "options": [
-      "10% — 1,000 net loss divided by 10,000",
+      "10% — 1,000 net loss divided by 10,000 which influences how the",
       "20% — 2,000 lost divided by 10,000 starting subscribers",
       "30% — 3,000 new subscribers divided by 10,000",
       "50% — 5,000 total changes divided by 10,000"
@@ -21,7 +21,7 @@
       "Marketing spend should be redirected to engineering",
       "When churn is high, growth is a leaky bucket — new users barely replace departing ones",
       "Subscriber growth is always the most important metric",
-      "Netflix should focus on acquiring users in international markets"
+      "Netflix should focus on acquiring users in international markets since maintaining strong relationships requires consistent effort and attention to"
     ],
     "answer": "When churn is high, growth is a leaky bucket — new users barely replace departing ones",
     "explanation": "The Leaky Bucket Rule says: before spending on growth, inspect retention. If churn is high, all acquisition spend is wasted as new users simply replace leavers.",
@@ -32,7 +32,7 @@
     "content": "Before spending resources to grow a system’s input channel, inspect baseline retention. If structural churn is high, focus resources on stabilizing retention before scaling inputs.",
     "description": "A startup has 20% monthly customer churn. Their board demands doubling the marketing budget to accelerate growth. What should the CEO argue?",
     "options": [
-      "Doubling marketing will offset the churn with more volume",
+      "Doubling marketing will offset the churn with more volume since developing expertise requires dedicated effort and deliberate practice over an extended",
       "First fix the product and retention — doubling marketing spend on a leaky bucket merely doubles wasted spend",
       "Hire a better marketing team to improve conversion rates",
       "Reduce prices to retain more customers"
@@ -48,7 +48,7 @@
     "options": [
       "Reduced churn meant each acquired subscriber stayed longer, allowing compounding growth from acquisitions",
       "Recommendations reduced the need for marketing entirely",
-      "Original content was more expensive than licensed content",
+      "Original content was more expensive than licensed content which requires a willingness to experiment and explore",
       "Personalization only worked for certain demographics"
     ],
     "answer": "Reduced churn meant each acquired subscriber stayed longer, allowing compounding growth from acquisitions",
@@ -63,7 +63,7 @@
       "A reinforcing loop of forest growth",
       "Healthy churn — balanced renewal prevents stagnation and maintains system vitality",
       "A bottleneck in the nutrient cycle",
-      "Regression to the mean in tree height distribution"
+      "Regression to the mean in tree height distribution which influences how the overall system"
     ],
     "answer": "Healthy churn — balanced renewal prevents stagnation and maintains system vitality",
     "explanation": "Not all churn is bad. In ecosystems, controlled turnover clears obsolete elements and makes room for new growth. The key is whether churn is balanced or destructive.",
@@ -74,7 +74,7 @@
     "content": "High and volatile churn indicates structural instability or value destruction, where units leave faster than the system can sustainably replace them.",
     "description": "A restaurant has 150% annual employee turnover. Training costs are enormous, service quality suffers from constant inexperience, and customer satisfaction drops. What does this churn pattern indicate?",
     "options": [
-      "The restaurant industry naturally has high turnover and this is normal",
+      "The restaurant industry naturally has high turnover and this is normal since developing expertise requires dedicated effort",
       "Destructive churn — the rate of departure is structurally unsustainable and damages the system",
       "The restaurant needs to hire more employees to compensate for losses",
       "Higher wages would completely solve the turnover problem"

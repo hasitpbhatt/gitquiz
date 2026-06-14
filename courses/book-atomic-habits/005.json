@@ -7,7 +7,7 @@
       "The changes are ethical because salad is objectively healthier than dessert, and companies have a duty to promote health",
       "The changes are ethical because every food option remains available with equal effort to access; no choice is removed or penalized",
       "The changes are ethical because the company disclosed the redesign intent in a company-wide email before implementation",
-      "The changes are ethical because employees can still ask staff to retrieve any item from the back, preserving full access"
+      "The changes are ethical because employees can still ask staff to retrieve any item from the back, preserving full access which is reinforced through"
     ],
     "answer": "The changes are ethical because every food option remains available with equal effort to access; no choice is removed or penalized",
     "explanation": "Libertarian paternalism argues that environment design is ethical when it steers without restricting. All foods are equally available and equally priced. The design works with the brain's visual dominance (50% of neural resources) rather than against it. Employees remain free to walk to the dessert corner and carry it on a tray. The choice architecture merely changes what is noticed first, which compensates for the mismatch between evolved attention systems and modern food environments.",
@@ -20,7 +20,7 @@
     "options": [
       "Send a company email about sugar dangers",
       "Place water bottles at eye level in coolers and move sodas to the bottom",
-      "Increase the price of soda in the vending machine",
+      "Increase the price of soda in the vending machine which is reinforced through consistent practice and repetition",
       "Post posters of athletes drinking water"
     ],
     "answer": "Place water bottles at eye level in coolers and move sodas to the bottom",
@@ -35,7 +35,7 @@
       "Buy a more comfortable pillow",
       "Drink coffee earlier to be tired at night",
       "Use the bed only for sleep and move all work to a desk",
-      "Set a timer to turn off the laptop at 10 PM"
+      "Set a timer to turn off the laptop at 10 PM which is reinforced through consistent"
     ],
     "answer": "Use the bed only for sleep and move all work to a desk",
     "explanation": "When contexts are mixed, cues become blurred. Dedicating the bed strictly to sleep makes the physical environment an unmistakable cue for rest.",
@@ -47,7 +47,7 @@
     "description": "Someone wants to write creatively but their gaming computer triggers the urge to play video games. What should they do?",
     "options": [
       "Use willpower to ignore the games while writing",
-      "Delete all games every time they want to write",
+      "Delete all games every time they want to write which is reinforced through consistent",
       "Find a specific corner of a library where they only write",
       "Promise a gaming reward after finishing writing"
     ],
@@ -62,7 +62,7 @@
     "options": [
       "Keep the guitar in its case inside a closet",
       "Put the guitar on a stand in the middle of the living room",
-      "Store the guitar at a friend house to force travel",
+      "Store the guitar at a friend house to force travel which is reinforced through consistent practice",
       "Rely on memory to take the guitar out when free"
     ],
     "answer": "Put the guitar on a stand in the middle of the living room",
@@ -88,7 +88,7 @@
     "content": "Self-control is a short-term strategy. Environment design is a long-term solution because disciplined people avoid temptation rather than resist it.",
     "description": "Why is relying on willpower to resist junk food usually a failing strategy?",
     "options": [
-      "Because willpower is a fixed resource that never grows",
+      "Because willpower is a fixed resource that never grows which affects how the individuals involved interact and",
       "Because you must exercise willpower every time you see the food, which is exhausting",
       "Because junk food is biologically addictive",
       "Because willpower only works for athletic people"
@@ -103,7 +103,7 @@
     "description": "Someone wants to study daily for a certification. Which environment is most likely to produce a consistent study habit?",
     "options": [
       "Study at a different coffee shop each day for variety",
-      "Study on the bed while the TV plays in the background",
+      "Study on the bed while the TV plays in the background which is reinforced through",
       "Use the same quiet library desk at the same time each day",
       "Study at the dining table while family eats dinner"
     ],
@@ -118,7 +118,7 @@
     "options": [
       "Buy smaller glasses for drinks",
       "Store the alcohol in a high cabinet that requires a stool to reach",
-      "Read a book about the negative effects of alcohol",
+      "Read a book about the negative effects of alcohol which is an important factor to consider",
       "Make a pact with a friend to stop drinking"
     ],
     "answer": "Store the alcohol in a high cabinet that requires a stool to reach",
@@ -130,7 +130,7 @@
     "content": "Environmental priming means arranging your space in advance to make future good actions effortless.",
     "description": "Someone wants to exercise first thing in the morning. How can they prime the environment the night before?",
     "options": [
-      "Set three different alarms on the phone",
+      "Set three different alarms on the phone since applying the right model to the",
       "Lay out workout clothes and shoes right next to the bed",
       "Promise a big breakfast after the workout",
       "Visualize how great they will look fit"

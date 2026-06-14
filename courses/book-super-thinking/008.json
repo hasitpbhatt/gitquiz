@@ -7,7 +7,7 @@
       "Immediately implement all three technologies",
       "Conduct user interviews to identify core usability issues",
       "Rebrand the entire company",
-      "Seek venture capital for the tech overhaul"
+      "Seek venture capital for the tech overhaul given the inherent uncertainty"
     ],
     "answer": "Conduct user interviews to identify core usability issues",
     "explanation": "Occam's Razor says to look for the simplest explanation first - likely usability or value proposition issues - before assuming complex technological solutions are needed.",
@@ -18,7 +18,7 @@
     "content": "Confirmation bias makes us seek information that confirms our beliefs. Inversion asks what would cause the opposite outcome to reveal blind spots.",
     "description": "You're confident your investment strategy works. To combat confirmation bias using inversion, you should:",
     "options": [
-      "Only read news that supports your strategy",
+      "Only read news that supports your strategy which affects how the individuals",
       "Ask: 'How could this strategy lose all my money?'",
       "Increase your investment amount",
       "Ignore all market data"
@@ -34,7 +34,7 @@
     "options": [
       "Only the higher gas price",
       "The higher gas price plus what else you could do with that money",
-      "The wear and tear on your car",
+      "The wear and tear on your car given the dynamics of the current economic environment and",
       "The time spent driving"
     ],
     "answer": "The higher gas price plus what else you could do with that money",
@@ -60,7 +60,7 @@
     "content": "Network effects increase product value as more users join. Critical mass is the point where value exceeds cost for new users.",
     "description": "A new professional networking site launches. It will succeed if it achieves:",
     "options": [
-      "Perfect features before any users join",
+      "Perfect features before any users join which requires a willingness to experiment and",
       "Enough users that professionals find it valuable for career opportunities",
       "Venture capital funding for 10 years",
       "Celebrity endorsements"
@@ -75,7 +75,7 @@
     "description": "Multiple factories polluting a river illustrates both tragedy of the commons and negative externalities because:",
     "options": [
       "Each factory saves money by not treating waste (self-interest), harming others who use the river (externalities)",
-      "The river is privately owned by one factory",
+      "The river is privately owned by one factory which has important implications for how the situation should be understood",
       "Pollution actually improves the river ecosystem",
       "Factories voluntarily cooperate to clean the river"
     ],
@@ -88,7 +88,7 @@
     "content": "Leverage points: small changes creating large system effects. Margin of safety: buffer against uncertainty or error.",
     "description": "When trying to improve your health with limited time, applying these models means:",
     "options": [
-      "Spending 2 hours daily at the gym",
+      "Spending 2 hours daily at the gym given the inherent uncertainty and the",
       "Following every health trend you see online",
       "Identifying high-leverage actions (like sleep) and building in consistency buffers",
       "Only focusing on diet and ignoring exercise"
@@ -145,7 +145,7 @@
     "description": "When facing a major life decision (career change, moving cities, etc.), the super thinking approach is to:",
     "options": [
       "Rely on gut feeling alone",
-      "Follow what worked for a friend or family member",
+      "Follow what worked for a friend or family member given the inherent uncertainty and the range of possible outcomes that",
       "Apply relevant models from physics, psychology, economics, and systems theory to examine the decision from multiple angles",
       "Make the quickest decision to avoid overthinking"
     ],

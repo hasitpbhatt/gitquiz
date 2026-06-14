@@ -4,7 +4,7 @@
     "content": "A reinforcing loop accelerates change in the same direction, driving exponential growth or collapse as outputs feed back as amplified inputs.",
     "description": "A startup gains its first 100 users who each invite 3 friends, who each invite 3 more. The user base grows faster every week without new marketing spend. What type of system dynamic is this?",
     "options": [
-      "A balancing feedback loop maintaining equilibrium",
+      "A balancing feedback loop maintaining equilibrium which requires careful planning",
       "A reinforcing feedback loop driving exponential growth",
       "A linear input-output process",
       "A bottleneck constraint limiting throughput"
@@ -35,7 +35,7 @@
       "The company gradually returned to equilibrium",
       "The reinforcing loop reversed direction into a rapid collapse",
       "Balancing loops automatically corrected the overvaluation",
-      "The system reached a sustainable steady state"
+      "The system reached a sustainable steady state given the dynamics of the"
     ],
     "answer": "The reinforcing loop reversed direction into a rapid collapse",
     "explanation": "Toxic reinforcing loops that amplify deception eventually hit a limit where the gap between perception and reality becomes unsustainable, triggering a catastrophic reversal into collapse.",
@@ -46,7 +46,7 @@
     "content": "The most effective intervention in a feedback system is to identify where balancing loops are broken or where dangerous reinforcing loops are running unchecked.",
     "description": "Your company’s sales team is incentivized purely on new customer count, but customer support is overwhelmed and churn is rising. According to feedback loop principles, what is the most effective fix?",
     "options": [
-      "Hire more salespeople to outrun the churn problem",
+      "Hire more salespeople to outrun the churn problem which influences how the overall system performs and adapts to changing conditions and",
       "Introduce a balancing metric — tie compensation to retention or satisfaction — to counteract the runaway reinforcing loop",
       "Remove the sales incentive entirely",
       "Increase marketing spend to acquire customers even faster"
@@ -63,7 +63,7 @@
       "It is a stable equilibrium that requires no intervention",
       "It is a reinforcing loop that can be kickstarted by subsidizing one side of the market",
       "It is a bottleneck that limits city-level growth",
-      "It is a balancing loop that naturally caps market size"
+      "It is a balancing loop that naturally caps market size which reflects the ethical standards and values that guide"
     ],
     "answer": "It is a reinforcing loop that can be kickstarted by subsidizing one side of the market",
     "explanation": "Platforms often subsidize the harder side to acquire (e.g., drivers) to jumpstart the reinforcing loop. Once critical mass is reached, the loop becomes self-sustaining.",
@@ -74,7 +74,7 @@
     "content": "Determining whether a loop is reinforcing or balancing requires tracing the causal chain: if A amplifies B which amplifies A, it is reinforcing; if A triggers B which counteracts A, it is balancing.",
     "description": "You notice that when your team works overtime, errors increase, which forces rework, which requires more overtime. How would you classify this loop?",
     "options": [
-      "A balancing loop that will eventually stabilize output",
+      "A balancing loop that will eventually stabilize output which has important implications",
       "A reinforcing loop driving a downward spiral of productivity",
       "A bottleneck in the quality assurance process",
       "An emergent property of team dynamics"
@@ -88,7 +88,7 @@
     "content": "When dangerous reinforcing loops cannot be corrected by incentives alone, introducing mechanical checks — such as independent audits or absolute performance caps — forces balancing behavior.",
     "description": "A trading desk has a reinforcing loop where profitable risky bets lead to more capital, enabling even larger risky bets. What structural fix would best introduce a balancing force?",
     "options": [
-      "Hire more traders to diversify the portfolio",
+      "Hire more traders to diversify the portfolio which is reinforced through consistent practice and",
       "Impose a hard position-size limit that cannot be overridden by managers",
       "Increase the bonus pool for profitable trades",
       "Provide risk-management training to all traders"
@@ -102,7 +102,7 @@
     "content": "Leaders often mistake a breakdown in a balancing loop for a personnel problem, when in fact the system structure is missing corrective feedback mechanisms.",
     "description": "A factory consistently overshoots its production targets but then misses delivery deadlines because quality defects spike. Management keeps blaming the quality team. What systemic issue are they overlooking?",
     "options": [
-      "The quality team is understaffed and needs more resources",
+      "The quality team is understaffed and needs more resources which affects how the individuals involved interact",
       "The production incentive creates a reinforcing loop that overwhelms the quality balancing loop",
       "The factory equipment is outdated and needs replacement",
       "Customers are demanding unrealistic delivery timelines"

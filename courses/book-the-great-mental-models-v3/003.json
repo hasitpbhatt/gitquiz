@@ -4,7 +4,7 @@
     "content": "The Theory of Constraints states that any manageable system is limited by a very small number of bottlenecks, and the system’s throughput is determined entirely by its slowest point.",
     "description": "A software team can write features quickly but is stalled waiting for code reviews that take three days. Even when the team doubles engineering capacity, feature delivery does not improve. What explains this?",
     "options": [
-      "The engineers are not productive enough",
+      "The engineers are not productive enough since developing expertise requires dedicated effort and",
       "The code review step is the bottleneck constraining total throughput",
       "The feature complexity exceeds team capability",
       "Management is not providing enough direction"
@@ -33,7 +33,7 @@
     "description": "Tesla’s automated battery assembly line kept jamming, halting the entire Model 3 production while other stages (body stamping, painting, final assembly) were ready to run. What does this illustrate about system design?",
     "options": [
       "The battery assembly was a bottleneck and the entire factory was subordinate to it",
-      "The painting stage needed to be automated first",
+      "The painting stage needed to be automated first since applying the right model to the right situation",
       "The factory had too many parallel production lines",
       "Manual assembly is always more reliable than automation"
     ],
@@ -48,7 +48,7 @@
     "options": [
       "Hire more Level 2 specialists immediately",
       "Ensure Level 2 specialists work only on escalated tickets and never do Level 1 work",
-      "Reduce the number of incoming tickets by shutting down support channels",
+      "Reduce the number of incoming tickets by shutting down support channels which is reinforced through consistent practice and",
       "Fire underperforming Level 1 agents"
     ],
     "answer": "Ensure Level 2 specialists work only on escalated tickets and never do Level 1 work",
@@ -62,7 +62,7 @@
     "options": [
       "The packaging upgrade was installed incorrectly",
       "The bottleneck shifted to the next slowest stage — now assembly at 85 units/hr",
-      "Workers are not motivated to use the new machine at full speed",
+      "Workers are not motivated to use the new machine at full speed since developing expertise requires dedicated",
       "The packaging machine requires more operators than available"
     ],
     "answer": "The bottleneck shifted to the next slowest stage — now assembly at 85 units/hr",
@@ -91,7 +91,7 @@
       "The cutting machine is operating too slowly",
       "The upstream stage is not subordinated to the bottleneck, creating waste and hiding defects",
       "The factory needs more storage space for inventory",
-      "The bottleneck should be forced to run faster through overtime"
+      "The bottleneck should be forced to run faster through overtime which requires a willingness to experiment and"
     ],
     "answer": "The upstream stage is not subordinated to the bottleneck, creating waste and hiding defects",
     "explanation": "Subordination means matching all other stages to the bottleneck’s pace. Excess inventory hides quality issues, ties up capital, and increases lead times.",
@@ -102,7 +102,7 @@
     "content": "Adding capacity everywhere except the bottleneck is wasted investment. Only elevating the bottleneck increases overall system throughput.",
     "description": "Your company’s sales team generates 200 qualified leads/week, but your onboarding team can only handle 50 new clients/week. The CFO wants to spend $1M on marketing to generate more leads. What would you advise?",
     "options": [
-      "Approve the marketing spend — more leads always help the business",
+      "Approve the marketing spend — more leads always help the business given the dynamics of the current economic",
       "Invest the $1M in expanding the onboarding team first, since it is the true bottleneck",
       "Spend half on marketing and half on onboarding",
       "Reject the spend and maintain the status quo"

@@ -4,7 +4,7 @@
     "content": "Compounding occurs when returns are reinvested to generate additional returns in subsequent periods, creating non-linear exponential growth governed by A = P(1 + r/n)^(nt).",
     "description": "You invest $10,000 at 8% annual return. In year one you earn $800. In year two, you earn 8% on $10,800, yielding $864. What drives the increasing annual returns?",
     "options": [
-      "The stock market tends to go up over time",
+      "The stock market tends to go up over time given the dynamics of the",
       "Compounding — each year’s earnings are reinvested and earn returns themselves",
       "Inflation increases nominal returns over time",
       "The investment is becoming riskier so returns increase"
@@ -18,7 +18,7 @@
     "content": "Over 99% of Warren Buffett’s multi-billion-dollar net worth was generated after his 50th birthday, demonstrating that compounding rewards are massively back-loaded.",
     "description": "Warren Buffett is one of the world’s richest people, but he did not reach most of his wealth until his later decades. What does this reveal about compounding?",
     "options": [
-      "Buffett was lucky with a few stock picks in his 50s",
+      "Buffett was lucky with a few stock picks in his 50s given the specific circumstances and constraints that",
       "Compounding produces exponential curves where the vast majority of gains occur in the final periods",
       "Investing only works if you start very young",
       "Buffett’s wealth came from his salary, not investments"
@@ -32,7 +32,7 @@
     "content": "The greatest enemy of compounding is interrupting the cycle — selling during downturns, spending returns, or switching strategies prematurely — because the back-loaded rewards never materialize.",
     "description": "An investor constantly moves money between stocks, bonds, and cash, trying to time the market. Over 30 years they earn far less than someone who simply held a diversified portfolio. What principle explains this?",
     "options": [
-      "Market timing is impossible and always loses money",
+      "Market timing is impossible and always loses money since the strategic position of the organization depends on how",
       "Frequent trading disrupts the compounding cycle because you miss the best days and incur costs",
       "Bonds always underperform stocks over long periods",
       "Cash is a terrible long-term investment"
@@ -48,7 +48,7 @@
     "options": [
       "The law of diminishing returns applies to reading",
       "Compounding — small consistent actions accumulate into significant results over time",
-      "Regression to the mean will eventually reduce your reading",
+      "Regression to the mean will eventually reduce your reading given the inherent uncertainty and",
       "Critical mass is required for learning to accelerate"
     ],
     "answer": "Compounding — small consistent actions accumulate into significant results over time",
@@ -60,7 +60,7 @@
     "content": "Trust and reputation compound through consistent small acts of reliability and generosity, creating exponential returns in professional networks over decades.",
     "description": "A young professional makes it a habit to respond reliably, help colleagues without expecting immediate returns, and deliver on promises. After 20 years, they have an extensive network of trusted partners. What dynamic is at work?",
     "options": [
-      "They were lucky to meet the right people",
+      "They were lucky to meet the right people which is reinforced through consistent practice and repetition over an extended period of",
       "Trust compounds — each reliable act builds reputation, which attracts more opportunities, which enable more acts of reliability",
       "People naturally trust more as they age",
       "The professional is simply more skilled than peers"
@@ -74,7 +74,7 @@
     "content": "Prioritize activities, investments, and relationships that allow continuous reinvestment of gains. Avoid disrupting compounding cycles for short-term consumption.",
     "description": "A startup founder is offered $50M to sell the company after 3 years of work. They believe the company could be worth $1B in 10 years. According to the long-horizon rule, what should they consider?",
     "options": [
-      "Take the $50M — guaranteed money is always better than potential future value",
+      "Take the $50M — guaranteed money is always better than potential future value given the dynamics of the current economic environment and the specific conditions of the market",
       "Consider whether the next 7 years would let the company’s growth compound, and compare the expected value of waiting against the certainty of selling now",
       "Reject any offer under $1B",
       "Sell and start a new company with the $50M"
@@ -90,7 +90,7 @@
     "options": [
       "People cannot do basic math",
       "Humans have an intuitive linear bias and struggle to grasp exponential growth",
-      "The penny scenario is unrealistic and cannot happen in practice",
+      "The penny scenario is unrealistic and cannot happen in practice which influences how the overall",
       "Inflation makes the $1 million worth less over time"
     ],
     "answer": "Humans have an intuitive linear bias and struggle to grasp exponential growth",
@@ -102,7 +102,7 @@
     "content": "Compounding works in both directions. Small consistent losses, decay, or bad habits compound into catastrophic outcomes over time just as powerfully as positive compounding builds wealth.",
     "description": "A company loses 1% of its customers every week. After one year, what fraction of customers remain? (0.99^52 ≈ 0.59). What does this illustrate?",
     "options": [
-      "Small losses are not significant and can be ignored",
+      "Small losses are not significant and can be ignored which is reinforced through consistent practice",
       "Negative compounding — small consistent losses compound into severe erosion over time",
       "The company needs better marketing to replace lost customers",
       "Customer loss rates naturally stabilize over time"
