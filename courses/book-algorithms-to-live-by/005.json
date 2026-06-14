@@ -4,12 +4,12 @@
     "content": "Earliest Due Date schedules tasks in order of their deadlines, starting with the task that is due soonest.",
     "description": "You're a tax accountant in early April with multiple client returns to file before the April 15 deadline. How should you prioritize your work using EDD?",
     "options": [
-      "Work on the returns with the earliest deadlines first, regardless of how long they take to complete",
+      "Do the returns with the earliest deadlines first",
       "Start with the easiest returns to build momentum",
       "Focus only on the returns for your largest clients",
       "Work on all returns simultaneously"
     ],
-    "answer": "Work on the returns with the earliest deadlines first, regardless of how long they take to complete",
+    "answer": "Do the returns with the earliest deadlines first",
     "explanation": "EDD minimizes maximum lateness by always working on the most urgent task (closest deadline). This ensures you're least likely to miss any deadlines, even if some tasks take longer than expected.",
     "difficulty": "easy"
   },
@@ -18,12 +18,12 @@
     "content": "Shortest Processing Time schedules tasks in order of increasing duration, starting with the quickest tasks to complete.",
     "description": "You're overwhelmed by a crowded email inbox. How could applying SPT help you regain control?",
     "options": [
-      "Answer all emails that take less than 1 minute first, then tackle longer emails",
+      "Answer quick emails first, then tackle the longer ones",
       "Only respond to emails from your boss",
       "Delete all emails without reading them",
       "Reply to every email with a lengthy response"
     ],
-    "answer": "Answer all emails that take less than 1 minute first, then tackle longer emails",
+    "answer": "Answer quick emails first, then tackle the longer ones",
     "explanation": "SPT minimizes average completion time by clearing quick tasks first. This gives rapid psychological wins and reduces the number of pending items quickly, making your inbox feel more manageable.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "Moore's Algorithm is a variation of Earliest Due Date that minimizes the number of late tasks by selectively dropping (skipping) the longest tasks when necessary.",
     "description": "You're managing a software release and realize you won't finish all planned features by the deadline. How should Moore's Algorithm guide your decision?",
     "options": [
-      "Identify the feature that will take longest to complete and consider dropping it to save the broader release",
+      "Drop the longest feature to save the broader release",
       "Work overtime to finish every feature regardless of cost",
       "Release the product with known bugs to meet the deadline",
       "Ignore the deadline and take as long as needed"
     ],
-    "answer": "Identify the feature that will take longest to complete and consider dropping it to save the broader release",
+    "answer": "Drop the longest feature to save the broader release",
     "explanation": "Moore's Algorithm minimizes the number of late tasks by being willing to skip (not complete) certain tasks. When facing overload, it's better to finish most tasks on time than to complete all tasks late.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "Context switching is the cost incurred when shifting attention from one task to another, including time to refocus and potential loss of productivity.",
     "description": "You're an author trying to write a novel but keep getting interrupted by text messages every 10 minutes. What impact does this have on your productivity?",
     "options": [
-      "Your writing flow is disrupted and you lose time refocusing after each interruption",
+      "Interruptions disrupt writing flow and require refocusing time",
       "You write better when constantly interrupted",
       "Text messages improve your creativity",
       "You don't notice any difference in your writing quality"
     ],
-    "answer": "Your writing flow is disrupted and you lose time refocusing after each interruption",
+    "answer": "Interruptions disrupt writing flow and require refocusing time",
     "explanation": "Each context switch requires mental effort to disengage from the current task and re-engage with the new one. Frequent switching prevents deep focus and significantly reduces productive writing time.",
     "difficulty": "medium"
   },
@@ -60,12 +60,12 @@
     "content": "Thread thrashing occurs when a system spends more time switching between tasks than executing them, leading to severe performance degradation.",
     "description": "You've created an ambitious weekend chore list but find yourself spending hours just deciding what to do next instead of actually doing chores. What phenomenon might this illustrate?",
     "options": [
-      "Thread thrashing - excessive time spent on decision-making and task-switching rather than execution",
+      "Thread thrashing - decision overhead exceeds execution time",
       "You're unusually efficient at multitasking",
       "Chores are actually enjoyable when constantly switching",
       "You have too much free time on weekends"
     ],
-    "answer": "Thread thrashing - excessive time spent on decision-making and task-switching rather than execution",
+    "answer": "Thread thrashing - decision overhead exceeds execution time",
     "explanation": "Just like in computing systems, when you spend more time organizing, deciding, and switching between tasks than actually doing them, you're experiencing thrashing - the overhead outweighs the productive work.",
     "difficulty": "medium"
   },
@@ -74,12 +74,12 @@
     "content": "Interrupt coalescing is the practice of grouping similar interruptions together and handling them in batches to reduce context switching overhead.",
     "description": "You're constantly distracted by Slack and email notifications throughout the workday. What strategy could help you maintain focus?",
     "options": [
-      "Set specific times to check messages (e.g., 9 AM, 1 PM, and 4 PM) and batch your responses",
+      "Schedule specific times to batch and respond to messages",
       "Keep notifications turned on at all times for immediate responsiveness",
       "Respond to each message within 10 seconds of receiving it",
       "Quit your job to avoid all workplace communication"
     ],
-    "answer": "Set specific times to check messages (e.g., 9 AM, 1 PM, and 4 PM) and batch your responses",
+    "answer": "Schedule specific times to batch and respond to messages",
     "explanation": "By scheduling specific times to process interruptions, you reduce the frequency of context switches. This allows for longer periods of focused work between batches of communication handling.",
     "difficulty": "medium"
   },
@@ -88,12 +88,12 @@
     "content": "Preemption allows a higher-priority task to interrupt and take precedence over a currently running lower-priority task.",
     "description": "An urgent care clinic has a patient with a broken bone waiting alongside someone there for a routine checkup. How should preemption principles apply?",
     "options": [
-      "Treat the broken bone first because it's more urgent and time-sensitive, even though the other patient arrived first",
+      "Treat the urgent case first regardless of arrival order",
       "Always see patients in strict order of arrival",
       "Have both patients seen simultaneously by splitting the doctor's attention",
       "Make the broken bone patient wait until the checkup is completely finished"
     ],
-    "answer": "Treat the broken bone first because it's more urgent and time-sensitive, even though the other patient arrived first",
+    "answer": "Treat the urgent case first regardless of arrival order",
     "explanation": "Preemption allows urgent, high-priority tasks to interrupt lower-priority ones. In medical triage, life-threatening or time-sensitive conditions take precedence over routine matters regardless of arrival order.",
     "difficulty": "medium"
   },
@@ -102,12 +102,12 @@
     "content": "Weighted Shortest Processing Time prioritizes tasks by their ratio of importance (weight) to processing time, doing highest value-per-unit-time tasks first.",
     "description": "You're a financial advisor prioritizing client issues. How should WSPT guide your decision-making?",
     "options": [
-      "Prioritize issues based on (contract size) / (time to fix) - highest value per hour first",
+      "Prioritize by value per hour - contract size divided by fix time",
       "Always work on the client who complains the loudest",
       "Focus only on clients with the smallest accounts",
       "Randomly select which client to help each day"
     ],
-    "answer": "Prioritize issues based on (contract size) / (time to fix) - highest value per hour first",
+    "answer": "Prioritize by value per hour - contract size divided by fix time",
     "explanation": "WSPT allocates effort to tasks that deliver the most value per unit time. A large contract that's quick to fix provides higher hourly value than a small contract that takes the same time, or a large contract that takes much longer.",
     "difficulty": "hard"
   },
@@ -130,12 +130,12 @@
     "content": "Single-core constraints recognize that humans, like single-processor systems, cannot truly parallel-process cognitively demanding tasks that require deep focus.",
     "description": "You're trying to write a novel while also learning a complex software program. Why might attempting to 'multitask' these activities be ineffective?",
     "options": [
-      "Your brain cannot give deep focus to two cognitively demanding tasks at the same time",
+      "Deep focus on two demanding tasks at once is impossible",
       "You're actually better at learning when distracted by writing",
       "Writing novels improves software comprehension",
       "You have unlimited cognitive bandwidth for parallel processing"
     ],
-    "answer": "Your brain cannot give deep focus to two cognitively demanding tasks at the same time",
+    "answer": "Deep focus on two demanding tasks at once is impossible",
     "explanation": "Just like a single-core CPU, your attentional resources are limited. Deep cognitive work requires focused processing that cannot be truly divided between two demanding tasks without significant performance costs in both.",
     "difficulty": "hard"
   }

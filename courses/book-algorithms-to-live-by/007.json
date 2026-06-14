@@ -4,12 +4,12 @@
     "content": "A Nash Equilibrium occurs when no player can benefit by changing their strategy while the other players keep theirs unchanged.",
     "description": "You're approaching an intersection from the north, another driver from the east, and both have stop signs. Why might you both remain stopped even though it's clear to go?",
     "options": [
-      "Neither wants to risk proceeding if the other might also go, creating a mutual standoff",
+      "Neither proceeds fearing the other might also go",
       "Both drivers' vehicles have malfunctioning ignitions",
       "They're waiting for a police officer to arrive",
       "They've decided to have a picnic in the intersection"
     ],
-    "answer": "Neither wants to risk proceeding if the other might also go, creating a mutual standoff",
+    "answer": "Neither proceeds fearing the other might also go",
     "explanation": "This resembles a Nash Equilibrium: if you proceed and the other driver also proceeds, you risk collision. If you proceed and they wait, you're safe but they might go when you're in the intersection. The safest equilibrium is both waiting, assuming the other might go.",
     "difficulty": "medium"
   },
@@ -18,12 +18,12 @@
     "content": "A dominant strategy is one that provides the best outcome for a player regardless of what the other players do.",
     "description": "You're invited to an event with ambiguous dress code ('come as you are'). Why might you choose to dress formally anyway?",
     "options": [
-      "Dressing up is never harmful and avoids the risk of being underdressed if others interpret the event as formal",
+      "Dressing up avoids the risk of being underdressed",
       "You're trying to make a fashion statement",
       "The invitation secretly requires formal attire",
       "You've never owned casual clothing"
     ],
-    "answer": "Dressing up is never harmful and avoids the risk of being underdressed if others interpret the event as formal",
+    "answer": "Dressing up avoids the risk of being underdressed",
     "explanation": "Dressing formally is a dominant strategy: if the event is casual, you're slightly overdressed but not inappropriate; if it's formal, you're correctly dressed. Casual attire risks being underdressed if others treat it as formal.",
     "difficulty": "medium"
   },
@@ -32,12 +32,12 @@
     "content": "In the Prisoner's Dilemma, two rational players might not cooperate even when it's in their best joint interest to do so.",
     "description": "Two competing stores are considering whether to launch massive discount campaigns. What might happen if both act in their self-interest?",
     "options": [
-      "Both stores launch deep discounts, starting a price war that reduces profits for both",
+      "Both discount, starting a price war that hurts profits",
       "Both stores maintain regular prices and share the market equally",
       "One store discounts while the other doesn't, capturing all customers",
       "Both stores decide to close their businesses"
     ],
-    "answer": "Both stores launch deep discounts, starting a price war that reduces profits for both",
+    "answer": "Both discount, starting a price war that hurts profits",
     "explanation": "This is a Prisoner's Dilemma: regardless of what the competitor does, launching discounts seems better for each store (gain market share or prevent loss). But if both launch discounts, both ends up worse off than if both had maintained regular prices.",
     "difficulty": "medium"
   },
@@ -46,12 +46,12 @@
     "content": "Mechanism design creates rules and incentives so that selfish behavior leads to socially desirable outcomes.",
     "description": "You're trying to get two siblings to fairly share a cake without either feeling cheated. What mechanism could work?",
     "options": [
-      "Have one sibling cut the cake and the other choose first which piece to take",
+      "One cuts the cake, the other chooses first",
       "Let the older sibling decide everything",
       "Flip a coin to decide who gets the whole cake",
       "Ask a parent to arbitrarily divide it"
     ],
-    "answer": "Have one sibling cut the cake and the other choose first which piece to take",
+    "answer": "One cuts the cake, the other chooses first",
     "explanation": "This mechanism aligns incentives: the cutter wants to cut fairly to avoid getting a small piece, and the chooser gets their preferred piece. Both act in self-interest but the outcome is fair.",
     "difficulty": "hard"
   },
@@ -60,12 +60,12 @@
     "content": "A Vickrey auction (second-price sealed-bid) incentivizes bidders to bid their true maximum value because the winner pays the second-highest bid.",
     "description": "How do automated online auction systems prevent last-second bidding snipers from gaining an unfair advantage?",
     "options": [
-      "By using second-price auction mechanics where the winner pays the second-highest bid, not their own bid",
+      "Winner pays the second-highest bid, not their own",
       "By allowing only one bid per user",
       "By revealing all bids immediately as they come in",
       "By auctioning items only during business hours"
     ],
-    "answer": "By using second-price auction mechanics where the winner pays the second-highest bid, not their own bid",
+    "answer": "Winner pays the second-highest bid, not their own",
     "explanation": "In a Vickrey auction, bidding your true maximum is optimal regardless of when you bid. There's no benefit to waiting until the last second because you'll never pay more than the second-highest bid, making sniping ineffective.",
     "difficulty": "hard"
   },
@@ -74,12 +74,12 @@
     "content": "The Tragedy of the Commons occurs when individuals acting in self-interest deplete a shared limited resource, even when it's against everyone's long-term interest.",
     "description": "A shared office refrigerator becomes messy and spoiled food accumulates because nobody takes responsibility for cleaning it. What social dilemma does this illustrate?",
     "options": [
-      "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the collective mess",
+      "Each benefits from not cleaning but all suffer the mess",
       "The refrigerator's cooling system is broken",
       "Someone is deliberately sabotaging the refrigerator",
       "The office has hired maids who are not doing their job"
     ],
-    "answer": "The Tragedy of the Commons - each person benefits from not cleaning but suffers from the collective mess",
+    "answer": "Each benefits from not cleaning but all suffer the mess",
     "explanation": "Each person reasons that's not their responsibility to clean, saving themselves effort. But when everyone thinks this way, the refrigerator becomes unusable for all - a classic Tragedy of the Commons scenario.",
     "difficulty": "hard"
   },
@@ -88,12 +88,12 @@
     "content": "Information asymmetry occurs when one party in a transaction has more or better information than the other, potentially leading to adverse selection or moral hazard.",
     "description": "You're buying a used car and suspect the seller knows more about mechanical issues than you do. What problem does this create?",
     "options": [
-      "You might overpay for a car with hidden problems (the 'Lemon Problem')",
+      "Could overpay for hidden problems (Lemon Problem)",
       "The car's radio is definitely broken",
       "You're emotionally attached to the vehicle",
       "The seller is definitely lying about the mileage"
     ],
-    "answer": "You might overpay for a car with hidden problems (the 'Lemon Problem')",
+    "answer": "Could overpay for hidden problems (Lemon Problem)",
     "explanation": "This is the classic Lemon Problem: sellers of low-quality vehicles ('lemons') are more likely to sell because they know their defects, while owners of good cars may refuse to sell at prices that don't reflect their value, leading to market degradation.",
     "difficulty": "hard"
   },
@@ -102,12 +102,12 @@
     "content": "An Evolutionary Stable Strategy (ESS) is a behavioral strategy that, if adopted by a population, cannot be invaded by any alternative strategy that is initially rare.",
     "description": "In nature, why do we see both aggressive and cooperative animal behaviors persist rather than one eliminating the other?",
     "options": [
-      "Because under certain conditions, neither strategy can consistently outperform the other when rare",
+      "Neither strategy can beat the other when rare",
       "Animals randomly choose behaviors each generation",
       "All animals are actually identical in behavior",
       "The environment changes too quickly for evolution to work"
     ],
-    "answer": "Because under certain conditions, neither strategy can consistently outperform the other when rare",
+    "answer": "Neither strategy can beat the other when rare",
     "explanation": "An Evolutionary Stable Strategy resists invasion by rare alternatives. In some environments, neither pure aggression nor pure cooperation is stable - instead, a mixed strategy or conditional behavior evolves as the ESS.",
     "difficulty": "hard"
   },
