@@ -51,15 +51,16 @@ Skills are loaded via OpenCode: `<use_opencode_tool><name>skill</name><parameter
 │   └── proxy/                        # Cloudflare Worker for AI explanations
 │       └── worker.js                 # Mistral AI proxy
 ├── quiz/scripts/                     # Node.js utility scripts
-│   ├── validate.js                   # Validate a single course
-│   ├── validate-all.js               # Validate all courses comprehensively
-│   ├── generate-course.mjs           # CLI generator: input.json → split chapter files + metadata
-│   ├── assemble-course.mjs           # Assembly helper: ch-*.json → input.json
-│   ├── difficulty-tally.js           # Tally difficulty distribution
-│   ├── difficulty-audit.js           # Print questions for difficulty labeling
 │   ├── answer-length-audit.js        # Detect answer-length bias by word count
+│   ├── assemble-course.mjs           # Assembly helper: ch-*.json → input.json
 │   ├── coverage-check.js             # Verify concept coverage
 │   ├── cross-chapter-repetition.js   # Detect repeated concepts
+│   ├── difficulty-audit.js           # Print questions for difficulty labeling
+│   ├── difficulty-tally.js           # Tally difficulty distribution
+│   ├── fix-length-bias.mjs           # Auto-fix longest-answer bias by truncating conjunctions
+│   ├── generate-course.mjs           # CLI generator: input.json → split chapter files + metadata
+│   ├── validate-all.js               # Validate all courses comprehensively
+│   └── validate.js                   # Validate a single course
 ├── .opencode/                        # OpenCode AI agent configuration
 ├── .github/workflows/validate.yml    # CI: schema, validate-all, full Playwright suite
 ├── opencode.json                     # OpenCode AI config

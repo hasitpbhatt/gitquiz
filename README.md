@@ -1,6 +1,39 @@
-# MindVault (gitquiz)
+# gitquiz
 
 Interactive quiz platform for reviewing books, podcasts, and courses through active recall. Live at [quiz.hasit.in](https://quiz.hasit.in/).
+
+## Overview
+
+Gitquiz is a web-based quiz platform that helps you review and master knowledge from books, podcasts, and courses. Using active recall and spaced repetition techniques, it transforms learning content into interactive quizzes that improve retention and understanding.
+
+Whether you're reviewing material for academic purposes, professional development, or personal growth, gitquiz provides a structured approach to learning through scenario-based questions that test real-world application of concepts.
+
+## Quick Start
+
+### Prerequisites
+
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Internet connection (content is served from GitHub Raw URLs)
+
+### Running Locally
+
+1. Serve the `quiz/` directory with any static file server:
+
+```bash
+python -m http.server 8765 --directory quiz
+```
+
+2. Open your browser and navigate to `http://localhost:8765`
+
+### First-Time Setup (for developers)
+
+If you want to modify course content or run tests:
+
+```bash
+cd quiz/tests
+npm install
+npx playwright install chromium
+```
 
 ## Repository Structure
 
@@ -17,8 +50,9 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   └── coursera-<title>/...
 ├── quiz/                             # Frontend application
 │   ├── index.html                    # Single-page quiz app (vanilla JS + Tailwind CDN)
-│   ├── styles-theme.css              # CSS variables, theme definitions, reset
-│   ├── styles.css                    # Component styles (UI, animations, cards)
+│   ├── styles-theme.css              # Theme variables and dark/light overrides
+│   ├── styles-components.css         # UI components (headers, filters, options, etc.)
+│   ├── styles.css                    # Animations and keyframes only
 │   ├── styles-responsive.css         # Mobile media queries
 │   ├── lib/                          # Modular JS (loaded via <script> tags, no bundler)
 │   │   ├── state.js                  # Global state, BASE_URL, CATALOG_URL, streak utils
@@ -30,14 +64,14 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   │   ├── ai.js                     # AI Explain: calls Mistral via Cloudflare Worker proxy
 │   │   └── main.js                   # Entry point: loads catalog, handles URL params, keyboard shortcuts
 │   ├── tests/                        # Playwright end-to-end + schema tests
-│   │   ├── *.spec.mjs                # 10 domain-split spec files
+│   │   ├── *.spec.mjs                # Domain-split spec files
 │   │   ├── test-utils.mjs            # Shared mock data (CATALOG_CONTENT, MOCK_MODULES) & route setup
-│   │   ├── affected-tests.mjs        # Git-diff-based test selector (maps changed files to test specs)
-│   │   ├── schema.config.mjs         # Lightweight config for schema tests (parallel, no server)
-│   │   ├── playwright.config.mjs     # Main Playwright config (desktop + mobile, server on port 8765)
-│   │   └── package.json              # Test dependencies (Playwright, Ajv)
-│   └── proxy/                        # Cloudflare Worker for AI explanations
-│       └── worker.js                 # Mistral AI proxy (POST, returns model response)
+│   │   ├── affected-tests.mjs        # Git-diff-based test selector
+│   │   ├── schema.config.mjs         # Lightweight config for schema tests
+│   │   ├── playwright.config.mjs     # Main Playwright config
+│   │   └── package.json              # Test dependencies
+│   │   └── proxy/                    # Cloudflare Worker for AI explanations
+│   │       └── worker.js             # Mistral AI proxy
 ├── quiz/scripts/                     # Node.js utility scripts (run from project root)
 │   ├── answer-length-audit.js        # Detect answer-length bias (shortest/longest %)
 │   ├── assemble-course.mjs           # Assembly helper: ch-*.json → input.json
@@ -54,25 +88,26 @@ Interactive quiz platform for reviewing books, podcasts, and courses through act
 │   └── skill/syllabus-to-quiz/SKILL.md # Workflow for converting courses to quizzes
 ├── .github/workflows/validate.yml    # CI: schema validation, validate-all, full Playwright suite
 ├── opencode.json                     # OpenCode AI config (model limits, compaction, instructions)
-├── AGENTS.md                         # AI agent development instructions (this file)
-└── README.md                         # This file
+├── AGENTS.md                         # AI agent development instructions
+└── README.md                         # This file (full reference documentation)
 ```
 
 ## Course Format
 
-Each course folder contains numbered chapter files (`001.json`, `002.json`, ...). Each file is a JSON array of question objects with **exactly 7 fields**:
+Each course folder contains numbered chapter files (`001.json`, `002.json`, ...). Each file is a JSON array of question objects with **7 required fields** + 1 optional field:
 
 ### Field Reference
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `question` | `string` | Short concept name (e.g., "Opportunity Cost") |
-| `content` | `string` | Brief 1-2 sentence explanation of the concept |
-| `description` | `string` | Real-world scenario ending with a question (e.g., "This illustrates:") |
-| `options` | `string[]` | Array of **exactly 4** plausible answer strings. Must not reference other options by position (no "Both B and C", "All of the above") |
-| `answer` | `string` | Correct answer — must be **identical** (case, punctuation, whitespace) to one of the `options` entries |
-| `explanation` | `string` | Teaching explanation of why this answer is correct and the others are not |
-| `difficulty` | `string` | One of: `"easy"`, `"medium"`, `"hard"` |
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `question` | `string` | Yes | Short concept name (e.g., "Opportunity Cost") |
+| `content` | `string` | Yes | Brief 1-2 sentence explanation of the concept |
+| `description` | `string` | Yes | Real-world scenario ending with a question (e.g., "This illustrates:") |
+| `options` | `string[]` | Yes | Array of **exactly 4** plausible answer strings. Must not reference other options by position (no "Both B and C", "All of the above") |
+| `answer` | `string` | Yes | Correct answer — must be **identical** (case, punctuation, whitespace) to one of the `options` entries |
+| `explanation` | `string` | Yes | Teaching explanation of why this answer is correct and the others are not |
+| `difficulty` | `string` | Yes | `"easy"`, `"medium"`, or `"hard"` |
+| `blank` | `string` | No | Cloze passage containing `answer` verbatim, for fill-in-the-blank mode |
 
 ### Template
 
@@ -140,11 +175,12 @@ Hard question techniques: trapdoor option, reverse application, boundary case, c
 | coursera-finding-purpose-and-meaning-in-life | 6 | Coursera: Finding Purpose and Meaning in Life |
 | coursera-genai-for-algorithmic-trading | 11 | Coursera: GenAI for Algorithmic Trading |
 | podcast-age-of-async-agents | 8 | Latent Space Podcast |
+| podcast-autonomous-company | 3 | The AI Industrial Revolution |
 | podcast-daytona | 5 | Latent Space Podcast (Daytona) |
 | podcast-nothing-ever-happens-is-over | 14 | Naval Podcast |
 | podcast-regulatory-frontier | 1 | Naval Podcast (Blake Scholl) |
-| podcast-vibe-coding-hardware | 2 | Naval Podcast |
-| podcast-waste-tokens-save-time | 1 | Naval Podcast (Guillermo Rauch) |
+| podcast-vibe-coding-hardware | 3 | Naval Podcast |
+| podcast-waste-tokens-save-time | 2 | Naval Podcast (Guillermo Rauch) |
 
 ## Quiz Scripts
 
@@ -211,7 +247,7 @@ This creates the directory, writes all chapter files, adds to `courses_list.txt`
 **Validation**:
 ```bash
 node quiz/scripts/validate-all.js      # comprehensive check from root
-node quiz/tests — npx playwright test schema.spec.mjs --config schema.config.mjs
+npm run test:schema                   # schema validation
 ```
 
 ## Metadata
@@ -231,17 +267,18 @@ Keys in `courses-meta.json` must match `courses_list.txt` exactly and be sorted 
 ## Frontend Architecture
 
 ### Quiz Flow
-```
+
 Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) → Results + Achievement Card (completion-screen)
-```
 
 ### Page Screens
+
 1. **Setup/Catalog Screen** (`#setup-container`): Search bar, SVG type filter buttons (All/Books/Podcasts/Courses), custom `<div>`-based course list with row icons, NEW pill badge on unseen courses, Custom Quiz toggle in footer (lazy-created — not in DOM until first click), daily streak badge
 2. **Preview Screen** (`#preview-container`): Course badge, title, question count + chapter count, first question preview with options, chapter grid for multi-chapter navigation, Start Quiz / Cancel buttons
 3. **Quiz Screen** (`#quiz-container`): Progress bar, score/streak/timer stat cards, quiz flow with question, options (shuffled), explanation panel, AI Explain button, Continue button
 4. **Completion Screen** (`#completion-screen`): Trophy animation, final score, total time, Download Achievement Card button, Start Next Module / Return to Catalog
 
 ### Key DOM Elements
+
 | Element | Purpose |
 |---------|---------|
 | `#course-dropdown` | Course selector (`div`-based custom list with `.list-item` rows, SVG type icons, NEW pill badge, `data-value` attribute, selected state with blue left border) |
@@ -262,6 +299,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 | `#ach-*` | Achievement card elements (hidden off-screen via `left: -9999px`) |
 
 ### State Flow
+
 - `quizData[]` — questions for current module
 - `currentIdx` — current question index
 - `score` — cumulative points (100 base + streak bonus)
@@ -272,6 +310,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 - `previewData` — cached module data for preview-to-quiz handoff
 
 ### URL Parameters
+
 | Param | Effect |
 |-------|--------|
 | `?course=<id>` | Selects course in dropdown, auto-starts quiz |
@@ -279,6 +318,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 | `?q=<n>` | Jump to question index in preview (used with `?course=`) |
 
 ### Keyboard Shortcuts
+
 | Key | Context | Action |
 |-----|---------|--------|
 | `1`-`4` | Quiz active | Select option by position |
@@ -286,22 +326,26 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 | `Enter` | Preview screen | Click Start Quiz |
 
 ### Scenes and transitions
+
 - `screen-enter` CSS class triggers `fadeSlideIn` animation (0.3s ease-out)
 - Applied to preview, quiz-flow, and completion-screen on reveal
 
 ### Scoring
+
 - Base: **100 points** per correct answer
 - Streak bonus: **+20 points** when streak > 2
 - Total: `score += 100 + (streak > 2 ? 20 : 0)`
 - Wrong answer: streak resets to 0
 
 ### Daily Streak
+
 - Stored in `localStorage` under key `quizDailyStreak`
 - Format: `{ lastDate: "YYYY-MM-DD", count: <number> }`
 - Updated on quiz start (`initializeQuiz`) and on completion (`checkNaturalEnd`)
 - Consecutive day logic: if `lastDate === yesterday` → increment; if `lastDate === today` → no change; else → reset to 1
 
 ### AI Explain
+
 - 4 persona buttons (`.ai-persona-btn[data-persona]`) trigger `askAI(persona)` in `ai.js`
 - Personas: `child` (simple), `deep` (expert), `first-principles` (fundamental truths), `socratic` (guiding questions)
 - POSTs to `MISTRAL_PROXY_URL` (Cloudflare Worker) with question context, user's answer, and correctness
@@ -309,12 +353,14 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 - Shows response in `#ai-response` div
 
 ### Sharing
+
 - Share button (`#share-btn`) triggers `shareHandler()` in `sharing.js`
 - Context-aware: shares certificate (completion screen), question (quiz active), or setup link (catalog)
 - Uses `html2canvas` for PNG generation
 - Achievement card template hidden off-screen at `#achievement-card-template`
 
 ### Error Handling
+
 - Module load failures show error overlay (`#error-overlay`) with message and "Return to Menu" button
 - Network fetch errors in preview show toast notification via `showNotify()`
 - AI API failures gracefully fall back to "AI explainer is not available right now"
@@ -323,7 +369,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 
 - IDs follow `{type}-{slug}` format (e.g., `book-git-basics`, `podcast-clean-code`, `coursera-machine-learning`)
 - Type prefix is stripped from display via regex: `/^(book|podcast|coursera|course)-/i`
-- Emoji prefix shown only when `activeTypeFilter === 'all'`:
+- Emoji prefix (`📘`/`🎙`/`📖`) shown only when `activeTypeFilter === 'all'`:
   - `book-` → `📘`
   - `podcast-` → `🎙`
   - `coursera-` → `📚`
@@ -333,7 +379,7 @@ Catalog (setup-container) → Preview (preview-container) → Quiz (quiz-flow) �
 ## Styling Conventions
 
 - **Tailwind CSS via CDN** (no build step) — utility classes in HTML
-- **Custom CSS** (3 files): `styles-theme.css` (variables, reset, dark/light themes), `styles.css` (component styles, animations, cards), `styles-responsive.css` (mobile media queries)
+- **Custom CSS** (4 files): `styles-theme.css` (variables, reset, dark/light themes), `styles-components.css` (components), `styles.css` (animations, cards), `styles-responsive.css` (mobile media queries)
 - **Dark mode**: automatic via system preference; variables swap to dark palette
 - **JavaScript** toggles classes: `hidden`, `correct`, `wrong`, `screen-enter`, `score-pop`
 - **Mobile**: `@media (max-width: 640px)` overrides for truncation, dropdown height, z-index
